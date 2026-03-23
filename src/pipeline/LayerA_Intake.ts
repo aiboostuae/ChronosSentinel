@@ -3,13 +3,11 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { SourceRecord, HeadlineRecord, generateId } from '../types';
 
-const parser = new Parser();
+const parser = new Parser({ timeout: 5000 });
 
 const SOURCES: SourceRecord[] = [
     { id: 'fox', name: 'Fox News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://moxie.foxnews.com/google-publisher/latest.xml' },
-    { id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intakeMethod: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
-    { id: 'jpost', name: 'Jerusalem Post', region: 'Israel', language: 'en', intakeMethod: 'rss', url: 'https://www.jpost.com/rss/rssfeedsheadlinenews.aspx' },
-    { id: 'khaleej', name: 'Khaleej Times', region: 'UAE', language: 'en', intakeMethod: 'rss', url: 'https://www.khaleejtimes.com/feed' }
+    { id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intakeMethod: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml' }
 ];
 
 const DATA_DIR = path.join(__dirname, '../../public/data/latest');

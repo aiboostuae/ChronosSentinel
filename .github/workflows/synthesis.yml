@@ -2,7 +2,7 @@ name: Chronos Sentinel Synthesis
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '15 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/latest/clusters.json data/archive/ || true
+          git add public/data/latest/clusters.json public/data/archive/ || true
           git commit -m "Auto-update: Synthesized Clusters and Archive Snapshot [skip ci]" || echo "No changes to commit"
           git push

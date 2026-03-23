@@ -26,7 +26,7 @@ export async function runExtraction() {
         .filter(h => h.publishTime > oneDayAgo)
         .filter(h => !articles.find(a => a.id === h.id))
         .sort((a, b) => b.publishTime.localeCompare(a.publishTime))
-        .slice(0, 40);
+        .slice(0, 15);
 
     console.log(`Found ${candidates.length} new candidate headlines for extraction.`);
     const newArticles: ArticleRecord[] = [];
@@ -35,7 +35,7 @@ export async function runExtraction() {
         console.log(`Extracting: ${item.title}`);
         try {
             const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 10000);
+            const timeoutId = setTimeout(() => controller.abort(), 5000);
             const response = await fetch(item.url, { signal: controller.signal });
             clearTimeout(timeoutId);
 
