@@ -58,7 +58,7 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
             contents: clusterPrompt,
             config: clusterOptions as any
         });
-        predictedClusters = JSON.parse(res.text() || "[]");
+        predictedClusters = JSON.parse(res.text || "[]");
     } catch(e: any) {
         console.error("Clustering failed:", e.message);
         return;
@@ -117,7 +117,7 @@ ${compareText}`;
                 contents: comparePrompt,
                 config: compareOptions as any
             });
-            const comparison = JSON.parse(compRes.text() || "{}");
+            const comparison = JSON.parse(compRes.text || "{}");
             
             newClusters.push({
                 clusterId,
