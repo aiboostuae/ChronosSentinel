@@ -22,7 +22,10 @@ async function loadClusters() {
     const container = document.getElementById('clusters-grid');
     try {
         const res = await fetch('data/latest/clusters.json');
-        if(!res.ok) throw new Error("JSON not found");
+        const contentType = res.headers.get("content-type");
+        if(!res.ok || !contentType || !contentType.includes("application/json")) {
+            throw new Error("JSON not generated yet");
+        }
         const clusters = await res.json();
         renderClusters(clusters, container);
     } catch(e) {
@@ -80,6 +83,10 @@ async function loadHeadlines() {
     tbody.innerHTML = '<tr><td colspan="3"><div class="loading-pulse">Fetching raw feed...</div></td></tr>';
     try {
         const res = await fetch('data/latest/headlines.json');
+        const contentType = res.headers.get("content-type");
+        if(!res.ok || !contentType || !contentType.includes("application/json")) {
+            throw new Error("Feed not generated yet");
+        }
         const headlines = await res.json();
         
         tbody.innerHTML = '';
