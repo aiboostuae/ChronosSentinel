@@ -3,7 +3,7 @@ import * as path from 'path';
 import { GoogleGenAI, Type } from '@google/genai';
 import { ArticleRecord, StoryCluster, generateId } from '../types';
 
-const DATA_DIR = path.join(__dirname, '../../data/latest');
+const DATA_DIR = path.join(__dirname, '../../public/data/latest');
 const ARTICLES_FILE = path.join(DATA_DIR, 'articles.json');
 const CLUSTERS_FILE = path.join(DATA_DIR, 'clusters.json');
 

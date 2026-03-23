@@ -3,7 +3,7 @@ import * as path from 'path';
 
 export function runArchive() {
     console.log("Starting Layer E: Archive");
-    const LATEST_DIR = path.join(__dirname, '../../data/latest');
+    const LATEST_DIR = path.join(__dirname, '../../public/data/latest');
     const HEADLINES_FILE = path.join(LATEST_DIR, 'headlines.json');
     const CLUSTERS_FILE = path.join(LATEST_DIR, 'clusters.json');
     
@@ -11,7 +11,7 @@ export function runArchive() {
     const dateStr = now.toISOString().split('T')[0];
     const timeStr = now.toISOString().split('T')[1].replace(/:/g, '').substring(0,4); // HHMM format
     
-    const ARCHIVE_DIR = path.join(__dirname, '../../data/archive', dateStr);
+    const ARCHIVE_DIR = path.join(__dirname, '../../public/data/archive', dateStr);
     if (!fs.existsSync(ARCHIVE_DIR)) {
         fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
     }

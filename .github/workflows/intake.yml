@@ -30,6 +30,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add data/latest/headlines.json data/latest/articles.json || true
+          git add public/data/latest/headlines.json public/data/latest/articles.json || true
           git commit -m "Auto-update: Intake and Extraction [skip ci]" || echo "No changes to commit"
           git push

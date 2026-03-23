@@ -12,7 +12,7 @@ const SOURCES: SourceRecord[] = [
     { id: 'khaleej', name: 'Khaleej Times', region: 'UAE', language: 'en', intakeMethod: 'rss', url: 'https://www.khaleejtimes.com/feed' }
 ];
 
-const DATA_DIR = path.join(__dirname, '../../data/latest');
+const DATA_DIR = path.join(__dirname, '../../public/data/latest');
 const HEADLINES_FILE = path.join(DATA_DIR, 'headlines.json');
 
 export async function runIntake() {

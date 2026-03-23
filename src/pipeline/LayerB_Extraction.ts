@@ -3,7 +3,7 @@ import * as path from 'path';
 import * as cheerio from 'cheerio';
 import { HeadlineRecord, ArticleRecord } from '../types';
 
-const DATA_DIR = path.join(__dirname, '../../data/latest');
+const DATA_DIR = path.join(__dirname, '../../public/data/latest');
 const HEADLINES_FILE = path.join(DATA_DIR, 'headlines.json');
 const ARTICLES_FILE = path.join(DATA_DIR, 'articles.json');
 

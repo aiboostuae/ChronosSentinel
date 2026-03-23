@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadClusters() {
     const container = document.getElementById('clusters-grid');
     try {
-        const res = await fetch('../data/latest/clusters.json');
+        const res = await fetch('data/latest/clusters.json');
         if(!res.ok) throw new Error("JSON not found");
         const clusters = await res.json();
         renderClusters(clusters, container);
@@ -79,7 +79,7 @@ async function loadHeadlines() {
 
     tbody.innerHTML = '<tr><td colspan="3"><div class="loading-pulse">Fetching raw feed...</div></td></tr>';
     try {
-        const res = await fetch('../data/latest/headlines.json');
+        const res = await fetch('data/latest/headlines.json');
         const headlines = await res.json();
         
         tbody.innerHTML = '';
