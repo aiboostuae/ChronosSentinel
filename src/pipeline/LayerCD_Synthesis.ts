@@ -32,8 +32,7 @@ export async function runSynthesis() {
     console.log(`Clustering ${recentArticles.length} recent articles...`);
     const payload = recentArticles.map(a => ({ id: a.id, title: a.title, source: a.sourceId }));
     
-    const clusterPrompt = `Group the following news articles into clusters if they are about the EXACT SAME real-world event.
-Return a JSON array of clusters, where each cluster has a "topic" (short label) and "articleIds" (array of strings). Only include clusters with 2 or more articles from DIFFERENT sources.
+    const clusterPrompt = `Group the following news articles into clusters by topic/event. Each cluster should have a "topic" (short label, max 5 words) and "articleIds" (array of strings). Include clusters with even just 1 article if the topic is significant. Prefer clusters where multiple sources cover the same event.
 Articles:\n${JSON.stringify(payload, null, 2)}`;
 
     const clusterOptions = {
@@ -69,7 +68,7 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
     // STEP 2: Comparison (Layer D)
     for (const c of predictedClusters) {
         const memberArticles = recentArticles.filter(a => c.articleIds.includes(a.id));
-        if (memberArticles.length < 2) continue;
+        if (memberArticles.length < 1) continue;
 
         const clusterId = generateId(c.articleIds.sort().join('-'));
         const alreadyExists = existingClusters.find(ex => ex.clusterId === clusterId);

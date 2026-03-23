@@ -7,7 +7,11 @@ const parser = new Parser({ timeout: 5000 });
 
 const SOURCES: SourceRecord[] = [
     { id: 'fox', name: 'Fox News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://moxie.foxnews.com/google-publisher/latest.xml' },
-    { id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intakeMethod: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml' }
+    { id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intakeMethod: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
+    { id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intakeMethod: 'rss', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+    { id: 'reuters', name: 'Reuters', region: 'Global', language: 'en', intakeMethod: 'rss', url: 'https://feeds.reuters.com/reuters/topNews' },
+    { id: 'ap', name: 'AP News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://feeds.apnews.com/rss/apf-topnews' },
+    { id: 'guardian', name: 'The Guardian', region: 'UK', language: 'en', intakeMethod: 'rss', url: 'https://www.theguardian.com/world/rss' }
 ];
 
 const DATA_DIR = path.join(__dirname, '../../public/data/latest');
