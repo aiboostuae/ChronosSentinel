@@ -22,14 +22,14 @@ async function loadClusters() {
     const container = document.getElementById('clusters-grid');
     try {
         const res = await fetch('data/latest/clusters.json');
-        const contentType = res.headers.get("content-type");
-        if(!res.ok || !contentType || !contentType.includes("application/json")) {
-            throw new Error("JSON not generated yet");
+        const text = await res.text();
+        let clusters;
+        try { clusters = JSON.parse(text); } catch(e) {
+            throw new Error('Data sync pending or unavailable.');
         }
-        const clusters = await res.json();
         renderClusters(clusters, container);
     } catch(e) {
-        container.innerHTML = `<div class="syn-text">Data sync pending or unavailable. (${e.message})</div>`;
+        container.innerHTML = `<div class="syn-text">${e.message}</div>`;
     }
 }
 
@@ -78,18 +78,22 @@ function renderClusters(clusters, container) {
 
 async function loadHeadlines() {
     const tbody = document.querySelector('#headlines-table tbody');
-    if(tbody.children.length > 0) return; // Already loaded
+    if(tbody.children.length > 0 && !tbody.innerHTML.includes('loading-pulse')) return;
 
     tbody.innerHTML = '<tr><td colspan="3"><div class="loading-pulse">Fetching raw feed...</div></td></tr>';
     try {
         const res = await fetch('data/latest/headlines.json');
-        const contentType = res.headers.get("content-type");
-        if(!res.ok || !contentType || !contentType.includes("application/json")) {
-            throw new Error("Feed not generated yet");
+        const text = await res.text();
+        let headlines;
+        try { headlines = JSON.parse(text); } catch(e) {
+            throw new Error('Feed data corrupted.');
         }
-        const headlines = await res.json();
         
         tbody.innerHTML = '';
+        if (!headlines || headlines.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="3">No headlines ingested yet.</td></tr>';
+            return;
+        }
         headlines.slice(0, 100).forEach(h => {
             const time = new Date(h.publishTime).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
             tbody.innerHTML += `
@@ -101,6 +105,6 @@ async function loadHeadlines() {
             `;
         });
     } catch(e) {
-        tbody.innerHTML = `<tr><td colspan="3">Failed to load feed.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="3">Failed to load feed: ${e.message}</td></tr>`;
     }
 }
