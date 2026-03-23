@@ -1,0 +1,37 @@
+name: Chronos Sentinel Synthesis
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  cluster-and-compare:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm ci || npm install
+        
+      - name: Execute Layer C, D (Synthesis) and E (Archive)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm run layer:cde
+        
+      - name: Commit and Push Clusters and Archive
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/latest/clusters.json data/archive/ || true
+          git commit -m "Auto-update: Synthesized Clusters and Archive Snapshot [skip ci]" || echo "No changes to commit"
+          git push

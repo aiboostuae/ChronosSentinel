@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos Sentinel | Intelligence Feed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+    <header class="app-header">
+        <div class="logo-area">
+            <div class="status-indicator"></div>
+            <h1>CHRONOS <span>SENTINEL</span></h1>
+        </div>
+        <nav class="view-controls">
+            <button class="view-btn active" data-target="sentinel">Sentinel Synthesis</button>
+            <button class="view-btn" data-target="live">Raw Live Feed</button>
+            <button class="view-btn" data-target="archive">Archive Logs</button>
+        </nav>
+    </header>
+
+    <main class="dashboard-container">
+        <!-- Sentinel View (AI Synthesized) -->
+        <section id="view-sentinel" class="view-panel active">
+            <div class="panel-header">
+                <h2>Real-Time Cross-Source Intelligence</h2>
+                <p>AI-synthesized clusters detecting factual overlaps and source-specific framing.</p>
+            </div>
+            <div id="clusters-grid" class="cards-grid">
+                <div class="loading-pulse">Establishing Uplink to Storage...</div>
+            </div>
+        </section>
+
+        <!-- Live View (Headlines) -->
+        <section id="view-live" class="view-panel hidden">
+            <div class="panel-header">
+                <h2>Raw Global Headlines</h2>
+                <p>Unfiltered timeline of the latest articles ingested into the system.</p>
+            </div>
+            <div class="table-container">
+                <table id="headlines-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Source</th>
+                            <th>Headline</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Archive View (Snapshots) -->
+        <section id="view-archive" class="view-panel hidden">
+            <div class="panel-header">
+                <h2>System Snapshots</h2>
+                <p>Immutable daily intelligence logs. (Displaying latest loaded snapshot).</p>
+            </div>
+            <div id="archive-grid" class="cards-grid">
+                <div class="loading-pulse">Archive structure initializing...</div>
+            </div>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>

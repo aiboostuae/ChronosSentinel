@@ -1,0 +1,24 @@
+{
+  "name": "chronossentinel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "layer:ab": "npx tsx src/pipeline/LayerA_Intake.ts && npx tsx src/pipeline/LayerB_Extraction.ts",
+    "layer:cde": "npx tsx src/pipeline/LayerCD_Synthesis.ts && npx tsx src/pipeline/LayerE_Archive.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "@types/node": "^25.5.0",
+    "cheerio": "^1.2.0",
+    "rss-parser": "^3.13.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

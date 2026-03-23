@@ -1,0 +1,35 @@
+name: Chronos Sentinel Intake
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  intake-and-extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm ci || npm install
+        
+      - name: Execute Layer A (Intake) and B (Extraction)
+        run: npm run layer:ab
+        
+      - name: Commit and Push Data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/latest/headlines.json data/latest/articles.json || true
+          git commit -m "Auto-update: Intake and Extraction [skip ci]" || echo "No changes to commit"
+          git push
