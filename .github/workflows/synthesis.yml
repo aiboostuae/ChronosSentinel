@@ -34,4 +34,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add public/data/latest/clusters.json public/data/archive/ || true
           git commit -m "Auto-update: Synthesized Clusters and Archive Snapshot [skip ci]" || echo "No changes to commit"
+          git pull --rebase origin main || true
           git push
