@@ -31,6 +31,6 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add public/data/latest/headlines.json public/data/latest/articles.json || true
-          git commit -m "Auto-update: Intake and Extraction [skip ci]" || echo "No changes to commit"
+          git commit -m "Auto-update: Intake and Extraction" || echo "No changes to commit"
           git pull --rebase origin main || true
           git push

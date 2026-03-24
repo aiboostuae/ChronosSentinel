@@ -66,7 +66,7 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
     const newClusters: StoryCluster[] = [];
 
     // STEP 2: Comparison (Layer D)
-    for (const c of predictedClusters.slice(0, 10)) {
+    for (const c of predictedClusters.slice(0, 5)) {
         const memberArticles = recentArticles.filter(a => c.articleIds.includes(a.id));
         if (memberArticles.length < 1) continue;
 
@@ -128,7 +128,7 @@ ${compareText}`;
             });
             
             // Rate limit safety
-            await new Promise(r => setTimeout(r, 5000));
+            await new Promise(r => setTimeout(r, 10000));
         } catch(e: any) {
              console.error(`Comparison failed for ${c.topic}:`, e.message);
         }
