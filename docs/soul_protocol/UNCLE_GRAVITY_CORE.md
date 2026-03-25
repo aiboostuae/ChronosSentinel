@@ -30,7 +30,6 @@ This document codifies the non-negotiable principles governing all architecture 
 
 ### 3. MC-LHI (MINIMUM COST TO LESSEN HUMAN INTERVENTION)
 - **Strategic Automation**: Spend time/effort/money upfront to automate human overhead out of the system forever.
-- **The 48-Hour SLA**: Automation must enable a 48-hour period from Payment to Live Site.
 - **Maintenance-Free**: Build logic that "runs itself" (e.g., self-correcting intake, automated synthesis).
 
 ---
