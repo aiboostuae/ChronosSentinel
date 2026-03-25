@@ -12,11 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById(`view-${target}`).classList.add('active');
             
             if(target === 'live') loadHeadlines();
+            if(target === 'archive') loadArchive();
         });
     });
 
     loadClusters();
 });
+
+// ─── TAB 1: Sentinel Synthesis ───────────────────────────────────────────────
 
 async function loadClusters() {
     const container = document.getElementById('clusters-grid');
@@ -41,7 +44,7 @@ function renderClusters(clusters, container) {
 
     container.innerHTML = '';
     clusters.forEach(c => {
-        if(!c.comparison) return; // Skip non-analyzed
+        if(!c.comparison) return;
         
         const markup = `
         <div class="cluster-card">
@@ -58,7 +61,7 @@ function renderClusters(clusters, container) {
             </div>
 
             <div class="syn-section">
-                <div class="syn-title">Distinctions & Framing</div>
+                <div class="syn-title">Distinctions &amp; Framing</div>
                 <ul class="syn-list">
                     ${c.comparison.sourceDistinctions.map(d => `<li><span class="source-tag">${d.source}</span> ${d.point}</li>`).join('')}
                 </ul>
@@ -75,6 +78,8 @@ function renderClusters(clusters, container) {
         container.innerHTML += markup;
     });
 }
+
+// ─── TAB 2: Raw Live Feed ─────────────────────────────────────────────────────
 
 async function loadHeadlines() {
     const tbody = document.querySelector('#headlines-table tbody');
@@ -107,4 +112,98 @@ async function loadHeadlines() {
     } catch(e) {
         tbody.innerHTML = `<tr><td colspan="3">Failed to load feed: ${e.message}</td></tr>`;
     }
+}
+
+// ─── TAB 3: Archive Logs ─────────────────────────────────────────────────────
+
+async function loadArchive() {
+    const grid = document.getElementById('archive-grid');
+    if(grid.dataset.loaded) return; // Only load once per session
+    grid.innerHTML = '<div class="loading-pulse">Loading archive index...</div>';
+    try {
+        const res = await fetch('data/archive/manifest.json');
+        const text = await res.text();
+        let manifest;
+        try { manifest = JSON.parse(text); } catch(e) {
+            throw new Error('Manifest not yet generated.');
+        }
+        if (!manifest || manifest.length === 0) {
+            grid.innerHTML = '<div class="syn-text">No archive snapshots yet.</div>';
+            return;
+        }
+
+        grid.innerHTML = '';
+        grid.dataset.loaded = 'true';
+
+        // Date selector row
+        const selector = document.createElement('div');
+        selector.id = 'archive-selector';
+        selector.style = 'margin-bottom:1.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;';
+        manifest.forEach((entry, idx) => {
+            const btn = document.createElement('button');
+            btn.className = 'view-btn' + (idx === 0 ? ' active' : '');
+            btn.textContent = entry.date;
+            btn.style = 'font-size:0.75rem; padding:0.3rem 0.75rem;';
+            btn.onclick = async () => {
+                document.querySelectorAll('#archive-selector .view-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const r = entry.runs[0];
+                const sr = await fetch(`data/archive/${entry.date}/${r}`);
+                const st = await sr.text();
+                try { renderSnapshot(JSON.parse(st), entry.date, entry.runs, grid); } catch(ex) {}
+            };
+            selector.appendChild(btn);
+        });
+        grid.appendChild(selector);
+
+        // Load the most recent snapshot automatically
+        const latest = manifest[0];
+        const latestRun = latest.runs[0];
+        const snapRes = await fetch(`data/archive/${latest.date}/${latestRun}`);
+        const snapText = await snapRes.text();
+        let snapshot;
+        try { snapshot = JSON.parse(snapText); } catch(e) {
+            throw new Error('Snapshot unreadable.');
+        }
+        renderSnapshot(snapshot, latest.date, latest.runs, grid);
+
+    } catch(e) {
+        grid.innerHTML = `<div class="syn-text">Archive unavailable: ${e.message}</div>`;
+    }
+}
+
+function renderSnapshot(snapshot, date, runs, grid) {
+    const existing = grid.querySelector('.snap-section');
+    if(existing) existing.remove();
+
+    const wrap = document.createElement('div');
+    wrap.className = 'snap-section';
+    const ts = new Date(snapshot.timestamp).toLocaleString();
+    const clusterCount = (snapshot.clusters || []).length;
+    const headlineCount = (snapshot.headlines || []).length;
+
+    wrap.innerHTML = `
+        <div class="cluster-card" style="margin-bottom:1rem;">
+            <div class="card-header">
+                <span class="topic-tag">${date}</span>
+                <h3>Snapshot: ${ts}</h3>
+            </div>
+            <div class="syn-section">
+                <div class="syn-title">Snapshot Summary</div>
+                <ul class="syn-list">
+                    <li>${headlineCount} headlines ingested</li>
+                    <li>${clusterCount} AI-synthesized clusters</li>
+                    <li>Run file: ${runs[0]}</li>
+                </ul>
+            </div>
+            ${clusterCount > 0 ? `
+            <div class="syn-section">
+                <div class="syn-title">Clusters in Snapshot</div>
+                <ul class="syn-list">
+                    ${snapshot.clusters.map(c => `<li><span class="source-tag">${c.topic}</span> ${c.comparison ? c.comparison.synthesisSummary : ''}</li>`).join('')}
+                </ul>
+            </div>` : ''}
+        </div>
+    `;
+    grid.appendChild(wrap);
 }
