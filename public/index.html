@@ -6,7 +6,11 @@
     <title>Chronos Sentinel | Intelligence Feed</title>
     
     <!-- PWA & Mobile Meta -->
+<<<<<<< HEAD
     <meta name="theme-color" content="#0A0B10">
+=======
+    <meta name="theme-color" content="#05070a">
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 
@@ -23,6 +27,7 @@
             <h1>CHRONOS <span>SENTINEL</span></h1>
         </div>
         
+<<<<<<< HEAD
         <div class="header-right">
              <!-- Alert Indicator -->
              <div id="global-alert-banner">STATUS: OPTIMAL</div>
@@ -35,6 +40,24 @@
                 <option value="asia">ASIA-PACIFIC</option>
              </select>
         </div>
+=======
+        <div style="display: flex; align-items: center; gap: 1rem;">
+             <!-- Region Selector (Personalization) -->
+             <select id="region-focus" class="view-btn" style="padding: 0.2rem 0.5rem; font-size: 0.7rem;">
+                <option value="global">Global Focus</option>
+                <option value="uae">Middle East Focus</option>
+             </select>
+             
+             <!-- Alert Indicator -->
+             <div id="global-alert-banner">Threat Level: Green</div>
+        </div>
+
+        <nav class="view-controls">
+            <button class="view-btn active" data-target="sentinel">Synthesis</button>
+            <button class="view-btn" data-target="live">Live Feed</button>
+            <button class="view-btn" data-target="archive">Archive</button>
+        </nav>
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     </header>
 
     <nav class="view-controls">
@@ -48,7 +71,11 @@
         <!-- Sentinel View (AI Synthesized) -->
         <section id="view-sentinel" class="view-panel active">
             <div class="panel-header">
+<<<<<<< HEAD
                 <h2 id="sentinel-title">Sentinel Synthesis</h2>
+=======
+                <h2>Sentinel Synthesis</h2>
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
                 <p>Cross-source intelligence detecting factual overlaps and source framing.</p>
             </div>
             <div id="clusters-grid" class="cards-grid">
@@ -76,6 +103,7 @@
             </div>
         </section>
 
+<<<<<<< HEAD
         <!-- Impact View (Emergency) -->
         <section id="view-impact" class="view-panel">
             <div class="panel-header">
@@ -117,6 +145,16 @@
             <!-- The grid for clusters after a run is selected -->
             <div id="archive-grid" class="cards-grid" style="margin-top:2rem;">
                 <!-- Clusters from selected run injected here -->
+=======
+        <!-- Archive View (Snapshots) -->
+        <section id="view-archive" class="view-panel">
+            <div class="panel-header">
+                <h2>System Archive</h2>
+                <p>Immutable daily intelligence logs.</p>
+            </div>
+            <div id="archive-grid" class="cards-grid">
+                <div class="loading-pulse">Retrieving Manifest...</div>
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
             </div>
         </section>
     </main>

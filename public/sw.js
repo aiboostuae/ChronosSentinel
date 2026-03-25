@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 const CACHE_NAME = 'chronos-v1.0';
+=======
+const CACHE_NAME = 'chronos-v2';
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 const ASSETS = [
     './',
     './index.html',
     './css/style.css',
     './js/app.js',
+<<<<<<< HEAD
     './manifest.json'
 ];
 
@@ -17,6 +22,15 @@ const DATA_ASSETS = [
 
 self.addEventListener('install', (event) => {
     self.skipWaiting();
+=======
+    './manifest.json',
+    './data/latest/headlines.json',
+    './data/latest/clusters.json',
+    './data/latest/alerts.json'
+];
+
+self.addEventListener('install', (event) => {
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
             return cache.addAll(ASSETS);
@@ -24,6 +38,7 @@ self.addEventListener('install', (event) => {
     );
 });
 
+<<<<<<< HEAD
 self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys().then((keys) => {
@@ -54,6 +69,12 @@ self.addEventListener('fetch', (event) => {
                 return response;
             }).catch(() => null);
             return cached || fetched;
+=======
+self.addEventListener('fetch', (event) => {
+    event.respondWith(
+        caches.match(event.request).then((response) => {
+            return response || fetch(event.request);
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
         })
     );
 });

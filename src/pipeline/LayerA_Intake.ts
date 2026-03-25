@@ -5,10 +5,14 @@ import type { SourceRecord, HeadlineRecord } from '../types.js';
 import { generateId } from '../types.js';
 
 const parser = new Parser({ 
+<<<<<<< HEAD
     timeout: 10000,
     headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     },
+=======
+    timeout: 5000,
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     customFields: {
         item: [
             ['gdacs:alertlevel', 'alertlevel'],
@@ -19,6 +23,7 @@ const parser = new Parser({
 });
 
 const SOURCES: SourceRecord[] = [
+<<<<<<< HEAD
     { source_id: 'fox', name: 'Fox News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/latest.xml', active: true, priority: 1 },
     { source_id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intake_method: 'rss', base_url: 'https://www.aljazeera.com/xml/rss/all.xml', active: true, priority: 1 },
     { source_id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intake_method: 'rss', base_url: 'https://feeds.bbci.co.uk/news/world/rss.xml', active: true, priority: 1 },
@@ -27,6 +32,16 @@ const SOURCES: SourceRecord[] = [
     { source_id: 'guardian', name: 'The Guardian', region: 'UK', language: 'en', intake_method: 'rss', base_url: 'https://www.theguardian.com/world/rss', active: true, priority: 1 },
     { source_id: 'arabianbusiness', name: 'Arabian Business', region: 'UAE', language: 'en', intake_method: 'rss', base_url: 'https://www.arabianbusiness.com/rss', active: true, priority: 1 },
     { source_id: 'gdacs', name: 'Global Disaster Alerts', region: 'Global', language: 'en', intake_method: 'rss', base_url: 'https://www.gdacs.org/xml/rss.xml', active: true, priority: 1 }
+=======
+    { id: 'fox', name: 'Fox News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://moxie.foxnews.com/google-publisher/latest.xml' },
+    { id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intakeMethod: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
+    { id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intakeMethod: 'rss', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
+    { id: 'reuters', name: 'Reuters', region: 'Global', language: 'en', intakeMethod: 'rss', url: 'https://feeds.reuters.com/reuters/topNews' },
+    { id: 'ap', name: 'AP News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://feeds.apnews.com/rss/apf-topnews' },
+    { id: 'guardian', name: 'The Guardian', region: 'UK', language: 'en', intakeMethod: 'rss', url: 'https://www.theguardian.com/world/rss' },
+    { id: 'arabianbusiness', name: 'Arabian Business', region: 'UAE', language: 'en', intakeMethod: 'rss', url: 'https://www.arabianbusiness.com/rss' },
+    { id: 'gdacs', name: 'Global Disaster Alerts', region: 'Global', language: 'en', intakeMethod: 'rss', url: 'https://www.gdacs.org/xml/rss.xml' }
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 ];
 
 const __dirname = path.dirname(new URL(import.meta.url).pathname).replace(/^\/([A-Z]:)/, '$1');
@@ -52,19 +67,34 @@ export async function runIntake() {
         if (!source.active) continue;
         console.log(`Fetching RSS for ${source.name}...`);
         try {
+<<<<<<< HEAD
             const feed = await parser.parseURL(source.base_url);
             
             if (source.source_id === 'gdacs') {
+=======
+            const feed = await parser.parseURL(source.url);
+            
+            if (source.id === 'gdacs') {
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
                 // Special handling for GDACS alerts
                 console.log(`GDACS: Found ${feed.items.length} raw items.`);
                 for (const item of feed.items) {
                     activeAlerts.push({
+<<<<<<< HEAD
                         alert_id: item.guid || generateId(item.link || item.title || ''),
                         title: item.title,
                         description: item.contentSnippet,
                         severity: (item as any).alertlevel || (item as any).level || 'Green',
                         url: item.link,
                         published_at: item.isoDate || now
+=======
+                        id: item.guid || generateId(item.link || item.title || ''),
+                        title: item.title,
+                        description: item.contentSnippet,
+                        severity: (item as any).alertlevel || (item as any).level || 'Green',
+                        link: item.link,
+                        pubDate: item.isoDate || now
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
                     });
                 }
                 continue;

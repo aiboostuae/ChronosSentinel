@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 // CHRONOS SENTINEL | V1.0 Dashboard
 // Strictly compliant with 09-design-system.md (Stage 1)
+=======
+document.addEventListener('DOMContentLoaded', () => {
+    // Navigation & Tab Switching
+    const btns = document.querySelectorAll('.view-btn[data-target]');
+    const panels = document.querySelectorAll('.view-panel');
+    const regionSelector = document.getElementById('region-focus');
+
+    // Persistence: Load saved region
+    const savedRegion = localStorage.getItem('sentinel_region') || 'global';
+    regionSelector.value = savedRegion;
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 
 document.addEventListener('DOMContentLoaded', () => {
     initApp();
@@ -23,6 +35,7 @@ function initApp() {
         });
     });
 
+<<<<<<< HEAD
     // 3. Region Selector
     const regionSelect = document.getElementById('region-focus');
     if (regionSelect) {
@@ -49,6 +62,47 @@ function initApp() {
         });
     }
 }
+=======
+    regionSelector.addEventListener('change', (e) => {
+        localStorage.setItem('sentinel_region', e.target.value);
+        // Refresh views to apply filter
+        loadClusters();
+        if (document.getElementById('view-live').classList.contains('active')) loadHeadlines();
+    });
+
+    // Initial Load
+    loadAlerts();
+    loadClusters();
+});
+
+// ─── GLOBAL ALERTS (GDACS) ──────────────────────────────────────────────────
+
+async function loadAlerts() {
+    const banner = document.getElementById('global-alert-banner');
+    try {
+        const res = await fetch('data/latest/alerts.json');
+        const alerts = await res.json();
+        
+        if (alerts && alerts.length > 0) {
+            // Find highest severity: Red > Orange > Yellow > Green
+            const highLevel = alerts.some(a => a.severity === 'Red') ? 'Red' :
+                             alerts.some(a => a.severity === 'Orange') ? 'Orange' :
+                             alerts.some(a => a.severity === 'Yellow') ? 'Yellow' : 'Green';
+            
+            banner.textContent = `Threat Level: ${highLevel}`;
+            banner.style.background = getThreatColor(highLevel);
+            banner.title = alerts[0].title; // Show latest alert title on hover
+        }
+    } catch(e) {}
+}
+
+function getThreatColor(level) {
+    const colors = { 'Red': '#ef4444', 'Orange': '#f59e0b', 'Yellow': '#eab308', 'Green': '#10b981' };
+    return colors[level] || colors['Green'];
+}
+
+// ─── TAB 1: Sentinel Synthesis ───────────────────────────────────────────────
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 
 function switchTab(target) {
     document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
@@ -71,9 +125,15 @@ function switchTab(target) {
 
 async function loadSentinel() {
     const container = document.getElementById('clusters-grid');
+<<<<<<< HEAD
     if (!container) return;
     container.innerHTML = '<div class="loading-pulse">Establishing Uplink...</div>';
     
+=======
+    const region = localStorage.getItem('sentinel_region') || 'global';
+    
+    container.innerHTML = '<div class="loading-pulse">Establishing Intelligence Uplink...</div>';
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     try {
         const res = await fetch('data/latest/clusters.json?cb=' + Date.now());
         const clusters = await res.json();
@@ -90,6 +150,23 @@ async function loadSentinel() {
             return;
         }
 
+<<<<<<< HEAD
+=======
+        // Filtering Logic
+        let filtered = clusters;
+        if (region === 'uae') {
+            // Prioritize clusters containing UAE sources or mentions
+            filtered = clusters.filter(c => 
+                c.memberArticles.some(a => a.sourceId === 'arabianbusiness' || a.sourceId === 'aljazeera') ||
+                c.topic.toLowerCase().includes('dubai') || c.topic.toLowerCase().includes('emirates')
+            );
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="syn-text">No Middle East specific clusters detected in this cycle. Displaying Global feed.</div>';
+                filtered = clusters;
+            }
+        }
+        
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
         renderClusters(filtered, container);
     } catch(e) {
         container.innerHTML = `<div class="syn-text">Telemetry Error: ${e.message}</div>`;
@@ -97,6 +174,15 @@ async function loadSentinel() {
 }
 
 function renderClusters(clusters, container) {
+<<<<<<< HEAD
+=======
+    if(!clusters || clusters.length === 0) {
+        container.innerHTML = '<div class="syn-text">No synthesized intel available yet.</div>';
+        return;
+    }
+
+    container.innerHTML = '';
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     clusters.forEach(c => {
         // Compatibility Layer for legacy archive data
         const topic = c.topic_label || c.canonicalLabel || 'Intelligence Update';
@@ -145,10 +231,29 @@ function renderClusters(clusters, container) {
                 <h3>${topic}</h3>
             </div>
             
+<<<<<<< HEAD
             ${detailHtml}
 
             <div class="syn-section">
                 <div class="syn-title">Sources</div>
+=======
+            <div class="syn-section">
+                <div class="syn-title">Consensus Facts</div>
+                <ul class="syn-list">
+                    ${c.comparison.sharedFacts.map(f => `<li>${f}</li>`).join('')}
+                </ul>
+            </div>
+
+            <div class="syn-section">
+                <div class="syn-title">Source Distinctions</div>
+                <ul class="syn-list">
+                    ${c.comparison.sourceDistinctions.map(d => `<li><span class="source-tag">${d.source}</span> ${d.point}</li>`).join('')}
+                </ul>
+            </div>
+            
+            <div class="syn-section">
+                <div class="syn-title">Analysts</div>
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
                 <div style="display:flex; gap: 0.5rem; flex-wrap: wrap;">
                    ${sources.map(s => `<a class="source-tag" href="${s.url}" target="_blank">${(s.source || s.id || 'src').toUpperCase()}</a>`).join('')}
                 </div>
@@ -159,6 +264,7 @@ function renderClusters(clusters, container) {
     });
 }
 
+<<<<<<< HEAD
 // ─── TAB 2: Live Feed ────────────────────────────────────────────────────────
 
 async function loadHeadlines() {
@@ -194,6 +300,41 @@ async function loadHeadlines() {
                 <td style="color:var(--text-muted); font-size:0.8rem;">${time}</td>
                 <td><span class="source-tag">${sourceLabel.toUpperCase()}</span></td>
                 <td><a href="${h.url || '#'}" target="_blank">${h.title || 'Untitled Report'}</a></td>
+=======
+// ─── TAB 2: Live Feed ─────────────────────────────────────────────────────
+
+async function loadHeadlines() {
+    const tbody = document.querySelector('#headlines-table tbody');
+    const region = localStorage.getItem('sentinel_region') || 'global';
+    
+    tbody.innerHTML = '<tr><td colspan="3"><div class="loading-pulse">Decrypting global broadcast...</div></td></tr>';
+    try {
+        const res = await fetch('data/latest/headlines.json');
+        const text = await res.text();
+        let headlines;
+        try { headlines = JSON.parse(text); } catch(e) { throw new Error('Feed corrupted.'); }
+        
+        // Filtering
+        let filtered = headlines;
+        if (region === 'uae') {
+            filtered = headlines.filter(h => ['arabianbusiness', 'aljazeera'].includes(h.sourceId));
+        }
+
+        tbody.innerHTML = '';
+        if (!filtered || filtered.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="3">No records found for ${region} focus.</td></tr>`;
+            return;
+        }
+        
+        filtered.slice(0, 100).forEach(h => {
+            const time = new Date(h.publishTime).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            tbody.innerHTML += `
+            <tr>
+                <td style="color:var(--text-muted)">${time}</td>
+                <td><span class="source-tag">${h.sourceId}</span></td>
+                <td><a href="${h.url}" target="_blank">${h.title}</a></td>
+            </tr>
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
             `;
             tbody.appendChild(tr);
         });
@@ -204,6 +345,7 @@ async function loadHeadlines() {
 
 // ─── TAB 3: High-Impact Intelligence ─────────────────────────────────────────
 
+<<<<<<< HEAD
 async function loadImpact() {
     const container = document.getElementById('impact-grid');
     if (!container) return;
@@ -256,6 +398,46 @@ async function loadArchive() {
             renderCalendar(manifest);
         };
 
+=======
+async function loadArchive() {
+    const grid = document.getElementById('archive-grid');
+    if(grid.dataset.loaded) return;
+    grid.innerHTML = '<div class="loading-pulse">Scanning archive sectors...</div>';
+    try {
+        const res = await fetch('data/archive/manifest.json');
+        const text = await res.text();
+        let manifest;
+        try { manifest = JSON.parse(text); } catch(e) { throw new Error('Manifest missing.'); }
+        
+        grid.innerHTML = '';
+        grid.dataset.loaded = 'true';
+
+        const selector = document.createElement('div');
+        selector.id = 'archive-selector';
+        selector.style = 'margin-bottom:1.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;';
+        manifest.forEach((entry, idx) => {
+            const btn = document.createElement('button');
+            btn.className = 'view-btn' + (idx === 0 ? ' active' : '');
+            btn.textContent = entry.date;
+            btn.style = 'font-size:0.75rem; padding:0.3rem 0.75rem;';
+            btn.onclick = async () => {
+                document.querySelectorAll('#archive-selector .view-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const r = entry.runs[0];
+                const sr = await fetch(`data/archive/${entry.date}/${r}`);
+                const st = await sr.text();
+                try { renderSnapshot(JSON.parse(st), entry.date, entry.runs, grid); } catch(ex) {}
+            };
+            selector.appendChild(btn);
+        });
+        grid.appendChild(selector);
+
+        const latest = manifest[0];
+        const latestRun = latest.runs[0];
+        const snapRes = await fetch(`data/archive/${latest.date}/${latestRun}`);
+        const snapText = await snapRes.text();
+        renderSnapshot(JSON.parse(snapText), latest.date, latest.runs, grid);
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     } catch(e) {
         grid.innerHTML = `<div class="syn-text">Archive unavailable: ${e.message}</div>`;
     }
@@ -370,6 +552,7 @@ function renderSnapshot(snapshot, date, grid) {
 
     const wrap = document.createElement('div');
     wrap.className = 'snap-section';
+<<<<<<< HEAD
     
     const activeRegion = localStorage.getItem('sentinel_region') || 'global';
     
@@ -383,6 +566,24 @@ function renderSnapshot(snapshot, date, grid) {
             <p style="font-size:0.8rem; color:var(--text-muted); margin-top:0.5rem;">
                 Historical snapshot containing ${snapshot.headlines ? snapshot.headlines.length : 0} records.
             </p>
+=======
+    const ts = new Date(snapshot.timestamp).toLocaleString();
+    const clusterCount = (snapshot.clusters || []).length;
+    const headlineCount = (snapshot.headlines || []).length;
+
+    wrap.innerHTML = `
+        <div class="cluster-card" style="margin-bottom:1rem; border-left: 4px solid var(--accent-indigo);">
+            <div class="card-header">
+                <span class="topic-tag">${date}</span>
+                <h3>Intelligence Snapshot: ${ts}</h3>
+            </div>
+            <div class="syn-section">
+                <ul class="syn-list">
+                    <li>Ingested: ${headlineCount} sources</li>
+                    <li>Synthesized: ${clusterCount} clusters</li>
+                </ul>
+            </div>
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
         </div>
     `;
     wrap.appendChild(meta);

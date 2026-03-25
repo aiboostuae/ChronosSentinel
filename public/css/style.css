@@ -1,4 +1,5 @@
 :root {
+<<<<<<< HEAD
     --bg-deep: #0A0B10;
     --bg-surface: #15171E;
     --accent-high: #EF4444;
@@ -8,6 +9,19 @@
     --text-muted: #8E8E93;
     --border-glass: rgba(255, 255, 255, 0.05);
     --accent-blue: #3B82F6;
+=======
+    --bg-deep: #05070a;
+    --bg-glass: rgba(15, 20, 28, 0.7);
+    --accent-cyan: #00f2ff;
+    --accent-indigo: #6366f1;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --border-glass: rgba(255, 255, 255, 0.1);
+    --shadow-glow: 0 0 20px rgba(0, 242, 255, 0.15);
+    --threat-green: #10b981;
+    --threat-yellow: #f59e0b;
+    --threat-red: #ef4444;
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 }
 
 * {
@@ -23,9 +37,29 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     min-height: 100vh;
+<<<<<<< HEAD
+=======
 }
 
+/* ─── Cyber Grid Background ─── */
+.cyber-grid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 242, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 242, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    z-index: -1;
+    pointer-events: none;
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
+}
+
+/* ─── App Header & Global Alerts ─── */
 .app-header {
+<<<<<<< HEAD
     background: rgba(10, 11, 16, 0.8);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border-glass);
@@ -33,12 +67,22 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+=======
+    background: var(--bg-glass);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-glass);
+    padding: 1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-area h1 {
+<<<<<<< HEAD
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -69,11 +113,59 @@ body {
     border-radius: 4px;
     font-size: 0.8rem;
     cursor: pointer;
+=======
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-area span {
+    color: var(--accent-cyan);
+    font-weight: 300;
+}
+
+/* Threat Level Indicator */
+#global-alert-banner {
+    background: var(--threat-green);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+/* ─── Layout ─── */
+.dashboard-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 6rem; /* extra bottom padding for mobile nav */
+}
+
+.panel-header {
+    margin-bottom: 2rem;
+}
+
+.panel-header h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.panel-header p {
+    color: var(--text-muted);
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 }
 
 /* ─── Navigation ─── */
 .view-controls {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     gap: 1.5rem;
     padding: 1rem;
@@ -96,10 +188,24 @@ body {
     letter-spacing: 0.1em;
     padding: 0.5rem 1rem;
     cursor: pointer;
+=======
+    gap: 0.5rem;
+}
+
+.view-btn {
+    background: transparent;
+    border: 1px solid var(--border-glass);
+    color: var(--text-muted);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     transition: all 0.3s ease;
 }
 
 .view-btn.active {
+<<<<<<< HEAD
     color: #fff;
     border-bottom: 2px solid #fff;
 }
@@ -116,6 +222,15 @@ body {
     padding: 8rem 1.5rem 8rem; /* Increased top padding for fixed nav */
 }
 
+=======
+    background: var(--accent-indigo);
+    color: #fff;
+    border-color: var(--accent-indigo);
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+}
+
+/* ─── Cards & Grid ─── */
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -123,6 +238,7 @@ body {
 }
 
 .cluster-card {
+<<<<<<< HEAD
     background: var(--bg-surface);
     border: 1px solid var(--border-glass);
     border-radius: 4px;
@@ -144,6 +260,35 @@ body {
 .topic-tag.medium { background: var(--accent-medium); color: #000; }
 .topic-tag.low { background: var(--accent-low); color: #000; }
 
+=======
+    background: var(--bg-glass);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cluster-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 242, 255, 0.3);
+}
+
+.card-header {
+    margin-bottom: 1.5rem;
+}
+
+.topic-tag {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 .card-header h3 {
     font-size: 1.25rem;
     line-height: 1.3;
@@ -163,10 +308,31 @@ body {
     margin-bottom: 0.75rem;
 }
 
+<<<<<<< HEAD
 .syn-text {
     font-size: 0.9rem;
 }
 
+=======
+.syn-list {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.syn-list li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.syn-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent-cyan);
+}
+
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 .source-tag {
     display: inline-block;
     background: rgba(255, 255, 255, 0.05);
@@ -177,12 +343,21 @@ body {
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* ─── Table ─── */
 .table-container {
     background: rgba(10, 15, 20, 0.5);
     backdrop-filter: blur(8px);
     border: 1px solid var(--border-glass);
     border-radius: 4px;
+=======
+/* ─── Raw Feed Table ─── */
+.table-container {
+    background: var(--bg-glass);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border-glass);
+    border-radius: 12px;
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     overflow: hidden;
 }
 
@@ -192,6 +367,10 @@ table {
 }
 
 th {
+<<<<<<< HEAD
+=======
+    background: rgba(255, 255, 255, 0.02);
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     text-align: left;
     padding: 1rem;
     font-size: 0.75rem;
@@ -200,6 +379,7 @@ th {
     border-bottom: 1px solid var(--border-glass);
 }
 
+<<<<<<< HEAD
 .archive-nav-box {
     margin-bottom: 2rem;
     display: flex;
@@ -326,6 +506,8 @@ th {
     color: var(--text-muted);
 }
 
+=======
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
 td {
     padding: 1rem;
     border-bottom: 1px solid var(--border-glass);
@@ -333,6 +515,7 @@ td {
 }
 
 td a {
+<<<<<<< HEAD
     color: #fff;
     text-decoration: none;
 }
@@ -355,6 +538,70 @@ td a {
         background: rgba(255, 255, 255, 0.1);
         border: none;
         border-radius: 4px;
+=======
+    color: var(--text-main);
+    text-decoration: none;
+}
+
+td a:hover {
+    color: var(--accent-cyan);
+}
+
+/* ─── Mobile Overrides ─── */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 1.5rem 1rem 6rem;
+    }
+
+    .app-header {
+        padding: 1rem;
+    }
+
+    .logo-area h1 {
+        font-size: 1rem;
+    }
+
+    .view-controls {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: var(--bg-glass);
+        backdrop-filter: blur(20px);
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5rem;
+        border-top: 1px solid var(--border-glass);
+        z-index: 1000;
+    }
+
+    .view-btn {
+        padding: 0.75rem 0;
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Transform Table to Cards on Mobile */
+    #headlines-table thead {
+        display: none;
+    }
+
+    #headlines-table td {
+        display: block;
+        padding: 0.5rem 1rem;
+        border: none;
+    }
+
+    #headlines-table tr {
+        display: block;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border-glass);
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)
     }
 }
 
@@ -365,5 +612,25 @@ td a {
     font-style: italic;
 }
 
+<<<<<<< HEAD
 .view-panel { display: none; }
 .view-panel.active { display: block; }
+=======
+.hidden {
+    display: none !important;
+}
+
+.view-panel {
+    display: none;
+}
+
+.view-panel.active {
+    display: block;
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+>>>>>>> 22f06f6 (feat(stage2): implement Premium Cyber-Noir UI, PWA capabilities, and Regional Focus filtering)

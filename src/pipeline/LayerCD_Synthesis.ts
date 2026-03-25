@@ -1,158 +1,150 @@
-import * as fs from 'node:fs';
-import * as path from 'node:path';
-import { GoogleGenAI } from '@google/genai';
-import type { ArticleRecord, ClusterObject } from '../types.js';
+import * as fs from 'fs';
+import * as path from 'path';
+import { GoogleGenAI, Type } from '@google/genai';
+import { ArticleRecord, StoryCluster, generateId } from '../types';
 
-const API_KEY = process.env.GEMINI_API_KEY;
-const __dirname = path.dirname(new URL(import.meta.url).pathname).replace(/^\/([A-Z]:)/, '$1');
-const DATA_DIR = path.resolve(__dirname, '../../public/data/latest');
-const ARTICLES_PATH = path.join(DATA_DIR, 'articles.json');
-const OUTPUT_PATH = path.join(DATA_DIR, 'clusters.json');
+const DATA_DIR = path.join(__dirname, '../../public/data/latest');
+const ARTICLES_FILE = path.join(DATA_DIR, 'articles.json');
+const CLUSTERS_FILE = path.join(DATA_DIR, 'clusters.json');
 
-console.log('[Synthesis] Initializing Intelligence Pipeline...');
-
-if (!API_KEY) {
-    console.error('[Synthesis] CRITICAL: GEMINI_API_KEY environment variable is missing.');
-    process.exit(1);
+if (!process.env.GEMINI_API_KEY) {
+    console.warn("No GEMINI_API_KEY provided.");
+    process.exit(0);
 }
+
+const ai = new GoogleGenAI({});
 
 export async function runSynthesis() {
-    try {
-        if (!fs.existsSync(ARTICLES_PATH)) {
-            console.error('[Synthesis] articles.json not found. Run LayerB scraper first.');
-            return;
-        }
-
-        const rawData = fs.readFileSync(ARTICLES_PATH, 'utf8');
-        const articles: ArticleRecord[] = JSON.parse(rawData);
-        
-        console.log(`[Synthesis] Grouping ${articles.length} articles into local clusters...`);
-
-        // 1. Local Temporal Clustering (Simple Windowing)
-        const localClusters: ArticleRecord[][] = [];
-        const sorted = [...articles].sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''));
-        
-        for (const art of sorted) {
-            let found = false;
-            for (const cluster of localClusters) {
-                const reference = cluster[0];
-                if (!reference) continue;
-                const timeDiff = Math.abs(new Date(art.published_at || '').getTime() - new Date(reference.published_at || '').getTime()) / (1000 * 60 * 60);
-                
-                if (timeDiff <= 24) {
-                    const artWords = art.title.toLowerCase().split(/\W+/).filter(w => w.length > 4);
-                    const refWords = reference.title.toLowerCase().split(/\W+/).filter(w => w.length > 4);
-                    const overlap = artWords.filter(w => refWords.includes(w));
-                    
-                    if (overlap.length >= 2) {
-                        cluster.push(art);
-                        found = true;
-                        break;
-                    }
-                }
-            }
-            if (!found) localClusters.push([art]);
-        }
-
-        console.log(`[Synthesis] Formed ${localClusters.length} candidate clusters locally.`);
-
-        // 2. Cluster Qualification & Synthesis
-        const finalClusters: ClusterObject[] = [];
-        const ai = new GoogleGenAI(API_KEY!);
-
-        for (const group of localClusters) {
-            if (!group || group.length === 0) continue;
-            const uniqueSources = new Set(group.map(a => a.source_id)).size;
-            const firstArt = group[0]!;
-            const recencyHours = (Date.now() - new Date(firstArt.published_at || '').getTime()) / (1000 * 60 * 60);
-            
-            // SECTION 1 & 2 of 06-cluster-qualification.md
-            let score = 0;
-            score += (uniqueSources >= 5) ? 3 : (uniqueSources >= 3) ? 2 : (uniqueSources >= 2) ? 1 : 0; // Source Diversity
-            score += (recencyHours < 6) ? 2 : (recencyHours < 12) ? 1 : 0; // Recency
-            score += 3; // Geopolitics / Economic baseline weight
-
-            const qualified = uniqueSources >= 2 && score >= 5;
-
-            if (qualified) {
-                console.log(`[Synthesis] Synthesizing Qualified Cluster (Score: ${score}, Sources: ${uniqueSources})...`);
-                
-                const systemPromptPath = path.resolve(__dirname, '../../docs/engineered_prompts/02-gemini-prompt.md');
-                const systemPrompt = fs.readFileSync(systemPromptPath, 'utf8');
-                const selectedArticles = group.slice(0, 5);
-                const inputPayload = selectedArticles.map(a => ({
-                    source: a.source_id,
-                    title: a.title,
-                    content: a.body_text ? a.body_text.substring(0, 1000) : ''
-                }));
-
-                try {
-                    const result = await ai.models.generateContent({
-                        model: 'gemini-2.0-flash',
-                        contents: [{ 
-                            role: 'user', 
-                            parts: [{ 
-                                text: `INPUT ARTICLES:\n${JSON.stringify(inputPayload, null, 2)}\n\nOUTPUT JSON FORMAT (STRICT):\n{
-                                    "shared_facts": ["fact 1", "fact 2"],
-                                    "source_differences": ["source name 1 emphasized x...", "source name 2 omitted y..."],
-                                    "synthesis": "One paragraph summary...",
-                                    "confidence": "Consistent / Conflict / Unclear"
-                                }` 
-                            }] 
-                        }],
-                        config: {
-                            systemInstruction: systemPrompt,
-                            temperature: 0.1,
-                            responseMimeType: 'application/json'
-                        }
-                    });
-
-                    const synthesisText = result.text || '{}';
-                    const synthesisData = JSON.parse(synthesisText);
-                    
-                    const clusterId = `cl_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`;
-                    
-                    finalClusters.push({
-                        cluster_id: clusterId,
-                        topic_label: firstArt.title.split(':').pop()?.trim() || 'Intelligence Update',
-                        event_window_start: group[group.length - 1].published_at || '',
-                        event_window_end: group[0].published_at || '',
-                        article_ids: group.map(a => a.article_id),
-                        source_ids: Array.from(new Set(group.map(a => a.source_id))),
-                        article_count: group.length,
-                        source_count: uniqueSources,
-                        qualification_status: 'qualified',
-                        qualification_score: score,
-                        primary_geography: group.some(a => a.region_tag === 'middle-east') ? 'Middle East' : 'Global',
-                        topic_type: 'geopolitics',
-                        created_at: new Date().toISOString(),
-                        updated_at: new Date().toISOString(),
-                        region_tag: group.some(a => a.region_tag === 'middle-east') ? 'middle-east' : 'global',
-
-                        // Combined Synthesis for UI - Strict Mapping
-                        shared_facts: synthesisData.shared_facts || [],
-                        source_differences: synthesisData.source_differences || [],
-                        synthesis: synthesisData.synthesis || '',
-                        confidence: synthesisData.confidence || 'Unconfirmed',
-                        sources: group.map(a => ({ id: a.source_id, title: a.title, url: a.url, source: a.source_id }))
-                    });
-                } catch (pe: any) {
-                    console.error('[Synthesis] Failed to synthesize cluster:', pe.message);
-                }
-            }
-        }
-
-        fs.writeFileSync(OUTPUT_PATH, JSON.stringify(finalClusters, null, 2));
-        console.log(`[Synthesis] SUCCESS: Generated ${finalClusters.length} qualified intelligence clusters.`);
-        console.log(`[Synthesis] Storage: ${OUTPUT_PATH}`);
-
-    } catch (error: any) {
-        console.error('[Synthesis] FAIL:', error.message);
-        if (error.stack) console.error(error.stack);
-        process.exit(1);
+    console.log("Starting Layer C & D: Synthesis");
+    if (!fs.existsSync(ARTICLES_FILE)) return;
+    
+    const articles: ArticleRecord[] = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf-8'));
+    let existingClusters: StoryCluster[] = [];
+    if (fs.existsSync(CLUSTERS_FILE)) {
+        try { existingClusters = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf-8')); } catch(e) {}
     }
+
+    // Only process recent articles (last 48 hours)
+    const recentArticles = articles.filter(a => new Date(a.publishTime).getTime() > Date.now() - 48 * 60 * 60 * 1000);
+    if(recentArticles.length === 0) return;
+
+    // STEP 1: Clustering
+    console.log(`Clustering ${recentArticles.length} recent articles...`);
+    const payload = recentArticles.map(a => ({ id: a.id, title: a.title, source: a.sourceId }));
+    
+    const clusterPrompt = `Group the following news articles into clusters by topic/event.
+Each cluster should have a "topic" (short label, max 5 words) and "articleIds" (array of strings).
+PRIORITY:
+1. Always include clusters related to the Middle East, UAE, or Dubai (sources: gulfnews, khaleejtimes, aljazeera).
+2. Always include clusters involving global disasters or threat levels (source: gdacs).
+3. Group other significant international events that have multi-source coverage.
+Include clusters with even just 1 article if the topic is highly significant.
+Articles:\n${JSON.stringify(payload, null, 2)}`;
+
+    const clusterOptions = {
+        responseMimeType: 'application/json',
+        responseSchema: {
+            type: Type.ARRAY,
+            items: {
+                type: Type.OBJECT,
+                properties: {
+                    topic: { type: Type.STRING },
+                    articleIds: { type: Type.ARRAY, items: { type: Type.STRING } }
+                },
+                required: ["topic", "articleIds"]
+            }
+        }
+    };
+
+    let predictedClusters: {topic: string, articleIds: string[]}[] = [];
+    try {
+        const res = await ai.models.generateContent({
+            model: 'gemini-2.5-flash',
+            contents: clusterPrompt,
+            config: clusterOptions as any
+        });
+        predictedClusters = JSON.parse(res.text || "[]");
+    } catch(e: any) {
+        console.error("Clustering failed:", e.message);
+        return;
+    }
+
+    const newClusters: StoryCluster[] = [];
+
+    // STEP 2: Comparison (Layer D)
+    for (const c of predictedClusters.slice(0, 8)) {
+        const memberArticles = recentArticles.filter(a => c.articleIds.includes(a.id));
+        if (memberArticles.length < 1) continue;
+
+        const clusterId = generateId(c.articleIds.sort().join('-'));
+        const alreadyExists = existingClusters.find(ex => ex.clusterId === clusterId);
+        if (alreadyExists) {
+            newClusters.push(alreadyExists);
+            continue;
+        }
+
+        console.log(`Generating comparison for: ${c.topic}`);
+        
+        const compareText = memberArticles.map(a => `SOURCE: ${a.sourceId}\nTITLE: ${a.title}\nTEXT:\n${a.cleanedText}`).join('\n\n---\n\n');
+        
+        const comparePrompt = `ACT AS A SENIOR INTELLIGENCE ANALYST.
+Analyze these news articles about the same event. Extract the following comparison data:
+1. sharedFacts: an array of verified facts that multiple sources agree on.
+2. sourceDistinctions: an array of objects ({ source, point }) highlighting specific framing, omissions, or unique angles from each outlet.
+3. synthesisSummary: A concise, neutral intelligence summary (max 3 sentences).
+4. confidenceNote: An assessment of whether the reporting is consistent or contains material contradictions.
+
+Articles:
+${compareText}`;
+
+        const compareOptions = {
+            responseMimeType: 'application/json',
+            responseSchema: {
+                type: Type.OBJECT,
+                properties: {
+                    sharedFacts: { type: Type.ARRAY, items: { type: Type.STRING } },
+                    sourceDistinctions: { 
+                        type: Type.ARRAY, 
+                        items: { 
+                            type: Type.OBJECT, properties: { source: {type: Type.STRING}, point: {type: Type.STRING} } 
+                        } 
+                    },
+                    synthesisSummary: { type: Type.STRING },
+                    confidenceNote: { type: Type.STRING }
+                },
+                required: ["sharedFacts", "sourceDistinctions", "synthesisSummary", "confidenceNote"]
+            }
+        };
+
+        try {
+            const compRes = await ai.models.generateContent({
+                model: 'gemini-2.5-flash',
+                contents: comparePrompt,
+                config: compareOptions as any
+            });
+            const comparison = JSON.parse(compRes.text || "{}");
+            
+            newClusters.push({
+                clusterId,
+                canonicalLabel: c.topic,
+                topic: c.topic,
+                memberArticles,
+                comparison,
+                confidenceScore: 0.9
+            });
+            
+            // Rate limit safety
+            await new Promise(r => setTimeout(r, 10000));
+        } catch(e: any) {
+             console.error(`Comparison failed for ${c.topic}:`, e.message);
+        }
+    }
+
+    const finalClusters = [...newClusters, ...existingClusters].filter((v, i, a) => a.findIndex(t => (t.clusterId === v.clusterId)) === i).slice(0, 50);
+    fs.writeFileSync(CLUSTERS_FILE, JSON.stringify(finalClusters, null, 2));
+    console.log(`Synthesis complete. Generated/Retained ${finalClusters.length} clusters.`);
 }
 
-if (process.argv[1] && (process.argv[1].endsWith('LayerCD_Synthesis.ts') || process.argv[1].endsWith('LayerCD_Synthesis.js'))) {
+if (require.main === module) {
     runSynthesis().catch(console.error);
 }
