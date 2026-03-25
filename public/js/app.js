@@ -1,6 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const btns = document.querySelectorAll('.view-btn');
+    // Navigation & Tab Switching
+    const btns = document.querySelectorAll('.view-btn[data-target]');
     const panels = document.querySelectorAll('.view-panel');
+    const regionSelector = document.getElementById('region-focus');
+
+    // Persistence: Load saved region
+    const savedRegion = localStorage.getItem('sentinel_region') || 'global';
+    regionSelector.value = savedRegion;
 
     btns.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -16,13 +22,51 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    regionSelector.addEventListener('change', (e) => {
+        localStorage.setItem('sentinel_region', e.target.value);
+        // Refresh views to apply filter
+        loadClusters();
+        if (document.getElementById('view-live').classList.contains('active')) loadHeadlines();
+    });
+
+    // Initial Load
+    loadAlerts();
     loadClusters();
 });
+
+// ─── GLOBAL ALERTS (GDACS) ──────────────────────────────────────────────────
+
+async function loadAlerts() {
+    const banner = document.getElementById('global-alert-banner');
+    try {
+        const res = await fetch('data/latest/alerts.json');
+        const alerts = await res.json();
+        
+        if (alerts && alerts.length > 0) {
+            // Find highest severity: Red > Orange > Yellow > Green
+            const highLevel = alerts.some(a => a.severity === 'Red') ? 'Red' :
+                             alerts.some(a => a.severity === 'Orange') ? 'Orange' :
+                             alerts.some(a => a.severity === 'Yellow') ? 'Yellow' : 'Green';
+            
+            banner.textContent = `Threat Level: ${highLevel}`;
+            banner.style.background = getThreatColor(highLevel);
+            banner.title = alerts[0].title; // Show latest alert title on hover
+        }
+    } catch(e) {}
+}
+
+function getThreatColor(level) {
+    const colors = { 'Red': '#ef4444', 'Orange': '#f59e0b', 'Yellow': '#eab308', 'Green': '#10b981' };
+    return colors[level] || colors['Green'];
+}
 
 // ─── TAB 1: Sentinel Synthesis ───────────────────────────────────────────────
 
 async function loadClusters() {
     const container = document.getElementById('clusters-grid');
+    const region = localStorage.getItem('sentinel_region') || 'global';
+    
+    container.innerHTML = '<div class="loading-pulse">Establishing Intelligence Uplink...</div>';
     try {
         const res = await fetch('data/latest/clusters.json');
         const text = await res.text();
@@ -30,7 +74,22 @@ async function loadClusters() {
         try { clusters = JSON.parse(text); } catch(e) {
             throw new Error('Data sync pending or unavailable.');
         }
-        renderClusters(clusters, container);
+
+        // Filtering Logic
+        let filtered = clusters;
+        if (region === 'uae') {
+            // Prioritize clusters containing UAE sources or mentions
+            filtered = clusters.filter(c => 
+                c.memberArticles.some(a => a.sourceId === 'arabianbusiness' || a.sourceId === 'aljazeera') ||
+                c.topic.toLowerCase().includes('dubai') || c.topic.toLowerCase().includes('emirates')
+            );
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="syn-text">No Middle East specific clusters detected in this cycle. Displaying Global feed.</div>';
+                filtered = clusters;
+            }
+        }
+        
+        renderClusters(filtered, container);
     } catch(e) {
         container.innerHTML = `<div class="syn-text">${e.message}</div>`;
     }
@@ -38,7 +97,7 @@ async function loadClusters() {
 
 function renderClusters(clusters, container) {
     if(!clusters || clusters.length === 0) {
-        container.innerHTML = '<div class="syn-text">No synthesized multi-source clusters available yet.</div>';
+        container.innerHTML = '<div class="syn-text">No synthesized intel available yet.</div>';
         return;
     }
 
@@ -54,21 +113,21 @@ function renderClusters(clusters, container) {
             </div>
             
             <div class="syn-section">
-                <div class="syn-title">Verified Overlap (Fact Consensus)</div>
+                <div class="syn-title">Consensus Facts</div>
                 <ul class="syn-list">
                     ${c.comparison.sharedFacts.map(f => `<li>${f}</li>`).join('')}
                 </ul>
             </div>
 
             <div class="syn-section">
-                <div class="syn-title">Distinctions &amp; Framing</div>
+                <div class="syn-title">Source Distinctions</div>
                 <ul class="syn-list">
                     ${c.comparison.sourceDistinctions.map(d => `<li><span class="source-tag">${d.source}</span> ${d.point}</li>`).join('')}
                 </ul>
             </div>
             
             <div class="syn-section">
-                <div class="syn-title">Sources Analyzed</div>
+                <div class="syn-title">Analysts</div>
                 <div style="display:flex; gap: 0.5rem; flex-wrap: wrap;">
                    ${c.memberArticles.map(a => `<a class="source-tag" href="${a.url}" target="_blank">${a.sourceId}</a>`).join('')}
                 </div>
@@ -79,27 +138,32 @@ function renderClusters(clusters, container) {
     });
 }
 
-// ─── TAB 2: Raw Live Feed ─────────────────────────────────────────────────────
+// ─── TAB 2: Live Feed ─────────────────────────────────────────────────────
 
 async function loadHeadlines() {
     const tbody = document.querySelector('#headlines-table tbody');
-    if(tbody.children.length > 0 && !tbody.innerHTML.includes('loading-pulse')) return;
-
-    tbody.innerHTML = '<tr><td colspan="3"><div class="loading-pulse">Fetching raw feed...</div></td></tr>';
+    const region = localStorage.getItem('sentinel_region') || 'global';
+    
+    tbody.innerHTML = '<tr><td colspan="3"><div class="loading-pulse">Decrypting global broadcast...</div></td></tr>';
     try {
         const res = await fetch('data/latest/headlines.json');
         const text = await res.text();
         let headlines;
-        try { headlines = JSON.parse(text); } catch(e) {
-            throw new Error('Feed data corrupted.');
-        }
+        try { headlines = JSON.parse(text); } catch(e) { throw new Error('Feed corrupted.'); }
         
+        // Filtering
+        let filtered = headlines;
+        if (region === 'uae') {
+            filtered = headlines.filter(h => ['arabianbusiness', 'aljazeera'].includes(h.sourceId));
+        }
+
         tbody.innerHTML = '';
-        if (!headlines || headlines.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="3">No headlines ingested yet.</td></tr>';
+        if (!filtered || filtered.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="3">No records found for ${region} focus.</td></tr>`;
             return;
         }
-        headlines.slice(0, 100).forEach(h => {
+        
+        filtered.slice(0, 100).forEach(h => {
             const time = new Date(h.publishTime).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
             tbody.innerHTML += `
             <tr>
@@ -110,7 +174,7 @@ async function loadHeadlines() {
             `;
         });
     } catch(e) {
-        tbody.innerHTML = `<tr><td colspan="3">Failed to load feed: ${e.message}</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="3">Uplink Error: ${e.message}</td></tr>`;
     }
 }
 
@@ -118,24 +182,17 @@ async function loadHeadlines() {
 
 async function loadArchive() {
     const grid = document.getElementById('archive-grid');
-    if(grid.dataset.loaded) return; // Only load once per session
-    grid.innerHTML = '<div class="loading-pulse">Loading archive index...</div>';
+    if(grid.dataset.loaded) return;
+    grid.innerHTML = '<div class="loading-pulse">Scanning archive sectors...</div>';
     try {
         const res = await fetch('data/archive/manifest.json');
         const text = await res.text();
         let manifest;
-        try { manifest = JSON.parse(text); } catch(e) {
-            throw new Error('Manifest not yet generated.');
-        }
-        if (!manifest || manifest.length === 0) {
-            grid.innerHTML = '<div class="syn-text">No archive snapshots yet.</div>';
-            return;
-        }
-
+        try { manifest = JSON.parse(text); } catch(e) { throw new Error('Manifest missing.'); }
+        
         grid.innerHTML = '';
         grid.dataset.loaded = 'true';
 
-        // Date selector row
         const selector = document.createElement('div');
         selector.id = 'archive-selector';
         selector.style = 'margin-bottom:1.5rem; display:flex; gap:0.5rem; flex-wrap:wrap;';
@@ -156,17 +213,11 @@ async function loadArchive() {
         });
         grid.appendChild(selector);
 
-        // Load the most recent snapshot automatically
         const latest = manifest[0];
         const latestRun = latest.runs[0];
         const snapRes = await fetch(`data/archive/${latest.date}/${latestRun}`);
         const snapText = await snapRes.text();
-        let snapshot;
-        try { snapshot = JSON.parse(snapText); } catch(e) {
-            throw new Error('Snapshot unreadable.');
-        }
-        renderSnapshot(snapshot, latest.date, latest.runs, grid);
-
+        renderSnapshot(JSON.parse(snapText), latest.date, latest.runs, grid);
     } catch(e) {
         grid.innerHTML = `<div class="syn-text">Archive unavailable: ${e.message}</div>`;
     }
@@ -183,26 +234,17 @@ function renderSnapshot(snapshot, date, runs, grid) {
     const headlineCount = (snapshot.headlines || []).length;
 
     wrap.innerHTML = `
-        <div class="cluster-card" style="margin-bottom:1rem;">
+        <div class="cluster-card" style="margin-bottom:1rem; border-left: 4px solid var(--accent-indigo);">
             <div class="card-header">
                 <span class="topic-tag">${date}</span>
-                <h3>Snapshot: ${ts}</h3>
+                <h3>Intelligence Snapshot: ${ts}</h3>
             </div>
             <div class="syn-section">
-                <div class="syn-title">Snapshot Summary</div>
                 <ul class="syn-list">
-                    <li>${headlineCount} headlines ingested</li>
-                    <li>${clusterCount} AI-synthesized clusters</li>
-                    <li>Run file: ${runs[0]}</li>
+                    <li>Ingested: ${headlineCount} sources</li>
+                    <li>Synthesized: ${clusterCount} clusters</li>
                 </ul>
             </div>
-            ${clusterCount > 0 ? `
-            <div class="syn-section">
-                <div class="syn-title">Clusters in Snapshot</div>
-                <ul class="syn-list">
-                    ${snapshot.clusters.map(c => `<li><span class="source-tag">${c.topic}</span> ${c.comparison ? c.comparison.synthesisSummary : ''}</li>`).join('')}
-                </ul>
-            </div>` : ''}
         </div>
     `;
     grid.appendChild(wrap);

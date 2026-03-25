@@ -32,7 +32,13 @@ export async function runSynthesis() {
     console.log(`Clustering ${recentArticles.length} recent articles...`);
     const payload = recentArticles.map(a => ({ id: a.id, title: a.title, source: a.sourceId }));
     
-    const clusterPrompt = `Group the following news articles into clusters by topic/event. Each cluster should have a "topic" (short label, max 5 words) and "articleIds" (array of strings). Include clusters with even just 1 article if the topic is significant. Prefer clusters where multiple sources cover the same event.
+    const clusterPrompt = `Group the following news articles into clusters by topic/event.
+Each cluster should have a "topic" (short label, max 5 words) and "articleIds" (array of strings).
+PRIORITY:
+1. Always include clusters related to the Middle East, UAE, or Dubai (sources: gulfnews, khaleejtimes, aljazeera).
+2. Always include clusters involving global disasters or threat levels (source: gdacs).
+3. Group other significant international events that have multi-source coverage.
+Include clusters with even just 1 article if the topic is highly significant.
 Articles:\n${JSON.stringify(payload, null, 2)}`;
 
     const clusterOptions = {
@@ -66,7 +72,7 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
     const newClusters: StoryCluster[] = [];
 
     // STEP 2: Comparison (Layer D)
-    for (const c of predictedClusters.slice(0, 5)) {
+    for (const c of predictedClusters.slice(0, 8)) {
         const memberArticles = recentArticles.filter(a => c.articleIds.includes(a.id));
         if (memberArticles.length < 1) continue;
 
@@ -81,12 +87,12 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
         
         const compareText = memberArticles.map(a => `SOURCE: ${a.sourceId}\nTITLE: ${a.title}\nTEXT:\n${a.cleanedText}`).join('\n\n---\n\n');
         
-        const comparePrompt = `Analyze these news articles about the same event. Extract the following comparison data:
-1. sharedFacts: an array of facts that multiple sources agree on.
-2. sourceDistinctions: an array of objects ({ source, point }) highlighting what one outlet emphasizes or omits.
-3. synthesisSummary: a 2-3 sentence neutral summary of the event.
-4. confidenceNote: whether details materially conflict.
-Do NOT invent bias. Only compare wording, emphasis, scope, fact overlap.
+        const comparePrompt = `ACT AS A SENIOR INTELLIGENCE ANALYST.
+Analyze these news articles about the same event. Extract the following comparison data:
+1. sharedFacts: an array of verified facts that multiple sources agree on.
+2. sourceDistinctions: an array of objects ({ source, point }) highlighting specific framing, omissions, or unique angles from each outlet.
+3. synthesisSummary: A concise, neutral intelligence summary (max 3 sentences).
+4. confidenceNote: An assessment of whether the reporting is consistent or contains material contradictions.
 
 Articles:
 ${compareText}`;
