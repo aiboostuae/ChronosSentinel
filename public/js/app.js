@@ -153,13 +153,18 @@ async function loadHeadlines() {
         
         // Filtering
         let filtered = headlines;
+        let notice = '';
         if (region === 'uae') {
             filtered = headlines.filter(h => ['arabianbusiness', 'aljazeera'].includes(h.sourceId));
+            if (filtered.length === 0) {
+                notice = '<tr><td colspan="3" style="text-align:center; color:var(--accent-cyan); font-size:0.8rem; padding:1rem; background:rgba(0,242,255,0.05)">No Middle East headlines in current cycle. Displaying Global Feed.</td></tr>';
+                filtered = headlines;
+            }
         }
 
-        tbody.innerHTML = '';
+        tbody.innerHTML = notice;
         if (!filtered || filtered.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="3">No records found for ${region} focus.</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="3">No records found.</td></tr>`;
             return;
         }
         
@@ -182,7 +187,7 @@ async function loadHeadlines() {
 
 async function loadArchive() {
     const grid = document.getElementById('archive-grid');
-    if(grid.dataset.loaded) return;
+    // Allow reloading if it failed or is empty
     grid.innerHTML = '<div class="loading-pulse">Scanning archive sectors...</div>';
     try {
         const res = await fetch('data/archive/manifest.json');
