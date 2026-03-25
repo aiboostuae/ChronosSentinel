@@ -24,7 +24,9 @@ This document is the historical record of the journey. It captures challenges en
 - **Challenge: RSS Feed Stability**. Gulf News and Khaleej Times RSS feeds returned 404s or hung.
   - *Fix*: Swapped for **Arabian Business** (stable RSS) and **GDACS** (reliable alert feed).
 - **Challenge: UI Responsiveness**. Tables were unreadable on mobile.
-  - *Fix*: Implemented a fixed **Bottom Navigation Bar** and responsive "Card Stacking" CSS blocks.
+    - *Fix*: Implemented a fixed **Bottom Navigation Bar** with a high `z-index` (9999) and PWA-specific `env(safe-area-inset-bottom)` padding to avoid overlapping with OS home bars.
+- **Challenge: Viewport Height Jumps**. Mobile browsers often resize when the address bar hides, causing UI jitter.
+  - *Fix*: Switched to **svh** (Small Viewport Height) units for the body container.
 
 ---
 *History Refined by UncleGravity AI | Strategic Intelligence Log*
