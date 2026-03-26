@@ -36,7 +36,7 @@ async function runSynthesis() {
         Group related stories, assign a canonical label, and determine severity.
         Output MUST be a JSON array: [{ id, canonicalLabel, summary, severity, timestamp, sources }]`;
 
-        const payload = articles.slice(0, 30).map(a => ({
+        const payload = articles.slice(0, 3).map(a => ({
             id: a.id,
             title: a.title,
             source: a.sourceId,
@@ -56,8 +56,8 @@ async function runSynthesis() {
 
         fs.writeFileSync(TEMP_REQ, JSON.stringify(body));
 
-        console.log(`[Synthesis] Invoking Gemini API via CURL: v1/models/gemini-1.5-flash`);
-        const curlCmd = `curl -s -X POST "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}" ` +
+        console.log(`[Synthesis] Invoking Gemini API via CURL: v1/models/gemini-2.0-flash`);
+        const curlCmd = `curl -s -X POST "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent?key=${API_KEY}" ` +
                         `-H "Content-Type: application/json" ` +
                         `-d @${TEMP_REQ} -o ${TEMP_RES}`;
         
