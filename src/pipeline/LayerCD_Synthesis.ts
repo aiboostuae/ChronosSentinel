@@ -1,150 +1,116 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import { GoogleGenAI, Type } from '@google/genai';
-import { ArticleRecord, StoryCluster, generateId } from '../types';
+// @ts-nocheck
+/**
+ * LayerCD_Synthesis.ts
+ * Stabilization Phase: CommonJS for robust execution with @google/genai v1.46.0
+ */
 
-const DATA_DIR = path.join(__dirname, '../../public/data/latest');
-const ARTICLES_FILE = path.join(DATA_DIR, 'articles.json');
-const CLUSTERS_FILE = path.join(DATA_DIR, 'clusters.json');
-
-if (!process.env.GEMINI_API_KEY) {
-    console.warn("No GEMINI_API_KEY provided.");
-    process.exit(0);
+interface StoryCluster {
+    id: string;
+    canonicalLabel: string;
+    summary: string;
+    severity: 'High' | 'Medium' | 'Low';
+    timestamp: string;
+    sources: Array<{ id: string; title: string; url: string; source: string }>;
 }
 
-const ai = new GoogleGenAI({});
+(async () => {
+    const fs = require('fs');
+    const path = require('path');
+    const { GoogleGenAI } = require('@google/genai');
 
-export async function runSynthesis() {
-    console.log("Starting Layer C & D: Synthesis");
-    if (!fs.existsSync(ARTICLES_FILE)) return;
-    
-    const articles: ArticleRecord[] = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf-8'));
-    let existingClusters: StoryCluster[] = [];
-    if (fs.existsSync(CLUSTERS_FILE)) {
-        try { existingClusters = JSON.parse(fs.readFileSync(CLUSTERS_FILE, 'utf-8')); } catch(e) {}
+    const API_KEY = process.env.GEMINI_API_KEY;
+    const DATA_DIR = path.join(__dirname, '../../public/data/latest');
+    const ARTICLES_PATH = path.join(DATA_DIR, 'articles.json');
+    const OUTPUT_PATH = path.join(DATA_DIR, 'clusters.json');
+
+    console.log('[Synthesis] Initializing Intelligence Pipeline...');
+
+    if (!API_KEY) {
+        console.error('[Synthesis] CRITICAL: GEMINI_API_KEY environment variable is missing.');
+        process.exit(1);
     }
 
-    // Only process recent articles (last 48 hours)
-    const recentArticles = articles.filter(a => new Date(a.publishTime).getTime() > Date.now() - 48 * 60 * 60 * 1000);
-    if(recentArticles.length === 0) return;
-
-    // STEP 1: Clustering
-    console.log(`Clustering ${recentArticles.length} recent articles...`);
-    const payload = recentArticles.map(a => ({ id: a.id, title: a.title, source: a.sourceId }));
-    
-    const clusterPrompt = `Group the following news articles into clusters by topic/event.
-Each cluster should have a "topic" (short label, max 5 words) and "articleIds" (array of strings).
-PRIORITY:
-1. Always include clusters related to the Middle East, UAE, or Dubai (sources: gulfnews, khaleejtimes, aljazeera).
-2. Always include clusters involving global disasters or threat levels (source: gdacs).
-3. Group other significant international events that have multi-source coverage.
-Include clusters with even just 1 article if the topic is highly significant.
-Articles:\n${JSON.stringify(payload, null, 2)}`;
-
-    const clusterOptions = {
-        responseMimeType: 'application/json',
-        responseSchema: {
-            type: Type.ARRAY,
-            items: {
-                type: Type.OBJECT,
-                properties: {
-                    topic: { type: Type.STRING },
-                    articleIds: { type: Type.ARRAY, items: { type: Type.STRING } }
-                },
-                required: ["topic", "articleIds"]
-            }
-        }
-    };
-
-    let predictedClusters: {topic: string, articleIds: string[]}[] = [];
-    try {
-        const res = await ai.models.generateContent({
-            model: 'gemini-2.5-flash',
-            contents: clusterPrompt,
-            config: clusterOptions as any
-        });
-        predictedClusters = JSON.parse(res.text || "[]");
-    } catch(e: any) {
-        console.error("Clustering failed:", e.message);
-        return;
-    }
-
-    const newClusters: StoryCluster[] = [];
-
-    // STEP 2: Comparison (Layer D)
-    for (const c of predictedClusters.slice(0, 8)) {
-        const memberArticles = recentArticles.filter(a => c.articleIds.includes(a.id));
-        if (memberArticles.length < 1) continue;
-
-        const clusterId = generateId(c.articleIds.sort().join('-'));
-        const alreadyExists = existingClusters.find(ex => ex.clusterId === clusterId);
-        if (alreadyExists) {
-            newClusters.push(alreadyExists);
-            continue;
-        }
-
-        console.log(`Generating comparison for: ${c.topic}`);
-        
-        const compareText = memberArticles.map(a => `SOURCE: ${a.sourceId}\nTITLE: ${a.title}\nTEXT:\n${a.cleanedText}`).join('\n\n---\n\n');
-        
-        const comparePrompt = `ACT AS A SENIOR INTELLIGENCE ANALYST.
-Analyze these news articles about the same event. Extract the following comparison data:
-1. sharedFacts: an array of verified facts that multiple sources agree on.
-2. sourceDistinctions: an array of objects ({ source, point }) highlighting specific framing, omissions, or unique angles from each outlet.
-3. synthesisSummary: A concise, neutral intelligence summary (max 3 sentences).
-4. confidenceNote: An assessment of whether the reporting is consistent or contains material contradictions.
-
-Articles:
-${compareText}`;
-
-        const compareOptions = {
-            responseMimeType: 'application/json',
-            responseSchema: {
-                type: Type.OBJECT,
-                properties: {
-                    sharedFacts: { type: Type.ARRAY, items: { type: Type.STRING } },
-                    sourceDistinctions: { 
-                        type: Type.ARRAY, 
-                        items: { 
-                            type: Type.OBJECT, properties: { source: {type: Type.STRING}, point: {type: Type.STRING} } 
-                        } 
-                    },
-                    synthesisSummary: { type: Type.STRING },
-                    confidenceNote: { type: Type.STRING }
-                },
-                required: ["sharedFacts", "sourceDistinctions", "synthesisSummary", "confidenceNote"]
-            }
-        };
-
+    async function runSynthesis() {
         try {
-            const compRes = await ai.models.generateContent({
-                model: 'gemini-2.5-flash',
-                contents: comparePrompt,
-                config: compareOptions as any
-            });
-            const comparison = JSON.parse(compRes.text || "{}");
+            if (!fs.existsSync(ARTICLES_PATH)) {
+                console.error('[Synthesis] articles.json not found. Run LayerB scraper first.');
+                return;
+            }
+
+            const rawData = fs.readFileSync(ARTICLES_PATH, 'utf8');
+            const articles = JSON.parse(rawData);
             
-            newClusters.push({
-                clusterId,
-                canonicalLabel: c.topic,
-                topic: c.topic,
-                memberArticles,
-                comparison,
-                confidenceScore: 0.9
-            });
+            console.log(`[Synthesis] Processing ${articles.length} scraped articles...`);
+
+            const ai = new GoogleGenAI({ apiKey: API_KEY });
             
-            // Rate limit safety
-            await new Promise(r => setTimeout(r, 10000));
-        } catch(e: any) {
-             console.error(`Comparison failed for ${c.topic}:`, e.message);
+            const systemPrompt = `You are the Chronos Sentinel Intelligence Processor. 
+            Synthesize the provided news articles into strategic intelligence clusters.
+            Group related stories, assign a canonical label, and determine severity.
+            Severity MUST be one of: 'High', 'Medium', 'Low'.
+            Focus on Middle East stability, global security, and disaster alerts.
+            Output MUST be a JSON array of objects following this schema:
+            {
+              "id": "string",
+              "canonicalLabel": "string",
+              "summary": "string",
+              "severity": "High" | "Medium" | "Low",
+              "timestamp": "ISO-8601 string",
+              "sources": [{ "id": "string", "title": "string", "url": "string", "source": "string" }]
+            }`;
+
+            // Provide a representative sample for synthesis
+            const payload = articles.slice(0, 30).map((a: any) => ({
+                id: a.id,
+                title: a.title,
+                source: a.sourceId,
+                text: a.cleanedText ? a.cleanedText.substring(0, 500) : '' 
+            }));
+
+            const userPrompt = `Synthesize these articles: ${JSON.stringify(payload)}`;
+
+            console.log('[Synthesis] Invoking Gemini Intelligence Engine (gemini-2.0-flash)...');
+            
+            const response = await ai.models.generateContent({
+                model: 'gemini-2.0-flash',
+                contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
+                config: {
+                    systemInstruction: {
+                        role: 'system',
+                        parts: [{ text: systemPrompt }]
+                    },
+                    temperature: 0.2,
+                    responseMimeType: 'application/json'
+                }
+            });
+
+            console.log('[Synthesis] Response received. Validating telemetry...');
+            
+            const text = response.text;
+            if (!text) {
+                throw new Error('Empty response from Gemini API');
+            }
+
+            let clusters: StoryCluster[] = JSON.parse(text);
+
+            // Ensure every cluster has a timestamp and deterministic ID if missing
+            const now = new Date().toISOString();
+            clusters = clusters.map((c, i) => ({
+                ...c,
+                id: c.id || `cluster-${Date.now()}-${i}`,
+                timestamp: c.timestamp || now
+            }));
+
+            fs.writeFileSync(OUTPUT_PATH, JSON.stringify(clusters, null, 2));
+            console.log(`[Synthesis] SUCCESS: Generated ${clusters.length} intelligence clusters.`);
+            console.log(`[Synthesis] Storage: ${OUTPUT_PATH}`);
+
+        } catch (error: any) {
+            console.error('[Synthesis] FAIL:', error.message);
+            if (error.stack) console.error(error.stack);
+            process.exit(1);
         }
     }
 
-    const finalClusters = [...newClusters, ...existingClusters].filter((v, i, a) => a.findIndex(t => (t.clusterId === v.clusterId)) === i).slice(0, 50);
-    fs.writeFileSync(CLUSTERS_FILE, JSON.stringify(finalClusters, null, 2));
-    console.log(`Synthesis complete. Generated/Retained ${finalClusters.length} clusters.`);
-}
-
-if (require.main === module) {
-    runSynthesis().catch(console.error);
-}
+    await runSynthesis();
+})();

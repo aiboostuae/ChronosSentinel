@@ -4,7 +4,10 @@ import * as path from 'path';
 import { SourceRecord, HeadlineRecord, generateId } from '../types';
 
 const parser = new Parser({ 
-    timeout: 5000,
+    timeout: 10000,
+    headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    },
     customFields: {
         item: [
             ['gdacs:alertlevel', 'alertlevel'],

@@ -28,5 +28,14 @@ This document is the historical record of the journey. It captures challenges en
 - **Challenge: Viewport Height Jumps**. Mobile browsers often resize when the address bar hides, causing UI jitter.
   - *Fix*: Switched to **svh** (Small Viewport Height) units for the body container.
 
+### [2026-03-26] STAGE 2.1: EMERGENCY RECOVERY
+**Outcome**: Success. PWA cache flushed and bottom-nav forced to 100% consistency.
+- **Challenge: Aggressive PWA Caching (Cache-First)**. The `v2` service worker was stuck serving old HTML/JS/CSS, causing the "7 PM stall" and "still on top" UI regressions.
+    - *Fix*: Incremented to **sw.js v3**, implemented **Network-First** strategy for data, and forced a cache purge on activation.
+- **Challenge: Structural Navigation Conflicts**. Sticky headers were capturing the navigation even on mobile.
+    - *Fix*: Decoupled `.view-controls` from the header and re-anchored them to the `body` root for reliable multi-viewport fixed positioning.
+- **Challenge: Archive "Stats Only" Phantoms**. Synthesis failures left archives feeling empty.
+    - *Fix*: Re-engineered `app.js` to render historical headlines as a primary archive feature, ensuring value even when clusters are building.
+
 ---
 *History Refined by UncleGravity AI | Strategic Intelligence Log*

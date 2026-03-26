@@ -38,6 +38,8 @@ export interface StoryCluster {
     comparison?: ComparisonCard;
     confidenceScore: number;
     topic: string;
+    timestamp?: string;
+    severity?: 'High' | 'Medium' | 'Low';
 }
 
 export const generateId = (text: string) => crypto.createHash('md5').update(text).digest('hex');
