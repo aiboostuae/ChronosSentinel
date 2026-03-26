@@ -128,7 +128,9 @@ function renderClusters(clusters, container) {
         try {
             const dt = new Date(timestamp);
             if (!isNaN(dt.getTime())) {
-                displayTime = dt.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                const day = dt.toLocaleDateString([], {month: 'short', day: 'numeric'});
+                const timeStr = dt.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                displayTime = `${day}, ${timeStr}`;
             }
         } catch(e) {}
 

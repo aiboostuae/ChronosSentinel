@@ -1,18 +1,7 @@
 {
   "error": {
-    "code": 400,
-    "message": "Invalid JSON payload received. Unknown name \"responseMimeType\" at 'generation_config': Cannot find field.",
-    "status": "INVALID_ARGUMENT",
-    "details": [
-      {
-        "@type": "type.googleapis.com/google.rpc.BadRequest",
-        "fieldViolations": [
-          {
-            "field": "generation_config",
-            "description": "Invalid JSON payload received. Unknown name \"responseMimeType\" at 'generation_config': Cannot find field."
-          }
-        ]
-      }
-    ]
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
   }
 }

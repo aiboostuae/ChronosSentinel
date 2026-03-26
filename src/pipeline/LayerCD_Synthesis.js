@@ -50,29 +50,58 @@ async function runSynthesis() {
                 parts: [{ text: combinedPrompt }]
             }],
             generationConfig: {
-                temperature: 0.2,
-                responseMimeType: 'application/json'
+                temperature: 0.2
             }
         };
 
         fs.writeFileSync(TEMP_REQ, JSON.stringify(body));
 
-        console.log('[Synthesis] Invoking Gemini API (gemini-1.5-flash) via CURL (v1)...');
-        const curlCmd = `curl -X POST "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}" ` +
+        console.log(`[Synthesis] Invoking Gemini API via CURL: v1/models/gemini-1.5-flash`);
+        const curlCmd = `curl -s -X POST "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}" ` +
                         `-H "Content-Type: application/json" ` +
                         `-d @${TEMP_REQ} -o ${TEMP_RES}`;
         
-        execSync(curlCmd);
-
-        const result = JSON.parse(fs.readFileSync(TEMP_RES, 'utf8'));
-        
-        if (!result.candidates || !result.candidates[0].content) {
-            console.error('[Synthesis] API Error/Response:', JSON.stringify(result));
-            throw new Error('Malformed Response');
+        try {
+            execSync(curlCmd);
+        } catch(e) {
+            console.error(`[Synthesis] CURL Execution Failed: ${e.message}`);
+            throw e;
         }
 
-        const text = result.candidates[0].content.parts[0].text;
-        let clusters = JSON.parse(text);
+        if (!fs.existsSync(TEMP_RES)) {
+            throw new Error(`API result file missing: ${TEMP_RES}`);
+        }
+
+        const rawRes = fs.readFileSync(TEMP_RES, 'utf8');
+        let result;
+        try {
+            result = JSON.parse(rawRes);
+        } catch(e) {
+            console.error(`[Synthesis] Raw API Response: ${rawRes.substring(0, 500)}`);
+            throw new Error(`Failed to parse API response as JSON: ${e.message}`);
+        }
+        
+        if (!result.candidates || !result.candidates[0].content) {
+            console.error('[Synthesis] API Logic Error:', JSON.stringify(result, null, 2));
+            throw new Error('Malformed Response (Missing candidates)');
+        }
+
+        const rawText = result.candidates[0].content.parts[0].text;
+        
+        // Robust JSON Extraction
+        let jsonText = rawText;
+        const jsonMatch = rawText.match(/\[\s*\{[\s\S]*\}\s*\]/);
+        if (jsonMatch) {
+            jsonText = jsonMatch[0];
+        }
+
+        let clusters;
+        try {
+            clusters = JSON.parse(jsonText);
+        } catch(e) {
+            console.error(`[Synthesis] JSON Parse Error. Raw Text: ${rawText.substring(0, 500)}`);
+            throw new Error(`Failed to parse extracted JSON: ${e.message}`);
+        }
 
         const now = new Date().toISOString();
         clusters = clusters.map((c, i) => {
