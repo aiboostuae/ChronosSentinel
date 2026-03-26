@@ -75,11 +75,22 @@ async function runSynthesis() {
         let clusters = JSON.parse(text);
 
         const now = new Date().toISOString();
-        clusters = clusters.map((c, i) => ({
-            ...c,
-            id: c.id || `cluster-${Date.now()}-${i}`,
-            timestamp: c.timestamp || now
-        }));
+        clusters = clusters.map((c, i) => {
+            let ts = now;
+            if (c.timestamp) {
+                try {
+                    const parsed = new Date(c.timestamp);
+                    if (!isNaN(parsed.getTime())) {
+                        ts = parsed.toISOString();
+                    }
+                } catch(e) {}
+            }
+            return {
+                ...c,
+                id: c.id || `cluster-${Date.now()}-${i}`,
+                timestamp: ts
+            };
+        });
 
         fs.writeFileSync(OUTPUT_PATH, JSON.stringify(clusters, null, 2));
         console.log(`[Synthesis] SUCCESS: Generated ${clusters.length} clusters.`);
