@@ -6,13 +6,13 @@
     <title>Chronos Sentinel | Intelligence Feed</title>
     
     <!-- PWA & Mobile Meta -->
-    <meta name="theme-color" content="#05070a">
+    <meta name="theme-color" content="#0A0B10">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,27 +20,35 @@
     
     <header class="app-header">
         <div class="logo-area">
-            <h1><div class="logo-eye"></div>CHRONOS <span>SENTINEL</span></h1>
+            <h1>CHRONOS <span>SENTINEL</span></h1>
         </div>
         
         <div class="header-right">
              <!-- Alert Indicator -->
-             <div id="global-alert-banner">Threat Level: Green</div>
+             <div id="global-alert-banner">STATUS: OPTIMAL</div>
              
              <!-- Region Selector (Personalization) -->
              <select id="region-focus">
                 <option value="global">GLOBAL FOCUS</option>
-                <option value="uae">MIDDLE EAST</option>
+                <option value="middle-east">MIDDLE EAST</option>
+                <option value="western">WESTERN INTEL</option>
+                <option value="asia">ASIA-PACIFIC</option>
              </select>
         </div>
-
     </header>
+
+    <nav class="view-controls">
+        <button class="view-btn active" data-target="sentinel">Synthesis</button>
+        <button class="view-btn" data-target="live">Live Feed</button>
+        <button class="view-btn" data-target="impact">Impact</button>
+        <button class="view-btn" data-target="archive">Archive</button>
+    </nav>
 
     <main class="dashboard-container">
         <!-- Sentinel View (AI Synthesized) -->
         <section id="view-sentinel" class="view-panel active">
             <div class="panel-header">
-                <h2>Sentinel Synthesis</h2>
+                <h2 id="sentinel-title">Sentinel Synthesis</h2>
                 <p>Cross-source intelligence detecting factual overlaps and source framing.</p>
             </div>
             <div id="clusters-grid" class="cards-grid">
@@ -51,7 +59,7 @@
         <!-- Live View (Headlines) -->
         <section id="view-live" class="view-panel">
             <div class="panel-header">
-                <h2>Raw Global Headlines</h2>
+                <h2 id="live-title">Raw Global Headlines</h2>
                 <p>Unfiltered timeline of the latest articles ingested into the system.</p>
             </div>
             <div class="table-container">
@@ -71,7 +79,7 @@
         <!-- Impact View (Emergency) -->
         <section id="view-impact" class="view-panel">
             <div class="panel-header">
-                <h2>High-Impact Intelligence</h2>
+                <h2 id="impact-title">High-Impact Intelligence</h2>
                 <p>Urgent reports, disaster alerts, and critical security signals.</p>
             </div>
             <div id="impact-grid" class="cards-grid">
@@ -82,21 +90,36 @@
         <!-- Archive View (Snapshots) -->
         <section id="view-archive" class="view-panel">
             <div class="panel-header">
-                <h2>System Archive</h2>
-                <p>Immutable daily intelligence logs.</p>
+                <h2 id="archive-title">Browse Intelligence Timeline</h2>
+                <p>Immutable daily intelligence logs (MIMO Scaling Enabled).</p>
             </div>
-            <div id="archive-grid" class="cards-grid">
-                <div class="loading-pulse">Retrieving Manifest...</div>
+            
+            <!-- Calendar Navigation -->
+            <div id="archive-calendar-nav" class="archive-nav-box">
+                <button id="cal-prev" class="view-btn">←</button>
+                <div id="cal-current-label" style="font-weight:bold; font-size:1.1rem; min-width:150px; text-align:center;">March 2026</div>
+                <button id="cal-next" class="view-btn">→</button>
+            </div>
+
+            <div id="archive-calendar-grid" class="calendar-grid">
+                <!-- Days injected by JS -->
+            </div>
+
+            <div id="archive-day-detail" class="day-detail-panel">
+                <div class="detail-header">
+                    <h3 id="selected-date-label">Select a date above</h3>
+                </div>
+                <div id="runs-list" class="runs-list">
+                    <!-- Runs injected by JS -->
+                </div>
+            </div>
+
+            <!-- The grid for clusters after a run is selected -->
+            <div id="archive-grid" class="cards-grid" style="margin-top:2rem;">
+                <!-- Clusters from selected run injected here -->
             </div>
         </section>
     </main>
-
-    <nav class="view-controls">
-        <button class="view-btn active" data-target="sentinel">Synthesis</button>
-        <button class="view-btn" data-target="live">Live Feed</button>
-        <button class="view-btn" data-target="impact">Impact</button>
-        <button class="view-btn" data-target="archive">Archive</button>
-    </nav>
 
     <script src="js/app.js"></script>
     <script>

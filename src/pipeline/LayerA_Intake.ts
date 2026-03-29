@@ -1,7 +1,8 @@
 import Parser from 'rss-parser';
 import * as fs from 'fs';
 import * as path from 'path';
-import { SourceRecord, HeadlineRecord, generateId } from '../types';
+import type { SourceRecord, HeadlineRecord } from '../types.js';
+import { generateId } from '../types.js';
 
 const parser = new Parser({ 
     timeout: 10000,
@@ -18,17 +19,18 @@ const parser = new Parser({
 });
 
 const SOURCES: SourceRecord[] = [
-    { id: 'fox', name: 'Fox News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://moxie.foxnews.com/google-publisher/latest.xml' },
-    { id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intakeMethod: 'rss', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
-    { id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intakeMethod: 'rss', url: 'https://feeds.bbci.co.uk/news/world/rss.xml' },
-    { id: 'reuters', name: 'Reuters', region: 'Global', language: 'en', intakeMethod: 'rss', url: 'https://feeds.reuters.com/reuters/topNews' },
-    { id: 'ap', name: 'AP News', region: 'US', language: 'en', intakeMethod: 'rss', url: 'https://feeds.apnews.com/rss/apf-topnews' },
-    { id: 'guardian', name: 'The Guardian', region: 'UK', language: 'en', intakeMethod: 'rss', url: 'https://www.theguardian.com/world/rss' },
-    { id: 'arabianbusiness', name: 'Arabian Business', region: 'UAE', language: 'en', intakeMethod: 'rss', url: 'https://www.arabianbusiness.com/rss' },
-    { id: 'gdacs', name: 'Global Disaster Alerts', region: 'Global', language: 'en', intakeMethod: 'rss', url: 'https://www.gdacs.org/xml/rss.xml' }
+    { source_id: 'fox', name: 'Fox News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/latest.xml', active: true, priority: 1 },
+    { source_id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intake_method: 'rss', base_url: 'https://www.aljazeera.com/xml/rss/all.xml', active: true, priority: 1 },
+    { source_id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intake_method: 'rss', base_url: 'https://feeds.bbci.co.uk/news/world/rss.xml', active: true, priority: 1 },
+    { source_id: 'reuters', name: 'Reuters', region: 'Global', language: 'en', intake_method: 'rss', base_url: 'https://feeds.reuters.com/reuters/topNews', active: true, priority: 1 },
+    { source_id: 'ap', name: 'AP News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://feeds.apnews.com/rss/apf-topnews', active: true, priority: 1 },
+    { source_id: 'guardian', name: 'The Guardian', region: 'UK', language: 'en', intake_method: 'rss', base_url: 'https://www.theguardian.com/world/rss', active: true, priority: 1 },
+    { source_id: 'arabianbusiness', name: 'Arabian Business', region: 'UAE', language: 'en', intake_method: 'rss', base_url: 'https://www.arabianbusiness.com/rss', active: true, priority: 1 },
+    { source_id: 'gdacs', name: 'Global Disaster Alerts', region: 'Global', language: 'en', intake_method: 'rss', base_url: 'https://www.gdacs.org/xml/rss.xml', active: true, priority: 1 }
 ];
 
-const DATA_DIR = path.join(__dirname, '../../public/data/latest');
+const __dirname = path.dirname(new URL(import.meta.url).pathname).replace(/^\/([A-Z]:)/, '$1');
+const DATA_DIR = path.resolve(__dirname, '../../public/data/latest');
 const HEADLINES_FILE = path.join(DATA_DIR, 'headlines.json');
 const ALERTS_FILE = path.join(DATA_DIR, 'alerts.json');
 
@@ -47,21 +49,22 @@ export async function runIntake() {
     const now = new Date().toISOString();
 
     for (const source of SOURCES) {
+        if (!source.active) continue;
         console.log(`Fetching RSS for ${source.name}...`);
         try {
-            const feed = await parser.parseURL(source.url);
+            const feed = await parser.parseURL(source.base_url);
             
-            if (source.id === 'gdacs') {
+            if (source.source_id === 'gdacs') {
                 // Special handling for GDACS alerts
                 console.log(`GDACS: Found ${feed.items.length} raw items.`);
                 for (const item of feed.items) {
                     activeAlerts.push({
-                        id: item.guid || generateId(item.link || item.title || ''),
+                        alert_id: item.guid || generateId(item.link || item.title || ''),
                         title: item.title,
                         description: item.contentSnippet,
                         severity: (item as any).alertlevel || (item as any).level || 'Green',
-                        link: item.link,
-                        pubDate: item.isoDate || now
+                        url: item.link,
+                        published_at: item.isoDate || now
                     });
                 }
                 continue;
@@ -70,15 +73,22 @@ export async function runIntake() {
             for (const item of feed.items) {
                 if (!item.title || !item.link) continue;
                 
-                const id = generateId(item.link);
-                if (!allHeadlines.find(h => h.id === id)) {
+                const hash = generateId(item.link);
+                if (!allHeadlines.find(h => h.hash === hash)) {
+                    const regionTag = ['aljazeera', 'arabianbusiness'].includes(source.source_id) ? 'middle-east' : 'global';
                     newHeadlines.push({
-                        id,
-                        sourceId: source.id,
+                        headline_id: `hl_${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+                        source_id: source.source_id,
                         title: item.title,
                         url: item.link,
-                        publishTime: item.isoDate || item.pubDate || now,
-                        ingestTime: now
+                        canonical_url: item.link,
+                        section: null,
+                        published_at: item.isoDate || item.pubDate || now,
+                        ingested_at: now,
+                        seen_before: false,
+                        extraction_status: 'pending',
+                        hash: hash,
+                        region_tag: regionTag
                     });
                 }
             }
@@ -98,6 +108,6 @@ export async function runIntake() {
     return merged;
 }
 
-if (require.main === module) {
+if (process.argv[1] && (process.argv[1].endsWith('LayerA_Intake.ts') || process.argv[1].endsWith('LayerA_Intake.js'))) {
     runIntake().catch(console.error);
 }

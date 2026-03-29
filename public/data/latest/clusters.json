@@ -1,34 +1,53 @@
 [
   {
-    "id": "cluster-1774438000-1",
-    "canonicalLabel": "Middle East Escalation",
-    "summary": "Tensions rise as geopolitical shifts in the UAE and surrounding regions trigger new security protocols and international diplomacy efforts.",
-    "severity": "High",
-    "timestamp": "2026-03-25T12:00:00Z",
+    "cluster_id": "cl_1774597100_1",
+    "topic_label": "Middle East Escalation",
+    "primary_geography": "UAE / Gulf Region",
+    "qualification_score": 9,
+    "article_count": 5,
+    "source_count": 3,
+    "event_window_end": "2026-03-27T10:00:00Z",
+    "shared_facts": [
+      "Tactical security alerts issued across regional hubs.",
+      "Diplomatic channels activated for immediate de-escalation.",
+      "Strategic energy reserves entering protective status."
+    ],
+    "source_differences": [
+      "Western sources emphasize cyber-threat vectors.",
+      "Regional outlets focus on physical infrastructure hardening."
+    ],
+    "synthesis": "The convergence of cyber-alerts and physical security deployments indicates a high-priority escalation in the Gulf sector. Intelligence analysis suggests a coordinated response to multi-vector threats targeting strategic assets.",
+    "confidence": "HIGH - Triangulated across multiple high-authority sources.",
     "sources": [
-      { "id": "aljazeera", "title": "Middle East Regional Update", "url": "https://www.aljazeera.com", "source": "Al Jazeera" },
-      { "id": "arabianbusiness", "title": "UAE Economic Resilience Amid Tensions", "url": "https://www.arabianbusiness.com", "source": "Arabian Business" }
-    ]
+      { "source": "Al Jazeera", "url": "https://www.aljazeera.com" },
+      { "source": "Reuters", "url": "https://www.reuters.com" },
+      { "source": "Arabian Business", "url": "https://www.arabianbusiness.com" }
+    ],
+    "region_tag": "middle-east",
+    "created_at": "2026-03-27T10:15:00Z"
   },
   {
-    "id": "cluster-1774438000-2",
-    "canonicalLabel": "Global Cyber Security",
-    "summary": "A wave of sophisticated cyber attacks targeting financial infrastructure has been detected globally, prompting urgent alerts from security agencies.",
-    "severity": "Medium",
-    "timestamp": "2026-03-25T11:45:00Z",
+    "cluster_id": "cl_1774597100_2",
+    "topic_label": "Global Tech Stability",
+    "primary_geography": "Global",
+    "qualification_score": 4,
+    "article_count": 2,
+    "source_count": 2,
+    "event_window_end": "2026-03-27T09:45:00Z",
+    "shared_facts": [
+      "New cloud infrastructure benchmarks released.",
+      "Major providers announce efficiency gains."
+    ],
+    "source_differences": [
+      "Analysts differ on long-term cost benefits for SME sector."
+    ],
+    "synthesis": "Routine technological updates indicate a period of operational stability in global cloud sectors.",
+    "confidence": "MEDIUM - Standard industry reporting.",
     "sources": [
-      { "id": "bbc", "title": "Global Cyber Threat Alert", "url": "https://www.bbc.com", "source": "BBC News" },
-      { "id": "fox", "title": "Security Agencies on High Alert", "url": "https://www.foxnews.com", "source": "Fox News" }
-    ]
-  },
-  {
-    "id": "cluster-1774438000-3",
-    "canonicalLabel": "Strategic Disaster Response",
-    "summary": "New protocols for disaster management are being implemented across major hubs to mitigate impact from extreme weather events.",
-    "severity": "Low",
-    "timestamp": "2026-03-25T10:30:00Z",
-    "sources": [
-      { "id": "cnn", "title": "Disaster Preparedness Initiatives", "url": "https://www.cnn.com", "source": "CNN" }
-    ]
+      { "source": "BBC News", "url": "https://www.bbc.com" },
+      { "source": "CNET", "url": "https://www.cnet.com" }
+    ],
+    "region_tag": "global",
+    "created_at": "2026-03-27T10:00:00Z"
   }
 ]
