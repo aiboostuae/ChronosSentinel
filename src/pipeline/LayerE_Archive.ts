@@ -16,7 +16,7 @@ export async function runArchive() {
     const clusters: ClusterObject[] = JSON.parse(fs.readFileSync(path.join(LATEST_DIR, 'clusters.json'), 'utf-8'));
 
     const now = new Date();
-    const dateStr = now.toISOString().split('T')[0];
+    const dateStr = now.toISOString().split('T')[0] as string;
     const timeStr = `run-${now.getHours().toString().padStart(2, '0')}${now.getMinutes().toString().padStart(2, '0')}`;
 
     const targetDir = path.join(ARCHIVE_DIR, dateStr);

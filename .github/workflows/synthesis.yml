@@ -2,7 +2,8 @@ name: Chronos Sentinel Synthesis
 
 on:
   schedule:
-    - cron: '15 * * * *'
+    # Run every 90 minutes to stay within Gemini free-tier limits (PRAXIS)
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,6 +27,7 @@ jobs:
       - name: Execute Layer C, D (Synthesis) and E (Archive)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: npm run layer:cde
         
       - name: Commit and Push Clusters and Archive
