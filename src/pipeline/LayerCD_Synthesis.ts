@@ -240,5 +240,10 @@ ${compareText}`;
 }
 
 if (process.argv[1] && (process.argv[1].endsWith('LayerCD_Synthesis.ts') || process.argv[1].endsWith('LayerCD_Synthesis.js'))) {
-    runSynthesis().catch(console.error);
+    runSynthesis()
+        .then(() => process.exit(0))
+        .catch(err => {
+            console.error(err);
+            process.exit(1);
+        });
 }

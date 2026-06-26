@@ -95,5 +95,10 @@ export async function runExtraction() {
 }
 
 if (process.argv[1] && (process.argv[1].endsWith('LayerB_Extraction.ts') || process.argv[1].endsWith('LayerB_Extraction.js'))) {
-    runExtraction().catch(console.error);
+    runExtraction()
+        .then(() => process.exit(0))
+        .catch(err => {
+            console.error(err);
+            process.exit(1);
+        });
 }

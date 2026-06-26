@@ -425,7 +425,7 @@ td a:hover {
         backdrop-filter: blur(20px);
         padding: 1rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
         gap: 0.5rem;
         border-top: 1px solid var(--border-glass);
         z-index: 1000;
@@ -477,4 +477,148 @@ td a:hover {
 @keyframes fadeInScale {
     from { opacity: 0; transform: scale(0.98) translateY(10px); }
     to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* ─── Archive Calendar Grid UI ─── */
+.archive-nav-box {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: var(--bg-surface);
+    backdrop-filter: blur(12px);
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-glass);
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+    background: var(--bg-surface);
+    backdrop-filter: blur(12px);
+    padding: 1.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-glass);
+}
+
+.calendar-day {
+    aspect-ratio: 1.2;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-glass);
+    border-radius: 8px;
+    padding: 0.75rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.calendar-day:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 229, 255, 0.15);
+}
+
+.calendar-day.active {
+    background: linear-gradient(135deg, var(--accent-indigo), var(--accent-purple));
+    border-color: transparent;
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+.calendar-day.empty {
+    opacity: 0.15;
+    cursor: default;
+    pointer-events: none;
+}
+
+.day-num {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.calendar-day.active .day-num {
+    color: #fff;
+}
+
+.activity-indicators {
+    display: flex;
+    gap: 3px;
+    height: 4px;
+    width: 100%;
+}
+
+.activity-bar {
+    flex: 1;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.bar-low { background: var(--threat-green); }
+.bar-mid { background: var(--threat-yellow); }
+.bar-high { background: var(--threat-red); }
+
+.day-detail-panel {
+    background: var(--bg-surface);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border-glass);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.detail-header {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 1rem;
+}
+
+.detail-header h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.runs-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.run-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-glass);
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.run-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent-cyan);
+    transform: translateY(-2px);
+}
+
+.run-item .run-time {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--accent-cyan);
+    font-size: 0.95rem;
+}
+
+.run-item .run-stats {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
 }

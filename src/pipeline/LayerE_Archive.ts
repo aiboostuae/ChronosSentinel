@@ -73,5 +73,10 @@ export async function runArchive() {
 }
 
 if (process.argv[1] && (process.argv[1].endsWith('LayerE_Archive.ts') || process.argv[1].endsWith('LayerE_Archive.js'))) {
-    runArchive().catch(console.error);
+    runArchive()
+        .then(() => process.exit(0))
+        .catch(err => {
+            console.error(err);
+            process.exit(1);
+        });
 }

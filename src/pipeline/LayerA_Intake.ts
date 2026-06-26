@@ -109,5 +109,10 @@ export async function runIntake() {
 }
 
 if (process.argv[1] && (process.argv[1].endsWith('LayerA_Intake.ts') || process.argv[1].endsWith('LayerA_Intake.js'))) {
-    runIntake().catch(console.error);
+    runIntake()
+        .then(() => process.exit(0))
+        .catch(err => {
+            console.error(err);
+            process.exit(1);
+        });
 }
