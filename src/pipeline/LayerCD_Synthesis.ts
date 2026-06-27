@@ -14,64 +14,45 @@ const CLUSTERS_FILE = path.join(DATA_DIR, 'clusters.json');
 // PRAXIS: Do not replace Gemini blindly. Fallback to Groq only on 429 errors.
 
 async function callAI(prompt: string, schema: any): Promise<any> {
-    // --- Primary: Gemini ---
     if (process.env.GEMINI_API_KEY) {
-        try {
-            const ai = new GoogleGenAI({});
-            const res = await ai.models.generateContent({
-                model: 'gemini-1.5-flash',
-                contents: prompt,
-                config: {
-                    responseMimeType: 'application/json',
-                    responseSchema: schema
-                } as any
-            });
-            return JSON.parse(res.text || 'null');
-        } catch (e: any) {
-            const is429 = e?.status === 429
-                || e?.message?.includes('429')
-                || e?.message?.includes('quota')
-                || e?.message?.includes('rate');
-            if (is429) {
-                console.warn('[Gemini] 429 rate limit hit — falling back to Groq.');
-            } else {
-                throw e; // Non-rate-limit error: re-throw, don't waste Groq quota
+        let retries = 3;
+        while (retries > 0) {
+            try {
+                const ai = new GoogleGenAI({});
+                const res = await ai.models.generateContent({
+                    model: 'gemini-1.5-flash',
+                    contents: prompt,
+                    config: {
+                        responseMimeType: 'application/json',
+                        responseSchema: schema
+                    } as any
+                });
+                return JSON.parse(res.text || 'null');
+            } catch (e: any) {
+                const is429 = e?.status === 429
+                    || e?.message?.includes('429')
+                    || e?.message?.includes('quota')
+                    || e?.message?.includes('rate');
+                if (is429 && retries > 1) {
+                    console.warn(`[Gemini] 429 rate limit hit — retrying in 5 seconds... (${retries - 1} attempts left)`);
+                    await new Promise(r => setTimeout(r, 5000));
+                    retries--;
+                } else {
+                    throw e; 
+                }
             }
         }
     }
 
-    // --- Fallback: Groq ---
-    if (process.env.GROQ_API_KEY) {
-        console.log('[Groq] Attempting synthesis via Groq fallback...');
-        const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                model: 'llama3-8b-8192',
-                messages: [{ role: 'user', content: prompt }],
-                response_format: { type: 'json_object' },
-                temperature: 0.3
-            })
-        });
-        if (!response.ok) {
-            throw new Error(`[Groq] API error: ${response.status} ${response.statusText}`);
-        }
-        const data = await response.json() as any;
-        return JSON.parse(data.choices[0].message.content || 'null');
-    }
-
-    throw new Error('No AI provider available. Set GEMINI_API_KEY or GROQ_API_KEY.');
+    throw new Error('No AI provider available. Set GEMINI_API_KEY.');
 }
 
 // ─── Synthesis ────────────────────────────────────────────────────────────────
 export async function runSynthesis() {
     console.log("Starting Layer C & D: Synthesis");
 
-    if (!process.env.GEMINI_API_KEY && !process.env.GROQ_API_KEY) {
-        console.warn("No AI provider keys provided. Skipping synthesis.");
+    if (!process.env.GEMINI_API_KEY) {
+        console.warn("No GEMINI_API_KEY provided. Skipping synthesis.");
         process.exit(0);
     }
 

@@ -108,7 +108,7 @@ function renderClusters(clusters, container) {
             <div class="card-header">
                 <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
                     <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
-                    <span style="font-size:0.75rem; color:var(--text-muted);">${displayTime}</span>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">${displayTime}</span>
                 </div>
                 <h3>${topic}</h3>
             </div>
@@ -131,7 +131,7 @@ function renderClusters(clusters, container) {
             </div>
             <div class="syn-section">
                 <div class="syn-title">Confidence</div>
-                <div class="syn-text" style="font-style: italic; color: var(--text-muted); font-size:0.85rem;">${c.confidence || 'Unconfirmed'}</div>
+                <div class="syn-text" style="font-style: italic; color: var(--text-secondary); font-size:0.85rem;">${c.confidence || 'Unconfirmed'}</div>
             </div>
 
             <div class="syn-section">
@@ -176,7 +176,7 @@ async function loadHeadlines() {
             const sourceLabel = (h.source_id || h.sourceId || 'src').toString();
             const tr = document.createElement('tr');
             tr.innerHTML = `
-                <td style="color:var(--text-muted); font-size:0.8rem;">${time}</td>
+                <td style="color:var(--text-secondary); font-size:0.8rem;">${time}</td>
                 <td><span class="source-tag">${sourceLabel.toUpperCase()}</span></td>
                 <td><a href="${h.url || '#'}" target="_blank">${h.title || 'Untitled Report'}</a></td>
             `;
@@ -259,7 +259,7 @@ function renderCalendar(manifest) {
     // Day Names
     ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].forEach(d => {
         const h = document.createElement('div');
-        h.style = 'text-align:center; font-size:0.7rem; color:var(--text-muted); font-weight:bold; margin-bottom:0.5rem;';
+        h.style = 'text-align:center; font-size:0.7rem; color:var(--text-secondary); font-weight:bold; margin-bottom:0.5rem;';
         h.textContent = d;
         grid.appendChild(h);
     });

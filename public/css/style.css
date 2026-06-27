@@ -16,6 +16,7 @@
     --text-primary: #FFFFFF;
     --text-secondary: #94A3B8;
     --text-tertiary: #64748B;
+    --text-muted: #475569;
     
     /* Borders & Depth */
     --border-glass: rgba(255, 255, 255, 0.08);
@@ -64,9 +65,9 @@ body {
 
 /* ─── App Header ─── */
 .app-header {
-    background: rgba(5, 7, 10, 0.8);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: rgba(5, 7, 10, 0.85);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
     border-bottom: 1px solid var(--border-glass);
     padding: 1.25rem 2rem;
     position: sticky;
@@ -75,7 +76,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    gap: 2rem;
 }
 
 .logo-area h1 {
@@ -156,35 +158,39 @@ body {
 /* ─── Navigation ─── */
 .view-controls {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.4rem;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .view-btn {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid var(--border-glass);
+    background: transparent;
+    border: none;
     color: var(--text-secondary);
-    padding: 0.6rem 1.25rem;
-    border-radius: 8px;
+    padding: 0.6rem 1.5rem;
+    border-radius: 40px;
     cursor: pointer;
     font-family: 'Outfit', sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .view-btn:hover {
-    background: rgba(255, 255, 255, 0.08);
     color: var(--text-primary);
-    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .view-btn.active {
     background: linear-gradient(135deg, var(--accent-indigo), var(--accent-purple));
     color: #fff;
-    border-color: transparent;
-    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    transform: none;
 }
 
 /* ─── Status Grid ─── */
@@ -418,17 +424,28 @@ td a:hover {
 
     .view-controls {
         position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        background: rgba(5, 7, 10, 0.9);
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 400px;
+        background: rgba(15, 21, 33, 0.95);
         backdrop-filter: blur(20px);
-        padding: 1rem;
+        padding: 0.5rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 0.5rem;
-        border-top: 1px solid var(--border-glass);
+        gap: 0.25rem;
+        border-radius: 50px;
+        border: 1px solid var(--border-glass);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
         z-index: 1000;
+    }
+
+    .view-btn {
+        padding: 0.5rem;
+        font-size: 0.65rem;
+        text-align: center;
+        border-radius: 30px;
     }
 
     #headlines-table thead {
@@ -500,16 +517,17 @@ td a:hover {
     margin-bottom: 2.5rem;
     background: var(--bg-surface);
     backdrop-filter: blur(12px);
-    padding: 1.5rem;
-    border-radius: 16px;
+    padding: 2rem;
+    border-radius: 24px;
     border: 1px solid var(--border-glass);
+    box-shadow: var(--shadow-premium);
 }
 
 .calendar-day {
-    aspect-ratio: 1.2;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid var(--border-glass);
-    border-radius: 8px;
+    aspect-ratio: 1;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
     padding: 0.75rem;
     position: relative;
     cursor: pointer;
@@ -517,13 +535,27 @@ td a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
+}
+
+.calendar-day::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle at top right, rgba(255,255,255,0.05), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.calendar-day:hover::after {
+    opacity: 1;
 }
 
 .calendar-day:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.06);
     border-color: var(--accent-cyan);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 229, 255, 0.15);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 229, 255, 0.15);
 }
 
 .calendar-day.active {
