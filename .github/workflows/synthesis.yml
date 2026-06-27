@@ -2,8 +2,8 @@ name: Chronos Sentinel Synthesis
 
 on:
   schedule:
-    # Run every 90 minutes to stay within Gemini free-tier limits (PRAXIS)
-    - cron: '0 */2 * * *'
+    # Run every 30 minutes to stay within Gemini free-tier limits (PRAXIS)
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:

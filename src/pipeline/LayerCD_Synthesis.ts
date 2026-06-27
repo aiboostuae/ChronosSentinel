@@ -14,7 +14,7 @@ const CLUSTERS_FILE = path.join(DATA_DIR, 'clusters.json');
 // PRAXIS: Do not replace Gemini blindly. Fallback to Groq only on 429 errors.
 
 async function callAI(prompt: string, schema: any): Promise<any> {
-    const models = ['gemini-3.1-flash-lite', 'gemini-3-flash', 'gemini-3.5-flash'];
+    const models = ['gemini-1.5-flash-8b', 'gemini-1.5-flash', 'gemini-1.5-pro'];
     const telemetry: any = { attempts: [] };
 
     if (process.env.GEMINI_API_KEY) {
