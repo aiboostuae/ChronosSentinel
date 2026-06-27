@@ -1,10 +1,11 @@
 [
   {
-    "cluster_id": "12a48b1921a292b16f6390f3e6e269c0",
-    "topic_label": "Venezuela earthquake and aftershocks",
+    "cluster_id": "a03dad1959e8bed63ced9b4e7f14aef8",
+    "topic_label": "Venezuela Earthquakes and Recovery",
     "event_window_start": "2026-06-26T23:13:03.000Z",
-    "event_window_end": "2026-06-27T18:41:03.000Z",
+    "event_window_end": "2026-06-27T19:52:15.000Z",
     "article_ids": [
+      "art_1782594048081_z3j7q",
       "art_1782589221056_f3jcj",
       "art_1782566837125_2tnyq",
       "art_1782566840395_4k1zm",
@@ -14,35 +15,41 @@
       "art_1782518873683_b9f2c"
     ],
     "source_ids": [
+      "guardian",
       "bbc",
       "fox",
       "aljazeera"
     ],
-    "article_count": 7,
-    "source_count": 3,
+    "article_count": 8,
+    "source_count": 4,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-06-27T20:38:23.722Z",
-    "updated_at": "2026-06-27T20:38:23.722Z",
+    "created_at": "2026-06-27T22:00:04.343Z",
+    "updated_at": "2026-06-27T22:00:04.343Z",
     "region_tag": "global",
     "shared_facts": [
-      "Two earthquakes struck Venezuela on Wednesday.",
-      "The city of La Guaira is the epicenter of the disaster.",
-      "The confirmed death toll has reached at least 920 people.",
-      "International search and rescue efforts are underway.",
-      "The critical 72-hour survival window is ending."
+      "Two earthquakes with magnitudes of 7.2 and 7.5 struck northern Venezuela on Wednesday.",
+      "The city of La Guaira has been identified as a heavily impacted area.",
+      "International search and rescue operations are currently underway.",
+      "The disaster occurred three days prior to the reports being filed."
     ],
     "source_differences": [
-      "Fox News emphasizes the specific involvement of U.S. military forces and naval assets, whereas other outlets focus on broader international participation.",
-      "Al Jazeera reports a significantly higher number of missing persons (51,000+) compared to other reports and notes government-imposed access restrictions in La Guaira.",
-      "The BBC uniquely details specific rescue operations, such as the retrieval of a newborn baby in La Guaira.",
-      "There is a discrepancy in reported injuries, with sources citing figures ranging from 3,300 to 4,300."
+      "The Guardian reports a significantly higher death toll of 1,430 compared to the 920 cited by BBC, Fox, and Al Jazeera.",
+      "Fox News emphasizes the role of U.S. military forces and naval ships in the response, while the BBC focuses on a broader international coalition including European nations.",
+      "Al Jazeera highlights the restriction of access to the disaster zone by Venezuelan authorities, a detail omitted by other outlets.",
+      "There is a discrepancy in the number of missing persons, ranging from 51,000 to nearly 70,000 reported across sources."
     ],
-    "synthesis": "Following back-to-back 7.2 and 7.5 magnitude earthquakes on Wednesday, Venezuela is experiencing a humanitarian crisis concentrated in La Guaira with at least 920 fatalities. While international rescue teams are actively operating, their efforts are complicated by logistical challenges and reported movement restrictions by the government. The situation is critical as the 72-hour survival window closes amidst varying reports on the total number of missing individuals.",
-    "confidence": "Generally consistent regarding the disaster event and death toll, but contains notable contradictions regarding total injury counts and missing persons figures.",
+    "synthesis": "Following back-to-back 7.2 and 7.5 magnitude earthquakes in northern Venezuela, rescue efforts are intensifying as the critical 72-hour window for survival closes. While international aid is arriving, the response is complicated by significant logistical challenges, restricted access to the hardest-hit areas, and conflicting data regarding the total number of casualties. Local civilians remain heavily involved in manual search efforts amidst the ongoing international mission.",
+    "confidence": "Low. The reports contain significant discrepancies regarding official death tolls and the scale of the missing population, indicating a lack of verified, centralized information from the Venezuelan government.",
     "sources": [
+      {
+        "id": "art_1782594048081_z3j7q",
+        "url": "https://www.theguardian.com/world/2026/jun/27/venezuela-earthquakes-death-toll-rises-jorge-rodriguez",
+        "source": "guardian",
+        "title": "Venezuela earthquakes: death toll rises again to more than 1,400"
+      },
       {
         "id": "art_1782589221056_f3jcj",
         "url": "https://www.bbc.co.uk/news/videos/cjdgrrvvvjgo?at_medium=RSS&at_campaign=rss",
@@ -293,6 +300,346 @@
         "url": "https://www.aljazeera.com/news/2026/6/27/israeli-drone-attack-kills-young-girl-in-gaza-safe-zone?traffic_source=rss",
         "source": "aljazeera",
         "title": "Israeli drone attack kills young girl in Gaza safe zone"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "345a3296d4968d07ea45dcef762be6a9",
+    "topic_label": "Global European Heatwave",
+    "event_window_start": "2026-06-26T23:49:37.000Z",
+    "event_window_end": "2026-06-27T20:48:16.000Z",
+    "article_ids": [
+      "art_1782594034769_7u3ca",
+      "art_1782554879105_jb1xr",
+      "art_1782554886481_xsce3",
+      "art_1782546579578_pne2i",
+      "art_1782536035140_crnd3",
+      "art_1782518863024_tc4jq"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-27T22:00:04.343Z",
+    "updated_at": "2026-06-27T22:00:04.343Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A significant heatwave is impacting large portions of Europe with temperatures exceeding seasonal averages.",
+      "The heatwave is moving in a north-easterly direction across the continent.",
+      "Germany has experienced record-breaking high temperatures.",
+      "The extreme weather is having documented negative impacts on human health and regional infrastructure."
+    ],
+    "source_differences": [
+      "BBC emphasizes the breadth of the crisis by citing a specific figure of 150 million affected people.",
+      "The Guardian provides technical analysis regarding wet bulb globe temperature and long-term climate data on glacier melt.",
+      "Al Jazeera focuses on the geopolitical and social toll, specifically highlighting death counts and disruptions to rail and power generation.",
+      "One Guardian report specifically focuses on consumer behavior shifts in the UK, such as increased hotel bookings for air conditioning."
+    ],
+    "synthesis": "An extensive heatwave is currently tracking northeast across Europe, resulting in record-breaking temperatures and significant health and environmental consequences, including accelerated glacier loss. While reporting remains consistent regarding the meteorological data, sources vary in their focus between individual consumer impacts, regional infrastructure strain, and broader climate attribution studies. The event has prompted warnings from meteorological organizations regarding long-term impacts on ecosystems and public health.",
+    "confidence": "High; reporting is consistent across all sources regarding the event's progression and severity, with minor variations in specific temperature readings due to the use of preliminary versus finalized data.",
+    "sources": [
+      {
+        "id": "art_1782594034769_7u3ca",
+        "url": "https://www.bbc.co.uk/news/articles/cx2vdydz31no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Heatwave breaks more records in northern and central Europe"
+      },
+      {
+        "id": "art_1782554879105_jb1xr",
+        "url": "https://www.theguardian.com/world/live/2026/jun/27/europe-heatwave-germany-poland-france-uk-temperature-heat-latest-news-updates",
+        "source": "guardian",
+        "title": "Europe heatwave live: Germany braced for temperatures ‘well over 40C’; extreme heat warnings for England"
+      },
+      {
+        "id": "art_1782554886481_xsce3",
+        "url": "https://www.aljazeera.com/news/2026/6/27/germany-braces-for-record-breaking-temperatures-as-heatwave-moves-east?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Germany braces for record-breaking temperatures as heatwave moves east"
+      },
+      {
+        "id": "art_1782546579578_pne2i",
+        "url": "https://www.theguardian.com/environment/2026/jun/27/parents-air-conditioned-hotels-keep-babies-safe-heatwave",
+        "source": "guardian",
+        "title": "Parents booking air-conditioned hotels to keep babies safe in UK heatwave"
+      },
+      {
+        "id": "art_1782536035140_crnd3",
+        "url": "https://www.theguardian.com/environment/2026/jun/27/snow-and-ice-on-swiss-glaciers-melting-at-alarming-rate-amid-heatwave-expert-says",
+        "source": "guardian",
+        "title": "Snow and ice on Swiss glaciers melting at alarming rate amid heatwave, expert says"
+      },
+      {
+        "id": "art_1782518863024_tc4jq",
+        "url": "https://www.aljazeera.com/sports/2026/6/26/paris-diamond-league-to-go-ahead-with-safety-measures-amid-heatwave?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Paris Diamond League to go ahead with safety measures amid heatwave"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "364684f966da243086d5230499bb8494",
+    "topic_label": "2026 FIFA World Cup Events",
+    "event_window_start": "2026-06-26T23:09:39.000Z",
+    "event_window_end": "2026-06-27T18:55:36.000Z",
+    "article_ids": [
+      "art_1782589216736_eq3d7",
+      "art_1782589217779_72u06",
+      "art_1782589222083_zbzs2",
+      "art_1782589224316_7acuh",
+      "art_1782578348936_v225n",
+      "art_1782578355169_djh5a",
+      "art_1782566830519_0g696",
+      "art_1782566841488_yh6gf",
+      "art_1782554874797_7sspj",
+      "art_1782554877952_eu5vt",
+      "art_1782546575155_9grq6",
+      "art_1782546580625_iinhw",
+      "art_1782546582710_r5l4c",
+      "art_1782546583747_unadg",
+      "art_1782546587490_ouebo",
+      "art_1782536030976_atsy4",
+      "art_1782536034089_3hjti",
+      "art_1782536037314_ak68j",
+      "art_1782518874721_syxw6"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 19,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-27T22:00:04.343Z",
+    "updated_at": "2026-06-27T22:00:04.343Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A World Cup match between Egypt and Iran resulted in a 1-1 draw.",
+      "Mohamed Salah was substituted out of the match against Iran in the 57th minute.",
+      "Mohamed Salah is currently being assessed by medical staff for a left knee injury."
+    ],
+    "source_differences": [
+      "Fox News focuses specifically on the physical health of individual players and the tactical implications of group stage match outcomes.",
+      "Aljazeera provides broader context regarding the socio-political challenges faced by national teams, including Iranian logistical issues and Bosnian historical narratives.",
+      "The sources cover entirely distinct narratives: one focuses on clinical injury updates, while others address geopolitical tensions and historical national trauma."
+    ],
+    "synthesis": "Mohamed Salah sustained a left knee injury during a 1-1 draw between Egypt and Iran, though early reports suggest the injury may not be severe. While the match concluded as a draw, the event is situated within a wider context of logistical and political challenges affecting teams at the tournament. FIFA's broader tournament operations face scrutiny due to ongoing international tensions impacting various participating nations.",
+    "confidence": "Consistent regarding the specific match result and the injury incident, but contains significant thematic divergence due to the disparate nature of the provided articles.",
+    "sources": [
+      {
+        "id": "art_1782589216736_eq3d7",
+        "url": "https://www.foxnews.com/sports/egypt-manager-hossam-hassan-addresses-concerns-over-mohamed-salahs-left-knee-injury",
+        "source": "fox",
+        "title": "Egypt Manager Hossam Hassan Addresses Concerns Over Mohamed Salah's Left Knee Injury"
+      },
+      {
+        "id": "art_1782589217779_72u06",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/south-africas-broos-smiles-and-snarls-ahead-of-canada-world-cup-showdown?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "South Africa’s Broos smiles and snarls before Canada World Cup showdown"
+      },
+      {
+        "id": "art_1782589222083_zbzs2",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/iran-urge-fifa-to-stand-up-to-really-terrible-world-cup-treatment-by-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran urge FIFA to stand up to ‘really terrible’ World Cup treatment by US"
+      },
+      {
+        "id": "art_1782589224316_7acuh",
+        "url": "https://www.foxnews.com/sports/logic-behind-two-world-cup-teams-might-actually-want-win-final-group-stage-games",
+        "source": "fox",
+        "title": "The logic behind why two World Cup teams might not actually want to win their final group stage games"
+      },
+      {
+        "id": "art_1782578348936_v225n",
+        "url": "https://www.aljazeera.com/opinions/2026/6/27/bosnia-the-lilies-and-dragons-of-the-world?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Bosnia: The lilies and dragons of the World Cup"
+      },
+      {
+        "id": "art_1782578355169_djh5a",
+        "url": "https://www.foxnews.com/outkick-sports/bill-maher-lauds-foreign-visitors-world-cup-reminding-americans-place-kind-awesome",
+        "source": "fox",
+        "title": "Bill Maher lauds foreign visitors at World Cup: 'They are reminding Americans this place is kind of awesome'"
+      },
+      {
+        "id": "art_1782566830519_0g696",
+        "url": "https://www.foxnews.com/outkick-sports/croatian-world-cup-fans-take-philadelphia-invade-couples-wedding-photos",
+        "source": "fox",
+        "title": "Croatian World Cup fans take over Philadelphia and invade some couple's wedding photos"
+      },
+      {
+        "id": "art_1782566841488_yh6gf",
+        "url": "https://www.foxnews.com/outkick-sports/iran-egypt-world-cup-showdown-collides-seattles-pride-celebrations",
+        "source": "fox",
+        "title": "Iran-Egypt World Cup showdown collides with Seattle’s Pride celebrations"
+      },
+      {
+        "id": "art_1782554874797_7sspj",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/joy-disappointment-protests-a-view-from-egypt-iran-world-cup-tie?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Joy, disappointment, protests: A view from Egypt-Iran World Cup tie"
+      },
+      {
+        "id": "art_1782554877952_eu5vt",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FIFA World Cup 2026: Saturday schedule, Round of 32 standings, predictions"
+      },
+      {
+        "id": "art_1782546575155_9grq6",
+        "url": "https://www.aljazeera.com/news/2026/6/27/belgium-new-zealand-fifa-world-cup-2026-trossard-lukaku-de-bruyne-saelemaekers?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Belgium reach World Cup knockouts as New Zealand exit tournament"
+      },
+      {
+        "id": "art_1782546580625_iinhw",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Which teams have qualified for the World Cup 2026 knockouts, round of 32?"
+      },
+      {
+        "id": "art_1782546582710_r5l4c",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/which-teams-are-in-the-world-cup-round-of-32-and-whats-the-schedule?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Which teams are in the World Cup round of 32, and what’s the schedule?"
+      },
+      {
+        "id": "art_1782546583747_unadg",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/iran-wait-on-world-cup-progress-after-late-goal-disallowed-in-egypt-draw?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran wait on World Cup progress after late goal disallowed in Egypt draw"
+      },
+      {
+        "id": "art_1782546587490_ouebo",
+        "url": "https://www.theguardian.com/society/2026/jun/27/prosecutors-cps-expect-rise-domestic-abuse-football-world-cup",
+        "source": "guardian",
+        "title": "Prosecutors in England and Wales expect rise in domestic abuse during World Cup"
+      },
+      {
+        "id": "art_1782536030976_atsy4",
+        "url": "https://www.theguardian.com/world/2026/jun/27/arab-world-cup-commentators-fuel-fan-passions-language-poetry",
+        "source": "guardian",
+        "title": "‘You’re history itself!’: how Arab World Cup commentators fuel fans’ passions"
+      },
+      {
+        "id": "art_1782536034089_3hjti",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/spain-beat-uruguay-1-0-to-clinch-world-cup-group-h-top-spot?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Spain beat Uruguay 1-0 to clinch World Cup Group H top spot"
+      },
+      {
+        "id": "art_1782536037314_ak68j",
+        "url": "https://www.aljazeera.com/sports/2026/6/27/cape-verde-qualify-for-world-cup-round-of-32-set-up-date-with-argentina?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Cape Verde qualify for World Cup Round of 32, set up date with Argentina"
+      },
+      {
+        "id": "art_1782518874721_syxw6",
+        "url": "https://www.foxnews.com/us/feds-charge-four-world-cup-drone-crackdown-tops-400-seizures-across-us-host-cities-nationwide",
+        "source": "fox",
+        "title": "Feds charge four as World Cup drone crackdown tops 400 seizures across US host cities nationwide"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "12a48b1921a292b16f6390f3e6e269c0",
+    "topic_label": "Venezuela earthquake and aftershocks",
+    "event_window_start": "2026-06-26T23:13:03.000Z",
+    "event_window_end": "2026-06-27T18:41:03.000Z",
+    "article_ids": [
+      "art_1782589221056_f3jcj",
+      "art_1782566837125_2tnyq",
+      "art_1782566840395_4k1zm",
+      "art_1782554883292_kyg1b",
+      "art_1782546584782_56ts4",
+      "art_1782536032003_mla36",
+      "art_1782518873683_b9f2c"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-27T20:38:23.722Z",
+    "updated_at": "2026-06-27T20:38:23.722Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Two earthquakes struck Venezuela on Wednesday.",
+      "The city of La Guaira is the epicenter of the disaster.",
+      "The confirmed death toll has reached at least 920 people.",
+      "International search and rescue efforts are underway.",
+      "The critical 72-hour survival window is ending."
+    ],
+    "source_differences": [
+      "Fox News emphasizes the specific involvement of U.S. military forces and naval assets, whereas other outlets focus on broader international participation.",
+      "Al Jazeera reports a significantly higher number of missing persons (51,000+) compared to other reports and notes government-imposed access restrictions in La Guaira.",
+      "The BBC uniquely details specific rescue operations, such as the retrieval of a newborn baby in La Guaira.",
+      "There is a discrepancy in reported injuries, with sources citing figures ranging from 3,300 to 4,300."
+    ],
+    "synthesis": "Following back-to-back 7.2 and 7.5 magnitude earthquakes on Wednesday, Venezuela is experiencing a humanitarian crisis concentrated in La Guaira with at least 920 fatalities. While international rescue teams are actively operating, their efforts are complicated by logistical challenges and reported movement restrictions by the government. The situation is critical as the 72-hour survival window closes amidst varying reports on the total number of missing individuals.",
+    "confidence": "Generally consistent regarding the disaster event and death toll, but contains notable contradictions regarding total injury counts and missing persons figures.",
+    "sources": [
+      {
+        "id": "art_1782589221056_f3jcj",
+        "url": "https://www.bbc.co.uk/news/videos/cjdgrrvvvjgo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: A race against the clock for Venezuela earthquake rescuers"
+      },
+      {
+        "id": "art_1782566837125_2tnyq",
+        "url": "https://www.bbc.co.uk/news/videos/cm2d0vzp3ngo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Newborn baby rescued from Venezuela earthquake rubble"
+      },
+      {
+        "id": "art_1782566840395_4k1zm",
+        "url": "https://www.foxnews.com/world/venezuelan-earthquake-death-toll-hits-least-920-us-rescuers-race-against-critical-survival-window",
+        "source": "fox",
+        "title": "Venezuelan earthquake death toll hits at least 920 as US rescuers race against critical survival window"
+      },
+      {
+        "id": "art_1782554883292_kyg1b",
+        "url": "https://www.aljazeera.com/news/2026/6/27/venezuelans-dig-for-earthquake-survivors-as-72-hour-rescue-window-nears-end?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Venezuelans dig for earthquake survivors as 72-hour rescue window nears end"
+      },
+      {
+        "id": "art_1782546584782_56ts4",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/fishermen-capture-the-moment-earthquake-hits-venezuelan-coast?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fishermen capture the moment earthquake hits Venezuelan coast"
+      },
+      {
+        "id": "art_1782536032003_mla36",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/rescue-efforts-turn-to-recovery-as-aftershocks-shake-venezuela?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Rescue efforts turn to recovery as aftershocks shake Venezuela"
+      },
+      {
+        "id": "art_1782518873683_b9f2c",
+        "url": "https://www.aljazeera.com/news/2026/6/26/4-9-earthquake-detected-in-venezuela-just-days-after-major-quakes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Venezuela shaken by magnitude 4.9 tremor days after major earthquakes"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
