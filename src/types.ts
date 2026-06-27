@@ -71,6 +71,7 @@ export interface ClusterObject {
     synthesis?: string;
     confidence?: string;
     sources?: Array<{ id: string; url: string; source: string; title: string }>;
+    model_used?: string;
 }
 
 export interface SynthesisObject {

@@ -30,11 +30,11 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: npm run layer:cde
         
-      - name: Commit and Push Clusters and Archive
+      - name: Commit and Push Clusters, Archive and Public Surfaces
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add public/data/latest/clusters.json public/data/archive/ || true
-          git commit -m "Auto-update: Synthesized Clusters and Archive Snapshot" || echo "No changes to commit"
+          git add public/data/latest/clusters.json public/data/latest/impact.json public/data/archive/ public/api/v1/ public/feeds/ public/embed/ || true
+          git commit -m "Auto-update: Synthesized Clusters, Impact Events, API, RSS, and Embeds" || echo "No changes to commit"
           git pull --rebase origin main || true
           git push

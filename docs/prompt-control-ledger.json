@@ -1,0 +1,84 @@
+{
+  "project": "Chronos Sentinel",
+  "project_code": "CS",
+  "last_completed_prompt_id": "CS-009",
+  "next_expected_prompt_id": "CS-010",
+  "prompts": [
+    {
+      "id": "CS-001",
+      "title": "Prompt Control Ledger Bootstrap",
+      "status": "completed"
+    },
+    {
+      "id": "CS-002",
+      "title": "Synthesis Workflow Hardening",
+      "status": "completed"
+    },
+    {
+      "id": "CS-003",
+      "title": "Provider Failover + Deterministic Fallback",
+      "status": "completed"
+    },
+    {
+      "id": "CS-004",
+      "title": "Telemetry + Dashboard Status",
+      "status": "completed"
+    },
+    {
+      "id": "CS-005",
+      "title": "Archive Reliability + Freshness Checks",
+      "status": "completed"
+    },
+    {
+      "id": "CS-006",
+      "title": "Frontend Data-State UX",
+      "status": "completed"
+    },
+    {
+      "id": "CS-007",
+      "title": "Source Quality + Bias/Confidence Signals",
+      "status": "completed"
+    },
+    {
+      "id": "CS-008",
+      "title": "Watchlist Doctrine + Watchlist Data Surface",
+      "status": "completed"
+    },
+    {
+      "id": "CS-009",
+      "title": "Public Surface Cleanup + Impact Events + API/RSS/Embed Foundation",
+      "area": "Public Surface / Impact / API / RSS / Embed",
+      "status": "completed",
+      "hud": {
+        "stage": "09/10",
+        "mvp_percent_estimate": 95,
+        "current_slice": "Public Surface Cleanup + Impact Events + API/RSS/Embed Foundation",
+        "next": "MVP Freeze + Recovery Docs"
+      },
+      "started_at": "2026-06-28T01:01:15Z",
+      "completed_at": "2026-06-28T01:05:00Z",
+      "summary": "Cleaned public surface telemetry from raw model names, added deterministic Impact Event generation based on keywords, exposed static JSON API v1 files, valid RSS XML feeds, and visual embed HTML pages. Reconfigured mobile navigation layout to fixed bottom bar showing max 4 buttons with More dropdown popover.",
+      "files_changed": [
+        "src/types.ts",
+        "src/pipeline/LayerCD_Synthesis.ts",
+        "src/pipeline/LayerE_Archive.ts",
+        "src/pipeline/GeneratePublicSurfaces.ts",
+        "public/data/latest/watchlist.json",
+        "public/index.html",
+        "public/css/style.css",
+        "public/js/app.js",
+        ".github/workflows/synthesis.yml"
+      ],
+      "verification": [
+        "npx tsc --noEmit",
+        "node --check public/js/app.js",
+        "npm run layer:cde"
+      ],
+      "assumptions": [
+        "Running locally fallback generates basic feeds gracefully",
+        "Watchlist contains core default OSINT targeting domains"
+      ],
+      "next_move": "Proceed to CS-010: MVP Freeze + Recovery Docs"
+    }
+  ]
+}

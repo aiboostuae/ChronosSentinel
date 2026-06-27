@@ -19,6 +19,7 @@ function initApp() {
             loadHeadlines();
             loadImpact();
             loadArchive();
+            loadWatchlist();
 
             // Update Header labels (Spec 08 Label Binding)
             const sentinelTitle = document.getElementById('sentinel-title');
@@ -40,25 +41,83 @@ function initApp() {
         });
     });
 
+    // Mobile "More" Dropdown Setup
+    const moreBtn = document.getElementById('more-btn');
+    const moreMenu = document.getElementById('more-menu');
+    if (moreBtn && moreMenu) {
+        moreBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            moreMenu.classList.toggle('hidden');
+        });
+        document.addEventListener('click', () => {
+            moreMenu.classList.add('hidden');
+        });
+    }
+
+    document.querySelectorAll('.more-menu-item').forEach(item => {
+        item.addEventListener('click', (e) => {
+            const target = e.target.getAttribute('data-target');
+            if (target) {
+                switchTab(target);
+                if (moreMenu) moreMenu.classList.add('hidden');
+            }
+        });
+    });
+
     // 3. Kickoff
     switchTab('sentinel');
+    updateSystemStatusBanner();
+}
+
+async function updateSystemStatusBanner() {
+    const banner = document.getElementById('ai-model-banner');
+    if (!banner) return;
+    try {
+        const res = await fetch('api/v1/status.json?cb=' + Date.now());
+        if (res.ok) {
+            const status = await res.json();
+            if (status.fallback_used) {
+                banner.innerHTML = `SYNTHESIS ENGINE: Deterministic fallback<br><span style="font-size:0.6rem;opacity:0.8;">NOTE: AI unavailable; conservative low-confidence output.</span>`;
+                banner.style.color = 'var(--threat-red)';
+                banner.style.background = 'rgba(239, 68, 68, 0.1)';
+                banner.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+            } else {
+                banner.innerHTML = `SYNTHESIS ENGINE: Gemini<br><span style="font-size:0.6rem;opacity:0.8;">MODE: AI-assisted</span>`;
+                banner.style.color = 'var(--accent-indigo)';
+                banner.style.background = 'rgba(99, 102, 241, 0.1)';
+                banner.style.borderColor = 'rgba(99, 102, 241, 0.3)';
+            }
+        }
+    } catch(e) {}
 }
 
 function switchTab(target) {
     document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.more-menu-item').forEach(b => b.classList.remove('active'));
     
     const panel = document.getElementById('view-' + target);
-    const btn = document.querySelector(`[data-target="${target}"]`);
+    let btn = document.querySelector(`.view-btn[data-target="${target}"]`);
+    let moreItem = document.querySelector(`.more-menu-item[data-target="${target}"]`);
     
     if (panel) panel.classList.add('active');
-    if (btn) btn.classList.add('active');
+    
+    if (moreItem) {
+        moreItem.classList.add('active');
+        const moreBtn = document.getElementById('more-btn');
+        if (moreBtn) moreBtn.classList.add('active');
+    } else if (btn) {
+        btn.classList.add('active');
+        const moreBtn = document.getElementById('more-btn');
+        if (moreBtn) moreBtn.classList.remove('active');
+    }
 
     // Always reload current tab data to ensure sync with activeRegion
     if (target === 'sentinel') loadSentinel();
     if (target === 'live') loadHeadlines();
     if (target === 'impact') loadImpact();
     if (target === 'archive') loadArchive();
+    if (target === 'watchlist') loadWatchlist();
 }
 
 // ─── TAB 1: Sentinel Synthesis ──────────────────────────────────────────────
@@ -210,27 +269,146 @@ async function loadImpact() {
     container.innerHTML = '<div class="loading-pulse">Scanning for High-Severity signals...</div>';
     
     try {
-        const res = await fetch('data/latest/clusters.json?cb=' + Date.now());
-        const clusters = await res.json();
+        const res = await fetch('data/latest/impact.json?cb=' + Date.now());
+        if (!res.ok) {
+            container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center; color:var(--threat-red);">Impact data unavailable. Check generated data.</div>';
+            return;
+        }
+        const data = await res.json();
+        const items = data.items || [];
         
         const activeRegion = localStorage.getItem('sentinel_region') || 'global';
-        const filtered = clusters.filter(c => {
-            const isHigh = (c.qualification_score && c.qualification_score >= 8);
-            if (!isHigh) return false;
+        const filtered = items.filter(i => {
             if (activeRegion === 'global') return true;
-            return c.region_tag === activeRegion;
+            return (i.region || '').toLowerCase() === activeRegion.toLowerCase() || (i.region || '').toLowerCase() === activeRegion.replace('-', ' ').toLowerCase();
         });
 
         container.innerHTML = '';
         if (filtered.length === 0) {
-            container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No high-severity escalations detected in this sector.</div>';
+            container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No impact events generated from the latest data.</div>';
             return;
         }
 
-        renderClusters(filtered, container);
+        renderImpactEvents(filtered, container);
     } catch(e) {
-        container.innerHTML = `<div class="syn-text">Impact Scan Failed: ${e.message}</div>`;
+        container.innerHTML = `<div class="syn-text" style="color:var(--threat-red);">Impact data unavailable. Check generated data. Error: ${e.message}</div>`;
     }
+}
+
+function renderImpactEvents(items, container) {
+    container.innerHTML = '';
+    items.forEach(i => {
+        const severityClass = i.severity ? i.severity.toLowerCase() : 'low';
+        const domainsList = (i.domains || []).map(d => `<span class="source-tag" style="margin-right:0.25rem;">${d.toUpperCase()}</span>`).join('');
+        
+        const markup = `
+        <div class="cluster-card">
+            <div class="card-header">
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
+                    <span class="topic-tag ${severityClass}">${i.severity.toUpperCase()}</span>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">${i.region.toUpperCase()}</span>
+                </div>
+                <h3>${i.title}</h3>
+                <div style="margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.25rem;">
+                    ${domainsList}
+                </div>
+            </div>
+            
+            <div class="syn-section">
+                <div class="syn-title">Why It Matters</div>
+                <div class="syn-text" style="line-height:1.6;">${i.why_it_matters}</div>
+            </div>
+            
+            <div class="syn-section">
+                <div class="syn-title">Evidence Summary</div>
+                <div class="syn-text" style="font-size:0.9rem;">${i.evidence_summary}</div>
+            </div>
+
+            <div class="syn-section">
+                <div class="syn-title">Confidence & Corroboration</div>
+                <div class="syn-text" style="font-size:0.85rem; font-style:italic;">
+                    Confidence: ${i.confidence_label.toUpperCase()} | Corroboration: ${i.corroboration_level.toUpperCase()}
+                </div>
+            </div>
+
+            <div class="syn-section">
+                <div class="syn-title">Operator Hint</div>
+                <div class="syn-text" style="font-size:0.85rem; color:var(--accent-cyan); font-weight:600;">
+                    ${i.operator_hint}
+                </div>
+            </div>
+        </div>
+        `;
+        container.innerHTML += markup;
+    });
+}
+
+// ─── TAB 5: Watchlist Focus Zones ──────────────────────────────────────────
+
+async function loadWatchlist() {
+    const container = document.getElementById('watchlist-grid');
+    if (!container) return;
+    container.innerHTML = '<div class="loading-pulse">Retrieving Focus Zones...</div>';
+    
+    try {
+        const res = await fetch('data/latest/watchlist.json?cb=' + Date.now());
+        if (!res.ok) {
+            container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">Watchlist data unavailable. Check generated data.</div>';
+            return;
+        }
+        const watchlist = await res.json();
+        
+        const activeRegion = localStorage.getItem('sentinel_region') || 'global';
+        const filtered = watchlist.filter(w => {
+            if (activeRegion === 'global') return true;
+            return (w.region_tag || 'global').toLowerCase() === activeRegion.toLowerCase();
+        });
+
+        container.innerHTML = '';
+        if (filtered.length === 0) {
+            container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No watchlist targets set for this region.</div>';
+            return;
+        }
+
+        renderWatchlist(filtered, container);
+    } catch(e) {
+        container.innerHTML = `<div class="syn-text" style="color:var(--threat-red);">Watchlist Scan Failed: ${e.message}</div>`;
+    }
+}
+
+function renderWatchlist(items, container) {
+    container.innerHTML = '';
+    items.forEach(w => {
+        const severityClass = w.severity ? w.severity.toLowerCase() : 'low';
+        const keywordTags = (w.keywords || []).map(k => `<span class="source-tag" style="margin-right:0.25rem; font-size:0.7rem;">${k.toUpperCase()}</span>`).join('');
+        
+        const markup = `
+        <div class="cluster-card" style="border-left: 4px solid var(--accent-indigo);">
+            <div class="card-header">
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
+                    <span class="topic-tag ${severityClass}">${w.severity.toUpperCase()}</span>
+                    <span style="font-size:0.75rem; color:var(--text-secondary);">${(w.region_tag || 'global').toUpperCase()}</span>
+                </div>
+                <h3>${w.topic}</h3>
+            </div>
+            
+            <div class="syn-section">
+                <div class="syn-title">Active Watchlist Keywords</div>
+                <div style="margin-top:0.5rem; display:flex; flex-wrap:wrap; gap:0.25rem;">
+                    ${keywordTags}
+                </div>
+            </div>
+            
+            <div class="syn-section">
+                <div class="syn-title">Target Status</div>
+                <div class="syn-text" style="font-size:0.85rem; font-weight:600; color:var(--threat-green);">
+                    MONITORING: ACTIVE
+                </div>
+            </div>
+        </div>
+        `;
+        container.innerHTML += markup;
+    });
 }
 
 // ─── TAB 4: Archive Logs (Spec 10 Calendar) ──────────────────────────────────

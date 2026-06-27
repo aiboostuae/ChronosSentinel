@@ -3,6 +3,7 @@ import * as path from 'path';
 import { GoogleGenAI, Type } from '@google/genai';
 import type { ArticleRecord, ClusterObject } from '../types.js';
 import { generateId } from '../types.js';
+import { generatePublicSurfaces } from './GeneratePublicSurfaces.js';
 
 // ─── Path Setup ───────────────────────────────────────────────────────────────
 const __dirname = path.dirname(new URL(import.meta.url).pathname).replace(/^\/([A-Z]:)/, '$1');
@@ -66,6 +67,11 @@ export async function runSynthesis() {
 
     if (!process.env.GEMINI_API_KEY) {
         console.warn("No GEMINI_API_KEY provided. Skipping synthesis.");
+        try {
+            await generatePublicSurfaces();
+        } catch(e: any) {
+            console.error("Public surface generation failed:", e.message);
+        }
         process.exit(0);
     }
 
@@ -261,6 +267,13 @@ ${compareText}`;
 
     fs.writeFileSync(CLUSTERS_FILE, JSON.stringify(finalClusters, null, 2));
     console.log(`Synthesis complete. Generated ${newClusters.length} new, retained ${finalClusters.length - newClusters.length} cached clusters.`);
+    
+    // Generate public surfaces (CS-009)
+    try {
+        await generatePublicSurfaces();
+    } catch(e: any) {
+        console.error("Public surface generation failed:", e.message);
+    }
 }
 
 if (process.argv[1] && (process.argv[1].endsWith('LayerCD_Synthesis.ts') || process.argv[1].endsWith('LayerCD_Synthesis.js'))) {

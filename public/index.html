@@ -27,7 +27,15 @@
             <button class="view-btn active" data-target="sentinel">Synthesis</button>
             <button class="view-btn" data-target="live">Live Feed</button>
             <button class="view-btn" data-target="impact">Impact</button>
-            <button class="view-btn" data-target="archive">Archive</button>
+            <button class="view-btn nav-desktop-only" data-target="archive">Archive</button>
+            <button class="view-btn nav-desktop-only" data-target="watchlist">Watchlist</button>
+            <button class="view-btn nav-mobile-only" id="more-btn">More</button>
+            
+            <!-- More Dropdown Menu -->
+            <div id="more-menu" class="more-dropdown hidden">
+                <button class="more-menu-item" data-target="archive">Archive</button>
+                <button class="more-menu-item" data-target="watchlist">Watchlist</button>
+            </div>
         </nav>
         
         <div class="header-right">
@@ -120,6 +128,17 @@
             <!-- The grid for clusters after a run is selected -->
             <div id="archive-grid" class="cards-grid" style="margin-top:2rem;">
                 <!-- Clusters from selected run injected here -->
+            </div>
+        </section>
+
+        <!-- Watchlist View (New for CS-009) -->
+        <section id="view-watchlist" class="view-panel">
+            <div class="panel-header">
+                <h2 id="watchlist-title">Surveillance Watchlist Focus Zones</h2>
+                <p>Currently tracked OSINT sectors and keywords.</p>
+            </div>
+            <div id="watchlist-grid" class="cards-grid">
+                <div class="loading-pulse">Retrieving Focus Zones...</div>
             </div>
         </section>
     </main>

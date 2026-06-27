@@ -14,6 +14,14 @@ export async function runArchive() {
     const headlines: HeadlineRecord[] = JSON.parse(fs.readFileSync(path.join(LATEST_DIR, 'headlines.json'), 'utf-8'));
     const articles: ArticleRecord[] = JSON.parse(fs.readFileSync(path.join(LATEST_DIR, 'articles.json'), 'utf-8'));
     const clusters: ClusterObject[] = JSON.parse(fs.readFileSync(path.join(LATEST_DIR, 'clusters.json'), 'utf-8'));
+    
+    let impact: any = { items: [] };
+    try {
+        const impactPath = path.join(LATEST_DIR, 'impact.json');
+        if (fs.existsSync(impactPath)) {
+            impact = JSON.parse(fs.readFileSync(impactPath, 'utf-8'));
+        }
+    } catch(e) {}
 
     const now = new Date();
     const dateStr = now.toISOString().split('T')[0] as string;
@@ -32,6 +40,7 @@ export async function runArchive() {
         extracted_articles_count: articles.length,
         qualified_clusters_count: clusters.length,
         synthesis_count: clusters.length,
+        impact_count: (impact.items || []).length,
         headline_ids: headlines.map(h => h.headline_id),
         article_ids: articles.map(a => a.article_id),
         cluster_ids: clusters.map(c => c.cluster_id),
@@ -43,7 +52,8 @@ export async function runArchive() {
         snapshot,
         headlines,
         articles,
-        clusters
+        clusters,
+        impact: impact.items || []
     };
 
     const runFile = path.join(targetDir, `${timeStr}.json`);

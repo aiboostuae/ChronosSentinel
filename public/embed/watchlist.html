@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed: Watchlist Focus</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #0B0F14;
+            color: #E6EDF3;
+            margin: 0;
+            padding: 1rem;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .card {
+            background: #161B22;
+            border: 1px solid #2A313C;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0 0 0.5rem 0;
+            color: #3B82F6;
+        }
+        .meta {
+            font-size: 11px;
+            color: #9DA7B3;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .summary {
+            color: #9DA7B3;
+            margin-bottom: 0.5rem;
+        }
+        .badge {
+            display: inline-block;
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-right: 0.5rem;
+        }
+        .badge.critical { background: rgba(239, 68, 68, 0.15); color: #EF4444; border: 1px solid rgba(239, 68, 68, 0.3); }
+        .badge.high { background: rgba(249, 115, 22, 0.15); color: #F97316; border: 1px solid rgba(249, 115, 22, 0.3); }
+        .badge.medium { background: rgba(234, 179, 8, 0.15); color: #EAB308; border: 1px solid rgba(234, 179, 8, 0.3); }
+        .badge.low { background: rgba(34, 197, 94, 0.15); color: #22C55E; border: 1px solid rgba(34, 197, 94, 0.3); }
+        a { color: #3B82F6; text-decoration: none; font-size: 12px; }
+        a:hover { text-decoration: underline; }
+        .footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 11px;
+            color: #6B7785;
+        }
+    </style>
+</head>
+<body>
+    <div id="embed-container">Loading...</div>
+    <div class="footer">
+        Powered by <a href="https://sentinel.codexarchai.com/" target="_blank">Chronos Sentinel</a> OSINT Engine.
+    </div>
+    <script>
+        async function loadEmbedData() {
+            const container = document.getElementById('embed-container');
+            try {
+                const res = await fetch('../api/v1/watchlist.json?cb=' + Date.now());
+                if (!res.ok) throw new Error("HTTP failure");
+                const data = await res.json();
+                container.innerHTML = '';
+                
+        const items = data || [];
+        if (items.length === 0) {
+            container.innerHTML = '<div>No watchlist zones set.</div>';
+            return;
+        }
+        items.forEach(w => {
+            container.innerHTML += `
+                <div class="card">
+                    <div class="meta">${w.region_tag.toUpperCase()}</div>
+                    <div class="title">
+                        <span class="badge ${w.severity}">${w.severity}</span>
+                        ${w.topic}
+                    </div>
+                    <div class="summary" style="margin-top:0.5rem; font-size:12px;">Active surveillance tags: <em>${w.keywords.join(', ')}</em></div>
+                    <a href="https://sentinel.codexarchai.com/" target="_blank">Sentinel Dashboard &rarr;</a>
+                </div>
+            `;
+        });
+    
+            } catch(e) {
+                container.innerHTML = '<div style="color:#EF4444; padding:1rem; border:1px solid rgba(239,68,68,0.2); border-radius:8px;">Failed to load embed data. Check telemetry or connections.</div>';
+            }
+        }
+        loadEmbedData();
+    </script>
+</body>
+</html>
