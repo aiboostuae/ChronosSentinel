@@ -14,37 +14,50 @@ const CLUSTERS_FILE = path.join(DATA_DIR, 'clusters.json');
 // PRAXIS: Do not replace Gemini blindly. Fallback to Groq only on 429 errors.
 
 async function callAI(prompt: string, schema: any): Promise<any> {
+    const models = ['gemini-3.1-flash-lite', 'gemini-3-flash', 'gemini-3.5-flash'];
+    const telemetry: any = { attempts: [] };
+
     if (process.env.GEMINI_API_KEY) {
-        let retries = 3;
-        while (retries > 0) {
+        const ai = new GoogleGenAI({});
+        for (const model of models) {
             try {
-                const ai = new GoogleGenAI({});
                 const res = await ai.models.generateContent({
-                    model: 'gemini-1.5-flash',
+                    model: model,
                     contents: prompt,
                     config: {
                         responseMimeType: 'application/json',
                         responseSchema: schema
                     } as any
                 });
-                return JSON.parse(res.text || 'null');
+                const parsed = JSON.parse(res.text || 'null');
+                if (parsed) {
+                    parsed._telemetry = { used_model: model, attempts: telemetry.attempts };
+                    console.log(`[Telemetry] Success using ${model}`);
+                    return parsed;
+                }
             } catch (e: any) {
-                const is429 = e?.status === 429
-                    || e?.message?.includes('429')
-                    || e?.message?.includes('quota')
-                    || e?.message?.includes('rate');
-                if (is429 && retries > 1) {
-                    console.warn(`[Gemini] 429 rate limit hit — retrying in 5 seconds... (${retries - 1} attempts left)`);
+                const errorMsg = e.message || e.toString();
+                telemetry.attempts.push({ model, error: errorMsg });
+                console.warn(`[Telemetry] ${model} failed: ${errorMsg}`);
+                
+                const is429 = e?.status === 429 || errorMsg.includes('429') || errorMsg.includes('quota') || errorMsg.includes('rate');
+                if (is429) {
+                    console.warn(`[Telemetry] 429 rate limit hit on ${model}. Throttling 5s before next model...`);
                     await new Promise(r => setTimeout(r, 5000));
-                    retries--;
-                } else {
-                    throw e; 
                 }
             }
         }
+    } else {
+        telemetry.attempts.push({ model: 'none', error: 'No GEMINI_API_KEY provided' });
     }
 
-    throw new Error('No AI provider available. Set GEMINI_API_KEY.');
+    console.warn(`[Telemetry] All Gemini models failed. Using deterministic fallback.`);
+    
+    // Deterministic Fallback
+    return {
+        _telemetry: { used_model: 'deterministic-fallback', attempts: telemetry.attempts },
+        _fallback: true
+    };
 }
 
 // ─── Synthesis ────────────────────────────────────────────────────────────────
@@ -105,13 +118,30 @@ PRIORITY:
 Only include 1-article clusters if the topic is extremely high-severity (e.g. GDACS alert).
 Articles:\n${JSON.stringify(payload, null, 2)}`;
 
-    let predictedClusters: {topic: string, articleIds: string[]}[] = [];
+    let predictedClusters: {topic: string, articleIds: string[], _telemetry?: any, _fallback?: boolean}[] = [];
     try {
-        predictedClusters = await callAI(clusterPrompt, clusterSchema) || [];
+        const result = await callAI(clusterPrompt, clusterSchema);
+        if (result && result._fallback) {
+            // Deterministic fallback clustering
+            predictedClusters = [{
+                topic: "Fallback Synthesis",
+                articleIds: recentArticles.map(a => a.article_id).slice(0, 5),
+                _telemetry: result._telemetry
+            }];
+        } else {
+            // Because schema dictates array of clusters, but we added _telemetry to the root object.
+            // Wait, if schema is ARRAY, JSON.parse returns an array, so we attached _telemetry to the array object.
+            predictedClusters = result || [];
+            if (result && result._telemetry) {
+                (predictedClusters as any)._telemetry = result._telemetry;
+            }
+        }
     } catch(e: any) {
         console.error("Clustering failed:", e.message);
         return;
     }
+
+    const clusterTelemetry = (predictedClusters as any)._telemetry || { used_model: 'unknown' };
 
     const newClusters: ClusterObject[] = [];
     const now = new Date().toISOString();
@@ -175,6 +205,18 @@ ${compareText}`;
         try {
             const comparison = await callAI(comparePrompt, compareSchema);
             if (comparison) {
+                let synText = comparison.synthesis;
+                let sharedFacts = comparison.shared_facts;
+                let sourceDiffs = comparison.source_differences;
+                let conf = comparison.confidence;
+                
+                if (comparison._fallback) {
+                    synText = "Automated deterministic fallback summary due to AI provider failure.";
+                    sharedFacts = ["Fallback activated."];
+                    sourceDiffs = ["No comparative data available."];
+                    conf = "Low (Deterministic Fallback)";
+                }
+
                 const sourceRefs = memberArticles.map(a => ({
                     id: a.article_id,
                     url: a.url,
@@ -191,18 +233,19 @@ ${compareText}`;
                     article_count: memberArticles.length,
                     source_count: new Set(memberArticles.map(a => a.source_id)).size,
                     qualification_status: 'qualified',
-                    qualification_score: 0.9,
+                    qualification_score: comparison._fallback ? 0 : 0.9,
                     primary_geography: null,
                     topic_type: null,
                     created_at: now,
                     updated_at: now,
                     region_tag: memberArticles[0]?.region_tag || 'global',
                     // Synthesis fields
-                    shared_facts: comparison.shared_facts,
-                    source_differences: comparison.source_differences,
-                    synthesis: comparison.synthesis,
-                    confidence: comparison.confidence,
-                    sources: sourceRefs
+                    shared_facts: sharedFacts,
+                    source_differences: sourceDiffs,
+                    synthesis: synText,
+                    confidence: conf,
+                    sources: sourceRefs,
+                    model_used: comparison._telemetry?.used_model || clusterTelemetry.used_model
                 });
             }
             // Brief pause between calls to avoid burst rate-limiting

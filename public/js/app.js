@@ -84,6 +84,21 @@ async function loadSentinel() {
             return;
         }
 
+        const modelBanner = document.getElementById('ai-model-banner');
+        if (modelBanner && filtered.length > 0) {
+            const usedModel = filtered[0].model_used || 'gemini-1.5-flash';
+            modelBanner.textContent = `MODEL: ${usedModel.toUpperCase()}`;
+            if (usedModel.includes('fallback')) {
+                modelBanner.style.color = 'var(--threat-red)';
+                modelBanner.style.background = 'rgba(239, 68, 68, 0.1)';
+                modelBanner.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+            } else {
+                modelBanner.style.color = 'var(--accent-indigo)';
+                modelBanner.style.background = 'rgba(99, 102, 241, 0.1)';
+                modelBanner.style.borderColor = 'rgba(99, 102, 241, 0.3)';
+            }
+        }
+
         renderClusters(filtered, container);
     } catch(e) {
         container.innerHTML = `<div class="syn-text">Telemetry Error: ${e.message}</div>`;
