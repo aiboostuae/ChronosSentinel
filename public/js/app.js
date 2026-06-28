@@ -47,20 +47,28 @@ function initApp() {
     if (moreBtn && moreMenu) {
         moreBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            moreMenu.classList.toggle('hidden');
+            const isHidden = moreMenu.classList.toggle('hidden');
+            moreBtn.setAttribute('aria-expanded', String(!isHidden));
         });
         document.addEventListener('click', () => {
             moreMenu.classList.add('hidden');
+            moreBtn.setAttribute('aria-expanded', 'false');
         });
     }
 
     document.querySelectorAll('.more-menu-item').forEach(item => {
         item.addEventListener('click', (e) => {
             const target = e.target.getAttribute('data-target');
+            const action = e.target.getAttribute('data-action');
             if (target) {
                 switchTab(target);
-                if (moreMenu) moreMenu.classList.add('hidden');
             }
+            if (action === 'status') {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+            if (moreMenu) moreMenu.classList.add('hidden');
+            const moreBtn = document.getElementById('more-btn');
+            if (moreBtn) moreBtn.setAttribute('aria-expanded', 'false');
         });
     });
 
@@ -76,19 +84,28 @@ async function updateSystemStatusBanner() {
         const res = await fetch('api/v1/status.json?cb=' + Date.now());
         if (res.ok) {
             const status = await res.json();
-            if (status.fallback_used) {
-                banner.innerHTML = `SYNTHESIS ENGINE: Deterministic fallback<br><span style="font-size:0.6rem;opacity:0.8;">NOTE: AI unavailable; conservative low-confidence output.</span>`;
-                banner.style.color = 'var(--threat-red)';
-                banner.style.background = 'rgba(239, 68, 68, 0.1)';
-                banner.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+            const systemStatus = (status.system_status || 'unknown').toString();
+            const engine = status.fallback_used ? 'Deterministic fallback' : (status.engine || 'AI-assisted').toString();
+            banner.textContent = `${formatPublicStatus(engine)} - ${formatPublicStatus(systemStatus)}`;
+            if (status.fallback_used || systemStatus.toLowerCase() !== 'healthy') {
+                banner.style.color = 'var(--threat-yellow)';
+                banner.style.background = 'rgba(245, 158, 11, 0.1)';
+                banner.style.borderColor = 'rgba(245, 158, 11, 0.3)';
             } else {
-                banner.innerHTML = `SYNTHESIS ENGINE: Gemini<br><span style="font-size:0.6rem;opacity:0.8;">MODE: AI-assisted</span>`;
                 banner.style.color = 'var(--accent-indigo)';
                 banner.style.background = 'rgba(99, 102, 241, 0.1)';
                 banner.style.borderColor = 'rgba(99, 102, 241, 0.3)';
             }
         }
-    } catch(e) {}
+    } catch(e) {
+        banner.textContent = 'AI-assisted - Status Pending';
+    }
+}
+
+function formatPublicStatus(value) {
+    return String(value || 'unknown')
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, letter => letter.toUpperCase());
 }
 
 function switchTab(target) {
@@ -142,22 +159,6 @@ async function loadSentinel() {
             container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No synthesized signals detected in this sector.</div>';
             return;
         }
-
-        const modelBanner = document.getElementById('ai-model-banner');
-        if (modelBanner && filtered.length > 0) {
-            const usedModel = filtered[0].model_used || 'gemini-1.5-flash';
-            modelBanner.textContent = `MODEL: ${usedModel.toUpperCase()}`;
-            if (usedModel.includes('fallback')) {
-                modelBanner.style.color = 'var(--threat-red)';
-                modelBanner.style.background = 'rgba(239, 68, 68, 0.1)';
-                modelBanner.style.borderColor = 'rgba(239, 68, 68, 0.3)';
-            } else {
-                modelBanner.style.color = 'var(--accent-indigo)';
-                modelBanner.style.background = 'rgba(99, 102, 241, 0.1)';
-                modelBanner.style.borderColor = 'rgba(99, 102, 241, 0.3)';
-            }
-        }
-
         renderClusters(filtered, container);
     } catch(e) {
         container.innerHTML = `<div class="syn-text">Telemetry Error: ${e.message}</div>`;

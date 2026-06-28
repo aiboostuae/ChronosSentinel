@@ -79,6 +79,38 @@
         "Watchlist contains core default OSINT targeting domains"
       ],
       "next_move": "Proceed to CS-010: MVP Freeze + Recovery Docs"
+    },
+    {
+      "id": "CS-009A",
+      "title": "Mobile PWA Navigation + Header Repair",
+      "area": "Frontend / Mobile Shell / Out-of-Band Repair",
+      "status": "completed",
+      "out_of_band": true,
+      "hud": {
+        "stage": "09/10",
+        "mvp_percent_estimate": 95,
+        "current_slice": "Mobile PWA Navigation + Header Repair",
+        "next": "Verify Before CS-010"
+      },
+      "started_at": "2026-06-29T01:23:02.5198931+04:00",
+      "completed_at": "2026-06-29T01:23:02.5198931+04:00",
+      "summary": "Repaired mobile public shell by moving navigation out of the header, enforcing a fixed four-button bottom nav, adding More menu access to Archive/Watchlist/Status, and replacing prominent raw model diagnostics with compact public-safe status text.",
+      "files_changed": [
+        "public/index.html",
+        "public/css/style.css",
+        "public/js/app.js",
+        "docs/session-checkpoint.md",
+        "docs/prompt-control-ledger.json"
+      ],
+      "verification": [
+        "node --check public/js/app.js (passed)",
+        "npx tsc --noEmit (passed)"
+      ],
+      "assumptions": [
+        "CS-009A is an out-of-band repair and does not advance the main prompt chain.",
+        "No provider, API, RSS, embed, synthesis, archive, workflow, package, or generated-data behavior was changed."
+      ],
+      "next_move": "Proceed to CS-010 only after verification."
     }
   ]
 }

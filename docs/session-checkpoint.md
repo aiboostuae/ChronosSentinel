@@ -26,3 +26,12 @@
 ## Assumptions or Limitations:
 - Running synthesis locally without `GEMINI_API_KEY` falls back to generating empty/base public files gracefully, preventing pipeline blocks.
 
+
+## Out-of-Band Repair: CS-009A
+
+- Repair completed: Mobile PWA Navigation + Header Repair.
+- Mobile navigation now uses a fixed bottom bar with Synthesis, Live Feed, Impact, and More as the only visible mobile buttons.
+- More contains Archive, Watchlist, and Status.
+- Mobile header now shows public-safe status text and no longer prominently shows raw model diagnostics.
+- Main prompt chain remains unchanged: next expected prompt is CS-010.
+- Verification: node --check public/js/app.js passed; npx tsc --noEmit passed.
