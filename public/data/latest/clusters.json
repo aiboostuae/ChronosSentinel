@@ -1,5 +1,583 @@
 [
   {
+    "cluster_id": "7d50b4bd0316dbca621a6f48f019c59d",
+    "topic_label": "US-Iran Tensions and Diplomacy",
+    "event_window_start": "2026-06-28T18:55:53.000Z",
+    "event_window_end": "2026-06-29T17:23:35.000Z",
+    "article_ids": [
+      "art_1782754510542_cbe60",
+      "art_1782743731929_n6umc",
+      "art_1782709977242_gs15e",
+      "art_1782687678614_rgoxu",
+      "art_1782682725456_tn8hi",
+      "art_1782677574869_ej9u9"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "US and Iranian forces engaged in military skirmishes or strikes in the Strait of Hormuz recently.",
+      "President Trump announced a meeting between the US and Iran scheduled for Tuesday in Doha, Qatar.",
+      "Shipping operations in the Strait of Hormuz are experiencing disruption and elevated risk.",
+      "Market participants have reacted to the instability with a rise in oil prices."
+    ],
+    "source_differences": [
+      "The Guardian frames the event primarily through the lens of diplomatic efforts struggling to keep the strait open.",
+      "Al Jazeera includes conflicting statements from Iranian officials regarding the status of technical talks, adding nuance to Trump's announcement.",
+      "Fox News focuses on a broader regional conflict, including Iranian actions in Kuwait and Bahrain, and characterizes Iranian diplomacy as psychological warfare."
+    ],
+    "synthesis": "Following recent military strikes in the Strait of Hormuz, President Trump has announced a diplomatic meeting with Iran in Doha, though Iranian officials and news outlets provide conflicting reports on the status and certainty of these negotiations. The instability has caused operational chaos for shipping firms and triggered an increase in global oil prices. The situation remains volatile as both sides navigate a precarious mix of kinetic military engagement and uncertain diplomatic outreach.",
+    "confidence": "Medium - While the core event of the scheduled meeting is confirmed by multiple sources, there is notable inconsistency regarding the Iranian government's official position on the talks, likely due to internal Iranian messaging or strategic ambiguity.",
+    "sources": [
+      {
+        "id": "art_1782754510542_cbe60",
+        "url": "https://www.theguardian.com/world/2026/jun/29/trump-iran-peace-talks-doha",
+        "source": "guardian",
+        "title": "Trump claims Iran has agreed to hold peace talks in Doha after recent clashes"
+      },
+      {
+        "id": "art_1782743731929_n6umc",
+        "url": "https://www.aljazeera.com/news/2026/6/29/trump-announces-meeting-with-iran-in-qatar-despite-military-skirmishes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump announces meeting with Iran in Qatar despite military skirmishes"
+      },
+      {
+        "id": "art_1782709977242_gs15e",
+        "url": "https://www.aljazeera.com/economy/2026/6/29/oil-prices-rise-as-us-iranian-strikes-threaten-strait-of-hormuz-reopening?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Oil prices rise as US, Iranian strikes threaten Strait of Hormuz reopening"
+      },
+      {
+        "id": "art_1782687678614_rgoxu",
+        "url": "https://www.foxnews.com/world/shipping-giant-warns-strait-hormuz-chaos-new-normal-tehran-shifts-4m-barrels",
+        "source": "fox",
+        "title": "Shipping giant warns Strait of Hormuz chaos is 'new normal' as Tehran shifts 4M barrels"
+      },
+      {
+        "id": "art_1782682725456_tn8hi",
+        "url": "https://www.foxnews.com/world/iran-targets-us-psychological-warfare-campaign-manipulate-americans-embarrass-trump-experts",
+        "source": "fox",
+        "title": "Iran targets US with psychological warfare campaign to manipulate Americans, embarrass Trump: experts"
+      },
+      {
+        "id": "art_1782677574869_ej9u9",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-and-iran-trade-strikes-days-after-peace-agreement?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US and Iran trade strikes days after peace agreement"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bd2bec480ed6e2230e1355f0fa891344",
+    "topic_label": "Venezuela Earthquake Relief Efforts",
+    "event_window_start": "2026-06-28T19:54:35.000Z",
+    "event_window_end": "2026-06-29T16:42:41.000Z",
+    "article_ids": [
+      "art_1782754523660_ttju1",
+      "art_1782727761213_dgus0",
+      "art_1782709978292_y275d",
+      "art_1782709982508_xow0r",
+      "art_1782709984627_nl0a7",
+      "art_1782682727536_fqf8z",
+      "art_1782677564090_5u8pd"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 7,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A series of powerful earthquakes (magnitudes 7.2 and 7.5) occurred in northern Venezuela on a Wednesday evening.",
+      "Jorge Rodriguez, leader of the National Assembly, is a key figure providing official data on the disaster.",
+      "Rescue operations are ongoing with significant urgency as time to find survivors wanes.",
+      "A 4.6-magnitude aftershock occurred near the Caribbean coast.",
+      "At least 1,450 people are confirmed dead as a result of the disaster."
+    ],
+    "source_differences": [
+      "The Guardian focuses on official statistics regarding displacement and injury, whereas BBC and Al Jazeera emphasize reports of public frustration toward the government response.",
+      "Fox News provides human-interest coverage regarding the personal tragedy of soccer player Lucas Trejo, which is not mentioned in other reports.",
+      "Al Jazeera's coverage highlights the logistical fear caused by the recent 4.6-magnitude aftershock, while the BBC focuses on ground-level reporting of local abandonment in Catia la Mar.",
+      "There is a discrepancy in casualty reporting; Al Jazeera mentions nearly 69,000 missing, a figure not cited in the other sources provided."
+    ],
+    "synthesis": "Venezuela is currently in a critical rescue phase following twin earthquakes that killed at least 1,450 people and caused widespread displacement. While the government faces increasing criticism and public anger over its perceived inadequate response, international rescue efforts continue amid ongoing aftershocks. The situation remains volatile as families grapple with mass casualties and the urgent need for shelter and recovery assistance.",
+    "confidence": "High regarding factual timeline and death toll consensus, but varying levels of confidence in missing person data due to discrepancies between sources.",
+    "sources": [
+      {
+        "id": "art_1782754523660_ttju1",
+        "url": "https://www.aljazeera.com/news/2026/6/29/aftershock-hits-caracas-during-critical-hours-for-venezuela-rescue-efforts?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Aftershock hits Caracas during critical hours for Venezuela rescue efforts"
+      },
+      {
+        "id": "art_1782727761213_dgus0",
+        "url": "https://www.theguardian.com/world/live/2026/jun/29/venezuela-earthquakes-search-rescue-latest-updates",
+        "source": "guardian",
+        "title": "Venezuela in ‘critical hours’ to find earthquake survivors as more search and rescue teams arrive – latest updates"
+      },
+      {
+        "id": "art_1782709978292_y275d",
+        "url": "https://www.bbc.co.uk/news/videos/cj4glezz1jvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Anger directed at Venezuela's official response to earthquake recovery"
+      },
+      {
+        "id": "art_1782709982508_xow0r",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/venezuelans-angry-government-as-time-runs-out-to-dig-out-survivors?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Venezuelans angry with government as time runs out to rescue survivors"
+      },
+      {
+        "id": "art_1782709984627_nl0a7",
+        "url": "https://www.foxnews.com/sports/argentine-soccer-player-lucas-trejo-loses-wife-two-children-venezuela-earthquake-building-collapse",
+        "source": "fox",
+        "title": "Argentine soccer player Lucas Trejo loses wife, two children in Venezuela earthquake building collapse: report"
+      },
+      {
+        "id": "art_1782682727536_fqf8z",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/pope-leo-prays-for-venezuelas-recovery-after-deadly-quakes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pope Leo prays for Venezuela’s recovery after deadly quakes"
+      },
+      {
+        "id": "art_1782677564090_5u8pd",
+        "url": "https://www.aljazeera.com/news/2026/6/28/hope-of-finding-more-venezuela-quake-survivors-fades-despite-late-rescues?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hope of finding more Venezuela quake survivors fades despite late rescues"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8392ed1b3ba404b13489db18cc6ca126",
+    "topic_label": "Middle East Conflict and Gaza",
+    "event_window_start": "2026-06-28T19:21:23.000Z",
+    "event_window_end": "2026-06-29T03:04:31.000Z",
+    "article_ids": [
+      "art_1782709985699_nbnm2",
+      "art_1782692250822_neri1",
+      "art_1782677562841_cufn6",
+      "art_1782677568345_0i7qo",
+      "art_1782677571534_92mta"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Israel and the Middle East conflict continue to be subjects of intense political and public discourse.",
+      "Events occurring in the Gaza Strip and the West Bank are ongoing, involving military actions and displacement of civilians."
+    ],
+    "source_differences": [
+      "The Guardian focuses on domestic Australian institutional accountability and media regulation regarding Middle East coverage.",
+      "Fox News focuses on the intersection of domestic American partisan politics and public reactions to the Gaza conflict at a specific event.",
+      "Al Jazeera provides detailed accounts of humanitarian crises, infrastructure destruction, and specific casualties resulting from Israeli military operations in Gaza and the West Bank."
+    ],
+    "synthesis": "The provided reports cover disparate events related to the ongoing Israel-Gaza conflict, ranging from domestic institutional critiques in Australia to political confrontations in the United States and humanitarian reporting from occupied territories. There is no singular event being covered across these sources, but rather a thematic overlap in how the conflict influences international public discourse and local political environments. The reporting reflects highly polarized perspectives depending on the outlet's geographic focus and editorial priorities.",
+    "confidence": "Low - The sources are not reporting on the same event, therefore consistency cannot be evaluated; they represent disconnected news cycles.",
+    "sources": [
+      {
+        "id": "art_1782709985699_nbnm2",
+        "url": "https://www.theguardian.com/australia-news/2026/jun/29/abc-sbs-to-appear-antisemitism-rc-royal-commission-bondi-attack-inquiry-ntwnfb",
+        "source": "guardian",
+        "title": "ABC and SBS to appear at antisemitism royal commission after complaints of ‘unbalanced’ Middle East coverage"
+      },
+      {
+        "id": "art_1782692250822_neri1",
+        "url": "https://www.foxnews.com/media/pro-israel-democrat-california-state-senator-heckled-trans-march-gaza",
+        "source": "fox",
+        "title": "Pro-Israel Democrat California state senator heckled at Trans March over Gaza, ‘We f---ing hate you’"
+      },
+      {
+        "id": "art_1782677562841_cufn6",
+        "url": "https://www.aljazeera.com/news/2026/6/28/israel-kills-three-palestinians-in-gaza-as-attacks-on-tents-continue?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel kills three Palestinians in Gaza as attacks on tents continue"
+      },
+      {
+        "id": "art_1782677568345_0i7qo",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/gazas-displaced-families-face-worsening-living-conditions?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Gaza’s displaced families face worsening living conditions"
+      },
+      {
+        "id": "art_1782677571534_92mta",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/israeli-forces-bulldoze-olive-groves-in-the-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli forces bulldoze olive groves in the occupied West Bank"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2e8df3dd4eb4ab2bd7b4e09f0ce9ac56",
+    "topic_label": "Supreme Court Ruling on Lisa Cook",
+    "event_window_start": "2026-06-29T14:20:22.000Z",
+    "event_window_end": "2026-06-29T16:59:51.000Z",
+    "article_ids": [
+      "art_1782754519252_m859c",
+      "art_1782754520553_2dywi",
+      "art_1782743725033_h4a59"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The US Supreme Court issued a 5-4 decision regarding President Donald Trump's attempt to remove Federal Reserve Governor Lisa Cook.",
+      "The Court blocked the removal of Lisa Cook from her position.",
+      "The dispute involves allegations of mortgage fraud brought against Cook by the Trump administration.",
+      "Lisa Cook has denied all allegations of mortgage fraud."
+    ],
+    "source_differences": [
+      "Al Jazeera emphasizes the specific split of the justices, noting the unexpected alignment of Roberts and Kavanaugh with liberal justices.",
+      "BBC frames the ruling as a procedural issue regarding 'due process' and notes the case is being sent back to lower courts, whereas The Guardian frames it as a constitutional ruling on presidential authority.",
+      "The Guardian includes biographical context, noting that Cook is the first Black woman to serve on the Fed's board and that her term was scheduled until 2038."
+    ],
+    "synthesis": "The US Supreme Court ruled 5-4 against President Trump's attempt to remove Federal Reserve Governor Lisa Cook, citing either a lack of due process or a lack of constitutional authority to terminate her without cause. While the court has blocked the immediate firing, the dispute remains ongoing as the administration must now substantiate its fraud allegations in lower courts. The decision serves as a significant affirmation of the Federal Reserve's institutional independence.",
+    "confidence": "High regarding the outcome of the case, but moderate regarding the legal rationale, as sources emphasize different aspects (procedural due process versus broad constitutional authority).",
+    "sources": [
+      {
+        "id": "art_1782754519252_m859c",
+        "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Supreme Court blocks Trump’s bid to fire US Federal Reserve’s Lisa Cook"
+      },
+      {
+        "id": "art_1782754520553_2dywi",
+        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Supreme Court blocks Trump's attempt to fire Federal Reserve governor Lisa Cook"
+      },
+      {
+        "id": "art_1782743725033_h4a59",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling",
+        "source": "guardian",
+        "title": "US supreme court rules Trump’s firing of Lisa Cook from Fed was unconstitutional"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6ff7f06030788626deaaf6b81e86482e",
+    "topic_label": "World Cup 2026",
+    "event_window_start": "2026-06-28T18:23:20.000Z",
+    "event_window_end": "2026-06-29T09:03:17.000Z",
+    "article_ids": [
+      "art_1782727773184_pu6qn",
+      "art_1782709979327_etgmk",
+      "art_1782687674383_74sfh",
+      "art_1782687676458_93j9n",
+      "art_1782687682745_pa8hi",
+      "art_1782682728588_oownt",
+      "art_1782677566253_56and",
+      "art_1782672315793_ty6x9"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 8,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The 2026 FIFA World Cup is currently in the knockout stage.",
+      "Canada defeated South Africa 1-0 via a 92nd-minute goal to reach the last 16.",
+      "Hong Myung-bo has resigned as head coach of South Korea following their failure to advance.",
+      "Iran was eliminated from the tournament after failing to qualify as one of the best third-placed teams."
+    ],
+    "source_differences": [
+      "Fox News focuses on the atmosphere of the tournament in the US and fan culture rather than detailed match analysis.",
+      "Al Jazeera provides detailed geopolitical and emotional context regarding Iran's exit and focuses on tournament scheduling.",
+      "BBC emphasizes domestic political repercussions in South Korea, specifically noting a presidential call for an investigation into the team's loss."
+    ],
+    "synthesis": "The 2026 FIFA World Cup is progressing into the knockout rounds, headlined by Canada's historic first-ever victory in this stage. Conversely, South Korea's early elimination has triggered a major political and administrative crisis, while Iran's departure from the tournament has caused significant emotional reaction among its citizenry. The tournament remains under intense international scrutiny as both sports performance and domestic governance are being questioned.",
+    "confidence": "Consistent; the reporting across outlets is complementary and lacks material contradictions, with variations driven by editorial focus rather than factual disagreement.",
+    "sources": [
+      {
+        "id": "art_1782727773184_pu6qn",
+        "url": "https://www.aljazeera.com/sports/2026/6/29/fifa-world-cup-round-of-32-schedule-predictions-and-latest-news?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FIFA World Cup: Round of 32 schedule, predictions and latest news"
+      },
+      {
+        "id": "art_1782709979327_etgmk",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7jk0kq4vo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "South Korea football coach quits as president calls for probe into World Cup loss"
+      },
+      {
+        "id": "art_1782687674383_74sfh",
+        "url": "https://www.foxnews.com/sports/canada-scores-92nd-minute-earn-first-world-cup-knockout-stage-victory-south-africa",
+        "source": "fox",
+        "title": "Canada scores in 92nd minute to earn first World Cup knockout stage victory over South Africa"
+      },
+      {
+        "id": "art_1782687676458_93j9n",
+        "url": "https://www.aljazeera.com/sports/2026/6/28/heightened-emotions-in-iran-after-team-melli-knocked-out-of-world-cup?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Heightened emotions in Iran after Team Melli knocked out of World Cup"
+      },
+      {
+        "id": "art_1782687682745_pa8hi",
+        "url": "https://www.aljazeera.com/sports/2026/6/28/canada-score-late-to-beat-south-africa-and-reach-last-16-at-world-cup-2026?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Canada score late to beat South Africa and reach last 16 at World Cup 2026"
+      },
+      {
+        "id": "art_1782682728588_oownt",
+        "url": "https://www.foxnews.com/outkick-sports/espn-honors-irans-world-cup-elimination-remarkable-despite-zero-wins-three-matches",
+        "source": "fox",
+        "title": "ESPN honors Iran's World Cup elimination as 'remarkable' despite zero wins in three matches"
+      },
+      {
+        "id": "art_1782677566253_56and",
+        "url": "https://www.aljazeera.com/sports/2026/6/28/world-cup-2026-top-matches-to-watch-in-the-round-of-32-knockout-stage?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "World Cup 2026: Top matches to watch in the Round of 32 knockout stage"
+      },
+      {
+        "id": "art_1782672315793_ty6x9",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/why-do-reports-of-domestic-abuse-increase-during-world-cups?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why do reports of domestic abuse increase during World Cups?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "74e4ecdb5006c6ab01b5f95afe31ecf6",
+    "topic_label": "TNA Slammiversary Wrestling Results",
+    "event_window_start": "2026-06-28T19:46:56.000Z",
+    "event_window_end": "2026-06-28T23:36:07.000Z",
+    "article_ids": [
+      "art_1782692252039_hshyz",
+      "art_1782692255138_d2jct",
+      "art_1782692263588_1tiyb",
+      "art_1782687673334_p2twi",
+      "art_1782687681718_wy7wp",
+      "art_1782677567280_fl9bt"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "TNA held an event titled Slammiversary on a Sunday.",
+      "Nic Nemeth won the TNA World Championship against Mike Santana.",
+      "Cedric Alexander retained the X Division Championship in an Ultimate X match.",
+      "The Hardys won the TNA tag team titles in a four-way ladder match.",
+      "Mustafa Ali participated in the event as the TNA International Champion."
+    ],
+    "source_differences": [
+      "The articles focus on different individual match results rather than providing a comprehensive overview of the event card.",
+      "The reporting relies heavily on stock photography and redundant introductory boilerplate text common to Fox News digital sports coverage."
+    ],
+    "synthesis": "TNA Wrestling successfully conducted its Slammiversary event, featuring multiple title changes and high-stakes matches including an Ultimate X contest and a four-way ladder match. Significant outcomes included Nic Nemeth securing the World Championship and The Hardys claiming the tag team titles. The event also served as a platform for title defenses by Cedric Alexander and Mustafa Ali.",
+    "confidence": "Consistent. All provided reports originate from the same outlet and pertain to different matches within the same event without contradicting one another.",
+    "sources": [
+      {
+        "id": "art_1782692252039_hshyz",
+        "url": "https://www.foxnews.com/sports/nic-nemeth-captures-tna-world-championship-win-over-mike-santana-slammiversary",
+        "source": "fox",
+        "title": "Nic Nemeth captures TNA World Championship with win over Mike Santana at Slammiversary"
+      },
+      {
+        "id": "art_1782692255138_d2jct",
+        "url": "https://www.foxnews.com/sports/cedric-alexander-retains-x-division-championship-high-iq-steal-tna-slammiversary",
+        "source": "fox",
+        "title": "Cedric Alexander retains the X Division Championship with high IQ steal at TNA Slammiversary"
+      },
+      {
+        "id": "art_1782692263588_1tiyb",
+        "url": "https://www.foxnews.com/sports/jeff-hardy-48-turns-back-clock-wild-ladder-dive-hardys-win-tna-tag-titles-slammiversary",
+        "source": "fox",
+        "title": "Jeff Hardy, 48, turns back the clock with wild ladder dive as The Hardys win TNA tag titles at Slammiversary"
+      },
+      {
+        "id": "art_1782687673334_p2twi",
+        "url": "https://www.foxnews.com/sports/xia-brookside-wins-tna-knockouts-world-championship-slammiversary-over-lei-ying-lee",
+        "source": "fox",
+        "title": "Xia Brookside wins TNA Knockouts World Championship at Slammiversary over Léi Yǐng Lee"
+      },
+      {
+        "id": "art_1782687681718_wy7wp",
+        "url": "https://www.foxnews.com/sports/mustafa-ali-retains-tna-international-championship-former-wwe-star-makes-debut-slammiversary",
+        "source": "fox",
+        "title": "Mustafa Ali retains TNA International Championship as former WWE star makes debut at Slammiversary"
+      },
+      {
+        "id": "art_1782677567280_fl9bt",
+        "url": "https://www.foxnews.com/sports/tna-introduces-knockouts-tv-championship-slammiversary",
+        "source": "fox",
+        "title": "TNA introduces Knockouts TV Championship at Slammiversary"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f497dca63638b007b8929549d2f8c18b",
+    "topic_label": "Andy Burnham Political Initiatives",
+    "event_window_start": "2026-06-28T18:59:47.000Z",
+    "event_window_end": "2026-06-29T10:02:56.000Z",
+    "article_ids": [
+      "art_1782727760131_9fft5",
+      "art_1782682719849_yvr7l",
+      "art_1782677573806_45pq7"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Andy Burnham is poised to become the next Prime Minister of the United Kingdom.",
+      "Andy Burnham is prioritizing regional devolution and economic growth as key pillars of his platform.",
+      "Keir Starmer's tenure as Prime Minister has concluded."
+    ],
+    "source_differences": [
+      "The Guardian focuses on the policy details of Burnham's upcoming speech, specifically his 'good growth in every postcode' slogan and potential tax devolution.",
+      "Al Jazeera focuses on the political context of the transition, specifically evaluating Burnham's potential success in managing the media landscape compared to Starmer."
+    ],
+    "synthesis": "Following the conclusion of Keir Starmer's premiership, Andy Burnham is set to assume the office of Prime Minister. His incoming administration intends to pivot toward a strategy of decentralizing power from Whitehall to local regions to stimulate economic growth. The transition is being closely scrutinized regarding Burnham's ability to navigate a complex, polarized media environment.",
+    "confidence": "High: The core facts regarding the political transition and the focus of Burnham's agenda are consistent, though the outlets emphasize different aspects of the leadership change.",
+    "sources": [
+      {
+        "id": "art_1782727760131_9fft5",
+        "url": "https://www.theguardian.com/politics/live/2026/jun/29/andy-burnham-devolution-speech-keir-starmer-labour-latest-news-updates",
+        "source": "guardian",
+        "title": "Andy Burnham to propose devolution plan in first major policy speech since launching bid for No 10 – UK politics live"
+      },
+      {
+        "id": "art_1782682719849_yvr7l",
+        "url": "https://www.theguardian.com/politics/2026/jun/28/andy-burnham-to-pledge-good-growth-in-every-postcode-in-devolution-plan",
+        "source": "guardian",
+        "title": "Andy Burnham to pledge ‘good growth in every postcode’ in devolution plan"
+      },
+      {
+        "id": "art_1782677573806_45pq7",
+        "url": "https://www.aljazeera.com/video/the-listening-post/2026/6/28/starmer-couldnt-master-the-media-can-burnham?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Starmer couldn’t master the media. Can Burnham?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "31442229d0eb8dc6c290ed9476697aa2",
+    "topic_label": "Kate Middleton Three Peaks Challenge",
+    "event_window_start": "2026-06-28T20:03:30.000Z",
+    "event_window_end": "2026-06-28T22:58:54.000Z",
+    "article_ids": [
+      "art_1782692262564_bvwjf",
+      "art_1782677560441_d2tkp"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T18:06:43.993Z",
+    "updated_at": "2026-06-29T18:06:43.993Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Catherine (Kate) Middleton, age 44, completed the National Three Peaks Challenge within a 24-hour window.",
+      "The challenge involved summiting the highest mountains in Scotland, England, and Wales.",
+      "Middleton framed the endeavor as a personal commitment related to her own cancer journey."
+    ],
+    "source_differences": [
+      "Fox News focuses on the 'inspirational' aspect and the act of reflecting on her own cancer battle.",
+      "The Guardian emphasizes that she is the first royal to complete the feat and explicitly states the purpose is to raise money for a cancer charity.",
+      "The Guardian includes specific timeline details, noting the trek occurred over the weekend starting Saturday evening."
+    ],
+    "synthesis": "The Princess of Wales successfully completed the National Three Peaks Challenge, marking the first time a member of the royal family has achieved this milestone. She presented the physical exertion as an act of solidarity with cancer survivors and a personal reflection on her own recovery. The reporting is generally consistent, with slight variations in the emphasis placed on charity fundraising versus personal inspiration.",
+    "confidence": "High; the core event and biographical details are consistent across both sources.",
+    "sources": [
+      {
+        "id": "art_1782692262564_bvwjf",
+        "url": "https://www.foxnews.com/entertainment/kate-middleton-scales-uks-three-highest-peaks-24-hours-deeply-personal-message-cancer-survivors",
+        "source": "fox",
+        "title": "Kate Middleton scales UK's three highest peaks in 24 hours with a deeply personal message for cancer survivors"
+      },
+      {
+        "id": "art_1782677560441_d2tkp",
+        "url": "https://www.theguardian.com/uk-news/2026/jun/28/kate-completes-three-peaks-challenge-to-raise-money-for-cancer-charity",
+        "source": "guardian",
+        "title": "Kate completes Three Peaks challenge to raise money for cancer charity"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "9ca4aa688130c34232732a3014484be3",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-06-29T14:19:01.000Z",
@@ -4076,770 +4654,6 @@
         "source": "fox",
         "title": "33 rescued from Venezuelan rubble: Survival window desperately fading with nearly 50,000 missing"
       },
-      {
-        "id": "art_1782656628494_chge5",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/stories-of-survivors-of-venezuelas-earthquakes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Stories of survivors of Venezuela’s earthquakes"
-      },
-      {
-        "id": "art_1782642415464_n7g2e",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/venezuelan-earthquakes-test-trumps-new-western-hemisphere-policy-after-gutting-of-usaid",
-        "source": "guardian",
-        "title": "Venezuelan earthquakes test Trump’s new western hemisphere policy after gutting of USAID"
-      },
-      {
-        "id": "art_1782632360119_olgbp",
-        "url": "https://www.aljazeera.com/gallery/2026/6/28/in-pictures-race-against-time-to-rescue-venezuela-earthquake-survivors?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "In pictures: Race against time to rescue Venezuela earthquake survivors"
-      },
-      {
-        "id": "art_1782632364553_cncma",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/venezuelan-earthquake-death-toll-rises-amid-increasingly-dire-search?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Venezuelan earthquake death toll rises amid increasingly dire search"
-      },
-      {
-        "id": "art_1782617349137_fh28i",
-        "url": "https://www.foxnews.com/world/american-rescue-teams-pull-infant-alive-rubble-venezuela-days-devastating-twin-earthquakes",
-        "source": "fox",
-        "title": "American rescue teams pull infant alive from rubble in Venezuela days after devastating twin earthquakes"
-      },
-      {
-        "id": "art_1782603339044_bqdtw",
-        "url": "https://www.aljazeera.com/news/2026/6/27/another-powerful-4-8-magnitude-earthquake-hits-near-venezuela?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Another powerful 4.8 magnitude earthquake hits near Venezuela"
-      },
-      {
-        "id": "art_1782603341342_cyr05",
-        "url": "https://www.bbc.co.uk/news/articles/cp8l451420zo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Every person saved is a miracle': Families call to trapped loved ones in region devastated by Venezuela quakes"
-      },
-      {
-        "id": "art_1782598185135_izqrn",
-        "url": "https://www.bbc.co.uk/news/videos/cm2d0rjg4l3o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Panic attacks and fractures - Venezuela hospital treats earthquake victims"
-      },
-      {
-        "id": "art_1782594048081_z3j7q",
-        "url": "https://www.theguardian.com/world/2026/jun/27/venezuela-earthquakes-death-toll-rises-jorge-rodriguez",
-        "source": "guardian",
-        "title": "Venezuela earthquakes: death toll rises again to more than 1,400"
-      },
-      {
-        "id": "art_1782589221056_f3jcj",
-        "url": "https://www.bbc.co.uk/news/videos/cjdgrrvvvjgo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: A race against the clock for Venezuela earthquake rescuers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e108dc6127f7d7b067431a1e91f833db",
-    "topic_label": "US-Iran Escalating Tensions",
-    "event_window_start": "2026-06-27T22:07:03.000Z",
-    "event_window_end": "2026-06-28T15:02:53.000Z",
-    "article_ids": [
-      "art_1782661778412_ei7ep",
-      "art_1782656620103_x7pk0",
-      "art_1782656622206_qljfd",
-      "art_1782656624345_x1zfh",
-      "art_1782656631717_qlnfg",
-      "art_1782648231756_a7l8t",
-      "art_1782642405495_xbdkv",
-      "art_1782642418731_sm3mm",
-      "art_1782632356613_2s4z9",
-      "art_1782632361167_n1g8z",
-      "art_1782617358121_ua16v",
-      "art_1782603335778_6ucj7",
-      "art_1782603336901_5lgyf"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 13,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T18:02:37.831Z",
-    "updated_at": "2026-06-28T18:02:37.831Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A memorandum of understanding (MoU) was recently signed between the United States and Iran.",
-      "The agreement is currently failing due to renewed military strikes between the two nations.",
-      "The Strait of Hormuz is a primary point of contention and a central element of the dispute.",
-      "Recent military engagements include Iranian missile and drone strikes against US-linked assets in Bahrain and Kuwait, as well as US air strikes on Iranian territory."
-    ],
-    "source_differences": [
-      "The Guardian focuses on the ambiguity of the MoU's text and internal Iranian political pressure regarding the Strait of Hormuz.",
-      "Al Jazeera includes specific details about IRGC rhetoric, the inclusion of Israel in the regional context, and references to specific clauses like Article 5.",
-      "Al Jazeera's opinion pieces emphasize the perspective that the US administration never intended to honor the deal, framing it as a strategic 'mirage' rather than a failure of diplomacy."
-    ],
-    "synthesis": "Recent military escalations between the US and Iran have effectively jeopardized the stability of the recently signed memorandum of understanding. Both nations are engaged in reciprocal accusations regarding violations of the agreement, particularly concerning the oversight and passage rights within the Strait of Hormuz. President Trump has signaled a potential abandonment of diplomatic efforts in favor of military action, reflecting a rapid collapse of the fragile interim peace.",
-    "confidence": "Consistent regarding the occurrence of hostilities and the breakdown of the agreement; however, reporting is heavily colored by divergent geopolitical narratives and interpretations of intent.",
-    "sources": [
-      {
-        "id": "art_1782661778412_ei7ep",
-        "url": "https://www.theguardian.com/world/2026/jun/28/fresh-hostilities-gulf-us-iran-memorandum-interpretations-lebanon-ceasefire-strait-of-hormuz",
-        "source": "guardian",
-        "title": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded"
-      },
-      {
-        "id": "art_1782656620103_x7pk0",
-        "url": "https://www.aljazeera.com/news/2026/6/28/irgc-doubles-down-as-iran-us-mou-jeopardised-by-hormuz-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "IRGC doubles down as Iran-US MoU jeopardised by Hormuz strikes"
-      },
-      {
-        "id": "art_1782656622206_qljfd",
-        "url": "https://www.aljazeera.com/opinions/2026/6/28/the-us-iran-mou-a-mirage-of-an-agreement?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The US-Iran MoU: A mirage of an agreement"
-      },
-      {
-        "id": "art_1782656624345_x1zfh",
-        "url": "https://www.theguardian.com/world/2026/jun/28/escalating-us-iran-strikes-threaten-interim-peace-agreement",
-        "source": "guardian",
-        "title": "Escalating US-Iran strikes threaten interim peace agreement"
-      },
-      {
-        "id": "art_1782656631717_qlnfg",
-        "url": "https://www.aljazeera.com/news/2026/6/28/why-is-article-5-of-mou-causing-confrontations-in-the-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What is Article 5 of Iran-US MoU, and why is it blamed for Hormuz strikes?"
-      },
-      {
-        "id": "art_1782648231756_a7l8t",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-trying-to-find-its-way-out-of-mou-with?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘US trying to find its way out of MoU with Iran’"
-      },
-      {
-        "id": "art_1782642405495_xbdkv",
-        "url": "https://www.theguardian.com/world/live/2026/jun/28/iran-strait-of-hormuz-donald-trump-vance-peace-talks-bahrain-kuwait-strikes-latest-news-updates",
-        "source": "guardian",
-        "title": "Donald Trump threatens to annihilate Iran after crossfire over Hormuz – Middle East crisis live"
-      },
-      {
-        "id": "art_1782642418731_sm3mm",
-        "url": "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran attacks Kuwait and Bahrain in response to US strikes"
-      },
-      {
-        "id": "art_1782632356613_2s4z9",
-        "url": "https://www.theguardian.com/world/2026/jun/28/gulf-us-iran-war-proxies-middle-east",
-        "source": "guardian",
-        "title": "Gulf shares concerns with US as Iran’s influence and power continue by proxy"
-      },
-      {
-        "id": "art_1782632361167_n1g8z",
-        "url": "https://www.aljazeera.com/news/2026/6/28/iran-war-day-121-iran-attacks-bahrain-kuwait-as-us-strikes-near-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran war day 121: Iran attacks Bahrain, Kuwait as US strikes near Hormuz"
-      },
-      {
-        "id": "art_1782617358121_ua16v",
-        "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US launches strikes on Iran after second shipping attack"
-      },
-      {
-        "id": "art_1782603335778_6ucj7",
-        "url": "https://www.theguardian.com/us-news/2026/jun/27/us-iran-strikes",
-        "source": "guardian",
-        "title": "US says it struck targets in Iran over ‘continued aggression’ against shipping"
-      },
-      {
-        "id": "art_1782603336901_5lgyf",
-        "url": "https://www.aljazeera.com/news/2026/6/27/us-launches-second-night-of-strikes-against-iran-after-ship-struck-by-drone?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US launches second night of strikes against Iran after ship struck by drone"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fc4f9157a4afac2f0efaa7daedf7e41e",
-    "topic_label": "Israel and Middle East Conflicts",
-    "event_window_start": "2026-06-27T18:50:59.000Z",
-    "event_window_end": "2026-06-28T13:30:00.000Z",
-    "article_ids": [
-      "art_1782656627461_jga8l",
-      "art_1782656630694_gerwi",
-      "art_1782598183057_j4056",
-      "art_1782598187199_fbdjl",
-      "art_1782589212997_tb8kc",
-      "art_1782589218819_4g4hw"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T18:02:37.831Z",
-    "updated_at": "2026-06-28T18:02:37.831Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israel has stated it is preparing for an extended military presence in southern Lebanon.",
-      "A US-brokered agreement concerning Israel and Lebanon has been established.",
-      "Hezbollah has expressed rejection of the recent agreement.",
-      "There is ongoing Israeli military activity involving drone strikes and troop operations in southern Lebanon."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses heavily on the humanitarian and geopolitical impact of the war in Gaza and the West Bank, framing Israeli actions through the lens of occupation and civilian casualties.",
-      "BBC provides a more neutral, tactical reporting style, focusing on the immediate geopolitical implications of the Lebanon agreement and the specific statements from Israeli and Lebanese officials.",
-      "Al Jazeera includes specific claims regarding the nature of Israeli conduct in Gaza and the West Bank which are not addressed in the BBC coverage of the Lebanon border situation."
-    ],
-    "synthesis": "The regional security situation remains volatile as Israel consolidates military positions in southern Lebanon following a US-brokered agreement. While the Israeli government insists on an extended presence to ensure the disarmament of Hezbollah, the militant group remains defiant, rejecting the terms of the deal. Concurrently, Al Jazeera reports on sustained humanitarian crises and settler activities in Gaza and the West Bank, highlighting a broader context of regional instability.",
-    "confidence": "Consistent regarding the facts of the Lebanon deployment, but contains significant differences in framing and thematic focus between the sources.",
-    "sources": [
-      {
-        "id": "art_1782656627461_jga8l",
-        "url": "https://www.aljazeera.com/video/upfront/2026/6/28/adam-johnson-on-how-us-corporate-media-sold-israels-genocide-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Adam Johnson on how US corporate media sold Israel’s genocide in Gaza"
-      },
-      {
-        "id": "art_1782656630694_gerwi",
-        "url": "https://www.aljazeera.com/economy/2026/6/28/paradise-lost-how-israel-is-making-war-on-west-bank-farmers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Paradise lost: How Israel is making war on West Bank farmers"
-      },
-      {
-        "id": "art_1782598183057_j4056",
-        "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal "
-      },
-      {
-        "id": "art_1782598187199_fbdjl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/videos-show-israeli-settlers-trying-to-seize-house-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Videos show Israeli settlers trying to seize house in occupied West Bank"
-      },
-      {
-        "id": "art_1782589212997_tb8kc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/israel-orders-troops-to-prepare-for-extended-stay-in-lebanon?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel orders troops to prepare for ‘extended stay’ in Lebanon"
-      },
-      {
-        "id": "art_1782589218819_4g4hw",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/two-killed-dozens-injured-in-israeli-strike-on-displacement-tents-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Two killed, dozens injured in Israeli strike on displacement tents in Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "65ddc81b162850a7fa819c0006272a7b",
-    "topic_label": "US Wildfires",
-    "event_window_start": "2026-06-27T19:13:34.000Z",
-    "event_window_end": "2026-06-28T16:43:26.000Z",
-    "article_ids": [
-      "art_1782666436513_7i323",
-      "art_1782666443355_fq0yc",
-      "art_1782589211963_500em"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T18:02:37.831Z",
-    "updated_at": "2026-06-28T18:02:37.831Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Three firefighters were killed and two were injured while responding to wildfires on the Colorado-Utah border on Saturday.",
-      "The fatalities and injuries occurred during a response to the Knowles and Gore fires.",
-      "The incident was confirmed by the US Wildland Fire Service.",
-      "The identities of the firefighters have not yet been released."
-    ],
-    "source_differences": [
-      "The Guardian focuses on the joint agency response and provides general context on western US wildfire activity.",
-      "The BBC provides specific details regarding the cause of the casualties, noting they were overwhelmed by flames and attempted to take shelter.",
-      "The Guardian's second report introduces the Cottonwood fire in Fishlake National Forest, which is not mentioned in the fatality reports."
-    ],
-    "synthesis": "Three firefighters died and two were injured on Saturday while combating the Knowles and Gore wildfires along the Colorado-Utah border. The crew was reportedly overwhelmed by flames despite attempting to seek shelter. While multiple large blazes continue to threaten the region, officials are currently prioritizing support for the affected families and colleagues.",
-    "confidence": "Consistent; the sources align on the primary event details, with the BBC offering more specific tactical context regarding the cause of the casualties.",
-    "sources": [
-      {
-        "id": "art_1782666436513_7i323",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/firefighter-deaths-utah-colorado-wildfires",
-        "source": "guardian",
-        "title": "Three firefighters killed and two injured while battling Utah-Colorado wildfires"
-      },
-      {
-        "id": "art_1782666443355_fq0yc",
-        "url": "https://www.bbc.co.uk/news/articles/cp8l7mpmdggo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Three firefighters die battling huge wildfires on Colorado-Utah border"
-      },
-      {
-        "id": "art_1782589211963_500em",
-        "url": "https://www.theguardian.com/us-news/2026/jun/27/firefighters-wildfire-fishlake-national-forest-central-utah",
-        "source": "guardian",
-        "title": "Utah’s Cottonwood fire spreads overnight to cover 92,000 acres"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "31586bb5cc55f84afc09ec696618e9c8",
-    "topic_label": "2026 FIFA World Cup",
-    "event_window_start": "2026-06-27T18:10:03.000Z",
-    "event_window_end": "2026-06-28T06:13:01.000Z",
-    "article_ids": [
-      "art_1782632362456_h2web",
-      "art_1782632363508_cmo5w",
-      "art_1782632367953_k1xjo",
-      "art_1782617351222_aftrl",
-      "art_1782603334691_j8f03",
-      "art_1782603340095_h0bu3",
-      "art_1782589217779_72u06",
-      "art_1782589222083_zbzs2",
-      "art_1782589224316_7acuh"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T18:02:37.831Z",
-    "updated_at": "2026-06-28T18:02:37.831Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The 2026 FIFA World Cup has expanded to 48 teams.",
-      "The tournament format includes a round of 32 knockout stage.",
-      "Qualification criteria for the round of 32 involves the top two teams from each of the 12 groups plus the eight best third-placed teams.",
-      "Bosnia and Herzegovina qualified for the round of 32."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses on technical aspects such as the tie-breaker rules, general scheduling, and specific match outcomes like England vs. DR Congo and Colombia vs. Portugal.",
-      "Fox News focuses on the U.S. Men's National Team (USMNT) path to the final, including a human interest component regarding fan experiences.",
-      "Al Jazeera provides detailed information on group standings and specific player milestones, whereas Fox News omits broader tournament statistics in favor of domestic team coverage."
-    ],
-    "synthesis": "The 2026 FIFA World Cup has entered the round of 32 following an expansion to 48 teams that allows top finishers and the best third-placed teams to advance. Tournament progression is underway with various high-profile matchups determined by group stage results. Media coverage varies between global analytical reporting on tournament structure and localized narratives focused on national team success paths.",
-    "confidence": "Consistent; the sources provide complementary information regarding the tournament structure and current status without direct factual contradiction.",
-    "sources": [
-      {
-        "id": "art_1782632362456_h2web",
-        "url": "https://www.aljazeera.com/sports/2026/6/28/which-teams-are-in-world-cup-last-32-knockouts-and-what-is-the-schedule?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Which teams are in World Cup last-32 knockouts, and what is the schedule?"
-      },
-      {
-        "id": "art_1782632363508_cmo5w",
-        "url": "https://www.aljazeera.com/sports/2026/6/28/which-teams-have-qualified-for-the-world-cup-2026-knockouts-round-of-32?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Which teams have qualified for the World Cup 2026 knockouts, round of 32?"
-      },
-      {
-        "id": "art_1782632367953_k1xjo",
-        "url": "https://www.aljazeera.com/sports/2026/6/28/messi-argentina-fifa-world-cup-2026-england-dr-congo-portugal-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "World Cup: Messi sends Argentina to top, England to face DR Congo, Iran out"
-      },
-      {
-        "id": "art_1782617351222_aftrl",
-        "url": "https://www.aljazeera.com/sports/2026/6/28/colombia-wins-world-cup-2026-group-after-breathless-0-0-draw-with-portugal?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Colombia top World Cup 2026 group after breathless 0-0 draw with Portugal"
-      },
-      {
-        "id": "art_1782603334691_j8f03",
-        "url": "https://www.foxnews.com/outkick-sports/breaking-united-states-path-2026-fifa-world-cup-final-knockout-play-nears",
-        "source": "fox",
-        "title": "Breaking down the United States' path to the 2026 FIFA World Cup final as knockout play nears"
-      },
-      {
-        "id": "art_1782603340095_h0bu3",
-        "url": "https://www.aljazeera.com/sports/2026/6/27/dr-congo-superfan-denied-us-visa-to-support-team-at-world-cup?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "DR Congo superfan denied US visa to support team at World Cup"
-      },
-      {
-        "id": "art_1782589217779_72u06",
-        "url": "https://www.aljazeera.com/sports/2026/6/27/south-africas-broos-smiles-and-snarls-ahead-of-canada-world-cup-showdown?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "South Africa’s Broos smiles and snarls before Canada World Cup showdown"
-      },
-      {
-        "id": "art_1782589222083_zbzs2",
-        "url": "https://www.aljazeera.com/sports/2026/6/27/iran-urge-fifa-to-stand-up-to-really-terrible-world-cup-treatment-by-us?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran urge FIFA to stand up to ‘really terrible’ World Cup treatment by US"
-      },
-      {
-        "id": "art_1782589224316_7acuh",
-        "url": "https://www.foxnews.com/sports/logic-behind-two-world-cup-teams-might-actually-want-win-final-group-stage-games",
-        "source": "fox",
-        "title": "The logic behind why two World Cup teams might not actually want to win their final group stage games"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e489762bf130b4314b2cf38098c1a583",
-    "topic_label": "Trump Nominations for ICE Director",
-    "event_window_start": "2026-06-27T20:48:23.000Z",
-    "event_window_end": "2026-06-27T21:01:12.000Z",
-    "article_ids": [
-      "art_1782598190418_jjmxu",
-      "art_1782598193516_xueap",
-      "art_1782594033520_fdwpf"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-27T23:06:10.246Z",
-    "updated_at": "2026-06-27T23:06:10.246Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump nominated Lance Schroyer as the next director of U.S. Immigration and Customs Enforcement (ICE).",
-      "Lance Schroyer is a former Oklahoma state trooper and a U.S. Marine.",
-      "Schroyer possesses approximately 29 years of law enforcement experience.",
-      "The nomination announcement was made via a Truth Social post on a Saturday."
-    ],
-    "source_differences": [
-      "The Guardian focuses on his background in an ICE-partnered program in Oklahoma.",
-      "Al Jazeera emphasizes Schroyer's role in the mass deportation campaign and notes his lack of experience leading federal agencies.",
-      "Fox News highlights his specific history spearheading 287(g) partnerships with ICE.",
-      "Sources differ on the name of the outgoing director (The Guardian cites David Venturella, while the Fox News excerpt focuses on Todd Lyons)."
-    ],
-    "synthesis": "President Trump has nominated Oklahoma law enforcement veteran and former Marine Lance Schroyer to lead ICE, emphasizing his operational background in immigration enforcement. The nomination is framed by the administration as a core component of its planned mass deportation strategy. While reporting is largely consistent regarding the nominee's credentials, outlets vary in their assessment of his qualifications and the scope of his intended role.",
-    "confidence": "High; factual consensus exists on the nomination itself, with minor discrepancies regarding the outgoing leadership status likely due to the transitional nature of the position.",
-    "sources": [
-      {
-        "id": "art_1782598190418_jjmxu",
-        "url": "https://www.theguardian.com/us-news/2026/jun/27/trump-nomination-ice-director-lance-schroyer",
-        "source": "guardian",
-        "title": "Trump says he will nominate Lance Schroyer as next ICE director"
-      },
-      {
-        "id": "art_1782598193516_xueap",
-        "url": "https://www.aljazeera.com/news/2026/6/27/donald-trump-nominates-lance-schroyer-to-serve-as-ice-director?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Donald Trump nominates ex-state trooper Lance Schroyer as ICE director"
-      },
-      {
-        "id": "art_1782594033520_fdwpf",
-        "url": "https://www.foxnews.com/politics/trump-nominates-oklahoma-law-enforcement-veteran-lance-schroyer-lead-ice-permanent-director",
-        "source": "fox",
-        "title": "Trump nominates Oklahoma law enforcement veteran Lance Schroyer to lead ICE as permanent director"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "caebd851445f422b6f57ad69a302a641",
-    "topic_label": "US Political News",
-    "event_window_start": "2026-06-27T19:42:30.000Z",
-    "event_window_end": "2026-06-28T15:19:53.000Z",
-    "article_ids": [
-      "art_1782661775249_4vwk8",
-      "art_1782661779473_38acg",
-      "art_1782661787029_iavop",
-      "art_1782648228383_bt0e5",
-      "art_1782648235941_k8xx7",
-      "art_1782642412092_wnbz2",
-      "art_1782603337998_1ej6a"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T18:02:37.831Z",
-    "updated_at": "2026-06-28T18:02:37.831Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Former President Joe Biden delivered a keynote address at the Maryland Democratic Party gala in Hanover, Maryland.",
-      "The event was intended to mobilize support for upcoming midterm elections."
-    ],
-    "source_differences": [
-      "Fox News focuses on the visual of Biden appearing confused while exiting the stage and provides commentary on the lingering political fallout from his past debate performance.",
-      "The Guardian focuses on the policy and rhetoric of Biden's speech, highlighting his criticisms of Donald Trump's character and specific renovation projects at the White House and the Kennedy Center.",
-      "The sources represent entirely separate events and topics, as the Guardian also covers Bill Cassidy's criticism of Trump regarding Iran, and Fox News covers Bill Clinton's comments on New York primary results."
-    ],
-    "synthesis": "Former President Joe Biden addressed a Maryland Democratic Party gala to rally support for midterm elections, using the platform to criticize Donald Trump's administration and character. While the event served as a mobilization effort, media coverage varied significantly, with some outlets highlighting the substance of Biden's rhetoric while others prioritized an assessment of his physical demeanor onstage. These reports are presented alongside unrelated political updates involving Bill Clinton and Senator Bill Cassidy.",
-    "confidence": "Low-to-Moderate; while factual details about the Biden event are consistent across relevant articles, the provided text set contains multiple unrelated stories, creating a disjointed information environment.",
-    "sources": [
-      {
-        "id": "art_1782661775249_4vwk8",
-        "url": "https://www.foxnews.com/politics/watch-biden-appears-confused-where-exit-stage-after-democratic-gala-remarks",
-        "source": "fox",
-        "title": "WATCH: Biden appears confused about where to exit stage after Democratic gala remarks"
-      },
-      {
-        "id": "art_1782661779473_38acg",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/trump-bill-cassidy-congress-iran-war",
-        "source": "guardian",
-        "title": "Bill Cassidy accuses Trump of treating Congress as ‘merely an appendage’"
-      },
-      {
-        "id": "art_1782661787029_iavop",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/biden-speech-trump",
-        "source": "guardian",
-        "title": "Biden calls Trump ‘a loser’, portraying him as incompetent, corrupt and vain"
-      },
-      {
-        "id": "art_1782648228383_bt0e5",
-        "url": "https://www.foxnews.com/opinion/doug-schoen-two-years-bidens-disastrous-debate-dems-still-dealing-fallout",
-        "source": "fox",
-        "title": "DOUG SCHOEN: Two years after Biden’s disastrous debate, Dems still dealing with fallout"
-      },
-      {
-        "id": "art_1782648235941_k8xx7",
-        "url": "https://www.foxnews.com/politics/bill-clinton-reveals-how-he-feels-upcoming-midterms-after-socialist-victories",
-        "source": "fox",
-        "title": "Bill Clinton reveals how he feels about upcoming midterms after socialist victories"
-      },
-      {
-        "id": "art_1782642412092_wnbz2",
-        "url": "https://www.theguardian.com/us-news/2026/jun/28/ice-minnesota-defending-democracy",
-        "source": "guardian",
-        "title": "Anti-ICE organizers shift focus to defend democracy from Trump assault"
-      },
-      {
-        "id": "art_1782603337998_1ej6a",
-        "url": "https://www.foxnews.com/politics/jeffries-welcomes-democratic-socialists-fold-critics-warn-party-revealing-exactly",
-        "source": "fox",
-        "title": "Jeffries welcomes Democratic Socialists into the fold as critics warn party is revealing 'exactly who it is'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1d31c6356040af2024321fa5c9acfd18",
-    "topic_label": "Middle East US Iran Tensions",
-    "event_window_start": "2026-06-27T16:49:24.000Z",
-    "event_window_end": "2026-06-28T15:02:53.000Z",
-    "article_ids": [
-      "art_1782661778412_ei7ep",
-      "art_1782656620103_x7pk0",
-      "art_1782656622206_qljfd",
-      "art_1782656624345_x1zfh",
-      "art_1782656631717_qlnfg",
-      "art_1782648231756_a7l8t",
-      "art_1782642405495_xbdkv",
-      "art_1782642418731_sm3mm",
-      "art_1782632356613_2s4z9",
-      "art_1782632361167_n1g8z",
-      "art_1782617358121_ua16v",
-      "art_1782603335778_6ucj7",
-      "art_1782603336901_5lgyf",
-      "art_1782583246302_g0nq1",
-      "art_1782583261036_dz5ge"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 15,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T16:43:41.317Z",
-    "updated_at": "2026-06-28T16:43:41.317Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A memorandum of understanding (MoU) was signed between the US and Iran roughly 10 days prior to the current hostilities.",
-      "The agreement is currently failing, with both sides accusing each other of violating its terms.",
-      "Recent military strikes have occurred, involving drone and missile attacks on US-linked assets in Kuwait and Bahrain.",
-      "The control and oversight of the Strait of Hormuz is a primary point of contention and a catalyst for the renewed fighting."
-    ],
-    "source_differences": [
-      "The Guardian focuses on the 'deliberately opaque' nature of the MoU's language as the root cause of the failure.",
-      "Al Jazeera emphasizes the IRGC's specific military rhetoric and the role of US-Israeli coordination in Lebanon as a factor in the collapse.",
-      "The Guardian reports on specific, direct threats made by President Trump regarding the potential destruction of Iran.",
-      "Al Jazeera includes analysis suggesting the MoU was viewed by the US administration as a 'mirage' from the outset, rather than a genuine peace effort."
-    ],
-    "synthesis": "The memorandum of understanding between the US and Iran has effectively collapsed following renewed missile and drone exchanges over the status of the Strait of Hormuz. Both nations are currently trading blame for treaty violations, while regional US airbases in Kuwait and Bahrain have become direct targets of Iranian retaliatory strikes. The situation has escalated to a point where US leadership is publicly threatening the potential elimination of the Iranian state if hostilities continue.",
-    "confidence": "High; reporting is consistent regarding the breakdown of the agreement and the specific locations of the recent military escalations, though analytical framing regarding intent varies by outlet.",
-    "sources": [
-      {
-        "id": "art_1782661778412_ei7ep",
-        "url": "https://www.theguardian.com/world/2026/jun/28/fresh-hostilities-gulf-us-iran-memorandum-interpretations-lebanon-ceasefire-strait-of-hormuz",
-        "source": "guardian",
-        "title": "Fresh hostilities in Gulf suggest US-Iran memorandum was too broadly worded"
-      },
-      {
-        "id": "art_1782656620103_x7pk0",
-        "url": "https://www.aljazeera.com/news/2026/6/28/irgc-doubles-down-as-iran-us-mou-jeopardised-by-hormuz-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "IRGC doubles down as Iran-US MoU jeopardised by Hormuz strikes"
-      },
-      {
-        "id": "art_1782656622206_qljfd",
-        "url": "https://www.aljazeera.com/opinions/2026/6/28/the-us-iran-mou-a-mirage-of-an-agreement?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The US-Iran MoU: A mirage of an agreement"
-      },
-      {
-        "id": "art_1782656624345_x1zfh",
-        "url": "https://www.theguardian.com/world/2026/jun/28/escalating-us-iran-strikes-threaten-interim-peace-agreement",
-        "source": "guardian",
-        "title": "Escalating US-Iran strikes threaten interim peace agreement"
-      },
-      {
-        "id": "art_1782656631717_qlnfg",
-        "url": "https://www.aljazeera.com/news/2026/6/28/why-is-article-5-of-mou-causing-confrontations-in-the-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What is Article 5 of Iran-US MoU, and why is it blamed for Hormuz strikes?"
-      },
-      {
-        "id": "art_1782648231756_a7l8t",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/us-trying-to-find-its-way-out-of-mou-with?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘US trying to find its way out of MoU with Iran’"
-      },
-      {
-        "id": "art_1782642405495_xbdkv",
-        "url": "https://www.theguardian.com/world/live/2026/jun/28/iran-strait-of-hormuz-donald-trump-vance-peace-talks-bahrain-kuwait-strikes-latest-news-updates",
-        "source": "guardian",
-        "title": "Donald Trump threatens to annihilate Iran after crossfire over Hormuz – Middle East crisis live"
-      },
-      {
-        "id": "art_1782642418731_sm3mm",
-        "url": "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran attacks Kuwait and Bahrain in response to US strikes"
-      },
-      {
-        "id": "art_1782632356613_2s4z9",
-        "url": "https://www.theguardian.com/world/2026/jun/28/gulf-us-iran-war-proxies-middle-east",
-        "source": "guardian",
-        "title": "Gulf shares concerns with US as Iran’s influence and power continue by proxy"
-      },
-      {
-        "id": "art_1782632361167_n1g8z",
-        "url": "https://www.aljazeera.com/news/2026/6/28/iran-war-day-121-iran-attacks-bahrain-kuwait-as-us-strikes-near-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran war day 121: Iran attacks Bahrain, Kuwait as US strikes near Hormuz"
-      },
-      {
-        "id": "art_1782617358121_ua16v",
-        "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US launches strikes on Iran after second shipping attack"
-      },
-      {
-        "id": "art_1782603335778_6ucj7",
-        "url": "https://www.theguardian.com/us-news/2026/jun/27/us-iran-strikes",
-        "source": "guardian",
-        "title": "US says it struck targets in Iran over ‘continued aggression’ against shipping"
-      },
-      {
-        "id": "art_1782603336901_5lgyf",
-        "url": "https://www.aljazeera.com/news/2026/6/27/us-launches-second-night-of-strikes-against-iran-after-ship-struck-by-drone?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US launches second night of strikes against Iran after ship struck by drone"
-      },
-      {
-        "id": "art_1782583246302_g0nq1",
-        "url": "https://www.foxnews.com/world/gulf-countries-strongly-condemn-irans-drone-attack-bahrain-rising-tensions-threaten-mou",
-        "source": "fox",
-        "title": "Gulf countries strongly condemn Iran's drone attack on Bahrain as rising tensions threaten MOU"
-      },
-      {
-        "id": "art_1782583261036_dz5ge",
-        "url": "https://www.theguardian.com/world/2026/jun/27/bahrain-iran-drone-attack-overnight-us-strikes-strait-hormuz",
-        "source": "guardian",
-        "title": "Bahrain condemns Iranian tit-for-tat drone attack as ‘flagrant threat’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1c8b824204d22cf7fba13e0a91a6948f",
-    "topic_label": "Venezuela Earthquakes Disaster",
-    "event_window_start": "2026-06-27T18:41:03.000Z",
-    "event_window_end": "2026-06-28T13:21:47.000Z",
-    "article_ids": [
-      "art_1782656628494_chge5",
-      "art_1782642415464_n7g2e",
-      "art_1782632360119_olgbp",
-      "art_1782632364553_cncma",
-      "art_1782617349137_fh28i",
-      "art_1782603339044_bqdtw",
-      "art_1782603341342_cyr05",
-      "art_1782598185135_izqrn",
-      "art_1782594048081_z3j7q",
-      "art_1782589221056_f3jcj"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 10,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T15:03:16.021Z",
-    "updated_at": "2026-06-28T15:03:16.021Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Two earthquakes occurred in Venezuela.",
-      "Search and rescue operations for survivors are ongoing.",
-      "International rescue efforts include personnel from the United States.",
-      "An infant has been rescued from the rubble."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses on the humanitarian toll and personal stories, reporting 1,430 deaths and 51,000 missing.",
-      "The Guardian frames the event through a geopolitical lens, discussing a shift in U.S. foreign policy and a hypothetical scenario involving the deposition of Nicolás Maduro.",
-      "Fox News emphasizes the U.S. State Department's role in the rescue of an infant and cites government sources directly."
-    ],
-    "synthesis": "Venezuela is currently experiencing a major humanitarian crisis following twin earthquakes that have resulted in over 1,430 fatalities and tens of thousands missing. International rescue teams are engaged in active search operations, with U.S. agencies providing significant logistical and financial support. While humanitarian efforts remain the primary focus in some reports, others emphasize the geopolitical implications of the U.S. disaster response.",
-    "confidence": "Contradictory/Inconsistent. While the fundamental event (earthquakes and rescue efforts) is consistent, The Guardian's premise regarding the current status of the Venezuelan government appears to contradict standard reporting on the actual political landscape, suggesting either an alternative timeline or highly speculative political framing.",
-    "sources": [
       {
         "id": "art_1782656628494_chge5",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/stories-of-survivors-of-venezuelas-earthquakes?traffic_source=rss",
