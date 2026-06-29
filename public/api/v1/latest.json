@@ -1,10 +1,59 @@
 {
-  "generated_at": "2026-06-29T11:57:19.390Z",
+  "generated_at": "2026-06-29T15:39:20.179Z",
   "status": "healthy",
   "clusters_count": 50,
   "impact_count": 47,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "9ca4aa688130c34232732a3014484be3",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-06-29T14:19:01.000Z",
+      "event_window_end": "2026-06-29T14:21:30.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "The US Supreme Court has declined to hear an appeal from Donald Trump regarding the $5m E Jean Carroll sexual abuse and defamation verdict.",
+        "A federal appeals court previously upheld the jury's verdict in the E Jean Carroll case.",
+        "The US Supreme Court ruled that a president does not have the constitutional authority to fire a Federal Reserve governor without cause."
+      ],
+      "source_differences": [
+        "The Guardian provided coverage of two unrelated violent crimes in the UK (Asad Hussain stalking case and Simon Levy murder trial) alongside US politics, whereas the BBC focused exclusively on the US Supreme Court decision.",
+        "The Guardian reports identify Lisa Cook as a Biden appointee and the first Black woman to serve on the Fed board, details not mentioned in the provided BBC snippet.",
+        "The BBC report specifically contextualizes the Carroll case by detailing the 1990s timeframe of the assault and the initial $5m award, providing slightly more historical background on the litigation."
+      ],
+      "synthesis": "The US Supreme Court has issued significant rulings impacting executive authority and high-profile civil litigation, specifically rejecting Donald Trump's appeal in the E Jean Carroll case and limiting presidential power to dismiss Federal Reserve governors. While the provided data reflects consistent reporting on these legal outcomes, the Guardian also interspersed unrelated coverage of UK criminal trials within the same news cycle. Overall, the reports align on the major judicial developments concerning the US presidency.",
+      "confidence": "High; reporting is consistent across sources with no factual contradictions detected.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jun/29/man-used-fake-tinder-profile-stalking-ex-jailed",
+          "title": "Stalker who used fake Tinder profile to lure men to ex’s home jailed for eight years"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
+          "title": "Supreme court rebuffs Trump’s appeal in E Jean Carroll case as latest decisions released – US politics live"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling",
+          "title": "US supreme court rules Trump’s firing of Lisa Cook from Fed was unconstitutional"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
+          "title": "US Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/jun/29/simon-levy-trial-london-predatory-sexual-attacks-court",
+          "title": "Man murdered two London women in predatory sexual attacks, court told"
+        }
+      ],
+      "updated_at": "2026-06-29T15:39:16.082Z"
+    },
     {
       "cluster_id": "2b164d81f5f513d1b7e825c328fe7f87",
       "topic_label": "Venezuela earthquake and disaster recovery",
@@ -608,91 +657,28 @@
         }
       ],
       "updated_at": "2026-06-29T06:41:42.468Z"
-    },
-    {
-      "cluster_id": "c00e52f3c9175b5413322638bc91688c",
-      "topic_label": "Venezuela Earthquake Disaster",
-      "event_window_start": "2026-06-28T09:32:47.000Z",
-      "event_window_end": "2026-06-29T03:35:09.000Z",
-      "article_count": 11,
-      "source_count": 4,
-      "region_tag": "global",
-      "shared_facts": [
-        "Two earthquakes occurred on Wednesday impacting Venezuela's northern coast.",
-        "The earthquakes measured 7.2 and 7.5 on the magnitude scale.",
-        "The region of La Guaira was significantly impacted by the seismic events.",
-        "Local residents have expressed anger and feelings of abandonment regarding the state's recovery response.",
-        "Rescue efforts are ongoing, though they face challenges as the critical 72-hour survival window has passed."
-      ],
-      "source_differences": [
-        "BBC highlights on-the-ground local sentiment in Catia la Mar regarding state inaction.",
-        "Al Jazeera provides detailed statistical reporting on missing persons and death toll figures.",
-        "Fox News focuses on the personal tragedy of a specific public figure, Lucas Trejo, while including irrelevant content about US sports figures in the article body.",
-        "Al Jazeera includes international diplomatic reactions, specifically reporting on Pope Leo's expressions of solidarity."
-      ],
-      "synthesis": "Following back-to-back 7.2 and 7.5 magnitude earthquakes in northern Venezuela, recovery efforts are hampered by dwindling hope and significant public discontent toward government response. While humanitarian aid and rescue operations continue, thousands remain missing and the official death toll remains high. The situation is marked by a blend of individual tragedies and broader societal frustration with official disaster management.",
-      "confidence": "High consistency regarding the event's occurrence and magnitude; however, statistics regarding casualties and missing persons vary slightly between reports, and Fox News includes irrelevant non-sequitur content.",
-      "sources": [
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/videos/cj4glezz1jvo?at_medium=RSS&at_campaign=rss",
-          "title": "Anger directed at Venezuela's official response to earthquake recovery"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/venezuelans-angry-government-as-time-runs-out-to-dig-out-survivors?traffic_source=rss",
-          "title": "Venezuelans angry with government as time runs out to rescue survivors"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/sports/argentine-soccer-player-lucas-trejo-loses-wife-two-children-venezuela-earthquake-building-collapse",
-          "title": "Argentine soccer player Lucas Trejo loses wife, two children in Venezuela earthquake building collapse: report"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/pope-leo-prays-for-venezuelas-recovery-after-deadly-quakes?traffic_source=rss",
-          "title": "Pope Leo prays for Venezuela’s recovery after deadly quakes"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/28/hope-of-finding-more-venezuela-quake-survivors-fades-despite-late-rescues?traffic_source=rss",
-          "title": "Hope of finding more Venezuela quake survivors fades despite late rescues"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/the-aftermath-of-venezuelas-deadly-earthquake?traffic_source=rss",
-          "title": "The aftermath of Venezuela’s deadly earthquake"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/videos/clyx5r0068go?at_medium=RSS&at_campaign=rss",
-          "title": "Watch: Inside the Venezuela country club now a makeshift hospital"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/drone-captures-ongoing-rescue-efforts-after-venezuela-earthquakes?traffic_source=rss",
-          "title": "Drone captures ongoing rescue efforts after Venezuela earthquakes"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/world/33-rescued-venezuelan-rubble-survival-window-desperately-fading-nearly-50000-missing",
-          "title": "33 rescued from Venezuelan rubble: Survival window desperately fading with nearly 50,000 missing"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/28/stories-of-survivors-of-venezuelas-earthquakes?traffic_source=rss",
-          "title": "Stories of survivors of Venezuela’s earthquakes"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jun/28/venezuelan-earthquakes-test-trumps-new-western-hemisphere-policy-after-gutting-of-usaid",
-          "title": "Venezuelan earthquakes test Trump’s new western hemisphere policy after gutting of USAID"
-        }
-      ],
-      "updated_at": "2026-06-29T06:41:42.468Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-9ca4aa68",
+      "title": "Fallback Synthesis",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "The US Supreme Court has issued significant rulings impacting executive authority and high-profile civil litigation, specifically rejecting Donald Trump's appeal in the E Jean Carroll case and limiting presidential power to dismiss Federal Reserve governors. While the provided data reflects consistent reporting on these legal outcomes, the Guardian also interspersed unrelated coverage of UK criminal trials within the same news cycle. Overall, the reports align on the major judicial developments concerning the US presidency.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "9ca4aa688130c34232732a3014484be3",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-06-29T15:39:16.082Z"
+    },
     {
       "id": "impact-2b164d81",
       "title": "Venezuela earthquake and disaster recovery",
@@ -875,27 +861,6 @@
       "related_watchlist_id": "watch-003",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-06-29T06:41:42.468Z"
-    },
-    {
-      "id": "impact-7e239bfb",
-      "title": "European Heatwave Deaths",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "grid",
-        "shipping"
-      ],
-      "why_it_matters": "An intense, early-summer heatwave moving eastward across Europe has caused significant mortality, with estimates of excess deaths ranging between 1,000 and 1,300. Multiple nations, including France, Germany, and Poland, have reported record-breaking temperatures and significant strain on public health infrastructure. The WHO has characterized heat stress as a critical threat to regional populations and infrastructure unaccustomed to such extreme climate conditions.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "7e239bfb2f12dcaf430c787a3f0b4e85",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-06-29T01:37:18.859Z"
     }
   ]
 }

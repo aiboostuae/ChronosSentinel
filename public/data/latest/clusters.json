@@ -1,5 +1,76 @@
 [
   {
+    "cluster_id": "9ca4aa688130c34232732a3014484be3",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-06-29T14:19:01.000Z",
+    "event_window_end": "2026-06-29T14:21:30.000Z",
+    "article_ids": [
+      "art_1782743722720_9vz82",
+      "art_1782743723909_5ubs0",
+      "art_1782743725033_h4a59",
+      "art_1782743726538_c4e43",
+      "art_1782743727657_1vl7m"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-29T15:39:16.082Z",
+    "updated_at": "2026-06-29T15:39:16.082Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The US Supreme Court has declined to hear an appeal from Donald Trump regarding the $5m E Jean Carroll sexual abuse and defamation verdict.",
+      "A federal appeals court previously upheld the jury's verdict in the E Jean Carroll case.",
+      "The US Supreme Court ruled that a president does not have the constitutional authority to fire a Federal Reserve governor without cause."
+    ],
+    "source_differences": [
+      "The Guardian provided coverage of two unrelated violent crimes in the UK (Asad Hussain stalking case and Simon Levy murder trial) alongside US politics, whereas the BBC focused exclusively on the US Supreme Court decision.",
+      "The Guardian reports identify Lisa Cook as a Biden appointee and the first Black woman to serve on the Fed board, details not mentioned in the provided BBC snippet.",
+      "The BBC report specifically contextualizes the Carroll case by detailing the 1990s timeframe of the assault and the initial $5m award, providing slightly more historical background on the litigation."
+    ],
+    "synthesis": "The US Supreme Court has issued significant rulings impacting executive authority and high-profile civil litigation, specifically rejecting Donald Trump's appeal in the E Jean Carroll case and limiting presidential power to dismiss Federal Reserve governors. While the provided data reflects consistent reporting on these legal outcomes, the Guardian also interspersed unrelated coverage of UK criminal trials within the same news cycle. Overall, the reports align on the major judicial developments concerning the US presidency.",
+    "confidence": "High; reporting is consistent across sources with no factual contradictions detected.",
+    "sources": [
+      {
+        "id": "art_1782743722720_9vz82",
+        "url": "https://www.theguardian.com/uk-news/2026/jun/29/man-used-fake-tinder-profile-stalking-ex-jailed",
+        "source": "guardian",
+        "title": "Stalker who used fake Tinder profile to lure men to ex’s home jailed for eight years"
+      },
+      {
+        "id": "art_1782743723909_5ubs0",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Supreme court rebuffs Trump’s appeal in E Jean Carroll case as latest decisions released – US politics live"
+      },
+      {
+        "id": "art_1782743725033_h4a59",
+        "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling",
+        "source": "guardian",
+        "title": "US supreme court rules Trump’s firing of Lisa Cook from Fed was unconstitutional"
+      },
+      {
+        "id": "art_1782743726538_c4e43",
+        "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case"
+      },
+      {
+        "id": "art_1782743727657_1vl7m",
+        "url": "https://www.theguardian.com/uk-news/2026/jun/29/simon-levy-trial-london-predatory-sexual-attacks-court",
+        "source": "guardian",
+        "title": "Man murdered two London women in predatory sexual attacks, court told"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "2b164d81f5f513d1b7e825c328fe7f87",
     "topic_label": "Venezuela earthquake and disaster recovery",
     "event_window_start": "2026-06-28T13:21:47.000Z",
@@ -4828,91 +4899,6 @@
         "url": "https://www.bbc.co.uk/news/videos/cjdgrrvvvjgo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Watch: A race against the clock for Venezuela earthquake rescuers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "07c97fafdee6168aceff49592d826bfe",
-    "topic_label": "Israel Palestine West Bank Conflicts",
-    "event_window_start": "2026-06-27T17:21:31.000Z",
-    "event_window_end": "2026-06-28T13:30:00.000Z",
-    "article_ids": [
-      "art_1782656627461_jga8l",
-      "art_1782656630694_gerwi",
-      "art_1782598183057_j4056",
-      "art_1782598187199_fbdjl",
-      "art_1782589212997_tb8kc",
-      "art_1782589218819_4g4hw",
-      "art_1782583252607_38eg6"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 7,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-28T16:43:41.317Z",
-    "updated_at": "2026-06-28T16:43:41.317Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israel has issued orders for its military to prepare for an extended presence in southern Lebanon.",
-      "A US-brokered agreement has been established regarding the situation in Lebanon, though Hezbollah has voiced opposition to it.",
-      "Ongoing military actions and territorial tensions persist in both the West Bank and southern Lebanon involving Israeli forces."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses on the impact of Israeli military and settler actions on Palestinian civilians and journalists, framing the events as part of a systemic campaign.",
-      "BBC provides a more objective, event-focused report on regional geopolitical negotiations and the military response between Israel and Hezbollah.",
-      "Al Jazeera's reporting emphasizes the human cost and legality of Israeli actions, whereas the BBC emphasizes the strategic military and diplomatic developments."
-    ],
-    "synthesis": "Israel has formalized plans for an extended military presence in southern Lebanon following a US-brokered agreement that faces significant pushback from Hezbollah. Concurrently, regional tensions remain high as reports continue to emerge regarding Israeli military and settler activity affecting civilian livelihoods in the West Bank. The situation reflects a broader, multifaceted conflict involving diplomatic efforts and persistent tactical military operations.",
-    "confidence": "Consistent regarding the operational status of Israeli troops in Lebanon, though the sources vary significantly in thematic focus and ideological framing.",
-    "sources": [
-      {
-        "id": "art_1782656627461_jga8l",
-        "url": "https://www.aljazeera.com/video/upfront/2026/6/28/adam-johnson-on-how-us-corporate-media-sold-israels-genocide-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Adam Johnson on how US corporate media sold Israel’s genocide in Gaza"
-      },
-      {
-        "id": "art_1782656630694_gerwi",
-        "url": "https://www.aljazeera.com/economy/2026/6/28/paradise-lost-how-israel-is-making-war-on-west-bank-farmers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Paradise lost: How Israel is making war on West Bank farmers"
-      },
-      {
-        "id": "art_1782598183057_j4056",
-        "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Israel strikes southern Lebanon as Hezbollah condemns new deal "
-      },
-      {
-        "id": "art_1782598187199_fbdjl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/videos-show-israeli-settlers-trying-to-seize-house-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Videos show Israeli settlers trying to seize house in occupied West Bank"
-      },
-      {
-        "id": "art_1782589212997_tb8kc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/israel-orders-troops-to-prepare-for-extended-stay-in-lebanon?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel orders troops to prepare for ‘extended stay’ in Lebanon"
-      },
-      {
-        "id": "art_1782589218819_4g4hw",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/27/two-killed-dozens-injured-in-israeli-strike-on-displacement-tents-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Two killed, dozens injured in Israeli strike on displacement tents in Gaza"
-      },
-      {
-        "id": "art_1782583252607_38eg6",
-        "url": "https://www.aljazeera.com/news/2026/6/27/how-is-framework-agreement-with-lebanon-viewed-in-israel?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How is framework agreement with Lebanon viewed in Israel?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
