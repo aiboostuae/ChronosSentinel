@@ -1,30 +1,64 @@
 {
-  "generated_at": "2026-06-30T20:29:59.584Z",
+  "generated_at": "2026-06-30T21:57:13.092Z",
   "status": "healthy",
   "clusters_count": 50,
-  "impact_count": 39,
+  "impact_count": 38,
   "watchlist_count": 3,
   "latest_clusters": [
     {
-      "cluster_id": "0be2bf0bebb47af9bc331ddbff72480d",
-      "topic_label": "Venezuela Earthquake Disaster",
-      "event_window_start": "2026-06-29T21:19:28.000Z",
-      "event_window_end": "2026-06-30T02:56:53.000Z",
-      "article_count": 5,
-      "source_count": 3,
+      "cluster_id": "4d0c963cdb0aa41d32e05482024e0ae8",
+      "topic_label": "Middle East and Iran Diplomacy",
+      "event_window_start": "2026-06-30T02:41:18.000Z",
+      "event_window_end": "2026-06-30T11:11:58.000Z",
+      "article_count": 2,
+      "source_count": 2,
       "region_tag": "global",
       "shared_facts": [
-        "A series of devastating earthquakes occurred in Venezuela on June 24.",
-        "The city of La Guaira was significantly impacted by the earthquake destruction.",
-        "International humanitarian and rescue efforts are underway to locate survivors and provide shelter to the displaced."
+        "A crisis involving the Strait of Hormuz is currently ongoing.",
+        "The United States is involved in diplomatic and military efforts regarding Iran.",
+        "The Strait of Hormuz is a critical global energy chokepoint."
       ],
       "source_differences": [
-        "Fox News focuses primarily on a localized baseball game anecdote involving a player, while including extraneous commentary on WNBA politics.",
-        "Al Jazeera provides detailed investigative reporting on the humanitarian crisis, including the specific procurement of 10,000 body bags and the controversial deportation of 146 individuals by the US shortly before the disaster.",
-        "BBC provides ground-level human interest reporting, detailing the rescue operations and the emotional toll on families in La Guaira."
+        "The Guardian focuses on an Asia Group report claiming China is the primary economic beneficiary of the crisis, detailing a military escalation involving the death of Ali Khamenei.",
+        "Al Jazeera focuses on ongoing diplomatic efforts in Doha, framing the situation around a precarious ceasefire and a mid-August deadline for a peace deal.",
+        "The sources present contradictory versions of the current status of the conflict, with the Guardian reporting a major kinetic military escalation and death of leadership, while Al Jazeera reports on a diplomatic ceasefire process."
       ],
-      "synthesis": "Venezuela is currently facing a major humanitarian catastrophe following twin earthquakes on June 24 that have resulted in over 1,700 deaths and widespread displacement in La Guaira. The crisis is compounded by the recent arrival of US deportation flights and severe structural collapses, leading the UN to urgently procure disaster supplies. While international media coverage varies in tone and focus, all sources acknowledge the severity of the devastation and the ongoing struggle to find survivors.",
-      "confidence": "Consistent regarding the occurrence of the earthquakes, though the Fox report contains significant factual hallucinations or errors regarding sports statistics and player identity that contrast with the severe, verified humanitarian reporting from Al Jazeera and BBC.",
+      "synthesis": "The situation in the Strait of Hormuz is characterized by a significant disparity in reporting, with one source describing an active military conflict involving the death of Iran's supreme leader and the other focusing on active peace negotiations in Doha. Economic and geopolitical assessments suggest China may be positioning itself to leverage global energy instability for long-term gain. The divergence in the reported status of the conflict suggests either a rapidly evolving information environment or significant gaps in media intelligence regarding the ground truth.",
+      "confidence": "Low; the articles report on fundamentally different stages of the conflict—one as a post-escalation crisis and the other as an active, albeit strained, diplomatic process.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/30/china-clear-winner-trump-war-middle-east-report-iran-strait-of-hormuz",
+          "title": "China is a clear winner from Trump’s war in Middle East, report concludes"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/trump-us-envoys-enroute-to-doha-for-perhaps-important-iran-meeting?traffic_source=rss",
+          "title": "Trump: US envoys enroute to Doha for ‘perhaps important’ Iran meeting"
+        }
+      ],
+      "updated_at": "2026-06-30T21:57:01.986Z"
+    },
+    {
+      "cluster_id": "f28931cceb0d5bf713b143e2290d1709",
+      "topic_label": "Venezuela Earthquakes and Crisis",
+      "event_window_start": "2026-06-30T02:32:08.000Z",
+      "event_window_end": "2026-06-30T02:56:53.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "A series of devastating earthquakes occurred in Venezuela.",
+        "The disaster has resulted in significant destruction and an escalating death toll.",
+        "International humanitarian and aid concerns are mounting following the event."
+      ],
+      "source_differences": [
+        "Fox focuses on a specific, likely erroneous, sports anecdote involving an MLB player and unrelated WNBA commentary.",
+        "Al Jazeera focuses on the geopolitical and humanitarian impact, reporting on the UN's procurement of 10,000 body bags.",
+        "Al Jazeera highlights the controversy regarding the deportation of 146 individuals from the US to Venezuela immediately preceding the disaster."
+      ],
+      "synthesis": "Venezuela is currently facing a humanitarian crisis following twin earthquakes that have resulted in significant casualties and infrastructure damage. The international community is preparing for a high death toll, while questions have arisen regarding the status of individuals recently deported from the United States to the disaster zone. Fox News' report contains verifiable inaccuracies, appearing to conflate sports events with the earthquake disaster.",
+      "confidence": "Low. The reporting from Fox is inconsistent with verified news and contains major factual errors, while Al Jazeera provides consistent reporting on the humanitarian situation.",
       "sources": [
         {
           "source": "fox",
@@ -40,63 +74,9 @@
           "source": "aljazeera",
           "url": "https://www.aljazeera.com/news/2026/6/30/fears-for-people-deported-from-us-to-venezuela-hours-before-earthquakes-hit?traffic_source=rss",
           "title": "Fears for people deported from US to Venezuela hours before earthquakes hit"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/venezuela-earthquake-victims-shelter-at-golf-course?traffic_source=rss",
-          "title": "Venezuela earthquake victims shelter at golf course"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/c78yvq72dg7o?at_medium=RSS&at_campaign=rss",
-          "title": "'No one move!': The agonising silence as Venezuela rescuers listen for survivors"
         }
       ],
-      "updated_at": "2026-06-30T20:29:37.156Z"
-    },
-    {
-      "cluster_id": "5a18f45520d6bbcae8c017daf8f77032",
-      "topic_label": "Middle East Politics and Conflict",
-      "event_window_start": "2026-06-29T21:01:38.000Z",
-      "event_window_end": "2026-06-30T11:11:58.000Z",
-      "article_count": 4,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "The Trump administration is actively engaged in diplomatic or geopolitical maneuvers across the Middle East and North Africa.",
-        "Tensions remain high regarding the Strait of Hormuz.",
-        "US officials are involved in current negotiations or meetings concerning regional stability."
-      ],
-      "source_differences": [
-        "The Guardian focuses on the economic and geopolitical advantage China has gained from the crisis in the Strait of Hormuz.",
-        "Al Jazeera focuses on discrete, ongoing diplomatic efforts, such as the Doha meetings regarding Iran and Secretary Rubio's engagement in Libya.",
-        "Al Jazeera provides coverage of internal Israeli political discourse regarding Gaza that is absent from The Guardian's report."
-      ],
-      "synthesis": "The Trump administration is pursuing a multi-front diplomatic and security strategy in the Middle East, balancing efforts to resolve the crisis in the Strait of Hormuz with engagement in Libyan political reconciliation. While Western involvement continues, analyses suggest that regional instability is creating opportunities for third-party powers like China to consolidate economic influence. The landscape is characterized by simultaneous attempts at formal peace deals and heightened regional domestic political provocations.",
-      "confidence": "Low. The articles cover disparate regional events and lack a unified narrative, making it difficult to assess overall consistency.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/jun/30/china-clear-winner-trump-war-middle-east-report-iran-strait-of-hormuz",
-          "title": "China is a clear winner from Trump’s war in Middle East, report concludes"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/trump-us-envoys-enroute-to-doha-for-perhaps-important-iran-meeting?traffic_source=rss",
-          "title": "Trump: US envoys enroute to Doha for ‘perhaps important’ Iran meeting"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/29/marco-rubio-meets-libyan-commander-as-us-pushes-to-resolve-libya-crisis?traffic_source=rss",
-          "title": "Marco Rubio meets Libyan commander as US pushes to resolve Libya crisis"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/israels-smotrich-calls-for-settlements-conquest-of-gaza-strip?traffic_source=rss",
-          "title": "Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip"
-        }
-      ],
-      "updated_at": "2026-06-30T20:29:37.156Z"
+      "updated_at": "2026-06-30T21:57:01.986Z"
     },
     {
       "cluster_id": "ded277a565678a6e8358a68a057450d7",
@@ -137,56 +117,6 @@
         }
       ],
       "updated_at": "2026-06-30T13:08:47.615Z"
-    },
-    {
-      "cluster_id": "89927eea08d601069d4bc6541d697057",
-      "topic_label": "Supreme Court Trump Rulings",
-      "event_window_start": "2026-06-29T20:29:41.000Z",
-      "event_window_end": "2026-06-30T13:03:39.000Z",
-      "article_count": 5,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "The Supreme Court ruled that the President has the authority to remove independent agency officials, overturning the Humphrey's Executor precedent.",
-        "The Supreme Court issued a 5-4 ruling upholding a Mississippi law that allows mail-in ballots received up to five days after Election Day to be counted, provided they are postmarked by the deadline.",
-        "The ruling regarding agency firing power specifically involved the case Trump v. Slaughter.",
-        "The ballot ruling involved the case Watson v. RNC."
-      ],
-      "source_differences": [
-        "Fox News frames the firing power ruling as a strategic dismantling of the 'administrative state' and focuses on Alito's dissent regarding election legitimacy.",
-        "The Guardian frames the firing power ruling through the lens of potential democratic backsliding and provides quotes from labor/consumer advocates criticizing the decision.",
-        "Fox News highlights Trump's personal frustration and rebuke of justices regarding the mail-in ballot decision, whereas The Guardian contextualizes the ballot ruling alongside other pending constitutional cases."
-      ],
-      "synthesis": "The Supreme Court recently expanded executive authority by overturning a 90-year-old precedent to allow the President to dismiss independent agency heads, while simultaneously upholding Mississippi's policy of counting post-election mail-in ballots. These decisions have prompted starkly different reactions, with conservatives characterizing the administrative ruling as a win against federal bureaucracy and critics viewing it as a threat to democratic norms. Meanwhile, the ballot decision has drawn dissent from Justice Alito, who expressed concern that late-arriving ballots could undermine public confidence in election integrity.",
-      "confidence": "High: The reporting across both sources is consistent regarding the core legal outcomes, though the narratives diverge significantly based on editorial focus and political framing.",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/gorsuch-suggests-supreme-courts-trump-ruling-opening-move-administrative-state",
-          "title": "Gorsuch suggests Supreme Court's Trump ruling is opening move against administrative state"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jun/30/first-thing-supreme-court-trump-fire-agency-chiefs-rules-against-him-mail-in-ballots",
-          "title": "First Thing: Supreme court backs Trump’s ability to fire agency chiefs but rules against him on mail-in ballots"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/jun/30/birthright-citizenship-supreme-court-donald-trump-us-politics-latest-news",
-          "title": "Anger at supreme court ruling on Trump’s power to fire agency chiefs – US politics live"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/trump-unloads-supreme-court-upholds-late-mail-in-ballots-mississippi",
-          "title": "Trump unloads after Supreme Court upholds late mail-in ballots in Mississippi"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/alito-blasts-latest-scotus-ballot-ruling-invitation-voter-fraud-risks",
-          "title": "Alito blasts latest SCOTUS ballot ruling as invitation to ‘voter fraud’ risks"
-        }
-      ],
-      "updated_at": "2026-06-30T20:29:37.156Z"
     },
     {
       "cluster_id": "3fda5c3d471b194e194c92fe69cff232",
@@ -292,71 +222,98 @@
       "updated_at": "2026-06-30T20:29:37.156Z"
     },
     {
-      "cluster_id": "cfb4e668d1613e8564fefc5b24d98db2",
-      "topic_label": "UK Politics and Economy",
-      "event_window_start": "2026-06-30T07:52:29.000Z",
-      "event_window_end": "2026-06-30T13:00:07.000Z",
-      "article_count": 4,
+      "cluster_id": "c1b221ba69873b1a56db9375f72eb5cd",
+      "topic_label": "Trump Supreme Court Rulings",
+      "event_window_start": "2026-06-30T11:11:45.000Z",
+      "event_window_end": "2026-06-30T13:03:39.000Z",
+      "article_count": 3,
       "source_count": 2,
       "region_tag": "global",
       "shared_facts": [
-        "Andy Burnham is positioned as a likely successor for the Prime Minister role.",
-        "The UK has experienced political instability with multiple prime ministers in the last decade.",
-        "The UK government is currently navigating significant fiscal challenges involving military spending and energy projects."
+        "The Supreme Court issued a 6-3 decision in Trump v. Slaughter.",
+        "The ruling grants the President authority to fire heads of independent agencies and commissions.",
+        "The decision overturns approximately 90 years of precedent established by Humphrey's Executor regarding the protection of independent agency officials from at-will dismissal."
       ],
       "source_differences": [
-        "The Guardian focuses on specific policy debates such as the Rosebank oilfield controversy and the funding mechanics of the £15bn defence investment plan.",
-        "Al Jazeera provides a broad historical retrospective on the UK's economic decline under successive leaderships rather than focusing on current administrative updates.",
-        "The Guardian articles contain granular details regarding specific military hardware initiatives and internal party pressures, whereas Al Jazeera maintains an external, macro-level critical perspective."
+        "Fox News frames the ruling through the lens of a broader conservative effort to dismantle the administrative state, characterizing federal agencies as the 'deep state'.",
+        "The Guardian focuses on the negative reception from labor and consumer advocacy groups, highlighting concerns regarding the impact on democratic checks and balances.",
+        "The Guardian includes additional context regarding other active Supreme Court cases, such as birthright citizenship, which is absent from the Fox News report."
       ],
-      "synthesis": "The UK political landscape is characterized by high turnover and significant economic strain, with ongoing internal debates regarding the prioritization of defence spending versus energy sector investments. While current administration figures like Andy Burnham face pressure regarding climate commitments and fiscal policy, broader external analysis views these issues as part of a recurring cycle of economic failure spanning multiple recent governments. The government is currently attempting to balance critical military upgrades by reallocating funds from road and energy projects.",
-      "confidence": "Consistent. The provided texts reflect different aspects of the same political environment without direct factual contradictions.",
+      "synthesis": "The Supreme Court's 6-3 ruling in Trump v. Slaughter grants the President broader authority to remove officials from independent agencies, effectively ending the 90-year-old Humphrey's Executor precedent. While conservative commentary highlights this as a significant shift against the administrative state, critics and labor advocates express concern over the potential erosion of independent oversight and democratic norms. The ruling establishes a major increase in executive power, with implications for future presidential control over federal bureaucracies.",
+      "confidence": "High; the sources are consistent regarding the legal outcome of the case and the historical impact on precedent, despite divergent political framing and contextual focus.",
       "sources": [
         {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/environment/2026/jun/30/labour-mps-tell-burnham-ignore-deluded-calls-more-north-sea-drilling",
-          "title": "Labour MPs tell Burnham to ignore ‘deluded’ calls for more North Sea drilling"
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/gorsuch-suggests-supreme-courts-trump-ruling-opening-move-administrative-state",
+          "title": "Gorsuch suggests Supreme Court's Trump ruling is opening move against administrative state"
         },
         {
           "source": "guardian",
-          "url": "https://www.theguardian.com/politics/2026/jun/30/defence-investment-plan-keir-starmer-labour",
-          "title": "Starmer warns Burnham not to borrow to fund defence as he reveals £15bn plan"
+          "url": "https://www.theguardian.com/us-news/2026/jun/30/first-thing-supreme-court-trump-fire-agency-chiefs-rules-against-him-mail-in-ballots",
+          "title": "First Thing: Supreme court backs Trump’s ability to fire agency chiefs but rules against him on mail-in ballots"
         },
         {
           "source": "guardian",
-          "url": "https://www.theguardian.com/politics/live/2026/jun/30/defence-investment-plan-keir-starmer-dan-jarvis-labour-andy-burnham-uk-politics-latest-news",
-          "title": "Defence investment plan criticised as ‘too little, too late’ ahead of launch – UK politics live"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/money-works/2026/6/30/how-each-prime-minister-broke-britains-economy?traffic_source=rss",
-          "title": "How each prime minister broke Britain’s economy"
+          "url": "https://www.theguardian.com/us-news/live/2026/jun/30/birthright-citizenship-supreme-court-donald-trump-us-politics-latest-news",
+          "title": "Anger at supreme court ruling on Trump’s power to fire agency chiefs – US politics live"
         }
       ],
-      "updated_at": "2026-06-30T20:29:37.156Z"
+      "updated_at": "2026-06-30T21:57:01.986Z"
     },
     {
-      "cluster_id": "f84445c2d9e3e2afc27a02ae1d380b2e",
-      "topic_label": "Venezuela Earthquake Crisis",
+      "cluster_id": "ec85adc0beeaaa54eb07dbb43c1274fe",
+      "topic_label": "Gojek Founder Corruption Case",
+      "event_window_start": "2026-06-30T07:51:41.000Z",
+      "event_window_end": "2026-06-30T11:19:43.000Z",
+      "article_count": 2,
+      "source_count": 2,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "Nadiem Makarim, co-founder of Gojek and former Indonesian Education Minister, was sentenced to 10 years in prison by a Jakarta court on Tuesday.",
+        "The charges are related to corruption involving a school laptop procurement deal.",
+        "Makarim served as Education Minister under the Joko Widodo administration."
+      ],
+      "source_differences": [
+        "Al Jazeera emphasizes the judge's finding that Makarim did not personally enrich himself, while BBC reports that prosecutors accused him of manipulating the deal specifically to enrich himself.",
+        "The sources differ on the total estimated state losses, with Al Jazeera citing $120 million and BBC citing $125 million.",
+        "BBC includes contextual reporting on political motivations behind the trial and mentions supporters booing, details absent from the Al Jazeera report."
+      ],
+      "synthesis": "Former Indonesian Education Minister and Gojek co-founder Nadiem Makarim has been sentenced to 10 years in prison for corruption following a school laptop procurement scandal. While the court held him responsible for significant state losses, reports conflict regarding whether he sought personal enrichment. The sentencing has drawn public attention, with some observers suggesting the prosecution may be politically motivated.",
+      "confidence": "Low to Moderate; the reports provide conflicting narratives regarding the defendant's intent to enrich himself and diverge on the total financial loss, indicating either discrepancies in the court record or significant bias in reporting.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/6/30/gojek-co-founder-nadiem-makarim-sentenced-to-10-years-for-corruption?traffic_source=rss",
+          "title": "Gojek co-founder Nadiem Makarim sentenced to 10 years for corruption"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/c79yvw23yr9o?at_medium=RSS&at_campaign=rss",
+          "title": "Founder of Asian super-app Gojek sentenced to 10 years in jail for corruption"
+        }
+      ],
+      "updated_at": "2026-06-30T13:08:47.615Z"
+    },
+    {
+      "cluster_id": "0be2bf0bebb47af9bc331ddbff72480d",
+      "topic_label": "Venezuela Earthquake Disaster",
       "event_window_start": "2026-06-29T21:19:28.000Z",
       "event_window_end": "2026-06-30T02:56:53.000Z",
-      "article_count": 6,
+      "article_count": 5,
       "source_count": 3,
       "region_tag": "global",
       "shared_facts": [
-        "Twin earthquakes struck Venezuela recently.",
-        "The city of La Guaira was severely impacted.",
-        "Casualty numbers include over 1,700 confirmed deaths with tens of thousands of people missing.",
-        "Rescue and relief efforts are ongoing amidst significant structural destruction."
+        "A series of devastating earthquakes occurred in Venezuela on June 24.",
+        "The city of La Guaira was significantly impacted by the earthquake destruction.",
+        "International humanitarian and rescue efforts are underway to locate survivors and provide shelter to the displaced."
       ],
       "source_differences": [
-        "Fox News frames the events through the lens of a MLB player's personal reaction and ejection, while Al Jazeera and BBC prioritize humanitarian and political reporting.",
-        "Al Jazeera includes specific details regarding a recent US deportation flight to Venezuela occurring shortly before the disaster.",
-        "BBC provides specific reportage on the lack of formal government aid and the reliance on local citizens for rescue operations.",
-        "Fox News contains erroneous details, such as naming a baseball player as a Red Sox star who hit a home run against the Nationals, which contradicts standard MLB rosters and game records."
+        "Fox News focuses primarily on a localized baseball game anecdote involving a player, while including extraneous commentary on WNBA politics.",
+        "Al Jazeera provides detailed investigative reporting on the humanitarian crisis, including the specific procurement of 10,000 body bags and the controversial deportation of 146 individuals by the US shortly before the disaster.",
+        "BBC provides ground-level human interest reporting, detailing the rescue operations and the emotional toll on families in La Guaira."
       ],
-      "synthesis": "Venezuela is facing a significant humanitarian crisis following twin earthquakes that have resulted in over 1,700 deaths and widespread displacement. Rescue operations in hard-hit areas like La Guaira are hampered by limited government assistance and an ongoing threat from aftershocks. International aid is mobilizing as global news outlets document the recovery process and the specific challenges faced by deportees and local residents.",
-      "confidence": "High regarding the humanitarian disaster, but the Fox News article contains severe inconsistencies and likely conflated or inaccurate sporting data, rendering that specific source unreliable.",
+      "synthesis": "Venezuela is currently facing a major humanitarian catastrophe following twin earthquakes on June 24 that have resulted in over 1,700 deaths and widespread displacement in La Guaira. The crisis is compounded by the recent arrival of US deportation flights and severe structural collapses, leading the UN to urgently procure disaster supplies. While international media coverage varies in tone and focus, all sources acknowledge the severity of the devastation and the ongoing struggle to find survivors.",
+      "confidence": "Consistent regarding the occurrence of the earthquakes, though the Fox report contains significant factual hallucinations or errors regarding sports statistics and player identity that contrast with the severe, verified humanitarian reporting from Al Jazeera and BBC.",
       "sources": [
         {
           "source": "fox",
@@ -380,37 +337,32 @@
         },
         {
           "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/cqj1210rj0yo?at_medium=RSS&at_campaign=rss",
-          "title": "Aftershock frays nerves as many Venezuelans left to fend for themselves"
-        },
-        {
-          "source": "bbc",
           "url": "https://www.bbc.co.uk/news/articles/c78yvq72dg7o?at_medium=RSS&at_campaign=rss",
           "title": "'No one move!': The agonising silence as Venezuela rescuers listen for survivors"
         }
       ],
-      "updated_at": "2026-06-30T18:20:04.082Z"
+      "updated_at": "2026-06-30T20:29:37.156Z"
     },
     {
-      "cluster_id": "5d6114baef40be2a2071e952a0fc6c09",
-      "topic_label": "Middle East Conflict and Instability",
-      "event_window_start": "2026-06-29T19:08:43.000Z",
+      "cluster_id": "5a18f45520d6bbcae8c017daf8f77032",
+      "topic_label": "Middle East Politics and Conflict",
+      "event_window_start": "2026-06-29T21:01:38.000Z",
       "event_window_end": "2026-06-30T11:11:58.000Z",
-      "article_count": 5,
+      "article_count": 4,
       "source_count": 2,
       "region_tag": "global",
       "shared_facts": [
-        "Conflict involving Israeli military operations in Gaza is ongoing.",
-        "The Middle East region is experiencing significant geopolitical instability and localized violence.",
-        "Civilian casualties and military activities are occurring in both Gaza and the West Bank."
+        "The Trump administration is actively engaged in diplomatic or geopolitical maneuvers across the Middle East and North Africa.",
+        "Tensions remain high regarding the Strait of Hormuz.",
+        "US officials are involved in current negotiations or meetings concerning regional stability."
       ],
       "source_differences": [
-        "The Guardian focuses on the global economic consequences of the regional conflict and internal US university labor disputes.",
-        "Al Jazeera provides detailed reporting on specific casualties from Israeli military actions and internal Iraqi political developments.",
-        "The sources cover entirely distinct events, reflecting disparate editorial priorities between international macro-geopolitics and specific localized human rights/security reports."
+        "The Guardian focuses on the economic and geopolitical advantage China has gained from the crisis in the Strait of Hormuz.",
+        "Al Jazeera focuses on discrete, ongoing diplomatic efforts, such as the Doha meetings regarding Iran and Secretary Rubio's engagement in Libya.",
+        "Al Jazeera provides coverage of internal Israeli political discourse regarding Gaza that is absent from The Guardian's report."
       ],
-      "synthesis": "The provided articles detail a fragmented regional landscape characterized by ongoing military confrontations in the Palestinian territories and broad economic shifts in Asia resulting from Middle East volatility. While international discourse focuses on the long-term strategic impacts of the conflict, on-the-ground reporting emphasizes persistent violence and civilian fatalities across Gaza and the West Bank. Iraq's simultaneous focus on anti-corruption reform suggests that domestic political processes continue to function despite the surrounding regional insecurity.",
-      "confidence": "Consistent within individual subject matters; however, the lack of overlap between the reports prevents a cross-verification of a singular event, resulting in a broad assessment rather than a singular event analysis.",
+      "synthesis": "The Trump administration is pursuing a multi-front diplomatic and security strategy in the Middle East, balancing efforts to resolve the crisis in the Strait of Hormuz with engagement in Libyan political reconciliation. While Western involvement continues, analyses suggest that regional instability is creating opportunities for third-party powers like China to consolidate economic influence. The landscape is characterized by simultaneous attempts at formal peace deals and heightened regional domestic political provocations.",
+      "confidence": "Low. The articles cover disparate regional events and lack a unified narrative, making it difficult to assess overall consistency.",
       "sources": [
         {
           "source": "guardian",
@@ -419,114 +371,116 @@
         },
         {
           "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/6/29/whats-behind-the-anti-corruption-crackdown-in-iraq?traffic_source=rss",
-          "title": "What’s behind the anti-corruption crackdown in Iraq?"
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/trump-us-envoys-enroute-to-doha-for-perhaps-important-iran-meeting?traffic_source=rss",
+          "title": "Trump: US envoys enroute to Doha for ‘perhaps important’ Iran meeting"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/29/marco-rubio-meets-libyan-commander-as-us-pushes-to-resolve-libya-crisis?traffic_source=rss",
+          "title": "Marco Rubio meets Libyan commander as US pushes to resolve Libya crisis"
         },
         {
           "source": "aljazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/israels-smotrich-calls-for-settlements-conquest-of-gaza-strip?traffic_source=rss",
           "title": "Israel’s Smotrich calls for settlements, ‘conquest’ of Gaza Strip"
+        }
+      ],
+      "updated_at": "2026-06-30T20:29:37.156Z"
+    },
+    {
+      "cluster_id": "89927eea08d601069d4bc6541d697057",
+      "topic_label": "Supreme Court Trump Rulings",
+      "event_window_start": "2026-06-29T20:29:41.000Z",
+      "event_window_end": "2026-06-30T13:03:39.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "The Supreme Court ruled that the President has the authority to remove independent agency officials, overturning the Humphrey's Executor precedent.",
+        "The Supreme Court issued a 5-4 ruling upholding a Mississippi law that allows mail-in ballots received up to five days after Election Day to be counted, provided they are postmarked by the deadline.",
+        "The ruling regarding agency firing power specifically involved the case Trump v. Slaughter.",
+        "The ballot ruling involved the case Watson v. RNC."
+      ],
+      "source_differences": [
+        "Fox News frames the firing power ruling as a strategic dismantling of the 'administrative state' and focuses on Alito's dissent regarding election legitimacy.",
+        "The Guardian frames the firing power ruling through the lens of potential democratic backsliding and provides quotes from labor/consumer advocates criticizing the decision.",
+        "Fox News highlights Trump's personal frustration and rebuke of justices regarding the mail-in ballot decision, whereas The Guardian contextualizes the ballot ruling alongside other pending constitutional cases."
+      ],
+      "synthesis": "The Supreme Court recently expanded executive authority by overturning a 90-year-old precedent to allow the President to dismiss independent agency heads, while simultaneously upholding Mississippi's policy of counting post-election mail-in ballots. These decisions have prompted starkly different reactions, with conservatives characterizing the administrative ruling as a win against federal bureaucracy and critics viewing it as a threat to democratic norms. Meanwhile, the ballot decision has drawn dissent from Justice Alito, who expressed concern that late-arriving ballots could undermine public confidence in election integrity.",
+      "confidence": "High: The reporting across both sources is consistent regarding the core legal outcomes, though the narratives diverge significantly based on editorial focus and political framing.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/gorsuch-suggests-supreme-courts-trump-ruling-opening-move-administrative-state",
+          "title": "Gorsuch suggests Supreme Court's Trump ruling is opening move against administrative state"
         },
         {
           "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jun/29/california-professor-gaza-protest-reinstated",
-          "title": "Tenured California professor fired over Gaza protest wins job back"
+          "url": "https://www.theguardian.com/us-news/2026/jun/30/first-thing-supreme-court-trump-fire-agency-chiefs-rules-against-him-mail-in-ballots",
+          "title": "First Thing: Supreme court backs Trump’s ability to fire agency chiefs but rules against him on mail-in ballots"
         },
         {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/29/israeli-attacks-kill-four-men-and-a-boy-in-gaza-and-a-teenager-in-west-bank?traffic_source=rss",
-          "title": "Israeli attacks kill four men and a boy in Gaza and a teenager in West Bank"
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/jun/30/birthright-citizenship-supreme-court-donald-trump-us-politics-latest-news",
+          "title": "Anger at supreme court ruling on Trump’s power to fire agency chiefs – US politics live"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/trump-unloads-supreme-court-upholds-late-mail-in-ballots-mississippi",
+          "title": "Trump unloads after Supreme Court upholds late mail-in ballots in Mississippi"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/alito-blasts-latest-scotus-ballot-ruling-invitation-voter-fraud-risks",
+          "title": "Alito blasts latest SCOTUS ballot ruling as invitation to ‘voter fraud’ risks"
         }
       ],
-      "updated_at": "2026-06-30T18:20:04.082Z"
-    },
-    {
-      "cluster_id": "483322eef8567f23242209c608c02e61",
-      "topic_label": "South Africa Anti-Migrant Protests",
-      "event_window_start": "2026-06-29T19:16:34.000Z",
-      "event_window_end": "2026-06-30T12:11:57.000Z",
-      "article_count": 4,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "Anti-immigrant groups have established an unofficial June 30 deadline for undocumented migrants to leave South Africa.",
-        "Protests and demonstrations have taken place across various South African cities.",
-        "President Cyril Ramaphosa has publicly warned protesters against violence, intimidation, and vigilantism.",
-        "The ongoing tensions have prompted thousands of foreign nationals to leave the country due to safety concerns."
-      ],
-      "source_differences": [
-        "Al Jazeera provides more focus on the specific atmosphere of anxiety in local markets like Yeoville and highlights the specific falsity of the groups' deportation claims.",
-        "The BBC includes human interest perspectives, such as individual testimonies from migrants choosing to leave, and frames the situation within the broader context of President Ramaphosa's stance on immigration reform."
-      ],
-      "synthesis": "An unofficial ultimatum for undocumented migrants to leave South Africa by June 30 has triggered nationwide anti-immigrant protests and forced thousands of foreign nationals to flee the country. While the government has condemned the vigilante nature of these threats, the escalating environment of intimidation has significantly disrupted local commerce and social stability. President Ramaphosa continues to urge peaceful conduct while acknowledging the underlying public pressure for immigration policy reform.",
-      "confidence": "High; the reports are consistent in their core factual assertions regarding the deadline, the government response, and the resulting exodus of migrants.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/anti-migrant-rally-in-south-africa-demands-undocumented-foreigners-leave?traffic_source=rss",
-          "title": "Anti-migrant rally in South Africa demands undocumented foreigners leave"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/30/south-africa-deploys-police-as-anti-immigrant-protests-prompt-fears?traffic_source=rss",
-          "title": "South Africa deploys police as anti-immigrant protests prompt fears"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/fear-grows-in-johannesburg-market-as-anti-migrant-deadline-looms?traffic_source=rss",
-          "title": "Fear grows in Johannesburg market as anti-migrant ‘deadline’ looms"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/cy4eq1l184po?at_medium=RSS&at_campaign=rss",
-          "title": "South African leader warns anti-migrant protesters ahead of unofficial deadline"
-        }
-      ],
-      "updated_at": "2026-06-30T16:02:49.033Z"
+      "updated_at": "2026-06-30T20:29:37.156Z"
     }
   ],
   "latest_impact": [
     {
-      "id": "impact-0be2bf0b",
-      "title": "Venezuela Earthquake Disaster",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "disaster",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Venezuela is currently facing a major humanitarian catastrophe following twin earthquakes on June 24 that have resulted in over 1,700 deaths and widespread displacement in La Guaira. The crisis is compounded by the recent arrival of US deportation flights and severe structural collapses, leading the UN to urgently procure disaster supplies. While international media coverage varies in tone and focus, all sources acknowledge the severity of the devastation and the ongoing struggle to find survivors.",
-      "evidence_summary": "3 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "0be2bf0bebb47af9bc331ddbff72480d",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-06-30T20:29:37.156Z"
-    },
-    {
-      "id": "impact-5a18f455",
-      "title": "Middle East Politics and Conflict",
+      "id": "impact-4d0c963c",
+      "title": "Middle East and Iran Diplomacy",
       "severity": "high",
       "status": "active",
       "region": "Global",
       "domains": [
         "conflict",
-        "shipping",
-        "instability"
+        "energy",
+        "shipping"
       ],
-      "why_it_matters": "The Trump administration is pursuing a multi-front diplomatic and security strategy in the Middle East, balancing efforts to resolve the crisis in the Strait of Hormuz with engagement in Libyan political reconciliation. While Western involvement continues, analyses suggest that regional instability is creating opportunities for third-party powers like China to consolidate economic influence. The landscape is characterized by simultaneous attempts at formal peace deals and heightened regional domestic political provocations.",
+      "why_it_matters": "The situation in the Strait of Hormuz is characterized by a significant disparity in reporting, with one source describing an active military conflict involving the death of Iran's supreme leader and the other focusing on active peace negotiations in Doha. Economic and geopolitical assessments suggest China may be positioning itself to leverage global energy instability for long-term gain. The divergence in the reported status of the conflict suggests either a rapidly evolving information environment or significant gaps in media intelligence regarding the ground truth.",
       "evidence_summary": "2 source(s), low confidence.",
       "confidence_label": "low",
       "corroboration_level": "moderate",
       "source_count": 2,
-      "related_cluster_id": "5a18f45520d6bbcae8c017daf8f77032",
+      "related_cluster_id": "4d0c963cdb0aa41d32e05482024e0ae8",
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-06-30T20:29:37.156Z"
+      "updated_at": "2026-06-30T21:57:01.986Z"
+    },
+    {
+      "id": "impact-f28931cc",
+      "title": "Venezuela Earthquakes and Crisis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster",
+        "grid",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "Venezuela is currently facing a humanitarian crisis following twin earthquakes that have resulted in significant casualties and infrastructure damage. The international community is preparing for a high death toll, while questions have arisen regarding the status of individuals recently deported from the United States to the disaster zone. Fox News' report contains verifiable inaccuracies, appearing to conflate sports events with the earthquake disaster.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "f28931cceb0d5bf713b143e2290d1709",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-06-30T21:57:01.986Z"
     },
     {
       "id": "impact-ded277a5",
@@ -588,6 +542,68 @@
       "updated_at": "2026-06-30T20:29:37.156Z"
     },
     {
+      "id": "impact-ec85adc0",
+      "title": "Gojek Founder Corruption Case",
+      "severity": "medium",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "Former Indonesian Education Minister and Gojek co-founder Nadiem Makarim has been sentenced to 10 years in prison for corruption following a school laptop procurement scandal. While the court held him responsible for significant state losses, reports conflict regarding whether he sought personal enrichment. The sentencing has drawn public attention, with some observers suggesting the prosecution may be politically motivated.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "ec85adc0beeaaa54eb07dbb43c1274fe",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-06-30T13:08:47.615Z"
+    },
+    {
+      "id": "impact-0be2bf0b",
+      "title": "Venezuela Earthquake Disaster",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "Venezuela is currently facing a major humanitarian catastrophe following twin earthquakes on June 24 that have resulted in over 1,700 deaths and widespread displacement in La Guaira. The crisis is compounded by the recent arrival of US deportation flights and severe structural collapses, leading the UN to urgently procure disaster supplies. While international media coverage varies in tone and focus, all sources acknowledge the severity of the devastation and the ongoing struggle to find survivors.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "0be2bf0bebb47af9bc331ddbff72480d",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-06-30T20:29:37.156Z"
+    },
+    {
+      "id": "impact-5a18f455",
+      "title": "Middle East Politics and Conflict",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "The Trump administration is pursuing a multi-front diplomatic and security strategy in the Middle East, balancing efforts to resolve the crisis in the Strait of Hormuz with engagement in Libyan political reconciliation. While Western involvement continues, analyses suggest that regional instability is creating opportunities for third-party powers like China to consolidate economic influence. The landscape is characterized by simultaneous attempts at formal peace deals and heightened regional domestic political provocations.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "5a18f45520d6bbcae8c017daf8f77032",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-06-30T20:29:37.156Z"
+    },
+    {
       "id": "impact-cfb4e668",
       "title": "UK Politics and Economy",
       "severity": "medium",
@@ -626,64 +642,6 @@
       "related_cluster_id": "f84445c2d9e3e2afc27a02ae1d380b2e",
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-06-30T18:20:04.082Z"
-    },
-    {
-      "id": "impact-5d6114ba",
-      "title": "Middle East Conflict and Instability",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "The provided articles detail a fragmented regional landscape characterized by ongoing military confrontations in the Palestinian territories and broad economic shifts in Asia resulting from Middle East volatility. While international discourse focuses on the long-term strategic impacts of the conflict, on-the-ground reporting emphasizes persistent violence and civilian fatalities across Gaza and the West Bank. Iraq's simultaneous focus on anti-corruption reform suggests that domestic political processes continue to function despite the surrounding regional insecurity.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "5d6114baef40be2a2071e952a0fc6c09",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-06-30T18:20:04.082Z"
-    },
-    {
-      "id": "impact-483322ee",
-      "title": "South Africa Anti-Migrant Protests",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "instability"
-      ],
-      "why_it_matters": "An unofficial ultimatum for undocumented migrants to leave South Africa by June 30 has triggered nationwide anti-immigrant protests and forced thousands of foreign nationals to flee the country. While the government has condemned the vigilante nature of these threats, the escalating environment of intimidation has significantly disrupted local commerce and social stability. President Ramaphosa continues to urge peaceful conduct while acknowledging the underlying public pressure for immigration policy reform.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "483322eef8567f23242209c608c02e61",
-      "related_watchlist_id": null,
-      "operator_hint": "Monitor social media feeds and local transit advisories for escalation signals.",
-      "updated_at": "2026-06-30T16:02:49.033Z"
-    },
-    {
-      "id": "impact-49d4cd49",
-      "title": "UK Politics and Economic Reform",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "The reported developments highlight a complex landscape of economic challenges in the UK, ranging from parliamentary debates over environmental policy and defense funding to systemic industry pressures in hospitality. While local reporting details specific policy friction and lobbying efforts, international analysis suggests these issues are part of a long-standing pattern of economic instability under successive administrations. The transition of leadership remains a central theme linking current fiscal policy decisions to future political governance.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "49d4cd49bf2c674beee8b8ac11f0bbef",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-06-30T18:20:04.082Z"
     }
   ]
