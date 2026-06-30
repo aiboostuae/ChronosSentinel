@@ -1,5 +1,71 @@
 [
   {
+    "cluster_id": "8e2c60cec1b94aa9def3df825204a33c",
+    "topic_label": "Venezuela earthquake and crisis",
+    "event_window_start": "2026-06-30T02:32:08.000Z",
+    "event_window_end": "2026-06-30T21:30:52.000Z",
+    "article_ids": [
+      "art_1782856817440_pb7o0",
+      "art_1782794703361_nyepi",
+      "art_1782794707583_4ft8l",
+      "art_1782794708656_e45zq"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-30T23:07:18.855Z",
+    "updated_at": "2026-06-30T23:07:18.855Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Venezuela was hit by twin earthquakes on or around June 24.",
+      "The earthquakes resulted in significant infrastructure damage, including destroyed buildings in La Guaira.",
+      "Thousands of people are injured, displaced, or remain unaccounted for.",
+      "The official death toll is expected to rise significantly."
+    ],
+    "source_differences": [
+      "BBC focuses on humanitarian rescue efforts, specifically documenting the survival of a three-year-old child.",
+      "Al Jazeera provides distinct investigative reporting regarding the UN's logistical preparations for rising casualties and the specific circumstances surrounding a US deportation flight that arrived shortly before the disaster.",
+      "Fox News focuses on a sports-related narrative, framing the disaster primarily through the emotional reaction of a professional athlete."
+    ],
+    "synthesis": "Venezuela is facing a catastrophic humanitarian crisis following twin earthquakes that have leveled tens of thousands of buildings and left an uncertain number of victims buried in the rubble. While international rescue efforts are successfully extracting survivors, the UN has begun preparations for a significant increase in fatalities. Concurrently, reports indicate that a recent US deportation flight placed over 140 individuals in the disaster zone, further complicating the search and rescue operations in areas like La Guaira.",
+    "confidence": "Consistent regarding the occurrence and severity of the earthquakes, though the disparate focus areas make the overall reporting scope fragmented.",
+    "sources": [
+      {
+        "id": "art_1782856817440_pb7o0",
+        "url": "https://www.bbc.co.uk/news/articles/c1jykwk8n18o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Three-year-old rescued and taken to hospital six days after Venezuela quake"
+      },
+      {
+        "id": "art_1782794703361_nyepi",
+        "url": "https://www.foxnews.com/outkick-sports/red-sox-star-weeps-earthquake-hit-venezuela-home-run-gets-tossed-umpire-minutes-later",
+        "source": "fox",
+        "title": "Red Sox star weeps for earthquake-hit Venezuela after home run, gets tossed by umpire minutes later"
+      },
+      {
+        "id": "art_1782794707583_4ft8l",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/un-ordering-10000-body-bags-for-venezuela-as-death-toll-expected-to-rise?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN ordering 10,000 body bags for Venezuela as death toll expected to rise"
+      },
+      {
+        "id": "art_1782794708656_e45zq",
+        "url": "https://www.aljazeera.com/news/2026/6/30/fears-for-people-deported-from-us-to-venezuela-hours-before-earthquakes-hit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fears for people deported from US to Venezuela hours before earthquakes hit"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4d0c963cdb0aa41d32e05482024e0ae8",
     "topic_label": "Middle East and Iran Diplomacy",
     "event_window_start": "2026-06-30T02:41:18.000Z",
@@ -45,63 +111,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/trump-us-envoys-enroute-to-doha-for-perhaps-important-iran-meeting?traffic_source=rss",
         "source": "aljazeera",
         "title": "Trump: US envoys enroute to Doha for ‘perhaps important’ Iran meeting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f28931cceb0d5bf713b143e2290d1709",
-    "topic_label": "Venezuela Earthquakes and Crisis",
-    "event_window_start": "2026-06-30T02:32:08.000Z",
-    "event_window_end": "2026-06-30T02:56:53.000Z",
-    "article_ids": [
-      "art_1782794703361_nyepi",
-      "art_1782794707583_4ft8l",
-      "art_1782794708656_e45zq"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T21:57:01.986Z",
-    "updated_at": "2026-06-30T21:57:01.986Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A series of devastating earthquakes occurred in Venezuela.",
-      "The disaster has resulted in significant destruction and an escalating death toll.",
-      "International humanitarian and aid concerns are mounting following the event."
-    ],
-    "source_differences": [
-      "Fox focuses on a specific, likely erroneous, sports anecdote involving an MLB player and unrelated WNBA commentary.",
-      "Al Jazeera focuses on the geopolitical and humanitarian impact, reporting on the UN's procurement of 10,000 body bags.",
-      "Al Jazeera highlights the controversy regarding the deportation of 146 individuals from the US to Venezuela immediately preceding the disaster."
-    ],
-    "synthesis": "Venezuela is currently facing a humanitarian crisis following twin earthquakes that have resulted in significant casualties and infrastructure damage. The international community is preparing for a high death toll, while questions have arisen regarding the status of individuals recently deported from the United States to the disaster zone. Fox News' report contains verifiable inaccuracies, appearing to conflate sports events with the earthquake disaster.",
-    "confidence": "Low. The reporting from Fox is inconsistent with verified news and contains major factual errors, while Al Jazeera provides consistent reporting on the humanitarian situation.",
-    "sources": [
-      {
-        "id": "art_1782794703361_nyepi",
-        "url": "https://www.foxnews.com/outkick-sports/red-sox-star-weeps-earthquake-hit-venezuela-home-run-gets-tossed-umpire-minutes-later",
-        "source": "fox",
-        "title": "Red Sox star weeps for earthquake-hit Venezuela after home run, gets tossed by umpire minutes later"
-      },
-      {
-        "id": "art_1782794707583_4ft8l",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/un-ordering-10000-body-bags-for-venezuela-as-death-toll-expected-to-rise?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN ordering 10,000 body bags for Venezuela as death toll expected to rise"
-      },
-      {
-        "id": "art_1782794708656_e45zq",
-        "url": "https://www.aljazeera.com/news/2026/6/30/fears-for-people-deported-from-us-to-venezuela-hours-before-earthquakes-hit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fears for people deported from US to Venezuela hours before earthquakes hit"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -160,6 +169,368 @@
         "url": "https://www.aljazeera.com/news/2026/6/30/police-hunt-for-suspect-after-three-wounded-in-monaco?traffic_source=rss",
         "source": "aljazeera",
         "title": "Police hunt for suspect after three wounded in Monaco blast"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3671a219b98937d4d23888fb4853eb74",
+    "topic_label": "World Cup coverage",
+    "event_window_start": "2026-06-30T02:18:23.000Z",
+    "event_window_end": "2026-06-30T13:00:03.000Z",
+    "article_ids": [
+      "art_1782825921339_ymtf9",
+      "art_1782825925007_wrdvn",
+      "art_1782819010061_ii55j",
+      "art_1782808177473_gn9mv",
+      "art_1782794699941_fr8hb",
+      "art_1782794701009_aq6pv",
+      "art_1782794710782_aqdev"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-30T23:07:18.855Z",
+    "updated_at": "2026-06-30T23:07:18.855Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The 2026 FIFA World Cup is being hosted in North America.",
+      "Morocco defeated the Netherlands in a penalty shootout following a 1-1 draw in the round of 32.",
+      "Cody Gakpo scored for the Netherlands, and Issa Diop scored for Morocco during regulation/stoppage time."
+    ],
+    "source_differences": [
+      "Fox News frames the tournament primarily through the lens of American cultural exceptionalism and the contrast between foreign media narratives and the in-person experience of visitors.",
+      "Al Jazeera focuses on the geopolitical intersection of sports, criticizing perceived double standards in Western media coverage regarding African and Middle Eastern teams.",
+      "Al Jazeera provides detailed logistical reporting on match schedules, such as France vs Sweden, while Fox focuses on opinion-based commentary and dramatic match highlights."
+    ],
+    "synthesis": "The 2026 FIFA World Cup is serving as a focal point for both global athletic competition and significant sociopolitical commentary. While match play highlights like Morocco's victory over the Netherlands are covered by all outlets, reporting varies significantly between standard sports journalism and editorialized narratives regarding American reputation and global media bias. The event remains a high-profile platform where cultural and political tensions are being expressed alongside the tournament's progression.",
+    "confidence": "Consistent regarding the factual outcomes of the matches, but contains significant contradictions in the intent and framing of the reporting due to the disparate editorial goals of the sources.",
+    "sources": [
+      {
+        "id": "art_1782825921339_ymtf9",
+        "url": "https://www.foxnews.com/opinion/world-cup-soccer-fans-discovering-americas-greatness-time-americans-did-too",
+        "source": "fox",
+        "title": "World Cup soccer fans are discovering America’s greatness. It’s time Americans did, too"
+      },
+      {
+        "id": "art_1782825925007_wrdvn",
+        "url": "https://www.aljazeera.com/sports/2026/6/30/france-sweden-fifa-world-cup-round-of-32-prediction-schedule-lineups-mbappe-dembele?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "France vs Sweden: World Cup Round of 32 – Mbappe, prediction, team lineups"
+      },
+      {
+        "id": "art_1782819010061_ii55j",
+        "url": "https://www.foxnews.com/sports/morocco-sends-netherlands-home-dramatic-world-cup-knockout-penalties",
+        "source": "fox",
+        "title": "Morocco sends the Netherlands home with dramatic World Cup knockout in penalties"
+      },
+      {
+        "id": "art_1782808177473_gn9mv",
+        "url": "https://www.aljazeera.com/opinions/2026/6/30/at-the-world-cup-the-media-has-set-up-a-moral-checkpoint?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At the World Cup, the media has set up a moral checkpoint"
+      },
+      {
+        "id": "art_1782794699941_fr8hb",
+        "url": "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Morocco through to World Cup round of 16 with shootout win over Netherlands"
+      },
+      {
+        "id": "art_1782794701009_aq6pv",
+        "url": "https://www.aljazeera.com/sports/2026/6/30/how-germany-were-handed-a-world-cup-humbling-and-what-it-means-to-paraguay?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How Germany were handed a World Cup humbling and what it means to Paraguay"
+      },
+      {
+        "id": "art_1782794710782_aqdev",
+        "url": "https://www.aljazeera.com/sports/2026/6/30/paraguay-coach-salutes-extraordinary-world-cup-win-over-germany?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Paraguay coach salutes ‘extraordinary’ World Cup win over Germany"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4c2b639ea8dec827ef2150b2a3478cea",
+    "topic_label": "Anti-Migrant Protests South Africa",
+    "event_window_start": "2026-06-30T02:30:26.000Z",
+    "event_window_end": "2026-06-30T12:11:57.000Z",
+    "article_ids": [
+      "art_1782825934043_smikn",
+      "art_1782825935076_cyonf",
+      "art_1782794709722_nagek"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-30T20:29:37.156Z",
+    "updated_at": "2026-06-30T20:29:37.156Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Anti-migrant groups in South Africa have set an unofficial June 30 deadline for undocumented foreigners to leave the country.",
+      "The rhetoric from these groups claims that undocumented immigrants are responsible for high crime and unemployment.",
+      "The South African government, led by President Cyril Ramaphosa, has publicly condemned the intimidation and warned against vigilantism.",
+      "The situation has caused significant fear among foreign nationals, leading some to flee and businesses to close temporarily."
+    ],
+    "source_differences": [
+      "The provided sources originate from a single outlet, Al Jazeera, resulting in consistent framing and narrative alignment across all reports.",
+      "Early reporting focused primarily on the stated motivations of the protestors, whereas later updates expanded to include government responses and the resulting impact on local markets."
+    ],
+    "synthesis": "Anti-migrant groups in South Africa have issued an unofficial ultimatum for undocumented foreigners to depart the country by June 30, citing economic and security concerns. The South African government has formally rejected these threats as vigilantism, while the climate of intimidation has led to business closures and the displacement of foreign nationals. Security forces have been deployed to maintain order as public fear continues to grow.",
+    "confidence": "High; all articles are from the same source, resulting in consistent messaging without conflicting information.",
+    "sources": [
+      {
+        "id": "art_1782825934043_smikn",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/anti-migrant-rally-in-south-africa-demands-undocumented-foreigners-leave?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Anti-migrant rally in South Africa demands undocumented foreigners leave"
+      },
+      {
+        "id": "art_1782825935076_cyonf",
+        "url": "https://www.aljazeera.com/news/2026/6/30/south-africa-deploys-police-as-anti-immigrant-protests-prompt-fears?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "South Africa deploys police as anti-immigrant protests prompt fears"
+      },
+      {
+        "id": "art_1782794709722_nagek",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/fear-grows-in-johannesburg-market-as-anti-migrant-deadline-looms?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fear grows in Johannesburg market as anti-migrant ‘deadline’ looms"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7ba5a84d1c8a0b3fb8cba6934a0c84bc",
+    "topic_label": "US Supreme Court rulings",
+    "event_window_start": "2026-06-30T11:11:45.000Z",
+    "event_window_end": "2026-06-30T21:33:09.000Z",
+    "article_ids": [
+      "art_1782856816306_lximx",
+      "art_1782856818707_crf71",
+      "art_1782856820785_dkmgm",
+      "art_1782825919201_z8xq2",
+      "art_1782819011188_r52nj",
+      "art_1782819013354_rhoqq"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-30T23:07:18.855Z",
+    "updated_at": "2026-06-30T23:07:18.855Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The US Supreme Court issued multiple rulings on Tuesday and Monday.",
+      "Donald Trump is a central figure in several of the legal cases currently being decided by the Supreme Court.",
+      "The Supreme Court has addressed matters concerning executive branch authority and the power to remove agency officials."
+    ],
+    "source_differences": [
+      "The Guardian reports on Second Amendment challenges regarding assault weapons, while Al Jazeera discusses birthright citizenship and the BBC covers transgender athlete bans.",
+      "Fox News and The Guardian provide conflicting details on a case involving the firing of FTC Commissioner Rebecca Slaughter, highlighting differing interpretations of presidential authority and administrative law.",
+      "The sources cover entirely distinct legal cases, indicating these articles describe different rulings rather than a single event."
+    ],
+    "synthesis": "The provided articles describe a series of diverse and distinct Supreme Court rulings issued over consecutive days, rather than a single event. The topics cover a wide constitutional spectrum, including executive power, firearms regulations, citizenship status, and sports eligibility. The reports reflect various ideological focuses, highlighting the court's current role as a primary arbiter in major US political and cultural disputes.",
+    "confidence": "Contradictory. The reports cover entirely different subject matters and legal rulings, rendering the articles consistent only in their shared focus on the Supreme Court as the common venue for these disparate decisions.",
+    "sources": [
+      {
+        "id": "art_1782856816306_lximx",
+        "url": "https://www.theguardian.com/us-news/2026/jun/30/us-supreme-court-assault-weapons-bans",
+        "source": "guardian",
+        "title": "US supreme court agrees to hear challenges to assault-weapons bans"
+      },
+      {
+        "id": "art_1782856818707_crf71",
+        "url": "https://www.aljazeera.com/news/2026/6/30/what-is-birthright-citizenship-and-what-does-the-supreme-court-ruling-say?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What is birthright citizenship, and what does the Supreme Court ruling say?"
+      },
+      {
+        "id": "art_1782856820785_dkmgm",
+        "url": "https://www.bbc.co.uk/news/articles/cj40x888d9go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court upholds bans on transgender athletes in female school and college sports"
+      },
+      {
+        "id": "art_1782825919201_z8xq2",
+        "url": "https://www.foxnews.com/politics/gorsuch-suggests-supreme-courts-trump-ruling-opening-move-administrative-state",
+        "source": "fox",
+        "title": "Gorsuch suggests Supreme Court's Trump ruling is opening move against administrative state"
+      },
+      {
+        "id": "art_1782819011188_r52nj",
+        "url": "https://www.theguardian.com/us-news/2026/jun/30/first-thing-supreme-court-trump-fire-agency-chiefs-rules-against-him-mail-in-ballots",
+        "source": "guardian",
+        "title": "First Thing: Supreme court backs Trump’s ability to fire agency chiefs but rules against him on mail-in ballots"
+      },
+      {
+        "id": "art_1782819013354_rhoqq",
+        "url": "https://www.theguardian.com/us-news/live/2026/jun/30/birthright-citizenship-supreme-court-donald-trump-us-politics-latest-news",
+        "source": "guardian",
+        "title": "Anger at supreme court ruling on Trump’s power to fire agency chiefs – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "57028c6d77ca347850c49028579c40be",
+    "topic_label": "UK political and economic issues",
+    "event_window_start": "2026-06-30T07:00:41.000Z",
+    "event_window_end": "2026-06-30T13:00:07.000Z",
+    "article_ids": [
+      "art_1782825920288_rrhpc",
+      "art_1782825923976_0xwan",
+      "art_1782825933014_ss7s6",
+      "art_1782808173266_3z2uk",
+      "art_1782808175355_nzeeu",
+      "art_1782808179603_r8a2w",
+      "art_1782808184958_m90fm"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-30T23:07:18.855Z",
+    "updated_at": "2026-06-30T23:07:18.855Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The UK political landscape is currently undergoing a leadership transition involving the potential succession of Keir Starmer by Andy Burnham.",
+      "The UK government is managing significant fiscal pressures, evidenced by reallocations of funding from infrastructure and energy projects to address military spending deficits.",
+      "The UK faces complex regulatory challenges regarding media plurality and large-scale corporate mergers involving major broadcast and production assets."
+    ],
+    "source_differences": [
+      "The Guardian reports focus on specific policy issues, including North Sea drilling environmental impacts, regulatory oversight of media consolidation, and internal Labour Party defense funding disputes.",
+      "Al Jazeera provides a broader historical overview of the UK's economic decline, framing the current political turnover as a recurring cycle of failed leadership over the past decade."
+    ],
+    "synthesis": "The UK is experiencing a period of intense political and economic volatility characterized by leadership changes, fiscal austerity measures, and significant regulatory scrutiny over media monopolies. Government priorities are currently split between managing long-term defense investment requirements and navigating environmental and competition concerns. The convergence of these issues highlights the systemic challenges facing the incoming administration as it attempts to stabilize the national economy.",
+    "confidence": "Consistent; the articles address distinct, non-contradictory aspects of the current UK political and economic environment.",
+    "sources": [
+      {
+        "id": "art_1782825920288_rrhpc",
+        "url": "https://www.theguardian.com/environment/2026/jun/30/labour-mps-tell-burnham-ignore-deluded-calls-more-north-sea-drilling",
+        "source": "guardian",
+        "title": "Labour MPs tell Burnham to ignore ‘deluded’ calls for more North Sea drilling"
+      },
+      {
+        "id": "art_1782825923976_0xwan",
+        "url": "https://www.theguardian.com/business/2026/jun/30/uk-intervene-paramount-takeover-warner-bros-discovery",
+        "source": "guardian",
+        "title": "UK ‘minded to’ intervene in Paramount’s $110bn takeover of Warner Bros Discovery"
+      },
+      {
+        "id": "art_1782825933014_ss7s6",
+        "url": "https://www.theguardian.com/politics/2026/jun/30/defence-investment-plan-keir-starmer-labour",
+        "source": "guardian",
+        "title": "Starmer warns Burnham not to borrow to fund defence as he reveals £15bn plan"
+      },
+      {
+        "id": "art_1782808173266_3z2uk",
+        "url": "https://www.theguardian.com/politics/live/2026/jun/30/defence-investment-plan-keir-starmer-dan-jarvis-labour-andy-burnham-uk-politics-latest-news",
+        "source": "guardian",
+        "title": "Defence investment plan criticised as ‘too little, too late’ ahead of launch – UK politics live"
+      },
+      {
+        "id": "art_1782808175355_nzeeu",
+        "url": "https://www.aljazeera.com/video/money-works/2026/6/30/how-each-prime-minister-broke-britains-economy?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How each prime minister broke Britain’s economy"
+      },
+      {
+        "id": "art_1782808179603_r8a2w",
+        "url": "https://www.theguardian.com/politics/2026/jun/30/england-maternity-commissioner-amos-recommendation-dangerous-says-campaigner",
+        "source": "guardian",
+        "title": "Bereaved mother says England maternity commissioner role would be ‘fundamentally dangerous’"
+      },
+      {
+        "id": "art_1782808184958_m90fm",
+        "url": "https://www.theguardian.com/business/2026/jun/30/uk-pubs-restaurants-lose-money-research-shows-vat-cut-campaign",
+        "source": "guardian",
+        "title": "Nearly 25% of UK pubs and restaurants lose money, research shows"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f28931cceb0d5bf713b143e2290d1709",
+    "topic_label": "Venezuela Earthquakes and Crisis",
+    "event_window_start": "2026-06-30T02:32:08.000Z",
+    "event_window_end": "2026-06-30T02:56:53.000Z",
+    "article_ids": [
+      "art_1782794703361_nyepi",
+      "art_1782794707583_4ft8l",
+      "art_1782794708656_e45zq"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-06-30T21:57:01.986Z",
+    "updated_at": "2026-06-30T21:57:01.986Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A series of devastating earthquakes occurred in Venezuela.",
+      "The disaster has resulted in significant destruction and an escalating death toll.",
+      "International humanitarian and aid concerns are mounting following the event."
+    ],
+    "source_differences": [
+      "Fox focuses on a specific, likely erroneous, sports anecdote involving an MLB player and unrelated WNBA commentary.",
+      "Al Jazeera focuses on the geopolitical and humanitarian impact, reporting on the UN's procurement of 10,000 body bags.",
+      "Al Jazeera highlights the controversy regarding the deportation of 146 individuals from the US to Venezuela immediately preceding the disaster."
+    ],
+    "synthesis": "Venezuela is currently facing a humanitarian crisis following twin earthquakes that have resulted in significant casualties and infrastructure damage. The international community is preparing for a high death toll, while questions have arisen regarding the status of individuals recently deported from the United States to the disaster zone. Fox News' report contains verifiable inaccuracies, appearing to conflate sports events with the earthquake disaster.",
+    "confidence": "Low. The reporting from Fox is inconsistent with verified news and contains major factual errors, while Al Jazeera provides consistent reporting on the humanitarian situation.",
+    "sources": [
+      {
+        "id": "art_1782794703361_nyepi",
+        "url": "https://www.foxnews.com/outkick-sports/red-sox-star-weeps-earthquake-hit-venezuela-home-run-gets-tossed-umpire-minutes-later",
+        "source": "fox",
+        "title": "Red Sox star weeps for earthquake-hit Venezuela after home run, gets tossed by umpire minutes later"
+      },
+      {
+        "id": "art_1782794707583_4ft8l",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/un-ordering-10000-body-bags-for-venezuela-as-death-toll-expected-to-rise?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN ordering 10,000 body bags for Venezuela as death toll expected to rise"
+      },
+      {
+        "id": "art_1782794708656_e45zq",
+        "url": "https://www.aljazeera.com/news/2026/6/30/fears-for-people-deported-from-us-to-venezuela-hours-before-earthquakes-hit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fears for people deported from US to Venezuela hours before earthquakes hit"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -252,62 +623,6 @@
         "url": "https://www.aljazeera.com/sports/2026/6/30/paraguay-coach-salutes-extraordinary-world-cup-win-over-germany?traffic_source=rss",
         "source": "aljazeera",
         "title": "Paraguay coach salutes ‘extraordinary’ World Cup win over Germany"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4c2b639ea8dec827ef2150b2a3478cea",
-    "topic_label": "Anti-Migrant Protests South Africa",
-    "event_window_start": "2026-06-30T02:30:26.000Z",
-    "event_window_end": "2026-06-30T12:11:57.000Z",
-    "article_ids": [
-      "art_1782825934043_smikn",
-      "art_1782825935076_cyonf",
-      "art_1782794709722_nagek"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T20:29:37.156Z",
-    "updated_at": "2026-06-30T20:29:37.156Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Anti-migrant groups in South Africa have set an unofficial June 30 deadline for undocumented foreigners to leave the country.",
-      "The rhetoric from these groups claims that undocumented immigrants are responsible for high crime and unemployment.",
-      "The South African government, led by President Cyril Ramaphosa, has publicly condemned the intimidation and warned against vigilantism.",
-      "The situation has caused significant fear among foreign nationals, leading some to flee and businesses to close temporarily."
-    ],
-    "source_differences": [
-      "The provided sources originate from a single outlet, Al Jazeera, resulting in consistent framing and narrative alignment across all reports.",
-      "Early reporting focused primarily on the stated motivations of the protestors, whereas later updates expanded to include government responses and the resulting impact on local markets."
-    ],
-    "synthesis": "Anti-migrant groups in South Africa have issued an unofficial ultimatum for undocumented foreigners to depart the country by June 30, citing economic and security concerns. The South African government has formally rejected these threats as vigilantism, while the climate of intimidation has led to business closures and the displacement of foreign nationals. Security forces have been deployed to maintain order as public fear continues to grow.",
-    "confidence": "High; all articles are from the same source, resulting in consistent messaging without conflicting information.",
-    "sources": [
-      {
-        "id": "art_1782825934043_smikn",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/anti-migrant-rally-in-south-africa-demands-undocumented-foreigners-leave?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Anti-migrant rally in South Africa demands undocumented foreigners leave"
-      },
-      {
-        "id": "art_1782825935076_cyonf",
-        "url": "https://www.aljazeera.com/news/2026/6/30/south-africa-deploys-police-as-anti-immigrant-protests-prompt-fears?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "South Africa deploys police as anti-immigrant protests prompt fears"
-      },
-      {
-        "id": "art_1782794709722_nagek",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/fear-grows-in-johannesburg-market-as-anti-migrant-deadline-looms?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fear grows in Johannesburg market as anti-migrant ‘deadline’ looms"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -3445,295 +3760,6 @@
         "url": "https://www.foxnews.com/media/pro-israel-democrat-california-state-senator-heckled-trans-march-gaza",
         "source": "fox",
         "title": "Pro-Israel Democrat California state senator heckled at Trans March over Gaza, ‘We f---ing hate you’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bc64082f4934a5a6c48bd03683f953d0",
-    "topic_label": "Trump Legal and Supreme Court",
-    "event_window_start": "2026-06-29T14:07:04.000Z",
-    "event_window_end": "2026-06-29T20:29:41.000Z",
-    "article_ids": [
-      "art_1782768327818_gyjyx",
-      "art_1782754519252_m859c",
-      "art_1782754520553_2dywi",
-      "art_1782743723909_5ubs0",
-      "art_1782743725033_h4a59",
-      "art_1782743726538_c4e43",
-      "art_1782743729859_tco2d",
-      "art_1782743734171_wgu07"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-29T23:59:47.914Z",
-    "updated_at": "2026-06-29T23:59:47.914Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Supreme Court issued a 5-4 ruling regarding the counting of post-election day mail-in ballots, upholding the practice.",
-      "The Supreme Court issued a 5-4 ruling regarding the attempted removal of Federal Reserve Governor Lisa Cook.",
-      "The Supreme Court blocked President Trump's effort to unilaterally fire Lisa Cook.",
-      "Justice Samuel Alito dissented in the case concerning mail-in ballot counting."
-    ],
-    "source_differences": [
-      "Fox News focuses on Justice Alito's warning regarding voter fraud and election legitimacy in the mail-in ballot case, while others emphasize the court's procedural ruling.",
-      "Al Jazeera and BBC highlight the specific legal procedural requirements (due process) for the Fed governor's removal, whereas The Guardian frames the ruling primarily as a constitutional limitation on presidential authority over independent agencies.",
-      "The Guardian reports on a third case involving E. Jean Carroll, which is omitted by all other sources.",
-      "Sources differ on the internal voting bloc for the Fed case; Al Jazeera lists specific justices involved in the 5-4 split, while others provide general summaries of the constitutional implications."
-    ],
-    "synthesis": "The Supreme Court issued a series of significant 5-4 rulings on Monday, upholding state laws allowing for the counting of post-marked mail-in ballots received after election day and limiting presidential authority to terminate Federal Reserve governors. While the Fed ruling emphasizes the need for due process and established cause, the ballot ruling drew dissent from Justice Alito over concerns regarding election integrity. These decisions represent a notable check on executive power and a clarification of state-level election administration discretion.",
-    "confidence": "High; while the coverage focuses on different aspects of the same day's rulings, there are no direct factual contradictions, only variations in editorial emphasis and scope of reporting.",
-    "sources": [
-      {
-        "id": "art_1782768327818_gyjyx",
-        "url": "https://www.foxnews.com/politics/alito-blasts-latest-scotus-ballot-ruling-invitation-voter-fraud-risks",
-        "source": "fox",
-        "title": "Alito blasts latest SCOTUS ballot ruling as invitation to ‘voter fraud’ risks"
-      },
-      {
-        "id": "art_1782754519252_m859c",
-        "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Supreme Court blocks Trump’s bid to fire US Federal Reserve’s Lisa Cook"
-      },
-      {
-        "id": "art_1782754520553_2dywi",
-        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Supreme Court blocks Trump's attempt to fire Federal Reserve governor Lisa Cook"
-      },
-      {
-        "id": "art_1782743723909_5ubs0",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/29/supreme-court-donald-trump-administration-us-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Supreme court rebuffs Trump’s appeal in E Jean Carroll case as latest decisions released – US politics live"
-      },
-      {
-        "id": "art_1782743725033_h4a59",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-lisa-cook-ruling",
-        "source": "guardian",
-        "title": "US supreme court rules Trump’s firing of Lisa Cook from Fed was unconstitutional"
-      },
-      {
-        "id": "art_1782743726538_c4e43",
-        "url": "https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US Supreme Court rejects Trump's appeal of E Jean Carroll's sexual abuse case"
-      },
-      {
-        "id": "art_1782743729859_tco2d",
-        "url": "https://www.foxnews.com/politics/supreme-court-rules-mail-in-ballots-received-after-election-day",
-        "source": "fox",
-        "title": "Supreme Court rules on mail-in ballots received after Election Day"
-      },
-      {
-        "id": "art_1782743734171_wgu07",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-mail-in-ballots-election-ruling",
-        "source": "guardian",
-        "title": "US supreme court upholds law to count mail-in ballots arriving after election day"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "82c3fc7840dd16e0cbdbe9d844a4218f",
-    "topic_label": "UK Politics and Policy",
-    "event_window_start": "2026-06-29T05:00:29.000Z",
-    "event_window_end": "2026-06-29T21:30:29.000Z",
-    "article_ids": [
-      "art_1782772658554_x0oe1",
-      "art_1782772659647_smikg",
-      "art_1782772660837_i632m",
-      "art_1782762820811_w8wid",
-      "art_1782727760131_9fft5",
-      "art_1782709972396_o4ohx",
-      "art_1782709973605_x86b8"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-29T23:59:47.914Z",
-    "updated_at": "2026-06-29T23:59:47.914Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "David Lammy announced a minimum sentence increase to 25 years for domestic murder in England and Wales",
-      "The UK government is introducing a means-tested scheme requiring asylum seekers to contribute to living costs",
-      "The UK Ministry of Defence secured an additional £1.5bn in funding for drone technology",
-      "Andy Burnham is positioning himself as the next Prime Minister and proposing significant devolution of power"
-    ],
-    "source_differences": [
-      "The coverage on asylum seekers emphasizes the humanitarian critique from charities while detailing the financial specifics of the policy",
-      "The defence reporting details specific internal political conflicts involving the previous Secretary of State and the Chancellor",
-      "The political coverage frames Burnham not just as a candidate but as the presumptive future leader of the UK"
-    ],
-    "synthesis": "The UK government is simultaneously implementing stricter sentencing for domestic murder, introducing controversial cost-recovery measures for asylum seekers, and bolstering military spending on drone technology. Meanwhile, political focus has shifted toward Andy Burnham, who is advocating for a major devolution of power as his central policy platform for his expected premiership. These developments reflect a multi-faceted push to address criminal justice, fiscal management, and national security alongside a significant shift in political governance.",
-    "confidence": "Consistent; all reports originate from the same primary source outlet and present complementary aspects of contemporary UK policy and political maneuvering without direct contradiction.",
-    "sources": [
-      {
-        "id": "art_1782772658554_x0oe1",
-        "url": "https://www.theguardian.com/society/2026/jun/29/offenders-in-england-and-wales-who-kill-current-or-ex-partners-face-10-more-years-in-prison",
-        "source": "guardian",
-        "title": "Offenders in England and Wales who kill current or ex-partners face 10 more years in prison"
-      },
-      {
-        "id": "art_1782772659647_smikg",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/29/asylum-seekers-pay-towards-living-costs-new-uk-law",
-        "source": "guardian",
-        "title": "Asylum seekers to pay £10,000 towards living costs under new UK law"
-      },
-      {
-        "id": "art_1782772660837_i632m",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/29/new-defence-secretary-wins-another-15bn-to-boost-drone-spending",
-        "source": "guardian",
-        "title": "New defence secretary wins another £1.5bn to boost drone spending"
-      },
-      {
-        "id": "art_1782762820811_w8wid",
-        "url": "https://www.theguardian.com/politics/2026/jun/29/burnham-sets-out-vision-to-transform-britain-and-fix-broken-system",
-        "source": "guardian",
-        "title": "Burnham sets out vision to transform Britain and fix ‘broken’ system"
-      },
-      {
-        "id": "art_1782727760131_9fft5",
-        "url": "https://www.theguardian.com/politics/live/2026/jun/29/andy-burnham-devolution-speech-keir-starmer-labour-latest-news-updates",
-        "source": "guardian",
-        "title": "Andy Burnham to propose devolution plan in first major policy speech since launching bid for No 10 – UK politics live"
-      },
-      {
-        "id": "art_1782709972396_o4ohx",
-        "url": "https://www.theguardian.com/business/2026/jun/29/reversing-uk-employment-tax-rises-would-do-little-to-help-young-people-find-jobs",
-        "source": "guardian",
-        "title": "Reversing UK employment tax rises ‘would do little to help young people find jobs’"
-      },
-      {
-        "id": "art_1782709973605_x86b8",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/29/leave-to-remain-care-workers-campaigners-mike-tapp-shabana-mahmood",
-        "source": "guardian",
-        "title": "Doubling leave to remain timeframe for UK care workers ‘cruel’, say campaigners"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bfb6b15811423ba1f1bbb65201e7a05f",
-    "topic_label": "Global Heatwaves and Wildfires",
-    "event_window_start": "2026-06-29T09:50:33.000Z",
-    "event_window_end": "2026-06-29T20:33:56.000Z",
-    "article_ids": [
-      "art_1782768325450_g6z7d",
-      "art_1782762823909_1p75e",
-      "art_1782727765528_werrx"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-29T23:59:47.914Z",
-    "updated_at": "2026-06-29T23:59:47.914Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Firefighters are currently involved in emergency operations related to wildfires.",
-      "Extreme weather events, specifically high temperatures, are impacting multiple regions globally."
-    ],
-    "source_differences": [
-      "The Guardian focuses on a specific fatal incident involving three firefighters in the US (Colorado/Utah border), whereas the Al Jazeera report and the second Guardian article focus exclusively on heatwaves and environmental impacts in Europe.",
-      "The sources cover entirely different geographical regions with no overlapping wildfire incidents.",
-      "The reporting frames 'firefighting' through different contexts: one as a tragic workplace fatality in the US, and another as a general emergency response to heat-driven forest fires in the Balkans."
-    ],
-    "synthesis": "The provided articles describe unrelated emergency situations occurring in distinct geographical theaters, with one focusing on a fatal wildfire incident in the United States and the others detailing heatwave-induced crises across Europe. There is no evidence of a common event link between the articles. The reporting appears accurate within its respective, non-overlapping regional contexts.",
-    "confidence": "Consistent reporting; however, the articles cover completely separate events and geographical regions, resulting in no direct contradictions.",
-    "sources": [
-      {
-        "id": "art_1782768325450_g6z7d",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/firefighters-killed-colorado-wildfires",
-        "source": "guardian",
-        "title": "Officials release names of three firefighters killed in Colorado wildfire"
-      },
-      {
-        "id": "art_1782762823909_1p75e",
-        "url": "https://www.aljazeera.com/news/2026/6/29/deadly-heatwave-grips-italy-and-balkans-as-wildfire-fears-grow?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Deadly heatwave grips Italy and Balkans as wildfire fears grow"
-      },
-      {
-        "id": "art_1782727765528_werrx",
-        "url": "https://www.theguardian.com/world/live/2026/jun/29/extreme-heat-europe-germany-poland-czechia-hungary-serbia-heatwave-nato-rutte-starmer-eu-latest-news-updates",
-        "source": "guardian",
-        "title": "Extreme heat continues in central and eastern Europe with temperatures of 38C expected – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6bee04a26c5c405b4bf23a7d00713715",
-    "topic_label": "Pakistan-Afghanistan Border Strikes",
-    "event_window_start": "2026-06-29T03:10:53.000Z",
-    "event_window_end": "2026-06-29T04:39:05.000Z",
-    "article_ids": [
-      "art_1782709974797_kfaxd",
-      "art_1782709983554_nuyek"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-29T06:41:42.468Z",
-    "updated_at": "2026-06-29T06:41:42.468Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Pakistan conducted airstrikes in eastern Afghanistan.",
-      "Pakistan stated the strikes targeted militant hideouts.",
-      "The Afghan Taliban government condemned the strikes.",
-      "Both sides reported civilian and militant casualties, though figures vary.",
-      "Pakistan justified the action as a response to recent terrorist activity."
-    ],
-    "source_differences": [
-      "The BBC reports the strikes occurred on Sunday, whereas The Guardian reports they occurred on Monday.",
-      "The Guardian mentions a previous weeks-long conflict in February, while the BBC does not include this historical context.",
-      "The BBC cites specific Taliban claims of 100 casualties, whereas The Guardian references more general reports of 'dozens' of civilian casualties and a specific figure of 25 killed from the Pakistani side."
-    ],
-    "synthesis": "Pakistan conducted military airstrikes in Afghanistan citing retaliation for domestic terrorist attacks, resulting in disputed reports of civilian and militant casualties. The incident marks a significant escalation in ongoing bilateral tensions between the Pakistani state and the Afghan Taliban government. Despite shared acknowledgments of the attack and its justification, the timeline and total casualty counts remain inconsistent across reporting sources.",
-    "confidence": "Moderate; while the core event is verified, significant discrepancies in the timeline and casualty figures suggest conflicting data points or information warfare from local authorities.",
-    "sources": [
-      {
-        "id": "art_1782709974797_kfaxd",
-        "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Pakistan launches deadly strikes along Afghan border"
-      },
-      {
-        "id": "art_1782709983554_nuyek",
-        "url": "https://www.theguardian.com/world/2026/jun/29/pakistan-deadly-airstrikes-afghanistan-border",
-        "source": "guardian",
-        "title": "Pakistan carries out deadly airstrikes along Afghanistan border"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
