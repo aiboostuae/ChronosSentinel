@@ -1,5 +1,107 @@
 [
   {
+    "cluster_id": "60f1b4089f42e6fedad2ea515d9c6a1e",
+    "topic_label": "Supreme Court birthright citizenship ruling",
+    "event_window_start": "2026-07-01T04:41:26.000Z",
+    "event_window_end": "2026-07-01T05:01:32.000Z",
+    "article_ids": [
+      "art_1782887128084_8jcep",
+      "art_1782887136802_zarlx"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-01T23:19:08.727Z",
+    "updated_at": "2026-07-01T23:19:08.727Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The US Supreme Court issued a ruling regarding birthright citizenship.",
+      "The ruling was decided by a 6-3 vote.",
+      "The legal matter involving birthright citizenship remains subject to potential future constitutional challenges."
+    ],
+    "source_differences": [
+      "Al Jazeera's first report frames the outcome as a significant political defeat for Donald Trump and the MAGA movement.",
+      "Al Jazeera's second report focuses on the legal nuances and the justices' opinions, suggesting the court may revisit the topic rather than viewing the current ruling as final."
+    ],
+    "synthesis": "The US Supreme Court issued a 6-3 decision declining to end birthright citizenship, a development that has sparked political tension regarding anti-immigration platforms. While the ruling acts as a current resolution, legal analysts suggest the split among justices indicates that the issue will likely return to the Court for further constitutional scrutiny. The event is characterized by both its immediate political impact and its long-term legal uncertainty.",
+    "confidence": "High consistency; the sources agree on the factual outcome of the court ruling, while differing only in their analytical focus on political implications versus legal process.",
+    "sources": [
+      {
+        "id": "art_1782887128084_8jcep",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/why-is-maga-in-meltdown-over-the-supreme-court-birthright-ruling-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why is MAGA in meltdown over the Supreme Court birthright ruling?"
+      },
+      {
+        "id": "art_1782887136802_zarlx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/supreme-courts-divided-ruling-on-birthright-citizenship-may-be-revisited?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Supreme Court’s divided ruling on birthright citizenship may be revisited"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8913253f67cd1e557c893997b713600f",
+    "topic_label": "Democratic Primary Election Results",
+    "event_window_start": "2026-07-01T04:05:03.000Z",
+    "event_window_end": "2026-07-01T04:32:35.000Z",
+    "article_ids": [
+      "art_1782887139054_7b4un",
+      "art_1782887140186_bk6th"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-01T13:19:16.581Z",
+    "updated_at": "2026-07-01T13:19:16.581Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Melat Kiros won the Democratic primary for Colorado's 1st congressional district.",
+      "Melat Kiros is 29 years old.",
+      "Diana DeGette was the incumbent representative for the district.",
+      "The Associated Press reported the election results.",
+      "The primary took place on a Tuesday.",
+      "The district is located in Denver and is considered a deep-blue seat.",
+      "Kiros is backed by or identifies with the Democratic Socialists of America (DSA)."
+    ],
+    "source_differences": [
+      "The Guardian frames the victory as part of a broader trend of insurgent left candidates defeating establishment Democrats, referencing recent New York primaries.",
+      "Fox News frames the result as the rise of socialism within the Democratic Party, featuring a transcript-style discussion segment that contrasts the 'East Coast' wins with the new Colorado result.",
+      "The Guardian explicitly identifies the defeated incumbent as a '15-term' representative, while Fox News identifies her as a '30-year' incumbent."
+    ],
+    "synthesis": "Melat Kiros, a DSA-backed challenger, successfully unseated long-term incumbent Diana DeGette in the Democratic primary for Colorado's 1st congressional district. The victory, reported by the Associated Press, is being interpreted by both outlets as a significant milestone for the socialist left following similar primary successes in New York. Kiros's nomination in the heavily Democratic district makes her the likely successor to the House seat.",
+    "confidence": "High; both sources consistently report the core outcome, candidate identities, and the political context of the race, differing only in stylistic framing and the descriptive metric used for the incumbent's tenure.",
+    "sources": [
+      {
+        "id": "art_1782887139054_7b4un",
+        "url": "https://www.theguardian.com/us-news/2026/jul/01/melat-kiros-democrat-defeats-diana-degette-blue-state-colarado-house-primary-denver",
+        "source": "guardian",
+        "title": "Democratic socialist Melat Kiros defeats 15-term incumbent in Colorado House primary"
+      },
+      {
+        "id": "art_1782887140186_bk6th",
+        "url": "https://www.foxnews.com/politics/socialism-goes-west-dsa-backed-challenger-ousts-longtime-democrat",
+        "source": "fox",
+        "title": "Socialism goes west as DSA-backed challenger ousts longtime Democrat"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "ca0d9b4ed11ae6f37cd89d3f60831a69",
     "topic_label": "US Supreme Court Rulings",
     "event_window_start": "2026-06-30T22:27:24.000Z",
@@ -59,60 +161,6 @@
         "url": "https://www.foxnews.com/sports/us-women-olympians-react-historic-supreme-court-ruling-protection-womens-sports",
         "source": "fox",
         "title": "US women Olympians react to historic Supreme Court ruling on the protection of women's sports"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8913253f67cd1e557c893997b713600f",
-    "topic_label": "Democratic Primary Election Results",
-    "event_window_start": "2026-07-01T04:05:03.000Z",
-    "event_window_end": "2026-07-01T04:32:35.000Z",
-    "article_ids": [
-      "art_1782887139054_7b4un",
-      "art_1782887140186_bk6th"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-01T13:19:16.581Z",
-    "updated_at": "2026-07-01T13:19:16.581Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Melat Kiros won the Democratic primary for Colorado's 1st congressional district.",
-      "Melat Kiros is 29 years old.",
-      "Diana DeGette was the incumbent representative for the district.",
-      "The Associated Press reported the election results.",
-      "The primary took place on a Tuesday.",
-      "The district is located in Denver and is considered a deep-blue seat.",
-      "Kiros is backed by or identifies with the Democratic Socialists of America (DSA)."
-    ],
-    "source_differences": [
-      "The Guardian frames the victory as part of a broader trend of insurgent left candidates defeating establishment Democrats, referencing recent New York primaries.",
-      "Fox News frames the result as the rise of socialism within the Democratic Party, featuring a transcript-style discussion segment that contrasts the 'East Coast' wins with the new Colorado result.",
-      "The Guardian explicitly identifies the defeated incumbent as a '15-term' representative, while Fox News identifies her as a '30-year' incumbent."
-    ],
-    "synthesis": "Melat Kiros, a DSA-backed challenger, successfully unseated long-term incumbent Diana DeGette in the Democratic primary for Colorado's 1st congressional district. The victory, reported by the Associated Press, is being interpreted by both outlets as a significant milestone for the socialist left following similar primary successes in New York. Kiros's nomination in the heavily Democratic district makes her the likely successor to the House seat.",
-    "confidence": "High; both sources consistently report the core outcome, candidate identities, and the political context of the race, differing only in stylistic framing and the descriptive metric used for the incumbent's tenure.",
-    "sources": [
-      {
-        "id": "art_1782887139054_7b4un",
-        "url": "https://www.theguardian.com/us-news/2026/jul/01/melat-kiros-democrat-defeats-diana-degette-blue-state-colarado-house-primary-denver",
-        "source": "guardian",
-        "title": "Democratic socialist Melat Kiros defeats 15-term incumbent in Colorado House primary"
-      },
-      {
-        "id": "art_1782887140186_bk6th",
-        "url": "https://www.foxnews.com/politics/socialism-goes-west-dsa-backed-challenger-ousts-longtime-democrat",
-        "source": "fox",
-        "title": "Socialism goes west as DSA-backed challenger ousts longtime Democrat"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -3336,108 +3384,6 @@
         "url": "https://www.theguardian.com/world/2026/jun/29/oman-safe-reopening-strait-hormuz-iran-us-middle-east",
         "source": "guardian",
         "title": "Iran is jealously competing with Oman as decision-maker over strait of Hormuz"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ef26848a71fe670020e981114d207a15",
-    "topic_label": "Supreme Court Trump Rulings",
-    "event_window_start": "2026-06-29T16:51:52.000Z",
-    "event_window_end": "2026-06-30T13:03:39.000Z",
-    "article_ids": [
-      "art_1782825919201_z8xq2",
-      "art_1782819011188_r52nj",
-      "art_1782819013354_rhoqq",
-      "art_1782772665036_r6dg3",
-      "art_1782772666080_vnoy6",
-      "art_1782768327818_gyjyx",
-      "art_1782754515071_o9cw0",
-      "art_1782754519252_m859c",
-      "art_1782754520553_2dywi"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 9,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T16:02:49.033Z",
-    "updated_at": "2026-06-30T16:02:49.033Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Supreme Court issued a 6-3 ruling in a case involving the firing of FTC Commissioner Rebecca Slaughter.",
-      "The Court's decision overturns long-standing precedent, specifically Humphrey's Executor, regarding the president's authority to dismiss independent agency officials.",
-      "The Supreme Court declined to hear Donald Trump's appeal regarding the $5 million E. Jean Carroll sexual abuse verdict.",
-      "The Supreme Court upheld a Mississippi law allowing mail-in ballots received up to five days after Election Day to be counted in the Watson v. RNC case."
-    ],
-    "source_differences": [
-      "Fox News frames the ruling on firing power as a strategic shift against the administrative state and focuses on Trump's dissatisfaction with the mail-in ballot decision.",
-      "The Guardian emphasizes the criticism from labor and advocacy groups regarding the potential long-term threat to democracy.",
-      "The Guardian connects the firing power ruling to broader political controversies, including ongoing concerns about birthright citizenship and the 14th Amendment."
-    ],
-    "synthesis": "The Supreme Court issued a series of significant rulings on Monday, notably granting presidents increased authority to dismiss independent agency heads while declining to intervene in high-profile civil cases involving Donald Trump. While the executive power ruling signals a major shift in administrative law, the Court's simultaneous decision to uphold Mississippi's late mail-in ballot policy drew direct ire from the former president. These developments underscore the ongoing friction between the judiciary's legal interpretations and the political goals of the executive branch.",
-    "confidence": "High; reporting across sources is consistent regarding the outcomes of the legal cases, though the thematic framing and political interpretation differ significantly based on editorial bias.",
-    "sources": [
-      {
-        "id": "art_1782825919201_z8xq2",
-        "url": "https://www.foxnews.com/politics/gorsuch-suggests-supreme-courts-trump-ruling-opening-move-administrative-state",
-        "source": "fox",
-        "title": "Gorsuch suggests Supreme Court's Trump ruling is opening move against administrative state"
-      },
-      {
-        "id": "art_1782819011188_r52nj",
-        "url": "https://www.theguardian.com/us-news/2026/jun/30/first-thing-supreme-court-trump-fire-agency-chiefs-rules-against-him-mail-in-ballots",
-        "source": "guardian",
-        "title": "First Thing: Supreme court backs Trump’s ability to fire agency chiefs but rules against him on mail-in ballots"
-      },
-      {
-        "id": "art_1782819013354_rhoqq",
-        "url": "https://www.theguardian.com/us-news/live/2026/jun/30/birthright-citizenship-supreme-court-donald-trump-us-politics-latest-news",
-        "source": "guardian",
-        "title": "Anger at supreme court ruling on Trump’s power to fire agency chiefs – US politics live"
-      },
-      {
-        "id": "art_1782772665036_r6dg3",
-        "url": "https://www.foxnews.com/politics/trump-unloads-supreme-court-upholds-late-mail-in-ballots-mississippi",
-        "source": "fox",
-        "title": "Trump unloads after Supreme Court upholds late mail-in ballots in Mississippi"
-      },
-      {
-        "id": "art_1782772666080_vnoy6",
-        "url": "https://www.foxnews.com/politics/trump-says-he-continue-fight-after-supreme-court-declines-review-carroll-abuse-verdict",
-        "source": "fox",
-        "title": "Trump says he will 'continue the fight' after Supreme Court declines to review Carroll abuse verdict"
-      },
-      {
-        "id": "art_1782768327818_gyjyx",
-        "url": "https://www.foxnews.com/politics/alito-blasts-latest-scotus-ballot-ruling-invitation-voter-fraud-risks",
-        "source": "fox",
-        "title": "Alito blasts latest SCOTUS ballot ruling as invitation to ‘voter fraud’ risks"
-      },
-      {
-        "id": "art_1782754515071_o9cw0",
-        "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-trump-agency-firings-slaughter-ftc",
-        "source": "guardian",
-        "title": "Outcry over supreme court decision to grant Trump power to fire agency chiefs"
-      },
-      {
-        "id": "art_1782754519252_m859c",
-        "url": "https://www.aljazeera.com/economy/2026/6/29/supreme-court-blocks-trumps-bid-to-fire-us-federal-reserves-lisa-cook?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Supreme Court blocks Trump’s bid to fire US Federal Reserve’s Lisa Cook"
-      },
-      {
-        "id": "art_1782754520553_2dywi",
-        "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Supreme Court blocks Trump's attempt to fire Federal Reserve governor Lisa Cook"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
