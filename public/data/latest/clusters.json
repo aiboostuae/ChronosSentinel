@@ -1,5 +1,123 @@
 [
   {
+    "cluster_id": "ca0d9b4ed11ae6f37cd89d3f60831a69",
+    "topic_label": "US Supreme Court Rulings",
+    "event_window_start": "2026-06-30T22:27:24.000Z",
+    "event_window_end": "2026-07-01T05:01:32.000Z",
+    "article_ids": [
+      "art_1782887128084_8jcep",
+      "art_1782887136802_zarlx",
+      "art_1782861495536_2eqhw",
+      "art_1782861496594_it5wm"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-01T22:00:11.491Z",
+    "updated_at": "2026-07-01T22:00:11.491Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The US Supreme Court issued a 6-3 ruling on Tuesday.",
+      "The ruling has significant legal implications regarding citizenship and sports policy."
+    ],
+    "source_differences": [
+      "Al Jazeera frames the ruling specifically in the context of birthright citizenship and the MAGA movement's political response.",
+      "BBC emphasizes the ruling as a defeat for Donald Trump's policy agenda while noting the legislative hurdles for his proposed alternatives.",
+      "Fox News focuses entirely on a separate 6-3 Supreme Court ruling regarding transgender athletes, completely omitting the citizenship issue addressed by other sources."
+    ],
+    "synthesis": "The Supreme Court issued multiple 6-3 rulings on Tuesday that drew starkly different media coverage depending on the outlet's editorial focus. While international and neutral outlets concentrated on the rejection of restrictions on birthright citizenship, domestic conservative reporting highlighted a separate ruling upholding state-level bans on transgender athletes in women's sports. The discrepancy suggests a fragmented media landscape where outlets prioritize distinct political narratives.",
+    "confidence": "Inconsistent; the sources are describing two entirely different Supreme Court rulings, leading to a complete lack of overlap in subject matter between the provided texts.",
+    "sources": [
+      {
+        "id": "art_1782887128084_8jcep",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/why-is-maga-in-meltdown-over-the-supreme-court-birthright-ruling-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why is MAGA in meltdown over the Supreme Court birthright ruling?"
+      },
+      {
+        "id": "art_1782887136802_zarlx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/supreme-courts-divided-ruling-on-birthright-citizenship-may-be-revisited?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Supreme Court’s divided ruling on birthright citizenship may be revisited"
+      },
+      {
+        "id": "art_1782861495536_2eqhw",
+        "url": "https://www.bbc.co.uk/news/articles/c4gyqeqe8xyo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court has dealt heavy defeats to Trump, while expanding his power"
+      },
+      {
+        "id": "art_1782861496594_it5wm",
+        "url": "https://www.foxnews.com/sports/us-women-olympians-react-historic-supreme-court-ruling-protection-womens-sports",
+        "source": "fox",
+        "title": "US women Olympians react to historic Supreme Court ruling on the protection of women's sports"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8913253f67cd1e557c893997b713600f",
+    "topic_label": "Democratic Primary Election Results",
+    "event_window_start": "2026-07-01T04:05:03.000Z",
+    "event_window_end": "2026-07-01T04:32:35.000Z",
+    "article_ids": [
+      "art_1782887139054_7b4un",
+      "art_1782887140186_bk6th"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-01T13:19:16.581Z",
+    "updated_at": "2026-07-01T13:19:16.581Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Melat Kiros won the Democratic primary for Colorado's 1st congressional district.",
+      "Melat Kiros is 29 years old.",
+      "Diana DeGette was the incumbent representative for the district.",
+      "The Associated Press reported the election results.",
+      "The primary took place on a Tuesday.",
+      "The district is located in Denver and is considered a deep-blue seat.",
+      "Kiros is backed by or identifies with the Democratic Socialists of America (DSA)."
+    ],
+    "source_differences": [
+      "The Guardian frames the victory as part of a broader trend of insurgent left candidates defeating establishment Democrats, referencing recent New York primaries.",
+      "Fox News frames the result as the rise of socialism within the Democratic Party, featuring a transcript-style discussion segment that contrasts the 'East Coast' wins with the new Colorado result.",
+      "The Guardian explicitly identifies the defeated incumbent as a '15-term' representative, while Fox News identifies her as a '30-year' incumbent."
+    ],
+    "synthesis": "Melat Kiros, a DSA-backed challenger, successfully unseated long-term incumbent Diana DeGette in the Democratic primary for Colorado's 1st congressional district. The victory, reported by the Associated Press, is being interpreted by both outlets as a significant milestone for the socialist left following similar primary successes in New York. Kiros's nomination in the heavily Democratic district makes her the likely successor to the House seat.",
+    "confidence": "High; both sources consistently report the core outcome, candidate identities, and the political context of the race, differing only in stylistic framing and the descriptive metric used for the incumbent's tenure.",
+    "sources": [
+      {
+        "id": "art_1782887139054_7b4un",
+        "url": "https://www.theguardian.com/us-news/2026/jul/01/melat-kiros-democrat-defeats-diana-degette-blue-state-colarado-house-primary-denver",
+        "source": "guardian",
+        "title": "Democratic socialist Melat Kiros defeats 15-term incumbent in Colorado House primary"
+      },
+      {
+        "id": "art_1782887140186_bk6th",
+        "url": "https://www.foxnews.com/politics/socialism-goes-west-dsa-backed-challenger-ousts-longtime-democrat",
+        "source": "fox",
+        "title": "Socialism goes west as DSA-backed challenger ousts longtime Democrat"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "34a72cc50d7f35faa64e53a53341e4b6",
     "topic_label": "US Supreme Court Rulings",
     "event_window_start": "2026-06-30T21:24:15.000Z",
@@ -182,60 +300,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/1/worlds-oceans-experience-hottest-june-ever-scientists-say-more-heat-ahead?traffic_source=rss",
         "source": "aljazeera",
         "title": "World’s oceans experience hottest June ever, scientists say more heat ahead"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8913253f67cd1e557c893997b713600f",
-    "topic_label": "Democratic Primary Election Results",
-    "event_window_start": "2026-07-01T04:05:03.000Z",
-    "event_window_end": "2026-07-01T04:32:35.000Z",
-    "article_ids": [
-      "art_1782887139054_7b4un",
-      "art_1782887140186_bk6th"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-01T13:19:16.581Z",
-    "updated_at": "2026-07-01T13:19:16.581Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Melat Kiros won the Democratic primary for Colorado's 1st congressional district.",
-      "Melat Kiros is 29 years old.",
-      "Diana DeGette was the incumbent representative for the district.",
-      "The Associated Press reported the election results.",
-      "The primary took place on a Tuesday.",
-      "The district is located in Denver and is considered a deep-blue seat.",
-      "Kiros is backed by or identifies with the Democratic Socialists of America (DSA)."
-    ],
-    "source_differences": [
-      "The Guardian frames the victory as part of a broader trend of insurgent left candidates defeating establishment Democrats, referencing recent New York primaries.",
-      "Fox News frames the result as the rise of socialism within the Democratic Party, featuring a transcript-style discussion segment that contrasts the 'East Coast' wins with the new Colorado result.",
-      "The Guardian explicitly identifies the defeated incumbent as a '15-term' representative, while Fox News identifies her as a '30-year' incumbent."
-    ],
-    "synthesis": "Melat Kiros, a DSA-backed challenger, successfully unseated long-term incumbent Diana DeGette in the Democratic primary for Colorado's 1st congressional district. The victory, reported by the Associated Press, is being interpreted by both outlets as a significant milestone for the socialist left following similar primary successes in New York. Kiros's nomination in the heavily Democratic district makes her the likely successor to the House seat.",
-    "confidence": "High; both sources consistently report the core outcome, candidate identities, and the political context of the race, differing only in stylistic framing and the descriptive metric used for the incumbent's tenure.",
-    "sources": [
-      {
-        "id": "art_1782887139054_7b4un",
-        "url": "https://www.theguardian.com/us-news/2026/jul/01/melat-kiros-democrat-defeats-diana-degette-blue-state-colarado-house-primary-denver",
-        "source": "guardian",
-        "title": "Democratic socialist Melat Kiros defeats 15-term incumbent in Colorado House primary"
-      },
-      {
-        "id": "art_1782887140186_bk6th",
-        "url": "https://www.foxnews.com/politics/socialism-goes-west-dsa-backed-challenger-ousts-longtime-democrat",
-        "source": "fox",
-        "title": "Socialism goes west as DSA-backed challenger ousts longtime Democrat"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -3374,98 +3438,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cy4wwy0nkeno?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Supreme Court blocks Trump's attempt to fire Federal Reserve governor Lisa Cook"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8187ef074797d3b4fcee1a88ded55381",
-    "topic_label": "UK Politics and Defense",
-    "event_window_start": "2026-06-29T17:14:40.000Z",
-    "event_window_end": "2026-06-30T13:00:07.000Z",
-    "article_ids": [
-      "art_1782825920288_rrhpc",
-      "art_1782825933014_ss7s6",
-      "art_1782819019884_hxok2",
-      "art_1782808173266_3z2uk",
-      "art_1782772660837_i632m",
-      "art_1782768317967_xbe3k",
-      "art_1782762820811_w8wid",
-      "art_1782754513954_bzk4e"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 8,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T16:02:49.033Z",
-    "updated_at": "2026-06-30T16:02:49.033Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The UK government has unveiled a £15bn defence investment plan (DIP) after an 11-month delay.",
-      "Funding for the defence plan was secured by diverting resources from energy, transport, and housing projects.",
-      "The UK government faces internal and external pressure regarding national defence spending and the funding gap that led to the resignation of a previous defence secretary.",
-      "US military infrastructure in the UK is undergoing significant upgrades, including planned investment for nuclear weapons storage and intelligence facilities."
-    ],
-    "source_differences": [
-      "The Guardian pieces on Rosebank focus on the environmental and climate-change implications of North Sea drilling versus the economic/political discourse within the Labour party.",
-      "The reporting on defence spending contains nuanced contradictions regarding the specific origins of the £15bn, with some articles suggesting raids on infrastructure projects and others focusing on the efforts of specific individuals like Dan Jarvis to close the funding gap.",
-      "Some articles frame the US military expansion as a shift toward modernized, hybrid warfare and regional power projection, while others emphasize the controversial storage of nuclear materials in the UK."
-    ],
-    "synthesis": "The UK government is prioritizing a major £15bn defence investment plan by reallocating funds from domestic infrastructure and energy projects, despite significant political controversy and internal cabinet turnover. Simultaneously, the UK is facilitating a $4bn expansion of US military and intelligence capabilities, including infrastructure for nuclear weapons storage. These developments occur amid growing pressure for the prospective leadership to align national energy policy with environmental concerns, specifically regarding North Sea oil drilling.",
-    "confidence": "High; while the articles cover disparate topics (energy vs. defence), they provide a consistent, although fragmented, view of the current UK political administration's strategic priorities and internal challenges.",
-    "sources": [
-      {
-        "id": "art_1782825920288_rrhpc",
-        "url": "https://www.theguardian.com/environment/2026/jun/30/labour-mps-tell-burnham-ignore-deluded-calls-more-north-sea-drilling",
-        "source": "guardian",
-        "title": "Labour MPs tell Burnham to ignore ‘deluded’ calls for more North Sea drilling"
-      },
-      {
-        "id": "art_1782825933014_ss7s6",
-        "url": "https://www.theguardian.com/politics/2026/jun/30/defence-investment-plan-keir-starmer-labour",
-        "source": "guardian",
-        "title": "Starmer warns Burnham not to borrow to fund defence as he reveals £15bn plan"
-      },
-      {
-        "id": "art_1782819019884_hxok2",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/30/nuclear-weapons-storage-us-uk-airbases",
-        "source": "guardian",
-        "title": "Nuclear weapons storage in spotlight as US plans $4bn boost for its UK airbases"
-      },
-      {
-        "id": "art_1782808173266_3z2uk",
-        "url": "https://www.theguardian.com/politics/live/2026/jun/30/defence-investment-plan-keir-starmer-dan-jarvis-labour-andy-burnham-uk-politics-latest-news",
-        "source": "guardian",
-        "title": "Defence investment plan criticised as ‘too little, too late’ ahead of launch – UK politics live"
-      },
-      {
-        "id": "art_1782772660837_i632m",
-        "url": "https://www.theguardian.com/uk-news/2026/jun/29/new-defence-secretary-wins-another-15bn-to-boost-drone-spending",
-        "source": "guardian",
-        "title": "New defence secretary wins another £1.5bn to boost drone spending"
-      },
-      {
-        "id": "art_1782768317967_xbe3k",
-        "url": "https://www.theguardian.com/society/2026/jun/29/high-street-slot-machines-casinos-could-tax-rise-andy-burnham",
-        "source": "guardian",
-        "title": "High-street slot machines and casinos could face £460m tax rise under Burnham"
-      },
-      {
-        "id": "art_1782762820811_w8wid",
-        "url": "https://www.theguardian.com/politics/2026/jun/29/burnham-sets-out-vision-to-transform-britain-and-fix-broken-system",
-        "source": "guardian",
-        "title": "Burnham sets out vision to transform Britain and fix ‘broken’ system"
-      },
-      {
-        "id": "art_1782754513954_bzk4e",
-        "url": "https://www.theguardian.com/politics/2026/jun/29/nato-chief-confident-burnham-defence-spending",
-        "source": "guardian",
-        "title": "Nato chief says he is confident Burnham will stick to defence spending target"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
