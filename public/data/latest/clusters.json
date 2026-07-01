@@ -1,6 +1,6 @@
 [
   {
-    "cluster_id": "df6279e43bcba3ebaccd118e27945a20",
+    "cluster_id": "34a72cc50d7f35faa64e53a53341e4b6",
     "topic_label": "US Supreme Court Rulings",
     "event_window_start": "2026-06-30T21:24:15.000Z",
     "event_window_end": "2026-07-01T05:01:32.000Z",
@@ -9,34 +9,38 @@
       "art_1782887136802_zarlx",
       "art_1782861495536_2eqhw",
       "art_1782861496594_it5wm",
+      "art_1782856816306_lximx",
       "art_1782856818707_crf71",
       "art_1782856820785_dkmgm"
     ],
     "source_ids": [
       "aljazeera",
       "bbc",
-      "fox"
+      "fox",
+      "guardian"
     ],
-    "article_count": 6,
-    "source_count": 3,
+    "article_count": 7,
+    "source_count": 4,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-07-01T13:19:16.581Z",
-    "updated_at": "2026-07-01T13:19:16.581Z",
+    "created_at": "2026-07-01T16:05:32.015Z",
+    "updated_at": "2026-07-01T16:05:32.015Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "The US Supreme Court issued a 6-3 ruling on a Tuesday regarding a legal matter.",
-      "President Donald Trump opposed the legal principle at the center of the Court's ruling."
+      "The US Supreme Court issued rulings on a Tuesday.",
+      "The Supreme Court currently has a 6-3 conservative majority.",
+      "Multiple high-profile legal issues are being processed by the Supreme Court simultaneously."
     ],
     "source_differences": [
-      "Al Jazeera focuses on the legal implications of birthright citizenship and the potential for future constitutional challenges regarding the Fourteenth Amendment.",
-      "BBC emphasizes the political feasibility of Trump's legislative response, noting that Congress is unlikely to pass his proposed changes.",
-      "Fox News reports on an entirely different Supreme Court ruling concerning transgender sports bans, which is not mentioned by the other sources."
+      "Al Jazeera focuses on the political fallout of a birthright citizenship ruling.",
+      "BBC emphasizes the limited legislative prospects for overturning the court's birthright citizenship decision.",
+      "Fox focuses exclusively on a ruling regarding transgender athletes and women's sports, failing to mention the other legal cases reported.",
+      "The Guardian focuses on the court's decision to hear future challenges regarding assault-weapon bans."
     ],
-    "synthesis": "The Supreme Court issued a 6-3 decision affirming birthright citizenship by ruling that executive attempts to bypass the Fourteenth Amendment are unconstitutional. While President Trump has signaled his intent to pursue legislative action to challenge this precedent, analysts suggest such efforts face significant obstacles in Congress. Confusion exists in the provided data, as one source reports on a separate, unrelated 6-3 ruling concerning transgender sports participation.",
-    "confidence": "Low. The provided source material contains contradictory information, as 'Fox News' describes a ruling on a completely different topic (transgender sports) compared to the birthright citizenship issue reported by 'Al Jazeera' and 'BBC'.",
+    "synthesis": "The provided news sources cover disparate Supreme Court actions occurring within the same timeframe, leading to a fragmented picture of the court's docket. While some outlets focus on immigration and reproductive or gender-related policy, others highlight constitutional challenges regarding the Second Amendment. The reporting shows no evidence of a single unified 'ruling' being described, but rather a collection of simultaneous legal developments.",
+    "confidence": "Low consistency due to significant thematic variance and the likelihood that sources are describing different legal events occurring on the same day.",
     "sources": [
       {
         "id": "art_1782887128084_8jcep",
@@ -61,6 +65,12 @@
         "url": "https://www.foxnews.com/sports/us-women-olympians-react-historic-supreme-court-ruling-protection-womens-sports",
         "source": "fox",
         "title": "US women Olympians react to historic Supreme Court ruling on the protection of women's sports"
+      },
+      {
+        "id": "art_1782856816306_lximx",
+        "url": "https://www.theguardian.com/us-news/2026/jun/30/us-supreme-court-assault-weapons-bans",
+        "source": "guardian",
+        "title": "US supreme court agrees to hear challenges to assault-weapons bans"
       },
       {
         "id": "art_1782856818707_crf71",
@@ -183,53 +193,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "9c0bc32345baa9bba9b113e125c9bdce",
-    "topic_label": "International Terror Funding Investigations",
-    "event_window_start": "2026-06-30T21:18:40.000Z",
-    "event_window_end": "2026-06-30T22:41:00.000Z",
-    "article_ids": [
-      "art_1782861492273_1bd0g",
-      "art_1782856821831_51h16"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-01T13:19:16.581Z",
-    "updated_at": "2026-07-01T13:19:16.581Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Fox News is publishing exclusive reporting regarding federal investigations in the Southern District of New York.",
-      "Federal legal processes are currently active involving potential funding of extremist or foreign-linked entities."
-    ],
-    "source_differences": [
-      "The first article focuses on the arrest of an individual, Catherine Beth Washburn, regarding alleged support for the Palestinian Islamic Jihad.",
-      "The second article focuses on a broader GOP-supported federal investigation into the financial activities of Neville Roy Singham regarding alleged ties to the Chinese Communist Party."
-    ],
-    "synthesis": "Fox News has released two distinct reports detailing separate federal legal actions in the Southern District of New York. One report covers an individual arrest for alleged support of a Palestinian terrorist organization, while the other outlines a grand jury investigation into the financial network of Neville Roy Singham. Both pieces highlight the intersection of political advocacy groups and federal criminal oversight.",
-    "confidence": "Consistent; the articles report on two separate, non-contradictory news events handled by the same outlet.",
-    "sources": [
-      {
-        "id": "art_1782861492273_1bd0g",
-        "url": "https://www.foxnews.com/us/exclusive-new-york-woman-wished-every-day-oct-7-charged-funding-palestinian-terror-group",
-        "source": "fox",
-        "title": "EXCLUSIVE: New York woman who wished 'every day were Oct. 7' charged with funding Palestinian terror group"
-      },
-      {
-        "id": "art_1782856821831_51h16",
-        "url": "https://www.foxnews.com/politics/jim-banks-gop-lawmakers-rally-behind-doj-probe-alleged-ccp-linked-funding-network",
-        "source": "fox",
-        "title": "Jim Banks, GOP lawmakers rally behind DOJ probe into alleged CCP-linked funding network"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "c20a06705c4a008aab12de6ab8ab6303",
     "topic_label": "Global Environmental Issues",
     "event_window_start": "2026-07-01T04:38:43.000Z",
@@ -319,6 +282,131 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/emergency-crews-search-rubble-after-athens-building-collapse?traffic_source=rss",
         "source": "aljazeera",
         "title": "Emergency crews search rubble after Athens building collapse"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "df6279e43bcba3ebaccd118e27945a20",
+    "topic_label": "US Supreme Court Rulings",
+    "event_window_start": "2026-06-30T21:24:15.000Z",
+    "event_window_end": "2026-07-01T05:01:32.000Z",
+    "article_ids": [
+      "art_1782887128084_8jcep",
+      "art_1782887136802_zarlx",
+      "art_1782861495536_2eqhw",
+      "art_1782861496594_it5wm",
+      "art_1782856818707_crf71",
+      "art_1782856820785_dkmgm"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-01T13:19:16.581Z",
+    "updated_at": "2026-07-01T13:19:16.581Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The US Supreme Court issued a 6-3 ruling on a Tuesday regarding a legal matter.",
+      "President Donald Trump opposed the legal principle at the center of the Court's ruling."
+    ],
+    "source_differences": [
+      "Al Jazeera focuses on the legal implications of birthright citizenship and the potential for future constitutional challenges regarding the Fourteenth Amendment.",
+      "BBC emphasizes the political feasibility of Trump's legislative response, noting that Congress is unlikely to pass his proposed changes.",
+      "Fox News reports on an entirely different Supreme Court ruling concerning transgender sports bans, which is not mentioned by the other sources."
+    ],
+    "synthesis": "The Supreme Court issued a 6-3 decision affirming birthright citizenship by ruling that executive attempts to bypass the Fourteenth Amendment are unconstitutional. While President Trump has signaled his intent to pursue legislative action to challenge this precedent, analysts suggest such efforts face significant obstacles in Congress. Confusion exists in the provided data, as one source reports on a separate, unrelated 6-3 ruling concerning transgender sports participation.",
+    "confidence": "Low. The provided source material contains contradictory information, as 'Fox News' describes a ruling on a completely different topic (transgender sports) compared to the birthright citizenship issue reported by 'Al Jazeera' and 'BBC'.",
+    "sources": [
+      {
+        "id": "art_1782887128084_8jcep",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/why-is-maga-in-meltdown-over-the-supreme-court-birthright-ruling-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why is MAGA in meltdown over the Supreme Court birthright ruling?"
+      },
+      {
+        "id": "art_1782887136802_zarlx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/1/supreme-courts-divided-ruling-on-birthright-citizenship-may-be-revisited?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Supreme Court’s divided ruling on birthright citizenship may be revisited"
+      },
+      {
+        "id": "art_1782861495536_2eqhw",
+        "url": "https://www.bbc.co.uk/news/articles/c4gyqeqe8xyo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court has dealt heavy defeats to Trump, while expanding his power"
+      },
+      {
+        "id": "art_1782861496594_it5wm",
+        "url": "https://www.foxnews.com/sports/us-women-olympians-react-historic-supreme-court-ruling-protection-womens-sports",
+        "source": "fox",
+        "title": "US women Olympians react to historic Supreme Court ruling on the protection of women's sports"
+      },
+      {
+        "id": "art_1782856818707_crf71",
+        "url": "https://www.aljazeera.com/news/2026/6/30/what-is-birthright-citizenship-and-what-does-the-supreme-court-ruling-say?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What is birthright citizenship, and what does the Supreme Court ruling say?"
+      },
+      {
+        "id": "art_1782856820785_dkmgm",
+        "url": "https://www.bbc.co.uk/news/articles/cj40x888d9go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court upholds bans on transgender athletes in female school and college sports"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9c0bc32345baa9bba9b113e125c9bdce",
+    "topic_label": "International Terror Funding Investigations",
+    "event_window_start": "2026-06-30T21:18:40.000Z",
+    "event_window_end": "2026-06-30T22:41:00.000Z",
+    "article_ids": [
+      "art_1782861492273_1bd0g",
+      "art_1782856821831_51h16"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-01T13:19:16.581Z",
+    "updated_at": "2026-07-01T13:19:16.581Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Fox News is publishing exclusive reporting regarding federal investigations in the Southern District of New York.",
+      "Federal legal processes are currently active involving potential funding of extremist or foreign-linked entities."
+    ],
+    "source_differences": [
+      "The first article focuses on the arrest of an individual, Catherine Beth Washburn, regarding alleged support for the Palestinian Islamic Jihad.",
+      "The second article focuses on a broader GOP-supported federal investigation into the financial activities of Neville Roy Singham regarding alleged ties to the Chinese Communist Party."
+    ],
+    "synthesis": "Fox News has released two distinct reports detailing separate federal legal actions in the Southern District of New York. One report covers an individual arrest for alleged support of a Palestinian terrorist organization, while the other outlines a grand jury investigation into the financial network of Neville Roy Singham. Both pieces highlight the intersection of political advocacy groups and federal criminal oversight.",
+    "confidence": "Consistent; the articles report on two separate, non-contradictory news events handled by the same outlet.",
+    "sources": [
+      {
+        "id": "art_1782861492273_1bd0g",
+        "url": "https://www.foxnews.com/us/exclusive-new-york-woman-wished-every-day-oct-7-charged-funding-palestinian-terror-group",
+        "source": "fox",
+        "title": "EXCLUSIVE: New York woman who wished 'every day were Oct. 7' charged with funding Palestinian terror group"
+      },
+      {
+        "id": "art_1782856821831_51h16",
+        "url": "https://www.foxnews.com/politics/jim-banks-gop-lawmakers-rally-behind-doj-probe-alleged-ccp-linked-funding-network",
+        "source": "fox",
+        "title": "Jim Banks, GOP lawmakers rally behind DOJ probe into alleged CCP-linked funding network"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -3378,84 +3466,6 @@
         "url": "https://www.theguardian.com/politics/2026/jun/29/nato-chief-confident-burnham-defence-spending",
         "source": "guardian",
         "title": "Nato chief says he is confident Burnham will stick to defence spending target"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8445f4ba33eaab8ae3264561c432d0f9",
-    "topic_label": "World Cup Soccer Highlights",
-    "event_window_start": "2026-06-29T19:33:59.000Z",
-    "event_window_end": "2026-06-30T12:44:13.000Z",
-    "article_ids": [
-      "art_1782825925007_wrdvn",
-      "art_1782819010061_ii55j",
-      "art_1782794699941_fr8hb",
-      "art_1782794701009_aq6pv",
-      "art_1782794710782_aqdev",
-      "art_1782762822885_i3rg4"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T16:02:49.033Z",
-    "updated_at": "2026-06-30T16:02:49.033Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Morocco defeated the Netherlands in a penalty shootout after a 1-1 match draw on Monday.",
-      "Paraguay eliminated Germany from the World Cup after a 1-1 draw and a subsequent penalty shootout victory.",
-      "France is scheduled to play Sweden in the Round of 32 on Tuesday."
-    ],
-    "source_differences": [
-      "Fox identifies the Morocco vs. Netherlands match as a Round of 16 advancement, whereas Al Jazeera identifies it as a Round of 16 qualification (having just completed the Round of 32).",
-      "Fox attributes a goal to 'Issa Diop' for Morocco, which is consistent with Al Jazeera's reporting, but lacks the specific technical detail regarding the penalty shootout outcome provided by Al Jazeera.",
-      "Al Jazeera provides detailed context on the Paraguay vs. Germany match, including specific goal scorers and the manager's perspective, whereas Fox does not mention this match at all."
-    ],
-    "synthesis": "The World Cup knockout stages have seen significant upsets, with Morocco advancing past the Netherlands and Paraguay eliminating four-time champions Germany via penalty shootouts. Meanwhile, France prepares for a Round of 32 match against Sweden. These results reflect high volatility in the tournament with underdog nations overcoming traditional favorites.",
-    "confidence": "High, despite minor discrepancies in terminology regarding tournament rounds between sources.",
-    "sources": [
-      {
-        "id": "art_1782825925007_wrdvn",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/france-sweden-fifa-world-cup-round-of-32-prediction-schedule-lineups-mbappe-dembele?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "France vs Sweden: World Cup Round of 32 – Mbappe, prediction, team lineups"
-      },
-      {
-        "id": "art_1782819010061_ii55j",
-        "url": "https://www.foxnews.com/sports/morocco-sends-netherlands-home-dramatic-world-cup-knockout-penalties",
-        "source": "fox",
-        "title": "Morocco sends the Netherlands home with dramatic World Cup knockout in penalties"
-      },
-      {
-        "id": "art_1782794699941_fr8hb",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Morocco through to World Cup round of 16 with shootout win over Netherlands"
-      },
-      {
-        "id": "art_1782794701009_aq6pv",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/how-germany-were-handed-a-world-cup-humbling-and-what-it-means-to-paraguay?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How Germany were handed a World Cup humbling and what it means to Paraguay"
-      },
-      {
-        "id": "art_1782794710782_aqdev",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/paraguay-coach-salutes-extraordinary-world-cup-win-over-germany?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Paraguay coach salutes ‘extraordinary’ World Cup win over Germany"
-      },
-      {
-        "id": "art_1782762822885_i3rg4",
-        "url": "https://www.aljazeera.com/sports/2026/6/29/martinelli-scores-late-as-brazil-beat-japan-2-1-enter-world-cup-last-16?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
