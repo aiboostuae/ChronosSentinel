@@ -1,5 +1,103 @@
 [
   {
+    "cluster_id": "7f0d72c8eac7d0f423d523ac3ff925fa",
+    "topic_label": "Middle East Conflict and Gaza",
+    "event_window_start": "2026-07-02T04:59:55.000Z",
+    "event_window_end": "2026-07-02T05:17:25.000Z",
+    "article_ids": [
+      "art_1782971894628_qneov",
+      "art_1782971903185_ozt3c"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-02T08:48:31.261Z",
+    "updated_at": "2026-07-02T08:48:31.261Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The provided texts describe events occurring within the broader context of the conflict involving Israel, Iran, and Gaza.",
+      "The sources are unrelated in subject matter, with one focusing on global oil market fluctuations and the other on humanitarian issues in Gaza."
+    ],
+    "source_differences": [
+      "Al Jazeera focuses exclusively on international economic impacts and diplomatic negotiations regarding a conflict involving the US, Israel, and Iran.",
+      "BBC focuses exclusively on the individual human experience of a specific patient's death due to medical evacuation delays in Gaza.",
+      "The two sources describe entirely different events and have no shared subject matter to compare or contrast."
+    ],
+    "synthesis": "The provided articles cover distinct subjects: one reports on the decline of global oil prices following reports of diplomatic progress between the US and Iran, while the other profiles the humanitarian struggle of medical evacuation failures in Gaza. There is no thematic overlap between the two reports. Consequently, the information provided is disjointed and serves separate reporting purposes.",
+    "confidence": "Low-to-Moderate; the reporting does not contain contradictions, but the sources discuss entirely unrelated events, preventing a comprehensive synthesis of a single shared narrative.",
+    "sources": [
+      {
+        "id": "art_1782971894628_qneov",
+        "url": "https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Oil prices fall to levels not seen since start of US-Israel war on Iran"
+      },
+      {
+        "id": "art_1782971903185_ozt3c",
+        "url": "https://www.bbc.co.uk/news/articles/cn75ex1dv61o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'Two weeks after her death I got a call': Gaza patients face agonising delays for evacuation"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "de125c25da53689884f488f964f6d235",
+    "topic_label": "Russia-Ukraine War Developments",
+    "event_window_start": "2026-07-02T03:31:32.000Z",
+    "event_window_end": "2026-07-02T05:00:57.000Z",
+    "article_ids": [
+      "art_1782971895842_ys8fu",
+      "art_1782971909887_buhs0"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-02T08:48:31.261Z",
+    "updated_at": "2026-07-02T08:48:31.261Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The ongoing Russia-Ukraine conflict involves attacks on critical energy infrastructure",
+      "Ukraine is a central party in kinetic and sabotage events discussed in the reports"
+    ],
+    "source_differences": [
+      "The BBC report focuses on a specific, recent drone and missile strike in Kyiv resulting in civilian casualties.",
+      "The Al Jazeera report focuses on legal developments regarding the 2022 Nord Stream pipeline sabotage and the indictment of a Ukrainian national.",
+      "The sources cover entirely different geographic events and distinct timelines within the broader conflict."
+    ],
+    "synthesis": "The provided articles describe two distinct aspects of the Russia-Ukraine conflict: a contemporary military escalation involving civilian casualties in Kyiv and a separate legal development concerning the 2022 sabotage of the Nord Stream pipelines. While both highlight the targeting of energy infrastructure, they address unrelated incidents. No synthesis of a single event is possible given the disparate subject matter.",
+    "confidence": "Consistent reporting; no contradictions are present because the articles cover entirely different events.",
+    "sources": [
+      {
+        "id": "art_1782971895842_ys8fu",
+        "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 10 killed in large-scale Russian missile and drone strikes on Kyiv"
+      },
+      {
+        "id": "art_1782971909887_buhs0",
+        "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "German prosecutors charge Ukrainian suspect over Nord Stream explosions"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "5139380d1245eb60244d7fa70ad605f4",
     "topic_label": "Empire State Building Stunt",
     "event_window_start": "2026-07-01T23:03:58.000Z",
@@ -3151,161 +3249,6 @@
         "url": "https://www.foxnews.com/politics/alito-blasts-latest-scotus-ballot-ruling-invitation-voter-fraud-risks",
         "source": "fox",
         "title": "Alito blasts latest SCOTUS ballot ruling as invitation to ‘voter fraud’ risks"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "82d8f26b1b2bd051c47cb8b51279fb7f",
-    "topic_label": "International World Cup Coverage",
-    "event_window_start": "2026-06-29T19:33:59.000Z",
-    "event_window_end": "2026-06-30T13:00:03.000Z",
-    "article_ids": [
-      "art_1782825921339_ymtf9",
-      "art_1782825925007_wrdvn",
-      "art_1782825931855_l9zms",
-      "art_1782819010061_ii55j",
-      "art_1782808177473_gn9mv",
-      "art_1782794699941_fr8hb",
-      "art_1782794701009_aq6pv",
-      "art_1782794710782_aqdev",
-      "art_1782762822885_i3rg4"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T18:20:04.082Z",
-    "updated_at": "2026-06-30T18:20:04.082Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The 2026 FIFA World Cup is currently taking place in North America.",
-      "The tournament is generating significant social and media discourse.",
-      "Matches involving various national teams are occurring in multiple host cities."
-    ],
-    "source_differences": [
-      "Fox News frames the event through a domestic socio-political lens, focusing on American exceptionalism and a critique of international media perceptions.",
-      "Al Jazeera focuses on technical match reporting, tournament logistics, and critical analysis of systemic biases and double standards in international sports journalism.",
-      "Fox provides anecdotal commentary on visitor experiences, whereas Al Jazeera reports on specific match-ups and cultural inclusivity at local community centers."
-    ],
-    "synthesis": "The 2026 FIFA World Cup is serving as a dual platform for both intense athletic competition and significant geopolitical narrative-building. While sports outlets provide logistical coverage and match analysis, various media organizations are utilizing the tournament to project conflicting cultural values and critique international journalistic standards. The event effectively acts as a mirror for existing societal divisions rather than a purely apolitical sporting environment.",
-    "confidence": "Consistent regarding the occurrence of the tournament; however, the reports contain high degrees of ideological divergence in framing, leading to contradictory portrayals of the event's social impact.",
-    "sources": [
-      {
-        "id": "art_1782825921339_ymtf9",
-        "url": "https://www.foxnews.com/opinion/world-cup-soccer-fans-discovering-americas-greatness-time-americans-did-too",
-        "source": "fox",
-        "title": "World Cup soccer fans are discovering America’s greatness. It’s time Americans did, too"
-      },
-      {
-        "id": "art_1782825925007_wrdvn",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/france-sweden-fifa-world-cup-round-of-32-prediction-schedule-lineups-mbappe-dembele?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "France vs Sweden: World Cup Round of 32 – Mbappe, prediction, team lineups"
-      },
-      {
-        "id": "art_1782825931855_l9zms",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/islamic-centre-brings-joy-through-world-cup-watch-parties?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Islamic centre brings joy through World Cup watch parties"
-      },
-      {
-        "id": "art_1782819010061_ii55j",
-        "url": "https://www.foxnews.com/sports/morocco-sends-netherlands-home-dramatic-world-cup-knockout-penalties",
-        "source": "fox",
-        "title": "Morocco sends the Netherlands home with dramatic World Cup knockout in penalties"
-      },
-      {
-        "id": "art_1782808177473_gn9mv",
-        "url": "https://www.aljazeera.com/opinions/2026/6/30/at-the-world-cup-the-media-has-set-up-a-moral-checkpoint?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At the World Cup, the media has set up a moral checkpoint"
-      },
-      {
-        "id": "art_1782794699941_fr8hb",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/morocco-netherlands-world-cup-knockout-penalty-shootout-saibari-diop-gakpo?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Morocco through to World Cup round of 16 with shootout win over Netherlands"
-      },
-      {
-        "id": "art_1782794701009_aq6pv",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/how-germany-were-handed-a-world-cup-humbling-and-what-it-means-to-paraguay?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How Germany were handed a World Cup humbling and what it means to Paraguay"
-      },
-      {
-        "id": "art_1782794710782_aqdev",
-        "url": "https://www.aljazeera.com/sports/2026/6/30/paraguay-coach-salutes-extraordinary-world-cup-win-over-germany?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Paraguay coach salutes ‘extraordinary’ World Cup win over Germany"
-      },
-      {
-        "id": "art_1782762822885_i3rg4",
-        "url": "https://www.aljazeera.com/sports/2026/6/29/martinelli-scores-late-as-brazil-beat-japan-2-1-enter-world-cup-last-16?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Martinelli scores late as Brazil beat Japan 2-1, enter World Cup last 16"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1701095c5c767b875b7e577cd0a107d1",
-    "topic_label": "Extreme Weather and Heatwaves",
-    "event_window_start": "2026-06-29T19:30:28.000Z",
-    "event_window_end": "2026-06-30T08:00:53.000Z",
-    "article_ids": [
-      "art_1782808174315_c0j56",
-      "art_1782808183896_6nqhr",
-      "art_1782762823909_1p75e"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-06-30T18:20:04.082Z",
-    "updated_at": "2026-06-30T18:20:04.082Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A record-breaking heatwave is currently affecting multiple regions across Europe.",
-      "Several European nations have issued red weather alerts due to extreme temperatures.",
-      "The heatwave is causing significant disruptions to daily life and public safety concerns."
-    ],
-    "source_differences": [
-      "The Guardian focuses on individual experiences, health risks to vulnerable populations, and long-term environmental reporting.",
-      "Al Jazeera emphasizes the immediate toll on public safety, including reported fatalities and the specific impact on wildfire activity in Italy and the Balkans."
-    ],
-    "synthesis": "A severe and record-breaking heatwave is impacting large swaths of Europe, triggering red weather alerts and causing widespread disruption. While news outlets differ in their thematic focus—ranging from personal health impacts and urban cooling challenges to infrastructure threats and wildfire management—all sources confirm the unprecedented nature of the current extreme temperatures.",
-    "confidence": "High; reporting is consistent across sources regarding the severity and geographic reach of the heatwave, with variations in content attributable to differing editorial focuses rather than factual contradictions.",
-    "sources": [
-      {
-        "id": "art_1782808174315_c0j56",
-        "url": "https://www.theguardian.com/community/live/2026/jun/30/reader-qa-ask-ajit-niranjan-anything-about-europes-hellish-week-of-heat",
-        "source": "guardian",
-        "title": "Reader Q&A: ask Ajit Niranjan anything about Europe’s hellish week of heat"
-      },
-      {
-        "id": "art_1782808183896_6nqhr",
-        "url": "https://www.theguardian.com/environment/2026/jun/30/how-i-survived-record-paris-heatwave-while-seven-months-pregnant",
-        "source": "guardian",
-        "title": "How I survived the record Paris heatwave while seven months pregnant"
-      },
-      {
-        "id": "art_1782762823909_1p75e",
-        "url": "https://www.aljazeera.com/news/2026/6/29/deadly-heatwave-grips-italy-and-balkans-as-wildfire-fears-grow?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Deadly heatwave grips Italy and Balkans as wildfire fears grow"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
