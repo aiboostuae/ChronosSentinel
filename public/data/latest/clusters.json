@@ -1,5 +1,559 @@
 [
   {
+    "cluster_id": "b68e978c6097d828cfa65edfc92c908b",
+    "topic_label": "Iran Funeral of Supreme Leader",
+    "event_window_start": "2026-07-03T04:18:04.000Z",
+    "event_window_end": "2026-07-03T10:29:51.000Z",
+    "article_ids": [
+      "art_1783078324645_clgf1",
+      "art_1783067721732_rukh0",
+      "art_1783055639626_22dz0",
+      "art_1783055640685_4hjs5"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Ali Khamenei was the Supreme Leader of Iran.",
+      "Khamenei died on February 28 following a joint US-Israeli air strike.",
+      "Funeral ceremonies involve multi-day processions across Iran.",
+      "The burial site for Khamenei is designated in Mashhad.",
+      "Funeral events have been subject to delays since the initial death."
+    ],
+    "source_differences": [
+      "The Guardian reports a six-day duration for the funeral starting on Saturday, whereas Al Jazeera reports a seven-day duration starting on Friday.",
+      "The Guardian frames the event as a display of national power and social cohesion, while Al Jazeera emphasizes the geopolitical implications through the attendance of world leaders.",
+      "The Guardian mentions the burial concludes on Thursday, while Al Jazeera specifies a burial date of July 9."
+    ],
+    "synthesis": "Iran is conducting extensive funeral processions for former Supreme Leader Ali Khamenei, who was killed in a joint US-Israeli strike on February 28. Although details regarding the exact duration and start date vary between sources, the ceremonies are intended to serve as a significant display of national resilience. The burial, originally postponed due to ongoing conflict, is now being finalized in Mashhad.",
+    "confidence": "Low. There are significant discrepancies regarding the timeline and duration of the funeral proceedings between the provided sources.",
+    "sources": [
+      {
+        "id": "art_1783078324645_clgf1",
+        "url": "https://www.theguardian.com/us-news/2026/jul/03/first-thing-iran-defiance-six-day-funeral-supreme-leader",
+        "source": "guardian",
+        "title": "First Thing: Iran to show defiance in six-day funeral for supreme leader"
+      },
+      {
+        "id": "art_1783067721732_rukh0",
+        "url": "https://www.aljazeera.com/news/2026/7/3/irans-khamenei-funeral-which-world-leaders-are-attending?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran’s Khamenei funeral: Which world leaders are attending?"
+      },
+      {
+        "id": "art_1783055639626_22dz0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/khameneis-coffin-readied-as-iran-prepares-for-seven-day-funeral?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Khamenei’s coffin readied as Iran prepares for seven-day funeral"
+      },
+      {
+        "id": "art_1783055640685_4hjs5",
+        "url": "https://www.aljazeera.com/news/2026/7/3/mapping-irans-ali-khamenei-funeral-where-mourners-will-gather-each-day?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Mapping Iran’s Ali Khamenei funeral: Where mourners will gather each day"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "487399d12dd7c2965f9f8d898ddd6b1d",
+    "topic_label": "Venezuela Quake Disaster Relief",
+    "event_window_start": "2026-07-02T13:50:28.000Z",
+    "event_window_end": "2026-07-03T11:08:44.000Z",
+    "article_ids": [
+      "art_1783078313324_hh6zu",
+      "art_1783041062692_x7qft",
+      "art_1783000396287_v19rt"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Twin earthquakes struck Venezuela's northern coast.",
+      "La Guaira state sustained significant damage.",
+      "International relief and rescue efforts are ongoing."
+    ],
+    "source_differences": [
+      "The Guardian focuses on the humanitarian impact and individual volunteer efforts.",
+      "Al Jazeera emphasizes the logistical shift toward long-term aid distribution and UN-coordinated international support.",
+      "The BBC provides specific casualty figures (2,300 dead) and details a specific successful rescue operation involving Hernán Gil."
+    ],
+    "synthesis": "Following twin earthquakes in Venezuela, extensive international rescue and relief operations are underway in the heavily impacted La Guaira region. While search teams continue to recover survivors after more than a week, aid agencies are simultaneously transitioning to provide sustained support for the thousands of displaced residents. Reported casualty figures remain severe, with tens of thousands of individuals still listed as missing.",
+    "confidence": "Consistent; the reports complement each other by covering different facets of the same event without major factual contradictions.",
+    "sources": [
+      {
+        "id": "art_1783078313324_hh6zu",
+        "url": "https://www.theguardian.com/world/ng-interactive/2026/jul/03/international-rescuers-venezuela-earthquake-hellscape",
+        "source": "guardian",
+        "title": "‘I can only describe it as a war zone’: the rescuers navigating Venezuela’s post-quake hellscape"
+      },
+      {
+        "id": "art_1783041062692_x7qft",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/relief-efforts-shift-as-venezuela-quake-survivors-seek-aid?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Relief efforts shift as Venezuela quake survivors seek aid"
+      },
+      {
+        "id": "art_1783000396287_v19rt",
+        "url": "https://www.bbc.co.uk/news/articles/ce375v12z0qo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Venezuela quake survivor pulled out alive after eight days"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e5213e67ee155f5a63094d86b62794ef",
+    "topic_label": "Global Heatwave and Impacts",
+    "event_window_start": "2026-07-02T13:11:38.000Z",
+    "event_window_end": "2026-07-03T07:01:21.000Z",
+    "article_ids": [
+      "art_1783067729009_p7aak",
+      "art_1783022649419_3lrp5",
+      "art_1783016066037_leof1",
+      "art_1783000397448_3mhk1",
+      "art_1783000410682_mk6re"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A significant heatwave is currently impacting parts of North America and Europe.",
+      "The extreme temperatures are creating health risks and logistical challenges for public events and large gatherings.",
+      "High demand for cooling equipment, such as air conditioners and fans, has led to intense retail activity in France.",
+      "Independence Day celebrations in the United States coincide with the period of extreme heat."
+    ],
+    "source_differences": [
+      "The Guardian focuses on the causal link between extreme weather and climate change while citing specific research institutions.",
+      "Al Jazeera emphasizes the civil disruption caused by retail competition for cooling appliances and specific regional health warnings.",
+      "Fox News frames the heatwave primarily through a commercial lens, offering promotional links for cooling gear and patriotic merchandise related to the US 250th anniversary."
+    ],
+    "synthesis": "An intense, multi-regional heatwave is posing significant safety and logistical challenges to both public infrastructure and upcoming large-scale events, including the FIFA World Cup and Independence Day festivities. While meteorological agencies and climate researchers link the phenomenon to long-term atmospheric shifts, the immediate societal response includes public health warnings and instances of retail-based civil unrest. Market participants are simultaneously leveraging the event to drive consumer interest in survival and cooling-related merchandise.",
+    "confidence": "Consistent reporting on the existence of the heatwave and its immediate impacts, though narratives diverge significantly between climate analysis, public safety reporting, and commercial interest.",
+    "sources": [
+      {
+        "id": "art_1783067729009_p7aak",
+        "url": "https://www.theguardian.com/us-news/2026/jul/03/heatwave-world-cup-250th-anniversary",
+        "source": "guardian",
+        "title": "US heatwave threatens 250th anniversary events and World Cup"
+      },
+      {
+        "id": "art_1783022649419_3lrp5",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/supermarket-chaos-for-air-conditioner-sale-in-france-amid-heatwave?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Supermarket chaos for air conditioner sale in France amid heatwave"
+      },
+      {
+        "id": "art_1783016066037_leof1",
+        "url": "https://www.aljazeera.com/news/2026/7/2/how-the-north-american-heatwave-could-impact-the-fifa-world-cup?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How the North American heatwave could impact the FIFA World Cup"
+      },
+      {
+        "id": "art_1783000397448_3mhk1",
+        "url": "https://www.theguardian.com/environment/2026/jul/02/spain-france-new-heatwave-warning",
+        "source": "guardian",
+        "title": "Spain and France face more heat after scorching June caused 2,000 deaths"
+      },
+      {
+        "id": "art_1783000410682_mk6re",
+        "url": "https://www.foxnews.com/deals/fox-news-deals-fourth-of-july",
+        "source": "fox",
+        "title": "FOX News Deals Newsletter: Celebrate America 250 and save on heatwave survival gear"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e768d13007386d1a4b5f775071cd7ab0",
+    "topic_label": "FIFA World Cup Coverage",
+    "event_window_start": "2026-07-02T15:23:50.000Z",
+    "event_window_end": "2026-07-03T11:09:35.000Z",
+    "article_ids": [
+      "art_1783078311162_qr3x7",
+      "art_1783067719684_pmn7v",
+      "art_1783067720707_wqihq",
+      "art_1783067725886_8j826",
+      "art_1783055638506_2816j",
+      "art_1783041068253_zp1iw",
+      "art_1783033407695_70ap4",
+      "art_1783033417552_x8842",
+      "art_1783022645237_411xw",
+      "art_1783016072727_zhgxi",
+      "art_1783008363463_pqp8j"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 11,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The 2026 FIFA World Cup is currently taking place.",
+      "The tournament has generated significant fan engagement and cultural phenomena globally.",
+      "Argentina is participating in the tournament and is considered a top contender."
+    ],
+    "source_differences": [
+      "Al Jazeera focuses on specific match previews, fan gatherings in Miami and Toronto, and community cultural celebrations in New York.",
+      "The Guardian focuses on the viral 'Viking row' fan trend originating from Norwegian supporters across diverse locations."
+    ],
+    "synthesis": "The 2026 FIFA World Cup is driving diverse expressions of national identity and fan fervor, ranging from local community gatherings and high-stakes match anticipation to viral, widespread social trends like the Norwegian 'Viking row.' Reporting indicates that the tournament has effectively galvanized international interest both on the pitch and within diaspora communities. The event remains a significant cultural and sporting focal point, with particular emphasis on individual star performances and grassroots fan engagement.",
+    "confidence": "Consistent. The articles describe different aspects of the same event without factual contradiction.",
+    "sources": [
+      {
+        "id": "art_1783078311162_qr3x7",
+        "url": "https://www.aljazeera.com/sports/2026/7/3/argentina-fans-revel-in-messis-miami-homecoming-before-cape-verde-match?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Argentina fans revel in Messi’s Miami homecoming before Cape Verde match"
+      },
+      {
+        "id": "art_1783067719684_pmn7v",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/hundreds-of-fans-cheer-portugals-win-at-star-teams-residence-in-toronto?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hundreds of fans cheer Portugal’s win at star team’s residence in Toronto"
+      },
+      {
+        "id": "art_1783067720707_wqihq",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/how-new-yorks-little-egypt-celebrates-the-world-cup?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How New York’s ‘Little Egypt’ celebrates the World Cup"
+      },
+      {
+        "id": "art_1783067725886_8j826",
+        "url": "https://www.aljazeera.com/sports/2026/7/3/argentina-vs-cape-verde-world-cup-round-of-32-messi-vozinha-prediction-kickoff?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Argentina vs Cape Verde: World Cup Round of 32: Messi, prediction, kickoff"
+      },
+      {
+        "id": "art_1783055638506_2816j",
+        "url": "https://www.theguardian.com/world/2026/jul/03/norway-fans-viking-row-world-cup",
+        "source": "guardian",
+        "title": "‘Bigger than football’: Norway fans’ Viking row makes waves at World Cup"
+      },
+      {
+        "id": "art_1783041068253_zp1iw",
+        "url": "https://www.foxnews.com/sports/united-states-bosnia-herzegovina-world-cup-match-delivers-massive-tv-ratings",
+        "source": "fox",
+        "title": "United States-Bosnia and Herzegovina World Cup match delivers massive TV ratings"
+      },
+      {
+        "id": "art_1783033407695_70ap4",
+        "url": "https://www.aljazeera.com/sports/2026/7/2/senegals-world-cup-agony-nation-left-rueing-last-gasp-collapse?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Senegal’s World Cup agony: Nation left rueing last-gasp collapse"
+      },
+      {
+        "id": "art_1783033417552_x8842",
+        "url": "https://www.aljazeera.com/sports/2026/7/2/oyarzabal-scores-two-goals-as-spain-dominates-austria-in-world-cup-knockout?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout"
+      },
+      {
+        "id": "art_1783022645237_411xw",
+        "url": "https://www.foxnews.com/outkick-sports/world-cup-fever-takes-off-fans-launch-reporter-air-johnny-manziel-goes-nuts-viral-cat-lady-id",
+        "source": "fox",
+        "title": "World Cup fever takes off as fans launch reporter into air, Johnny Manziel goes nuts & viral cat lady ID'd"
+      },
+      {
+        "id": "art_1783016072727_zhgxi",
+        "url": "https://www.aljazeera.com/opinions/2026/7/2/amid-the-world-cup-the-new-pan-africanism-is-conditional?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Amid the World Cup, the new pan-Africanism is conditional"
+      },
+      {
+        "id": "art_1783008363463_pqp8j",
+        "url": "https://www.aljazeera.com/economy/2026/7/2/us-job-growth-slows-in-june-hospitality-sheds-roles-despite-world-cup?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US job growth slows in June; hospitality sheds roles despite World Cup"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "91c7d979b95c8f7a91449199c19aa645",
+    "topic_label": "US Political Controversies",
+    "event_window_start": "2026-07-02T19:47:31.000Z",
+    "event_window_end": "2026-07-03T08:00:48.000Z",
+    "article_ids": [
+      "art_1783067723837_quab6",
+      "art_1783067724861_2o29p",
+      "art_1783033406625_hwoey",
+      "art_1783033414055_aoah4",
+      "art_1783022644207_ed9j6"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The provided text contains multiple disparate news reports regarding different events.",
+      "One report discusses a Supreme Court decision regarding birthright citizenship.",
+      "Another report details a military strike in Belgorod, Russia.",
+      "A separate report covers Riley Gaines and a Title IX Supreme Court ruling.",
+      "A final report covers Sen. Ed Markey's proposal to expand the Supreme Court."
+    ],
+    "source_differences": [
+      "Fox News provides multiple articles focused on US domestic politics and judicial branch activities, often framing these issues through partisan lenses.",
+      "Al Jazeera provides a single, isolated report on an international military conflict in Belgorod, contrasting with the focus on US internal policy found in the other provided articles."
+    ],
+    "synthesis": "The provided intelligence materials do not cover a single event but rather a collection of distinct domestic and international news items. The reports collectively highlight political polarization in the United States regarding judicial rulings and legislative tactics, alongside a singular report concerning an active conflict zone in Russia. There is no intersection in content between the provided sources.",
+    "confidence": "Consistent reporting within individual topics, but the aggregate data set is disjointed and covers unrelated geopolitical and domestic issues.",
+    "sources": [
+      {
+        "id": "art_1783067723837_quab6",
+        "url": "https://www.foxnews.com/politics/watch-supreme-court-birthright-citizenship-decision-strikes-divide-lawmakers",
+        "source": "fox",
+        "title": "WATCH: Controversial SCOTUS decision strikes a divide among lawmakers"
+      },
+      {
+        "id": "art_1783067724861_2o29p",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/ukraine-strike-hits-belgorod-causing-fire-and-power-outages?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukraine strike hits Belgorod, causing fire and power outages"
+      },
+      {
+        "id": "art_1783033406625_hwoey",
+        "url": "https://www.foxnews.com/outkick-sports/riley-gaines-womens-sports-activists-honest-reactions-emotions-scotus-title-ix-ruling",
+        "source": "fox",
+        "title": "Riley Gaines and women's sports activists share honest reactions, emotions to SCOTUS Title IX ruling"
+      },
+      {
+        "id": "art_1783033414055_aoah4",
+        "url": "https://www.foxnews.com/media/democratic-senator-claims-gop-stole-two-scotus-seats-2016-2020-calls-expansion",
+        "source": "fox",
+        "title": "Democratic senator claims GOP 'stole' two SCOTUS seats in 2016, 2020, calls for expansion"
+      },
+      {
+        "id": "art_1783022644207_ed9j6",
+        "url": "https://www.foxnews.com/politics/trumps-hero-justice-offers-roadmap-supreme-court-rejects-birthright-order",
+        "source": "fox",
+        "title": "Trump's 'hero' justice offers roadmap after Supreme Court rejects birthright order"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b2afea5ccbd2bf099458b3ecfa4e1d72",
+    "topic_label": "UK Politics Andy Burnham",
+    "event_window_start": "2026-07-02T18:01:27.000Z",
+    "event_window_end": "2026-07-03T08:12:24.000Z",
+    "article_ids": [
+      "art_1783067718643_24psy",
+      "art_1783067732193_yfp62",
+      "art_1783028719791_4tw7q",
+      "art_1783022648394_ulvne",
+      "art_1783016063853_6prvs"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Andy Burnham is the lead contender to succeed Keir Starmer as Labour leader and Prime Minister.",
+      "Burnham held an interview with LBC’s Andrew Marr to discuss his policy priorities.",
+      "Burnham has stated he intends to stick to the 2024 Labour manifesto promises regarding income tax, VAT, and national insurance.",
+      "Burnham has expressed openness to adjusting other taxes, such as business rates, to support high street businesses."
+    ],
+    "source_differences": [
+      "The Guardian focuses on domestic economic policy, fiscal constraints, and the internal political optics of Burnham's unopposed leadership bid.",
+      "Al Jazeera emphasizes Burnham's specific commitment to funding the UK defence investment plan in response to a projected funding gap."
+    ],
+    "synthesis": "Andy Burnham, the presumptive successor to Keir Starmer, has signaled a focus on economic revitalization and addressing cost-of-living concerns while maintaining the party's core tax pledges. Although he faces internal criticism regarding the democratic process of his unopposed leadership transition, he has committed to addressing fiscal challenges, including the funding of national defence plans. His proposed policy platform balances adherence to existing Labour manifesto constraints with potential adjustments to business rates and other non-protected tax areas.",
+    "confidence": "Consistent. The reports from different outlets are complementary rather than contradictory, focusing on different thematic aspects of the same subject's public statements.",
+    "sources": [
+      {
+        "id": "art_1783067718643_24psy",
+        "url": "https://www.theguardian.com/politics/live/2026/jul/03/andy-burnham-says-labour-manifesto-has-room-for-movement-on-tax-uk-politics-live",
+        "source": "guardian",
+        "title": "Andy Burnham says Labour manifesto has room for ‘movement on tax’ – UK politics live"
+      },
+      {
+        "id": "art_1783067732193_yfp62",
+        "url": "https://www.theguardian.com/business/2026/jul/03/burnham-funding-gap-uk-finances-pm-in-waiting",
+        "source": "guardian",
+        "title": "Burnham’s funding gap: what state are UK finances in for the PM-in-waiting?"
+      },
+      {
+        "id": "art_1783028719791_4tw7q",
+        "url": "https://www.aljazeera.com/news/2026/7/2/uks-likely-next-leader-andy-burnham-vows-to-fully-fund-defence-plans?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK’s likely next leader Andy Burnham vows to fully fund defence plans"
+      },
+      {
+        "id": "art_1783022648394_ulvne",
+        "url": "https://www.theguardian.com/politics/2026/jul/02/burnham-promises-to-ease-cost-of-living-pressures-if-he-becomes-prime-minister",
+        "source": "guardian",
+        "title": "Burnham promises to ease cost of living pressures if he becomes prime minister"
+      },
+      {
+        "id": "art_1783016063853_6prvs",
+        "url": "https://www.theguardian.com/politics/2026/jul/02/labour-mps-nec-andy-burnham-leadership-contest-no-10",
+        "source": "guardian",
+        "title": "MPs warn Labour’s ruling body to quell fears over Burnham’s one-sided race to No 10"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "28fceb54ad28dad4feb4ad9367510423",
+    "topic_label": "Vatican Excommunicates Splinter Sect",
+    "event_window_start": "2026-07-02T15:44:45.000Z",
+    "event_window_end": "2026-07-02T15:54:48.000Z",
+    "article_ids": [
+      "art_1783008352710_v4mu7",
+      "art_1783008357217_au97r"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-02T19:17:35.650Z",
+    "updated_at": "2026-07-02T19:17:35.650Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Vatican has declared the Society of St Pius X (SSPX) to be in schism.",
+      "The SSPX consecrated four bishops without papal approval.",
+      "Pope Leo XIV issued instructions against these consecrations.",
+      "The Vatican has issued excommunications affecting the bishops and lay members of the group."
+    ],
+    "source_differences": [
+      "Al Jazeera focuses on the theological definition and implications of a 'schism' while omitting specific membership numbers.",
+      "BBC provides specific estimates of membership, citing over half a million followers affected by the decree.",
+      "BBC notes a reconciliation path for members wishing to return to the Church, which is not mentioned in the provided Al Jazeera text."
+    ],
+    "synthesis": "The Vatican has formally excommunicated the Society of St Pius X and its lay members following the unauthorized consecration of four bishops in defiance of Pope Leo XIV. This move labels the traditionalist group as schismatic, though the Vatican has expressed willingness to reintegrate those who depart the movement. The situation marks a significant formal break between the Swiss-based sect and the Roman Catholic Church hierarchy.",
+    "confidence": "High; sources are consistent regarding the core event and the resulting canonical penalties, differing only in quantitative detail and procedural context.",
+    "sources": [
+      {
+        "id": "art_1783008352710_v4mu7",
+        "url": "https://www.aljazeera.com/news/2026/7/2/what-is-the-society-of-st-pius-x-why-pope-leo-excommunicated-its-bishops?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What is the Society of St Pius X? Why Pope Leo excommunicated its bishops"
+      },
+      {
+        "id": "art_1783008357217_au97r",
+        "url": "https://www.bbc.co.uk/news/articles/c5yz95188jjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Vatican excommunicates hundreds of thousands of splinter sect followers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "45c3c420856be3567b0ab125c87f5b24",
+    "topic_label": "Thailand Monk Truck Accident",
+    "event_window_start": "2026-07-02T13:10:07.000Z",
+    "event_window_end": "2026-07-02T19:31:48.000Z",
+    "article_ids": [
+      "art_1783022651503_lobbn",
+      "art_1783000411805_h6ceq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-03T12:07:20.469Z",
+    "updated_at": "2026-07-03T12:07:20.469Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An 11-year-old boy drove his parents' truck into a Buddhist pilgrimage procession in northeastern Thailand.",
+      "The incident resulted in at least nine deaths among the monks.",
+      "More than 20 people were injured.",
+      "The boy took the vehicle without permission and is currently in custody."
+    ],
+    "source_differences": [
+      "Al Jazeera focuses on the immediate casualty count and the act of driving without permission.",
+      "The Guardian provides specific geographic context (Mukdahan province), cites CCTV evidence, and details the size of the procession (34 monks and five lay followers)."
+    ],
+    "synthesis": "An 11-year-old boy driving his parents' truck struck a Buddhist pilgrimage procession in Mukdahan, Thailand, resulting in at least nine fatalities and over 20 injuries. Local authorities are investigating the circumstances, and the child is currently in police custody. CCTV footage confirms the incident occurred shortly before 11:00 am on Thursday.",
+    "confidence": "High; the reports are consistent regarding the core facts of the incident, with The Guardian providing additional geographical and evidentiary detail.",
+    "sources": [
+      {
+        "id": "art_1783022651503_lobbn",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/nine-buddhist-monks-killed-by-child-driving-truck-in-thailand?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Nine Buddhist monks killed by child driving truck in Thailand"
+      },
+      {
+        "id": "art_1783000411805_h6ceq",
+        "url": "https://www.theguardian.com/world/2026/jul/02/monks-killed-thailand-mukdahan-crash-truck-procession",
+        "source": "guardian",
+        "title": "At least nine monks killed in Thailand after boy drives truck into procession"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "7164942f100ebd9715017a7153204de9",
     "topic_label": "Death of Ayatollah Khamenei",
     "event_window_start": "2026-07-03T04:18:04.000Z",
@@ -2606,57 +3160,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "28fceb54ad28dad4feb4ad9367510423",
-    "topic_label": "Vatican Excommunicates Splinter Sect",
-    "event_window_start": "2026-07-02T15:44:45.000Z",
-    "event_window_end": "2026-07-02T15:54:48.000Z",
-    "article_ids": [
-      "art_1783008352710_v4mu7",
-      "art_1783008357217_au97r"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T19:17:35.650Z",
-    "updated_at": "2026-07-02T19:17:35.650Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Vatican has declared the Society of St Pius X (SSPX) to be in schism.",
-      "The SSPX consecrated four bishops without papal approval.",
-      "Pope Leo XIV issued instructions against these consecrations.",
-      "The Vatican has issued excommunications affecting the bishops and lay members of the group."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses on the theological definition and implications of a 'schism' while omitting specific membership numbers.",
-      "BBC provides specific estimates of membership, citing over half a million followers affected by the decree.",
-      "BBC notes a reconciliation path for members wishing to return to the Church, which is not mentioned in the provided Al Jazeera text."
-    ],
-    "synthesis": "The Vatican has formally excommunicated the Society of St Pius X and its lay members following the unauthorized consecration of four bishops in defiance of Pope Leo XIV. This move labels the traditionalist group as schismatic, though the Vatican has expressed willingness to reintegrate those who depart the movement. The situation marks a significant formal break between the Swiss-based sect and the Roman Catholic Church hierarchy.",
-    "confidence": "High; sources are consistent regarding the core event and the resulting canonical penalties, differing only in quantitative detail and procedural context.",
-    "sources": [
-      {
-        "id": "art_1783008352710_v4mu7",
-        "url": "https://www.aljazeera.com/news/2026/7/2/what-is-the-society-of-st-pius-x-why-pope-leo-excommunicated-its-bishops?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What is the Society of St Pius X? Why Pope Leo excommunicated its bishops"
-      },
-      {
-        "id": "art_1783008357217_au97r",
-        "url": "https://www.bbc.co.uk/news/articles/c5yz95188jjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Vatican excommunicates hundreds of thousands of splinter sect followers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "19db62d2910028957b84de8ea3738c0f",
     "topic_label": "Conflict in Gaza and Middle East",
     "event_window_start": "2026-07-02T04:59:55.000Z",
@@ -2774,380 +3277,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/2/two-reported-killed-dozens-hurt-in-hospital-fire-in-germany?traffic_source=rss",
         "source": "aljazeera",
         "title": "Two reported killed, dozens hurt in hospital fire in Germany"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1ae90c2dc201f913985e3c76621ebfee",
-    "topic_label": "Conflict in Gaza and Middle East",
-    "event_window_start": "2026-07-02T04:59:55.000Z",
-    "event_window_end": "2026-07-02T13:14:53.000Z",
-    "article_ids": [
-      "art_1783000409633_nsqem",
-      "art_1782982596452_6l8wi",
-      "art_1782971894628_qneov",
-      "art_1782971903185_ozt3c"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T15:41:13.742Z",
-    "updated_at": "2026-07-02T15:41:13.742Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Ongoing conflict within the Gaza Strip involving Israel.",
-      "Significant humanitarian and medical crisis affecting civilians in Gaza.",
-      "Barriers to medical evacuation for those requiring treatment outside Gaza."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses on casualty statistics, destruction estimates, and geopolitical shifts involving US-Iran oil market fluctuations.",
-      "BBC provides a personal, human-interest narrative focusing on the challenges of medical evacuation procedures for individual Gazan patients.",
-      "Al Jazeera's reporting on Trump and North Dakota appears unrelated to the conflict, indicating a broad news aggregation style."
-    ],
-    "synthesis": "The reported information highlights an ongoing, high-intensity conflict in Gaza marked by extreme structural damage, civilian casualties, and severe medical infrastructure collapse. While specific casualty figures are provided by local authorities, separate reports emphasize the extreme difficulty civilians face in accessing life-saving medical evacuations. Furthermore, broader geopolitical reports suggest potential shifts in oil markets linked to US-Iran diplomatic negotiations.",
-    "confidence": "Consistent regarding the humanitarian crisis, though the sources address distinct sub-topics such as casualty data, personal narratives, and regional economic impacts, resulting in a fragmented view rather than direct contradiction.",
-    "sources": [
-      {
-        "id": "art_1783000409633_nsqem",
-        "url": "https://www.aljazeera.com/news/2026/7/2/gaza-wars-1000-days-90-of-strip-destroyed-80-seized-by-israel?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza war’s 1,000 days: 90% of strip ‘destroyed’, 80% ‘seized’ by Israel"
-      },
-      {
-        "id": "art_1782982596452_6l8wi",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/trump-says-record-boats-leaving-hormuz-calls-communism-biggest-threat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says record boats leaving Hormuz, calls communism ‘biggest threat’"
-      },
-      {
-        "id": "art_1782971894628_qneov",
-        "url": "https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices fall to levels not seen since start of US-Israel war on Iran"
-      },
-      {
-        "id": "art_1782971903185_ozt3c",
-        "url": "https://www.bbc.co.uk/news/articles/cn75ex1dv61o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Two weeks after her death I got a call': Gaza patients face agonising delays for evacuation"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f79dcf3715d4b3fd945544f10f1b690b",
-    "topic_label": "Venezuela earthquake disaster",
-    "event_window_start": "2026-07-02T04:54:29.000Z",
-    "event_window_end": "2026-07-02T07:48:43.000Z",
-    "article_ids": [
-      "art_1782982599881_pcst5",
-      "art_1782971904297_djs9o"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T11:31:04.876Z",
-    "updated_at": "2026-07-02T11:31:04.876Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Twin earthquakes occurred in Venezuela on June 24.",
-      "The disaster has caused widespread destruction and prompted an international relief effort.",
-      "Survivors are facing significant hunger and desperation.",
-      "International aid is being utilized for recovery operations."
-    ],
-    "source_differences": [
-      "The first report focuses on the specific rescue efforts of Hernan Gil and provides quantitative casualty data from government officials.",
-      "The second report emphasizes the logistics of aid distribution and the public's perception of the speed of relief efforts."
-    ],
-    "synthesis": "Following twin earthquakes in Venezuela on June 24, at least 2,295 people have been killed, with rescue operations for trapped individuals like Hernan Gil continuing alongside broader humanitarian efforts. While international aid is actively involved, survivors report that the speed and availability of resources remain critical points of contention. The situation is characterized by a significant humanitarian crisis and ongoing rescue operations in impacted coastal areas.",
-    "confidence": "High; the reports are consistent and complementary, focusing on different aspects of the same event without factual contradiction.",
-    "sources": [
-      {
-        "id": "art_1782982599881_pcst5",
-        "url": "https://www.aljazeera.com/gallery/2026/7/2/in-pictures-hunger-despair-as-venezuela-quake-death-toll-rises?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "In Pictures: Hunger, despair as Venezuela quake death toll rises"
-      },
-      {
-        "id": "art_1782971904297_djs9o",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/survivors-look-to-foreign-aid-after-the-earthquakes-in-venezuela?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Survivors look to foreign aid after the earthquakes in Venezuela"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cab23fbd29f8bfc4a41d1415eb821537",
-    "topic_label": "Middle East and UAE",
-    "event_window_start": "2026-07-02T04:59:55.000Z",
-    "event_window_end": "2026-07-02T08:19:11.000Z",
-    "article_ids": [
-      "art_1782982596452_6l8wi",
-      "art_1782971894628_qneov",
-      "art_1782971903185_ozt3c"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T11:31:04.876Z",
-    "updated_at": "2026-07-02T11:31:04.876Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The articles provided report on entirely disparate events with no overlapping factual content.",
-      "Al Jazeera covers a US domestic political event and international oil market fluctuations.",
-      "The BBC covers the medical crisis and evacuation difficulties in Gaza."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses on geopolitical and economic news, specifically citing a conflict described as a 'US-Israel war on Iran'.",
-      "The BBC article focuses on humanitarian issues, specifically individual suffering and administrative delays for patients in Gaza.",
-      "There is no shared reporting across the provided articles to allow for direct comparative analysis of framing or omission."
-    ],
-    "synthesis": "The provided source materials describe three distinct, unrelated events covering US political rhetoric, global oil price volatility, and humanitarian crises in Gaza. Due to the lack of common subject matter, a unified synthesis is not possible.",
-    "confidence": "Low. The articles are unrelated, making consistency or contradiction irrelevant as they describe completely different events.",
-    "sources": [
-      {
-        "id": "art_1782982596452_6l8wi",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/trump-says-record-boats-leaving-hormuz-calls-communism-biggest-threat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says record boats leaving Hormuz, calls communism ‘biggest threat’"
-      },
-      {
-        "id": "art_1782971894628_qneov",
-        "url": "https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices fall to levels not seen since start of US-Israel war on Iran"
-      },
-      {
-        "id": "art_1782971903185_ozt3c",
-        "url": "https://www.bbc.co.uk/news/articles/cn75ex1dv61o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Two weeks after her death I got a call': Gaza patients face agonising delays for evacuation"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3d628280299ee6748ba3981517fffd2c",
-    "topic_label": "World Cup matches",
-    "event_window_start": "2026-07-01T23:04:30.000Z",
-    "event_window_end": "2026-07-02T07:26:56.000Z",
-    "article_ids": [
-      "art_1782982602061_5iokd",
-      "art_1782971893556_cqghq",
-      "art_1782948192312_80mtv"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T11:31:04.876Z",
-    "updated_at": "2026-07-02T11:31:04.876Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Belgium defeated Senegal 3-2 in the 2026 World Cup Round of 32.",
-      "The match between Belgium and Senegal required extra time to reach a final result.",
-      "Belgium overcame a two-goal deficit during the match."
-    ],
-    "source_differences": [
-      "Al Jazeera provides a brief, narrative-focused account of fan reactions to the Belgium match.",
-      "Fox Sports frames the Belgium victory specifically through the lens of a potential future matchup with the United States national team.",
-      "The Al Jazeera article concerning Spain vs Austria serves as a tournament preview and does not mention the Belgium/Senegal match."
-    ],
-    "synthesis": "Belgium secured a dramatic 3-2 comeback victory against Senegal in the 2026 World Cup Round of 32 after overcoming a two-goal deficit. The win sets up a prospective second-round matchup between Belgium and the United States, contingent on the U.S. defeating Bosnia and Herzegovina. Separately, tournament favorites Spain are preparing for a Round of 32 contest against Austria.",
-    "confidence": "Consistent reporting on factual outcomes; the articles cover distinct, non-contradictory aspects of the 2026 World Cup tournament.",
-    "sources": [
-      {
-        "id": "art_1782982602061_5iokd",
-        "url": "https://www.aljazeera.com/sports/2026/7/2/spain-vs-austria-world-cup-round-of-32-preview-predictions-team-news?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain vs Austria: World Cup Round of 32 – Preview, predictions, team news"
-      },
-      {
-        "id": "art_1782971893556_cqghq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/2/belgium-fans-erupt-after-latest-ever-goal-seals-place-in-last-16?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Belgium fans erupt after latest-ever goal seals place in last 16"
-      },
-      {
-        "id": "art_1782948192312_80mtv",
-        "url": "https://www.foxnews.com/sports/belgium-completes-stunning-world-cup-comeback-against-senegal-set-up-potential-showdown-usa",
-        "source": "fox",
-        "title": "Belgium completes stunning World Cup comeback against Senegal to set up potential showdown with USA"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7f0d72c8eac7d0f423d523ac3ff925fa",
-    "topic_label": "Middle East Conflict and Gaza",
-    "event_window_start": "2026-07-02T04:59:55.000Z",
-    "event_window_end": "2026-07-02T05:17:25.000Z",
-    "article_ids": [
-      "art_1782971894628_qneov",
-      "art_1782971903185_ozt3c"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T08:48:31.261Z",
-    "updated_at": "2026-07-02T08:48:31.261Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The provided texts describe events occurring within the broader context of the conflict involving Israel, Iran, and Gaza.",
-      "The sources are unrelated in subject matter, with one focusing on global oil market fluctuations and the other on humanitarian issues in Gaza."
-    ],
-    "source_differences": [
-      "Al Jazeera focuses exclusively on international economic impacts and diplomatic negotiations regarding a conflict involving the US, Israel, and Iran.",
-      "BBC focuses exclusively on the individual human experience of a specific patient's death due to medical evacuation delays in Gaza.",
-      "The two sources describe entirely different events and have no shared subject matter to compare or contrast."
-    ],
-    "synthesis": "The provided articles cover distinct subjects: one reports on the decline of global oil prices following reports of diplomatic progress between the US and Iran, while the other profiles the humanitarian struggle of medical evacuation failures in Gaza. There is no thematic overlap between the two reports. Consequently, the information provided is disjointed and serves separate reporting purposes.",
-    "confidence": "Low-to-Moderate; the reporting does not contain contradictions, but the sources discuss entirely unrelated events, preventing a comprehensive synthesis of a single shared narrative.",
-    "sources": [
-      {
-        "id": "art_1782971894628_qneov",
-        "url": "https://www.aljazeera.com/economy/2026/7/2/oil-prices-fall-to-levels-not-seen-since-start-of-us-israel-war-on-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices fall to levels not seen since start of US-Israel war on Iran"
-      },
-      {
-        "id": "art_1782971903185_ozt3c",
-        "url": "https://www.bbc.co.uk/news/articles/cn75ex1dv61o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Two weeks after her death I got a call': Gaza patients face agonising delays for evacuation"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "de125c25da53689884f488f964f6d235",
-    "topic_label": "Russia-Ukraine War Developments",
-    "event_window_start": "2026-07-02T03:31:32.000Z",
-    "event_window_end": "2026-07-02T05:00:57.000Z",
-    "article_ids": [
-      "art_1782971895842_ys8fu",
-      "art_1782971909887_buhs0"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T08:48:31.261Z",
-    "updated_at": "2026-07-02T08:48:31.261Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The ongoing Russia-Ukraine conflict involves attacks on critical energy infrastructure",
-      "Ukraine is a central party in kinetic and sabotage events discussed in the reports"
-    ],
-    "source_differences": [
-      "The BBC report focuses on a specific, recent drone and missile strike in Kyiv resulting in civilian casualties.",
-      "The Al Jazeera report focuses on legal developments regarding the 2022 Nord Stream pipeline sabotage and the indictment of a Ukrainian national.",
-      "The sources cover entirely different geographic events and distinct timelines within the broader conflict."
-    ],
-    "synthesis": "The provided articles describe two distinct aspects of the Russia-Ukraine conflict: a contemporary military escalation involving civilian casualties in Kyiv and a separate legal development concerning the 2022 sabotage of the Nord Stream pipelines. While both highlight the targeting of energy infrastructure, they address unrelated incidents. No synthesis of a single event is possible given the disparate subject matter.",
-    "confidence": "Consistent reporting; no contradictions are present because the articles cover entirely different events.",
-    "sources": [
-      {
-        "id": "art_1782971895842_ys8fu",
-        "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least 10 killed in large-scale Russian missile and drone strikes on Kyiv"
-      },
-      {
-        "id": "art_1782971909887_buhs0",
-        "url": "https://www.aljazeera.com/news/2026/7/2/german-prosecutors-charge-ukrainian-suspect-over-nord-stream-explosions?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "German prosecutors charge Ukrainian suspect over Nord Stream explosions"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5575abcf5396f1cd50c418d2915dfda6",
-    "topic_label": "Venezuela Earthquakes and Crisis",
-    "event_window_start": "2026-07-01T05:44:50.000Z",
-    "event_window_end": "2026-07-01T22:44:06.000Z",
-    "article_ids": [
-      "art_1782948202899_wt72n",
-      "art_1782887125944_k4y8t"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-02T01:32:46.679Z",
-    "updated_at": "2026-07-02T01:32:46.679Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Nicolás Maduro is a central figure in current reports concerning Venezuelan internal affairs.",
-      "The United States is currently involved in legal and political actions impacting Venezuela."
-    ],
-    "source_differences": [
-      "Fox News focuses on a specific civil lawsuit filed in a Manhattan court regarding the FAES police unit and alleged extrajudicial killings.",
-      "The Guardian focuses on the humanitarian aftermath of recent, unrelated earthquakes in Venezuela and characterizes Maduro as a leader who has been removed from power.",
-      "The sources present contradictory information regarding the status of Nicolás Maduro's leadership, with the Guardian claiming his removal and Fox News referring to him as an 'ex-president' facing ongoing U.S. legal challenges."
-    ],
-    "synthesis": "Reporting on Venezuela is highly bifurcated, with Fox News detailing specific U.S.-based civil litigation against Maduro for human rights abuses, while The Guardian focuses on the domestic humanitarian crisis following recent earthquakes. The outlets hold fundamentally different views on Maduro's current political status, complicating a unified understanding of his standing. These narratives serve entirely different reporting agendas, covering separate event streams occurring in parallel.",
-    "confidence": "Low; the sources present conflicting narratives regarding the current political leadership of Venezuela.",
-    "sources": [
-      {
-        "id": "art_1782948202899_wt72n",
-        "url": "https://www.foxnews.com/world/families-sue-maduro-us-accuse-ex-president-directing-police-unit-tied-extrajudicial-killings",
-        "source": "fox",
-        "title": "Families sue Maduro in US, accuse ex-president of directing police unit tied to extrajudicial killings"
-      },
-      {
-        "id": "art_1782887125944_k4y8t",
-        "url": "https://www.theguardian.com/world/2026/jul/01/wednesday-briefing-after-two-powerful-earthquakes-what-is-the-reality-on-the-ground-in-venezuela",
-        "source": "guardian",
-        "title": "Wednesday briefing: After two powerful earthquakes, what is the reality on the ground in Venezuela?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
