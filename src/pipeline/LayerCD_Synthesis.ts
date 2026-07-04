@@ -261,7 +261,20 @@ ${compareText}`;
         }
     }
 
-    const finalClusters = [...newClusters, ...existingClusters]
+    // Filter out existing clusters that are superseded by new ones
+    // Superseded = exact same topic OR >50% overlap in article IDs
+    const filteredExisting = existingClusters.filter(oldC => {
+        const isSuperseded = newClusters.some(newC => {
+            if (newC.cluster_id === oldC.cluster_id) return true;
+            if (newC.topic_label.toLowerCase() === oldC.topic_label.toLowerCase()) return true;
+            const intersection = oldC.article_ids.filter(id => newC.article_ids.includes(id));
+            if (intersection.length > 0 && intersection.length >= (oldC.article_ids.length / 2)) return true;
+            return false;
+        });
+        return !isSuperseded;
+    });
+
+    const finalClusters = [...newClusters, ...filteredExisting]
         .filter((v, i, a) => a.findIndex(t => t.cluster_id === v.cluster_id) === i)
         .slice(0, 50);
 

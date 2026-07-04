@@ -35,3 +35,12 @@
 - Mobile header now shows public-safe status text and no longer prominently shows raw model diagnostics.
 - Main prompt chain remains unchanged: next expected prompt is CS-010.
 - Verification: node --check public/js/app.js passed; npx tsc --noEmit passed.
+
+## Out-of-Band Sprint: CS-009B
+
+- Sprint completed: UI/UX Refinements & Deduplication.
+- **Backend:** Implemented zero-cost programmatic deduplication in `LayerCD_Synthesis.ts` to prevent redundant overlapping clusters from cluttering the timeline.
+- **Modals:** Replaced long vertically-scrolling page sections with a dynamic `#sentinel-modal` architecture for Synthesis briefs, Archive day-snapshots, and Mobile Telemetry Status.
+- **Styling:** Overhauled the Region Focus dropdown to match the cyber-noir aesthetic and added explicit threat-colored borders/glows for `Impact` view cards to differentiate them from standard `Synthesis` cards.
+- **Monetization:** API/RSS Freemium truncation was proposed but paused per user instruction.
+- Main prompt chain remains unchanged: next expected prompt is CS-010.

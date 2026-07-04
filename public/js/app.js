@@ -57,8 +57,11 @@ function initApp() {
     document.querySelectorAll('.more-menu-item').forEach(item => {
         item.addEventListener('click', (e) => {
             const target = e.target.getAttribute('data-target');
+            const action = e.target.getAttribute('data-action');
             if (target) {
                 switchTab(target);
+            } else if (action === 'status') {
+                showStatusModal();
             }
             if (moreMenu) moreMenu.classList.add('hidden');
             const moreBtn = document.getElementById('more-btn');
@@ -202,6 +205,32 @@ function formatPublicStatus(value) {
     return String(value || 'unknown')
         .replace(/-/g, ' ')
         .replace(/\b\w/g, letter => letter.toUpperCase());
+}
+
+async function showStatusModal() {
+    openModal(`<div class="loading-pulse">Retrieving System Telemetry...</div>`);
+    try {
+        const res = await fetch('api/v1/status.json?cb=' + Date.now());
+        const status = res.ok ? await res.json() : { system_status: 'Unavailable' };
+        
+        const html = `
+            <div class="panel-header" style="margin-bottom: 1.5rem;">
+                <h2 style="font-family:'Outfit', sans-serif; font-size:1.8rem; margin:0;">System Telemetry</h2>
+                <p style="color:var(--text-secondary); margin-top:0.5rem;">Chronos Sentinel Operational Status</p>
+            </div>
+            <div class="syn-section">
+                <div class="syn-title">Status Summary</div>
+                <ul class="syn-list">
+                    <li><strong>Engine:</strong> ${formatPublicStatus(status.engine || 'Unknown')}</li>
+                    <li><strong>System Health:</strong> ${formatPublicStatus(status.system_status || 'Unknown')}</li>
+                    <li><strong>Last Uplink:</strong> ${formatDateTime(status.generated_at)}</li>
+                </ul>
+            </div>
+        `;
+        openModal(html);
+    } catch(e) {
+        openModal(`<div class="syn-text" style="color:var(--threat-red);">Telemetry Error: ${e.message}</div>`);
+    }
 }
 
 function switchTab(target) {
@@ -376,10 +405,11 @@ function renderImpactEvents(items, container) {
     container.innerHTML = '';
     items.forEach(i => {
         const severityClass = i.severity ? i.severity.toLowerCase() : 'low';
+        const isHigh = severityClass === 'high' || severityClass === 'critical';
         const domainsList = (i.domains || []).map(d => `<span class="source-tag" style="margin-right:0.25rem;">${d.toUpperCase()}</span>`).join('');
         
         const markup = `
-        <div class="cluster-card">
+        <div class="cluster-card impact-card ${isHigh ? 'severity-high' : ''}">
             <div class="card-header">
                 <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
                     <span class="topic-tag ${severityClass}">${i.severity.toUpperCase()}</span>
