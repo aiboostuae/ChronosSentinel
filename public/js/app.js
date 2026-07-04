@@ -47,24 +47,18 @@ function initApp() {
     if (moreBtn && moreMenu) {
         moreBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            const isHidden = moreMenu.classList.toggle('hidden');
-            moreBtn.setAttribute('aria-expanded', String(!isHidden));
+            moreMenu.classList.toggle('hidden');
         });
         document.addEventListener('click', () => {
             moreMenu.classList.add('hidden');
-            moreBtn.setAttribute('aria-expanded', 'false');
         });
     }
 
     document.querySelectorAll('.more-menu-item').forEach(item => {
         item.addEventListener('click', (e) => {
             const target = e.target.getAttribute('data-target');
-            const action = e.target.getAttribute('data-action');
             if (target) {
                 switchTab(target);
-            }
-            if (action === 'status') {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
             }
             if (moreMenu) moreMenu.classList.add('hidden');
             const moreBtn = document.getElementById('more-btn');
@@ -72,9 +66,111 @@ function initApp() {
         });
     });
 
+    // Modal Close Event Handlers
+    const modalCloseBtn = document.getElementById('modal-close-btn');
+    const modalOverlay = document.getElementById('sentinel-modal');
+    if (modalCloseBtn) {
+        modalCloseBtn.addEventListener('click', closeModal);
+    }
+    if (modalOverlay) {
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) closeModal();
+        });
+    }
+
     // 3. Kickoff
     switchTab('sentinel');
     updateSystemStatusBanner();
+}
+
+// ─── Modal System Helpers (CS-009B) ───
+function openModal(htmlContent) {
+    const modal = document.getElementById('sentinel-modal');
+    const body = document.getElementById('modal-body');
+    if (modal && body) {
+        body.innerHTML = htmlContent;
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function closeModal() {
+    const modal = document.getElementById('sentinel-modal');
+    if (modal) {
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+    }
+}
+
+function showClusterDetailModal(c, backCallback = null) {
+    const topic = c.topic_label || c.canonicalLabel || 'Intelligence Briefing';
+    const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
+    const facts = c.shared_facts || (c.facts ? (Array.isArray(c.facts) ? c.facts : [c.facts]) : []);
+    const diffs = c.source_differences || (c.differences ? (Array.isArray(c.differences) ? c.differences : [c.differences]) : []);
+    const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' : 
+                     (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
+    const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
+    const sources = c.sources || [];
+    const sevClass = severity.toLowerCase();
+
+    let backBtnHtml = '';
+    if (backCallback) {
+        backBtnHtml = `
+        <button class="view-btn" id="modal-back-btn" style="margin-bottom:1.5rem; padding:0.4rem 0.8rem; font-size:0.75rem; border-radius:30px;">
+            &larr; Back to Snapshot
+        </button>
+        `;
+    }
+
+    const htmlContent = `
+    ${backBtnHtml}
+    <div class="cluster-card">
+        <div class="card-header" style="margin-bottom: 2rem;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; padding-right: 2rem;">
+                <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+                <span style="font-size:0.75rem; color:var(--text-secondary);">${displayTime}</span>
+            </div>
+            <h2 style="font-family:'Outfit', sans-serif; font-size:1.8rem; font-weight:800; margin:0; line-height:1.2;">${topic}</h2>
+        </div>
+        
+        <div class="syn-section">
+            <div class="syn-title">Shared Facts</div>
+            <ul class="syn-list">
+                ${facts.length > 0 ? facts.map(f => `<li>${f}</li>`).join('') : '<li>Telemetry pending...</li>'}
+            </ul>
+        </div>
+        <div class="syn-section">
+            <div class="syn-title">Source Differences</div>
+            <ul class="syn-list">
+                ${diffs.length > 0 ? diffs.map(d => `<li>${d}</li>`).join('') : '<li>Comparative analysis pending...</li>'}
+            </ul>
+        </div>
+        <div class="syn-section">
+            <div class="syn-title">Synthesis</div>
+            <div class="syn-text" style="line-height:1.6; font-size:1.05rem;">${syn}</div>
+        </div>
+        <div class="syn-section">
+            <div class="syn-title">Confidence</div>
+            <div class="syn-text" style="font-style: italic; color: var(--text-secondary); font-size:0.9rem;">${c.confidence || 'Unconfirmed'}</div>
+        </div>
+
+        <div class="syn-section" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+            <div class="syn-title">Sources</div>
+            <div style="display:flex; gap: 0.5rem; flex-wrap: wrap;">
+               ${sources.map(s => `<a class="source-tag" href="${s.url}" target="_blank">${(s.source || s.id || 'src').toUpperCase()}</a>`).join('')}
+            </div>
+        </div>
+    </div>
+    `;
+    
+    openModal(htmlContent);
+
+    if (backCallback) {
+        const backBtn = document.getElementById('modal-back-btn');
+        if (backBtn) {
+            backBtn.onclick = backCallback;
+        }
+    }
 }
 
 async function updateSystemStatusBanner() {
@@ -165,21 +261,22 @@ async function loadSentinel() {
     }
 }
 
-function renderClusters(clusters, container) {
+function renderClusters(clusters, container, backCallback = null) {
     container.innerHTML = '';
     clusters.forEach(c => {
         const topic = c.topic_label || c.canonicalLabel || 'Intelligence Update';
         const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
-        const facts = c.shared_facts || (c.facts ? (Array.isArray(c.facts) ? c.facts : [c.facts]) : []);
-        const diffs = c.source_differences || (c.differences ? (Array.isArray(c.differences) ? c.differences : [c.differences]) : []);
         const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' : 
                          (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
         const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
-        const sources = c.sources || [];
         const sevClass = severity.toLowerCase();
         
-        const markup = `
-        <div class="cluster-card">
+        // Excerpt synthesis summary
+        const excerpt = syn.length > 150 ? syn.substring(0, 150) + "..." : syn;
+        
+        const card = document.createElement('div');
+        card.className = 'cluster-card mini-card';
+        card.innerHTML = `
             <div class="card-header">
                 <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
                     <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
@@ -187,37 +284,16 @@ function renderClusters(clusters, container) {
                 </div>
                 <h3>${topic}</h3>
             </div>
-            
-            <div class="syn-section">
-                <div class="syn-title">Shared Facts</div>
-                <ul class="syn-list">
-                    ${facts.length > 0 ? facts.map(f => `<li>${f}</li>`).join('') : '<li>Telemetry pending...</li>'}
-                </ul>
+            <div class="syn-text" style="font-size:0.9rem; color:var(--text-secondary); line-height:1.5; margin-bottom:0;">${excerpt}</div>
+            <div class="card-expand-hint">
+                <svg style="width:14px; height:14px; display:inline-block; vertical-align:middle; margin-right:3px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
+                </svg>
+                <span>Read Full Briefing</span>
             </div>
-            <div class="syn-section">
-                <div class="syn-title">Source Differences</div>
-                <ul class="syn-list">
-                    ${diffs.length > 0 ? diffs.map(d => `<li>${d}</li>`).join('') : '<li>Comparative analysis pending...</li>'}
-                </ul>
-            </div>
-            <div class="syn-section">
-                <div class="syn-title">Synthesis</div>
-                <div class="syn-text" style="line-height:1.6;">${syn}</div>
-            </div>
-            <div class="syn-section">
-                <div class="syn-title">Confidence</div>
-                <div class="syn-text" style="font-style: italic; color: var(--text-secondary); font-size:0.85rem;">${c.confidence || 'Unconfirmed'}</div>
-            </div>
-
-            <div class="syn-section">
-                <div class="syn-title">Sources</div>
-                <div style="display:flex; gap: 0.5rem; flex-wrap: wrap;">
-                   ${sources.map(s => `<a class="source-tag" href="${s.url}" target="_blank">${(s.source || s.id || 'src').toUpperCase()}</a>`).join('')}
-                </div>
-            </div>
-        </div>
         `;
-        container.innerHTML += markup;
+        card.onclick = () => showClusterDetailModal(c, backCallback);
+        container.appendChild(card);
     });
 }
 
@@ -490,7 +566,7 @@ function renderCalendar(manifest) {
             cell.onclick = () => {
                 document.querySelectorAll('.calendar-day').forEach(c => c.classList.remove('active'));
                 cell.classList.add('active');
-                renderDayDetail(entry);
+                openArchiveDayModal(entry);
             };
         } else {
             cell.style.opacity = '0.3';
@@ -500,56 +576,84 @@ function renderCalendar(manifest) {
     }
 }
 
-function renderDayDetail(entry) {
+function openArchiveDayModal(entry, autoSelectRunFile = null) {
+    const htmlContent = `
+    <div class="day-detail-panel" style="margin-bottom:0; border:none; background:transparent; padding:0;">
+        <div class="detail-header" style="margin-bottom:1.5rem;">
+            <h3 id="selected-date-label" style="font-family:'Outfit', sans-serif; font-size:1.6rem; font-weight:800; margin:0;">Sectors Log: ${entry.date}</h3>
+        </div>
+        <div id="runs-list" class="runs-list" style="margin-bottom:2rem; display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <!-- Runs injected by JS -->
+        </div>
+        <div id="archive-grid" class="cards-grid">
+            <!-- Snapshot clusters will be rendered here -->
+        </div>
+    </div>
+    `;
+    openModal(htmlContent);
+
     const list = document.getElementById('runs-list');
-    const label = document.getElementById('selected-date-label');
     const container = document.getElementById('archive-grid');
-    
-    label.textContent = `Sectors Log: ${entry.date}`;
-    list.innerHTML = '';
-    container.innerHTML = '';
-    
+    if (!list || !container) return;
+
     entry.runs.forEach(runFile => {
         const runTime = runFile.replace('run-', '').replace('.json', '');
         const formattedTime = runTime.substring(0,2) + ":" + runTime.substring(2,4) + " UTC";
         const item = document.createElement('div');
         item.className = 'run-item';
-        item.innerHTML = `<span class="run-time">${formattedTime}</span><span class="run-stats">Run ID: ${runFile.split('.')[0]}</span>`;
-        item.onclick = async () => {
+        item.style = 'background:rgba(255,255,255,0.03); border:1px solid var(--border-glass); padding:0.75rem 1.25rem; border-radius:8px; cursor:pointer; display:flex; flex-direction:column; gap:0.25rem; transition:all 0.3s ease;';
+        
+        item.innerHTML = `<span class="run-time" style="font-family:\'Outfit\', sans-serif; font-weight:700; color:var(--accent-cyan); font-size:0.95rem;">${formattedTime}</span><span class="run-stats" style="font-size:0.75rem; color:var(--text-secondary);">Run ID: ${runFile.split('.')[0]}</span>`;
+        
+        const loadRunData = async () => {
+            document.querySelectorAll('.run-item').forEach(r => {
+                r.style.background = 'rgba(255,255,255,0.03)';
+                r.style.borderColor = 'var(--border-glass)';
+            });
+            item.style.background = 'rgba(99, 102, 241, 0.15)';
+            item.style.borderColor = 'var(--accent-indigo)';
+            
             container.innerHTML = '<div class="loading-pulse">Retrieving Run Telemetry...</div>';
             try {
                 const res = await fetch(`data/archive/${entry.date}/${runFile}?cb=${Date.now()}`);
                 const data = await res.json();
-                renderSnapshot(data, entry.date, container);
+                
+                const activeRegion = localStorage.getItem('sentinel_region') || 'global';
+                const filtered = (data.clusters || []).filter(c => {
+                    if (activeRegion === 'global') return true;
+                    return c.region_tag === activeRegion;
+                });
+                
+                if (filtered.length > 0) {
+                    renderClusters(filtered, container, () => openArchiveDayModal(entry, runFile));
+                    
+                    // Prepend run meta header in grid
+                    const header = document.createElement('div');
+                    header.className = 'cluster-card';
+                    header.style = 'margin-bottom:1.5rem; border-left:4px solid var(--accent-indigo); width:100%; grid-column:1 / -1; background:rgba(255,255,255,0.02); border-radius:8px; padding:1.25rem;';
+                    header.innerHTML = `
+                        <div class="card-header">
+                            <span class="topic-tag" style="background:rgba(99,102,241,0.15); color:var(--accent-cyan); font-size:0.7rem; font-weight:700; padding:0.25rem 0.6rem; border-radius:4px; text-transform:uppercase;">${entry.date} ${formattedTime}</span>
+                            <h3 style="margin: 0.75rem 0 0 0; font-family:\'Outfit\', sans-serif; font-size:1.2rem; font-weight:700;">Intelligence Log Snapshot</h3>
+                        </div>
+                    `;
+                    container.insertBefore(header, container.firstChild);
+                } else {
+                    container.innerHTML = `<div class="syn-text" style="padding:2rem; grid-column:1 / -1; text-align:center;">No entries for ${activeRegion.toUpperCase()} in this snapshot.</div>`;
+                }
             } catch(e) {
-                container.innerHTML = `<div class="syn-text">Fetch Fail: ${e.message}</div>`;
+                container.innerHTML = `<div class="syn-text" style="color:var(--threat-red); grid-column:1 / -1; text-align:center;">Fetch Fail: ${e.message}</div>`;
             }
         };
+        
+        item.onclick = loadRunData;
         list.appendChild(item);
+        
+        // Auto trigger if requested
+        if (autoSelectRunFile === runFile) {
+            loadRunData();
+        }
     });
-}
-
-function renderSnapshot(snapshot, date, container) {
-    container.innerHTML = '';
-    const activeRegion = localStorage.getItem('sentinel_region') || 'global';
-    
-    // Header for the snapshot
-    const meta = document.createElement('div');
-    meta.className = 'cluster-card';
-    meta.style = 'margin-bottom:2rem; border-left: 4px solid var(--accent-blue); width:100%;';
-    meta.innerHTML = `<div class="card-header"><span class="topic-tag">${date}</span><h3>Intelligence Log Snapshot</h3></div>`;
-    container.appendChild(meta);
-
-    const filtered = (snapshot.clusters || []).filter(c => {
-        if (activeRegion === 'global') return true;
-        return c.region_tag === activeRegion;
-    });
-
-    if (filtered.length > 0) {
-        renderClusters(filtered, container);
-    } else {
-        container.innerHTML += `<div class="syn-text" style="padding:2rem;">No entries for ${activeRegion.toUpperCase()} in this snapshot.</div>`;
-    }
 }
 
 // ─── HELPERS ────────────────────────────────────────────────────────────────
