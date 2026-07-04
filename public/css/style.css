@@ -1031,3 +1031,123 @@ td a:hover {
     text-shadow: 0 0 8px var(--accent-cyan);
 }
 
+/* ─── Version Badge ─── */
+.version-badge {
+    background: rgba(99, 102, 241, 0.15);
+    color: var(--accent-indigo);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    animation: pulseVersionBadge 2.5s infinite alternate;
+}
+
+@keyframes pulseVersionBadge {
+    from { box-shadow: 0 0 0 rgba(99, 102, 241, 0); }
+    to   { box-shadow: 0 0 10px rgba(99, 102, 241, 0.35); }
+}
+
+/* ─── Event Timeline (inside modal) ─── */
+.event-timeline-section {
+    border-top: 1px solid var(--border-glass);
+    margin-top: 2rem;
+    padding-top: 1.75rem;
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+}
+
+.timeline-track {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.timeline-track::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--accent-indigo), transparent);
+    border-radius: 2px;
+}
+
+.timeline-entry {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.timeline-entry:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -1.5rem;
+    top: 6px;
+    width: 12px;
+    height: 12px;
+    background: var(--bg-base);
+    border: 2px solid var(--accent-indigo);
+    border-radius: 50%;
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+.timeline-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.timeline-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+}
+
+.timeline-label {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-indigo);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+}
+
+.timeline-time {
+    font-size: 0.7rem;
+    color: var(--text-tertiary);
+}
+
+.timeline-topic {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-bottom: 0.4rem;
+}
+
+.timeline-syn {
+    font-size: 0.82rem;
+    color: var(--text-tertiary);
+    line-height: 1.5;
+    padding-left: 0;
+    border-left: 2px solid rgba(255, 255, 255, 0.05);
+    padding-left: 0.75rem;
+}

@@ -261,22 +261,20 @@ ${compareText}`;
         }
     }
 
-    // Filter out existing clusters that are superseded by new ones
-    // Superseded = exact same topic OR >50% overlap in article IDs
-    const filteredExisting = existingClusters.filter(oldC => {
-        const isSuperseded = newClusters.some(newC => {
-            if (newC.cluster_id === oldC.cluster_id) return true;
-            if (newC.topic_label.toLowerCase() === oldC.topic_label.toLowerCase()) return true;
-            const intersection = oldC.article_ids.filter(id => newC.article_ids.includes(id));
-            if (intersection.length > 0 && intersection.length >= (oldC.article_ids.length / 2)) return true;
-            return false;
-        });
-        return !isSuperseded;
-    });
-
-    const finalClusters = [...newClusters, ...filteredExisting]
-        .filter((v, i, a) => a.findIndex(t => t.cluster_id === v.cluster_id) === i)
-        .slice(0, 50);
+    // Merge new clusters on top of existing ones.
+    // We preserve ALL versions of an evolving story here — the frontend will
+    // group them into "Event Threads" so duplicates never show side-by-side.
+    // Only deduplicate by exact cluster_id to avoid completely identical saves.
+    const seen = new Set<string>();
+    const finalClusters: ClusterObject[] = [];
+    for (const cluster of [...newClusters, ...existingClusters]) {
+        if (!seen.has(cluster.cluster_id)) {
+            seen.add(cluster.cluster_id);
+            finalClusters.push(cluster);
+        }
+    }
+    // Cap at 200 to retain enough history for Event Thread timeline view
+    finalClusters.splice(200);
 
     fs.writeFileSync(CLUSTERS_FILE, JSON.stringify(finalClusters, null, 2));
     console.log(`Synthesis complete. Generated ${newClusters.length} new, retained ${finalClusters.length - newClusters.length} cached clusters.`);

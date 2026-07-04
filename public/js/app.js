@@ -105,7 +105,7 @@ function closeModal() {
     }
 }
 
-function showClusterDetailModal(c, backCallback = null) {
+function showClusterDetailModal(c, backCallback = null, thread = null) {
     const topic = c.topic_label || c.canonicalLabel || 'Intelligence Briefing';
     const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
     const facts = c.shared_facts || (c.facts ? (Array.isArray(c.facts) ? c.facts : [c.facts]) : []);
@@ -125,12 +125,49 @@ function showClusterDetailModal(c, backCallback = null) {
         `;
     }
 
+    // Build Event Timeline section from older versions in the thread
+    let timelineHtml = '';
+    if (thread && thread.length > 1) {
+        const olderVersions = thread.slice(1); // index 0 is already shown above
+        const versionItems = olderVersions.map((v, idx) => {
+            const vTime = formatDateTime(v.event_window_end || v.created_at || v.timestamp);
+            const vSyn = v.synthesis || v.summary || 'No synthesis available.';
+            const vLabel = v.topic_label || topic;
+            return `
+            <div class="timeline-entry">
+                <div class="timeline-dot"></div>
+                <div class="timeline-body">
+                    <div class="timeline-meta">
+                        <span class="timeline-label">Version ${olderVersions.length - idx}</span>
+                        <span class="timeline-time">${vTime}</span>
+                    </div>
+                    <div class="timeline-topic">${vLabel}</div>
+                    <div class="timeline-syn">${vSyn}</div>
+                </div>
+            </div>`;
+        }).join('');
+
+        timelineHtml = `
+        <div class="syn-section event-timeline-section">
+            <div class="syn-title" style="display:flex; align-items:center; gap:0.5rem;">
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Event Timeline <span style="font-size:0.7rem; font-weight:400; color:var(--text-tertiary); margin-left:0.25rem;">(${olderVersions.length} previous update${olderVersions.length > 1 ? 's' : ''})</span>
+            </div>
+            <div class="timeline-track">
+                ${versionItems}
+            </div>
+        </div>`;
+    }
+
     const htmlContent = `
     ${backBtnHtml}
     <div class="cluster-card">
         <div class="card-header" style="margin-bottom: 2rem;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; padding-right: 2rem;">
-                <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; padding-right: 2rem; flex-wrap:wrap; gap:0.5rem;">
+                <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                    <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+                    ${thread && thread.length > 1 ? `<span class="version-badge">&#8635; ${thread.length} UPDATES</span>` : ''}
+                </div>
                 <span style="font-size:0.75rem; color:var(--text-secondary);">${displayTime}</span>
             </div>
             <h2 style="font-family:'Outfit', sans-serif; font-size:1.8rem; font-weight:800; margin:0; line-height:1.2;">${topic}</h2>
@@ -156,7 +193,6 @@ function showClusterDetailModal(c, backCallback = null) {
             <div class="syn-title">Confidence</div>
             <div class="syn-text" style="font-style: italic; color: var(--text-secondary); font-size:0.9rem;">${c.confidence || 'Unconfirmed'}</div>
         </div>
-
         <div class="syn-section" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
             <div class="syn-title">Sources</div>
             <div style="display:flex; gap: 0.5rem; flex-wrap: wrap;">
@@ -164,6 +200,7 @@ function showClusterDetailModal(c, backCallback = null) {
             </div>
         </div>
     </div>
+    ${timelineHtml}
     `;
     
     openModal(htmlContent);
@@ -264,6 +301,46 @@ function switchTab(target) {
 
 // ─── TAB 1: Sentinel Synthesis ──────────────────────────────────────────────
 
+// ── Event Thread Engine ──
+// Groups clusters that are about the same evolving story into a single thread.
+// The latest version leads the card; older versions appear in the modal timeline.
+function groupIntoThreads(clusters) {
+    const clean = (s) => s.toLowerCase().replace(/[^a-z0-9\s]/g, '');
+    const isSimilar = (c1, c2) => {
+        // Same exact ID
+        if (c1.cluster_id === c2.cluster_id) return true;
+        // Share >= 30% of articles (relaxed — catches evolving stories with new articles)
+        const overlap = c1.article_ids.filter(id => c2.article_ids.includes(id));
+        if (overlap.length >= Math.max(1, Math.min(c1.article_ids.length, c2.article_ids.length) * 0.3)) return true;
+        // Keyword similarity on topic label (>= 50% shared keywords of length > 3)
+        const w1 = clean(c1.topic_label).split(/\s+/).filter(w => w.length > 3);
+        const w2 = clean(c2.topic_label).split(/\s+/).filter(w => w.length > 3);
+        if (w1.length > 0 && w2.length > 0) {
+            let matches = 0;
+            for (const w of w1) { if (w2.includes(w)) matches++; }
+            if (matches >= Math.ceil(Math.min(w1.length, w2.length) * 0.5)) return true;
+        }
+        return false;
+    };
+
+    const threads = [];
+    for (const cluster of clusters) {
+        const found = threads.find(t => isSimilar(t[0], cluster));
+        if (found) {
+            found.push(cluster);
+        } else {
+            threads.push([cluster]);
+        }
+    }
+
+    // Sort each thread newest-first, so index 0 is always the latest
+    return threads.map(t => t.sort((a, b) => {
+        const ta = new Date(a.event_window_end || a.created_at || 0).getTime();
+        const tb = new Date(b.event_window_end || b.created_at || 0).getTime();
+        return tb - ta;
+    }));
+}
+
 async function loadSentinel() {
     const container = document.getElementById('clusters-grid');
     if (!container) return;
@@ -284,12 +361,61 @@ async function loadSentinel() {
             container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No synthesized signals detected in this sector.</div>';
             return;
         }
-        renderClusters(filtered, container);
+
+        const threads = groupIntoThreads(filtered);
+        renderThreads(threads, container);
     } catch(e) {
         container.innerHTML = `<div class="syn-text">Telemetry Error: ${e.message}</div>`;
     }
 }
 
+function renderThreads(threads, container, backCallback = null) {
+    container.innerHTML = '';
+    threads.forEach(thread => {
+        // Lead with the newest (index 0); older versions trail behind
+        const c = thread[0];
+        const versions = thread.length;
+        const topic = c.topic_label || c.canonicalLabel || 'Intelligence Update';
+        const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
+        const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' :
+                         (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
+        const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
+        const sevClass = severity.toLowerCase();
+        const excerpt = syn.length > 150 ? syn.substring(0, 150) + '...' : syn;
+
+        // Badge: Developing Story or Updated count
+        let versionBadge = '';
+        if (versions > 1) {
+            versionBadge = `<span class="version-badge">&#8635; ${versions} UPDATES</span>`;
+        }
+
+        const card = document.createElement('div');
+        card.className = 'cluster-card mini-card';
+        card.innerHTML = `
+            <div class="card-header">
+                <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+                    <div style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+                        <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+                        ${versionBadge}
+                    </div>
+                    <span style="font-size:0.75rem; color:var(--text-secondary); white-space:nowrap;">${displayTime}</span>
+                </div>
+                <h3>${topic}</h3>
+            </div>
+            <div class="syn-text" style="font-size:0.9rem; color:var(--text-secondary); line-height:1.5; margin-bottom:0;">${excerpt}</div>
+            <div class="card-expand-hint">
+                <svg style="width:14px; height:14px; display:inline-block; vertical-align:middle; margin-right:3px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
+                </svg>
+                <span>${versions > 1 ? 'Read Briefing + Event Timeline' : 'Read Full Briefing'}</span>
+            </div>
+        `;
+        card.onclick = () => showClusterDetailModal(c, backCallback, thread);
+        container.appendChild(card);
+    });
+}
+
+// Keep renderClusters for archive snapshot use (no grouping needed there)
 function renderClusters(clusters, container, backCallback = null) {
     container.innerHTML = '';
     clusters.forEach(c => {
@@ -299,10 +425,7 @@ function renderClusters(clusters, container, backCallback = null) {
                          (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
         const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
         const sevClass = severity.toLowerCase();
-        
-        // Excerpt synthesis summary
         const excerpt = syn.length > 150 ? syn.substring(0, 150) + "..." : syn;
-        
         const card = document.createElement('div');
         card.className = 'cluster-card mini-card';
         card.innerHTML = `
@@ -315,7 +438,7 @@ function renderClusters(clusters, container, backCallback = null) {
             </div>
             <div class="syn-text" style="font-size:0.9rem; color:var(--text-secondary); line-height:1.5; margin-bottom:0;">${excerpt}</div>
             <div class="card-expand-hint">
-                <svg style="width:14px; height:14px; display:inline-block; vertical-align:middle; margin-right:3px;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <svg style="width:14px; height:14px; display:inline-block; vertical-align:middle; margin-right:3px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path>
                 </svg>
                 <span>Read Full Briefing</span>
