@@ -187,23 +187,49 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
         const compareSchema = {
             type: Type.OBJECT,
             properties: {
-                shared_facts: { type: Type.ARRAY, items: { type: Type.STRING } },
-                source_differences: {
-                    type: Type.ARRAY,
-                    items: { type: Type.STRING }
-                },
-                synthesis: { type: Type.STRING },
-                confidence: { type: Type.STRING }
+                shared_facts:        { type: Type.ARRAY, items: { type: Type.STRING } },
+                source_claims:       { type: Type.ARRAY, items: { type: Type.STRING } },
+                framing_differences: { type: Type.ARRAY, items: { type: Type.STRING } },
+                contested_claims:    { type: Type.ARRAY, items: { type: Type.STRING } },
+                unverified_claims:   { type: Type.ARRAY, items: { type: Type.STRING } },
+                loaded_language:     { type: Type.ARRAY, items: { type: Type.STRING } },
+                safe_conclusions:    { type: Type.ARRAY, items: { type: Type.STRING } },
+                unknowns:            { type: Type.ARRAY, items: { type: Type.STRING } },
+                synthesis:           { type: Type.STRING },
+                confidence:          { type: Type.STRING }
             },
-            required: ["shared_facts", "source_differences", "synthesis", "confidence"]
+            required: [
+                "shared_facts", "source_claims", "framing_differences",
+                "contested_claims", "unverified_claims", "loaded_language",
+                "safe_conclusions", "unknowns", "synthesis", "confidence"
+            ]
         };
 
-        const comparePrompt = `ACT AS A SENIOR INTELLIGENCE ANALYST.
-Analyze these news articles about the same event. Respond with:
-1. shared_facts: array of verified facts that multiple sources agree on.
-2. source_differences: array of strings highlighting unique framing or omissions from each outlet.
-3. synthesis: concise, neutral intelligence summary (max 3 sentences).
-4. confidence: assessment of whether reporting is consistent or contains contradictions.
+        const comparePrompt = `You are a neutral intelligence analyst applying strict Truth and Source Framing Discipline.
+Your task is to analyze the following news articles about the same event and populate each field exactly as defined.
+
+STRICT RULES — YOU MUST FOLLOW ALL OF THEM:
+1. You must NEVER make editorial judgments. Do not use words like: mischaracterizes, falsely claims, conflates, propaganda, extremist, far-left, far-right, biased, misleading — unless a source explicitly uses those words about another source, in which case you must attribute them directly to that source.
+2. You must NEVER decide which source is correct unless at least 2 independent sources establish the same fact.
+3. When a source uses charged or opinionated language, you must attribute it: write "[SOURCE_ID] describes the group as [term]" — never state it as fact.
+4. Every item in source_claims, unverified_claims, and loaded_language MUST include the source ID in brackets at the start: "[source_id] ..."
+5. Every item in framing_differences MUST compare two or more specific sources by name.
+6. Do not speculate about motive or intent unless directly stated in the text.
+7. safe_conclusions must only contain statements ALL sources would agree with — factual, verifiable, uncontested.
+8. unknowns must list what is genuinely not answerable from the provided sources.
+9. synthesis must be a maximum of 3 sentences, written in entirely neutral, factual language with no editorial framing.
+
+FIELD DEFINITIONS:
+- shared_facts: Facts corroborated by 2 or more independent sources. State exactly what they agree on.
+- source_claims: Specific claims made by individual sources. Prefix each with [source_id]. Do not assert truth.
+- framing_differences: How different sources frame the same event differently. Name the sources explicitly.
+- contested_claims: Claims where sources directly contradict each other. Describe the contradiction neutrally.
+- unverified_claims: Claims appearing in only one source, not confirmed elsewhere. Prefix with [source_id].
+- loaded_language: Any charged, opinionated, or emotionally loaded language. Attribute it: "[source_id] uses the term '...' to describe..."
+- safe_conclusions: Only conclusions that ALL sources would agree with. No inference beyond the text.
+- unknowns: Key questions the sources leave unanswered.
+- synthesis: A neutral 3-sentence maximum summary. No judgment. No editorial framing.
+- confidence: Assess factual consistency across sources. Use: HIGH / MEDIUM / LOW / CONTESTED. Add a one-sentence justification.
 
 Articles:
 ${compareText}`;
@@ -211,17 +237,18 @@ ${compareText}`;
         try {
             const comparison = await callAI(comparePrompt, compareSchema);
             if (comparison) {
-                let synText = comparison.synthesis;
-                let sharedFacts = comparison.shared_facts;
-                let sourceDiffs = comparison.source_differences;
-                let conf = comparison.confidence;
-                
-                if (comparison._fallback) {
-                    synText = "Automated deterministic fallback summary due to AI provider failure.";
-                    sharedFacts = ["Fallback activated."];
-                    sourceDiffs = ["No comparative data available."];
-                    conf = "Low (Deterministic Fallback)";
-                }
+                // ── Fallback values ──
+                const isFallback = !!comparison._fallback;
+                const synText         = isFallback ? 'Automated deterministic fallback summary due to AI provider failure.' : (comparison.synthesis || '');
+                const conf            = isFallback ? 'LOW (Deterministic Fallback)' : (comparison.confidence || 'LOW');
+                const sharedFacts     = isFallback ? ['Fallback activated.']       : (comparison.shared_facts || []);
+                const sourceClaims    = isFallback ? ['No data available.']        : (comparison.source_claims || []);
+                const framingDiffs    = isFallback ? ['No comparative data.']      : (comparison.framing_differences || []);
+                const contestedClaims = isFallback ? []                            : (comparison.contested_claims || []);
+                const unverified      = isFallback ? []                            : (comparison.unverified_claims || []);
+                const loadedLang      = isFallback ? []                            : (comparison.loaded_language || []);
+                const safeConclusions = isFallback ? []                            : (comparison.safe_conclusions || []);
+                const unknowns        = isFallback ? ['No analysis possible.']     : (comparison.unknowns || []);
 
                 const sourceRefs = memberArticles.map(a => ({
                     id: a.article_id,
@@ -229,6 +256,7 @@ ${compareText}`;
                     source: a.source_id,
                     title: a.title
                 }));
+
                 newClusters.push({
                     cluster_id: clusterId,
                     topic_label: c.topic,
@@ -239,19 +267,25 @@ ${compareText}`;
                     article_count: memberArticles.length,
                     source_count: new Set(memberArticles.map(a => a.source_id)).size,
                     qualification_status: 'qualified',
-                    qualification_score: comparison._fallback ? 0 : 0.9,
+                    qualification_score: isFallback ? 0 : 0.9,
                     primary_geography: null,
                     topic_type: null,
                     created_at: now,
                     updated_at: now,
                     region_tag: memberArticles[0]?.region_tag || 'global',
-                    // Synthesis fields
-                    shared_facts: sharedFacts,
-                    source_differences: sourceDiffs,
-                    synthesis: synText,
-                    confidence: conf,
-                    sources: sourceRefs,
-                    model_used: comparison._telemetry?.used_model || clusterTelemetry.used_model
+                    // ── Truth & Source Framing Discipline fields ──
+                    shared_facts:        sharedFacts,
+                    source_claims:       sourceClaims,
+                    framing_differences: framingDiffs,
+                    contested_claims:    contestedClaims,
+                    unverified_claims:   unverified,
+                    loaded_language:     loadedLang,
+                    safe_conclusions:    safeConclusions,
+                    unknowns:            unknowns,
+                    synthesis:           synText,
+                    confidence:          conf,
+                    sources:             sourceRefs,
+                    model_used:          comparison._telemetry?.used_model || clusterTelemetry.used_model
                 });
             }
             // Brief pause between calls to avoid burst rate-limiting

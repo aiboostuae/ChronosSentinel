@@ -65,8 +65,16 @@ export interface ClusterObject {
     updated_at: string;
     region_tag: string;
 
-    // UI helper fields (Synthesis integration)
-    shared_facts?: string[];
+    // ─── Truth & Source Framing Discipline fields (CS-010 Synthesis Layer) ───
+    shared_facts?: string[];           // Corroborated facts: stated by 2+ independent sources
+    source_claims?: string[];          // Source-specific claims: attributed, not assumed true
+    framing_differences?: string[];    // How different sources frame the same fact differently
+    contested_claims?: string[];       // Claims disputed between sources
+    unverified_claims?: string[];      // Claims from a single source, not independently confirmed
+    loaded_language?: string[];        // Loaded/charged language — attributed to the source using it
+    safe_conclusions?: string[];       // Conclusions defensible across all available sources
+    unknowns?: string[];               // Key gaps, missing data, or unanswerable questions
+    // Legacy aliases (kept for backward-compat with existing data)
     source_differences?: string[];
     synthesis?: string;
     confidence?: string;

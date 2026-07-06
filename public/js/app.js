@@ -107,10 +107,8 @@ function closeModal() {
 
 function showClusterDetailModal(c, backCallback = null, thread = null) {
     const topic = c.topic_label || c.canonicalLabel || 'Intelligence Briefing';
-    const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
-    const facts = c.shared_facts || (c.facts ? (Array.isArray(c.facts) ? c.facts : [c.facts]) : []);
-    const diffs = c.source_differences || (c.differences ? (Array.isArray(c.differences) ? c.differences : [c.differences]) : []);
-    const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' : 
+    const syn = c.synthesis || c.summary || 'Synthesis pending...';
+    const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' :
                      (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
     const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
     const sources = c.sources || [];
@@ -118,17 +116,31 @@ function showClusterDetailModal(c, backCallback = null, thread = null) {
 
     let backBtnHtml = '';
     if (backCallback) {
-        backBtnHtml = `
-        <button class="view-btn" id="modal-back-btn" style="margin-bottom:1.5rem; padding:0.4rem 0.8rem; font-size:0.75rem; border-radius:30px;">
-            &larr; Back to Snapshot
-        </button>
-        `;
+        backBtnHtml = `<button class="view-btn" id="modal-back-btn" style="margin-bottom:1.5rem; padding:0.4rem 0.8rem; font-size:0.75rem; border-radius:30px;">&larr; Back to Snapshot</button>`;
     }
+
+    // Helper: render a section only if it has entries
+    const renderSection = (title, items, cssClass, icon) => {
+        if (!items || items.length === 0) return '';
+        const rows = items.map(x => `<li>${x}</li>`).join('');
+        return `
+        <div class="syn-section framing-section ${cssClass}">
+            <div class="syn-title framing-title"><span class="framing-icon">${icon}</span>${title}</div>
+            <ul class="syn-list">${rows}</ul>
+        </div>`;
+    };
+
+    // Confidence chip colour
+    const confRaw = (c.confidence || '').toUpperCase();
+    const confColor = confRaw.startsWith('HIGH') ? 'var(--threat-green)'
+                    : confRaw.startsWith('CONTESTED') ? 'var(--threat-red)'
+                    : confRaw.startsWith('MEDIUM') ? 'var(--threat-yellow)'
+                    : 'var(--text-secondary)';
 
     // Build Event Timeline section from older versions in the thread
     let timelineHtml = '';
     if (thread && thread.length > 1) {
-        const olderVersions = thread.slice(1); // index 0 is already shown above
+        const olderVersions = thread.slice(1);
         const versionItems = olderVersions.map((v, idx) => {
             const vTime = formatDateTime(v.event_window_end || v.created_at || v.timestamp);
             const vSyn = v.synthesis || v.summary || 'No synthesis available.';
@@ -146,24 +158,21 @@ function showClusterDetailModal(c, backCallback = null, thread = null) {
                 </div>
             </div>`;
         }).join('');
-
         timelineHtml = `
         <div class="syn-section event-timeline-section">
             <div class="syn-title" style="display:flex; align-items:center; gap:0.5rem;">
                 <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                 Event Timeline <span style="font-size:0.7rem; font-weight:400; color:var(--text-tertiary); margin-left:0.25rem;">(${olderVersions.length} previous update${olderVersions.length > 1 ? 's' : ''})</span>
             </div>
-            <div class="timeline-track">
-                ${versionItems}
-            </div>
+            <div class="timeline-track">${versionItems}</div>
         </div>`;
     }
 
     const htmlContent = `
     ${backBtnHtml}
-    <div class="cluster-card">
-        <div class="card-header" style="margin-bottom: 2rem;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; padding-right: 2rem; flex-wrap:wrap; gap:0.5rem;">
+    <div class="cluster-card" style="border:none; padding:0; box-shadow:none; background:transparent;">
+        <div class="card-header" style="margin-bottom:1.75rem;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
                 <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
                     <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
                     ${thread && thread.length > 1 ? `<span class="version-badge">&#8635; ${thread.length} UPDATES</span>` : ''}
@@ -172,44 +181,45 @@ function showClusterDetailModal(c, backCallback = null, thread = null) {
             </div>
             <h2 style="font-family:'Outfit', sans-serif; font-size:1.8rem; font-weight:800; margin:0; line-height:1.2;">${topic}</h2>
         </div>
-        
-        <div class="syn-section">
-            <div class="syn-title">Shared Facts</div>
-            <ul class="syn-list">
-                ${facts.length > 0 ? facts.map(f => `<li>${f}</li>`).join('') : '<li>Telemetry pending...</li>'}
-            </ul>
+
+        <!-- Synthesis Summary -->
+        <div class="syn-section" style="background:rgba(99,102,241,0.06); border-radius:10px; padding:1.25rem; margin-bottom:1.5rem; border-left: 3px solid var(--accent-indigo);">
+            <div class="syn-title" style="color:var(--accent-indigo);">&#128196; Intelligence Synthesis</div>
+            <div class="syn-text" style="line-height:1.7; font-size:1rem;">${syn}</div>
         </div>
-        <div class="syn-section">
-            <div class="syn-title">Source Differences</div>
-            <ul class="syn-list">
-                ${diffs.length > 0 ? diffs.map(d => `<li>${d}</li>`).join('') : '<li>Comparative analysis pending...</li>'}
-            </ul>
+
+        <!-- Confidence -->
+        <div class="syn-section" style="display:flex; align-items:center; gap:0.75rem; border-bottom:1px solid var(--border-glass); padding-bottom:1.25rem; margin-bottom:1.5rem;">
+            <span style="font-family:'Outfit',sans-serif; font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--text-secondary); letter-spacing:0.08em;">Confidence:</span>
+            <span style="font-size:0.85rem; font-weight:600; color:${confColor};">${c.confidence || 'Unknown'}</span>
         </div>
-        <div class="syn-section">
-            <div class="syn-title">Synthesis</div>
-            <div class="syn-text" style="line-height:1.6; font-size:1.05rem;">${syn}</div>
-        </div>
-        <div class="syn-section">
-            <div class="syn-title">Confidence</div>
-            <div class="syn-text" style="font-style: italic; color: var(--text-secondary); font-size:0.9rem;">${c.confidence || 'Unconfirmed'}</div>
-        </div>
+
+        <!-- 8 Framing Discipline Sections -->
+        ${renderSection('Corroborated Facts', c.shared_facts, 'section-facts', '&#10003; ')}
+        ${renderSection('Safe Conclusions', c.safe_conclusions, 'section-safe', '&#128274; ')}
+        ${renderSection('Source-Specific Claims', c.source_claims, 'section-claims', '&#128488; ')}
+        ${renderSection('Framing Differences', c.framing_differences, 'section-framing', '&#9878; ')}
+        ${renderSection('Contested Claims', c.contested_claims, 'section-contested', '&#9888; ')}
+        ${renderSection('Unverified Claims', c.unverified_claims, 'section-unverified', '&#128683; ')}
+        ${renderSection('Loaded Language (Attributed)', c.loaded_language, 'section-loaded', '&#9940; ')}
+        ${renderSection('Unknowns / Information Gaps', c.unknowns, 'section-unknowns', '&#63; ')}
+
+        <!-- Sources -->
         <div class="syn-section" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
             <div class="syn-title">Sources</div>
-            <div style="display:flex; gap: 0.5rem; flex-wrap: wrap;">
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
                ${sources.map(s => `<a class="source-tag" href="${s.url}" target="_blank">${(s.source || s.id || 'src').toUpperCase()}</a>`).join('')}
             </div>
         </div>
     </div>
     ${timelineHtml}
     `;
-    
+
     openModal(htmlContent);
 
     if (backCallback) {
         const backBtn = document.getElementById('modal-back-btn');
-        if (backBtn) {
-            backBtn.onclick = backCallback;
-        }
+        if (backBtn) { backBtn.onclick = backCallback; }
     }
 }
 

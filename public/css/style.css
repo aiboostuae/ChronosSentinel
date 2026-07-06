@@ -452,6 +452,54 @@ body {
     box-shadow: 0 0 8px var(--accent-cyan-glow);
 }
 
+/* ─── Truth & Source Framing Discipline Sections ─── */
+.framing-section {
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin-top: 1rem !important;
+    padding-top: 1rem !important;
+    border-top: none !important;
+}
+
+.framing-title {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.72rem !important;
+}
+
+.framing-icon {
+    font-style: normal;
+}
+
+.section-facts    { background: rgba(16, 185, 129, 0.06); border-left: 3px solid var(--threat-green); }
+.section-safe     { background: rgba(16, 185, 129, 0.04); border-left: 3px solid rgba(16, 185, 129, 0.4); }
+.section-claims   { background: rgba(99, 102, 241, 0.06); border-left: 3px solid var(--accent-indigo); }
+.section-framing  { background: rgba(0, 229, 255, 0.04);  border-left: 3px solid var(--accent-cyan); }
+.section-contested{ background: rgba(245, 158, 11, 0.07); border-left: 3px solid var(--threat-yellow); }
+.section-unverified{ background: rgba(245, 158, 11, 0.04); border-left: 3px solid rgba(245, 158, 11, 0.4); }
+.section-loaded   { background: rgba(239, 68, 68, 0.06);  border-left: 3px solid var(--threat-red); }
+.section-unknowns { background: rgba(255, 255, 255, 0.02); border-left: 3px solid rgba(255,255,255,0.12); }
+
+.section-facts     .syn-title { color: var(--threat-green); }
+.section-safe      .syn-title { color: rgba(16, 185, 129, 0.7); }
+.section-claims    .syn-title { color: var(--accent-indigo); }
+.section-framing   .syn-title { color: var(--accent-cyan); }
+.section-contested .syn-title { color: var(--threat-yellow); }
+.section-unverified .syn-title { color: rgba(245, 158, 11, 0.7); }
+.section-loaded    .syn-title { color: var(--threat-red); }
+.section-unknowns  .syn-title { color: var(--text-tertiary); }
+
+/* Override the dot colour per section */
+.section-facts     .syn-list li::before { background: var(--threat-green); box-shadow: 0 0 6px rgba(16,185,129,0.4); }
+.section-safe      .syn-list li::before { background: rgba(16,185,129,0.5); box-shadow: none; }
+.section-claims    .syn-list li::before { background: var(--accent-indigo); box-shadow: 0 0 6px rgba(99,102,241,0.4); }
+.section-framing   .syn-list li::before { background: var(--accent-cyan); box-shadow: 0 0 6px var(--accent-cyan-glow); }
+.section-contested .syn-list li::before { background: var(--threat-yellow); box-shadow: 0 0 6px rgba(245,158,11,0.4); }
+.section-unverified .syn-list li::before { background: rgba(245,158,11,0.5); box-shadow: none; }
+.section-loaded    .syn-list li::before { background: var(--threat-red); box-shadow: 0 0 6px rgba(239,68,68,0.4); }
+.section-unknowns  .syn-list li::before { background: rgba(255,255,255,0.2); box-shadow: none; }
+
 .source-tag {
     display: inline-block;
     background: rgba(255, 255, 255, 0.05);
