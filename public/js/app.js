@@ -194,11 +194,11 @@ function showClusterDetailModal(c, backCallback = null, thread = null) {
             <span style="font-size:0.85rem; font-weight:600; color:${confColor};">${c.confidence || 'Unknown'}</span>
         </div>
 
-        <!-- 8 Framing Discipline Sections -->
-        ${renderSection('Corroborated Facts', c.shared_facts, 'section-facts', '&#10003; ')}
+        <!-- 8 Framing Discipline Sections (with legacy fallbacks) -->
+        ${renderSection('Corroborated Facts', c.shared_facts || (c.facts ? (Array.isArray(c.facts) ? c.facts : [c.facts]) : []), 'section-facts', '&#10003; ')}
         ${renderSection('Safe Conclusions', c.safe_conclusions, 'section-safe', '&#128274; ')}
         ${renderSection('Source-Specific Claims', c.source_claims, 'section-claims', '&#128488; ')}
-        ${renderSection('Framing Differences', c.framing_differences, 'section-framing', '&#9878; ')}
+        ${renderSection('Framing Differences', c.framing_differences || c.source_differences || (c.differences ? (Array.isArray(c.differences) ? c.differences : [c.differences]) : []), 'section-framing', '&#9878; ')}
         ${renderSection('Contested Claims', c.contested_claims, 'section-contested', '&#9888; ')}
         ${renderSection('Unverified Claims', c.unverified_claims, 'section-unverified', '&#128683; ')}
         ${renderSection('Loaded Language (Attributed)', c.loaded_language, 'section-loaded', '&#9940; ')}
