@@ -1,5 +1,832 @@
 [
   {
+    "cluster_id": "f891c0b17b9b9be1a9f71110ede0aab0",
+    "topic_label": "Conflict in Strait of Hormuz",
+    "event_window_start": "2026-07-07T04:06:03.000Z",
+    "event_window_end": "2026-07-07T21:56:47.000Z",
+    "article_ids": [
+      "art_1783461456258_tdtk9",
+      "art_1783461464857_7zbce",
+      "art_1783449149231_9ab3j",
+      "art_1783398879248_0n4hf"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T22:38:56.999Z",
+    "updated_at": "2026-07-07T22:38:56.999Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The US military announced it initiated strikes on Iran on Tuesday.",
+      "Three commercial vessels were reported damaged in the Strait of Hormuz between Monday and Tuesday.",
+      "UK Maritime Trade Operations reported on the vessel damages.",
+      "Explosions were reported in locations within Iran.",
+      "Iran has not directly claimed responsibility for the attacks on the vessels."
+    ],
+    "source_claims": [
+      "[bbc] The US strikes were launched to impose costs for targeting commercial shipping crewed by innocent individuals.",
+      "[aljazeera] Iran’s foreign ministry holds the US responsible for breaching a June memorandum of understanding.",
+      "[fox] The attacks by Iran represent a violation of a ceasefire established after the funeral of Ali Khamenei.",
+      "[aljazeera] Iranian television stated the tanker was attacked after ignoring warnings from Iranian forces."
+    ],
+    "framing_differences": [
+      "fox frames the incident as Iran resuming attacks during a ceasefire period following the death of Ali Khamenei, whereas bbc and aljazeera frame the event as a response to specific commercial shipping damage.",
+      "aljazeera frames the context of the region as a war between the US/Israel and Iran that began in February, while bbc and fox do not reference this specific ongoing war context."
+    ],
+    "contested_claims": [
+      "fox asserts Iran is responsible for the vessel attacks as a fact, while bbc and aljazeera report Iran has not claimed responsibility, with aljazeera noting Iran reports the vessels ignored warnings."
+    ],
+    "unverified_claims": [
+      "[fox] President Trump gave Tehran 'a week off' for the funeral of Ali Khamenei.",
+      "[aljazeera] There is an existing June memorandum of understanding between the US and Iran intended to end a war that began in February."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'innocent individuals' to describe the crews of the commercial vessels.",
+      "[fox] uses the term 'slain Supreme Leader' to describe Ali Khamenei.",
+      "[aljazeera] uses the term 'US-Israel war on Iran' to characterize the regional conflict."
+    ],
+    "safe_conclusions": [
+      "US Central Command confirmed that military strikes on Iran began on Tuesday.",
+      "Commercial vessels sustained damage in the Strait of Hormuz early in the week.",
+      "Tensions exist between the US and Iranian governments regarding maritime transit."
+    ],
+    "unknowns": [
+      "The specific nature of the ceasefire mentioned by fox.",
+      "The full terms and current status of the memorandum of understanding mentioned by aljazeera.",
+      "The identity of the parties responsible for the initial projectile strikes on the vessels."
+    ],
+    "synthesis": "The US military has commenced strikes against Iran following reported damage to three commercial vessels in the Strait of Hormuz on Monday and Tuesday. While the US asserts the strikes are a response to these attacks, Iranian media reports that vessels were warned prior to the incidents and Iranian officials attribute the escalation to a breach of a prior diplomatic agreement. The situation remains active with reports of explosions in southern Iran following the US military announcement.",
+    "confidence": "MEDIUM; CONTESTED; Sources provide fundamentally different accounts regarding the existence of a ceasefire and the nature of the diplomatic agreements between the US and Iran.",
+    "sources": [
+      {
+        "id": "art_1783461456258_tdtk9",
+        "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US launches strikes on Iran after tankers hit in Strait of Hormuz"
+      },
+      {
+        "id": "art_1783461464857_7zbce",
+        "url": "https://www.aljazeera.com/news/2026/7/7/us-says-strikes-launched-as-explosions-heard-in-southern-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US says strikes launched as explosions heard in southern Iran"
+      },
+      {
+        "id": "art_1783449149231_9ab3j",
+        "url": "https://www.foxnews.com/politics/iran-attacks-ships-strait-hormuz-days-after-trump-gave-tehran-a-week-off-khamenei-funeral",
+        "source": "fox",
+        "title": "Iran attacks ships in Strait of Hormuz days after Trump gave Tehran 'a week off' for Khamenei funeral"
+      },
+      {
+        "id": "art_1783398879248_0n4hf",
+        "url": "https://www.aljazeera.com/news/2026/7/7/tanker-on-fire-off-coast-of-oman-after-being-hit-by-projectile?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Tanker on fire off coast of Oman after being hit by projectile"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "aa64524ff662933d7aaaf8ed83a13b62",
+    "topic_label": "China Severe Weather Disasters",
+    "event_window_start": "2026-07-07T06:51:54.000Z",
+    "event_window_end": "2026-07-07T17:56:09.000Z",
+    "article_ids": [
+      "art_1783449156019_akq7s",
+      "art_1783412588217_xdd0e",
+      "art_1783412592052_7zi63"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T19:49:18.199Z",
+    "updated_at": "2026-07-07T19:49:18.199Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Severe storms, including tornadoes, have impacted parts of China, resulting in fatalities and injuries.",
+      "President Xi Jinping has called for all-out rescue efforts.",
+      "State media is the source of the casualty and damage reports.",
+      "Thousands of people have been evacuated or affected by the weather."
+    ],
+    "source_claims": [
+      "[aljazeera] 17 people have been killed by tornadoes and storms in central China.",
+      "[aljazeera] 6 people were killed by Typhoon Maysak in Guangxi province, where 130,000 were evacuated and 11 are missing.",
+      "[bbc] 11 people died after thunderstorms in Hubei province, with over 300 residents injured.",
+      "[guardian] 15 people have been killed in total by the storms.",
+      "[guardian] 11 people died and 331 were injured in Hubei province due to thunderstorms and gale-force winds.",
+      "[guardian] 4,800 houses were damaged and 22 collapsed in Hubei."
+    ],
+    "framing_differences": [
+      "aljazeera frames the event as a multi-regional disaster involving both tornadoes and Typhoon Maysak, whereas bbc focuses specifically on the tornado event in Hubei province.",
+      "guardian includes information about a landslide in western China, while aljazeera focuses on flooding in Guangxi and bbc focuses on the Hubei storm damage."
+    ],
+    "contested_claims": [
+      "The total death toll is reported as 17 by aljazeera and 15 by the guardian, while the bbc reports 11 deaths specifically attributed to Hubei province."
+    ],
+    "unverified_claims": [
+      "[aljazeera] 40 rivers and waterways in Guangxi were overflowing.",
+      "[aljazeera] Guangxi issued a red alert for flooding.",
+      "[bbc] A tornado was last recorded in Hubei in 2021.",
+      "[guardian] 16 people remain buried following a landslide in the country's west."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'dire rescue scenes' to describe the aftermath.",
+      "[bbc] uses the term 'lashes' to describe the impact of the tornado.",
+      "[guardian] uses the term 'devastating storms' to describe the weather event."
+    ],
+    "safe_conclusions": [
+      "Parts of China are experiencing severe weather events, including thunderstorms and tornadoes.",
+      "There are reports of human casualties and structural damage across various provinces in China.",
+      "The Chinese government has acknowledged the weather events and called for rescue operations."
+    ],
+    "unknowns": [
+      "The exact total number of fatalities across all affected regions remains unclear due to differing reports.",
+      "The full scope of the relationship between the separate reported weather events in different provinces is not fully defined.",
+      "The current status of the 11 people reported missing in Guangxi is not updated."
+    ],
+    "synthesis": "Severe storms and tornadoes have caused multiple fatalities and injuries across several Chinese provinces. President Xi Jinping has directed government authorities to conduct all-out rescue operations. Reports from different provinces indicate varying levels of damage to housing and infrastructure.",
+    "confidence": "CONTESTED. There is inconsistent reporting regarding the total death toll and the specific meteorological events associated with the casualties in different regions.",
+    "sources": [
+      {
+        "id": "art_1783449156019_akq7s",
+        "url": "https://www.aljazeera.com/news/2026/7/7/tornadoes-kill-17-in-central-china-as-typhoon-bavi-looms-offshore?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Tornadoes kill 17 in central China as Typhoon Bavi looms offshore"
+      },
+      {
+        "id": "art_1783412588217_xdd0e",
+        "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: Moment rare tornado lashes central Chinese cities"
+      },
+      {
+        "id": "art_1783412592052_7zi63",
+        "url": "https://www.theguardian.com/world/2026/jul/07/china-severe-storms-death-toll-xi-jinping-rescue-efforts-landslides-tornadoes",
+        "source": "guardian",
+        "title": "Severe storms in China bring tornadoes and landslides that have killed 15 people"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a8b316f55df894bef095e49879aefb75",
+    "topic_label": "Graham Platner Senate scandal",
+    "event_window_start": "2026-07-06T23:10:41.000Z",
+    "event_window_end": "2026-07-07T21:24:13.000Z",
+    "article_ids": [
+      "art_1783461463750_tl6vo",
+      "art_1783461470129_56faa",
+      "art_1783449162789_19swa",
+      "art_1783441849960_1zkee",
+      "art_1783441853087_0fv3x",
+      "art_1783441855264_7pplb",
+      "art_1783423636766_du2v1",
+      "art_1783382854449_uu5qi",
+      "art_1783382860754_7jd2r"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 9,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T22:38:56.999Z",
+    "updated_at": "2026-07-07T22:38:56.999Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Graham Platner is a Democratic Senate candidate in Maine.",
+      "A former girlfriend has accused Graham Platner of rape in 2021.",
+      "Bernie Sanders has called for Graham Platner to withdraw from the race.",
+      "Multiple Democratic figures and strategists have called for Graham Platner to withdraw from the race.",
+      "Graham Platner has denied the sexual assault allegations."
+    ],
+    "source_claims": [
+      "[fox] claims Democratic operatives only performed a brief, low-cost background check on Platner.",
+      "[fox] claims Platner previously faced allegations of physical abuse.",
+      "[fox] claims Platner has a tattoo of a Nazi symbol.",
+      "[fox] claims Platner previously made disparaging Reddit posts and sent sexually explicit messages.",
+      "[guardian] claims Platner said he is taking time to reflect on the best path forward.",
+      "[fox] claims Tudor Dixon believes the timing of the allegations is a strategic political move."
+    ],
+    "framing_differences": [
+      "Fox frames the situation as a failure of Democratic vetting and an embarrassment to the party, using descriptors like 'backfiring' and 'haunt', whereas the Guardian focuses on the sequence of endorsements and official statements regarding the withdrawal calls."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims Neera Tanden and Shannon Watts referred to Platner's supporters as 'f---ing idiots'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'torch' to describe the actions of political operatives.",
+      "[fox] uses the term 'tucking tail and heading for the hills' to describe Democrats withdrawing support.",
+      "[fox] uses the term 'scandal-plagued' to describe Platner.",
+      "[fox] uses the term 'bombshell' to describe the rape allegation."
+    ],
+    "safe_conclusions": [
+      "Graham Platner is facing pressure from prominent members of the Democratic party to withdraw his candidacy following reports of sexual assault allegations."
+    ],
+    "unknowns": [
+      "The official response of the Democratic Party of Maine.",
+      "The specific details of the 2021 rape allegation beyond the media reports.",
+      "The current status of Graham Platner's campaign intentions beyond his statement that he is reflecting on the path forward."
+    ],
+    "synthesis": "Maine Democratic Senate candidate Graham Platner is facing widespread calls from party members, including Senator Bernie Sanders, to withdraw from the race following a report of sexual assault allegations. Platner has denied the claims while reportedly considering his future in the election. His candidacy is also being scrutinized regarding previous reports of a Nazi-themed tattoo and other past controversies.",
+    "confidence": "HIGH. The primary facts regarding the calls for withdrawal, the nature of the allegations, and the candidate's denial are consistently reported across the provided sources.",
+    "sources": [
+      {
+        "id": "art_1783461463750_tl6vo",
+        "url": "https://www.foxnews.com/politics/idiots-top-female-operatives-torch-platner-enablers-rape-allegation-rocks-dem-senate-race",
+        "source": "fox",
+        "title": "'F---ING IDIOTS': Top female operatives torch Platner enablers as rape allegation rocks Dem campaign"
+      },
+      {
+        "id": "art_1783461470129_56faa",
+        "url": "https://www.foxnews.com/politics/platners-three-day-vetting-job-comes-back-haunt-dems-rape-allegation-rocks-senate-bid",
+        "source": "fox",
+        "title": "Platner’s three-day vetting job comes back to haunt Dems as rape allegation rocks Senate bid"
+      },
+      {
+        "id": "art_1783449162789_19swa",
+        "url": "https://www.theguardian.com/us-news/2026/jul/07/bernie-sanders-graham-platner-maine-senate-race",
+        "source": "guardian",
+        "title": "Bernie Sanders calls on Graham Platner to withdraw from Senate race amid sexual assault claims"
+      },
+      {
+        "id": "art_1783441849960_1zkee",
+        "url": "https://www.foxnews.com/politics/progressive-dems-full-throated-platner-endorsements-haunt-rape-allegations",
+        "source": "fox",
+        "title": "Progressive Dems' full-throated Platner endorsements come back to haunt them after rape allegations"
+      },
+      {
+        "id": "art_1783441853087_0fv3x",
+        "url": "https://www.foxnews.com/politics/kingmaker-mamdani-calls-platner-drop-out-race-after-rape-allegation",
+        "source": "fox",
+        "title": "Kingmaker Mamdani calls on Platner to 'drop out of the race' after rape allegation"
+      },
+      {
+        "id": "art_1783441855264_7pplb",
+        "url": "https://www.foxnews.com/media/new-york-times-under-scrutiny-over-graham-platner-coverage-as-accusers-speaks-out-against-paper",
+        "source": "fox",
+        "title": "New York Times under scrutiny over Graham Platner coverage as accusers speak out against paper"
+      },
+      {
+        "id": "art_1783423636766_du2v1",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/07/graham-platner-democrats-senate-maine-trump-nato-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Key Democratic figures call on Graham Platner to ‘immediately’ withdraw from Senate race – US politics live"
+      },
+      {
+        "id": "art_1783382854449_uu5qi",
+        "url": "https://www.foxnews.com/media/platners-latest-accuser-couldnt-disagree-more-those-who-accuse-her-being-motivated-politics",
+        "source": "fox",
+        "title": "Platner's latest accuser 'couldn't disagree more' with those who accuse her of being motivated by politics"
+      },
+      {
+        "id": "art_1783382860754_7jd2r",
+        "url": "https://www.aljazeera.com/news/2026/7/6/leading-us-democrats-withdraw-support-for-platner-after-assault-allegations?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Leading US Democrats withdraw support for Platner after assault allegations"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6e9b4a5bdbb0512f331b329ab7efe460",
+    "topic_label": "Marine Le Pen Presidential Bid",
+    "event_window_start": "2026-07-07T04:00:29.000Z",
+    "event_window_end": "2026-07-07T20:21:11.000Z",
+    "article_ids": [
+      "art_1783456258549_6yc2r",
+      "art_1783456266928_jaemk",
+      "art_1783449158405_rf46z",
+      "art_1783441854192_uzkie",
+      "art_1783441859700_o494p",
+      "art_1783431347562_rhzh9",
+      "art_1783431350859_43wii",
+      "art_1783412595338_hogxa",
+      "art_1783398884845_xwic6"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 9,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T21:21:06.766Z",
+    "updated_at": "2026-07-07T21:21:06.766Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Marine Le Pen was found guilty by a Paris appeal court of misusing EU funds.",
+      "Marine Le Pen has stated an intention to run for the French presidency in 2027.",
+      "The court ruling involves a sentence requiring Marine Le Pen to wear an electronic ankle tag."
+    ],
+    "source_claims": [
+      "[bbc] Le Pen plans to appeal the conviction to the Court of Cassation.",
+      "[bbc] The appeal to the Court of Cassation suspends the order to wear the tag until a verdict is delivered.",
+      "[fox] The court shortened a ban on Le Pen running for elected office.",
+      "[bbc] Le Pen has stated she would not run for president if required to wear an electronic tag because she would not feel free to campaign.",
+      "[guardian] The appeal court reduced the length of the ban on holding public office and the part-suspended jail term."
+    ],
+    "framing_differences": [
+      "BBC refers to Le Pen as 'hard-right', while Fox describes her as 'conservative', and The Guardian labels her a 'far-right figurehead'.",
+      "Fox frames the court decision as having 'cleared a path' for her candidacy, whereas The Guardian focuses on the court's impact on the 'race to succeed Emmanuel Macron'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] The article discusses a statement made by Donald Trump regarding NATO allies and Iran, which is not mentioned in other sources."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'hard-right' to describe the National Rally leader.",
+      "[guardian] uses the term 'far-right' to describe Le Pen.",
+      "[fox] uses the term 'conservative' to describe Le Pen and the National Rally party."
+    ],
+    "safe_conclusions": [
+      "A Paris appeal court upheld a conviction against Marine Le Pen regarding the misuse of EU funds.",
+      "Marine Le Pen intends to seek the French presidency in 2027.",
+      "The court sentence includes a provision for wearing an electronic tag."
+    ],
+    "unknowns": [
+      "The exact final impact of the electronic tag requirement on Le Pen's ability or willingness to campaign remains subject to her appeal.",
+      "The specific date of the Court of Cassation verdict is an estimate."
+    ],
+    "synthesis": "A Paris appeal court has upheld Marine Le Pen's conviction for the misuse of EU funds while modifying her sentence. Le Pen has declared her intent to run for the French presidency in 2027 and intends to appeal the decision to the Court of Cassation. The legal proceedings have introduced uncertainty regarding her campaign activities due to a mandated electronic tag.",
+    "confidence": "HIGH. The sources are consistent regarding the primary facts of the court ruling and Le Pen's stated intent to run for office.",
+    "sources": [
+      {
+        "id": "art_1783456258549_6yc2r",
+        "url": "https://www.bbc.co.uk/news/videos/clyexverp0lo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: Marine Le Pen confirms run for French presidency"
+      },
+      {
+        "id": "art_1783456266928_jaemk",
+        "url": "https://www.bbc.co.uk/news/articles/c7vygl3zymjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Marine Le Pen to run for French presidency and appeal conviction in top court"
+      },
+      {
+        "id": "art_1783449158405_rf46z",
+        "url": "https://www.foxnews.com/world/french-court-clears-path-conservative-presidential-candidate-house-arrest-threatens-campaign",
+        "source": "fox",
+        "title": "French court clears path for conservative presidential candidate, but house arrest threatens campaign"
+      },
+      {
+        "id": "art_1783441854192_uzkie",
+        "url": "https://www.bbc.co.uk/news/articles/cly85qjg45no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Marine Le Pen found guilty, but court clears way for presidential run if she wears tag"
+      },
+      {
+        "id": "art_1783441859700_o494p",
+        "url": "https://www.theguardian.com/world/2026/jul/07/what-court-ruling-mean-marine-le-pen-presidential-chances",
+        "source": "guardian",
+        "title": "What does the court ruling mean for Marine Le Pen’s presidential chances?"
+      },
+      {
+        "id": "art_1783431347562_rhzh9",
+        "url": "https://www.theguardian.com/world/2026/jul/07/marine-le-pen-doubt-presidential-election-electronic-tag-france",
+        "source": "guardian",
+        "title": "Fresh doubt over Marine Le Pen presidential bid as court orders electronic tag"
+      },
+      {
+        "id": "art_1783431350859_43wii",
+        "url": "https://www.aljazeera.com/news/2026/7/7/france-appeals-court-opens-door-for-le-pen-presidential-run-with-ankle-tag?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "France appeals court opens door for Le Pen presidential run, with ankle tag"
+      },
+      {
+        "id": "art_1783412595338_hogxa",
+        "url": "https://www.aljazeera.com/news/2026/7/7/frances-court-of-appeal-to-rule-on-le-pen-conviction-what-its-all-about?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "France’s Court of Appeal to rule on Le Pen conviction – what it’s all about"
+      },
+      {
+        "id": "art_1783398884845_xwic6",
+        "url": "https://www.theguardian.com/world/2026/jul/07/marine-le-pen-political-future-waits-electoral-ban-upheld",
+        "source": "guardian",
+        "title": "Marine Le Pen’s political future at stake with ruling on electoral ban imminent"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4a0884ef8af6ab41af98b276fc104874",
+    "topic_label": "NATO summit in Turkiye",
+    "event_window_start": "2026-07-07T04:00:30.000Z",
+    "event_window_end": "2026-07-07T20:08:40.000Z",
+    "article_ids": [
+      "art_1783456263783_3cyfe",
+      "art_1783449159544_8og4p",
+      "art_1783412583576_8dnwn",
+      "art_1783412596396_gll14",
+      "art_1783398881513_6dmtc",
+      "art_1783398883759_dshim"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T22:38:56.999Z",
+    "updated_at": "2026-07-07T22:38:56.999Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A NATO summit of 32 member states is occurring in Ankara, Turkiye.",
+      "The summit takes place over Tuesday and Wednesday.",
+      "US President Donald Trump is attending the summit.",
+      "Discussions at the summit include defense spending and geopolitical tensions related to Iran and Greenland."
+    ],
+    "source_claims": [
+      "[aljazeera] US President Trump declared he is very disappointed with NATO.",
+      "[aljazeera] NATO members agreed last year to increase spending targets to 5 percent of GDP by 2035, with 3.5 percent on military spending and 1.5 percent on security-related needs.",
+      "[guardian] President Trump threatened to pull all American armed forces out of Europe.",
+      "[guardian] NATO is set to announce $40bn in new investments for anti-drone capabilities.",
+      "[guardian] NATO will purchase Saab GlobalEye surveillance planes, selecting the Swedish company over Boeing.",
+      "[guardian] NATO will purchase five Northrop Grumman MQ-4C Triton high-altitude surveillance drones.",
+      "[guardian] Secretary General Mark Rutte stated that President Trump expects allies to immediately commit to a path toward 5 percent defense spending."
+    ],
+    "framing_differences": [
+      "aljazeera frames the summit as occurring at a fragile time for the alliance due to disagreements over defense spending, Iran, and Greenland, while focusing on the diplomatic interactions of President Trump. The guardian frames the summit as a 'difficult' and 'turbulent' event, emphasizing the need for European allies to mollify an 'unpredictable' US President while highlighting specific new arms contracts."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] President Trump stated that if the summit were not held in Turkiye, where his friend is a strong leader, the nature of the event might differ.",
+      "[guardian] President Trump suggested his commitment to defending Europe has been tempered by European political decisions regarding immigration and energy."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'unpredictable' to describe President Donald Trump.",
+      "[guardian] uses the term 'bruising' to describe the past year for NATO.",
+      "[aljazeera] uses the term 'lashes out' to describe President Trump's behavior toward NATO.",
+      "[guardian] uses the term 'rails against' to describe President Trump's rhetoric regarding NATO's stance on the Iran war."
+    ],
+    "safe_conclusions": [
+      "The 32 NATO member states have convened in Ankara for a summit.",
+      "Defense spending remains a primary topic of discussion between the US and European NATO members.",
+      "New military procurement contracts are being discussed at the summit."
+    ],
+    "unknowns": [
+      "The exact details of the bilateral agreements reached regarding defense spending.",
+      "The full scope of the discussed 'Iran war' and its specific impact on current NATO policy.",
+      "Whether all NATO member states have officially ratified the 5 percent GDP spending target mentioned by sources."
+    ],
+    "synthesis": "NATO leaders have gathered in Ankara, Turkiye, for a two-day summit centered on defense spending and regional geopolitical tensions. US President Donald Trump is in attendance, where he has expressed criticism regarding member states' financial commitments and other policy issues. The alliance is concurrently preparing to unveil significant new arms procurement contracts and defense investment initiatives.",
+    "confidence": "HIGH. The sources consistently report the location, participants, and primary thematic focus of the summit, with minor variations in the reporting of specific secondary procurement details.",
+    "sources": [
+      {
+        "id": "art_1783456263783_3cyfe",
+        "url": "https://www.aljazeera.com/news/2026/7/7/trump-lashes-out-at-nato-as-first-day-of-summit-wraps-in-turkiye?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump lashes out at NATO as first day of summit wraps in Turkiye"
+      },
+      {
+        "id": "art_1783449159544_8og4p",
+        "url": "https://www.theguardian.com/world/2026/jul/07/trump-renews-call-us-take-over-greenland-nato",
+        "source": "guardian",
+        "title": "Trump renews call for US to take over Greenland as he arrives for Nato summit"
+      },
+      {
+        "id": "art_1783412583576_8dnwn",
+        "url": "https://www.theguardian.com/world/live/2026/jul/07/nato-summit-zelenskyy-trump-ukraine-rutte-defence-eu-spending-turkey-france-macron-le-pen-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "Nato summit begins with focus on defence spending as Zelenskyy and Trump due to meet - Europe live"
+      },
+      {
+        "id": "art_1783412596396_gll14",
+        "url": "https://www.aljazeera.com/news/2026/7/7/nato-summit-begins-who-is-attending-and-what-is-at-stake?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "NATO summit begins in Turkiye’s Ankara: Who is attending, what is at stake?"
+      },
+      {
+        "id": "art_1783398881513_6dmtc",
+        "url": "https://www.theguardian.com/world/2026/jul/07/nato-braces-for-difficult-summit-as-trump-puts-pressure-on-spending",
+        "source": "guardian",
+        "title": "Nato braces for difficult summit as Trump puts pressure on spending"
+      },
+      {
+        "id": "art_1783398883759_dshim",
+        "url": "https://www.theguardian.com/world/2026/jul/07/europe-faces-up-to-prospect-us-may-be-unable-to-arm-nato-allies",
+        "source": "guardian",
+        "title": "Europe faces up to prospect US may be unable to arm Nato allies"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e061ab0eba7aed1169e39a5082879d1a",
+    "topic_label": "Charlie Kirk shooting hearing",
+    "event_window_start": "2026-07-07T03:41:42.000Z",
+    "event_window_end": "2026-07-07T20:00:57.000Z",
+    "article_ids": [
+      "art_1783456265898_5qzil",
+      "art_1783449154988_fiihb",
+      "art_1783398887175_no44v"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T22:38:56.999Z",
+    "updated_at": "2026-07-07T22:38:56.999Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A preliminary hearing for Tyler Robinson, 23, is taking place in Utah regarding the death of Charlie Kirk.",
+      "The hearing is scheduled to last approximately one week.",
+      "Tyler Robinson is charged with the shooting death of Charlie Kirk at Utah Valley University on September 10, 2025."
+    ],
+    "source_claims": [
+      "[bbc] Prosecutors presented surveillance footage appearing to show Robinson running across a rooftop and jumping off while holding an object.",
+      "[guardian] Prosecutors presented video evidence that they state shows Robinson entering the university campus and climbing onto a roof to fire a fatal shot.",
+      "[fox] During Monday's proceedings, audio of the shooting was played, and Judge Tony Graf appeared to flinch while reviewing video evidence not visible to the courtroom audience."
+    ],
+    "framing_differences": [
+      "BBC frames the event focus around the release of new footage of the suspect; Guardian frames the event around the prosecution's effort to demonstrate sufficient evidence for trial; Fox frames the event around the emotional interaction between the victim's family and the accused."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The suspect was holding an object while jumping off the roof.",
+      "[guardian] The suspect fired a fatal shot from the roof."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'accused assassin' to describe Tyler Robinson.",
+      "[bbc] uses the term 'accused' to describe Tyler Robinson."
+    ],
+    "safe_conclusions": [
+      "Tyler Robinson is currently undergoing a preliminary hearing in Utah to determine if there is sufficient evidence for his trial regarding the death of Charlie Kirk."
+    ],
+    "unknowns": [
+      "The specific nature or identity of the 'object' mentioned in the BBC report.",
+      "The reaction of the suspect to the video evidence shown in court.",
+      "Whether the judge has made an official ruling on the sufficiency of the evidence."
+    ],
+    "synthesis": "A preliminary hearing is underway in Utah for 23-year-old Tyler Robinson, who is charged with the fatal shooting of activist Charlie Kirk at Utah Valley University on September 10, 2025. Prosecutors have presented video evidence, including footage and audio from the day of the incident, to establish that there is sufficient evidence for the case to move to trial. The hearing is expected to continue for the duration of the week.",
+    "confidence": "HIGH: The sources consistently report on the ongoing preliminary hearing, the identity of the accused, and the nature of the charges.",
+    "sources": [
+      {
+        "id": "art_1783456265898_5qzil",
+        "url": "https://www.bbc.co.uk/news/articles/cr5j983p046o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "New footage shown at Kirk hearing shows man on rooftop near shooting scene"
+      },
+      {
+        "id": "art_1783449154988_fiihb",
+        "url": "https://www.theguardian.com/us-news/2026/jul/07/charlie-kirk-muder-tyler-james-robinson-utah-hearing",
+        "source": "guardian",
+        "title": "Prosecutors show video of Charlie Kirk’s killing on second day of hearing"
+      },
+      {
+        "id": "art_1783398887175_no44v",
+        "url": "https://www.foxnews.com/us/charlie-kirk-family-comes-face-face-accused-assassin-first-time",
+        "source": "fox",
+        "title": "Charlie Kirk's family comes face to face with accused assassin for first time"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b66d02fcda589e3445fd10745cc7de4b",
+    "topic_label": "Cuba power blackouts",
+    "event_window_start": "2026-07-06T23:42:16.000Z",
+    "event_window_end": "2026-07-07T02:29:45.000Z",
+    "article_ids": [
+      "art_1783398891553_jlw7n",
+      "art_1783382855481_4fz68"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T05:33:20.994Z",
+    "updated_at": "2026-07-07T05:33:20.994Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Cuba experienced an island-wide power blackout on Monday.",
+      "This event marks the third major nationwide blackout in Cuba this year.",
+      "The state-run Electric Union (UNE) announced that the causes of the blackout are under investigation.",
+      "The blackout affected a population of approximately 10 million people.",
+      "Cuba is currently experiencing an energy crisis characterized by fuel shortages and a deteriorating electric grid."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the energy crisis is precipitated by a US fuel blockade.",
+      "[aljazeera] claims Cuban Energy and Mines Minister Vicente de la O Levy stated that vital services remain protected.",
+      "[fox] claims former Treasury sanctions official Max Meizlish stated the Trump administration is expanding pressure on foreign entities tied to Cuba's economic empire."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the blackout as a consequence of a US fuel blockade, whereas Fox frames the broader energy crisis within the context of US-led economic and sanctions pressure on Cuba."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the energy crisis is specifically caused by a US fuel blockade.",
+      "[fox] claims the Trump administration is currently expanding pressure on foreign banks and companies."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'blockade' to describe US energy policies toward Cuba.",
+      "[fox] uses the term 'military-linked economic empire' to describe Cuba's economic structure."
+    ],
+    "safe_conclusions": [
+      "Cuba suffered a total disconnection of its National Electric Power System on Monday.",
+      "The Cuban state-run Electric Union is investigating the cause of the outage.",
+      "Efforts to restore power to some areas were underway following the blackout."
+    ],
+    "unknowns": [
+      "The specific technical cause of the electrical grid failure.",
+      "The exact timeline for full restoration of electricity across the country.",
+      "The long-term impact of current US sanctions on the specific operational failures of the Cuban power grid."
+    ],
+    "synthesis": "Cuba experienced a total nationwide power outage on Monday, marking the third such event this year. State-run utility officials have initiated an investigation into the cause while working to restore services to critical sectors. The country continues to face a significant energy crisis fueled by chronic fuel shortages and aging infrastructure.",
+    "confidence": "HIGH: All sources agree on the occurrence and scope of the blackout and the fact that an official investigation is underway.",
+    "sources": [
+      {
+        "id": "art_1783398891553_jlw7n",
+        "url": "https://www.aljazeera.com/news/2026/7/7/cuba-sees-nationwide-power-blackout-for-third-time-in-six-months?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Cuba sees nationwide power blackout for third time in six months"
+      },
+      {
+        "id": "art_1783382855481_4fz68",
+        "url": "https://www.foxnews.com/world/cuba-plunges-third-major-blackout-year-power-crisis-worsens",
+        "source": "fox",
+        "title": "Cuba plunges into third major blackout this year as power crisis worsens"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "cc5cf209b8864871e81bfaaeb8e358ef",
+    "topic_label": "World Cup soccer coverage",
+    "event_window_start": "2026-07-07T02:23:55.000Z",
+    "event_window_end": "2026-07-07T20:10:08.000Z",
+    "article_ids": [
+      "art_1783456262753_34luv",
+      "art_1783456269009_82thr",
+      "art_1783456270040_ovfiy",
+      "art_1783456271072_k2fbs",
+      "art_1783441857456_qtx4g",
+      "art_1783431335827_n6sqf",
+      "art_1783431340776_t9vv7",
+      "art_1783431345264_u57cz",
+      "art_1783398889422_vvljs",
+      "art_1783398893757_ch109"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 10,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-07T22:38:56.999Z",
+    "updated_at": "2026-07-07T22:38:56.999Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The United States men's national soccer team lost to Belgium 4-1 in a World Cup round of 16 match.",
+      "Argentina defeated Egypt 3-2 in a World Cup round of 16 match."
+    ],
+    "source_claims": [
+      "[fox] claims the USA vs. Belgium match set a viewership record of 30 million viewers, with a peak of 36.895 million.",
+      "[fox] claims Colombian soccer fans gathered in Vancouver ahead of their match against Switzerland.",
+      "[fox] claims Tyler Terens stated Team USA was not aggressive and 'got suffocated' against Belgium.",
+      "[aljazeera] claims Argentina's win over Egypt was tainted by controversial refereeing decisions.",
+      "[aljazeera] claims Egypt had a goal disallowed during the match against Argentina."
+    ],
+    "framing_differences": [
+      "Fox frames the USA vs. Belgium match as a record-setting media event despite the loss, whereas the commentary by Tyler Terens in the same outlet frames it as a disappointing, unaggressive performance.",
+      "Al Jazeera frames the Argentina-Egypt match through the lens of 'controversial refereeing' and 'tainted' results, whereas Fox frames the same match as one of the 'greatest World Cup comebacks ever.'"
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims international fan interactions during the World Cup are 'dispelling media-driven misconceptions' about the United States.",
+      "[aljazeera] claims Argentina's victory was 'tainted' by officiating."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'blown out' to describe the USA's 4-1 loss to Belgium.",
+      "[fox] uses the term 'disheartening' to describe the USMNT's loss.",
+      "[aljazeera] uses the term 'tainted' to describe Argentina's win.",
+      "[aljazeera] uses the term 'highly charged' to describe the atmosphere at Atlanta Stadium.",
+      "[fox] uses the term 'improbable' to describe Argentina's comeback victory."
+    ],
+    "safe_conclusions": [
+      "The United States was eliminated from the World Cup by Belgium.",
+      "Argentina advanced to the next round of the World Cup after defeating Egypt.",
+      "Both the USA-Belgium match and the Argentina-Egypt match occurred during the round of 16 of the 2026 World Cup."
+    ],
+    "unknowns": [
+      "The specific nature of the 'controversial refereeing decisions' mentioned by Al Jazeera in the Argentina vs. Egypt match.",
+      "The exact viewership metrics for the Argentina vs. Egypt match."
+    ],
+    "synthesis": "The 2026 FIFA World Cup round of 16 saw the United States eliminated after a 4-1 loss to Belgium in a game that reportedly set U.S. viewership records. Meanwhile, Argentina advanced to the next stage following a 3-2 comeback victory against Egypt. Media coverage of these events highlights contrasting perspectives, ranging from technical analysis of match performance to concerns regarding officiating.",
+    "confidence": "HIGH: The outcomes of the matches and the participating teams are corroborated across the provided reports, while differences in tone reflect subjective analysis rather than factual disagreement.",
+    "sources": [
+      {
+        "id": "art_1783456262753_34luv",
+        "url": "https://www.foxnews.com/sports/usa-belgium-most-watched-soccer-telecast-us-history-staggering-viewership-numbers",
+        "source": "fox",
+        "title": "USA-Belgium becomes most-watched soccer telecast in US history with staggering viewership numbers"
+      },
+      {
+        "id": "art_1783456269009_82thr",
+        "url": "https://www.foxnews.com/outkick-sports/colombia-soccer-fans-invade-vancouver-world-cup-round-16-clash-switzerland",
+        "source": "fox",
+        "title": "Colombia soccer fans invade Vancouver ahead of World Cup Round of 16 clash with Switzerland"
+      },
+      {
+        "id": "art_1783456270040_ovfiy",
+        "url": "https://www.aljazeera.com/sports/2026/7/7/why-was-the-second-half-of-the-argentina-vs-egypt-world-cup-game-controversial?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What was the VAR controversy in the second half of Argentina vs Egypt?"
+      },
+      {
+        "id": "art_1783456271072_k2fbs",
+        "url": "https://www.foxnews.com/sports/argentina-pull-off-one-greatest-world-cup-comebacks-ever-avoid-massive-upset-against-egypt",
+        "source": "fox",
+        "title": "Argentina pull off one of greatest World Cup comebacks ever to avoid massive upset against Egypt"
+      },
+      {
+        "id": "art_1783441857456_qtx4g",
+        "url": "https://www.foxnews.com/outkick-sports/world-cup-round-16-betting-guide-argentina-colombia-corners-market-leading-way",
+        "source": "fox",
+        "title": "World Cup Round of 16 betting guide with Argentina, Colombia and the corners market leading the way"
+      },
+      {
+        "id": "art_1783431335827_n6sqf",
+        "url": "https://www.foxnews.com/outkick-sports/team-usa-looked-like-bunch-woke-bartenders-against-belgium-swift-kelce-napkin-sale-dart-boat-party",
+        "source": "fox",
+        "title": "Team USA looked like a bunch of woke bartenders against Belgium, Swift-Kelce napkin for sale & Dart boat party"
+      },
+      {
+        "id": "art_1783431340776_t9vv7",
+        "url": "https://www.theguardian.com/media/2026/jul/07/england-world-cup-win-mexico-breaks-viewing-records-bbc",
+        "source": "guardian",
+        "title": "England’s World Cup win over Mexico at 2am breaks viewing records across BBC"
+      },
+      {
+        "id": "art_1783431345264_u57cz",
+        "url": "https://www.theguardian.com/football/2026/jul/07/belgium-fans-celebrate-world-cup-usa-donald-trump",
+        "source": "guardian",
+        "title": "Belgium unites to enjoy national team’s World Cup success over USA and Trump"
+      },
+      {
+        "id": "art_1783398889422_vvljs",
+        "url": "https://www.theguardian.com/football/2026/jul/06/belgium-reaction-victory-usa-world-cup-red-card",
+        "source": "guardian",
+        "title": "‘Overturn this’: victorious Belgium throw barb after Balogun red-card controversy"
+      },
+      {
+        "id": "art_1783398893757_ch109",
+        "url": "https://www.aljazeera.com/sports/2026/7/7/fifa-defends-balogun-red-card-referee-after-trump-calls-him-a-bit-suspect?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FIFA defends Balogun red card referee after Trump calls him ‘a bit suspect’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "16b7e06beb6e954686ba8126ea7a4bde",
     "topic_label": "Middle East Conflicts and Attacks",
     "event_window_start": "2026-07-07T03:25:11.000Z",
@@ -220,131 +1047,6 @@
         "url": "https://www.theguardian.com/world/2026/jul/07/europe-faces-up-to-prospect-us-may-be-unable-to-arm-nato-allies",
         "source": "guardian",
         "title": "Europe faces up to prospect US may be unable to arm Nato allies"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6e9b4a5bdbb0512f331b329ab7efe460",
-    "topic_label": "Marine Le Pen Presidential Bid",
-    "event_window_start": "2026-07-07T04:00:29.000Z",
-    "event_window_end": "2026-07-07T20:21:11.000Z",
-    "article_ids": [
-      "art_1783456258549_6yc2r",
-      "art_1783456266928_jaemk",
-      "art_1783449158405_rf46z",
-      "art_1783441854192_uzkie",
-      "art_1783441859700_o494p",
-      "art_1783431347562_rhzh9",
-      "art_1783431350859_43wii",
-      "art_1783412595338_hogxa",
-      "art_1783398884845_xwic6"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T21:21:06.766Z",
-    "updated_at": "2026-07-07T21:21:06.766Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Marine Le Pen was found guilty by a Paris appeal court of misusing EU funds.",
-      "Marine Le Pen has stated an intention to run for the French presidency in 2027.",
-      "The court ruling involves a sentence requiring Marine Le Pen to wear an electronic ankle tag."
-    ],
-    "source_claims": [
-      "[bbc] Le Pen plans to appeal the conviction to the Court of Cassation.",
-      "[bbc] The appeal to the Court of Cassation suspends the order to wear the tag until a verdict is delivered.",
-      "[fox] The court shortened a ban on Le Pen running for elected office.",
-      "[bbc] Le Pen has stated she would not run for president if required to wear an electronic tag because she would not feel free to campaign.",
-      "[guardian] The appeal court reduced the length of the ban on holding public office and the part-suspended jail term."
-    ],
-    "framing_differences": [
-      "BBC refers to Le Pen as 'hard-right', while Fox describes her as 'conservative', and The Guardian labels her a 'far-right figurehead'.",
-      "Fox frames the court decision as having 'cleared a path' for her candidacy, whereas The Guardian focuses on the court's impact on the 'race to succeed Emmanuel Macron'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] The article discusses a statement made by Donald Trump regarding NATO allies and Iran, which is not mentioned in other sources."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'hard-right' to describe the National Rally leader.",
-      "[guardian] uses the term 'far-right' to describe Le Pen.",
-      "[fox] uses the term 'conservative' to describe Le Pen and the National Rally party."
-    ],
-    "safe_conclusions": [
-      "A Paris appeal court upheld a conviction against Marine Le Pen regarding the misuse of EU funds.",
-      "Marine Le Pen intends to seek the French presidency in 2027.",
-      "The court sentence includes a provision for wearing an electronic tag."
-    ],
-    "unknowns": [
-      "The exact final impact of the electronic tag requirement on Le Pen's ability or willingness to campaign remains subject to her appeal.",
-      "The specific date of the Court of Cassation verdict is an estimate."
-    ],
-    "synthesis": "A Paris appeal court has upheld Marine Le Pen's conviction for the misuse of EU funds while modifying her sentence. Le Pen has declared her intent to run for the French presidency in 2027 and intends to appeal the decision to the Court of Cassation. The legal proceedings have introduced uncertainty regarding her campaign activities due to a mandated electronic tag.",
-    "confidence": "HIGH. The sources are consistent regarding the primary facts of the court ruling and Le Pen's stated intent to run for office.",
-    "sources": [
-      {
-        "id": "art_1783456258549_6yc2r",
-        "url": "https://www.bbc.co.uk/news/videos/clyexverp0lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: Marine Le Pen confirms run for French presidency"
-      },
-      {
-        "id": "art_1783456266928_jaemk",
-        "url": "https://www.bbc.co.uk/news/articles/c7vygl3zymjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Marine Le Pen to run for French presidency and appeal conviction in top court"
-      },
-      {
-        "id": "art_1783449158405_rf46z",
-        "url": "https://www.foxnews.com/world/french-court-clears-path-conservative-presidential-candidate-house-arrest-threatens-campaign",
-        "source": "fox",
-        "title": "French court clears path for conservative presidential candidate, but house arrest threatens campaign"
-      },
-      {
-        "id": "art_1783441854192_uzkie",
-        "url": "https://www.bbc.co.uk/news/articles/cly85qjg45no?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Marine Le Pen found guilty, but court clears way for presidential run if she wears tag"
-      },
-      {
-        "id": "art_1783441859700_o494p",
-        "url": "https://www.theguardian.com/world/2026/jul/07/what-court-ruling-mean-marine-le-pen-presidential-chances",
-        "source": "guardian",
-        "title": "What does the court ruling mean for Marine Le Pen’s presidential chances?"
-      },
-      {
-        "id": "art_1783431347562_rhzh9",
-        "url": "https://www.theguardian.com/world/2026/jul/07/marine-le-pen-doubt-presidential-election-electronic-tag-france",
-        "source": "guardian",
-        "title": "Fresh doubt over Marine Le Pen presidential bid as court orders electronic tag"
-      },
-      {
-        "id": "art_1783431350859_43wii",
-        "url": "https://www.aljazeera.com/news/2026/7/7/france-appeals-court-opens-door-for-le-pen-presidential-run-with-ankle-tag?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "France appeals court opens door for Le Pen presidential run, with ankle tag"
-      },
-      {
-        "id": "art_1783412595338_hogxa",
-        "url": "https://www.aljazeera.com/news/2026/7/7/frances-court-of-appeal-to-rule-on-le-pen-conviction-what-its-all-about?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "France’s Court of Appeal to rule on Le Pen conviction – what it’s all about"
-      },
-      {
-        "id": "art_1783398884845_xwic6",
-        "url": "https://www.theguardian.com/world/2026/jul/07/marine-le-pen-political-future-waits-electoral-ban-upheld",
-        "source": "guardian",
-        "title": "Marine Le Pen’s political future at stake with ruling on electoral ban imminent"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -638,96 +1340,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/7/6/aje-onl-nf_the-balogun-scandal-060726?traffic_source=rss",
         "source": "aljazeera",
         "title": "One Phone Call, One Vanishing Red Card — The Balogun Scandal"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "aa64524ff662933d7aaaf8ed83a13b62",
-    "topic_label": "China Severe Weather Disasters",
-    "event_window_start": "2026-07-07T06:51:54.000Z",
-    "event_window_end": "2026-07-07T17:56:09.000Z",
-    "article_ids": [
-      "art_1783449156019_akq7s",
-      "art_1783412588217_xdd0e",
-      "art_1783412592052_7zi63"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T19:49:18.199Z",
-    "updated_at": "2026-07-07T19:49:18.199Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Severe storms, including tornadoes, have impacted parts of China, resulting in fatalities and injuries.",
-      "President Xi Jinping has called for all-out rescue efforts.",
-      "State media is the source of the casualty and damage reports.",
-      "Thousands of people have been evacuated or affected by the weather."
-    ],
-    "source_claims": [
-      "[aljazeera] 17 people have been killed by tornadoes and storms in central China.",
-      "[aljazeera] 6 people were killed by Typhoon Maysak in Guangxi province, where 130,000 were evacuated and 11 are missing.",
-      "[bbc] 11 people died after thunderstorms in Hubei province, with over 300 residents injured.",
-      "[guardian] 15 people have been killed in total by the storms.",
-      "[guardian] 11 people died and 331 were injured in Hubei province due to thunderstorms and gale-force winds.",
-      "[guardian] 4,800 houses were damaged and 22 collapsed in Hubei."
-    ],
-    "framing_differences": [
-      "aljazeera frames the event as a multi-regional disaster involving both tornadoes and Typhoon Maysak, whereas bbc focuses specifically on the tornado event in Hubei province.",
-      "guardian includes information about a landslide in western China, while aljazeera focuses on flooding in Guangxi and bbc focuses on the Hubei storm damage."
-    ],
-    "contested_claims": [
-      "The total death toll is reported as 17 by aljazeera and 15 by the guardian, while the bbc reports 11 deaths specifically attributed to Hubei province."
-    ],
-    "unverified_claims": [
-      "[aljazeera] 40 rivers and waterways in Guangxi were overflowing.",
-      "[aljazeera] Guangxi issued a red alert for flooding.",
-      "[bbc] A tornado was last recorded in Hubei in 2021.",
-      "[guardian] 16 people remain buried following a landslide in the country's west."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'dire rescue scenes' to describe the aftermath.",
-      "[bbc] uses the term 'lashes' to describe the impact of the tornado.",
-      "[guardian] uses the term 'devastating storms' to describe the weather event."
-    ],
-    "safe_conclusions": [
-      "Parts of China are experiencing severe weather events, including thunderstorms and tornadoes.",
-      "There are reports of human casualties and structural damage across various provinces in China.",
-      "The Chinese government has acknowledged the weather events and called for rescue operations."
-    ],
-    "unknowns": [
-      "The exact total number of fatalities across all affected regions remains unclear due to differing reports.",
-      "The full scope of the relationship between the separate reported weather events in different provinces is not fully defined.",
-      "The current status of the 11 people reported missing in Guangxi is not updated."
-    ],
-    "synthesis": "Severe storms and tornadoes have caused multiple fatalities and injuries across several Chinese provinces. President Xi Jinping has directed government authorities to conduct all-out rescue operations. Reports from different provinces indicate varying levels of damage to housing and infrastructure.",
-    "confidence": "CONTESTED. There is inconsistent reporting regarding the total death toll and the specific meteorological events associated with the casualties in different regions.",
-    "sources": [
-      {
-        "id": "art_1783449156019_akq7s",
-        "url": "https://www.aljazeera.com/news/2026/7/7/tornadoes-kill-17-in-central-china-as-typhoon-bavi-looms-offshore?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Tornadoes kill 17 in central China as Typhoon Bavi looms offshore"
-      },
-      {
-        "id": "art_1783412588217_xdd0e",
-        "url": "https://www.bbc.co.uk/news/videos/cq61d22ved2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: Moment rare tornado lashes central Chinese cities"
-      },
-      {
-        "id": "art_1783412592052_7zi63",
-        "url": "https://www.theguardian.com/world/2026/jul/07/china-severe-storms-death-toll-xi-jinping-rescue-efforts-landslides-tornadoes",
-        "source": "guardian",
-        "title": "Severe storms in China bring tornadoes and landslides that have killed 15 people"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -2218,80 +2830,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/6/ebola-death-toll-in-dr-congo-surpasses-500?traffic_source=rss",
         "source": "aljazeera",
         "title": "Ebola death toll in DR Congo surpasses 500"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b66d02fcda589e3445fd10745cc7de4b",
-    "topic_label": "Cuba power blackouts",
-    "event_window_start": "2026-07-06T23:42:16.000Z",
-    "event_window_end": "2026-07-07T02:29:45.000Z",
-    "article_ids": [
-      "art_1783398891553_jlw7n",
-      "art_1783382855481_4fz68"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T05:33:20.994Z",
-    "updated_at": "2026-07-07T05:33:20.994Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Cuba experienced an island-wide power blackout on Monday.",
-      "This event marks the third major nationwide blackout in Cuba this year.",
-      "The state-run Electric Union (UNE) announced that the causes of the blackout are under investigation.",
-      "The blackout affected a population of approximately 10 million people.",
-      "Cuba is currently experiencing an energy crisis characterized by fuel shortages and a deteriorating electric grid."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the energy crisis is precipitated by a US fuel blockade.",
-      "[aljazeera] claims Cuban Energy and Mines Minister Vicente de la O Levy stated that vital services remain protected.",
-      "[fox] claims former Treasury sanctions official Max Meizlish stated the Trump administration is expanding pressure on foreign entities tied to Cuba's economic empire."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the blackout as a consequence of a US fuel blockade, whereas Fox frames the broader energy crisis within the context of US-led economic and sanctions pressure on Cuba."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims the energy crisis is specifically caused by a US fuel blockade.",
-      "[fox] claims the Trump administration is currently expanding pressure on foreign banks and companies."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'blockade' to describe US energy policies toward Cuba.",
-      "[fox] uses the term 'military-linked economic empire' to describe Cuba's economic structure."
-    ],
-    "safe_conclusions": [
-      "Cuba suffered a total disconnection of its National Electric Power System on Monday.",
-      "The Cuban state-run Electric Union is investigating the cause of the outage.",
-      "Efforts to restore power to some areas were underway following the blackout."
-    ],
-    "unknowns": [
-      "The specific technical cause of the electrical grid failure.",
-      "The exact timeline for full restoration of electricity across the country.",
-      "The long-term impact of current US sanctions on the specific operational failures of the Cuban power grid."
-    ],
-    "synthesis": "Cuba experienced a total nationwide power outage on Monday, marking the third such event this year. State-run utility officials have initiated an investigation into the cause while working to restore services to critical sectors. The country continues to face a significant energy crisis fueled by chronic fuel shortages and aging infrastructure.",
-    "confidence": "HIGH: All sources agree on the occurrence and scope of the blackout and the fact that an official investigation is underway.",
-    "sources": [
-      {
-        "id": "art_1783398891553_jlw7n",
-        "url": "https://www.aljazeera.com/news/2026/7/7/cuba-sees-nationwide-power-blackout-for-third-time-in-six-months?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cuba sees nationwide power blackout for third time in six months"
-      },
-      {
-        "id": "art_1783382855481_4fz68",
-        "url": "https://www.foxnews.com/world/cuba-plunges-third-major-blackout-year-power-crisis-worsens",
-        "source": "fox",
-        "title": "Cuba plunges into third major blackout this year as power crisis worsens"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18888,435 +19426,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/3/mapping-irans-ali-khamenei-funeral-where-mourners-will-gather-each-day?traffic_source=rss",
         "source": "aljazeera",
         "title": "Mapping Iran’s Ali Khamenei funeral: Where mourners will gather each day"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f3a3f870d68f3e54166418b2012c58a9",
-    "topic_label": "Andy Burnham UK Politics",
-    "event_window_start": "2026-07-02T19:38:16.000Z",
-    "event_window_end": "2026-07-03T15:08:14.000Z",
-    "article_ids": [
-      "art_1783092928345_246kl",
-      "art_1783092940367_28ans",
-      "art_1783067718643_24psy",
-      "art_1783067732193_yfp62",
-      "art_1783028719791_4tw7q",
-      "art_1783022648394_ulvne"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-03T19:13:08.663Z",
-    "updated_at": "2026-07-03T19:13:08.663Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Andy Burnham is widely regarded as the presumptive next Prime Minister.",
-      "Burnham recently won a seat in parliament representing Makerfield.",
-      "Burnham has engaged with media outlets such as LBC to discuss policy positions.",
-      "Burnham is operating under the fiscal constraints of the existing Labour manifesto."
-    ],
-    "source_differences": [
-      "The Guardian focuses on Burnham's media communication strategy, his specific tax flexibility for businesses, and the electoral impact of his succession.",
-      "Al Jazeera focuses on Burnham's commitment to fully funding the UK's defence investment plan and his specific response to a documented funding gap."
-    ],
-    "synthesis": "Andy Burnham is positioned to succeed Keir Starmer as Prime Minister, facing immediate challenges regarding fiscal policy and defence funding. While he has committed to Labour's 2024 manifesto pledges, he has signaled potential flexibility regarding business-related tax adjustments. His transition is currently defined by a evolving media management style and intense public scrutiny over his future governing strategy.",
-    "confidence": "High: The reporting across sources is consistent, though the outlets prioritize different aspects of Burnham's political profile.",
-    "sources": [
-      {
-        "id": "art_1783092928345_246kl",
-        "url": "https://www.theguardian.com/politics/2026/jul/03/andy-burnham-labour-prime-minister-speech-analysis",
-        "source": "guardian",
-        "title": "Is Andy Burnham dodging scrutiny, or is he just a different type of communicator?"
-      },
-      {
-        "id": "art_1783092940367_28ans",
-        "url": "https://www.theguardian.com/politics/2026/jul/03/hugely-significant-biggest-ever-byelection-will-test-nations-mood-and-burnhams-credentials",
-        "source": "guardian",
-        "title": "‘Hugely significant’: biggest ever byelection will test nation’s mood – and Burnham’s credentials"
-      },
-      {
-        "id": "art_1783067718643_24psy",
-        "url": "https://www.theguardian.com/politics/live/2026/jul/03/andy-burnham-says-labour-manifesto-has-room-for-movement-on-tax-uk-politics-live",
-        "source": "guardian",
-        "title": "Andy Burnham says Labour manifesto has room for ‘movement on tax’ – UK politics live"
-      },
-      {
-        "id": "art_1783067732193_yfp62",
-        "url": "https://www.theguardian.com/business/2026/jul/03/burnham-funding-gap-uk-finances-pm-in-waiting",
-        "source": "guardian",
-        "title": "Burnham’s funding gap: what state are UK finances in for the PM-in-waiting?"
-      },
-      {
-        "id": "art_1783028719791_4tw7q",
-        "url": "https://www.aljazeera.com/news/2026/7/2/uks-likely-next-leader-andy-burnham-vows-to-fully-fund-defence-plans?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK’s likely next leader Andy Burnham vows to fully fund defence plans"
-      },
-      {
-        "id": "art_1783022648394_ulvne",
-        "url": "https://www.theguardian.com/politics/2026/jul/02/burnham-promises-to-ease-cost-of-living-pressures-if-he-becomes-prime-minister",
-        "source": "guardian",
-        "title": "Burnham promises to ease cost of living pressures if he becomes prime minister"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1c6f6aeafaad59cf0d72af72c6f5e67e",
-    "topic_label": "Death of Iran's Ayatollah Khamenei",
-    "event_window_start": "2026-07-03T04:18:04.000Z",
-    "event_window_end": "2026-07-03T10:29:51.000Z",
-    "article_ids": [
-      "art_1783078324645_clgf1",
-      "art_1783067721732_rukh0",
-      "art_1783067733286_pxdws",
-      "art_1783055639626_22dz0",
-      "art_1783055640685_4hjs5"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-03T14:41:36.760Z",
-    "updated_at": "2026-07-03T14:41:36.760Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ayatollah Ali Khamenei was the Supreme Leader of Iran.",
-      "Khamenei died in February due to US and Israeli military strikes.",
-      "Funeral processions are taking place in Iran.",
-      "The burial is scheduled to occur in the city of Mashhad.",
-      "The funeral events span several days of public mourning."
-    ],
-    "source_differences": [
-      "The Guardian reports a six-day funeral starting Saturday, while Al Jazeera and the BBC describe a seven-day funeral beginning Friday.",
-      "The BBC mentions the funeral coincides with a fragile ceasefire and preliminary peace deal, details omitted by other sources.",
-      "Al Jazeera includes information regarding the attendance of representatives from over 100 countries and the inclusion of Iraq in mourning rites, which are not mentioned by the BBC or The Guardian."
-    ],
-    "synthesis": "Iran has initiated extended funeral processions for former Supreme Leader Ali Khamenei, who was killed during joint US-Israeli strikes in February. While sources agree on the cause of death and the intended burial site in Mashhad, there are inconsistencies regarding the official duration and commencement date of the ceremonies. The event is characterized by the Iranian state as a significant display of national cohesion amid a volatile geopolitical climate.",
-    "confidence": "Low. There are clear contradictions regarding the timeline (six vs. seven days) and the start date (Friday vs. Saturday), suggesting uncertainty or varying local reports on the official schedule.",
-    "sources": [
-      {
-        "id": "art_1783078324645_clgf1",
-        "url": "https://www.theguardian.com/us-news/2026/jul/03/first-thing-iran-defiance-six-day-funeral-supreme-leader",
-        "source": "guardian",
-        "title": "First Thing: Iran to show defiance in six-day funeral for supreme leader"
-      },
-      {
-        "id": "art_1783067721732_rukh0",
-        "url": "https://www.aljazeera.com/news/2026/7/3/irans-khamenei-funeral-which-world-leaders-are-attending?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran’s Khamenei funeral: Which world leaders are attending?"
-      },
-      {
-        "id": "art_1783067733286_pxdws",
-        "url": "https://www.bbc.co.uk/news/articles/cx2k4k7jqeno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Iran begins public mourning for Ayatollah killed in February"
-      },
-      {
-        "id": "art_1783055639626_22dz0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/khameneis-coffin-readied-as-iran-prepares-for-seven-day-funeral?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Khamenei’s coffin readied as Iran prepares for seven-day funeral"
-      },
-      {
-        "id": "art_1783055640685_4hjs5",
-        "url": "https://www.aljazeera.com/news/2026/7/3/mapping-irans-ali-khamenei-funeral-where-mourners-will-gather-each-day?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Mapping Iran’s Ali Khamenei funeral: Where mourners will gather each day"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fa109de4b708f53ba3f24570fa090983",
-    "topic_label": "Global 2026 World Cup Events",
-    "event_window_start": "2026-07-02T19:40:04.000Z",
-    "event_window_end": "2026-07-03T12:52:27.000Z",
-    "article_ids": [
-      "art_1783085030547_trgil",
-      "art_1783085034651_bp1ph",
-      "art_1783085038833_zreij",
-      "art_1783078311162_qr3x7",
-      "art_1783078314634_aj1rb",
-      "art_1783067719684_pmn7v",
-      "art_1783067720707_wqihq",
-      "art_1783067725886_8j826",
-      "art_1783055638506_2816j",
-      "art_1783041068253_zp1iw",
-      "art_1783033407695_70ap4",
-      "art_1783033417552_x8842",
-      "art_1783022645237_411xw"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 13,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-03T17:57:58.102Z",
-    "updated_at": "2026-07-03T17:57:58.102Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The 2026 FIFA World Cup is currently taking place.",
-      "Multiple knockout-stage matches are occurring in the United States.",
-      "Germany has been eliminated from the tournament."
-    ],
-    "source_differences": [
-      "Al Jazeera provides fragmented reports covering different tournament matches, including Canada vs. Morocco, Argentina vs. Cape Verde, and updates on the German national team management.",
-      "The articles focus on disparate geographic locations across the US, ranging from Texas to Florida, reflecting a decentralized tournament structure."
-    ],
-    "synthesis": "The 2026 FIFA World Cup is currently in its knockout stages across the United States, marked by significant upsets such as Germany's elimination. Host nation Canada is preparing for a historic Round of 16 appearance against Morocco in Texas. Meanwhile, defending champions Argentina are attracting large crowds in Miami ahead of their fixture against Cape Verde.",
-    "confidence": "Consistent. The articles provide complementary information regarding different aspects of the same tournament without conflicting details.",
-    "sources": [
-      {
-        "id": "art_1783085030547_trgil",
-        "url": "https://www.aljazeera.com/sports/2026/7/3/canada-morocco-fifa-world-cup-round-of-16-saibari-prediction-schedule?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Canada vs Morocco: World Cup Round of 16: Saibari, prediction, schedule"
-      },
-      {
-        "id": "art_1783085034651_bp1ph",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/world-cup-wrap-day-22?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "World cup wrap day 22"
-      },
-      {
-        "id": "art_1783085038833_zreij",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/argentina-fans-flood-miami-for-cape-verde-match?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Argentina fans flood Miami for Cape Verde match"
-      },
-      {
-        "id": "art_1783078311162_qr3x7",
-        "url": "https://www.aljazeera.com/sports/2026/7/3/argentina-fans-revel-in-messis-miami-homecoming-before-cape-verde-match?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Argentina fans revel in Messi’s Miami homecoming before Cape Verde match"
-      },
-      {
-        "id": "art_1783078314634_aj1rb",
-        "url": "https://www.aljazeera.com/sports/2026/7/3/nagelsmann-steps-down-germany-coach-klopp-paraguay-world-cup-round-of-32?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nagelsmann quits as Germany coach after early World Cup 2026 exit"
-      },
-      {
-        "id": "art_1783067719684_pmn7v",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/hundreds-of-fans-cheer-portugals-win-at-star-teams-residence-in-toronto?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hundreds of fans cheer Portugal’s win at star team’s residence in Toronto"
-      },
-      {
-        "id": "art_1783067720707_wqihq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/how-new-yorks-little-egypt-celebrates-the-world-cup?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How New York’s ‘Little Egypt’ celebrates the World Cup"
-      },
-      {
-        "id": "art_1783067725886_8j826",
-        "url": "https://www.aljazeera.com/sports/2026/7/3/argentina-vs-cape-verde-world-cup-round-of-32-messi-vozinha-prediction-kickoff?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Argentina vs Cape Verde: World Cup Round of 32: Messi, prediction, kickoff"
-      },
-      {
-        "id": "art_1783055638506_2816j",
-        "url": "https://www.theguardian.com/world/2026/jul/03/norway-fans-viking-row-world-cup",
-        "source": "guardian",
-        "title": "‘Bigger than football’: Norway fans’ Viking row makes waves at World Cup"
-      },
-      {
-        "id": "art_1783041068253_zp1iw",
-        "url": "https://www.foxnews.com/sports/united-states-bosnia-herzegovina-world-cup-match-delivers-massive-tv-ratings",
-        "source": "fox",
-        "title": "United States-Bosnia and Herzegovina World Cup match delivers massive TV ratings"
-      },
-      {
-        "id": "art_1783033407695_70ap4",
-        "url": "https://www.aljazeera.com/sports/2026/7/2/senegals-world-cup-agony-nation-left-rueing-last-gasp-collapse?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Senegal’s World Cup agony: Nation left rueing last-gasp collapse"
-      },
-      {
-        "id": "art_1783033417552_x8842",
-        "url": "https://www.aljazeera.com/sports/2026/7/2/oyarzabal-scores-two-goals-as-spain-dominates-austria-in-world-cup-knockout?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oyarzabal scores two goals as Spain dominates Austria in World Cup knockout"
-      },
-      {
-        "id": "art_1783022645237_411xw",
-        "url": "https://www.foxnews.com/outkick-sports/world-cup-fever-takes-off-fans-launch-reporter-air-johnny-manziel-goes-nuts-viral-cat-lady-id",
-        "source": "fox",
-        "title": "World Cup fever takes off as fans launch reporter into air, Johnny Manziel goes nuts & viral cat lady ID'd"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "baaa092bd5eae25f15296f9800145898",
-    "topic_label": "UK Politics and Andy Burnham",
-    "event_window_start": "2026-07-02T18:01:27.000Z",
-    "event_window_end": "2026-07-03T15:08:14.000Z",
-    "article_ids": [
-      "art_1783092928345_246kl",
-      "art_1783092940367_28ans",
-      "art_1783078319239_xu0w6",
-      "art_1783067718643_24psy",
-      "art_1783067732193_yfp62",
-      "art_1783028719791_4tw7q",
-      "art_1783022648394_ulvne",
-      "art_1783016063853_6prvs"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 8,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-03T17:57:58.102Z",
-    "updated_at": "2026-07-03T17:57:58.102Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Andy Burnham is positioned as a potential future prime minister following the resignation of Keir Starmer.",
-      "Burnham faces scrutiny regarding his media communication style, specifically his avoidance of traditional Q&A sessions.",
-      "Economic pressures, including fiscal rules and manifesto commitments, are key challenges for Burnham's incoming administration.",
-      "A significant by-election for the Greater Manchester mayoral seat is scheduled for July 30."
-    ],
-    "source_differences": [
-      "The Guardian focuses exclusively on UK political maneuvering and Burnham's leadership transition.",
-      "The BBC report covers an unrelated international criminal investigation involving a parcel bombing in Monaco, which is entirely absent from the provided Guardian articles.",
-      "The Guardian articles provide conflicting or evolving narratives regarding Burnham's status, variously describing him as 'PM-in-waiting' and a 'prospective prime minister'."
-    ],
-    "synthesis": "Andy Burnham is navigating a leadership transition amid significant political and economic challenges, including upcoming by-elections and fiscal policy constraints. While he faces criticism over his unconventional media engagement and lack of direct questioning, he is simultaneously exploring potential tax adjustments within the limits of Labour's existing manifesto commitments. This political reporting is distinct from the unrelated international criminal news reported by the BBC regarding a suspect in a Monaco bombing.",
-    "confidence": "The UK political coverage is internally consistent regarding Burnham's current trajectory, though the inclusion of an unrelated international news story creates a thematic contradiction in the provided data set.",
-    "sources": [
-      {
-        "id": "art_1783092928345_246kl",
-        "url": "https://www.theguardian.com/politics/2026/jul/03/andy-burnham-labour-prime-minister-speech-analysis",
-        "source": "guardian",
-        "title": "Is Andy Burnham dodging scrutiny, or is he just a different type of communicator?"
-      },
-      {
-        "id": "art_1783092940367_28ans",
-        "url": "https://www.theguardian.com/politics/2026/jul/03/hugely-significant-biggest-ever-byelection-will-test-nations-mood-and-burnhams-credentials",
-        "source": "guardian",
-        "title": "‘Hugely significant’: biggest ever byelection will test nation’s mood – and Burnham’s credentials"
-      },
-      {
-        "id": "art_1783078319239_xu0w6",
-        "url": "https://www.bbc.co.uk/news/articles/c4gy603z2qlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ukrainian woman named by Interpol as main suspect in Monaco bomb attack"
-      },
-      {
-        "id": "art_1783067718643_24psy",
-        "url": "https://www.theguardian.com/politics/live/2026/jul/03/andy-burnham-says-labour-manifesto-has-room-for-movement-on-tax-uk-politics-live",
-        "source": "guardian",
-        "title": "Andy Burnham says Labour manifesto has room for ‘movement on tax’ – UK politics live"
-      },
-      {
-        "id": "art_1783067732193_yfp62",
-        "url": "https://www.theguardian.com/business/2026/jul/03/burnham-funding-gap-uk-finances-pm-in-waiting",
-        "source": "guardian",
-        "title": "Burnham’s funding gap: what state are UK finances in for the PM-in-waiting?"
-      },
-      {
-        "id": "art_1783028719791_4tw7q",
-        "url": "https://www.aljazeera.com/news/2026/7/2/uks-likely-next-leader-andy-burnham-vows-to-fully-fund-defence-plans?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK’s likely next leader Andy Burnham vows to fully fund defence plans"
-      },
-      {
-        "id": "art_1783022648394_ulvne",
-        "url": "https://www.theguardian.com/politics/2026/jul/02/burnham-promises-to-ease-cost-of-living-pressures-if-he-becomes-prime-minister",
-        "source": "guardian",
-        "title": "Burnham promises to ease cost of living pressures if he becomes prime minister"
-      },
-      {
-        "id": "art_1783016063853_6prvs",
-        "url": "https://www.theguardian.com/politics/2026/jul/02/labour-mps-nec-andy-burnham-leadership-contest-no-10",
-        "source": "guardian",
-        "title": "MPs warn Labour’s ruling body to quell fears over Burnham’s one-sided race to No 10"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4d631cc055ba61be6ebd8823ba0c7312",
-    "topic_label": "GDACS Disaster Alerts",
-    "event_window_start": "2026-07-03T00:20:29.000Z",
-    "event_window_end": "2026-07-03T16:27:20.000Z",
-    "article_ids": [
-      "art_1783099434794_38ols",
-      "art_1783078313324_hh6zu",
-      "art_1783041062692_x7qft"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-03T17:57:58.102Z",
-    "updated_at": "2026-07-03T17:57:58.102Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Venezuela has been impacted by significant earthquakes on its northern coast.",
-      "International aid and relief efforts are currently underway in Venezuela.",
-      "The state of La Guaira has experienced severe damage following the disaster."
-    ],
-    "source_differences": [
-      "Al Jazeera's coverage focuses on the logistical status of aid distribution and international involvement, whereas The Guardian provides a human-interest perspective through a specific volunteer's narrative.",
-      "The Al Jazeera article regarding Mumbai is entirely unrelated to the seismic events in Venezuela, creating a complete thematic divergence within the provided source set."
-    ],
-    "synthesis": "Venezuela is undergoing a major international relief operation in the wake of twin earthquakes that devastated the northern coast, particularly La Guaira state. While emergency aid continues to arrive from 27 nations, individual volunteers are contributing to local rescue and support efforts. Concurrent reporting on Mumbai monsoon flooding is unrelated to the Venezuelan crisis.",
-    "confidence": "Consistent regarding Venezuelan events; however, the dataset contains a thematic outlier regarding Mumbai that is unrelated to the primary event.",
-    "sources": [
-      {
-        "id": "art_1783099434794_38ols",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/heavy-rain-floods-mumbai-during-intense-monsoon-spell?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Heavy rain floods Mumbai during intense monsoon spell"
-      },
-      {
-        "id": "art_1783078313324_hh6zu",
-        "url": "https://www.theguardian.com/world/ng-interactive/2026/jul/03/international-rescuers-venezuela-earthquake-hellscape",
-        "source": "guardian",
-        "title": "‘I can only describe it as a war zone’: the rescuers navigating Venezuela’s post-quake hellscape"
-      },
-      {
-        "id": "art_1783041062692_x7qft",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/3/relief-efforts-shift-as-venezuela-quake-survivors-seek-aid?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Relief efforts shift as Venezuela quake survivors seek aid"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
