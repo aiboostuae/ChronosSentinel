@@ -1,5 +1,734 @@
 [
   {
+    "cluster_id": "7c5d9278f11ca536bf4df37416a01f0e",
+    "topic_label": "Typhoon Bavi and China",
+    "event_window_start": "2026-07-11T09:32:57.000Z",
+    "event_window_end": "2026-07-11T12:17:45.000Z",
+    "article_ids": [
+      "art_1783773308362_y43gx",
+      "art_1783773310731_zyin1",
+      "art_1783764923360_fw5g3"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T13:07:26.715Z",
+    "updated_at": "2026-07-11T13:07:26.715Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Typhoon Bavi passed by northern Taiwan after affecting Japanese islands.",
+      "The typhoon is moving toward the east coast of China.",
+      "Landfall in China is expected on Sunday near Wenzhou."
+    ],
+    "source_claims": [
+      "[aljazeera] Typhoon Bavi caused rough seas, fallen trees, and localized damage in Taiwan.",
+      "[bbc] The typhoon spans 1,000km at its widest point.",
+      "[bbc] Landslides triggered by the storm killed 17 people in the Philippines.",
+      "[aljazeera] More than 600,000 people have been evacuated from Zhejiang and Fujian provinces in China.",
+      "[aljazeera] The Chinese national weather agency issued an orange typhoon alert."
+    ],
+    "framing_differences": [
+      "Aljazeera focuses on the local impact in Taiwan and evacuation statistics in China, while BBC frames the event within the broader context of it being the second typhoon to hit the region in a week."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The typhoon's width is comparable to the width of France.",
+      "[bbc] The storm is a Category 1 typhoon."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'barrels' to describe the storm's movement toward China.",
+      "[bbc] uses the term 'pummelling' to describe the storm's effect on Japanese islands.",
+      "[aljazeera] uses the term 'thundered' to describe the storm's transit through US Pacific islands."
+    ],
+    "safe_conclusions": [
+      "Typhoon Bavi is a weather system moving through the Pacific toward the Chinese coast.",
+      "The typhoon has necessitated evacuations in China and impacted Japan and Taiwan."
+    ],
+    "unknowns": [
+      "The exact wind speed at the time of anticipated landfall.",
+      "The specific breakdown of property damage in China following evacuations."
+    ],
+    "synthesis": "Typhoon Bavi is tracking toward the Chinese coast near Wenzhou after passing by Japanese islands and northern Taiwan. Chinese authorities have initiated large-scale evacuations in Zhejiang and Fujian provinces as the storm approaches. The system is expected to make landfall on Sunday, bringing significant rainfall.",
+    "confidence": "HIGH. The primary facts regarding the path of the typhoon and the fact that evacuations are occurring in China are corroborated across sources.",
+    "sources": [
+      {
+        "id": "art_1783773308362_y43gx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/china-prepares-as-typhoon-bavi-leaves-taiwan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "China prepares as Typhoon Bavi leaves Taiwan"
+      },
+      {
+        "id": "art_1783773310731_zyin1",
+        "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "China braced for second typhoon in a week as Bavi approaches landfall"
+      },
+      {
+        "id": "art_1783764923360_fw5g3",
+        "url": "https://www.aljazeera.com/news/2026/7/11/hundreds-of-thousands-evacuated-as-typhoon-bavi-barrels-towards-china?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hundreds of thousands evacuated as Typhoon Bavi barrels towards China"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a83d2f0ba458a6b23e6d789ec28dd8e2",
+    "topic_label": "Russia Ukraine Conflict",
+    "event_window_start": "2026-07-10T17:21:35.000Z",
+    "event_window_end": "2026-07-11T11:08:00.000Z",
+    "article_ids": [
+      "art_1783769551491_8l6t7",
+      "art_1783769562317_ak6px",
+      "art_1783764927576_lgc1t",
+      "art_1783759739147_3hfgk",
+      "art_1783743252697_ub8sp",
+      "art_1783716738205_8tvxt",
+      "art_1783705700192_wqkjh"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T11:50:15.787Z",
+    "updated_at": "2026-07-11T11:50:15.787Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Russia has conducted air strikes and drone attacks against various Ukrainian locations, including Kyiv and Zaporizhzhia.",
+      "Civilians have been injured during recent Russian attacks in Ukraine.",
+      "The city of Zaporizhzhia is located near the current front line of the conflict."
+    ],
+    "source_claims": [
+      "[fox] Claims that Ukrainian strikes on Russia's oil industry are causing fuel shortages and export restrictions within Russia.",
+      "[fox] Claims that Maxim Katz asserts Russian fuel shortages are a sensitive issue ahead of September State Duma elections.",
+      "[bbc] Claims that Russian attacks on Zaporizhzhia have intensified significantly in June, targeting buses, schools, and homes.",
+      "[aljazeera] Claims that Russia used ballistic missiles and drone swarms in a recent strike on Kyiv, wounding at least 11 people.",
+      "[aljazeera] Claims that Russia stated the recent strikes on Kyiv targeted defense industry facilities using high-precision weapons."
+    ],
+    "framing_differences": [
+      "fox frames the conflict through the lens of Ukrainian strategic strikes on Russian energy infrastructure, whereas bbc and aljazeera frame the conflict through the lens of Russian strikes on Ukrainian infrastructure and civilians.",
+      "aljazeera (Kyiv/missile strike) focuses on the technical details of air defense stockpiles and the timing of sirens, whereas bbc focuses on the personal experience of residents in Zaporizhzhia."
+    ],
+    "contested_claims": [
+      "There is a discrepancy regarding the number of casualties in the recent Kyiv strike, with one aljazeera report stating 11 were wounded and another aljazeera report stating 10 were wounded."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Reports that local news source Euromaidan Press claimed sirens in Kyiv activated two minutes after initial detonations."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'vulnerability' to describe the state of the Russian government.",
+      "[aljazeera] uses the term 'intense overnight bombardment' to describe Russian military actions."
+    ],
+    "safe_conclusions": [
+      "Military strikes and drone attacks are ongoing in multiple regions of Ukraine.",
+      "Casualties have been reported in Ukrainian cities following Russian air attacks.",
+      "The security situation in Zaporizhzhia is described as intensified by local sources."
+    ],
+    "unknowns": [
+      "The precise total number of casualties in recent Kyiv strikes.",
+      "The full extent of the impact of Ukrainian strikes on Russian fuel supply chains.",
+      "The exact distance of Russian forces from the center of Zaporizhzhia at the time of the most recent report."
+    ],
+    "synthesis": "Recent reports indicate an intensification of aerial strikes across Ukraine, with Russia targeting infrastructure in cities including Kyiv and Zaporizhzhia. Concurrently, reports suggest Ukraine is conducting a campaign against Russian energy assets, which some analysts believe is affecting fuel availability within Russia. Both nations continue to report ongoing combat operations and civilian casualties resulting from these developments.",
+    "confidence": "MEDIUM. While reports of strikes are consistent across sources, there are minor numerical discrepancies in casualty reports between different dispatches from the same news outlet.",
+    "sources": [
+      {
+        "id": "art_1783769551491_8l6t7",
+        "url": "https://www.foxnews.com/world/bringing-war-putins-front-door-ukraine-energy-strike-strategy-working",
+        "source": "fox",
+        "title": "Bringing the war to Putin’s front door: Is Ukraine’s energy strike strategy working?"
+      },
+      {
+        "id": "art_1783769562317_ak6px",
+        "url": "https://www.bbc.co.uk/news/articles/c3dyyln23v8o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russia trains sights on schools, offices and buses in busy Ukrainian city"
+      },
+      {
+        "id": "art_1783764927576_lgc1t",
+        "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian missile attacks wound 11 in Kyiv"
+      },
+      {
+        "id": "art_1783759739147_3hfgk",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian overnight strikes on Kyiv injure ten"
+      },
+      {
+        "id": "art_1783743252697_ub8sp",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts"
+      },
+      {
+        "id": "art_1783716738205_8tvxt",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/ukrainian-attacks-cause-chaos-at-fuel-stations-across-russia?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukrainian attacks cause chaos at fuel stations across Russia"
+      },
+      {
+        "id": "art_1783705700192_wqkjh",
+        "url": "https://www.aljazeera.com/news/2026/7/10/russian-attacks-kill-four-as-ukraine-continues-to-target-oil-infrastructure?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian attacks kill four as Ukraine continues to target oil infrastructure"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8bdfe5b1ebaf256576f2d10d462e49e1",
+    "topic_label": "Iran and US tensions",
+    "event_window_start": "2026-07-10T16:35:40.000Z",
+    "event_window_end": "2026-07-11T08:04:57.000Z",
+    "article_ids": [
+      "art_1783759741212_bck77",
+      "art_1783759743439_6lk6b",
+      "art_1783751828380_nwjrb",
+      "art_1783751832646_1r4g5",
+      "art_1783743250588_xo0le",
+      "art_1783720887908_rgjce",
+      "art_1783716730684_mef0s",
+      "art_1783711547494_kscd2",
+      "art_1783705709639_ikz8q"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 9,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T13:07:26.715Z",
+    "updated_at": "2026-07-11T13:07:26.715Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump posted a statement on Truth Social regarding missiles aimed at the Islamic Republic of Iran.",
+      "Tensions exist between the United States and Iran regarding security in the Strait of Hormuz.",
+      "Negotiations between the United States and Iran are ongoing."
+    ],
+    "source_claims": [
+      "[aljazeera] claims that calls for Trump's killing occurred at the funeral of Ayatollah Ali Khamenei.",
+      "[aljazeera] claims Israel warned Trump of an Iranian assassination plot.",
+      "[fox] claims Trump instructed the U.S. military to bomb Iran at levels not previously seen if an assassination attempt occurs.",
+      "[bbc] claims unnamed officials stated Iran acknowledged shooting at ships was a mistake attributed to a rogue group.",
+      "[bbc] claims the United States and Iran signed a ceasefire agreement in June.",
+      "[guardian] claims European officials are considering proposals for navigational fees in the Strait of Hormuz."
+    ],
+    "framing_differences": [
+      "aljazeera frames the situation as a direct threat from Trump following assassination chants at a funeral, whereas fox frames the event as Trump warning Iran of total destruction in response to a potential assassination attempt.",
+      "bbc frames the current conflict as a violation of a June ceasefire agreement, while aljazeera frames it as an escalation of tensions."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims there were open calls for Trump’s killing at the funeral of Ayatollah Ali Khamenei.",
+      "[bbc] claims Tehran privately acknowledged to Trump's advisers that shooting at ships was a mistake."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'bellicose' to describe Trump's social media post.",
+      "[fox] uses the phrase 'decimate and destroy' to describe Trump's characterization of potential U.S. military action.",
+      "[bbc] uses the term 'hardliners' to describe an Iranian group."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump has expressed an intent to use military force against Iran if the Iranian government attempts to assassinate him.",
+      "Diplomatic communications between the United States and Iran are occurring amidst maritime security concerns."
+    ],
+    "unknowns": [
+      "The official status of the ceasefire agreement between the United States and Iran.",
+      "The specific details of the navigational fee proposals for the Strait of Hormuz.",
+      "The extent to which Iranian leadership exerts control over groups firing on commercial vessels."
+    ],
+    "synthesis": "President Donald Trump has threatened military action against Iran, citing threats to his life and national security. Concurrently, diplomatic negotiations are ongoing regarding maritime safety in the Strait of Hormuz and the status of a previous ceasefire. European officials are exploring potential navigational fee structures for the waterway to address ongoing tensions.",
+    "confidence": "MEDIUM: The sources provide conflicting details on the status of the ceasefire and the nature of the communications between the two nations.",
+    "sources": [
+      {
+        "id": "art_1783759741212_bck77",
+        "url": "https://www.aljazeera.com/news/2026/7/11/trump-threatens-iran-after-chants-for-his-death-erupted-at-khamenei-funeral?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump threatens Iran after chants for his death erupted at Khamenei funeral"
+      },
+      {
+        "id": "art_1783759743439_6lk6b",
+        "url": "https://www.foxnews.com/politics/trump-warns-us-would-decimate-destroy-iran-assassination-attempt",
+        "source": "fox",
+        "title": "Trump warns US would 'decimate and destroy' Iran over assassination attempt"
+      },
+      {
+        "id": "art_1783751828380_nwjrb",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/are-the-us-and-iran-at-war-again?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Are the US and Iran at war again?"
+      },
+      {
+        "id": "art_1783751832646_1r4g5",
+        "url": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us",
+        "source": "guardian",
+        "title": "Europe considering proposals to allow navigational fees in strait of Hormuz"
+      },
+      {
+        "id": "art_1783743250588_xo0le",
+        "url": "https://www.bbc.co.uk/news/articles/crelyq79x71o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz"
+      },
+      {
+        "id": "art_1783720887908_rgjce",
+        "url": "https://www.foxnews.com/politics/trump-left-instructions-bomb-iran-levels-never-seen-assassinated",
+        "source": "fox",
+        "title": "Trump says he left instructions to 'bomb' Iran 'at levels' never seen if he is assassinated"
+      },
+      {
+        "id": "art_1783716730684_mef0s",
+        "url": "https://www.foxnews.com/world/israel-signals-readiness-another-iran-strike-trump-declares-ceasefire-over",
+        "source": "fox",
+        "title": "Israel signals readiness for another Iran strike as Trump declares ceasefire over"
+      },
+      {
+        "id": "art_1783711547494_kscd2",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/7/10/can-the-agreement-between-iran-and-the-us-be-rescued?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can the agreement between Iran and the US be rescued?"
+      },
+      {
+        "id": "art_1783705709639_ikz8q",
+        "url": "https://www.foxnews.com/politics/mamdani-officials-planned-meeting-iran-envoy-shut-down-state-department",
+        "source": "fox",
+        "title": "Mamdani official's planned meeting with Iran envoy shut down by State Department"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0ec98be627d82a7ee6091376d8d7790a",
+    "topic_label": "Israel-Lebanon Conflict",
+    "event_window_start": "2026-07-10T15:00:26.000Z",
+    "event_window_end": "2026-07-10T20:33:08.000Z",
+    "article_ids": [
+      "art_1783716734022_a4jhq",
+      "art_1783698973591_cf5fq",
+      "art_1783698976675_3tnnr"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-10T22:58:40.900Z",
+    "updated_at": "2026-07-10T22:58:40.900Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israeli military operations have occurred in Lebanon and Gaza.",
+      "Individuals and families have experienced loss or displacement in relation to ongoing regional hostilities."
+    ],
+    "source_claims": [
+      "[aljazeera] Israeli air strikes have caused destruction to historic landmarks in Tyre, Lebanon.",
+      "[aljazeera] A three-month-old infant in the West Bank died after Israeli forces blocked access to a hospital.",
+      "[aljazeera] An air raid in Gaza City on November 16, 2023, destroyed a home, resulting in the deaths of more than 30 members of the Haji family."
+    ],
+    "framing_differences": [
+      "Al Jazeera focuses on the impact of military actions on civilian life, cultural heritage, and individual personal tragedies across different conflict zones."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The ancient city of Tyre sustained 'catastrophic destruction' due to Israeli strikes.",
+      "[aljazeera] Israeli forces were directly responsible for blocking the specific journey of the infant Ahmad Zaid to the hospital.",
+      "[aljazeera] The Haji family home in al-Zaitoun was destroyed by an Israeli air raid on November 16, 2023."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'catastrophic destruction' to describe the impact on historic sites in Tyre.",
+      "[aljazeera] uses the term 'heartbreak' to describe the aftermath of the search for missing individuals in Gaza."
+    ],
+    "safe_conclusions": [
+      "Israeli military activities are ongoing in Lebanon, the West Bank, and Gaza.",
+      "Civilians are reporting fatalities and structural destruction within these regions."
+    ],
+    "unknowns": [
+      "The specific tactical or strategic objectives of the Israeli military operations mentioned in the reports.",
+      "Verified details or independent investigations regarding the specific incidents involving the Haji family and Ahmad Zaid.",
+      "The full extent of damage to archaeological sites in Tyre from an official UNESCO or independent damage assessment."
+    ],
+    "synthesis": "Recent reports document significant casualties and structural destruction in Lebanon, the West Bank, and Gaza attributed to Israeli military operations. Individual accounts detail the loss of family members and the destruction of residential and historic properties. These accounts provide perspectives on the humanitarian impact of the ongoing conflict in these specific territories.",
+    "confidence": "MEDIUM. While reports provide consistent themes of civilian suffering, they rely on single-source reporting from Al Jazeera without independent corroboration for specific incidents.",
+    "sources": [
+      {
+        "id": "art_1783716734022_a4jhq",
+        "url": "https://www.aljazeera.com/video/2026/7/10/lebanon-historic-sites-destroyed-by-israeli-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Lebanon historic sites destroyed by Israeli strikes"
+      },
+      {
+        "id": "art_1783698973591_cf5fq",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/family-mourns-baby-after-israeli-forces-blocked-journey-to-hospital?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Family mourns baby after Israeli forces blocked journey to hospital"
+      },
+      {
+        "id": "art_1783698976675_3tnnr",
+        "url": "https://www.aljazeera.com/features/2026/7/10/the-search-for-gazas-missing-brings-heartbreak-and-closure-for-loved-ones?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The search for Gaza’s missing brings heartbreak and closure for loved ones"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "12c429ddd2c7f4f422d11ec9cda3a961",
+    "topic_label": "Ann Widdecombe Murder Investigation",
+    "event_window_start": "2026-07-10T15:22:28.000Z",
+    "event_window_end": "2026-07-11T08:39:06.000Z",
+    "article_ids": [
+      "art_1783759736803_3fvcf",
+      "art_1783751818468_m4fi2",
+      "art_1783711551848_gqa9y",
+      "art_1783698966036_ey6gw"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T09:09:30.496Z",
+    "updated_at": "2026-07-11T09:09:30.496Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A 26-year-old man was arrested on suspicion of murdering Ann Widdecombe.",
+      "Ann Widdecombe was a former Member of Parliament.",
+      "Ann Widdecombe was found dead on Thursday with serious injuries at her home in Devon.",
+      "Devon and Cornwall police are conducting an investigation into the death."
+    ],
+    "source_claims": [
+      "[guardian] states the 26-year-old man arrested has been released from custody and is no longer part of the investigation.",
+      "[fox] claims British Prime Minister Keir Starmer has resigned from his position.",
+      "[fox] reports that Andy Burnham is considered a frontrunner to become the next Prime Minister."
+    ],
+    "framing_differences": [
+      "The Guardian focuses on the procedural update regarding the release of the murder suspect, whereas Fox focuses on the political implications of the death and broader UK political stability."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims British Prime Minister Keir Starmer has resigned.",
+      "[guardian] reports police were searching for a white male in connection with the death."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'significant political turmoil' to describe the current state of UK politics."
+    ],
+    "safe_conclusions": [
+      "An investigation into the death of Ann Widdecombe is currently being conducted by Devon and Cornwall police."
+    ],
+    "unknowns": [
+      "The current status of the murder investigation regarding potential new suspects.",
+      "The official cause of death beyond the reported 'serious injuries'.",
+      "The accuracy of the claim regarding Prime Minister Keir Starmer's resignation."
+    ],
+    "synthesis": "Devon and Cornwall police have confirmed that a 26-year-old man previously arrested on suspicion of murdering former MP Ann Widdecombe has been released and is no longer under investigation. Widdecombe was found dead at her home in Devon on Thursday with serious injuries. Fox News also reports on the event in the context of recent developments regarding British Prime Minister Keir Starmer.",
+    "confidence": "MEDIUM.MEDIUM. The sources share consistent facts regarding the death of Ann Widdecombe and the police investigation, but Fox News includes significant political claims not mentioned or corroborated by the other source.",
+    "sources": [
+      {
+        "id": "art_1783759736803_3fvcf",
+        "url": "https://www.theguardian.com/uk-news/live/2026/jul/11/ann-widdecombe-murder-investigation-latest-news-updates",
+        "source": "guardian",
+        "title": "Ann Widdecombe investigation: police release man arrested on suspicion of former MP’s murder – latest updates"
+      },
+      {
+        "id": "art_1783751818468_m4fi2",
+        "url": "https://www.theguardian.com/uk-news/2026/jul/11/man-arrested-on-suspicion-of-ann-widdecombes-is-released-not-part-of-investigation",
+        "source": "guardian",
+        "title": "Man arrested on suspicion of Ann Widdecombe’s murder is released"
+      },
+      {
+        "id": "art_1783711551848_gqa9y",
+        "url": "https://www.foxnews.com/world/former-british-mp-reality-tv-star-ann-widdecombe-found-dead-man-arrested-murder",
+        "source": "fox",
+        "title": "Former British MP and reality TV star Ann Widdecombe found dead; man arrested for murder"
+      },
+      {
+        "id": "art_1783698966036_ey6gw",
+        "url": "https://www.theguardian.com/politics/2026/jul/10/police-investigating-death-of-ann-widdecombe",
+        "source": "guardian",
+        "title": "Police launch murder investigation into death of Ann Widdecombe"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9e7e4c69c91b3607990ae7f6aaa49f2a",
+    "topic_label": "Venezuela Earthquake Recovery",
+    "event_window_start": "2026-07-11T00:37:54.000Z",
+    "event_window_end": "2026-07-11T05:38:39.000Z",
+    "article_ids": [
+      "art_1783751823115_sqotm",
+      "art_1783731527679_t8ckm"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T07:26:01.939Z",
+    "updated_at": "2026-07-11T07:26:01.939Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An earthquake event occurred in the state of La Guaira, Venezuela.",
+      "Hospitals in the affected area were damaged or destroyed."
+    ],
+    "source_claims": [
+      "[aljazeera] Volunteers in La Guaira have converted a fast-food restaurant into an emergency clinic.",
+      "[guardian] The death toll has reached at least 4,118 people.",
+      "[guardian] The number of injured is reported at 16,740.",
+      "[guardian] Venezuelan parliament chief Jorge Rodriguez stated there were back-to-back quakes of 7.2 and 7.5 magnitude on 24 June.",
+      "[guardian] Rescue teams have halted official search operations for survivors."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event through the lens of grassroots community response and improvisational medical efforts, while The Guardian frames the event through the scale of the humanitarian disaster and official government reporting."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Thousands of people are currently listed as missing.",
+      "[guardian] The earthquakes were the largest in Venezuela in over a century.",
+      "[guardian] Entire high-rise apartment blocks were flattened."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'devastating' to describe the twin earthquakes.",
+      "[guardian] uses the term 'flattened' to describe the state of buildings."
+    ],
+    "safe_conclusions": [
+      "Earthquakes have occurred in La Guaira, Venezuela, resulting in infrastructure damage and the need for emergency medical care."
+    ],
+    "unknowns": [
+      "The total number of people missing remains unconfirmed.",
+      "The full extent of the damage to secondary residential structures is not definitively established.",
+      "The current status of international aid efforts beyond the call for financial help is unknown."
+    ],
+    "synthesis": "An earthquake event in La Guaira, Venezuela, has caused significant destruction to infrastructure, including hospitals. Official reports indicate a death toll of over 4,000, with thousands more injured or missing. Community members have begun repurposing local businesses to provide emergency medical treatment following the cessation of official search operations.",
+    "confidence": "MEDIUM. While both sources confirm the seismic event and damage in La Guaira, one source provides specific casualty statistics and technical data regarding the earthquake while the other focuses on a localized recovery effort.",
+    "sources": [
+      {
+        "id": "art_1783751823115_sqotm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/venezuelan-doctors-convert-restaurant-into-a-clinic-after-earthquake?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Venezuelan doctors convert restaurant into a clinic after earthquake"
+      },
+      {
+        "id": "art_1783731527679_t8ckm",
+        "url": "https://www.theguardian.com/world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
+        "source": "guardian",
+        "title": "Venezuela quake death toll passes 4,000 as scale of recovery effort looms large"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "76bf84e6370983a991a8a812e9e99385",
+    "topic_label": "Graham Platner Senate campaign collapse",
+    "event_window_start": "2026-07-10T17:22:18.000Z",
+    "event_window_end": "2026-07-11T12:00:08.000Z",
+    "article_ids": [
+      "art_1783773320166_s3ehr",
+      "art_1783731535295_yc4ku",
+      "art_1783724718948_i1jup",
+      "art_1783720888961_ww4qt",
+      "art_1783720890004_kbq5b",
+      "art_1783705699158_vsmxq"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T13:07:26.715Z",
+    "updated_at": "2026-07-11T13:07:26.715Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Graham Platner was the Democratic Senate candidate in Maine.",
+      "Graham Platner officially withdrew his candidacy for the U.S. Senate on Friday.",
+      "The withdrawal follows a period of scandal and public scrutiny surrounding the campaign.",
+      "The Maine Secretary of State's office confirmed the receipt of withdrawal paperwork."
+    ],
+    "source_claims": [
+      "[fox] reports that Dan Moraff admitted the campaign's firm missed controversial details in the vetting process.",
+      "[fox] reports that Jonathan Turley characterized the campaign's vetting process as 'unserious'.",
+      "[fox] reports that Sen. Tammy Duckworth criticized the political past and record of Dr. Nirav Shah.",
+      "[guardian] reports that Platner's letter called for the movement he built to continue and advocated for 'a new kind of politics'.",
+      "[fox] reports that Platner's resignation letter concluded with the phrases 'F**k ICE', 'Free Palestine', and 'Up the Hearts'.",
+      "[fox] reports that Sen. John Fetterman described a video released by Platner as 'narcissistic'."
+    ],
+    "framing_differences": [
+      "[guardian] frames the campaign's end in the context of general 'scandals' and 'accusations of sexual assault', while [fox] focuses heavily on the vetting failures and specific political criticisms from other Democratic figures like Fetterman and Duckworth."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims that a source familiar with the early campaign stages stated the campaign ignored internal warnings regarding the need for robust vetting."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'slapdash' to describe the vetting job.",
+      "[fox] uses the term 'blistering' to describe Sen. Duckworth's criticism.",
+      "[guardian] describes the campaign as 'laden with scandals'.",
+      "[fox] uses the term 'embattled' to describe Platner.",
+      "[fox] uses the term 'narcissistic' to attribute the description of Platner's video to Sen. Fetterman."
+    ],
+    "safe_conclusions": [
+      "Graham Platner is no longer a candidate for the U.S. Senate in Maine.",
+      "Platner submitted formal withdrawal documentation to the Maine Department of the Secretary of State.",
+      "The Democratic Party is seeking a path forward regarding the Senate seat following the campaign's termination."
+    ],
+    "unknowns": [
+      "The full scope of the specific allegations mentioned as causes for the withdrawal.",
+      "The official process and timeline for the Maine Democratic Party to select a replacement nominee.",
+      "The extent of the impact of the campaign's collapse on broader progressive movement political goals."
+    ],
+    "synthesis": "Graham Platner officially withdrew his candidacy for the U.S. Senate in Maine following a series of controversies and a documented failure in the campaign's vetting process. The Maine Secretary of State confirmed the withdrawal, prompting discussions within the Democratic Party regarding the selection of a new nominee. Various political figures have responded to the campaign's collapse with differing levels of criticism regarding both the candidate and the broader vetting procedures used by the campaign.",
+    "confidence": "HIGH. All sources confirm the central fact of Platner's withdrawal from the Senate race, with minor variations in focus regarding the associated political commentary.",
+    "sources": [
+      {
+        "id": "art_1783773320166_s3ehr",
+        "url": "https://www.foxnews.com/politics/inside-rushed-platner-vetting-job-ignored-warnings-before-senate-bid-blew-up-source",
+        "source": "fox",
+        "title": "Inside the slapdash Platner vetting job that ignored warnings before bid blew up: source"
+      },
+      {
+        "id": "art_1783731535295_yc4ku",
+        "url": "https://www.foxnews.com/media/maine-contender-replace-platner-grilled-response-public-health-crisis-dem-senator-opposing-run",
+        "source": "fox",
+        "title": "Maine contender to replace Platner grilled on response to public health crisis, Dem senator opposing his run"
+      },
+      {
+        "id": "art_1783724718948_i1jup",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/graham-platner-maine-senate-officially-withdraws",
+        "source": "guardian",
+        "title": "Graham Platner officially withdraws candidacy for US Senate in Maine"
+      },
+      {
+        "id": "art_1783720888961_ww4qt",
+        "url": "https://www.foxnews.com/politics/platner-officially-terminates-senate-bid-bombshell-rape-allegation-ends-campaign",
+        "source": "fox",
+        "title": "Platner officially terminates Senate bid after bombshell rape allegation ends campaign"
+      },
+      {
+        "id": "art_1783720890004_kbq5b",
+        "url": "https://www.foxnews.com/media/mamdani-says-time-bring-chapter-close-after-platner-campaign-collapse",
+        "source": "fox",
+        "title": "Mamdani says it's time to 'bring this chapter to a close' after Platner campaign collapse"
+      },
+      {
+        "id": "art_1783705699158_vsmxq",
+        "url": "https://www.foxnews.com/politics/platner-collapse-completes-john-fetterman-break-sanders-socialists",
+        "source": "fox",
+        "title": "Platner collapse completes John Fetterman’s break from Sanders socialists who put him in Senate"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "eab1c58e2c5f21feec504635f3a41cea",
+    "topic_label": "Apple vs OpenAI lawsuit",
+    "event_window_start": "2026-07-10T22:54:16.000Z",
+    "event_window_end": "2026-07-10T23:00:11.000Z",
+    "article_ids": [
+      "art_1783769563352_dnapo",
+      "art_1783724707372_luo5d"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-11T13:07:26.715Z",
+    "updated_at": "2026-07-11T13:07:26.715Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Apple filed a lawsuit against OpenAI and two former Apple employees in a California federal court on Friday.",
+      "The lawsuit includes allegations regarding the misappropriation of Apple's trade secrets and confidential information.",
+      "The legal action names two former Apple employees as defendants, identified as Chang Liu and Tang Yew Tan.",
+      "The company io Products is named as a defendant in the lawsuit."
+    ],
+    "source_claims": [
+      "[aljazeera] alleges the lawsuit claims a coordinated effort to steal product designs, manufacturing processes, and supply chain strategies.",
+      "[bbc] alleges the lawsuit claims a pattern of theft, including instances where former employees emailed themselves internal Apple information.",
+      "[bbc] reports that OpenAI spokesman Drew Pusateri stated the company has no interest in other companies' trade secrets.",
+      "[bbc] reports that Apple CEO Tim Cook is leaving his role later this year."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event as a major rupture in a partnership between Apple and OpenAI, whereas the BBC focuses on the specific details of the alleged theft and provides a statement from an OpenAI spokesperson."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] claims Apple CEO Tim Cook is leaving his role later this year, a detail not mentioned in the Al Jazeera report."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'major rupture' to describe the status of the relationship between Apple and OpenAI.",
+      "[bbc] attributes the phrase 'a pattern of theft' to the language found within the lawsuit filing."
+    ],
+    "safe_conclusions": [
+      "Apple has initiated legal proceedings against OpenAI, io Products, and two former employees in federal court."
+    ],
+    "unknowns": [
+      "Whether the allegations of trade secret theft will be proven in court.",
+      "The specific current employment status of the former Apple employees at OpenAI.",
+      "The official response of OpenAI to the specific allegations beyond the statement provided to the BBC."
+    ],
+    "synthesis": "Apple has filed a federal lawsuit against OpenAI, io Products, and two former Apple employees, alleging the misappropriation of confidential trade secrets. OpenAI has publicly denied interest in the trade secrets of other companies and is currently reviewing the complaint. The BBC report additionally notes an upcoming leadership change at Apple involving CEO Tim Cook.",
+    "confidence": "HIGH. The core facts regarding the filing of the lawsuit against the named defendants are consistent across both sources.",
+    "sources": [
+      {
+        "id": "art_1783769563352_dnapo",
+        "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets"
+      },
+      {
+        "id": "art_1783724707372_luo5d",
+        "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Apple sues OpenAI, its employees claiming theft of trade secrets"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "5eca41313b90af3756cfbe968b21b5e1",
     "topic_label": "Israel Iran Tensions and Conflict",
     "event_window_start": "2026-07-10T13:00:23.000Z",
@@ -149,118 +878,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "a83d2f0ba458a6b23e6d789ec28dd8e2",
-    "topic_label": "Russia Ukraine Conflict",
-    "event_window_start": "2026-07-10T17:21:35.000Z",
-    "event_window_end": "2026-07-11T11:08:00.000Z",
-    "article_ids": [
-      "art_1783769551491_8l6t7",
-      "art_1783769562317_ak6px",
-      "art_1783764927576_lgc1t",
-      "art_1783759739147_3hfgk",
-      "art_1783743252697_ub8sp",
-      "art_1783716738205_8tvxt",
-      "art_1783705700192_wqkjh"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T11:50:15.787Z",
-    "updated_at": "2026-07-11T11:50:15.787Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Russia has conducted air strikes and drone attacks against various Ukrainian locations, including Kyiv and Zaporizhzhia.",
-      "Civilians have been injured during recent Russian attacks in Ukraine.",
-      "The city of Zaporizhzhia is located near the current front line of the conflict."
-    ],
-    "source_claims": [
-      "[fox] Claims that Ukrainian strikes on Russia's oil industry are causing fuel shortages and export restrictions within Russia.",
-      "[fox] Claims that Maxim Katz asserts Russian fuel shortages are a sensitive issue ahead of September State Duma elections.",
-      "[bbc] Claims that Russian attacks on Zaporizhzhia have intensified significantly in June, targeting buses, schools, and homes.",
-      "[aljazeera] Claims that Russia used ballistic missiles and drone swarms in a recent strike on Kyiv, wounding at least 11 people.",
-      "[aljazeera] Claims that Russia stated the recent strikes on Kyiv targeted defense industry facilities using high-precision weapons."
-    ],
-    "framing_differences": [
-      "fox frames the conflict through the lens of Ukrainian strategic strikes on Russian energy infrastructure, whereas bbc and aljazeera frame the conflict through the lens of Russian strikes on Ukrainian infrastructure and civilians.",
-      "aljazeera (Kyiv/missile strike) focuses on the technical details of air defense stockpiles and the timing of sirens, whereas bbc focuses on the personal experience of residents in Zaporizhzhia."
-    ],
-    "contested_claims": [
-      "There is a discrepancy regarding the number of casualties in the recent Kyiv strike, with one aljazeera report stating 11 were wounded and another aljazeera report stating 10 were wounded."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Reports that local news source Euromaidan Press claimed sirens in Kyiv activated two minutes after initial detonations."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'vulnerability' to describe the state of the Russian government.",
-      "[aljazeera] uses the term 'intense overnight bombardment' to describe Russian military actions."
-    ],
-    "safe_conclusions": [
-      "Military strikes and drone attacks are ongoing in multiple regions of Ukraine.",
-      "Casualties have been reported in Ukrainian cities following Russian air attacks.",
-      "The security situation in Zaporizhzhia is described as intensified by local sources."
-    ],
-    "unknowns": [
-      "The precise total number of casualties in recent Kyiv strikes.",
-      "The full extent of the impact of Ukrainian strikes on Russian fuel supply chains.",
-      "The exact distance of Russian forces from the center of Zaporizhzhia at the time of the most recent report."
-    ],
-    "synthesis": "Recent reports indicate an intensification of aerial strikes across Ukraine, with Russia targeting infrastructure in cities including Kyiv and Zaporizhzhia. Concurrently, reports suggest Ukraine is conducting a campaign against Russian energy assets, which some analysts believe is affecting fuel availability within Russia. Both nations continue to report ongoing combat operations and civilian casualties resulting from these developments.",
-    "confidence": "MEDIUM. While reports of strikes are consistent across sources, there are minor numerical discrepancies in casualty reports between different dispatches from the same news outlet.",
-    "sources": [
-      {
-        "id": "art_1783769551491_8l6t7",
-        "url": "https://www.foxnews.com/world/bringing-war-putins-front-door-ukraine-energy-strike-strategy-working",
-        "source": "fox",
-        "title": "Bringing the war to Putin’s front door: Is Ukraine’s energy strike strategy working?"
-      },
-      {
-        "id": "art_1783769562317_ak6px",
-        "url": "https://www.bbc.co.uk/news/articles/c3dyyln23v8o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russia trains sights on schools, offices and buses in busy Ukrainian city"
-      },
-      {
-        "id": "art_1783764927576_lgc1t",
-        "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian missile attacks wound 11 in Kyiv"
-      },
-      {
-        "id": "art_1783759739147_3hfgk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian overnight strikes on Kyiv injure ten"
-      },
-      {
-        "id": "art_1783743252697_ub8sp",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts"
-      },
-      {
-        "id": "art_1783716738205_8tvxt",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/ukrainian-attacks-cause-chaos-at-fuel-stations-across-russia?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukrainian attacks cause chaos at fuel stations across Russia"
-      },
-      {
-        "id": "art_1783705700192_wqkjh",
-        "url": "https://www.aljazeera.com/news/2026/7/10/russian-attacks-kill-four-as-ukraine-continues-to-target-oil-infrastructure?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian attacks kill four as Ukraine continues to target oil infrastructure"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "e13b280959a187d05ab28411b487c50a",
     "topic_label": "Typhoon Bavi Disasters",
     "event_window_start": "2026-07-10T12:49:14.000Z",
@@ -327,162 +944,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/10/philippines-landslides-kill-15-as-typhoon-bavi-threatens-region?traffic_source=rss",
         "source": "aljazeera",
         "title": "Philippines landslides kill 15 as Typhoon Bavi threatens region"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9e7e4c69c91b3607990ae7f6aaa49f2a",
-    "topic_label": "Venezuela Earthquake Recovery",
-    "event_window_start": "2026-07-11T00:37:54.000Z",
-    "event_window_end": "2026-07-11T05:38:39.000Z",
-    "article_ids": [
-      "art_1783751823115_sqotm",
-      "art_1783731527679_t8ckm"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T07:26:01.939Z",
-    "updated_at": "2026-07-11T07:26:01.939Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "An earthquake event occurred in the state of La Guaira, Venezuela.",
-      "Hospitals in the affected area were damaged or destroyed."
-    ],
-    "source_claims": [
-      "[aljazeera] Volunteers in La Guaira have converted a fast-food restaurant into an emergency clinic.",
-      "[guardian] The death toll has reached at least 4,118 people.",
-      "[guardian] The number of injured is reported at 16,740.",
-      "[guardian] Venezuelan parliament chief Jorge Rodriguez stated there were back-to-back quakes of 7.2 and 7.5 magnitude on 24 June.",
-      "[guardian] Rescue teams have halted official search operations for survivors."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the event through the lens of grassroots community response and improvisational medical efforts, while The Guardian frames the event through the scale of the humanitarian disaster and official government reporting."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Thousands of people are currently listed as missing.",
-      "[guardian] The earthquakes were the largest in Venezuela in over a century.",
-      "[guardian] Entire high-rise apartment blocks were flattened."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'devastating' to describe the twin earthquakes.",
-      "[guardian] uses the term 'flattened' to describe the state of buildings."
-    ],
-    "safe_conclusions": [
-      "Earthquakes have occurred in La Guaira, Venezuela, resulting in infrastructure damage and the need for emergency medical care."
-    ],
-    "unknowns": [
-      "The total number of people missing remains unconfirmed.",
-      "The full extent of the damage to secondary residential structures is not definitively established.",
-      "The current status of international aid efforts beyond the call for financial help is unknown."
-    ],
-    "synthesis": "An earthquake event in La Guaira, Venezuela, has caused significant destruction to infrastructure, including hospitals. Official reports indicate a death toll of over 4,000, with thousands more injured or missing. Community members have begun repurposing local businesses to provide emergency medical treatment following the cessation of official search operations.",
-    "confidence": "MEDIUM. While both sources confirm the seismic event and damage in La Guaira, one source provides specific casualty statistics and technical data regarding the earthquake while the other focuses on a localized recovery effort.",
-    "sources": [
-      {
-        "id": "art_1783751823115_sqotm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/venezuelan-doctors-convert-restaurant-into-a-clinic-after-earthquake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Venezuelan doctors convert restaurant into a clinic after earthquake"
-      },
-      {
-        "id": "art_1783731527679_t8ckm",
-        "url": "https://www.theguardian.com/world/2026/jul/11/venezuela-quake-deaths-passes-4000-recovery-effort",
-        "source": "guardian",
-        "title": "Venezuela quake death toll passes 4,000 as scale of recovery effort looms large"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "12c429ddd2c7f4f422d11ec9cda3a961",
-    "topic_label": "Ann Widdecombe Murder Investigation",
-    "event_window_start": "2026-07-10T15:22:28.000Z",
-    "event_window_end": "2026-07-11T08:39:06.000Z",
-    "article_ids": [
-      "art_1783759736803_3fvcf",
-      "art_1783751818468_m4fi2",
-      "art_1783711551848_gqa9y",
-      "art_1783698966036_ey6gw"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T09:09:30.496Z",
-    "updated_at": "2026-07-11T09:09:30.496Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A 26-year-old man was arrested on suspicion of murdering Ann Widdecombe.",
-      "Ann Widdecombe was a former Member of Parliament.",
-      "Ann Widdecombe was found dead on Thursday with serious injuries at her home in Devon.",
-      "Devon and Cornwall police are conducting an investigation into the death."
-    ],
-    "source_claims": [
-      "[guardian] states the 26-year-old man arrested has been released from custody and is no longer part of the investigation.",
-      "[fox] claims British Prime Minister Keir Starmer has resigned from his position.",
-      "[fox] reports that Andy Burnham is considered a frontrunner to become the next Prime Minister."
-    ],
-    "framing_differences": [
-      "The Guardian focuses on the procedural update regarding the release of the murder suspect, whereas Fox focuses on the political implications of the death and broader UK political stability."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims British Prime Minister Keir Starmer has resigned.",
-      "[guardian] reports police were searching for a white male in connection with the death."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'significant political turmoil' to describe the current state of UK politics."
-    ],
-    "safe_conclusions": [
-      "An investigation into the death of Ann Widdecombe is currently being conducted by Devon and Cornwall police."
-    ],
-    "unknowns": [
-      "The current status of the murder investigation regarding potential new suspects.",
-      "The official cause of death beyond the reported 'serious injuries'.",
-      "The accuracy of the claim regarding Prime Minister Keir Starmer's resignation."
-    ],
-    "synthesis": "Devon and Cornwall police have confirmed that a 26-year-old man previously arrested on suspicion of murdering former MP Ann Widdecombe has been released and is no longer under investigation. Widdecombe was found dead at her home in Devon on Thursday with serious injuries. Fox News also reports on the event in the context of recent developments regarding British Prime Minister Keir Starmer.",
-    "confidence": "MEDIUM.MEDIUM. The sources share consistent facts regarding the death of Ann Widdecombe and the police investigation, but Fox News includes significant political claims not mentioned or corroborated by the other source.",
-    "sources": [
-      {
-        "id": "art_1783759736803_3fvcf",
-        "url": "https://www.theguardian.com/uk-news/live/2026/jul/11/ann-widdecombe-murder-investigation-latest-news-updates",
-        "source": "guardian",
-        "title": "Ann Widdecombe investigation: police release man arrested on suspicion of former MP’s murder – latest updates"
-      },
-      {
-        "id": "art_1783751818468_m4fi2",
-        "url": "https://www.theguardian.com/uk-news/2026/jul/11/man-arrested-on-suspicion-of-ann-widdecombes-is-released-not-part-of-investigation",
-        "source": "guardian",
-        "title": "Man arrested on suspicion of Ann Widdecombe’s murder is released"
-      },
-      {
-        "id": "art_1783711551848_gqa9y",
-        "url": "https://www.foxnews.com/world/former-british-mp-reality-tv-star-ann-widdecombe-found-dead-man-arrested-murder",
-        "source": "fox",
-        "title": "Former British MP and reality TV star Ann Widdecombe found dead; man arrested for murder"
-      },
-      {
-        "id": "art_1783698966036_ey6gw",
-        "url": "https://www.theguardian.com/politics/2026/jul/10/police-investigating-death-of-ann-widdecombe",
-        "source": "guardian",
-        "title": "Police launch murder investigation into death of Ann Widdecombe"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -1364,83 +1825,6 @@
         "url": "https://www.foxnews.com/politics/trump-irans-number-one-target-renewed-conflict-revives-assassination-concerns",
         "source": "fox",
         "title": "Trump says he's Iran's 'No. 1' target as renewed conflict raises assassination fears"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0ec98be627d82a7ee6091376d8d7790a",
-    "topic_label": "Israel-Lebanon Conflict",
-    "event_window_start": "2026-07-10T15:00:26.000Z",
-    "event_window_end": "2026-07-10T20:33:08.000Z",
-    "article_ids": [
-      "art_1783716734022_a4jhq",
-      "art_1783698973591_cf5fq",
-      "art_1783698976675_3tnnr"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-10T22:58:40.900Z",
-    "updated_at": "2026-07-10T22:58:40.900Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israeli military operations have occurred in Lebanon and Gaza.",
-      "Individuals and families have experienced loss or displacement in relation to ongoing regional hostilities."
-    ],
-    "source_claims": [
-      "[aljazeera] Israeli air strikes have caused destruction to historic landmarks in Tyre, Lebanon.",
-      "[aljazeera] A three-month-old infant in the West Bank died after Israeli forces blocked access to a hospital.",
-      "[aljazeera] An air raid in Gaza City on November 16, 2023, destroyed a home, resulting in the deaths of more than 30 members of the Haji family."
-    ],
-    "framing_differences": [
-      "Al Jazeera focuses on the impact of military actions on civilian life, cultural heritage, and individual personal tragedies across different conflict zones."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] The ancient city of Tyre sustained 'catastrophic destruction' due to Israeli strikes.",
-      "[aljazeera] Israeli forces were directly responsible for blocking the specific journey of the infant Ahmad Zaid to the hospital.",
-      "[aljazeera] The Haji family home in al-Zaitoun was destroyed by an Israeli air raid on November 16, 2023."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'catastrophic destruction' to describe the impact on historic sites in Tyre.",
-      "[aljazeera] uses the term 'heartbreak' to describe the aftermath of the search for missing individuals in Gaza."
-    ],
-    "safe_conclusions": [
-      "Israeli military activities are ongoing in Lebanon, the West Bank, and Gaza.",
-      "Civilians are reporting fatalities and structural destruction within these regions."
-    ],
-    "unknowns": [
-      "The specific tactical or strategic objectives of the Israeli military operations mentioned in the reports.",
-      "Verified details or independent investigations regarding the specific incidents involving the Haji family and Ahmad Zaid.",
-      "The full extent of damage to archaeological sites in Tyre from an official UNESCO or independent damage assessment."
-    ],
-    "synthesis": "Recent reports document significant casualties and structural destruction in Lebanon, the West Bank, and Gaza attributed to Israeli military operations. Individual accounts detail the loss of family members and the destruction of residential and historic properties. These accounts provide perspectives on the humanitarian impact of the ongoing conflict in these specific territories.",
-    "confidence": "MEDIUM. While reports provide consistent themes of civilian suffering, they rely on single-source reporting from Al Jazeera without independent corroboration for specific incidents.",
-    "sources": [
-      {
-        "id": "art_1783716734022_a4jhq",
-        "url": "https://www.aljazeera.com/video/2026/7/10/lebanon-historic-sites-destroyed-by-israeli-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanon historic sites destroyed by Israeli strikes"
-      },
-      {
-        "id": "art_1783698973591_cf5fq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/family-mourns-baby-after-israeli-forces-blocked-journey-to-hospital?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Family mourns baby after Israeli forces blocked journey to hospital"
-      },
-      {
-        "id": "art_1783698976675_3tnnr",
-        "url": "https://www.aljazeera.com/features/2026/7/10/the-search-for-gazas-missing-brings-heartbreak-and-closure-for-loved-ones?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The search for Gaza’s missing brings heartbreak and closure for loved ones"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -21720,474 +22104,6 @@
         "url": "https://www.aljazeera.com/sports/2026/7/7/anyone-who-doesnt-feel-for-palestinians-is-not-human-egypt-coach-hassan?traffic_source=rss",
         "source": "aljazeera",
         "title": "Anyone who doesn’t feel for Palestinians is not human: Egypt coach Hassan"
-      },
-      {
-        "id": "art_1783398893757_ch109",
-        "url": "https://www.aljazeera.com/sports/2026/7/7/fifa-defends-balogun-red-card-referee-after-trump-calls-him-a-bit-suspect?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "FIFA defends Balogun red card referee after Trump calls him ‘a bit suspect’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "68c56b59f49642c2a759a61e3e4f4058",
-    "topic_label": "Conflict in Middle East",
-    "event_window_start": "2026-07-07T04:06:03.000Z",
-    "event_window_end": "2026-07-07T21:56:47.000Z",
-    "article_ids": [
-      "art_1783461456258_tdtk9",
-      "art_1783461464857_7zbce",
-      "art_1783449149231_9ab3j",
-      "art_1783449153801_h4314",
-      "art_1783423622004_j9j5i",
-      "art_1783412585900_u7z0p",
-      "art_1783398879248_0n4hf"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T23:56:36.548Z",
-    "updated_at": "2026-07-07T23:56:36.548Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The US military confirmed strikes against Iranian targets starting on Tuesday.",
-      "Commercial vessels were struck in the Strait of Hormuz between Monday and Tuesday.",
-      "Explosions were reported in several locations in southern Iran.",
-      "President Emmanuel Macron visited Damascus for meetings with Ahmed al-Sharaa.",
-      "Explosions occurred in Damascus near the area where President Macron was staying."
-    ],
-    "source_claims": [
-      "[bbc] The US strikes are intended to impose heavy costs for targeting commercial shipping.",
-      "[aljazeera] Iran holds the US responsible for breaching a June memorandum of understanding.",
-      "[fox] The US administration claims the maritime attacks violate a ceasefire agreement.",
-      "[fox] Iranian state media reported the struck vessel had ignored warnings from Iranian forces."
-    ],
-    "framing_differences": [
-      "fox frames the Strait of Hormuz incident as a violation of a ceasefire, while bbc and aljazeera frame it as a response to commercial vessel attacks.",
-      "aljazeera frames the Iran strikes in the context of an alleged existing war and June memorandum, whereas bbc and fox focus on the immediate maritime security incident."
-    ],
-    "contested_claims": [
-      "fox attributes the maritime attacks to Iran as a confirmed action, while bbc notes Iran has not claimed responsibility for the strikes."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Iran was involved in the war the US and Israel began against Iran in late February.",
-      "[aljazeera] There was an MoU agreed between the US and Iran in June regarding the cessation of hostilities.",
-      "[fox] President Trump granted Tehran a week off for funeral ceremonies of Ali Khamenei."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'powerful' to describe the US strikes.",
-      "[bbc] uses the term 'innocent individuals' to describe the crews of the commercial vessels.",
-      "[fox] uses the term 'slain Supreme Leader' to describe Ali Khamenei."
-    ],
-    "safe_conclusions": [
-      "US military action against Iran has commenced.",
-      "Incidents involving commercial vessels occurred in the Strait of Hormuz.",
-      "President Macron was in Damascus during a security incident involving explosions."
-    ],
-    "unknowns": [
-      "The specific nature of the ceasefire mentioned by fox.",
-      "The official details of the June memorandum of understanding cited by aljazeera.",
-      "The cause of the vessel attacks in the Strait of Hormuz.",
-      "The identity of those responsible for the explosions in Damascus."
-    ],
-    "synthesis": "The United States has initiated military strikes against Iran following reports of attacks on commercial vessels in the Strait of Hormuz. Concurrently, explosions were reported in southern Iran and in Damascus during French President Emmanuel Macron's visit to meet Ahmed al-Sharaa. The sources provide conflicting information regarding the political context of these events, particularly concerning existing ceasefire or diplomatic agreements.",
-    "confidence": "MEDIUM.MEDIUM. While reports of military activity and the Damascus explosions are corroborated, the political context and attribution of the maritime attacks are presented with significant divergence between sources.",
-    "sources": [
-      {
-        "id": "art_1783461456258_tdtk9",
-        "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US launches strikes on Iran after tankers hit in Strait of Hormuz"
-      },
-      {
-        "id": "art_1783461464857_7zbce",
-        "url": "https://www.aljazeera.com/news/2026/7/7/us-says-strikes-launched-as-explosions-heard-in-southern-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US says strikes launched as explosions heard in southern Iran"
-      },
-      {
-        "id": "art_1783449149231_9ab3j",
-        "url": "https://www.foxnews.com/politics/iran-attacks-ships-strait-hormuz-days-after-trump-gave-tehran-a-week-off-khamenei-funeral",
-        "source": "fox",
-        "title": "Iran attacks ships in Strait of Hormuz days after Trump gave Tehran 'a week off' for Khamenei funeral"
-      },
-      {
-        "id": "art_1783449153801_h4314",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/several-hurt-in-damascus-blasts-as-macron-meets-syrias-sharaa?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Several hurt in Damascus blasts as Macron meets Syria’s Sharaa"
-      },
-      {
-        "id": "art_1783423622004_j9j5i",
-        "url": "https://www.bbc.co.uk/news/articles/c2eylx1jj9ko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Explosions injure 18 in Damascus during Macron's visit"
-      },
-      {
-        "id": "art_1783412585900_u7z0p",
-        "url": "https://www.aljazeera.com/news/2026/7/7/explosions-heard-in-syrias-damascus?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Explosions heard in Syria’s Damascus"
-      },
-      {
-        "id": "art_1783398879248_0n4hf",
-        "url": "https://www.aljazeera.com/news/2026/7/7/tanker-on-fire-off-coast-of-oman-after-being-hit-by-projectile?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Tanker on fire off coast of Oman after being hit by projectile"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3c944f450fe7b5f4fd46461659a5f6dc",
-    "topic_label": "Gaza and Palestinian Issues",
-    "event_window_start": "2026-07-07T03:02:23.000Z",
-    "event_window_end": "2026-07-07T12:56:19.000Z",
-    "article_ids": [
-      "art_1783431341838_5fxy2",
-      "art_1783423625430_az1jm",
-      "art_1783412598546_6nd46",
-      "art_1783398888269_rbemm",
-      "art_1783398890508_ctz7d"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T23:56:36.548Z",
-    "updated_at": "2026-07-07T23:56:36.548Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Hossam Hassan is the coach of the Egypt national football team.",
-      "Hossam Hassan made public comments regarding the Palestinian people during a press conference.",
-      "Hamas announced the dissolution of its civilian governing body in Gaza.",
-      "Military conflict is ongoing in the Gaza Strip."
-    ],
-    "source_claims": [
-      "[aljazeera] Claims Israeli bulldozing has turned regions of Gaza into a barren wasteland.",
-      "[aljazeera] Claims Gaza's Government Media Office states more than 90 percent of the Strip has been destroyed.",
-      "[aljazeera] Claims cumulative death toll in Gaza since October 2023 reached 73,098 by July 6.",
-      "[aljazeera] Reports Hossam Hassan stated the suffering of the Palestinian people is a 'shame on the entire world'.",
-      "[aljazeera] Reports Hamas has ended its government emergency committee."
-    ],
-    "framing_differences": [
-      "Articles regarding the Egypt coach frame his statements as an 'impassioned plea' and a moral stand, whereas the article regarding Hamas frames the dissolution of its governing body as a purely administrative or political transition."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Claims Israeli forces are 'systematically' destroying the territory’s farmlands.",
-      "[aljazeera] Claims an individual child was killed by a quadcopter-dropped bomb at the Shujayea junction."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the ongoing conflict in Gaza.",
-      "[aljazeera] uses the term 'suffocating Israeli siege' to describe conditions in Gaza.",
-      "[aljazeera] quotes Hossam Hassan saying anyone who does not feel for the Palestinian people is 'not human'."
-    ],
-    "safe_conclusions": [
-      "Hossam Hassan publicly advocated for the Palestinian cause during a professional football press conference.",
-      "Hamas has formally ended its civilian administrative structure in Gaza after two decades.",
-      "Armed conflict and casualties continue to be reported within the Gaza Strip."
-    ],
-    "unknowns": [
-      "The specific operational details or reasoning behind Hamas's decision to dissolve its civilian governing body.",
-      "Independent verification of specific battlefield casualty counts provided by the Gaza Ministry of Health."
-    ],
-    "synthesis": "Recent reports from Al Jazeera cover the ongoing military conflict in Gaza, the dissolution of Hamas's civilian governing body, and public comments made by Egypt football coach Hossam Hassan regarding Palestine. The reports detail significant infrastructure damage and civilian casualties within the Gaza Strip amid persistent hostilities. Separately, the Egyptian national football coach utilized a press conference platform to express solidarity with the Palestinian people.",
-    "confidence": "MEDIUM. While the events reported are consistent within the provided source, all information originates from a single media outlet, limiting the opportunity for cross-verification of specific claims.",
-    "sources": [
-      {
-        "id": "art_1783431341838_5fxy2",
-        "url": "https://www.aljazeera.com/economy/2026/7/7/displaced-gaza-farmers-turn-to-dirt-near-tents-to-grow-crops?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Gaza farmers turn to dirt near tents to grow crops"
-      },
-      {
-        "id": "art_1783423625430_az1jm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/egypt-coach-makes-impassioned-plea-for-palestine-in-pre-match-conference?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Egypt coach makes impassioned plea for Palestine in pre-match conference"
-      },
-      {
-        "id": "art_1783412598546_6nd46",
-        "url": "https://www.aljazeera.com/news/2026/7/7/palestine-weekly-one-thousand-days-of-genocide-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestine weekly: One thousand days of genocide in Gaza"
-      },
-      {
-        "id": "art_1783398888269_rbemm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/7/hamas-dissolves-civilian-governing-body-in-gaza-after-20-years?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hamas dissolves civilian governing body in Gaza after 20 years"
-      },
-      {
-        "id": "art_1783398890508_ctz7d",
-        "url": "https://www.aljazeera.com/sports/2026/7/7/anyone-who-doesnt-feel-for-palestinians-is-not-human-egypt-coach-hassan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Anyone who doesn’t feel for Palestinians is not human: Egypt coach Hassan"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e8dd6ca405df82089d50d09ec3a1cc71",
-    "topic_label": "NATO Summit and Politics",
-    "event_window_start": "2026-07-07T04:00:30.000Z",
-    "event_window_end": "2026-07-07T20:08:40.000Z",
-    "article_ids": [
-      "art_1783456263783_3cyfe",
-      "art_1783449159544_8og4p",
-      "art_1783412583576_8dnwn",
-      "art_1783412596396_gll14",
-      "art_1783398878144_f45ip",
-      "art_1783398881513_6dmtc",
-      "art_1783398883759_dshim"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T23:56:36.548Z",
-    "updated_at": "2026-07-07T23:56:36.548Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A NATO summit is taking place in Ankara, Turkiye.",
-      "Leaders from 32 NATO member states are in attendance.",
-      "US President Donald Trump is attending the summit.",
-      "Ukraine's President Volodymyr Zelenskyy is attending the summit.",
-      "The summit involves discussions regarding defense spending and European security."
-    ],
-    "source_claims": [
-      "[aljazeera] US President Trump expressed disappointment with NATO.",
-      "[guardian] President Trump threatened to pull all American troops from Europe.",
-      "[guardian] NATO is announcing $40bn in new investments for anti-drone capabilities.",
-      "[aljazeera] NATO members agreed last year to a defense spending target of 5 percent of GDP by 2035.",
-      "[bbc] Ukraine's President Zelenskyy intends to urge allies to provide air defense systems.",
-      "[bbc] Russian missile attacks in Ukraine have resulted in the deaths of more than 50 civilians."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the summit around Trump's critique of NATO and tensions regarding Greenland and the Russia-Ukraine war, while The Guardian focuses on Trump's threats to withdraw troops and specific procurement announcements.",
-      "The Guardian frames the alliance as having cracks due to the 'Iran war', while Aljazeera refers to it as the 'US-Israel war on Iran'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] NATO chose to purchase Saab GlobalEye surveillance planes over US-made Boeing planes."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'bruising year' to describe the recent state of NATO.",
-      "[bbc] uses the term 'brutal' to describe Russian attacks.",
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the conflict involving Iran."
-    ],
-    "safe_conclusions": [
-      "A NATO summit is currently occurring in Ankara.",
-      "Defense spending and security investments are central topics of the summit.",
-      "Donald Trump and Volodymyr Zelenskyy are among those present at the event."
-    ],
-    "unknowns": [
-      "The specific outcome of the scheduled meeting between Donald Trump and Volodymyr Zelenskyy.",
-      "The official response of European allies to the specific threats mentioned regarding troop withdrawals.",
-      "The full list of nations participating in the security discussions beyond the NATO member states."
-    ],
-    "synthesis": "NATO leaders have gathered in Ankara, Turkiye, for a summit focused on defense spending and regional security amid ongoing global conflicts. US President Donald Trump is in attendance, where he has raised concerns regarding alliance commitments and defense funding. Other leaders, including Ukraine's Volodymyr Zelenskyy, are participating in the summit to discuss current military needs and security strategies.",
-    "confidence": "MEDIUM: While the attendance and location are confirmed across all sources, there are inconsistencies in the descriptions of geopolitical conflicts and the specific details regarding procurement and future defense policy.",
-    "sources": [
-      {
-        "id": "art_1783456263783_3cyfe",
-        "url": "https://www.aljazeera.com/news/2026/7/7/trump-lashes-out-at-nato-as-first-day-of-summit-wraps-in-turkiye?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump lashes out at NATO as first day of summit wraps in Turkiye"
-      },
-      {
-        "id": "art_1783449159544_8og4p",
-        "url": "https://www.theguardian.com/world/2026/jul/07/trump-renews-call-us-take-over-greenland-nato",
-        "source": "guardian",
-        "title": "Trump renews call for US to take over Greenland as he arrives for Nato summit"
-      },
-      {
-        "id": "art_1783412583576_8dnwn",
-        "url": "https://www.theguardian.com/world/live/2026/jul/07/nato-summit-zelenskyy-trump-ukraine-rutte-defence-eu-spending-turkey-france-macron-le-pen-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Nato summit begins with focus on defence spending as Zelenskyy and Trump due to meet - Europe live"
-      },
-      {
-        "id": "art_1783412596396_gll14",
-        "url": "https://www.aljazeera.com/news/2026/7/7/nato-summit-begins-who-is-attending-and-what-is-at-stake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "NATO summit begins in Turkiye’s Ankara: Who is attending, what is at stake?"
-      },
-      {
-        "id": "art_1783398878144_f45ip",
-        "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Zelensky to press Nato for air defence systems after intense Russian strikes"
-      },
-      {
-        "id": "art_1783398881513_6dmtc",
-        "url": "https://www.theguardian.com/world/2026/jul/07/nato-braces-for-difficult-summit-as-trump-puts-pressure-on-spending",
-        "source": "guardian",
-        "title": "Nato braces for difficult summit as Trump puts pressure on spending"
-      },
-      {
-        "id": "art_1783398883759_dshim",
-        "url": "https://www.theguardian.com/world/2026/jul/07/europe-faces-up-to-prospect-us-may-be-unable-to-arm-nato-allies",
-        "source": "guardian",
-        "title": "Europe faces up to prospect US may be unable to arm Nato allies"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "24716af27dae681344884679dc649af8",
-    "topic_label": "World Cup Soccer Events",
-    "event_window_start": "2026-07-07T02:23:55.000Z",
-    "event_window_end": "2026-07-07T22:46:10.000Z",
-    "article_ids": [
-      "art_1783465268835_2kt13",
-      "art_1783465279428_7x580",
-      "art_1783465281709_e4d3w",
-      "art_1783456262753_34luv",
-      "art_1783456269009_82thr",
-      "art_1783456270040_ovfiy",
-      "art_1783456271072_k2fbs",
-      "art_1783441857456_qtx4g",
-      "art_1783431340776_t9vv7",
-      "art_1783431345264_u57cz",
-      "art_1783398889422_vvljs",
-      "art_1783398893757_ch109"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 12,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-07T23:56:36.548Z",
-    "updated_at": "2026-07-07T23:56:36.548Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A World Cup match between Argentina and Egypt took place in Atlanta on a Tuesday.",
-      "The match ended with a 3-2 victory for Argentina.",
-      "Argentina came back from a 2-0 deficit to win the game."
-    ],
-    "source_claims": [
-      "[aljazeera] Egypt coach Hossam Hassan stated that his team was 'cheated' and suffered 'injustice'.",
-      "[aljazeera] Egypt coach Hossam Hassan claims the team was denied a spot in the quarterfinals due to poor officiating.",
-      "[aljazeera] Egypt alleges several fouls from Argentina were overlooked by the referee.",
-      "[aljazeera] A goal by Mostafa Ziko for Egypt was rescinded after a VAR call."
-    ],
-    "framing_differences": [
-      "[aljazeera] frames the match outcome through the lens of controversy and perceived referee bias against Egypt, while [fox] focuses primarily on the dramatic nature of Argentina's comeback and local stadium logistics."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Claims that several fouls committed by Argentina went unnoticed by the referee."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'bittersweet, controversial, and highly charged' to describe the match result.",
-      "[aljazeera] uses the term 'explosive' to describe the coach's post-match news conference.",
-      "[aljazeera] quotes the coach using the terms 'cheated' and 'injustice' to describe the officiating."
-    ],
-    "safe_conclusions": [
-      "Argentina defeated Egypt 3-2 in a World Cup match held in Atlanta.",
-      "Argentina trailed by two goals before scoring three to win."
-    ],
-    "unknowns": [
-      "The exact officiating decisions or specific fouls cited by Egypt beyond the VAR-ruled goal.",
-      "The specific technical grounds for the VAR intervention."
-    ],
-    "synthesis": "Argentina defeated Egypt 3-2 in a World Cup match held in Atlanta after overcoming a two-goal deficit. Egypt's coach, Hossam Hassan, publicly disputed the officiating and alleged the team was treated unfairly. The match included a goal by Mostafa Ziko that was overturned following a VAR review.",
-    "confidence": "HIGH. All sources agree on the final score and the nature of the comeback, despite varying degrees of focus on officiating disputes.",
-    "sources": [
-      {
-        "id": "art_1783465268835_2kt13",
-        "url": "https://www.aljazeera.com/sports/2026/7/7/egypt-buoyed-by-praise-for-world-cup-heroics-despite-controversial-exit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Egypt buoyed by praise for World Cup heroics despite controversial exit"
-      },
-      {
-        "id": "art_1783465279428_7x580",
-        "url": "https://www.aljazeera.com/sports/2026/7/7/egypt-were-cheated-in-world-cup-loss-to-argentina-coach-hassan-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Egypt were ‘cheated’ in World Cup loss to Argentina, coach Hassan says"
-      },
-      {
-        "id": "art_1783465281709_e4d3w",
-        "url": "https://www.foxnews.com/sports/tom-brady-compares-argentina-dramatic-world-cup-rally-patriots-super-bowl-comeback",
-        "source": "fox",
-        "title": "Tom Brady compares Argentina's dramatic World Cup rally to Patriots' Super Bowl comeback"
-      },
-      {
-        "id": "art_1783456262753_34luv",
-        "url": "https://www.foxnews.com/sports/usa-belgium-most-watched-soccer-telecast-us-history-staggering-viewership-numbers",
-        "source": "fox",
-        "title": "USA-Belgium becomes most-watched soccer telecast in US history with staggering viewership numbers"
-      },
-      {
-        "id": "art_1783456269009_82thr",
-        "url": "https://www.foxnews.com/outkick-sports/colombia-soccer-fans-invade-vancouver-world-cup-round-16-clash-switzerland",
-        "source": "fox",
-        "title": "Colombia soccer fans invade Vancouver ahead of World Cup Round of 16 clash with Switzerland"
-      },
-      {
-        "id": "art_1783456270040_ovfiy",
-        "url": "https://www.aljazeera.com/sports/2026/7/7/why-was-the-second-half-of-the-argentina-vs-egypt-world-cup-game-controversial?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What was the VAR controversy in the second half of Argentina vs Egypt?"
-      },
-      {
-        "id": "art_1783456271072_k2fbs",
-        "url": "https://www.foxnews.com/sports/argentina-pull-off-one-greatest-world-cup-comebacks-ever-avoid-massive-upset-against-egypt",
-        "source": "fox",
-        "title": "Argentina pull off one of greatest World Cup comebacks ever to avoid massive upset against Egypt"
-      },
-      {
-        "id": "art_1783441857456_qtx4g",
-        "url": "https://www.foxnews.com/outkick-sports/world-cup-round-16-betting-guide-argentina-colombia-corners-market-leading-way",
-        "source": "fox",
-        "title": "World Cup Round of 16 betting guide with Argentina, Colombia and the corners market leading the way"
-      },
-      {
-        "id": "art_1783431340776_t9vv7",
-        "url": "https://www.theguardian.com/media/2026/jul/07/england-world-cup-win-mexico-breaks-viewing-records-bbc",
-        "source": "guardian",
-        "title": "England’s World Cup win over Mexico at 2am breaks viewing records across BBC"
-      },
-      {
-        "id": "art_1783431345264_u57cz",
-        "url": "https://www.theguardian.com/football/2026/jul/07/belgium-fans-celebrate-world-cup-usa-donald-trump",
-        "source": "guardian",
-        "title": "Belgium unites to enjoy national team’s World Cup success over USA and Trump"
-      },
-      {
-        "id": "art_1783398889422_vvljs",
-        "url": "https://www.theguardian.com/football/2026/jul/06/belgium-reaction-victory-usa-world-cup-red-card",
-        "source": "guardian",
-        "title": "‘Overturn this’: victorious Belgium throw barb after Balogun red-card controversy"
       },
       {
         "id": "art_1783398893757_ch109",
