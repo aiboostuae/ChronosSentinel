@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T10:55:48.100Z",
+  "generated_at": "2026-07-12T11:57:12.227Z",
   "status": "ready",
   "items": [
     {
@@ -23,23 +23,43 @@
       "updated_at": "2026-07-12T10:55:34.575Z"
     },
     {
-      "id": "impact-63957544",
-      "title": "International Natural Disasters",
+      "id": "impact-39d0323c",
+      "title": "Global Weather and Disaster Events",
       "severity": "critical",
       "status": "active",
       "region": "Middle East",
       "domains": [
-        "disaster"
+        "disaster",
+        "shipping"
       ],
-      "why_it_matters": "Typhoon Bavi has moved through the Pacific, impacting Japan, Taiwan, and the Philippines with heavy winds and rain. Authorities in China have initiated evacuations in anticipation of the storm's landfall, which is projected for Sunday near Wenzhou. The storm has weakened to a Category 1 typhoon but remains a concern due to the volume of moisture it carries.",
-      "evidence_summary": "2 source(s), high confidence.",
+      "why_it_matters": "Recent natural disasters have necessitated emergency responses, including evacuations and rescue operations in India, the United States, and Vietnam. Typhoon Bavi is currently moving across the Pacific, impacting Japan, Taiwan, and the Philippines, with China preparing for landfall. Reported incidents include landslides, structural collapses, flooding, and a maritime accident involving a tourist vessel.",
+      "evidence_summary": "3 source(s), high confidence.",
       "confidence_label": "high",
       "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "63957544b3eb9ff80d5d3a77c6fb3568",
+      "source_count": 3,
+      "related_cluster_id": "39d0323c54c00b9c153f95423e2bea31",
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-07-12T10:55:34.575Z"
+      "updated_at": "2026-07-12T11:57:03.359Z"
+    },
+    {
+      "id": "impact-a59d9d45",
+      "title": "FIFA World Cup Coverage",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "South African midfielder Jayden Adams has died at the age of 25 shortly after representing his country in the 2026 FIFA World Cup. In other tournament-related news, the Colombian Soccer Federation is calling for an investigation following reports of death threats against player Jaminton Campaz. These incidents have drawn attention to the personal risks and intense public scrutiny faced by athletes during the tournament.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "a59d9d45902c1c8752ebae83e5443750",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-07-12T11:57:03.359Z"
     },
     {
       "id": "impact-a9d8ea78",
@@ -77,6 +97,25 @@
       "related_cluster_id": "0d2d729e3deecfa785e7ccb6459e5d75",
       "related_watchlist_id": null,
       "operator_hint": "Monitor social media feeds and local transit advisories for escalation signals.",
+      "updated_at": "2026-07-12T10:55:34.575Z"
+    },
+    {
+      "id": "impact-63957544",
+      "title": "International Natural Disasters",
+      "severity": "critical",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "disaster"
+      ],
+      "why_it_matters": "Typhoon Bavi has moved through the Pacific, impacting Japan, Taiwan, and the Philippines with heavy winds and rain. Authorities in China have initiated evacuations in anticipation of the storm's landfall, which is projected for Sunday near Wenzhou. The storm has weakened to a Category 1 typhoon but remains a concern due to the volume of moisture it carries.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "63957544b3eb9ff80d5d3a77c6fb3568",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-07-12T10:55:34.575Z"
     },
     {
@@ -3099,47 +3138,6 @@
       "related_cluster_id": "dda56739612bbc1d6fcade7cdde7f1af",
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-07-08T21:03:22.540Z"
-    },
-    {
-      "id": "impact-56892dad",
-      "title": "Gaza Conflict and Humanitarian Impact",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Mohamed al-Wahidi, an aid worker and director of the Egyptian Committee in Gaza, was killed in an Israeli strike. His death occurred in the context of ongoing military operations in the Gaza Strip. The event has been reported alongside broader narratives regarding the impact of the conflict on Palestinian civilians and children.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "56892dad1f2372344fb2b0abc63cdc16",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-07-08T21:03:22.540Z"
-    },
-    {
-      "id": "impact-f9450629",
-      "title": "NATO Summit Ankara News",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "The NATO summit in Ankara concluded with discussions centered on defense spending, European missile capabilities, and support for Ukraine. The proceedings involved public and private meetings between President Donald Trump and other alliance leaders. While institutional pledges for military assistance were announced, the summit was also characterized by reports of varying interactions between the US President and his counterparts.",
-      "evidence_summary": "3 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "f94506294bf689e6c3eb09eb126c0f37",
-      "related_watchlist_id": "watch-001",
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-07-08T21:03:22.540Z"
     }
   ]
