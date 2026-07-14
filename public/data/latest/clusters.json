@@ -198,6 +198,79 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "21c5dbd9801c6784bca68adf283d9265",
+    "topic_label": "ICE Agent Involved Shootings",
+    "event_window_start": "2026-07-14T01:50:48.000Z",
+    "event_window_end": "2026-07-14T02:59:18.000Z",
+    "article_ids": [
+      "art_1784001478348_6dgzq",
+      "art_1784001481539_3f6vb"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-14T22:35:53.586Z",
+    "updated_at": "2026-07-14T22:35:53.586Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An ICE officer fatally shot a motorist in Maine.",
+      "The incident occurred on a Monday.",
+      "Protests took place in Maine following the shooting.",
+      "This was the second ICE-related fatality involving the use of force within one week."
+    ],
+    "source_claims": [
+      "[aljazeera] A protest took place in Maine to demand accountability for the shooting.",
+      "[bbc] The deceased was a Colombian national.",
+      "[bbc] The incident occurred during an immigration enforcement operation at an address in Biddeford at approximately 07:00 EDT.",
+      "[bbc] ICE officials stated that the vehicle attempted to flee the scene and an officer discharged his weapon fearing for public safety.",
+      "[bbc] ICE did not provide specific details explaining why the officer feared for public safety."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event primarily in the context of recent fatalities involving ICE, whereas BBC provides specific details regarding the identity of the deceased and the procedural context of the ICE operation."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The deceased individual was a Colombian national.",
+      "[bbc] The shooting occurred during an operation to target a person with a final order of removal.",
+      "[bbc] The vehicle attempted to flee the scene."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "An ICE officer fatally shot a motorist in Maine.",
+      "Protests occurred after the event.",
+      "This is the second fatality involving ICE use of force in one week."
+    ],
+    "unknowns": [
+      "The specific identity of the deceased individual remains unconfirmed by multiple independent sources.",
+      "The exact justification for the officer's fear for public safety remains unknown.",
+      "The outcome of the Maine prosecutor's involvement mentioned in the truncated text."
+    ],
+    "synthesis": "An ICE officer fatally shot a motorist during an operation in Biddeford, Maine, marking the second such fatality in one week. Protesters subsequently gathered in the area to demonstrate following the incident. Official statements regarding the circumstances of the shooting cite safety concerns during a vehicle stop, though specific details remain limited.",
+    "confidence": "HIGH. Both sources provide consistent reporting regarding the core event of a fatal shooting by an ICE agent, despite differing levels of detail provided.",
+    "sources": [
+      {
+        "id": "art_1784001478348_6dgzq",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/ice-officer-kills-motorist-in-maine-the-second-fatality-in-a-week-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "ICE officer kills motorist in Maine; the second fatality in a week"
+      },
+      {
+        "id": "art_1784001481539_3f6vb",
+        "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Colombian national killed by ICE agent during operation in Maine "
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "ae53bf1167078c7c56b5312bc599beb0",
     "topic_label": "ICE Agent Killing in Maine",
     "event_window_start": "2026-07-13T22:06:01.000Z",
@@ -21959,97 +22032,6 @@
         "url": "https://www.foxnews.com/politics/mamdani-officials-planned-meeting-iran-envoy-shut-down-state-department",
         "source": "fox",
         "title": "Mamdani official's planned meeting with Iran envoy shut down by State Department"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "208ad007c11966d2e6e22d65a5981eef",
-    "topic_label": "Death of Ann Widdecombe",
-    "event_window_start": "2026-07-10T15:22:28.000Z",
-    "event_window_end": "2026-07-11T13:58:21.000Z",
-    "article_ids": [
-      "art_1783779829224_b28f4",
-      "art_1783759736803_3fvcf",
-      "art_1783751818468_m4fi2",
-      "art_1783711551848_gqa9y",
-      "art_1783698966036_ey6gw"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T14:37:40.484Z",
-    "updated_at": "2026-07-11T14:37:40.484Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ann Widdecombe was found dead at her home in Devon on Thursday at 11.40am.",
-      "A 26-year-old man was arrested in connection with the investigation and subsequently released without charge.",
-      "Devon and Cornwall police are investigating the death as a murder case.",
-      "The body was found by the ambulance service with serious injuries."
-    ],
-    "source_claims": [
-      "[guardian] Police are working on the assumption that Widdecombe was attacked at approximately 12.30pm on Wednesday.",
-      "[guardian] The 26-year-old man arrested is no longer part of the police inquiry.",
-      "[fox] British Prime Minister Keir Starmer has resigned.",
-      "[fox] Authorities stated Widdecombe died of serious injuries."
-    ],
-    "framing_differences": [
-      "The guardian articles focus on the progression of the police investigation and the release of the suspect, while the fox article includes external political context regarding the resignation of Prime Minister Keir Starmer."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Prime Minister Keir Starmer has resigned."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'significant political turmoil' to describe the context of the UK government."
-    ],
-    "safe_conclusions": [
-      "Ann Widdecombe, 78, was found deceased in her home on Thursday, leading to an active police murder investigation."
-    ],
-    "unknowns": [
-      "The identity of the perpetrator.",
-      "The current status of the suspect search after the initial 26-year-old man was cleared.",
-      "The accuracy of the report concerning Prime Minister Keir Starmer's resignation."
-    ],
-    "synthesis": "Ann Widdecombe was discovered dead with serious injuries at her home in Devon on Thursday morning, prompting a murder investigation by Devon and Cornwall police. A 26-year-old man initially arrested in connection with the incident has been released and is no longer under investigation. Reports regarding the broader political climate in the UK at the time of the event vary by source.",
-    "confidence": "MEDIUM: MEDIUM. While police reports regarding the investigation are consistent, the inclusion of unverified, unrelated political news in one source reduces overall factual coherence.",
-    "sources": [
-      {
-        "id": "art_1783779829224_b28f4",
-        "url": "https://www.theguardian.com/politics/2026/jul/11/ann-widdecombe-killed-24-hours-before-body-found",
-        "source": "guardian",
-        "title": "Ann Widdecombe may have been killed 24 hours before her body was found"
-      },
-      {
-        "id": "art_1783759736803_3fvcf",
-        "url": "https://www.theguardian.com/uk-news/live/2026/jul/11/ann-widdecombe-murder-investigation-latest-news-updates",
-        "source": "guardian",
-        "title": "Ann Widdecombe investigation: police release man arrested on suspicion of former MP’s murder – latest updates"
-      },
-      {
-        "id": "art_1783751818468_m4fi2",
-        "url": "https://www.theguardian.com/uk-news/2026/jul/11/man-arrested-on-suspicion-of-ann-widdecombes-is-released-not-part-of-investigation",
-        "source": "guardian",
-        "title": "Man arrested on suspicion of Ann Widdecombe’s murder is released"
-      },
-      {
-        "id": "art_1783711551848_gqa9y",
-        "url": "https://www.foxnews.com/world/former-british-mp-reality-tv-star-ann-widdecombe-found-dead-man-arrested-murder",
-        "source": "fox",
-        "title": "Former British MP and reality TV star Ann Widdecombe found dead; man arrested for murder"
-      },
-      {
-        "id": "art_1783698966036_ey6gw",
-        "url": "https://www.theguardian.com/politics/2026/jul/10/police-investigating-death-of-ann-widdecombe",
-        "source": "guardian",
-        "title": "Police launch murder investigation into death of Ann Widdecombe"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
