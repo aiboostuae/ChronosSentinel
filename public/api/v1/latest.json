@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T20:34:48.733Z",
+  "generated_at": "2026-07-15T21:58:25.174Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 161,
@@ -96,6 +96,38 @@
       "updated_at": "2026-07-15T11:12:41.705Z"
     },
     {
+      "cluster_id": "362b9b0519b05d58bf9b82f074231a77",
+      "topic_label": "Alcatraz Island boat accident",
+      "event_window_start": "2026-07-15T00:33:31.000Z",
+      "event_window_end": "2026-07-15T01:18:58.000Z",
+      "article_count": 2,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "A pontoon boat capsized near Alcatraz Island in the San Francisco Bay on Tuesday.",
+        "There were 19 people on board the vessel at the time of the incident.",
+        "One person died, two people are missing, and 16 people were rescued.",
+        "San Francisco Fire Chief Dean Crispin confirmed these figures during a press conference.",
+        "The vessel was approximately 600 yards from Alcatraz Island when the incident occurred."
+      ],
+      "source_differences": [],
+      "synthesis": "A pontoon boat carrying 19 people capsized near Alcatraz Island on Tuesday, resulting in one confirmed fatality and two missing persons. While 16 individuals were rescued, there is a discrepancy between sources regarding the involvement of a fire on the vessel. Authorities are continuing to investigate the cause of the incident.",
+      "confidence": "MEDIUM: The sources provide consistent figures regarding the number of people involved, but directly contradict each other regarding the occurrence of a fire.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/14/san-francisco-boat-fire-alcatraz-island",
+          "title": "One person dead and two missing after boat sinks near San Francisco’s Alcatraz Island"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/multiple-rescued-from-pontoon-boat-near-alcatraz-search-continues-missing-persons",
+          "title": "Multiple rescued from pontoon boat near Alcatraz as search continues for missing persons"
+        }
+      ],
+      "updated_at": "2026-07-15T04:50:00.461Z"
+    },
+    {
       "cluster_id": "bb51ff3f577ef2d35bb1d0367a78483e",
       "topic_label": "MLB All-Star Game events",
       "event_window_start": "2026-07-15T00:57:47.000Z",
@@ -130,36 +162,89 @@
       "updated_at": "2026-07-15T07:14:05.552Z"
     },
     {
-      "cluster_id": "362b9b0519b05d58bf9b82f074231a77",
-      "topic_label": "Alcatraz Island boat accident",
-      "event_window_start": "2026-07-15T00:33:31.000Z",
-      "event_window_end": "2026-07-15T01:18:58.000Z",
-      "article_count": 2,
-      "source_count": 2,
+      "cluster_id": "fbc15364be863d5ed49a9457078bec32",
+      "topic_label": "Australian politics and social issues",
+      "event_window_start": "2026-07-15T01:57:45.000Z",
+      "event_window_end": "2026-07-15T06:07:36.000Z",
+      "article_count": 6,
+      "source_count": 1,
       "region_tag": "global",
       "shared_facts": [
-        "A pontoon boat capsized near Alcatraz Island in the San Francisco Bay on Tuesday.",
-        "There were 19 people on board the vessel at the time of the incident.",
-        "One person died, two people are missing, and 16 people were rescued.",
-        "San Francisco Fire Chief Dean Crispin confirmed these figures during a press conference.",
-        "The vessel was approximately 600 yards from Alcatraz Island when the incident occurred."
+        "All provided articles are sourced from the Guardian.",
+        "The articles discuss separate and unrelated events occurring in Australia.",
+        "Multiple articles report on ongoing inquiries, legal proceedings, or government-related investigations."
       ],
       "source_differences": [],
-      "synthesis": "A pontoon boat carrying 19 people capsized near Alcatraz Island on Tuesday, resulting in one confirmed fatality and two missing persons. While 16 individuals were rescued, there is a discrepancy between sources regarding the involvement of a fire on the vessel. Authorities are continuing to investigate the cause of the incident.",
-      "confidence": "MEDIUM: The sources provide consistent figures regarding the number of people involved, but directly contradict each other regarding the occurrence of a fire.",
+      "synthesis": "The provided news articles cover separate contemporary Australian events including a legal case involving a Brisbane student, university protest policy changes, and political investigations into donation and interference allegations. Additionally, the coverage includes statements from public figures regarding national identity and government discord. The reports focus on updates from courts, commissions, and government officials.",
+      "confidence": "HIGH. All articles are sourced from the same publication and provide reportage on distinct, non-overlapping events.",
       "sources": [
         {
           "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/14/san-francisco-boat-fire-alcatraz-island",
-          "title": "One person dead and two missing after boat sinks near San Francisco’s Alcatraz Island"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/15/brisbane-school-alleged-stabbing-child-arrested-court-ntwnfb",
+          "title": "Brisbane child accused of school stabbing allegedly faced ‘racist’ abuse, court hears"
         },
         {
-          "source": "fox",
-          "url": "https://www.foxnews.com/us/multiple-rescued-from-pontoon-boat-near-alcatraz-search-continues-missing-persons",
-          "title": "Multiple rescued from pontoon boat near Alcatraz as search continues for missing persons"
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/15/antisemitism-royal-commission-university-of-melbourne-protest-policies-ntwnfb",
+          "title": "University of Melbourne ‘sharply’ changed protest policies after pro-Palestine sit-ins, commission hears"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/15/icac-catholic-schools-nsw-liberal-party",
+          "title": "Icac inquiry raises questions over whether taxpayer funds were used in alleged illegal political donations"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/15/melissa-horne-cfmeu-allegations-hospital-project-ntwnfb",
+          "title": "Minister breaks ranks with Victorian premier by calling for explanation for alleged wrongdoing on project"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/15/barnaby-joyce-australia-christian-first-nations-ntwnfb",
+          "title": "Barnaby Joyce claims Australia is a ‘Christian nation’ and says many First Nations people would agree"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/15/australia-news-live-ceo-pay-anthony-albanese-palestine-gaza-ai-artificial-intelligence-datacentres-copyright-royal-commission-antisemitism-labor-ntwnfb",
+          "title": "Australia news live: inquiry told pro-Palestine sit-in led to ‘sharp’ change in university policy; Tasmanian premier considers buying brewery"
         }
       ],
-      "updated_at": "2026-07-15T04:50:00.461Z"
+      "updated_at": "2026-07-15T21:58:15.960Z"
+    },
+    {
+      "cluster_id": "3f07a2b58ec71ba86c39e2bb81b215c5",
+      "topic_label": "UK politics and governance",
+      "event_window_start": "2026-07-15T05:00:46.000Z",
+      "event_window_end": "2026-07-15T07:00:47.000Z",
+      "article_count": 3,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [
+        "The government has discussed or proposed legislative changes regarding elections and welfare reform.",
+        "Pat McFadden is the Work and Pensions Secretary.",
+        "Rushanara Ali is a former democracy minister."
+      ],
+      "source_differences": [],
+      "synthesis": "The government is facing internal and public pressure regarding the scope of its elections bill and its approach to welfare payments. Former minister Rushanara Ali has criticized the proposed elections legislation as insufficient, while Work and Pensions Secretary Pat McFadden has signaled a shift toward job-focused welfare support. These discussions reflect broader ongoing debates regarding political funding and government responsibility toward benefit recipients.",
+      "confidence": "HIGH. The sources are internally consistent and represent reporting from the same outlet, allowing for clear identification of stated positions and claims.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/2026/jul/15/andy-burnham-strengthen-elections-bill",
+          "title": "Andy Burnham urged to overhaul ‘timid and limited’ elections bill"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/15/wednesday-briefing-do-mps-have-the-will-to-stop-mega-donors-interfering-in-uk-politics",
+          "title": "Wednesday briefing: ​Do MPs have the will to stop mega-donors interfering in UK politics?"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/society/2026/jul/15/labour-stop-writing-cheque-benefit-claimants-pat-mcfadden-welfare-reform",
+          "title": "Labour must stop just writing a cheque for benefit claimants, says McFadden"
+        }
+      ],
+      "updated_at": "2026-07-15T21:58:15.960Z"
     },
     {
       "cluster_id": "67f50936d827c55d23c952d4a4f98f13",
@@ -332,77 +417,6 @@
         }
       ],
       "updated_at": "2026-07-15T16:20:10.619Z"
-    },
-    {
-      "cluster_id": "f1f26538defc226ae0bb40ef04305d83",
-      "topic_label": "Spain World Cup Final",
-      "event_window_start": "2026-07-15T00:14:35.000Z",
-      "event_window_end": "2026-07-15T07:01:10.000Z",
-      "article_count": 3,
-      "source_count": 1,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "Spain defeated France with a score of 2-0.",
-        "The match took place in the context of the 2026 FIFA World Cup semifinals.",
-        "Spain has qualified for the World Cup final."
-      ],
-      "source_differences": [],
-      "synthesis": "Spain defeated France 2-0 in the 2026 FIFA World Cup semifinals. The victory secures Spain's position in the upcoming final. Manager Luis de la Fuente attributed the team's performance to a spirit reminiscent of their 2010 championship campaign.",
-      "confidence": "HIGH. All provided sources consistently report the final score and the advancement of Spain to the tournament final.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/15/spain-france-world-cup-semifinal-luis-de-la-fuente-2010-title?traffic_source=rss",
-          "title": "Spain recapture 2010 spirit after reaching World Cup final: De la Fuente"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-knock-out-france-prepare-for-world-cup-final?traffic_source=rss",
-          "title": "Spain knock out France, prepare for World Cup final"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-fans-erupt-as-team-reaches-world-cup-final?traffic_source=rss",
-          "title": "Spain fans erupt as team reaches World Cup final"
-        }
-      ],
-      "updated_at": "2026-07-15T09:31:15.582Z"
-    },
-    {
-      "cluster_id": "c8ded5f31e5e064f10f8e9ec022a77ba",
-      "topic_label": "Death of Ann Widdecombe",
-      "event_window_start": "2026-07-14T16:45:46.000Z",
-      "event_window_end": "2026-07-14T17:03:44.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Ann Widdecombe was found murdered at her home in Devon, England, last week.",
-        "Counter-terrorism police have stated that the incident was a targeted attack.",
-        "A white British man was arrested by local police on Saturday and subsequently rearrested on suspicion of terrorism charges.",
-        "Assistant Commissioner Laurence Taylor is leading the counter-terrorism policing investigation."
-      ],
-      "source_differences": [],
-      "synthesis": "Ann Widdecombe was found murdered at her residence in Devon, prompting an ongoing investigation led by counter-terrorism police. Authorities have classified the incident as a targeted attack and have taken a male suspect into custody on terrorism-related charges. While investigations continue, police are examining potential motivations behind the act.",
-      "confidence": "HIGH. The sources share consistent details regarding the nature of the police response, the victim's status, and the current legal status of the investigation, suspect, with differences limited to the scope of reported investigatory leads.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/politics/live/2026/jul/14/ann-widdecombe-nigel-farage-reform-uk-security-protection-burnham-latest-news-updates",
-          "title": "Ann Widdecombe was killed in ‘targeted attack’, police say – UK politics live"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/jul/14/ann-widdecombe-killing-police-investigating-possible-leftwing-motivation",
-          "title": "Ann Widdecombe killing: police investigating possible leftwing motivation"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/14/murder-of-uk-politician-ann-widdecombe-was-targeted-attack-police-say?traffic_source=rss",
-          "title": "Murder of UK politician Ann Widdecombe was ‘targeted attack’, police say"
-        }
-      ],
-      "updated_at": "2026-07-14T18:40:51.379Z"
     }
   ],
   "latest_impact": [
@@ -466,6 +480,46 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-07-15T04:50:00.461Z"
+    },
+    {
+      "id": "impact-fbc15364",
+      "title": "Australian politics and social issues",
+      "severity": "low",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "The provided news articles cover separate contemporary Australian events including a legal case involving a Brisbane student, university protest policy changes, and political investigations into donation and interference allegations. Additionally, the coverage includes statements from public figures regarding national identity and government discord. The reports focus on updates from courts, commissions, and government officials.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "fbc15364be863d5ed49a9457078bec32",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-07-15T21:58:15.960Z"
+    },
+    {
+      "id": "impact-3f07a2b5",
+      "title": "UK politics and governance",
+      "severity": "low",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "The government is facing internal and public pressure regarding the scope of its elections bill and its approach to welfare payments. Former minister Rushanara Ali has criticized the proposed elections legislation as insufficient, while Work and Pensions Secretary Pat McFadden has signaled a shift toward job-focused welfare support. These discussions reflect broader ongoing debates regarding political funding and government responsibility toward benefit recipients.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "3f07a2b58ec71ba86c39e2bb81b215c5",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-07-15T21:58:15.960Z"
     },
     {
       "id": "impact-67f50936",
@@ -569,47 +623,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-07-15T14:49:09.625Z"
-    },
-    {
-      "id": "impact-2bd923a3",
-      "title": "Donald Trump legal and political developments",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "The provided articles detail separate events involving different public figures. One report covers the support from GOP senators for an interim Senate appointment, while the other addresses a legal payment made by Donald Trump to E. Jean Carroll. There is no thematic overlap between the two texts.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "2bd923a3ca25ca63eb0ab71ca13f2beb",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-07-15T14:49:09.625Z"
-    },
-    {
-      "id": "impact-a0498028",
-      "title": "Israel and Gaza conflict",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "grid",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Israeli military operations in northern Gaza have resulted in the detention of medical staff and casualties among local police forces. Reports detail individual accounts of doctors being held without charge alongside accounts of air strikes targeting police infrastructure in Jabalia. These events reflect ongoing military activity in the region following the conflict between Israel and Hamas.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "a049802882ae3d6ef1f88e1085ca5bbb",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-07-15T09:31:15.582Z"
     }
   ]
 }
