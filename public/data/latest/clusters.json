@@ -1,5 +1,312 @@
 [
   {
+    "cluster_id": "6d747d2d824f8d637591164db9824cba",
+    "topic_label": "US Iran tensions and diplomacy",
+    "event_window_start": "2026-07-14T16:50:54.000Z",
+    "event_window_end": "2026-07-14T23:59:12.000Z",
+    "article_ids": [
+      "art_1784081227913_tsf3a",
+      "art_1784049487544_7c4rv",
+      "art_1784049490801_4xg48"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-15T04:50:00.461Z",
+    "updated_at": "2026-07-15T04:50:00.461Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "President Donald Trump has engaged in rhetoric regarding US military actions targeting Iranian infrastructure including power plants and bridges.",
+      "There is an ongoing dispute involving the US and Iran regarding the strait of Hormuz.",
+      "US and Iranian military or diplomatic tensions have impacted energy prices and inflation rates.",
+      "The US has conducted airstrikes or operations affecting Iranian port cities."
+    ],
+    "source_claims": [
+      "[guardian-1] President Donald Trump stated he would target all of Iran's power plants and bridges if Tehran does not enter negotiations.",
+      "[guardian-2] The Bureau of Labor Statistics reported that US inflation reached an annual rate of 3.5% in June.",
+      "[guardian-2] Inflation figures in May reached a three-year high of 4.2%.",
+      "[guardian-3] President Donald Trump cancelled a planned 20% security toll for ships in the strait of Hormuz.",
+      "[guardian-3] The US has conducted strikes in the port cities of Bushehr and Bandar Abbas.",
+      "[guardian-3] Iran has targeted Bahrain and Jordan in retaliatory actions."
+    ],
+    "framing_differences": [
+      "guardian-1 frames Trump's statements as threats to expand conflict, while guardian-3 frames his recent actions as 'backing down' from a specific toll threat while maintaining a broader blockade policy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian-1] Trump previously threatened to 'obliterate' Iran's power stations and fresh water plants in March.",
+      "[guardian-2] A brief US-Iran ceasefire occurred recently and has since ended."
+    ],
+    "loaded_language": [
+      "[guardian-1] uses the term 'threatens' to describe the President's statements regarding infrastructure strikes.",
+      "[guardian-3] uses the term 'retaliation' to describe Iranian strikes on Bahrain and Jordan."
+    ],
+    "safe_conclusions": [
+      "Tensions between the United States and Iran are affecting regional security, maritime transit in the strait of Hormuz, and economic indicators such as inflation and energy prices."
+    ],
+    "unknowns": [
+      "The specific terms of the 'brief ceasefire' mentioned by the source.",
+      "The exact military outcomes of the reported strikes in Bushehr and Bandar Abbas.",
+      "The full list of 'Middle East leadership' involved in the discussions regarding the cancellation of the strait of Hormuz toll."
+    ],
+    "synthesis": "Tensions between the United States and Iran have resulted in military actions targeting infrastructure and port cities, alongside ongoing diplomatic disputes regarding the strait of Hormuz. These geopolitical events have had measurable effects on US inflation rates and global energy prices. While the US government has moved to adjust specific policies like maritime tolls, the broader blockade and military posturing remain active.",
+    "confidence": "HIGH. The sources consistently report on the ongoing state of conflict and economic impact despite the differing focuses of each article.",
+    "sources": [
+      {
+        "id": "art_1784081227913_tsf3a",
+        "url": "https://www.theguardian.com/world/2026/jul/15/trump-iran-power-plants-strike-threat-strait-of-hormuz",
+        "source": "guardian",
+        "title": "Trump again threatens to strike Iran’s power plants amid impasse over strait of Hormuz"
+      },
+      {
+        "id": "art_1784049487544_7c4rv",
+        "url": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal",
+        "source": "guardian",
+        "title": "Inflation cools to 3.5% in June in relief brought by brief US-Iran peace deal"
+      },
+      {
+        "id": "art_1784049490801_4xg48",
+        "url": "https://www.theguardian.com/world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers",
+        "source": "guardian",
+        "title": "Trump withdraws Hormuz tolls threat but says US will continue to blockade Iran"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0a6e6e5b5faa7d1700615074a3513426",
+    "topic_label": "Middle East conflict",
+    "event_window_start": "2026-07-14T17:13:27.000Z",
+    "event_window_end": "2026-07-15T01:57:45.000Z",
+    "article_ids": [
+      "art_1784081215151_css6w",
+      "art_1784049481004_vz7y6"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-15T04:50:00.461Z",
+    "updated_at": "2026-07-15T04:50:00.461Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "University of Melbourne experienced a pro-Palestine encampment starting in April 2024.",
+      "The University of Melbourne held discussions with Victoria Police regarding the encampment.",
+      "Israeli military operations in Gaza have resulted in fatalities."
+    ],
+    "source_claims": [
+      "[guardian] Prof Glyn Davis states the university changed protest policies after the encampment created a level of fear and unsafety.",
+      "[guardian] Victoria Police maintained they would not intervene in the encampment unless a law was broken.",
+      "[bbc] Israeli air strikes in Jabalia killed at least seven people, including a senior police officer and a woman.",
+      "[bbc] The Hamas-run interior ministry describes the strike as a massacre.",
+      "[bbc] The Israeli military identifies the deceased officer as the head of military security for Hamas's Central Jabalia Battalion."
+    ],
+    "framing_differences": [
+      "The Guardian focuses on the internal administrative and policy responses to domestic campus protests, whereas the BBC focuses on active military conflict and casualties in Gaza."
+    ],
+    "contested_claims": [
+      "The BBC reports the deceased individuals as a police officer and others, while the Israeli military identifies them specifically as members of a Hamas military security battalion."
+    ],
+    "unverified_claims": [
+      "[guardian] Prof Glyn Davis stated there was a 'sharp' change in policy due to the encampment.",
+      "[bbc] Witnesses stated that an Israeli drone fired four missiles at the post near a market."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'massacre' to describe the Israeli strike on the police post.",
+      "[bbc] uses the term 'terrorists' to describe the individuals killed in the strike."
+    ],
+    "safe_conclusions": [
+      "Events occurred in April 2024 involving protests at the University of Melbourne.",
+      "Military strikes have occurred in the Jabalia area of northern Gaza resulting in deaths."
+    ],
+    "unknowns": [
+      "The specific legal thresholds required for Victoria Police to intervene in the university encampment.",
+      "The total number of police officers versus civilians killed in the Gaza strike.",
+      "Whether the University of Melbourne has formally cut ties with specific companies."
+    ],
+    "synthesis": "The University of Melbourne reported policy changes following a pro-Palestine encampment that officials associated with student and staff unease. Simultaneously, reports from Gaza indicate that an Israeli air strike in Jabalia resulted in multiple deaths at a local police post. The nature of the individuals killed in the strike is currently characterized differently by local Hamas-run authorities and the Israeli military.",
+    "confidence": "MEDIUM; The articles cover entirely different events and regions, limiting the ability to compare factual consistency across the two reports.",
+    "sources": [
+      {
+        "id": "art_1784081215151_css6w",
+        "url": "https://www.theguardian.com/australia-news/live/2026/jul/15/australia-news-live-ceo-pay-anthony-albanese-palestine-gaza-ai-artificial-intelligence-datacentres-copyright-royal-commission-antisemitism-labor-ntwnfb",
+        "source": "guardian",
+        "title": "Australia news live: inquiry told pro-Palestine sit-in led to ‘sharp’ change in university policy; Tasmanian premier considers buying brewery"
+      },
+      {
+        "id": "art_1784049481004_vz7y6",
+        "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Israeli strike on police post in north Gaza kills seven, officials say"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "362b9b0519b05d58bf9b82f074231a77",
+    "topic_label": "Alcatraz Island boat accident",
+    "event_window_start": "2026-07-15T00:33:31.000Z",
+    "event_window_end": "2026-07-15T01:18:58.000Z",
+    "article_ids": [
+      "art_1784081220457_0jl3d",
+      "art_1784081225743_sxxar"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-15T04:50:00.461Z",
+    "updated_at": "2026-07-15T04:50:00.461Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A pontoon boat capsized near Alcatraz Island in the San Francisco Bay on Tuesday.",
+      "There were 19 people on board the vessel at the time of the incident.",
+      "One person died, two people are missing, and 16 people were rescued.",
+      "San Francisco Fire Chief Dean Crispin confirmed these figures during a press conference.",
+      "The vessel was approximately 600 yards from Alcatraz Island when the incident occurred."
+    ],
+    "source_claims": [
+      "[guardian] states initial reports suggested a fire on board, but the fire chief denied this.",
+      "[fox] states crews responded to a boat that caught fire off the coast.",
+      "[fox] reports that 13 survivors made it to shore and three were transported to a hospital."
+    ],
+    "framing_differences": [
+      "The guardian frames the potential fire as an initial report that was later refuted by the fire chief, whereas fox leads with the claim that the boat caught fire."
+    ],
+    "contested_claims": [
+      "guardian reports the fire chief said there was no indication of a blaze, while fox explicitly states the boat caught fire in its reporting of the event."
+    ],
+    "unverified_claims": [
+      "[fox] claims the vessel was a three-deck pontoon boat."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'famous tourist attraction' to describe Alcatraz Island."
+    ],
+    "safe_conclusions": [
+      "A maritime incident involving a pontoon boat occurred near Alcatraz Island resulting in one fatality and two missing persons.",
+      "Nineteen people were on board the boat during the incident."
+    ],
+    "unknowns": [
+      "The official cause of the capsizing.",
+      "The current status of the search for the two missing individuals.",
+      "The definitive cause of death for the deceased individual."
+    ],
+    "synthesis": "A pontoon boat carrying 19 people capsized near Alcatraz Island on Tuesday, resulting in one confirmed fatality and two missing persons. While 16 individuals were rescued, there is a discrepancy between sources regarding the involvement of a fire on the vessel. Authorities are continuing to investigate the cause of the incident.",
+    "confidence": "MEDIUM: The sources provide consistent figures regarding the number of people involved, but directly contradict each other regarding the occurrence of a fire.",
+    "sources": [
+      {
+        "id": "art_1784081220457_0jl3d",
+        "url": "https://www.theguardian.com/us-news/2026/jul/14/san-francisco-boat-fire-alcatraz-island",
+        "source": "guardian",
+        "title": "One person dead and two missing after boat sinks near San Francisco’s Alcatraz Island"
+      },
+      {
+        "id": "art_1784081225743_sxxar",
+        "url": "https://www.foxnews.com/us/multiple-rescued-from-pontoon-boat-near-alcatraz-search-continues-missing-persons",
+        "source": "fox",
+        "title": "Multiple rescued from pontoon boat near Alcatraz as search continues for missing persons"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c8ded5f31e5e064f10f8e9ec022a77ba",
+    "topic_label": "Death of Ann Widdecombe",
+    "event_window_start": "2026-07-14T16:45:46.000Z",
+    "event_window_end": "2026-07-14T17:03:44.000Z",
+    "article_ids": [
+      "art_1784049485365_3dqz7",
+      "art_1784049488608_3d9cu",
+      "art_1784049491949_32sie"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-14T18:40:51.379Z",
+    "updated_at": "2026-07-14T18:40:51.379Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Ann Widdecombe was found murdered at her home in Devon, England, last week.",
+      "Counter-terrorism police have stated that the incident was a targeted attack.",
+      "A white British man was arrested by local police on Saturday and subsequently rearrested on suspicion of terrorism charges.",
+      "Assistant Commissioner Laurence Taylor is leading the counter-terrorism policing investigation."
+    ],
+    "source_claims": [
+      "[guardian-1] Counter-terrorism police stated they are working to understand the motive, preparation, and planning behind the attack.",
+      "[guardian-2] Detectives are investigating whether the perpetrator's motivation was linked to the victim's views on homosexuality or hostility toward the Reform UK party.",
+      "[guardian-2] Counter-terrorism police assumed control of the investigation from the Devon and Cornwall force on Monday after searches were conducted at the suspect's home.",
+      "[aljazeera] Widdecombe was found dead with 'serious injuries' five days prior to the police briefing on Tuesday."
+    ],
+    "framing_differences": [
+      "The Guardian-2 focuses on potential political motivations, specifically mentioning 'leftwing' or 'single-issue' causes and the victim's views on homosexuality, whereas AlJazeera and Guardian-1 focus on the procedural developments of the police investigation and the 'targeted' nature of the attack."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian-2] Investigators are specifically examining 'leftwing' or 'single-issue' causes as potential factors in the killing."
+    ],
+    "loaded_language": [
+      "[guardian-2] uses the term 'extreme hostility' to describe sentiments directed toward the Reform UK party."
+    ],
+    "safe_conclusions": [
+      "Ann Widdecombe was killed in an attack identified as targeted by law enforcement officials.",
+      "A suspect is currently in custody following an arrest on suspicion of murder and subsequent rearrest on terrorism-related charges.",
+      "An investigation into the circumstances of the death is ongoing under the purview of counter-terrorism police."
+    ],
+    "unknowns": [
+      "The specific identity of the suspect.",
+      "The official motive for the attack, as police have stated they are still investigating.",
+      "The specific nature of the 'serious injuries' sustained by the victim."
+    ],
+    "synthesis": "Ann Widdecombe was found murdered at her residence in Devon, prompting an ongoing investigation led by counter-terrorism police. Authorities have classified the incident as a targeted attack and have taken a male suspect into custody on terrorism-related charges. While investigations continue, police are examining potential motivations behind the act.",
+    "confidence": "HIGH. The sources share consistent details regarding the nature of the police response, the victim's status, and the current legal status of the investigation, suspect, with differences limited to the scope of reported investigatory leads.",
+    "sources": [
+      {
+        "id": "art_1784049485365_3dqz7",
+        "url": "https://www.theguardian.com/politics/live/2026/jul/14/ann-widdecombe-nigel-farage-reform-uk-security-protection-burnham-latest-news-updates",
+        "source": "guardian",
+        "title": "Ann Widdecombe was killed in ‘targeted attack’, police say – UK politics live"
+      },
+      {
+        "id": "art_1784049488608_3d9cu",
+        "url": "https://www.theguardian.com/uk-news/2026/jul/14/ann-widdecombe-killing-police-investigating-possible-leftwing-motivation",
+        "source": "guardian",
+        "title": "Ann Widdecombe killing: police investigating possible leftwing motivation"
+      },
+      {
+        "id": "art_1784049491949_32sie",
+        "url": "https://www.aljazeera.com/news/2026/7/14/murder-of-uk-politician-ann-widdecombe-was-targeted-attack-police-say?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Murder of UK politician Ann Widdecombe was ‘targeted attack’, police say"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "22d1d170279b66f0b97fa396e133050e",
     "topic_label": "Conflict in Middle East",
     "event_window_start": "2026-07-14T03:38:22.000Z",
@@ -93,85 +400,6 @@
         "url": "https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook?traffic_source=rss",
         "source": "aljazeera",
         "title": "Oil hits 1-month high as US-Iran fighting clouds Strait of Hormuz outlook"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c8ded5f31e5e064f10f8e9ec022a77ba",
-    "topic_label": "Death of Ann Widdecombe",
-    "event_window_start": "2026-07-14T16:45:46.000Z",
-    "event_window_end": "2026-07-14T17:03:44.000Z",
-    "article_ids": [
-      "art_1784049485365_3dqz7",
-      "art_1784049488608_3d9cu",
-      "art_1784049491949_32sie"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-14T18:40:51.379Z",
-    "updated_at": "2026-07-14T18:40:51.379Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ann Widdecombe was found murdered at her home in Devon, England, last week.",
-      "Counter-terrorism police have stated that the incident was a targeted attack.",
-      "A white British man was arrested by local police on Saturday and subsequently rearrested on suspicion of terrorism charges.",
-      "Assistant Commissioner Laurence Taylor is leading the counter-terrorism policing investigation."
-    ],
-    "source_claims": [
-      "[guardian-1] Counter-terrorism police stated they are working to understand the motive, preparation, and planning behind the attack.",
-      "[guardian-2] Detectives are investigating whether the perpetrator's motivation was linked to the victim's views on homosexuality or hostility toward the Reform UK party.",
-      "[guardian-2] Counter-terrorism police assumed control of the investigation from the Devon and Cornwall force on Monday after searches were conducted at the suspect's home.",
-      "[aljazeera] Widdecombe was found dead with 'serious injuries' five days prior to the police briefing on Tuesday."
-    ],
-    "framing_differences": [
-      "The Guardian-2 focuses on potential political motivations, specifically mentioning 'leftwing' or 'single-issue' causes and the victim's views on homosexuality, whereas AlJazeera and Guardian-1 focus on the procedural developments of the police investigation and the 'targeted' nature of the attack."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian-2] Investigators are specifically examining 'leftwing' or 'single-issue' causes as potential factors in the killing."
-    ],
-    "loaded_language": [
-      "[guardian-2] uses the term 'extreme hostility' to describe sentiments directed toward the Reform UK party."
-    ],
-    "safe_conclusions": [
-      "Ann Widdecombe was killed in an attack identified as targeted by law enforcement officials.",
-      "A suspect is currently in custody following an arrest on suspicion of murder and subsequent rearrest on terrorism-related charges.",
-      "An investigation into the circumstances of the death is ongoing under the purview of counter-terrorism police."
-    ],
-    "unknowns": [
-      "The specific identity of the suspect.",
-      "The official motive for the attack, as police have stated they are still investigating.",
-      "The specific nature of the 'serious injuries' sustained by the victim."
-    ],
-    "synthesis": "Ann Widdecombe was found murdered at her residence in Devon, prompting an ongoing investigation led by counter-terrorism police. Authorities have classified the incident as a targeted attack and have taken a male suspect into custody on terrorism-related charges. While investigations continue, police are examining potential motivations behind the act.",
-    "confidence": "HIGH. The sources share consistent details regarding the nature of the police response, the victim's status, and the current legal status of the investigation, suspect, with differences limited to the scope of reported investigatory leads.",
-    "sources": [
-      {
-        "id": "art_1784049485365_3dqz7",
-        "url": "https://www.theguardian.com/politics/live/2026/jul/14/ann-widdecombe-nigel-farage-reform-uk-security-protection-burnham-latest-news-updates",
-        "source": "guardian",
-        "title": "Ann Widdecombe was killed in ‘targeted attack’, police say – UK politics live"
-      },
-      {
-        "id": "art_1784049488608_3d9cu",
-        "url": "https://www.theguardian.com/uk-news/2026/jul/14/ann-widdecombe-killing-police-investigating-possible-leftwing-motivation",
-        "source": "guardian",
-        "title": "Ann Widdecombe killing: police investigating possible leftwing motivation"
-      },
-      {
-        "id": "art_1784049491949_32sie",
-        "url": "https://www.aljazeera.com/news/2026/7/14/murder-of-uk-politician-ann-widdecombe-was-targeted-attack-police-say?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Murder of UK politician Ann Widdecombe was ‘targeted attack’, police say"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -21730,323 +21958,6 @@
         "url": "https://www.foxnews.com/politics/platner-collapse-completes-john-fetterman-break-sanders-socialists",
         "source": "fox",
         "title": "Platner collapse completes John Fetterman’s break from Sanders socialists who put him in Senate"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ef117188c6b27f51fbbb8bc08166b934",
-    "topic_label": "Global Sports and World Cup",
-    "event_window_start": "2026-07-10T21:39:56.000Z",
-    "event_window_end": "2026-07-11T14:48:06.000Z",
-    "article_ids": [
-      "art_1783783976267_3s9aa",
-      "art_1783779832342_9er9i",
-      "art_1783759745499_d1y6x",
-      "art_1783759747632_iwp4d",
-      "art_1783759748662_b7ycu",
-      "art_1783743244084_e7bkw",
-      "art_1783743246254_wozi0",
-      "art_1783720883447_sij1r"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T15:51:52.221Z",
-    "updated_at": "2026-07-11T15:51:52.221Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The 2026 FIFA World Cup has reached the quarterfinal stage.",
-      "England is scheduled to play Norway in a quarterfinal match.",
-      "Argentina is scheduled to play Switzerland in a quarterfinal match."
-    ],
-    "source_claims": [
-      "[fox] claims that England vs. Norway is a highly anticipated matchup featuring Norway's popular team.",
-      "[aljazeera] claims that England and Argentina are favorites to reach the semifinals based on the Opta supercomputer.",
-      "[guardian] claims that the quarter-final matches are expected to generate a £500m sales boost for the UK economy.",
-      "[aljazeera] claims that Argentina has had a 'stuttering run' in the knockout phase despite their status as reigning champions.",
-      "[bbc] reports the death of South African midfielder Jayden Adams at the age of 25."
-    ],
-    "framing_differences": [
-      "fox frames the England vs. Norway game as a clash of star players and popular interest, whereas aljazeera frames the game through historical head-to-head statistics and computer-modeled predictions.",
-      "guardian frames the quarter-final as an economic event for the UK, while aljazeera frames the quarter-final as a tactical and competitive stage for Argentina and Switzerland."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims that Norway is one of the world's favorite teams.",
-      "[guardian] cites an estimate that fans will drink 9.3 million pints during the quarter-final period."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'hot' to describe Erling Haaland's performance.",
-      "[aljazeera] uses the term 'stuttering' to describe Argentina's performance in the knockout phase.",
-      "[aljazeera] uses the term 'far inferior' to describe Argentina's previous knockout opponents.",
-      "[bbc] uses the term 'profound shock' to describe the reaction to Jayden Adams's passing."
-    ],
-    "safe_conclusions": [
-      "Four teams—England, Norway, Argentina, and Switzerland—are participating in the upcoming 2026 FIFA World Cup quarterfinals.",
-      "France and Spain have secured spots in the semifinals."
-    ],
-    "unknowns": [
-      "The exact outcomes of the England vs. Norway and Argentina vs. Switzerland matches.",
-      "The final economic impact of the tournament beyond existing estimates.",
-      "The official cause of death for Jayden Adams."
-    ],
-    "synthesis": "The 2026 FIFA World Cup is currently in the quarterfinal stage, with England facing Norway and Argentina playing Switzerland. France and Spain have already qualified for the semifinals. These matches are generating significant media and economic attention across multiple regions.",
-    "confidence": "HIGH. The sources are consistent regarding the schedule and status of the 2026 FIFA World Cup matches.",
-    "sources": [
-      {
-        "id": "art_1783783976267_3s9aa",
-        "url": "https://www.foxnews.com/outkick-sports/harry-kane-erling-haaland-fifa-world-cup-quarterfinal-duel-england-eye-moneyline-win",
-        "source": "fox",
-        "title": "Harry Kane and Erling Haaland set for FIFA World Cup quarterfinal duel as England eye moneyline win"
-      },
-      {
-        "id": "art_1783779832342_9er9i",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cr47y5nvrqlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "South Africa World Cup midfielder Adams dies aged 25"
-      },
-      {
-        "id": "art_1783759745499_d1y6x",
-        "url": "https://www.aljazeera.com/sports/2026/7/11/fifa-world-cup-quarterfinals?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "World Cup quarterfinals today: Schedule, predictions, Haaland’s viral rise"
-      },
-      {
-        "id": "art_1783759747632_iwp4d",
-        "url": "https://www.theguardian.com/business/2026/jul/11/world-cup-quarter-finals-expected-to-generate-half-billion-pound-sales-rise-for-uk-economy",
-        "source": "guardian",
-        "title": "World Cup quarter-final expected to generate £500m sales boost for UK economy"
-      },
-      {
-        "id": "art_1783759748662_b7ycu",
-        "url": "https://www.aljazeera.com/sports/2026/7/11/argentina-switzerland-fifa-world-cup-quarterfinal-messi-prediction-news?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Argentina vs Switzerland: World Cup quarterfinal – Messi, prediction, news"
-      },
-      {
-        "id": "art_1783743244084_e7bkw",
-        "url": "https://www.aljazeera.com/sports/2026/7/11/kane-vs-haaland-in-england-vs-norway-world-cup-quarterfinal-of-strikers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Kane vs Haaland in England vs Norway World Cup quarterfinal of strikers"
-      },
-      {
-        "id": "art_1783743246254_wozi0",
-        "url": "https://www.aljazeera.com/sports/2026/7/11/yamal-does-not-mind-lack-of-goals-if-spain-win-world-cup-2026?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yamal does not mind lack of goals if Spain win World Cup 2026"
-      },
-      {
-        "id": "art_1783720883447_sij1r",
-        "url": "https://www.aljazeera.com/sports/2026/7/10/spain-leave-it-late-to-book-semifinal-date-with-france?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain leave it late to book semifinal date with France"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f0a3ef33d2b825019db8a612254f79c4",
-    "topic_label": "Tech Companies and Legal Actions",
-    "event_window_start": "2026-07-10T19:13:23.000Z",
-    "event_window_end": "2026-07-10T23:00:11.000Z",
-    "article_ids": [
-      "art_1783769563352_dnapo",
-      "art_1783751824142_r780g",
-      "art_1783751826282_j245x",
-      "art_1783731528727_ivnrs",
-      "art_1783724707372_luo5d",
-      "art_1783711538693_p08ni"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T15:51:52.221Z",
-    "updated_at": "2026-07-11T15:51:52.221Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Meta released an AI image generation feature called Muse Image on Tuesday.",
-      "Meta has discontinued or pulled the Muse Image feature following public backlash.",
-      "Apple filed a federal lawsuit against OpenAI and two former Apple employees on Friday.",
-      "The Apple lawsuit alleges the misappropriation of confidential trade secrets.",
-      "Meta stated in its response that the feature 'missed the mark'."
-    ],
-    "source_claims": [
-      "[aljazeera] alleges a coordinated effort by OpenAI to steal Apple's confidential information including product designs, manufacturing processes, and supply chain strategies.",
-      "[bbc] claims at least two former Apple employees who joined OpenAI emailed themselves internal Apple information.",
-      "[bbc] reports that OpenAI spokesman Drew Pusateri stated the company has no interest in other companies' trade secrets.",
-      "[guardian] reports that criticism toward Meta included feedback from a Hollywood union.",
-      "[bbc] claims Tim Cook is leaving the role of Apple CEO later this year."
-    ],
-    "framing_differences": [
-      "The guardian and bbc both focus on Meta's stated intent to provide a 'useful creative tool,' whereas aljazeera focuses exclusively on the privacy backlash and the company's admission of missing the mark.",
-      "Regarding the Apple lawsuit, aljazeera frames the event as a 'major rupture' in the relationship between Apple and OpenAI, while bbc frames it as a specific accusation regarding the hiring of former employees."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] claims Apple CEO Tim Cook is leaving his role later this year."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'major rupture' to describe the shift in the relationship between Apple and OpenAI.",
-      "[bbc] uses the term 'fake images' to describe the content generated by the Meta feature."
-    ],
-    "safe_conclusions": [
-      "Apple has initiated legal action against OpenAI and specific former employees.",
-      "Meta has removed a feature from its Instagram platform that allowed AI image generation using public account content."
-    ],
-    "unknowns": [
-      "The specific identities of the two former Apple employees named in the lawsuit besides those mentioned in one report.",
-      "The full legal response OpenAI will provide in court.",
-      "Whether the claim regarding Tim Cook's departure is supported by official company statements."
-    ],
-    "synthesis": "Apple has filed a federal lawsuit against OpenAI and two former employees, alleging the theft of confidential trade secrets related to product development. Simultaneously, Meta has withdrawn its recently launched 'Muse Image' feature on Instagram following widespread privacy concerns and user backlash. Meta acknowledged the feature did not meet expectations, while OpenAI has denied interest in the proprietary trade secrets cited in Apple's complaint.",
-    "confidence": "MEDIUM. While reports on the Meta and Apple lawsuits are generally consistent across sources, one source included an unverified claim regarding Apple's CEO.",
-    "sources": [
-      {
-        "id": "art_1783769563352_dnapo",
-        "url": "https://www.aljazeera.com/economy/2026/7/10/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets"
-      },
-      {
-        "id": "art_1783751824142_r780g",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/meta-backtracks-on-ai-image-feature-for-instagram-due-to-privacy-backlash?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Meta backtracks on AI-image feature for Instagram due to privacy backlash"
-      },
-      {
-        "id": "art_1783751826282_j245x",
-        "url": "https://www.theguardian.com/technology/2026/jul/11/meta-ditches-muse-image-ai-feature-instagram-privacy",
-        "source": "guardian",
-        "title": "Meta ditches Muse Image AI feature because it ‘misses the mark’ on users’ privacy"
-      },
-      {
-        "id": "art_1783731528727_ivnrs",
-        "url": "https://www.bbc.co.uk/news/articles/c2dy6e8klw0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Meta pulls new AI image feature after days of backlash"
-      },
-      {
-        "id": "art_1783724707372_luo5d",
-        "url": "https://www.bbc.co.uk/news/articles/cy8w379e091o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Apple sues OpenAI, its employees claiming theft of trade secrets"
-      },
-      {
-        "id": "art_1783711538693_p08ni",
-        "url": "https://www.aljazeera.com/news/2026/7/10/eu-says-addictive-features-on-instagram-and-facebook-breach-its-rules?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "EU says ‘addictive’ features on Instagram and Facebook breach its rules"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "387681aec03ab0f268df501a17ae528f",
-    "topic_label": "International Crime and Violence",
-    "event_window_start": "2026-07-10T21:01:27.000Z",
-    "event_window_end": "2026-07-11T14:19:34.000Z",
-    "article_ids": [
-      "art_1783779822926_ryxn2",
-      "art_1783773311763_7shor",
-      "art_1783773321297_wn3zg",
-      "art_1783773323366_b1z6r",
-      "art_1783720891130_5esk7"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T15:51:52.221Z",
-    "updated_at": "2026-07-11T15:51:52.221Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Dozens of students and teachers were kidnapped in Oyo state, Nigeria.",
-      "A rescue operation occurred approximately two months after the initial abduction, resulting in the rescue of individuals and the arrest of some captors."
-    ],
-    "source_claims": [
-      "[bbc] The Nigerian military states 44 pupils and teachers were freed and several soldiers died during the mission.",
-      "[aljazeera] The Nigerian presidency states that dozens of students and teachers were rescued, eight assailants were arrested, and an unspecified number of assailants were killed.",
-      "[aljazeera] President Bola Tinubu stated one teacher was killed shortly after the abduction and that the government blames Boko Haram for the kidnappings."
-    ],
-    "framing_differences": [
-      "The bbc frames the event around the military's role and casualty figures, while aljazeera frames the event through the lens of the presidency and political statements."
-    ],
-    "contested_claims": [
-      "The number of rescued individuals is stated as 44 by the bbc and described as 'dozens' by aljazeera, while the number of kidnapped individuals is stated as 44 by the bbc and 46 by aljazeera."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Attributes blame for the kidnappings to Boko Haram.",
-      "[bbc] Claims several soldiers died during the rescue mission."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'terrorised' to describe the actions of gangs.",
-      "[guardian] uses the term 'elimination' to describe the killing of 300 individuals.",
-      "[aljazeera] uses the term 'xenophobic' to describe violence in South Africa."
-    ],
-    "safe_conclusions": [
-      "A rescue operation took place in Oyo state, Nigeria, involving kidnapped school staff and students."
-    ],
-    "unknowns": [
-      "The exact number of students and teachers kidnapped and subsequently rescued remains unclear due to conflicting reports.",
-      "The total number of casualties sustained by security forces during the rescue operation is not verified by all sources."
-    ],
-    "synthesis": "Nigerian security forces conducted a rescue operation in Oyo state, resulting in the recovery of kidnapped students and teachers approximately two months after their abduction. There are discrepancies between government reporting and media coverage regarding the precise number of victims and the specific casualties sustained during the operation. The government has identified the perpetrators as linked to Boko Haram.",
-    "confidence": "MEDIUM: MEDIUM: Sources provide conflicting data regarding the specific number of individuals rescued and the circumstances of the mission, indicating a lack of unified reporting on-the-ground reporting.",
-    "sources": [
-      {
-        "id": "art_1783779822926_ryxn2",
-        "url": "https://www.bbc.co.uk/news/articles/cly9lnjlp1eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "More than 40 kidnapped children and teachers freed after Nigerian army operation"
-      },
-      {
-        "id": "art_1783773311763_7shor",
-        "url": "https://www.bbc.co.uk/news/articles/cwyd7x22lp1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Tourist speedboat capsizes in Vietnam, killing 15"
-      },
-      {
-        "id": "art_1783773321297_wn3zg",
-        "url": "https://www.theguardian.com/world/2026/jul/11/nigeria-army-kills-bandits-north-western-state-zamfara",
-        "source": "guardian",
-        "title": "Nigeria says army has killed 300 bandits in north-western state of Zamfara"
-      },
-      {
-        "id": "art_1783773323366_b1z6r",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zimbabweans-return-home-amid-xenophobic-violence-in-south-africa?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Zimbabweans return home amid xenophobic violence in South Africa"
-      },
-      {
-        "id": "art_1783720891130_5esk7",
-        "url": "https://www.aljazeera.com/news/2026/7/10/dozens-of-abducted-schoolchildren-and-teachers-rescued-in-nigeria?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Dozens of abducted schoolchildren and teachers rescued in Nigeria"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
