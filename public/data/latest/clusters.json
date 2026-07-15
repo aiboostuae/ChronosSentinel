@@ -84,8 +84,8 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "e3b3237825068ef28f064201c090b1c5",
-    "topic_label": "FIFA World Cup",
+    "cluster_id": "35357b7ed8d9d84823fb645a6b69d2dc",
+    "topic_label": "2026 FIFA World Cup",
     "event_window_start": "2026-07-15T00:14:35.000Z",
     "event_window_end": "2026-07-15T07:01:10.000Z",
     "article_ids": [
@@ -93,53 +93,55 @@
       "art_1784100790397_sxkbh",
       "art_1784100794165_eqqti",
       "art_1784100797310_ajmft",
+      "art_1784081219333_a06rn",
       "art_1784081226809_eu9ls"
     ],
     "source_ids": [
       "aljazeera"
     ],
-    "article_count": 5,
+    "article_count": 6,
     "source_count": 1,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-07-15T12:54:15.327Z",
-    "updated_at": "2026-07-15T12:54:15.327Z",
+    "created_at": "2026-07-15T11:12:41.705Z",
+    "updated_at": "2026-07-15T11:12:41.705Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Spain defeated France 2-0 in a 2026 FIFA World Cup semifinal match.",
-      "Spain advanced to the 2026 World Cup final.",
-      "England and Argentina are scheduled to play in a 2026 World Cup semifinal match in Atlanta."
+      "Spain defeated France 2-0 in a World Cup semifinal match.",
+      "Spain has advanced to the 2026 World Cup final.",
+      "The England vs. Argentina World Cup semifinal is scheduled for Wednesday in Atlanta.",
+      "Thomas Tuchel is the current manager of the England national team."
     ],
     "source_claims": [
-      "[aljazeera] Luis de la Fuente stated that the Spain team has revived the spirit of their 2010 World Cup triumph.",
-      "[aljazeera] Thomas Tuchel stated he does not feel burdened by the weight of history regarding England's semifinal against Argentina.",
-      "[aljazeera] Thomas Tuchel noted that Jude Bellingham and Harry Kane have each scored six goals in the tournament."
+      "[aljazeera] Luis de la Fuente stated that Spain's performance revived the spirit of their 2010 World Cup triumph.",
+      "[aljazeera] Thomas Tuchel stated he does not feel burdened by the history between England and Argentina.",
+      "[aljazeera] Folarin Balogun stated he expected controversy following the suspension of his one-game ban after a request from Donald Trump."
     ],
     "framing_differences": [
-      "Aljazeera frames the Spain-France match primarily through the lens of tactical success and historical team spirit, whereas it frames the England-Argentina match through the lens of long-standing political and sporting rivalries."
+      "Regarding the England vs. Argentina match, aljazeera frames the event through the lens of political history, territorial disputes, and past sporting controversies, whereas the article focusing on Thomas Tuchel frames the same event through the lens of team preparation and individual player statistics."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] France had scored 16 goals prior to the semifinal match.",
-      "[aljazeera] France was regarded as one of the tournament's most dangerous teams.",
-      "[aljazeera] France did not manage a shot on target until after the 80-minute mark."
+      "[aljazeera] France was regarded as one of the most dangerous teams in the tournament prior to the semifinal.",
+      "[aljazeera] FIFA suspended Folarin Balogun's one-game ban following a request from US President Donald Trump."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'theatrical, tense and tricky' to describe contests between England and Argentina.",
-      "[aljazeera] uses the term 'grand old age' to describe Lionel Messi at 39."
+      "[aljazeera] uses the term 'theatrical, tense and tricky' to describe sporting contests between England and Argentina.",
+      "[aljazeera] uses the term 'controversially' to describe the suspension of Folarin Balogun's ban."
     ],
     "safe_conclusions": [
-      "Spain has qualified for the 2026 FIFA World Cup final.",
-      "An England versus Argentina semifinal match is scheduled to take place."
+      "Spain has reached the final of the 2026 World Cup.",
+      "England and Argentina are scheduled to play each other in a World Cup semifinal."
     ],
     "unknowns": [
-      "The outcome of the England versus Argentina semifinal match.",
-      "The final opponent for Spain in the World Cup final."
+      "The specific outcome of the England vs. Argentina match.",
+      "The final opponent Spain will face in the World Cup final.",
+      "The formal process by which FIFA reviewed the suspension of Folarin Balogun's ban."
     ],
-    "synthesis": "Spain defeated France 2-0 to advance to the 2026 FIFA World Cup final. Meanwhile, England is preparing to face Argentina in the second semifinal match held in Atlanta. Both teams are led by managers who have commented on their respective paths to the tournament's final stages.",
-    "confidence": "HIGH. The sources consistently report the same factual outcomes regarding match results and upcoming schedules.",
+    "synthesis": "Spain defeated France 2-0 to advance to the 2026 World Cup final. Meanwhile, England is preparing to face Argentina in a separate semifinal match in Atlanta. Reports also note that FIFA suspended a one-game ban for US striker Folarin Balogun following a request from President Donald Trump.",
+    "confidence": "HIGH: The facts regarding match results and upcoming schedules are consistent across provided sources.",
     "sources": [
       {
         "id": "art_1784100784491_ot4fc",
@@ -164,6 +166,12 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-knock-out-france-prepare-for-world-cup-final?traffic_source=rss",
         "source": "aljazeera",
         "title": "Spain knock out France, prepare for World Cup final"
+      },
+      {
+        "id": "art_1784081219333_a06rn",
+        "url": "https://www.aljazeera.com/sports/2026/7/15/us-star-balogun-knew-red-card-reversal-would-cause-a-lot-of-controversy?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US star Balogun knew red card reversal would ‘cause a lot of controversy’"
       },
       {
         "id": "art_1784081226809_eu9ls",
@@ -318,6 +326,180 @@
         "url": "https://www.foxnews.com/outkick-sports/social-media-reacts-jennifer-hudson-patti-labelle-performances-mlb-all-star-game",
         "source": "fox",
         "title": "Social media reacts to Jennifer Hudson and Patti Labelle's performances at MLB All-Star Game"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "10d8dc0ef3719c1ab2f708406d419265",
+    "topic_label": "Australian Political Inquiries",
+    "event_window_start": "2026-07-15T01:57:45.000Z",
+    "event_window_end": "2026-07-15T04:13:17.000Z",
+    "article_ids": [
+      "art_1784092682612_ibax8",
+      "art_1784092685455_czp2l",
+      "art_1784081215151_css6w"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-15T19:04:57.639Z",
+    "updated_at": "2026-07-15T19:04:57.639Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Independent Commission Against Corruption is investigating allegations regarding political donations made by Catholic Schools NSW.",
+      "Melissa Horne is a Victorian minister.",
+      "The University of Melbourne experienced a pro-Palestine encampment and sit-in in 2024.",
+      "Prof Glyn Davis AC is the interim vice-chancellor of the University of Melbourne."
+    ],
+    "source_claims": [
+      "[guardian-1] Catholic Schools NSW allegedly made undeclared political donations to the Liberal party that exceeded donation caps.",
+      "[guardian-1] An education funding expert states that government funding should be verified to ensure it is not funneled into political donations.",
+      "[guardian-2] Melissa Horne described reports of government interference on a hospital project as 'alarming' and sought assurances from a senior official.",
+      "[guardian-2] Jacinta Allan stated that a report regarding improper government interference was incorrect.",
+      "[guardian-3] Prof Glyn Davis AC stated that the University of Melbourne changed protest policies sharply following a pro-Palestine encampment.",
+      "[guardian-3] Prof Glyn Davis AC agreed that the encampment created a level of fear and unsafety among staff and students.",
+      "[guardian-3] Victoria Police maintained they would not intervene at the university encampment unless a law was broken."
+    ],
+    "framing_differences": [
+      "Guardian-1 frames the Icac inquiry through the lens of taxpayer funding accountability, while Guardian-2 frames the Victorian government's internal response to corruption allegations as evidence of political fractures."
+    ],
+    "contested_claims": [
+      "Regarding the hospital project, Guardian-2 reports that Jacinta Allan claimed a report was wrong, while Melissa Horne publicly characterized the allegations within that report as 'alarming'."
+    ],
+    "unverified_claims": [
+      "[guardian-1] Taxpayer funds may have been used for alleged illegal political donations.",
+      "[guardian-2] The Victorian government is experiencing 'fractures' leading up to the November state election."
+    ],
+    "loaded_language": [
+      "[guardian-2] uses the term 'alarming' to describe allegations of improper government interference.",
+      "[guardian-2] uses the term 'fractures' to describe internal government dynamics."
+    ],
+    "safe_conclusions": [
+      "Investigations and inquiries are currently underway regarding political donations by Catholic Schools NSW, government interference in a hospital project, and campus protest policies at the University of Melbourne."
+    ],
+    "unknowns": [
+      "The specific outcome of the Icac inquiry regarding Catholic Schools NSW.",
+      "The identity of the senior official contacted by Melissa Horne.",
+      "Whether any laws were technically broken during the university encampment according to Victoria Police findings."
+    ],
+    "synthesis": "Multiple investigations are occurring across Australia concerning political donations, government project management, and university protest policies. Government officials have publicly diverged in their responses to reports of interference, while academic leaders have confirmed changes to institutional protest protocols. These events represent concurrent oversight and governance challenges within separate public and institutional sectors.",
+    "confidence": "HIGH. The sources provide clear reporting on distinct, separate news events with verifiable public figures and institutions.",
+    "sources": [
+      {
+        "id": "art_1784092682612_ibax8",
+        "url": "https://www.theguardian.com/australia-news/2026/jul/15/icac-catholic-schools-nsw-liberal-party",
+        "source": "guardian",
+        "title": "Icac inquiry raises questions over whether taxpayer funds were used in alleged illegal political donations"
+      },
+      {
+        "id": "art_1784092685455_czp2l",
+        "url": "https://www.theguardian.com/australia-news/2026/jul/15/melissa-horne-cfmeu-allegations-hospital-project-ntwnfb",
+        "source": "guardian",
+        "title": "Minister breaks ranks with Victorian premier by calling for explanation for alleged wrongdoing on project"
+      },
+      {
+        "id": "art_1784081215151_css6w",
+        "url": "https://www.theguardian.com/australia-news/live/2026/jul/15/australia-news-live-ceo-pay-anthony-albanese-palestine-gaza-ai-artificial-intelligence-datacentres-copyright-royal-commission-antisemitism-labor-ntwnfb",
+        "source": "guardian",
+        "title": "Australia news live: inquiry told pro-Palestine sit-in led to ‘sharp’ change in university policy; Tasmanian premier considers buying brewery"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e3b3237825068ef28f064201c090b1c5",
+    "topic_label": "FIFA World Cup",
+    "event_window_start": "2026-07-15T00:14:35.000Z",
+    "event_window_end": "2026-07-15T07:01:10.000Z",
+    "article_ids": [
+      "art_1784100784491_ot4fc",
+      "art_1784100790397_sxkbh",
+      "art_1784100794165_eqqti",
+      "art_1784100797310_ajmft",
+      "art_1784081226809_eu9ls"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-15T12:54:15.327Z",
+    "updated_at": "2026-07-15T12:54:15.327Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Spain defeated France 2-0 in a 2026 FIFA World Cup semifinal match.",
+      "Spain advanced to the 2026 World Cup final.",
+      "England and Argentina are scheduled to play in a 2026 World Cup semifinal match in Atlanta."
+    ],
+    "source_claims": [
+      "[aljazeera] Luis de la Fuente stated that the Spain team has revived the spirit of their 2010 World Cup triumph.",
+      "[aljazeera] Thomas Tuchel stated he does not feel burdened by the weight of history regarding England's semifinal against Argentina.",
+      "[aljazeera] Thomas Tuchel noted that Jude Bellingham and Harry Kane have each scored six goals in the tournament."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the Spain-France match primarily through the lens of tactical success and historical team spirit, whereas it frames the England-Argentina match through the lens of long-standing political and sporting rivalries."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] France had scored 16 goals prior to the semifinal match.",
+      "[aljazeera] France was regarded as one of the tournament's most dangerous teams.",
+      "[aljazeera] France did not manage a shot on target until after the 80-minute mark."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'theatrical, tense and tricky' to describe contests between England and Argentina.",
+      "[aljazeera] uses the term 'grand old age' to describe Lionel Messi at 39."
+    ],
+    "safe_conclusions": [
+      "Spain has qualified for the 2026 FIFA World Cup final.",
+      "An England versus Argentina semifinal match is scheduled to take place."
+    ],
+    "unknowns": [
+      "The outcome of the England versus Argentina semifinal match.",
+      "The final opponent for Spain in the World Cup final."
+    ],
+    "synthesis": "Spain defeated France 2-0 to advance to the 2026 FIFA World Cup final. Meanwhile, England is preparing to face Argentina in the second semifinal match held in Atlanta. Both teams are led by managers who have commented on their respective paths to the tournament's final stages.",
+    "confidence": "HIGH. The sources consistently report the same factual outcomes regarding match results and upcoming schedules.",
+    "sources": [
+      {
+        "id": "art_1784100784491_ot4fc",
+        "url": "https://www.aljazeera.com/news/2026/7/15/spain-france-world-cup-semifinal-luis-de-la-fuente-2010-title?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Spain recapture 2010 spirit after reaching World Cup final: De la Fuente"
+      },
+      {
+        "id": "art_1784100790397_sxkbh",
+        "url": "https://www.aljazeera.com/sports/2026/7/15/argentina-england-world-cup-semifinal-messi-kane-prediction-time?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "England vs Argentina: FIFA World Cup semifinal – Messi, Kane and prediction"
+      },
+      {
+        "id": "art_1784100794165_eqqti",
+        "url": "https://www.aljazeera.com/sports/2026/7/15/england-argentina-fifa-world-cup-semifinal-thomas-tuchel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "World Cup: England have ‘not peaked yet’, says Tuchel before semifinal"
+      },
+      {
+        "id": "art_1784100797310_ajmft",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-knock-out-france-prepare-for-world-cup-final?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Spain knock out France, prepare for World Cup final"
+      },
+      {
+        "id": "art_1784081226809_eu9ls",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-fans-erupt-as-team-reaches-world-cup-final?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Spain fans erupt as team reaches World Cup final"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -772,105 +954,6 @@
         "url": "https://www.theguardian.com/world/2026/jul/14/us-strikes-iran-bahrain-jordan-uae-tankers",
         "source": "guardian",
         "title": "Trump withdraws Hormuz tolls threat but says US will continue to blockade Iran"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "35357b7ed8d9d84823fb645a6b69d2dc",
-    "topic_label": "2026 FIFA World Cup",
-    "event_window_start": "2026-07-15T00:14:35.000Z",
-    "event_window_end": "2026-07-15T07:01:10.000Z",
-    "article_ids": [
-      "art_1784100784491_ot4fc",
-      "art_1784100790397_sxkbh",
-      "art_1784100794165_eqqti",
-      "art_1784100797310_ajmft",
-      "art_1784081219333_a06rn",
-      "art_1784081226809_eu9ls"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-15T11:12:41.705Z",
-    "updated_at": "2026-07-15T11:12:41.705Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Spain defeated France 2-0 in a World Cup semifinal match.",
-      "Spain has advanced to the 2026 World Cup final.",
-      "The England vs. Argentina World Cup semifinal is scheduled for Wednesday in Atlanta.",
-      "Thomas Tuchel is the current manager of the England national team."
-    ],
-    "source_claims": [
-      "[aljazeera] Luis de la Fuente stated that Spain's performance revived the spirit of their 2010 World Cup triumph.",
-      "[aljazeera] Thomas Tuchel stated he does not feel burdened by the history between England and Argentina.",
-      "[aljazeera] Folarin Balogun stated he expected controversy following the suspension of his one-game ban after a request from Donald Trump."
-    ],
-    "framing_differences": [
-      "Regarding the England vs. Argentina match, aljazeera frames the event through the lens of political history, territorial disputes, and past sporting controversies, whereas the article focusing on Thomas Tuchel frames the same event through the lens of team preparation and individual player statistics."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] France was regarded as one of the most dangerous teams in the tournament prior to the semifinal.",
-      "[aljazeera] FIFA suspended Folarin Balogun's one-game ban following a request from US President Donald Trump."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'theatrical, tense and tricky' to describe sporting contests between England and Argentina.",
-      "[aljazeera] uses the term 'controversially' to describe the suspension of Folarin Balogun's ban."
-    ],
-    "safe_conclusions": [
-      "Spain has reached the final of the 2026 World Cup.",
-      "England and Argentina are scheduled to play each other in a World Cup semifinal."
-    ],
-    "unknowns": [
-      "The specific outcome of the England vs. Argentina match.",
-      "The final opponent Spain will face in the World Cup final.",
-      "The formal process by which FIFA reviewed the suspension of Folarin Balogun's ban."
-    ],
-    "synthesis": "Spain defeated France 2-0 to advance to the 2026 World Cup final. Meanwhile, England is preparing to face Argentina in a separate semifinal match in Atlanta. Reports also note that FIFA suspended a one-game ban for US striker Folarin Balogun following a request from President Donald Trump.",
-    "confidence": "HIGH: The facts regarding match results and upcoming schedules are consistent across provided sources.",
-    "sources": [
-      {
-        "id": "art_1784100784491_ot4fc",
-        "url": "https://www.aljazeera.com/news/2026/7/15/spain-france-world-cup-semifinal-luis-de-la-fuente-2010-title?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain recapture 2010 spirit after reaching World Cup final: De la Fuente"
-      },
-      {
-        "id": "art_1784100790397_sxkbh",
-        "url": "https://www.aljazeera.com/sports/2026/7/15/argentina-england-world-cup-semifinal-messi-kane-prediction-time?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "England vs Argentina: FIFA World Cup semifinal – Messi, Kane and prediction"
-      },
-      {
-        "id": "art_1784100794165_eqqti",
-        "url": "https://www.aljazeera.com/sports/2026/7/15/england-argentina-fifa-world-cup-semifinal-thomas-tuchel?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "World Cup: England have ‘not peaked yet’, says Tuchel before semifinal"
-      },
-      {
-        "id": "art_1784100797310_ajmft",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-knock-out-france-prepare-for-world-cup-final?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain knock out France, prepare for World Cup final"
-      },
-      {
-        "id": "art_1784081219333_a06rn",
-        "url": "https://www.aljazeera.com/sports/2026/7/15/us-star-balogun-knew-red-card-reversal-would-cause-a-lot-of-controversy?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US star Balogun knew red card reversal would ‘cause a lot of controversy’"
-      },
-      {
-        "id": "art_1784081226809_eu9ls",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/spain-fans-erupt-as-team-reaches-world-cup-final?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain fans erupt as team reaches World Cup final"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -21443,111 +21526,6 @@
         "url": "https://www.foxnews.com/media/mamdani-says-time-bring-chapter-close-after-platner-campaign-collapse",
         "source": "fox",
         "title": "Mamdani says it's time to 'bring this chapter to a close' after Platner campaign collapse"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b05c79e2a6587172da1a6cbcce63c045",
-    "topic_label": "Russia-Ukraine Conflict Developments",
-    "event_window_start": "2026-07-10T20:23:36.000Z",
-    "event_window_end": "2026-07-11T11:08:00.000Z",
-    "article_ids": [
-      "art_1783769551491_8l6t7",
-      "art_1783769562317_ak6px",
-      "art_1783764927576_lgc1t",
-      "art_1783759739147_3hfgk",
-      "art_1783743252697_ub8sp",
-      "art_1783716738205_8tvxt"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-11T18:55:22.557Z",
-    "updated_at": "2026-07-11T18:55:22.557Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Russia has conducted air-based attacks against multiple locations in Ukraine including Kyiv and Zaporizhzhia.",
-      "Civilians have been injured as a result of recent Russian strikes in Ukraine.",
-      "Ukraine is currently experiencing military engagements and infrastructure damage related to the ongoing war."
-    ],
-    "source_claims": [
-      "[fox] Claims that Ukraine’s energy strike strategy is causing fuel shortages and export restrictions within Russia.",
-      "[fox] Claims that fuel shortages in Russia are creating visibility and sensitivity for the Russian public ahead of September elections.",
-      "[bbc] Claims that Russian attacks on Zaporizhzhia intensified in June, hitting schools, offices, and residential areas.",
-      "[aljazeera] Claims Russia utilized ballistic missiles and drone swarms to strike critical infrastructure in Kyiv.",
-      "[aljazeera] Claims Russian officials stated that strikes on Kyiv targeted defense industry facilities using high-precision weapons."
-    ],
-    "framing_differences": [
-      "fox frames the conflict through the lens of economic and internal political pressure within Russia, whereas bbc and aljazeera frame the conflict through the immediate physical and humanitarian impact on Ukrainian cities."
-    ],
-    "contested_claims": [
-      "aljazeera (second article) reports 10 injuries from a strike on Kyiv, while aljazeera (first article) reports at least 11 injuries from the same overnight event."
-    ],
-    "unverified_claims": [
-      "[fox] Claims fuel shortages are forcing Russia to pursue fuel imports.",
-      "[aljazeera] Claims initial detonations in Kyiv occurred two minutes prior to the activation of municipal air raid sirens."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'Putin’s front door' to describe the scope of Ukraine's energy strike strategy.",
-      "[aljazeera] uses the term 'intense overnight bombardment' to describe Russian military actions."
-    ],
-    "safe_conclusions": [
-      "Russia and Ukraine are engaged in active military conflict.",
-      "Recent Russian military operations have resulted in casualties and infrastructure damage in Ukrainian urban centers.",
-      "Both Russian and Ukrainian officials have provided statements regarding the objectives or impacts of current military strikes."
-    ],
-    "unknowns": [
-      "The exact quantity of air defense stockpiles currently held by Ukrainian forces.",
-      "The degree to which fuel shortages in Russia are directly attributable to Ukrainian strikes versus other economic factors.",
-      "The specific operational success rates of the weapons used by both sides during the reported strikes."
-    ],
-    "synthesis": "Recent military activity in Ukraine involves intensified Russian aerial strikes against Kyiv and Zaporizhzhia, resulting in civilian casualties and infrastructure damage. Concurrently, reports indicate that Ukrainian forces are targeting Russian energy infrastructure, reportedly leading to domestic fuel supply issues in Russia. Sources provide conflicting casualty figures for specific incidents and differ in their focus on the political versus humanitarian consequences of the war.",
-    "confidence": "MEDIUM. While major events like strikes are reported by multiple sources, there are discrepancies in casualty counts and the attribution of economic impact.",
-    "sources": [
-      {
-        "id": "art_1783769551491_8l6t7",
-        "url": "https://www.foxnews.com/world/bringing-war-putins-front-door-ukraine-energy-strike-strategy-working",
-        "source": "fox",
-        "title": "Bringing the war to Putin’s front door: Is Ukraine’s energy strike strategy working?"
-      },
-      {
-        "id": "art_1783769562317_ak6px",
-        "url": "https://www.bbc.co.uk/news/articles/c3dyyln23v8o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russia trains sights on schools, offices and buses in busy Ukrainian city"
-      },
-      {
-        "id": "art_1783764927576_lgc1t",
-        "url": "https://www.aljazeera.com/news/2026/7/11/russian-missile-attacks-wound-11-in-kyiv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian missile attacks wound 11 in Kyiv"
-      },
-      {
-        "id": "art_1783759739147_3hfgk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/russian-overnight-strikes-on-kyiv-injure-ten?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian overnight strikes on Kyiv injure ten"
-      },
-      {
-        "id": "art_1783743252697_ub8sp",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/11/zaporizhzhias-mayor-says-russian-advance-reaches-citys-outskirts?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Zaporizhzhia’s mayor says Russian advance reaches city’s outskirts"
-      },
-      {
-        "id": "art_1783716738205_8tvxt",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/10/ukrainian-attacks-cause-chaos-at-fuel-stations-across-russia?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukrainian attacks cause chaos at fuel stations across Russia"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
