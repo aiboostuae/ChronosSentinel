@@ -108,6 +108,77 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
+    "topic_label": "Global Disaster Alerts",
+    "event_window_start": "2026-07-21T01:47:30.000Z",
+    "event_window_end": "2026-07-21T07:58:52.000Z",
+    "article_ids": [
+      "art_1784622385305_cc3ar",
+      "art_1784600743209_vb1jb",
+      "art_1784600747670_7ipue"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-21T10:41:38.380Z",
+    "updated_at": "2026-07-21T10:41:38.380Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera_1] Flooding in Afghanistan’s Nuristan province has resulted in at least 20 deaths and over 100 missing persons.",
+      "[guardian] Tropical Storm Bertha is located 110 miles south of Panama City, Florida, with sustained winds of 40 mph.",
+      "[aljazeera_2] A ferry, the MV Barima, capsized off the coast of Guyana, resulting in 27 recovered bodies, 69 rescues, and 83 missing persons.",
+      "[aljazeera_2] Prime Minister Mark Phillips has launched an investigation into the potential negligence of the MV Barima crew."
+    ],
+    "framing_differences": [
+      "The articles provided report on three entirely unrelated global events (flooding in Afghanistan, a tropical storm in the US, and a ferry disaster in Guyana), meaning there are no shared events being framed differently."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_2] The passenger count for the MV Barima is disputed, as 32 rescued individuals were not on the initial manifest."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the term 'terrifying' to describe floodwaters.",
+      "[aljazeera_2] quotes Minister Juan Edghill describing the sinking as 'the country’s worst marine disaster in decades'."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The final casualty count for the flooding in Nuristan, Afghanistan.",
+      "The path and total impact of Tropical Storm Bertha.",
+      "The final number of passengers on board the MV Barima and the results of the investigation into the crew."
+    ],
+    "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
+    "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
+    "sources": [
+      {
+        "id": "art_1784622385305_cc3ar",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Moment terrifying floodwaters sweep through Afghan village"
+      },
+      {
+        "id": "art_1784600743209_vb1jb",
+        "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
+        "source": "guardian",
+        "title": "Weather warnings as another tropical storm develops along US Gulf coast"
+      },
+      {
+        "id": "art_1784600747670_7ipue",
+        "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "c6a9592f42fb8af1c5d4e1790425ddf3",
     "topic_label": "UK Political and Economic Policy",
     "event_window_start": "2026-07-21T01:26:01.000Z",
@@ -201,77 +272,6 @@
         "url": "https://www.foxnews.com/politics/trump-says-first-call-new-uk-pm-burnham-very-well-pledges-us-support",
         "source": "fox",
         "title": "Trump says first call with new UK PM Burnham went 'very well,' pledges US support"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
-    "topic_label": "Global Disaster Alerts",
-    "event_window_start": "2026-07-21T01:47:30.000Z",
-    "event_window_end": "2026-07-21T07:58:52.000Z",
-    "article_ids": [
-      "art_1784622385305_cc3ar",
-      "art_1784600743209_vb1jb",
-      "art_1784600747670_7ipue"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-21T10:41:38.380Z",
-    "updated_at": "2026-07-21T10:41:38.380Z",
-    "region_tag": "middle-east",
-    "shared_facts": [],
-    "source_claims": [
-      "[aljazeera_1] Flooding in Afghanistan’s Nuristan province has resulted in at least 20 deaths and over 100 missing persons.",
-      "[guardian] Tropical Storm Bertha is located 110 miles south of Panama City, Florida, with sustained winds of 40 mph.",
-      "[aljazeera_2] A ferry, the MV Barima, capsized off the coast of Guyana, resulting in 27 recovered bodies, 69 rescues, and 83 missing persons.",
-      "[aljazeera_2] Prime Minister Mark Phillips has launched an investigation into the potential negligence of the MV Barima crew."
-    ],
-    "framing_differences": [
-      "The articles provided report on three entirely unrelated global events (flooding in Afghanistan, a tropical storm in the US, and a ferry disaster in Guyana), meaning there are no shared events being framed differently."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_2] The passenger count for the MV Barima is disputed, as 32 rescued individuals were not on the initial manifest."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'terrifying' to describe floodwaters.",
-      "[aljazeera_2] quotes Minister Juan Edghill describing the sinking as 'the country’s worst marine disaster in decades'."
-    ],
-    "safe_conclusions": [],
-    "unknowns": [
-      "The final casualty count for the flooding in Nuristan, Afghanistan.",
-      "The path and total impact of Tropical Storm Bertha.",
-      "The final number of passengers on board the MV Barima and the results of the investigation into the crew."
-    ],
-    "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
-    "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
-    "sources": [
-      {
-        "id": "art_1784622385305_cc3ar",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Moment terrifying floodwaters sweep through Afghan village"
-      },
-      {
-        "id": "art_1784600743209_vb1jb",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
-        "source": "guardian",
-        "title": "Weather warnings as another tropical storm develops along US Gulf coast"
-      },
-      {
-        "id": "art_1784600747670_7ipue",
-        "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
