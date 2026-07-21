@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T17:57:16.361Z",
+  "generated_at": "2026-07-21T19:14:05.342Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 177,
@@ -52,6 +52,37 @@
           "source": "bbc",
           "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
           "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers"
+        }
+      ],
+      "updated_at": "2026-07-21T10:41:38.380Z"
+    },
+    {
+      "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
+      "topic_label": "Global Disaster Alerts",
+      "event_window_start": "2026-07-21T01:47:30.000Z",
+      "event_window_end": "2026-07-21T07:58:52.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "middle-east",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
+      "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
+          "title": "Moment terrifying floodwaters sweep through Afghan village"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
+          "title": "Weather warnings as another tropical storm develops along US Gulf coast"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
+          "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
         }
       ],
       "updated_at": "2026-07-21T10:41:38.380Z"
@@ -136,37 +167,6 @@
         }
       ],
       "updated_at": "2026-07-21T05:38:38.981Z"
-    },
-    {
-      "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
-      "topic_label": "Global Disaster Alerts",
-      "event_window_start": "2026-07-21T01:47:30.000Z",
-      "event_window_end": "2026-07-21T07:58:52.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
-      "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
-          "title": "Moment terrifying floodwaters sweep through Afghan village"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
-          "title": "Weather warnings as another tropical storm develops along US Gulf coast"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
-          "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
-        }
-      ],
-      "updated_at": "2026-07-21T10:41:38.380Z"
     },
     {
       "cluster_id": "0d252f6b126e65f2928db70719a74b2c",
@@ -403,6 +403,26 @@
       "updated_at": "2026-07-21T10:41:38.380Z"
     },
     {
+      "id": "impact-03608d06",
+      "title": "Global Disaster Alerts",
+      "severity": "critical",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "disaster",
+        "shipping"
+      ],
+      "why_it_matters": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-07-21T10:41:38.380Z"
+    },
+    {
       "id": "impact-c6a9592f",
       "title": "UK Political and Economic Policy",
       "severity": "medium",
@@ -439,26 +459,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-07-21T05:38:38.981Z"
-    },
-    {
-      "id": "impact-03608d06",
-      "title": "Global Disaster Alerts",
-      "severity": "critical",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster",
-        "shipping"
-      ],
-      "why_it_matters": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-07-21T10:41:38.380Z"
     },
     {
       "id": "impact-0d252f6b",
