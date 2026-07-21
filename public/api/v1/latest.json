@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T10:41:51.684Z",
+  "generated_at": "2026-07-21T12:26:06.468Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 177,
@@ -57,37 +57,6 @@
       "updated_at": "2026-07-21T10:41:38.380Z"
     },
     {
-      "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
-      "topic_label": "Global Disaster Alerts",
-      "event_window_start": "2026-07-21T01:47:30.000Z",
-      "event_window_end": "2026-07-21T07:58:52.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
-      "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
-          "title": "Moment terrifying floodwaters sweep through Afghan village"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
-          "title": "Weather warnings as another tropical storm develops along US Gulf coast"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
-          "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
-        }
-      ],
-      "updated_at": "2026-07-21T10:41:38.380Z"
-    },
-    {
       "cluster_id": "c6a9592f42fb8af1c5d4e1790425ddf3",
       "topic_label": "UK Political and Economic Policy",
       "event_window_start": "2026-07-21T01:26:01.000Z",
@@ -134,6 +103,37 @@
           "source": "fox",
           "url": "https://www.foxnews.com/politics/trump-says-first-call-new-uk-pm-burnham-very-well-pledges-us-support",
           "title": "Trump says first call with new UK PM Burnham went 'very well,' pledges US support"
+        }
+      ],
+      "updated_at": "2026-07-21T10:41:38.380Z"
+    },
+    {
+      "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
+      "topic_label": "Global Disaster Alerts",
+      "event_window_start": "2026-07-21T01:47:30.000Z",
+      "event_window_end": "2026-07-21T07:58:52.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "middle-east",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
+      "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
+          "title": "Moment terrifying floodwaters sweep through Afghan village"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
+          "title": "Weather warnings as another tropical storm develops along US Gulf coast"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
+          "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
         }
       ],
       "updated_at": "2026-07-21T10:41:38.380Z"
@@ -403,6 +403,25 @@
       "updated_at": "2026-07-21T10:41:38.380Z"
     },
     {
+      "id": "impact-c6a9592f",
+      "title": "UK Political and Economic Policy",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "grid"
+      ],
+      "why_it_matters": "Prime Minister Andy Burnham has initiated his term by announcing a VAT reduction on electricity bills and a multi-year funding pledge for homelessness services. Concurrently, Chancellor John Healey's appointment has influenced market activity, with defense stocks rallying alongside concerns from the banking sector regarding potential tax policy changes. Official data highlights ongoing economic challenges, including stagnant unemployment and a decline in job vacancies.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "c6a9592f42fb8af1c5d4e1790425ddf3",
+      "related_watchlist_id": null,
+      "operator_hint": "Monitor power grid frequencies and grid status maps.",
+      "updated_at": "2026-07-21T10:41:38.380Z"
+    },
+    {
       "id": "impact-03608d06",
       "title": "Global Disaster Alerts",
       "severity": "critical",
@@ -420,25 +439,6 @@
       "related_cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-07-21T10:41:38.380Z"
-    },
-    {
-      "id": "impact-c6a9592f",
-      "title": "UK Political and Economic Policy",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "grid"
-      ],
-      "why_it_matters": "Prime Minister Andy Burnham has initiated his term by announcing a VAT reduction on electricity bills and a multi-year funding pledge for homelessness services. Concurrently, Chancellor John Healey's appointment has influenced market activity, with defense stocks rallying alongside concerns from the banking sector regarding potential tax policy changes. Official data highlights ongoing economic challenges, including stagnant unemployment and a decline in job vacancies.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "c6a9592f42fb8af1c5d4e1790425ddf3",
-      "related_watchlist_id": null,
-      "operator_hint": "Monitor power grid frequencies and grid status maps.",
       "updated_at": "2026-07-21T10:41:38.380Z"
     },
     {
