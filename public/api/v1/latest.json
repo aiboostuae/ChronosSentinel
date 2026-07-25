@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-07-25T13:15:39.077Z",
+  "generated_at": "2026-07-25T14:50:57.559Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 174,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "193c414edc38f634d76c9452c81557df",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-07-25T13:00:43.000Z",
+      "event_window_end": "2026-07-25T13:16:27.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided news articles cover unrelated topics including NBA player status, Formula One regulations, higher education policies regarding artificial intelligence, a historical criminal case, and youth protests in India. Each source functions independently with no overlap in subject matter or event reporting. The content spans international sports, domestic technology policy, criminal justice, and geopolitical civil unrest.",
+      "confidence": "HIGH. The articles describe completely distinct events and do not conflict with one another.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/sports/lebron-james-bronny-james-not-package-deal-76ers-agent-rich-paul",
+          "title": "LeBron James, Bronny James are ‘not a package deal’ after 76ers move, agent Rich Paul says"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/25/f1-needs-better-balance-between-business-and-sport-says-norris?traffic_source=rss",
+          "title": "F1 needs better balance between business and sport, says Norris"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/culture/christian-university-aims-produce-irreplaceable-graduates-ai-reshapes-higher-education",
+          "title": "Christian university aims to produce 'irreplaceable' graduates as AI reshapes higher education"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/what-happened-michelle-hadley-5-things-know-toxic-love-story-case",
+          "title": "What happened to Michelle Hadley? 5 things to know about ‘A Toxic Love Story’ case"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/25/india-celebrities-fiercely-criticised-silence-cockroach-cjp-protests",
+          "title": "Indian celebrities fiercely criticised for silence on Cockroach protests"
+        }
+      ],
+      "updated_at": "2026-07-25T14:50:52.965Z"
+    },
     {
       "cluster_id": "98b71834fd9ee443ba7bf14033260768",
       "topic_label": "Fallback Synthesis",
@@ -459,52 +500,29 @@
         }
       ],
       "updated_at": "2026-07-25T00:05:52.716Z"
-    },
-    {
-      "cluster_id": "f22fa6583198206d37924211c4142dbd",
-      "topic_label": "Health outbreaks and concerns",
-      "event_window_start": "2026-07-24T02:13:06.000Z",
-      "event_window_end": "2026-07-24T16:52:21.000Z",
-      "article_count": 5,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "The US Centers for Disease Control and Prevention (CDC) provides data on health outbreaks in the United States."
-      ],
-      "source_differences": [],
-      "synthesis": "Health agencies are reporting on various disease outbreaks, including measles in the US, cyclosporiasis in the US, and Ebola in the Democratic Republic of the Congo. Additionally, regulatory authorities in Australia have issued warnings regarding potential side effects associated with specific GLP-1 weight loss and diabetes medications. These reports detail ongoing investigations and statistical updates provided by public health organizations.",
-      "confidence": "HIGH. The sources provide distinct reports on independent medical and public health events, and there are no direct factual contradictions between them.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/24/us-records-2318-measles-cases-thus-far-in-2026-passing-2025-total?traffic_source=rss",
-          "title": "US records 2,318 measles cases, already surpassing 2025 total"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/24/cyclospora-parasite-outbreak-multiple-state-reports-cdc",
-          "title": "US cyclosporiasis outbreak expands to nine states as CDC investigates over 7,400 cases"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/24/cyclospora-parasite-outbreak-product-recall",
-          "title": "Confusing product recall adds to US cyclospora outbreak uncertainty"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/tga-warning-gpl1-eye-disorder-drugs-ozempic-wegovy-mounjaro",
-          "title": "Australian regulator TGA warns of ‘rare but severe’ eye disorder linked to GLP-1 drugs like Ozempic"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/features/2026/7/24/theres-no-salary-drc-health-workers-tell-of-hardship-as-ebola-spreads?traffic_source=rss",
-          "title": "‘There’s no salary’: DRC health workers tell of hardship as Ebola spreads"
-        }
-      ],
-      "updated_at": "2026-07-25T00:05:52.716Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-193c414e",
+      "title": "Fallback Synthesis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "The provided news articles cover unrelated topics including NBA player status, Formula One regulations, higher education policies regarding artificial intelligence, a historical criminal case, and youth protests in India. Each source functions independently with no overlap in subject matter or event reporting. The content spans international sports, domestic technology policy, criminal justice, and geopolitical civil unrest.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "193c414edc38f634d76c9452c81557df",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-07-25T14:50:52.965Z"
+    },
     {
       "id": "impact-98b71834",
       "title": "Fallback Synthesis",
@@ -684,26 +702,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-07-25T00:05:52.716Z"
-    },
-    {
-      "id": "impact-cb2924f4",
-      "title": "Middle East Conflict and Escalation",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "Recent reports highlight ongoing international and regional conflicts, including a deadly shooting in the West Bank and escalating military tensions between the United States and Iran. Authorities are currently investigating the circumstances surrounding the West Bank incident while diplomatic discussions between US and Israeli leadership are scheduled. These events occur against a backdrop of continuing regional instability and military activity.",
-      "evidence_summary": "4 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "high",
-      "source_count": 4,
-      "related_cluster_id": "cb2924f43a27467bc8bc266e942be76f",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-07-24T23:01:27.975Z"
     }
   ]
 }

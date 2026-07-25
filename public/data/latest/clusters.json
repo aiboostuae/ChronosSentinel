@@ -1,5 +1,99 @@
 [
   {
+    "cluster_id": "193c414edc38f634d76c9452c81557df",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-07-25T13:00:43.000Z",
+    "event_window_end": "2026-07-25T13:16:27.000Z",
+    "article_ids": [
+      "art_1784985697503_gollu",
+      "art_1784985698553_uqqz6",
+      "art_1784985699770_drqms",
+      "art_1784985700854_vnr7a",
+      "art_1784985701929_u6z64"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-25T14:50:52.965Z",
+    "updated_at": "2026-07-25T14:50:52.965Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] Rich Paul stated LeBron James and Bronny James are not a package deal.",
+      "[fox] Bronny James' $2.3 million salary with the Lakers was guaranteed in June.",
+      "[aljazeera] Lando Norris stated Formula One is currently driven too much by business decisions.",
+      "[aljazeera] Audi has entered Formula One by taking over the Swiss-based Sauber team.",
+      "[fox] The Trump administration advocates for expanded AI education.",
+      "[fox] Purdue University has implemented AI graduation requirements.",
+      "[fox] Michelle Hadley spent 88 days in jail regarding accusations of orchestrating online advertisements.",
+      "[guardian] Hundreds of thousands of young Indians are participating in protests organized by the Cockroach Janata party (CJP).",
+      "[guardian] The CJP movement is demanding government accountability regarding exam paper leaks."
+    ],
+    "framing_differences": [
+      "The provided sources discuss entirely different topics, ranging from NBA personnel moves (fox), Formula One business regulations (aljazeera), AI in education (fox), the Michelle Hadley legal case (fox), and protests in India (guardian)."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Tracy McGrady predicted Victor Wembanyama will sweep the NBA Awards in 2026/27.",
+      "[fox] LeBron James informed the Lakers he plans to play elsewhere in his 24th season."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'cowardice' to describe the silence of Indian celebrities regarding recent protests.",
+      "[fox] uses the term 'conman' to describe Brian Walshe."
+    ],
+    "safe_conclusions": [
+      "Sources report on disparate events across the fields of sports, technology, law, and politics."
+    ],
+    "unknowns": [
+      "The status of current NBA free agency.",
+      "The official response of the Indian government to the Cockroach Janata party protests.",
+      "The legal finality of the Michelle Hadley case."
+    ],
+    "synthesis": "The provided news articles cover unrelated topics including NBA player status, Formula One regulations, higher education policies regarding artificial intelligence, a historical criminal case, and youth protests in India. Each source functions independently with no overlap in subject matter or event reporting. The content spans international sports, domestic technology policy, criminal justice, and geopolitical civil unrest.",
+    "confidence": "HIGH. The articles describe completely distinct events and do not conflict with one another.",
+    "sources": [
+      {
+        "id": "art_1784985697503_gollu",
+        "url": "https://www.foxnews.com/sports/lebron-james-bronny-james-not-package-deal-76ers-agent-rich-paul",
+        "source": "fox",
+        "title": "LeBron James, Bronny James are ‘not a package deal’ after 76ers move, agent Rich Paul says"
+      },
+      {
+        "id": "art_1784985698553_uqqz6",
+        "url": "https://www.aljazeera.com/sports/2026/7/25/f1-needs-better-balance-between-business-and-sport-says-norris?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "F1 needs better balance between business and sport, says Norris"
+      },
+      {
+        "id": "art_1784985699770_drqms",
+        "url": "https://www.foxnews.com/culture/christian-university-aims-produce-irreplaceable-graduates-ai-reshapes-higher-education",
+        "source": "fox",
+        "title": "Christian university aims to produce 'irreplaceable' graduates as AI reshapes higher education"
+      },
+      {
+        "id": "art_1784985700854_vnr7a",
+        "url": "https://www.foxnews.com/us/what-happened-michelle-hadley-5-things-know-toxic-love-story-case",
+        "source": "fox",
+        "title": "What happened to Michelle Hadley? 5 things to know about ‘A Toxic Love Story’ case"
+      },
+      {
+        "id": "art_1784985701929_u6z64",
+        "url": "https://www.theguardian.com/world/2026/jul/25/india-celebrities-fiercely-criticised-silence-cockroach-cjp-protests",
+        "source": "guardian",
+        "title": "Indian celebrities fiercely criticised for silence on Cockroach protests"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "98b71834fd9ee443ba7bf14033260768",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-07-25T07:25:35.000Z",
@@ -22505,81 +22599,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0d252f6b126e65f2928db70719a74b2c",
-    "topic_label": "US strikes on Iran",
-    "event_window_start": "2026-07-21T01:51:15.000Z",
-    "event_window_end": "2026-07-21T02:12:05.000Z",
-    "article_ids": [
-      "art_1784600742030_0me5h",
-      "art_1784600746635_t768g"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-21T05:38:38.981Z",
-    "updated_at": "2026-07-21T05:38:38.981Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The US military has conducted a series of strikes against Iranian military-linked sites.",
-      "The ongoing conflict is being described by Iranian officials as a 'full-scale war'.",
-      "The US and Iran are currently engaged in active military hostilities."
-    ],
-    "source_claims": [
-      "[guardian] The US claims the strikes are aimed at degrading Iranian military capabilities.",
-      "[guardian] Houthi rebels have announced a maritime embargo against Saudi Arabia.",
-      "[bbc] The US claims the strikes target capabilities used to attack shipping in the Strait of Hormuz.",
-      "[bbc] US President Donald Trump stated that Iran was hit in honor of three US soldiers killed in Jordan and Iraq.",
-      "[bbc] Iran claims to have targeted sites in Bahrain, Jordan, and Syria."
-    ],
-    "framing_differences": [
-      "The guardian frames the event by emphasizing Houthi threats to the Bab al-Mandab strait, while the bbc frames the event within the context of President Trump's vow to retaliate for the deaths of US soldiers."
-    ],
-    "contested_claims": [
-      "The sources present differing primary geographic focal points for the US strikes, with the guardian identifying the Bab al-Mandab strait/Yemen and the bbc identifying the Strait of Hormuz."
-    ],
-    "unverified_claims": [
-      "[guardian] The Houthi military spokesperson stated the embargo is based on the principle of 'an eye for an eye'.",
-      "[bbc] The US Pentagon has identified two of the recently deceased US soldiers."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'criminal Saudi enemy' to quote a Houthi military spokesperson.",
-      "[bbc] uses the word 'punish' to describe President Trump's stated intent regarding Iran."
-    ],
-    "safe_conclusions": [
-      "Military tensions between the US and Iran have escalated.",
-      "US strikes against Iranian-linked targets have continued for consecutive nights."
-    ],
-    "unknowns": [
-      "The exact number of casualties resulting from the most recent US strikes.",
-      "The specific current status of diplomatic channels between the US and Iran.",
-      "The full scope of Iranian retaliatory strikes in Bahrain, Jordan, and Syria."
-    ],
-    "synthesis": "The United States has conducted multiple nights of military strikes against Iranian targets, which the US states are intended to degrade military capabilities. Iranian officials have characterized the conflict as a full-scale war and report targeting US-aligned sites in the region. Simultaneously, Houthi forces have declared a maritime embargo against Saudi Arabia affecting the Bab al-Mandab strait.",
-    "confidence": "MEDIUM. While both sources agree on the occurrence of the strikes and the state of war, they highlight different primary areas of conflict and strategic motivations.",
-    "sources": [
-      {
-        "id": "art_1784600742030_0me5h",
-        "url": "https://www.theguardian.com/world/live/2026/jul/20/us-iran-war-live-updates-strikes-strait-of-hormuz-middle-east-crisis-latest-news",
-        "source": "guardian",
-        "title": "US launches further strikes on Iran; Houthis threaten Saudi shipping blockade – Middle East crisis live"
-      },
-      {
-        "id": "art_1784600746635_t768g",
-        "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
