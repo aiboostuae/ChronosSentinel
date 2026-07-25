@@ -1,5 +1,98 @@
 [
   {
+    "cluster_id": "98b71834fd9ee443ba7bf14033260768",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-07-25T07:25:35.000Z",
+    "event_window_end": "2026-07-25T08:27:47.000Z",
+    "article_ids": [
+      "art_1784968465581_3yjec",
+      "art_1784968466622_ntk5g",
+      "art_1784968467728_34fto",
+      "art_1784968468771_aspjs",
+      "art_1784968469797_1r8n3"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-25T10:11:39.594Z",
+    "updated_at": "2026-07-25T10:11:39.594Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Wildfires are currently affecting regions in France and Spain.",
+      "Evacuations of residents have occurred in France due to wildfires near Bordeaux.",
+      "Officials in Spain have identified difficulties in containing wildfires near Madrid due to weather conditions."
+    ],
+    "source_claims": [
+      "[guardian] States French authorities evacuated thousands from Bordeaux suburbs including Le Haillan, Eysines, and Merignac.",
+      "[guardian] Reports French Prime Minister Sebastien Lecornu stated more than 141,000 people were evacuated from Gironde and Landes regions.",
+      "[aljazeera] Claims nearly 200,000 people have been forced from homes and resorts across France and Spain due to wildfires.",
+      "[aljazeera] Reports Spanish emergency management chief Carlos Novillo stated the wildfire near Madrid is beyond the current capacity of firefighters to contain."
+    ],
+    "framing_differences": [
+      "The guardian focuses specifically on the local administration's actions in Bordeaux, whereas aljazeera provides a broader regional summary of evacuation figures across France and Spain."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Reports French Prime Minister Sebastien Lecornu said more than 141,000 people had been evacuated.",
+      "[aljazeera] Claims nearly 200,000 people have been forced from their homes."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'massive' to describe wildfires.",
+      "[aljazeera] uses the term 'raging' to describe wildfires."
+    ],
+    "safe_conclusions": [
+      "Wildfires are active in France and Spain.",
+      "Evacuations are taking place in response to these fires."
+    ],
+    "unknowns": [
+      "The exact total number of evacuees, as sources provide different aggregate figures.",
+      "The specific current status of fire containment beyond the reports provided for Bordeaux and Madrid."
+    ],
+    "synthesis": "Wildfires in France and Spain have necessitated the evacuation of thousands of residents from their homes and resorts. French authorities are conducting evacuations near Bordeaux, while Spanish officials report that wildfires near Madrid remain difficult to contain due to environmental conditions. Efforts to manage the fires are ongoing in both countries.",
+    "confidence": "MEDIUM. The articles provide consistent reports on the existence of wildfires and evacuation efforts, but aggregate figures regarding the total number of people evacuated differ between sources.",
+    "sources": [
+      {
+        "id": "art_1784968465581_3yjec",
+        "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde",
+        "source": "guardian",
+        "title": "France and Spain race to control wildfires as suburbs of Bordeaux begin evacuation – live"
+      },
+      {
+        "id": "art_1784968466622_ntk5g",
+        "url": "https://www.aljazeera.com/news/2026/7/25/dodging-snipers-housing-crisis-forces-yemenis-to-live-on-front-line?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Dodging snipers, housing crisis forces Yemenis to live on front line"
+      },
+      {
+        "id": "art_1784968467728_34fto",
+        "url": "https://www.foxnews.com/politics/democrats-concede-nj-voter-roll-failure-horrible-reject-broader-fraud-fears",
+        "source": "fox",
+        "title": "Democrats concede NJ voter-roll failure was ‘horrible’ — but reject broader fraud fears"
+      },
+      {
+        "id": "art_1784968468771_aspjs",
+        "url": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Wildfires in Spain and France force evacuation of 200,000 people"
+      },
+      {
+        "id": "art_1784968469797_1r8n3",
+        "url": "https://www.aljazeera.com/features/2026/7/25/born-too-soon-premature-babies-fighting-for-survival-in-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Born too soon: Premature babies fight for survival in Gaza"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "a228ff3d9ff0fc3559efa0558278fd90",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-07-25T05:00:36.000Z",
@@ -22487,74 +22580,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f0856eb323a69ee189bd877a437e06b4",
-    "topic_label": "World Cup coverage",
-    "event_window_start": "2026-07-19T21:06:15.000Z",
-    "event_window_end": "2026-07-19T21:12:00.000Z",
-    "article_ids": [
-      "art_1784496418843_ybmnc",
-      "art_1784496419889_2vc3d"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-20T20:21:01.939Z",
-    "updated_at": "2026-07-20T20:21:01.939Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The 2026 FIFA World Cup final features a halftime show.",
-      "The 2026 FIFA World Cup is noted for its scale and historical significance."
-    ],
-    "source_claims": [
-      "[fox-1] Jason Riley expresses skepticism regarding the long-term popularity of soccer in the United States.",
-      "[fox-1] Joseph Sternberg and Kim Strassel suggest international visitors gained a positive perception of American hospitality and daily life.",
-      "[fox-2] Alex Lasry states that the 2026 FIFA World Cup final is potentially the biggest event in human history.",
-      "[fox-2] The 2026 FIFA World Cup final halftime show was curated by Chris Martin and featured performances by Madonna, The Muppets, BTS, and Justin Bieber."
-    ],
-    "framing_differences": [
-      "Fox-1 frames the World Cup through the lens of international perception and American soft power, whereas Fox-2 frames the event through the logistics of the final match, the scale of the production, and the entertainment components."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox-1] The experience of a German fan named Sebastian serves as an example of visitors changing their apprehension about the U.S. after attending the World Cup."
-    ],
-    "loaded_language": [
-      "[fox-1] uses the term 'wholesome' to describe social media stories regarding World Cup visitors."
-    ],
-    "safe_conclusions": [
-      "The 2026 FIFA World Cup is a major international sporting event.",
-      "The 2026 World Cup final included a halftime show."
-    ],
-    "unknowns": [
-      "Specific metrics regarding the global image impact of the World Cup.",
-      "The official viewership numbers for the 2026 World Cup final.",
-      "The criteria used to define the 2026 final as the biggest event in human history."
-    ],
-    "synthesis": "The 2026 FIFA World Cup is being highlighted for its large-scale production and international reach. Discussions cover both the cultural impact of visitors experiencing the United States and the logistical preparation for the tournament final. The event also featured a high-profile halftime show curated by Chris Martin.",
-    "confidence": "HIGH. The articles are both from the same source and provide consistent, non-contradictory information regarding the nature of the 2026 World Cup.",
-    "sources": [
-      {
-        "id": "art_1784496418843_ybmnc",
-        "url": "https://www.foxnews.com/opinion/riley-gaines-world-cup-visitors-reminding-americans-what-makes-country-great",
-        "source": "fox",
-        "title": "RILEY GAINES: World Cup visitors are reminding Americans what makes this country great"
-      },
-      {
-        "id": "art_1784496419889_2vc3d",
-        "url": "https://www.foxnews.com/outkick-sports/first-world-cup-halftime-show-draws-mixed-reactions-shakira-justin-bieber-bts-madonna-performances",
-        "source": "fox",
-        "title": "First World Cup halftime show draws mixed reactions for Shakira, Justin Bieber, BTS, Madonna performances"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
