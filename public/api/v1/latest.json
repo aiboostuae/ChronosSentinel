@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-07-25T17:09:10.645Z",
+  "generated_at": "2026-07-25T18:18:53.995Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 174,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "27e84c51dfb91c8f114d1dc39c4294de",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-07-25T17:01:50.000Z",
+      "event_window_end": "2026-07-25T17:25:11.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided articles cover disparate global events including protests in India, wildfires in Europe, a U.S. court ruling on school policy, and general health and sports reporting. No single event is discussed by multiple sources. The reported information consists of independent news updates across varied geographic and topical domains.",
+      "confidence": "HIGH. Each source discusses distinct, unrelated events, making factual consistency across sources not applicable.",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
+          "title": "India's 'cockroach' protest called off after education minister quits"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/wnba-all-star-game-betting-preview-team-coop-guards-could-give-them-edge-team-spoon",
+          "title": "WNBA All-Star Game betting preview: Team Coop's guards could give them the edge over Team Spoon"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+          "title": "More than 250,000 flee wildfires in France and Spain"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/fired-school-counselor-loses-again-after-free-speech-fight-over-gender-themed-books-his-office",
+          "title": "Fired school counselor loses again after free speech fight over gender-themed books in his office"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/food-drink/biggest-food-drink-mistakes-travelers-make-flights-experts-warn",
+          "title": "The biggest food and drink mistakes travelers make on flights, experts warn"
+        }
+      ],
+      "updated_at": "2026-07-25T18:18:49.627Z"
+    },
     {
       "cluster_id": "193c414edc38f634d76c9452c81557df",
       "topic_label": "Fallback Synthesis",
@@ -456,53 +497,29 @@
         }
       ],
       "updated_at": "2026-07-24T19:00:24.084Z"
-    },
-    {
-      "cluster_id": "b36946bf828f4c68c5a618b78ea54ce3",
-      "topic_label": "Immigration and ICE deportations",
-      "event_window_start": "2026-07-24T11:00:49.000Z",
-      "event_window_end": "2026-07-24T12:57:10.000Z",
-      "article_count": 5,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "ICE is a federal agency that operates detention facilities and manages immigration enforcement.",
-        "Individuals are currently held in ICE custody in various locations."
-      ],
-      "source_differences": [],
-      "synthesis": "Recent reports cover a range of immigration-related developments, including individual detentions, federal judicial decisions on visa policies, and the shifting financial relationships between banks and private prison operators. ICE maintains detention facilities where individuals, including a Catholic nun and a long-term US resident, have been held. Simultaneously, public and political discourse remains focused on the legal and economic impact of federal immigration policies and border management.",
-      "confidence": "MEDIUM; The articles cover disparate, independent events related to the broader topic of US immigration and enforcement, precluding a singular factual consensus.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/24/texas-nun-detained-ice-speaks-out",
-          "title": "Texas nun detained by ICE speaks out for first time: ‘It was very heartbreaking for me’"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/boasberg-delivers-fresh-immigration-setback-trump-free-speech-clash",
-          "title": "Boasberg delivers fresh immigration setback to Trump in free-speech clash"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/24/british-born-man-living-in-us-since-age-of-nine-held-by-ice-under-threat-of-deportation",
-          "title": "British-born man living in US since age of nine held by ICE under threat of deportation"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/media/citizens-bank-cuts-ties-ice-prison-contractors-activist-pressure",
-          "title": "Citizens Bank cuts ties with ICE prison contractors after months of activist pressure"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/opinion/truth-commission-show-world-insanity-biden-border-crisis",
-          "title": "We need a truth commission to show the world the insanity of the Biden border crisis"
-        }
-      ],
-      "updated_at": "2026-07-25T00:05:52.716Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-27e84c51",
+      "title": "Fallback Synthesis",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "The provided articles cover disparate global events including protests in India, wildfires in Europe, a U.S. court ruling on school policy, and general health and sports reporting. No single event is discussed by multiple sources. The reported information consists of independent news updates across varied geographic and topical domains.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "27e84c51dfb91c8f114d1dc39c4294de",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-07-25T18:18:49.627Z"
+    },
     {
       "id": "impact-193c414e",
       "title": "Fallback Synthesis",
@@ -682,25 +699,6 @@
       "related_cluster_id": "f22fa6583198206d37924211c4142dbd",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-07-25T00:05:52.716Z"
-    },
-    {
-      "id": "impact-63ebc2ca",
-      "title": "Sports controversies and events",
-      "severity": "low",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Recent media discourse highlights tensions surrounding WNBA star Caitlin Clark, including criticism from sports commentators regarding her treatment by the league and media. Simultaneously, former Indiana Fever player Brianna Turner has publicly alleged internal staff issues within the organization. Additionally, public commentary from figures like Megan Rapinoe continues to link political figures to athletic team dynamics.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "63ebc2ca8f84cfb68376852346ce34fd",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-07-25T00:05:52.716Z"
     }
   ]

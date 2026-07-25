@@ -1,5 +1,100 @@
 [
   {
+    "cluster_id": "27e84c51dfb91c8f114d1dc39c4294de",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-07-25T17:01:50.000Z",
+    "event_window_end": "2026-07-25T17:25:11.000Z",
+    "article_ids": [
+      "art_1785000870566_cxqjf",
+      "art_1785000871646_cll49",
+      "art_1785000872683_7vudj",
+      "art_1785000873732_yj7rc",
+      "art_1785000874770_j5yy0"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-25T18:18:49.627Z",
+    "updated_at": "2026-07-25T18:18:49.627Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[bbc] Education Minister Dharmendra Pradhan resigned.",
+      "[bbc] The Cockroach Janta Party (CJP) ended a five-week protest following the resignation.",
+      "[bbc] A police crackdown on protesters marching to the Indian parliament occurred on Monday, resulting in injuries.",
+      "[fox] A federal appeals court upheld the firing of Oregon school counselor Roderick E. Theis II.",
+      "[bbc] Over 250,000 people have fled wildfires in France and Spain.",
+      "[bbc] Authorities in Valencia, Spain, confirmed the death of one man due to wildfires.",
+      "[fox] Dehydration during air travel can cause symptoms including headaches, muscle cramps, and dizziness."
+    ],
+    "framing_differences": [
+      "The BBC sources focus on geopolitical and environmental events, while the Fox sources focus on sports betting, cultural legal battles, and health advice."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The CJP is described as a platform for young people's anxieties and dissent.",
+      "[fox] Jayme Leagh Franklin claims Caitlin Clark continues to face abuse.",
+      "[bbc] One official in France stated firefighters are far from having the fire under control."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'cockroach' to describe the protest party mascot.",
+      "[bbc] uses the term 'jubilant' to describe supporters.",
+      "[fox] uses the term 'gender ideology' to describe school policies."
+    ],
+    "safe_conclusions": [
+      "Dharmendra Pradhan has resigned from his position as Education Minister in India.",
+      "Wildfires are occurring in France and Spain.",
+      "A 9th U.S. Circuit Court of Appeals ruling was issued regarding a school counselor in Oregon."
+    ],
+    "unknowns": [
+      "The identity of the individual who died in the València fire.",
+      "The specific details of the 'gender-themed books' involved in the Oregon court case.",
+      "The long-term environmental impact of the wildfires in France and Spain."
+    ],
+    "synthesis": "The provided articles cover disparate global events including protests in India, wildfires in Europe, a U.S. court ruling on school policy, and general health and sports reporting. No single event is discussed by multiple sources. The reported information consists of independent news updates across varied geographic and topical domains.",
+    "confidence": "HIGH. Each source discusses distinct, unrelated events, making factual consistency across sources not applicable.",
+    "sources": [
+      {
+        "id": "art_1785000870566_cxqjf",
+        "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "India's 'cockroach' protest called off after education minister quits"
+      },
+      {
+        "id": "art_1785000871646_cll49",
+        "url": "https://www.foxnews.com/outkick-sports/wnba-all-star-game-betting-preview-team-coop-guards-could-give-them-edge-team-spoon",
+        "source": "fox",
+        "title": "WNBA All-Star Game betting preview: Team Coop's guards could give them the edge over Team Spoon"
+      },
+      {
+        "id": "art_1785000872683_7vudj",
+        "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "More than 250,000 flee wildfires in France and Spain"
+      },
+      {
+        "id": "art_1785000873732_yj7rc",
+        "url": "https://www.foxnews.com/media/fired-school-counselor-loses-again-after-free-speech-fight-over-gender-themed-books-his-office",
+        "source": "fox",
+        "title": "Fired school counselor loses again after free speech fight over gender-themed books in his office"
+      },
+      {
+        "id": "art_1785000874770_j5yy0",
+        "url": "https://www.foxnews.com/food-drink/biggest-food-drink-mistakes-travelers-make-flights-experts-warn",
+        "source": "fox",
+        "title": "The biggest food and drink mistakes travelers make on flights, experts warn"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "193c414edc38f634d76c9452c81557df",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-07-25T13:00:43.000Z",
@@ -22529,76 +22624,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
         "source": "aljazeera",
         "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "16d44c4f0e594ad94487c40fbd1e5df5",
-    "topic_label": "US Canada trade and tariffs",
-    "event_window_start": "2026-07-21T00:34:47.000Z",
-    "event_window_end": "2026-07-21T02:01:31.000Z",
-    "article_ids": [
-      "art_1784600745526_lszps",
-      "art_1784600755186_jq2rd"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-21T05:38:38.981Z",
-    "updated_at": "2026-07-21T05:38:38.981Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump has announced a 50% tariff on a range of imported goods from Canada.",
-      "The tariffs are scheduled to take effect in 30 days.",
-      "The administration cited concerns regarding the treatment of American cars, alcohol, and dairy products as justification for the tariffs."
-    ],
-    "source_claims": [
-      "[guardian] Claims the tariffs are linked to a 1930 trade law provision and cites a White House official stating Canada must be held accountable for retaliating against previous tariffs.",
-      "[guardian] Claims Donald Trump started a war with Iran in February, impacting the global economy.",
-      "[bbc] Claims the tariffs specifically target goods including wine, hockey sticks, and cement, while exempting energy, potash, critical minerals, and fish."
-    ],
-    "framing_differences": [
-      "The Guardian frames the tariffs within a context of broader economic turmoil and existing geopolitical conflicts like the war with Iran, whereas the BBC frames the news primarily as an escalation of trade relations between North American neighbors and focuses on specific product categories impacted."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims Donald Trump started a war with Iran in February.",
-      "[guardian] Claims Trump is exploring tariffs on Canada specifically for wildfire smoke impacts."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'trade war' to describe the actions taken against Canada.",
-      "[bbc] uses the term 'slaps' to describe the imposition of tariffs."
-    ],
-    "safe_conclusions": [
-      "The US government has officially announced a 50% tariff on many Canadian goods scheduled for implementation in 30 days."
-    ],
-    "unknowns": [
-      "The full list of goods subject to the new tariff regulations.",
-      "The specific legislative or executive mechanism intended for the implementation of these tariffs beyond the broad mention of a 1930 law.",
-      "The definitive impact of these tariffs on specific consumer prices in the US."
-    ],
-    "synthesis": "President Donald Trump has announced a 50% tariff on a wide array of Canadian imports, citing unequal treatment of US goods as the primary motivation. The measures are expected to take effect in 30 days, prompting a commitment from the Canadian government to pursue further trade negotiations. The reporting varies in scope regarding the economic context and the specific exemptions applied to the trade policy.",
-    "confidence": "MEDIUM. Both sources confirm the primary event of the tariff announcement, but diverge significantly on secondary details such as the justification involving wildfire smoke and the broader geopolitical context of the administration's actions.",
-    "sources": [
-      {
-        "id": "art_1784600745526_lszps",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/20/maine-democrats-troy-jackson-senate-graham-platner-donald-trump-immigration-world-cup-us-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump exploring additional tariffs on Canada for wildfire smoke impacts in US, White House official says –as it happened"
-      },
-      {
-        "id": "art_1784600755186_jq2rd",
-        "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
