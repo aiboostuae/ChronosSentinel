@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-07-25T18:18:53.995Z",
+  "generated_at": "2026-07-25T19:46:53.622Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 174,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "b60b0b5a9302ca576a3586f74e227cd1",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-07-25T18:06:09.000Z",
+      "event_window_end": "2026-07-25T18:23:10.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided reports cover distinct, unrelated news topics ranging from WNBA player commentary and media criticism to Israeli legislative changes and the legal aftermath of the Jeffrey Epstein case. Each article focuses on a separate event, presenting claims regarding institutional bias, policy, or interpersonal professional criticism. There is no intersection of subject matter between the sources.",
+      "confidence": "HIGH. The sources discuss completely independent topics with no factual overlap, preventing contradiction or consistency concerns.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/sophie-cunningham-west-wilson-split-transgender-athletes-girls-sports-podcast-partnership",
+          "title": "Sophie Cunningham and West Wilson split on transgender athletes in girls' sports despite podcast partnership"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/riley-gaines-calls-usa-today-reporter-insane-invoking-emmett-till-column-caitlin-clark",
+          "title": "Riley Gaines calls USA Today reporter 'insane' for invoking Emmett Till in column about Caitlin Clark"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
+          "title": "How Netanyahu gov’t media reforms risk deepening Israeli press bias"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/jul/25/cecilia-vega-60-minutes-cbs-political-bias",
+          "title": "Cecilia Vega of 60 Minutes says she felt pressure from CBS to add ‘political bias’"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/why-epsteins-survivors-are-still-fighting?traffic_source=rss",
+          "title": "Why Epstein’s survivors are still fighting"
+        }
+      ],
+      "updated_at": "2026-07-25T19:46:49.078Z"
+    },
     {
       "cluster_id": "27e84c51dfb91c8f114d1dc39c4294de",
       "topic_label": "Fallback Synthesis",
@@ -456,50 +497,28 @@
         }
       ],
       "updated_at": "2026-07-25T00:05:52.716Z"
-    },
-    {
-      "cluster_id": "790ecff5ed3a783785815062bb0ebfaa",
-      "topic_label": "Ukraine-Russia war developments",
-      "event_window_start": "2026-07-24T05:20:44.000Z",
-      "event_window_end": "2026-07-24T16:53:55.000Z",
-      "article_count": 5,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "The provided articles detail disparate events including a Romanian interception of a suspected drone, shifts in Ukrainian military leadership, Ukrainian drone strikes on Russian commercial warehouses, and political communication between Laura Loomer and Volodymyr Zelenskyy. These reports collectively highlight the ongoing military, economic, and diplomatic activity surrounding the conflict between Russia and Ukraine. No unified narrative is presented as the reports focus on distinct, geographically separated incidents.",
-      "confidence": "HIGH; The sources provide distinct reports on independent events that do not contradict each other in their respective areas of coverage.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/24/romanian-jet-fighter-shoots-down-suspected-russian-drone?traffic_source=rss",
-          "title": "Romanian jet fighter shoots down suspected Russian drone"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/jul/24/maga-influencer-laura-loomer-reverses-course-on-ukraine-after-kyiv-visit",
-          "title": "Maga influencer Laura Loomer reverses course on Ukraine after Kyiv visit"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/24/ukraine-warehouse-strikes-wildberries-war-closer-ordinary-russians",
-          "title": "Ukraine’s pivot to warehouse strikes brings war closer to ordinary Russians"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/24/mykhailo-drapatyi-can-new-ukraine-army-chief-alter-russia-wars-direction?traffic_source=rss",
-          "title": "Mykhailo Drapatyi: Can new Ukraine army chief alter Russia war’s direction?"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/7/24/ukraine-beheads-its-military-as-its-performance-begins-to-soar?traffic_source=rss",
-          "title": "Ukraine beheads its military as its performance begins to soar"
-        }
-      ],
-      "updated_at": "2026-07-24T19:00:24.084Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-b60b0b5a",
+      "title": "Fallback Synthesis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "The provided reports cover distinct, unrelated news topics ranging from WNBA player commentary and media criticism to Israeli legislative changes and the legal aftermath of the Jeffrey Epstein case. Each article focuses on a separate event, presenting claims regarding institutional bias, policy, or interpersonal professional criticism. There is no intersection of subject matter between the sources.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "b60b0b5a9302ca576a3586f74e227cd1",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-07-25T19:46:49.078Z"
+    },
     {
       "id": "impact-27e84c51",
       "title": "Fallback Synthesis",
@@ -679,26 +698,6 @@
       "related_cluster_id": "b36946bf828f4c68c5a618b78ea54ce3",
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-07-25T00:05:52.716Z"
-    },
-    {
-      "id": "impact-f22fa658",
-      "title": "Health outbreaks and concerns",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "Health agencies are reporting on various disease outbreaks, including measles in the US, cyclosporiasis in the US, and Ebola in the Democratic Republic of the Congo. Additionally, regulatory authorities in Australia have issued warnings regarding potential side effects associated with specific GLP-1 weight loss and diabetes medications. These reports detail ongoing investigations and statistical updates provided by public health organizations.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "f22fa6583198206d37924211c4142dbd",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-07-25T00:05:52.716Z"
     }
   ]

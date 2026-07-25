@@ -1,5 +1,99 @@
 [
   {
+    "cluster_id": "b60b0b5a9302ca576a3586f74e227cd1",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-07-25T18:06:09.000Z",
+    "event_window_end": "2026-07-25T18:23:10.000Z",
+    "article_ids": [
+      "art_1785004423655_km9hh",
+      "art_1785004424701_5s2ph",
+      "art_1785004425852_mic4p",
+      "art_1785004426945_x8sgg",
+      "art_1785004428005_r340u"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-25T19:46:49.078Z",
+    "updated_at": "2026-07-25T19:46:49.078Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] Sophie Cunningham defended her position on Title IX and the exclusion of biological men from girls' sports.",
+      "[fox] Jennifer Sey supports Cunningham's stance on women's sports.",
+      "[fox] Riley Gaines criticized Nancy Armour for a column comparing Emmett Till to Caitlin Clark.",
+      "[aljazeera] Israel's Knesset passed media reforms that reduce oversight and journalism standards.",
+      "[aljazeera] The Union of Journalists in Israel and opposition parties petitioned the High Court of Justice regarding the media legislation.",
+      "[guardian] Cecilia Vega stated she felt pressure from CBS executives to incorporate political bias into her reporting.",
+      "[aljazeera] Epstein survivors are seeking to block Donald Trump's attorney general nominee."
+    ],
+    "framing_differences": [
+      "Fox frames the discussion around Sophie Cunningham as a defense of women's sports, whereas the same coverage mentions media backlash without detailing the specific criticisms of her stance."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Nancy Armour compared the lynching of Emmett Till to Caitlin Clark's impact on Black and queer WNBA players.",
+      "[guardian] CBS executives pressured Cecilia Vega to incorporate political bias into segments."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'torched' to describe Riley Gaines's reaction to Nancy Armour.",
+      "[fox] uses the term 'insane' attributed to Riley Gaines regarding Nancy Armour.",
+      "[aljazeera] uses the term 'right-wing coalition' to describe the Israeli government.",
+      "[aljazeera] uses the term 'legislative blitz' to describe the timing of the Israeli media reforms."
+    ],
+    "safe_conclusions": [
+      "The sources discuss disparate topics including sports policy, media ethics, international legislation, and historical legal cases."
+    ],
+    "unknowns": [
+      "The specific details of the media pressure mentioned by Cecilia Vega.",
+      "The legal outcome of the petition against the Israeli media reform bill.",
+      "The specific arguments used by survivors to oppose the attorney general nominee."
+    ],
+    "synthesis": "The provided reports cover distinct, unrelated news topics ranging from WNBA player commentary and media criticism to Israeli legislative changes and the legal aftermath of the Jeffrey Epstein case. Each article focuses on a separate event, presenting claims regarding institutional bias, policy, or interpersonal professional criticism. There is no intersection of subject matter between the sources.",
+    "confidence": "HIGH. The sources discuss completely independent topics with no factual overlap, preventing contradiction or consistency concerns.",
+    "sources": [
+      {
+        "id": "art_1785004423655_km9hh",
+        "url": "https://www.foxnews.com/outkick-sports/sophie-cunningham-west-wilson-split-transgender-athletes-girls-sports-podcast-partnership",
+        "source": "fox",
+        "title": "Sophie Cunningham and West Wilson split on transgender athletes in girls' sports despite podcast partnership"
+      },
+      {
+        "id": "art_1785004424701_5s2ph",
+        "url": "https://www.foxnews.com/outkick-sports/riley-gaines-calls-usa-today-reporter-insane-invoking-emmett-till-column-caitlin-clark",
+        "source": "fox",
+        "title": "Riley Gaines calls USA Today reporter 'insane' for invoking Emmett Till in column about Caitlin Clark"
+      },
+      {
+        "id": "art_1785004425852_mic4p",
+        "url": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How Netanyahu gov’t media reforms risk deepening Israeli press bias"
+      },
+      {
+        "id": "art_1785004426945_x8sgg",
+        "url": "https://www.theguardian.com/us-news/2026/jul/25/cecilia-vega-60-minutes-cbs-political-bias",
+        "source": "guardian",
+        "title": "Cecilia Vega of 60 Minutes says she felt pressure from CBS to add ‘political bias’"
+      },
+      {
+        "id": "art_1785004428005_r340u",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/why-epsteins-survivors-are-still-fighting?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why Epstein’s survivors are still fighting"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "27e84c51dfb91c8f114d1dc39c4294de",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-07-25T17:01:50.000Z",
@@ -22553,77 +22647,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "03608d06211a30c2bd64e261a8c84a6a",
-    "topic_label": "Global Disaster Alerts",
-    "event_window_start": "2026-07-21T01:47:30.000Z",
-    "event_window_end": "2026-07-21T07:58:52.000Z",
-    "article_ids": [
-      "art_1784622385305_cc3ar",
-      "art_1784600743209_vb1jb",
-      "art_1784600747670_7ipue"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-21T10:41:38.380Z",
-    "updated_at": "2026-07-21T10:41:38.380Z",
-    "region_tag": "middle-east",
-    "shared_facts": [],
-    "source_claims": [
-      "[aljazeera_1] Flooding in Afghanistan’s Nuristan province has resulted in at least 20 deaths and over 100 missing persons.",
-      "[guardian] Tropical Storm Bertha is located 110 miles south of Panama City, Florida, with sustained winds of 40 mph.",
-      "[aljazeera_2] A ferry, the MV Barima, capsized off the coast of Guyana, resulting in 27 recovered bodies, 69 rescues, and 83 missing persons.",
-      "[aljazeera_2] Prime Minister Mark Phillips has launched an investigation into the potential negligence of the MV Barima crew."
-    ],
-    "framing_differences": [
-      "The articles provided report on three entirely unrelated global events (flooding in Afghanistan, a tropical storm in the US, and a ferry disaster in Guyana), meaning there are no shared events being framed differently."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_2] The passenger count for the MV Barima is disputed, as 32 rescued individuals were not on the initial manifest."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'terrifying' to describe floodwaters.",
-      "[aljazeera_2] quotes Minister Juan Edghill describing the sinking as 'the country’s worst marine disaster in decades'."
-    ],
-    "safe_conclusions": [],
-    "unknowns": [
-      "The final casualty count for the flooding in Nuristan, Afghanistan.",
-      "The path and total impact of Tropical Storm Bertha.",
-      "The final number of passengers on board the MV Barima and the results of the investigation into the crew."
-    ],
-    "synthesis": "These articles report on three distinct events: fatal flooding in Afghanistan, the development of Tropical Storm Bertha in the Gulf of Mexico, and a ferry capsizing in Guyana. Each report details specific casualty figures and current government or meteorological responses relevant to their respective regions. There is no thematic overlap between the provided sources.",
-    "confidence": "HIGH; The sources report on unrelated events, and the facts provided within each report do not conflict with the others.",
-    "sources": [
-      {
-        "id": "art_1784622385305_cc3ar",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Moment terrifying floodwaters sweep through Afghan village"
-      },
-      {
-        "id": "art_1784600743209_vb1jb",
-        "url": "https://www.theguardian.com/us-news/2026/jul/20/bertha-tropical-depression-us-gulf-coast",
-        "source": "guardian",
-        "title": "Weather warnings as another tropical storm develops along US Gulf coast"
-      },
-      {
-        "id": "art_1784600747670_7ipue",
-        "url": "https://www.aljazeera.com/news/2026/7/21/guyana-recovers-27-bodies-after-ferry-disaster-as-crew-comes-under-scrutiny?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Guyana recovers 27 bodies after ferry disaster as crew comes under scrutiny"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
