@@ -1,5 +1,94 @@
 [
   {
+    "cluster_id": "61888d80fab5cfbdbaf9e62f545c69e2",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-07-25T02:29:13.000Z",
+    "event_window_end": "2026-07-25T03:35:06.000Z",
+    "article_ids": [
+      "art_1784951533273_1sa0c",
+      "art_1784951534341_ytzal",
+      "art_1784951535458_0dduc",
+      "art_1784951536508_vq55b",
+      "art_1784951537550_f1x7u"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-25T06:05:19.705Z",
+    "updated_at": "2026-07-25T06:05:19.705Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "President Donald Trump attended a rescheduled White House Correspondents' Association (WHCA) dinner.",
+      "The original WHCA dinner was interrupted three months ago by an incident involving a gunman."
+    ],
+    "source_claims": [
+      "[fox] claims President Trump scrapped a combative speech in favor of one emphasizing unity.",
+      "[aljazeera] reports that President Trump stated, 'The show must go on,' a phrase he also used three months ago.",
+      "[aljazeera] notes that President Trump made a joke regarding presidential term limits during his remarks."
+    ],
+    "framing_differences": [
+      "fox frames the event as President Trump taking a 'more conciliatory tone' and 'insisting' the show must go on, whereas aljazeera frames the dinner as 'perennially controversial' and highlights the political humor regarding term limits."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims a suspect named Cole Allen attempted to assassinate the president."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'combative' to describe the speech Trump prepared before the April incident.",
+      "[aljazeera] uses the term 'perennially controversial' to describe the White House Correspondents' Association dinner."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump spoke at the rescheduled White House Correspondents' Association dinner.",
+      "The initial dinner event in April was disrupted by a security incident involving a gunman."
+    ],
+    "unknowns": [
+      "The specific content of the speech Trump claimed to have prepared before the April incident.",
+      "The official status or full details of the legal proceedings regarding the suspect Cole Allen."
+    ],
+    "synthesis": "President Donald Trump delivered a speech at the rescheduled White House Correspondents' Association dinner three months after a security incident involving a gunman disrupted the original event. Sources report that the president addressed the attendees while referencing his previous statements about the event proceeding as scheduled. The event followed an awards ceremony that included remarks from various journalists.",
+    "confidence": "HIGH. The sources are consistent regarding the core event, the return of the president, and the context of the previous interruption.",
+    "sources": [
+      {
+        "id": "art_1784951533273_1sa0c",
+        "url": "https://www.foxnews.com/sports/azzi-fudd-wins-wnba-3-point-contest-becomes-first-rookie-champion",
+        "source": "fox",
+        "title": "Azzi Fudd wins WNBA 3-point contest, becomes first rookie champion"
+      },
+      {
+        "id": "art_1784951534341_ytzal",
+        "url": "https://www.foxnews.com/politics/trump-spares-no-one-whca-dinner-taking-aim-dems-press-own-cabinet",
+        "source": "fox",
+        "title": "Trump spares no one at WHCA dinner, taking aim at Dems, press and his own Cabinet"
+      },
+      {
+        "id": "art_1784951535458_0dduc",
+        "url": "https://www.aljazeera.com/news/2026/7/25/the-show-must-go-on-trump-returns-to-rescheduled-white-house-press-gala?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘The show must go on’: Trump returns to rescheduled White House press gala"
+      },
+      {
+        "id": "art_1784951536508_vq55b",
+        "url": "https://www.foxnews.com/sports/juan-soto-leaves-mets-game-dodgers-sixth-inning-lingering-calf-injury",
+        "source": "fox",
+        "title": "Mets star Juan Soto exits in sixth inning against Dodgers with lingering calf injury"
+      },
+      {
+        "id": "art_1784951537550_f1x7u",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/firefighters-battle-fire-after-fertiliser-explosion-in-england?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Firefighters battle fire after fertiliser explosion in England"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "11f4d5080a1fa8ed33ec645e1a37cc82",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-07-24T23:25:15.000Z",
@@ -22453,120 +22542,6 @@
         "url": "https://www.foxnews.com/world/us-service-member-killed-iraq-troops-recover-unidentified-remains-jordan-centcom",
         "source": "fox",
         "title": "US service member killed in Iraq as troops recover unidentified remains in Jordan: CENTCOM"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "48c6f95d52cc0d90b85e94ea209ff6a3",
-    "topic_label": "World Cup Final coverage",
-    "event_window_start": "2026-07-19T19:05:41.000Z",
-    "event_window_end": "2026-07-19T21:12:00.000Z",
-    "article_ids": [
-      "art_1784496418843_ybmnc",
-      "art_1784496419889_2vc3d",
-      "art_1784496424335_iayri",
-      "art_1784492820586_op5de",
-      "art_1784492822763_uqzfh",
-      "art_1784492823816_f38ww",
-      "art_1784492825904_bejpu"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-20T13:28:37.042Z",
-    "updated_at": "2026-07-20T13:28:37.042Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The 2026 FIFA World Cup final match took place between Spain and Argentina.",
-      "The match was hosted at the New York New Jersey Stadium.",
-      "US President Donald Trump attended the final match.",
-      "FIFA president Gianni Infantino attended the match."
-    ],
-    "source_claims": [
-      "[fox] claims the 2026 World Cup final featured the first halftime show in tournament history, featuring Madonna, The Muppets, BTS, and Justin Bieber.",
-      "[fox] claims Alex Lasry described the event as potentially the biggest in human history.",
-      "[aljazeera] claims the match kicked off six minutes late following a pre-match show featuring Robbie Williams and Tom Cruise.",
-      "[aljazeera] claims the halftime score was 0-0.",
-      "[guardian] claims President Trump arrived at the stadium via Marine One helicopter.",
-      "[guardian] claims there was little reaction from the crowd when the helicopter flew over the stadium."
-    ],
-    "framing_differences": [
-      "fox focuses on the scale and entertainment aspects of the event, such as the halftime show performers, while aljazeera focuses on the specific match events and pre-match logistics.",
-      "guardian frames the arrival of President Trump as a notable event, describing the crowd response as lacking a hostile reception, whereas aljazeera frames the presidential arrival in the context of causing logistical delays."
-    ],
-    "contested_claims": [
-      "There is a discrepancy regarding the pre-match/halftime entertainment; fox reports a halftime show featuring Madonna and others, while aljazeera reports a pre-match show featuring Robbie Williams and Tom Cruise."
-    ],
-    "unverified_claims": [
-      "[fox] claims the event had the potential to be the biggest in human history.",
-      "[aljazeera] claims the president's arrival caused logistical delays."
-    ],
-    "loaded_language": [
-      "[aljazeera] describes Boca Juniors steakhouse as a 'temple' for the Argentinian diaspora.",
-      "[guardian] describes the crowd's response to President Trump as an 'avoided hostile reception'."
-    ],
-    "safe_conclusions": [
-      "The 2026 World Cup final was held between Spain and Argentina at the New York New Jersey Stadium.",
-      "President Donald Trump and FIFA president Gianni Infantino were present at the match.",
-      "The match was a significant international sporting event."
-    ],
-    "unknowns": [
-      "Whether there was both a pre-match show and a halftime show, or if the sources are reporting on different aspects of the same event.",
-      "The exact crowd sentiment toward the President's attendance, as observations vary between a lack of reaction and the absence of hostility."
-    ],
-    "synthesis": "The 2026 FIFA World Cup final between Spain and Argentina took place at the New York New Jersey Stadium with US President Donald Trump and FIFA president Gianni Infantino in attendance. Sources provide conflicting accounts of the entertainment segments associated with the event and the impact of presidential logistics on the schedule. The match concluded its first half with a score of 0-0 according to reporting.",
-    "confidence": "CONTESTED. There are direct contradictions regarding the entertainment programming and the impact of the President's arrival on the event's timeline.",
-    "sources": [
-      {
-        "id": "art_1784496418843_ybmnc",
-        "url": "https://www.foxnews.com/opinion/riley-gaines-world-cup-visitors-reminding-americans-what-makes-country-great",
-        "source": "fox",
-        "title": "RILEY GAINES: World Cup visitors are reminding Americans what makes this country great"
-      },
-      {
-        "id": "art_1784496419889_2vc3d",
-        "url": "https://www.foxnews.com/outkick-sports/first-world-cup-halftime-show-draws-mixed-reactions-shakira-justin-bieber-bts-madonna-performances",
-        "source": "fox",
-        "title": "First World Cup halftime show draws mixed reactions for Shakira, Justin Bieber, BTS, Madonna performances"
-      },
-      {
-        "id": "art_1784496424335_iayri",
-        "url": "https://www.aljazeera.com/sports/2026/7/19/what-happened-in-the-first-half-of-the-spain-vs-argentina-world-cup-final?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What happened in the first half of the Spain vs Argentina World Cup final?"
-      },
-      {
-        "id": "art_1784492820586_op5de",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/19/fans-light-up-nycs-little-argentina-ahead-of-spain-world-cup-final-clash?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fans light up NYC’s Little Argentina ahead of Spain World Cup final clash"
-      },
-      {
-        "id": "art_1784492822763_uqzfh",
-        "url": "https://www.theguardian.com/football/2026/jul/19/donald-trump-world-cup-final",
-        "source": "guardian",
-        "title": "Donald Trump arrives by helicopter to attend World Cup final alongside Gianni Infantino"
-      },
-      {
-        "id": "art_1784492823816_f38ww",
-        "url": "https://www.foxnews.com/sports/trump-takes-jennifer-hudson-incredible-national-anthem-performance-world-cup-final",
-        "source": "fox",
-        "title": "Trump takes in Jennifer Hudson's incredible national anthem performance before World Cup final"
-      },
-      {
-        "id": "art_1784492825904_bejpu",
-        "url": "https://www.aljazeera.com/sports/2026/7/19/trump-visit-causes-logistical-delays-at-world-cup-final?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump visit causes logistical delays at World Cup final"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
