@@ -1,5 +1,597 @@
 [
   {
+    "cluster_id": "3eac17943b1281c2e88bcfb054e49b1b",
+    "topic_label": "Europe Wildfires",
+    "event_window_start": "2026-07-25T16:23:17.000Z",
+    "event_window_end": "2026-07-26T08:29:24.000Z",
+    "article_ids": [
+      "art_1785054927359_gqxje",
+      "art_1785054933547_qfkdx",
+      "art_1785054934608_zviwq",
+      "art_1785045810782_wno69",
+      "art_1785000872683_7vudj",
+      "art_1785000879002_4474g"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-26T10:21:49.574Z",
+    "updated_at": "2026-07-26T10:21:49.574Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Wildfires are currently affecting France and Spain.",
+      "Thousands of people have been evacuated from their homes and accommodations in France and Spain.",
+      "The Gironde region of France is specifically impacted by the wildfires.",
+      "42,000 hectares have been reported as burnt in France."
+    ],
+    "source_claims": [
+      "[guardian] states more than 300,000 people have fled homes and holiday accommodation in France and Spain.",
+      "[bbc] reports 330,000 people have been evacuated across France and Spain.",
+      "[bbc] reports about 98,000 hectares have been burnt across France since the start of the year.",
+      "[aljazeera] reports nearly 98,000 hectares have been destroyed in total.",
+      "[aljazeera] reports that the final stage of the Tour de France was shortened due to emergency responders being diverted to fires.",
+      "[bbc] reports that seven towns west of Bordeaux were ordered to evacuate overnight.",
+      "[bbc] reports a man died in a fire in València, Spain."
+    ],
+    "framing_differences": [
+      "The guardian frames the event as a major humanitarian displacement, highlighting it as one of the largest peacetime evacuation operations in France, whereas aljazeera focuses on the impact on the Tour de France and the diversion of state resources.",
+      "bbc emphasizes the technical nature of the fires, such as the 'fire whirlwinds' and the perspective of emergency leadership, while the guardian focuses on the scale of the civilian evacuation."
+    ],
+    "contested_claims": [
+      "There is a discrepancy in the total number of people evacuated: guardian states 'more than 300,000', while bbc states 'more than 330,000' and 'more than 250,000' in separate reports.",
+      "aljazeera states 200,000 people have been evacuated around Bordeaux, while guardian reports 220,000 people were evacuated from the main forest fire in the south-west."
+    ],
+    "unverified_claims": [
+      "[bbc] quotes Captain Nicolas Braz describing the fires as having 'its own winds - complete with whirlwinds' and being 'erratic and unmanageable'.",
+      "[bbc] reports the Spanish PM Pedro Sánchez stated there are 'complex times ahead'."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'devastation' to describe the impact of the wildfires.",
+      "[guardian] describes the evacuation as one of the 'largest peacetime civilian evacuation operations ever carried out in France'."
+    ],
+    "safe_conclusions": [
+      "Wildfires in France and Spain have resulted in large-scale evacuations and the mobilization of emergency response teams.",
+      "The Gironde region in France is a primary area of concern for firefighting operations.",
+      "Weather conditions, including wind and temperature, have affected the spread and containment of the fires."
+    ],
+    "unknowns": [
+      "The exact total number of evacuees remains inconsistent across reports.",
+      "The specific breakdown of hectares burnt in France vs. Spain is not fully clarified across all sources.",
+      "The exact timeline of when individual towns were evacuated is not fully synchronized."
+    ],
+    "synthesis": "Wildfires continue to burn across France and Spain, resulting in the evacuation of hundreds of thousands of people. French authorities are managing significant blazes in the Gironde region, which have impacted local events like the Tour de France and required extensive emergency mobilization. Experts and officials note that dry conditions and erratic winds have hampered containment efforts.",
+    "confidence": "MEDIUM; while there is consensus on the regions affected and the severity of the fires, there are numerical inconsistencies regarding the total number of people evacuated and the specific land area burned.",
+    "sources": [
+      {
+        "id": "art_1785054927359_gqxje",
+        "url": "https://www.theguardian.com/world/live/2026/jul/26/europe-wildfires-spain-france-bordeaux-madrid-evacuations",
+        "source": "guardian",
+        "title": "Europe wildfires: more than 300,000 flee homes and holiday accommodation in France and Spain as fires rage"
+      },
+      {
+        "id": "art_1785054933547_qfkdx",
+        "url": "https://www.aljazeera.com/sports/2026/7/26/tour-de-france-final-stage-shortened-as-emergency-teams-tackle-wildfires?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Tour de France final stage shortened as emergency teams tackle wildfires"
+      },
+      {
+        "id": "art_1785054934608_zviwq",
+        "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "France battles fire 'whirlwinds' as another 55,000 evacuated "
+      },
+      {
+        "id": "art_1785045810782_wno69",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/french-wildfires-trigger-mass-evacuations-around-bordeaux?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "French wildfires trigger mass evacuations around Bordeaux"
+      },
+      {
+        "id": "art_1785000872683_7vudj",
+        "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "More than 250,000 flee wildfires in France and Spain"
+      },
+      {
+        "id": "art_1785000879002_4474g",
+        "url": "https://www.theguardian.com/world/2026/jul/25/wildfires-force-250000-people-to-evacuate-in-france-and-spain",
+        "source": "guardian",
+        "title": "More than 250,000 people flee wildfires in France and Spain"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "968bd05c19de072b8e0fb56891749f2a",
+    "topic_label": "Berlin Pride Attack",
+    "event_window_start": "2026-07-25T23:51:08.000Z",
+    "event_window_end": "2026-07-26T08:14:55.000Z",
+    "article_ids": [
+      "art_1785054928532_juyj4",
+      "art_1785054929565_mt6dt",
+      "art_1785054941473_61kzb"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-26T10:21:49.574Z",
+    "updated_at": "2026-07-26T10:21:49.574Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A vehicle incident occurred at a Pride event in Berlin.",
+      "One person was killed and 16 people were injured.",
+      "Police have identified a 21-year-old suspect named Abdul B.",
+      "A manhunt for the suspect is underway."
+    ],
+    "source_claims": [
+      "[bbc] reports a vehicle was located inside Tiergarten park.",
+      "[guardian] reports police and prosecutors stated the suspect may be armed and dangerous.",
+      "[guardian] reports that several people were allegedly stabbed during the event."
+    ],
+    "framing_differences": [
+      "The BBC frames the incident primarily as a vehicle attack, whereas The Guardian includes details regarding potential stabbing injuries."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] reports that one or more people apparently left the vehicle after it was used to injure people.",
+      "[guardian] reports that police had identified a suspect with ties to an unspecified entity."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'ramming' to describe the vehicle incident."
+    ],
+    "safe_conclusions": [
+      "One person is dead and 16 are injured following a vehicle-related incident at a Berlin Pride event.",
+      "Authorities are searching for a 21-year-old suspect named Abdul B."
+    ],
+    "unknowns": [
+      "The exact timeline of events including the alleged stabbings.",
+      "The current location or status of the suspect.",
+      "The specific nature of the vehicle's involvement beyond its presence at the scene."
+    ],
+    "synthesis": "A manhunt is active in Berlin for a 21-year-old suspect identified as Abdul B following a vehicle incident at a Pride event. One individual is confirmed dead and 16 others sustained injuries. Authorities have issued a public notice regarding the suspect, who remains at large.",
+    "confidence": "HIGH: All primary facts regarding the casualty count and the identity of the suspect are consistent across available reports.",
+    "sources": [
+      {
+        "id": "art_1785054928532_juyj4",
+        "url": "https://www.bbc.co.uk/news/videos/c74gzknyyz2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: At the scene of Berlin Pride attack as manhunt continues"
+      },
+      {
+        "id": "art_1785054929565_mt6dt",
+        "url": "https://www.bbc.co.uk/news/videos/c74gzknyyz2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: At the scene of Berlin Pride attack as manhunt continues"
+      },
+      {
+        "id": "art_1785054941473_61kzb",
+        "url": "https://www.theguardian.com/world/2026/jul/25/berlin-pride-march-called-off-after-car-crashes-into-crowd-of-people-near-route",
+        "source": "guardian",
+        "title": "One killed and 16 injured after van crashes into crowd at Berlin Pride"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "210ae4307a44443323c525bd76f3e11e",
+    "topic_label": "Israel and Middle East Tensions",
+    "event_window_start": "2026-07-25T12:11:33.000Z",
+    "event_window_end": "2026-07-26T08:00:39.000Z",
+    "article_ids": [
+      "art_1785054930736_hlw9u",
+      "art_1785054935639_6l290",
+      "art_1785045795421_0do9n",
+      "art_1785045803138_33z8l",
+      "art_1785045804183_08l5x",
+      "art_1785045807529_hzwp7",
+      "art_1785034583335_69wwn",
+      "art_1785034586491_wgl4q",
+      "art_1785004425852_mic4p",
+      "art_1785004435441_pyncp",
+      "art_1785004436516_5ntvw",
+      "art_1785000876831_kz64u",
+      "art_1784985706119_gth72",
+      "art_1784985707149_algus",
+      "art_1784985712371_et0i8"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 15,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-26T10:21:49.574Z",
+    "updated_at": "2026-07-26T10:21:49.574Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The United States is involved in ongoing geopolitical and military tensions involving Iran and Saudi Arabia in the Middle East.",
+      "The United States maintains a naval presence in the region that includes enforcement of blockades against vessels."
+    ],
+    "source_claims": [
+      "[fox] Lawmakers expressed divided reactions to a new US-Saudi nuclear cooperation agreement.",
+      "[aljazeera] Israeli settlers set fire to the Al-Rahma Mosque in Qusra.",
+      "[aljazeera] Houthi forces fired missiles and drones at two Saudi oil facilities.",
+      "[aljazeera] The US military disabled two tankers accused of breaching an Iran blockade.",
+      "[aljazeera] US forces conducted 13 consecutive waves of air strikes against Iran since July 11."
+    ],
+    "framing_differences": [
+      "fox frames the US-Saudi nuclear agreement as a strategic partnership debate within US domestic politics, while aljazeera frames the regional conflict as an escalating war initiated by the US and Israel against Iran."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The war in the region was launched by the United States and Israel against Iran.",
+      "[aljazeera] An interim peace agreement between the US and Iran signed in June is officially dead."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'simmering regional conflict' to describe hostilities.",
+      "[aljazeera] uses the term 'pounded' to describe the nature of US air strikes against Iran."
+    ],
+    "safe_conclusions": [
+      "The United States is actively engaged in military and diplomatic actions involving Saudi Arabia and Iran.",
+      "Tensions in the Middle East involve multiple actors including the US, Saudi Arabia, Iran, and Houthi forces."
+    ],
+    "unknowns": [
+      "The current status of the US-Saudi nuclear agreement negotiations.",
+      "The specific tactical details regarding the fire at Al-Rahma Mosque.",
+      "The total scope and long-term objectives of the reported US air strikes against Iran."
+    ],
+    "synthesis": "Recent reports highlight heightened military and diplomatic activity in the Middle East involving the United States, Saudi Arabia, Iran, and regional factions. These activities range from US-led naval blockade enforcement and air strikes to Houthi attacks on oil facilities and domestic legislative debate regarding US-Saudi nuclear cooperation. The situation remains characterized by significant regional friction and ongoing military operations.",
+    "confidence": "MEDIUM; The articles cover diverse events within the Middle East but lack a unified narrative thread, and aljazeera presents interpretations of conflict origins that are not corroborated by the fox report.",
+    "sources": [
+      {
+        "id": "art_1785054930736_hlw9u",
+        "url": "https://www.foxnews.com/politics/democrats-blast-trump-saudi-nuclear-deal-gop-touts-regional-alliance",
+        "source": "fox",
+        "title": "WATCH: Democrats blast Trump Saudi nuclear deal as GOP touts regional alliance"
+      },
+      {
+        "id": "art_1785054935639_6l290",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settlers set fire to mosque in occupied West Bank"
+      },
+      {
+        "id": "art_1785045795421_0do9n",
+        "url": "https://www.aljazeera.com/news/2026/7/26/house-of-hope-new-film-follows-a-waldorf-inspired-school-in-the-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "House of Hope: New film follows a Waldorf-inspired school in the West Bank"
+      },
+      {
+        "id": "art_1785045803138_33z8l",
+        "url": "https://www.aljazeera.com/news/2026/7/26/new-front-in-us-iran-war-escalates-as-houthis-fire-at-saudi-oil-facilities?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "New front in US-Iran war escalates as Houthis fire at Saudi oil facilities"
+      },
+      {
+        "id": "art_1785045804183_08l5x",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/us-military-disables-tanker-accused-of-breaking-the-iran-blockade?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US military disables tanker accused of breaking the Iran blockade"
+      },
+      {
+        "id": "art_1785045807529_hzwp7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/tehran-summons-ukrainian-diplomat-after-kyiv-bombs-an-iranian-ship?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Tehran summons Ukrainian diplomat after Kyiv bombs an Iranian ship"
+      },
+      {
+        "id": "art_1785034583335_69wwn",
+        "url": "https://www.aljazeera.com/news/2026/7/26/israel-arrests-nine-at-tel-aviv-protest-against-west-bank-settler-violence?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel arrests nine at Tel Aviv protest against West Bank settler violence"
+      },
+      {
+        "id": "art_1785034586491_wgl4q",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/yemens-houthis-target-saudi-oil-facilities-along-the-red-sea?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemen’s Houthis target Saudi oil facilities along the Red Sea"
+      },
+      {
+        "id": "art_1785004425852_mic4p",
+        "url": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How Netanyahu gov’t media reforms risk deepening Israeli press bias"
+      },
+      {
+        "id": "art_1785004435441_pyncp",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/syrian-fm-calls-for-israeli-withdrawal-in-meeting-with-un-chief?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Syrian FM calls for Israeli withdrawal in meeting with UN chief"
+      },
+      {
+        "id": "art_1785004436516_5ntvw",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/the-battle-over-al-aqsa?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The Battle Over Al-Aqsa"
+      },
+      {
+        "id": "art_1785000876831_kz64u",
+        "url": "https://www.aljazeera.com/news/2026/7/25/irans-government-spars-with-state-tv-as-mediators-push-talks-with-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran’s government spars with state TV as mediators push talks with US"
+      },
+      {
+        "id": "art_1784985706119_gth72",
+        "url": "https://www.aljazeera.com/news/2026/7/25/iran-blames-us-for-hormuz-dispute-as-both-sides-confirm-ongoing-talks?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran blames US for Hormuz dispute as both sides confirm ongoing talks"
+      },
+      {
+        "id": "art_1784985707149_algus",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/baby-rescued-after-israeli-settlers-set-home-on-fire-amid-raids?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Baby rescued after Israeli settlers set home on fire amid raids"
+      },
+      {
+        "id": "art_1784985712371_et0i8",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/trump-faces-backlash-for-using-palestinian-as-an-insult?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump faces backlash for using ‘Palestinian’ as an insult"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3f23379bec13692a8f23f211ddb5ca55",
+    "topic_label": "India Minister Resignation Protests",
+    "event_window_start": "2026-07-25T13:00:43.000Z",
+    "event_window_end": "2026-07-25T15:53:53.000Z",
+    "article_ids": [
+      "art_1785004434369_defvo",
+      "art_1785000870566_cxqjf",
+      "art_1784985701929_u6z64"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-26T00:00:09.770Z",
+    "updated_at": "2026-07-26T00:00:09.770Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Education Minister Dharmendra Pradhan has resigned.",
+      "The Cockroach Janta Party (CJP) is a youth-led protest movement that has been active for several weeks.",
+      "The protests have focused on an exam paper leak scandal.",
+      "Protests occurred at Jantar Mantar in New Delhi.",
+      "Abhijeet Dipke is the founder of the CJP."
+    ],
+    "source_claims": [
+      "[aljazeera] The resignation was a direct result of widespread protests.",
+      "[bbc] The CJP has called off its five-week-long protest following the resignation.",
+      "[guardian] Hundreds of thousands of young Indians have participated in the protests this week."
+    ],
+    "framing_differences": [
+      "aljazeera frames the event primarily as a political victory against a specific minister, while bbc frames it as the conclusion of a protest movement following a government action, and guardian frames the event as part of a wider social movement criticizing celebrity silence."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Hundreds of thousands of young Indians took to the streets this week.",
+      "[bbc] The protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'cowardice' to describe the silence of Indian celebrities regarding the protests."
+    ],
+    "safe_conclusions": [
+      "Education Minister Dharmendra Pradhan resigned from his position.",
+      "A protest group known as the Cockroach Janta Party held demonstrations in New Delhi regarding an exam paper leak scandal."
+    ],
+    "unknowns": [
+      "The exact total number of protesters involved across India.",
+      "The specific sequence of events leading to the minister's resignation beyond the occurrence of the protests.",
+      "The formal political impact of the CJP moving forward."
+    ],
+    "synthesis": "Education Minister Dharmendra Pradhan has resigned following weeks of youth-led demonstrations organized by the Cockroach Janta Party. The movement, which emerged in response to an exam paper leak scandal, culminated in celebrations at Jantar Mantar. While the protests have garnered significant attention, reports vary on the scale of participation and the broader political implications.",
+    "confidence": "HIGH. The primary fact of the minister's resignation and the nature of the protest group are consistently reported across all sources.",
+    "sources": [
+      {
+        "id": "art_1785004434369_defvo",
+        "url": "https://www.aljazeera.com/features/2026/7/25/we-have-done-it-joy-as-cockroach-protests-push-india-minister-out?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘We have done it’: Joy as ‘Cockroach’ protests push India minister out"
+      },
+      {
+        "id": "art_1785000870566_cxqjf",
+        "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "India's 'cockroach' protest called off after education minister quits"
+      },
+      {
+        "id": "art_1784985701929_u6z64",
+        "url": "https://www.theguardian.com/world/2026/jul/25/india-celebrities-fiercely-criticised-silence-cockroach-cjp-protests",
+        "source": "guardian",
+        "title": "Indian celebrities fiercely criticised for silence on Cockroach protests"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "84591cbd4feff021ad3de7cafddb7524",
+    "topic_label": "Brazil Presidential Election Bid",
+    "event_window_start": "2026-07-26T00:08:16.000Z",
+    "event_window_end": "2026-07-26T02:19:58.000Z",
+    "article_ids": [
+      "art_1785034581248_0mrfb",
+      "art_1785034589937_5jvyu"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-26T05:49:44.226Z",
+    "updated_at": "2026-07-26T05:49:44.226Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Flavio Bolsonaro has officially launched a campaign for the Brazilian presidency.",
+      "Flavio Bolsonaro is challenging incumbent President Luiz Inacio Lula da Silva.",
+      "Flavio Bolsonaro has received support from Argentinian President Javier Milei.",
+      "Flavio Bolsonaro is the son of former Brazilian President Jair Bolsonaro."
+    ],
+    "source_claims": [
+      "[aljazeera] Flavio Bolsonaro is vowing to carry forward his father's legacy.",
+      "[aljazeera] Flavio Bolsonaro has won support from Israeli Prime Minister Benjamin Netanyahu.",
+      "[aljazeera] Flavio Bolsonaro is the presumptive candidate of Brazil's political right.",
+      "[aljazeera] Flavio Bolsonaro claims the election represents a fight between good and evil.",
+      "[aljazeera] Recent polls show Flavio Bolsonaro trailing Luiz Inacio Lula da Silva."
+    ],
+    "framing_differences": [
+      "The first aljazeera article frames the campaign launch specifically around the support of Javier Milei, whereas the second aljazeera article expands the framing to include support from Benjamin Netanyahu and details the candidate's remarks regarding a 'fight between good and evil'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Flavio Bolsonaro is described as the son of a 'disgraced' former president.",
+      "[aljazeera] The campaign is described as struggling after a number of setbacks and scandals."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'disgraced' to describe former president Jair Bolsonaro.",
+      "[aljazeera] uses the term 'left-wing' to describe President Luiz Inacio Lula da Silva.",
+      "[aljazeera] uses the term 'right-wing' to describe Javier Milei and Benjamin Netanyahu."
+    ],
+    "safe_conclusions": [
+      "Flavio Bolsonaro is a candidate for the presidency of Brazil.",
+      "Flavio Bolsonaro's campaign is supported by Javier Milei."
+    ],
+    "unknowns": [
+      "The specific polling data mentioned as showing Flavio Bolsonaro trailing.",
+      "The specific 'setbacks and scandals' referenced in the second article."
+    ],
+    "synthesis": "Flavio Bolsonaro has officially announced his candidacy for the Brazilian presidency to challenge incumbent Luiz Inacio Lula da Silva. His campaign launch included expressions of support from international leaders including Argentinian President Javier Milei and Israeli Prime Minister Benjamin Netanyahu. The candidate has characterized the upcoming election as a struggle between good and evil.",
+    "confidence": "HIGH. Both reports are from the same source outlet and consistently describe the core event of the campaign launch and the international support received.",
+    "sources": [
+      {
+        "id": "art_1785034581248_0mrfb",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/flavio-bolsonaro-launches-brazil-presidential-bid-with-milei-support?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Flavio Bolsonaro launches Brazil presidential bid with Milei support"
+      },
+      {
+        "id": "art_1785034589937_5jvyu",
+        "url": "https://www.aljazeera.com/news/2026/7/26/bolsonaros-son-begins-brazil-presidential-bid-with-netanyahu-milei-kudos?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Bolsonaro’s son begins Brazil presidential bid with Netanyahu, Milei kudos"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f8923a27a38eb2baec628fc801a00a73",
+    "topic_label": "WNBA All-Star Game",
+    "event_window_start": "2026-07-25T17:25:09.000Z",
+    "event_window_end": "2026-07-26T03:27:00.000Z",
+    "article_ids": [
+      "art_1785045808639_6ye8y",
+      "art_1785034579063_rxq9s",
+      "art_1785034587570_jb3bu",
+      "art_1785000871646_cll49"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-26T08:19:30.667Z",
+    "updated_at": "2026-07-26T08:19:30.667Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The 2026 WNBA All-Star Game was held in Chicago.",
+      "Team Spoon played Team Coop in the 2026 WNBA All-Star Game.",
+      "WNBA Commissioner Cathy Engelbert addressed player harassment during a press conference at the event."
+    ],
+    "source_claims": [
+      "[fox1] Caitlin Clark stated the WNBA needs to improve in areas including officiating and stopping hate.",
+      "[fox1] Team Spoon defeated Team Coop with a score of 129-122.",
+      "[fox1] Jonquel Jones scored 22 points, 13 rebounds, and eight assists, and was named MVP.",
+      "[fox2] Dominique Malonga became the youngest player to dunk in WNBA All-Star Game history.",
+      "[fox3] Commissioner Cathy Engelbert stated the league will implement steps to address harassment and threats against players.",
+      "[fox4] Betting on WNBA games has been described as profitable for some participants."
+    ],
+    "framing_differences": [
+      "Fox1 focuses on the competitive outcome and game statistics of the All-Star game, whereas Fox3 frames the event around the Commissioner's press conference regarding social issues within the league.",
+      "Fox2 frames the All-Star game as a showcase for individual player achievements and records, while Fox4 frames the event through the perspective of sports betting and fan engagement."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox2] Kayla McBride claimed the WNBA contacted her agent regarding an unofficial invite to the event.",
+      "[fox4] The author claims to have 'enjoyed this season despite the same narratives being pushed.'"
+    ],
+    "loaded_language": [
+      "[fox1] uses the phrase 'scorched earth' to describe Caitlin Clark's comments about the league.",
+      "[fox3] uses the term 'dodges' to describe Commissioner Engelbert's handling of questions at the press conference.",
+      "[fox3] uses the term 'mistreatment' to characterize the league's actions toward Caitlin Clark."
+    ],
+    "safe_conclusions": [
+      "The 2026 WNBA All-Star Game took place in Chicago.",
+      "WNBA Commissioner Cathy Engelbert spoke about addressing harassment during the All-Star weekend press conference."
+    ],
+    "unknowns": [
+      "The specific 'next steps' the WNBA plans to implement to address player harassment.",
+      "The official details of how players were selected for Team Spoon and Team Coop beyond the general mention of voting and coaching involvement."
+    ],
+    "synthesis": "The 2026 WNBA All-Star Game in Chicago featured a competitive matchup between Team Spoon and Team Coop. During the event, Commissioner Cathy Engelbert held a press conference to address league-wide concerns regarding harassment and social issues. Additionally, the event served as a platform for individual milestones, including a notable dunk by Dominique Malonga.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "id": "art_1785045808639_6ye8y",
+        "url": "https://www.foxnews.com/sports/wnba-all-star-game-draws-record-crowd-caitlin-clark-team-spoon-holds-team-coop",
+        "source": "fox",
+        "title": "WNBA All-Star Game draws record crowd as Caitlin Clark’s Team Spoon holds off Team Coop"
+      },
+      {
+        "id": "art_1785034579063_rxq9s",
+        "url": "https://www.foxnews.com/outkick-sports/seattle-storm-dominique-malonga-youngest-player-dunk-wnba-all-star-game-history",
+        "source": "fox",
+        "title": "Seattle Storm's Dominique Malonga becomes youngest player to dunk in WNBA All-Star Game history"
+      },
+      {
+        "id": "art_1785034587570_jb3bu",
+        "url": "https://www.foxnews.com/sports/wnba-commissioner-vows-crack-down-racism-misogyny-dodges-big-questions-all-star-press-conference",
+        "source": "fox",
+        "title": "WNBA commissioner vows to crack down on 'racism, misogyny,' dodges big questions at All-Star press conference"
+      },
+      {
+        "id": "art_1785000871646_cll49",
+        "url": "https://www.foxnews.com/outkick-sports/wnba-all-star-game-betting-preview-team-coop-guards-could-give-them-edge-team-spoon",
+        "source": "fox",
+        "title": "WNBA All-Star Game betting preview: Team Coop's guards could give them the edge over Team Spoon"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "d88a06a0009610fc6a5f6aef2d553ae5",
     "topic_label": "Israel and Palestine Conflicts",
     "event_window_start": "2026-07-25T12:11:33.000Z",
@@ -294,247 +886,6 @@
         "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde",
         "source": "guardian",
         "title": "France and Spain race to control wildfires as suburbs of Bordeaux begin evacuation – live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3f23379bec13692a8f23f211ddb5ca55",
-    "topic_label": "India Minister Resignation Protests",
-    "event_window_start": "2026-07-25T13:00:43.000Z",
-    "event_window_end": "2026-07-25T15:53:53.000Z",
-    "article_ids": [
-      "art_1785004434369_defvo",
-      "art_1785000870566_cxqjf",
-      "art_1784985701929_u6z64"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-26T00:00:09.770Z",
-    "updated_at": "2026-07-26T00:00:09.770Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Education Minister Dharmendra Pradhan has resigned.",
-      "The Cockroach Janta Party (CJP) is a youth-led protest movement that has been active for several weeks.",
-      "The protests have focused on an exam paper leak scandal.",
-      "Protests occurred at Jantar Mantar in New Delhi.",
-      "Abhijeet Dipke is the founder of the CJP."
-    ],
-    "source_claims": [
-      "[aljazeera] The resignation was a direct result of widespread protests.",
-      "[bbc] The CJP has called off its five-week-long protest following the resignation.",
-      "[guardian] Hundreds of thousands of young Indians have participated in the protests this week."
-    ],
-    "framing_differences": [
-      "aljazeera frames the event primarily as a political victory against a specific minister, while bbc frames it as the conclusion of a protest movement following a government action, and guardian frames the event as part of a wider social movement criticizing celebrity silence."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Hundreds of thousands of young Indians took to the streets this week.",
-      "[bbc] The protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'cowardice' to describe the silence of Indian celebrities regarding the protests."
-    ],
-    "safe_conclusions": [
-      "Education Minister Dharmendra Pradhan resigned from his position.",
-      "A protest group known as the Cockroach Janta Party held demonstrations in New Delhi regarding an exam paper leak scandal."
-    ],
-    "unknowns": [
-      "The exact total number of protesters involved across India.",
-      "The specific sequence of events leading to the minister's resignation beyond the occurrence of the protests.",
-      "The formal political impact of the CJP moving forward."
-    ],
-    "synthesis": "Education Minister Dharmendra Pradhan has resigned following weeks of youth-led demonstrations organized by the Cockroach Janta Party. The movement, which emerged in response to an exam paper leak scandal, culminated in celebrations at Jantar Mantar. While the protests have garnered significant attention, reports vary on the scale of participation and the broader political implications.",
-    "confidence": "HIGH. The primary fact of the minister's resignation and the nature of the protest group are consistently reported across all sources.",
-    "sources": [
-      {
-        "id": "art_1785004434369_defvo",
-        "url": "https://www.aljazeera.com/features/2026/7/25/we-have-done-it-joy-as-cockroach-protests-push-india-minister-out?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘We have done it’: Joy as ‘Cockroach’ protests push India minister out"
-      },
-      {
-        "id": "art_1785000870566_cxqjf",
-        "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "India's 'cockroach' protest called off after education minister quits"
-      },
-      {
-        "id": "art_1784985701929_u6z64",
-        "url": "https://www.theguardian.com/world/2026/jul/25/india-celebrities-fiercely-criticised-silence-cockroach-cjp-protests",
-        "source": "guardian",
-        "title": "Indian celebrities fiercely criticised for silence on Cockroach protests"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f8923a27a38eb2baec628fc801a00a73",
-    "topic_label": "WNBA All-Star Game",
-    "event_window_start": "2026-07-25T17:25:09.000Z",
-    "event_window_end": "2026-07-26T03:27:00.000Z",
-    "article_ids": [
-      "art_1785045808639_6ye8y",
-      "art_1785034579063_rxq9s",
-      "art_1785034587570_jb3bu",
-      "art_1785000871646_cll49"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-26T08:19:30.667Z",
-    "updated_at": "2026-07-26T08:19:30.667Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The 2026 WNBA All-Star Game was held in Chicago.",
-      "Team Spoon played Team Coop in the 2026 WNBA All-Star Game.",
-      "WNBA Commissioner Cathy Engelbert addressed player harassment during a press conference at the event."
-    ],
-    "source_claims": [
-      "[fox1] Caitlin Clark stated the WNBA needs to improve in areas including officiating and stopping hate.",
-      "[fox1] Team Spoon defeated Team Coop with a score of 129-122.",
-      "[fox1] Jonquel Jones scored 22 points, 13 rebounds, and eight assists, and was named MVP.",
-      "[fox2] Dominique Malonga became the youngest player to dunk in WNBA All-Star Game history.",
-      "[fox3] Commissioner Cathy Engelbert stated the league will implement steps to address harassment and threats against players.",
-      "[fox4] Betting on WNBA games has been described as profitable for some participants."
-    ],
-    "framing_differences": [
-      "Fox1 focuses on the competitive outcome and game statistics of the All-Star game, whereas Fox3 frames the event around the Commissioner's press conference regarding social issues within the league.",
-      "Fox2 frames the All-Star game as a showcase for individual player achievements and records, while Fox4 frames the event through the perspective of sports betting and fan engagement."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox2] Kayla McBride claimed the WNBA contacted her agent regarding an unofficial invite to the event.",
-      "[fox4] The author claims to have 'enjoyed this season despite the same narratives being pushed.'"
-    ],
-    "loaded_language": [
-      "[fox1] uses the phrase 'scorched earth' to describe Caitlin Clark's comments about the league.",
-      "[fox3] uses the term 'dodges' to describe Commissioner Engelbert's handling of questions at the press conference.",
-      "[fox3] uses the term 'mistreatment' to characterize the league's actions toward Caitlin Clark."
-    ],
-    "safe_conclusions": [
-      "The 2026 WNBA All-Star Game took place in Chicago.",
-      "WNBA Commissioner Cathy Engelbert spoke about addressing harassment during the All-Star weekend press conference."
-    ],
-    "unknowns": [
-      "The specific 'next steps' the WNBA plans to implement to address player harassment.",
-      "The official details of how players were selected for Team Spoon and Team Coop beyond the general mention of voting and coaching involvement."
-    ],
-    "synthesis": "The 2026 WNBA All-Star Game in Chicago featured a competitive matchup between Team Spoon and Team Coop. During the event, Commissioner Cathy Engelbert held a press conference to address league-wide concerns regarding harassment and social issues. Additionally, the event served as a platform for individual milestones, including a notable dunk by Dominique Malonga.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1785045808639_6ye8y",
-        "url": "https://www.foxnews.com/sports/wnba-all-star-game-draws-record-crowd-caitlin-clark-team-spoon-holds-team-coop",
-        "source": "fox",
-        "title": "WNBA All-Star Game draws record crowd as Caitlin Clark’s Team Spoon holds off Team Coop"
-      },
-      {
-        "id": "art_1785034579063_rxq9s",
-        "url": "https://www.foxnews.com/outkick-sports/seattle-storm-dominique-malonga-youngest-player-dunk-wnba-all-star-game-history",
-        "source": "fox",
-        "title": "Seattle Storm's Dominique Malonga becomes youngest player to dunk in WNBA All-Star Game history"
-      },
-      {
-        "id": "art_1785034587570_jb3bu",
-        "url": "https://www.foxnews.com/sports/wnba-commissioner-vows-crack-down-racism-misogyny-dodges-big-questions-all-star-press-conference",
-        "source": "fox",
-        "title": "WNBA commissioner vows to crack down on 'racism, misogyny,' dodges big questions at All-Star press conference"
-      },
-      {
-        "id": "art_1785000871646_cll49",
-        "url": "https://www.foxnews.com/outkick-sports/wnba-all-star-game-betting-preview-team-coop-guards-could-give-them-edge-team-spoon",
-        "source": "fox",
-        "title": "WNBA All-Star Game betting preview: Team Coop's guards could give them the edge over Team Spoon"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "84591cbd4feff021ad3de7cafddb7524",
-    "topic_label": "Brazil Presidential Election Bid",
-    "event_window_start": "2026-07-26T00:08:16.000Z",
-    "event_window_end": "2026-07-26T02:19:58.000Z",
-    "article_ids": [
-      "art_1785034581248_0mrfb",
-      "art_1785034589937_5jvyu"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-26T05:49:44.226Z",
-    "updated_at": "2026-07-26T05:49:44.226Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Flavio Bolsonaro has officially launched a campaign for the Brazilian presidency.",
-      "Flavio Bolsonaro is challenging incumbent President Luiz Inacio Lula da Silva.",
-      "Flavio Bolsonaro has received support from Argentinian President Javier Milei.",
-      "Flavio Bolsonaro is the son of former Brazilian President Jair Bolsonaro."
-    ],
-    "source_claims": [
-      "[aljazeera] Flavio Bolsonaro is vowing to carry forward his father's legacy.",
-      "[aljazeera] Flavio Bolsonaro has won support from Israeli Prime Minister Benjamin Netanyahu.",
-      "[aljazeera] Flavio Bolsonaro is the presumptive candidate of Brazil's political right.",
-      "[aljazeera] Flavio Bolsonaro claims the election represents a fight between good and evil.",
-      "[aljazeera] Recent polls show Flavio Bolsonaro trailing Luiz Inacio Lula da Silva."
-    ],
-    "framing_differences": [
-      "The first aljazeera article frames the campaign launch specifically around the support of Javier Milei, whereas the second aljazeera article expands the framing to include support from Benjamin Netanyahu and details the candidate's remarks regarding a 'fight between good and evil'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Flavio Bolsonaro is described as the son of a 'disgraced' former president.",
-      "[aljazeera] The campaign is described as struggling after a number of setbacks and scandals."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'disgraced' to describe former president Jair Bolsonaro.",
-      "[aljazeera] uses the term 'left-wing' to describe President Luiz Inacio Lula da Silva.",
-      "[aljazeera] uses the term 'right-wing' to describe Javier Milei and Benjamin Netanyahu."
-    ],
-    "safe_conclusions": [
-      "Flavio Bolsonaro is a candidate for the presidency of Brazil.",
-      "Flavio Bolsonaro's campaign is supported by Javier Milei."
-    ],
-    "unknowns": [
-      "The specific polling data mentioned as showing Flavio Bolsonaro trailing.",
-      "The specific 'setbacks and scandals' referenced in the second article."
-    ],
-    "synthesis": "Flavio Bolsonaro has officially announced his candidacy for the Brazilian presidency to challenge incumbent Luiz Inacio Lula da Silva. His campaign launch included expressions of support from international leaders including Argentinian President Javier Milei and Israeli Prime Minister Benjamin Netanyahu. The candidate has characterized the upcoming election as a struggle between good and evil.",
-    "confidence": "HIGH. Both reports are from the same source outlet and consistently describe the core event of the campaign launch and the international support received.",
-    "sources": [
-      {
-        "id": "art_1785034581248_0mrfb",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/26/flavio-bolsonaro-launches-brazil-presidential-bid-with-milei-support?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Flavio Bolsonaro launches Brazil presidential bid with Milei support"
-      },
-      {
-        "id": "art_1785034589937_5jvyu",
-        "url": "https://www.aljazeera.com/news/2026/7/26/bolsonaros-son-begins-brazil-presidential-bid-with-netanyahu-milei-kudos?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bolsonaro’s son begins Brazil presidential bid with Netanyahu, Milei kudos"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -22240,263 +22591,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/five-palestinians-die-in-fire-after-israeli-attack-in-gaza?traffic_source=rss",
         "source": "aljazeera",
         "title": "Five Palestinians die in fire after Israeli attack in Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "032c83400aab0d79a9795a8b1aecf6a5",
-    "topic_label": "Global Natural Disasters",
-    "event_window_start": "2026-07-21T07:58:52.000Z",
-    "event_window_end": "2026-07-22T03:48:04.000Z",
-    "article_ids": [
-      "art_1784694032840_0m4pc",
-      "art_1784661648685_8naak",
-      "art_1784622385305_cc3ar"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-22T06:29:16.830Z",
-    "updated_at": "2026-07-22T06:29:16.830Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The provided text contains independent reports regarding extreme weather events in three distinct geographic locations: Japan, the Gulf of Mexico, and Afghanistan."
-    ],
-    "source_claims": [
-      "[guardian-1] Japan Meteorological Agency introduced the term 'kokushobi' to designate days exceeding 40 degrees Celsius.",
-      "[guardian-1] Gujo, Tajimi, and Toyota recorded temperatures at or above 40 degrees Celsius.",
-      "[guardian-2] Tropical Storm Bertha is moving northwest at 5mph toward the Florida Panhandle and Alabama.",
-      "[guardian-2] National Hurricane Center reported maximum sustained winds of 60mph for Tropical Storm Bertha.",
-      "[aljazeera] At least 20 people have been killed in Nuristan province, Afghanistan, due to flooding.",
-      "[aljazeera] More than 100 people remain missing following floods in Nuristan province."
-    ],
-    "framing_differences": [
-      "guardian-1 focuses on the administrative and social adjustments to climate-related phenomena, while aljazeera frames the flooding event as a humanitarian tragedy involving casualties and missing persons."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian-1] Days over 40C have become more common in Japan compared to historical standards.",
-      "[guardian-2] Tropical storm conditions are expected within the warning area within 36 hours.",
-      "[aljazeera] Residents are continuing to search through mud and rubble for survivors."
-    ],
-    "loaded_language": [
-      "[guardian-1] uses the term 'cruelly hot day' to describe the 'kokushobi' designation.",
-      "[guardian-1] uses the term 'stifling' to describe the heat.",
-      "[aljazeera] uses the term 'terrifying' to describe floodwaters."
-    ],
-    "safe_conclusions": [
-      "Weather-related events occurred in Japan, the Gulf of Mexico, and Afghanistan as reported by the respective sources."
-    ],
-    "unknowns": [
-      "The long-term atmospheric trends causing these specific weather events are not detailed beyond individual reports.",
-      "The current status of search and rescue operations in Afghanistan beyond the report date is unknown.",
-      "The full extent of property damage from the Gulf of Mexico storm is not yet known."
-    ],
-    "synthesis": "Recent weather reports indicate extreme heat in Japan, a strengthening tropical storm in the Gulf of Mexico, and fatal flooding in Afghanistan. Authorities in Japan have implemented new temperature designations, while Gulf coast areas are under storm warnings. Afghan officials report significant casualties and missing persons following local flooding in Nuristan province.",
-    "confidence": "HIGH. The sources report on independent, geographically distinct events, making the information consistent within the context of their respective subjects.",
-    "sources": [
-      {
-        "id": "art_1784694032840_0m4pc",
-        "url": "https://www.theguardian.com/world/2026/jul/22/japan-heat-kokushobi-cruelly-hot-40c-weather",
-        "source": "guardian",
-        "title": "Japan records its first ‘cruelly hot day’ as cities swelter in 40-degree heat"
-      },
-      {
-        "id": "art_1784661648685_8naak",
-        "url": "https://www.theguardian.com/us-news/2026/jul/21/storm-bertha-gulf-mexico",
-        "source": "guardian",
-        "title": "Tropical Storm Bertha strengthens as Gulf coast braces for flooding and surge"
-      },
-      {
-        "id": "art_1784622385305_cc3ar",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/21/moment-terrifying-floodwaters-sweep-through-afghan-village?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Moment terrifying floodwaters sweep through Afghan village"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8833aa27e5b6a98ca7a53ec933563c8b",
-    "topic_label": "US Political Primaries and Elections",
-    "event_window_start": "2026-07-22T03:10:57.000Z",
-    "event_window_end": "2026-07-22T03:25:28.000Z",
-    "article_ids": [
-      "art_1784694039044_q30bt",
-      "art_1784694040076_onfeh",
-      "art_1784694042267_z3f42",
-      "art_1784694043298_1m6ht",
-      "art_1784694044334_94jjz"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-22T06:29:16.830Z",
-    "updated_at": "2026-07-22T06:29:16.830Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Arizona held primary elections for various offices on a Tuesday.",
-      "Donald Trump endorsed several candidates in Republican primary races.",
-      "Andy Biggs won the Republican nomination for Arizona governor."
-    ],
-    "source_claims": [
-      "[fox] claims President Trump's endorsement record in the 2026 primary season includes victories for all his endorsed candidates.",
-      "[fox] claims the Republican Party is now the 'MAGA party'.",
-      "[fox] claims Rep. Greg Stanton defeated Kai Newkirk in Arizona's 4th Congressional District primary.",
-      "[fox] claims Jay Feely won the Republican primary for Arizona’s 1st Congressional District.",
-      "[fox] claims Mark Lamb won the GOP primary for Arizona’s fifth congressional district.",
-      "[guardian] claims Andy Biggs was a central figure in efforts to overturn the 2020 presidential election results.",
-      "[guardian] claims Arizona became 'ground zero' for election denialism after the 2020 election."
-    ],
-    "framing_differences": [
-      "[fox] frames primary outcomes through the lens of Trump’s influence and 'kingmaker status', whereas [guardian] frames the Arizona gubernatorial race in the context of previous Trump-era electoral losses and election denialism."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Maine Senate candidate Graham Platner faces serious allegations of sexual misconduct and displayed a Nazi tattoo.",
-      "[fox] claims former Senator John Cornyn lost his primary to Ken Paxton."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'radical figures' to describe certain Democratic candidates.",
-      "[fox] uses the term 'firebrand' to describe Andy Biggs.",
-      "[fox] uses the term 'iron grip' and 'vice grip' to describe Donald Trump's influence over the GOP.",
-      "[guardian] uses the term 'hard-right' to describe Andy Biggs.",
-      "[guardian] uses the term 'election denialism' to describe the political climate in Arizona."
-    ],
-    "safe_conclusions": [
-      "Primary elections took place in Arizona.",
-      "Donald Trump endorsed multiple candidates who participated in these primaries.",
-      "Andy Biggs is the Republican nominee for Arizona governor."
-    ],
-    "unknowns": [
-      "The official final vote counts for all primary races mentioned.",
-      "The specific current polling or electoral prospects for the general election in November."
-    ],
-    "synthesis": "Arizona held primary elections on Tuesday where candidates endorsed by Donald Trump, including gubernatorial nominee Andy Biggs, secured victories. News coverage reflects varying perspectives on these outcomes, with some sources emphasizing the influence of the former president on the Republican party and others focusing on the state's role in broader electoral debates. The results establish the matchups for the upcoming general election in the state.",
-    "confidence": "HIGH; The factual outcomes of the primary races are consistent across the provided sources.",
-    "sources": [
-      {
-        "id": "art_1784694039044_q30bt",
-        "url": "https://www.foxnews.com/politics/progressive-wave-crashes-sun-belt-battleground-moderate-holds-his-seat",
-        "source": "fox",
-        "title": "Progressive wave crashes in Sun Belt battleground as moderate holds his seat"
-      },
-      {
-        "id": "art_1784694040076_onfeh",
-        "url": "https://www.foxnews.com/politics/ex-nfl-star-backed-trump-wins-battleground-state-primary-true-america-first-conservative",
-        "source": "fox",
-        "title": "Ex-NFL star backed by Trump wins battleground state primary: 'True America First Conservative'"
-      },
-      {
-        "id": "art_1784694042267_z3f42",
-        "url": "https://www.theguardian.com/us-news/2026/jul/22/arizona-republican-primary-andy-biggs-katie-hobbs",
-        "source": "guardian",
-        "title": "Trump ally wins Republican primary for Arizona governor, setting up race against Katie Hobbs"
-      },
-      {
-        "id": "art_1784694043298_1m6ht",
-        "url": "https://www.foxnews.com/politics/ex-sheriff-backed-trump-storms-victory-race-replace-longtime-gop-firebrand",
-        "source": "fox",
-        "title": "Ex-sheriff backed by Trump storms to victory in race to replace longtime GOP firebrand"
-      },
-      {
-        "id": "art_1784694044334_94jjz",
-        "url": "https://www.foxnews.com/politics/trump-backed-firebrand-wins-arizona-gop-governor-primary-setting-up-high-stakes-showdown",
-        "source": "fox",
-        "title": "Trump-backed firebrand wins Arizona GOP governor primary, setting up high-stakes showdown"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b953d5e9bb73c33cd6a221adb0976408",
-    "topic_label": "Trump Administration Policies",
-    "event_window_start": "2026-07-21T19:08:12.000Z",
-    "event_window_end": "2026-07-21T23:25:07.000Z",
-    "article_ids": [
-      "art_1784676750060_usr3c",
-      "art_1784661641263_ifoy7",
-      "art_1784661642290_7na59"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-22T06:29:16.830Z",
-    "updated_at": "2026-07-22T06:29:16.830Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump has announced or implemented 50% tariffs on a range of Canadian goods.",
-      "The Trump administration justifies these tariffs by citing alleged unfair trade practices by Canada regarding American cars, alcohol, and dairy products."
-    ],
-    "source_claims": [
-      "[fox_1] The House Judiciary Committee advanced the Permanent Trump Secure Border Act along party lines.",
-      "[fox_1] Rep. Chip Roy authored legislation that would criminalize visa overstays and increase penalties for unlawful entry.",
-      "[fox_2] President Trump invoked a provision of the 1930 Tariff Act, specifically Section 338, to impose 50% tariffs on Canadian goods.",
-      "[guardian] President Trump stated that Canada has been 'very tough' on the U.S. and asserted that Canada needs the U.S. to survive.",
-      "[guardian] The tariffs are scheduled to go into effect in 30 days."
-    ],
-    "framing_differences": [
-      "Fox focuses on the legislative efforts of House Republicans to codify border policies, while The Guardian focuses on executive trade policy and the immediate impact of tariffs on international relations with Canada."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox_1] Cartels use the El Paso storm drain system to smuggle migrants into the U.S.",
-      "[fox_2] David Clement states that shifting tariff policies are discouraging business investment."
-    ],
-    "loaded_language": [
-      "[fox_1] uses the term 'fierce objections' to describe Democratic lawmakers' response to the border bill.",
-      "[fox_1] uses the term 'extensive underground maze' to describe the El Paso storm drain system.",
-      "[guardian] uses the term 'new 50% tariffs' to report on the economic policy."
-    ],
-    "safe_conclusions": [
-      "The Trump administration is pursuing changes to border security legislation and trade tariff policy simultaneously."
-    ],
-    "unknowns": [
-      "The specific legal or diplomatic outcomes of the negotiations between the U.S. and Canada are not yet known.",
-      "The long-term legislative fate of the Permanent Trump Secure Border Act remains to be determined."
-    ],
-    "synthesis": "The Trump administration is currently advancing both domestic border security legislation and new international trade policies. House Republicans have moved a bill to codify border policies, while the President has invoked the 1930 Tariff Act to impose 50% tariffs on Canadian goods. These actions have prompted negotiations between the U.S. and Canadian leadership regarding trade relations.",
-    "confidence": "HIGH. The sources provide distinct reporting on separate administrative actions that are consistent with the known policy priorities of the Trump presidency.",
-    "sources": [
-      {
-        "id": "art_1784676750060_usr3c",
-        "url": "https://www.foxnews.com/politics/house-republicans-move-make-trumps-border-policies-permanent",
-        "source": "fox",
-        "title": "House Republicans move to make Trump's border policies permanent"
-      },
-      {
-        "id": "art_1784661641263_ifoy7",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/21/donald-trump-tariffs-canada-mark-carney-lebanon-republicans-gop-spending-bill-latest-news-updates",
-        "source": "guardian",
-        "title": "‘There’s no way they can survive’: Trump defends new 50% tariffs on most Canadian goods – US politics live"
-      },
-      {
-        "id": "art_1784661642290_7na59",
-        "url": "https://www.foxnews.com/politics/trump-expanded-tariff-playbook-powerful-trade-weapon-no-president-used",
-        "source": "fox",
-        "title": "Trump just expanded his tariff playbook with a powerful trade weapon no president has ever used"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
