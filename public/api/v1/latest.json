@@ -1,10 +1,55 @@
 {
-  "generated_at": "2026-07-27T06:09:26.796Z",
+  "generated_at": "2026-07-27T10:21:15.589Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 182,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "18c100a2f9b6199d6240825113e13b78",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-07-27T05:47:17.000Z",
+      "event_window_end": "2026-07-27T06:08:17.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "The Independent Commission Against Corruption (Icac) in New South Wales has initiated hearings for Operation Rosny.",
+        "A federal court has upheld a previous judgment finding that Pauline Hanson engaged in racial discrimination against Mehreen Faruqi.",
+        "The Philippines' rice terraces are a UNESCO World Heritage Site."
+      ],
+      "source_differences": [],
+      "synthesis": "This summary covers several independent reports, including legal developments in Australia regarding political corruption and racial discrimination, technological concerns regarding AI health misinformation, environmental threats to Philippine cultural sites, and political protests in India. Each report details distinct regional or thematic events without overlap in subject matter. The provided sources function as a collection of individual news briefings rather than a singular coherent narrative.",
+      "confidence": "HIGH. The sources cover distinct, unrelated geographic and subject matter areas, making factual consistency verification straightforward as there is no overlap to compare.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb",
+          "title": "Senior politicians supported young NSW Liberal power brokers trying to shift party to right, corruption watchdog hears"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
+          "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/features/2026/7/27/climate-change-presents-new-threat-to-philippines-unesco-rice-terraces?traffic_source=rss",
+          "title": "Climate change presents new threat to Philippines’ UNESCO rice terraces"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/27/monday-briefing-how-the-cockroach-protests-have-exposed-the-cracks-in-indias-government",
+          "title": "Monday briefing: ​How the Cockroach ​protests ​have expose​d the ​cracks in ​India’s government"
+        }
+      ],
+      "updated_at": "2026-07-27T10:21:01.538Z"
+    },
     {
       "cluster_id": "9067d41a46f8d3bb1ca0e0954014eef7",
       "topic_label": "Israel and Middle East Tensions",
@@ -505,41 +550,29 @@
         }
       ],
       "updated_at": "2026-07-26T18:07:12.517Z"
-    },
-    {
-      "cluster_id": "84cad58ff6e192c9fad2ba920c4e5a24",
-      "topic_label": "Zelenskyy and Ukraine Support",
-      "event_window_start": "2026-07-26T21:30:20.000Z",
-      "event_window_end": "2026-07-26T21:30:22.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Andy Burnham is the Prime Minister of the United Kingdom.",
-        "Volodymyr Zelenskyy is visiting the UK on Monday to meet with Andy Burnham.",
-        "The meeting will take place at a naval base.",
-        "The meeting marks Zelenskyy as the first overseas visitor for Prime Minister Burnham.",
-        "The UK maintains a policy of support for Ukraine."
-      ],
-      "source_differences": [],
-      "synthesis": "Prime Minister Andy Burnham will host Ukrainian President Volodymyr Zelenskyy at a UK naval base on Monday for his first international meeting since taking office. The visit is intended to demonstrate the ongoing support of the UK government for Ukraine during the conflict with Russia. The BBC reports that the meeting will also include an announcement regarding the transfer of technology for the 'Stone Cloak' electronic warfare system.",
-      "confidence": "HIGH / The reports are highly consistent regarding the participants, the location type, and the intent of the visit, with one source providing additional technical detail.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/jul/26/andy-burnham-to-meet-volodymyr-zelenskyy-uk-ukraine",
-          "title": "Burnham to meet Zelenskyy at UK naval base in show of ‘unwavering’ support"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/cy8me5vyjg2o?at_medium=RSS&at_campaign=rss",
-          "title": "PM pledges continued support for Ukraine ahead of Zelensky visit"
-        }
-      ],
-      "updated_at": "2026-07-27T02:27:36.886Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-18c100a2",
+      "title": "Fallback Synthesis",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "This summary covers several independent reports, including legal developments in Australia regarding political corruption and racial discrimination, technological concerns regarding AI health misinformation, environmental threats to Philippine cultural sites, and political protests in India. Each report details distinct regional or thematic events without overlap in subject matter. The provided sources function as a collection of individual news briefings rather than a singular coherent narrative.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "18c100a2f9b6199d6240825113e13b78",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-07-27T10:21:01.538Z"
+    },
     {
       "id": "impact-9067d41a",
       "title": "Israel and Middle East Tensions",
@@ -718,26 +751,6 @@
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-07-26T18:07:12.517Z"
-    },
-    {
-      "id": "impact-84cad58f",
-      "title": "Zelenskyy and Ukraine Support",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "Prime Minister Andy Burnham will host Ukrainian President Volodymyr Zelenskyy at a UK naval base on Monday for his first international meeting since taking office. The visit is intended to demonstrate the ongoing support of the UK government for Ukraine during the conflict with Russia. The BBC reports that the meeting will also include an announcement regarding the transfer of technology for the 'Stone Cloak' electronic warfare system.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "84cad58ff6e192c9fad2ba920c4e5a24",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-07-27T02:27:36.886Z"
     }
   ]
 }

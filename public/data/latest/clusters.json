@@ -1,5 +1,100 @@
 [
   {
+    "cluster_id": "18c100a2f9b6199d6240825113e13b78",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-07-27T05:47:17.000Z",
+    "event_window_end": "2026-07-27T06:08:17.000Z",
+    "article_ids": [
+      "art_1785133921607_150s4",
+      "art_1785133922798_ahdnf",
+      "art_1785133923991_dqcnu",
+      "art_1785133925073_l2aed",
+      "art_1785133926261_fivmu"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-27T10:21:01.538Z",
+    "updated_at": "2026-07-27T10:21:01.538Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Independent Commission Against Corruption (Icac) in New South Wales has initiated hearings for Operation Rosny.",
+      "A federal court has upheld a previous judgment finding that Pauline Hanson engaged in racial discrimination against Mehreen Faruqi.",
+      "The Philippines' rice terraces are a UNESCO World Heritage Site."
+    ],
+    "source_claims": [
+      "[guardian-1] The NSW Liberal party experienced internal attempts by young conservative power brokers to shift the party rightwards with support from senior politicians.",
+      "[guardian-2] Research indicates AI-generated doctors on TikTok are spreading dubious health advice.",
+      "[guardian-3] Pauline Hanson's appeal against a finding of racial discrimination under the Racial Discrimination Act was unanimously rejected by federal court justices.",
+      "[guardian-4] Protests in India resulted in the resignation of Education Minister Dharmendra Pradhan and are described as humiliating for Prime Minister Narendra Modi.",
+      "[aljazeera] Climate change presents a new threat to the UNESCO-listed rice terraces in the Ifugao province of the Philippines."
+    ],
+    "framing_differences": [
+      "The guardian articles focus on domestic political and social issues within Australia, India, and the digital sphere, while the aljazeera article focuses on environmental and cultural heritage preservation in the Philippines."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian-2] AI-generated physicians have spread disproven myths about cancer.",
+      "[guardian-4] The Cockroach protests have undermined the indomitable power of the Bharatiya Janata party."
+    ],
+    "loaded_language": [
+      "[guardian-2] uses the term 'peddle medical myths' to describe content from AI accounts.",
+      "[guardian-3] uses the term 'seriously offensive' to describe Pauline Hanson's behavior.",
+      "[guardian-4] uses the term 'untouchable' to describe the Indian government prior to recent protests."
+    ],
+    "safe_conclusions": [
+      "Various news reports cover separate, unrelated events occurring in Australia, India, and the Philippines.",
+      "Legal and political investigations or proceedings are occurring in Australia regarding the Liberal party and a racial discrimination case involving Pauline Hanson."
+    ],
+    "unknowns": [
+      "Specific details regarding the prohibited donors mentioned in the NSW Liberal party investigation.",
+      "The full extent of the environmental impact of climate change on the Philippine rice terraces.",
+      "The long-term political consequences of the protests in India."
+    ],
+    "synthesis": "This summary covers several independent reports, including legal developments in Australia regarding political corruption and racial discrimination, technological concerns regarding AI health misinformation, environmental threats to Philippine cultural sites, and political protests in India. Each report details distinct regional or thematic events without overlap in subject matter. The provided sources function as a collection of individual news briefings rather than a singular coherent narrative.",
+    "confidence": "HIGH. The sources cover distinct, unrelated geographic and subject matter areas, making factual consistency verification straightforward as there is no overlap to compare.",
+    "sources": [
+      {
+        "id": "art_1785133921607_150s4",
+        "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb",
+        "source": "guardian",
+        "title": "Senior politicians supported young NSW Liberal power brokers trying to shift party to right, corruption watchdog hears"
+      },
+      {
+        "id": "art_1785133922798_ahdnf",
+        "url": "https://www.theguardian.com/technology/2026/jul/27/misleading-ai-generated-doctors-public-safety-danger-tiktok",
+        "source": "guardian",
+        "title": "Misleading AI-generated doctors pose ‘huge danger to public safety’"
+      },
+      {
+        "id": "art_1785133923991_dqcnu",
+        "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+        "source": "guardian",
+        "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
+      },
+      {
+        "id": "art_1785133925073_l2aed",
+        "url": "https://www.aljazeera.com/features/2026/7/27/climate-change-presents-new-threat-to-philippines-unesco-rice-terraces?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Climate change presents new threat to Philippines’ UNESCO rice terraces"
+      },
+      {
+        "id": "art_1785133926261_fivmu",
+        "url": "https://www.theguardian.com/world/2026/jul/27/monday-briefing-how-the-cockroach-protests-have-exposed-the-cracks-in-indias-government",
+        "source": "guardian",
+        "title": "Monday briefing: ​How the Cockroach ​protests ​have expose​d the ​cracks in ​India’s government"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "9067d41a46f8d3bb1ca0e0954014eef7",
     "topic_label": "Israel and Middle East Tensions",
     "event_window_start": "2026-07-26T07:12:26.000Z",
@@ -22384,107 +22479,6 @@
         "url": "https://www.theguardian.com/world/2026/jul/22/wednesday-briefing-how-trumps-iran-gamble-has-produced-a-crisis-reshaping-the-global-order",
         "source": "guardian",
         "title": "Wednesday briefing: How Trump’s Iran gamble has produced a crisis reshaping the global order"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "52d613b32e389d9dc0830624ce78f90e",
-    "topic_label": "Debate Over Netanyahu Arrest",
-    "event_window_start": "2026-07-22T06:41:51.000Z",
-    "event_window_end": "2026-07-22T23:35:05.000Z",
-    "article_ids": [
-      "art_1784765387223_m33hz",
-      "art_1784745887593_mj2x2",
-      "art_1784740684672_zu6j2",
-      "art_1784740685709_lw4ie",
-      "art_1784740696148_lh25a",
-      "art_1784704363846_fnoom"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-23T01:04:22.616Z",
-    "updated_at": "2026-07-23T01:04:22.616Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "New York City Mayor Zohran Mamdani previously stated he would arrest Israeli Prime Minister Benjamin Netanyahu if he visited the city.",
-      "Mayor Mamdani has publicly acknowledged that the city lacks the legal authority to execute an International Criminal Court warrant for the arrest of Prime Minister Netanyahu.",
-      "Mayor Mamdani has called on the United States federal government to take action regarding the ICC warrant for Prime Minister Netanyahu."
-    ],
-    "source_claims": [
-      "[fox] Israeli Ambassador to the UN Danon described Mayor Mamdani as a 'clown' and called his previous arrest threat a 'stunt'.",
-      "[fox] Rep. Rashida Tlaib stated that Prime Minister Netanyahu should be arrested and referred to him as a 'war criminal'.",
-      "[fox] Rep. Jerry Nadler cited legal hurdles as a reason why the mayor lacks the authority to arrest the Prime Minister.",
-      "[bbc] President Donald Trump stated that Prime Minister Netanyahu would not be arrested in any way, shape or form while in the United States."
-    ],
-    "framing_differences": [
-      "Fox frames the issue by emphasizing criticism of Mamdani's reversal and his initial promise, using terms like 'political theater' and 'empty threat', while the BBC frames the event as a 'U-turn' regarding his lack of legal authority."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Mamdani was 'widely mocked' by conservatives on social media after announcing the change in plan."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'clown' to describe Mayor Mamdani.",
-      "[fox] uses the term 'stunt' to describe the mayor's initial arrest pledge.",
-      "[fox] uses the term 'political theater' to describe the mayor's arrest threat.",
-      "[fox] and [bbc] use the term 'war criminal' when quoting Mamdani and Tlaib referring to Netanyahu."
-    ],
-    "safe_conclusions": [
-      "Mayor Mamdani has updated his public position regarding his ability to arrest Prime Minister Netanyahu during a visit to New York City.",
-      "Benjamin Netanyahu is scheduled to visit New York City for the United Nations General Assembly."
-    ],
-    "unknowns": [
-      "The exact date Mamdani determined the city lacked the legal authority to arrest the Prime Minister.",
-      "The specific legal review process Mamdani's office undertook to reach this conclusion."
-    ],
-    "synthesis": "New York City Mayor Zohran Mamdani has stated he does not have the legal authority to arrest Israeli Prime Minister Benjamin Netanyahu, marking a change from his previous campaign pledges. The mayor now advocates for the U.S. federal government to take action regarding the International Criminal Court warrant. This shift has drawn varying reactions from lawmakers and public officials.",
-    "confidence": "HIGH: All sources are consistent on the core factual development that Mayor Mamdani rescinded his arrest pledge due to a lack of legal authority.",
-    "sources": [
-      {
-        "id": "art_1784765387223_m33hz",
-        "url": "https://www.foxnews.com/world/israeli-un-envoy-blasts-mamdani-clown-call-arrest-netanyahu-stunt",
-        "source": "fox",
-        "title": "Israeli UN envoy blasts Mamdani as 'clown' over call to arrest Netanyahu: 'It's a stunt'"
-      },
-      {
-        "id": "art_1784745887593_mj2x2",
-        "url": "https://www.foxnews.com/politics/mamdani-sets-internet-ablaze-video-explaining-cave-plan-arrest-netanyahu-what-joke",
-        "source": "fox",
-        "title": "Mamdani sets internet ablaze with video explaining cave on plan to arrest Netanyahu: 'What a joke'"
-      },
-      {
-        "id": "art_1784740684672_zu6j2",
-        "url": "https://www.foxnews.com/politics/mamdani-dodges-political-theater-empty-netanyahu-arrest-threat-calls-us-action-nyc-protests",
-        "source": "fox",
-        "title": "Mamdani dodges on ‘political theater’ of empty Netanyahu arrest threat, calls for US action and NYC protests"
-      },
-      {
-        "id": "art_1784740685709_lw4ie",
-        "url": "https://www.foxnews.com/politics/watch-tlaib-joins-mamdanis-netanyahu-arrest-push-fellow-house-dem-rejects-effort",
-        "source": "fox",
-        "title": "WATCH: Tlaib tells Mamdani to 'call me' for help arresting Netanyahu as Democrats remain divided"
-      },
-      {
-        "id": "art_1784740696148_lh25a",
-        "url": "https://www.bbc.co.uk/news/articles/c204p64pqzno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Mamdani U-turn on threat to arrest Netanyahu citing lack of authority"
-      },
-      {
-        "id": "art_1784704363846_fnoom",
-        "url": "https://www.theguardian.com/us-news/2026/jul/21/mamdani-benjamin-netanyahu-arrest-authority",
-        "source": "guardian",
-        "title": "Mamdani urges US government to arrest Netanyahu if Israeli PM visits US"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
