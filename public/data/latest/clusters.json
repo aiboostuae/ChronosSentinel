@@ -1,5 +1,640 @@
 [
   {
+    "cluster_id": "600d2c22dee885a8bcb12fd1d2356b25",
+    "topic_label": "Japan Earthquake Disaster",
+    "event_window_start": "2026-07-28T10:44:50.000Z",
+    "event_window_end": "2026-07-28T12:36:37.000Z",
+    "article_ids": [
+      "art_1785243658179_37tqv",
+      "art_1785236575585_9m4hn"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T13:55:55.114Z",
+    "updated_at": "2026-07-28T13:55:55.114Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A 7.1 magnitude earthquake occurred in southwestern Japan, specifically the Kumamoto prefecture.",
+      "Emergency services and local authorities report that people are trapped inside a shopping center/mall in the Kumamoto region.",
+      "The fire department stated that the second floor of a shopping complex in Kashima town collapsed."
+    ],
+    "source_claims": [
+      "[guardian] reports that police received reports of what sounded like an explosion at the Aeon Mall outlet.",
+      "[bbc] reports that some local media claim an explosion occurred at the Aeon Mall.",
+      "[bbc] reports that more than 150,000 people were told to move to evacuation shelters.",
+      "[bbc] states the earthquake hit inland on Kyushu island at 16:27 local time.",
+      "[bbc] states a brief tsunami warning was issued and subsequently lifted within an hour."
+    ],
+    "framing_differences": [
+      "The guardian frames the event through a live-update format focusing on emergency response, while the bbc provides additional context regarding regional evacuation orders and the status of tsunami warnings."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] reports a depth of 10km for the earthquake.",
+      "[bbc] reports that 150,000 people were told to evacuate.",
+      "[bbc] reports the specific local time of the earthquake as 16:27."
+    ],
+    "loaded_language": [
+      "[guardian] and [bbc] quote emergency services using the term 'trapped' to describe the status of individuals within the mall."
+    ],
+    "safe_conclusions": [
+      "An earthquake occurred in Japan's Kumamoto prefecture.",
+      "Emergency services have reported individuals are trapped in a shopping center."
+    ],
+    "unknowns": [
+      "The exact number of people trapped.",
+      "Whether an explosion occurred at the shopping mall and its cause.",
+      "The specific number of casualties, if any."
+    ],
+    "synthesis": "A 7.1 magnitude earthquake struck the Kumamoto prefecture in Japan, resulting in reports of people trapped inside a collapsed shopping complex. Emergency services and local officials have confirmed the structural failure of the second floor of a mall in Kashima. Reports regarding an explosion at the site remain unverified.",
+    "confidence": "HIGH; The sources are in strong agreement regarding the earthquake's magnitude, location, and the status of individuals trapped within a shopping facility.",
+    "sources": [
+      {
+        "id": "art_1785243658179_37tqv",
+        "url": "https://www.theguardian.com/world/live/2026/jul/28/people-trapped-japan-earthquake-kumamoto-aeon-shopping-centre-mall-latest-news-updates",
+        "source": "guardian",
+        "title": "Multiple people trapped inside shopping centre in Japan after earthquake – live updates"
+      },
+      {
+        "id": "art_1785236575585_9m4hn",
+        "url": "https://www.bbc.co.uk/news/articles/cgewg24qgnjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "People trapped inside Japan shopping centre after earthquake"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "edd5e78c1664f35b1e056062514cd3ce",
+    "topic_label": "Middle East Conflict and Iran",
+    "event_window_start": "2026-07-27T15:39:58.000Z",
+    "event_window_end": "2026-07-28T12:32:42.000Z",
+    "article_ids": [
+      "art_1785243659206_7h9we",
+      "art_1785243661256_76yrw",
+      "art_1785243662332_2ohq8",
+      "art_1785236581955_ajaw3",
+      "art_1785236587164_4vgst",
+      "art_1785226022258_cn9by",
+      "art_1785216921245_c6ca7",
+      "art_1785216927601_8tvau",
+      "art_1785204892763_khnm1",
+      "art_1785168316254_fgp47",
+      "art_1785168317287_jkku6"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 11,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T13:55:55.114Z",
+    "updated_at": "2026-07-28T13:55:55.114Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "There is ongoing geopolitical tension and conflict involving Iran and the United States.",
+      "Iran utilizes a prison system where inmates are held for various charges."
+    ],
+    "source_claims": [
+      "[aljazeera] claims 30 to 40 masked settlers attacked the village of at-Tuwani, burning a factory, a mosque, and homes.",
+      "[aljazeera] claims the Iranian economy has developed a diversified domestic structure to withstand US sanctions and war pressure.",
+      "[guardian] claims the Pentagon reclassified casualties in the Iran war as occurring during 'overseas operations' rather than direct combat.",
+      "[guardian] claims at least 1,500 prisoners at Ghezel Hesar prison began a hunger strike and some sewed their lips shut.",
+      "[fox] claims Morad Tahbaz was held for nearly six years in Evin Prison and was subjected to isolation and sensory deprivation."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the Iranian economy as resilient due to strategic self-sufficiency, whereas the Guardian frames the Iranian domestic situation through the lens of human rights crises in prisons.",
+      "The Guardian frames the Iran-US conflict regarding US military transparency and casualty reporting, while Fox News frames it regarding the plight of American hostages and the failure of Western deterrence."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] reports Khadera Ima's account of masked settlers throwing petrol and setting fire to property in at-Tuwani.",
+      "[guardian] reports that military veterans characterize the Pentagon's reclassification of deaths as 'ludicrous' and disrespectful.",
+      "[fox] reports Morad Tahbaz's personal account of his confinement conditions, including 24-hour lighting and blindfolding."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'shadowy oil transfers' to describe Iranian export methods.",
+      "[guardian] uses the term 'ludicrous' to describe the Pentagon's reclassification policy, citing a retired rear admiral.",
+      "[fox] uses the term 'hell' to describe Morad Tahbaz's experience in the Iranian prison system."
+    ],
+    "safe_conclusions": [
+      "There is an ongoing conflict between the United States and Iran.",
+      "Prisoners are currently held in Iranian facilities.",
+      "There are reports of property damage in the West Bank and hunger strikes in Iranian prisons."
+    ],
+    "unknowns": [
+      "The full scope of the Iran-US military conflict casualty figures.",
+      "The current status of negotiations regarding hostages held in Iran.",
+      "The identities and affiliations of the individuals described as 'masked settlers' in at-Tuwani."
+    ],
+    "synthesis": "The provided articles detail various facets of ongoing conflict involving Iran, ranging from international military tension to domestic prison conditions and economic management. Reports describe human rights challenges within Iran, including hunger strikes and the treatment of prisoners, as well as accounts of violence in the West Bank. Simultaneously, the sources discuss the impact of US-Iran relations on both the American military and the Iranian domestic economy.",
+    "confidence": "HIGH: The sources provide distinct accounts covering unrelated geographic and thematic areas, and there is no factual overlap that presents a direct contradiction between them.",
+    "sources": [
+      {
+        "id": "art_1785243659206_7h9we",
+        "url": "https://www.aljazeera.com/features/2026/7/28/were-here-to-stay-west-bank-palestinians-defy-israeli-attacks?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘We’re here to stay’: West Bank Palestinians defy Israeli attacks"
+      },
+      {
+        "id": "art_1785243661256_76yrw",
+        "url": "https://www.aljazeera.com/economy/2026/7/28/why-has-irans-economy-not-collapsed-under-us-war-pressure?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why has Iran’s economy not collapsed under US war pressure?"
+      },
+      {
+        "id": "art_1785243662332_2ohq8",
+        "url": "https://www.theguardian.com/us-news/2026/jul/28/first-thing-pentagon-accused-of-disrespecting-war-dead-as-trump-threatens-to-resume-iran-war",
+        "source": "guardian",
+        "title": "First Thing: Pentagon accused of disrespecting war dead as Trump threatens to resume Iran war"
+      },
+      {
+        "id": "art_1785236581955_ajaw3",
+        "url": "https://www.theguardian.com/world/2026/jul/28/prisoners-iran-largest-jail-sew-lips-shut-hunger-strike-executions-soar",
+        "source": "guardian",
+        "title": "Prisoners at Iran’s largest jail sew lips shut in hunger strike as executions soar"
+      },
+      {
+        "id": "art_1785236587164_4vgst",
+        "url": "https://www.foxnews.com/world/freed-american-reveals-brutal-iran-prison-ordeal-warns-hostages-face-greater-danger",
+        "source": "fox",
+        "title": "Freed American reveals brutal Iran prison ordeal, warns hostages face greater danger"
+      },
+      {
+        "id": "art_1785226022258_cn9by",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/trump-says-iran-talks-taking-place-during-pause-in-us-military-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump says Iran talks taking place during pause in US military strikes"
+      },
+      {
+        "id": "art_1785216921245_c6ca7",
+        "url": "https://www.aljazeera.com/news/2026/7/28/israeli-ex-generals-urge-trump-to-push-netanyahu-on-settler-terror?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli ex-generals urge Trump to push Netanyahu on ‘settler terror’"
+      },
+      {
+        "id": "art_1785216927601_8tvau",
+        "url": "https://www.aljazeera.com/news/2026/7/28/ukraines-zelenskyy-set-to-meet-trump-as-iran-and-ukraine-wars-converge?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukraine’s Zelenskyy set to meet Trump as Iran and Ukraine wars converge"
+      },
+      {
+        "id": "art_1785204892763_khnm1",
+        "url": "https://www.aljazeera.com/news/2026/7/28/houthis-want-to-copy-irans-hormuz-control-in-the-red-sea-yemeni-fm?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Houthis want to copy Iran’s Hormuz control in the Red Sea: Yemeni FM"
+      },
+      {
+        "id": "art_1785168316254_fgp47",
+        "url": "https://www.foxnews.com/politics/trump-critic-massie-joins-democrats-unprecedented-bid-sue-white-house-over-iran-war",
+        "source": "fox",
+        "title": "Trump critic Massie joins Democrats in unprecedented bid to sue White House over Iran war"
+      },
+      {
+        "id": "art_1785168317287_jkku6",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/27/israeli-raid-sparks-fire-at-un-palestinian-refugee-centre?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli raid sparks fire at UN Palestinian refugee centre"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "93aaee1ca711f0bcc99787c8a94507fa",
+    "topic_label": "European Wildfires and Heatwave",
+    "event_window_start": "2026-07-27T15:47:22.000Z",
+    "event_window_end": "2026-07-28T12:03:50.000Z",
+    "article_ids": [
+      "art_1785243664709_jerzn",
+      "art_1785226011624_urjp6",
+      "art_1785168306433_s2f2g",
+      "art_1785168308736_irle4",
+      "art_1785168314148_j7kqd"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T13:55:55.114Z",
+    "updated_at": "2026-07-28T13:55:55.114Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Wildfires are currently burning in parts of Spain and France.",
+      "Heatwaves are contributing to fire conditions in Europe.",
+      "Temperatures in some regions are expected to reach or exceed 35C."
+    ],
+    "source_claims": [
+      "[bbc] reports that more than 300,000 people have been evacuated from their homes across France and Spain.",
+      "[bbc] cites Madrid officials stating the current fires are the worst in the region's history.",
+      "[guardian] reports that in the Bordeaux region of France, 220,000 people have been forced to flee, 42,000 hectares have burned, and 240 houses have been destroyed.",
+      "[guardian] reports that a fire in the Cairngorms national park in Scotland has been burning for 12 days."
+    ],
+    "framing_differences": [
+      "[bbc] frames the fires primarily through the lens of political leadership responses in Madrid and the immediate impact on evacuation numbers across Spain and France. [guardian] provides a broader geographical perspective by including updates on French fires, Scottish wildfires in the Cairngorms, and the specific impact of the UK heatwave on British fire services."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims the Cairngorms fire is the worst fire the park has ever seen.",
+      "[guardian] claims the Gironde blaze in France has created a rare pyrocumulonimbus cloud."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'hell of a situation' to describe the conditions in Madrid.",
+      "[guardian] uses the word 'cataclysmic' to describe wildfires in the Cairngorms.",
+      "[guardian] uses the phrase 'jewel in the crown' to describe the Cairngorms national park.",
+      "[guardian] uses the word 'gigantic' to describe the blaze in France."
+    ],
+    "safe_conclusions": [
+      "Wildfires are currently active in France, Spain, and Scotland.",
+      "Public officials in affected countries have warned of difficult conditions for firefighting efforts.",
+      "Meteorological data indicates high temperatures across Europe and the UK."
+    ],
+    "unknowns": [
+      "The total current number of active fires across all of Europe.",
+      "The specific cause of the fires mentioned in the provided reports.",
+      "The long-term environmental impact of the fires on the regions described."
+    ],
+    "synthesis": "Wildfires are impacting several European regions, including France, Spain, and Scotland, amid ongoing heatwaves. Authorities in these countries have implemented evacuation orders for hundreds of thousands of people and have warned that challenging conditions are expected to continue. Firefighting operations are complicated by high temperatures and dry conditions affecting the continent and the United Kingdom.",
+    "confidence": "HIGH. The sources consistently report on the ongoing heatwaves and the resulting wildfires, though they focus on different geographic regions.",
+    "sources": [
+      {
+        "id": "art_1785243664709_jerzn",
+        "url": "https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'It's a hell of a situation': Spain grapples with devastating wildfires"
+      },
+      {
+        "id": "art_1785226011624_urjp6",
+        "url": "https://www.theguardian.com/world/live/2026/jul/28/europe-wildfires-fires-heatwave-bordeaux-france-spain-latest-news-updates",
+        "source": "guardian",
+        "title": "Firefighters hasten efforts to contain massive wildfires in France and Spain ahead of heatwave – Europe live"
+      },
+      {
+        "id": "art_1785168306433_s2f2g",
+        "url": "https://www.theguardian.com/world/2026/jul/27/swathes-of-cairngorms-scotland-unrecognisable-after-12-days-of-cataclysmic-wildfires",
+        "source": "guardian",
+        "title": "Swathes of Cairngorms unrecognisable after 12 days of ‘cataclysmic’ wildfires"
+      },
+      {
+        "id": "art_1785168308736_irle4",
+        "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Devastating European wildfires in maps - and how they're being tackled"
+      },
+      {
+        "id": "art_1785168314148_j7kqd",
+        "url": "https://www.theguardian.com/uk-news/2026/jul/27/uk-weather-fourth-heatwave-of-year",
+        "source": "guardian",
+        "title": "Britain braces for fourth heatwave of year as fire chiefs issue public appeal"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "459baaecd6f2dfc0f7eac143045180d6",
+    "topic_label": "US-France UN Diplomatic Tensions",
+    "event_window_start": "2026-07-27T15:27:31.000Z",
+    "event_window_end": "2026-07-28T12:31:15.000Z",
+    "article_ids": [
+      "art_1785243660229_rr4tn",
+      "art_1785195557823_laxye",
+      "art_1785168321433_5nu0g"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T13:55:55.114Z",
+    "updated_at": "2026-07-28T13:55:55.114Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "US diplomats walked out of a UN Security Council session when the French delegation began to address the council.",
+      "France's UN Mission in Geneva posted on X that the US is no longer a 'beacon of human rights' and listed it alongside North Korea, Nicaragua, Mali, and Russia.",
+      "The social media exchange occurred following a UN vote regarding the term renewal of High Commissioner for Human Rights Volker Türk."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the walkout was in direct response to the comparison made by France on X.",
+      "[aljazeera] claims US representative Dan Negrea stated the walkouts will continue until the comments are renounced.",
+      "[fox] claims Ambassador Jeff Bartos stated that Volker Türk guided the UN human rights system to its 'deathbed' and failed to confront abuses by authoritarian regimes.",
+      "[aljazeera] claims US Ambassador Mike Waltz stated on X that France voted for a rights chief who lectures free, sovereign democracies while supporting oppressors."
+    ],
+    "framing_differences": [
+      "[aljazeera] frames the event as a diplomatic walkout centered on a specific comparison to North Korea and Russia, while [fox] frames the event as a response to a 'stunning social media attack' on the US by France."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims US representative Dan Negrea says the walkouts will continue until the comments are renounced."
+    ],
+    "loaded_language": [
+      "[fox] uses the phrase 'stunning social media attack' to describe France's post.",
+      "[fox] uses the phrase 'guided the U.N. human rights system to its deathbed' to describe the actions of Volker Türk.",
+      "[aljazeera] describes France's post as a 'verbal attack' in one instance, though this framing is shared with [fox]."
+    ],
+    "safe_conclusions": [
+      "A diplomatic disagreement between the US and France regarding the UN Human Rights Commissioner occurred, which resulted in a walkout at the UN Security Council."
+    ],
+    "unknowns": [
+      "Whether the walkout was a coordinated official policy or an ad hoc decision by specific diplomats present.",
+      "The full extent of the planned US response to the French social media post beyond the reported walkout."
+    ],
+    "synthesis": "US diplomats walked out of a UN Security Council meeting during the French delegation's address following a public dispute on X. The tension originated from a disagreement over the renewal of UN High Commissioner for Human Rights Volker Türk's term, which the US opposed. France subsequently criticized the US position on social media, prompting the walkout.",
+    "confidence": "HIGH. The core sequence of events, including the social media statements and the walkout at the UN, is consistently reported by both sources.",
+    "sources": [
+      {
+        "id": "art_1785243660229_rr4tn",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US walks out on France at UN over North Korea, Russia comparison"
+      },
+      {
+        "id": "art_1785195557823_laxye",
+        "url": "https://www.aljazeera.com/news/2026/7/27/us-diplomats-walk-out-as-france-addresses-un-security-council?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US diplomats walk out as France addresses UN Security Council"
+      },
+      {
+        "id": "art_1785168321433_5nu0g",
+        "url": "https://www.foxnews.com/world/waltz-slams-france-after-stunning-social-media-attack-us-after-un-vote",
+        "source": "fox",
+        "title": "Waltz slams France after stunning social media attack on US after UN vote"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b4241cd47c885582c6b7cf2bf03cad77",
+    "topic_label": "Anthony Fauci Diary Controversy",
+    "event_window_start": "2026-07-27T15:53:30.000Z",
+    "event_window_end": "2026-07-28T12:00:14.000Z",
+    "article_ids": [
+      "art_1785243665857_ia4qc",
+      "art_1785236579818_lfzrm",
+      "art_1785204884213_8i76l",
+      "art_1785204887420_vlhvc",
+      "art_1785168309804_qdycw",
+      "art_1785168310847_7xle9"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T13:55:55.114Z",
+    "updated_at": "2026-07-28T13:55:55.114Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Dr. Anthony Fauci kept a personal diary during the COVID-19 pandemic.",
+      "Diary entries belonging to Dr. Anthony Fauci were released by Senator Rand Paul.",
+      "Senator Rand Paul serves as the Chairman of the Senate Homeland Security Committee."
+    ],
+    "source_claims": [
+      "[fox] claims Dr. Anthony Fauci denied recommending lockdowns, while his diary allegedly shows he took credit for them.",
+      "[fox] claims Dr. Anthony Fauci’s diary entries reveal a focus on personal fame and a desire to build friendships with media figures.",
+      "[fox] claims HHS Secretary Robert F. Kennedy Jr. stated that Dr. Fauci’s focus was on self-promotion rather than public health.",
+      "[guardian] claims Dr. Anthony Fauci’s diary entries reveal his personal frustration and negative opinions regarding Donald Trump’s behavior during the pandemic.",
+      "[guardian] claims the diary entries were released by a Republican senator with the intent to damage Dr. Anthony Fauci."
+    ],
+    "framing_differences": [
+      "Fox frames the release of the diary as an opportunity to expose Dr. Fauci's contradictions regarding lockdowns and media relationships, whereas The Guardian frames the release as a political attempt to damage Dr. Fauci and highlights the diary's revelations regarding Dr. Fauci's perspective on Donald Trump."
+    ],
+    "contested_claims": [
+      "Sources differ on the primary characterization of the diary's content: Fox characterizes the diary as evidence of a preoccupation with fame and media manipulation, while The Guardian characterizes it as documentation of Dr. Fauci's disillusionment with the Trump administration."
+    ],
+    "unverified_claims": [
+      "[fox] claims Fauci fed questions to journalists.",
+      "[fox] claims Fauci’s diary exposes alleged lies about vaccine efficacy, masks, and natural immunity."
+    ],
+    "loaded_language": [
+      "[fox] uses the terms 'fixation on personal fame', 'stunning diary entries', 'cozy relationship', and 'giddy narcissism' to describe Dr. Fauci.",
+      "[guardian] uses the terms 'rambling', 'crazy', 'desperate', 'bumbling', 'incompetent', 'an idiot', 'a true embarrassment', 'totally nuts', and 'truly an obnoxious adolescent' to describe the comments Fauci reportedly wrote about Donald Trump."
+    ],
+    "safe_conclusions": [
+      "Dr. Anthony Fauci's diary entries from the pandemic era have been made public.",
+      "The entries contain references to Dr. Fauci's communications with political figures and media members."
+    ],
+    "unknowns": [
+      "The full, unredacted contents of the diary entries are not provided.",
+      "The extent to which Dr. Fauci's written reflections influenced his public policy decisions during the pandemic is not established."
+    ],
+    "synthesis": "Dr. Anthony Fauci’s personal diary entries from the COVID-19 pandemic have been released by Senator Rand Paul. The journals detail Fauci's interactions with various public figures, media representatives, and political leaders. News outlets have offered differing interpretations of these entries, focusing alternatively on Fauci's reported internal views of the Trump administration or his perceived personal priorities during the crisis.",
+    "confidence": "MEDIUM; While the release of the documents is corroborated, the framing of the content is polarized and selectively reported by different outlets.",
+    "sources": [
+      {
+        "id": "art_1785243665857_ia4qc",
+        "url": "https://www.foxnews.com/media/sen-ron-johnson-talks-fauci-emails-new-senate-filibuster-strategy-ruthless",
+        "source": "fox",
+        "title": "Sen Ron Johnson talks Fauci emails, new Senate filibuster strategy on 'Ruthless'"
+      },
+      {
+        "id": "art_1785236579818_lfzrm",
+        "url": "https://www.foxnews.com/politics/fauci-privately-took-credit-covid-19-lockdowns-despite-public-denial-newly-exposed-diary-entries-reveal",
+        "source": "fox",
+        "title": "Fauci privately took credit for COVID-19 lockdowns despite public denial, newly exposed diary entries reveal"
+      },
+      {
+        "id": "art_1785204884213_8i76l",
+        "url": "https://www.foxnews.com/media/faucis-diary-shows-he-fed-questions-journalists-built-friendships-media-figures",
+        "source": "fox",
+        "title": "Fauci's diary shows he fed questions to journalists, built friendships with media figures"
+      },
+      {
+        "id": "art_1785204887420_vlhvc",
+        "url": "https://www.foxnews.com/media/rfk-jr-says-fauci-prioritized-getting-tv-over-public-health-after-revealing-diary-release",
+        "source": "fox",
+        "title": "RFK Jr says Fauci prioritized 'getting on TV' over public health after revealing diary release"
+      },
+      {
+        "id": "art_1785168309804_qdycw",
+        "url": "https://www.theguardian.com/us-news/2026/jul/27/anthony-fauci-trump-covid-journal",
+        "source": "guardian",
+        "title": "Fauci expressed disillusionment with ‘rambling, crazy’ Trump in journal"
+      },
+      {
+        "id": "art_1785168310847_7xle9",
+        "url": "https://www.foxnews.com/media/abc-nbc-cbs-cnn-ms-now-ignore-fauci-diary-entries-reveal-fixation-fame-during-covid",
+        "source": "fox",
+        "title": "ABC, NBC, CBS, CNN and MS NOW ignore Fauci diary entries that reveal fixation on fame during COVID"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "168e7d586a676c1e68a15861ca788b3c",
+    "topic_label": "US Consulate Shootings in Canada",
+    "event_window_start": "2026-07-27T22:34:38.000Z",
+    "event_window_end": "2026-07-28T06:53:37.000Z",
+    "article_ids": [
+      "art_1785226015902_dfbpo",
+      "art_1785195564128_51q9y"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T09:21:10.043Z",
+    "updated_at": "2026-07-28T09:21:10.043Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A shot was fired at or near the U.S. Consulate in Toronto on Monday.",
+      "This incident marks the second time the building has been fired at this year.",
+      "No injuries were reported.",
+      "A shell casing was found at the scene and damage occurred to the building's facade."
+    ],
+    "source_claims": [
+      "[fox] reports that the U.S. Embassy and Consulates in Canada are open and operating normally, though some routine services are being rescheduled.",
+      "[aljazeera] reports that a white sedan was seen fleeing the scene at approximately 5:00 a.m. local time.",
+      "[aljazeera] reports that Toronto police briefly pursued a vehicle before terminating the chase due to safety concerns regarding its speed.",
+      "[aljazeera] states that no suspects have been arrested and the investigation is ongoing."
+    ],
+    "framing_differences": [
+      "Fox focuses on the incident within the context of security concerns discussed by Rep. Rick Crawford, while Al Jazeera focuses on the specific timeline of the event and police procedural details regarding the suspect vehicle."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims a white sedan was the vehicle involved in the fleeing of the scene."
+    ],
+    "loaded_language": [
+      "[fox] uses the phrasing 'GUNFIRE SHATTERS TORONTO LATIN STREET FESTIVAL' to describe a different, separate incident included as a headline link."
+    ],
+    "safe_conclusions": [
+      "A shooting incident occurred at the U.S. Consulate in Toronto on Monday, resulting in property damage but no reported injuries."
+    ],
+    "unknowns": [
+      "The identity of the individual or individuals responsible for the shooting.",
+      "The specific motive behind the shooting.",
+      "Whether the current incident is linked to the previous shooting at the same location earlier this year."
+    ],
+    "synthesis": "Authorities reported a shooting at the U.S. Consulate in Toronto on Monday, which caused damage to the building's exterior but resulted in no injuries. This incident is the second of its kind at the location this year. Police are currently investigating the matter and have not yet made any arrests.",
+    "confidence": "HIGH. Both sources corroborate the core facts regarding the location, the nature of the incident, and the lack of injuries.",
+    "sources": [
+      {
+        "id": "art_1785226015902_dfbpo",
+        "url": "https://www.foxnews.com/world/gunman-fired-us-consulate-toronto-second-time-building-shot-year",
+        "source": "fox",
+        "title": "Gunman fired at US consulate in Toronto, second time building was shot at this year"
+      },
+      {
+        "id": "art_1785195564128_51q9y",
+        "url": "https://www.aljazeera.com/news/2026/7/27/shot-fired-outside-us-consulate-in-canada-for-second-time-this-year?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Shot fired outside US consulate in Canada for second time this year"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a31961548b3d6db7ef0ab7a8992cc68d",
+    "topic_label": "Ecuador Drug War",
+    "event_window_start": "2026-07-28T05:01:19.000Z",
+    "event_window_end": "2026-07-28T05:01:35.000Z",
+    "article_ids": [
+      "art_1785226019171_cnr90",
+      "art_1785226020196_e8s3c",
+      "art_1785226021222_aiang"
+    ],
+    "source_ids": [
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-28T09:21:10.043Z",
+    "updated_at": "2026-07-28T09:21:10.043Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Ecuador is experiencing a significant increase in drug-related crime.",
+      "Ecuador serves as a transit point for cocaine produced in Colombia and Peru.",
+      "Ecuadorian gangs have established connections with international criminal organizations, including Mexican cartels and Albanian mafia groups.",
+      "Corruption within the state and police forces is a challenge in Ecuador's efforts to combat drug trafficking."
+    ],
+    "source_claims": [
+      "[bbc_1] reports that Ecuador's interior ministry recorded over 9,200 murders last year, constituting one of the highest murder rates in the world.",
+      "[bbc_2] quotes Police Captain Jean Carlos Bustamante stating that there are corrupt individuals within the police units, the state, and the political system who are on the payroll of criminal gangs."
+    ],
+    "framing_differences": [
+      "The first BBC article frames the issue through national-level statistics and international drug routes, while the second BBC article frames the crisis through the personal experience and operational challenges of an individual police officer."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc_2] mentions that criminals in Durán sometimes dismember their rivals."
+    ],
+    "loaded_language": [
+      "[bbc_2] uses the phrase 'riddled with drugs' to describe the city of Durán.",
+      "[bbc_2] uses the term 'hardscrabble' to describe the neighborhood where the police unit patrols.",
+      "[bbc_2] uses the phrase 'enemy within' to describe corrupt elements inside the police and political system."
+    ],
+    "safe_conclusions": [
+      "Ecuador is currently facing security challenges involving drug trafficking and gang violence.",
+      "Law enforcement officials in Ecuador have identified corruption as a factor complicating their efforts against criminal groups."
+    ],
+    "unknowns": [
+      "The specific number of police officers involved in corruption.",
+      "The full extent of the influence Mexican and Albanian criminal groups have on local Ecuadorian gangs.",
+      "The current total count of active criminal gangs operating within the city of Durán."
+    ],
+    "synthesis": "Ecuador is experiencing a surge in drug-related crime as a transit hub for cocaine produced in Colombia and Peru. Law enforcement efforts are hampered by significant corruption within the state, police, and political institutions. International criminal entities, including Mexican cartels and Albanian mafia groups, are reported to be linked to local gangs operating within the country.",
+    "confidence": "HIGH. The provided sources are consistent with one another and originate from the same reporting entity regarding the security situation in Ecuador.",
+    "sources": [
+      {
+        "id": "art_1785226019171_cnr90",
+        "url": "https://www.bbc.co.uk/news/videos/c1l1d429m8eo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Confronting gang members at the heart of Ecuador's drug battle"
+      },
+      {
+        "id": "art_1785226020196_e8s3c",
+        "url": "https://www.bbc.co.uk/news/videos/c1l1d429m8eo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Confronting gang members at the heart of Ecuador's drug battle"
+      },
+      {
+        "id": "art_1785226021222_aiang",
+        "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "On the front line of Ecuador's drugs war, police fight gangs, guns and corruption"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "38654c79cb633115aa38b59b0de9438b",
     "topic_label": "Israel and Gaza Conflict",
     "event_window_start": "2026-07-27T12:41:27.000Z",
@@ -497,153 +1132,6 @@
         "url": "https://www.theguardian.com/us-news/live/2026/jul/27/us-senate-spy-jay-clayton-donald-trump-iran-war-saudi-oman-hormuz-pentagon-seattle-latest-news-updates",
         "source": "guardian",
         "title": "Senate to begin voting on Trump intelligence nominee Jay Clayton – US politics live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a31961548b3d6db7ef0ab7a8992cc68d",
-    "topic_label": "Ecuador Drug War",
-    "event_window_start": "2026-07-28T05:01:19.000Z",
-    "event_window_end": "2026-07-28T05:01:35.000Z",
-    "article_ids": [
-      "art_1785226019171_cnr90",
-      "art_1785226020196_e8s3c",
-      "art_1785226021222_aiang"
-    ],
-    "source_ids": [
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-28T09:21:10.043Z",
-    "updated_at": "2026-07-28T09:21:10.043Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ecuador is experiencing a significant increase in drug-related crime.",
-      "Ecuador serves as a transit point for cocaine produced in Colombia and Peru.",
-      "Ecuadorian gangs have established connections with international criminal organizations, including Mexican cartels and Albanian mafia groups.",
-      "Corruption within the state and police forces is a challenge in Ecuador's efforts to combat drug trafficking."
-    ],
-    "source_claims": [
-      "[bbc_1] reports that Ecuador's interior ministry recorded over 9,200 murders last year, constituting one of the highest murder rates in the world.",
-      "[bbc_2] quotes Police Captain Jean Carlos Bustamante stating that there are corrupt individuals within the police units, the state, and the political system who are on the payroll of criminal gangs."
-    ],
-    "framing_differences": [
-      "The first BBC article frames the issue through national-level statistics and international drug routes, while the second BBC article frames the crisis through the personal experience and operational challenges of an individual police officer."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc_2] mentions that criminals in Durán sometimes dismember their rivals."
-    ],
-    "loaded_language": [
-      "[bbc_2] uses the phrase 'riddled with drugs' to describe the city of Durán.",
-      "[bbc_2] uses the term 'hardscrabble' to describe the neighborhood where the police unit patrols.",
-      "[bbc_2] uses the phrase 'enemy within' to describe corrupt elements inside the police and political system."
-    ],
-    "safe_conclusions": [
-      "Ecuador is currently facing security challenges involving drug trafficking and gang violence.",
-      "Law enforcement officials in Ecuador have identified corruption as a factor complicating their efforts against criminal groups."
-    ],
-    "unknowns": [
-      "The specific number of police officers involved in corruption.",
-      "The full extent of the influence Mexican and Albanian criminal groups have on local Ecuadorian gangs.",
-      "The current total count of active criminal gangs operating within the city of Durán."
-    ],
-    "synthesis": "Ecuador is experiencing a surge in drug-related crime as a transit hub for cocaine produced in Colombia and Peru. Law enforcement efforts are hampered by significant corruption within the state, police, and political institutions. International criminal entities, including Mexican cartels and Albanian mafia groups, are reported to be linked to local gangs operating within the country.",
-    "confidence": "HIGH. The provided sources are consistent with one another and originate from the same reporting entity regarding the security situation in Ecuador.",
-    "sources": [
-      {
-        "id": "art_1785226019171_cnr90",
-        "url": "https://www.bbc.co.uk/news/videos/c1l1d429m8eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Confronting gang members at the heart of Ecuador's drug battle"
-      },
-      {
-        "id": "art_1785226020196_e8s3c",
-        "url": "https://www.bbc.co.uk/news/videos/c1l1d429m8eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Confronting gang members at the heart of Ecuador's drug battle"
-      },
-      {
-        "id": "art_1785226021222_aiang",
-        "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "On the front line of Ecuador's drugs war, police fight gangs, guns and corruption"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "168e7d586a676c1e68a15861ca788b3c",
-    "topic_label": "US Consulate Shootings in Canada",
-    "event_window_start": "2026-07-27T22:34:38.000Z",
-    "event_window_end": "2026-07-28T06:53:37.000Z",
-    "article_ids": [
-      "art_1785226015902_dfbpo",
-      "art_1785195564128_51q9y"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-28T09:21:10.043Z",
-    "updated_at": "2026-07-28T09:21:10.043Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A shot was fired at or near the U.S. Consulate in Toronto on Monday.",
-      "This incident marks the second time the building has been fired at this year.",
-      "No injuries were reported.",
-      "A shell casing was found at the scene and damage occurred to the building's facade."
-    ],
-    "source_claims": [
-      "[fox] reports that the U.S. Embassy and Consulates in Canada are open and operating normally, though some routine services are being rescheduled.",
-      "[aljazeera] reports that a white sedan was seen fleeing the scene at approximately 5:00 a.m. local time.",
-      "[aljazeera] reports that Toronto police briefly pursued a vehicle before terminating the chase due to safety concerns regarding its speed.",
-      "[aljazeera] states that no suspects have been arrested and the investigation is ongoing."
-    ],
-    "framing_differences": [
-      "Fox focuses on the incident within the context of security concerns discussed by Rep. Rick Crawford, while Al Jazeera focuses on the specific timeline of the event and police procedural details regarding the suspect vehicle."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims a white sedan was the vehicle involved in the fleeing of the scene."
-    ],
-    "loaded_language": [
-      "[fox] uses the phrasing 'GUNFIRE SHATTERS TORONTO LATIN STREET FESTIVAL' to describe a different, separate incident included as a headline link."
-    ],
-    "safe_conclusions": [
-      "A shooting incident occurred at the U.S. Consulate in Toronto on Monday, resulting in property damage but no reported injuries."
-    ],
-    "unknowns": [
-      "The identity of the individual or individuals responsible for the shooting.",
-      "The specific motive behind the shooting.",
-      "Whether the current incident is linked to the previous shooting at the same location earlier this year."
-    ],
-    "synthesis": "Authorities reported a shooting at the U.S. Consulate in Toronto on Monday, which caused damage to the building's exterior but resulted in no injuries. This incident is the second of its kind at the location this year. Police are currently investigating the matter and have not yet made any arrests.",
-    "confidence": "HIGH. Both sources corroborate the core facts regarding the location, the nature of the incident, and the lack of injuries.",
-    "sources": [
-      {
-        "id": "art_1785226015902_dfbpo",
-        "url": "https://www.foxnews.com/world/gunman-fired-us-consulate-toronto-second-time-building-shot-year",
-        "source": "fox",
-        "title": "Gunman fired at US consulate in Toronto, second time building was shot at this year"
-      },
-      {
-        "id": "art_1785195564128_51q9y",
-        "url": "https://www.aljazeera.com/news/2026/7/27/shot-fired-outside-us-consulate-in-canada-for-second-time-this-year?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Shot fired outside US consulate in Canada for second time this year"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -21016,692 +21504,6 @@
         "url": "https://www.theguardian.com/uk-news/2026/jul/23/uk-mosque-attacks-british-muslim-trust",
         "source": "guardian",
         "title": "One UK mosque attacked ‘every five days’, says British Muslim Trust"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0a1d536d3047d2ea251351d6d71df7c5",
-    "topic_label": "US-Iran Conflict and Middle East",
-    "event_window_start": "2026-07-22T22:11:39.000Z",
-    "event_window_end": "2026-07-23T20:23:12.000Z",
-    "article_ids": [
-      "art_1784840770763_t9ley",
-      "art_1784830690182_isdz9",
-      "art_1784830691215_eeepx",
-      "art_1784826172854_4jj5t",
-      "art_1784826174288_xke78",
-      "art_1784826182210_55czn",
-      "art_1784819709962_odys3",
-      "art_1784819716590_71jrk",
-      "art_1784819719862_lks7t",
-      "art_1784819724010_ktbas",
-      "art_1784811736917_qmz0p",
-      "art_1784811737968_yhfda",
-      "art_1784811749802_et7m7",
-      "art_1784806127383_clg0z",
-      "art_1784806130518_nq2kd",
-      "art_1784798000431_xpg1q",
-      "art_1784798007707_6d1cn",
-      "art_1784798012321_u569c",
-      "art_1784788350866_c3iwd",
-      "art_1784788354182_obq4o",
-      "art_1784788355243_s8fei",
-      "art_1784779091099_6asph",
-      "art_1784765385129_x76fh",
-      "art_1784765398187_3xuyp",
-      "art_1784761400170_n19cw",
-      "art_1784761404427_vmykk",
-      "art_1784761408813_qv8ny"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 27,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-23T21:38:40.067Z",
-    "updated_at": "2026-07-23T21:38:40.067Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump held meetings at the White House involving international figures or events during his administration."
-    ],
-    "source_claims": [
-      "[fox] claims Formula 1 cancelled the Bahrain and Saudi Arabian Grand Prix in April due to conflict in the Middle East.",
-      "[fox] claims the Sepang Circuit in Malaysia may return to the Formula 1 calendar.",
-      "[aljazeera] claims President Trump agreed to a 30-year nuclear deal with Saudi Arabia involving technology transfer.",
-      "[aljazeera] claims analysts expressed concern that the US-Saudi nuclear deal could lead to a nuclear arms race.",
-      "[aljazeera] claims hundreds of Israelis entered the Al-Aqsa Mosque compound on Tisha B’Av.",
-      "[aljazeera] claims the Palestinian Authority anticipated up to 5,000 Israelis would enter the site on Thursday.",
-      "[aljazeera] claims Lebanon's President Aoun met with President Trump to discuss Hezbollah."
-    ],
-    "framing_differences": [
-      "fox frames the Middle East situation specifically through the lens of Formula 1 scheduling, while aljazeera frames the region through geopolitical concerns such as nuclear proliferation, religious site access, and diplomatic security summits."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims a month-long gap exists in the Formula 1 schedule due to cancelled races.",
-      "[aljazeera] claims the US-Saudi nuclear deal is expected to survive resistance from Democrats in Congress."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'Far-right' to describe the Israeli incursion at Al-Aqsa.",
-      "[aljazeera] uses the term 'trespassers' to describe Israelis entering the Al-Aqsa compound.",
-      "[aljazeera] uses the term 'occupied East Jerusalem' to describe the location of the Al-Aqsa Mosque compound."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump conducted meetings at the White House regarding various international topics.",
-      "Events in the Middle East are being monitored for their impact on international sports and regional security."
-    ],
-    "unknowns": [
-      "The exact terms and non-public details of the US-Saudi nuclear deal.",
-      "The official decision from Formula 1 regarding the potential return of the Sepang Circuit.",
-      "The specific outcome of the discussions between President Trump and President Aoun regarding Hezbollah."
-    ],
-    "synthesis": "President Donald Trump engaged in various international activities at the White House, ranging from sports promotion and diplomatic summits to nuclear negotiations with Saudi Arabia. Meanwhile, regional tensions in the Middle East remain a focal point of reports, involving security concerns at religious sites and potential impacts on international events. These reports collectively highlight the diverse range of geopolitical and logistical issues currently affecting the administration's agenda.",
-    "confidence": "MEDIUM: HIGH: All sources are reporting on distinct, separate news items that do not overlap in a way that creates factual contradiction, despite the diversity of the topics covered.",
-    "sources": [
-      {
-        "id": "art_1784840770763_t9ley",
-        "url": "https://www.foxnews.com/outkick-sports/iran-war-could-pave-way-former-fan-favorite-track-rejoin-formula-1-calendar",
-        "source": "fox",
-        "title": "Iran war could pave the way for a former fan-favorite track to rejoin the Formula 1 calendar"
-      },
-      {
-        "id": "art_1784830690182_isdz9",
-        "url": "https://www.aljazeera.com/news/2026/7/23/what-are-the-security-implications-of-the-us-saudi-nuclear-deal?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What are the security implications of the US-Saudi nuclear deal?"
-      },
-      {
-        "id": "art_1784830691215_eeepx",
-        "url": "https://www.aljazeera.com/news/2026/7/23/far-right-israeli-incursion-heightens-tensions-at-al-aqsa-ahead-of-election?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Far-right Israeli incursion heightens tensions at Al-Aqsa ahead of election"
-      },
-      {
-        "id": "art_1784826172854_4jj5t",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/lebanon-latest-president-aoun-visits-white-house-to-discuss-hezbollah?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanon Latest: President Aoun visits White House to discuss Hezbollah"
-      },
-      {
-        "id": "art_1784826174288_xke78",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/lebanon-latest-president-aoun-visits-white-house-to-discuss-hezbollah-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanon Latest: President Aoun visits White House to discuss Hezbollah"
-      },
-      {
-        "id": "art_1784826182210_55czn",
-        "url": "https://www.foxnews.com/politics/republicans-fall-line-trump-iran-war-despite-rising-costs-us-death-toll",
-        "source": "fox",
-        "title": "Republicans fall in line with Trump on Iran war despite rising costs and US death toll"
-      },
-      {
-        "id": "art_1784819709962_odys3",
-        "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Saudis must recognise Israel for nuclear deal, says Trump "
-      },
-      {
-        "id": "art_1784819716590_71jrk",
-        "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Oil prices hit $100 for the first time since May"
-      },
-      {
-        "id": "art_1784819719862_lks7t",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/house-trump-war-powers-resolution-iran",
-        "source": "guardian",
-        "title": "US House passes war powers resolution directing Trump to withdraw US military from Iran"
-      },
-      {
-        "id": "art_1784819724010_ktbas",
-        "url": "https://www.foxnews.com/politics/4-house-republicans-rebel-against-trump-vote-dems-block-iran-war-powers",
-        "source": "fox",
-        "title": "4 House Republicans rebel against Trump, vote with Dems to block Iran war powers"
-      },
-      {
-        "id": "art_1784811736917_qmz0p",
-        "url": "https://www.bbc.co.uk/news/articles/cz05lx0xpero?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump's nuclear deal with Saudis jettisons longstanding US demands"
-      },
-      {
-        "id": "art_1784811737968_yhfda",
-        "url": "https://www.aljazeera.com/news/2026/7/23/which-middle-east-nations-have-nuclear-programmes-and-how-were-they-built?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Which Middle East nations have nuclear programmes, and how were they built?"
-      },
-      {
-        "id": "art_1784811749802_et7m7",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/first-thing-us-agrees-saudi-uranium-deal-strikes-iran-yemen-houthis-hit-tankers",
-        "source": "guardian",
-        "title": "First Thing: US agrees Saudi uranium deal as strikes on Iran continue and Yemen’s Houthis hit tankers"
-      },
-      {
-        "id": "art_1784806127383_clg0z",
-        "url": "https://www.aljazeera.com/news/2026/7/23/rubio-says-iran-begging-for-a-deal-with-us-but-not-ready-to-make-one?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rubio says Iran ‘begging’ for a deal with US but not ready to make one"
-      },
-      {
-        "id": "art_1784806130518_nq2kd",
-        "url": "https://www.theguardian.com/world/2026/jul/23/iran-war-us-troops",
-        "source": "guardian",
-        "title": "The latest US troops killed in Trump’s Iran war are remembered for lives of service"
-      },
-      {
-        "id": "art_1784798000431_xpg1q",
-        "url": "https://www.theguardian.com/business/live/2026/jul/23/andy-burnham-business-rates-pubs-clubs-live-music-vape-shops-european-central-bank-ecb-interest-rates-latest-news-updates",
-        "source": "guardian",
-        "title": "Oil prices near $100 a barrel after US attacks Iran and Houthis hit tankers in Red Sea – business live"
-      },
-      {
-        "id": "art_1784798007707_6d1cn",
-        "url": "https://www.theguardian.com/business/2026/jul/23/easyjet-profits-plunge-fuel-costs-soar-iran-war",
-        "source": "guardian",
-        "title": "EasyJet profits plunge 70% as fuel costs soar amid Iran war"
-      },
-      {
-        "id": "art_1784798012321_u569c",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/travellers-panic-as-us-attacks-iran-iraq-border-crossing?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Travellers panic as US attacks Iran-Iraq border crossing"
-      },
-      {
-        "id": "art_1784788350866_c3iwd",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/7/23/will-the-war-on-iran-affect-aseans-efforts-to-tackle-regional-issues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will the war on Iran affect ASEAN’s efforts to tackle regional issues?"
-      },
-      {
-        "id": "art_1784788354182_obq4o",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/us-attacks-iran-for-12th-night-as-the-house-approves-defence-spending?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US attacks Iran for 12th night as the House approves defence spending"
-      },
-      {
-        "id": "art_1784788355243_s8fei",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/saudi-arabia-and-us-agree-to-landmark-nuclear-deal-for-civilian-purposes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Saudi Arabia and US agree to landmark nuclear deal for civilian purposes"
-      },
-      {
-        "id": "art_1784779091099_6asph",
-        "url": "https://www.bbc.co.uk/news/articles/cpw9xzx9r4ko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Houthis claim attack on oil tankers as US launches more strikes on Iran "
-      },
-      {
-        "id": "art_1784765385129_x76fh",
-        "url": "https://www.theguardian.com/world/live/2026/jul/23/us-iran-war-live-updates-strikes-houthis-red-sea-saudi-nuclear-deal-middle-east-crisis-latest-news",
-        "source": "guardian",
-        "title": "Yemen’s Houthis claim attacks on Red Sea tankers as US launches 12th night of strikes on Iran – Middle East crisis live"
-      },
-      {
-        "id": "art_1784765398187_3xuyp",
-        "url": "https://www.aljazeera.com/news/2026/7/22/iranian-missiles-show-deadly-precision-amid-us-iran-war-escalation?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iranian missiles show deadly precision amid US-Iran war escalation"
-      },
-      {
-        "id": "art_1784761400170_n19cw",
-        "url": "https://www.bbc.co.uk/news/videos/cn5n725lkg7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: What we know about the US-Saudi nuclear deal"
-      },
-      {
-        "id": "art_1784761404427_vmykk",
-        "url": "https://www.aljazeera.com/news/2026/7/22/yemens-houthis-claim-attack-on-two-saudi-oil-tankers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s Houthis claim attack on two Saudi oil tankers"
-      },
-      {
-        "id": "art_1784761408813_qv8ny",
-        "url": "https://www.theguardian.com/us-news/2026/jul/22/trump-nuclear-agreement-saudi-arabia",
-        "source": "guardian",
-        "title": "US signs landmark nuclear deal with Saudi Arabia"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "80dbc7de0e6e1aa92a67a798ccf84e7d",
-    "topic_label": "Protests and Corruption in India",
-    "event_window_start": "2026-07-22T22:13:24.000Z",
-    "event_window_end": "2026-07-23T20:59:54.000Z",
-    "article_ids": [
-      "art_1784840761434_35mzx",
-      "art_1784798008767_dk6mm",
-      "art_1784798013352_wujhs",
-      "art_1784788348604_k1ysx",
-      "art_1784788356324_b6b2w",
-      "art_1784761407579_ab63u"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-23T21:38:40.067Z",
-    "updated_at": "2026-07-23T21:38:40.067Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Sonam Wangchuk engaged in a hunger strike.",
-      "Student-led protests are occurring in New Delhi regarding an examination scandal.",
-      "Prime Minister Narendra Modi announced the establishment of fast-track courts to address exam paper leaks.",
-      "Protesters are calling for the resignation of the education minister."
-    ],
-    "source_claims": [
-      "[bbc] Wangchuk ended his 26-day hunger strike after negotiations regarding the safety of protesters.",
-      "[aljazeera] Protesters are demanding the resignation of the education minister due to a medical exam scandal.",
-      "[guardian] Prime Minister Modi stated that individuals who harm the future of the youth will not be spared.",
-      "[aljazeera] Police are accused of using pellet guns during the crackdown on protesters in New Delhi."
-    ],
-    "framing_differences": [
-      "The Guardian frames the movement as a 'cockroach' protest that has 'rocked' and 'challenged' the government, whereas the BBC focuses on the individual actions of Sonam Wangchuk.",
-      "The BBC portrays the end of the strike as a negotiated conclusion, while Al Jazeera reports on the ongoing tension and the specific conditions Wangchuk requested."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] More than 100 students have reportedly been injured during police crackdowns.",
-      "[bbc] Wangchuk lost 11kg during his hunger strike."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'cockroach' to describe the protest movement.",
-      "[guardian] uses the term 'spirals' to describe the growth of the protest movement.",
-      "[aljazeera] uses the term 'crackdown' to describe police actions."
-    ],
-    "safe_conclusions": [
-      "There is an ongoing dispute involving student protesters, exam irregularities, and government policy in India.",
-      "Sonam Wangchuk has been a participant in the protest movement.",
-      "Prime Minister Modi has addressed the issue of exam fraud publicly."
-    ],
-    "unknowns": [
-      "The specific terms of the agreement reached between Wangchuk and authorities.",
-      "The exact number of injuries sustained by protesters during police operations.",
-      "Whether the protesters will accept the government's proposal for fast-track courts."
-    ],
-    "synthesis": "Student-led protests in New Delhi, centered on an examination paper leak scandal, have drawn attention from activist Sonam Wangchuk and Prime Minister Narendra Modi. Wangchuk has concluded a 26-day hunger strike following negotiations regarding the treatment of protesters, while the government has proposed fast-track courts to address the fraud. The situation remains active with reports of police intervention and continued demands from demonstrators.",
-    "confidence": "HIGH: All sources consistently report the core subject matter of exam-related protests and the government's formal response, despite differing focus areas.",
-    "sources": [
-      {
-        "id": "art_1784840761434_35mzx",
-        "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "India activist ends hunger strike after 26 days"
-      },
-      {
-        "id": "art_1784798008767_dk6mm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/indian-activist-wangchuk-sets-conditions-to-end-hunger-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Indian activist Wangchuk sets conditions to end hunger strike"
-      },
-      {
-        "id": "art_1784798013352_wujhs",
-        "url": "https://www.aljazeera.com/news/2026/7/23/indias-modi-promises-fast-track-courts-for-exam-fraud-fuelling-protests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "India’s Modi promises fast-track courts for exam fraud fuelling protests"
-      },
-      {
-        "id": "art_1784788348604_k1ysx",
-        "url": "https://www.theguardian.com/world/2026/jul/23/cockroach-janta-party-protest-cjp-india-modi-corrupt-officials",
-        "source": "guardian",
-        "title": "‘Cockroach’ protests: India’s Modi promises to punish corrupt officials in bid to quell anger"
-      },
-      {
-        "id": "art_1784788356324_b6b2w",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/23/indian-police-accused-of-using-pellet-guns-in-crackdown-on-indias-protests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Indian police accused of using pellet guns in crackdown on India’s protests"
-      },
-      {
-        "id": "art_1784761407579_ab63u",
-        "url": "https://www.bbc.co.uk/news/articles/c3ek3l9gp7go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Indian police cracked down on 'cockroach' protesters. They went home and made memes about it"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f492716595f343c3e7e448a27db46fd6",
-    "topic_label": "Trump and US Politics",
-    "event_window_start": "2026-07-22T22:21:48.000Z",
-    "event_window_end": "2026-07-23T21:03:17.000Z",
-    "article_ids": [
-      "art_1784840756571_s46n3",
-      "art_1784840759823_mv961",
-      "art_1784840763508_gbwiy",
-      "art_1784840767624_iajgr",
-      "art_1784840768703_prben",
-      "art_1784840769731_21x1a",
-      "art_1784836918938_lbwg4",
-      "art_1784826180136_1ockt",
-      "art_1784819708857_3xfd8",
-      "art_1784819722979_hvmam",
-      "art_1784811742273_kpc11",
-      "art_1784811748662_zqnom",
-      "art_1784765390382_nuzmq",
-      "art_1784761401224_8it03",
-      "art_1784761405472_d976o"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 15,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-23T21:38:40.067Z",
-    "updated_at": "2026-07-23T21:38:40.067Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[guardian] Blake Miguez is weighing which district to run in after a Louisiana congressional redistricting following a Supreme Court decision.",
-      "[guardian] Blake Miguez is the subject of a police report accusing him of rape, which he denies.",
-      "[fox] Justice Department records released by two Republican-led Senate committees indicate Jack Smith's team accessed text messages between Trump White House officials and 44 members of Congress.",
-      "[fox] Republican-led Senate committees allege Jack Smith's team bypassed a filter team intended to screen potentially privileged material.",
-      "[fox] Donald Trump remarked that the New York Mets 'lose all the time' during a speech.",
-      "[fox] Former Gov. Mark Sanford launched a bid for the U.S. Senate seat vacated by the late Sen. Lindsey Graham.",
-      "[fox] Sen. Darline Graham was appointed to fill the remainder of the late Sen. Lindsey Graham's term.",
-      "[fox] Jen Psaki suggested that Democrats are struggling to gain media coverage due to the news cycle being dominated by Donald Trump."
-    ],
-    "framing_differences": [
-      "The provided articles cover distinct, unrelated events involving different political figures and situations, preventing a direct comparison of framing for a single event."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Blake Miguez is the subject of a police report accusing him of rape.",
-      "[fox] Jack Smith's team bypassed a filter team for privileged material."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'legal reckoning' to describe the situation surrounding Jack Smith.",
-      "[fox] uses the term 'choked away' to describe the performance of the New York Mets.",
-      "[fox] uses the term 'drowned out' to describe the Democratic Party's media presence relative to Donald Trump."
-    ],
-    "safe_conclusions": [
-      "Various political and sports-related events involving figures such as Donald Trump, Blake Miguez, Mark Sanford, and Jen Psaki have been reported by the provided sources."
-    ],
-    "unknowns": [
-      "The details of the specific police report involving Blake Miguez.",
-      "The full extent of the materials accessed by Jack Smith's team.",
-      "The specific legislative policy impacts currently being discussed by the Democratic Party."
-    ],
-    "synthesis": "The provided sources report on a series of unrelated political and cultural news stories, including congressional election developments, legal scrutiny of a special counsel, sports commentary, and media analysis. There are no shared events or narratives between the reports, which cover separate topics involving different individuals and geographic locations. Each article functions as an independent report on specific political activities, controversies, or commentary.",
-    "confidence": "HIGH. The sources discuss entirely different subject matters, meaning there is no factual conflict between them.",
-    "sources": [
-      {
-        "id": "art_1784840756571_s46n3",
-        "url": "https://www.theguardian.com/us-news/2026/jul/23/blake-miguez-louisiana-house-trump",
-        "source": "guardian",
-        "title": "Louisiana House candidate accused of rape says he hopes to again ‘earn’ Trump endorsement"
-      },
-      {
-        "id": "art_1784840759823_mv961",
-        "url": "https://www.foxnews.com/politics/read-list-44-lawmakers-swept-jack-smith-text-sweep-his-legal-reckoning-grows",
-        "source": "fox",
-        "title": "Read the list: 44 lawmakers swept into Jack Smith text sweep as his legal reckoning grows"
-      },
-      {
-        "id": "art_1784840763508_gbwiy",
-        "url": "https://www.foxnews.com/sports/trump-takes-jab-mets-speech-praising-braves-ceo-lose-all-time",
-        "source": "fox",
-        "title": "Trump can't help but take jab at Mets in speech while praising Braves CEO: 'They lose all the time'"
-      },
-      {
-        "id": "art_1784840767624_iajgr",
-        "url": "https://www.foxnews.com/politics/trump-endorsement-fails-clear-gop-field-former-governor-joins-south-carolina-senate-race",
-        "source": "fox",
-        "title": "Trump endorsement fails to clear GOP field as former governor joins South Carolina Senate race"
-      },
-      {
-        "id": "art_1784840768703_prben",
-        "url": "https://www.foxnews.com/media/jen-psaki-worries-democrats-being-drowned-out-trump-press-coverage-suggests-maybe-were-all-fault",
-        "source": "fox",
-        "title": "Jen Psaki worries Democrats are being drowned out by Trump press coverage, suggests 'maybe we're all at fault'"
-      },
-      {
-        "id": "art_1784840769731_21x1a",
-        "url": "https://www.foxnews.com/politics/trumps-patience-running-out-thune-fires-back-stalled-election-bill",
-        "source": "fox",
-        "title": "Trump's patience 'running out' as Thune fires back over stalled election security bill"
-      },
-      {
-        "id": "art_1784836918938_lbwg4",
-        "url": "https://www.foxnews.com/politics/trump-says-chinese-president-xi-jinping-visit-us-sept-24",
-        "source": "fox",
-        "title": "Trump says Chinese President Xi Jinping will visit US on Sept 24"
-      },
-      {
-        "id": "art_1784826180136_1ockt",
-        "url": "https://www.foxnews.com/politics/johnson-delivers-big-trump-frustration-grows-across-razor-thin-gop-majority",
-        "source": "fox",
-        "title": "Johnson delivers big for Trump, but frustration grows across razor-thin GOP majority"
-      },
-      {
-        "id": "art_1784819708857_3xfd8",
-        "url": "https://www.foxnews.com/media/darline-graham-reveals-trump-told-oval-office-after-brother-lindsey-death",
-        "source": "fox",
-        "title": "Darline Graham reveals what Trump told her inside Oval Office after brother Lindsey's death"
-      },
-      {
-        "id": "art_1784819722979_hvmam",
-        "url": "https://www.foxnews.com/politics/first-fox-white-house-reveals-whos-joining-trump-correspondents-dinner-who-cant-attend",
-        "source": "fox",
-        "title": "FIRST ON FOX: White House reveals who’s joining Trump at correspondents’ dinner — and who can’t attend"
-      },
-      {
-        "id": "art_1784811742273_kpc11",
-        "url": "https://www.foxnews.com/outkick-sports/president-trump-urges-atlanta-braves-fans-continue-controversial-chop-home-games",
-        "source": "fox",
-        "title": "President Trump urges Atlanta Braves fans to continue doing controversial 'chop' at home games"
-      },
-      {
-        "id": "art_1784811748662_zqnom",
-        "url": "https://www.foxnews.com/tech/trump-launches-gold-eagle-hunt-cyber-flaws-ai",
-        "source": "fox",
-        "title": "Trump launches Gold Eagle to hunt cyber flaws with AI"
-      },
-      {
-        "id": "art_1784765390382_nuzmq",
-        "url": "https://www.theguardian.com/us-news/2026/jul/22/trump-affordability-georgia-rally",
-        "source": "guardian",
-        "title": "Trump scoffs at ‘affordability’ as he touts economic policies at Georgia rally"
-      },
-      {
-        "id": "art_1784761401224_8it03",
-        "url": "https://www.foxnews.com/politics/trump-pays-emotional-tribute-fallen-army-lt-tyler-feehan-flying-grieving-family-air-force-one",
-        "source": "fox",
-        "title": "Trump gives emotional tribute to fallen Army Lt Tyler Feehan after flying grieving family on Air Force One"
-      },
-      {
-        "id": "art_1784761405472_d976o",
-        "url": "https://www.foxnews.com/media/journalists-demand-white-house-correspondents-association-speak-truth-power-new-dinner-trump",
-        "source": "fox",
-        "title": "Journalists demand White House Correspondents' Association 'speak truth to power' in new dinner with Trump"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "16536937c06eb72af5fa399c4554492b",
-    "topic_label": "Caitlin Clark and WNBA Coverage",
-    "event_window_start": "2026-07-23T01:03:24.000Z",
-    "event_window_end": "2026-07-23T19:42:02.000Z",
-    "article_ids": [
-      "art_1784836913511_6ici6",
-      "art_1784836919987_dwzn8",
-      "art_1784806125224_2f3rn",
-      "art_1784779093210_7mwxn",
-      "art_1784779098553_v9jcq",
-      "art_1784779106200_mm9rh"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-23T21:38:40.067Z",
-    "updated_at": "2026-07-23T21:38:40.067Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Caitlin Clark is a professional basketball player for the Indiana Fever.",
-      "Nancy Armour is a columnist for USA Today.",
-      "Nancy Armour issued an apology regarding a comparison she made involving Emmett Till in a column about Caitlin Clark."
-    ],
-    "source_claims": [
-      "[fox] Riley Gaines claims that concerns surrounding Caitlin Clark are based on her talent rather than race or sexuality.",
-      "[fox] Sage Steele claims the WNBA is mishandling Caitlin Clark and cites poor officiating as a concern for the league's future.",
-      "[fox] Nancy Armour, as described by fox, argued that Caitlin Clark's behavior toward officials may fuel racist abuse and put Black and queer players in danger.",
-      "[fox] Dan Dakich expresses support for criticizing Caitlin Clark's behavior on the court while criticizing the WNBA's lack of accountability regarding her treatment."
-    ],
-    "framing_differences": [
-      "Fox frames the controversy surrounding Nancy Armour's column as an example of an out-of-touch media figure who targets Caitlin Clark, while the articles emphasize the critical responses from figures like Dave Portnoy and Dan Dakich."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Dave Portnoy characterized Nancy Armour's argument as claiming that Caitlin Clark's supporters have a 'White nationalist element'.",
-      "[fox] Dan Dakich alleges that the WNBA league leadership is failing to defend Caitlin Clark."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'woke' to describe people who criticized the initial column.",
-      "[fox] uses the term 'blasted' to describe Dave Portnoy's response to Nancy Armour.",
-      "[fox] uses the term 'inartful' as quoted from Nancy Armour's apology."
-    ],
-    "safe_conclusions": [
-      "Nancy Armour wrote a column discussing Caitlin Clark that included a comparison to Emmett Till.",
-      "Nancy Armour has apologized for that specific comparison."
-    ],
-    "unknowns": [
-      "The specific full text of the original column written by Nancy Armour is not provided.",
-      "The full scope of the correspondence between the WNBA and the GOP referenced by Dan Dakich."
-    ],
-    "synthesis": "USA Today columnist Nancy Armour issued an apology following a column that compared issues facing the WNBA to the murder of Emmett Till, a move that drew significant criticism from several sports commentators. Various public figures have debated whether Caitlin Clark's treatment by officials and the subsequent discourse reflects broader issues of race and accountability within the league. Separately, the Indiana Fever continues to experience on-court success with Caitlin Clark contributing to recent franchise scoring records.",
-    "confidence": "HIGH: All sources are from the same publisher and report consistently on the apology and the nature of the primary controversy.",
-    "sources": [
-      {
-        "id": "art_1784836913511_6ici6",
-        "url": "https://www.foxnews.com/outkick-sports/usa-today-reporter-apologizes-invoking-emmett-till-column-caitlin-clark-upsetting-woke",
-        "source": "fox",
-        "title": "USA Today Reporter apologizes for invoking Emmett Till in column about Caitlin Clark after upsetting the woke"
-      },
-      {
-        "id": "art_1784836919987_dwzn8",
-        "url": "https://www.foxnews.com/media/dave-portnoy-blasts-usa-today-columnist-claiming-caitlin-clark-referee-complaints-fuel-racism",
-        "source": "fox",
-        "title": "Dave Portnoy blasts USA Today columnist for claiming Caitlin Clark’s referee complaints fuel racism"
-      },
-      {
-        "id": "art_1784806125224_2f3rn",
-        "url": "https://www.foxnews.com/outkick-sports/usa-today-writer-says-caitlin-clark-puts-black-queer-wnba-players-danger-flopping",
-        "source": "fox",
-        "title": "USA Today writer says Caitlin Clark puts Black and queer WNBA players 'in danger' by flopping"
-      },
-      {
-        "id": "art_1784779093210_7mwxn",
-        "url": "https://www.foxnews.com/outkick-sports/caitlin-clark-proves-no-nba-2k27-cover-curse-fever-set-franchise-scoring-record",
-        "source": "fox",
-        "title": "Caitlin Clark proves there's no NBA 2K27 cover curse as Fever set franchise scoring record"
-      },
-      {
-        "id": "art_1784779098553_v9jcq",
-        "url": "https://www.foxnews.com/sports/libertys-sabrina-ionescu-addresses-absence-wnba-3-point-contest-never-officially-got-invited",
-        "source": "fox",
-        "title": "Liberty's Sabrina Ionescu addresses absence from WNBA 3-point contest: 'Never officially got invited'"
-      },
-      {
-        "id": "art_1784779106200_mm9rh",
-        "url": "https://www.foxnews.com/outkick-sports/sophie-cunningham-doubles-down-ahead-sun-game-after-espn-profile-stirs-controversy-i-said-what-i-said",
-        "source": "fox",
-        "title": "Sophie Cunningham doubles down ahead of Sun game after ESPN profile stirs controversy: 'I said what I said'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ac429c33f2384831459de73207495743",
-    "topic_label": "Google EU antitrust fines",
-    "event_window_start": "2026-07-23T10:00:42.000Z",
-    "event_window_end": "2026-07-23T12:11:24.000Z",
-    "article_ids": [
-      "art_1784811746531_xmp74",
-      "art_1784806128425_xc1i5"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-23T13:46:24.669Z",
-    "updated_at": "2026-07-23T13:46:24.669Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The European Union has issued a fine of 890 million euros to Google for antitrust breaches.",
-      "The breaches involve Google's search engine and app store services.",
-      "The European Commission is the regulatory body responsible for the fine."
-    ],
-    "source_claims": [
-      "[aljazeera] The fine is a result of Google steering users of Google Play and its search engine towards its own services at the expense of rivals.",
-      "[guardian] Google breached the Digital Markets Act by giving priority to its own shopping and hotel deals in search results.",
-      "[guardian] Google infringed the DMA by preventing app developers from directing consumers to cheaper offers on other websites or app stores.",
-      "[guardian] The fine is split into 460 million euros for search-related breaches and 430 million euros for app store violations."
-    ],
-    "framing_differences": [
-      "aljazeera frames the event as part of a broader EU crackdown on Big Tech from Silicon Valley to Beijing, whereas the guardian focuses specifically on the technical requirements for Google to treat third-party services in a fair and non-discriminatory manner."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Google had recently lost an appeal against a $4.5bn antitrust fine related to its Android operating system."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'crackdown' to describe EU regulatory actions against technology firms."
-    ],
-    "safe_conclusions": [
-      "Google has been fined 890 million euros by the European Commission for violating competition-related regulations."
-    ],
-    "unknowns": [
-      "The specific technical remediation measures Google is required to implement to comply with the European Commission's order.",
-      "Whether Google intends to appeal this specific fine."
-    ],
-    "synthesis": "The European Commission has fined Google 890 million euros for antitrust violations concerning its search engine and app store operations. The regulatory body cites preferential treatment of Google's own services and restrictions on third-party app developers as the basis for the penalties. This action represents the latest enforcement activity by the European Union regarding digital market competition.",
-    "confidence": "HIGH. Both sources independently corroborate the fine amount, the regulatory body involved, and the general subject matter of the antitrust violations.",
-    "sources": [
-      {
-        "id": "art_1784811746531_xmp74",
-        "url": "https://www.aljazeera.com/news/2026/7/23/eu-hits-google-with-new-1bn-fine-saying-it-broke-digital-antitrust-rules?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "EU hits Google with new $1bn fine, saying it broke digital antitrust rules"
-      },
-      {
-        "id": "art_1784806128425_xc1i5",
-        "url": "https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps",
-        "source": "guardian",
-        "title": "EU fines Google €890m for competition breaches over search and apps"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
