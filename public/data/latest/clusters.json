@@ -1,5 +1,459 @@
 [
   {
+    "cluster_id": "f75e6054c1d453897a940f836ce4178c",
+    "topic_label": "US Strikes on Iran",
+    "event_window_start": "2026-07-29T23:10:15.000Z",
+    "event_window_end": "2026-07-30T03:33:01.000Z",
+    "article_ids": [
+      "art_1785383213465_8yasn",
+      "art_1785383215798_h8hp0",
+      "art_1785383218064_5ljcn",
+      "art_1785370289364_ocdk7"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-30T05:29:10.308Z",
+    "updated_at": "2026-07-30T05:29:10.308Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The US military has conducted military strikes against Iranian targets and facilities.",
+      "US Central Command (CENTCOM) announced the strikes were in response to Iranian actions against US forces.",
+      "Joint US-Saudi strikes were conducted against targets in Iraq."
+    ],
+    "source_claims": [
+      "[bbc] The US military launched heavy strikes on Iran in retaliation for attempted ballistic missile attacks on American forces.",
+      "[guardian] US strikes hit dozens of IRGC targets, including military command centers, missile and drone facilities, and coastal defense sites.",
+      "[guardian] Iranian state media reported two people were injured in attacks on Qeshm island and explosions in Khuzestan province.",
+      "[aljazeera] Iraq’s National Security Council stated that joint US-Saudi strikes killed at least 20 members of the Popular Mobilisation Forces.",
+      "[aljazeera] The Iraqi government characterized the strikes as a flagrant violation of its sovereignty and international law."
+    ],
+    "framing_differences": [
+      "bbc and guardian frame the events primarily as a US response to Iranian hostilities, while aljazeera frames the events through the perspective of Iraqi sovereignty and the casualties sustained by Iraqi paramilitary groups."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] President Donald Trump previously predicted the war would last only a few weeks.",
+      "[bbc] President Donald Trump met with the Saudi defence minister."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'flagrant violation' to describe the joint US-Saudi strikes in Iraq.",
+      "[aljazeera] uses the term 'aggression' to describe the military actions conducted by the US and Saudi Arabia.",
+      "[guardian] uses the term 'uncharted territory' to describe the regional situation following US-Saudi strikes."
+    ],
+    "safe_conclusions": [
+      "Military strikes involving the US, Saudi Arabia, and Iran have occurred recently.",
+      "These strikes have taken place in Iraq and Iran.",
+      "The Iraqi government has officially condemned the joint US-Saudi strikes on its territory."
+    ],
+    "unknowns": [
+      "The total number of casualties in Iran resulting from the US strikes.",
+      "The specific identity and capabilities of all targeted facilities in Iran.",
+      "The long-term strategic objectives of the US-Saudi joint operations."
+    ],
+    "synthesis": "The United States military has conducted air strikes against targets in Iran and Iraq, citing the need to diminish threats to American forces. The Iraqi government has formally condemned the joint US-Saudi strikes on its territory as a violation of sovereignty. Reports indicate the strikes have targeted facilities linked to the Islamic Revolutionary Guard Corps and various armed groups in the region.",
+    "confidence": "MEDIUM; While the fact of the military strikes is corroborated, the reporting focus varies significantly between US-aligned and regional news outlets regarding the impact and legitimacy of the operations.",
+    "sources": [
+      {
+        "id": "art_1785383213465_8yasn",
+        "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops"
+      },
+      {
+        "id": "art_1785383215798_h8hp0",
+        "url": "https://www.theguardian.com/world/live/2026/jul/30/us-iran-war-live-updates-missile-strikes-attacks-iraq-egypt-middle-east-crisis-latest-news",
+        "source": "guardian",
+        "title": "Middle East crisis live: US launches ‘heavy waves of strikes’ on Iran after days-long pause in attacks"
+      },
+      {
+        "id": "art_1785383218064_5ljcn",
+        "url": "https://www.theguardian.com/world/2026/jul/30/us-strikes-iran-war-widening-iraq",
+        "source": "guardian",
+        "title": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening"
+      },
+      {
+        "id": "art_1785370289364_ocdk7",
+        "url": "https://www.aljazeera.com/news/2026/7/29/iraq-calls-saudi-us-attacks-flagrant-violation-of-sovereignty?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iraq calls Saudi-US attacks a ‘flagrant violation of sovereignty’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5f040a0cf45b219235e484c518e6741f",
+    "topic_label": "Fauci Testimony on COVID Origins",
+    "event_window_start": "2026-07-29T11:09:27.000Z",
+    "event_window_end": "2026-07-30T03:04:18.000Z",
+    "article_ids": [
+      "art_1785383220360_ekf21",
+      "art_1785370276394_ol48i",
+      "art_1785355074836_xi7sh",
+      "art_1785355075885_8kbfj",
+      "art_1785355081176_zqcjs",
+      "art_1785355083251_6d4jz",
+      "art_1785324529899_kliun",
+      "art_1785324532134_bz5e8"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 8,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-30T05:29:10.308Z",
+    "updated_at": "2026-07-30T05:29:10.308Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Dr. Anthony Fauci attended a Senate hearing on Wednesday.",
+      "Dr. Anthony Fauci invoked his Fifth Amendment right against self-incrimination during the hearing.",
+      "The hearing concerned the origins of COVID-19 and the government's handling of the pandemic.",
+      "Senator Rand Paul issued a subpoena for Dr. Anthony Fauci to testify."
+    ],
+    "source_claims": [
+      "[aljazeera] Dr. Anthony Fauci was granted a preemptive pardon by former President Joe Biden in 2025.",
+      "[fox] Senator Ted Cruz has called for Dr. Anthony Fauci to be prosecuted for perjury and sent to jail.",
+      "[fox] Senator John Fetterman stated he regrets not speaking up more about the possibility that COVID-19 originated in a lab.",
+      "[fox] Senator Bernie Moreno used profanity while criticizing Dr. Anthony Fauci's pandemic policies.",
+      "[fox] Jonathan Turley claims Dr. Anthony Fauci had 'zero legal justification' for invoking the Fifth Amendment."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event around the procedural aspect of invoking the Fifth Amendment and Republican-led investigations, whereas Fox focuses on the political criticism, demands for prosecution by Senators, and the personal regrets of Senator Fetterman.",
+      "Fox presents the hearing through the lens of political accountability and personal criticism of Fauci, while Al Jazeera maintains a more descriptive account of the proceedings."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Senator Ted Cruz claims Dr. Anthony Fauci's diary shows he deliberately lied to the American people.",
+      "[fox] Senator Bernie Moreno claims Dr. Anthony Fauci was more interested in meeting with celebrities than administering to the American people."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'most damaging bureaucrat' to describe Anthony Fauci.",
+      "[fox] uses the term 'collective madness' to describe the country's state during the pandemic era according to Ted Cruz.",
+      "[fox] uses the term 'zero legal justification' to describe Fauci's invocation of the Fifth Amendment."
+    ],
+    "safe_conclusions": [
+      "Dr. Anthony Fauci appeared before a Senate committee on Wednesday regarding the origins of COVID-19.",
+      "Dr. Anthony Fauci invoked his Fifth Amendment rights during the hearing.",
+      "Members of the Senate expressed varying perspectives on Dr. Anthony Fauci's performance and past actions."
+    ],
+    "unknowns": [
+      "The specific questions Dr. Anthony Fauci refused to answer by invoking the Fifth Amendment.",
+      "The legal status of the preemptive pardon mentioned in the Al Jazeera report.",
+      "Whether the Senate committee will pursue formal contempt charges."
+    ],
+    "synthesis": "Dr. Anthony Fauci testified before a Senate committee regarding the origins and government response to the COVID-19 pandemic. During the proceedings, Fauci invoked his Fifth Amendment right against self-incrimination, a move that prompted criticism from several Republican senators. The hearing also included expressions of regret from Senator John Fetterman regarding his past handling of the lab-leak theory.",
+    "confidence": "HIGH. The core facts regarding the event—the hearing, the participants, and the invocation of the Fifth Amendment—are consistently reported across the provided sources.",
+    "sources": [
+      {
+        "id": "art_1785383220360_ekf21",
+        "url": "https://www.aljazeera.com/news/2026/7/30/why-did-anthony-fauci-invoke-the-fifth-amendment-senate-hearing-explained?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why did Anthony Fauci invoke the Fifth Amendment? Senate hearing explained"
+      },
+      {
+        "id": "art_1785370276394_ol48i",
+        "url": "https://www.foxnews.com/politics/ted-cruz-demands-fauci-face-jail-time-labels-him-americas-most-damaging-bureaucrat",
+        "source": "fox",
+        "title": "Ted Cruz demands Fauci face jail time, labels him as America's 'most damaging bureaucrat'"
+      },
+      {
+        "id": "art_1785355074836_xi7sh",
+        "url": "https://www.foxnews.com/politics/watch-fetterman-reveals-his-one-regret-from-covid-era-after-fauci-testimony",
+        "source": "fox",
+        "title": "WATCH: Fetterman reveals his ‘one regret’ from COVID era after Fauci testimony"
+      },
+      {
+        "id": "art_1785355075885_8kbfj",
+        "url": "https://www.foxnews.com/politics/senators-f-bomb-bashing-fauci-rocks-internet-high-heat-fastball",
+        "source": "fox",
+        "title": "Senator’s F-bomb bashing of Fauci rocks Internet: ‘High-heat fastball!’"
+      },
+      {
+        "id": "art_1785355081176_zqcjs",
+        "url": "https://www.foxnews.com/opinion/jonathan-turley-fauci-took-fifth-diary-may-have-answered",
+        "source": "fox",
+        "title": "JONATHAN TURLEY: Fauci took the Fifth, but his diary may have already answered for him"
+      },
+      {
+        "id": "art_1785355083251_6d4jz",
+        "url": "https://www.foxnews.com/politics/top-5-moments-from-faucis-hearing-paul-boots-lawyer-moreno-erupts-contempt-vote-looms",
+        "source": "fox",
+        "title": "Top 5 moments from Fauci's hearing: Paul boots lawyer, Moreno erupts as contempt vote looms"
+      },
+      {
+        "id": "art_1785324529899_kliun",
+        "url": "https://www.foxnews.com/us/dr-fauci-testify-about-covids-origins-senate-hearing-more-top-headlines",
+        "source": "fox",
+        "title": "Dr Fauci to testify about COVID's origins at Senate hearing and more top headlines"
+      },
+      {
+        "id": "art_1785324532134_bz5e8",
+        "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates",
+        "source": "guardian",
+        "title": "Fauci to face Republican questions over Covid pandemic origins – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5c80ca3bb6740fb07d6580be3536c872",
+    "topic_label": "Deadly Japan Earthquake",
+    "event_window_start": "2026-07-29T11:01:20.000Z",
+    "event_window_end": "2026-07-30T02:59:32.000Z",
+    "article_ids": [
+      "art_1785383222599_90ttj",
+      "art_1785370284016_pt649",
+      "art_1785324530935_t8zjk",
+      "art_1785324535394_hfkmg"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-30T05:29:10.308Z",
+    "updated_at": "2026-07-30T05:29:10.308Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A magnitude 6.8 earthquake occurred in Kumamoto prefecture on the island of Kyushu on a Tuesday.",
+      "The earthquake resulted in deaths and injuries.",
+      "A shopping mall in the affected area sustained damage, including a partial collapse and an explosion.",
+      "Rescue operations involving emergency personnel are underway to locate survivors in the rubble of buildings."
+    ],
+    "source_claims": [
+      "[guardian] The death toll from the earthquake has risen to at least 23.",
+      "[guardian] The earthquake injured at least 62 people according to the prefectural government.",
+      "[guardian] Approximately 5,000 Self-Defence Forces personnel are deployed for recovery efforts.",
+      "[bbc] The earthquake death toll was at least 13 as of the report date.",
+      "[bbc] Many people are in 'cardiopulmonary arrest,' a preliminary term used before official death confirmation.",
+      "[bbc] Prime Minister Sanae Takaichi stated that rescue efforts are 'a race against time'."
+    ],
+    "framing_differences": [
+      "The Guardian focuses on the impact on rescue efforts due to heat and aftershocks, whereas the BBC includes personal narratives from survivors such as Hiroko Ogata.",
+      "The Guardian reports a death toll of 23, while the BBC report specifies a death toll of 13."
+    ],
+    "contested_claims": [
+      "The reported death toll from the earthquake differs between sources, with the Guardian reporting at least 23 deaths and the BBC reporting at least 13."
+    ],
+    "unverified_claims": [
+      "[guardian] A significant magnitude 5.8 aftershock hit overnight.",
+      "[bbc] More than 100 aftershocks have hit the region since the initial earthquake."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'shock and horror' to describe the survivors' experiences.",
+      "[bbc] uses the term 'searing heat' to describe the weather conditions."
+    ],
+    "safe_conclusions": [
+      "A significant earthquake occurred in Kumamoto prefecture, Japan.",
+      "Rescue efforts are currently being conducted in the region.",
+      "The earthquake caused structural damage, including to a shopping mall."
+    ],
+    "unknowns": [
+      "The precise and final number of casualties resulting from the earthquake.",
+      "The exact cause of the explosion at the shopping mall."
+    ],
+    "synthesis": "A magnitude 6.8 earthquake struck Kumamoto prefecture in Japan on a Tuesday, causing structural damage and requiring ongoing search and rescue operations. Reports on the immediate death toll vary between 13 and 23. Recovery efforts are currently challenged by environmental conditions, including high temperatures and ongoing aftershocks.",
+    "confidence": "MEDIUM; The death toll figures are inconsistent between reports, suggesting varying timeframes for data collection or reporting.",
+    "sources": [
+      {
+        "id": "art_1785383222599_90ttj",
+        "url": "https://www.theguardian.com/world/2026/jul/30/japan-earthquake-death-toll-rises",
+        "source": "guardian",
+        "title": "Death toll in Japan earthquake rises to 23 as aftershock and heat complicate rescue efforts"
+      },
+      {
+        "id": "art_1785370284016_pt649",
+        "url": "https://www.bbc.co.uk/news/videos/c9d8ggpdgqlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: Japanese mall explodes after magnitude 6.8 earthquake"
+      },
+      {
+        "id": "art_1785324530935_t8zjk",
+        "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "More than 100 aftershocks hit Japan after deadly quake that killed 13"
+      },
+      {
+        "id": "art_1785324535394_hfkmg",
+        "url": "https://www.bbc.co.uk/news/articles/cvgw52l5kyyo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'I thought I would die': Survivors describe shock and horror of powerful Japan earthquake"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b54053bea047cc14ed8f235dfa09a2d5",
+    "topic_label": "Global Wildfire Incidents",
+    "event_window_start": "2026-07-29T11:02:21.000Z",
+    "event_window_end": "2026-07-29T19:15:10.000Z",
+    "article_ids": [
+      "art_1785355080140_0uozn",
+      "art_1785355089517_gwrdr",
+      "art_1785324534354_q8ul0"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-29T22:00:23.226Z",
+    "updated_at": "2026-07-29T22:00:23.226Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Wildfires are currently affecting regions in Europe, including France.",
+      "The Gironde region near Bordeaux, France, is experiencing significant wildfire activity.",
+      "Extreme temperatures and high winds are identified as factors contributing to the difficulty of containing the fires."
+    ],
+    "source_claims": [
+      "[fox] reports that over 220,000 people have been forced to evacuate due to wildfires in Southwest France.",
+      "[fox] reports that Greek authorities warned of potential wildfire reignition on the island of Paros due to strong winds.",
+      "[aljazeera] claims that 42,000 hectares (103,000 acres) have been burned in the Bordeaux region.",
+      "[aljazeera] reports that 220,000 people have been evacuated in relation to the Bordeaux fires.",
+      "[guardian] states that EU crisis-management officials expect difficult weeks ahead with potential further wildfire outbreaks in Italy and Greece.",
+      "[guardian] notes that authorities in the Gironde and Madrid regions fear rising temperatures could hinder containment progress."
+    ],
+    "framing_differences": [
+      "fox frames the event by focusing on personal anecdotes of individual travelers and localized tourist-destination risks, whereas aljazeera and the guardian focus on regional environmental data and EU-level crisis management coordination."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims Rebecca Papin and her two children were trapped by wildfires in Southwest France.",
+      "[fox] claims the fire in Paros spread specifically through dry vegetation near the Kampi area."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'raging' to describe the wildfire.",
+      "[fox] uses the term 'terrifying' to describe the experience of an evacuee.",
+      "[fox] uses the term 'stunning mountain escape' and 'selfie tourism backlash' in the context of a separate headline."
+    ],
+    "safe_conclusions": [
+      "Wildfires are present in Europe.",
+      "Authorities in multiple countries are actively monitoring or fighting wildfires.",
+      "High temperatures and wind conditions are complicating firefighting efforts."
+    ],
+    "unknowns": [
+      "The exact number of total current casualties across all affected European regions.",
+      "The specific cause of the ignition for the Paros wildfire.",
+      "The current status of individual evacuation orders in the Gironde region beyond the reported 220,000 figure."
+    ],
+    "synthesis": "Wildfires are currently active in several European regions, including France, Greece, and areas near Madrid. Firefighting efforts in these locations are being challenged by extreme temperatures and strong winds. EU crisis-management officials have indicated that difficult conditions are expected to persist throughout the summer.",
+    "confidence": "HIGH. The sources consistently report on the presence of wildfires and the meteorological conditions exacerbating them across Europe.",
+    "sources": [
+      {
+        "id": "art_1785355080140_0uozn",
+        "url": "https://www.foxnews.com/travel/vacation-paradise-evacuated-raging-wildfire-threatens-roar-back-high-winds",
+        "source": "fox",
+        "title": "Vacation paradise evacuated as raging wildfire threatens to roar back amid high winds"
+      },
+      {
+        "id": "art_1785355089517_gwrdr",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bordeaux-wildfire-battle-continues-amid-extreme-heat?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Bordeaux wildfire battle continues amid extreme heat"
+      },
+      {
+        "id": "art_1785324534354_q8ul0",
+        "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "Pedro Sánchez says next 12 hours will be ‘decisive’ in battle to contain wildfires – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bc40909a35b68c7e7d7c4ada366c32cf",
+    "topic_label": "Israel and West Bank Conflicts",
+    "event_window_start": "2026-07-29T23:29:24.000Z",
+    "event_window_end": "2026-07-30T02:45:25.000Z",
+    "article_ids": [
+      "art_1785383225780_e2ott",
+      "art_1785370285043_ohyws"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-07-30T05:29:10.308Z",
+    "updated_at": "2026-07-30T05:29:10.308Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Canadian government issued a statement regarding Israeli settlements in the West Bank.",
+      "The Israeli Ministry of Foreign Affairs responded to Canada's statement via social media.",
+      "The Canadian government maintains that Israeli settlements in the Palestinian territory are illegal under international law."
+    ],
+    "source_claims": [
+      "[aljazeera] The Canadian government statement reaffirms opposition to Israeli expansion in the occupied West Bank.",
+      "[aljazeera] The Israeli Ministry of Foreign Affairs dismissed Canada's concerns as misguided.",
+      "[aljazeera] The United Nations reports that 76 Palestinians have died this year in settler attacks."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the Canadian statement as an opposition to 'illegal' settlements, while describing the Israeli Ministry's response as a 'tit-for-tat' social media dispute."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Settlers have carried out widespread and violent attacks on Palestinian communities."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'tit-for-tat' to describe the exchange on social media between Canadian and Israeli foreign ministries.",
+      "[aljazeera] uses the term 'misguided' to characterize the Israeli Ministry of Foreign Affairs' dismissal of Canadian concerns."
+    ],
+    "safe_conclusions": [
+      "Canada and Israel have differing diplomatic positions regarding West Bank settlements.",
+      "Both nations have utilized social media to communicate their respective stances."
+    ],
+    "unknowns": [
+      "The specific full content of the Israeli Ministry of Foreign Affairs' response.",
+      "The precise methodology used by the UN to attribute the 76 deaths to settler attacks."
+    ],
+    "synthesis": "The Canadian government released a statement opposing the expansion of Israeli settlements in the West Bank, citing international law. The Israeli Ministry of Foreign Affairs subsequently rejected these concerns on social media. The diplomatic exchange occurs amidst reports of increased violence in the region.",
+    "confidence": "HIGH. The sources consistently report on the existence of a diplomatic disagreement between Canada and Israel regarding the West Bank.",
+    "sources": [
+      {
+        "id": "art_1785383225780_e2ott",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/living-with-fear-inside-a-southern-lebanon-village-divided-by-israel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Living with fear: Inside a southern Lebanon village divided by Israel"
+      },
+      {
+        "id": "art_1785370285043_ohyws",
+        "url": "https://www.aljazeera.com/news/2026/7/29/israel-slams-canada-for-statement-opposing-west-bank-settlement-expansion?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel slams Canada for statement opposing West Bank settlement expansion"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "fcc6f816a7e161b42d17b1dce5542185",
     "topic_label": "Japan Earthquake Crisis",
     "event_window_start": "2026-07-29T05:18:36.000Z",
@@ -294,90 +748,6 @@
         "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates",
         "source": "guardian",
         "title": "Fauci to face Republican questions over Covid pandemic origins – US politics live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b54053bea047cc14ed8f235dfa09a2d5",
-    "topic_label": "Global Wildfire Incidents",
-    "event_window_start": "2026-07-29T11:02:21.000Z",
-    "event_window_end": "2026-07-29T19:15:10.000Z",
-    "article_ids": [
-      "art_1785355080140_0uozn",
-      "art_1785355089517_gwrdr",
-      "art_1785324534354_q8ul0"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-29T22:00:23.226Z",
-    "updated_at": "2026-07-29T22:00:23.226Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Wildfires are currently affecting regions in Europe, including France.",
-      "The Gironde region near Bordeaux, France, is experiencing significant wildfire activity.",
-      "Extreme temperatures and high winds are identified as factors contributing to the difficulty of containing the fires."
-    ],
-    "source_claims": [
-      "[fox] reports that over 220,000 people have been forced to evacuate due to wildfires in Southwest France.",
-      "[fox] reports that Greek authorities warned of potential wildfire reignition on the island of Paros due to strong winds.",
-      "[aljazeera] claims that 42,000 hectares (103,000 acres) have been burned in the Bordeaux region.",
-      "[aljazeera] reports that 220,000 people have been evacuated in relation to the Bordeaux fires.",
-      "[guardian] states that EU crisis-management officials expect difficult weeks ahead with potential further wildfire outbreaks in Italy and Greece.",
-      "[guardian] notes that authorities in the Gironde and Madrid regions fear rising temperatures could hinder containment progress."
-    ],
-    "framing_differences": [
-      "fox frames the event by focusing on personal anecdotes of individual travelers and localized tourist-destination risks, whereas aljazeera and the guardian focus on regional environmental data and EU-level crisis management coordination."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Rebecca Papin and her two children were trapped by wildfires in Southwest France.",
-      "[fox] claims the fire in Paros spread specifically through dry vegetation near the Kampi area."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'raging' to describe the wildfire.",
-      "[fox] uses the term 'terrifying' to describe the experience of an evacuee.",
-      "[fox] uses the term 'stunning mountain escape' and 'selfie tourism backlash' in the context of a separate headline."
-    ],
-    "safe_conclusions": [
-      "Wildfires are present in Europe.",
-      "Authorities in multiple countries are actively monitoring or fighting wildfires.",
-      "High temperatures and wind conditions are complicating firefighting efforts."
-    ],
-    "unknowns": [
-      "The exact number of total current casualties across all affected European regions.",
-      "The specific cause of the ignition for the Paros wildfire.",
-      "The current status of individual evacuation orders in the Gironde region beyond the reported 220,000 figure."
-    ],
-    "synthesis": "Wildfires are currently active in several European regions, including France, Greece, and areas near Madrid. Firefighting efforts in these locations are being challenged by extreme temperatures and strong winds. EU crisis-management officials have indicated that difficult conditions are expected to persist throughout the summer.",
-    "confidence": "HIGH. The sources consistently report on the presence of wildfires and the meteorological conditions exacerbating them across Europe.",
-    "sources": [
-      {
-        "id": "art_1785355080140_0uozn",
-        "url": "https://www.foxnews.com/travel/vacation-paradise-evacuated-raging-wildfire-threatens-roar-back-high-winds",
-        "source": "fox",
-        "title": "Vacation paradise evacuated as raging wildfire threatens to roar back amid high winds"
-      },
-      {
-        "id": "art_1785355089517_gwrdr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/bordeaux-wildfire-battle-continues-amid-extreme-heat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bordeaux wildfire battle continues amid extreme heat"
-      },
-      {
-        "id": "art_1785324534354_q8ul0",
-        "url": "https://www.theguardian.com/world/live/2026/jul/29/france-spain-wildfires-heatwave-extreme-heat-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Pedro Sánchez says next 12 hours will be ‘decisive’ in battle to contain wildfires – Europe live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19953,382 +20323,6 @@
         "url": "https://www.foxnews.com/media/fired-60-minutes-correspondent-accuses-cbs-news-leadership-meddling-reporting",
         "source": "fox",
         "title": "Fired '60 Minutes' correspondent accuses CBS News leadership of meddling in reporting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b60b0b5a9302ca576a3586f74e227cd1",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-07-25T18:06:09.000Z",
-    "event_window_end": "2026-07-25T18:23:10.000Z",
-    "article_ids": [
-      "art_1785004423655_km9hh",
-      "art_1785004424701_5s2ph",
-      "art_1785004425852_mic4p",
-      "art_1785004426945_x8sgg",
-      "art_1785004428005_r340u"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-25T19:46:49.078Z",
-    "updated_at": "2026-07-25T19:46:49.078Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] Sophie Cunningham defended her position on Title IX and the exclusion of biological men from girls' sports.",
-      "[fox] Jennifer Sey supports Cunningham's stance on women's sports.",
-      "[fox] Riley Gaines criticized Nancy Armour for a column comparing Emmett Till to Caitlin Clark.",
-      "[aljazeera] Israel's Knesset passed media reforms that reduce oversight and journalism standards.",
-      "[aljazeera] The Union of Journalists in Israel and opposition parties petitioned the High Court of Justice regarding the media legislation.",
-      "[guardian] Cecilia Vega stated she felt pressure from CBS executives to incorporate political bias into her reporting.",
-      "[aljazeera] Epstein survivors are seeking to block Donald Trump's attorney general nominee."
-    ],
-    "framing_differences": [
-      "Fox frames the discussion around Sophie Cunningham as a defense of women's sports, whereas the same coverage mentions media backlash without detailing the specific criticisms of her stance."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Nancy Armour compared the lynching of Emmett Till to Caitlin Clark's impact on Black and queer WNBA players.",
-      "[guardian] CBS executives pressured Cecilia Vega to incorporate political bias into segments."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'torched' to describe Riley Gaines's reaction to Nancy Armour.",
-      "[fox] uses the term 'insane' attributed to Riley Gaines regarding Nancy Armour.",
-      "[aljazeera] uses the term 'right-wing coalition' to describe the Israeli government.",
-      "[aljazeera] uses the term 'legislative blitz' to describe the timing of the Israeli media reforms."
-    ],
-    "safe_conclusions": [
-      "The sources discuss disparate topics including sports policy, media ethics, international legislation, and historical legal cases."
-    ],
-    "unknowns": [
-      "The specific details of the media pressure mentioned by Cecilia Vega.",
-      "The legal outcome of the petition against the Israeli media reform bill.",
-      "The specific arguments used by survivors to oppose the attorney general nominee."
-    ],
-    "synthesis": "The provided reports cover distinct, unrelated news topics ranging from WNBA player commentary and media criticism to Israeli legislative changes and the legal aftermath of the Jeffrey Epstein case. Each article focuses on a separate event, presenting claims regarding institutional bias, policy, or interpersonal professional criticism. There is no intersection of subject matter between the sources.",
-    "confidence": "HIGH. The sources discuss completely independent topics with no factual overlap, preventing contradiction or consistency concerns.",
-    "sources": [
-      {
-        "id": "art_1785004423655_km9hh",
-        "url": "https://www.foxnews.com/outkick-sports/sophie-cunningham-west-wilson-split-transgender-athletes-girls-sports-podcast-partnership",
-        "source": "fox",
-        "title": "Sophie Cunningham and West Wilson split on transgender athletes in girls' sports despite podcast partnership"
-      },
-      {
-        "id": "art_1785004424701_5s2ph",
-        "url": "https://www.foxnews.com/outkick-sports/riley-gaines-calls-usa-today-reporter-insane-invoking-emmett-till-column-caitlin-clark",
-        "source": "fox",
-        "title": "Riley Gaines calls USA Today reporter 'insane' for invoking Emmett Till in column about Caitlin Clark"
-      },
-      {
-        "id": "art_1785004425852_mic4p",
-        "url": "https://www.aljazeera.com/news/2026/7/25/how-netanyahu-govt-media-reforms-risk-deepening-israeli-press-bias?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How Netanyahu gov’t media reforms risk deepening Israeli press bias"
-      },
-      {
-        "id": "art_1785004426945_x8sgg",
-        "url": "https://www.theguardian.com/us-news/2026/jul/25/cecilia-vega-60-minutes-cbs-political-bias",
-        "source": "guardian",
-        "title": "Cecilia Vega of 60 Minutes says she felt pressure from CBS to add ‘political bias’"
-      },
-      {
-        "id": "art_1785004428005_r340u",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/25/why-epsteins-survivors-are-still-fighting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why Epstein’s survivors are still fighting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "27e84c51dfb91c8f114d1dc39c4294de",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-07-25T17:01:50.000Z",
-    "event_window_end": "2026-07-25T17:25:11.000Z",
-    "article_ids": [
-      "art_1785000870566_cxqjf",
-      "art_1785000871646_cll49",
-      "art_1785000872683_7vudj",
-      "art_1785000873732_yj7rc",
-      "art_1785000874770_j5yy0"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-25T18:18:49.627Z",
-    "updated_at": "2026-07-25T18:18:49.627Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[bbc] Education Minister Dharmendra Pradhan resigned.",
-      "[bbc] The Cockroach Janta Party (CJP) ended a five-week protest following the resignation.",
-      "[bbc] A police crackdown on protesters marching to the Indian parliament occurred on Monday, resulting in injuries.",
-      "[fox] A federal appeals court upheld the firing of Oregon school counselor Roderick E. Theis II.",
-      "[bbc] Over 250,000 people have fled wildfires in France and Spain.",
-      "[bbc] Authorities in Valencia, Spain, confirmed the death of one man due to wildfires.",
-      "[fox] Dehydration during air travel can cause symptoms including headaches, muscle cramps, and dizziness."
-    ],
-    "framing_differences": [
-      "The BBC sources focus on geopolitical and environmental events, while the Fox sources focus on sports betting, cultural legal battles, and health advice."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] The CJP is described as a platform for young people's anxieties and dissent.",
-      "[fox] Jayme Leagh Franklin claims Caitlin Clark continues to face abuse.",
-      "[bbc] One official in France stated firefighters are far from having the fire under control."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'cockroach' to describe the protest party mascot.",
-      "[bbc] uses the term 'jubilant' to describe supporters.",
-      "[fox] uses the term 'gender ideology' to describe school policies."
-    ],
-    "safe_conclusions": [
-      "Dharmendra Pradhan has resigned from his position as Education Minister in India.",
-      "Wildfires are occurring in France and Spain.",
-      "A 9th U.S. Circuit Court of Appeals ruling was issued regarding a school counselor in Oregon."
-    ],
-    "unknowns": [
-      "The identity of the individual who died in the València fire.",
-      "The specific details of the 'gender-themed books' involved in the Oregon court case.",
-      "The long-term environmental impact of the wildfires in France and Spain."
-    ],
-    "synthesis": "The provided articles cover disparate global events including protests in India, wildfires in Europe, a U.S. court ruling on school policy, and general health and sports reporting. No single event is discussed by multiple sources. The reported information consists of independent news updates across varied geographic and topical domains.",
-    "confidence": "HIGH. Each source discusses distinct, unrelated events, making factual consistency across sources not applicable.",
-    "sources": [
-      {
-        "id": "art_1785000870566_cxqjf",
-        "url": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "India's 'cockroach' protest called off after education minister quits"
-      },
-      {
-        "id": "art_1785000871646_cll49",
-        "url": "https://www.foxnews.com/outkick-sports/wnba-all-star-game-betting-preview-team-coop-guards-could-give-them-edge-team-spoon",
-        "source": "fox",
-        "title": "WNBA All-Star Game betting preview: Team Coop's guards could give them the edge over Team Spoon"
-      },
-      {
-        "id": "art_1785000872683_7vudj",
-        "url": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "More than 250,000 flee wildfires in France and Spain"
-      },
-      {
-        "id": "art_1785000873732_yj7rc",
-        "url": "https://www.foxnews.com/media/fired-school-counselor-loses-again-after-free-speech-fight-over-gender-themed-books-his-office",
-        "source": "fox",
-        "title": "Fired school counselor loses again after free speech fight over gender-themed books in his office"
-      },
-      {
-        "id": "art_1785000874770_j5yy0",
-        "url": "https://www.foxnews.com/food-drink/biggest-food-drink-mistakes-travelers-make-flights-experts-warn",
-        "source": "fox",
-        "title": "The biggest food and drink mistakes travelers make on flights, experts warn"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "193c414edc38f634d76c9452c81557df",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-07-25T13:00:43.000Z",
-    "event_window_end": "2026-07-25T13:16:27.000Z",
-    "article_ids": [
-      "art_1784985697503_gollu",
-      "art_1784985698553_uqqz6",
-      "art_1784985699770_drqms",
-      "art_1784985700854_vnr7a",
-      "art_1784985701929_u6z64"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-25T14:50:52.965Z",
-    "updated_at": "2026-07-25T14:50:52.965Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] Rich Paul stated LeBron James and Bronny James are not a package deal.",
-      "[fox] Bronny James' $2.3 million salary with the Lakers was guaranteed in June.",
-      "[aljazeera] Lando Norris stated Formula One is currently driven too much by business decisions.",
-      "[aljazeera] Audi has entered Formula One by taking over the Swiss-based Sauber team.",
-      "[fox] The Trump administration advocates for expanded AI education.",
-      "[fox] Purdue University has implemented AI graduation requirements.",
-      "[fox] Michelle Hadley spent 88 days in jail regarding accusations of orchestrating online advertisements.",
-      "[guardian] Hundreds of thousands of young Indians are participating in protests organized by the Cockroach Janata party (CJP).",
-      "[guardian] The CJP movement is demanding government accountability regarding exam paper leaks."
-    ],
-    "framing_differences": [
-      "The provided sources discuss entirely different topics, ranging from NBA personnel moves (fox), Formula One business regulations (aljazeera), AI in education (fox), the Michelle Hadley legal case (fox), and protests in India (guardian)."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Tracy McGrady predicted Victor Wembanyama will sweep the NBA Awards in 2026/27.",
-      "[fox] LeBron James informed the Lakers he plans to play elsewhere in his 24th season."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'cowardice' to describe the silence of Indian celebrities regarding recent protests.",
-      "[fox] uses the term 'conman' to describe Brian Walshe."
-    ],
-    "safe_conclusions": [
-      "Sources report on disparate events across the fields of sports, technology, law, and politics."
-    ],
-    "unknowns": [
-      "The status of current NBA free agency.",
-      "The official response of the Indian government to the Cockroach Janata party protests.",
-      "The legal finality of the Michelle Hadley case."
-    ],
-    "synthesis": "The provided news articles cover unrelated topics including NBA player status, Formula One regulations, higher education policies regarding artificial intelligence, a historical criminal case, and youth protests in India. Each source functions independently with no overlap in subject matter or event reporting. The content spans international sports, domestic technology policy, criminal justice, and geopolitical civil unrest.",
-    "confidence": "HIGH. The articles describe completely distinct events and do not conflict with one another.",
-    "sources": [
-      {
-        "id": "art_1784985697503_gollu",
-        "url": "https://www.foxnews.com/sports/lebron-james-bronny-james-not-package-deal-76ers-agent-rich-paul",
-        "source": "fox",
-        "title": "LeBron James, Bronny James are ‘not a package deal’ after 76ers move, agent Rich Paul says"
-      },
-      {
-        "id": "art_1784985698553_uqqz6",
-        "url": "https://www.aljazeera.com/sports/2026/7/25/f1-needs-better-balance-between-business-and-sport-says-norris?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "F1 needs better balance between business and sport, says Norris"
-      },
-      {
-        "id": "art_1784985699770_drqms",
-        "url": "https://www.foxnews.com/culture/christian-university-aims-produce-irreplaceable-graduates-ai-reshapes-higher-education",
-        "source": "fox",
-        "title": "Christian university aims to produce 'irreplaceable' graduates as AI reshapes higher education"
-      },
-      {
-        "id": "art_1784985700854_vnr7a",
-        "url": "https://www.foxnews.com/us/what-happened-michelle-hadley-5-things-know-toxic-love-story-case",
-        "source": "fox",
-        "title": "What happened to Michelle Hadley? 5 things to know about ‘A Toxic Love Story’ case"
-      },
-      {
-        "id": "art_1784985701929_u6z64",
-        "url": "https://www.theguardian.com/world/2026/jul/25/india-celebrities-fiercely-criticised-silence-cockroach-cjp-protests",
-        "source": "guardian",
-        "title": "Indian celebrities fiercely criticised for silence on Cockroach protests"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "98b71834fd9ee443ba7bf14033260768",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-07-25T07:25:35.000Z",
-    "event_window_end": "2026-07-25T08:27:47.000Z",
-    "article_ids": [
-      "art_1784968465581_3yjec",
-      "art_1784968466622_ntk5g",
-      "art_1784968467728_34fto",
-      "art_1784968468771_aspjs",
-      "art_1784968469797_1r8n3"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-25T10:11:39.594Z",
-    "updated_at": "2026-07-25T10:11:39.594Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Wildfires are currently affecting regions in France and Spain.",
-      "Evacuations of residents have occurred in France due to wildfires near Bordeaux.",
-      "Officials in Spain have identified difficulties in containing wildfires near Madrid due to weather conditions."
-    ],
-    "source_claims": [
-      "[guardian] States French authorities evacuated thousands from Bordeaux suburbs including Le Haillan, Eysines, and Merignac.",
-      "[guardian] Reports French Prime Minister Sebastien Lecornu stated more than 141,000 people were evacuated from Gironde and Landes regions.",
-      "[aljazeera] Claims nearly 200,000 people have been forced from homes and resorts across France and Spain due to wildfires.",
-      "[aljazeera] Reports Spanish emergency management chief Carlos Novillo stated the wildfire near Madrid is beyond the current capacity of firefighters to contain."
-    ],
-    "framing_differences": [
-      "The guardian focuses specifically on the local administration's actions in Bordeaux, whereas aljazeera provides a broader regional summary of evacuation figures across France and Spain."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Reports French Prime Minister Sebastien Lecornu said more than 141,000 people had been evacuated.",
-      "[aljazeera] Claims nearly 200,000 people have been forced from their homes."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'massive' to describe wildfires.",
-      "[aljazeera] uses the term 'raging' to describe wildfires."
-    ],
-    "safe_conclusions": [
-      "Wildfires are active in France and Spain.",
-      "Evacuations are taking place in response to these fires."
-    ],
-    "unknowns": [
-      "The exact total number of evacuees, as sources provide different aggregate figures.",
-      "The specific current status of fire containment beyond the reports provided for Bordeaux and Madrid."
-    ],
-    "synthesis": "Wildfires in France and Spain have necessitated the evacuation of thousands of residents from their homes and resorts. French authorities are conducting evacuations near Bordeaux, while Spanish officials report that wildfires near Madrid remain difficult to contain due to environmental conditions. Efforts to manage the fires are ongoing in both countries.",
-    "confidence": "MEDIUM. The articles provide consistent reports on the existence of wildfires and evacuation efforts, but aggregate figures regarding the total number of people evacuated differ between sources.",
-    "sources": [
-      {
-        "id": "art_1784968465581_3yjec",
-        "url": "https://www.theguardian.com/world/live/2026/jul/25/france-spain-wildfires-latest-news-updates-madrid-cap-ferret-bordeaux-gironde",
-        "source": "guardian",
-        "title": "France and Spain race to control wildfires as suburbs of Bordeaux begin evacuation – live"
-      },
-      {
-        "id": "art_1784968466622_ntk5g",
-        "url": "https://www.aljazeera.com/news/2026/7/25/dodging-snipers-housing-crisis-forces-yemenis-to-live-on-front-line?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Dodging snipers, housing crisis forces Yemenis to live on front line"
-      },
-      {
-        "id": "art_1784968467728_34fto",
-        "url": "https://www.foxnews.com/politics/democrats-concede-nj-voter-roll-failure-horrible-reject-broader-fraud-fears",
-        "source": "fox",
-        "title": "Democrats concede NJ voter-roll failure was ‘horrible’ — but reject broader fraud fears"
-      },
-      {
-        "id": "art_1784968468771_aspjs",
-        "url": "https://www.aljazeera.com/news/2026/7/25/wildfires-in-spain-and-france-force-evacuation-of-200000-people?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Wildfires in Spain and France force evacuation of 200,000 people"
-      },
-      {
-        "id": "art_1784968469797_1r8n3",
-        "url": "https://www.aljazeera.com/features/2026/7/25/born-too-soon-premature-babies-fighting-for-survival-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Born too soon: Premature babies fight for survival in Gaza"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
