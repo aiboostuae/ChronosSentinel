@@ -1,5 +1,374 @@
 [
   {
+    "cluster_id": "c32bb6584fd313d85cc8036cb9e57c51",
+    "topic_label": "Conflict in Gaza",
+    "event_window_start": "2026-08-01T13:46:33.000Z",
+    "event_window_end": "2026-08-01T14:07:36.000Z",
+    "article_ids": [
+      "art_1785598905881_ps5lo",
+      "art_1785593496594_ih7t0"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-02T12:40:34.581Z",
+    "updated_at": "2026-08-02T12:40:34.581Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The provided articles relate to events occurring within the Gaza Strip."
+    ],
+    "source_claims": [
+      "[aljazeera_1] claims an Israeli air strike destroyed a warehouse containing medical supplies for Al-Aqsa Martyrs Hospital in Deir al-Balah.",
+      "[aljazeera_1] claims the Israeli army provided no immediate comment regarding the strike.",
+      "[aljazeera_2] claims hundreds of children participated in a marathon in Gaza to raise awareness regarding orphans who have lost one or both parents during the war.",
+      "[aljazeera_2] claims the International Networking for Humanitarian organization arranged the marathon event."
+    ],
+    "framing_differences": [
+      "The two aljazeera articles focus on distinct subjects: the first focuses on military infrastructure impacts and medical supply destruction, while the second focuses on humanitarian efforts and the social challenges facing orphaned children."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] claims a warehouse belonging to Al-Aqsa Martyrs Hospital was destroyed by an Israeli strike.",
+      "[aljazeera_2] claims the event was intended to call for greater community and international support for orphans."
+    ],
+    "loaded_language": [
+      "[aljazeera_2] uses the term 'orphan crisis' to describe the situation regarding children who have lost parents in Gaza."
+    ],
+    "safe_conclusions": [
+      "Medical supplies exist in Gaza, and children are present in the region."
+    ],
+    "unknowns": [
+      "The specific current status of medical operations at Al-Aqsa Martyrs Hospital.",
+      "The exact number of casualties or specific logistical impacts resulting from the warehouse incident.",
+      "The long-term outcome or official response to the children's marathon event."
+    ],
+    "synthesis": "Recent reports indicate an incident involving a medical warehouse in Deir al-Balah and a marathon event held by children in Gaza. The first report describes the destruction of medical supplies, while the second details a humanitarian awareness initiative for orphans. Both events took place within the context of the ongoing conflict in the Gaza Strip.",
+    "confidence": "HIGH. The sources report on entirely separate events and do not conflict with one another.",
+    "sources": [
+      {
+        "id": "art_1785598905881_ps5lo",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/01-08-israel-strike-gaza-hospital-sv-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike destroys Gaza hospital warehouse"
+      },
+      {
+        "id": "art_1785593496594_ih7t0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/children-run-marathon-to-spotlight-gazas-growing-orphan-crises?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Children run marathon to spotlight Gaza’s growing orphan crises"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c58705259dbbaf5c33e9450a9ec91c3c",
+    "topic_label": "Middle East Tensions and Iran",
+    "event_window_start": "2026-08-01T12:44:54.000Z",
+    "event_window_end": "2026-08-01T14:57:13.000Z",
+    "article_ids": [
+      "art_1785598900687_zt7ni",
+      "art_1785593510319_j8qjz"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-02T12:40:34.581Z",
+    "updated_at": "2026-08-02T12:40:34.581Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Regional military tensions involving Iran, the United States, and Israel are currently high."
+    ],
+    "source_claims": [
+      "[fox] Isaac Herzog claims NYC Mayor Zohran Mamdani is spreading antisemitic rhetoric and endangering New Yorkers.",
+      "[fox] Isaac Herzog claims Mamdani does not respect the Jewish people's right to self-determination.",
+      "[aljazeera] Major General Ali Abdollahi claims the United States is accelerating the risk of a full-scale regional war.",
+      "[aljazeera] Ali Abdollahi claims the U.S. is using regional neighbors' resources to shield its interests and strengthen Israel."
+    ],
+    "framing_differences": [
+      "Fox focuses on the domestic political rhetoric of New York City leadership regarding Israel, while Al Jazeera focuses on geopolitical military tensions between Iran and the United States."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] President Trump announced that Hamas had agreed to a roadmap that includes disarmament.",
+      "[aljazeera] Iran’s wartime military command claims the U.S. is utilizing the infrastructure of neighboring countries as a shield."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'hateful and antisemitic rhetoric' to describe Mamdani's statements.",
+      "[fox] uses the term 'blasphemy' to describe Mamdani's rhetoric.",
+      "[aljazeera] uses the term 'fan the flames' to describe U.S. foreign policy.",
+      "[aljazeera] uses the term 'crimes' to describe U.S. actions."
+    ],
+    "safe_conclusions": [
+      "Israeli President Isaac Herzog and Iranian Major General Ali Abdollahi have both made public statements regarding U.S. foreign policy and regional stability."
+    ],
+    "unknowns": [
+      "The specific statements made by Zohran Mamdani that Herzog is referencing.",
+      "The specific nature of the roadmap mentioned by Trump in the Fox report.",
+      "The specific U.S. strike threats against Iranian energy sites mentioned by Al Jazeera."
+    ],
+    "synthesis": "Israeli President Isaac Herzog criticized New York City Mayor Zohran Mamdani for rhetoric he characterized as antisemitic. Simultaneously, Iranian military officials warned the United States against targeting energy infrastructure and accused the U.S. of fueling regional conflict. These reports highlight distinct areas of international and domestic political tension involving the United States, Israel, and Iran.",
+    "confidence": "LOW. The sources cover entirely different events, geographic regions, and political subjects, making consistency across sources impossible to evaluate.",
+    "sources": [
+      {
+        "id": "art_1785598900687_zt7ni",
+        "url": "https://www.foxnews.com/world/exclusive-israeli-president-herzog-blasts-mamdani-praises-trump-sounds-alarm-iran",
+        "source": "fox",
+        "title": "Exclusive: Israeli President Herzog blasts Mamdani, praises Trump, sounds alarm on Iran"
+      },
+      {
+        "id": "art_1785593510319_j8qjz",
+        "url": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran warns against ‘flames of war’ amid US strike threats on energy sites"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ab7e892968ba7337cef5e3827f4edcb1",
+    "topic_label": "Pakistan Avalanche Disaster",
+    "event_window_start": "2026-08-01T13:02:04.000Z",
+    "event_window_end": "2026-08-01T13:41:44.000Z",
+    "article_ids": [
+      "art_1785593497679_pbwvv",
+      "art_1785593501951_btt69"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-02T11:18:54.417Z",
+    "updated_at": "2026-08-02T11:18:54.417Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Nirmal Purja died in an avalanche on Broad Peak in Pakistan on Thursday.",
+      "The avalanche involved an expedition led by Purja.",
+      "Elite Exped confirmed the death of Nirmal Purja."
+    ],
+    "source_claims": [
+      "[guardian] Nirmal Purja was leading an expedition of 10 other people when the avalanche struck.",
+      "[bbc] None of the other nine members of the expedition survived.",
+      "[bbc] Pakistani officials reported the recovery of bodies belonging to Mallory Geis, Nadhira Ahmed Abdullah Al Harthy, and Pur Bahadur Gurung."
+    ],
+    "framing_differences": [
+      "The guardian frames the event by identifying Purja as a 'former UK Special Forces member', whereas the bbc frames him as a 'former British Army soldier'."
+    ],
+    "contested_claims": [
+      "The sources present conflicting figures regarding the total number of individuals in the expedition; the guardian reports the group consisted of Purja and 10 others, while the bbc states there were nine other members in the expedition."
+    ],
+    "unverified_claims": [
+      "[guardian] The avalanche occurred at around noon on Thursday."
+    ],
+    "loaded_language": [
+      "[guardian] and [bbc] both use the terms 'profound sadness' and 'immense heartbreak' to describe the company statement regarding the deaths."
+    ],
+    "safe_conclusions": [
+      "Nirmal Purja is confirmed dead following an avalanche on Broad Peak, Pakistan.",
+      "The company Elite Exped reported the incident and confirmed the loss of life among the expedition members."
+    ],
+    "unknowns": [
+      "The total number of fatalities in the avalanche remains unclear due to conflicting reports on the expedition's size.",
+      "The exact cause and timing of the avalanche remain unverified."
+    ],
+    "synthesis": "Mountaineer Nirmal Purja died in an avalanche on Broad Peak, Pakistan, on Thursday. His company, Elite Exped, confirmed his death and reported fatalities among the other members of the expedition. Reports differ on the total number of individuals involved in the climbing group.",
+    "confidence": "MEDIUM. While the core event of Nirmal Purja's death is confirmed, the sources provide conflicting information regarding the total number of expedition members.",
+    "sources": [
+      {
+        "id": "art_1785593497679_pbwvv",
+        "url": "https://www.theguardian.com/world/2026/aug/01/top-mountaineer-nirmal-purja-confirmed-dead-after-11-hit-by-avalanche-in-pakistan",
+        "source": "guardian",
+        "title": "Top mountaineer Nirmal Purja among 11 confirmed dead after avalanche in Pakistan"
+      },
+      {
+        "id": "art_1785593501951_btt69",
+        "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "64f36e7274b1839851f165ca30ded927",
+    "topic_label": "Spain Migration Crisis",
+    "event_window_start": "2026-08-01T12:57:13.000Z",
+    "event_window_end": "2026-08-01T13:50:36.000Z",
+    "article_ids": [
+      "art_1785593495562_q5wle",
+      "art_1785593509294_pn9mj"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-02T12:40:34.581Z",
+    "updated_at": "2026-08-02T12:40:34.581Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A large number of migrants entered the Spanish enclave of Ceuta from Morocco.",
+      "Spanish authorities reported that migrants died during the crossing.",
+      "The Spanish government responded to the influx of migrants.",
+      "Migrants have since largely departed Ceuta."
+    ],
+    "source_claims": [
+      "[aljazeera 1] claims at least 57 migrants died while attempting to enter Ceuta.",
+      "[aljazeera 1] reports Prime Minister Pedro Sanchez denounced the event as a violation of territorial integrity.",
+      "[aljazeera 2] reports the death toll has been raised to at least 67.",
+      "[aljazeera 2] states Spanish Minister of Foreign Affairs Jose Manuel Albares said virtually all migrants who entered have returned to Morocco.",
+      "[aljazeera 2] identifies some causes of death as drowning and crushing against the border breakwater."
+    ],
+    "framing_differences": [
+      "Aljazeera 1 frames the event in the context of international relations by referencing the Israeli ambassador's commentary and Spain's critical stance toward Israel, whereas Aljazeera 2 frames the event through the lens of migration statistics, European Union response, and official Spanish government status updates."
+    ],
+    "contested_claims": [
+      "The two articles provide different figures for the death toll (at least 57 vs. at least 67)."
+    ],
+    "unverified_claims": [
+      "[aljazeera 1] claims migrants were encouraged to undertake the journey by social media posts.",
+      "[aljazeera 1] claims Danny Danon described Spain as 'whining' regarding the migration crisis."
+    ],
+    "loaded_language": [
+      "[aljazeera 1] uses the term 'whine' to describe the tone of the Israeli ambassador's social media post."
+    ],
+    "safe_conclusions": [
+      "A significant migration event occurred at the border between Morocco and the Spanish enclave of Ceuta.",
+      "There were fatalities resulting from the attempt to cross the border.",
+      "The Spanish government has characterized the event as a security matter."
+    ],
+    "unknowns": [
+      "The exact number of casualties remains unclear.",
+      "The specific breakdown of the migrants' origins is not provided.",
+      "The role of potential social media influence on the migration event remains anecdotal."
+    ],
+    "synthesis": "Tens of thousands of migrants entered the Spanish enclave of Ceuta, leading to a significant border crisis and multiple fatalities. Spanish officials have reported that the majority of these individuals have since returned to Morocco. The event has prompted reactions from the Spanish government and various international observers.",
+    "confidence": "MEDIUM. The articles provide conflicting death tolls and shift focus between the humanitarian crisis and political commentary.",
+    "sources": [
+      {
+        "id": "art_1785593495562_q5wle",
+        "url": "https://www.aljazeera.com/opinions/2026/8/1/is-spain-being-punished?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Is Spain being punished?"
+      },
+      {
+        "id": "art_1785593509294_pn9mj",
+        "url": "https://www.aljazeera.com/news/2026/8/1/spain-says-migrants-leaving-ceuta-after-mass-influx-in-which-67-died?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Spain says migrants leaving Ceuta after mass influx in which 67 died"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "808d11209b31d8631bbb4a47f36395df",
+    "topic_label": "US Political Controversies",
+    "event_window_start": "2026-08-01T13:00:32.000Z",
+    "event_window_end": "2026-08-01T15:17:56.000Z",
+    "article_ids": [
+      "art_1785598896317_6mu5w",
+      "art_1785598901725_anm8p",
+      "art_1785598902788_tabae",
+      "art_1785593506188_4c9ym"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-02T12:40:34.581Z",
+    "updated_at": "2026-08-02T12:40:34.581Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] claims Bill Maher stated that the Democratic Party is being 'colonized' by socialist ideology and that his vote is 'in play'.",
+      "[fox] claims Dr. Anthony Fauci invoked his Fifth Amendment right against self-incrimination 111 times during a Senate hearing.",
+      "[fox] claims officials in Alabama and Florida are investigating whether Dr. Anthony Fauci can be held accountable under state law regarding the COVID-19 response.",
+      "[guardian] claims Donald Trump has reversed his position and intends to revive a $1.8 billion 'anti-weaponization' fund.",
+      "[guardian] claims the Senate judiciary committee has scheduled a meeting to consider Todd Blanche’s nomination for attorney general.",
+      "[fox] claims broadcast networks demonstrate a 'deep-seated Democratic Party bias' in their coverage of congressional investigations."
+    ],
+    "framing_differences": [
+      "The fox articles frame Dr. Anthony Fauci's testimony and the broader political landscape through a lens of government accountability and media criticism, whereas the guardian article frames current events through the lens of legislative maneuvers regarding presidential appointments and executive branch funding."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims that broadcast networks 'avoid' congressional investigations into Democratic officials 'like a deadly bat virus'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'colonized' to describe the influence of socialist ideology on the Democratic Party.",
+      "[fox] uses the term 'radical' to describe socialist views.",
+      "[fox] uses the term 'deadly bat virus' to describe the subject of COVID-19 research.",
+      "[guardian] uses the term 'slush fund' to describe the proposed $1.8 billion 'anti-weaponization' fund."
+    ],
+    "safe_conclusions": [
+      "Bill Maher made comments regarding his views on the Democratic Party and his voting intentions.",
+      "A Senate judiciary committee has scheduled a meeting to discuss the nomination of Todd Blanche.",
+      "Donald Trump has expressed an intention to revive a $1.8 billion fund."
+    ],
+    "unknowns": [
+      "Whether any legal action against Dr. Anthony Fauci in Alabama or Florida will result in charges.",
+      "The final outcome of the Senate judiciary committee meeting regarding Todd Blanche.",
+      "The specific criteria used to define the 'broadcast bias' mentioned by fox."
+    ],
+    "synthesis": "Recent reports cover diverse political topics, including Bill Maher's public criticism of the Democratic Party and ongoing legislative debates surrounding Dr. Anthony Fauci's recent testimony. Additionally, political developments continue regarding the Senate judiciary committee's review of Todd Blanche's nomination for attorney general. President Trump has signaled a reversal on his previous position regarding a $1.8 billion fund.",
+    "confidence": "MEDIUM: The sources cover completely different, unrelated events, making a direct cross-source verification of facts impossible.",
+    "sources": [
+      {
+        "id": "art_1785598896317_6mu5w",
+        "url": "https://www.foxnews.com/media/bill-maher-warns-democratic-party-colonized-socialists-vote-play",
+        "source": "fox",
+        "title": "Bill Maher warns that the Democratic Party is being 'colonized' by socialists, says his 'vote is in play'"
+      },
+      {
+        "id": "art_1785598901725_anm8p",
+        "url": "https://www.foxnews.com/politics/fauci-fifth-fuels-vow-haul-him-court-every-day-despite-biden-pardon",
+        "source": "fox",
+        "title": "Fauci's Fifth fuels vow to haul him into court 'every day' despite Biden pardon"
+      },
+      {
+        "id": "art_1785598902788_tabae",
+        "url": "https://www.theguardian.com/us-news/2026/aug/01/senate-committee-todd-blanche-attorney-general-nomination",
+        "source": "guardian",
+        "title": "Trump vows to push $1.8bn slush fund as Senate committee set to reconsider AG nomination"
+      },
+      {
+        "id": "art_1785593506188_4c9ym",
+        "url": "https://www.foxnews.com/opinion/broadcast-bias-networks-hiding-fauci-diaries-defending-republicans",
+        "source": "fox",
+        "title": "BROADCAST BIAS: Networks go from hiding Fauci diaries to defending him from Republicans"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "dabc67441aa6605de9fb2601b0cede6d",
     "topic_label": "Conflict in Gaza and Israel",
     "event_window_start": "2026-08-01T13:46:33.000Z",
@@ -75,76 +444,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/children-run-marathon-to-spotlight-gazas-growing-orphan-crises?traffic_source=rss",
         "source": "aljazeera",
         "title": "Children run marathon to spotlight Gaza’s growing orphan crises"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ab7e892968ba7337cef5e3827f4edcb1",
-    "topic_label": "Pakistan Avalanche Disaster",
-    "event_window_start": "2026-08-01T13:02:04.000Z",
-    "event_window_end": "2026-08-01T13:41:44.000Z",
-    "article_ids": [
-      "art_1785593497679_pbwvv",
-      "art_1785593501951_btt69"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-02T11:18:54.417Z",
-    "updated_at": "2026-08-02T11:18:54.417Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Nirmal Purja died in an avalanche on Broad Peak in Pakistan on Thursday.",
-      "The avalanche involved an expedition led by Purja.",
-      "Elite Exped confirmed the death of Nirmal Purja."
-    ],
-    "source_claims": [
-      "[guardian] Nirmal Purja was leading an expedition of 10 other people when the avalanche struck.",
-      "[bbc] None of the other nine members of the expedition survived.",
-      "[bbc] Pakistani officials reported the recovery of bodies belonging to Mallory Geis, Nadhira Ahmed Abdullah Al Harthy, and Pur Bahadur Gurung."
-    ],
-    "framing_differences": [
-      "The guardian frames the event by identifying Purja as a 'former UK Special Forces member', whereas the bbc frames him as a 'former British Army soldier'."
-    ],
-    "contested_claims": [
-      "The sources present conflicting figures regarding the total number of individuals in the expedition; the guardian reports the group consisted of Purja and 10 others, while the bbc states there were nine other members in the expedition."
-    ],
-    "unverified_claims": [
-      "[guardian] The avalanche occurred at around noon on Thursday."
-    ],
-    "loaded_language": [
-      "[guardian] and [bbc] both use the terms 'profound sadness' and 'immense heartbreak' to describe the company statement regarding the deaths."
-    ],
-    "safe_conclusions": [
-      "Nirmal Purja is confirmed dead following an avalanche on Broad Peak, Pakistan.",
-      "The company Elite Exped reported the incident and confirmed the loss of life among the expedition members."
-    ],
-    "unknowns": [
-      "The total number of fatalities in the avalanche remains unclear due to conflicting reports on the expedition's size.",
-      "The exact cause and timing of the avalanche remain unverified."
-    ],
-    "synthesis": "Mountaineer Nirmal Purja died in an avalanche on Broad Peak, Pakistan, on Thursday. His company, Elite Exped, confirmed his death and reported fatalities among the other members of the expedition. Reports differ on the total number of individuals involved in the climbing group.",
-    "confidence": "MEDIUM. While the core event of Nirmal Purja's death is confirmed, the sources provide conflicting information regarding the total number of expedition members.",
-    "sources": [
-      {
-        "id": "art_1785593497679_pbwvv",
-        "url": "https://www.theguardian.com/world/2026/aug/01/top-mountaineer-nirmal-purja-confirmed-dead-after-11-hit-by-avalanche-in-pakistan",
-        "source": "guardian",
-        "title": "Top mountaineer Nirmal Purja among 11 confirmed dead after avalanche in Pakistan"
-      },
-      {
-        "id": "art_1785593501951_btt69",
-        "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20376,579 +20675,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cgewg24qgnjo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "People trapped inside Japan shopping centre after earthquake"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a56ba2a46bfedd9911e40be72ed48209",
-    "topic_label": "Middle East Conflict and Tensions",
-    "event_window_start": "2026-07-28T10:00:22.000Z",
-    "event_window_end": "2026-07-29T05:07:33.000Z",
-    "article_ids": [
-      "art_1785303789591_vsec2",
-      "art_1785303790625_727j8",
-      "art_1785303801962_zmzas",
-      "art_1785291718571_6a9bs",
-      "art_1785291722848_2lqpl",
-      "art_1785291727063_5iq3a",
-      "art_1785291728238_r57u3",
-      "art_1785283284067_z3py6",
-      "art_1785283286565_vryov",
-      "art_1785283289958_nhyyg",
-      "art_1785283295681_32mye",
-      "art_1785273746230_3pmis",
-      "art_1785273748343_h52n3",
-      "art_1785269169739_wma9x",
-      "art_1785269177418_pnl78",
-      "art_1785263031029_a8mhw",
-      "art_1785263036682_m1odn",
-      "art_1785263040898_aepws",
-      "art_1785258232472_35k4n",
-      "art_1785243659206_7h9we",
-      "art_1785243661256_76yrw",
-      "art_1785243662332_2ohq8",
-      "art_1785236581955_ajaw3",
-      "art_1785236586123_7ufns",
-      "art_1785236587164_4vgst"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 25,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-29T08:34:42.003Z",
-    "updated_at": "2026-07-29T08:34:42.003Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israeli Prime Minister Benjamin Netanyahu met with President Donald Trump at the White House.",
-      "The meeting between Benjamin Netanyahu and Donald Trump concerned Iran."
-    ],
-    "source_claims": [
-      "[aljazeera] Protesters heckled Benjamin Netanyahu at a hotel in Washington, DC.",
-      "[aljazeera] There are signs of disagreement between Donald Trump and Benjamin Netanyahu regarding the war on Iran, Gaza, and the region.",
-      "[fox] Benjamin Netanyahu stated he will attend the United Nations General Assembly in New York.",
-      "[fox] Benjamin Netanyahu described NYC Mayor Zohran Mamdani as a 'hate-spewing elected official'.",
-      "[aljazeera] Saudi Arabia conducted strikes against armed groups in Iraq in coordination with US CENTCOM.",
-      "[aljazeera] Saudi Arabia reported intercepting drones launched from Iraqi territory."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the White House meeting by highlighting potential diplomatic friction and a lack of media access, whereas Fox frames Netanyahu's visit in the context of his defiance against domestic criticism regarding his New York travel plans."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Activists claimed Benjamin Netanyahu is 'committing genocide'.",
-      "[aljazeera] Saudi Arabia labels the groups it struck in Iraq as 'Iran-aligned terrorist militias'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocide' in a chant quoted by the source.",
-      "[fox] uses the term 'hate-spewing' to quote Netanyahu's description of Zohran Mamdani.",
-      "[aljazeera] uses the term 'terrorist militias' in a quote from the Saudi Ministry of Defence."
-    ],
-    "safe_conclusions": [
-      "Benjamin Netanyahu met with Donald Trump in Washington, DC.",
-      "Benjamin Netanyahu intends to visit New York for the United Nations General Assembly."
-    ],
-    "unknowns": [
-      "The specific nature of the policy disagreements between Trump and Netanyahu regarding Iran.",
-      "The official response of the Iraqi government to the Saudi-led strikes.",
-      "The current status of the war on Iran mentioned in the source material."
-    ],
-    "synthesis": "Israeli Prime Minister Benjamin Netanyahu met with President Donald Trump in Washington, DC, to discuss matters concerning Iran amid reports of potential policy disagreements. Simultaneously, Netanyahu addressed his planned travel to New York in the face of local political opposition. Additionally, Saudi Arabia reported conducting military strikes against armed groups in Iraq in coordination with the United States.",
-    "confidence": "MEDIUM. The sources provide consistent information regarding high-level meetings and regional military activity, but rely on different sets of reported events to frame the broader geopolitical context.",
-    "sources": [
-      {
-        "id": "art_1785303789591_vsec2",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/protesters-storm-hotel-heckle-netanyahu-in-washington-dc?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Protesters storm hotel, heckle Netanyahu in Washington DC"
-      },
-      {
-        "id": "art_1785303790625_727j8",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/trump-meets-netanyahu-for-a-record-seventh-white-house-visit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump meets Netanyahu for a record seventh White House visit"
-      },
-      {
-        "id": "art_1785303801962_zmzas",
-        "url": "https://www.foxnews.com/media/israeli-pm-benjamin-netanyahu-vows-visit-new-york-despite-mamdani-repeated-calls-arrest",
-        "source": "fox",
-        "title": "Israeli PM Benjamin Netanyahu vows to visit New York despite Mamdani's repeated calls for his arrest"
-      },
-      {
-        "id": "art_1785291718571_6a9bs",
-        "url": "https://www.aljazeera.com/news/2026/7/29/saudi-arabia-us-carry-out-strikes-on-iran-backed-groups-in-iraq?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Saudi Arabia, US carry out strikes on Iran-backed groups in Iraq"
-      },
-      {
-        "id": "art_1785291722848_2lqpl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/29/media-not-invited-as-trump-netanyahu-hold-talks-at-the-white-house?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Media not invited as Trump, Netanyahu hold talks at the White House"
-      },
-      {
-        "id": "art_1785291727063_5iq3a",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/trump-netanyahu-zelenskyy-meetings",
-        "source": "guardian",
-        "title": "Trump praises back-to-back meetings with Zelenskyy and Netanyahu"
-      },
-      {
-        "id": "art_1785291728238_r57u3",
-        "url": "https://www.aljazeera.com/news/2026/7/29/turkiye-takes-historic-step-on-energy-alliance-with-iraq?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Turkiye takes ‘historic step’ on energy alliance with Iraq"
-      },
-      {
-        "id": "art_1785283284067_z3py6",
-        "url": "https://www.aljazeera.com/news/2026/7/28/yemens-houthis-claim-missile-attack-on-saudi-arabia-oil-tanker?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s Houthis claim missile attack on Saudi Arabia oil tanker"
-      },
-      {
-        "id": "art_1785283286565_vryov",
-        "url": "https://www.theguardian.com/business/2026/jul/29/uk-faces-trade-offs-because-of-iran-war-inflation",
-        "source": "guardian",
-        "title": "UK faces ‘very difficult trade-offs’ in budget because of Iran war, say analysts"
-      },
-      {
-        "id": "art_1785283289958_nhyyg",
-        "url": "https://www.theguardian.com/world/2026/jul/29/trump-iran-attacks-us-military-power",
-        "source": "guardian",
-        "title": "Trump pausing Iran attacks shows US military power is not enough on its own"
-      },
-      {
-        "id": "art_1785283295681_32mye",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/israeli-airstrike-destroys-gaza-city-mosque-near-displacement-camp?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli airstrike destroys Gaza City mosque near displacement camp"
-      },
-      {
-        "id": "art_1785273746230_3pmis",
-        "url": "https://www.aljazeera.com/gallery/2026/7/28/donald-trump-and-world-leaders-attend-lindsey-grahams-funeral?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Donald Trump and world leaders attend Lindsey Graham’s funeral"
-      },
-      {
-        "id": "art_1785273748343_h52n3",
-        "url": "https://www.aljazeera.com/news/2026/7/28/iran-and-oman-exchange-proposals-to-manage-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran and Oman exchange proposals to manage Strait of Hormuz"
-      },
-      {
-        "id": "art_1785269169739_wma9x",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/west-bank-quarry-owner-appeals-to-trump-after-settler-raid?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "West Bank quarry owner appeals to Trump after settler raid"
-      },
-      {
-        "id": "art_1785269177418_pnl78",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/zelenskyy-and-netanyahu-brave-the-whims-of-trumps-darkly-confounding-white-house",
-        "source": "guardian",
-        "title": "Zelenskyy and Netanyahu brave the whims of Trump’s darkly confounding White House"
-      },
-      {
-        "id": "art_1785263031029_a8mhw",
-        "url": "https://www.foxnews.com/world/iran-expert-brands-islamic-center-england-irans-uk-office-urges-immediate-closure",
-        "source": "fox",
-        "title": "Iran expert brands Islamic Center of England Iran's 'UK office,' urges immediate closure"
-      },
-      {
-        "id": "art_1785263036682_m1odn",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/28/lindsey-graham-funeral-donald-trump-benjamin-netanyahu-volodymyr-zelenskyy-iran-israel-hormuz-ukraine-russia-latest-news-updates",
-        "source": "guardian",
-        "title": "Lindsey Graham funeral service under way, with Trump expected to deliver eulogy – live"
-      },
-      {
-        "id": "art_1785263040898_aepws",
-        "url": "https://www.aljazeera.com/news/2026/7/28/lindsey-graham-almost-cried-tears-of-joy-over-war-on-iran-footage-shows?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lindsey Graham ‘almost cried’ tears of joy over war on Iran, footage shows"
-      },
-      {
-        "id": "art_1785258232472_35k4n",
-        "url": "https://www.aljazeera.com/opinions/2026/7/28/what-are-trumps-military-options?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What are Trump’s military options?"
-      },
-      {
-        "id": "art_1785243659206_7h9we",
-        "url": "https://www.aljazeera.com/features/2026/7/28/were-here-to-stay-west-bank-palestinians-defy-israeli-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘We’re here to stay’: West Bank Palestinians defy Israeli attacks"
-      },
-      {
-        "id": "art_1785243661256_76yrw",
-        "url": "https://www.aljazeera.com/economy/2026/7/28/why-has-irans-economy-not-collapsed-under-us-war-pressure?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why has Iran’s economy not collapsed under US war pressure?"
-      },
-      {
-        "id": "art_1785243662332_2ohq8",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/first-thing-pentagon-accused-of-disrespecting-war-dead-as-trump-threatens-to-resume-iran-war",
-        "source": "guardian",
-        "title": "First Thing: Pentagon accused of disrespecting war dead as Trump threatens to resume Iran war"
-      },
-      {
-        "id": "art_1785236581955_ajaw3",
-        "url": "https://www.theguardian.com/world/2026/jul/28/prisoners-iran-largest-jail-sew-lips-shut-hunger-strike-executions-soar",
-        "source": "guardian",
-        "title": "Prisoners at Iran’s largest jail sew lips shut in hunger strike as executions soar"
-      },
-      {
-        "id": "art_1785236586123_7ufns",
-        "url": "https://www.foxnews.com/politics/holocaust-museum-challenges-mamdani-offer-response-claims-genocide-gaza",
-        "source": "fox",
-        "title": "Prominent Holocaust museum challenges Mamdani with offer in response to claims about 'genocide' in Gaza"
-      },
-      {
-        "id": "art_1785236587164_4vgst",
-        "url": "https://www.foxnews.com/world/freed-american-reveals-brutal-iran-prison-ordeal-warns-hostages-face-greater-danger",
-        "source": "fox",
-        "title": "Freed American reveals brutal Iran prison ordeal, warns hostages face greater danger"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "dc0a16794645bfa3772dd5ba74d5a333",
-    "topic_label": "Fauci Diary Controversy",
-    "event_window_start": "2026-07-28T10:30:52.000Z",
-    "event_window_end": "2026-07-28T22:35:09.000Z",
-    "article_ids": [
-      "art_1785283292216_yzcx6",
-      "art_1785273749374_t6lwf",
-      "art_1785263037718_odz9j",
-      "art_1785258226897_g6jau",
-      "art_1785252214128_ew8kg",
-      "art_1785252215287_1azw0",
-      "art_1785243665857_ia4qc",
-      "art_1785236579818_lfzrm"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 8,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-29T08:34:42.003Z",
-    "updated_at": "2026-07-29T08:34:42.003Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Senator Rand Paul has released private diary entries and documents belonging to former NIH Director Anthony Fauci as part of a Senate committee oversight investigation."
-    ],
-    "source_claims": [
-      "[fox] Sen. Rand Paul accuses Dr. Anthony Fauci of dishonesty regarding the lab-leak theory.",
-      "[fox] Sen. Ron Johnson alleges Fauci knowingly funded gain-of-function research and pushed experimental vaccines over early treatments.",
-      "[fox] CNBC host Joe Kernen claimed Fauci orchestrated a cover-up regarding the origins of COVID-19 due to his involvement in gain-of-function research.",
-      "[fox] The released documents allegedly show Fauci privately considered possibilities about the virus's origins that he publicly downplayed.",
-      "[fox] Private Slack messages from Kristian Andersen and Eddie Holmes reportedly show them expressing uncertainty about the lab-leak theory in early 2020."
-    ],
-    "framing_differences": [
-      "Fox News articles frame the release of the diaries as a 'bombshell' that exposes a 'cover-up' or 'dishonesty,' while focusing on criticism from Senators Rand Paul and Ron Johnson.",
-      "The provided sources consistently frame Dr. Fauci as a central figure in a potential controversy, whereas other media outlets referenced in the text are framed as ignoring or avoiding the subject."
-    ],
-    "contested_claims": [
-      "The validity of the lab-leak theory and Dr. Fauci's role in the public discourse surrounding it are presented as settled in one viewpoint and as a subject of an intentional cover-up in another."
-    ],
-    "unverified_claims": [
-      "[fox] Laura Ingraham suggests Dr. Fauci's refusal to be questioned stems from insecurity.",
-      "[fox] Joe Kernen claims it was 'obvious' that Fauci knew gain-of-function research would come back to haunt him."
-    ],
-    "loaded_language": [
-      "[fox] Sen. Ron Johnson uses the terms 'megalomaniac' and 'infamous villain' to describe Dr. Anthony Fauci.",
-      "[fox] Joe Kernen describes the Fauci diaries as 'outrageous.'",
-      "[fox] Fox News refers to the diary release as a 'massive bombshell' and 'treasure trove.'",
-      "[fox] Fox News refers to the NIAID as a 'controversial' institution."
-    ],
-    "safe_conclusions": [
-      "Dr. Anthony Fauci's private diaries and related communications have been released to the public by Senator Rand Paul.",
-      "These documents pertain to Dr. Fauci's communications and observations during the COVID-19 pandemic."
-    ],
-    "unknowns": [
-      "The full extent of the contents of the diary entries.",
-      "The specific context of every diary entry mentioned.",
-      "The official response from Dr. Anthony Fauci or the NIAID regarding the content of these specific document releases."
-    ],
-    "synthesis": "Senator Rand Paul has released private diary entries and documents from former NIH Director Anthony Fauci as part of a Senate oversight investigation. The documents have prompted criticism from lawmakers and media figures regarding Dr. Fauci’s public statements on COVID-19 origins and pandemic policies. The release has sparked debate regarding the consistency of Dr. Fauci’s public health advice and his private observations during the pandemic.",
-    "confidence": "HIGH. The sources consistently report on the same event of Senator Rand Paul releasing documents, though they differ in their commentary and framing of the significance of these documents.",
-    "sources": [
-      {
-        "id": "art_1785283292216_yzcx6",
-        "url": "https://www.foxnews.com/outkick-analysis/legacy-media-covers-anthony-fauci-diary-criticizing-donald-trump-instead-faucis-dishonesty",
-        "source": "fox",
-        "title": "Legacy media covers Anthony Fauci diary by criticizing Donald Trump instead of Fauci's dishonesty"
-      },
-      {
-        "id": "art_1785273749374_t6lwf",
-        "url": "https://www.foxnews.com/media/ex-fda-commissioner-confronted-outrageous-fauci-diaries-cnbc-host",
-        "source": "fox",
-        "title": "Ex-FDA commissioner confronted on 'outrageous' Fauci diaries by CNBC host"
-      },
-      {
-        "id": "art_1785263037718_odz9j",
-        "url": "https://www.foxnews.com/media/anthony-fauci-diary-entries-social-media-ablaze-critics-mock-condemn-behavior",
-        "source": "fox",
-        "title": "Anthony Fauci diary entries set social media ablaze as critics mock, condemn behavior"
-      },
-      {
-        "id": "art_1785258226897_g6jau",
-        "url": "https://www.foxnews.com/politics/read-diaries-documents-unveil-faucis-thoughts-lab-leak-debate-mask-doubts-testing-failures",
-        "source": "fox",
-        "title": "READ THE DIARIES: Documents unveil Fauci's thoughts on the lab-leak debate, mask doubts and testing failures"
-      },
-      {
-        "id": "art_1785252214128_ew8kg",
-        "url": "https://www.foxnews.com/opinion/sen-rand-paul-covid-cover-up-layers-peeling-back-one-time",
-        "source": "fox",
-        "title": "SEN RAND PAUL: The COVID cover-up had layers. I’m peeling them back one at a time"
-      },
-      {
-        "id": "art_1785252215287_1azw0",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/trump-administration-fauci-scientists",
-        "source": "guardian",
-        "title": "Trump administration needs to stop ‘public harassment’ of Fauci and scientists, open letter says"
-      },
-      {
-        "id": "art_1785243665857_ia4qc",
-        "url": "https://www.foxnews.com/media/sen-ron-johnson-talks-fauci-emails-new-senate-filibuster-strategy-ruthless",
-        "source": "fox",
-        "title": "Sen Ron Johnson talks Fauci emails, new Senate filibuster strategy on 'Ruthless'"
-      },
-      {
-        "id": "art_1785236579818_lfzrm",
-        "url": "https://www.foxnews.com/politics/fauci-privately-took-credit-covid-19-lockdowns-despite-public-denial-newly-exposed-diary-entries-reveal",
-        "source": "fox",
-        "title": "Fauci privately took credit for COVID-19 lockdowns despite public denial, newly exposed diary entries reveal"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f1278a0a02d76c201cab0fdd560673e4",
-    "topic_label": "Trump Administration and Policies",
-    "event_window_start": "2026-07-28T12:31:15.000Z",
-    "event_window_end": "2026-07-29T02:15:41.000Z",
-    "article_ids": [
-      "art_1785291714041_ls2x2",
-      "art_1785283281732_gd3qr",
-      "art_1785283282924_dbz34",
-      "art_1785283285380_le5es",
-      "art_1785278492225_c1bth",
-      "art_1785278496584_2j87a",
-      "art_1785269175182_eee4h",
-      "art_1785263032095_onexo",
-      "art_1785243660229_rr4tn"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-29T08:34:42.003Z",
-    "updated_at": "2026-07-29T08:34:42.003Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The US Senate confirmed Jay Clayton as Director of National Intelligence on Tuesday with a 51-47 vote.",
-      "The Federal Communications Commission (FCC) announced a ban on the import of certain foreign-made humanoid robots and advanced robotic devices on Tuesday.",
-      "The FCC cited 'unacceptable risks' to national security as the justification for the robot import ban."
-    ],
-    "source_claims": [
-      "[bbc] The ban applies to advanced robots, including humanoid and four-legged machines.",
-      "[bbc] The FCC also banned imports of power inverters used in data centers and solar panels.",
-      "[guardian] The FCC defines the banned robots as advanced robotic devices, including humanoids and animal-like quadrupeds.",
-      "[guardian] FCC officials stated these devices could be used to surveil Americans or be remotely commandeered.",
-      "[fox] Senate Democrats demanded a new, experienced person to lead intelligence agencies before the vote.",
-      "[fox] Attorneys for Donald Trump filed a petition to toss the $83.3 million E. Jean Carroll defamation judgment.",
-      "[bbc] The Chinese embassy in Washington stated that China opposes the politicization of trade issues and sanctions based on groundless pretexts."
-    ],
-    "framing_differences": [
-      "The Guardian and BBC frame the FCC robot ban as part of a broader administration effort to keep Chinese technology out of the US, whereas Fox reports on the same day focus on the Senate DNI confirmation and a separate Trump legal filing.",
-      "Fox frames the DNI confirmation as Democrats rejecting a pick after previously demanding a new candidate, while the Guardian frames it as the installment of a Trump ally via a party-line vote."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] China is the biggest maker of humanoid robots in the world."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'politicising' to describe the US trade actions, citing the Chinese embassy.",
-      "[bbc] uses the term 'groundless pretexts' to describe the basis for US sanctions, citing the Chinese embassy.",
-      "[guardian] uses the term 'malign actors' to describe potential users of the data collected by robots, citing the FCC.",
-      "[fox] uses the term 'top spy pick' to describe the nomination of Jay Clayton for Director of National Intelligence.",
-      "[fox] uses the term 'exorbitant' to describe the $83.3 million judgment in the E. Jean Carroll case, citing the Trump legal filing."
-    ],
-    "safe_conclusions": [
-      "The US Senate voted 51-47 to confirm Jay Clayton as Director of National Intelligence on Tuesday.",
-      "The FCC issued a ban on certain imported humanoid and advanced robotic devices on Tuesday, citing national security concerns.",
-      "Attorneys for Donald Trump filed a legal petition regarding the E. Jean Carroll defamation case on Tuesday."
-    ],
-    "unknowns": [
-      "The specific technical specifications of the robots subject to the FCC ban.",
-      "The full list of countries of origin impacted by the FCC robot ban besides China.",
-      "The current status of the power inverter ban mentioned by BBC."
-    ],
-    "synthesis": "The Trump administration saw the Senate confirmation of Jay Clayton as Director of National Intelligence in a 51-47 party-line vote on Tuesday. Concurrently, the FCC announced a ban on the importation of certain advanced humanoid and robotic devices, citing national security risks. Additionally, Donald Trump's legal team filed a petition to vacate an $83.3 million defamation judgment.",
-    "confidence": "HIGH. The core events described (the Senate vote, the FCC action, and the legal filing) are consistent across the sources provided.",
-    "sources": [
-      {
-        "id": "art_1785291714041_ls2x2",
-        "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump administration bans new Chinese humanoid robots"
-      },
-      {
-        "id": "art_1785283281732_gd3qr",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/senate-confirms-jay-clayton-national-intelligence-director",
-        "source": "guardian",
-        "title": "Senate confirms Trump ally Jay Clayton as director of national intelligence"
-      },
-      {
-        "id": "art_1785283282924_dbz34",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china",
-        "source": "guardian",
-        "title": "FCC bans humanoid robots from China, citing ‘unacceptable risks’"
-      },
-      {
-        "id": "art_1785283285380_le5es",
-        "url": "https://www.foxnews.com/politics/dems-reject-trumps-top-spy-pick-demanding-replacement",
-        "source": "fox",
-        "title": "Dems reject Trump’s top spy pick after demanding replacement, leaving counter-terror tool in air"
-      },
-      {
-        "id": "art_1785278492225_c1bth",
-        "url": "https://www.foxnews.com/media/trump-files-supreme-court-petition-toss-83-million-e-jean-carroll-defamation-judgment",
-        "source": "fox",
-        "title": "Trump files Supreme Court petition to toss $83 million E Jean Carroll defamation judgment"
-      },
-      {
-        "id": "art_1785278496584_2j87a",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/diplomats-un-walkout-france-human-rights-trump-record",
-        "source": "guardian",
-        "title": "US diplomats stage UN walkout after France criticizes human rights record under Trump"
-      },
-      {
-        "id": "art_1785269175182_eee4h",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/trump-rfk-jr-cutting-vaccines",
-        "source": "guardian",
-        "title": "Trump reportedly pushing RFK Jr to cut vaccines more aggressively"
-      },
-      {
-        "id": "art_1785263032095_onexo",
-        "url": "https://www.foxnews.com/politics/acting-dni-touts-approximately-30-percent-staff-reduction-weeks-ago-senate-poised-confirm-trump-nominee",
-        "source": "fox",
-        "title": "Acting DNI touts 'approximately 30% Staff Reduction from Weeks Ago' as Senate poised to confirm Trump nominee"
-      },
-      {
-        "id": "art_1785243660229_rr4tn",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/us-walks-out-on-france-at-un-over-north-korea-russia-comparison?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US walks out on France at UN over North Korea, Russia comparison"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "86a4a7d0f561b46f95e39b367d75d8fb",
-    "topic_label": "Severe Wildfires and Natural Disasters",
-    "event_window_start": "2026-07-28T12:03:50.000Z",
-    "event_window_end": "2026-07-28T22:16:26.000Z",
-    "article_ids": [
-      "art_1785278484886_dnajd",
-      "art_1785278491188_r8cod",
-      "art_1785263043156_xvnma",
-      "art_1785243664709_jerzn"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-29T08:34:42.003Z",
-    "updated_at": "2026-07-29T08:34:42.003Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Wildfires are occurring in southwestern Europe, specifically affecting France and Spain.",
-      "Emergency measures and evacuations are taking place in response to the wildfires.",
-      "High temperatures and heatwaves are complicating firefighting efforts in the affected regions."
-    ],
-    "source_claims": [
-      "[guardian] States a powerful tornado struck the Fox Cities region in Wisconsin, leveling homes.",
-      "[fox] Claims wildfires in southwestern France are threatening missile plants, military research facilities, and nuclear sites.",
-      "[fox] States more than 250,000 people have been forced to evacuate due to fires in Spain and France.",
-      "[aljazeera] Reports that a commercial district in Biscarrosse, France, has been left in ruins by wildfires.",
-      "[bbc] Reports that more than 70,000 people have been forced to evacuate in Spain."
-    ],
-    "framing_differences": [
-      "The guardian focuses on a weather event in the United States (Wisconsin tornado), whereas fox, aljazeera, and bbc focus on wildfires in Europe."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Claims wildfires are threatening specific nuclear sites near Bordeaux.",
-      "[bbc] Quotes Isabel Díaz Ayuso describing the fire situation as 'a hell of a situation'."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'devastating' to describe the Wisconsin tornado.",
-      "[aljazeera] uses the term 'devastating' to describe the wildfire in Biscarrosse.",
-      "[bbc] uses the term 'ravaging' to describe the impact of wildfires on the Spanish countryside."
-    ],
-    "safe_conclusions": [
-      "Severe weather events are causing property damage and necessitating evacuations in both North America and Europe."
-    ],
-    "unknowns": [
-      "The specific cause of the Wisconsin tornado.",
-      "The total number of casualties or injuries across all fire-affected regions.",
-      "The official status of the nuclear sites mentioned by fox."
-    ],
-    "synthesis": "Multiple regions are experiencing significant weather-related emergencies, including a tornado in Wisconsin and wildfires across France and Spain. Emergency services are currently responding to these events, which have caused property damage and widespread evacuations. Authorities in affected areas cite high temperatures and heatwaves as contributing factors to the ongoing risks.",
-    "confidence": "HIGH. The sources describe distinct, geographically separate events that do not conflict with one another.",
-    "sources": [
-      {
-        "id": "art_1785278484886_dnajd",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/wisconsin-tornado",
-        "source": "guardian",
-        "title": "Rescuers pick through wreckage after ‘devastating’ Wisconsin tornado"
-      },
-      {
-        "id": "art_1785278491188_r8cod",
-        "url": "https://www.foxnews.com/world/deadly-french-wildfires-threaten-missile-plants-nuclear-sites-fourth-heatwave-looms",
-        "source": "fox",
-        "title": "Deadly French wildfires threaten missile plants, nuclear sites as fourth heatwave looms"
-      },
-      {
-        "id": "art_1785263043156_xvnma",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/28/wildfire-leaves-biscarrosse-commercial-district-in-ruins?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Wildfire leaves Biscarrosse commercial district in ruins"
-      },
-      {
-        "id": "art_1785243664709_jerzn",
-        "url": "https://www.bbc.co.uk/news/articles/c235m71mrreo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'It's a hell of a situation': Spain grapples with devastating wildfires"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
