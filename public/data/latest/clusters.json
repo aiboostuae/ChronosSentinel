@@ -113,76 +113,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "2149261458dd137b9de96ed372132dce",
-    "topic_label": "Trump Attorney General Nomination",
-    "event_window_start": "2026-08-03T15:03:33.000Z",
-    "event_window_end": "2026-08-03T15:18:42.000Z",
-    "article_ids": [
-      "art_1785771087385_70c7o",
-      "art_1785771090764_k5ps4"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-03T19:10:13.055Z",
-    "updated_at": "2026-08-03T19:10:13.055Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Republican senators John Cornyn and Thom Tillis have decided to support advancing Todd Blanche’s nomination for attorney general to the full Senate.",
-      "Todd Blanche has formally rescinded the $1.8bn 'anti-weaponization fund'.",
-      "John Cornyn and Thom Tillis had previously opposed Todd Blanche’s nomination."
-    ],
-    "source_claims": [
-      "[guardian] States that Cornyn and Tillis secured a 'legally enforceable document' that ensures Trump and his family remain subject to future tax filing audits.",
-      "[guardian] States that Cornyn and Tillis are 'outgoing lawmakers'.",
-      "[fox] States that President Trump defended the 'anti-weaponization fund' and criticized Senator John Cornyn during a Cabinet meeting at Camp David."
-    ],
-    "framing_differences": [
-      "The guardian frames the resolution as a result of successful negotiation of a legally enforceable document, while fox frames the resolution as the end of a period where the nomination was 'off life support' following a 'war' between the senators and the administration."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims that the agreement includes a guarantee that Trump and his family will not receive indefinite protection from tax audits.",
-      "[fox] Claims that the nomination was on 'life support' before the senators relented."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'rebels' to describe Sens. John Cornyn and Thom Tillis.",
-      "[fox] uses the term 'off life support' to describe the status of the nomination.",
-      "[fox] uses the term 'warring' to describe the interaction between the senators and the administration."
-    ],
-    "safe_conclusions": [
-      "John Cornyn and Thom Tillis have moved to support the advancement of Todd Blanche's nomination to the full Senate following the rescinding of the $1.8bn 'anti-weaponization fund'."
-    ],
-    "unknowns": [
-      "The full contents of the 'legally enforceable document' mentioned by the guardian are not provided.",
-      "The specific timeline for the full Senate vote on Todd Blanche's nomination is not stated."
-    ],
-    "synthesis": "Republican senators John Cornyn and Thom Tillis have announced they will support advancing Todd Blanche’s attorney general nomination to the full Senate. This follows the formal rescission of the $1.8bn 'anti-weaponization fund'. The senators previously opposed the nomination, citing concerns that were addressed through negotiations with the administration.",
-    "confidence": "HIGH. Both sources agree on the primary development regarding the senators' change in position and the rescission of the anti-weaponization fund.",
-    "sources": [
-      {
-        "id": "art_1785771087385_70c7o",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/03/donald-trump-todd-blanche-anti-weaponization-fund-iran-latest-news-updates",
-        "source": "guardian",
-        "title": "Holdouts for Trump’s attorney general pick say they will advance his nomination to the full Senate – US politics live"
-      },
-      {
-        "id": "art_1785771090764_k5ps4",
-        "url": "https://www.foxnews.com/politics/trumps-ag-pick-off-life-support-after-key-republican-rebels-relent",
-        "source": "fox",
-        "title": "Trump's AG pick off life support after key Republican rebels relent"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "2541d097cd909a1f06f341f40fdcaff7",
     "topic_label": "Global Drought and Heatwaves",
     "event_window_start": "2026-08-03T08:11:37.000Z",
@@ -263,6 +193,85 @@
         "url": "https://www.theguardian.com/world/live/2026/aug/03/europe-heatwave-wildfires-migration-ceuta-spain-latest-news-updates",
         "source": "guardian",
         "title": "Central and southern Europe brace for heatwave – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "fe7d77a62a4db831c538d540caaccc64",
+    "topic_label": "US Political Appointments and Trump",
+    "event_window_start": "2026-08-03T14:33:33.000Z",
+    "event_window_end": "2026-08-03T15:18:42.000Z",
+    "article_ids": [
+      "art_1785771087385_70c7o",
+      "art_1785771090764_k5ps4",
+      "art_1785771101089_hyqt9"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-03T22:08:55.331Z",
+    "updated_at": "2026-08-03T22:08:55.331Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Sens. John Cornyn and Thom Tillis previously opposed the nomination of Todd Blanche as attorney general.",
+      "Sens. John Cornyn and Thom Tillis have changed their stance and will now vote to advance the nomination of Todd Blanche to the full Senate."
+    ],
+    "source_claims": [
+      "[guardian] states that the concerns of Cornyn and Tillis were resolved by a legally enforceable document ending the 'anti-weaponization fund' and ensuring no indefinite protection from tax audits for the Trump family.",
+      "[fox] states that Cornyn and Tillis had been trying to extract concessions from the administration in exchange for their votes.",
+      "[fox] states that President Trump defended the 'anti-weaponization fund' and criticized Senator Cornyn during a Friday Cabinet meeting."
+    ],
+    "framing_differences": [
+      "The Guardian frames the event as a resolution achieved through successful negotiation regarding specific policy deal-breakers, while Fox frames the event as the survival of a nomination that was 'off life support' following a 'war' between the administration and Republican rebels."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] reports that a 'legally enforceable document' was negotiated to address the senators' concerns.",
+      "[aljazeera] reports that President Trump demanded oil companies lower gasoline prices and criticized Chevron CEO Mike Wirth."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'rebels' to describe Sens. John Cornyn and Thom Tillis.",
+      "[fox] uses the phrase 'off life support' to describe the status of the nomination.",
+      "[fox] uses the term 'warring' to describe the interaction between the senators and the administration.",
+      "[aljazeera] uses the word 'slams' to describe President Trump's criticism of the Chevron CEO."
+    ],
+    "safe_conclusions": [
+      "Sens. John Cornyn and Thom Tillis have moved to support the advancement of Todd Blanche's nomination as attorney general."
+    ],
+    "unknowns": [
+      "The specific legal text or contents of the document mentioned by the Guardian.",
+      "The full details of the 'anti-weaponization fund' and its official function.",
+      "The extent to which internal Republican negotiations influenced the outcome of the nomination process."
+    ],
+    "synthesis": "Sens. John Cornyn and Thom Tillis have dropped their opposition to the nomination of Todd Blanche as attorney general, allowing the process to move to the full Senate. The change follows reported negotiations between the senators and the administration regarding policy concerns, including an 'anti-weaponization fund' and tax audit protections. Independent of this, President Trump has publicly demanded that oil companies reduce fuel prices.",
+    "confidence": "HIGH. The core development regarding the senators' change in position on the nomination is corroborated by multiple sources, despite differences in descriptive framing.",
+    "sources": [
+      {
+        "id": "art_1785771087385_70c7o",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/03/donald-trump-todd-blanche-anti-weaponization-fund-iran-latest-news-updates",
+        "source": "guardian",
+        "title": "Holdouts for Trump’s attorney general pick say they will advance his nomination to the full Senate – US politics live"
+      },
+      {
+        "id": "art_1785771090764_k5ps4",
+        "url": "https://www.foxnews.com/politics/trumps-ag-pick-off-life-support-after-key-republican-rebels-relent",
+        "source": "fox",
+        "title": "Trump's AG pick off life support after key Republican rebels relent"
+      },
+      {
+        "id": "art_1785771101089_hyqt9",
+        "url": "https://www.aljazeera.com/economy/2026/8/3/trump-slams-chevron-ceo-demands-immediate-reduction-in-us-fuel-prices?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump slams Chevron CEO, demands immediate reduction in US fuel prices"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -405,6 +414,76 @@
         "url": "https://www.theguardian.com/politics/live/2026/aug/03/reform-immigration-small-boats-nigel-farage-restore-clacton-latest-news-updates",
         "source": "guardian",
         "title": "Criticism of Reform UK’s pledge to use Navy to stop small boats – politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2149261458dd137b9de96ed372132dce",
+    "topic_label": "Trump Attorney General Nomination",
+    "event_window_start": "2026-08-03T15:03:33.000Z",
+    "event_window_end": "2026-08-03T15:18:42.000Z",
+    "article_ids": [
+      "art_1785771087385_70c7o",
+      "art_1785771090764_k5ps4"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-03T19:10:13.055Z",
+    "updated_at": "2026-08-03T19:10:13.055Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Republican senators John Cornyn and Thom Tillis have decided to support advancing Todd Blanche’s nomination for attorney general to the full Senate.",
+      "Todd Blanche has formally rescinded the $1.8bn 'anti-weaponization fund'.",
+      "John Cornyn and Thom Tillis had previously opposed Todd Blanche’s nomination."
+    ],
+    "source_claims": [
+      "[guardian] States that Cornyn and Tillis secured a 'legally enforceable document' that ensures Trump and his family remain subject to future tax filing audits.",
+      "[guardian] States that Cornyn and Tillis are 'outgoing lawmakers'.",
+      "[fox] States that President Trump defended the 'anti-weaponization fund' and criticized Senator John Cornyn during a Cabinet meeting at Camp David."
+    ],
+    "framing_differences": [
+      "The guardian frames the resolution as a result of successful negotiation of a legally enforceable document, while fox frames the resolution as the end of a period where the nomination was 'off life support' following a 'war' between the senators and the administration."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims that the agreement includes a guarantee that Trump and his family will not receive indefinite protection from tax audits.",
+      "[fox] Claims that the nomination was on 'life support' before the senators relented."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'rebels' to describe Sens. John Cornyn and Thom Tillis.",
+      "[fox] uses the term 'off life support' to describe the status of the nomination.",
+      "[fox] uses the term 'warring' to describe the interaction between the senators and the administration."
+    ],
+    "safe_conclusions": [
+      "John Cornyn and Thom Tillis have moved to support the advancement of Todd Blanche's nomination to the full Senate following the rescinding of the $1.8bn 'anti-weaponization fund'."
+    ],
+    "unknowns": [
+      "The full contents of the 'legally enforceable document' mentioned by the guardian are not provided.",
+      "The specific timeline for the full Senate vote on Todd Blanche's nomination is not stated."
+    ],
+    "synthesis": "Republican senators John Cornyn and Thom Tillis have announced they will support advancing Todd Blanche’s attorney general nomination to the full Senate. This follows the formal rescission of the $1.8bn 'anti-weaponization fund'. The senators previously opposed the nomination, citing concerns that were addressed through negotiations with the administration.",
+    "confidence": "HIGH. Both sources agree on the primary development regarding the senators' change in position and the rescission of the anti-weaponization fund.",
+    "sources": [
+      {
+        "id": "art_1785771087385_70c7o",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/03/donald-trump-todd-blanche-anti-weaponization-fund-iran-latest-news-updates",
+        "source": "guardian",
+        "title": "Holdouts for Trump’s attorney general pick say they will advance his nomination to the full Senate – US politics live"
+      },
+      {
+        "id": "art_1785771090764_k5ps4",
+        "url": "https://www.foxnews.com/politics/trumps-ag-pick-off-life-support-after-key-republican-rebels-relent",
+        "source": "fox",
+        "title": "Trump's AG pick off life support after key Republican rebels relent"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20287,158 +20366,6 @@
         "url": "https://www.aljazeera.com/opinions/2026/7/28/what-are-trumps-military-options?traffic_source=rss",
         "source": "aljazeera",
         "title": "What are Trump’s military options?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "04495d11c3b31351dc59f9a0b694cef8",
-    "topic_label": "Trump Administration and Politics",
-    "event_window_start": "2026-07-28T16:52:57.000Z",
-    "event_window_end": "2026-07-29T11:09:27.000Z",
-    "article_ids": [
-      "art_1785324532134_bz5e8",
-      "art_1785324540799_3x8zt",
-      "art_1785291714041_ls2x2",
-      "art_1785291720685_zrc1y",
-      "art_1785283280645_i3xb5",
-      "art_1785283281732_gd3qr",
-      "art_1785283282924_dbz34",
-      "art_1785283292216_yzcx6",
-      "art_1785278492225_c1bth",
-      "art_1785269175182_eee4h",
-      "art_1785263032095_onexo",
-      "art_1785263037718_odz9j",
-      "art_1785258226897_g6jau"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 13,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-29T15:33:55.635Z",
-    "updated_at": "2026-07-29T15:33:55.635Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Gabriel Perez no longer works for the federal government, according to a White House official.",
-      "Bari Weiss holds a leadership position at CBS News."
-    ],
-    "source_claims": [
-      "[guardian] The White House teleprompter operator Gabriel Perez allegedly used inside knowledge to bet on Donald Trump’s speeches on the prediction market Kalshi.",
-      "[fox] CBS News has fired Sharyn Alfonsi, Cecilia Vega, and Tanya Simon from 60 Minutes.",
-      "[fox] Nick Bilton announced that Ross Douthat is joining 60 Minutes as a correspondent.",
-      "[bbc] The Trump administration announced a ban on imports of new foreign-made humanoid robots and power inverters citing national security risks.",
-      "[bbc] The Chinese embassy in Washington stated that China opposes the politicizing of trade issues based on groundless pretexts."
-    ],
-    "framing_differences": [
-      "The guardian frames the investigation into Anthony Fauci's past actions as 'vilification and harassment' of an 85-year-old, whereas the source text notes it as a 'longtime Republican investigation'.",
-      "The fox source describes the CBS leadership changes as a 'shakeup' and a 'poaching' of talent, while the guardian source does not mention CBS news personnel updates."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Scientists view the investigation into Anthony Fauci as 'vilification and harassment'.",
-      "[fox] Some blue states have made Medicaid fraud a 'feature' of their programs, according to CMS Administrator Dr. Mehmet Oz.",
-      "[bbc] Imported humanoid robots and power inverters pose an 'unacceptable risk' to US national security and the economy."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'vilification and harassment' to describe Republican investigations into Anthony Fauci.",
-      "[bbc] uses the term 'politicising' and 'groundless pretexts' to describe the Chinese embassy's view of US sanctions.",
-      "[fox] uses the term 'poached' to describe Bari Weiss's hiring of a New York Times columnist."
-    ],
-    "safe_conclusions": [
-      "Multiple events are occurring within US political and media institutions, including investigations into government officials, changes in staffing at major media outlets, and new trade-related regulations."
-    ],
-    "unknowns": [
-      "Whether Gabriel Perez resigned or was terminated from his position in the federal government.",
-      "The specific technical basis for the US government's claim that imported humanoid robots constitute an 'unacceptable risk' to national security.",
-      "The full extent of the 60 Minutes personnel changes beyond the specific names mentioned in the fox report."
-    ],
-    "synthesis": "Recent reports cover various US administrative actions and media industry developments, including personnel changes at CBS and the White House. The government has enacted new restrictions on foreign robot imports citing national security, while Republican legislators continue investigations into pandemic-era policy. These events reflect ongoing activity within domestic regulatory and media environments.",
-    "confidence": "HIGH. The sources cover independent events and do not conflict on factual data regarding the specific occurrences reported.",
-    "sources": [
-      {
-        "id": "art_1785324532134_bz5e8",
-        "url": "https://www.theguardian.com/us-news/live/2026/jul/29/donald-trump-anthony-fauci-rand-paul-covid-lab-leak-theory-iran-tariffs-latest-news-updates",
-        "source": "guardian",
-        "title": "Fauci to face Republican questions over Covid pandemic origins – US politics live"
-      },
-      {
-        "id": "art_1785324540799_3x8zt",
-        "url": "https://www.foxnews.com/opinion/newt-gingrich-reform-medicaid-accountability-way-forward",
-        "source": "fox",
-        "title": "NEWT GINGRICH: Want to reform Medicaid? Accountability is the way forward"
-      },
-      {
-        "id": "art_1785291714041_ls2x2",
-        "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump administration bans new Chinese humanoid robots"
-      },
-      {
-        "id": "art_1785291720685_zrc1y",
-        "url": "https://www.foxnews.com/media/bari-weiss-poaches-conservative-ny-times-columnist-others-join-60-minutes-cbs-program-shakeup",
-        "source": "fox",
-        "title": "Bari Weiss poaches conservative NY Times columnist, others join '60 Minutes' in CBS program shakeup"
-      },
-      {
-        "id": "art_1785283280645_i3xb5",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/white-house-telemprompter-trump-bets",
-        "source": "guardian",
-        "title": "White House teleprompter operator accused over Trump bets no longer in job, official says"
-      },
-      {
-        "id": "art_1785283281732_gd3qr",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/senate-confirms-jay-clayton-national-intelligence-director",
-        "source": "guardian",
-        "title": "Senate confirms Trump ally Jay Clayton as director of national intelligence"
-      },
-      {
-        "id": "art_1785283282924_dbz34",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china",
-        "source": "guardian",
-        "title": "FCC bans humanoid robots from China, citing ‘unacceptable risks’"
-      },
-      {
-        "id": "art_1785283292216_yzcx6",
-        "url": "https://www.foxnews.com/outkick-analysis/legacy-media-covers-anthony-fauci-diary-criticizing-donald-trump-instead-faucis-dishonesty",
-        "source": "fox",
-        "title": "Legacy media covers Anthony Fauci diary by criticizing Donald Trump instead of Fauci's dishonesty"
-      },
-      {
-        "id": "art_1785278492225_c1bth",
-        "url": "https://www.foxnews.com/media/trump-files-supreme-court-petition-toss-83-million-e-jean-carroll-defamation-judgment",
-        "source": "fox",
-        "title": "Trump files Supreme Court petition to toss $83 million E Jean Carroll defamation judgment"
-      },
-      {
-        "id": "art_1785269175182_eee4h",
-        "url": "https://www.theguardian.com/us-news/2026/jul/28/trump-rfk-jr-cutting-vaccines",
-        "source": "guardian",
-        "title": "Trump reportedly pushing RFK Jr to cut vaccines more aggressively"
-      },
-      {
-        "id": "art_1785263032095_onexo",
-        "url": "https://www.foxnews.com/politics/acting-dni-touts-approximately-30-percent-staff-reduction-weeks-ago-senate-poised-confirm-trump-nominee",
-        "source": "fox",
-        "title": "Acting DNI touts 'approximately 30% Staff Reduction from Weeks Ago' as Senate poised to confirm Trump nominee"
-      },
-      {
-        "id": "art_1785263037718_odz9j",
-        "url": "https://www.foxnews.com/media/anthony-fauci-diary-entries-social-media-ablaze-critics-mock-condemn-behavior",
-        "source": "fox",
-        "title": "Anthony Fauci diary entries set social media ablaze as critics mock, condemn behavior"
-      },
-      {
-        "id": "art_1785258226897_g6jau",
-        "url": "https://www.foxnews.com/politics/read-diaries-documents-unveil-faucis-thoughts-lab-leak-debate-mask-doubts-testing-failures",
-        "source": "fox",
-        "title": "READ THE DIARIES: Documents unveil Fauci's thoughts on the lab-leak debate, mask doubts and testing failures"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
