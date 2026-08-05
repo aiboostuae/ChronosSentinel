@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T20:12:47.605Z",
+  "generated_at": "2026-08-05T21:50:38.186Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 180,
+  "impact_count": 179,
   "watchlist_count": 3,
   "latest_clusters": [
     {
@@ -88,23 +88,32 @@
       "updated_at": "2026-08-05T20:12:29.208Z"
     },
     {
-      "cluster_id": "4049fb9eb203fc74642b30b90e17283f",
-      "topic_label": "Michigan Senate Primary Elections",
+      "cluster_id": "1bc15163cbbbc4c5b98e38fb6fe5b1ab",
+      "topic_label": "Michigan Senate Primary Race",
       "event_window_start": "2026-08-05T04:00:13.000Z",
-      "event_window_end": "2026-08-05T18:09:27.000Z",
-      "article_count": 5,
+      "event_window_end": "2026-08-05T20:11:43.000Z",
+      "article_count": 7,
       "source_count": 2,
       "region_tag": "global",
       "shared_facts": [
-        "Abdul El-Sayed is a Democratic candidate for the U.S. Senate in Michigan.",
-        "The Michigan Democratic Senate primary race between Abdul El-Sayed and Haley Stevens was identified as a close contest.",
-        "An election watch party for Abdul El-Sayed occurred at the Majestic Theatre in Detroit.",
-        "The winner of the Democratic primary will face Republican Mike Rogers in the general election."
+        "Abdul El-Sayed is a candidate for the Democratic nomination for the US Senate in Michigan.",
+        "Mike Rogers is the Republican nominee for the Michigan US Senate seat.",
+        "Haley Stevens is a Democratic congresswoman who ran against Abdul El-Sayed in the primary."
       ],
       "source_differences": [],
-      "synthesis": "Abdul El-Sayed and Haley Stevens contested the Michigan Democratic primary for the U.S. Senate, with the race remaining uncalled on election night due to a narrow margin. Media coverage of the event diverged between reporting on vote tallies and broader political implications versus focusing on campaign donations and partisan commentary surrounding the candidate. The winner of this primary is slated to compete against Mike Rogers in the general election.",
-      "confidence": "MEDIUM: The sources agree on the factual status of the election event but diverge significantly in their focus, with one source prioritizing financial allegations and social media commentary while the other focuses on election reporting.",
+      "synthesis": "The provided articles detail ongoing primary election contests in Michigan, covering both Republican house races and the Democratic senate nomination. Reporting highlights electoral outcomes for Thomas Smith and the competitive nature of the senate race between Abdul El-Sayed and Haley Stevens. Additionally, coverage includes reports on campaign finance and internal party dynamics regarding the Senate nominee.",
+      "confidence": "CONTESTED. The sources provide conflicting information regarding the status of the Democratic Senate nomination, with one reporting it as undecided and another referring to the candidate as the established nominee.",
       "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/republican-trump-rival-michigan-primary",
+          "title": "Republican who withdrew last month beats Trump-backed rival in Michigan"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/michigan-dem-predicts-far-left-el-sayed-win-senate-race-backing-primary-rival",
+          "title": "SEE IT: Michigan Dem predicts far-left El-Sayed will win Senate race after backing his primary rival"
+        },
         {
           "source": "fox",
           "url": "https://www.foxnews.com/politics/el-sayed-campaign-backed-100000-dozens-members-group-alleged-terror-ties",
@@ -131,7 +140,7 @@
           "title": "2026 Midterms State of Play: Key races unfold as Stevens, El-Sayed battle in Michigan"
         }
       ],
-      "updated_at": "2026-08-05T20:12:29.208Z"
+      "updated_at": "2026-08-05T21:50:28.656Z"
     },
     {
       "cluster_id": "0de09e37b6240500bd2c397eab7a77fe",
@@ -195,6 +204,83 @@
           "source": "guardian",
           "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster",
           "title": "Penguins and dolphins among nearly 400 Australian species under threat from bird flu as ‘true extent of disaster’ revealed"
+        }
+      ],
+      "updated_at": "2026-08-05T20:12:29.208Z"
+    },
+    {
+      "cluster_id": "3773336186496741fd1959b2f2cec186",
+      "topic_label": "Cambridge Professor Plagiarism Allegations",
+      "event_window_start": "2026-08-05T18:16:06.000Z",
+      "event_window_end": "2026-08-05T20:08:47.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [
+        "Jason Arday is a Cambridge professor.",
+        "Cambridge University announced an investigation into Jason Arday's qualifications and career.",
+        "Jason Arday has resigned from his position at Cambridge.",
+        "Jason Arday issued a statement regarding his resignation citing the toll of public commentary."
+      ],
+      "source_differences": [],
+      "synthesis": "Jason Arday has resigned from his position as a professor at Cambridge University following the institution's announcement of an investigation into his career and qualifications. The university had previously defended Arday, who is noted as the youngest black professor in the institution's history, before opting to investigate further upon receiving new information. Arday stated that the ongoing public commentary regarding his academic work prompted his decision to resign.",
+      "confidence": "HIGH. The sources are internally consistent and originate from the same reporting entity regarding the core events of the resignation and the initiation of an investigation.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-professor-jason-arday-resigns-amid-accusations-of-plagiarism",
+          "title": "Cambridge professor Jason Arday resigns amid accusations of plagiarism"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-jason-arday-announces-investigation-into-professor-accused-of-plagiarism",
+          "title": "Cambridge announces investigation into professor accused of plagiarism"
+        }
+      ],
+      "updated_at": "2026-08-05T21:50:28.656Z"
+    },
+    {
+      "cluster_id": "4049fb9eb203fc74642b30b90e17283f",
+      "topic_label": "Michigan Senate Primary Elections",
+      "event_window_start": "2026-08-05T04:00:13.000Z",
+      "event_window_end": "2026-08-05T18:09:27.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Abdul El-Sayed is a Democratic candidate for the U.S. Senate in Michigan.",
+        "The Michigan Democratic Senate primary race between Abdul El-Sayed and Haley Stevens was identified as a close contest.",
+        "An election watch party for Abdul El-Sayed occurred at the Majestic Theatre in Detroit.",
+        "The winner of the Democratic primary will face Republican Mike Rogers in the general election."
+      ],
+      "source_differences": [],
+      "synthesis": "Abdul El-Sayed and Haley Stevens contested the Michigan Democratic primary for the U.S. Senate, with the race remaining uncalled on election night due to a narrow margin. Media coverage of the event diverged between reporting on vote tallies and broader political implications versus focusing on campaign donations and partisan commentary surrounding the candidate. The winner of this primary is slated to compete against Mike Rogers in the general election.",
+      "confidence": "MEDIUM: The sources agree on the factual status of the election event but diverge significantly in their focus, with one source prioritizing financial allegations and social media commentary while the other focuses on election reporting.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/el-sayed-campaign-backed-100000-dozens-members-group-alleged-terror-ties",
+          "title": "El-Sayed campaign backed by over $100,000 from dozens of members of group with alleged terror ties"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/hasan-piker-unloads-islamophobic-pieces-democrats-el-sayed-faces-party-unity-test",
+          "title": "Hasan Piker unloads on 'Islamophobic pieces of s---' Democrats as El-Sayed faces party unity test"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/aug/05/michigan-primary-race-democrats-midterms-senate-el-sayed-haley-stevens-donald-trump-republicans-us-politics-latest-news-updates",
+          "title": "Michigan Senate Democratic primary race remains too close to call as El-Sayed holds narrow lead – US politics live"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/05/abdul-el-sayed-haley-stevens-michigan-primary-election",
+          "title": "El-Sayed holds narrow lead in Michigan Senate primary but race too close to call"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/2026-midterms-state-of-play-key-races-unfold-stevens-el-sayed-battle-michigan",
+          "title": "2026 Midterms State of Play: Key races unfold as Stevens, El-Sayed battle in Michigan"
         }
       ],
       "updated_at": "2026-08-05T20:12:29.208Z"
@@ -312,80 +398,6 @@
         }
       ],
       "updated_at": "2026-08-05T18:31:40.586Z"
-    },
-    {
-      "cluster_id": "7c69340d63c3c1fc2c197aada60fe00d",
-      "topic_label": "Trump Security and Legal Incidents",
-      "event_window_start": "2026-08-05T01:29:01.000Z",
-      "event_window_end": "2026-08-05T12:58:05.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Jeanine John Taele, a 38-year-old man, was arrested on Sunday at the Trump National Golf Club in Rancho Palos Verdes.",
-        "The arrest occurred days before a scheduled visit by Donald Trump for a Republican National Committee fundraising event.",
-        "Law enforcement officials reported finding a loaded firearm or magazine in Taele's possession or vehicle."
-      ],
-      "source_differences": [],
-      "synthesis": "Jeanine John Taele was arrested by Los Angeles County sheriff's deputies at the Trump National Golf Club on Sunday after being observed photographing the property. The arrest took place days before a scheduled visit by Donald Trump for a Republican National Committee event. Authorities recovered firearms and ammunition from the suspect during the detention.",
-      "confidence": "HIGH. Both sources corroborate the identity of the individual, the location of the arrest, and the timing relative to the president's visit.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/trump-faa-marine-one-air-safety-incident",
-          "title": "FAA investigates air ‘safety incident’ involving Trump’s Marine One"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/04/man-arrested-trump-california-golf-course",
-          "title": "Armed man arrested at Trump’s California golf course"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/5/armed-man-arrested-at-trumps-la-golf-course-ahead-of-presidents-visit?traffic_source=rss",
-          "title": "Armed man arrested at Trump’s LA golf course ahead of president’s visit"
-        }
-      ],
-      "updated_at": "2026-08-05T15:18:44.004Z"
-    },
-    {
-      "cluster_id": "438cfe6313a84ddefb7908db4305c31b",
-      "topic_label": "Michigan Elections",
-      "event_window_start": "2026-08-05T04:00:13.000Z",
-      "event_window_end": "2026-08-05T10:49:15.000Z",
-      "article_count": 4,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "A Democratic primary election for the U.S. Senate took place in Michigan on Tuesday.",
-        "Abdul El-Sayed and Haley Stevens are the primary candidates for the Democratic nomination in this race."
-      ],
-      "source_differences": [],
-      "synthesis": "Abdul El-Sayed and Haley Stevens contested the Democratic primary for a U.S. Senate seat in Michigan. News outlets characterize the race as a significant primary contest, with reports highlighting a close vote count and substantial outside financial investment. The election outcome remained pending as of the most recent reports.",
-      "confidence": "HIGH. The sources consistently identify the candidates and the nature of the event, though they emphasize different aspects of the race's significance.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/aug/05/michigan-primary-race-democrats-midterms-senate-el-sayed-haley-stevens-donald-trump-republicans-us-politics-latest-news-updates",
-          "title": "Michigan Senate Democratic primary race remains too close to call as El-Sayed holds narrow lead – US politics live"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/05/abdul-el-sayed-haley-stevens-michigan-primary-election",
-          "title": "El-Sayed holds narrow lead in Michigan Senate primary but race too close to call"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/dems-rally-behind-michigan-prosecutor-champion-party-crucial-house-race",
-          "title": "Dems rally behind Michigan prosecutor to champion party in crucial House race"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/2026-midterms-state-of-play-key-races-unfold-stevens-el-sayed-battle-michigan",
-          "title": "2026 Midterms State of Play: Key races unfold as Stevens, El-Sayed battle in Michigan"
-        }
-      ],
-      "updated_at": "2026-08-05T18:31:40.586Z"
     }
   ],
   "latest_impact": [
@@ -432,23 +444,23 @@
       "updated_at": "2026-08-05T20:12:29.208Z"
     },
     {
-      "id": "impact-4049fb9e",
-      "title": "Michigan Senate Primary Elections",
+      "id": "impact-1bc15163",
+      "title": "Michigan Senate Primary Race",
       "severity": "medium",
       "status": "active",
       "region": "Global",
       "domains": [
         "shipping"
       ],
-      "why_it_matters": "Abdul El-Sayed and Haley Stevens contested the Michigan Democratic primary for the U.S. Senate, with the race remaining uncalled on election night due to a narrow margin. Media coverage of the event diverged between reporting on vote tallies and broader political implications versus focusing on campaign donations and partisan commentary surrounding the candidate. The winner of this primary is slated to compete against Mike Rogers in the general election.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
+      "why_it_matters": "The provided articles detail ongoing primary election contests in Michigan, covering both Republican house races and the Democratic senate nomination. Reporting highlights electoral outcomes for Thomas Smith and the competitive nature of the senate race between Abdul El-Sayed and Haley Stevens. Additionally, coverage includes reports on campaign finance and internal party dynamics regarding the Senate nominee.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
       "corroboration_level": "moderate",
       "source_count": 2,
-      "related_cluster_id": "4049fb9eb203fc74642b30b90e17283f",
+      "related_cluster_id": "1bc15163cbbbc4c5b98e38fb6fe5b1ab",
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-08-05T20:12:29.208Z"
+      "updated_at": "2026-08-05T21:50:28.656Z"
     },
     {
       "id": "impact-322c30be",
@@ -468,6 +480,25 @@
       "related_cluster_id": "322c30be135b84d712fa827710f4e28d",
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-08-05T20:12:29.208Z"
+    },
+    {
+      "id": "impact-4049fb9e",
+      "title": "Michigan Senate Primary Elections",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "Abdul El-Sayed and Haley Stevens contested the Michigan Democratic primary for the U.S. Senate, with the race remaining uncalled on election night due to a narrow margin. Media coverage of the event diverged between reporting on vote tallies and broader political implications versus focusing on campaign donations and partisan commentary surrounding the candidate. The winner of this primary is slated to compete against Mike Rogers in the general election.",
+      "evidence_summary": "2 source(s), medium confidence.",
+      "confidence_label": "medium",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "4049fb9eb203fc74642b30b90e17283f",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-08-05T20:12:29.208Z"
     },
     {
@@ -570,28 +601,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-05T15:18:44.004Z"
-    },
-    {
-      "id": "impact-00527f6d",
-      "title": "Global Natural Disasters and Threats",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "disaster",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "German police and international authorities are investigating a security incident at Leipzig/Halle Airport involving an unidentified drone and a separate collision with a cargo aircraft. Flights were briefly suspended following the detection of the objects, with one cargo plane diverting to Hanover for damage assessment. Authorities have confirmed the presence of a drone near a Ukrainian aircraft at the facility.",
-      "evidence_summary": "4 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "high",
-      "source_count": 4,
-      "related_cluster_id": "00527f6d283c1973ff3962a137c963c6",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-05T18:31:40.586Z"
     }
   ]
 }
