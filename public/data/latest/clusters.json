@@ -1,57 +1,64 @@
 [
   {
-    "cluster_id": "2892def44ce8c96cc67a99ce42b2dc3d",
-    "topic_label": "Israel and West Bank conflict",
+    "cluster_id": "2662dc64d3615e3d210282f353ea475a",
+    "topic_label": "Middle East conflict",
     "event_window_start": "2026-08-05T10:09:22.000Z",
     "event_window_end": "2026-08-05T22:01:33.000Z",
     "article_ids": [
       "art_1785968139306_p36pa",
       "art_1785968149559_8fhhp",
+      "art_1785935172916_lcw2w",
       "art_1785927994137_l494t",
       "art_1785927999812_6kis8"
     ],
     "source_ids": [
-      "aljazeera"
+      "aljazeera",
+      "guardian"
     ],
-    "article_count": 4,
-    "source_count": 1,
+    "article_count": 5,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-05T22:59:56.150Z",
-    "updated_at": "2026-08-05T22:59:56.150Z",
+    "created_at": "2026-08-06T00:01:34.474Z",
+    "updated_at": "2026-08-06T00:01:34.474Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Israeli forces conduct military operations and raids within the West Bank.",
-      "Movement restrictions exist for Palestinians within the West Bank."
+      "Israeli military forces operate within the West Bank.",
+      "Israeli forces conduct raids in West Bank refugee camps."
     ],
     "source_claims": [
-      "[aljazeera] claims Israeli forces have used chemicals, bulldozing, and arrests to block farmers from land in southern Syria.",
-      "[aljazeera] claims Israeli forces launched a large-scale military operation in Qalandiya refugee camp.",
-      "[aljazeera] claims Israeli forces detained individuals during the Qalandiya raid."
+      "[aljazeera] Israeli forces have blocked farmers from land in southern Syria using chemicals, bulldozing, and arrests.",
+      "[aljazeera] More than half of Syria faces a hunger crisis and international aid has been reduced by half.",
+      "[aljazeera] Israeli military operations are expanding in the occupied West Bank, involving raids and detentions.",
+      "[guardian] US officials, including Donald Trump, Marco Rubio, and Scott Bessent, have signaled that a deal regarding the Strait of Hormuz could be reached soon.",
+      "[guardian] Iran has stated that negotiations with Oman concerning the reopening of the Strait of Hormuz are progressing positively."
     ],
     "framing_differences": [
-      "Al Jazeera's coverage regarding southern Syria frames the presence and actions of Israeli forces as an 'occupation', whereas reports on the West Bank frame operations as military raids that deepen fears and restrict movement."
+      "Al Jazeera frames the situation in the West Bank and southern Syria through the lens of occupation, restriction of movement, and humanitarian impact, whereas the Guardian frames the regional situation through ongoing diplomatic negotiations regarding the Strait of Hormuz."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] claims more than half of Syria faces a hunger crisis and international aid has been halved."
+      "[aljazeera] Israeli forces are utilizing chemicals to block farmers in southern Syria.",
+      "[aljazeera] Syrian international aid levels have been halved."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'Israeli occupation' to describe the presence of Israeli forces in southern Syria and the West Bank."
+      "[aljazeera] uses the term 'occupation' to describe Israeli presence in the West Bank and southern Syria.",
+      "[aljazeera] uses the term 'hazardous' to describe travel within the West Bank for Palestinians.",
+      "[aljazeera] uses the term 'raid' to describe Israeli military operations."
     ],
     "safe_conclusions": [
-      "Israeli military operations occur in the West Bank.",
-      "Palestinian movement within the West Bank is subject to Israeli military and spatial planning."
+      "Israeli military forces are active in the West Bank.",
+      "There are ongoing diplomatic discussions involving the US and Iran regarding the Strait of Hormuz."
     ],
     "unknowns": [
-      "Specific details regarding the types of chemicals used in southern Syria.",
-      "The number of individuals detained during the Qalandiya raid.",
-      "The current status of agricultural production in the specific regions of southern Syria mentioned."
+      "The specific chemical agents allegedly used by Israeli forces in southern Syria.",
+      "The specific terms or details of the potential deal concerning the Strait of Hormuz.",
+      "The current number of detainees resulting from the reported West Bank operations."
     ],
-    "synthesis": "Israeli forces are reported to be conducting military operations in both the West Bank and southern Syria. These actions include raids in refugee camps and the implementation of movement restrictions on Palestinian populations. The reports characterize these activities as significant disruptions to local daily life and infrastructure.",
-    "confidence": "HIGH. The sources consistently report on the presence and activity of Israeli military forces in the specified regions, even though they represent a single media organization.",
+    "synthesis": "Israeli military forces continue to conduct operations and raids within the West Bank, which observers describe as deepening movement restrictions for Palestinians. Simultaneously, the United States and Iran have reported progress in diplomatic negotiations mediated through Oman regarding the Strait of Hormuz. Al Jazeera additionally reports on humanitarian challenges and Israeli military activity in southern Syria.",
+    "confidence": "HIGH; The sources report on geographically and thematically distinct events, making the factual data within each report internally consistent.",
     "sources": [
       {
         "id": "art_1785968139306_p36pa",
@@ -64,6 +71,12 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/israeli-forces-raid-camp-in-occupied-west-bank-2?traffic_source=rss",
         "source": "aljazeera",
         "title": "Israeli forces raid camp in occupied West Bank"
+      },
+      {
+        "id": "art_1785935172916_lcw2w",
+        "url": "https://www.theguardian.com/world/live/2026/aug/05/us-iran-israel-oman-strait-of-hormuz-latest-news-updates",
+        "source": "guardian",
+        "title": "Middle East crisis live: US and Iran signal hope for Hormuz deal but terms unclear"
       },
       {
         "id": "art_1785927994137_l494t",
@@ -181,6 +194,591 @@
         "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Russian ballistic missile strike on Kyiv kills one and injures others"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1ec650d236f8478fe6a50f9d066f2864",
+    "topic_label": "Threats against Donald Trump",
+    "event_window_start": "2026-08-05T01:29:01.000Z",
+    "event_window_end": "2026-08-05T23:14:30.000Z",
+    "article_ids": [
+      "art_1785972974648_unsqx",
+      "art_1785972977803_y929o",
+      "art_1785968148486_cau2y",
+      "art_1785935164822_c2pju",
+      "art_1785895987726_vfir7",
+      "art_1785895997685_8wjhg"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-06T00:01:34.474Z",
+    "updated_at": "2026-08-06T00:01:34.474Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Jeanine John Taele, age 38, was arrested near Donald Trump’s golf course in Rancho Palos Verdes, California.",
+      "The arrest occurred in proximity to a scheduled fundraising event involving Donald Trump and the Republican National Committee.",
+      "Authorities identified weapons-related items in connection with the investigation of Jeanine John Taele."
+    ],
+    "source_claims": [
+      "[fox] Claims Donald Trump has become the most targeted U.S. leader on record.",
+      "[fox] Claims Trump has faced nearly 20 known threats since 2017, including three major assassination attempts.",
+      "[guardian] Claims federal agents identified Jeanine John Taele as a 'suspicious individual' after observing him recording the golf course.",
+      "[aljazeera] Claims Jeanine John Taele was arrested while 'pretending to be part of the security detail'.",
+      "[aljazeera] Claims Taele pleaded not guilty to all charges on Monday.",
+      "[guardian] Claims an air safety incident occurred involving Marine One and a commercial passenger jet near Washington D.C."
+    ],
+    "framing_differences": [
+      "Fox frames the events as part of a historical trend of high-frequency threats against Donald Trump, whereas Guardian and Al Jazeera focus on specific, isolated criminal incidents in California and an aviation safety report."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Claims Trump has survived three major assassination attempts and nearly a dozen other threat-related incidents in the last two years.",
+      "[aljazeera] Claims the suspect was 'pretending to be part of the security detail' during the incident at the golf course."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'most targeted U.S. leader' to describe Donald Trump.",
+      "[aljazeera] uses the term 'pretending to be part of the security detail' to describe the suspect's behavior."
+    ],
+    "safe_conclusions": [
+      "Jeanine John Taele was arrested at or near the Trump National Golf Club in Rancho Palos Verdes.",
+      "The FAA is investigating an air traffic incident involving Marine One.",
+      "Legal proceedings involving Jeanine John Taele are ongoing."
+    ],
+    "unknowns": [
+      "The total number of historically verified threats against all U.S. presidents compared to Donald Trump.",
+      "The specific nature of the 'suspicious behavior' exhibited by Taele beyond the reported photography and videos.",
+      "The exact distance between the aircraft involved in the reported Washington D.C. air safety incident."
+    ],
+    "synthesis": "Recent reports cover the arrest of 38-year-old Jeanine John Taele near Donald Trump’s California golf course, where he faces weapons-related charges ahead of a political event. Simultaneously, the FAA is investigating a reported air traffic safety incident involving the president's helicopter, Marine One, near Washington D.C. Separately, media commentary discusses the frequency and historical context of security threats directed toward Donald Trump.",
+    "confidence": "MEDIUM. While reports on the arrest and FAA investigation are factually specific, the claim regarding the total number of threats against the president is a subjective interpretation of security statistics.",
+    "sources": [
+      {
+        "id": "art_1785972974648_unsqx",
+        "url": "https://www.foxnews.com/politics/trump-become-americas-most-targeted-leader-facing-threats-every-few-months",
+        "source": "fox",
+        "title": "Trump has become America's most targeted leader, facing threats every few months"
+      },
+      {
+        "id": "art_1785972977803_y929o",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/man-arrested-trump-california-golf-course",
+        "source": "guardian",
+        "title": "Man arrested at Trump’s California golf course faces more charges"
+      },
+      {
+        "id": "art_1785968148486_cau2y",
+        "url": "https://www.aljazeera.com/news/2026/8/5/us-man-arrested-at-trumps-golf-course-charged-with-multiple-felonies?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US man arrested at Trump’s golf course charged with multiple felonies"
+      },
+      {
+        "id": "art_1785935164822_c2pju",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/trump-faa-marine-one-air-safety-incident",
+        "source": "guardian",
+        "title": "FAA investigates air ‘safety incident’ involving Trump’s Marine One"
+      },
+      {
+        "id": "art_1785895987726_vfir7",
+        "url": "https://www.theguardian.com/us-news/2026/aug/04/man-arrested-trump-california-golf-course",
+        "source": "guardian",
+        "title": "Armed man arrested at Trump’s California golf course"
+      },
+      {
+        "id": "art_1785895997685_8wjhg",
+        "url": "https://www.aljazeera.com/news/2026/8/5/armed-man-arrested-at-trumps-la-golf-course-ahead-of-presidents-visit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Armed man arrested at Trump’s LA golf course ahead of president’s visit"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0a455b96347e590e035341309214366c",
+    "topic_label": "Michigan Democratic Senate primary",
+    "event_window_start": "2026-08-05T04:00:13.000Z",
+    "event_window_end": "2026-08-05T20:11:43.000Z",
+    "article_ids": [
+      "art_1785962690225_vlzki",
+      "art_1785962693319_9kf6f",
+      "art_1785956900277_g95t0",
+      "art_1785956903558_lwkbp",
+      "art_1785956906798_3305b",
+      "art_1785927990636_tpojj",
+      "art_1785908134788_0oavu",
+      "art_1785908144435_u3le3"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 8,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-06T00:01:34.474Z",
+    "updated_at": "2026-08-06T00:01:34.474Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Thomas Smith won the Republican primary for Michigan's eighth district.",
+      "Abdul El-Sayed is the Democratic Senate nominee in Michigan.",
+      "Mike Rogers is the Republican Senate nominee in Michigan."
+    ],
+    "source_claims": [
+      "[guardian] Thomas Smith withdrew from the primary last month but his name remained on the ballot and he secured over 50% of the vote.",
+      "[guardian] Smith defeated both Al Lemmo, whom he endorsed, and Amir Hassan, who was endorsed by Donald Trump.",
+      "[fox] Sen. Gary Peters expressed confidence that Abdul El-Sayed will defeat Mike Rogers in the upcoming election.",
+      "[fox] Abdul El-Sayed's campaign received over $115,000 from individuals associated with the Council on American-Islamic Relations (CAIR).",
+      "[fox] Hasan Piker characterized Democratic critics of Abdul El-Sayed as 'Islamophobic' during an election event.",
+      "[fox] Julian Beaudion dropped his Senate bid in South Dakota, citing personal financial hardship and a house fire."
+    ],
+    "framing_differences": [
+      "The guardian frames the Michigan eighth district result as a logistical anomaly involving a withdrawn candidate winning, while fox focuses on ideological shifts and controversies within Democratic campaigns."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] CAIR is a terrorist organization (attributed to the UAE and specific US state designations).",
+      "[fox] Abdul El-Sayed is a 'progressive insurgent'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'far-left' to describe Abdul El-Sayed.",
+      "[fox] uses the term 'left-wing' to describe segments of the Democratic Party.",
+      "[fox] uses the term 'alleged terror ties' to describe the Council on American-Islamic Relations.",
+      "[fox] includes quotes from Hasan Piker describing critics as 'Islamophobic pieces of s---'."
+    ],
+    "safe_conclusions": [
+      "Thomas Smith is the winner of the Michigan eighth district Republican primary.",
+      "Abdul El-Sayed and Mike Rogers are the Democratic and Republican nominees for the Michigan Senate race respectively.",
+      "Julian Beaudion has withdrawn from his Senate campaign in South Dakota."
+    ],
+    "unknowns": [
+      "Whether Thomas Smith intends to accept the nomination for the Michigan eighth district.",
+      "The full extent of campaign finance sources for all candidates mentioned beyond specific highlighted donations."
+    ],
+    "synthesis": "Several primary election results have been determined in Michigan and South Dakota, including the unexpected victory of a withdrawn candidate in Michigan's eighth district. Democratic Senate nominee Abdul El-Sayed faces scrutiny regarding his campaign financing and party unity ahead of the general election against Mike Rogers. Meanwhile, Julian Beaudion has ended his Senate bid in South Dakota, leaving independent Brian Bengs to challenge incumbent Mike Rounds.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "id": "art_1785962690225_vlzki",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/republican-trump-rival-michigan-primary",
+        "source": "guardian",
+        "title": "Republican who withdrew last month beats Trump-backed rival in Michigan"
+      },
+      {
+        "id": "art_1785962693319_9kf6f",
+        "url": "https://www.foxnews.com/politics/michigan-dem-predicts-far-left-el-sayed-win-senate-race-backing-primary-rival",
+        "source": "fox",
+        "title": "SEE IT: Michigan Dem predicts far-left El-Sayed will win Senate race after backing his primary rival"
+      },
+      {
+        "id": "art_1785956900277_g95t0",
+        "url": "https://www.foxnews.com/politics/dem-drops-us-senate-bid-leaving-independent-candidate-lone-challenger-incumbent-gop-sen-mike-rounds",
+        "source": "fox",
+        "title": "Dem drops US Senate bid, leaving independent candidate as lone challenger to incumbent GOP Sen Mike Rounds"
+      },
+      {
+        "id": "art_1785956903558_lwkbp",
+        "url": "https://www.foxnews.com/politics/el-sayed-campaign-backed-100000-dozens-members-group-alleged-terror-ties",
+        "source": "fox",
+        "title": "El-Sayed campaign backed by over $100,000 from dozens of members of group with alleged terror ties"
+      },
+      {
+        "id": "art_1785956906798_3305b",
+        "url": "https://www.foxnews.com/media/hasan-piker-unloads-islamophobic-pieces-democrats-el-sayed-faces-party-unity-test",
+        "source": "fox",
+        "title": "Hasan Piker unloads on 'Islamophobic pieces of s---' Democrats as El-Sayed faces party unity test"
+      },
+      {
+        "id": "art_1785927990636_tpojj",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/05/michigan-primary-race-democrats-midterms-senate-el-sayed-haley-stevens-donald-trump-republicans-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Michigan Senate Democratic primary race remains too close to call as El-Sayed holds narrow lead – US politics live"
+      },
+      {
+        "id": "art_1785908134788_0oavu",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/abdul-el-sayed-haley-stevens-michigan-primary-election",
+        "source": "guardian",
+        "title": "El-Sayed holds narrow lead in Michigan Senate primary but race too close to call"
+      },
+      {
+        "id": "art_1785908144435_u3le3",
+        "url": "https://www.foxnews.com/politics/2026-midterms-state-of-play-key-races-unfold-stevens-el-sayed-battle-michigan",
+        "source": "fox",
+        "title": "2026 Midterms State of Play: Key races unfold as Stevens, El-Sayed battle in Michigan"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "caa5ab39cd249967bb6f75bdbf44433e",
+    "topic_label": "FIFA Infantino controversy",
+    "event_window_start": "2026-08-05T21:37:08.000Z",
+    "event_window_end": "2026-08-05T22:59:28.000Z",
+    "article_ids": [
+      "art_1785972979072_h4nz3",
+      "art_1785968146102_hnriq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-06T00:01:34.474Z",
+    "updated_at": "2026-08-06T00:01:34.474Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Gianni Infantino remains FIFA president.",
+      "A meeting of FIFA's management board was held in Rabat, Morocco, on Wednesday.",
+      "FIFA issued a statement regarding the meeting, which included an acknowledgment of 'mistakes'.",
+      "The meeting followed criticism regarding a proposal to sell off commercial rights to FIFA competitions."
+    ],
+    "source_claims": [
+      "[aljazeera] FIFA's leadership reaffirmed its 'full support' for Infantino, who reciprocated support for the administration.",
+      "[bbc] The FIFA statement of support was released four hours after the meeting in Rabat concluded.",
+      "[bbc] Uefa stated that it has lost confidence in Infantino."
+    ],
+    "framing_differences": [
+      "aljazeera frames the events as a response to a 'rare revolt' within the governing body, while bbc frames the narrative around the acknowledgment of 'mistakes' and specific criticism from Uefa."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The crisis meeting was called specifically due to pressure threatening Infantino's re-election to a fourth term.",
+      "[bbc] The FIFA Forward Enterprise (FFE) proposal was described by Uefa as a 'shabby, back room, opaque deal'."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'rare revolt' to describe the internal opposition.",
+      "[bbc] uses the term 'shabby, back room, opaque deal' to describe the FFE proposal."
+    ],
+    "safe_conclusions": [
+      "Gianni Infantino received support from FIFA management board members following a meeting in Morocco.",
+      "FIFA has officially acknowledged that mistakes occurred regarding a recent commercial proposal."
+    ],
+    "unknowns": [
+      "The specific nature and details of the 'mistakes' admitted by FIFA.",
+      "The full list of attendees at the Rabat meeting.",
+      "The official status of the FFE proposal following the meeting."
+    ],
+    "synthesis": "FIFA management board members met in Morocco and issued a statement confirming their support for President Gianni Infantino. The meeting followed internal and external criticism regarding a proposal to sell commercial rights to FIFA competitions. FIFA acknowledged that mistakes were made during the process while reaffirming the president's position.",
+    "confidence": "HIGH. Both sources corroborate the core event, the location of the meeting, and the subsequent expression of institutional support for the president.",
+    "sources": [
+      {
+        "id": "art_1785972979072_h4nz3",
+        "url": "https://www.aljazeera.com/news/2026/8/5/fifa-pledges-to-defend-infantino-after-world-cup-rights-plan-collapses?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FIFA pledges to defend Infantino after World Cup rights plan collapses"
+      },
+      {
+        "id": "art_1785968146102_hnriq",
+        "url": "https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Fifa admits mistakes but Infantino remains president"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "aea3b8973bdf6c8f68d38be791cb7e9f",
+    "topic_label": "New CDC Chief Erica Schwartz",
+    "event_window_start": "2026-08-05T20:27:01.000Z",
+    "event_window_end": "2026-08-05T22:46:03.000Z",
+    "article_ids": [
+      "art_1785972984464_rngc8",
+      "art_1785962684782_5i31v"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-06T00:01:34.474Z",
+    "updated_at": "2026-08-06T00:01:34.474Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Dr. Erica Schwartz was confirmed by the U.S. Senate as the director of the Centers for Disease Control and Prevention (CDC).",
+      "The Senate confirmation vote for Schwartz was 51-44."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the CDC is currently struggling with low morale and mass resignations.",
+      "[aljazeera] claims the Trump administration fired former director Susan Monarez last year due to vaccine policy disputes.",
+      "[guardian] claims Schwartz is President Trump's third pick to lead the CDC.",
+      "[guardian] claims the confirmation vote broke largely along party lines, with Tim Kaine as the only Democrat to support the nomination."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the appointment within the context of 'agency turmoil' and specific past staffing disputes, whereas The Guardian frames it as a 'rare win' for the administration after previous failed confirmation attempts."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims Dr. Georges Benjamin stated the CDC needs stability and experienced leadership due to the turmoil of the past two years.",
+      "[guardian] claims there is public concern over an outbreak of cyclosporiasis and Robert F. Kennedy Jr.'s vaccine hesitancy."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'turmoil' to describe the status of the CDC.",
+      "[guardian] uses the phrase 'rare win' to characterize the success of the confirmation."
+    ],
+    "safe_conclusions": [
+      "Dr. Erica Schwartz has been confirmed as the director of the CDC by a 51-44 Senate vote."
+    ],
+    "unknowns": [
+      "The specific reasons for the opposition of the 44 senators who voted against the confirmation.",
+      "The full details regarding the current state of morale or staffing levels at the CDC.",
+      "The specific nature of the vaccine policy disputes mentioned regarding the previous director."
+    ],
+    "synthesis": "The U.S. Senate confirmed Dr. Erica Schwartz as the new director of the CDC in a 51-44 vote. Her appointment follows a period of leadership turnover and follows several previous attempts by the Trump administration to fill the position. The confirmation process took place amid discussions regarding agency stability and vaccine policy.",
+    "confidence": "HIGH: The core factual event of the confirmation vote and the numerical result are consistent across both provided sources.",
+    "sources": [
+      {
+        "id": "art_1785972984464_rngc8",
+        "url": "https://www.aljazeera.com/news/2026/8/5/erica-schwartz-confirmed-as-new-cdc-chief-amid-us-agency-turmoil?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Erica Schwartz confirmed as new CDC chief amid US agency turmoil"
+      },
+      {
+        "id": "art_1785962684782_5i31v",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/erica-schwartz-cdc-director-senate-confirmation",
+        "source": "guardian",
+        "title": "Senate confirms Trump pick Erica Schwartz as new CDC director"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3773336186496741fd1959b2f2cec186",
+    "topic_label": "Cambridge Professor Plagiarism Allegations",
+    "event_window_start": "2026-08-05T18:16:06.000Z",
+    "event_window_end": "2026-08-05T20:08:47.000Z",
+    "article_ids": [
+      "art_1785962694685_n0qtv",
+      "art_1785956901471_943ha"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-05T21:50:28.656Z",
+    "updated_at": "2026-08-05T21:50:28.656Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Jason Arday is a Cambridge professor.",
+      "Cambridge University announced an investigation into Jason Arday's qualifications and career.",
+      "Jason Arday has resigned from his position at Cambridge.",
+      "Jason Arday issued a statement regarding his resignation citing the toll of public commentary."
+    ],
+    "source_claims": [
+      "[guardian] claims Jason Arday is the youngest black professor in Cambridge history.",
+      "[guardian] claims Cambridge University initially characterized the accusations against Arday as a 'vile campaign'.",
+      "[guardian] claims it uncovered discrepancies in Arday's public accounts regarding fundraising feats."
+    ],
+    "framing_differences": [
+      "The guardian frames Arday's resignation as a response to 'relentless accusations' and 'public commentary', while also framing the university's shift in stance as a protective measure for 'Cambridge's reputation'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims Arday's life story involves educational disadvantage."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'vile campaign' when describing the university's initial characterization of the accusations.",
+      "[guardian] uses the term 'profound toll' when quoting Arday's description of the impact of the allegations."
+    ],
+    "safe_conclusions": [
+      "Jason Arday is no longer a professor at Cambridge University.",
+      "Cambridge University initiated an investigation into Jason Arday's academic credentials and professional history."
+    ],
+    "unknowns": [
+      "The specific nature of the 'new information' received by Cambridge University.",
+      "The specific details of the alleged plagiarism and embellishments.",
+      "The full scope and findings of the investigation mentioned by the university."
+    ],
+    "synthesis": "Jason Arday has resigned from his position as a professor at Cambridge University following the institution's announcement of an investigation into his career and qualifications. The university had previously defended Arday, who is noted as the youngest black professor in the institution's history, before opting to investigate further upon receiving new information. Arday stated that the ongoing public commentary regarding his academic work prompted his decision to resign.",
+    "confidence": "HIGH. The sources are internally consistent and originate from the same reporting entity regarding the core events of the resignation and the initiation of an investigation.",
+    "sources": [
+      {
+        "id": "art_1785962694685_n0qtv",
+        "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-professor-jason-arday-resigns-amid-accusations-of-plagiarism",
+        "source": "guardian",
+        "title": "Cambridge professor Jason Arday resigns amid accusations of plagiarism"
+      },
+      {
+        "id": "art_1785956901471_943ha",
+        "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-jason-arday-announces-investigation-into-professor-accused-of-plagiarism",
+        "source": "guardian",
+        "title": "Cambridge announces investigation into professor accused of plagiarism"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a01c48d91273f392a03b3606cc6989e4",
+    "topic_label": "Chuck Edwards Resignation",
+    "event_window_start": "2026-08-05T12:34:24.000Z",
+    "event_window_end": "2026-08-05T12:45:47.000Z",
+    "article_ids": [
+      "art_1785935170757_peii0",
+      "art_1785935173974_loqve"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-05T15:18:44.004Z",
+    "updated_at": "2026-08-05T15:18:44.004Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Chuck Edwards is a Republican representative for North Carolina.",
+      "Chuck Edwards announced early Wednesday morning that he is withdrawing his bid for re-election.",
+      "Chuck Edwards stated he will complete his current term in office."
+    ],
+    "source_claims": [
+      "[fox] Claims Chuck Edwards sold his McDonald's business to dedicate more time to representing western North Carolina.",
+      "[guardian] Claims the House Ethics Committee determined Edwards fostered a hostile work environment and engaged in sexual harassment.",
+      "[guardian] Claims the House Ethics Committee findings involved gifting and lavishing attention on two young female staffers."
+    ],
+    "framing_differences": [
+      "fox frames the event by focusing on Edwards' business transition and personal statement regarding his time in Congress, whereas guardian frames the event by leading with the House Ethics Committee's specific findings of sexual harassment and a hostile work environment."
+    ],
+    "contested_claims": [
+      "The sources present different reasons for the withdrawal; fox focuses on the sale of a business and service time, while guardian links the withdrawal to the release of an ethics committee report concerning harassment allegations."
+    ],
+    "unverified_claims": [
+      "[fox] Claims the announcement came two days after the House Ethics Committee released a report recommending censure.",
+      "[guardian] Claims a congressional ethics panel recommended Edwards face censure."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'hostile work environment' to describe the findings of the House ethics committee."
+    ],
+    "safe_conclusions": [
+      "Chuck Edwards will not run for re-election and will serve until the end of his current term."
+    ],
+    "unknowns": [
+      "The full contents of the House Ethics Committee report remain unverified by both sources.",
+      "The specific nature of the relationship between the representative and the staff members mentioned in the guardian report is not detailed."
+    ],
+    "synthesis": "Representative Chuck Edwards announced on Wednesday that he will withdraw from his re-election campaign but will complete his current term. Reports regarding his decision vary in their focus, with some outlets highlighting his business interests and others citing an ethics committee report. The details and recommendations contained within the ethics committee report remain a point of difference in the reporting.",
+    "confidence": "CONTESTED. The sources provide conflicting context regarding the primary catalyst for the representative's decision to withdraw.",
+    "sources": [
+      {
+        "id": "art_1785935170757_peii0",
+        "url": "https://www.foxnews.com/politics/gop-rep-chuck-edwards-drops-re-election-bid-house-ethics-report-recommends-censure",
+        "source": "fox",
+        "title": "GOP Rep Chuck Edwards drops re-election bid after House ethics report recommends censure"
+      },
+      {
+        "id": "art_1785935173974_loqve",
+        "url": "https://www.theguardian.com/us-news/2026/aug/05/chuck-edwards-sexual-harassment-reelection",
+        "source": "guardian",
+        "title": "Republican Chuck Edwards drops bid for re-election after report finding sexual harassment of staffers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2892def44ce8c96cc67a99ce42b2dc3d",
+    "topic_label": "Israel and West Bank conflict",
+    "event_window_start": "2026-08-05T10:09:22.000Z",
+    "event_window_end": "2026-08-05T22:01:33.000Z",
+    "article_ids": [
+      "art_1785968139306_p36pa",
+      "art_1785968149559_8fhhp",
+      "art_1785927994137_l494t",
+      "art_1785927999812_6kis8"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-05T22:59:56.150Z",
+    "updated_at": "2026-08-05T22:59:56.150Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israeli forces conduct military operations and raids within the West Bank.",
+      "Movement restrictions exist for Palestinians within the West Bank."
+    ],
+    "source_claims": [
+      "[aljazeera] claims Israeli forces have used chemicals, bulldozing, and arrests to block farmers from land in southern Syria.",
+      "[aljazeera] claims Israeli forces launched a large-scale military operation in Qalandiya refugee camp.",
+      "[aljazeera] claims Israeli forces detained individuals during the Qalandiya raid."
+    ],
+    "framing_differences": [
+      "Al Jazeera's coverage regarding southern Syria frames the presence and actions of Israeli forces as an 'occupation', whereas reports on the West Bank frame operations as military raids that deepen fears and restrict movement."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims more than half of Syria faces a hunger crisis and international aid has been halved."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'Israeli occupation' to describe the presence of Israeli forces in southern Syria and the West Bank."
+    ],
+    "safe_conclusions": [
+      "Israeli military operations occur in the West Bank.",
+      "Palestinian movement within the West Bank is subject to Israeli military and spatial planning."
+    ],
+    "unknowns": [
+      "Specific details regarding the types of chemicals used in southern Syria.",
+      "The number of individuals detained during the Qalandiya raid.",
+      "The current status of agricultural production in the specific regions of southern Syria mentioned."
+    ],
+    "synthesis": "Israeli forces are reported to be conducting military operations in both the West Bank and southern Syria. These actions include raids in refugee camps and the implementation of movement restrictions on Palestinian populations. The reports characterize these activities as significant disruptions to local daily life and infrastructure.",
+    "confidence": "HIGH. The sources consistently report on the presence and activity of Israeli military forces in the specified regions, even though they represent a single media organization.",
+    "sources": [
+      {
+        "id": "art_1785968139306_p36pa",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/israeli-occupation-destroys-farmland-and-lives-in-southern-syria?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli occupation destroys farmland and lives in southern Syria"
+      },
+      {
+        "id": "art_1785968149559_8fhhp",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/israeli-forces-raid-camp-in-occupied-west-bank-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli forces raid camp in occupied West Bank"
+      },
+      {
+        "id": "art_1785927994137_l494t",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/5/israeli-raid-deepens-fears-across-west-bank-refugee-camps?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli raid deepens fears across West Bank refugee camps"
+      },
+      {
+        "id": "art_1785927999812_6kis8",
+        "url": "https://www.aljazeera.com/opinions/2026/8/5/how-israeli-restrictions-on-palestinians-movement-break-up-the-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How Israeli restrictions on Palestinians’ movement break up the West Bank"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -865,76 +1463,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "3773336186496741fd1959b2f2cec186",
-    "topic_label": "Cambridge Professor Plagiarism Allegations",
-    "event_window_start": "2026-08-05T18:16:06.000Z",
-    "event_window_end": "2026-08-05T20:08:47.000Z",
-    "article_ids": [
-      "art_1785962694685_n0qtv",
-      "art_1785956901471_943ha"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-05T21:50:28.656Z",
-    "updated_at": "2026-08-05T21:50:28.656Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Jason Arday is a Cambridge professor.",
-      "Cambridge University announced an investigation into Jason Arday's qualifications and career.",
-      "Jason Arday has resigned from his position at Cambridge.",
-      "Jason Arday issued a statement regarding his resignation citing the toll of public commentary."
-    ],
-    "source_claims": [
-      "[guardian] claims Jason Arday is the youngest black professor in Cambridge history.",
-      "[guardian] claims Cambridge University initially characterized the accusations against Arday as a 'vile campaign'.",
-      "[guardian] claims it uncovered discrepancies in Arday's public accounts regarding fundraising feats."
-    ],
-    "framing_differences": [
-      "The guardian frames Arday's resignation as a response to 'relentless accusations' and 'public commentary', while also framing the university's shift in stance as a protective measure for 'Cambridge's reputation'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims Arday's life story involves educational disadvantage."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'vile campaign' when describing the university's initial characterization of the accusations.",
-      "[guardian] uses the term 'profound toll' when quoting Arday's description of the impact of the allegations."
-    ],
-    "safe_conclusions": [
-      "Jason Arday is no longer a professor at Cambridge University.",
-      "Cambridge University initiated an investigation into Jason Arday's academic credentials and professional history."
-    ],
-    "unknowns": [
-      "The specific nature of the 'new information' received by Cambridge University.",
-      "The specific details of the alleged plagiarism and embellishments.",
-      "The full scope and findings of the investigation mentioned by the university."
-    ],
-    "synthesis": "Jason Arday has resigned from his position as a professor at Cambridge University following the institution's announcement of an investigation into his career and qualifications. The university had previously defended Arday, who is noted as the youngest black professor in the institution's history, before opting to investigate further upon receiving new information. Arday stated that the ongoing public commentary regarding his academic work prompted his decision to resign.",
-    "confidence": "HIGH. The sources are internally consistent and originate from the same reporting entity regarding the core events of the resignation and the initiation of an investigation.",
-    "sources": [
-      {
-        "id": "art_1785962694685_n0qtv",
-        "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-professor-jason-arday-resigns-amid-accusations-of-plagiarism",
-        "source": "guardian",
-        "title": "Cambridge professor Jason Arday resigns amid accusations of plagiarism"
-      },
-      {
-        "id": "art_1785956901471_943ha",
-        "url": "https://www.theguardian.com/education/2026/aug/05/cambridge-jason-arday-announces-investigation-into-professor-accused-of-plagiarism",
-        "source": "guardian",
-        "title": "Cambridge announces investigation into professor accused of plagiarism"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "4049fb9eb203fc74642b30b90e17283f",
     "topic_label": "Michigan Senate Primary Elections",
     "event_window_start": "2026-08-05T04:00:13.000Z",
@@ -1438,76 +1966,6 @@
         "url": "https://www.foxnews.com/politics/2026-midterms-state-of-play-key-races-unfold-stevens-el-sayed-battle-michigan",
         "source": "fox",
         "title": "2026 Midterms State of Play: Key races unfold as Stevens, El-Sayed battle in Michigan"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a01c48d91273f392a03b3606cc6989e4",
-    "topic_label": "Chuck Edwards Resignation",
-    "event_window_start": "2026-08-05T12:34:24.000Z",
-    "event_window_end": "2026-08-05T12:45:47.000Z",
-    "article_ids": [
-      "art_1785935170757_peii0",
-      "art_1785935173974_loqve"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-05T15:18:44.004Z",
-    "updated_at": "2026-08-05T15:18:44.004Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Chuck Edwards is a Republican representative for North Carolina.",
-      "Chuck Edwards announced early Wednesday morning that he is withdrawing his bid for re-election.",
-      "Chuck Edwards stated he will complete his current term in office."
-    ],
-    "source_claims": [
-      "[fox] Claims Chuck Edwards sold his McDonald's business to dedicate more time to representing western North Carolina.",
-      "[guardian] Claims the House Ethics Committee determined Edwards fostered a hostile work environment and engaged in sexual harassment.",
-      "[guardian] Claims the House Ethics Committee findings involved gifting and lavishing attention on two young female staffers."
-    ],
-    "framing_differences": [
-      "fox frames the event by focusing on Edwards' business transition and personal statement regarding his time in Congress, whereas guardian frames the event by leading with the House Ethics Committee's specific findings of sexual harassment and a hostile work environment."
-    ],
-    "contested_claims": [
-      "The sources present different reasons for the withdrawal; fox focuses on the sale of a business and service time, while guardian links the withdrawal to the release of an ethics committee report concerning harassment allegations."
-    ],
-    "unverified_claims": [
-      "[fox] Claims the announcement came two days after the House Ethics Committee released a report recommending censure.",
-      "[guardian] Claims a congressional ethics panel recommended Edwards face censure."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'hostile work environment' to describe the findings of the House ethics committee."
-    ],
-    "safe_conclusions": [
-      "Chuck Edwards will not run for re-election and will serve until the end of his current term."
-    ],
-    "unknowns": [
-      "The full contents of the House Ethics Committee report remain unverified by both sources.",
-      "The specific nature of the relationship between the representative and the staff members mentioned in the guardian report is not detailed."
-    ],
-    "synthesis": "Representative Chuck Edwards announced on Wednesday that he will withdraw from his re-election campaign but will complete his current term. Reports regarding his decision vary in their focus, with some outlets highlighting his business interests and others citing an ethics committee report. The details and recommendations contained within the ethics committee report remain a point of difference in the reporting.",
-    "confidence": "CONTESTED. The sources provide conflicting context regarding the primary catalyst for the representative's decision to withdraw.",
-    "sources": [
-      {
-        "id": "art_1785935170757_peii0",
-        "url": "https://www.foxnews.com/politics/gop-rep-chuck-edwards-drops-re-election-bid-house-ethics-report-recommends-censure",
-        "source": "fox",
-        "title": "GOP Rep Chuck Edwards drops re-election bid after House ethics report recommends censure"
-      },
-      {
-        "id": "art_1785935173974_loqve",
-        "url": "https://www.theguardian.com/us-news/2026/aug/05/chuck-edwards-sexual-harassment-reelection",
-        "source": "guardian",
-        "title": "Republican Chuck Edwards drops bid for re-election after report finding sexual harassment of staffers"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19029,690 +19487,6 @@
         "url": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Fifa says 'nobody selling football' as it presses ahead with investment plan"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "24a4d03a74e4a8db76302b3908eb9953",
-    "topic_label": "US Senate Fauci Hearings",
-    "event_window_start": "2026-07-30T15:00:32.000Z",
-    "event_window_end": "2026-07-31T09:58:58.000Z",
-    "article_ids": [
-      "art_1785494504526_npdp8",
-      "art_1785442745861_t896n",
-      "art_1785438042016_lp3kj",
-      "art_1785431527552_kmcoc",
-      "art_1785431528601_41ng0",
-      "art_1785425810352_nsi20"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-31T11:31:34.295Z",
-    "updated_at": "2026-07-31T11:31:34.295Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Dr. Anthony Fauci appeared before a Senate hearing.",
-      "Senator Rand Paul has advocated for holding Dr. Anthony Fauci in contempt of Congress.",
-      "Dr. Anthony Fauci invoked the Fifth Amendment during the Senate hearing."
-    ],
-    "source_claims": [
-      "[fox] Sen. Bernie Moreno claimed Dr. Fauci's pandemic approach was driven by a desire for power rather than public health.",
-      "[fox] Sen. Bernie Moreno claimed Dr. Fauci treated people like 'lab rats'.",
-      "[fox] Jonathan Turley claimed that media outlets invoked a 'privilege' to avoid self-incrimination by defending Dr. Fauci.",
-      "[fox] Florida AG James Uthmeier claimed Dr. Fauci showed a 'lack of candor to Congress'.",
-      "[fox] Sen. Ted Cruz alleged that Dr. Fauci repeatedly lied to Congress and the public regarding the origins of the virus and gain-of-function research."
-    ],
-    "framing_differences": [
-      "The sources collectively frame Dr. Fauci's testimony as an event defined by his invocation of the Fifth Amendment, whereas other potential legislative or scientific contexts for the hearing are not provided."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Sen. Ted Cruz claims Dr. Fauci's private diaries prove he knew the virus did not originate in a wet market.",
-      "[fox] Jonathan Turley claims Dr. Fauci took the Fifth Amendment 111 times."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'spectacle' to describe the Senate hearing.",
-      "[fox] uses the term 'pummeled' to describe the actions of Republican senators.",
-      "[fox] uses the term 'fury' to describe public reactions.",
-      "[fox] uses the term 'insane' to describe lockdown policies."
-    ],
-    "safe_conclusions": [
-      "Dr. Anthony Fauci testified before a Senate committee where he chose to invoke the Fifth Amendment multiple times.",
-      "Several political figures have criticized Dr. Fauci's testimony and past pandemic policies."
-    ],
-    "unknowns": [
-      "The exact number of times Dr. Fauci invoked the Fifth Amendment.",
-      "The specific legal or procedural context within the hearing that led to the decision to invoke the Fifth Amendment.",
-      "The official response from Dr. Fauci or his legal counsel regarding the accusations made by the various senators and the Florida Attorney General."
-    ],
-    "synthesis": "Dr. Anthony Fauci appeared at a Senate hearing where he invoked his Fifth Amendment rights multiple times. Various political figures, including Senator Rand Paul and Florida Attorney General James Uthmeier, have criticized this decision and signaled intent to pursue further investigations or contempt proceedings. The hearing has prompted significant negative commentary from conservative lawmakers and commentators regarding pandemic-era policies.",
-    "confidence": "MEDIUM. All provided sources originate from the same media outlet, limiting the diversity of perspectives on the events described.",
-    "sources": [
-      {
-        "id": "art_1785494504526_npdp8",
-        "url": "https://www.foxnews.com/politics/moreno-unloads-fauci-senate-hearing-calls-him-democrats-hero-pandemic-policies",
-        "source": "fox",
-        "title": "Moreno unloads on Fauci after Senate hearing, calls him Democrats' 'hero' over pandemic policies"
-      },
-      {
-        "id": "art_1785442745861_t896n",
-        "url": "https://www.foxnews.com/opinion/jonathan-turley-fauci-takes-fifth-111-times-media-still-rush-defend-him",
-        "source": "fox",
-        "title": "JONATHAN TURLEY: Fauci takes the Fifth 111 times – and the media still rush to defend him"
-      },
-      {
-        "id": "art_1785438042016_lp3kj",
-        "url": "https://www.foxnews.com/outkick-sports/eagles-coach-vic-fangio-mocks-anthony-fauci-senate-hearing-spectacle-press-conference",
-        "source": "fox",
-        "title": "Eagles coach Vic Fangio mocks Anthony Fauci's Senate hearing spectacle during his own press conference"
-      },
-      {
-        "id": "art_1785431527552_kmcoc",
-        "url": "https://www.foxnews.com/politics/florida-ag-threatens-fauci-investigation-after-senate-hearing",
-        "source": "fox",
-        "title": "Florida AG threatens Fauci investigation after Senate hearing"
-      },
-      {
-        "id": "art_1785431528601_41ng0",
-        "url": "https://www.foxnews.com/politics/online-fury-erupts-conservatives-recall-insane-covid-19-lockdown-policies-fauci-takes-fifth",
-        "source": "fox",
-        "title": "Online fury erupts as conservatives recall ’insane’ COVID-19 lockdown policies after Fauci takes the Fifth"
-      },
-      {
-        "id": "art_1785425810352_nsi20",
-        "url": "https://www.foxnews.com/media/fauci-haunted-2022-nothing-hide-vow-invoking-fifth-amendment-111-times",
-        "source": "fox",
-        "title": "Fauci haunted by 2022 'nothing to hide' vow after invoking the Fifth Amendment 111 times"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1a000daf9816669cb1aa63eb334b3810",
-    "topic_label": "Middle East Crisis",
-    "event_window_start": "2026-07-30T12:44:47.000Z",
-    "event_window_end": "2026-07-31T07:45:04.000Z",
-    "article_ids": [
-      "art_1785484571548_11qva",
-      "art_1785484582281_k8f52",
-      "art_1785474201186_ufrmk",
-      "art_1785474203283_ri8aq",
-      "art_1785474209922_tikkf",
-      "art_1785460167268_dh945",
-      "art_1785460174593_kh76i",
-      "art_1785460175638_5j1ey",
-      "art_1785452884223_kmhen",
-      "art_1785452888409_3dlot",
-      "art_1785448120900_50te8",
-      "art_1785442740455_ook42",
-      "art_1785442751072_ddyeg",
-      "art_1785425798857_j7q1l",
-      "art_1785425814689_48kgc",
-      "art_1785417275086_xet24"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 16,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-31T11:31:34.295Z",
-    "updated_at": "2026-07-31T11:31:34.295Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Israeli military forces are active in Gaza, Lebanon, and the West Bank.",
-      "There are ongoing discussions or initiatives regarding the status of Hamas and its disarmament."
-    ],
-    "source_claims": [
-      "[guardian] Donald Trump claims a deal has been reached for Hamas to disarm and Israel to withdraw forces from Gaza.",
-      "[guardian] Iran has launched drone strikes at Kuwait.",
-      "[guardian] Saudi Arabia is preparing for a sea and land offensive against the Houthis.",
-      "[aljazeera] 49 percent of Americans surveyed believe Benjamin Netanyahu should be arrested under an ICC warrant.",
-      "[aljazeera] 47 percent of Americans surveyed believe Benjamin Netanyahu has committed war crimes in Gaza.",
-      "[bbc] Hamas has accepted a framework for a plan to completely disarm in Gaza.",
-      "[bbc] Hamas leadership elections resulted in Khalil al-Hayya becoming the head of the movement.",
-      "[aljazeera] The Israeli military used 700 tonnes of explosives to destroy parts of a Hezbollah tunnel network near Beaufort Castle in Lebanon.",
-      "[aljazeera] Israeli military forces have blocked the main entrances to the West Bank village of Sinjil with earth mounds and metal barriers."
-    ],
-    "framing_differences": [
-      "The [guardian] frames the current Middle East situation through the lens of US policy initiatives and cross-border military escalations, while [aljazeera] focuses on public opinion regarding the Israeli Prime Minister and the impact of military activities on civilian infrastructure.",
-      "The [bbc] frames the Gaza disarmament as a development within a 'Board of Peace' plan, whereas the [guardian] frames it as a claim made by Donald Trump with uncertain support."
-    ],
-    "contested_claims": [
-      "The [guardian] reports that Tehran launched drone strikes at Kuwait, while other sources do not mention this event.",
-      "The [guardian] characterizes the status of the Gaza deal as facing obstacles and uncertain support, while the [bbc] reports that Hamas has accepted a framework for disarmament."
-    ],
-    "unverified_claims": [
-      "[guardian] Iran targets US bases in Kuwait.",
-      "[guardian] Saudi Arabia prepares sea and possible land offensive against the Houthis."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'occupied' to describe the West Bank.",
-      "[aljazeera] uses the phrase 'effectively cut off, making even routine journeys difficult and potentially deadly' to describe the situation in Sinjil."
-    ],
-    "safe_conclusions": [
-      "There is ongoing military and diplomatic activity involving Israel, Gaza, the West Bank, and Lebanon.",
-      "Public discourse exists regarding the political standing of the Israeli Prime Minister in the United States."
-    ],
-    "unknowns": [
-      "The current status and specific terms of any verified disarmament agreement for Hamas.",
-      "The extent of Iranian military activity in Kuwait.",
-      "The future scope of Saudi Arabian military operations against the Houthis."
-    ],
-    "synthesis": "Multiple reports detail ongoing military and diplomatic developments across Gaza, Lebanon, and the West Bank, alongside shifts in international political sentiment toward Israeli leadership. Sources provide conflicting details regarding the progress of disarmament negotiations for Hamas and report distinct military actions in different regional sectors. The information provided outlines a volatile environment characterized by both attempted peace frameworks and intensified military activity.",
-    "confidence": "LOW. The sources provide conflicting accounts regarding the progress of diplomatic deals and report on disparate, high-stakes military events that are not corroborated across the provided texts.",
-    "sources": [
-      {
-        "id": "art_1785484571548_11qva",
-        "url": "https://www.theguardian.com/world/live/2026/jul/31/us-iran-war-live-updates-trump-claims-gaza-hamas-deal-middle-east-crisis-latest-news",
-        "source": "guardian",
-        "title": "Middle East crisis live: Trump claims Gaza deal reached; Iran targets US bases in Kuwait"
-      },
-      {
-        "id": "art_1785484582281_k8f52",
-        "url": "https://www.aljazeera.com/opinions/2026/7/31/how-netanyahu-lost-america?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How Netanyahu lost America"
-      },
-      {
-        "id": "art_1785474201186_ufrmk",
-        "url": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Rushdi Abualouf: If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war"
-      },
-      {
-        "id": "art_1785474203283_ri8aq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/aje-onl-nf_south-lebanon-towns-beaufort-hit-by-israeli-strike-300726?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Southern Lebanese towns near Beaufort Castle hit by Israeli strikes"
-      },
-      {
-        "id": "art_1785474209922_tikkf",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-blockades-seal-off-village-in-the-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli blockades seal off village in the occupied West Bank"
-      },
-      {
-        "id": "art_1785460167268_dh945",
-        "url": "https://www.theguardian.com/world/2026/jul/31/trump-hamas-disarmament-agreement-gaza-board-of-peace",
-        "source": "guardian",
-        "title": "Trump claims agreement for ‘complete disarmament’ of Hamas in Gaza but support uncertain"
-      },
-      {
-        "id": "art_1785460174593_kh76i",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/us-escalation-with-iran-is-pointless-warns-former-us-diplomat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US Escalation with Iran is ‘pointless’, warns former US diplomat"
-      },
-      {
-        "id": "art_1785460175638_5j1ey",
-        "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan"
-      },
-      {
-        "id": "art_1785452884223_kmhen",
-        "url": "https://www.foxnews.com/politics/hamas-agrees-complete-disarmament-historic-gaza-agreement-trump",
-        "source": "fox",
-        "title": "Hamas agrees to complete disarmament under 'historic' Gaza agreement: Trump"
-      },
-      {
-        "id": "art_1785452888409_3dlot",
-        "url": "https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza"
-      },
-      {
-        "id": "art_1785448120900_50te8",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/7/30/will-saudi-arabia-be-dragged-further-into-the-war-in-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Saudi Arabia be dragged further into the war in Iran?"
-      },
-      {
-        "id": "art_1785442740455_ook42",
-        "url": "https://www.aljazeera.com/news/2026/7/30/saudi-arabia-announces-maritime-defence-alliance-to-secure-vital-waterways?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Saudi Arabia announces maritime defence alliance to secure vital waterways"
-      },
-      {
-        "id": "art_1785442751072_ddyeg",
-        "url": "https://www.theguardian.com/us-news/2026/jul/30/donald-trump-senate-iran-war-power",
-        "source": "guardian",
-        "title": "US Senate rejects bid to rein in Trump’s authority over Iran war"
-      },
-      {
-        "id": "art_1785425798857_j7q1l",
-        "url": "https://www.theguardian.com/world/2026/jul/30/iran-war-us-conflict-internal-crises-economy-dissent",
-        "source": "guardian",
-        "title": "Iran’s war with the US is not its only conflict as internal crises mount"
-      },
-      {
-        "id": "art_1785425814689_48kgc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/smoke-rises-over-southern-iran-after-renewed-us-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Smoke rises over southern Iran after renewed US attacks"
-      },
-      {
-        "id": "art_1785417275086_xet24",
-        "url": "https://www.theguardian.com/business/2026/jul/30/middle-east-crisis-preventing-drop-in-uk-interest-rates-bank-of-england-inflation",
-        "source": "guardian",
-        "title": "Only the Middle East crisis is preventing a drop in UK interest rates"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4536d2fe8ed48f7ec37fbecaa9e3f455",
-    "topic_label": "European Wildfire Crisis",
-    "event_window_start": "2026-07-30T13:00:15.000Z",
-    "event_window_end": "2026-07-31T07:48:44.000Z",
-    "article_ids": [
-      "art_1785484569374_ones7",
-      "art_1785484583345_cigtk",
-      "art_1785474207734_tbb43",
-      "art_1785438044111_0k5k8",
-      "art_1785425806902_fqxe6",
-      "art_1785417269753_7eago"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-31T08:46:11.183Z",
-    "updated_at": "2026-07-31T08:46:11.183Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Parts of Europe, specifically France and Spain, have experienced wildfires alongside record-breaking heat and dry weather.",
-      "Scientific reports, including those from World Weather Attribution and Scientific Reports, link increased fire-prone weather to global warming.",
-      "The European Forest Fire Information Service reports that fire weather severity in the EU is higher than the historical average for this time of year."
-    ],
-    "source_claims": [
-      "[guardian] states that global heating made hot, dry, and windy conditions at least 20 times more likely in Spain and twice as likely in France.",
-      "[aljazeera] reports that the number of summer days with conditions likely to produce fires in Southern Europe has more than doubled since 1981.",
-      "[guardian] notes that a wildfire near the Sizewell nuclear plant in Suffolk is stabilising after burning for over 24 hours.",
-      "[guardian] reports that three firefighters died in Greece on Tuesday."
-    ],
-    "framing_differences": [
-      "The guardian frames wildfires through a political lens, specifically discussing the potential impact on the French presidential election and the response of political leaders like Marine Tondelier, whereas aljazeera focuses more on the statistical report regarding fire-prone weather trends.",
-      "The guardian frames the Suffolk wildfire as an isolated incident of local emergency management, while its other coverage frames European wildfires as part of a broader climate crisis driven by carbon pollution."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims that a heatwave at the end of June is estimated to have killed 20,000 people."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'brutal' to describe wildfires and heatwaves.",
-      "[guardian] uses the term 'monster blazes' to describe wildfires.",
-      "[guardian] uses the term 'head in the sand' to describe the attitude of the French political class.",
-      "[aljazeera] uses the term 'becoming more flammable' to describe Southern Europe."
-    ],
-    "safe_conclusions": [
-      "Record-breaking heat and dry conditions have contributed to an active wildfire season across parts of Europe.",
-      "Scientific studies indicate a trend of increased fire-prone weather conditions in regions of Europe.",
-      "Firefighting efforts are currently underway in multiple European locations to manage active blazes."
-    ],
-    "unknowns": [
-      "The exact cause of the specific wildfire near the Sizewell nuclear plant is not mentioned.",
-      "The long-term political consequences of the wildfire season on specific European elections remain speculative.",
-      "The precise methodology used to calculate the 20,000 deaths associated with the June heatwave is not detailed in the provided text."
-    ],
-    "synthesis": "Parts of Europe are experiencing a record-breaking wildfire season characterized by hot, dry, and windy conditions. Scientific reports attribute the increase in fire-prone weather to global warming and carbon pollution. Emergency services in countries including France, Spain, Greece, and the UK are currently responding to these active blazes.",
-    "confidence": "HIGH. The sources consistently report on the intensification of wildfire weather and current fire suppression efforts across Europe, with minor variations in topical focus.",
-    "sources": [
-      {
-        "id": "art_1785484569374_ones7",
-        "url": "https://www.theguardian.com/uk-news/2026/jul/31/suffolk-wildfire-sizewell-nuclear-plant-dunwich-heath",
-        "source": "guardian",
-        "title": "Suffolk wildfire near Sizewell nuclear plant ‘stabilising’ after 24 hours"
-      },
-      {
-        "id": "art_1785484583345_cigtk",
-        "url": "https://www.theguardian.com/world/2026/jul/31/wildfires-extreme-weather-europe-spain-france-climate-crisis-analysis",
-        "source": "guardian",
-        "title": "‘Extremely scary findings’ show climate crisis is supercharging Europe’s wildfire weather"
-      },
-      {
-        "id": "art_1785474207734_tbb43",
-        "url": "https://www.theguardian.com/world/2026/jul/31/wildfires-french-leaders-climate-crisis-elections",
-        "source": "guardian",
-        "title": "Will brutal wildfires force French leaders to take climate crisis seriously?"
-      },
-      {
-        "id": "art_1785438044111_0k5k8",
-        "url": "https://www.aljazeera.com/news/2026/7/30/europes-heating-climate-sparks-major-intensification-of-fires-report?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Europe’s heating climate sparks ‘major intensification’ of fires: Report"
-      },
-      {
-        "id": "art_1785425806902_fqxe6",
-        "url": "https://www.theguardian.com/world/2026/jul/30/fire-weather-eu-wildfires-data",
-        "source": "guardian",
-        "title": "Firefighters race to extinguish blazes across EU as fire weather breaks records"
-      },
-      {
-        "id": "art_1785417269753_7eago",
-        "url": "https://www.theguardian.com/world/2026/jul/30/europe-burns-france-spain-visual-guide-wildfires",
-        "source": "guardian",
-        "title": "Europe burns: a visual guide to the wildfires"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "dd99f2b86d329054d18a391a9a5fbe4b",
-    "topic_label": "Spain Morocco Migrant Crisis",
-    "event_window_start": "2026-07-30T18:19:05.000Z",
-    "event_window_end": "2026-07-31T10:19:57.000Z",
-    "article_ids": [
-      "art_1785494496092_qtvjj",
-      "art_1785494507650_05ne1",
-      "art_1785484570476_82k7w",
-      "art_1785438035565_ucep3",
-      "art_1785438037649_e5p3k"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-31T11:31:34.295Z",
-    "updated_at": "2026-07-31T11:31:34.295Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Migrants have crossed from Morocco into the Spanish enclave of Ceuta.",
-      "Ceuta is a Spanish North African territory.",
-      "Official sources have reported deaths related to the crossing attempts.",
-      "The surge in arrivals has placed strain on local infrastructure and authorities."
-    ],
-    "source_claims": [
-      "[guardian] Approximately 49,000 migrants entered Ceuta in a matter of hours.",
-      "[bbc] About 49,000 migrants crossed from Morocco into Ceuta in the last 24 hours.",
-      "[aljazeera] More than 1,500 migrants reached Ceuta by sea over the past week.",
-      "[fox] Thousands of migrants crossed into Ceuta on July 30, 2026.",
-      "[fox] The White House stated that President Trump warned Europe regarding mass migration policies.",
-      "[guardian] The opposition People’s party (PP) leader Alberto Núñez Feijóo described the city as 'occupied'."
-    ],
-    "framing_differences": [
-      "guardian and bbc frame the event primarily as a humanitarian and political crisis for the Spanish government; fox frames the event as a failure of 'far-left, globalist policies'.",
-      "guardian and bbc cite an figure of 49,000 migrants, while aljazeera reports 1,500 over the past week."
-    ],
-    "contested_claims": [
-      "The number of migrants entering the territory is reported as approximately 49,000 by guardian and bbc, while aljazeera cites 1,500 over a week."
-    ],
-    "unverified_claims": [
-      "[guardian] France and Italy have issued a 'barrage of criticism' regarding Spain's handling of the situation.",
-      "[fox] The White House stated that Spain risks its 'demise' if it does not reverse current migration policies."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'serious humanitarian crisis' to describe the situation in Ceuta.",
-      "[fox] uses the term 'far-left, globalist policies' to describe the Spanish government's approach.",
-      "[fox] uses the term 'destructive philosophy' to describe Spanish policy.",
-      "[guardian] reports PP leader Alberto Núñez Feijóo uses the term 'occupied city' to describe Ceuta."
-    ],
-    "safe_conclusions": [
-      "A significant number of people have arrived in the Spanish enclave of Ceuta from Morocco recently.",
-      "There have been fatalities associated with these migration attempts.",
-      "The influx has prompted a response from Spanish officials and international observers."
-    ],
-    "unknowns": [
-      "The exact number of migrants who successfully reached Ceuta.",
-      "The specific breakdown of migration methods (land vs. sea) for the total population.",
-      "The official status of diplomatic communications between Spain, Morocco, and other EU nations regarding this specific event."
-    ],
-    "synthesis": "A large number of migrants have traveled from Morocco into the Spanish enclave of Ceuta, resulting in official reports of multiple deaths and strain on local resources. The influx has drawn criticism from international figures and domestic political opposition in Spain. The situation remains an active focal point for political debate regarding border security and migration policy.",
-    "confidence": "MEDIUM: There is significant discrepancy in the reported number of migrants (1,500 versus 49,000) across sources.",
-    "sources": [
-      {
-        "id": "art_1785494496092_qtvjj",
-        "url": "https://www.theguardian.com/world/2026/jul/31/ceuta-spain-morocco-border-deaths",
-        "source": "guardian",
-        "title": "At least 18 die as 49,000 people cross to Spanish enclave of Ceuta from Morocco"
-      },
-      {
-        "id": "art_1785494507650_05ne1",
-        "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "About 49,000 migrants enter Spanish territory of Ceuta, officials say"
-      },
-      {
-        "id": "art_1785484570476_82k7w",
-        "url": "https://www.theguardian.com/world/live/2026/jul/31/cueta-spain-morocco-italy-migration-schengen-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "At least 18 die as thousands of migrants reach Spain’s African enclave of Cueta – Europe live"
-      },
-      {
-        "id": "art_1785438035565_ucep3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/spains-ceuta-declares-emergency-over-surge-in-migrant-arrivals?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain’s Ceuta declares emergency over surge in migrant arrivals"
-      },
-      {
-        "id": "art_1785438037649_e5p3k",
-        "url": "https://www.foxnews.com/world/white-house-blasts-spanish-government-thousands-migrants-surge-from-morocco-emergency-request-denied",
-        "source": "fox",
-        "title": "White House blasts Spanish government as thousands of migrants surge from Morocco, emergency request denied"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c5dcfef273fed7187d8b24dd1ef06de5",
-    "topic_label": "Middle East Crisis",
-    "event_window_start": "2026-07-30T11:00:03.000Z",
-    "event_window_end": "2026-07-31T07:45:04.000Z",
-    "article_ids": [
-      "art_1785484571548_11qva",
-      "art_1785484582281_k8f52",
-      "art_1785474201186_ufrmk",
-      "art_1785474203283_ri8aq",
-      "art_1785474209922_tikkf",
-      "art_1785460167268_dh945",
-      "art_1785460174593_kh76i",
-      "art_1785460175638_5j1ey",
-      "art_1785452884223_kmhen",
-      "art_1785452888409_3dlot",
-      "art_1785448120900_50te8",
-      "art_1785442740455_ook42",
-      "art_1785442751072_ddyeg",
-      "art_1785425798857_j7q1l",
-      "art_1785425814689_48kgc",
-      "art_1785417275086_xet24",
-      "art_1785411261063_n1ujb",
-      "art_1785411263198_seoed",
-      "art_1785411271685_jcr1d"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 19,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-07-31T08:46:11.183Z",
-    "updated_at": "2026-07-31T08:46:11.183Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Israel is currently engaged in ongoing military and security operations in Gaza, the West Bank, and southern Lebanon.",
-      "There are active discussions and plans regarding the disarmament of groups in the region, specifically Hamas in Gaza and Hezbollah in Lebanon."
-    ],
-    "source_claims": [
-      "[guardian] Claims a deal has been reached for Hamas to disarm and Israel to withdraw forces from Gaza.",
-      "[bbc] Claims Hamas has accepted a framework to disarm and store heavy weapons under Palestinian supervision.",
-      "[aljazeera] Claims 49 percent of Americans surveyed in an Economist/YouGov poll believe Benjamin Netanyahu should be arrested under an ICC warrant.",
-      "[aljazeera] Claims Israeli forces used 700 tonnes of explosives to destroy tunnel networks near Beaufort Castle in Lebanon."
-    ],
-    "framing_differences": [
-      "The guardian and bbc focus on the diplomatic developments regarding a Gaza disarmament plan, whereas aljazeera focuses on domestic US political opinion concerning Benjamin Netanyahu and specific local reports of military operations in the West Bank and Lebanon."
-    ],
-    "contested_claims": [
-      "The status of a 'Gaza deal' is framed as a reached agreement by the guardian and bbc, while the guardian also notes that Israeli and Hamas officials suggest the deal still faces obstacles."
-    ],
-    "unverified_claims": [
-      "[guardian] Claims Tehran has launched drone strikes at Kuwait.",
-      "[guardian] Claims Saudi Arabia is preparing a sea and land offensive against the Houthis.",
-      "[bbc] Claims Hamas leadership elections brought Khalil al-Hayya to the head of the movement."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'occupied' to describe the West Bank.",
-      "[aljazeera] uses the term 'war crimes' in reference to poll findings about the Israeli prime minister."
-    ],
-    "safe_conclusions": [
-      "Regional conflicts involving Israel, Hamas, and other actors continue in Gaza, the West Bank, and Lebanon.",
-      "Diplomatic proposals regarding disarmament in Gaza are being discussed by involved parties."
-    ],
-    "unknowns": [
-      "The exact terms and implementation status of the reported Gaza disarmament deal.",
-      "The current status of military engagements involving Iran and Kuwait.",
-      "The long-term impact of current US public opinion polls on official US foreign policy."
-    ],
-    "synthesis": "Multiple sources report on ongoing conflicts and potential disarmament frameworks involving Israel, Hamas, and Hezbollah across Gaza, the West Bank, and Lebanon. Reports regarding a Gaza disarmament deal present varying degrees of progress, with some sources citing reached agreements and others noting remaining obstacles. Concurrent reporting highlights US public opinion regarding the Israeli leadership and specific regional military actions.",
-    "confidence": "MEDIUM: MEDIUM. While sources agree on the general instability and ongoing negotiations, specific details regarding the status of agreements and regional military actions differ significantly across the provided texts.",
-    "sources": [
-      {
-        "id": "art_1785484571548_11qva",
-        "url": "https://www.theguardian.com/world/live/2026/jul/31/us-iran-war-live-updates-trump-claims-gaza-hamas-deal-middle-east-crisis-latest-news",
-        "source": "guardian",
-        "title": "Middle East crisis live: Trump claims Gaza deal reached; Iran targets US bases in Kuwait"
-      },
-      {
-        "id": "art_1785484582281_k8f52",
-        "url": "https://www.aljazeera.com/opinions/2026/7/31/how-netanyahu-lost-america?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How Netanyahu lost America"
-      },
-      {
-        "id": "art_1785474201186_ufrmk",
-        "url": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Rushdi Abualouf: If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war"
-      },
-      {
-        "id": "art_1785474203283_ri8aq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/aje-onl-nf_south-lebanon-towns-beaufort-hit-by-israeli-strike-300726?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Southern Lebanese towns near Beaufort Castle hit by Israeli strikes"
-      },
-      {
-        "id": "art_1785474209922_tikkf",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/israeli-blockades-seal-off-village-in-the-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli blockades seal off village in the occupied West Bank"
-      },
-      {
-        "id": "art_1785460167268_dh945",
-        "url": "https://www.theguardian.com/world/2026/jul/31/trump-hamas-disarmament-agreement-gaza-board-of-peace",
-        "source": "guardian",
-        "title": "Trump claims agreement for ‘complete disarmament’ of Hamas in Gaza but support uncertain"
-      },
-      {
-        "id": "art_1785460174593_kh76i",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/us-escalation-with-iran-is-pointless-warns-former-us-diplomat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US Escalation with Iran is ‘pointless’, warns former US diplomat"
-      },
-      {
-        "id": "art_1785460175638_5j1ey",
-        "url": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan"
-      },
-      {
-        "id": "art_1785452884223_kmhen",
-        "url": "https://www.foxnews.com/politics/hamas-agrees-complete-disarmament-historic-gaza-agreement-trump",
-        "source": "fox",
-        "title": "Hamas agrees to complete disarmament under 'historic' Gaza agreement: Trump"
-      },
-      {
-        "id": "art_1785452888409_3dlot",
-        "url": "https://www.aljazeera.com/news/2026/7/30/trump-says-board-of-peace-reaches-agreement-on-disarmament-of-hamas-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says Board of Peace reaches agreement on disarmament of Hamas in Gaza"
-      },
-      {
-        "id": "art_1785448120900_50te8",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/7/30/will-saudi-arabia-be-dragged-further-into-the-war-in-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Saudi Arabia be dragged further into the war in Iran?"
-      },
-      {
-        "id": "art_1785442740455_ook42",
-        "url": "https://www.aljazeera.com/news/2026/7/30/saudi-arabia-announces-maritime-defence-alliance-to-secure-vital-waterways?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Saudi Arabia announces maritime defence alliance to secure vital waterways"
-      },
-      {
-        "id": "art_1785442751072_ddyeg",
-        "url": "https://www.theguardian.com/us-news/2026/jul/30/donald-trump-senate-iran-war-power",
-        "source": "guardian",
-        "title": "US Senate rejects bid to rein in Trump’s authority over Iran war"
-      },
-      {
-        "id": "art_1785425798857_j7q1l",
-        "url": "https://www.theguardian.com/world/2026/jul/30/iran-war-us-conflict-internal-crises-economy-dissent",
-        "source": "guardian",
-        "title": "Iran’s war with the US is not its only conflict as internal crises mount"
-      },
-      {
-        "id": "art_1785425814689_48kgc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/30/smoke-rises-over-southern-iran-after-renewed-us-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Smoke rises over southern Iran after renewed US attacks"
-      },
-      {
-        "id": "art_1785417275086_xet24",
-        "url": "https://www.theguardian.com/business/2026/jul/30/middle-east-crisis-preventing-drop-in-uk-interest-rates-bank-of-england-inflation",
-        "source": "guardian",
-        "title": "Only the Middle East crisis is preventing a drop in UK interest rates"
-      },
-      {
-        "id": "art_1785411261063_n1ujb",
-        "url": "https://www.foxnews.com/media/fetterman-unloads-reporter-trash-anti-israel-outlet-asks-why-loves-hamas-iran",
-        "source": "fox",
-        "title": "Fetterman unloads on reporter from 'trash' anti-Israel outlet, asks why it loves 'Hamas and Iran'"
-      },
-      {
-        "id": "art_1785411263198_seoed",
-        "url": "https://www.foxnews.com/us/trumps-warning-becomes-reality-after-irans-failed-attack-more-top-headlines",
-        "source": "fox",
-        "title": "Trump’s warning becomes reality after Iran's failed attack and more top headlines"
-      },
-      {
-        "id": "art_1785411271685_jcr1d",
-        "url": "https://www.foxnews.com/media/huckabee-warns-biblical-ignorance-defends-conservative-support-israel",
-        "source": "fox",
-        "title": "Huckabee warns of 'biblical ignorance' as he defends conservative support for Israel"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
