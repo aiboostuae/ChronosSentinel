@@ -1,65 +1,67 @@
 [
   {
-    "cluster_id": "3830eb1881b5b6a572b80cbcfd32ac61",
-    "topic_label": "Israel and Middle East Conflict",
-    "event_window_start": "2026-08-06T09:49:58.000Z",
+    "cluster_id": "adf3e6ae3b39fa48efd462b182fad47a",
+    "topic_label": "Conflict in the Middle East",
+    "event_window_start": "2026-08-06T12:00:47.000Z",
     "event_window_end": "2026-08-07T01:51:50.000Z",
     "article_ids": [
       "art_1786073628611_s2yiq",
       "art_1786062575880_i6pkf",
       "art_1786062576929_7qnq6",
       "art_1786028354156_aqvv4",
-      "art_1786019524188_2btm9",
-      "art_1786011277612_7wq66"
+      "art_1786019524188_2btm9"
     ],
     "source_ids": [
       "aljazeera",
       "guardian"
     ],
-    "article_count": 6,
+    "article_count": 5,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-07T09:37:31.785Z",
-    "updated_at": "2026-08-07T09:37:31.785Z",
+    "created_at": "2026-08-07T10:35:00.994Z",
+    "updated_at": "2026-08-07T10:35:00.994Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Israeli military and administrative actions are occurring in the West Bank and Gaza.",
-      "Individuals are facing physical injury or displacement due to ongoing military activities."
+      "The Israeli military operates in the West Bank and southern Lebanon.",
+      "Individuals have been injured during recent conflict-related events involving Israeli forces.",
+      "Israeli authorities have issued displacement orders in Lebanon."
     ],
     "source_claims": [
-      "[aljazeera] 51 Palestinians were injured in a Qalandiya refugee camp raid.",
-      "[aljazeera] Israeli forces demolished commercial shops and imposed a curfew in Kafr Aqab.",
-      "[aljazeera] Israeli military operations have included strikes in southern Lebanon and displacement orders for the town of Mansouri.",
-      "[guardian] Yinon Levi was charged with reckless manslaughter in the death of Palestinian activist Awdah Hathaleen.",
-      "[guardian] The U.S.-led 'Board of Peace' issued a construction contract to Arkel International for a military outpost in Gaza."
+      "[aljazeera] 51 Palestinians were injured during an Israeli raid in Qalandiya.",
+      "[aljazeera] The Palestine Red Crescent Society reported that ambulance crews were blocked from reaching the wounded in Qalandiya.",
+      "[aljazeera] The Israeli military issued a forced evacuation order for the town of Mansouri, Lebanon.",
+      "[guardian] Yinon Levi has been charged with reckless manslaughter in the death of Palestinian activist Awdah Hathaleen.",
+      "[guardian] A U.S.-led 'Board of Peace' chaired by Donald Trump has issued a contract for a military outpost in Gaza to house Moroccan troops."
     ],
     "framing_differences": [
-      "Al Jazeera frames Israeli military activity as a cause of humanitarian distress and failed ceasefires, while The Guardian focuses on specific legal proceedings against a settler and administrative developments regarding the U.S.-led reconstruction of Gaza."
+      "Al Jazeera frames Israeli military actions in the West Bank and Lebanon as aggressive, focusing on civilian casualties and the failure of ceasefires. The Guardian frames the situation through specific judicial developments in the West Bank and the geopolitical reconstruction efforts in Gaza under the Trump administration."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] The PRCS claims ambulance crews were blocked from reaching wounded individuals in Qalandiya.",
-      "[guardian] An unnamed source claims the 'Board of Peace' contract to build an outpost for Moroccan troops has not been finalized."
+      "[aljazeera] Mariam al-Najar is experiencing restricted travel due to Israeli and European policies.",
+      "[aljazeera] Residents of Mansouri, Lebanon, feel there is 'no red line' for Israeli targeting.",
+      "[guardian] A contract for a military outpost in Gaza has been awarded to Arkel International by the Board of Peace."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'despair' to describe the environment for Gazan students.",
-      "[aljazeera] quotes Yousef Shehemi as saying Israel has 'no red lines'.",
-      "[guardian] uses the word 'devastated' to describe the territory of Gaza."
+      "[aljazeera] uses the term 'despair' to describe the context of students in Gaza.",
+      "[aljazeera] uses the term 'outraged' to describe the reaction of South Lebanon residents.",
+      "[aljazeera] uses the term 'forced' to describe Israeli displacement orders."
     ],
     "safe_conclusions": [
-      "Military and legal activities involving Israel are currently taking place in the West Bank, Gaza, and Lebanon.",
-      "Injuries and property damage are reported consequences of these ongoing regional developments."
+      "Israeli forces conducted a raid in the Qalandiya refugee camp.",
+      "Charges were filed against a settler in the West Bank regarding the death of Awdah Hathaleen.",
+      "The Israeli military has issued orders affecting residents in southern Lebanon."
     ],
     "unknowns": [
-      "The full extent of the injuries sustained by individuals in Qalandiya is not independently verified.",
-      "The specific operational details and final approval status of the Gaza military outpost project remain unconfirmed.",
-      "The total number of casualties from recent strikes in southern Lebanon outside of the eight reported is unclear."
+      "The specific current status of the contract for the military outpost in Gaza.",
+      "The full extent of the injuries sustained in Qalandiya beyond initial reports.",
+      "The total number of displaced persons in Lebanon resulting from the Mansouri evacuation order."
     ],
-    "synthesis": "Recent reports highlight ongoing military actions in the West Bank, Gaza, and southern Lebanon, resulting in reported injuries and displacement. Legal proceedings have commenced in Israel concerning the death of a Palestinian activist, while U.S.-led administrative efforts in Gaza have issued an initial construction contract for a military facility. These events reflect a complex environment of conflict, legal accountability, and external oversight within the region.",
-    "confidence": "HIGH. The sources report on distinct, geographically separate events with no direct contradiction, providing consistent reporting within their respective areas of focus.",
+    "synthesis": "Recent reports highlight ongoing military actions by Israel in the West Bank and southern Lebanon, resulting in civilian casualties and displacement orders. Concurrently, legal proceedings are underway in Israel regarding the death of a Palestinian activist. Additionally, international reconstruction initiatives in Gaza are beginning with the reported planning of new military infrastructure.",
+    "confidence": "HIGH. The sources report on disparate events across different geographic regions, and the facts presented within each specific report do not contradict one another.",
     "sources": [
       {
         "id": "art_1786073628611_s2yiq",
@@ -90,12 +92,78 @@
         "url": "https://www.theguardian.com/world/2026/aug/06/trump-gaza-board-of-peace-first-building-contract-military-base",
         "source": "guardian",
         "title": "Trump’s Gaza Board of Peace issues first building contract – for a military base"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "89700bc37b1035a9b32f1fe0f9635ca7",
+    "topic_label": "Diplomatic ties in Middle East",
+    "event_window_start": "2026-08-06T23:34:47.000Z",
+    "event_window_end": "2026-08-07T04:43:43.000Z",
+    "article_ids": [
+      "art_1786080037781_f73qr",
+      "art_1786062580105_6mw0t"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-07T10:35:00.994Z",
+    "updated_at": "2026-08-07T10:35:00.994Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Turkish President Recep Tayyip Erdogan is visiting Saudi Arabia on Friday.",
+      "Pakistani Prime Minister Shehbaz Sharif is currently in Saudi Arabia."
+    ],
+    "source_claims": [
+      "[aljazeera_1] The Turkish president's office described the visit to Saudi Arabia as a routine one-day working visit.",
+      "[aljazeera_1] Turkish presidential communications director Burhanettin Duran stated the trip focuses on bilateral relations and regional developments.",
+      "[aljazeera_2] Iranian parliament speaker Mohammad Bagher Ghalibaf described US President Trump's actions as 'theatre diplomacy on loop'.",
+      "[aljazeera_2] Mohammad Bagher Ghalibaf stated that the US uses bullying, broken promises, and fake news as leverage."
+    ],
+    "framing_differences": [
+      "Aljazeera_1 frames the Turkish visit to Saudi Arabia within the context of regional diplomatic relations and trilateral meetings, whereas Aljazeera_2 focuses on critical commentary from Iranian officials regarding US foreign policy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] The visit is reported as the first since the outbreak of the US-Israel war on Iran.",
+      "[aljazeera_1] Erdogan is expected to hold a trilateral meeting with Saudi Crown Prince Mohammed bin Salman and Pakistani Prime Minister Shehbaz Sharif.",
+      "[aljazeera_2] Donald Trump claimed that 'the perimeters of a deal' had been agreed upon with Tehran."
+    ],
+    "loaded_language": [
+      "[aljazeera_2] uses the term 'theatre diplomacy' to describe US diplomatic strategy.",
+      "[aljazeera_2] uses the term 'bullying' to describe US tactics.",
+      "[aljazeera_2] uses the term 'fake news' to describe US messaging."
+    ],
+    "safe_conclusions": [
+      "Turkish and Pakistani leaders are currently engaged in diplomatic visits to Saudi Arabia.",
+      "Iranian officials have expressed public criticism of US diplomatic actions."
+    ],
+    "unknowns": [
+      "The official formal agenda for the trilateral meeting in Saudi Arabia.",
+      "Specific details regarding the status of US-Iran negotiations.",
+      "The long-term impact of the current diplomatic meetings on regional stability."
+    ],
+    "synthesis": "Turkish President Erdogan and Pakistani Prime Minister Sharif are currently visiting Saudi Arabia to discuss regional developments. Simultaneously, Iranian parliament speaker Mohammad Bagher Ghalibaf has criticized United States diplomatic practices as performative. These events highlight ongoing regional diplomatic activity amid broader geopolitical tensions.",
+    "confidence": "HIGH. The sources independently report on separate, verifiable diplomatic and political events without direct factual conflict.",
+    "sources": [
+      {
+        "id": "art_1786080037781_f73qr",
+        "url": "https://www.aljazeera.com/news/2026/8/7/turkiyes-erdogan-to-visit-saudi-arabia-what-to-expect?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Turkiye’s Erdogan visits Saudi Arabia: What to expect"
       },
       {
-        "id": "art_1786011277612_7wq66",
-        "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news",
-        "source": "guardian",
-        "title": "Iran says a deal with Oman to reopen the strait of Hormuz is close to being finalised – Middle East crisis live"
+        "id": "art_1786062580105_6mw0t",
+        "url": "https://www.aljazeera.com/news/2026/8/6/irans-ghalibaf-accuses-trump-of-conducting-show-diplomacy-on-loop?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran’s Ghalibaf accuses Trump of conducting show diplomacy ‘on loop’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -281,6 +349,502 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "617b066516ba0f65ce4c055852f514af",
+    "topic_label": "Meta Child Safety Lawsuit",
+    "event_window_start": "2026-08-07T00:06:17.000Z",
+    "event_window_end": "2026-08-07T02:24:50.000Z",
+    "article_ids": [
+      "art_1786073618048_pvgm6",
+      "art_1786073629635_5hbsn",
+      "art_1786062570232_wq3gp"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-07T03:52:16.508Z",
+    "updated_at": "2026-08-07T03:52:16.508Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A New Mexico judge ordered Meta to pay an additional $567 million following a trial.",
+      "The total amount Meta is now ordered to pay in this case is $942 million, following an earlier $375 million fine.",
+      "Judge Bryan Biedscheid presided over the ruling.",
+      "The new funds are designated for addressing mental health impacts or harm to young people in New Mexico."
+    ],
+    "source_claims": [
+      "[guardian] states the ruling addresses mental health impacts and concealment of child sexual exploitation.",
+      "[aljazeera] states Meta was found to have violated state consumer protection law by misrepresenting platform safety.",
+      "[bbc] reports Judge Biedscheid characterized the company as a public nuisance, comparing it to air pollution."
+    ],
+    "framing_differences": [
+      "The guardian frames the ruling primarily as a response to mental health impacts, whereas the aljazeera frames it as a consumer protection issue involving misrepresentation of safety.",
+      "The bbc frames the ruling through the lens of Meta's CEO Mark Zuckerberg facing broader legal challenges and uses specific judicial metaphors likening the company to a factory producing pollution."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims the jury found Meta knowingly harmed children's mental health.",
+      "[bbc] claims the ruling is the largest against the company over child safety."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'public nuisance' to describe the company based on the judge's comparison.",
+      "[bbc] uses the term 'pollution' to describe psychological harm and sexual exploitation as cited from the judge's remarks."
+    ],
+    "safe_conclusions": [
+      "A New Mexico court has issued a ruling requiring Meta to pay $567 million.",
+      "The ruling follows a previous fine of $375 million in the same legal proceedings."
+    ],
+    "unknowns": [
+      "The exact breakdown of how the remaining $147 million of the $567 million fund will be allocated beyond the $420 million mentioned for treatment services.",
+      "Specific details regarding the long-term changes to platform functionality mentioned by aljazeera."
+    ],
+    "synthesis": "A New Mexico court has ordered Meta to pay an additional $567 million, bringing the total amount levied against the company in the current case to $942 million. Judge Bryan Biedscheid issued the ruling to fund treatment and prevention services for youth in the state. The decision follows a previous jury finding from March regarding the company's impact on children.",
+    "confidence": "HIGH; The core financial facts and the judicial source are consistent across all three reports.",
+    "sources": [
+      {
+        "id": "art_1786073618048_pvgm6",
+        "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+        "source": "guardian",
+        "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health"
+      },
+      {
+        "id": "art_1786073629635_5hbsn",
+        "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "New Mexico court orders Meta to pay $567m over harm to youths"
+      },
+      {
+        "id": "art_1786062570232_wq3gp",
+        "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Meta fined $567m in largest child safety ruling against social media giant"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4fbd1700bb4d03577939bebd95677b02",
+    "topic_label": "Trump administration and policy",
+    "event_window_start": "2026-08-06T11:30:41.000Z",
+    "event_window_end": "2026-08-07T01:03:35.000Z",
+    "article_ids": [
+      "art_1786085578236_o03p8",
+      "art_1786080042010_0ky2c",
+      "art_1786080044130_8dpk7",
+      "art_1786073621539_tyx72",
+      "art_1786062579061_6y80y",
+      "art_1786028351946_6f07a",
+      "art_1786028357314_k435r",
+      "art_1786019533794_hcrxs"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 8,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-07T10:35:00.994Z",
+    "updated_at": "2026-08-07T10:35:00.994Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump signed executive orders on Thursday.",
+      "Donald Trump is the President of the United States."
+    ],
+    "source_claims": [
+      "[bbc] President Trump signed an executive order imposing a 15% tariff on imported products made from polysilicon and set minimum import prices.",
+      "[bbc] The move is intended to protect US manufacturers from competition with China's chip industry.",
+      "[guardian] President Trump signed two executive orders on Thursday attempting to broaden categories of children ineligible for automatic birthright citizenship and ban 'birth tourism'.",
+      "[guardian] The Migration Policy Institute estimates 'birth tourism' at 22,000 to 26,000 babies annually.",
+      "[fox] President Trump urged Congress to pass the Protect College Sports Act before recess.",
+      "[fox] President Trump hosted athletes and staff from Team USA for a celebration on Thursday.",
+      "[aljazeera] President Trump signed two executive orders to limit birthright citizenship eligibility."
+    ],
+    "framing_differences": [
+      "BBC frames the executive action as a trade/economic policy regarding semiconductors, whereas Guardian and Al Jazeera frame the executive action as an effort to restrict birthright citizenship.",
+      "Fox focuses on domestic legislative priorities regarding collegiate sports, while Guardian focuses on an analytical critique of executive power and constitutional rights."
+    ],
+    "contested_claims": [
+      "The Guardian reports that the President claimed 'hundreds of thousands' of people practice 'birth tourism', while the Guardian characterizes this figure as 'wildly inflated' citing the Migration Policy Institute."
+    ],
+    "unverified_claims": [
+      "[guardian] The president is described as having been 'fixated for more than a decade' on undermining constitutional rights.",
+      "[guardian] The president is characterized as having 'almost no internal checks' and operating as an 'imperial president'."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'imperial presidency' to describe the current administration.",
+      "[guardian] uses the word 'obsessive' to describe the president's campaign regarding citizenship.",
+      "[aljazeera] uses the phrase 'so-called birth tourism' to describe the phenomenon.",
+      "[guardian] uses the term 'wildly inflated' to describe administration data regarding birth tourism."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump signed executive orders on Thursday covering topics ranging from trade, citizenship policy, and public remarks on legislation.",
+      "The administration's policies have addressed the polysilicon industry, immigration/citizenship definitions, and support for the Protect College Sports Act."
+    ],
+    "unknowns": [
+      "The specific legal text and technical limitations of the executive orders mentioned in the sources are not provided.",
+      "The exact response from Congress regarding the President's request for the Protect College Sports Act is not specified.",
+      "Full details regarding the Chinese government's specific retaliatory actions are not disclosed."
+    ],
+    "synthesis": "President Donald Trump signed multiple executive orders on Thursday covering trade tariffs on polysilicon imports and new restrictions on birthright citizenship eligibility. Separately, the President publicly urged Congress to pass the Protect College Sports Act during a White House event honoring Olympic and Paralympic athletes. The sources present these actions through distinct lenses, ranging from economic trade policy and immigration governance to institutional analysis of presidential power.",
+    "confidence": "HIGH. The sources are internally consistent regarding the occurrence of the executive actions and public events, with differences arising from the varied focus of each publication.",
+    "sources": [
+      {
+        "id": "art_1786085578236_o03p8",
+        "url": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump imposes 15% tariff on key chip material to counter China"
+      },
+      {
+        "id": "art_1786080042010_0ky2c",
+        "url": "https://www.theguardian.com/politics/audio/2026/aug/07/trump-unbound-the-making-of-an-imperial-presidency-podcast",
+        "source": "guardian",
+        "title": "Trump unbound: the making of an imperial presidency – podcast"
+      },
+      {
+        "id": "art_1786080044130_8dpk7",
+        "url": "https://www.foxnews.com/outkick-sports/trump-urges-congress-pass-protect-college-sports-act-recess",
+        "source": "fox",
+        "title": "Trump urges Congress to pass Protect College Sports Act before recess: 'We have to get that done'"
+      },
+      {
+        "id": "art_1786073621539_tyx72",
+        "url": "https://www.theguardian.com/us-news/2026/aug/06/trump-birthright-citizenship-attack",
+        "source": "guardian",
+        "title": "Trump’s birthright citizenship attack the latest effort in obsessive campaign"
+      },
+      {
+        "id": "art_1786062579061_6y80y",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/6/trump-signs-executive-orders-banning-so-called-birth?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump signs executive orders banning so-called ‘birth tourism’"
+      },
+      {
+        "id": "art_1786028351946_6f07a",
+        "url": "https://www.foxnews.com/politics/trump-says-us-massive-munitions-stockpile-vows-treasonous-leakers-being-hunted-down",
+        "source": "fox",
+        "title": "Trump says US has 'massive' munitions stockpile, vows 'treasonous' leakers being hunted down"
+      },
+      {
+        "id": "art_1786028357314_k435r",
+        "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'"
+      },
+      {
+        "id": "art_1786019533794_hcrxs",
+        "url": "https://www.foxnews.com/us/trumps-decade-assassination-threats-butler-shooting-latest-golf-club-breach",
+        "source": "fox",
+        "title": "Trump's decade of assassination threats runs from Butler shooting to latest golf club breach"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "fb73b4a894d65d8066eb1ddbeb4f5b38",
+    "topic_label": "Anthony Fauci Contempt Vote",
+    "event_window_start": "2026-08-06T11:56:35.000Z",
+    "event_window_end": "2026-08-06T14:47:45.000Z",
+    "article_ids": [
+      "art_1786028350849_ypsuw",
+      "art_1786019518824_pxq58",
+      "art_1786019529427_684m0"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-07T09:37:31.785Z",
+    "updated_at": "2026-08-07T09:37:31.785Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A US Senate committee held a vote regarding Anthony Fauci and contempt of Congress.",
+      "The process involves a potential referral to the Department of Justice.",
+      "Anthony Fauci previously testified before a Senate committee where he declined to answer certain questions."
+    ],
+    "source_claims": [
+      "[bbc] The committee vote to hold Fauci in contempt fell along party lines.",
+      "[bbc] Anthony Fauci invoked his constitutional right against self-incrimination more than 100 times during testimony.",
+      "[guardian] Rand Paul released documents he described as Fauci's diary.",
+      "[fox] Senator Rand Paul stated he has the necessary votes to hold Fauci in contempt."
+    ],
+    "framing_differences": [
+      "BBC frames the event as a completed procedural action following a refusal to answer questions, whereas Guardian frames it as an expected upcoming vote.",
+      "Fox frames the event as the culmination of a years-long effort by Rand Paul, while BBC focuses on the legal mechanism of the contempt process."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] Fauci's lawyer characterized the committee vote as a 'crude political stunt'.",
+      "[guardian] Fauci described Rand Paul as having an 'unhinged obsession' with him.",
+      "[guardian] Fauci's diary described Donald Trump as 'rambling', 'crazy', and 'desperate'."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'crude political stunt' to describe the committee vote as stated by Fauci's lawyer.",
+      "[guardian] uses the term 'unhinged obsession' to describe Rand Paul's investigation as stated by Fauci.",
+      "[fox] uses the term 'crusade' to describe Rand Paul's efforts regarding Anthony Fauci."
+    ],
+    "safe_conclusions": [
+      "A Senate committee initiated proceedings to consider holding Anthony Fauci in contempt of Congress.",
+      "The status of the potential prosecution is currently dependent on the Department of Justice."
+    ],
+    "unknowns": [
+      "Whether the Department of Justice will pursue a case against Anthony Fauci.",
+      "The final outcome of the Senate committee's legislative actions.",
+      "The exact details of the content contained in the documents Rand Paul refers to as a diary."
+    ],
+    "synthesis": "A US Senate committee has engaged in a process to hold former health official Anthony Fauci in contempt of Congress following his refusal to answer questions during a recent hearing. The proceedings follow years of scrutiny from Senator Rand Paul, who initiated the inquiry into Fauci's tenure. The matter may now be referred to the Department of Justice for further consideration.",
+    "confidence": "MEDIUM. While all sources agree that a committee action is occurring, there is variation in the reporting of the timeline and specific characterizations of the testimonies and documents involved.",
+    "sources": [
+      {
+        "id": "art_1786028350849_ypsuw",
+        "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing"
+      },
+      {
+        "id": "art_1786019518824_pxq58",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Senate committee set to vote on holding Anthony Fauci in contempt of Congress – US politics live"
+      },
+      {
+        "id": "art_1786019529427_684m0",
+        "url": "https://www.foxnews.com/us/rand-pauls-yearslong-crusade-against-fauci-reaches-its-defining-moment-more-top-headlines",
+        "source": "fox",
+        "title": "Rand Paul's yearslong crusade against Fauci reaches its defining moment and more top headlines"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4d10c1b3f3b25ea829225234f0e787b4",
+    "topic_label": "US Political Primaries",
+    "event_window_start": "2026-08-07T00:00:58.000Z",
+    "event_window_end": "2026-08-07T04:04:45.000Z",
+    "article_ids": [
+      "art_1786080040938_v0k7u",
+      "art_1786080045196_jzvxy",
+      "art_1786073614919_4pzrm",
+      "art_1786073619087_h74yw",
+      "art_1786073631755_wjcxi",
+      "art_1786062571393_b9fha"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-07T10:35:00.994Z",
+    "updated_at": "2026-08-07T10:35:00.994Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Andy Ogles was an incumbent congressman who lost his Republican primary in Tennessee on Thursday.",
+      "Charlie Hatcher was the winner of the Republican primary race against Andy Ogles.",
+      "Justin Pearson won the Democratic primary in Tennessee's 9th Congressional District.",
+      "Brent Taylor won the Republican primary in Tennessee's 9th Congressional District.",
+      "Donald Trump issued endorsements for certain candidates in the Tennessee primaries."
+    ],
+    "source_claims": [
+      "[aljazeera] Andy Ogles has a history of anti-Muslim statements.",
+      "[aljazeera] President Donald Trump gave Andy Ogles his complete and total endorsement.",
+      "[fox] Rep. Andy Ogles believes his advocacy against energy subsidies invited millions in opposition spending.",
+      "[fox] The Invest in Tomorrow Coalition super PAC spent roughly $2 million opposing Ogles.",
+      "[guardian] The 9th congressional district was recently reconfigured.",
+      "[fox] Justin Pearson was backed by members of the 'Squad'."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the Andy Ogles loss as a failure of Donald Trump's endorsement power, whereas Fox focuses on the role of super PAC spending in the race.",
+      "Fox (in multiple reports) focuses on individual candidate backgrounds, such as characterizing Pearson via his association with the 'Squad' and Taylor via his Trump endorsement, while the Guardian frames the 9th District race specifically within the context of the struggle for a Republican majority in the House."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Republicans changed the electoral map in Tennessee specifically to help a specific, unnamed candidate or outcome.",
+      "[fox] The Invest in Tomorrow Coalition super PAC is 'bankrolled by Dems'."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'anti-Muslim' to describe Andy Ogles.",
+      "[fox] uses the term 'conservative firebrand' to describe a candidate.",
+      "[fox] uses the term 'axis of evil' in a quote provided by Marsha Blackburn.",
+      "[fox] uses the term 'meddled' to describe the impact of a super PAC on a race."
+    ],
+    "safe_conclusions": [
+      "Republican and Democratic primaries occurred in Tennessee on Thursday.",
+      "Candidates emerged from these primaries to advance to the November elections.",
+      "Andy Ogles is no longer the incumbent Republican candidate for his seat following his primary loss."
+    ],
+    "unknowns": [
+      "The specific legislative impact of the redistricting mentioned in all sources remains undefined in terms of actual demographic shifts.",
+      "The exact level of influence Donald Trump's endorsements had on the specific voter turnout remains unquantified.",
+      "The full scope of financial influence from outside groups like the Invest in Tomorrow Coalition on the final vote tallies."
+    ],
+    "synthesis": "Tennessee held primary elections on Thursday, resulting in the defeat of incumbent Republican Representative Andy Ogles by Charlie Hatcher. In the state's 9th Congressional District, Justin Pearson secured the Democratic nomination while Brent Taylor secured the Republican nomination. These results follow recent changes to electoral district boundaries within the state.",
+    "confidence": "HIGH. The sources consistently report the outcomes of the primary races, with differences in framing primarily related to the interpretation of external influences and political context.",
+    "sources": [
+      {
+        "id": "art_1786080040938_v0k7u",
+        "url": "https://www.aljazeera.com/news/2026/8/7/anti-muslim-us-congressman-andy-ogles-loses-congressional-primary?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Anti-Muslim US Congressman Andy Ogles loses Republican primary"
+      },
+      {
+        "id": "art_1786080045196_jzvxy",
+        "url": "https://www.foxnews.com/politics/conservative-firebrand-went-viral-anti-ccp-ad-survives-key-primary",
+        "source": "fox",
+        "title": "Conservative firebrand who went viral with anti-CCP ad survives key primary"
+      },
+      {
+        "id": "art_1786073614919_4pzrm",
+        "url": "https://www.theguardian.com/us-news/2026/aug/06/tennessee-house-primary-elections",
+        "source": "guardian",
+        "title": "Justin Pearson and Brent Taylor win primaries for key Tennessee House seat"
+      },
+      {
+        "id": "art_1786073619087_h74yw",
+        "url": "https://www.foxnews.com/politics/trump-backed-incumbent-loses-primary-super-pac-bankrolled-dems-meddled-race",
+        "source": "fox",
+        "title": "Trump-backed incumbent loses primary after super PAC bankrolled by Dems meddled in race"
+      },
+      {
+        "id": "art_1786073631755_wjcxi",
+        "url": "https://www.foxnews.com/politics/squad-backed-tennessee-three-lawmaker-wins-house-primary-newly-redrawn-district",
+        "source": "fox",
+        "title": "Squad-backed ‘Tennessee Three’ lawmaker wins House primary in newly redrawn district"
+      },
+      {
+        "id": "art_1786062571393_b9fha",
+        "url": "https://www.foxnews.com/politics/primary-showdown-polls-close-tennessee-conservative-firebrand-eyes-governors-office",
+        "source": "fox",
+        "title": "Primary showdown: Polls close in Tennessee as conservative firebrand eyes governor's office"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3830eb1881b5b6a572b80cbcfd32ac61",
+    "topic_label": "Israel and Middle East Conflict",
+    "event_window_start": "2026-08-06T09:49:58.000Z",
+    "event_window_end": "2026-08-07T01:51:50.000Z",
+    "article_ids": [
+      "art_1786073628611_s2yiq",
+      "art_1786062575880_i6pkf",
+      "art_1786062576929_7qnq6",
+      "art_1786028354156_aqvv4",
+      "art_1786019524188_2btm9",
+      "art_1786011277612_7wq66"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-07T09:37:31.785Z",
+    "updated_at": "2026-08-07T09:37:31.785Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israeli military and administrative actions are occurring in the West Bank and Gaza.",
+      "Individuals are facing physical injury or displacement due to ongoing military activities."
+    ],
+    "source_claims": [
+      "[aljazeera] 51 Palestinians were injured in a Qalandiya refugee camp raid.",
+      "[aljazeera] Israeli forces demolished commercial shops and imposed a curfew in Kafr Aqab.",
+      "[aljazeera] Israeli military operations have included strikes in southern Lebanon and displacement orders for the town of Mansouri.",
+      "[guardian] Yinon Levi was charged with reckless manslaughter in the death of Palestinian activist Awdah Hathaleen.",
+      "[guardian] The U.S.-led 'Board of Peace' issued a construction contract to Arkel International for a military outpost in Gaza."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames Israeli military activity as a cause of humanitarian distress and failed ceasefires, while The Guardian focuses on specific legal proceedings against a settler and administrative developments regarding the U.S.-led reconstruction of Gaza."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The PRCS claims ambulance crews were blocked from reaching wounded individuals in Qalandiya.",
+      "[guardian] An unnamed source claims the 'Board of Peace' contract to build an outpost for Moroccan troops has not been finalized."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'despair' to describe the environment for Gazan students.",
+      "[aljazeera] quotes Yousef Shehemi as saying Israel has 'no red lines'.",
+      "[guardian] uses the word 'devastated' to describe the territory of Gaza."
+    ],
+    "safe_conclusions": [
+      "Military and legal activities involving Israel are currently taking place in the West Bank, Gaza, and Lebanon.",
+      "Injuries and property damage are reported consequences of these ongoing regional developments."
+    ],
+    "unknowns": [
+      "The full extent of the injuries sustained by individuals in Qalandiya is not independently verified.",
+      "The specific operational details and final approval status of the Gaza military outpost project remain unconfirmed.",
+      "The total number of casualties from recent strikes in southern Lebanon outside of the eight reported is unclear."
+    ],
+    "synthesis": "Recent reports highlight ongoing military actions in the West Bank, Gaza, and southern Lebanon, resulting in reported injuries and displacement. Legal proceedings have commenced in Israel concerning the death of a Palestinian activist, while U.S.-led administrative efforts in Gaza have issued an initial construction contract for a military facility. These events reflect a complex environment of conflict, legal accountability, and external oversight within the region.",
+    "confidence": "HIGH. The sources report on distinct, geographically separate events with no direct contradiction, providing consistent reporting within their respective areas of focus.",
+    "sources": [
+      {
+        "id": "art_1786073628611_s2yiq",
+        "url": "https://www.aljazeera.com/news/2026/8/7/israeli-raid-in-west-banks-qalandiya-injures-51-palestinians?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli raid in West Bank’s Qalandiya injures 51 Palestinians"
+      },
+      {
+        "id": "art_1786062575880_i6pkf",
+        "url": "https://www.aljazeera.com/features/2026/8/6/travel-restrictions-from-israel-and-europe-trap-students-in-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Travel restrictions – from Israel and Europe – trap students in Gaza"
+      },
+      {
+        "id": "art_1786062576929_7qnq6",
+        "url": "https://www.aljazeera.com/news/2026/8/6/south-lebanon-people-speak-out-as-israel-launches-attacks-ceasefire?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘No red line’: South Lebanon residents outraged as Israel resumes strikes"
+      },
+      {
+        "id": "art_1786028354156_aqvv4",
+        "url": "https://www.theguardian.com/world/2026/aug/06/israel-charges-west-bank-settler-killing-palestinian-activist-awdah-hathaleen",
+        "source": "guardian",
+        "title": "Israel charges West Bank settler over death of renowned Palestinian activist"
+      },
+      {
+        "id": "art_1786019524188_2btm9",
+        "url": "https://www.theguardian.com/world/2026/aug/06/trump-gaza-board-of-peace-first-building-contract-military-base",
+        "source": "guardian",
+        "title": "Trump’s Gaza Board of Peace issues first building contract – for a military base"
+      },
+      {
+        "id": "art_1786011277612_7wq66",
+        "url": "https://www.theguardian.com/world/live/2026/aug/06/iran-oman-strait-of-hormuz-yemen-houthis-israel-lebanon-gaza-us-donald-trump-middle-east-crisis-live-news",
+        "source": "guardian",
+        "title": "Iran says a deal with Oman to reopen the strait of Hormuz is close to being finalised – Middle East crisis live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "e0793ad2afcf4ac30a332789568aa892",
     "topic_label": "Trump and US Politics",
     "event_window_start": "2026-08-06T11:30:41.000Z",
@@ -408,86 +972,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "617b066516ba0f65ce4c055852f514af",
-    "topic_label": "Meta Child Safety Lawsuit",
-    "event_window_start": "2026-08-07T00:06:17.000Z",
-    "event_window_end": "2026-08-07T02:24:50.000Z",
-    "article_ids": [
-      "art_1786073618048_pvgm6",
-      "art_1786073629635_5hbsn",
-      "art_1786062570232_wq3gp"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-07T03:52:16.508Z",
-    "updated_at": "2026-08-07T03:52:16.508Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A New Mexico judge ordered Meta to pay an additional $567 million following a trial.",
-      "The total amount Meta is now ordered to pay in this case is $942 million, following an earlier $375 million fine.",
-      "Judge Bryan Biedscheid presided over the ruling.",
-      "The new funds are designated for addressing mental health impacts or harm to young people in New Mexico."
-    ],
-    "source_claims": [
-      "[guardian] states the ruling addresses mental health impacts and concealment of child sexual exploitation.",
-      "[aljazeera] states Meta was found to have violated state consumer protection law by misrepresenting platform safety.",
-      "[bbc] reports Judge Biedscheid characterized the company as a public nuisance, comparing it to air pollution."
-    ],
-    "framing_differences": [
-      "The guardian frames the ruling primarily as a response to mental health impacts, whereas the aljazeera frames it as a consumer protection issue involving misrepresentation of safety.",
-      "The bbc frames the ruling through the lens of Meta's CEO Mark Zuckerberg facing broader legal challenges and uses specific judicial metaphors likening the company to a factory producing pollution."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims the jury found Meta knowingly harmed children's mental health.",
-      "[bbc] claims the ruling is the largest against the company over child safety."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'public nuisance' to describe the company based on the judge's comparison.",
-      "[bbc] uses the term 'pollution' to describe psychological harm and sexual exploitation as cited from the judge's remarks."
-    ],
-    "safe_conclusions": [
-      "A New Mexico court has issued a ruling requiring Meta to pay $567 million.",
-      "The ruling follows a previous fine of $375 million in the same legal proceedings."
-    ],
-    "unknowns": [
-      "The exact breakdown of how the remaining $147 million of the $567 million fund will be allocated beyond the $420 million mentioned for treatment services.",
-      "Specific details regarding the long-term changes to platform functionality mentioned by aljazeera."
-    ],
-    "synthesis": "A New Mexico court has ordered Meta to pay an additional $567 million, bringing the total amount levied against the company in the current case to $942 million. Judge Bryan Biedscheid issued the ruling to fund treatment and prevention services for youth in the state. The decision follows a previous jury finding from March regarding the company's impact on children.",
-    "confidence": "HIGH; The core financial facts and the judicial source are consistent across all three reports.",
-    "sources": [
-      {
-        "id": "art_1786073618048_pvgm6",
-        "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-        "source": "guardian",
-        "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health"
-      },
-      {
-        "id": "art_1786073629635_5hbsn",
-        "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "New Mexico court orders Meta to pay $567m over harm to youths"
-      },
-      {
-        "id": "art_1786062570232_wq3gp",
-        "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Meta fined $567m in largest child safety ruling against social media giant"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "f00fb64ac5006e7c4d9b843599e594dc",
     "topic_label": "Tennessee Primary Elections",
     "event_window_start": "2026-08-06T10:00:58.000Z",
@@ -568,89 +1052,6 @@
         "url": "https://www.foxnews.com/politics/primary-showdown-conservative-firebrand-marsha-blackburn-eyes-governors-office-tennessee",
         "source": "fox",
         "title": "Primary showdown: Conservative firebrand Marsha Blackburn eyes governor's office in Tennessee"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fb73b4a894d65d8066eb1ddbeb4f5b38",
-    "topic_label": "Anthony Fauci Contempt Vote",
-    "event_window_start": "2026-08-06T11:56:35.000Z",
-    "event_window_end": "2026-08-06T14:47:45.000Z",
-    "article_ids": [
-      "art_1786028350849_ypsuw",
-      "art_1786019518824_pxq58",
-      "art_1786019529427_684m0"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-07T09:37:31.785Z",
-    "updated_at": "2026-08-07T09:37:31.785Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A US Senate committee held a vote regarding Anthony Fauci and contempt of Congress.",
-      "The process involves a potential referral to the Department of Justice.",
-      "Anthony Fauci previously testified before a Senate committee where he declined to answer certain questions."
-    ],
-    "source_claims": [
-      "[bbc] The committee vote to hold Fauci in contempt fell along party lines.",
-      "[bbc] Anthony Fauci invoked his constitutional right against self-incrimination more than 100 times during testimony.",
-      "[guardian] Rand Paul released documents he described as Fauci's diary.",
-      "[fox] Senator Rand Paul stated he has the necessary votes to hold Fauci in contempt."
-    ],
-    "framing_differences": [
-      "BBC frames the event as a completed procedural action following a refusal to answer questions, whereas Guardian frames it as an expected upcoming vote.",
-      "Fox frames the event as the culmination of a years-long effort by Rand Paul, while BBC focuses on the legal mechanism of the contempt process."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] Fauci's lawyer characterized the committee vote as a 'crude political stunt'.",
-      "[guardian] Fauci described Rand Paul as having an 'unhinged obsession' with him.",
-      "[guardian] Fauci's diary described Donald Trump as 'rambling', 'crazy', and 'desperate'."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'crude political stunt' to describe the committee vote as stated by Fauci's lawyer.",
-      "[guardian] uses the term 'unhinged obsession' to describe Rand Paul's investigation as stated by Fauci.",
-      "[fox] uses the term 'crusade' to describe Rand Paul's efforts regarding Anthony Fauci."
-    ],
-    "safe_conclusions": [
-      "A Senate committee initiated proceedings to consider holding Anthony Fauci in contempt of Congress.",
-      "The status of the potential prosecution is currently dependent on the Department of Justice."
-    ],
-    "unknowns": [
-      "Whether the Department of Justice will pursue a case against Anthony Fauci.",
-      "The final outcome of the Senate committee's legislative actions.",
-      "The exact details of the content contained in the documents Rand Paul refers to as a diary."
-    ],
-    "synthesis": "A US Senate committee has engaged in a process to hold former health official Anthony Fauci in contempt of Congress following his refusal to answer questions during a recent hearing. The proceedings follow years of scrutiny from Senator Rand Paul, who initiated the inquiry into Fauci's tenure. The matter may now be referred to the Department of Justice for further consideration.",
-    "confidence": "MEDIUM. While all sources agree that a committee action is occurring, there is variation in the reporting of the timeline and specific characterizations of the testimonies and documents involved.",
-    "sources": [
-      {
-        "id": "art_1786028350849_ypsuw",
-        "url": "https://www.bbc.co.uk/news/articles/c1m18158my9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US Senate committee votes to hold Fauci in contempt over Covid hearing"
-      },
-      {
-        "id": "art_1786019518824_pxq58",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/06/senators-anthony-fauci-contempt-of-congress-michiganu-democrats-republicans-trump-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Senate committee set to vote on holding Anthony Fauci in contempt of Congress – US politics live"
-      },
-      {
-        "id": "art_1786019529427_684m0",
-        "url": "https://www.foxnews.com/us/rand-pauls-yearslong-crusade-against-fauci-reaches-its-defining-moment-more-top-headlines",
-        "source": "fox",
-        "title": "Rand Paul's yearslong crusade against Fauci reaches its defining moment and more top headlines"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18575,421 +18976,6 @@
         "url": "https://www.aljazeera.com/news/2026/7/31/poland-protests-to-russian-ambassador-over-missile-incursion?traffic_source=rss",
         "source": "aljazeera",
         "title": "Poland protests to Russian ambassador over missile incursion"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e87969242ed8b1af0297f201e953a981",
-    "topic_label": "Gaza conflict and humanitarian crisis",
-    "event_window_start": "2026-07-31T16:35:17.000Z",
-    "event_window_end": "2026-08-01T14:07:36.000Z",
-    "article_ids": [
-      "art_1785598905881_ps5lo",
-      "art_1785593496594_ih7t0",
-      "art_1785557138506_g8kwz",
-      "art_1785557150227_01rob",
-      "art_1785529411438_vov4x",
-      "art_1785517809685_utdto"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-01T16:02:43.834Z",
-    "updated_at": "2026-08-01T16:02:43.834Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Hamas has agreed to a proposed disarmament deal involving a phased withdrawal of Israeli forces from Gaza.",
-      "The Israeli government has not officially confirmed or accepted the terms of the deal reported by the United States.",
-      "Israeli military operations in Gaza have continued following the announcement of the agreement."
-    ],
-    "source_claims": [
-      "[aljazeera] claims an Israeli air strike destroyed a medical supply warehouse at Al-Aqsa Martyrs Hospital.",
-      "[aljazeera] claims hundreds of children participated in a marathon in Gaza to highlight the orphan crisis.",
-      "[aljazeera] claims Donald Trump stated the U.S. has an understanding with Israel and that Israel is happy with the deal.",
-      "[aljazeera] claims an unnamed Israeli official stated there will be no withdrawal until Israel determines there is genuine disarmament of Hamas.",
-      "[aljazeera] claims at least two Palestinians were killed and 10 wounded in Israeli attacks following the agreement announcement."
-    ],
-    "framing_differences": [
-      "aljazeera frames the ongoing Israeli military presence as continuing despite a proposed peace deal, while also highlighting humanitarian crises involving medical supply destruction and orphans."
-    ],
-    "contested_claims": [
-      "Donald Trump claims Israel is 'very happy' about the disarmament deal, while unnamed Israeli officials and local press have reportedly given the terms a 'frosty reception'."
-    ],
-    "unverified_claims": [
-      "[aljazeera] reports that the air strike on the hospital warehouse was conducted by the Israeli military.",
-      "[aljazeera] reports Hamas characterizes the ongoing conflict as a 'genocidal war'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
-      "[aljazeera] uses the term 'frosty reception' to describe the Israeli reaction to the peace deal.",
-      "[aljazeera] uses the term 'triumphal' to describe Donald Trump's demeanor."
-    ],
-    "safe_conclusions": [
-      "A disarmament agreement has been drafted involving Hamas and the United States government.",
-      "The status of the agreement is currently subject to conflicting reports regarding the Israeli government's level of participation and approval."
-    ],
-    "unknowns": [
-      "The specific technical details of the phased disarmament and withdrawal agreement.",
-      "The official position of the Israeli government regarding the specific terms of the U.S.-brokered deal.",
-      "The cause of the destruction at the Al-Aqsa Martyrs Hospital warehouse beyond reports from hospital staff."
-    ],
-    "synthesis": "Hamas has agreed to a phased disarmament plan brokered by the United States that entails an eventual Israeli withdrawal from Gaza. While U.S. officials claim Israel supports the arrangement, Israeli authorities have not officially confirmed this and have signaled that military conditions remain in place. Concurrent with these diplomatic developments, Israeli military operations continue across Gaza.",
-    "confidence": "MEDIUM. While all articles originate from the same outlet, the reports present varying levels of official confirmation regarding the diplomatic status of the ceasefire negotiations.",
-    "sources": [
-      {
-        "id": "art_1785598905881_ps5lo",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/01-08-israel-strike-gaza-hospital-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike destroys Gaza hospital warehouse"
-      },
-      {
-        "id": "art_1785593496594_ih7t0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/children-run-marathon-to-spotlight-gazas-growing-orphan-crises?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Children run marathon to spotlight Gaza’s growing orphan crises"
-      },
-      {
-        "id": "art_1785557138506_g8kwz",
-        "url": "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is Israel really ready to withdraw from Gaza?"
-      },
-      {
-        "id": "art_1785557150227_01rob",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israel-launches-attacks-across-gaza-one-day-after-hamas-agrees-to-disarm?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel launches attacks across Gaza one day after Hamas agrees to disarm"
-      },
-      {
-        "id": "art_1785529411438_vov4x",
-        "url": "https://www.aljazeera.com/news/2026/7/31/trump-says-us-has-understanding-with-israel-on-hamas-disarmament-deal?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says US has ‘understanding’ with Israel on Hamas disarmament deal"
-      },
-      {
-        "id": "art_1785517809685_utdto",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/three-year-roadmap-proposed-for-hamas-disarmament-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Three-year roadmap proposed for Hamas disarmament in Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e543d447bd7e2d608efc9ca32415788c",
-    "topic_label": "Spain Ceuta migrant crisis",
-    "event_window_start": "2026-07-31T16:42:27.000Z",
-    "event_window_end": "2026-08-01T13:50:36.000Z",
-    "article_ids": [
-      "art_1785593495562_q5wle",
-      "art_1785593509294_pn9mj",
-      "art_1785586042118_r8gv8",
-      "art_1785582163215_zqg0i",
-      "art_1785582165366_i8ppy",
-      "art_1785575358761_urbjg",
-      "art_1785529398834_dxu3u",
-      "art_1785517808592_wj93u"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-01T14:50:30.664Z",
-    "updated_at": "2026-08-01T14:50:30.664Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A significant influx of migrants entered the Spanish enclave of Ceuta from Morocco between July 30 and the following days.",
-      "The Spanish government reported a death toll of at least 67 individuals during the crossing.",
-      "Deaths occurred due to drowning and being crushed while attempting to traverse the border breakwater.",
-      "Spanish officials stated that the vast majority of migrants who entered have since returned to Morocco."
-    ],
-    "source_claims": [
-      "[aljazeera] Prime Minister Pedro Sanchez characterized the mass entry as a violation of territorial integrity.",
-      "[aljazeera] Israel's UN ambassador Danny Danon described Spain as prone to lecturing Israel while facing its own immigration crisis.",
-      "[bbc] Italy, Finland, and Denmark criticized the situation and temporarily suspended the Schengen arrangement with Spain.",
-      "[guardian] Prime Minister Pedro Sánchez labeled the responses of certain EU member states as selfish, polarising, and unlawful."
-    ],
-    "framing_differences": [
-      "Aljazeera focuses on the human cost of the border crossing and incorporates political commentary regarding Israel's diplomatic relationship with Spain, whereas the BBC and the Guardian frame the event primarily as a political crisis involving the European Union and the Schengen agreement."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Migrants claimed that social media posts encouraged them to undertake the journey.",
-      "[aljazeera] There are allegations that migrants were actively encouraged to make the crossing by unspecified actors."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'whine' to describe the tone of the Israeli ambassador's comments.",
-      "[guardian] and [bbc] include the terms 'selfish', 'polarising', and 'unlawful' to describe the reactions of other EU nations as characterized by the Spanish Prime Minister.",
-      "[bbc] uses the term 'shocking' to describe the Italian Prime Minister's view of the events."
-    ],
-    "safe_conclusions": [
-      "An event involving mass migrant crossings into Ceuta occurred in late July.",
-      "Deaths were confirmed among those attempting to cross the border.",
-      "Spain has engaged with the EU regarding the administrative consequences of this influx."
-    ],
-    "unknowns": [
-      "The exact number of migrants who remain in Spain versus those who returned to Morocco.",
-      "The specific source or origin of the alleged social media posts encouraging the crossing.",
-      "The total number of casualties on the Moroccan side of the border."
-    ],
-    "synthesis": "Following a mass migration event in late July where approximately 50,000 to 60,000 individuals crossed from Morocco into the Spanish enclave of Ceuta, at least 67 people were confirmed dead. Most migrants have since returned to Morocco, though the incident prompted criticism from EU member states and a subsequent political response from the Spanish government. The event has sparked internal European debate regarding border management and the Schengen agreement.",
-    "confidence": "HIGH. The sources are consistent regarding the primary facts of the migrant influx, the confirmed death toll, and the subsequent diplomatic tensions within the EU.",
-    "sources": [
-      {
-        "id": "art_1785593495562_q5wle",
-        "url": "https://www.aljazeera.com/opinions/2026/8/1/is-spain-being-punished?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is Spain being punished?"
-      },
-      {
-        "id": "art_1785593509294_pn9mj",
-        "url": "https://www.aljazeera.com/news/2026/8/1/spain-says-migrants-leaving-ceuta-after-mass-influx-in-which-67-died?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain says migrants leaving Ceuta after mass influx in which 67 died"
-      },
-      {
-        "id": "art_1785586042118_r8gv8",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/01-08-sv-ceuta-migrants-returned-es?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain says migrants in Ceuta have returned to Morocco"
-      },
-      {
-        "id": "art_1785582163215_zqg0i",
-        "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings"
-      },
-      {
-        "id": "art_1785582165366_i8ppy",
-        "url": "https://www.theguardian.com/world/2026/aug/01/spain-pedro-sanchez-calls-for-eu-meeting-ceuta-border-crossing",
-        "source": "guardian",
-        "title": "Spanish PM calls for urgent EU meeting after ‘selfish’ responses to Ceuta crisis"
-      },
-      {
-        "id": "art_1785575358761_urbjg",
-        "url": "https://www.theguardian.com/world/live/2026/aug/01/ukraine-russia-zelenskyy-spain-france-wildfires-climate-heatwave-ceuta-morocco",
-        "source": "guardian",
-        "title": "Death toll in Ceuta border crisis rises to 67 as Spanish government announces plans for barrier – Europe live"
-      },
-      {
-        "id": "art_1785529398834_dxu3u",
-        "url": "https://www.foxnews.com/world/migrant-crisis-pushes-italy-restore-border-checks-spain-testing-europes-open-border-system",
-        "source": "fox",
-        "title": "Migrant crisis pushes Italy to restore border checks with Spain, testing Europe's open-border system"
-      },
-      {
-        "id": "art_1785517808592_wj93u",
-        "url": "https://www.foxnews.com/politics/trump-blasts-spain-migrant-surge-catastrophe-warns-us-could-face-worse-democrats-regain-power",
-        "source": "fox",
-        "title": "Trump blasts Spain migrant surge as 'catastrophe,' warns US could face worse if Democrats regain power"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bb92b4391990175fbf5bfae7fe78f76f",
-    "topic_label": "Iran Middle East tensions",
-    "event_window_start": "2026-08-01T03:53:03.000Z",
-    "event_window_end": "2026-08-01T14:57:13.000Z",
-    "article_ids": [
-      "art_1785598900687_zt7ni",
-      "art_1785593510319_j8qjz",
-      "art_1785582167579_x2gem",
-      "art_1785557136425_5c38p"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-01T16:02:43.834Z",
-    "updated_at": "2026-08-01T16:02:43.834Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Zohran Mamdani is currently serving as the Mayor of New York City.",
-      "Tensions exist regarding Mayor Mamdani's public statements and their impact on relations with various communities.",
-      "Iran is currently involved in regional geopolitical conflicts involving the United States and Israel."
-    ],
-    "source_claims": [
-      "[fox] President Isaac Herzog claims Mayor Mamdani is spreading antisemitic rhetoric and endangering the lives of New Yorkers.",
-      "[fox] President Isaac Herzog states that Mamdani does not respect the Jewish people's right to self-determination.",
-      "[fox] An unnamed source claims the family of Army Sgt. Angel Sarah Rampersad chose not to have Mayor Mamdani speak at her funeral.",
-      "[aljazeera] Major General Ali Abdollahi claims the United States is accelerating a path toward a full-scale regional war.",
-      "[aljazeera] Major General Ali Abdollahi claims the United States is utilizing the infrastructure of regional neighbors to support Israel's military operations."
-    ],
-    "framing_differences": [
-      "Fox focuses on the domestic political conflicts between Mayor Mamdani and the Jewish community in New York, while Al Jazeera focuses on international military tensions between Iran, the United States, and Israel.",
-      "Fox frames the narrative around the rhetoric and conduct of a specific U.S. municipal leader, whereas Al Jazeera frames the narrative around regional war risks and historical grievances."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] New York Post reports that Mayor Mamdani was denied the opportunity to speak at the funeral of Army Sgt. Angel Sarah Rampersad.",
-      "[fox] President Herzog asserts that Mayor Mamdani's rhetoric is directly risking the safety and well-being of New York citizens."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'hateful and antisemitic' to describe Mayor Mamdani's rhetoric.",
-      "[fox] uses the term 'blasphemy' to describe Mayor Mamdani's statements.",
-      "[aljazeera] uses the term 'fan the flames of a full-scale regional war' to describe U.S. military policy.",
-      "[aljazeera] uses the term 'America's crimes' to describe U.S. actions in the region."
-    ],
-    "safe_conclusions": [
-      "Mayor Zohran Mamdani attended the funeral of Army Sgt. Angel Sarah Rampersad in Queens.",
-      "Iran has publicly stated that it will retaliate if the United States attacks its energy infrastructure.",
-      "President Isaac Herzog has criticized Mayor Zohran Mamdani's public rhetoric."
-    ],
-    "unknowns": [
-      "The specific reasons why Mayor Mamdani did not speak at the funeral service of Army Sgt. Angel Sarah Rampersad.",
-      "The full scope of the 'roadmap' for Hamas disarmament mentioned by President Trump.",
-      "The specific current diplomatic conditions between the U.S. and regional neighbors regarding the use of their infrastructure."
-    ],
-    "synthesis": "Israeli President Isaac Herzog has criticized New York City Mayor Zohran Mamdani for his rhetoric regarding Israel. Simultaneously, Iranian military officials have issued warnings against potential U.S. strikes on energy infrastructure while describing U.S. actions as a cause for regional escalation. Separate reporting highlights domestic tensions regarding the Mayor's public engagement with the families of fallen service members.",
-    "confidence": "MEDIUM: The sources cover distinct geographical and political events that do not directly overlap, resulting in limited factual corroboration between them.",
-    "sources": [
-      {
-        "id": "art_1785598900687_zt7ni",
-        "url": "https://www.foxnews.com/world/exclusive-israeli-president-herzog-blasts-mamdani-praises-trump-sounds-alarm-iran",
-        "source": "fox",
-        "title": "Exclusive: Israeli President Herzog blasts Mamdani, praises Trump, sounds alarm on Iran"
-      },
-      {
-        "id": "art_1785593510319_j8qjz",
-        "url": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran warns against ‘flames of war’ amid US strike threats on energy sites"
-      },
-      {
-        "id": "art_1785582167579_x2gem",
-        "url": "https://www.aljazeera.com/video/featured-documentaries/2026/8/1/iran-the-making-of-a-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran: The Making of a War"
-      },
-      {
-        "id": "art_1785557136425_5c38p",
-        "url": "https://www.foxnews.com/politics/mamdani-not-called-speak-nyc-funeral-army-sergeant-killed-iranian-attack-report",
-        "source": "fox",
-        "title": "Mamdani not called to speak at NYC funeral of Army sergeant killed in Iranian attack: report"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f550ffa5f9f6188e463ed6cbb6307fa5",
-    "topic_label": "Gaza conflict and ceasefire negotiations",
-    "event_window_start": "2026-07-31T15:18:31.000Z",
-    "event_window_end": "2026-08-01T13:46:33.000Z",
-    "article_ids": [
-      "art_1785593496594_ih7t0",
-      "art_1785557138506_g8kwz",
-      "art_1785557150227_01rob",
-      "art_1785529411438_vov4x",
-      "art_1785517809685_utdto",
-      "art_1785511411380_p2elu"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-01T14:50:30.664Z",
-    "updated_at": "2026-08-01T14:50:30.664Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Hamas has agreed to a proposed disarmament deal involving a phased withdrawal of Israeli forces from Gaza.",
-      "The United States has been involved in mediating a proposed peace or disarmament agreement regarding Gaza.",
-      "Israeli officials have not officially signed or accepted the terms of the US-proposed agreement."
-    ],
-    "source_claims": [
-      "[aljazeera 3] Two Palestinians were killed and at least 10 wounded in Israeli air attacks across Gaza shortly after the disarmament deal announcement.",
-      "[aljazeera 4] President Trump claimed Israel is 'very happy' with the deal and helped facilitate it.",
-      "[aljazeera 4] Hamas confirmed it agreed to the first step of a deal to end what it labels a 'genocidal war'.",
-      "[aljazeera 5] A proposed three-year roadmap allows 14 days to finalize political transition before disarmament and withdrawal begin."
-    ],
-    "framing_differences": [
-      "Aljazeera 2 frames the situation as a 'frosty reception' by Israeli politicians toward withdrawal, while Aljazeera 4 frames President Trump's perspective as describing Israel as 'very happy' with the same deal.",
-      "Aljazeera 3 frames the ongoing Israeli air attacks as occurring one day after the Hamas disarmament agreement, emphasizing the timing of the conflict against the diplomatic progress."
-    ],
-    "contested_claims": [
-      "President Trump claims Israel is 'very happy' with the agreement, while anonymous Israeli officials and the general stance reported in the Israeli press indicate a 'frosty reception' or non-acceptance of the withdrawal terms."
-    ],
-    "unverified_claims": [
-      "[aljazeera 3] Israeli attacks across Gaza killed at least two Palestinians and wounded at least 10 others."
-    ],
-    "loaded_language": [
-      "[aljazeera 4] uses the term 'genocidal war' to describe the conflict in Gaza.",
-      "[aljazeera 4] uses the term 'rosy picture' to describe President Trump's characterization of the deal."
-    ],
-    "safe_conclusions": [
-      "A disarmament agreement involving Hamas and Israel is currently being mediated by the United States.",
-      "There is a discrepancy between the US administration's public description of the deal's reception and the reported stance of Israeli officials."
-    ],
-    "unknowns": [
-      "The specific, finalized details of the disarmament agreement that have been formally accepted by all parties.",
-      "The official position of the Israeli government, which has not yet issued a formal comment on the agreement.",
-      "The exact timeline for the implementation of the disarmament plan."
-    ],
-    "synthesis": "Hamas has agreed to a US-backed, three-year roadmap for disarmament in Gaza, which includes a phased withdrawal of Israeli forces. While President Trump asserts that Israel is satisfied and involved in the agreement, Israeli officials have yet to formally endorse the terms. Meanwhile, military activity continues in Gaza, with reports of casualties occurring after the announcement of the disarmament deal.",
-    "confidence": "MEDIUM: While the sources are consistent regarding the existence of the deal, there are contradictory reports regarding Israel's reception of the agreement and the current state of conflict on the ground.",
-    "sources": [
-      {
-        "id": "art_1785593496594_ih7t0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/children-run-marathon-to-spotlight-gazas-growing-orphan-crises?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Children run marathon to spotlight Gaza’s growing orphan crises"
-      },
-      {
-        "id": "art_1785557138506_g8kwz",
-        "url": "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is Israel really ready to withdraw from Gaza?"
-      },
-      {
-        "id": "art_1785557150227_01rob",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/1/israel-launches-attacks-across-gaza-one-day-after-hamas-agrees-to-disarm?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel launches attacks across Gaza one day after Hamas agrees to disarm"
-      },
-      {
-        "id": "art_1785529411438_vov4x",
-        "url": "https://www.aljazeera.com/news/2026/7/31/trump-says-us-has-understanding-with-israel-on-hamas-disarmament-deal?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says US has ‘understanding’ with Israel on Hamas disarmament deal"
-      },
-      {
-        "id": "art_1785517809685_utdto",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/7/31/three-year-roadmap-proposed-for-hamas-disarmament-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Three-year roadmap proposed for Hamas disarmament in Gaza"
-      },
-      {
-        "id": "art_1785511411380_p2elu",
-        "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
