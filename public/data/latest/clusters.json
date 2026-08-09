@@ -292,6 +292,163 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "95963fd6e018fcbec52db7f25e78e062",
+    "topic_label": "NY Boat Capsizing Tragedy",
+    "event_window_start": "2026-08-09T14:47:37.000Z",
+    "event_window_end": "2026-08-09T15:25:50.000Z",
+    "article_ids": [
+      "art_1786289648360_r28r8",
+      "art_1786289658580_ut79s"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-09T16:35:11.707Z",
+    "updated_at": "2026-08-09T16:35:11.707Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A boat capsized near the Statue of Liberty/New York harbor on a Saturday night.",
+      "A woman and a five-month-old infant died in the incident.",
+      "Twelve people were rescued from the water.",
+      "The boat operator was arrested and charged with reckless endangerment.",
+      "A search and rescue operation was conducted by emergency services."
+    ],
+    "source_claims": [
+      "[bbc] The operator was charged with reckless endangerment and the Coast Guard is investigating if the boat was illegally chartered.",
+      "[guardian] Manuel Hernandez, 46, was charged with 13 counts of reckless endangerment following a 911 call at 10:25 p.m.",
+      "[guardian] The victims were a 27-year-old woman and a five-month-old girl who were pronounced dead at NYU Langone hospital."
+    ],
+    "framing_differences": [
+      "[bbc] frames the incident through the perspective of the investigative search and rescue operation, while [guardian] focuses specifically on the details of the captain's charges and the demographic details of the victims."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Identifies the boat operator as 46-year-old Manuel Hernandez.",
+      "[guardian] Specifies the time of the 911 call as 10:25 p.m.",
+      "[guardian] States the woman was 27 years old and the infant was a girl."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'heroic' to describe the rescue effort."
+    ],
+    "safe_conclusions": [
+      "A maritime accident occurred in New York harbor resulting in fatalities and a criminal charge against the boat operator.",
+      "Emergency responders rescued twelve survivors from the water."
+    ],
+    "unknowns": [
+      "The official cause of the capsizing.",
+      "Whether the vessel was operating as an illegal charter.",
+      "The identities of the deceased passengers."
+    ],
+    "synthesis": "A boat capsized in New York harbor on Saturday night, resulting in the deaths of a woman and an infant. Twelve survivors were rescued, and the vessel's operator was subsequently arrested and charged with reckless endangerment. Authorities have launched an investigation into the cause of the incident and the legality of the boat's operations.",
+    "confidence": "HIGH: Both sources consistently report the core facts regarding the fatalities, the arrests, and the rescue operation.",
+    "sources": [
+      {
+        "id": "art_1786289648360_r28r8",
+        "url": "https://www.bbc.co.uk/news/articles/c935w1d05d7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Man arrested after boat capsizes near Statue of Liberty killing woman and infant"
+      },
+      {
+        "id": "art_1786289658580_ut79s",
+        "url": "https://www.theguardian.com/us-news/2026/aug/09/man-charged-new-york-harbor-boat-capsized-deaths",
+        "source": "guardian",
+        "title": "Captain charged after woman and five-month-old die in New York boat capsizing"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "848875f5ff1e87bfeb0927ad0348402d",
+    "topic_label": "Joe Biden health updates",
+    "event_window_start": "2026-08-08T18:01:43.000Z",
+    "event_window_end": "2026-08-09T05:01:54.000Z",
+    "article_ids": [
+      "art_1786256037499_idflz",
+      "art_1786247121417_gnaot",
+      "art_1786217602294_71t7f",
+      "art_1786217608617_u3lbh"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-09T16:04:10.174Z",
+    "updated_at": "2026-08-09T16:04:10.174Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Hunter Biden gave an interview to BBC Newsnight on Friday.",
+      "Hunter Biden stated that former President Joe Biden's prostate cancer has metastasized into his bones and further.",
+      "Hunter Biden described his father's medical condition as 'very painful' and 'very debilitating'.",
+      "Joe Biden was diagnosed with prostate cancer in 2025."
+    ],
+    "source_claims": [
+      "[aljazeera] Joe Biden was diagnosed with aggressive prostate cancer in May 2025.",
+      "[fox] Former first lady Jill Biden stated her husband would not have been able to serve another four years due to his cancer diagnosis.",
+      "[fox] Karl Rove and Kevin Walling discussed the diagnosis and allegations of a cover-up by the Democratic Party on 'The Story'."
+    ],
+    "framing_differences": [
+      "Al Jazeera focuses on the emotional and physical impact of the health diagnosis, while Fox News connects the diagnosis to political context and allegations of a past cover-up."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Joe Biden's cancer is described as 'aggressive'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'cover-up' to describe the Democratic Party's handling of information regarding the diagnosis."
+    ],
+    "safe_conclusions": [
+      "Hunter Biden publicly discussed the progression of Joe Biden's prostate cancer in an interview with the BBC.",
+      "Joe Biden is a former U.S. President who has a confirmed diagnosis of prostate cancer."
+    ],
+    "unknowns": [
+      "The specific current stage or medical prognosis of the cancer beyond Hunter Biden's public statement.",
+      "The exact timeline of when the cancer metastasized.",
+      "The specific medical details regarding the physical exam mentioned as the source of the initial diagnosis."
+    ],
+    "synthesis": "Hunter Biden provided an update on his father's health in a BBC Newsnight interview, stating that the former president's prostate cancer has metastasized into his bones. He characterized the condition as painful and debilitating. Media reports reflect this information while adding varying levels of political context regarding the former administration.",
+    "confidence": "HIGH. Sources are consistent regarding the core quotes and information attributed to Hunter Biden.",
+    "sources": [
+      {
+        "id": "art_1786256037499_idflz",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-clip-biden-cancer-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Very painful’: Joe Biden’s cancer has spread, son Hunter says"
+      },
+      {
+        "id": "art_1786247121417_gnaot",
+        "url": "https://www.foxnews.com/health/bidens-battle-advancing-cancer-renews-focus-prostate-disease",
+        "source": "fox",
+        "title": "Biden's battle with advancing cancer renews focus on prostate disease"
+      },
+      {
+        "id": "art_1786217602294_71t7f",
+        "url": "https://www.aljazeera.com/news/2026/8/8/debilitating-hunter-biden-speaks-out-about-father-joe-bidens-cancer?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Debilitating’: Hunter Biden speaks out about father Joe Biden’s cancer"
+      },
+      {
+        "id": "art_1786217608617_u3lbh",
+        "url": "https://www.foxnews.com/politics/joe-biden-cancer-spread-further-leaving-very-painful-condition-hunter-reveals",
+        "source": "fox",
+        "title": "Joe Biden's cancer has spread further, leaving him in 'very painful' condition, Hunter reveals"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "eeef1e07160032e5f76f94909e15e729",
     "topic_label": "WNBA Controversy and Fines",
     "event_window_start": "2026-08-08T23:26:43.000Z",
@@ -401,158 +558,79 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "848875f5ff1e87bfeb0927ad0348402d",
-    "topic_label": "Joe Biden health updates",
-    "event_window_start": "2026-08-08T18:01:43.000Z",
-    "event_window_end": "2026-08-09T05:01:54.000Z",
+    "cluster_id": "bf1cdfb6312545004612cf16044a62c2",
+    "topic_label": "Hawaii political news",
+    "event_window_start": "2026-08-09T05:39:16.000Z",
+    "event_window_end": "2026-08-09T05:48:54.000Z",
     "article_ids": [
-      "art_1786256037499_idflz",
-      "art_1786247121417_gnaot",
-      "art_1786217602294_71t7f",
-      "art_1786217608617_u3lbh"
+      "art_1786256030018_0sfps",
+      "art_1786256031167_qncdf",
+      "art_1786256032239_eoqou"
     ],
     "source_ids": [
-      "aljazeera",
       "fox"
     ],
-    "article_count": 4,
-    "source_count": 2,
+    "article_count": 3,
+    "source_count": 1,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
     "created_at": "2026-08-09T16:04:10.174Z",
     "updated_at": "2026-08-09T16:04:10.174Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Hunter Biden gave an interview to BBC Newsnight on Friday.",
-      "Hunter Biden stated that former President Joe Biden's prostate cancer has metastasized into his bones and further.",
-      "Hunter Biden described his father's medical condition as 'very painful' and 'very debilitating'.",
-      "Joe Biden was diagnosed with prostate cancer in 2025."
-    ],
-    "source_claims": [
-      "[aljazeera] Joe Biden was diagnosed with aggressive prostate cancer in May 2025.",
-      "[fox] Former first lady Jill Biden stated her husband would not have been able to serve another four years due to his cancer diagnosis.",
-      "[fox] Karl Rove and Kevin Walling discussed the diagnosis and allegations of a cover-up by the Democratic Party on 'The Story'."
-    ],
-    "framing_differences": [
-      "Al Jazeera focuses on the emotional and physical impact of the health diagnosis, while Fox News connects the diagnosis to political context and allegations of a past cover-up."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Joe Biden's cancer is described as 'aggressive'."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'cover-up' to describe the Democratic Party's handling of information regarding the diagnosis."
-    ],
-    "safe_conclusions": [
-      "Hunter Biden publicly discussed the progression of Joe Biden's prostate cancer in an interview with the BBC.",
-      "Joe Biden is a former U.S. President who has a confirmed diagnosis of prostate cancer."
-    ],
-    "unknowns": [
-      "The specific current stage or medical prognosis of the cancer beyond Hunter Biden's public statement.",
-      "The exact timeline of when the cancer metastasized.",
-      "The specific medical details regarding the physical exam mentioned as the source of the initial diagnosis."
-    ],
-    "synthesis": "Hunter Biden provided an update on his father's health in a BBC Newsnight interview, stating that the former president's prostate cancer has metastasized into his bones. He characterized the condition as painful and debilitating. Media reports reflect this information while adding varying levels of political context regarding the former administration.",
-    "confidence": "HIGH. Sources are consistent regarding the core quotes and information attributed to Hunter Biden.",
-    "sources": [
-      {
-        "id": "art_1786256037499_idflz",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/9/08-09-clip-biden-cancer-us?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Very painful’: Joe Biden’s cancer has spread, son Hunter says"
-      },
-      {
-        "id": "art_1786247121417_gnaot",
-        "url": "https://www.foxnews.com/health/bidens-battle-advancing-cancer-renews-focus-prostate-disease",
-        "source": "fox",
-        "title": "Biden's battle with advancing cancer renews focus on prostate disease"
-      },
-      {
-        "id": "art_1786217602294_71t7f",
-        "url": "https://www.aljazeera.com/news/2026/8/8/debilitating-hunter-biden-speaks-out-about-father-joe-bidens-cancer?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Debilitating’: Hunter Biden speaks out about father Joe Biden’s cancer"
-      },
-      {
-        "id": "art_1786217608617_u3lbh",
-        "url": "https://www.foxnews.com/politics/joe-biden-cancer-spread-further-leaving-very-painful-condition-hunter-reveals",
-        "source": "fox",
-        "title": "Joe Biden's cancer has spread further, leaving him in 'very painful' condition, Hunter reveals"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "95963fd6e018fcbec52db7f25e78e062",
-    "topic_label": "NY Boat Capsizing Tragedy",
-    "event_window_start": "2026-08-09T14:47:37.000Z",
-    "event_window_end": "2026-08-09T15:25:50.000Z",
-    "article_ids": [
-      "art_1786289648360_r28r8",
-      "art_1786289658580_ut79s"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-09T16:35:11.707Z",
-    "updated_at": "2026-08-09T16:35:11.707Z",
     "region_tag": "global",
     "shared_facts": [
-      "A boat capsized near the Statue of Liberty/New York harbor on a Saturday night.",
-      "A woman and a five-month-old infant died in the incident.",
-      "Twelve people were rescued from the water.",
-      "The boat operator was arrested and charged with reckless endangerment.",
-      "A search and rescue operation was conducted by emergency services."
+      "Hawaii held primary elections on Saturday.",
+      "The Cook Political Report rates Hawaii Democratic candidates as having a significant advantage in upcoming races.",
+      "Kirill Basin was arrested for felony terroristic threatening related to a beach confrontation."
     ],
     "source_claims": [
-      "[bbc] The operator was charged with reckless endangerment and the Coast Guard is investigating if the boat was illegally chartered.",
-      "[guardian] Manuel Hernandez, 46, was charged with 13 counts of reckless endangerment following a 911 call at 10:25 p.m.",
-      "[guardian] The victims were a 27-year-old woman and a five-month-old girl who were pronounced dead at NYU Langone hospital."
+      "[fox-1] Gary Cordery won the Republican nomination for Hawaii governor by defeating Ken Fujiyama.",
+      "[fox-1] The last Republican governor of Hawaii was Linda Lingle, who left office in 2010.",
+      "[fox-2] Josh Green defeated primary challengers David 'Duke' Bourgoin, George 'Teva' Lucas-Tadeo, and Lauren Kapoliahiʻiaka Shim.",
+      "[fox-2] Josh Green had a 56% approval rating entering the primary.",
+      "[fox-3] Jill Tokuda won her primary election and will face Republican state Senator Brenton Awa in November.",
+      "[fox-3] Jill Tokuda is seeking a third term representing Hawaii's 2nd Congressional District."
     ],
     "framing_differences": [
-      "[bbc] frames the incident through the perspective of the investigative search and rescue operation, while [guardian] focuses specifically on the details of the captain's charges and the demographic details of the victims."
+      "fox-1 frames the gubernatorial race in the context of a two-decade Democratic hold on the governor's mansion, whereas fox-2 frames the race around the incumbent governor's approval rating and primary results."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[guardian] Identifies the boat operator as 46-year-old Manuel Hernandez.",
-      "[guardian] Specifies the time of the 911 call as 10:25 p.m.",
-      "[guardian] States the woman was 27 years old and the infant was a girl."
+      "[fox-2] Identifies George 'Teva' Lucas-Tadeo as a Democratic socialist."
     ],
     "loaded_language": [
-      "[bbc] uses the term 'heroic' to describe the rescue effort."
+      "[fox-2] uses the term 'cruises' to describe Gov. Josh Green's primary win.",
+      "[fox-3] uses the term 'cruised to victory' to describe Rep. Jill Tokuda's primary win."
     ],
     "safe_conclusions": [
-      "A maritime accident occurred in New York harbor resulting in fatalities and a criminal charge against the boat operator.",
-      "Emergency responders rescued twelve survivors from the water."
+      "Democratic and Republican candidates have been selected for the November elections in Hawaii following Saturday's primary.",
+      "Kirill Basin is facing legal charges involving a weapon."
     ],
     "unknowns": [
-      "The official cause of the capsizing.",
-      "Whether the vessel was operating as an illegal charter.",
-      "The identities of the deceased passengers."
+      "The specific details regarding the court proceedings for Kirill Basin.",
+      "The specific margin of victory for each primary winner mentioned."
     ],
-    "synthesis": "A boat capsized in New York harbor on Saturday night, resulting in the deaths of a woman and an infant. Twelve survivors were rescued, and the vessel's operator was subsequently arrested and charged with reckless endangerment. Authorities have launched an investigation into the cause of the incident and the legality of the boat's operations.",
-    "confidence": "HIGH: Both sources consistently report the core facts regarding the fatalities, the arrests, and the rescue operation.",
+    "synthesis": "Hawaii held primary elections on Saturday, resulting in the nomination of various Democratic and Republican candidates for upcoming gubernatorial and congressional races. Incumbent Governor Josh Green and Representative Jill Tokuda secured victories in their respective Democratic primaries. Concurrent with the election news, congressional candidate Kirill Basin was arrested on felony charges following an incident on a Maui beach.",
+    "confidence": "HIGH. The sources consistently report election outcomes and the arrest of a political candidate, with minor variations in narrative focus.",
     "sources": [
       {
-        "id": "art_1786289648360_r28r8",
-        "url": "https://www.bbc.co.uk/news/articles/c935w1d05d7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Man arrested after boat capsizes near Statue of Liberty killing woman and infant"
+        "id": "art_1786256030018_0sfps",
+        "url": "https://www.foxnews.com/politics/hawaii-contractor-nominated-construct-gop-comeback-two-decade-democratic-hold-governors-mansion",
+        "source": "fox",
+        "title": "Hawaii contractor nominated to construct GOP comeback after two-decade Democratic hold on governor's mansion"
       },
       {
-        "id": "art_1786289658580_ut79s",
-        "url": "https://www.theguardian.com/us-news/2026/aug/09/man-charged-new-york-harbor-boat-capsized-deaths",
-        "source": "guardian",
-        "title": "Captain charged after woman and five-month-old die in New York boat capsizing"
+        "id": "art_1786256031167_qncdf",
+        "url": "https://www.foxnews.com/politics/hawaii-gov-josh-green-cruises-democratic-primary-win-sets-fall-matchup-gop-nominee",
+        "source": "fox",
+        "title": "Hawaii Gov. Josh Green cruises to Democratic primary win, sets up fall matchup with GOP nominee"
+      },
+      {
+        "id": "art_1786256032239_eoqou",
+        "url": "https://www.foxnews.com/politics/hawaii-rep-cruises-dem-primary-win-after-challenger-arrested-beach-brawl",
+        "source": "fox",
+        "title": "Hawaii rep cruises to Dem primary win after challenger arrested for beach brawl"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -1113,84 +1191,6 @@
         "url": "https://www.foxnews.com/outkick-sports/wnba-faces-discipline-dilemma-carrington-white-privilege-post-targeting-indiana-fever",
         "source": "fox",
         "title": "WNBA faces discipline dilemma after Carrington's 'White privilege' post targeting Indiana Fever"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bf1cdfb6312545004612cf16044a62c2",
-    "topic_label": "Hawaii political news",
-    "event_window_start": "2026-08-09T05:39:16.000Z",
-    "event_window_end": "2026-08-09T05:48:54.000Z",
-    "article_ids": [
-      "art_1786256030018_0sfps",
-      "art_1786256031167_qncdf",
-      "art_1786256032239_eoqou"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-09T16:04:10.174Z",
-    "updated_at": "2026-08-09T16:04:10.174Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Hawaii held primary elections on Saturday.",
-      "The Cook Political Report rates Hawaii Democratic candidates as having a significant advantage in upcoming races.",
-      "Kirill Basin was arrested for felony terroristic threatening related to a beach confrontation."
-    ],
-    "source_claims": [
-      "[fox-1] Gary Cordery won the Republican nomination for Hawaii governor by defeating Ken Fujiyama.",
-      "[fox-1] The last Republican governor of Hawaii was Linda Lingle, who left office in 2010.",
-      "[fox-2] Josh Green defeated primary challengers David 'Duke' Bourgoin, George 'Teva' Lucas-Tadeo, and Lauren Kapoliahiʻiaka Shim.",
-      "[fox-2] Josh Green had a 56% approval rating entering the primary.",
-      "[fox-3] Jill Tokuda won her primary election and will face Republican state Senator Brenton Awa in November.",
-      "[fox-3] Jill Tokuda is seeking a third term representing Hawaii's 2nd Congressional District."
-    ],
-    "framing_differences": [
-      "fox-1 frames the gubernatorial race in the context of a two-decade Democratic hold on the governor's mansion, whereas fox-2 frames the race around the incumbent governor's approval rating and primary results."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox-2] Identifies George 'Teva' Lucas-Tadeo as a Democratic socialist."
-    ],
-    "loaded_language": [
-      "[fox-2] uses the term 'cruises' to describe Gov. Josh Green's primary win.",
-      "[fox-3] uses the term 'cruised to victory' to describe Rep. Jill Tokuda's primary win."
-    ],
-    "safe_conclusions": [
-      "Democratic and Republican candidates have been selected for the November elections in Hawaii following Saturday's primary.",
-      "Kirill Basin is facing legal charges involving a weapon."
-    ],
-    "unknowns": [
-      "The specific details regarding the court proceedings for Kirill Basin.",
-      "The specific margin of victory for each primary winner mentioned."
-    ],
-    "synthesis": "Hawaii held primary elections on Saturday, resulting in the nomination of various Democratic and Republican candidates for upcoming gubernatorial and congressional races. Incumbent Governor Josh Green and Representative Jill Tokuda secured victories in their respective Democratic primaries. Concurrent with the election news, congressional candidate Kirill Basin was arrested on felony charges following an incident on a Maui beach.",
-    "confidence": "HIGH. The sources consistently report election outcomes and the arrest of a political candidate, with minor variations in narrative focus.",
-    "sources": [
-      {
-        "id": "art_1786256030018_0sfps",
-        "url": "https://www.foxnews.com/politics/hawaii-contractor-nominated-construct-gop-comeback-two-decade-democratic-hold-governors-mansion",
-        "source": "fox",
-        "title": "Hawaii contractor nominated to construct GOP comeback after two-decade Democratic hold on governor's mansion"
-      },
-      {
-        "id": "art_1786256031167_qncdf",
-        "url": "https://www.foxnews.com/politics/hawaii-gov-josh-green-cruises-democratic-primary-win-sets-fall-matchup-gop-nominee",
-        "source": "fox",
-        "title": "Hawaii Gov. Josh Green cruises to Democratic primary win, sets up fall matchup with GOP nominee"
-      },
-      {
-        "id": "art_1786256032239_eoqou",
-        "url": "https://www.foxnews.com/politics/hawaii-rep-cruises-dem-primary-win-after-challenger-arrested-beach-brawl",
-        "source": "fox",
-        "title": "Hawaii rep cruises to Dem primary win after challenger arrested for beach brawl"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
