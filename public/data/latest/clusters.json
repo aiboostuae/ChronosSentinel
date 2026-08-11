@@ -179,66 +179,66 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "97a057ed4228d4138232bfbaa72b8af8",
-    "topic_label": "Trump and Iran threat",
-    "event_window_start": "2026-08-11T02:17:00.000Z",
+    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
+    "topic_label": "Trump and Iran tensions",
+    "event_window_start": "2026-08-10T23:08:50.000Z",
     "event_window_end": "2026-08-11T02:32:47.000Z",
     "article_ids": [
       "art_1786418728985_j519n",
       "art_1786418731291_19uer",
-      "art_1786418732332_04ukk"
+      "art_1786418732332_04ukk",
+      "art_1786405143945_gg7iv"
     ],
     "source_ids": [
       "aljazeera",
       "guardian",
       "fox"
     ],
-    "article_count": 3,
+    "article_count": 4,
     "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-11T07:03:21.245Z",
-    "updated_at": "2026-08-11T07:03:21.245Z",
+    "created_at": "2026-08-11T08:14:44.136Z",
+    "updated_at": "2026-08-11T08:14:44.136Z",
     "region_tag": "middle-east",
     "shared_facts": [
       "President Donald Trump attended a NATO summit in Turkey.",
-      "Reports indicate that President Trump utilized a catering vehicle during a departure from Ankara airport.",
-      "President Trump has stated that he faces an Iranian threat."
+      "There are ongoing tensions between the United States and Iran involving military activity and threats."
     ],
     "source_claims": [
-      "[aljazeera] President Trump demanded compensation from Iran for 50 years of damages in response to Iranian demands for war reparations and the end of sanctions.",
-      "[aljazeera] Iran has conditioned the reopening of the Strait of Hormuz on receiving war reparations and the end of US sanctions.",
-      "[guardian] President Trump used a catering cart as part of a ruse to board a secret military flight to evade a specific Iranian assassination threat while in Turkey.",
-      "[fox] President Trump used an older Air Force One jet as a decoy while boarding a smaller military aircraft via a catering truck to depart a NATO summit in Turkey in July.",
-      "[fox] President Trump traveled to Turkey aboard a Boeing 747-8 donated by Qatar."
+      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
+      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
+      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
+      "[fox] President Trump stated he is on a 'kill list' for Iran.",
+      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
     ],
     "framing_differences": [
-      "Aljazeera frames the current dynamic between the US and Iran around diplomatic demands for compensation and the status of the Strait of Hormuz.",
-      "The Guardian and Fox focus on the tactical details and security maneuvers involving President Trump's departure from Turkey following an alleged threat."
+      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
+      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] Tehran conditioned the reopening of the Strait of Hormuz on receiving war reparations and the end of sanctions.",
-      "[guardian] The operation involved hiding the president in a catering cart.",
-      "[fox] President Trump is currently \"No. 1 on the kill list for Iran.\""
+      "[guardian] The president hid in a catering cart to board a secret flight.",
+      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the conflict context.",
-      "[guardian] uses the term 'elaborate ruse' to describe the president's transportation method."
+      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
     ],
     "safe_conclusions": [
       "President Trump was in Turkey for a NATO meeting.",
-      "There are reports concerning the president's security and travel methods during his time in Turkey."
+      "Iran has undergone changes in its senior military leadership.",
+      "Diplomatic and security tensions persist between the United States and Iran."
     ],
     "unknowns": [
       "The official status of the Strait of Hormuz.",
-      "The specific nature and extent of the threat against the president.",
-      "The exact configuration of the aircraft used for the president's return."
+      "The full details of the reported catering cart maneuver.",
+      "The specific terms of any interim peace agreements between the U.S. and Iran."
     ],
-    "synthesis": "President Donald Trump recently attended a NATO summit in Turkey, during which reports emerged of a security maneuver involving a catering vehicle to facilitate his departure. Simultaneously, diplomatic tensions continue as the US and Iran exchange demands regarding compensation, sanctions, and the status of the Strait of Hormuz. Sources provide conflicting details regarding the specific logistics of the president's travel and the current state of regional hostilities.",
-    "confidence": "MEDIUM: The sources agree on the occurrence of the trip and the existence of reports regarding travel security, but they focus on entirely different geopolitical and tactical subjects.",
+    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
+    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
     "sources": [
       {
         "id": "art_1786418728985_j519n",
@@ -257,6 +257,91 @@
         "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
         "source": "fox",
         "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      },
+      {
+        "id": "art_1786405143945_gg7iv",
+        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
+        "source": "fox",
+        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "030d921a40311ef0dfba0ed022568d16",
+    "topic_label": "Middle East peace developments",
+    "event_window_start": "2026-08-10T10:19:26.000Z",
+    "event_window_end": "2026-08-11T02:44:39.000Z",
+    "article_ids": [
+      "art_1786418727931_1kzxl",
+      "art_1786411760809_7lala",
+      "art_1786357431030_y2r21"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T08:14:44.136Z",
+    "updated_at": "2026-08-11T08:14:44.136Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Benjamin Netanyahu serves as the prime minister of Israel.",
+      "A 15-point peace plan for Gaza was proposed by the United States.",
+      "Benjamin Netanyahu has publicly rejected the proposed 15-point peace plan."
+    ],
+    "source_claims": [
+      "[aljazeera1] Colombia has recognized Israeli sovereignty over the Golan Heights.",
+      "[aljazeera1] The announcement was made by the Colombian Foreign Ministry.",
+      "[guardian] Benjamin Netanyahu requires a full disarmament of Hamas before implementing the peace plan.",
+      "[guardian] Benjamin Netanyahu stated he is confronting rumors regarding Israeli weakness and withdrawals."
+    ],
+    "framing_differences": [
+      "aljazeera1 frames the Colombian government's decision regarding the Golan Heights as a significant diplomatic shift, whereas the guardian focus is restricted to the specific tensions between Netanyahu and the United States regarding Gaza policy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera1] President Abelardo de la Espriella of Colombia is described as 'far-right'.",
+      "[guardian] The peace plan was proposed by the Trump Board of Peace in July."
+    ],
+    "loaded_language": [
+      "[aljazeera1] uses the term 'far-right' to describe the Colombian government.",
+      "[aljazeera1] uses the term 'occupied' to describe the Syrian Golan Heights."
+    ],
+    "safe_conclusions": [
+      "The Israeli government has officially declined to adopt the U.S.-backed 15-point peace plan for Gaza.",
+      "There is a documented divergence in foreign policy positions between the current Israeli government and the United States administration."
+    ],
+    "unknowns": [
+      "The specific details of the 15-point peace plan beyond the mention of Hamas disarmament and Israeli military withdrawal.",
+      "The official response of the Trump administration to Benjamin Netanyahu’s rejection of the plan.",
+      "The long-term geopolitical implications of Colombia's stance on the Golan Heights."
+    ],
+    "synthesis": "Israeli Prime Minister Benjamin Netanyahu has publicly rejected a 15-point U.S.-backed peace plan for Gaza, citing concerns over security and domestic perceptions of weakness. Concurrently, the Colombian government has announced its recognition of Israeli sovereignty over the Golan Heights. These reports highlight distinct diplomatic actions involving Israel across different geographic regions.",
+    "confidence": "HIGH. The core facts regarding the rejection of the peace plan and the change in Colombian policy are clearly stated across the provided texts.",
+    "sources": [
+      {
+        "id": "art_1786418727931_1kzxl",
+        "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Colombia’s far-right government recognises Israeli claim over Golan Heights"
+      },
+      {
+        "id": "art_1786411760809_7lala",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
+      },
+      {
+        "id": "art_1786357431030_y2r21",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/first-thing-netanyahu-rejects-us-backed-gaza-peace-plan",
+        "source": "guardian",
+        "title": "Netanyahu rejects US-backed 15-point Gaza peace plan | First Thing"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -347,85 +432,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "1b26fe13a9cf13c15de6be82911870d5",
-    "topic_label": "Gaza conflict and peace talks",
-    "event_window_start": "2026-08-10T07:43:01.000Z",
-    "event_window_end": "2026-08-11T00:00:19.000Z",
-    "article_ids": [
-      "art_1786411760809_7lala",
-      "art_1786357431030_y2r21",
-      "art_1786352677428_yk9dw"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T05:58:38.611Z",
-    "updated_at": "2026-08-11T05:58:38.611Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Benjamin Netanyahu has rejected a U.S.-brokered 15-point peace plan for Gaza.",
-      "Israeli military operations in Gaza have resulted in Palestinian casualties."
-    ],
-    "source_claims": [
-      "[aljazeera] Israel’s prime minister Benjamin Netanyahu rejects the U.S.-brokered 15-point peace plan for Gaza.",
-      "[guardian] Benjamin Netanyahu is insisting on a full Hamas disarmament before the peace plan can be implemented.",
-      "[guardian] Benjamin Netanyahu stated he is confronting a wave of rumours regarding Israeli weakness and withdrawals.",
-      "[aljazeera] Israeli forces shot and killed one Palestinian east of Deir el-Balah on Saturday.",
-      "[aljazeera] The Gaza Ministry of Health confirmed receiving the bodies of two Palestinians killed in Israeli attacks."
-    ],
-    "framing_differences": [
-      "Aljazeera frames Netanyahu's rejection of the peace plan as a potential risk to his relationship with Donald Trump, while The Guardian frames it as a rare public break between the two leaders."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Trump’s Board of Peace proposed a 15-point plan in July mandating Hamas disarmament in exchange for full Israeli military withdrawal.",
-      "[aljazeera] Several people were wounded when an Israeli tank opened fire on tents sheltering displaced people."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'war-shattered' to describe the Gaza enclave.",
-      "[guardian] uses the term 'rebuked' to describe Netanyahu's response to U.S. pressure."
-    ],
-    "safe_conclusions": [
-      "Benjamin Netanyahu has formally rejected the 15-point U.S.-brokered peace plan for Gaza.",
-      "Casualties among Palestinians continue to be reported in the Gaza Strip."
-    ],
-    "unknowns": [
-      "The specific full content of the 15-point peace plan beyond the summary provided.",
-      "The precise diplomatic repercussions for Benjamin Netanyahu regarding his rejection of the plan.",
-      "The current status of any active negotiations between the U.S. and Israel regarding the Gaza conflict."
-    ],
-    "synthesis": "Israeli Prime Minister Benjamin Netanyahu has publicly rejected a 15-point U.S.-backed peace plan for Gaza, citing conditions regarding Hamas disarmament and broader regional security concerns. Simultaneously, reports from Gaza indicate ongoing casualties resulting from Israeli military operations, including recent fatalities in Deir el-Balah. The situation reflects a public disagreement between the Israeli government and U.S. leadership regarding the path to conflict resolution.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1786411760809_7lala",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
-      },
-      {
-        "id": "art_1786357431030_y2r21",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/first-thing-netanyahu-rejects-us-backed-gaza-peace-plan",
-        "source": "guardian",
-        "title": "Netanyahu rejects US-backed 15-point Gaza peace plan | First Thing"
-      },
-      {
-        "id": "art_1786352677428_yk9dw",
-        "url": "https://www.aljazeera.com/news/2026/8/10/israeli-forces-kill-one-in-gaza-as-another-body-recovered-from-rubble?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli forces kill one in Gaza as another body recovered from rubble"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "1effa15458d709660d715a2dcde03ce3",
     "topic_label": "Trump vaccine policy",
     "event_window_start": "2026-08-10T22:28:20.000Z",
@@ -504,6 +510,326 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
         "source": "guardian",
         "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ea5617c9a2d8906d4012ac321a0c2bda",
+    "topic_label": "WNBA and DiJonai Carrington",
+    "event_window_start": "2026-08-10T10:23:07.000Z",
+    "event_window_end": "2026-08-10T21:37:53.000Z",
+    "article_ids": [
+      "art_1786424187341_8riu2",
+      "art_1786418730019_bkfcv",
+      "art_1786411759757_f8df1",
+      "art_1786361875521_t0wpx"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T08:14:44.136Z",
+    "updated_at": "2026-08-11T08:14:44.136Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "DiJonai Carrington was ejected from a game against the Indiana Fever following a foul on Sophie Cunningham.",
+      "Following the ejection, Carrington posted 'White privilege' on the platform Threads."
+    ],
+    "source_claims": [
+      "[fox] claims Carrington 'intentionally clotheslined' Cunningham in the face during the game.",
+      "[fox] claims the WNBA has remained silent regarding potential discipline for Carrington's foul.",
+      "[fox] claims that Carrington's post was a reaction to criticism regarding her play."
+    ],
+    "framing_differences": [
+      "[fox] frames the incident as a disciplinary issue and a broader critique of WNBA culture, whereas other potential sources are not provided to offer alternative framing."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims Carrington's social media post was intended to accuse league officials of racism.",
+      "[fox] claims Carrington's actions could have 'seriously injured' Cunningham."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'takedown flagrant foul' to describe the play.",
+      "[fox] uses the term 'dirty' to characterize the foul committed by Carrington.",
+      "[fox] uses the term 'embarrassing' to describe recent WNBA incidents."
+    ],
+    "safe_conclusions": [
+      "DiJonai Carrington received a flagrant foul during a game against the Indiana Fever.",
+      "Carrington was ejected from the game.",
+      "Carrington used a social media account to post the words 'White privilege' referencing the Indiana Fever."
+    ],
+    "unknowns": [
+      "The specific intent behind Carrington's 'White privilege' social media post remains unstated by the player.",
+      "The official disciplinary status of the foul from the WNBA league office is not confirmed."
+    ],
+    "synthesis": "DiJonai Carrington was ejected from a WNBA game against the Indiana Fever following a foul on Sophie Cunningham. Following the incident, Carrington posted 'White privilege' on social media, which drew media attention and commentary. The WNBA's response to the play and the specific intent behind the social media post are subjects of ongoing reporting.",
+    "confidence": "HIGH. The sources consistently report the same factual event regarding the ejection and the social media post.",
+    "sources": [
+      {
+        "id": "art_1786424187341_8riu2",
+        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-responds-white-privilege-post-leaves-meaning-unclear",
+        "source": "fox",
+        "title": "DiJonai Carrington responds to 'White privilege' post, but leaves meaning of it still unclear"
+      },
+      {
+        "id": "art_1786418730019_bkfcv",
+        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-who-declared-white-privilege-after-ejection-suspended-wnba-foul-fever-star",
+        "source": "fox",
+        "title": "DiJonai Carrington, who declared 'White privilege' after ejection, plays vs Storm as WNBA remains silent"
+      },
+      {
+        "id": "art_1786411759757_f8df1",
+        "url": "https://www.foxnews.com/outkick-sports/long-list-embarrassing-wnba-incidents-what-happens-when-sports-leagues-made-politics-their-primary-focus",
+        "source": "fox",
+        "title": "Long list of embarrassing WNBA incidents is what happens when sports leagues made politics their primary focus"
+      },
+      {
+        "id": "art_1786361875521_t0wpx",
+        "url": "https://www.foxnews.com/outkick-sports/sports-media-hits-all-time-low-coverage-dijonai-carrington-sophie-cunningham",
+        "source": "fox",
+        "title": "Sports media hits all-time low in coverage of DiJonai Carrington and Sophie Cunningham"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "da72469bd38e4411bd433efaa6542d34",
+    "topic_label": "ICE Force-Feeding Allegations",
+    "event_window_start": "2026-08-10T10:00:40.000Z",
+    "event_window_end": "2026-08-10T10:00:43.000Z",
+    "article_ids": [
+      "art_1786357439404_98rly",
+      "art_1786357442895_dfwkb"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-10T12:14:37.087Z",
+    "updated_at": "2026-08-10T12:14:37.087Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Gabar Choli is a Kurdish filmmaker and asylum seeker.",
+      "Gabar Choli was held in US immigration detention at the Port Isabel service processing center in Texas.",
+      "Gabar Choli engaged in a hunger strike while in detention.",
+      "Gabar Choli was subjected to force-feeding while in detention.",
+      "Gabar Choli was eventually deported and now resides in Canada."
+    ],
+    "source_claims": [
+      "[guardian] Claims the force-feeding occurred over the course of eight months.",
+      "[guardian] Claims the force-feeding practice is widely considered torture by international human rights groups.",
+      "[guardian] Claims Choli's asylum application was denied.",
+      "[guardian] Claims the force-feeding was conducted often twice a day.",
+      "[guardian] Claims the treatment left Choli with physical and emotional scars."
+    ],
+    "framing_differences": [
+      "Both articles provided are from the same source, The Guardian, and present a consistent narrative focused on the personal experience and psychological impact of the detention on Gabar Choli."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims the detention facility is associated with an 'anti-immigration crackdown' under Donald Trump."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'inhumane' to describe the force-feeding process.",
+      "[guardian] uses the term 'coercive treatment' to describe the force-feeding process."
+    ],
+    "safe_conclusions": [
+      "Gabar Choli was a detainee at the Port Isabel service processing center.",
+      "Gabar Choli underwent force-feeding while detained.",
+      "Gabar Choli is no longer in US custody."
+    ],
+    "unknowns": [
+      "The specific medical protocols followed by the detention facility during the force-feeding process.",
+      "The official legal status of the asylum claim at the time of detention.",
+      "Verification of the 'eight-month' duration from official ICE records."
+    ],
+    "synthesis": "Kurdish filmmaker Gabar Choli reports that he was subjected to force-feeding during his detention at the Port Isabel service processing center in Texas. Choli, who was on a hunger strike while seeking asylum, stated that the practice caused him significant physical and psychological harm. Following his deportation, he currently resides in Canada.",
+    "confidence": "HIGH. Both reports are from the same source and provide a consistent account of the subject's claims regarding his experience in detention.",
+    "sources": [
+      {
+        "id": "art_1786357439404_98rly",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
+        "source": "guardian",
+        "title": "‘Shoved the tube so hard it tore my nose’: Kurdish film-maker recounts ‘inhumane’ ICE force-feeding"
+      },
+      {
+        "id": "art_1786357442895_dfwkb",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/kurdish-hunger-striker-ice-force-feeding",
+        "source": "guardian",
+        "title": "Kurdish hunger striker says ICE force-feeding ‘mentally broke me’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "97a057ed4228d4138232bfbaa72b8af8",
+    "topic_label": "Trump and Iran threat",
+    "event_window_start": "2026-08-11T02:17:00.000Z",
+    "event_window_end": "2026-08-11T02:32:47.000Z",
+    "article_ids": [
+      "art_1786418728985_j519n",
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T07:03:21.245Z",
+    "updated_at": "2026-08-11T07:03:21.245Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump attended a NATO summit in Turkey.",
+      "Reports indicate that President Trump utilized a catering vehicle during a departure from Ankara airport.",
+      "President Trump has stated that he faces an Iranian threat."
+    ],
+    "source_claims": [
+      "[aljazeera] President Trump demanded compensation from Iran for 50 years of damages in response to Iranian demands for war reparations and the end of sanctions.",
+      "[aljazeera] Iran has conditioned the reopening of the Strait of Hormuz on receiving war reparations and the end of US sanctions.",
+      "[guardian] President Trump used a catering cart as part of a ruse to board a secret military flight to evade a specific Iranian assassination threat while in Turkey.",
+      "[fox] President Trump used an older Air Force One jet as a decoy while boarding a smaller military aircraft via a catering truck to depart a NATO summit in Turkey in July.",
+      "[fox] President Trump traveled to Turkey aboard a Boeing 747-8 donated by Qatar."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the current dynamic between the US and Iran around diplomatic demands for compensation and the status of the Strait of Hormuz.",
+      "The Guardian and Fox focus on the tactical details and security maneuvers involving President Trump's departure from Turkey following an alleged threat."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Tehran conditioned the reopening of the Strait of Hormuz on receiving war reparations and the end of sanctions.",
+      "[guardian] The operation involved hiding the president in a catering cart.",
+      "[fox] President Trump is currently \"No. 1 on the kill list for Iran.\""
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the conflict context.",
+      "[guardian] uses the term 'elaborate ruse' to describe the president's transportation method."
+    ],
+    "safe_conclusions": [
+      "President Trump was in Turkey for a NATO meeting.",
+      "There are reports concerning the president's security and travel methods during his time in Turkey."
+    ],
+    "unknowns": [
+      "The official status of the Strait of Hormuz.",
+      "The specific nature and extent of the threat against the president.",
+      "The exact configuration of the aircraft used for the president's return."
+    ],
+    "synthesis": "President Donald Trump recently attended a NATO summit in Turkey, during which reports emerged of a security maneuver involving a catering vehicle to facilitate his departure. Simultaneously, diplomatic tensions continue as the US and Iran exchange demands regarding compensation, sanctions, and the status of the Strait of Hormuz. Sources provide conflicting details regarding the specific logistics of the president's travel and the current state of regional hostilities.",
+    "confidence": "MEDIUM: The sources agree on the occurrence of the trip and the existence of reports regarding travel security, but they focus on entirely different geopolitical and tactical subjects.",
+    "sources": [
+      {
+        "id": "art_1786418728985_j519n",
+        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
+      },
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1b26fe13a9cf13c15de6be82911870d5",
+    "topic_label": "Gaza conflict and peace talks",
+    "event_window_start": "2026-08-10T07:43:01.000Z",
+    "event_window_end": "2026-08-11T00:00:19.000Z",
+    "article_ids": [
+      "art_1786411760809_7lala",
+      "art_1786357431030_y2r21",
+      "art_1786352677428_yk9dw"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Benjamin Netanyahu has rejected a U.S.-brokered 15-point peace plan for Gaza.",
+      "Israeli military operations in Gaza have resulted in Palestinian casualties."
+    ],
+    "source_claims": [
+      "[aljazeera] Israel’s prime minister Benjamin Netanyahu rejects the U.S.-brokered 15-point peace plan for Gaza.",
+      "[guardian] Benjamin Netanyahu is insisting on a full Hamas disarmament before the peace plan can be implemented.",
+      "[guardian] Benjamin Netanyahu stated he is confronting a wave of rumours regarding Israeli weakness and withdrawals.",
+      "[aljazeera] Israeli forces shot and killed one Palestinian east of Deir el-Balah on Saturday.",
+      "[aljazeera] The Gaza Ministry of Health confirmed receiving the bodies of two Palestinians killed in Israeli attacks."
+    ],
+    "framing_differences": [
+      "Aljazeera frames Netanyahu's rejection of the peace plan as a potential risk to his relationship with Donald Trump, while The Guardian frames it as a rare public break between the two leaders."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Trump’s Board of Peace proposed a 15-point plan in July mandating Hamas disarmament in exchange for full Israeli military withdrawal.",
+      "[aljazeera] Several people were wounded when an Israeli tank opened fire on tents sheltering displaced people."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'war-shattered' to describe the Gaza enclave.",
+      "[guardian] uses the term 'rebuked' to describe Netanyahu's response to U.S. pressure."
+    ],
+    "safe_conclusions": [
+      "Benjamin Netanyahu has formally rejected the 15-point U.S.-brokered peace plan for Gaza.",
+      "Casualties among Palestinians continue to be reported in the Gaza Strip."
+    ],
+    "unknowns": [
+      "The specific full content of the 15-point peace plan beyond the summary provided.",
+      "The precise diplomatic repercussions for Benjamin Netanyahu regarding his rejection of the plan.",
+      "The current status of any active negotiations between the U.S. and Israel regarding the Gaza conflict."
+    ],
+    "synthesis": "Israeli Prime Minister Benjamin Netanyahu has publicly rejected a 15-point U.S.-backed peace plan for Gaza, citing conditions regarding Hamas disarmament and broader regional security concerns. Simultaneously, reports from Gaza indicate ongoing casualties resulting from Israeli military operations, including recent fatalities in Deir el-Balah. The situation reflects a public disagreement between the Israeli government and U.S. leadership regarding the path to conflict resolution.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "id": "art_1786411760809_7lala",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
+      },
+      {
+        "id": "art_1786357431030_y2r21",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/first-thing-netanyahu-rejects-us-backed-gaza-peace-plan",
+        "source": "guardian",
+        "title": "Netanyahu rejects US-backed 15-point Gaza peace plan | First Thing"
+      },
+      {
+        "id": "art_1786352677428_yk9dw",
+        "url": "https://www.aljazeera.com/news/2026/8/10/israeli-forces-kill-one-in-gaza-as-another-body-recovered-from-rubble?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli forces kill one in Gaza as another body recovered from rubble"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -728,80 +1054,6 @@
         "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
         "source": "fox",
         "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "da72469bd38e4411bd433efaa6542d34",
-    "topic_label": "ICE Force-Feeding Allegations",
-    "event_window_start": "2026-08-10T10:00:40.000Z",
-    "event_window_end": "2026-08-10T10:00:43.000Z",
-    "article_ids": [
-      "art_1786357439404_98rly",
-      "art_1786357442895_dfwkb"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-10T12:14:37.087Z",
-    "updated_at": "2026-08-10T12:14:37.087Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Gabar Choli is a Kurdish filmmaker and asylum seeker.",
-      "Gabar Choli was held in US immigration detention at the Port Isabel service processing center in Texas.",
-      "Gabar Choli engaged in a hunger strike while in detention.",
-      "Gabar Choli was subjected to force-feeding while in detention.",
-      "Gabar Choli was eventually deported and now resides in Canada."
-    ],
-    "source_claims": [
-      "[guardian] Claims the force-feeding occurred over the course of eight months.",
-      "[guardian] Claims the force-feeding practice is widely considered torture by international human rights groups.",
-      "[guardian] Claims Choli's asylum application was denied.",
-      "[guardian] Claims the force-feeding was conducted often twice a day.",
-      "[guardian] Claims the treatment left Choli with physical and emotional scars."
-    ],
-    "framing_differences": [
-      "Both articles provided are from the same source, The Guardian, and present a consistent narrative focused on the personal experience and psychological impact of the detention on Gabar Choli."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims the detention facility is associated with an 'anti-immigration crackdown' under Donald Trump."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'inhumane' to describe the force-feeding process.",
-      "[guardian] uses the term 'coercive treatment' to describe the force-feeding process."
-    ],
-    "safe_conclusions": [
-      "Gabar Choli was a detainee at the Port Isabel service processing center.",
-      "Gabar Choli underwent force-feeding while detained.",
-      "Gabar Choli is no longer in US custody."
-    ],
-    "unknowns": [
-      "The specific medical protocols followed by the detention facility during the force-feeding process.",
-      "The official legal status of the asylum claim at the time of detention.",
-      "Verification of the 'eight-month' duration from official ICE records."
-    ],
-    "synthesis": "Kurdish filmmaker Gabar Choli reports that he was subjected to force-feeding during his detention at the Port Isabel service processing center in Texas. Choli, who was on a hunger strike while seeking asylum, stated that the practice caused him significant physical and psychological harm. Following his deportation, he currently resides in Canada.",
-    "confidence": "HIGH. Both reports are from the same source and provide a consistent account of the subject's claims regarding his experience in detention.",
-    "sources": [
-      {
-        "id": "art_1786357439404_98rly",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
-        "source": "guardian",
-        "title": "‘Shoved the tube so hard it tore my nose’: Kurdish film-maker recounts ‘inhumane’ ICE force-feeding"
-      },
-      {
-        "id": "art_1786357442895_dfwkb",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/kurdish-hunger-striker-ice-force-feeding",
-        "source": "guardian",
-        "title": "Kurdish hunger striker says ICE force-feeding ‘mentally broke me’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20241,302 +20493,6 @@
         "url": "https://www.foxnews.com/media/former-first-lady-jill-biden-doubts-shell-see-woman-president-lifetime",
         "source": "fox",
         "title": "Former first lady Jill Biden doubts she'll see a woman president in her lifetime"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "33cc9bca94e2f7ec3fd2fa5f59398ba8",
-    "topic_label": "In-N-Out Burger Mass Shooting",
-    "event_window_start": "2026-08-07T21:41:31.000Z",
-    "event_window_end": "2026-08-07T22:04:19.000Z",
-    "article_ids": [
-      "art_1786144290871_dv4vq",
-      "art_1786140702193_9dfor"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T07:49:42.358Z",
-    "updated_at": "2026-08-08T07:49:42.358Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A shooting occurred at an In-N-Out Burger in Twin Falls, Idaho, on August 1.",
-      "Three people were killed during the incident.",
-      "The gunman died from a self-inflicted gunshot wound.",
-      "Twin Falls Police Chief Matthew Hicks released video footage of the event.",
-      "At least three people confronted the gunman during the incident."
-    ],
-    "source_claims": [
-      "[fox] An off-duty Idaho State Police trooper, a former law enforcement officer, and an armed bystander confronted the gunman.",
-      "[guardian] An unarmed employee from a nearby store engaged the gunman outdoors, possibly slowing him down and preventing more deaths.",
-      "[fox] The incident resulted in seven people wounded."
-    ],
-    "framing_differences": [
-      "Fox focuses on the role of armed individuals and an off-duty trooper in the confrontation, while The Guardian highlights the actions of an unarmed employee from a nearby store."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Seven people were wounded during the shooting.",
-      "[guardian] An unarmed employee's engagement of the gunman possibly prevented more deaths."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'chilling' to describe the video.",
-      "[fox] uses the term 'deadly rampage' to describe the event.",
-      "[guardian] uses the terms 'violent, frightening and deeply traumatic' to describe the event."
-    ],
-    "safe_conclusions": [
-      "A shooting took place at an In-N-Out Burger in Twin Falls, Idaho.",
-      "Three people died as a result of the shooting.",
-      "The shooter died by suicide.",
-      "Police released footage of the event."
-    ],
-    "unknowns": [
-      "The total number of people wounded during the incident is not corroborated by both sources.",
-      "The specific identities of the individuals who confronted the gunman are not fully detailed in both reports."
-    ],
-    "synthesis": "Police in Twin Falls, Idaho, have released surveillance and bodycam footage of an August 1 mass shooting at an In-N-Out Burger that resulted in three fatalities. The gunman, identified as a 24-year-old, died from a self-inflicted gunshot wound following the attack. Reports indicate that various individuals, including an off-duty trooper and bystanders, engaged the shooter during the incident.",
-    "confidence": "HIGH. The primary facts regarding the location, date, death toll, and the release of police footage are consistent across both sources.",
-    "sources": [
-      {
-        "id": "art_1786144290871_dv4vq",
-        "url": "https://www.foxnews.com/us/chilling-new-video-shows-armed-citizens-off-duty-trooper-confront-in-n-out-gunman-deadly-rampage",
-        "source": "fox",
-        "title": "Chilling new video shows armed citizens, off-duty trooper confront In-N-Out gunman during deadly rampage"
-      },
-      {
-        "id": "art_1786140702193_9dfor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/07/idaho-police-shooting-in-n-out-burger-video",
-        "source": "guardian",
-        "title": "Idaho police release video of In-N-Out Burger mass shooting that killed three"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c22081ed42fe2b36b16e9b72141e7cda",
-    "topic_label": "Middle East Tensions and Conflicts",
-    "event_window_start": "2026-08-08T00:24:42.000Z",
-    "event_window_end": "2026-08-08T19:18:57.000Z",
-    "article_ids": [
-      "art_1786217596080_xzzr1",
-      "art_1786217599180_a2w5m",
-      "art_1786217603366_no1zk",
-      "art_1786203772599_ylkff",
-      "art_1786203773688_h97ix",
-      "art_1786203780947_a6j5d",
-      "art_1786190404113_w7xcj",
-      "art_1786190416801_ygei7",
-      "art_1786190417923_wbtm9",
-      "art_1786159696055_qxdii",
-      "art_1786153776569_uiq6y",
-      "art_1786153785108_w6utx"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 12,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T21:03:45.900Z",
-    "updated_at": "2026-08-08T21:03:45.900Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Regional conflicts involving various actors are occurring in the Middle East.",
-      "Multiple incidents involving missile or drone attacks have been reported across the region.",
-      "The Strait of Hormuz is a critical waterway for global oil and gas transport."
-    ],
-    "source_claims": [
-      "[bbc] Reports that Oman is holding talks with Iran regarding the Strait of Hormuz.",
-      "[bbc] Claims Tehran has blockaded the Strait of Hormuz since February following attacks by the US and Israel.",
-      "[aljazeera] Claims three Lebanese soldiers were wounded by unexploded ordnance in Zawtar al-Gharbiyah.",
-      "[aljazeera] Reports that the UAE accused the IRGC of striking an ADNOC tanker in the Strait of Hormuz.",
-      "[aljazeera] Reports that the KRG Prime Minister Masrour Barzani stated the Kurdistan region seeks to remain neutral in the regional conflict."
-    ],
-    "framing_differences": [
-      "[bbc] describes the Strait of Hormuz situation as a negotiation process between Oman and Iran, whereas [aljazeera] frames the same waterway as a site of direct conflict involving a missile strike on a UAE-owned tanker.",
-      "[aljazeera] frames the Lebanese military incident as an Israeli intrusion and violation of a framework accord, while the Israeli military states it is not aware of the event."
-    ],
-    "contested_claims": [
-      "Regarding the event in Zawtar al-Gharbiyah, local sources and the NNA claim Israeli troops entered and built an earth barrier, while the Israeli military states it has no awareness of such an event in that area."
-    ],
-    "unverified_claims": [
-      "[bbc] Claims the US and Israel have been attacking the Strait of Hormuz since February.",
-      "[aljazeera] Claims Houthi attacks on Thursday killed at least 30 government soldiers in Yemen.",
-      "[aljazeera] Claims the Kurdistan region has been hit by more than 1,000 missile and drone attacks since February 28."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'Israeli occupation army' to describe the Israeli military.",
-      "[aljazeera] uses the term 'act of piracy' to describe the reported Iranian strike on an ADNOC tanker."
-    ],
-    "safe_conclusions": [
-      "Diplomatic and military tensions are currently affecting multiple areas in the Middle East, including the Strait of Hormuz, Yemen, Lebanon, and Iraq.",
-      "Various government and military entities have reported incidents involving ordnance, drones, and missiles in these regions."
-    ],
-    "unknowns": [
-      "The full extent of damage to the ADNOC tanker is not detailed.",
-      "The specific timeline for any potential resolution regarding the Strait of Hormuz remains unclear.",
-      "The exact status and locations of military forces in the Zawtar al-Gharbiyah region are not independently confirmed."
-    ],
-    "synthesis": "Heightened military and diplomatic activities are reported across several Middle Eastern nations, involving actors including Iran, the UAE, Israel, and various regional factions. Tensions center on the status of the Strait of Hormuz and ongoing conflicts in Lebanon, Yemen, and Iraq. Local and government entities offer differing reports on the nature and responsibility for specific military incidents in these areas.",
-    "confidence": "CONTESTED. The sources provide conflicting accounts of military presence and events in contested zones, and several claims remain isolated to single reports without independent corroboration.",
-    "sources": [
-      {
-        "id": "art_1786217596080_xzzr1",
-        "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
-      },
-      {
-        "id": "art_1786217599180_a2w5m",
-        "url": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese soldiers injured while Israeli troops intrude on southern town"
-      },
-      {
-        "id": "art_1786217603366_no1zk",
-        "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government forces attack Houthis amid renewed shelling of Marib"
-      },
-      {
-        "id": "art_1786203772599_ylkff",
-        "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties"
-      },
-      {
-        "id": "art_1786203773688_h97ix",
-        "url": "https://www.aljazeera.com/news/2026/8/8/iraqs-kurdish-region-wants-to-stay-out-of-regional-conflicts-pm-barzani?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iraq’s Kurdish region wants to stay out of regional conflicts: PM Barzani"
-      },
-      {
-        "id": "art_1786203780947_a6j5d",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Phase II: Day 28"
-      },
-      {
-        "id": "art_1786190404113_w7xcj",
-        "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The post-American Middle East is beginning to take shape"
-      },
-      {
-        "id": "art_1786190416801_ygei7",
-        "url": "https://www.foxnews.com/culture/iron-dome-abraham-accords-congressional-trips-shaped-15-years-us-israel-cooperation",
-        "source": "fox",
-        "title": "From Iron Dome to Abraham Accords: Congressional trips helped shape 15 years of US-Israel cooperation"
-      },
-      {
-        "id": "art_1786190417923_wbtm9",
-        "url": "https://www.aljazeera.com/features/2026/8/8/yemens-collapsing-healthcare-forces-the-sick-to-seek-alternative-medicines?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s collapsing healthcare forces the sick to seek alternative medicines"
-      },
-      {
-        "id": "art_1786159696055_qxdii",
-        "url": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Medics among six Palestinians injured in Israeli attacks across West Bank"
-      },
-      {
-        "id": "art_1786153776569_uiq6y",
-        "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could the Mecca defence pact mean for the US role in the Middle East?"
-      },
-      {
-        "id": "art_1786153785108_w6utx",
-        "url": "https://www.aljazeera.com/news/2026/8/8/sudans-war-threatens-an-entire-generations-future-un-warns?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Sudan’s war threatens an ‘entire generation’s’ future, UN warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b882a78430788142c89f883294a279e3",
-    "topic_label": "Thailand Mass Shooting",
-    "event_window_start": "2026-08-07T21:19:27.000Z",
-    "event_window_end": "2026-08-08T11:31:57.000Z",
-    "article_ids": [
-      "art_1786190405266_jecfv",
-      "art_1786140707474_ercuy"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T19:15:38.116Z",
-    "updated_at": "2026-08-08T19:15:38.116Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A 14-year-old shooter carried out an attack at Debsirin Nonthaburi School and at a home in Nonthaburi province.",
-      "The shooter killed his grandparents at their home.",
-      "The shooter died by suicide.",
-      "The incident occurred on a Friday.",
-      "The death toll includes the shooter and multiple victims."
-    ],
-    "source_claims": [
-      "[aljazeera] A 12-year-old girl died in hospital, raising the death toll to nine including the shooter.",
-      "[bbc] The shooting resulted in 22 injuries.",
-      "[bbc] The shooter killed five teachers at the school.",
-      "[bbc] Thai Prime Minister Anutin Charnvirakul plans to introduce laws restricting the carrying of firearms in public to government officials on duty."
-    ],
-    "framing_differences": [
-      "aljazeera focuses on the retrieval of bodies by families at the Institute of Forensic Medicine, while bbc focuses on the political response and the Prime Minister's pledge to reform gun laws."
-    ],
-    "contested_claims": [
-      "The sources differ on the total death toll and the identities of the victims at the school, with aljazeera reporting five school staff members were killed, while bbc reports five teachers were killed."
-    ],
-    "unverified_claims": [
-      "[bbc] A student died from injuries sustained during the attack.",
-      "[aljazeera] The shooter is 12 years old in the opening paragraph, while the body of the text refers to a 14-year-old schoolboy."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'shooting rampage' to describe the event."
-    ],
-    "safe_conclusions": [
-      "A shooting occurred at a school and a home in Nonthaburi, Thailand, involving a teenage shooter who killed his grandparents and others before dying by suicide."
-    ],
-    "unknowns": [
-      "The exact number of casualties and their official professional roles at the school.",
-      "The precise age of the shooter, given conflicting reports within the sources."
-    ],
-    "synthesis": "A 14-year-old student committed a shooting at a home and a school in Nonthaburi, Thailand, resulting in the deaths of his grandparents, school staff, and the shooter himself. The Thai Prime Minister has responded by pledging to implement stricter gun control legislation regarding the carrying of firearms in public. Reports regarding the total number of casualties and the specific roles of the victims at the school remain subject to ongoing updates.",
-    "confidence": "MEDIUM. While the core event is corroborated, there are internal inconsistencies regarding the shooter's age and conflicting reports regarding the victim count and identities.",
-    "sources": [
-      {
-        "id": "art_1786190405266_jecfv",
-        "url": "https://www.aljazeera.com/news/2026/8/8/families-retrieve-bodies-after-deadly-shooting-rampage-outside-bangkok?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Families retrieve bodies after deadly shooting rampage outside Bangkok"
-      },
-      {
-        "id": "art_1786140707474_ercuy",
-        "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Thai PM vows to introduce stricter gun laws after eight killed in shooting"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
