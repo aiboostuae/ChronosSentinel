@@ -179,95 +179,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
-    "topic_label": "Trump and Iran tensions",
-    "event_window_start": "2026-08-10T23:08:50.000Z",
-    "event_window_end": "2026-08-11T02:32:47.000Z",
-    "article_ids": [
-      "art_1786418728985_j519n",
-      "art_1786418731291_19uer",
-      "art_1786418732332_04ukk",
-      "art_1786405143945_gg7iv"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T08:14:44.136Z",
-    "updated_at": "2026-08-11T08:14:44.136Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump attended a NATO summit in Turkey.",
-      "There are ongoing tensions between the United States and Iran involving military activity and threats."
-    ],
-    "source_claims": [
-      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
-      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
-      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
-      "[fox] President Trump stated he is on a 'kill list' for Iran.",
-      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
-    ],
-    "framing_differences": [
-      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
-      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The president hid in a catering cart to board a secret flight.",
-      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
-    ],
-    "safe_conclusions": [
-      "President Trump was in Turkey for a NATO meeting.",
-      "Iran has undergone changes in its senior military leadership.",
-      "Diplomatic and security tensions persist between the United States and Iran."
-    ],
-    "unknowns": [
-      "The official status of the Strait of Hormuz.",
-      "The full details of the reported catering cart maneuver.",
-      "The specific terms of any interim peace agreements between the U.S. and Iran."
-    ],
-    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
-    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
-    "sources": [
-      {
-        "id": "art_1786418728985_j519n",
-        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
-      },
-      {
-        "id": "art_1786418731291_19uer",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
-        "source": "guardian",
-        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
-      },
-      {
-        "id": "art_1786418732332_04ukk",
-        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
-        "source": "fox",
-        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
-      },
-      {
-        "id": "art_1786405143945_gg7iv",
-        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
-        "source": "fox",
-        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "1effa15458d709660d715a2dcde03ce3",
     "topic_label": "Trump vaccine policy",
     "event_window_start": "2026-08-10T22:28:20.000Z",
@@ -346,6 +257,78 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
         "source": "guardian",
         "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "78a63cbe59ef15009a5412c0dfa8b739",
+    "topic_label": "Trump Iran threat evasion reports",
+    "event_window_start": "2026-08-11T02:17:00.000Z",
+    "event_window_end": "2026-08-11T02:29:56.000Z",
+    "article_ids": [
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump attended a NATO summit in Turkey.",
+      "Reports indicate Donald Trump used an airport catering truck/cart as part of a transport maneuver.",
+      "The maneuver involved using an older Air Force One jet as a decoy.",
+      "The security measures were reportedly prompted by a threat from Iran.",
+      "Donald Trump boarded a smaller, separate U.S. military aircraft to depart Turkey."
+    ],
+    "source_claims": [
+      "[guardian] reports the ruse was an 'extraordinary ruse' to return from a Nato meet.",
+      "[fox] reports Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
+      "[fox] reports Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
+    ],
+    "framing_differences": [
+      "The Guardian frames the event as an 'elaborate ruse' involving a catering cart, while Fox focuses on the president's own comments regarding his status on an Iranian 'kill list' and the specific aircraft used to arrive in Turkey."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims the president was hidden inside the catering cart.",
+      "[fox] claims the aircraft used to arrive in Turkey was a Boeing 747-8 donated by Qatar."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'elaborate ruse' to describe the transit method.",
+      "[guardian] uses the term 'extraordinary ruse' to describe the operation."
+    ],
+    "safe_conclusions": [
+      "Donald Trump participated in a departure maneuver involving multiple aircraft and a catering vehicle while in Turkey for a NATO summit.",
+      "Security concerns related to Iran were cited as the reason for the transport strategy."
+    ],
+    "unknowns": [
+      "The specific technical details of how the catering vehicle was utilized.",
+      "Confirmation of the exact aircraft models used beyond the mentions of 'Air Force One' and 'smaller U.S. military aircraft'."
+    ],
+    "synthesis": "Reports indicate that Donald Trump utilized a security maneuver involving a catering vehicle and a decoy aircraft to depart a NATO summit in Turkey. The operation was reportedly conducted in response to a security threat posed by Iran. Sources agree that the president ultimately departed on a smaller military aircraft after the decoy jet was observed by cameras.",
+    "confidence": "HIGH. Both sources cite reporting from the Washington Post and provide consistent accounts of the core security maneuver.",
+    "sources": [
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -494,6 +477,163 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/10/jackie-bald-eagle-california-dead",
         "source": "guardian",
         "title": "Jackie, a beloved bald eagle and livestream star, dies of mysterious illness"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0b8c5d58103adccaf5f80937ff53896a",
+    "topic_label": "DiJonai Carrington WNBA Controversy",
+    "event_window_start": "2026-08-11T02:32:10.000Z",
+    "event_window_end": "2026-08-10T21:37:53.000Z",
+    "article_ids": [
+      "art_1786424187341_8riu2",
+      "art_1786418730019_bkfcv"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T16:04:21.774Z",
+    "updated_at": "2026-08-11T16:04:21.774Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "DiJonai Carrington posted the words 'WHITE PRIVILEGE @indianafever' on the social media platform Threads.",
+      "DiJonai Carrington was ejected from a WNBA game against the Indiana Fever following a foul on Sophie Cunningham.",
+      "The foul against Sophie Cunningham was classified as a Flagrant 2 foul.",
+      "DiJonai Carrington played in a subsequent game for the Chicago Sky against the Seattle Storm."
+    ],
+    "source_claims": [
+      "[fox] claims Carrington 'intentionally' clotheslined Sophie Cunningham in the face.",
+      "[fox] claims the WNBA has remained silent regarding the incident and did not announce discipline for Carrington prior to the game against the Seattle Storm."
+    ],
+    "framing_differences": [
+      "Fox frames the event by repeatedly emphasizing the 'intentional' nature of the foul and the lack of league disciplinary action, while the articles mention Carrington's Threads post as a primary focus of the reporting."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims that Carrington's post was made from the locker room."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'clotheslining' to describe the physical foul committed by Carrington.",
+      "[fox] uses the term 'takedown' to characterize the foul."
+    ],
+    "safe_conclusions": [
+      "DiJonai Carrington was involved in a play resulting in a Flagrant 2 foul against Sophie Cunningham during a game against the Indiana Fever.",
+      "Carrington made a post on Threads referencing 'WHITE PRIVILEGE' and the Indiana Fever."
+    ],
+    "unknowns": [
+      "The reasoning behind Carrington's specific use of the phrase 'WHITE PRIVILEGE' in her post remains unconfirmed by the player.",
+      "The internal reasoning or future plans of the WNBA regarding potential disciplinary actions are not explicitly stated."
+    ],
+    "synthesis": "DiJonai Carrington was ejected from a game against the Indiana Fever after being assessed a Flagrant 2 foul for contact with Sophie Cunningham. Following the incident, Carrington posted 'WHITE PRIVILEGE @indianafever' on the platform Threads, drawing public reaction. Carrington subsequently played in a game against the Seattle Storm as no league-wide discipline had been announced.",
+    "confidence": "HIGH. The sources consistently report the same factual events regarding the foul, the social media post, and the player's subsequent game status.",
+    "sources": [
+      {
+        "id": "art_1786424187341_8riu2",
+        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-responds-white-privilege-post-leaves-meaning-unclear",
+        "source": "fox",
+        "title": "DiJonai Carrington responds to 'White privilege' post, but leaves meaning of it still unclear"
+      },
+      {
+        "id": "art_1786418730019_bkfcv",
+        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-who-declared-white-privilege-after-ejection-suspended-wnba-foul-fever-star",
+        "source": "fox",
+        "title": "DiJonai Carrington, who declared 'White privilege' after ejection, plays vs Storm as WNBA remains silent"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
+    "topic_label": "Trump and Iran tensions",
+    "event_window_start": "2026-08-10T23:08:50.000Z",
+    "event_window_end": "2026-08-11T02:32:47.000Z",
+    "article_ids": [
+      "art_1786418728985_j519n",
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk",
+      "art_1786405143945_gg7iv"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T08:14:44.136Z",
+    "updated_at": "2026-08-11T08:14:44.136Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump attended a NATO summit in Turkey.",
+      "There are ongoing tensions between the United States and Iran involving military activity and threats."
+    ],
+    "source_claims": [
+      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
+      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
+      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
+      "[fox] President Trump stated he is on a 'kill list' for Iran.",
+      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
+    ],
+    "framing_differences": [
+      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
+      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The president hid in a catering cart to board a secret flight.",
+      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
+    ],
+    "safe_conclusions": [
+      "President Trump was in Turkey for a NATO meeting.",
+      "Iran has undergone changes in its senior military leadership.",
+      "Diplomatic and security tensions persist between the United States and Iran."
+    ],
+    "unknowns": [
+      "The official status of the Strait of Hormuz.",
+      "The full details of the reported catering cart maneuver.",
+      "The specific terms of any interim peace agreements between the U.S. and Iran."
+    ],
+    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
+    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
+    "sources": [
+      {
+        "id": "art_1786418728985_j519n",
+        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
+      },
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      },
+      {
+        "id": "art_1786405143945_gg7iv",
+        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
+        "source": "fox",
+        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -685,78 +825,6 @@
         "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
         "source": "fox",
         "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "78a63cbe59ef15009a5412c0dfa8b739",
-    "topic_label": "Trump Iran threat evasion reports",
-    "event_window_start": "2026-08-11T02:17:00.000Z",
-    "event_window_end": "2026-08-11T02:29:56.000Z",
-    "article_ids": [
-      "art_1786418731291_19uer",
-      "art_1786418732332_04ukk"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T05:58:38.611Z",
-    "updated_at": "2026-08-11T05:58:38.611Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump attended a NATO summit in Turkey.",
-      "Reports indicate Donald Trump used an airport catering truck/cart as part of a transport maneuver.",
-      "The maneuver involved using an older Air Force One jet as a decoy.",
-      "The security measures were reportedly prompted by a threat from Iran.",
-      "Donald Trump boarded a smaller, separate U.S. military aircraft to depart Turkey."
-    ],
-    "source_claims": [
-      "[guardian] reports the ruse was an 'extraordinary ruse' to return from a Nato meet.",
-      "[fox] reports Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
-      "[fox] reports Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
-    ],
-    "framing_differences": [
-      "The Guardian frames the event as an 'elaborate ruse' involving a catering cart, while Fox focuses on the president's own comments regarding his status on an Iranian 'kill list' and the specific aircraft used to arrive in Turkey."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims the president was hidden inside the catering cart.",
-      "[fox] claims the aircraft used to arrive in Turkey was a Boeing 747-8 donated by Qatar."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'elaborate ruse' to describe the transit method.",
-      "[guardian] uses the term 'extraordinary ruse' to describe the operation."
-    ],
-    "safe_conclusions": [
-      "Donald Trump participated in a departure maneuver involving multiple aircraft and a catering vehicle while in Turkey for a NATO summit.",
-      "Security concerns related to Iran were cited as the reason for the transport strategy."
-    ],
-    "unknowns": [
-      "The specific technical details of how the catering vehicle was utilized.",
-      "Confirmation of the exact aircraft models used beyond the mentions of 'Air Force One' and 'smaller U.S. military aircraft'."
-    ],
-    "synthesis": "Reports indicate that Donald Trump utilized a security maneuver involving a catering vehicle and a decoy aircraft to depart a NATO summit in Turkey. The operation was reportedly conducted in response to a security threat posed by Iran. Sources agree that the president ultimately departed on a smaller military aircraft after the decoy jet was observed by cameras.",
-    "confidence": "HIGH. Both sources cite reporting from the Washington Post and provide consistent accounts of the core security maneuver.",
-    "sources": [
-      {
-        "id": "art_1786418731291_19uer",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
-        "source": "guardian",
-        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
-      },
-      {
-        "id": "art_1786418732332_04ukk",
-        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
-        "source": "fox",
-        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20152,155 +20220,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/trump-shifts-blame-to-republicans-for-waning-support-from-public?traffic_source=rss",
         "source": "aljazeera",
         "title": "Trump shifts blame to Republicans for waning support from public"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8bfa9ed2c39e4b2c865230a41cf681da",
-    "topic_label": "Middle East Geopolitics and Conflict",
-    "event_window_start": "2026-08-08T01:29:14.000Z",
-    "event_window_end": "2026-08-08T19:18:57.000Z",
-    "article_ids": [
-      "art_1786217596080_xzzr1",
-      "art_1786217599180_a2w5m",
-      "art_1786217603366_no1zk",
-      "art_1786203772599_ylkff",
-      "art_1786203773688_h97ix",
-      "art_1786203780947_a6j5d",
-      "art_1786190404113_w7xcj",
-      "art_1786190416801_ygei7",
-      "art_1786190417923_wbtm9",
-      "art_1786159693995_jf4sy",
-      "art_1786159696055_qxdii",
-      "art_1786153776569_uiq6y"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 12,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T21:33:35.894Z",
-    "updated_at": "2026-08-08T21:33:35.894Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Regional conflicts involving various actors are currently occurring in the Middle East, affecting infrastructure, shipping, and military activities.",
-      "Multiple sources report ongoing or recent military-related incidents involving Iran, Israel, Yemen, and Lebanon."
-    ],
-    "source_claims": [
-      "[bbc] Iran stated that discussions regarding the Strait of Hormuz are in their final stages but reopening remains subject to conditions.",
-      "[aljazeera_lebanon] The Lebanese army reported that three soldiers were wounded while defusing unexploded ordnance in Zawtar al-Gharbiyah.",
-      "[aljazeera_lebanon] Lebanon’s state-run NNA and the village mayor stated that Israeli troops entered Zawtar al-Gharbiyah and built an earth barrier.",
-      "[aljazeera_yemen] Yemeni government forces launched attacks on Houthi positions on Saturday following Houthi missile and drone attacks in Hadramout and Marib.",
-      "[aljazeera_uae] The UAE accused Iran of striking an ADNOC tanker in the Strait of Hormuz with a missile.",
-      "[aljazeera_kurdistan] KRG Prime Minister Masrour Barzani stated that the Kurdish region does not wish to be involved in the regional conflict."
-    ],
-    "framing_differences": [
-      "Regarding the military activity in Zawtar al-Gharbiyah, aljazeera_lebanon frames the event as an Israeli intrusion and violation of a framework accord, while the Israeli military reported to the same source that they were not aware of such an event.",
-      "bbc frames the situation in the Strait of Hormuz as an effective blockade by Tehran due to US and Israeli attacks, whereas aljazeera_uae frames the specific incident of an ADNOC tanker strike as an act of piracy by the IRGC."
-    ],
-    "contested_claims": [
-      "The presence of Israeli troops in Zawtar al-Gharbiyah is reported by the Lebanese mayor and NNA, but the Israeli military informed aljazeera that it is not aware of such an event in that area."
-    ],
-    "unverified_claims": [
-      "[aljazeera_lebanon] A Lebanese military source claims the movement of Israeli troops into Zawtar al-Gharbiyah is a violation of a framework accord.",
-      "[aljazeera_yemen] A military spokesman claimed the government attacks on Houthis were necessary to protect unarmed civilians.",
-      "[aljazeera_uae] The UAE Ministry of Foreign Affairs described the tanker strike as an act of piracy by the IRGC.",
-      "[aljazeera_kurdistan] PM Masrour Barzani claims the region has suffered from over 1,000 missile and drone attacks since February 28."
-    ],
-    "loaded_language": [
-      "[aljazeera_lebanon] uses the term 'Israeli occupation army' to describe Israeli military forces.",
-      "[aljazeera_uae] uses the term 'act of piracy' to describe the reported missile strike by the IRGC."
-    ],
-    "safe_conclusions": [
-      "Military actions and skirmishes are occurring across multiple regions in the Middle East, impacting various nations and shipping routes.",
-      "Diplomatic and military officials in several countries have issued statements regarding recent events in Lebanon, Yemen, the Strait of Hormuz, and Iraq."
-    ],
-    "unknowns": [
-      "The full extent of damage to the ADNOC tanker mentioned by the UAE.",
-      "The specific terms and conditions Iran requires for the reopening of the Strait of Hormuz.",
-      "The exact cause and origin of all missile and drone attacks mentioned by the KRG Prime Minister."
-    ],
-    "synthesis": "Multiple sources report active military and diplomatic incidents across the Middle East involving Iran, Israel, Yemen, Lebanon, and the UAE. These incidents include claims of tanker strikes, border intrusions, and renewed fighting between government and Houthi forces. Authorities in these various regions are responding to these events through military operations, diplomatic statements, and public accusations.",
-    "confidence": "CONTESTED. While the sources report on distinct geographic events, the descriptions of these events—specifically regarding military movements and culpability for attacks—are subject to significant disagreement between the participating parties.",
-    "sources": [
-      {
-        "id": "art_1786217596080_xzzr1",
-        "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
-      },
-      {
-        "id": "art_1786217599180_a2w5m",
-        "url": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese soldiers injured while Israeli troops intrude on southern town"
-      },
-      {
-        "id": "art_1786217603366_no1zk",
-        "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government forces attack Houthis amid renewed shelling of Marib"
-      },
-      {
-        "id": "art_1786203772599_ylkff",
-        "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties"
-      },
-      {
-        "id": "art_1786203773688_h97ix",
-        "url": "https://www.aljazeera.com/news/2026/8/8/iraqs-kurdish-region-wants-to-stay-out-of-regional-conflicts-pm-barzani?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iraq’s Kurdish region wants to stay out of regional conflicts: PM Barzani"
-      },
-      {
-        "id": "art_1786203780947_a6j5d",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Phase II: Day 28"
-      },
-      {
-        "id": "art_1786190404113_w7xcj",
-        "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The post-American Middle East is beginning to take shape"
-      },
-      {
-        "id": "art_1786190416801_ygei7",
-        "url": "https://www.foxnews.com/culture/iron-dome-abraham-accords-congressional-trips-shaped-15-years-us-israel-cooperation",
-        "source": "fox",
-        "title": "From Iron Dome to Abraham Accords: Congressional trips helped shape 15 years of US-Israel cooperation"
-      },
-      {
-        "id": "art_1786190417923_wbtm9",
-        "url": "https://www.aljazeera.com/features/2026/8/8/yemens-collapsing-healthcare-forces-the-sick-to-seek-alternative-medicines?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s collapsing healthcare forces the sick to seek alternative medicines"
-      },
-      {
-        "id": "art_1786159693995_jf4sy",
-        "url": "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Pakistan-Saudi-Turkiye alliance actually create a new regional order?"
-      },
-      {
-        "id": "art_1786159696055_qxdii",
-        "url": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Medics among six Palestinians injured in Israeli attacks across West Bank"
-      },
-      {
-        "id": "art_1786153776569_uiq6y",
-        "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could the Mecca defence pact mean for the US role in the Middle East?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
