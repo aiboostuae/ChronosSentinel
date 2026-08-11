@@ -1,10 +1,91 @@
 [
   {
-    "cluster_id": "abf5b8fb1c24665f6ceb3a8e41483be7",
-    "topic_label": "Middle East Conflict and Tensions",
-    "event_window_start": "2026-08-10T00:19:43.000Z",
-    "event_window_end": "2026-08-10T10:19:26.000Z",
+    "cluster_id": "e4ad541513bebd027cb7002cf939506e",
+    "topic_label": "Colombia earthquake disaster",
+    "event_window_start": "2026-08-10T22:35:48.000Z",
+    "event_window_end": "2026-08-10T23:29:25.000Z",
     "article_ids": [
+      "art_1786405141267_jtw3w",
+      "art_1786405149826_agx36",
+      "art_1786405151941_4f1x0"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T00:06:37.960Z",
+    "updated_at": "2026-08-11T00:06:37.960Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A 7.4 magnitude earthquake occurred in western Colombia on Monday morning.",
+      "The earthquake caused the collapse of buildings.",
+      "Rescue operations are underway."
+    ],
+    "source_claims": [
+      "[guardian] The death toll from the earthquake is at least 111 with 87 people injured.",
+      "[guardian] President Abelardo de la Espriella declared a state of national disaster.",
+      "[guardian] Around 1,600 buildings were damaged, including at least 61 that completely collapsed.",
+      "[aljazeera] The earthquake caused damage in the cities of Cali, Pereira, and Manizales.",
+      "[aljazeera] Video footage from Pereira airport shows the building sustaining damage during the earthquake."
+    ],
+    "framing_differences": [
+      "The guardian focuses on the national government response, casualty statistics, and total building damage estimates, while aljazeera focuses on ground-level reporting from specific cities and visual footage of the event."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The earthquake is the largest to hit Colombia so far this century."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'moment of terror' to describe the event.",
+      "[aljazeera] uses the phrase 'utter panic' to describe the reaction at the airport."
+    ],
+    "safe_conclusions": [
+      "A 7.4 magnitude earthquake struck western Colombia.",
+      "The event resulted in structural damage to buildings.",
+      "Emergency response efforts are being conducted."
+    ],
+    "unknowns": [
+      "The total number of missing persons.",
+      "The total number of casualties across all affected cities beyond the guardian's report.",
+      "The exact extent of total economic or infrastructural impact."
+    ],
+    "synthesis": "A magnitude 7.4 earthquake struck western Colombia on Monday, causing widespread structural collapse and prompting a national disaster declaration. Rescue teams are currently searching through debris in cities including Cali, Pereira, and Manizales. Reports indicate significant building damage and casualties as emergency aid is deployed to the affected regions.",
+    "confidence": "HIGH. While casualty figures are only provided by one source, the core event—the 7.4 magnitude earthquake and resulting structural damage—is corroborated across sources.",
+    "sources": [
+      {
+        "id": "art_1786405141267_jtw3w",
+        "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
+        "source": "guardian",
+        "title": "Colombia earthquake live updates: more than 100 dead and buildings collapsed after 7.4-magnitude quake"
+      },
+      {
+        "id": "art_1786405149826_agx36",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/moment-of-terror-as-powerful-earthquake-shakes-airport-in-colombia?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Moment of terror as powerful earthquake shakes airport in Colombia"
+      },
+      {
+        "id": "art_1786405151941_4f1x0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/08-11-2026-colombia-alessandro-rampietti-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Al Jazeera reporter on the ground as Colombia quake death toll rises"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "97338bc59cd6afe72c1e63986ac7a642",
+    "topic_label": "Middle East conflicts and tensions",
+    "event_window_start": "2026-08-10T00:19:43.000Z",
+    "event_window_end": "2026-08-10T23:08:50.000Z",
+    "article_ids": [
+      "art_1786405143945_gg7iv",
       "art_1786357431030_y2r21",
       "art_1786352677428_yk9dw",
       "art_1786341722712_fwfhy",
@@ -16,60 +97,65 @@
       "art_1786328368700_94p9m"
     ],
     "source_ids": [
+      "fox",
       "guardian",
       "aljazeera"
     ],
-    "article_count": 9,
-    "source_count": 2,
+    "article_count": 10,
+    "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-10T23:15:55.265Z",
-    "updated_at": "2026-08-10T23:15:55.265Z",
+    "created_at": "2026-08-11T00:06:37.960Z",
+    "updated_at": "2026-08-11T00:06:37.960Z",
     "region_tag": "global",
     "shared_facts": [
+      "Iran is currently involved in a conflict involving military and economic tensions with the United States.",
       "Benjamin Netanyahu serves as the Prime Minister of Israel.",
-      "Donald Trump is the President of the United States.",
-      "There is ongoing conflict involving Israel, Gaza, and Iran.",
-      "Oil prices have been subject to fluctuation amid regional tensions."
+      "Donald Trump has proposed a peace plan regarding the conflict in Gaza."
     ],
     "source_claims": [
-      "[guardian] Netanyahu has rejected a US-backed 15-point peace plan for Gaza.",
-      "[guardian] Netanyahu insists on full Hamas disarmament before the deal can be implemented.",
-      "[aljazeera] Israeli forces killed one Palestinian east of Deir el-Balah on Saturday.",
-      "[aljazeera] The Gaza Ministry of Health confirmed the recovery of two bodies from rubble.",
-      "[aljazeera] Trump stated the US is relying on economic pressure rather than military strikes against Iran.",
-      "[aljazeera] Trump credited a US naval blockade in place since April for pressuring Iran's economy.",
-      "[aljazeera] Brent crude oil prices rose to $83.77 a barrel as of Monday."
+      "[fox] reports that Iranian Supreme Leader Mojtaba Khamenei appointed six senior military commanders to restructure the command following U.S. and Israeli strikes.",
+      "[fox] claims Ahmad Vahidi is involved in Iran's negotiation strategy and links him to the 1983 Beirut and 1994 Argentina bombings.",
+      "[guardian] reports Benjamin Netanyahu rejected a 15-point U.S.-backed peace plan for Gaza that required Hamas to disarm.",
+      "[aljazeera] reports Israeli forces killed one Palestinian in central Gaza and wounded others in southern Gaza.",
+      "[aljazeera] reports Donald Trump stated the U.S. is prioritizing economic pressure over military strikes on Iran.",
+      "[guardian] claims Itamar Ben-Gvir and a group of Jewish extremists entered the al-Aqsa mosque compound."
     ],
     "framing_differences": [
-      "The guardian frames Netanyahu's actions as a rejection of US policy and a point of tension with Trump, whereas aljazeera focuses on Trump's economic strategy regarding Iran.",
-      "The guardian frames recent visits to the al-Aqsa mosque as a challenge to the status quo by specific Israeli ministers, while aljazeera focuses on regional military activity in Gaza and market reactions to the Strait of Hormuz."
+      "[fox] frames the Iranian military appointments as a defensive wartime reorganization, while [aljazeera] frames U.S. policy toward Iran as a transition toward economic rather than military confrontation.",
+      "[guardian] frames the current Israeli government's actions as a challenge to the status quo at al-Aqsa and a rejection of U.S.-backed peace efforts, while [fox] focuses on Iran's internal leadership changes."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[guardian] Itamar Ben-Gvir and a group of 2,000 others 'stormed' the al-Aqsa mosque compound.",
-      "[guardian] Jordanian officials have warned that the al-Aqsa site is at risk of an 'imminent' Israeli takeover."
+      "[fox] alleges Ahmad Vahidi is a 'radical hardliner' central to Iran's negotiation strategy.",
+      "[guardian] characterizes Itamar Ben-Gvir as a 'far-right extremist minister.'",
+      "[aljazeera] reports the U.S. naval blockade has been in place since April."
     ],
     "loaded_language": [
-      "[guardian] uses the term 'far-right extremist' to describe Itamar Ben-Gvir.",
-      "[guardian] uses the term 'Jewish extremists' to describe a group visiting the al-Aqsa compound.",
+      "[fox] uses the term 'radical hardliner' to describe Ahmad Vahidi.",
+      "[guardian] uses the terms 'far-right extremist' and 'Jewish extremists' to describe Itamar Ben-Gvir and those visiting al-Aqsa.",
       "[aljazeera] uses the term 'war-shattered enclave' to describe Gaza."
     ],
     "safe_conclusions": [
-      "Benjamin Netanyahu leads the Israeli government.",
-      "Donald Trump leads the United States government.",
-      "There is military and economic tension currently impacting the Middle East."
+      "Regional conflicts involving Israel, Gaza, and Iran remain active.",
+      "Diplomatic and military strategies regarding Iran and Gaza are currently in flux."
     ],
     "unknowns": [
-      "The full, verified text of the 15-point peace plan mentioned by the guardian.",
-      "The specific nature of the 'major concessions' demanded by Iran regarding the Strait of Hormuz.",
-      "The exact timeline for the proposed national elections mentioned by the guardian."
+      "The specific operational details of the Iranian military reshuffle.",
+      "The full extent of the impact of the U.S. naval blockade on the Iranian economy.",
+      "The long-term outcome of the 15-point peace plan proposed by Donald Trump."
     ],
-    "synthesis": "Israeli Prime Minister Benjamin Netanyahu has publicly signaled opposition to a US-backed peace plan for Gaza, citing a requirement for Hamas disarmament. Simultaneously, President Donald Trump has indicated a pivot toward economic pressure against Iran in lieu of military strikes. Regional tensions persist, characterized by ongoing military incidents in Gaza and market concerns regarding oil transit through the Strait of Hormuz.",
-    "confidence": "MEDIUM;HIGH; The sources provide distinct reports on separate geopolitical events that are not mutually exclusive or factually contradictory.",
+    "synthesis": "Ongoing regional conflicts involving Israel, Gaza, and Iran continue to develop through military activity, diplomatic shifts, and changes in leadership. Tensions remain high as Israel continues operations in Gaza and adjusts its approach to U.S.-backed peace proposals. Simultaneously, the United States is signaling a shift toward economic pressure regarding Iran while Iran undertakes a reorganization of its military command.",
+    "confidence": "MEDIUM. The articles discuss different aspects of regional conflicts and report on separate events, preventing a comprehensive cross-verification of all details.",
     "sources": [
+      {
+        "id": "art_1786405143945_gg7iv",
+        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
+        "source": "fox",
+        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
+      },
       {
         "id": "art_1786357431030_y2r21",
         "url": "https://www.theguardian.com/us-news/2026/aug/10/first-thing-netanyahu-rejects-us-backed-gaza-peace-plan",
@@ -306,6 +392,86 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "9f752dce41682998cb6eb19e241f8f09",
+    "topic_label": "Conflict in Kashmir",
+    "event_window_start": "2026-08-10T05:00:36.000Z",
+    "event_window_end": "2026-08-10T08:05:05.000Z",
+    "article_ids": [
+      "art_1786352672950_28yyd",
+      "art_1786347092726_95ve7",
+      "art_1786341725130_u4qtq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-10T22:38:37.317Z",
+    "updated_at": "2026-08-10T22:38:37.317Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Pakistan-administered Kashmir is experiencing political unrest.",
+      "The region is currently holding or has recently held Legislative Assembly elections.",
+      "The unrest has posed a significant challenge to Pakistani authorities."
+    ],
+    "source_claims": [
+      "[aljazeera] Voting in the third and final phase of Legislative Assembly elections is taking place, with 4 of 11 originally scheduled constituencies going to the polls.",
+      "[aljazeera] More than 800 polling booths are open in the Bagh and Haveli districts, with approximately 460,000 registered voters.",
+      "[guardian] A 50-year-old British national, Mohammad Akhtar, was killed on June 9 during clashes between security forces and protesters.",
+      "[guardian] Another British national has been held in a regional prison for over two months."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the situation primarily around the logistics and political candidates involved in the Legislative Assembly elections, while The Guardian frames the situation around the casualties and legal status of British nationals involved in regional clashes."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Voting is underway in the third phase of regional elections.",
+      "[guardian] Mohammad Akhtar was shot dead specifically by Pakistani security forces.",
+      "[guardian] The regional clashes have resulted in dozens of deaths."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'unrest' to describe the political situation in the region.",
+      "[guardian] describes the events as 'clashes' between authorities and protesters."
+    ],
+    "safe_conclusions": [
+      "There is ongoing political and social instability in Pakistan-administered Kashmir.",
+      "Elections are taking place in the region amid these conditions."
+    ],
+    "unknowns": [
+      "The exact cause of the death of the British national mentioned by The Guardian.",
+      "The total number of casualties associated with the ongoing unrest.",
+      "The specific reasons for the detention of the second British national mentioned by The Guardian."
+    ],
+    "synthesis": "Pakistan-administered Kashmir is currently experiencing significant political unrest while simultaneously conducting Legislative Assembly elections. Reports indicate that at least one British national has been killed during regional clashes, and another remains in custody. The situation remains a substantial point of focus for both regional political processes and international diplomatic concern.",
+    "confidence": "MEDIUM. While the sources agree that regional unrest is occurring and affecting elections and British citizens, specific details regarding the causes of death and the scale of the conflict originate from separate, non-corroborated reports.",
+    "sources": [
+      {
+        "id": "art_1786352672950_28yyd",
+        "url": "https://www.aljazeera.com/news/2026/8/10/pakistan-administered-kashmir-votes-in-reduced-third-phase-amid-unrest?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pakistan-administered Kashmir votes in reduced third phase amid unrest"
+      },
+      {
+        "id": "art_1786347092726_95ve7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/whats-driving-unrest-in-pakistan-administered-kashmir?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What’s driving unrest in Pakistan-administered Kashmir?"
+      },
+      {
+        "id": "art_1786341725130_u4qtq",
+        "url": "https://www.theguardian.com/world/2026/aug/10/british-national-shot-dead-in-kashmir-by-pakistani-security-forces",
+        "source": "guardian",
+        "title": "British national shot dead in Kashmir by Pakistani security forces"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "b9e07236d59925aaefa8128262e022d5",
     "topic_label": "Extreme Weather and Heatwaves",
     "event_window_start": "2026-08-10T02:00:31.000Z",
@@ -392,81 +558,129 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "9f752dce41682998cb6eb19e241f8f09",
-    "topic_label": "Conflict in Kashmir",
-    "event_window_start": "2026-08-10T05:00:36.000Z",
-    "event_window_end": "2026-08-10T08:05:05.000Z",
+    "cluster_id": "abf5b8fb1c24665f6ceb3a8e41483be7",
+    "topic_label": "Middle East Conflict and Tensions",
+    "event_window_start": "2026-08-10T00:19:43.000Z",
+    "event_window_end": "2026-08-10T10:19:26.000Z",
     "article_ids": [
-      "art_1786352672950_28yyd",
-      "art_1786347092726_95ve7",
-      "art_1786341725130_u4qtq"
+      "art_1786357431030_y2r21",
+      "art_1786352677428_yk9dw",
+      "art_1786341722712_fwfhy",
+      "art_1786335589288_rkzzz",
+      "art_1786335591482_exokl",
+      "art_1786335592508_i9b1m",
+      "art_1786335593537_yb4p8",
+      "art_1786328361940_e3cvn",
+      "art_1786328368700_94p9m"
     ],
     "source_ids": [
-      "aljazeera",
-      "guardian"
+      "guardian",
+      "aljazeera"
     ],
-    "article_count": 3,
+    "article_count": 9,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-10T22:38:37.317Z",
-    "updated_at": "2026-08-10T22:38:37.317Z",
-    "region_tag": "middle-east",
+    "created_at": "2026-08-10T23:15:55.265Z",
+    "updated_at": "2026-08-10T23:15:55.265Z",
+    "region_tag": "global",
     "shared_facts": [
-      "Pakistan-administered Kashmir is experiencing political unrest.",
-      "The region is currently holding or has recently held Legislative Assembly elections.",
-      "The unrest has posed a significant challenge to Pakistani authorities."
+      "Benjamin Netanyahu serves as the Prime Minister of Israel.",
+      "Donald Trump is the President of the United States.",
+      "There is ongoing conflict involving Israel, Gaza, and Iran.",
+      "Oil prices have been subject to fluctuation amid regional tensions."
     ],
     "source_claims": [
-      "[aljazeera] Voting in the third and final phase of Legislative Assembly elections is taking place, with 4 of 11 originally scheduled constituencies going to the polls.",
-      "[aljazeera] More than 800 polling booths are open in the Bagh and Haveli districts, with approximately 460,000 registered voters.",
-      "[guardian] A 50-year-old British national, Mohammad Akhtar, was killed on June 9 during clashes between security forces and protesters.",
-      "[guardian] Another British national has been held in a regional prison for over two months."
+      "[guardian] Netanyahu has rejected a US-backed 15-point peace plan for Gaza.",
+      "[guardian] Netanyahu insists on full Hamas disarmament before the deal can be implemented.",
+      "[aljazeera] Israeli forces killed one Palestinian east of Deir el-Balah on Saturday.",
+      "[aljazeera] The Gaza Ministry of Health confirmed the recovery of two bodies from rubble.",
+      "[aljazeera] Trump stated the US is relying on economic pressure rather than military strikes against Iran.",
+      "[aljazeera] Trump credited a US naval blockade in place since April for pressuring Iran's economy.",
+      "[aljazeera] Brent crude oil prices rose to $83.77 a barrel as of Monday."
     ],
     "framing_differences": [
-      "Aljazeera frames the situation primarily around the logistics and political candidates involved in the Legislative Assembly elections, while The Guardian frames the situation around the casualties and legal status of British nationals involved in regional clashes."
+      "The guardian frames Netanyahu's actions as a rejection of US policy and a point of tension with Trump, whereas aljazeera focuses on Trump's economic strategy regarding Iran.",
+      "The guardian frames recent visits to the al-Aqsa mosque as a challenge to the status quo by specific Israeli ministers, while aljazeera focuses on regional military activity in Gaza and market reactions to the Strait of Hormuz."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] Voting is underway in the third phase of regional elections.",
-      "[guardian] Mohammad Akhtar was shot dead specifically by Pakistani security forces.",
-      "[guardian] The regional clashes have resulted in dozens of deaths."
+      "[guardian] Itamar Ben-Gvir and a group of 2,000 others 'stormed' the al-Aqsa mosque compound.",
+      "[guardian] Jordanian officials have warned that the al-Aqsa site is at risk of an 'imminent' Israeli takeover."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'unrest' to describe the political situation in the region.",
-      "[guardian] describes the events as 'clashes' between authorities and protesters."
+      "[guardian] uses the term 'far-right extremist' to describe Itamar Ben-Gvir.",
+      "[guardian] uses the term 'Jewish extremists' to describe a group visiting the al-Aqsa compound.",
+      "[aljazeera] uses the term 'war-shattered enclave' to describe Gaza."
     ],
     "safe_conclusions": [
-      "There is ongoing political and social instability in Pakistan-administered Kashmir.",
-      "Elections are taking place in the region amid these conditions."
+      "Benjamin Netanyahu leads the Israeli government.",
+      "Donald Trump leads the United States government.",
+      "There is military and economic tension currently impacting the Middle East."
     ],
     "unknowns": [
-      "The exact cause of the death of the British national mentioned by The Guardian.",
-      "The total number of casualties associated with the ongoing unrest.",
-      "The specific reasons for the detention of the second British national mentioned by The Guardian."
+      "The full, verified text of the 15-point peace plan mentioned by the guardian.",
+      "The specific nature of the 'major concessions' demanded by Iran regarding the Strait of Hormuz.",
+      "The exact timeline for the proposed national elections mentioned by the guardian."
     ],
-    "synthesis": "Pakistan-administered Kashmir is currently experiencing significant political unrest while simultaneously conducting Legislative Assembly elections. Reports indicate that at least one British national has been killed during regional clashes, and another remains in custody. The situation remains a substantial point of focus for both regional political processes and international diplomatic concern.",
-    "confidence": "MEDIUM. While the sources agree that regional unrest is occurring and affecting elections and British citizens, specific details regarding the causes of death and the scale of the conflict originate from separate, non-corroborated reports.",
+    "synthesis": "Israeli Prime Minister Benjamin Netanyahu has publicly signaled opposition to a US-backed peace plan for Gaza, citing a requirement for Hamas disarmament. Simultaneously, President Donald Trump has indicated a pivot toward economic pressure against Iran in lieu of military strikes. Regional tensions persist, characterized by ongoing military incidents in Gaza and market concerns regarding oil transit through the Strait of Hormuz.",
+    "confidence": "MEDIUM;HIGH; The sources provide distinct reports on separate geopolitical events that are not mutually exclusive or factually contradictory.",
     "sources": [
       {
-        "id": "art_1786352672950_28yyd",
-        "url": "https://www.aljazeera.com/news/2026/8/10/pakistan-administered-kashmir-votes-in-reduced-third-phase-amid-unrest?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan-administered Kashmir votes in reduced third phase amid unrest"
-      },
-      {
-        "id": "art_1786347092726_95ve7",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/whats-driving-unrest-in-pakistan-administered-kashmir?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What’s driving unrest in Pakistan-administered Kashmir?"
-      },
-      {
-        "id": "art_1786341725130_u4qtq",
-        "url": "https://www.theguardian.com/world/2026/aug/10/british-national-shot-dead-in-kashmir-by-pakistani-security-forces",
+        "id": "art_1786357431030_y2r21",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/first-thing-netanyahu-rejects-us-backed-gaza-peace-plan",
         "source": "guardian",
-        "title": "British national shot dead in Kashmir by Pakistani security forces"
+        "title": "Netanyahu rejects US-backed 15-point Gaza peace plan | First Thing"
+      },
+      {
+        "id": "art_1786352677428_yk9dw",
+        "url": "https://www.aljazeera.com/news/2026/8/10/israeli-forces-kill-one-in-gaza-as-another-body-recovered-from-rubble?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli forces kill one in Gaza as another body recovered from rubble"
+      },
+      {
+        "id": "art_1786341722712_fwfhy",
+        "url": "https://www.theguardian.com/world/2026/aug/10/monday-briefing-how-the-new-phase-of-confrontation-at-al-aqsa-signals-a-challenge-to-the-status-quo",
+        "source": "guardian",
+        "title": "Monday briefing: How the new phase of confrontation at al-Aqsa signals a challenge to the status quo"
+      },
+      {
+        "id": "art_1786335589288_rkzzz",
+        "url": "https://www.aljazeera.com/economy/2026/8/10/trump-signals-shift-to-economic-pressure-on-iran-over-new-military-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump signals shift to economic pressure on Iran over new military strikes"
+      },
+      {
+        "id": "art_1786335591482_exokl",
+        "url": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Oil prices climb as Iranian demands cloud outlook for Strait of Hormuz"
+      },
+      {
+        "id": "art_1786335592508_i9b1m",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/aje-onl-nf_kut-protests-escalate-over-iraqs-electricity-crisis-090826?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Clashes in Iraq’s Kut city during protests over power shortages"
+      },
+      {
+        "id": "art_1786335593537_yb4p8",
+        "url": "https://www.aljazeera.com/news/2026/8/10/israel-confirms-death-of-palestinian-detainee-nearly-two-years-late?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel confirms death of Palestinian detainee, nearly two years late"
+      },
+      {
+        "id": "art_1786328361940_e3cvn",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/houthis-launch-fresh-ballistic-missile-and-drone-attacks-on-al-makha-port?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Houthis launch fresh ballistic missile and drone attacks on al-Makha port"
+      },
+      {
+        "id": "art_1786328368700_94p9m",
+        "url": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Houthis renew missile and drone attacks on Yemen’s port of al-Makha"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20695,238 +20909,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/new-delhi-on-red-alert-as-heavy-rains-pound-the-city?traffic_source=rss",
         "source": "aljazeera",
         "title": "New Delhi on red alert as heavy rains pound the city"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cc32dbd5942955a0020031d0670e3bf8",
-    "topic_label": "US Political News and Trump",
-    "event_window_start": "2026-08-07T17:34:53.000Z",
-    "event_window_end": "2026-08-08T15:28:39.000Z",
-    "article_ids": [
-      "art_1786203767971_mg9nl",
-      "art_1786190407570_ujeib",
-      "art_1786190408718_0hfgu",
-      "art_1786159688764_vgyhz",
-      "art_1786159690902_eg5y7",
-      "art_1786159692970_1w32o",
-      "art_1786153777604_3dbpx",
-      "art_1786140703275_dca1k",
-      "art_1786140708563_79bwg",
-      "art_1786137399349_mm1jp",
-      "art_1786131313748_10o7l",
-      "art_1786126741521_ah5pc",
-      "art_1786126747197_t24pj"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 13,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T17:08:50.122Z",
-    "updated_at": "2026-08-08T17:08:50.122Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump is engaged in various policy and personnel actions including legislative priorities, judicial and executive branch appointments, and personnel removals.",
-      "The Senate has been involved in legislative and confirmation activities."
-    ],
-    "source_claims": [
-      "[fox] claims Hillary Clinton stated that far-left candidates do not consistently support establishment Democratic nominees and that Republican attacks on socialists may be effective.",
-      "[fox] claims President Trump is urging U.S. Attorney Jeanine Pirro to re-examine dropped vandalism charges regarding the Lincoln Memorial Reflecting Pool.",
-      "[fox] claims President Trump is pressuring the Senate to pass the 'Save America Act' and criticizing Republicans for failing to pass it before the recess.",
-      "[guardian] claims Senate minority leader Chuck Schumer condemned the confirmation of Todd Blanche as attorney general, characterizing it as enabling corruption.",
-      "[aljazeera] claims the Trump administration sent a letter to Federal Reserve governor Lisa Cook threatening her removal and alleging she committed mortgage fraud."
-    ],
-    "framing_differences": [
-      "[fox] frames the tension in the Democratic party as a failure of the far-left to fall in line, while [guardian] frames Republican actions as enabling systemic corruption.",
-      "[fox] presents the 'Save America Act' as a legislative priority for President Trump, whereas [aljazeera] focuses on the administration's efforts to remove independent officials like Lisa Cook."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims that witnesses saw vandalism at the Lincoln Memorial Reflecting Pool and that the material was cut with a knife.",
-      "[aljazeera] claims the administration sent a letter to Lisa Cook alleging mortgage fraud and threatening her removal."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'far-left' and 'hard-left socialists' to describe Democratic factions.",
-      "[guardian] uses the terms 'pervasive, breathtaking corruption' and 'enabler' when describing the confirmation of Todd Blanche.",
-      "[aljazeera] uses the term 'unproven allegations' to describe the accusations against Lisa Cook."
-    ],
-    "safe_conclusions": [
-      "President Trump is actively interacting with the Senate and executive branch officials on various policy and administrative matters.",
-      "There are ongoing legislative and administrative debates regarding the status of officials and bills under the current administration."
-    ],
-    "unknowns": [
-      "The official legal status of the Lincoln Memorial Reflecting Pool vandalism case beyond President Trump's statements.",
-      "The evidentiary basis for the allegations against Federal Reserve governor Lisa Cook."
-    ],
-    "synthesis": "President Donald Trump is currently pursuing multiple initiatives, including pressuring the Senate to pass the 'Save America Act' and seeking the removal of Federal Reserve governor Lisa Cook over mortgage fraud allegations. Simultaneously, the Senate has confirmed Todd Blanche as attorney general despite opposition from minority leadership, and Clinton has commented on internal Democratic party dynamics. These events reflect ongoing legislative, judicial, and personnel efforts within the current U.S. political landscape.",
-    "confidence": "HIGH: The sources provide distinct reports on separate administrative and political actions, and there are no direct factual contradictions between the reporting of different outlets.",
-    "sources": [
-      {
-        "id": "art_1786203767971_mg9nl",
-        "url": "https://www.foxnews.com/media/hillary-clinton-calls-out-far-left-reluctance-support-her-warns-gop-communist-attacks-effective",
-        "source": "fox",
-        "title": "Hillary Clinton calls out far-left reluctance to support her, warns GOP 'communist' attacks will be effective"
-      },
-      {
-        "id": "art_1786190407570_ujeib",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates",
-        "source": "guardian",
-        "title": "Blanche confirmation allows Trump to continue ‘pervasive, breathtaking corruption’, says Schumer – US politics live"
-      },
-      {
-        "id": "art_1786190408718_0hfgu",
-        "url": "https://www.foxnews.com/politics/trump-pumps-brakes-senate-budget-plan-delaying-gop-save-america-push",
-        "source": "fox",
-        "title": "Trump pumps brakes on Senate budget plan, delaying GOP SAVE America push"
-      },
-      {
-        "id": "art_1786159688764_vgyhz",
-        "url": "https://www.foxnews.com/politics/trump-urges-jeanine-pirro-revisit-dropped-lincoln-memorial-reflecting-pool-vandalism-case",
-        "source": "fox",
-        "title": "Trump urges Jeanine Pirro to revisit dropped Lincoln Memorial Reflecting Pool vandalism case"
-      },
-      {
-        "id": "art_1786159690902_eg5y7",
-        "url": "https://www.aljazeera.com/news/2026/8/7/donald-trump-renews-effort-to-fire-federal-reserve-governor-lisa-cook?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Donald Trump renews effort to fire Federal Reserve governor Lisa Cook"
-      },
-      {
-        "id": "art_1786159692970_1w32o",
-        "url": "https://www.foxnews.com/outkick-sports/president-trump-pumps-protect-college-sports-act-senate-works-pass",
-        "source": "fox",
-        "title": "President Trump pumps up the 'Protect College Sports Act' as the Senate works to pass it"
-      },
-      {
-        "id": "art_1786153777604_3dbpx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/trump-shifts-blame-to-republicans-for-waning-support-from-public?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump shifts blame to Republicans for waning support from public"
-      },
-      {
-        "id": "art_1786140703275_dca1k",
-        "url": "https://www.theguardian.com/us-news/2026/aug/07/prosecutor-fired-trump-blog-lawsuit",
-        "source": "guardian",
-        "title": "Prosecutor fired over blogposts critical of Trump sues US justice department"
-      },
-      {
-        "id": "art_1786140708563_79bwg",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/us-appeals-court-halts-white-house-ballroom-construction?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US appeals court halts White House ballroom construction"
-      },
-      {
-        "id": "art_1786137399349_mm1jp",
-        "url": "https://www.aljazeera.com/news/2026/8/7/us-appeals-court-upholds-injunction-pausing-trumps-white-house-ballroom?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US appeals court upholds injunction pausing Trump’s White House ballroom"
-      },
-      {
-        "id": "art_1786131313748_10o7l",
-        "url": "https://www.theguardian.com/us-news/2026/aug/07/judge-trump-south-sudan-tps",
-        "source": "guardian",
-        "title": "Judge approves Trump effort to end South Sudan TPS protections"
-      },
-      {
-        "id": "art_1786126741521_ah5pc",
-        "url": "https://www.foxnews.com/politics/trump-white-house-ballroom-ruling-jeopardizes-lives-future-presidents-vows-supreme-court-appeal",
-        "source": "fox",
-        "title": "Trump says White House ballroom ruling jeopardizes lives of future presidents, vows Supreme Court appeal"
-      },
-      {
-        "id": "art_1786126747197_t24pj",
-        "url": "https://www.foxnews.com/politics/gop-senator-breaks-trump-over-woke-smithsonian-history-battle",
-        "source": "fox",
-        "title": "GOP senator breaks with Trump over 'woke' Smithsonian history battle"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6cc4ba9d4af206bbdba90b812879f55f",
-    "topic_label": "Thailand Deadly Shooting",
-    "event_window_start": "2026-08-07T21:19:27.000Z",
-    "event_window_end": "2026-08-08T11:31:57.000Z",
-    "article_ids": [
-      "art_1786190405266_jecfv",
-      "art_1786144293272_fkdq4",
-      "art_1786140707474_ercuy"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T15:33:45.282Z",
-    "updated_at": "2026-08-08T15:33:45.282Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A 14-year-old boy killed his grandparents and later opened fire at a school.",
-      "The suspect died by suicide.",
-      "The incident occurred in the vicinity of Bangkok, Thailand.",
-      "The shooter was a student at the school where the incident took place."
-    ],
-    "source_claims": [
-      "[aljazeera] states nine people died, including the shooter and a 12-year-old girl who died in hospital.",
-      "[bbc] reports the shooter used a handgun belonging to his grandfather.",
-      "[bbc] reports the Prime Minister intends to restrict public firearms possession to government officials on duty.",
-      "[bbc] reports 22 people were injured in the attack."
-    ],
-    "framing_differences": [
-      "Aljazeera focuses on the immediate aftermath and the retrieval of bodies by families, while the BBC focuses on the administrative response and the introduction of new gun control legislation."
-    ],
-    "contested_claims": [
-      "Aljazeera states the death toll is nine, while BBC reports eight people were killed."
-    ],
-    "unverified_claims": [
-      "[aljazeera] reports five school staff members were killed.",
-      "[bbc] reports five teachers were killed."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'shooting rampage' to describe the event.",
-      "[bbc] uses the term 'deadly shooting' to describe the event."
-    ],
-    "safe_conclusions": [
-      "A 14-year-old student committed a mass shooting at his school and a private home near Bangkok, resulting in multiple deaths and injuries before ending his own life."
-    ],
-    "unknowns": [
-      "The exact number of casualties and the specific professional roles of all victims.",
-      "The specific sequence of events inside the school.",
-      "The status of the gun control legislation mentioned by the Prime Minister."
-    ],
-    "synthesis": "A 14-year-old student killed his grandparents and committed a shooting at a school near Bangkok before dying by suicide. The incident has prompted the Thai government to pledge stricter gun control laws. Reports regarding the total number of fatalities vary between sources.",
-    "confidence": "CONTESTED. There is a discrepancy in the total death toll reported by the sources.",
-    "sources": [
-      {
-        "id": "art_1786190405266_jecfv",
-        "url": "https://www.aljazeera.com/news/2026/8/8/families-retrieve-bodies-after-deadly-shooting-rampage-outside-bangkok?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Families retrieve bodies after deadly shooting rampage outside Bangkok"
-      },
-      {
-        "id": "art_1786144293272_fkdq4",
-        "url": "https://www.bbc.co.uk/news/videos/c70glx1ww78o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we know so far about the deadly Thailand shooting"
-      },
-      {
-        "id": "art_1786140707474_ercuy",
-        "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Thai PM vows to introduce stricter gun laws after eight killed in shooting"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
