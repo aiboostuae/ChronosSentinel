@@ -262,62 +262,73 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "78a63cbe59ef15009a5412c0dfa8b739",
-    "topic_label": "Trump Iran threat evasion reports",
-    "event_window_start": "2026-08-11T02:17:00.000Z",
-    "event_window_end": "2026-08-11T02:29:56.000Z",
+    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
+    "topic_label": "Trump and Iran tensions",
+    "event_window_start": "2026-08-10T23:08:50.000Z",
+    "event_window_end": "2026-08-11T02:32:47.000Z",
     "article_ids": [
+      "art_1786418728985_j519n",
       "art_1786418731291_19uer",
-      "art_1786418732332_04ukk"
+      "art_1786418732332_04ukk",
+      "art_1786405143945_gg7iv"
     ],
     "source_ids": [
+      "aljazeera",
       "guardian",
       "fox"
     ],
-    "article_count": 2,
-    "source_count": 2,
+    "article_count": 4,
+    "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-11T05:58:38.611Z",
-    "updated_at": "2026-08-11T05:58:38.611Z",
-    "region_tag": "global",
+    "created_at": "2026-08-11T08:14:44.136Z",
+    "updated_at": "2026-08-11T08:14:44.136Z",
+    "region_tag": "middle-east",
     "shared_facts": [
-      "Donald Trump attended a NATO summit in Turkey.",
-      "Reports indicate Donald Trump used an airport catering truck/cart as part of a transport maneuver.",
-      "The maneuver involved using an older Air Force One jet as a decoy.",
-      "The security measures were reportedly prompted by a threat from Iran.",
-      "Donald Trump boarded a smaller, separate U.S. military aircraft to depart Turkey."
+      "President Donald Trump attended a NATO summit in Turkey.",
+      "There are ongoing tensions between the United States and Iran involving military activity and threats."
     ],
     "source_claims": [
-      "[guardian] reports the ruse was an 'extraordinary ruse' to return from a Nato meet.",
-      "[fox] reports Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
-      "[fox] reports Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
+      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
+      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
+      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
+      "[fox] President Trump stated he is on a 'kill list' for Iran.",
+      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
     ],
     "framing_differences": [
-      "The Guardian frames the event as an 'elaborate ruse' involving a catering cart, while Fox focuses on the president's own comments regarding his status on an Iranian 'kill list' and the specific aircraft used to arrive in Turkey."
+      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
+      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[guardian] claims the president was hidden inside the catering cart.",
-      "[fox] claims the aircraft used to arrive in Turkey was a Boeing 747-8 donated by Qatar."
+      "[guardian] The president hid in a catering cart to board a secret flight.",
+      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
     ],
     "loaded_language": [
-      "[guardian] uses the term 'elaborate ruse' to describe the transit method.",
-      "[guardian] uses the term 'extraordinary ruse' to describe the operation."
+      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
     ],
     "safe_conclusions": [
-      "Donald Trump participated in a departure maneuver involving multiple aircraft and a catering vehicle while in Turkey for a NATO summit.",
-      "Security concerns related to Iran were cited as the reason for the transport strategy."
+      "President Trump was in Turkey for a NATO meeting.",
+      "Iran has undergone changes in its senior military leadership.",
+      "Diplomatic and security tensions persist between the United States and Iran."
     ],
     "unknowns": [
-      "The specific technical details of how the catering vehicle was utilized.",
-      "Confirmation of the exact aircraft models used beyond the mentions of 'Air Force One' and 'smaller U.S. military aircraft'."
+      "The official status of the Strait of Hormuz.",
+      "The full details of the reported catering cart maneuver.",
+      "The specific terms of any interim peace agreements between the U.S. and Iran."
     ],
-    "synthesis": "Reports indicate that Donald Trump utilized a security maneuver involving a catering vehicle and a decoy aircraft to depart a NATO summit in Turkey. The operation was reportedly conducted in response to a security threat posed by Iran. Sources agree that the president ultimately departed on a smaller military aircraft after the decoy jet was observed by cameras.",
-    "confidence": "HIGH. Both sources cite reporting from the Washington Post and provide consistent accounts of the core security maneuver.",
+    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
+    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
     "sources": [
+      {
+        "id": "art_1786418728985_j519n",
+        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
+      },
       {
         "id": "art_1786418731291_19uer",
         "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
@@ -329,6 +340,12 @@
         "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
         "source": "fox",
         "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      },
+      {
+        "id": "art_1786405143945_gg7iv",
+        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
+        "source": "fox",
+        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -482,163 +499,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "0b8c5d58103adccaf5f80937ff53896a",
-    "topic_label": "DiJonai Carrington WNBA Controversy",
-    "event_window_start": "2026-08-11T02:32:10.000Z",
-    "event_window_end": "2026-08-10T21:37:53.000Z",
-    "article_ids": [
-      "art_1786424187341_8riu2",
-      "art_1786418730019_bkfcv"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T16:04:21.774Z",
-    "updated_at": "2026-08-11T16:04:21.774Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "DiJonai Carrington posted the words 'WHITE PRIVILEGE @indianafever' on the social media platform Threads.",
-      "DiJonai Carrington was ejected from a WNBA game against the Indiana Fever following a foul on Sophie Cunningham.",
-      "The foul against Sophie Cunningham was classified as a Flagrant 2 foul.",
-      "DiJonai Carrington played in a subsequent game for the Chicago Sky against the Seattle Storm."
-    ],
-    "source_claims": [
-      "[fox] claims Carrington 'intentionally' clotheslined Sophie Cunningham in the face.",
-      "[fox] claims the WNBA has remained silent regarding the incident and did not announce discipline for Carrington prior to the game against the Seattle Storm."
-    ],
-    "framing_differences": [
-      "Fox frames the event by repeatedly emphasizing the 'intentional' nature of the foul and the lack of league disciplinary action, while the articles mention Carrington's Threads post as a primary focus of the reporting."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims that Carrington's post was made from the locker room."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'clotheslining' to describe the physical foul committed by Carrington.",
-      "[fox] uses the term 'takedown' to characterize the foul."
-    ],
-    "safe_conclusions": [
-      "DiJonai Carrington was involved in a play resulting in a Flagrant 2 foul against Sophie Cunningham during a game against the Indiana Fever.",
-      "Carrington made a post on Threads referencing 'WHITE PRIVILEGE' and the Indiana Fever."
-    ],
-    "unknowns": [
-      "The reasoning behind Carrington's specific use of the phrase 'WHITE PRIVILEGE' in her post remains unconfirmed by the player.",
-      "The internal reasoning or future plans of the WNBA regarding potential disciplinary actions are not explicitly stated."
-    ],
-    "synthesis": "DiJonai Carrington was ejected from a game against the Indiana Fever after being assessed a Flagrant 2 foul for contact with Sophie Cunningham. Following the incident, Carrington posted 'WHITE PRIVILEGE @indianafever' on the platform Threads, drawing public reaction. Carrington subsequently played in a game against the Seattle Storm as no league-wide discipline had been announced.",
-    "confidence": "HIGH. The sources consistently report the same factual events regarding the foul, the social media post, and the player's subsequent game status.",
-    "sources": [
-      {
-        "id": "art_1786424187341_8riu2",
-        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-responds-white-privilege-post-leaves-meaning-unclear",
-        "source": "fox",
-        "title": "DiJonai Carrington responds to 'White privilege' post, but leaves meaning of it still unclear"
-      },
-      {
-        "id": "art_1786418730019_bkfcv",
-        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-who-declared-white-privilege-after-ejection-suspended-wnba-foul-fever-star",
-        "source": "fox",
-        "title": "DiJonai Carrington, who declared 'White privilege' after ejection, plays vs Storm as WNBA remains silent"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
-    "topic_label": "Trump and Iran tensions",
-    "event_window_start": "2026-08-10T23:08:50.000Z",
-    "event_window_end": "2026-08-11T02:32:47.000Z",
-    "article_ids": [
-      "art_1786418728985_j519n",
-      "art_1786418731291_19uer",
-      "art_1786418732332_04ukk",
-      "art_1786405143945_gg7iv"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T08:14:44.136Z",
-    "updated_at": "2026-08-11T08:14:44.136Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump attended a NATO summit in Turkey.",
-      "There are ongoing tensions between the United States and Iran involving military activity and threats."
-    ],
-    "source_claims": [
-      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
-      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
-      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
-      "[fox] President Trump stated he is on a 'kill list' for Iran.",
-      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
-    ],
-    "framing_differences": [
-      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
-      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The president hid in a catering cart to board a secret flight.",
-      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
-    ],
-    "safe_conclusions": [
-      "President Trump was in Turkey for a NATO meeting.",
-      "Iran has undergone changes in its senior military leadership.",
-      "Diplomatic and security tensions persist between the United States and Iran."
-    ],
-    "unknowns": [
-      "The official status of the Strait of Hormuz.",
-      "The full details of the reported catering cart maneuver.",
-      "The specific terms of any interim peace agreements between the U.S. and Iran."
-    ],
-    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
-    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
-    "sources": [
-      {
-        "id": "art_1786418728985_j519n",
-        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
-      },
-      {
-        "id": "art_1786418731291_19uer",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
-        "source": "guardian",
-        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
-      },
-      {
-        "id": "art_1786418732332_04ukk",
-        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
-        "source": "fox",
-        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
-      },
-      {
-        "id": "art_1786405143945_gg7iv",
-        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
-        "source": "fox",
-        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "47b53ce5f1a7faa8642ef85757cc1863",
     "topic_label": "DiJonai Carrington WNBA incidents",
     "event_window_start": "2026-08-11T00:04:32.000Z",
@@ -711,6 +571,215 @@
         "url": "https://www.foxnews.com/outkick-sports/long-list-embarrassing-wnba-incidents-what-happens-when-sports-leagues-made-politics-their-primary-focus",
         "source": "fox",
         "title": "Long list of embarrassing WNBA incidents is what happens when sports leagues made politics their primary focus"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "73308ce719be6b7422ca677748385099",
+    "topic_label": "Middle East Geopolitical Issues",
+    "event_window_start": "2026-08-11T00:00:19.000Z",
+    "event_window_end": "2026-08-11T02:44:39.000Z",
+    "article_ids": [
+      "art_1786418727931_1kzxl",
+      "art_1786411760809_7lala"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T17:00:34.921Z",
+    "updated_at": "2026-08-11T17:00:34.921Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Colombia's Foreign Ministry issued a statement regarding Israeli sovereignty over the Golan Heights.",
+      "The United States has previously recognized Israel's annexation of the Golan Heights.",
+      "Benjamin Netanyahu serves as the Prime Minister of Israel."
+    ],
+    "source_claims": [
+      "[aljazeera_1] Colombia has recognized Israeli sovereignty over the Golan Heights.",
+      "[aljazeera_1] Colombia is the second country to recognize Israel’s annexation of the Golan Heights.",
+      "[aljazeera_1] President Abelardo de la Espriella recently took power in Colombia.",
+      "[aljazeera_2] Prime Minister Benjamin Netanyahu rejects a 15-point U.S.-brokered peace plan for Gaza."
+    ],
+    "framing_differences": [
+      "Aljazeera_1 frames the Colombian government's decision using the term 'far-right', while Aljazeera_2 focuses on the geopolitical tension between Benjamin Netanyahu and Donald Trump."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] Maintaining Israel’s control over the Golan Heights is an essential component of its national defence."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the term 'far-right' to describe the Colombian government.",
+      "[aljazeera_1] uses the term 'occupied' to describe the Syrian Golan Heights."
+    ],
+    "safe_conclusions": [
+      "Colombia has made an official announcement concerning the Golan Heights.",
+      "There is ongoing discourse regarding U.S. policy in the Middle East and the diplomatic positioning of the Israeli government."
+    ],
+    "unknowns": [
+      "The full details of the 15-point U.S.-brokered peace plan for Gaza.",
+      "The official response of other international bodies to the Colombian government's recent announcement."
+    ],
+    "synthesis": "The government of Colombia has announced its recognition of Israeli sovereignty over the Golan Heights. Separately, reports indicate that Israeli Prime Minister Benjamin Netanyahu has rejected a U.S.-brokered peace plan for Gaza. These events highlight shifting diplomatic alignments and policy disagreements involving the Israeli government.",
+    "confidence": "HIGH. The sources provide distinct reports on separate geopolitical developments that do not conflict with each other.",
+    "sources": [
+      {
+        "id": "art_1786418727931_1kzxl",
+        "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Colombia’s far-right government recognises Israeli claim over Golan Heights"
+      },
+      {
+        "id": "art_1786411760809_7lala",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "78a63cbe59ef15009a5412c0dfa8b739",
+    "topic_label": "Trump Iran threat evasion reports",
+    "event_window_start": "2026-08-11T02:17:00.000Z",
+    "event_window_end": "2026-08-11T02:29:56.000Z",
+    "article_ids": [
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump attended a NATO summit in Turkey.",
+      "Reports indicate Donald Trump used an airport catering truck/cart as part of a transport maneuver.",
+      "The maneuver involved using an older Air Force One jet as a decoy.",
+      "The security measures were reportedly prompted by a threat from Iran.",
+      "Donald Trump boarded a smaller, separate U.S. military aircraft to depart Turkey."
+    ],
+    "source_claims": [
+      "[guardian] reports the ruse was an 'extraordinary ruse' to return from a Nato meet.",
+      "[fox] reports Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
+      "[fox] reports Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
+    ],
+    "framing_differences": [
+      "The Guardian frames the event as an 'elaborate ruse' involving a catering cart, while Fox focuses on the president's own comments regarding his status on an Iranian 'kill list' and the specific aircraft used to arrive in Turkey."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims the president was hidden inside the catering cart.",
+      "[fox] claims the aircraft used to arrive in Turkey was a Boeing 747-8 donated by Qatar."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'elaborate ruse' to describe the transit method.",
+      "[guardian] uses the term 'extraordinary ruse' to describe the operation."
+    ],
+    "safe_conclusions": [
+      "Donald Trump participated in a departure maneuver involving multiple aircraft and a catering vehicle while in Turkey for a NATO summit.",
+      "Security concerns related to Iran were cited as the reason for the transport strategy."
+    ],
+    "unknowns": [
+      "The specific technical details of how the catering vehicle was utilized.",
+      "Confirmation of the exact aircraft models used beyond the mentions of 'Air Force One' and 'smaller U.S. military aircraft'."
+    ],
+    "synthesis": "Reports indicate that Donald Trump utilized a security maneuver involving a catering vehicle and a decoy aircraft to depart a NATO summit in Turkey. The operation was reportedly conducted in response to a security threat posed by Iran. Sources agree that the president ultimately departed on a smaller military aircraft after the decoy jet was observed by cameras.",
+    "confidence": "HIGH. Both sources cite reporting from the Washington Post and provide consistent accounts of the core security maneuver.",
+    "sources": [
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0b8c5d58103adccaf5f80937ff53896a",
+    "topic_label": "DiJonai Carrington WNBA Controversy",
+    "event_window_start": "2026-08-11T02:32:10.000Z",
+    "event_window_end": "2026-08-10T21:37:53.000Z",
+    "article_ids": [
+      "art_1786424187341_8riu2",
+      "art_1786418730019_bkfcv"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T16:04:21.774Z",
+    "updated_at": "2026-08-11T16:04:21.774Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "DiJonai Carrington posted the words 'WHITE PRIVILEGE @indianafever' on the social media platform Threads.",
+      "DiJonai Carrington was ejected from a WNBA game against the Indiana Fever following a foul on Sophie Cunningham.",
+      "The foul against Sophie Cunningham was classified as a Flagrant 2 foul.",
+      "DiJonai Carrington played in a subsequent game for the Chicago Sky against the Seattle Storm."
+    ],
+    "source_claims": [
+      "[fox] claims Carrington 'intentionally' clotheslined Sophie Cunningham in the face.",
+      "[fox] claims the WNBA has remained silent regarding the incident and did not announce discipline for Carrington prior to the game against the Seattle Storm."
+    ],
+    "framing_differences": [
+      "Fox frames the event by repeatedly emphasizing the 'intentional' nature of the foul and the lack of league disciplinary action, while the articles mention Carrington's Threads post as a primary focus of the reporting."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims that Carrington's post was made from the locker room."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'clotheslining' to describe the physical foul committed by Carrington.",
+      "[fox] uses the term 'takedown' to characterize the foul."
+    ],
+    "safe_conclusions": [
+      "DiJonai Carrington was involved in a play resulting in a Flagrant 2 foul against Sophie Cunningham during a game against the Indiana Fever.",
+      "Carrington made a post on Threads referencing 'WHITE PRIVILEGE' and the Indiana Fever."
+    ],
+    "unknowns": [
+      "The reasoning behind Carrington's specific use of the phrase 'WHITE PRIVILEGE' in her post remains unconfirmed by the player.",
+      "The internal reasoning or future plans of the WNBA regarding potential disciplinary actions are not explicitly stated."
+    ],
+    "synthesis": "DiJonai Carrington was ejected from a game against the Indiana Fever after being assessed a Flagrant 2 foul for contact with Sophie Cunningham. Following the incident, Carrington posted 'WHITE PRIVILEGE @indianafever' on the platform Threads, drawing public reaction. Carrington subsequently played in a game against the Seattle Storm as no league-wide discipline had been announced.",
+    "confidence": "HIGH. The sources consistently report the same factual events regarding the foul, the social media post, and the player's subsequent game status.",
+    "sources": [
+      {
+        "id": "art_1786424187341_8riu2",
+        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-responds-white-privilege-post-leaves-meaning-unclear",
+        "source": "fox",
+        "title": "DiJonai Carrington responds to 'White privilege' post, but leaves meaning of it still unclear"
+      },
+      {
+        "id": "art_1786418730019_bkfcv",
+        "url": "https://www.foxnews.com/outkick-sports/dijonai-carrington-who-declared-white-privilege-after-ejection-suspended-wnba-foul-fever-star",
+        "source": "fox",
+        "title": "DiJonai Carrington, who declared 'White privilege' after ejection, plays vs Storm as WNBA remains silent"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20107,119 +20176,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
         "source": "aljazeera",
         "title": "What could the Mecca defence pact mean for the US role in the Middle East?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a8479ed7e2f19ae2d6526893b46fc9c2",
-    "topic_label": "US Political News",
-    "event_window_start": "2026-08-08T01:28:39.000Z",
-    "event_window_end": "2026-08-08T18:16:33.000Z",
-    "article_ids": [
-      "art_1786217604411_qr8de",
-      "art_1786203767971_mg9nl",
-      "art_1786190407570_ujeib",
-      "art_1786190408718_0hfgu",
-      "art_1786159688764_vgyhz",
-      "art_1786159690902_eg5y7",
-      "art_1786153777604_3dbpx"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T23:30:15.273Z",
-    "updated_at": "2026-08-08T23:30:15.273Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] Bill Maher criticized Senator Rand Paul for releasing Dr. Anthony Fauci’s private COVID-19 diaries and pursuing a contempt referral.",
-      "[fox] A public relations expert suggested Rand Paul should focus on the substance of the diary rather than the method of acquisition.",
-      "[fox] Hillary Clinton stated that far-left candidates do not always support establishment Democratic nominees.",
-      "[fox] Hillary Clinton warned that Republican attacks describing Democrats as 'communist' or 'hard-left socialists' could be effective.",
-      "[guardian] Chuck Schumer stated that Senate Republicans confirmed Todd Blanche as attorney general by a vote of 50 to 49.",
-      "[guardian] Chuck Schumer claimed that confirming Todd Blanche allows for the continuation of corruption.",
-      "[fox] President Donald Trump demanded a vote on the 'Save America Act' amid legislative hurdles in the Senate.",
-      "[fox] President Donald Trump urged U.S. Attorney Jeanine Pirro to revisit dropped charges related to alleged vandalism at the Lincoln Memorial Reflecting Pool.",
-      "[fox] President Donald Trump claimed there were witnesses to vandalism at the Reflecting Pool and that material was cut with a knife."
-    ],
-    "framing_differences": [
-      "The provided articles cover disparate, unrelated political events, meaning there is no direct framing comparison possible between the sources."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Bill Maher stated Rand Paul's actions conflict with his libertarian views.",
-      "[guardian] Chuck Schumer claimed Todd Blanche has no intention of stopping Trump's corruption and advanced his career enabling it.",
-      "[fox] President Donald Trump claimed that people were on their knees with hands in the water at the site of alleged 'slashes' at the Reflecting Pool."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'pervasive, breathtaking corruption' to describe the administration's actions.",
-      "[guardian] uses the term 'enablers' to describe senators who voted to confirm Todd Blanche.",
-      "[fox] uses the term 'far-left' to describe specific candidates and wings of the Democratic Party.",
-      "[fox] uses the term 'hard-left socialists' to describe political figures."
-    ],
-    "safe_conclusions": [
-      "The U.S. Senate confirmed Todd Blanche as attorney general with a vote of 50-49.",
-      "Senator Rand Paul has been involved in actions regarding Dr. Anthony Fauci's private diaries.",
-      "President Donald Trump has expressed interest in the 'Save America Act' and the vandalism case at the Lincoln Memorial Reflecting Pool."
-    ],
-    "unknowns": [
-      "Whether the vandalism allegations at the Lincoln Memorial Reflecting Pool are substantiated by evidence beyond the claims provided by the president.",
-      "The specific legislative details of the 'Save America Act' mentioned by Fox News.",
-      "The full context of the 'tense internal struggle' within the Democratic Party mentioned by Hillary Clinton."
-    ],
-    "synthesis": "The provided articles detail separate political developments, including the Senate confirmation of Todd Blanche as attorney general, discussions surrounding Rand Paul’s actions toward Dr. Anthony Fauci, and Hillary Clinton’s remarks on Democratic Party divisions. Additionally, President Donald Trump has called for action on the 'Save America Act' and a review of a vandalism case at the Lincoln Memorial Reflecting Pool. These events are reported independently across different sources with no shared topical focus.",
-    "confidence": "HIGH. The sources represent distinct, unrelated news items, and where facts are presented (such as vote counts or public statements), they are attributed correctly to the respective political figures.",
-    "sources": [
-      {
-        "id": "art_1786217604411_qr8de",
-        "url": "https://www.foxnews.com/media/maher-blasts-rand-paul-releasing-faucis-covid-diaries-pr-expert-suggests-new-course-senator",
-        "source": "fox",
-        "title": "Maher blasts Rand Paul for releasing Fauci’s COVID diaries as PR expert suggests a new course for the Senator"
-      },
-      {
-        "id": "art_1786203767971_mg9nl",
-        "url": "https://www.foxnews.com/media/hillary-clinton-calls-out-far-left-reluctance-support-her-warns-gop-communist-attacks-effective",
-        "source": "fox",
-        "title": "Hillary Clinton calls out far-left reluctance to support her, warns GOP 'communist' attacks will be effective"
-      },
-      {
-        "id": "art_1786190407570_ujeib",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates",
-        "source": "guardian",
-        "title": "Blanche confirmation allows Trump to continue ‘pervasive, breathtaking corruption’, says Schumer – US politics live"
-      },
-      {
-        "id": "art_1786190408718_0hfgu",
-        "url": "https://www.foxnews.com/politics/trump-pumps-brakes-senate-budget-plan-delaying-gop-save-america-push",
-        "source": "fox",
-        "title": "Trump pumps brakes on Senate budget plan, delaying GOP SAVE America push"
-      },
-      {
-        "id": "art_1786159688764_vgyhz",
-        "url": "https://www.foxnews.com/politics/trump-urges-jeanine-pirro-revisit-dropped-lincoln-memorial-reflecting-pool-vandalism-case",
-        "source": "fox",
-        "title": "Trump urges Jeanine Pirro to revisit dropped Lincoln Memorial Reflecting Pool vandalism case"
-      },
-      {
-        "id": "art_1786159690902_eg5y7",
-        "url": "https://www.aljazeera.com/news/2026/8/7/donald-trump-renews-effort-to-fire-federal-reserve-governor-lisa-cook?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Donald Trump renews effort to fire Federal Reserve governor Lisa Cook"
-      },
-      {
-        "id": "art_1786153777604_3dbpx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/trump-shifts-blame-to-republicans-for-waning-support-from-public?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump shifts blame to Republicans for waning support from public"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
