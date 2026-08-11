@@ -1,5 +1,654 @@
 [
   {
+    "cluster_id": "af23772b683db366674a4051c4a582f6",
+    "topic_label": "Libya oil refinery drone attack",
+    "event_window_start": "2026-08-11T04:09:10.000Z",
+    "event_window_end": "2026-08-11T04:37:27.000Z",
+    "article_ids": [
+      "art_1786424172900_lh4u0",
+      "art_1786424178675_l64pl"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A fire occurred at the Zawiya oil refinery in Libya.",
+      "The Zawiya refinery is Libya’s largest operational oil facility.",
+      "The fire was ignited by a drone attack.",
+      "The National Oil Corporation (NOC) has indicated a potential suspension of operations due to the attacks.",
+      "There have been no reports of serious injuries or casualties."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the refinery has a capacity of 120,000 barrels per day.",
+      "[aljazeera] claims the refinery is located 40km west of Tripoli.",
+      "[aljazeera] claims the fire resulted in patients being treated for smoke inhalation.",
+      "[aljazeera] claims the attacks were carried out by 'unknown attackers'."
+    ],
+    "framing_differences": [
+      "Both provided texts are attributed to Al Jazeera and align in their framing of the event as an operational crisis for the National Oil Corporation."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the fire was specifically caused by ignited gasoline.",
+      "[aljazeera] claims there have been 'days of strikes' preceding the current fire."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'rages' to describe the fire."
+    ],
+    "safe_conclusions": [
+      "A drone strike caused a fire at the Zawiya refinery in Libya.",
+      "The National Oil Corporation is assessing potential operational shutdowns due to recent attacks.",
+      "No serious casualties have been reported from the incident."
+    ],
+    "unknowns": [
+      "The specific identity of the entities responsible for the drone attacks.",
+      "The exact extent of the damage to the refinery infrastructure.",
+      "The timeline or specific frequency of the preceding attacks mentioned."
+    ],
+    "synthesis": "A drone attack caused a fire at Libya’s largest operational oil facility, the Zawiya refinery. While no serious injuries were reported, the National Oil Corporation is considering a suspension of operations due to ongoing threats. Emergency services confirmed that medical treatment for those affected was primarily for smoke inhalation.",
+    "confidence": "HIGH. Both provided texts originate from the same source and share consistent factual reporting regarding the event.",
+    "sources": [
+      {
+        "id": "art_1786424172900_lh4u0",
+        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
+      },
+      {
+        "id": "art_1786424178675_l64pl",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f4732a99a10e7dbbfb3fe7175593d107",
+    "topic_label": "Colombia earthquake disaster",
+    "event_window_start": "2026-08-10T22:35:48.000Z",
+    "event_window_end": "2026-08-10T21:48:23.000Z",
+    "article_ids": [
+      "art_1786424186311_1skrv",
+      "art_1786418736762_fgvzt",
+      "art_1786411751152_gswzt",
+      "art_1786405141267_jtw3w",
+      "art_1786405149826_agx36",
+      "art_1786405151941_4f1x0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A 7.4-magnitude earthquake struck western Colombia.",
+      "Abelardo de la Espriella is the president of Colombia.",
+      "A state of emergency or national disaster has been declared by the Colombian government.",
+      "Buildings collapsed and the earthquake caused casualties."
+    ],
+    "source_claims": [
+      "[aljazeera] President Abelardo De La Espriella announced a suspension of his schedule to lead emergency rescue efforts.",
+      "[bbc] The earthquake struck at 07:34 (12:34 GMT) at a depth of 103km in Chocó province.",
+      "[bbc] The epicentre was near the village of San José del Palmar.",
+      "[guardian] 87 people have been injured.",
+      "[guardian] Approximately 1,600 buildings were damaged, with at least 61 completely collapsed.",
+      "[guardian] The event is the largest earthquake to hit Colombia so far this century."
+    ],
+    "framing_differences": [
+      "BBC frames the event focus around the geological data and the specific impact in the coffee-growing region of Pereira, whereas Al Jazeera and The Guardian focus heavily on the presidential response and specific visual reports of military and airport locations."
+    ],
+    "contested_claims": [
+      "The total death toll is reported as 132 by BBC, while Al Jazeera and The Guardian report at least 111 deaths."
+    ],
+    "unverified_claims": [
+      "[bbc] The death toll is likely to rise.",
+      "[aljazeera] The earthquake caused 'utter panic' at Pereira airport."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'Moment of terror' to describe the situation at the airport.",
+      "[aljazeera] uses the term 'utter panic' to describe the conditions at the airport.",
+      "[guardian] uses the phrase 'aftermath of earthquake' to describe the context of the collapsed buildings."
+    ],
+    "safe_conclusions": [
+      "A 7.4-magnitude earthquake occurred in Colombia resulting in building collapses and fatalities."
+    ],
+    "unknowns": [
+      "The final confirmed death toll.",
+      "The exact number of individuals currently trapped under debris.",
+      "The full extent of damage across all affected provinces."
+    ],
+    "synthesis": "A 7.4-magnitude earthquake struck western Colombia, resulting in building collapses and a declared state of national disaster. President Abelardo de la Espriella has directed government efforts toward rescue operations. Reporting on the number of casualties varies between 111 and 132 fatalities across the provided sources.",
+    "confidence": "MEDIUM: CONTESTED: There is a direct discrepancy in the reported death toll between the BBC and other sources.",
+    "sources": [
+      {
+        "id": "art_1786424186311_1skrv",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/colombias-espriella-to-lead-emergency-efforts-following-bogota-earthquake?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Colombia’s Espriella to lead emergency efforts following Bogota earthquake"
+      },
+      {
+        "id": "art_1786418736762_fgvzt",
+        "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 132 killed in Colombia's largest  earthquake in years"
+      },
+      {
+        "id": "art_1786411751152_gswzt",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/soldiers-take-cover-as-colombia-quake-flattens-military-barracks?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Soldiers take cover as Colombia quake flattens military barracks"
+      },
+      {
+        "id": "art_1786405141267_jtw3w",
+        "url": "https://www.theguardian.com/world/live/2026/aug/10/74-magnitude-earthquake-shakes-colombia-causing-serious-damage-latest-news",
+        "source": "guardian",
+        "title": "Colombia earthquake live updates: more than 100 dead and buildings collapsed after 7.4-magnitude quake"
+      },
+      {
+        "id": "art_1786405149826_agx36",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/moment-of-terror-as-powerful-earthquake-shakes-airport-in-colombia?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Moment of terror as powerful earthquake shakes airport in Colombia"
+      },
+      {
+        "id": "art_1786405151941_4f1x0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/08-11-2026-colombia-alessandro-rampietti-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Al Jazeera reporter on the ground as Colombia quake death toll rises"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "78a63cbe59ef15009a5412c0dfa8b739",
+    "topic_label": "Trump Iran threat evasion reports",
+    "event_window_start": "2026-08-11T02:17:00.000Z",
+    "event_window_end": "2026-08-11T02:29:56.000Z",
+    "article_ids": [
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump attended a NATO summit in Turkey.",
+      "Reports indicate Donald Trump used an airport catering truck/cart as part of a transport maneuver.",
+      "The maneuver involved using an older Air Force One jet as a decoy.",
+      "The security measures were reportedly prompted by a threat from Iran.",
+      "Donald Trump boarded a smaller, separate U.S. military aircraft to depart Turkey."
+    ],
+    "source_claims": [
+      "[guardian] reports the ruse was an 'extraordinary ruse' to return from a Nato meet.",
+      "[fox] reports Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
+      "[fox] reports Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
+    ],
+    "framing_differences": [
+      "The Guardian frames the event as an 'elaborate ruse' involving a catering cart, while Fox focuses on the president's own comments regarding his status on an Iranian 'kill list' and the specific aircraft used to arrive in Turkey."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims the president was hidden inside the catering cart.",
+      "[fox] claims the aircraft used to arrive in Turkey was a Boeing 747-8 donated by Qatar."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'elaborate ruse' to describe the transit method.",
+      "[guardian] uses the term 'extraordinary ruse' to describe the operation."
+    ],
+    "safe_conclusions": [
+      "Donald Trump participated in a departure maneuver involving multiple aircraft and a catering vehicle while in Turkey for a NATO summit.",
+      "Security concerns related to Iran were cited as the reason for the transport strategy."
+    ],
+    "unknowns": [
+      "The specific technical details of how the catering vehicle was utilized.",
+      "Confirmation of the exact aircraft models used beyond the mentions of 'Air Force One' and 'smaller U.S. military aircraft'."
+    ],
+    "synthesis": "Reports indicate that Donald Trump utilized a security maneuver involving a catering vehicle and a decoy aircraft to depart a NATO summit in Turkey. The operation was reportedly conducted in response to a security threat posed by Iran. Sources agree that the president ultimately departed on a smaller military aircraft after the decoy jet was observed by cameras.",
+    "confidence": "HIGH. Both sources cite reporting from the Washington Post and provide consistent accounts of the core security maneuver.",
+    "sources": [
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1b26fe13a9cf13c15de6be82911870d5",
+    "topic_label": "Gaza conflict and peace talks",
+    "event_window_start": "2026-08-10T07:43:01.000Z",
+    "event_window_end": "2026-08-11T00:00:19.000Z",
+    "article_ids": [
+      "art_1786411760809_7lala",
+      "art_1786357431030_y2r21",
+      "art_1786352677428_yk9dw"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Benjamin Netanyahu has rejected a U.S.-brokered 15-point peace plan for Gaza.",
+      "Israeli military operations in Gaza have resulted in Palestinian casualties."
+    ],
+    "source_claims": [
+      "[aljazeera] Israel’s prime minister Benjamin Netanyahu rejects the U.S.-brokered 15-point peace plan for Gaza.",
+      "[guardian] Benjamin Netanyahu is insisting on a full Hamas disarmament before the peace plan can be implemented.",
+      "[guardian] Benjamin Netanyahu stated he is confronting a wave of rumours regarding Israeli weakness and withdrawals.",
+      "[aljazeera] Israeli forces shot and killed one Palestinian east of Deir el-Balah on Saturday.",
+      "[aljazeera] The Gaza Ministry of Health confirmed receiving the bodies of two Palestinians killed in Israeli attacks."
+    ],
+    "framing_differences": [
+      "Aljazeera frames Netanyahu's rejection of the peace plan as a potential risk to his relationship with Donald Trump, while The Guardian frames it as a rare public break between the two leaders."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Trump’s Board of Peace proposed a 15-point plan in July mandating Hamas disarmament in exchange for full Israeli military withdrawal.",
+      "[aljazeera] Several people were wounded when an Israeli tank opened fire on tents sheltering displaced people."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'war-shattered' to describe the Gaza enclave.",
+      "[guardian] uses the term 'rebuked' to describe Netanyahu's response to U.S. pressure."
+    ],
+    "safe_conclusions": [
+      "Benjamin Netanyahu has formally rejected the 15-point U.S.-brokered peace plan for Gaza.",
+      "Casualties among Palestinians continue to be reported in the Gaza Strip."
+    ],
+    "unknowns": [
+      "The specific full content of the 15-point peace plan beyond the summary provided.",
+      "The precise diplomatic repercussions for Benjamin Netanyahu regarding his rejection of the plan.",
+      "The current status of any active negotiations between the U.S. and Israel regarding the Gaza conflict."
+    ],
+    "synthesis": "Israeli Prime Minister Benjamin Netanyahu has publicly rejected a 15-point U.S.-backed peace plan for Gaza, citing conditions regarding Hamas disarmament and broader regional security concerns. Simultaneously, reports from Gaza indicate ongoing casualties resulting from Israeli military operations, including recent fatalities in Deir el-Balah. The situation reflects a public disagreement between the Israeli government and U.S. leadership regarding the path to conflict resolution.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "id": "art_1786411760809_7lala",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
+      },
+      {
+        "id": "art_1786357431030_y2r21",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/first-thing-netanyahu-rejects-us-backed-gaza-peace-plan",
+        "source": "guardian",
+        "title": "Netanyahu rejects US-backed 15-point Gaza peace plan | First Thing"
+      },
+      {
+        "id": "art_1786352677428_yk9dw",
+        "url": "https://www.aljazeera.com/news/2026/8/10/israeli-forces-kill-one-in-gaza-as-another-body-recovered-from-rubble?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli forces kill one in Gaza as another body recovered from rubble"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
+    "topic_label": "Trump vaccine policy",
+    "event_window_start": "2026-08-10T22:28:20.000Z",
+    "event_window_end": "2026-08-11T02:08:55.000Z",
+    "article_ids": [
+      "art_1786418735624_613p3",
+      "art_1786405146469_zcci4",
+      "art_1786405154154_10oor"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T03:37:30.577Z",
+    "updated_at": "2026-08-11T03:37:30.577Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump signed an executive order regarding childhood vaccinations.",
+      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
+      "The executive order calls for a reduction in the number of childhood vaccines."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
+      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
+      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
+      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
+      "[guardian] claims the order requires shots be given at separate medical visits.",
+      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
+    ],
+    "framing_differences": [
+      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
+      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
+    ],
+    "contested_claims": [
+      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
+    ],
+    "unverified_claims": [
+      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
+      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
+    ],
+    "unknowns": [
+      "The specific implementation timeline for the executive order.",
+      "The legal standing of the order relative to existing CDC authority.",
+      "How the transition to separate MMR shots will be managed in the US healthcare system."
+    ],
+    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
+    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
+    "sources": [
+      {
+        "id": "art_1786418735624_613p3",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
+      },
+      {
+        "id": "art_1786405146469_zcci4",
+        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
+      },
+      {
+        "id": "art_1786405154154_10oor",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
+        "source": "guardian",
+        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "127904b9f730ff72239aa33812b16e62",
+    "topic_label": "Record European Heatwave",
+    "event_window_start": "2026-08-10T07:11:03.000Z",
+    "event_window_end": "2026-08-10T10:21:08.000Z",
+    "article_ids": [
+      "art_1786361876543_46svn",
+      "art_1786357432264_hdw5u",
+      "art_1786347091674_c4qec"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-10T12:14:37.087Z",
+    "updated_at": "2026-08-10T12:14:37.087Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Western Europe is experiencing a period of high temperatures.",
+      "Data or forecasts regarding temperature trends have been discussed in relation to the current season."
+    ],
+    "source_claims": [
+      "[aljazeera] The Copernicus Climate Change Service reported Western Europe's average temperature for June and July was 21.62C, which is 2.79C above average.",
+      "[aljazeera] Soil moisture levels are significantly lower than they were in July 2022.",
+      "[guardian] The UK is facing the fifth heatwave of the summer.",
+      "[guardian] The UK Met Office is considering amber or red heat warnings.",
+      "[guardian] Temperatures in parts of the UK could reach 36C or higher this week."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the event through the lens of historical climate data and regional records provided by the European Union’s climate change monitor. The Guardian frames the event through immediate public safety alerts, weather forecasts, and the specific operational impact on UK infrastructure."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] July 2026 was the third consecutive month of exceptional heat in Western Europe.",
+      "[guardian] Whole of Wales and half of England have already been declared as experiencing drought conditions."
+    ],
+    "loaded_language": [
+      "[guardian] uses the phrase 'continues to bake' to describe the weather conditions."
+    ],
+    "safe_conclusions": [
+      "Western Europe is experiencing a period of elevated temperatures.",
+      "Meteorological monitors and agencies are issuing warnings or reports regarding heat and dryness."
+    ],
+    "unknowns": [
+      "The specific impact of current heat levels on individual water utilities beyond general concerns.",
+      "The exact start and end dates of the 'fifth heatwave' mentioned by the Guardian."
+    ],
+    "synthesis": "The Copernicus Climate Change Service reports that Western Europe has reached record average temperatures for June and July, noting significantly low soil moisture levels. Simultaneously, the UK is bracing for a potential fifth heatwave with forecasted temperatures reaching 36C, prompting considerations for amber or red warnings. Public health and infrastructure safety remain primary focuses of the current reporting in the United Kingdom.",
+    "confidence": "HIGH. While the sources cover different geographic scopes and timeframes, their reports of high temperatures and dry conditions are consistent.",
+    "sources": [
+      {
+        "id": "art_1786361876543_46svn",
+        "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "June and July hottest on record in Western Europe, monitor says"
+      },
+      {
+        "id": "art_1786357432264_hdw5u",
+        "url": "https://www.theguardian.com/uk-news/live/2026/aug/10/england-drought-declared-another-summer-heatwave-hot-weather-latest-news-updates",
+        "source": "guardian",
+        "title": "Amber heat-health alerts issued for most of England as temperatures could reach 36C or higher this week – latest updates"
+      },
+      {
+        "id": "art_1786347091674_c4qec",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/10/uk-temperatures-heatwave-summer-met-office-warning",
+        "source": "guardian",
+        "title": "UK temperatures could hit 36C as fifth heatwave of summer looms"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "cdb886cee3eb476a3ae619f2d1710f80",
+    "topic_label": "Ukrainian Drone Attacks on Russia",
+    "event_window_start": "2026-08-10T08:45:53.000Z",
+    "event_window_end": "2026-08-10T10:55:38.000Z",
+    "article_ids": [
+      "art_1786361873294_rdw29",
+      "art_1786357435976_hmtp8",
+      "art_1786352669496_l7pi4"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-10T12:14:37.087Z",
+    "updated_at": "2026-08-10T12:14:37.087Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A drone attack took place in the city of Nizhnekamsk, located in the Tatarstan region of Russia.",
+      "The attack targeted or affected oil infrastructure.",
+      "Russian authorities confirmed casualties resulting from the attack."
+    ],
+    "source_claims": [
+      "[aljazeera] claims at least 13 people were killed and 39 wounded.",
+      "[bbc] claims at least 13 people were killed and 75 wounded, and that Kyiv had not commented on the strike at the time of publication.",
+      "[guardian] claims 12 people were killed and 39 wounded, and that Ukraine previously hit the facility in June.",
+      "[aljazeera] claims Ukraine's military confirmed an attack on an oil facility.",
+      "[bbc] claims Ukraine's Armed Forces confirmed the Tanevo oil refinery was hit and that manufacturer FirePoint used FP-1 drones.",
+      "[aljazeera] claims the Russian defence ministry intercepted more than 450 drones.",
+      "[guardian] claims Russia reported shooting down 456 drones."
+    ],
+    "framing_differences": [
+      "[aljazeera] focuses on the regional head's reaction and the distance from Moscow, while [bbc] emphasizes the scale of the casualties in the context of the overall war and [guardian] connects the event to broader strategic pressure cited by President Zelenskyy."
+    ],
+    "contested_claims": [
+      "Sources differ on the total death toll, with [aljazeera] and [bbc] reporting 13, and [guardian] reporting 12.",
+      "Sources differ on the total number of injuries, with [aljazeera] and [guardian] reporting 39, while [bbc] reports 75."
+    ],
+    "unverified_claims": [
+      "[bbc] claims FirePoint manufacturer said its FP-1 drones were used in the attack.",
+      "[aljazeera] claims the city is 800km from Moscow, whereas [bbc] states it is over 1,100km from the Ukrainian border, and [guardian] states it is 1,000km within Russia."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'barbaric' to describe the attack, attributing it to regional head Rustam Minnikhanov."
+    ],
+    "safe_conclusions": [
+      "A drone attack occurred in Nizhnekamsk, Russia, which resulted in fatalities and injuries among the local population.",
+      "The target of the operation included infrastructure related to oil refining."
+    ],
+    "unknowns": [
+      "The precise number of casualties remains inconsistent across reports.",
+      "The exact number of drones launched and the number of those that successfully reached their targets remains unconfirmed.",
+      "There is conflicting information regarding the distance of the city from the Ukrainian border or Moscow."
+    ],
+    "synthesis": "A drone strike occurred in the Russian city of Nizhnekamsk, resulting in multiple casualties and damage to an oil refining facility. Reports on the specific death toll and injury count vary between the provided sources. While Russian authorities reported the event as an attack on civilian infrastructure, Ukrainian military and political figures have framed strikes on oil facilities as a means to increase pressure on Moscow.",
+    "confidence": "CONTESTED. While there is consensus that an attack occurred, there are notable discrepancies in the reported casualty figures and the distance measurements provided by different sources.",
+    "sources": [
+      {
+        "id": "art_1786361873294_rdw29",
+        "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least 13 killed in Ukrainian drone attack on Russia’s Nizhnekamsk"
+      },
+      {
+        "id": "art_1786357435976_hmtp8",
+        "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say"
+      },
+      {
+        "id": "art_1786352669496_l7pi4",
+        "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news",
+        "source": "guardian",
+        "title": "Ukraine launches drone attack on Russian oil refining facilities – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "da72469bd38e4411bd433efaa6542d34",
+    "topic_label": "ICE Force-Feeding Allegations",
+    "event_window_start": "2026-08-10T10:00:40.000Z",
+    "event_window_end": "2026-08-10T10:00:43.000Z",
+    "article_ids": [
+      "art_1786357439404_98rly",
+      "art_1786357442895_dfwkb"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-10T12:14:37.087Z",
+    "updated_at": "2026-08-10T12:14:37.087Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Gabar Choli is a Kurdish filmmaker and asylum seeker.",
+      "Gabar Choli was held in US immigration detention at the Port Isabel service processing center in Texas.",
+      "Gabar Choli engaged in a hunger strike while in detention.",
+      "Gabar Choli was subjected to force-feeding while in detention.",
+      "Gabar Choli was eventually deported and now resides in Canada."
+    ],
+    "source_claims": [
+      "[guardian] Claims the force-feeding occurred over the course of eight months.",
+      "[guardian] Claims the force-feeding practice is widely considered torture by international human rights groups.",
+      "[guardian] Claims Choli's asylum application was denied.",
+      "[guardian] Claims the force-feeding was conducted often twice a day.",
+      "[guardian] Claims the treatment left Choli with physical and emotional scars."
+    ],
+    "framing_differences": [
+      "Both articles provided are from the same source, The Guardian, and present a consistent narrative focused on the personal experience and psychological impact of the detention on Gabar Choli."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims the detention facility is associated with an 'anti-immigration crackdown' under Donald Trump."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'inhumane' to describe the force-feeding process.",
+      "[guardian] uses the term 'coercive treatment' to describe the force-feeding process."
+    ],
+    "safe_conclusions": [
+      "Gabar Choli was a detainee at the Port Isabel service processing center.",
+      "Gabar Choli underwent force-feeding while detained.",
+      "Gabar Choli is no longer in US custody."
+    ],
+    "unknowns": [
+      "The specific medical protocols followed by the detention facility during the force-feeding process.",
+      "The official legal status of the asylum claim at the time of detention.",
+      "Verification of the 'eight-month' duration from official ICE records."
+    ],
+    "synthesis": "Kurdish filmmaker Gabar Choli reports that he was subjected to force-feeding during his detention at the Port Isabel service processing center in Texas. Choli, who was on a hunger strike while seeking asylum, stated that the practice caused him significant physical and psychological harm. Following his deportation, he currently resides in Canada.",
+    "confidence": "HIGH. Both reports are from the same source and provide a consistent account of the subject's claims regarding his experience in detention.",
+    "sources": [
+      {
+        "id": "art_1786357439404_98rly",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
+        "source": "guardian",
+        "title": "‘Shoved the tube so hard it tore my nose’: Kurdish film-maker recounts ‘inhumane’ ICE force-feeding"
+      },
+      {
+        "id": "art_1786357442895_dfwkb",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/kurdish-hunger-striker-ice-force-feeding",
+        "source": "guardian",
+        "title": "Kurdish hunger striker says ICE force-feeding ‘mentally broke me’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "348437660b866f8f159bc45c6f73e6fc",
     "topic_label": "Colombia 7.4-magnitude earthquake",
     "event_window_start": "2026-08-10T22:35:48.000Z",
@@ -371,174 +1020,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations",
         "source": "guardian",
         "title": "Typhoon Dolphin: more than a million people evacuated in China as record rainfall dumped on Shanghai"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cdb886cee3eb476a3ae619f2d1710f80",
-    "topic_label": "Ukrainian Drone Attacks on Russia",
-    "event_window_start": "2026-08-10T08:45:53.000Z",
-    "event_window_end": "2026-08-10T10:55:38.000Z",
-    "article_ids": [
-      "art_1786361873294_rdw29",
-      "art_1786357435976_hmtp8",
-      "art_1786352669496_l7pi4"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-10T12:14:37.087Z",
-    "updated_at": "2026-08-10T12:14:37.087Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A drone attack took place in the city of Nizhnekamsk, located in the Tatarstan region of Russia.",
-      "The attack targeted or affected oil infrastructure.",
-      "Russian authorities confirmed casualties resulting from the attack."
-    ],
-    "source_claims": [
-      "[aljazeera] claims at least 13 people were killed and 39 wounded.",
-      "[bbc] claims at least 13 people were killed and 75 wounded, and that Kyiv had not commented on the strike at the time of publication.",
-      "[guardian] claims 12 people were killed and 39 wounded, and that Ukraine previously hit the facility in June.",
-      "[aljazeera] claims Ukraine's military confirmed an attack on an oil facility.",
-      "[bbc] claims Ukraine's Armed Forces confirmed the Tanevo oil refinery was hit and that manufacturer FirePoint used FP-1 drones.",
-      "[aljazeera] claims the Russian defence ministry intercepted more than 450 drones.",
-      "[guardian] claims Russia reported shooting down 456 drones."
-    ],
-    "framing_differences": [
-      "[aljazeera] focuses on the regional head's reaction and the distance from Moscow, while [bbc] emphasizes the scale of the casualties in the context of the overall war and [guardian] connects the event to broader strategic pressure cited by President Zelenskyy."
-    ],
-    "contested_claims": [
-      "Sources differ on the total death toll, with [aljazeera] and [bbc] reporting 13, and [guardian] reporting 12.",
-      "Sources differ on the total number of injuries, with [aljazeera] and [guardian] reporting 39, while [bbc] reports 75."
-    ],
-    "unverified_claims": [
-      "[bbc] claims FirePoint manufacturer said its FP-1 drones were used in the attack.",
-      "[aljazeera] claims the city is 800km from Moscow, whereas [bbc] states it is over 1,100km from the Ukrainian border, and [guardian] states it is 1,000km within Russia."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'barbaric' to describe the attack, attributing it to regional head Rustam Minnikhanov."
-    ],
-    "safe_conclusions": [
-      "A drone attack occurred in Nizhnekamsk, Russia, which resulted in fatalities and injuries among the local population.",
-      "The target of the operation included infrastructure related to oil refining."
-    ],
-    "unknowns": [
-      "The precise number of casualties remains inconsistent across reports.",
-      "The exact number of drones launched and the number of those that successfully reached their targets remains unconfirmed.",
-      "There is conflicting information regarding the distance of the city from the Ukrainian border or Moscow."
-    ],
-    "synthesis": "A drone strike occurred in the Russian city of Nizhnekamsk, resulting in multiple casualties and damage to an oil refining facility. Reports on the specific death toll and injury count vary between the provided sources. While Russian authorities reported the event as an attack on civilian infrastructure, Ukrainian military and political figures have framed strikes on oil facilities as a means to increase pressure on Moscow.",
-    "confidence": "CONTESTED. While there is consensus that an attack occurred, there are notable discrepancies in the reported casualty figures and the distance measurements provided by different sources.",
-    "sources": [
-      {
-        "id": "art_1786361873294_rdw29",
-        "url": "https://www.aljazeera.com/news/2026/8/10/at-least-13-killed-in-ukrainian-drone-attack-on-russias-nizhnekamsk?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At least 13 killed in Ukrainian drone attack on Russia’s Nizhnekamsk"
-      },
-      {
-        "id": "art_1786357435976_hmtp8",
-        "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least 13 killed in Ukrainian strike on Russia's Tatarstan region, officials say"
-      },
-      {
-        "id": "art_1786352669496_l7pi4",
-        "url": "https://www.theguardian.com/world/live/2026/aug/10/ukraine-drones-russia-oil-facilities-europe-heat-drought-latest-updates-news",
-        "source": "guardian",
-        "title": "Ukraine launches drone attack on Russian oil refining facilities – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
-    "topic_label": "Trump vaccine policy",
-    "event_window_start": "2026-08-10T22:28:20.000Z",
-    "event_window_end": "2026-08-11T02:08:55.000Z",
-    "article_ids": [
-      "art_1786418735624_613p3",
-      "art_1786405146469_zcci4",
-      "art_1786405154154_10oor"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T03:37:30.577Z",
-    "updated_at": "2026-08-11T03:37:30.577Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump signed an executive order regarding childhood vaccinations.",
-      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
-      "The executive order calls for a reduction in the number of childhood vaccines."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
-      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
-      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
-      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
-      "[guardian] claims the order requires shots be given at separate medical visits.",
-      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
-    ],
-    "framing_differences": [
-      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
-      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
-    ],
-    "contested_claims": [
-      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
-    ],
-    "unverified_claims": [
-      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
-      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
-    ],
-    "unknowns": [
-      "The specific implementation timeline for the executive order.",
-      "The legal standing of the order relative to existing CDC authority.",
-      "How the transition to separate MMR shots will be managed in the US healthcare system."
-    ],
-    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
-    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
-    "sources": [
-      {
-        "id": "art_1786418735624_613p3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
-      },
-      {
-        "id": "art_1786405146469_zcci4",
-        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
-      },
-      {
-        "id": "art_1786405154154_10oor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
-        "source": "guardian",
-        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -1774,80 +2255,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/10/houthis-renew-missile-and-drone-attacks-on-yemens-port-of-al-makha?traffic_source=rss",
         "source": "aljazeera",
         "title": "Houthis renew missile and drone attacks on Yemen’s port of al-Makha"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "da72469bd38e4411bd433efaa6542d34",
-    "topic_label": "ICE Force-Feeding Allegations",
-    "event_window_start": "2026-08-10T10:00:40.000Z",
-    "event_window_end": "2026-08-10T10:00:43.000Z",
-    "article_ids": [
-      "art_1786357439404_98rly",
-      "art_1786357442895_dfwkb"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-10T12:14:37.087Z",
-    "updated_at": "2026-08-10T12:14:37.087Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Gabar Choli is a Kurdish filmmaker and asylum seeker.",
-      "Gabar Choli was held in US immigration detention at the Port Isabel service processing center in Texas.",
-      "Gabar Choli engaged in a hunger strike while in detention.",
-      "Gabar Choli was subjected to force-feeding while in detention.",
-      "Gabar Choli was eventually deported and now resides in Canada."
-    ],
-    "source_claims": [
-      "[guardian] Claims the force-feeding occurred over the course of eight months.",
-      "[guardian] Claims the force-feeding practice is widely considered torture by international human rights groups.",
-      "[guardian] Claims Choli's asylum application was denied.",
-      "[guardian] Claims the force-feeding was conducted often twice a day.",
-      "[guardian] Claims the treatment left Choli with physical and emotional scars."
-    ],
-    "framing_differences": [
-      "Both articles provided are from the same source, The Guardian, and present a consistent narrative focused on the personal experience and psychological impact of the detention on Gabar Choli."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims the detention facility is associated with an 'anti-immigration crackdown' under Donald Trump."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'inhumane' to describe the force-feeding process.",
-      "[guardian] uses the term 'coercive treatment' to describe the force-feeding process."
-    ],
-    "safe_conclusions": [
-      "Gabar Choli was a detainee at the Port Isabel service processing center.",
-      "Gabar Choli underwent force-feeding while detained.",
-      "Gabar Choli is no longer in US custody."
-    ],
-    "unknowns": [
-      "The specific medical protocols followed by the detention facility during the force-feeding process.",
-      "The official legal status of the asylum claim at the time of detention.",
-      "Verification of the 'eight-month' duration from official ICE records."
-    ],
-    "synthesis": "Kurdish filmmaker Gabar Choli reports that he was subjected to force-feeding during his detention at the Port Isabel service processing center in Texas. Choli, who was on a hunger strike while seeking asylum, stated that the practice caused him significant physical and psychological harm. Following his deportation, he currently resides in Canada.",
-    "confidence": "HIGH. Both reports are from the same source and provide a consistent account of the subject's claims regarding his experience in detention.",
-    "sources": [
-      {
-        "id": "art_1786357439404_98rly",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/ice-force-feeding-detention-gabar-choli",
-        "source": "guardian",
-        "title": "‘Shoved the tube so hard it tore my nose’: Kurdish film-maker recounts ‘inhumane’ ICE force-feeding"
-      },
-      {
-        "id": "art_1786357442895_dfwkb",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/kurdish-hunger-striker-ice-force-feeding",
-        "source": "guardian",
-        "title": "Kurdish hunger striker says ICE force-feeding ‘mentally broke me’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -4924,83 +5331,6 @@
         "url": "https://www.foxnews.com/outkick-sports/sports-illustrated-edits-sophie-cunningham-karma-headline-creating-social-media-firestorm",
         "source": "fox",
         "title": "Sports Illustrated edits Sophie Cunningham 'karma' headline after creating social media firestorm"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "127904b9f730ff72239aa33812b16e62",
-    "topic_label": "Record European Heatwave",
-    "event_window_start": "2026-08-10T07:11:03.000Z",
-    "event_window_end": "2026-08-10T10:21:08.000Z",
-    "article_ids": [
-      "art_1786361876543_46svn",
-      "art_1786357432264_hdw5u",
-      "art_1786347091674_c4qec"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-10T12:14:37.087Z",
-    "updated_at": "2026-08-10T12:14:37.087Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Western Europe is experiencing a period of high temperatures.",
-      "Data or forecasts regarding temperature trends have been discussed in relation to the current season."
-    ],
-    "source_claims": [
-      "[aljazeera] The Copernicus Climate Change Service reported Western Europe's average temperature for June and July was 21.62C, which is 2.79C above average.",
-      "[aljazeera] Soil moisture levels are significantly lower than they were in July 2022.",
-      "[guardian] The UK is facing the fifth heatwave of the summer.",
-      "[guardian] The UK Met Office is considering amber or red heat warnings.",
-      "[guardian] Temperatures in parts of the UK could reach 36C or higher this week."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the event through the lens of historical climate data and regional records provided by the European Union’s climate change monitor. The Guardian frames the event through immediate public safety alerts, weather forecasts, and the specific operational impact on UK infrastructure."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] July 2026 was the third consecutive month of exceptional heat in Western Europe.",
-      "[guardian] Whole of Wales and half of England have already been declared as experiencing drought conditions."
-    ],
-    "loaded_language": [
-      "[guardian] uses the phrase 'continues to bake' to describe the weather conditions."
-    ],
-    "safe_conclusions": [
-      "Western Europe is experiencing a period of elevated temperatures.",
-      "Meteorological monitors and agencies are issuing warnings or reports regarding heat and dryness."
-    ],
-    "unknowns": [
-      "The specific impact of current heat levels on individual water utilities beyond general concerns.",
-      "The exact start and end dates of the 'fifth heatwave' mentioned by the Guardian."
-    ],
-    "synthesis": "The Copernicus Climate Change Service reports that Western Europe has reached record average temperatures for June and July, noting significantly low soil moisture levels. Simultaneously, the UK is bracing for a potential fifth heatwave with forecasted temperatures reaching 36C, prompting considerations for amber or red warnings. Public health and infrastructure safety remain primary focuses of the current reporting in the United Kingdom.",
-    "confidence": "HIGH. While the sources cover different geographic scopes and timeframes, their reports of high temperatures and dry conditions are consistent.",
-    "sources": [
-      {
-        "id": "art_1786361876543_46svn",
-        "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "June and July hottest on record in Western Europe, monitor says"
-      },
-      {
-        "id": "art_1786357432264_hdw5u",
-        "url": "https://www.theguardian.com/uk-news/live/2026/aug/10/england-drought-declared-another-summer-heatwave-hot-weather-latest-news-updates",
-        "source": "guardian",
-        "title": "Amber heat-health alerts issued for most of England as temperatures could reach 36C or higher this week – latest updates"
-      },
-      {
-        "id": "art_1786347091674_c4qec",
-        "url": "https://www.theguardian.com/uk-news/2026/aug/10/uk-temperatures-heatwave-summer-met-office-warning",
-        "source": "guardian",
-        "title": "UK temperatures could hit 36C as fifth heatwave of summer looms"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20268,478 +20598,6 @@
         "url": "https://www.aljazeera.com/video/inside-story/2026/8/7/can-diplomacy-end-the-conflict-in-libya?traffic_source=rss",
         "source": "aljazeera",
         "title": "Can diplomacy end the conflict in Libya?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "29a92fed7f24af937118255588561bd2",
-    "topic_label": "Middle East Conflicts and Diplomacy",
-    "event_window_start": "2026-08-07T20:39:26.000Z",
-    "event_window_end": "2026-08-08T19:18:57.000Z",
-    "article_ids": [
-      "art_1786217596080_xzzr1",
-      "art_1786217599180_a2w5m",
-      "art_1786217603366_no1zk",
-      "art_1786203772599_ylkff",
-      "art_1786203773688_h97ix",
-      "art_1786203780947_a6j5d",
-      "art_1786190404113_w7xcj",
-      "art_1786190416801_ygei7",
-      "art_1786190417923_wbtm9",
-      "art_1786159693995_jf4sy",
-      "art_1786159696055_qxdii",
-      "art_1786153776569_uiq6y",
-      "art_1786153785108_w6utx",
-      "art_1786144291900_0izxv",
-      "art_1786137397224_t16n3"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 15,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T19:58:39.118Z",
-    "updated_at": "2026-08-08T19:58:39.118Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Regional conflicts involving Iran, Israel, the US, and various local actors are ongoing.",
-      "The Strait of Hormuz is currently experiencing significant disruption to shipping."
-    ],
-    "source_claims": [
-      "[bbc] Iran's Foreign Minister states talks regarding the Strait of Hormuz are in final stages but contingent on other conditions.",
-      "[aljazeera_lebanon] The Lebanese army reports three soldiers were injured while defusing unexploded ordnance.",
-      "[aljazeera_yemen] Yemeni government forces launched attacks against Houthi positions following missile and drone attacks in Marib and Hadramout.",
-      "[aljazeera_uae] The UAE Ministry of Foreign Affairs accuses Iran of striking an ADNOC tanker with a missile.",
-      "[aljazeera_krd] KRG Prime Minister Masrour Barzani states the Kurdistan region seeks to remain neutral in the ongoing conflict."
-    ],
-    "framing_differences": [
-      "Regarding the Strait of Hormuz, bbc frames the situation as a negotiation process with Oman, whereas aljazeera_uae frames it as a hostile act of piracy by the IRGC."
-    ],
-    "contested_claims": [
-      "Regarding the presence of Israeli troops in the Lebanese village of Zawtar al-Gharbiyah, the village mayor and NNA report Israeli troops built an earth barrier, while the Israeli military states it is not aware of such an event."
-    ],
-    "unverified_claims": [
-      "[aljazeera_uae] An ADNOC tanker was struck by an Iranian missile.",
-      "[aljazeera_krd] The Kurdistan region has been hit by over 1,000 missile and drone attacks since February 28."
-    ],
-    "loaded_language": [
-      "[aljazeera_uae] uses the term 'act of piracy' to describe the reported strike on an ADNOC tanker.",
-      "[aljazeera_krd] uses the term 'unjustified' to describe the missile and drone attacks on Kurdish infrastructure."
-    ],
-    "safe_conclusions": [
-      "Multiple distinct military and diplomatic events are occurring across the Middle East involving Iran, Lebanon, Yemen, the UAE, and the Kurdistan region of Iraq.",
-      "Tensions in the Strait of Hormuz remain high, affecting international shipping operations."
-    ],
-    "unknowns": [
-      "The specific conditions required by Iran to reopen the Strait of Hormuz are not detailed.",
-      "The full extent of damage to the ADNOC tanker is not disclosed.",
-      "The current status of the border conflict in Zawtar al-Gharbiyah remains unconfirmed by independent observers."
-    ],
-    "synthesis": "Recent reports indicate widespread regional instability involving localized military confrontations in Lebanon, Yemen, and Iraq, alongside diplomatic and hostile actions concerning the Strait of Hormuz. Iran is engaged in negotiations regarding the shipping corridor while simultaneously facing accusations of missile strikes against commercial vessels. Various regional governments and semi-autonomous entities are reacting to the ongoing conflict by seeking neutrality, reporting security violations, or initiating military operations.",
-    "confidence": "CONTESTED: While sources report on specific regional events, the fragmented nature of the reports and the lack of independent verification for conflict-related claims indicate significant regional instability with varying accounts of incidents.",
-    "sources": [
-      {
-        "id": "art_1786217596080_xzzr1",
-        "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
-      },
-      {
-        "id": "art_1786217599180_a2w5m",
-        "url": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese soldiers injured while Israeli troops intrude on southern town"
-      },
-      {
-        "id": "art_1786217603366_no1zk",
-        "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government forces attack Houthis amid renewed shelling of Marib"
-      },
-      {
-        "id": "art_1786203772599_ylkff",
-        "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties"
-      },
-      {
-        "id": "art_1786203773688_h97ix",
-        "url": "https://www.aljazeera.com/news/2026/8/8/iraqs-kurdish-region-wants-to-stay-out-of-regional-conflicts-pm-barzani?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iraq’s Kurdish region wants to stay out of regional conflicts: PM Barzani"
-      },
-      {
-        "id": "art_1786203780947_a6j5d",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Phase II: Day 28"
-      },
-      {
-        "id": "art_1786190404113_w7xcj",
-        "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The post-American Middle East is beginning to take shape"
-      },
-      {
-        "id": "art_1786190416801_ygei7",
-        "url": "https://www.foxnews.com/culture/iron-dome-abraham-accords-congressional-trips-shaped-15-years-us-israel-cooperation",
-        "source": "fox",
-        "title": "From Iron Dome to Abraham Accords: Congressional trips helped shape 15 years of US-Israel cooperation"
-      },
-      {
-        "id": "art_1786190417923_wbtm9",
-        "url": "https://www.aljazeera.com/features/2026/8/8/yemens-collapsing-healthcare-forces-the-sick-to-seek-alternative-medicines?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s collapsing healthcare forces the sick to seek alternative medicines"
-      },
-      {
-        "id": "art_1786159693995_jf4sy",
-        "url": "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Pakistan-Saudi-Turkiye alliance actually create a new regional order?"
-      },
-      {
-        "id": "art_1786159696055_qxdii",
-        "url": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Medics among six Palestinians injured in Israeli attacks across West Bank"
-      },
-      {
-        "id": "art_1786153776569_uiq6y",
-        "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could the Mecca defence pact mean for the US role in the Middle East?"
-      },
-      {
-        "id": "art_1786153785108_w6utx",
-        "url": "https://www.aljazeera.com/news/2026/8/8/sudans-war-threatens-an-entire-generations-future-un-warns?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Sudan’s war threatens an ‘entire generation’s’ future, UN warns"
-      },
-      {
-        "id": "art_1786144291900_0izxv",
-        "url": "https://www.aljazeera.com/news/2026/8/7/lebanon-points-to-positive-progress-on-borders-prisoners-in-israel-talks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanon points to ‘positive progress’ on borders, prisoners in Israel talks"
-      },
-      {
-        "id": "art_1786137397224_t16n3",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/7/can-diplomacy-end-the-conflict-in-libya?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can diplomacy end the conflict in Libya?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e5f6474706d129aece5f5b741d27b049",
-    "topic_label": "Wildfires and Natural Disasters",
-    "event_window_start": "2026-08-08T01:18:12.000Z",
-    "event_window_end": "2026-08-08T19:13:03.000Z",
-    "article_ids": [
-      "art_1786217598151_k2y58",
-      "art_1786217605450_r637g",
-      "art_1786203769121_0yt6p",
-      "art_1786153779826_x3z1s"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T19:58:39.118Z",
-    "updated_at": "2026-08-08T19:58:39.118Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Wildfires and natural disasters occurred in multiple global locations, resulting in emergency response efforts."
-    ],
-    "source_claims": [
-      "[aljazeera] At least 200 people were evacuated due to a wildfire in Tignale near Lake Garda, Italy.",
-      "[bbc_canada] A wildfire in British Columbia, Canada, grew to over 36 square miles and forced thousands to evacuate.",
-      "[bbc_typhoon] Typhoon Dolphin caused power outages for at least 44,000 buildings and injured five people in Okinawa, Japan.",
-      "[guardian] A firefighting helicopter crashed in central Utah with two people onboard on Friday morning."
-    ],
-    "framing_differences": [
-      "The BBC sources report on distinct international weather events (a Canadian wildfire and a Japanese typhoon) in separate articles, while Al Jazeera and The Guardian focus on specific, localized emergency incidents in Italy and Utah respectively."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc_canada] Erick Thompson describes the wildfire as one of the quickest-moving and largest fires he has seen in the region.",
-      "[guardian] The exact circumstances of the helicopter crash in Utah are currently unknown."
-    ],
-    "loaded_language": [
-      "[bbc_canada] uses the quote 'It's going crazy' to describe the situation in British Columbia.",
-      "[bbc_typhoon] uses the term 'batters' to describe the typhoon's impact on Okinawa."
-    ],
-    "safe_conclusions": [
-      "Emergency services are responding to various natural hazards and accidents in Italy, Canada, Japan, and the United States."
-    ],
-    "unknowns": [
-      "The survival status of the two passengers in the Utah helicopter crash remains unconfirmed by officials.",
-      "The specific cause of the wildfire near Lake Garda remains unstated."
-    ],
-    "synthesis": "Separate news reports detail multiple emergency events, including a wildfire near Lake Garda, a large-scale fire in British Columbia, a typhoon impacting Japan, and a helicopter crash in Utah. Each incident has prompted active responses from local authorities and emergency personnel. No common cause or connection exists between these geographically distinct events.",
-    "confidence": "HIGH. The sources report on independent, non-conflicting events in different geographical regions.",
-    "sources": [
-      {
-        "id": "art_1786217598151_k2y58",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/at-least-200-people-evacuated-as-wildfire-rages-near-lake-garda?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At least 200 people evacuated as wildfire rages near Lake Garda"
-      },
-      {
-        "id": "art_1786217605450_r637g",
-        "url": "https://www.bbc.co.uk/news/articles/cx25dkwk3e3o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Fast-moving Canada wildfire doubles in size forcing thousands to flee homes"
-      },
-      {
-        "id": "art_1786203769121_0yt6p",
-        "url": "https://www.bbc.co.uk/news/articles/cvglp2zlvrlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Typhoon Dolphin batters Japan's Okinawa before bearing down on China"
-      },
-      {
-        "id": "art_1786153779826_x3z1s",
-        "url": "https://www.theguardian.com/us-news/2026/aug/07/utah-wildfire-helicopter-crash",
-        "source": "guardian",
-        "title": "Helicopter fighting Utah wildfire crashes with two people onboard, officials say"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bcdc2bcf4c126489f08f10569b7ff302",
-    "topic_label": "Bangkok and Idaho Shooting Rampages",
-    "event_window_start": "2026-08-07T21:19:27.000Z",
-    "event_window_end": "2026-08-08T11:31:57.000Z",
-    "article_ids": [
-      "art_1786190405266_jecfv",
-      "art_1786144290871_dv4vq",
-      "art_1786140702193_9dfor",
-      "art_1786140707474_ercuy"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T19:58:39.118Z",
-    "updated_at": "2026-08-08T19:58:39.118Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A mass shooting occurred at an In-N-Out Burger in Twin Falls, Idaho.",
-      "A separate mass shooting occurred at a school in Nonthaburi, Thailand.",
-      "The shooters in both the Thai and Idaho incidents died by suicide."
-    ],
-    "source_claims": [
-      "[aljazeera] A 14-year-old student killed his two grandparents and five staff members at Debsirin Nonthaburi School before dying by suicide.",
-      "[bbc] The shooting in Nonthaburi resulted in eight deaths and 22 injuries, including the shooter.",
-      "[fox] A 24-year-old gunman killed three people and wounded seven others at an In-N-Out Burger in Twin Falls before dying by self-inflicted gunshot.",
-      "[guardian] An unarmed employee from a nearby store engaged the shooter in Twin Falls, potentially preventing further casualties.",
-      "[guardian] Video shows three people confronted the Twin Falls shooter with their own weapons."
-    ],
-    "framing_differences": [
-      "Aljazeera and BBC frame the Thailand event as a tragedy requiring policy changes, while Fox and Guardian frame the Idaho event as a law enforcement timeline investigation.",
-      "Guardian highlights the intervention of an unarmed civilian in the Idaho shooting, while Fox emphasizes the actions of an off-duty trooper and armed citizens."
-    ],
-    "contested_claims": [
-      "There are conflicting reports on the total death toll of the Thailand incident: aljazeera cites nine deaths including the shooter, while bbc cites eight deaths."
-    ],
-    "unverified_claims": [
-      "[aljazeera] A 12-year-old girl died in the hospital following the Thai school shooting."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'chilling' to describe the police video.",
-      "[guardian] uses the word 'violent, frightening and deeply traumatic' to describe the incident."
-    ],
-    "safe_conclusions": [
-      "Two separate mass shootings recently occurred in Thailand and Idaho, resulting in multiple fatalities and subsequent suicides by the perpetrators.",
-      "Police authorities have released video documentation related to the shooting in Twin Falls, Idaho."
-    ],
-    "unknowns": [
-      "The specific identity of the Thai shooter beyond his age.",
-      "The specific motives behind either shooting.",
-      "The exact number of casualties in the Thailand incident given the discrepancy between reporting sources."
-    ],
-    "synthesis": "Recent mass shootings have occurred in Nonthaburi, Thailand, and Twin Falls, Idaho, both resulting in multiple deaths and the suicide of the perpetrators. Thai officials have committed to pursuing stricter gun control legislation in response to the school attack. Police in Idaho have released surveillance and bodycam footage detailing the response of civilians and off-duty law enforcement to the restaurant shooting.",
-    "confidence": "CONTESTED. While the sources are internally consistent, there is a discrepancy in the reported death toll for the Thailand incident between the provided sources.",
-    "sources": [
-      {
-        "id": "art_1786190405266_jecfv",
-        "url": "https://www.aljazeera.com/news/2026/8/8/families-retrieve-bodies-after-deadly-shooting-rampage-outside-bangkok?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Families retrieve bodies after deadly shooting rampage outside Bangkok"
-      },
-      {
-        "id": "art_1786144290871_dv4vq",
-        "url": "https://www.foxnews.com/us/chilling-new-video-shows-armed-citizens-off-duty-trooper-confront-in-n-out-gunman-deadly-rampage",
-        "source": "fox",
-        "title": "Chilling new video shows armed citizens, off-duty trooper confront In-N-Out gunman during deadly rampage"
-      },
-      {
-        "id": "art_1786140702193_9dfor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/07/idaho-police-shooting-in-n-out-burger-video",
-        "source": "guardian",
-        "title": "Idaho police release video of In-N-Out Burger mass shooting that killed three"
-      },
-      {
-        "id": "art_1786140707474_ercuy",
-        "url": "https://www.bbc.co.uk/news/articles/cdewx6rew04o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Thai PM vows to introduce stricter gun laws after eight killed in shooting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f702bdebec6f43e3702ca722f336a71f",
-    "topic_label": "US Political and Legal Developments",
-    "event_window_start": "2026-08-07T20:27:56.000Z",
-    "event_window_end": "2026-08-08T11:26:33.000Z",
-    "article_ids": [
-      "art_1786190407570_ujeib",
-      "art_1786190408718_0hfgu",
-      "art_1786159688764_vgyhz",
-      "art_1786159690902_eg5y7",
-      "art_1786159692970_1w32o",
-      "art_1786153777604_3dbpx",
-      "art_1786144289829_yrxbg",
-      "art_1786140703275_dca1k",
-      "art_1786140708563_79bwg",
-      "art_1786137399349_mm1jp"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 10,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T19:58:39.118Z",
-    "updated_at": "2026-08-08T19:58:39.118Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Senate session concluded early Saturday morning.",
-      "Donald Trump is the current President of the United States."
-    ],
-    "source_claims": [
-      "[guardian] Chuck Schumer stated Todd Blanche's confirmation provides an excuse for 'pervasive, breathtaking corruption'.",
-      "[guardian] Chuck Schumer stated every senator who voted to confirm Todd Blanche is an 'enabler' of corruption.",
-      "[fox] President Trump is urging the Senate to pass the 'SAVE America Act'.",
-      "[fox] President Trump is urging U.S. Attorney Jeanine Pirro to revisit a dropped vandalism case at the Lincoln Memorial Reflecting Pool.",
-      "[aljazeera] The Trump administration sent a letter to Federal Reserve governor Lisa Cook threatening her removal.",
-      "[aljazeera] The Trump administration's letter to Lisa Cook cites unproven allegations of mortgage fraud as a basis for potential removal.",
-      "[fox] Education Secretary Linda McMahon stated the administration is committed to defending women's rights under Title IX."
-    ],
-    "framing_differences": [
-      "guardian frames the confirmation of Todd Blanche as a corruption issue, while fox frames the end of the Senate session primarily around legislative progress on the 'SAVE America Act'.",
-      "aljazeera frames the communication to Lisa Cook as a threat to her position, whereas fox reports on administrative legislative priorities without mentioning internal personnel disputes at the Federal Reserve."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] President Trump claimed that witnesses observed vandalism at the Lincoln Memorial Reflecting Pool and that material was cut with a knife.",
-      "[aljazeera] The Trump administration's letter alleges Lisa Cook committed mortgage fraud."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'pervasive, breathtaking corruption' to describe the administration of President Trump.",
-      "[guardian] uses the term 'enabler' to describe senators who voted to confirm Todd Blanche.",
-      "[fox] uses the term 'pure VANDALISM' to describe conditions at the Lincoln Memorial Reflecting Pool."
-    ],
-    "safe_conclusions": [
-      "The Senate has been engaged in legislative activity regarding the 'SAVE America Act' and the 'Protect College Sports Act'.",
-      "Personnel matters involving the Federal Reserve and the U.S. Attorney's office in D.C. have been the subject of recent public attention."
-    ],
-    "unknowns": [
-      "The specific legal evidence regarding the allegations against Lisa Cook.",
-      "The official status of the 'SAVE America Act' and 'Protect College Sports Act' at the close of the Senate session."
-    ],
-    "synthesis": "The Senate concluded its legislative session early Saturday morning amidst ongoing discussions regarding the 'SAVE America Act' and the 'Protect College Sports Act'. Concurrently, the Trump administration has been active in personnel matters, including the confirmation of Todd Blanche as attorney general and efforts to remove Federal Reserve governor Lisa Cook. President Trump has also publicly advocated for the reopening of a vandalism case at the Lincoln Memorial Reflecting Pool.",
-    "confidence": "HIGH. The sources consistently report on separate, verifiable legislative and administrative activities without conflict regarding the occurrence of the events themselves.",
-    "sources": [
-      {
-        "id": "art_1786190407570_ujeib",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/08/todd-blanche-attorney-general-senate-vote-republicans-save-voting-bill-latest-news-updates",
-        "source": "guardian",
-        "title": "Blanche confirmation allows Trump to continue ‘pervasive, breathtaking corruption’, says Schumer – US politics live"
-      },
-      {
-        "id": "art_1786190408718_0hfgu",
-        "url": "https://www.foxnews.com/politics/trump-pumps-brakes-senate-budget-plan-delaying-gop-save-america-push",
-        "source": "fox",
-        "title": "Trump pumps brakes on Senate budget plan, delaying GOP SAVE America push"
-      },
-      {
-        "id": "art_1786159688764_vgyhz",
-        "url": "https://www.foxnews.com/politics/trump-urges-jeanine-pirro-revisit-dropped-lincoln-memorial-reflecting-pool-vandalism-case",
-        "source": "fox",
-        "title": "Trump urges Jeanine Pirro to revisit dropped Lincoln Memorial Reflecting Pool vandalism case"
-      },
-      {
-        "id": "art_1786159690902_eg5y7",
-        "url": "https://www.aljazeera.com/news/2026/8/7/donald-trump-renews-effort-to-fire-federal-reserve-governor-lisa-cook?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Donald Trump renews effort to fire Federal Reserve governor Lisa Cook"
-      },
-      {
-        "id": "art_1786159692970_1w32o",
-        "url": "https://www.foxnews.com/outkick-sports/president-trump-pumps-protect-college-sports-act-senate-works-pass",
-        "source": "fox",
-        "title": "President Trump pumps up the 'Protect College Sports Act' as the Senate works to pass it"
-      },
-      {
-        "id": "art_1786153777604_3dbpx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/trump-shifts-blame-to-republicans-for-waning-support-from-public?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump shifts blame to Republicans for waning support from public"
-      },
-      {
-        "id": "art_1786144289829_yrxbg",
-        "url": "https://www.aljazeera.com/news/2026/8/7/democrats-gain-momentum-in-pivotal-us-senate-and-governors-races-in-texas?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Democrats gain momentum in pivotal US Senate and governor’s races in Texas"
-      },
-      {
-        "id": "art_1786140703275_dca1k",
-        "url": "https://www.theguardian.com/us-news/2026/aug/07/prosecutor-fired-trump-blog-lawsuit",
-        "source": "guardian",
-        "title": "Prosecutor fired over blogposts critical of Trump sues US justice department"
-      },
-      {
-        "id": "art_1786140708563_79bwg",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/7/us-appeals-court-halts-white-house-ballroom-construction?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US appeals court halts White House ballroom construction"
-      },
-      {
-        "id": "art_1786137399349_mm1jp",
-        "url": "https://www.aljazeera.com/news/2026/8/7/us-appeals-court-upholds-injunction-pausing-trumps-white-house-ballroom?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US appeals court upholds injunction pausing Trump’s White House ballroom"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
