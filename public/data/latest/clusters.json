@@ -106,351 +106,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
-    "topic_label": "Trump vaccine policy",
-    "event_window_start": "2026-08-10T22:28:20.000Z",
-    "event_window_end": "2026-08-11T02:08:55.000Z",
-    "article_ids": [
-      "art_1786418735624_613p3",
-      "art_1786405146469_zcci4",
-      "art_1786405154154_10oor"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T03:37:30.577Z",
-    "updated_at": "2026-08-11T03:37:30.577Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump signed an executive order regarding childhood vaccinations.",
-      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
-      "The executive order calls for a reduction in the number of childhood vaccines."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
-      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
-      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
-      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
-      "[guardian] claims the order requires shots be given at separate medical visits.",
-      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
-    ],
-    "framing_differences": [
-      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
-      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
-    ],
-    "contested_claims": [
-      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
-    ],
-    "unverified_claims": [
-      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
-      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
-    ],
-    "unknowns": [
-      "The specific implementation timeline for the executive order.",
-      "The legal standing of the order relative to existing CDC authority.",
-      "How the transition to separate MMR shots will be managed in the US healthcare system."
-    ],
-    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
-    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
-    "sources": [
-      {
-        "id": "art_1786418735624_613p3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
-      },
-      {
-        "id": "art_1786405146469_zcci4",
-        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
-      },
-      {
-        "id": "art_1786405154154_10oor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
-        "source": "guardian",
-        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c80ecfc410745855287d56ed9b24b900",
-    "topic_label": "Middle East Tensions",
-    "event_window_start": "2026-08-10T23:08:50.000Z",
-    "event_window_end": "2026-08-11T04:37:27.000Z",
-    "article_ids": [
-      "art_1786424172900_lh4u0",
-      "art_1786424178675_l64pl",
-      "art_1786418728985_j519n",
-      "art_1786418731291_19uer",
-      "art_1786418732332_04ukk",
-      "art_1786411760809_7lala",
-      "art_1786405143945_gg7iv"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T12:14:28.823Z",
-    "updated_at": "2026-08-11T12:14:28.823Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A fire occurred at the Zawiya refinery in Libya.",
-      "The Zawiya refinery is located near Tripoli.",
-      "Donald Trump attended a NATO summit in Turkey.",
-      "Reports indicate Donald Trump departed Turkey on a military flight amid security concerns related to Iran."
-    ],
-    "source_claims": [
-      "[aljazeera] A drone attack ignited gasoline at the Zawiya refinery.",
-      "[aljazeera] The National Oil Corporation may declare force majeure and suspend operations at the refinery.",
-      "[aljazeera] Libya's Ambulance and Emergency Service reported no serious injuries.",
-      "[aljazeera] Donald Trump demanded compensation from Iran for damages spanning 50 years.",
-      "[aljazeera] Iran conditioned the opening of the Strait of Hormuz on receiving war reparations and the end of sanctions.",
-      "[guardian] An elaborate ruse involving a catering cart was used to transport Donald Trump to a military flight while Air Force One served as a decoy.",
-      "[fox] Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
-      "[fox] Trump arrived in Ankara on July 8 aboard a Boeing 747-8 aircraft donated by Qatar."
-    ],
-    "framing_differences": [
-      "Al Jazeera focuses on geopolitical tensions involving oil infrastructure and trade routes, while The Guardian and Fox News focus on the security details and logistical movements of the US President in Turkey."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The maneuver involving the catering truck took place because of an Iranian assassination threat.",
-      "[fox] The operation at Ankara airport was prompted by a 'credible Iranian threat'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the geopolitical conflict.",
-      "[guardian] uses the term 'extraordinary ruse' to describe the presidential transit."
-    ],
-    "safe_conclusions": [
-      "The Zawiya oil refinery in Libya experienced a fire.",
-      "Donald Trump was in Turkey for a NATO summit.",
-      "There are reports regarding the method of President Trump's departure from Turkey."
-    ],
-    "unknowns": [
-      "The identity of the parties responsible for the drone attack at the Zawiya refinery.",
-      "The extent of the damage caused by the fire at the Zawiya refinery.",
-      "The official confirmation of the specific security measures taken during the President's departure from Turkey."
-    ],
-    "synthesis": "The Zawiya oil refinery in Libya is currently experiencing a major fire following a reported drone attack. Concurrently, international news coverage highlights security concerns involving President Donald Trump during his recent visit to Turkey, including reports of a secret military flight departure. Tensions between the United States and Iran are cited by sources as a factor influencing both oil infrastructure security and presidential travel logistics.",
-    "confidence": "HIGH; The provided reports are distinct by topic, and the factual claims within each category do not directly contradict one another.",
-    "sources": [
-      {
-        "id": "art_1786424172900_lh4u0",
-        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
-      },
-      {
-        "id": "art_1786424178675_l64pl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
-      },
-      {
-        "id": "art_1786418728985_j519n",
-        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
-      },
-      {
-        "id": "art_1786418731291_19uer",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
-        "source": "guardian",
-        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
-      },
-      {
-        "id": "art_1786418732332_04ukk",
-        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
-        "source": "fox",
-        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
-      },
-      {
-        "id": "art_1786411760809_7lala",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
-      },
-      {
-        "id": "art_1786405143945_gg7iv",
-        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
-        "source": "fox",
-        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3a84f408131154672677c3c2f43c898c",
-    "topic_label": "Fauci COVID vaccine controversy",
-    "event_window_start": "2026-08-10T22:08:12.000Z",
-    "event_window_end": "2026-08-10T22:00:16.000Z",
-    "article_ids": [
-      "art_1786424185168_1ptz1",
-      "art_1786418737883_iq414",
-      "art_1786405156560_ycqnb"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T09:37:17.140Z",
-    "updated_at": "2026-08-11T09:37:17.140Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Sens. Ron Johnson and Rand Paul released a batch of text messages from Dr. Anthony Fauci's government-issued cellphone on Monday.",
-      "The released text messages include a discussion involving Dr. Anthony Fauci regarding concerns about symptoms, such as fever, following a second COVID-19 vaccine dose and their potential theoretical association with miscarriage in the first trimester."
-    ],
-    "source_claims": [
-      "[fox] Sen. Ron Johnson alleges the text messages demonstrate a discrepancy between what Dr. Anthony Fauci said privately versus his public messaging.",
-      "[fox] Dr. Marc Siegel claims the texts suggest health officials were at times too dogmatic and slow to adapt to evolving COVID-19 evidence.",
-      "[fox] Sen. Ron Johnson characterized the initial release of text messages as only the tip of the iceberg."
-    ],
-    "framing_differences": [
-      "One Fox article frames the texts as raising a theoretical medical concern regarding vaccines and pregnancy, while another Fox article frames the texts as evidence of Dr. Fauci's potential failure to adapt to evolving scientific data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Sen. Ron Johnson stated that the released texts are a clear sign that Dr. Fauci said one thing privately while taking a different message to the public."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'truly sick' to describe vaccine texts in a headline.",
-      "[fox] uses the term 'erupted' to describe the reaction of officials on social media.",
-      "[fox] uses the term 'hot seat' to describe Dr. Fauci's position in a headline."
-    ],
-    "safe_conclusions": [
-      "Text messages from Dr. Anthony Fauci's government phone were released by a Senate committee.",
-      "Dr. Fauci discussed theoretical concerns regarding vaccine reactions and pregnancy in the released communications."
-    ],
-    "unknowns": [
-      "The full content of the text message batch released by the senators.",
-      "The specific nature of the public messaging Dr. Fauci provided regarding these concerns during the same timeframe."
-    ],
-    "synthesis": "Sens. Ron Johnson and Rand Paul released text messages from Dr. Anthony Fauci's government-issued phone regarding theoretical concerns about COVID-19 vaccine reactions and pregnancy. The release has prompted commentary from medical analysts and lawmakers regarding Dr. Fauci's handling of evolving pandemic information. These communications are currently being reviewed as part of an investigation into the official government response to the pandemic.",
-    "confidence": "HIGH. The sources are consistent regarding the origin and subject matter of the documents discussed, though the interpretative commentary varies by author.",
-    "sources": [
-      {
-        "id": "art_1786424185168_1ptz1",
-        "url": "https://www.foxnews.com/politics/fauci-texts-raising-theoretical-miscarriage-concern-after-covid-vaccine-dose-spark-backlash",
-        "source": "fox",
-        "title": "Fauci texts raising theoretical miscarriage concern after COVID vaccine dose spark backlash"
-      },
-      {
-        "id": "art_1786418737883_iq414",
-        "url": "https://www.foxnews.com/health/fauci-texts-suggest-officials-slow-pivot-pandemic-dr-marc-siegel",
-        "source": "fox",
-        "title": "Fauci texts suggest officials were ‘too slow to pivot' amid pandemic, says Dr Marc Siegel"
-      },
-      {
-        "id": "art_1786405156560_ycqnb",
-        "url": "https://www.foxnews.com/politics/fauci-hot-seat-gop-senator-tears-truly-sick-vaccine-texts-tip-iceberg",
-        "source": "fox",
-        "title": "Fauci in the hot seat as GOP senator tears into 'truly sick' vaccine texts: 'Tip of the iceberg'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "00d0e14c8433cbfdcc47f8e8ed54f3e8",
-    "topic_label": "Death of Bald Eagle Jackie",
-    "event_window_start": "2026-08-10T23:05:25.000Z",
-    "event_window_end": "2026-08-10T22:40:23.000Z",
-    "article_ids": [
-      "art_1786424181002_muuf2",
-      "art_1786405145180_zfmvp"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T10:33:33.099Z",
-    "updated_at": "2026-08-11T10:33:33.099Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Jackie, a bald eagle known for a livestream at Big Bear Lake, died on Monday.",
-      "Jackie was receiving treatment at the Ojai Raptor Center prior to her death.",
-      "Jackie had been at the center since being found weak following an interaction with other eagles."
-    ],
-    "source_claims": [
-      "[bbc] The eagle died after weeks of veterinary treatment.",
-      "[bbc] The bird suffered from underlying health issues causing anemia and weight loss.",
-      "[guardian] The eagle died due to a mysterious illness.",
-      "[guardian] The eagle was 14 years old.",
-      "[guardian] Experts suspected she had been sick for weeks before the fight."
-    ],
-    "framing_differences": [
-      "The bbc frames the death as resulting from underlying health issues and weight loss, while the guardian frames it as resulting from a 'mysterious illness'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The eagle was 14 years old.",
-      "[guardian] She was found in mid-July."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'beloved' to describe the eagle.",
-      "[guardian] uses the term 'mysterious illness' to describe the cause of death."
-    ],
-    "safe_conclusions": [
-      "Jackie was a bald eagle who was the subject of a livestream.",
-      "Jackie was cared for by the Ojai Raptor Center.",
-      "Jackie died on a Monday."
-    ],
-    "unknowns": [
-      "The exact clinical cause of death beyond the mention of anemia and underlying health issues.",
-      "The specific date of the eagle's death in relation to the calendar."
-    ],
-    "synthesis": "Jackie, a California bald eagle featured on a popular livestream, died on Monday following a period of veterinary care at the Ojai Raptor Center. The eagle had been under observation since being found weak after an encounter with other eagles. While the bird was treated for anemia and underlying health conditions, the specific cause of her death remains under discussion.",
-    "confidence": "HIGH: Both sources consistently report the death of the eagle and her residency at the Ojai Raptor Center following an encounter with other birds.",
-    "sources": [
-      {
-        "id": "art_1786424181002_muuf2",
-        "url": "https://www.bbc.co.uk/news/articles/c62vj8eywdlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Jackie, the famous California bald eagle, dies after weeks of intensive care"
-      },
-      {
-        "id": "art_1786405145180_zfmvp",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/jackie-bald-eagle-california-dead",
-        "source": "guardian",
-        "title": "Jackie, a beloved bald eagle and livestream star, dies of mysterious illness"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "af23772b683db366674a4051c4a582f6",
     "topic_label": "Libya oil refinery drone attack",
     "event_window_start": "2026-08-11T04:09:10.000Z",
@@ -613,6 +268,237 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
+    "topic_label": "Trump vaccine policy",
+    "event_window_start": "2026-08-10T22:28:20.000Z",
+    "event_window_end": "2026-08-11T02:08:55.000Z",
+    "article_ids": [
+      "art_1786418735624_613p3",
+      "art_1786405146469_zcci4",
+      "art_1786405154154_10oor"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T03:37:30.577Z",
+    "updated_at": "2026-08-11T03:37:30.577Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump signed an executive order regarding childhood vaccinations.",
+      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
+      "The executive order calls for a reduction in the number of childhood vaccines."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
+      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
+      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
+      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
+      "[guardian] claims the order requires shots be given at separate medical visits.",
+      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
+    ],
+    "framing_differences": [
+      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
+      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
+    ],
+    "contested_claims": [
+      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
+    ],
+    "unverified_claims": [
+      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
+      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
+    ],
+    "unknowns": [
+      "The specific implementation timeline for the executive order.",
+      "The legal standing of the order relative to existing CDC authority.",
+      "How the transition to separate MMR shots will be managed in the US healthcare system."
+    ],
+    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
+    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
+    "sources": [
+      {
+        "id": "art_1786418735624_613p3",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
+      },
+      {
+        "id": "art_1786405146469_zcci4",
+        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
+      },
+      {
+        "id": "art_1786405154154_10oor",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
+        "source": "guardian",
+        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3a84f408131154672677c3c2f43c898c",
+    "topic_label": "Fauci COVID vaccine controversy",
+    "event_window_start": "2026-08-10T22:08:12.000Z",
+    "event_window_end": "2026-08-10T22:00:16.000Z",
+    "article_ids": [
+      "art_1786424185168_1ptz1",
+      "art_1786418737883_iq414",
+      "art_1786405156560_ycqnb"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T09:37:17.140Z",
+    "updated_at": "2026-08-11T09:37:17.140Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Sens. Ron Johnson and Rand Paul released a batch of text messages from Dr. Anthony Fauci's government-issued cellphone on Monday.",
+      "The released text messages include a discussion involving Dr. Anthony Fauci regarding concerns about symptoms, such as fever, following a second COVID-19 vaccine dose and their potential theoretical association with miscarriage in the first trimester."
+    ],
+    "source_claims": [
+      "[fox] Sen. Ron Johnson alleges the text messages demonstrate a discrepancy between what Dr. Anthony Fauci said privately versus his public messaging.",
+      "[fox] Dr. Marc Siegel claims the texts suggest health officials were at times too dogmatic and slow to adapt to evolving COVID-19 evidence.",
+      "[fox] Sen. Ron Johnson characterized the initial release of text messages as only the tip of the iceberg."
+    ],
+    "framing_differences": [
+      "One Fox article frames the texts as raising a theoretical medical concern regarding vaccines and pregnancy, while another Fox article frames the texts as evidence of Dr. Fauci's potential failure to adapt to evolving scientific data."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Sen. Ron Johnson stated that the released texts are a clear sign that Dr. Fauci said one thing privately while taking a different message to the public."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'truly sick' to describe vaccine texts in a headline.",
+      "[fox] uses the term 'erupted' to describe the reaction of officials on social media.",
+      "[fox] uses the term 'hot seat' to describe Dr. Fauci's position in a headline."
+    ],
+    "safe_conclusions": [
+      "Text messages from Dr. Anthony Fauci's government phone were released by a Senate committee.",
+      "Dr. Fauci discussed theoretical concerns regarding vaccine reactions and pregnancy in the released communications."
+    ],
+    "unknowns": [
+      "The full content of the text message batch released by the senators.",
+      "The specific nature of the public messaging Dr. Fauci provided regarding these concerns during the same timeframe."
+    ],
+    "synthesis": "Sens. Ron Johnson and Rand Paul released text messages from Dr. Anthony Fauci's government-issued phone regarding theoretical concerns about COVID-19 vaccine reactions and pregnancy. The release has prompted commentary from medical analysts and lawmakers regarding Dr. Fauci's handling of evolving pandemic information. These communications are currently being reviewed as part of an investigation into the official government response to the pandemic.",
+    "confidence": "HIGH. The sources are consistent regarding the origin and subject matter of the documents discussed, though the interpretative commentary varies by author.",
+    "sources": [
+      {
+        "id": "art_1786424185168_1ptz1",
+        "url": "https://www.foxnews.com/politics/fauci-texts-raising-theoretical-miscarriage-concern-after-covid-vaccine-dose-spark-backlash",
+        "source": "fox",
+        "title": "Fauci texts raising theoretical miscarriage concern after COVID vaccine dose spark backlash"
+      },
+      {
+        "id": "art_1786418737883_iq414",
+        "url": "https://www.foxnews.com/health/fauci-texts-suggest-officials-slow-pivot-pandemic-dr-marc-siegel",
+        "source": "fox",
+        "title": "Fauci texts suggest officials were ‘too slow to pivot' amid pandemic, says Dr Marc Siegel"
+      },
+      {
+        "id": "art_1786405156560_ycqnb",
+        "url": "https://www.foxnews.com/politics/fauci-hot-seat-gop-senator-tears-truly-sick-vaccine-texts-tip-iceberg",
+        "source": "fox",
+        "title": "Fauci in the hot seat as GOP senator tears into 'truly sick' vaccine texts: 'Tip of the iceberg'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "00d0e14c8433cbfdcc47f8e8ed54f3e8",
+    "topic_label": "Death of Bald Eagle Jackie",
+    "event_window_start": "2026-08-10T23:05:25.000Z",
+    "event_window_end": "2026-08-10T22:40:23.000Z",
+    "article_ids": [
+      "art_1786424181002_muuf2",
+      "art_1786405145180_zfmvp"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T10:33:33.099Z",
+    "updated_at": "2026-08-11T10:33:33.099Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Jackie, a bald eagle known for a livestream at Big Bear Lake, died on Monday.",
+      "Jackie was receiving treatment at the Ojai Raptor Center prior to her death.",
+      "Jackie had been at the center since being found weak following an interaction with other eagles."
+    ],
+    "source_claims": [
+      "[bbc] The eagle died after weeks of veterinary treatment.",
+      "[bbc] The bird suffered from underlying health issues causing anemia and weight loss.",
+      "[guardian] The eagle died due to a mysterious illness.",
+      "[guardian] The eagle was 14 years old.",
+      "[guardian] Experts suspected she had been sick for weeks before the fight."
+    ],
+    "framing_differences": [
+      "The bbc frames the death as resulting from underlying health issues and weight loss, while the guardian frames it as resulting from a 'mysterious illness'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The eagle was 14 years old.",
+      "[guardian] She was found in mid-July."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'beloved' to describe the eagle.",
+      "[guardian] uses the term 'mysterious illness' to describe the cause of death."
+    ],
+    "safe_conclusions": [
+      "Jackie was a bald eagle who was the subject of a livestream.",
+      "Jackie was cared for by the Ojai Raptor Center.",
+      "Jackie died on a Monday."
+    ],
+    "unknowns": [
+      "The exact clinical cause of death beyond the mention of anemia and underlying health issues.",
+      "The specific date of the eagle's death in relation to the calendar."
+    ],
+    "synthesis": "Jackie, a California bald eagle featured on a popular livestream, died on Monday following a period of veterinary care at the Ojai Raptor Center. The eagle had been under observation since being found weak after an encounter with other eagles. While the bird was treated for anemia and underlying health conditions, the specific cause of her death remains under discussion.",
+    "confidence": "HIGH: Both sources consistently report the death of the eagle and her residency at the Ojai Raptor Center following an encounter with other birds.",
+    "sources": [
+      {
+        "id": "art_1786424181002_muuf2",
+        "url": "https://www.bbc.co.uk/news/articles/c62vj8eywdlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Jackie, the famous California bald eagle, dies after weeks of intensive care"
+      },
+      {
+        "id": "art_1786405145180_zfmvp",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/jackie-bald-eagle-california-dead",
+        "source": "guardian",
+        "title": "Jackie, a beloved bald eagle and livestream star, dies of mysterious illness"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "47b53ce5f1a7faa8642ef85757cc1863",
     "topic_label": "DiJonai Carrington WNBA incidents",
     "event_window_start": "2026-08-11T00:04:32.000Z",
@@ -685,6 +571,120 @@
         "url": "https://www.foxnews.com/outkick-sports/long-list-embarrassing-wnba-incidents-what-happens-when-sports-leagues-made-politics-their-primary-focus",
         "source": "fox",
         "title": "Long list of embarrassing WNBA incidents is what happens when sports leagues made politics their primary focus"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c80ecfc410745855287d56ed9b24b900",
+    "topic_label": "Middle East Tensions",
+    "event_window_start": "2026-08-10T23:08:50.000Z",
+    "event_window_end": "2026-08-11T04:37:27.000Z",
+    "article_ids": [
+      "art_1786424172900_lh4u0",
+      "art_1786424178675_l64pl",
+      "art_1786418728985_j519n",
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk",
+      "art_1786411760809_7lala",
+      "art_1786405143945_gg7iv"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 7,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T12:14:28.823Z",
+    "updated_at": "2026-08-11T12:14:28.823Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A fire occurred at the Zawiya refinery in Libya.",
+      "The Zawiya refinery is located near Tripoli.",
+      "Donald Trump attended a NATO summit in Turkey.",
+      "Reports indicate Donald Trump departed Turkey on a military flight amid security concerns related to Iran."
+    ],
+    "source_claims": [
+      "[aljazeera] A drone attack ignited gasoline at the Zawiya refinery.",
+      "[aljazeera] The National Oil Corporation may declare force majeure and suspend operations at the refinery.",
+      "[aljazeera] Libya's Ambulance and Emergency Service reported no serious injuries.",
+      "[aljazeera] Donald Trump demanded compensation from Iran for damages spanning 50 years.",
+      "[aljazeera] Iran conditioned the opening of the Strait of Hormuz on receiving war reparations and the end of sanctions.",
+      "[guardian] An elaborate ruse involving a catering cart was used to transport Donald Trump to a military flight while Air Force One served as a decoy.",
+      "[fox] Donald Trump stated he is 'No. 1 on the kill list for Iran'.",
+      "[fox] Trump arrived in Ankara on July 8 aboard a Boeing 747-8 aircraft donated by Qatar."
+    ],
+    "framing_differences": [
+      "Al Jazeera focuses on geopolitical tensions involving oil infrastructure and trade routes, while The Guardian and Fox News focus on the security details and logistical movements of the US President in Turkey."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The maneuver involving the catering truck took place because of an Iranian assassination threat.",
+      "[fox] The operation at Ankara airport was prompted by a 'credible Iranian threat'."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the geopolitical conflict.",
+      "[guardian] uses the term 'extraordinary ruse' to describe the presidential transit."
+    ],
+    "safe_conclusions": [
+      "The Zawiya oil refinery in Libya experienced a fire.",
+      "Donald Trump was in Turkey for a NATO summit.",
+      "There are reports regarding the method of President Trump's departure from Turkey."
+    ],
+    "unknowns": [
+      "The identity of the parties responsible for the drone attack at the Zawiya refinery.",
+      "The extent of the damage caused by the fire at the Zawiya refinery.",
+      "The official confirmation of the specific security measures taken during the President's departure from Turkey."
+    ],
+    "synthesis": "The Zawiya oil refinery in Libya is currently experiencing a major fire following a reported drone attack. Concurrently, international news coverage highlights security concerns involving President Donald Trump during his recent visit to Turkey, including reports of a secret military flight departure. Tensions between the United States and Iran are cited by sources as a factor influencing both oil infrastructure security and presidential travel logistics.",
+    "confidence": "HIGH; The provided reports are distinct by topic, and the factual claims within each category do not directly contradict one another.",
+    "sources": [
+      {
+        "id": "art_1786424172900_lh4u0",
+        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
+      },
+      {
+        "id": "art_1786424178675_l64pl",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
+      },
+      {
+        "id": "art_1786418728985_j519n",
+        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
+      },
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      },
+      {
+        "id": "art_1786411760809_7lala",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
+      },
+      {
+        "id": "art_1786405143945_gg7iv",
+        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
+        "source": "fox",
+        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
