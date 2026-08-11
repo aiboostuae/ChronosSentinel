@@ -1,5 +1,78 @@
 [
   {
+    "cluster_id": "af23772b683db366674a4051c4a582f6",
+    "topic_label": "Libya oil refinery drone attack",
+    "event_window_start": "2026-08-11T04:09:10.000Z",
+    "event_window_end": "2026-08-11T04:37:27.000Z",
+    "article_ids": [
+      "art_1786424172900_lh4u0",
+      "art_1786424178675_l64pl"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A fire occurred at the Zawiya oil refinery in Libya.",
+      "The Zawiya refinery is Libya’s largest operational oil facility.",
+      "The fire was ignited by a drone attack.",
+      "The National Oil Corporation (NOC) has indicated a potential suspension of operations due to the attacks.",
+      "There have been no reports of serious injuries or casualties."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the refinery has a capacity of 120,000 barrels per day.",
+      "[aljazeera] claims the refinery is located 40km west of Tripoli.",
+      "[aljazeera] claims the fire resulted in patients being treated for smoke inhalation.",
+      "[aljazeera] claims the attacks were carried out by 'unknown attackers'."
+    ],
+    "framing_differences": [
+      "Both provided texts are attributed to Al Jazeera and align in their framing of the event as an operational crisis for the National Oil Corporation."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the fire was specifically caused by ignited gasoline.",
+      "[aljazeera] claims there have been 'days of strikes' preceding the current fire."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'rages' to describe the fire."
+    ],
+    "safe_conclusions": [
+      "A drone strike caused a fire at the Zawiya refinery in Libya.",
+      "The National Oil Corporation is assessing potential operational shutdowns due to recent attacks.",
+      "No serious casualties have been reported from the incident."
+    ],
+    "unknowns": [
+      "The specific identity of the entities responsible for the drone attacks.",
+      "The exact extent of the damage to the refinery infrastructure.",
+      "The timeline or specific frequency of the preceding attacks mentioned."
+    ],
+    "synthesis": "A drone attack caused a fire at Libya’s largest operational oil facility, the Zawiya refinery. While no serious injuries were reported, the National Oil Corporation is considering a suspension of operations due to ongoing threats. Emergency services confirmed that medical treatment for those affected was primarily for smoke inhalation.",
+    "confidence": "HIGH. Both provided texts originate from the same source and share consistent factual reporting regarding the event.",
+    "sources": [
+      {
+        "id": "art_1786424172900_lh4u0",
+        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
+      },
+      {
+        "id": "art_1786424178675_l64pl",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "f4732a99a10e7dbbfb3fe7175593d107",
     "topic_label": "Colombia earthquake disaster",
     "event_window_start": "2026-08-10T22:35:48.000Z",
@@ -106,74 +179,321 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "af23772b683db366674a4051c4a582f6",
-    "topic_label": "Libya oil refinery drone attack",
-    "event_window_start": "2026-08-11T04:09:10.000Z",
-    "event_window_end": "2026-08-11T04:37:27.000Z",
+    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
+    "topic_label": "Trump and Iran tensions",
+    "event_window_start": "2026-08-10T23:08:50.000Z",
+    "event_window_end": "2026-08-11T02:32:47.000Z",
     "article_ids": [
-      "art_1786424172900_lh4u0",
-      "art_1786424178675_l64pl"
+      "art_1786418728985_j519n",
+      "art_1786418731291_19uer",
+      "art_1786418732332_04ukk",
+      "art_1786405143945_gg7iv"
     ],
     "source_ids": [
-      "aljazeera"
+      "aljazeera",
+      "guardian",
+      "fox"
     ],
-    "article_count": 2,
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T08:14:44.136Z",
+    "updated_at": "2026-08-11T08:14:44.136Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump attended a NATO summit in Turkey.",
+      "There are ongoing tensions between the United States and Iran involving military activity and threats."
+    ],
+    "source_claims": [
+      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
+      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
+      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
+      "[fox] President Trump stated he is on a 'kill list' for Iran.",
+      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
+    ],
+    "framing_differences": [
+      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
+      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The president hid in a catering cart to board a secret flight.",
+      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
+    ],
+    "safe_conclusions": [
+      "President Trump was in Turkey for a NATO meeting.",
+      "Iran has undergone changes in its senior military leadership.",
+      "Diplomatic and security tensions persist between the United States and Iran."
+    ],
+    "unknowns": [
+      "The official status of the Strait of Hormuz.",
+      "The full details of the reported catering cart maneuver.",
+      "The specific terms of any interim peace agreements between the U.S. and Iran."
+    ],
+    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
+    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
+    "sources": [
+      {
+        "id": "art_1786418728985_j519n",
+        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
+      },
+      {
+        "id": "art_1786418731291_19uer",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
+        "source": "guardian",
+        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
+      },
+      {
+        "id": "art_1786418732332_04ukk",
+        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
+        "source": "fox",
+        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
+      },
+      {
+        "id": "art_1786405143945_gg7iv",
+        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
+        "source": "fox",
+        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
+    "topic_label": "Trump vaccine policy",
+    "event_window_start": "2026-08-10T22:28:20.000Z",
+    "event_window_end": "2026-08-11T02:08:55.000Z",
+    "article_ids": [
+      "art_1786418735624_613p3",
+      "art_1786405146469_zcci4",
+      "art_1786405154154_10oor"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T03:37:30.577Z",
+    "updated_at": "2026-08-11T03:37:30.577Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump signed an executive order regarding childhood vaccinations.",
+      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
+      "The executive order calls for a reduction in the number of childhood vaccines."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
+      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
+      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
+      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
+      "[guardian] claims the order requires shots be given at separate medical visits.",
+      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
+    ],
+    "framing_differences": [
+      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
+      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
+    ],
+    "contested_claims": [
+      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
+    ],
+    "unverified_claims": [
+      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
+      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
+    ],
+    "unknowns": [
+      "The specific implementation timeline for the executive order.",
+      "The legal standing of the order relative to existing CDC authority.",
+      "How the transition to separate MMR shots will be managed in the US healthcare system."
+    ],
+    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
+    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
+    "sources": [
+      {
+        "id": "art_1786418735624_613p3",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
+      },
+      {
+        "id": "art_1786405146469_zcci4",
+        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
+      },
+      {
+        "id": "art_1786405154154_10oor",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
+        "source": "guardian",
+        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3a84f408131154672677c3c2f43c898c",
+    "topic_label": "Fauci COVID vaccine controversy",
+    "event_window_start": "2026-08-10T22:08:12.000Z",
+    "event_window_end": "2026-08-10T22:00:16.000Z",
+    "article_ids": [
+      "art_1786424185168_1ptz1",
+      "art_1786418737883_iq414",
+      "art_1786405156560_ycqnb"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 3,
     "source_count": 1,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-11T05:58:38.611Z",
-    "updated_at": "2026-08-11T05:58:38.611Z",
-    "region_tag": "middle-east",
+    "created_at": "2026-08-11T09:37:17.140Z",
+    "updated_at": "2026-08-11T09:37:17.140Z",
+    "region_tag": "global",
     "shared_facts": [
-      "A fire occurred at the Zawiya oil refinery in Libya.",
-      "The Zawiya refinery is Libya’s largest operational oil facility.",
-      "The fire was ignited by a drone attack.",
-      "The National Oil Corporation (NOC) has indicated a potential suspension of operations due to the attacks.",
-      "There have been no reports of serious injuries or casualties."
+      "Sens. Ron Johnson and Rand Paul released a batch of text messages from Dr. Anthony Fauci's government-issued cellphone on Monday.",
+      "The released text messages include a discussion involving Dr. Anthony Fauci regarding concerns about symptoms, such as fever, following a second COVID-19 vaccine dose and their potential theoretical association with miscarriage in the first trimester."
     ],
     "source_claims": [
-      "[aljazeera] claims the refinery has a capacity of 120,000 barrels per day.",
-      "[aljazeera] claims the refinery is located 40km west of Tripoli.",
-      "[aljazeera] claims the fire resulted in patients being treated for smoke inhalation.",
-      "[aljazeera] claims the attacks were carried out by 'unknown attackers'."
+      "[fox] Sen. Ron Johnson alleges the text messages demonstrate a discrepancy between what Dr. Anthony Fauci said privately versus his public messaging.",
+      "[fox] Dr. Marc Siegel claims the texts suggest health officials were at times too dogmatic and slow to adapt to evolving COVID-19 evidence.",
+      "[fox] Sen. Ron Johnson characterized the initial release of text messages as only the tip of the iceberg."
     ],
     "framing_differences": [
-      "Both provided texts are attributed to Al Jazeera and align in their framing of the event as an operational crisis for the National Oil Corporation."
+      "One Fox article frames the texts as raising a theoretical medical concern regarding vaccines and pregnancy, while another Fox article frames the texts as evidence of Dr. Fauci's potential failure to adapt to evolving scientific data."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] claims the fire was specifically caused by ignited gasoline.",
-      "[aljazeera] claims there have been 'days of strikes' preceding the current fire."
+      "[fox] Sen. Ron Johnson stated that the released texts are a clear sign that Dr. Fauci said one thing privately while taking a different message to the public."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'rages' to describe the fire."
+      "[fox] uses the term 'truly sick' to describe vaccine texts in a headline.",
+      "[fox] uses the term 'erupted' to describe the reaction of officials on social media.",
+      "[fox] uses the term 'hot seat' to describe Dr. Fauci's position in a headline."
     ],
     "safe_conclusions": [
-      "A drone strike caused a fire at the Zawiya refinery in Libya.",
-      "The National Oil Corporation is assessing potential operational shutdowns due to recent attacks.",
-      "No serious casualties have been reported from the incident."
+      "Text messages from Dr. Anthony Fauci's government phone were released by a Senate committee.",
+      "Dr. Fauci discussed theoretical concerns regarding vaccine reactions and pregnancy in the released communications."
     ],
     "unknowns": [
-      "The specific identity of the entities responsible for the drone attacks.",
-      "The exact extent of the damage to the refinery infrastructure.",
-      "The timeline or specific frequency of the preceding attacks mentioned."
+      "The full content of the text message batch released by the senators.",
+      "The specific nature of the public messaging Dr. Fauci provided regarding these concerns during the same timeframe."
     ],
-    "synthesis": "A drone attack caused a fire at Libya’s largest operational oil facility, the Zawiya refinery. While no serious injuries were reported, the National Oil Corporation is considering a suspension of operations due to ongoing threats. Emergency services confirmed that medical treatment for those affected was primarily for smoke inhalation.",
-    "confidence": "HIGH. Both provided texts originate from the same source and share consistent factual reporting regarding the event.",
+    "synthesis": "Sens. Ron Johnson and Rand Paul released text messages from Dr. Anthony Fauci's government-issued phone regarding theoretical concerns about COVID-19 vaccine reactions and pregnancy. The release has prompted commentary from medical analysts and lawmakers regarding Dr. Fauci's handling of evolving pandemic information. These communications are currently being reviewed as part of an investigation into the official government response to the pandemic.",
+    "confidence": "HIGH. The sources are consistent regarding the origin and subject matter of the documents discussed, though the interpretative commentary varies by author.",
     "sources": [
       {
-        "id": "art_1786424172900_lh4u0",
-        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
+        "id": "art_1786424185168_1ptz1",
+        "url": "https://www.foxnews.com/politics/fauci-texts-raising-theoretical-miscarriage-concern-after-covid-vaccine-dose-spark-backlash",
+        "source": "fox",
+        "title": "Fauci texts raising theoretical miscarriage concern after COVID vaccine dose spark backlash"
       },
       {
-        "id": "art_1786424178675_l64pl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
+        "id": "art_1786418737883_iq414",
+        "url": "https://www.foxnews.com/health/fauci-texts-suggest-officials-slow-pivot-pandemic-dr-marc-siegel",
+        "source": "fox",
+        "title": "Fauci texts suggest officials were ‘too slow to pivot' amid pandemic, says Dr Marc Siegel"
+      },
+      {
+        "id": "art_1786405156560_ycqnb",
+        "url": "https://www.foxnews.com/politics/fauci-hot-seat-gop-senator-tears-truly-sick-vaccine-texts-tip-iceberg",
+        "source": "fox",
+        "title": "Fauci in the hot seat as GOP senator tears into 'truly sick' vaccine texts: 'Tip of the iceberg'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "00d0e14c8433cbfdcc47f8e8ed54f3e8",
+    "topic_label": "Death of Bald Eagle Jackie",
+    "event_window_start": "2026-08-10T23:05:25.000Z",
+    "event_window_end": "2026-08-10T22:40:23.000Z",
+    "article_ids": [
+      "art_1786424181002_muuf2",
+      "art_1786405145180_zfmvp"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T10:33:33.099Z",
+    "updated_at": "2026-08-11T10:33:33.099Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Jackie, a bald eagle known for a livestream at Big Bear Lake, died on Monday.",
+      "Jackie was receiving treatment at the Ojai Raptor Center prior to her death.",
+      "Jackie had been at the center since being found weak following an interaction with other eagles."
+    ],
+    "source_claims": [
+      "[bbc] The eagle died after weeks of veterinary treatment.",
+      "[bbc] The bird suffered from underlying health issues causing anemia and weight loss.",
+      "[guardian] The eagle died due to a mysterious illness.",
+      "[guardian] The eagle was 14 years old.",
+      "[guardian] Experts suspected she had been sick for weeks before the fight."
+    ],
+    "framing_differences": [
+      "The bbc frames the death as resulting from underlying health issues and weight loss, while the guardian frames it as resulting from a 'mysterious illness'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The eagle was 14 years old.",
+      "[guardian] She was found in mid-July."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'beloved' to describe the eagle.",
+      "[guardian] uses the term 'mysterious illness' to describe the cause of death."
+    ],
+    "safe_conclusions": [
+      "Jackie was a bald eagle who was the subject of a livestream.",
+      "Jackie was cared for by the Ojai Raptor Center.",
+      "Jackie died on a Monday."
+    ],
+    "unknowns": [
+      "The exact clinical cause of death beyond the mention of anemia and underlying health issues.",
+      "The specific date of the eagle's death in relation to the calendar."
+    ],
+    "synthesis": "Jackie, a California bald eagle featured on a popular livestream, died on Monday following a period of veterinary care at the Ojai Raptor Center. The eagle had been under observation since being found weak after an encounter with other eagles. While the bird was treated for anemia and underlying health conditions, the specific cause of her death remains under discussion.",
+    "confidence": "HIGH: Both sources consistently report the death of the eagle and her residency at the Ojai Raptor Center following an encounter with other birds.",
+    "sources": [
+      {
+        "id": "art_1786424181002_muuf2",
+        "url": "https://www.bbc.co.uk/news/articles/c62vj8eywdlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Jackie, the famous California bald eagle, dies after weeks of intensive care"
+      },
+      {
+        "id": "art_1786405145180_zfmvp",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/jackie-bald-eagle-california-dead",
+        "source": "guardian",
+        "title": "Jackie, a beloved bald eagle and livestream star, dies of mysterious illness"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -393,164 +713,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
-    "topic_label": "Trump vaccine policy",
-    "event_window_start": "2026-08-10T22:28:20.000Z",
-    "event_window_end": "2026-08-11T02:08:55.000Z",
-    "article_ids": [
-      "art_1786418735624_613p3",
-      "art_1786405146469_zcci4",
-      "art_1786405154154_10oor"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T03:37:30.577Z",
-    "updated_at": "2026-08-11T03:37:30.577Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump signed an executive order regarding childhood vaccinations.",
-      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
-      "The executive order calls for a reduction in the number of childhood vaccines."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
-      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
-      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
-      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
-      "[guardian] claims the order requires shots be given at separate medical visits.",
-      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
-    ],
-    "framing_differences": [
-      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
-      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
-    ],
-    "contested_claims": [
-      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
-    ],
-    "unverified_claims": [
-      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
-      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
-    ],
-    "unknowns": [
-      "The specific implementation timeline for the executive order.",
-      "The legal standing of the order relative to existing CDC authority.",
-      "How the transition to separate MMR shots will be managed in the US healthcare system."
-    ],
-    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
-    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
-    "sources": [
-      {
-        "id": "art_1786418735624_613p3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
-      },
-      {
-        "id": "art_1786405146469_zcci4",
-        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
-      },
-      {
-        "id": "art_1786405154154_10oor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
-        "source": "guardian",
-        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3a84f408131154672677c3c2f43c898c",
-    "topic_label": "Fauci COVID vaccine controversy",
-    "event_window_start": "2026-08-10T22:08:12.000Z",
-    "event_window_end": "2026-08-10T22:00:16.000Z",
-    "article_ids": [
-      "art_1786424185168_1ptz1",
-      "art_1786418737883_iq414",
-      "art_1786405156560_ycqnb"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T09:37:17.140Z",
-    "updated_at": "2026-08-11T09:37:17.140Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Sens. Ron Johnson and Rand Paul released a batch of text messages from Dr. Anthony Fauci's government-issued cellphone on Monday.",
-      "The released text messages include a discussion involving Dr. Anthony Fauci regarding concerns about symptoms, such as fever, following a second COVID-19 vaccine dose and their potential theoretical association with miscarriage in the first trimester."
-    ],
-    "source_claims": [
-      "[fox] Sen. Ron Johnson alleges the text messages demonstrate a discrepancy between what Dr. Anthony Fauci said privately versus his public messaging.",
-      "[fox] Dr. Marc Siegel claims the texts suggest health officials were at times too dogmatic and slow to adapt to evolving COVID-19 evidence.",
-      "[fox] Sen. Ron Johnson characterized the initial release of text messages as only the tip of the iceberg."
-    ],
-    "framing_differences": [
-      "One Fox article frames the texts as raising a theoretical medical concern regarding vaccines and pregnancy, while another Fox article frames the texts as evidence of Dr. Fauci's potential failure to adapt to evolving scientific data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Sen. Ron Johnson stated that the released texts are a clear sign that Dr. Fauci said one thing privately while taking a different message to the public."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'truly sick' to describe vaccine texts in a headline.",
-      "[fox] uses the term 'erupted' to describe the reaction of officials on social media.",
-      "[fox] uses the term 'hot seat' to describe Dr. Fauci's position in a headline."
-    ],
-    "safe_conclusions": [
-      "Text messages from Dr. Anthony Fauci's government phone were released by a Senate committee.",
-      "Dr. Fauci discussed theoretical concerns regarding vaccine reactions and pregnancy in the released communications."
-    ],
-    "unknowns": [
-      "The full content of the text message batch released by the senators.",
-      "The specific nature of the public messaging Dr. Fauci provided regarding these concerns during the same timeframe."
-    ],
-    "synthesis": "Sens. Ron Johnson and Rand Paul released text messages from Dr. Anthony Fauci's government-issued phone regarding theoretical concerns about COVID-19 vaccine reactions and pregnancy. The release has prompted commentary from medical analysts and lawmakers regarding Dr. Fauci's handling of evolving pandemic information. These communications are currently being reviewed as part of an investigation into the official government response to the pandemic.",
-    "confidence": "HIGH. The sources are consistent regarding the origin and subject matter of the documents discussed, though the interpretative commentary varies by author.",
-    "sources": [
-      {
-        "id": "art_1786424185168_1ptz1",
-        "url": "https://www.foxnews.com/politics/fauci-texts-raising-theoretical-miscarriage-concern-after-covid-vaccine-dose-spark-backlash",
-        "source": "fox",
-        "title": "Fauci texts raising theoretical miscarriage concern after COVID vaccine dose spark backlash"
-      },
-      {
-        "id": "art_1786418737883_iq414",
-        "url": "https://www.foxnews.com/health/fauci-texts-suggest-officials-slow-pivot-pandemic-dr-marc-siegel",
-        "source": "fox",
-        "title": "Fauci texts suggest officials were ‘too slow to pivot' amid pandemic, says Dr Marc Siegel"
-      },
-      {
-        "id": "art_1786405156560_ycqnb",
-        "url": "https://www.foxnews.com/politics/fauci-hot-seat-gop-senator-tears-truly-sick-vaccine-texts-tip-iceberg",
-        "source": "fox",
-        "title": "Fauci in the hot seat as GOP senator tears into 'truly sick' vaccine texts: 'Tip of the iceberg'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "4f1e6a7b4a05c0769ff780e9c1af44d0",
     "topic_label": "WNBA DiJonai Carrington controversy",
     "event_window_start": "2026-08-10T10:23:07.000Z",
@@ -621,95 +783,6 @@
         "url": "https://www.foxnews.com/outkick-sports/sports-media-hits-all-time-low-coverage-dijonai-carrington-sophie-cunningham",
         "source": "fox",
         "title": "Sports media hits all-time low in coverage of DiJonai Carrington and Sophie Cunningham"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
-    "topic_label": "Trump and Iran tensions",
-    "event_window_start": "2026-08-10T23:08:50.000Z",
-    "event_window_end": "2026-08-11T02:32:47.000Z",
-    "article_ids": [
-      "art_1786418728985_j519n",
-      "art_1786418731291_19uer",
-      "art_1786418732332_04ukk",
-      "art_1786405143945_gg7iv"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T08:14:44.136Z",
-    "updated_at": "2026-08-11T08:14:44.136Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump attended a NATO summit in Turkey.",
-      "There are ongoing tensions between the United States and Iran involving military activity and threats."
-    ],
-    "source_claims": [
-      "[aljazeera] President Trump demanded compensation from Iran for damages caused over 50 years.",
-      "[aljazeera] Iran stated it will not reopen the Strait of Hormuz unless the U.S. pays reparations and ends sanctions.",
-      "[guardian] President Trump used a catering cart to secretly board a smaller military aircraft to leave Turkey while an older Air Force One was used as a decoy.",
-      "[fox] President Trump stated he is on a 'kill list' for Iran.",
-      "[fox] Iranian Supreme Leader Mojtaba Khamenei appointed six new senior military commanders."
-    ],
-    "framing_differences": [
-      "aljazeera frames the situation as a geopolitical negotiation over reparations and the Strait of Hormuz, while guardian and fox frame the situation around a security maneuver involving the president's travel in Turkey.",
-      "fox frames the leadership changes in Iran as a response to U.S. and Israeli strikes, while aljazeera frames the current state of affairs as a war between the U.S. and Israel against Iran."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The president hid in a catering cart to board a secret flight.",
-      "[fox] President Trump arrived in Turkey on a Boeing 747-8 donated by Qatar."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'radical hardliner' to describe IRGC Commander Ahmad Vahidi.",
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe current hostilities."
-    ],
-    "safe_conclusions": [
-      "President Trump was in Turkey for a NATO meeting.",
-      "Iran has undergone changes in its senior military leadership.",
-      "Diplomatic and security tensions persist between the United States and Iran."
-    ],
-    "unknowns": [
-      "The official status of the Strait of Hormuz.",
-      "The full details of the reported catering cart maneuver.",
-      "The specific terms of any interim peace agreements between the U.S. and Iran."
-    ],
-    "synthesis": "Recent reports indicate heightened tensions between the United States and Iran, marked by both diplomatic disputes over the Strait of Hormuz and reports of security measures taken to protect President Trump during a NATO summit in Turkey. Iran has simultaneously conducted a reshuffle of its senior military leadership following recent strikes. The situation remains characterized by competing demands for reparations and ongoing threats to regional stability.",
-    "confidence": "MEDIUM; While sources are internally consistent, they cover different aspects of separate events, making cross-source verification of specific logistical claims difficult.",
-    "sources": [
-      {
-        "id": "art_1786418728985_j519n",
-        "url": "https://www.aljazeera.com/news/2026/8/11/trump-demands-compensation-from-iran-as-talks-on-strait-of-hormuz-continue?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump demands compensation from Iran as talks on Strait of Hormuz continue"
-      },
-      {
-        "id": "art_1786418731291_19uer",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-secret-flight-nato-return",
-        "source": "guardian",
-        "title": "Trump hid in catering cart to board secret flight in Turkey amid Iran threat – reports"
-      },
-      {
-        "id": "art_1786418732332_04ukk",
-        "url": "https://www.foxnews.com/politics/trump-used-catering-truck-air-force-one-decoy-evade-iran-threat-report",
-        "source": "fox",
-        "title": "Trump used catering truck, Air Force One decoy to evade Iran threat: report"
-      },
-      {
-        "id": "art_1786405143945_gg7iv",
-        "url": "https://www.foxnews.com/world/iran-installs-new-war-chiefs-tehran-signals-prolonged-confrontation-expert-warns",
-        "source": "fox",
-        "title": "Iran installs new war chiefs as Tehran signals ‘prolonged confrontation,’ expert warns"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20236,148 +20309,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/trump-shifts-blame-to-republicans-for-waning-support-from-public?traffic_source=rss",
         "source": "aljazeera",
         "title": "Trump shifts blame to Republicans for waning support from public"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f471dbfd6f3db0a40a7a12918830e8d3",
-    "topic_label": "Middle East Conflicts and Tensions",
-    "event_window_start": "2026-08-08T01:29:14.000Z",
-    "event_window_end": "2026-08-08T19:18:57.000Z",
-    "article_ids": [
-      "art_1786217596080_xzzr1",
-      "art_1786217599180_a2w5m",
-      "art_1786217603366_no1zk",
-      "art_1786203772599_ylkff",
-      "art_1786203773688_h97ix",
-      "art_1786203780947_a6j5d",
-      "art_1786190404113_w7xcj",
-      "art_1786190416801_ygei7",
-      "art_1786190417923_wbtm9",
-      "art_1786159696055_qxdii",
-      "art_1786153776569_uiq6y"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 11,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T22:02:37.839Z",
-    "updated_at": "2026-08-08T22:02:37.839Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Regional conflicts involving Iran, Israel, the United States, and various local actors are ongoing.",
-      "The Strait of Hormuz is experiencing significant disruption to shipping."
-    ],
-    "source_claims": [
-      "[bbc] Iran's Foreign Minister Abbas Araghchi stated that talks regarding the Strait of Hormuz are in their final stages.",
-      "[bbc] Iran has effectively blockaded the Strait of Hormuz since February.",
-      "[aljazeera] Three Lebanese soldiers were wounded in Zawtar al-Gharbiyah while defusing unexploded ordnance.",
-      "[aljazeera] The UAE accused the IRGC of striking an ADNOC tanker with a missile in the Strait of Hormuz.",
-      "[aljazeera] KRG Prime Minister Masrour Barzani stated the Kurdish region seeks to remain neutral in the ongoing regional conflict.",
-      "[aljazeera] Yemeni government forces launched attacks on Houthi positions in response to shelling in Marib."
-    ],
-    "framing_differences": [
-      "bbc frames the situation in the Strait of Hormuz through the lens of diplomatic negotiations, while aljazeera frames the same region through reports of military strikes and specific accusations against the IRGC.",
-      "aljazeera frames the incident in Zawtar al-Gharbiyah as an Israeli intrusion, whereas the Israeli military source quoted by aljazeera stated they were not aware of the event."
-    ],
-    "contested_claims": [
-      "The Lebanese military source describes Israeli movement in Zawtar al-Gharbiyah as a violation of a framework accord, while the Israeli military states it is not aware of the event."
-    ],
-    "unverified_claims": [
-      "[aljazeera] The mayor of Zawtar al-Gharbiyah and the NNA claim Israeli troops built an earth barrier 100 meters from the village square.",
-      "[aljazeera] Deputy Information Minister Mohammed Gezan claims the Houthis resumed shelling civilian neighborhoods in Marib city.",
-      "[aljazeera] KRG Prime Minister Masrour Barzani claims the region has suffered over 1,000 missile and drone attacks since February 28."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'Israeli occupation army' to describe Israeli military forces.",
-      "[aljazeera] uses the term 'act of piracy' to describe an alleged strike by the IRGC on an ADNOC tanker.",
-      "[aljazeera] uses the term 'unjustified' to describe attacks on Kurdish infrastructure as stated by PM Barzani."
-    ],
-    "safe_conclusions": [
-      "Regional military engagements and diplomatic discussions are occurring simultaneously across multiple Middle Eastern countries.",
-      "Various government and military entities have reported recent incidents involving artillery, missiles, and territorial movements."
-    ],
-    "unknowns": [
-      "The exact timeline for a finalized agreement regarding the Strait of Hormuz remains unclear.",
-      "The extent of damage to the ADNOC tanker is not detailed.",
-      "The full scope and verification of alleged Israeli troop movements in Zawtar al-Gharbiyah remain contested."
-    ],
-    "synthesis": "Multiple reports detail ongoing military engagements and diplomatic activity across the Middle East, including events in Yemen, Lebanon, Iraq, and the Strait of Hormuz. Sources report conflicting accounts regarding territorial incursions and responsibility for maritime strikes. Regional actors are navigating ongoing conflict while simultaneously engaging in formal talks to address shipping routes and security concerns.",
-    "confidence": "CONTESTED. While there is broad reporting on regional instability, the sources contain directly contradictory reports regarding specific tactical military events and the attribution of responsibility for maritime strikes.",
-    "sources": [
-      {
-        "id": "art_1786217596080_xzzr1",
-        "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
-      },
-      {
-        "id": "art_1786217599180_a2w5m",
-        "url": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese soldiers injured while Israeli troops intrude on southern town"
-      },
-      {
-        "id": "art_1786217603366_no1zk",
-        "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government forces attack Houthis amid renewed shelling of Marib"
-      },
-      {
-        "id": "art_1786203772599_ylkff",
-        "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties"
-      },
-      {
-        "id": "art_1786203773688_h97ix",
-        "url": "https://www.aljazeera.com/news/2026/8/8/iraqs-kurdish-region-wants-to-stay-out-of-regional-conflicts-pm-barzani?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iraq’s Kurdish region wants to stay out of regional conflicts: PM Barzani"
-      },
-      {
-        "id": "art_1786203780947_a6j5d",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Phase II: Day 28"
-      },
-      {
-        "id": "art_1786190404113_w7xcj",
-        "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The post-American Middle East is beginning to take shape"
-      },
-      {
-        "id": "art_1786190416801_ygei7",
-        "url": "https://www.foxnews.com/culture/iron-dome-abraham-accords-congressional-trips-shaped-15-years-us-israel-cooperation",
-        "source": "fox",
-        "title": "From Iron Dome to Abraham Accords: Congressional trips helped shape 15 years of US-Israel cooperation"
-      },
-      {
-        "id": "art_1786190417923_wbtm9",
-        "url": "https://www.aljazeera.com/features/2026/8/8/yemens-collapsing-healthcare-forces-the-sick-to-seek-alternative-medicines?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s collapsing healthcare forces the sick to seek alternative medicines"
-      },
-      {
-        "id": "art_1786159696055_qxdii",
-        "url": "https://www.aljazeera.com/news/2026/8/7/medics-among-six-palestinians-injured-in-israeli-attacks-across-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Medics among six Palestinians injured in Israeli attacks across West Bank"
-      },
-      {
-        "id": "art_1786153776569_uiq6y",
-        "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could the Mecca defence pact mean for the US role in the Middle East?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
