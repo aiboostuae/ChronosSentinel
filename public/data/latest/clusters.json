@@ -1,5 +1,78 @@
 [
   {
+    "cluster_id": "af23772b683db366674a4051c4a582f6",
+    "topic_label": "Libya oil refinery drone attack",
+    "event_window_start": "2026-08-11T04:09:10.000Z",
+    "event_window_end": "2026-08-11T04:37:27.000Z",
+    "article_ids": [
+      "art_1786424172900_lh4u0",
+      "art_1786424178675_l64pl"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T05:58:38.611Z",
+    "updated_at": "2026-08-11T05:58:38.611Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A fire occurred at the Zawiya oil refinery in Libya.",
+      "The Zawiya refinery is Libya’s largest operational oil facility.",
+      "The fire was ignited by a drone attack.",
+      "The National Oil Corporation (NOC) has indicated a potential suspension of operations due to the attacks.",
+      "There have been no reports of serious injuries or casualties."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the refinery has a capacity of 120,000 barrels per day.",
+      "[aljazeera] claims the refinery is located 40km west of Tripoli.",
+      "[aljazeera] claims the fire resulted in patients being treated for smoke inhalation.",
+      "[aljazeera] claims the attacks were carried out by 'unknown attackers'."
+    ],
+    "framing_differences": [
+      "Both provided texts are attributed to Al Jazeera and align in their framing of the event as an operational crisis for the National Oil Corporation."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the fire was specifically caused by ignited gasoline.",
+      "[aljazeera] claims there have been 'days of strikes' preceding the current fire."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'rages' to describe the fire."
+    ],
+    "safe_conclusions": [
+      "A drone strike caused a fire at the Zawiya refinery in Libya.",
+      "The National Oil Corporation is assessing potential operational shutdowns due to recent attacks.",
+      "No serious casualties have been reported from the incident."
+    ],
+    "unknowns": [
+      "The specific identity of the entities responsible for the drone attacks.",
+      "The exact extent of the damage to the refinery infrastructure.",
+      "The timeline or specific frequency of the preceding attacks mentioned."
+    ],
+    "synthesis": "A drone attack caused a fire at Libya’s largest operational oil facility, the Zawiya refinery. While no serious injuries were reported, the National Oil Corporation is considering a suspension of operations due to ongoing threats. Emergency services confirmed that medical treatment for those affected was primarily for smoke inhalation.",
+    "confidence": "HIGH. Both provided texts originate from the same source and share consistent factual reporting regarding the event.",
+    "sources": [
+      {
+        "id": "art_1786424172900_lh4u0",
+        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
+      },
+      {
+        "id": "art_1786424178675_l64pl",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "f4732a99a10e7dbbfb3fe7175593d107",
     "topic_label": "Colombia earthquake disaster",
     "event_window_start": "2026-08-10T22:35:48.000Z",
@@ -106,162 +179,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "af23772b683db366674a4051c4a582f6",
-    "topic_label": "Libya oil refinery drone attack",
-    "event_window_start": "2026-08-11T04:09:10.000Z",
-    "event_window_end": "2026-08-11T04:37:27.000Z",
-    "article_ids": [
-      "art_1786424172900_lh4u0",
-      "art_1786424178675_l64pl"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T05:58:38.611Z",
-    "updated_at": "2026-08-11T05:58:38.611Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A fire occurred at the Zawiya oil refinery in Libya.",
-      "The Zawiya refinery is Libya’s largest operational oil facility.",
-      "The fire was ignited by a drone attack.",
-      "The National Oil Corporation (NOC) has indicated a potential suspension of operations due to the attacks.",
-      "There have been no reports of serious injuries or casualties."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the refinery has a capacity of 120,000 barrels per day.",
-      "[aljazeera] claims the refinery is located 40km west of Tripoli.",
-      "[aljazeera] claims the fire resulted in patients being treated for smoke inhalation.",
-      "[aljazeera] claims the attacks were carried out by 'unknown attackers'."
-    ],
-    "framing_differences": [
-      "Both provided texts are attributed to Al Jazeera and align in their framing of the event as an operational crisis for the National Oil Corporation."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims the fire was specifically caused by ignited gasoline.",
-      "[aljazeera] claims there have been 'days of strikes' preceding the current fire."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'rages' to describe the fire."
-    ],
-    "safe_conclusions": [
-      "A drone strike caused a fire at the Zawiya refinery in Libya.",
-      "The National Oil Corporation is assessing potential operational shutdowns due to recent attacks.",
-      "No serious casualties have been reported from the incident."
-    ],
-    "unknowns": [
-      "The specific identity of the entities responsible for the drone attacks.",
-      "The exact extent of the damage to the refinery infrastructure.",
-      "The timeline or specific frequency of the preceding attacks mentioned."
-    ],
-    "synthesis": "A drone attack caused a fire at Libya’s largest operational oil facility, the Zawiya refinery. While no serious injuries were reported, the National Oil Corporation is considering a suspension of operations due to ongoing threats. Emergency services confirmed that medical treatment for those affected was primarily for smoke inhalation.",
-    "confidence": "HIGH. Both provided texts originate from the same source and share consistent factual reporting regarding the event.",
-    "sources": [
-      {
-        "id": "art_1786424172900_lh4u0",
-        "url": "https://www.aljazeera.com/news/2026/8/11/huge-fire-breaks-out-at-libyas-zawiya-refinery-after-drone-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Huge fire breaks out at Libya’s Zawiya refinery after drone attack"
-      },
-      {
-        "id": "art_1786424178675_l64pl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/fire-rages-after-drone-strikes-libyas-largest-oil-refinery?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire rages after drone strikes Libya’s largest oil refinery"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
-    "topic_label": "Trump vaccine policy",
-    "event_window_start": "2026-08-10T22:28:20.000Z",
-    "event_window_end": "2026-08-11T02:08:55.000Z",
-    "article_ids": [
-      "art_1786418735624_613p3",
-      "art_1786405146469_zcci4",
-      "art_1786405154154_10oor"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T03:37:30.577Z",
-    "updated_at": "2026-08-11T03:37:30.577Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump signed an executive order regarding childhood vaccinations.",
-      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
-      "The executive order calls for a reduction in the number of childhood vaccines."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
-      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
-      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
-      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
-      "[guardian] claims the order requires shots be given at separate medical visits.",
-      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
-    ],
-    "framing_differences": [
-      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
-      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
-    ],
-    "contested_claims": [
-      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
-    ],
-    "unverified_claims": [
-      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
-      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
-    ],
-    "unknowns": [
-      "The specific implementation timeline for the executive order.",
-      "The legal standing of the order relative to existing CDC authority.",
-      "How the transition to separate MMR shots will be managed in the US healthcare system."
-    ],
-    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
-    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
-    "sources": [
-      {
-        "id": "art_1786418735624_613p3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
-      },
-      {
-        "id": "art_1786405146469_zcci4",
-        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
-      },
-      {
-        "id": "art_1786405154154_10oor",
-        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
-        "source": "guardian",
-        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "3a10653497ee4c857858a46d9167fcfd",
     "topic_label": "Trump and Iran tensions",
     "event_window_start": "2026-08-10T23:08:50.000Z",
@@ -351,6 +268,89 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "1effa15458d709660d715a2dcde03ce3",
+    "topic_label": "Trump vaccine policy",
+    "event_window_start": "2026-08-10T22:28:20.000Z",
+    "event_window_end": "2026-08-11T02:08:55.000Z",
+    "article_ids": [
+      "art_1786418735624_613p3",
+      "art_1786405146469_zcci4",
+      "art_1786405154154_10oor"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T03:37:30.577Z",
+    "updated_at": "2026-08-11T03:37:30.577Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump signed an executive order regarding childhood vaccinations.",
+      "The executive order recommends splitting the MMR (measles, mumps, and rubella) vaccine into separate shots.",
+      "The executive order calls for a reduction in the number of childhood vaccines."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the president falsely stated the combined MMR shot could be quite lethal.",
+      "[bbc] claims the president stated children were healthier in the past when receiving fewer vaccines and linked this to current rates of autism.",
+      "[bbc] claims the order recommends reducing childhood vaccines from 18 to 11.",
+      "[guardian] claims the order attempts to override the authority of the US Centers for Disease Control and Prevention.",
+      "[guardian] claims the order requires shots be given at separate medical visits.",
+      "[guardian] claims the signing involved the president and the health secretary, Robert F. Kennedy Jr."
+    ],
+    "framing_differences": [
+      "aljazeera frames the president's claims regarding vaccine safety as false, whereas bbc frames them as a discredited link.",
+      "guardian emphasizes the jurisdictional conflict between the White House and the CDC, whereas aljazeera and bbc focus primarily on the policy changes to the vaccine schedule."
+    ],
+    "contested_claims": [
+      "There are no direct contradictions between sources regarding the contents of the executive order, though sources differ in their characterization of the president's claims regarding vaccine safety."
+    ],
+    "unverified_claims": [
+      "[guardian] claims the order is an attempt to undergird changes to CDC recommendations that were previously halted by a federal judge."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'falsely claiming' to describe the president's statements on vaccine safety.",
+      "[bbc] uses the term 'discredited link' to describe the president's association of vaccines with autism."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump signed an executive order recommending changes to the childhood vaccination schedule, including the splitting of the MMR vaccine."
+    ],
+    "unknowns": [
+      "The specific implementation timeline for the executive order.",
+      "The legal standing of the order relative to existing CDC authority.",
+      "How the transition to separate MMR shots will be managed in the US healthcare system."
+    ],
+    "synthesis": "President Donald Trump has signed an executive order directing changes to the childhood vaccination schedule, including a recommendation to split the MMR vaccine and a reduction in the total number of vaccines. The move has been associated with statements from the administration linking vaccine schedules to autism, a connection that scientific studies have found no evidence for. Sources note that this order aims to alter existing vaccination protocols and has implications for the regulatory authority of the CDC.",
+    "confidence": "HIGH: All sources agree on the primary action of the president signing the order and the specific components regarding the MMR vaccine and vaccine count.",
+    "sources": [
+      {
+        "id": "art_1786418735624_613p3",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/aje-onl-nf_trump-orders-fewer-child-vaccines-and-splitting-mmr-100826?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump orders fewer childhood vaccinations including splitting up MMR"
+      },
+      {
+        "id": "art_1786405146469_zcci4",
+        "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump signs order to limit childhood vaccines and split MMR shots"
+      },
+      {
+        "id": "art_1786405154154_10oor",
+        "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
+        "source": "guardian",
+        "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "3a84f408131154672677c3c2f43c898c",
     "topic_label": "Fauci COVID vaccine controversy",
     "event_window_start": "2026-08-10T22:08:12.000Z",
@@ -421,6 +421,83 @@
         "url": "https://www.foxnews.com/politics/fauci-hot-seat-gop-senator-tears-truly-sick-vaccine-texts-tip-iceberg",
         "source": "fox",
         "title": "Fauci in the hot seat as GOP senator tears into 'truly sick' vaccine texts: 'Tip of the iceberg'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4631dedeae8cd772114966c754a5864f",
+    "topic_label": "Middle East politics and conflict",
+    "event_window_start": "2026-08-11T00:00:19.000Z",
+    "event_window_end": "2026-08-11T02:44:39.000Z",
+    "article_ids": [
+      "art_1786418727931_1kzxl",
+      "art_1786411754328_vw97g",
+      "art_1786411760809_7lala"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-11T18:04:03.667Z",
+    "updated_at": "2026-08-11T18:04:03.667Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Colombia's Foreign Ministry issued a statement regarding Israeli sovereignty over the Golan Heights.",
+      "The United States has previously recognized Israel's claim over the Golan Heights.",
+      "Turkiye has passed new legislation concerning the reintegration of PKK members.",
+      "Israeli Prime Minister Benjamin Netanyahu has reportedly expressed opposition to a U.S.-brokered 15-point peace plan for Gaza."
+    ],
+    "source_claims": [
+      "[aljazeera] claims Colombia is the second country to recognize Israeli sovereignty over the Golan Heights.",
+      "[aljazeera] claims the new law in Turkiye offers conditional amnesty to PKK members contingent upon full disarmament.",
+      "[aljazeera] claims Benjamin Netanyahu is currently defying a peace plan presented by Donald Trump."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the new Colombian administration as 'far-right' whereas other sources do not characterize the political leaning of the government."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the new Colombian President Abelardo de la Espriella has recently taken office."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'far-right' to describe the government of Colombia.",
+      "[aljazeera] uses the term 'occupied' to describe the Syrian Golan Heights."
+    ],
+    "safe_conclusions": [
+      "Colombia has issued a public statement supporting Israeli control of the Golan Heights.",
+      "Turkiye has enacted legislation regarding the PKK.",
+      "Benjamin Netanyahu's position on the U.S. Gaza peace plan is a subject of international policy discussion."
+    ],
+    "unknowns": [
+      "The specific terms and conditions of the amnesty law passed by the Turkish government are not fully detailed.",
+      "The exact timeline and geopolitical motivations behind Colombia's policy change regarding the Golan Heights are not confirmed."
+    ],
+    "synthesis": "Recent international developments include Colombia's public recognition of Israeli sovereignty over the Golan Heights and the passage of new amnesty legislation in Turkiye for PKK members. Concurrently, analysts are examining the potential political friction between Israeli Prime Minister Benjamin Netanyahu and the United States regarding a Gaza peace plan. These events represent separate shifts in regional and international policy contexts.",
+    "confidence": "HIGH. The sources consistently report on separate, verifiable government actions and political situations.",
+    "sources": [
+      {
+        "id": "art_1786418727931_1kzxl",
+        "url": "https://www.aljazeera.com/news/2026/8/11/colombias-far-right-government-recognises-israeli-claim-over-golan-heights?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Colombia’s far-right government recognises Israeli claim over Golan Heights"
+      },
+      {
+        "id": "art_1786411754328_vw97g",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/08-11-2026-turkiye-pkk-bill-sv-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Turkiye passes law giving thousands of PKK members chance at amnesty"
+      },
+      {
+        "id": "art_1786411760809_7lala",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/11/can-netanyahu-defy-trump-on-his-gaza-peace-plan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu defy Trump on his Gaza peace plan?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20049,133 +20126,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/07/chicago-funeral-home-bodies",
         "source": "guardian",
         "title": "Remains of 56 people found decomposing at Chicago funeral home"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9ae11854a595058f6b5045cf38be351b",
-    "topic_label": "Tensions in the Middle East",
-    "event_window_start": "2026-08-08T01:29:14.000Z",
-    "event_window_end": "2026-08-08T19:18:57.000Z",
-    "article_ids": [
-      "art_1786217596080_xzzr1",
-      "art_1786217599180_a2w5m",
-      "art_1786217603366_no1zk",
-      "art_1786203772599_ylkff",
-      "art_1786203773688_h97ix",
-      "art_1786203780947_a6j5d",
-      "art_1786190404113_w7xcj",
-      "art_1786190416801_ygei7",
-      "art_1786153776569_uiq6y"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 9,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-08T23:30:15.273Z",
-    "updated_at": "2026-08-08T23:30:15.273Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Various military and diplomatic incidents are occurring in the Middle East involving Iran, Yemen, Lebanon, and the Kurdistan region of Iraq.",
-      "The Strait of Hormuz is currently the subject of international concern due to shipping security issues."
-    ],
-    "source_claims": [
-      "[bbc] Iran stated that talks regarding the Strait of Hormuz are in their final stages but reopening remains subject to conditions.",
-      "[aljazeera-1] The Lebanese army reported that three soldiers were wounded while defusing ordnance in Zawtar al-Gharbiyah.",
-      "[aljazeera-1] The Lebanese state-run news agency and village mayor reported that Israeli troops entered and built an earth barrier in Zawtar al-Gharbiyah.",
-      "[aljazeera-1] The Israeli military stated it is not aware of an event in the Zawtar al-Gharbiyah area.",
-      "[aljazeera-2] Yemeni government forces launched attacks on Houthi positions to protect civilians following Houthi missile and drone attacks.",
-      "[aljazeera-3] The UAE accused the IRGC of striking an ADNOC tanker with a missile in the Strait of Hormuz.",
-      "[aljazeera-4] KRG Prime Minister Masrour Barzani stated the Kurdistan region seeks to remain neutral in the ongoing conflict."
-    ],
-    "framing_differences": [
-      "aljazeera-1 frames the presence of Israeli troops in Zawtar al-Gharbiyah as a 'violation' of a framework accord, whereas the Israeli military frames the event as not being known to them.",
-      "aljazeera-3 frames the attack on the ADNOC tanker as an 'act of piracy,' while the bbc frames the status of the Strait of Hormuz as subject to ongoing positive talks and negotiations."
-    ],
-    "contested_claims": [
-      "The presence of Israeli troops in Zawtar al-Gharbiyah is reported by the village mayor and Lebanese state media, but the Israeli military claims it has no knowledge of such an event."
-    ],
-    "unverified_claims": [
-      "[aljazeera-3] The UAE government claims the IRGC is responsible for the strike on an ADNOC tanker.",
-      "[aljazeera-4] Masrour Barzani claims the Kurdistan region has been subjected to over 1,000 missile and drone attacks since February 28."
-    ],
-    "loaded_language": [
-      "[aljazeera-3] uses the term 'act of piracy' to describe the strike on an ADNOC tanker.",
-      "[aljazeera-4] uses the term 'unjustified' to describe missile and drone attacks on the Kurdistan region."
-    ],
-    "safe_conclusions": [
-      "Regional tensions involving multiple states are impacting shipping lanes and military operations across the Middle East.",
-      "Diplomatic and military officials in several nations have issued statements regarding recent incidents in Lebanon, Yemen, Iraq, and the Strait of Hormuz."
-    ],
-    "unknowns": [
-      "The exact timeline for any potential reopening of the Strait of Hormuz.",
-      "The full extent of damage to the ADNOC tanker mentioned by the UAE.",
-      "The specific cause of the incident involving Lebanese soldiers and unexploded ordnance."
-    ],
-    "synthesis": "Recent reports highlight heightened military activity and diplomatic challenges across the Middle East, including events in Lebanon, Yemen, Iraq, and the Strait of Hormuz. Official sources from various governments have provided conflicting or incomplete information regarding specific border and maritime incidents. Regional leaders have expressed varying degrees of involvement and intent concerning the ongoing hostilities.",
-    "confidence": "CONTESTED. While the sources are reputable, they report on fragmented and often contradictory localized incidents across different countries, preventing a unified narrative of a single event.",
-    "sources": [
-      {
-        "id": "art_1786217596080_xzzr1",
-        "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait"
-      },
-      {
-        "id": "art_1786217599180_a2w5m",
-        "url": "https://www.aljazeera.com/news/2026/8/8/lebanese-soldiers-injured-while-israeli-troops-intrude-on-southern-town?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese soldiers injured while Israeli troops intrude on southern town"
-      },
-      {
-        "id": "art_1786217603366_no1zk",
-        "url": "https://www.aljazeera.com/news/2026/8/8/yemens-government-forces-attack-houthis-amid-renewed-shelling-of-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government forces attack Houthis amid renewed shelling of Marib"
-      },
-      {
-        "id": "art_1786203772599_ylkff",
-        "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UAE says Iran targeted ADNOC tanker in Strait of Hormuz, no casualties"
-      },
-      {
-        "id": "art_1786203773688_h97ix",
-        "url": "https://www.aljazeera.com/news/2026/8/8/iraqs-kurdish-region-wants-to-stay-out-of-regional-conflicts-pm-barzani?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iraq’s Kurdish region wants to stay out of regional conflicts: PM Barzani"
-      },
-      {
-        "id": "art_1786203780947_a6j5d",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/8/war-on-iran-phase-ii-day-28?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Phase II: Day 28"
-      },
-      {
-        "id": "art_1786190404113_w7xcj",
-        "url": "https://www.aljazeera.com/opinions/2026/8/8/the-post-american-middle-east-is-beginning-to-take-shape?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The post-American Middle East is beginning to take shape"
-      },
-      {
-        "id": "art_1786190416801_ygei7",
-        "url": "https://www.foxnews.com/culture/iron-dome-abraham-accords-congressional-trips-shaped-15-years-us-israel-cooperation",
-        "source": "fox",
-        "title": "From Iron Dome to Abraham Accords: Congressional trips helped shape 15 years of US-Israel cooperation"
-      },
-      {
-        "id": "art_1786153776569_uiq6y",
-        "url": "https://www.aljazeera.com/news/2026/8/8/what-could-the-mecca-defence-pact-mean-for-the-us-role-in-the-middle-east?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could the Mecca defence pact mean for the US role in the Middle East?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
