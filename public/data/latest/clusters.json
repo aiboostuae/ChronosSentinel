@@ -1,5 +1,95 @@
 [
   {
+    "cluster_id": "abd07759aac052b17a2acf37b5fe63d6",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-08-14T17:16:27.000Z",
+    "event_window_end": "2026-08-14T17:22:50.000Z",
+    "article_ids": [
+      "art_1786729001832_gquvh",
+      "art_1786729002961_nn5a1",
+      "art_1786729004167_vo0rg",
+      "art_1786729005351_w6mt5",
+      "art_1786729006410_0rjcg"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-14T18:25:17.196Z",
+    "updated_at": "2026-08-14T18:25:17.196Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] The Air Force World Class Athlete Program allows members to train full-time for elite sports while on active duty.",
+      "[fox] Operation Epic Fury against Iran was launched by CENTCOM on Feb 28.",
+      "[guardian] Luigi Mangione pleaded guilty to federal stalking charges regarding the killing of Brian Thompson.",
+      "[guardian] Network Rail reported two train derailments in the UK in under 24 hours amid high temperatures.",
+      "[guardian] Nineteen homes were destroyed and 18 damaged in Stourbridge wildfires.",
+      "[guardian] A detainee at an Adams County ICE facility alleges a gas leak occurred and medical care was denied."
+    ],
+    "framing_differences": [
+      "fox frames the Air Force service in the context of military operations in Iran, whereas the guardian reports on disparate topics including criminal justice, rail infrastructure, wildfires, and immigration detention."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] A detainee at the Adams County ICE facility claims people were forced to spend hours in 100F heat without shade during a power outage.",
+      "[guardian] Luigi Mangione claims he shot Brian Thompson due to severe back pain and difficulties navigating the health system."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'overcrowded' to describe an immigration facility.",
+      "[guardian] uses the term 'horrendous' and 'distressing' to describe wildfires in Stourbridge.",
+      "[guardian] uses the term 'mystery gas leak' to describe an incident at a detention center."
+    ],
+    "safe_conclusions": [
+      "The provided sources cover unrelated events occurring in different geographical locations and contexts."
+    ],
+    "unknowns": [
+      "The full scope of the impact of the reported events is not provided.",
+      "Verification of the alleged conditions at the Adams County detention center by independent authorities is absent."
+    ],
+    "synthesis": "The provided articles report on a range of independent global and domestic events, including military personnel in sports, a criminal plea in a murder case, infrastructure failures in the UK, wildfires, and allegations at a detention facility. There is no thematic overlap between these reports. Each article provides specific accounts regarding its respective subject matter without reference to the other events described.",
+    "confidence": "HIGH. The sources represent distinct, unrelated reporting streams and do not conflict because they address entirely different subject matters.",
+    "sources": [
+      {
+        "id": "art_1786729001832_gquvh",
+        "url": "https://www.foxnews.com/sports/air-force-athletes-chasing-olympic-dreams-serving-nation-critical-time",
+        "source": "fox",
+        "title": "Air Force athletes chasing Olympic dreams in between serving the nation in a critical time"
+      },
+      {
+        "id": "art_1786729002961_nn5a1",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
+        "source": "guardian",
+        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
+      },
+      {
+        "id": "art_1786729004167_vo0rg",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
+        "source": "guardian",
+        "title": "National Rail acknowledges ‘exceptional challenges’ of extreme heat after second train derailment in 24 hours"
+      },
+      {
+        "id": "art_1786729005351_w6mt5",
+        "url": "https://www.theguardian.com/environment/2026/aug/14/stourbridge-wildfires-climate-change",
+        "source": "guardian",
+        "title": "‘It’s due to climate’: the people of Stourbridge on the town’s wildfires"
+      },
+      {
+        "id": "art_1786729006410_0rjcg",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/mississippi-ice-facility-gas-leak",
+        "source": "guardian",
+        "title": "People detained at Mississippi ICE facility sickened by gas leak and denied medical care"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "40614ee9ce2a5084e12fa4381c3f2c5e",
     "topic_label": "Conflict in the Middle East",
     "event_window_start": "2026-08-13T19:36:15.000Z",
@@ -652,96 +742,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c78gy6ep3n5o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "US says dozens of countries helped China dodge Trump's tariffs"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "abd07759aac052b17a2acf37b5fe63d6",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-08-14T17:16:27.000Z",
-    "event_window_end": "2026-08-14T17:22:50.000Z",
-    "article_ids": [
-      "art_1786729001832_gquvh",
-      "art_1786729002961_nn5a1",
-      "art_1786729004167_vo0rg",
-      "art_1786729005351_w6mt5",
-      "art_1786729006410_0rjcg"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-14T18:25:17.196Z",
-    "updated_at": "2026-08-14T18:25:17.196Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] The Air Force World Class Athlete Program allows members to train full-time for elite sports while on active duty.",
-      "[fox] Operation Epic Fury against Iran was launched by CENTCOM on Feb 28.",
-      "[guardian] Luigi Mangione pleaded guilty to federal stalking charges regarding the killing of Brian Thompson.",
-      "[guardian] Network Rail reported two train derailments in the UK in under 24 hours amid high temperatures.",
-      "[guardian] Nineteen homes were destroyed and 18 damaged in Stourbridge wildfires.",
-      "[guardian] A detainee at an Adams County ICE facility alleges a gas leak occurred and medical care was denied."
-    ],
-    "framing_differences": [
-      "fox frames the Air Force service in the context of military operations in Iran, whereas the guardian reports on disparate topics including criminal justice, rail infrastructure, wildfires, and immigration detention."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] A detainee at the Adams County ICE facility claims people were forced to spend hours in 100F heat without shade during a power outage.",
-      "[guardian] Luigi Mangione claims he shot Brian Thompson due to severe back pain and difficulties navigating the health system."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'overcrowded' to describe an immigration facility.",
-      "[guardian] uses the term 'horrendous' and 'distressing' to describe wildfires in Stourbridge.",
-      "[guardian] uses the term 'mystery gas leak' to describe an incident at a detention center."
-    ],
-    "safe_conclusions": [
-      "The provided sources cover unrelated events occurring in different geographical locations and contexts."
-    ],
-    "unknowns": [
-      "The full scope of the impact of the reported events is not provided.",
-      "Verification of the alleged conditions at the Adams County detention center by independent authorities is absent."
-    ],
-    "synthesis": "The provided articles report on a range of independent global and domestic events, including military personnel in sports, a criminal plea in a murder case, infrastructure failures in the UK, wildfires, and allegations at a detention facility. There is no thematic overlap between these reports. Each article provides specific accounts regarding its respective subject matter without reference to the other events described.",
-    "confidence": "HIGH. The sources represent distinct, unrelated reporting streams and do not conflict because they address entirely different subject matters.",
-    "sources": [
-      {
-        "id": "art_1786729001832_gquvh",
-        "url": "https://www.foxnews.com/sports/air-force-athletes-chasing-olympic-dreams-serving-nation-critical-time",
-        "source": "fox",
-        "title": "Air Force athletes chasing Olympic dreams in between serving the nation in a critical time"
-      },
-      {
-        "id": "art_1786729002961_nn5a1",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
-        "source": "guardian",
-        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
-      },
-      {
-        "id": "art_1786729004167_vo0rg",
-        "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
-        "source": "guardian",
-        "title": "National Rail acknowledges ‘exceptional challenges’ of extreme heat after second train derailment in 24 hours"
-      },
-      {
-        "id": "art_1786729005351_w6mt5",
-        "url": "https://www.theguardian.com/environment/2026/aug/14/stourbridge-wildfires-climate-change",
-        "source": "guardian",
-        "title": "‘It’s due to climate’: the people of Stourbridge on the town’s wildfires"
-      },
-      {
-        "id": "art_1786729006410_0rjcg",
-        "url": "https://www.theguardian.com/us-news/2026/aug/14/mississippi-ice-facility-gas-leak",
-        "source": "guardian",
-        "title": "People detained at Mississippi ICE facility sickened by gas leak and denied medical care"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
