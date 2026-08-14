@@ -1,5 +1,95 @@
 [
   {
+    "cluster_id": "abd07759aac052b17a2acf37b5fe63d6",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-08-14T17:16:27.000Z",
+    "event_window_end": "2026-08-14T17:22:50.000Z",
+    "article_ids": [
+      "art_1786729001832_gquvh",
+      "art_1786729002961_nn5a1",
+      "art_1786729004167_vo0rg",
+      "art_1786729005351_w6mt5",
+      "art_1786729006410_0rjcg"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-14T18:25:17.196Z",
+    "updated_at": "2026-08-14T18:25:17.196Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] The Air Force World Class Athlete Program allows members to train full-time for elite sports while on active duty.",
+      "[fox] Operation Epic Fury against Iran was launched by CENTCOM on Feb 28.",
+      "[guardian] Luigi Mangione pleaded guilty to federal stalking charges regarding the killing of Brian Thompson.",
+      "[guardian] Network Rail reported two train derailments in the UK in under 24 hours amid high temperatures.",
+      "[guardian] Nineteen homes were destroyed and 18 damaged in Stourbridge wildfires.",
+      "[guardian] A detainee at an Adams County ICE facility alleges a gas leak occurred and medical care was denied."
+    ],
+    "framing_differences": [
+      "fox frames the Air Force service in the context of military operations in Iran, whereas the guardian reports on disparate topics including criminal justice, rail infrastructure, wildfires, and immigration detention."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] A detainee at the Adams County ICE facility claims people were forced to spend hours in 100F heat without shade during a power outage.",
+      "[guardian] Luigi Mangione claims he shot Brian Thompson due to severe back pain and difficulties navigating the health system."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'overcrowded' to describe an immigration facility.",
+      "[guardian] uses the term 'horrendous' and 'distressing' to describe wildfires in Stourbridge.",
+      "[guardian] uses the term 'mystery gas leak' to describe an incident at a detention center."
+    ],
+    "safe_conclusions": [
+      "The provided sources cover unrelated events occurring in different geographical locations and contexts."
+    ],
+    "unknowns": [
+      "The full scope of the impact of the reported events is not provided.",
+      "Verification of the alleged conditions at the Adams County detention center by independent authorities is absent."
+    ],
+    "synthesis": "The provided articles report on a range of independent global and domestic events, including military personnel in sports, a criminal plea in a murder case, infrastructure failures in the UK, wildfires, and allegations at a detention facility. There is no thematic overlap between these reports. Each article provides specific accounts regarding its respective subject matter without reference to the other events described.",
+    "confidence": "HIGH. The sources represent distinct, unrelated reporting streams and do not conflict because they address entirely different subject matters.",
+    "sources": [
+      {
+        "id": "art_1786729001832_gquvh",
+        "url": "https://www.foxnews.com/sports/air-force-athletes-chasing-olympic-dreams-serving-nation-critical-time",
+        "source": "fox",
+        "title": "Air Force athletes chasing Olympic dreams in between serving the nation in a critical time"
+      },
+      {
+        "id": "art_1786729002961_nn5a1",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
+        "source": "guardian",
+        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
+      },
+      {
+        "id": "art_1786729004167_vo0rg",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
+        "source": "guardian",
+        "title": "National Rail acknowledges ‘exceptional challenges’ of extreme heat after second train derailment in 24 hours"
+      },
+      {
+        "id": "art_1786729005351_w6mt5",
+        "url": "https://www.theguardian.com/environment/2026/aug/14/stourbridge-wildfires-climate-change",
+        "source": "guardian",
+        "title": "‘It’s due to climate’: the people of Stourbridge on the town’s wildfires"
+      },
+      {
+        "id": "art_1786729006410_0rjcg",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/mississippi-ice-facility-gas-leak",
+        "source": "guardian",
+        "title": "People detained at Mississippi ICE facility sickened by gas leak and denied medical care"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "2c6d77f4d22e2f8df6d8730999e7ffd6",
     "topic_label": "Extreme Heat and Wildfires in Europe",
     "event_window_start": "2026-08-13T18:30:16.000Z",
@@ -19828,90 +19918,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/10/trump-vaccines-executive-order-measles",
         "source": "guardian",
         "title": "Trump signs order attempting to override CDC vaccine schedule and break up MMR shots"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ef61ce51d0a853f9d868255644a5bc14",
-    "topic_label": "Dr. Fauci Communications Controversy",
-    "event_window_start": "2026-08-10T22:08:12.000Z",
-    "event_window_end": "2026-08-11T18:35:58.000Z",
-    "article_ids": [
-      "art_1786475996488_6pnfj",
-      "art_1786424185168_1ptz1",
-      "art_1786418737883_iq414",
-      "art_1786405156560_ycqnb"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-11T20:08:28.632Z",
-    "updated_at": "2026-08-11T20:08:28.632Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Sens. Ron Johnson and Rand Paul released a batch of text messages from Dr. Anthony Fauci's government-issued cellphone.",
-      "The released messages include a January 2021 conversation where Dr. Fauci discussed concerns regarding fever and symptoms following a second COVID-19 vaccine dose and their potential association with miscarriage in the first trimester."
-    ],
-    "source_claims": [
-      "[fox] Sen. Ron Johnson alleges that career HHS employees are sabotaging his and Robert F. Kennedy Jr.'s efforts to access pandemic-era records.",
-      "[fox] Sen. Ron Johnson claims that the initial release of text messages shows Dr. Fauci said different things privately than he did publicly.",
-      "[fox] Dr. Marc Siegel claims Dr. Fauci was at times too 'dogmatic' and slow to adapt to evolving COVID-19 scientific evidence."
-    ],
-    "framing_differences": [
-      "Fox focuses on the narrative of government obstruction and transparency regarding Fauci, while framing the text messages as evidence of potential contradictions between public messaging and private concerns."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Sen. Ron Johnson claims that longtime HHS employees are intentionally putting up roadblocks to information probes.",
-      "[fox] Sen. Ron Johnson characterizes the released texts as merely the 'tip of the iceberg' regarding future revelations."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'sabotaging' to describe the actions of HHS employees.",
-      "[fox] uses the phrase 'truly sick' to describe vaccine-related texts.",
-      "[fox] uses the term 'corruption' to describe the subject of the ongoing probe."
-    ],
-    "safe_conclusions": [
-      "Text messages from Dr. Fauci's government cellphone were released by Senate Republicans.",
-      "The messages contain private discussions between Dr. Fauci and other health officials regarding the pandemic."
-    ],
-    "unknowns": [
-      "What specific contents remain in the unreleased portions of the cellphone data.",
-      "The exact identities of the HHS employees alleged to be obstructing the probe.",
-      "Whether the private concerns discussed by Dr. Fauci were shared with the public at the time."
-    ],
-    "synthesis": "Senate Republicans have released a batch of text messages from former NIAID director Dr. Anthony Fauci's government-issued cellphone, which included private discussions about potential vaccine side effects. Sen. Ron Johnson has cited these communications as part of an ongoing investigation into pandemic-era government operations and has alleged obstruction by HHS employees. Dr. Marc Siegel characterized the documents as raising questions about how the agency managed evolving scientific evidence.",
-    "confidence": "HIGH. All sources are consistent in reporting the origin of the information and the content of the referenced text messages.",
-    "sources": [
-      {
-        "id": "art_1786475996488_6pnfj",
-        "url": "https://www.foxnews.com/politics/hhs-bureaucrats-accused-sabotaging-rfk-jr-s-efforts-expose-fauci-records",
-        "source": "fox",
-        "title": "HHS bureaucrats accused of 'sabotaging' RFK Jr's efforts to expose Fauci records"
-      },
-      {
-        "id": "art_1786424185168_1ptz1",
-        "url": "https://www.foxnews.com/politics/fauci-texts-raising-theoretical-miscarriage-concern-after-covid-vaccine-dose-spark-backlash",
-        "source": "fox",
-        "title": "Fauci texts raising theoretical miscarriage concern after COVID vaccine dose spark backlash"
-      },
-      {
-        "id": "art_1786418737883_iq414",
-        "url": "https://www.foxnews.com/health/fauci-texts-suggest-officials-slow-pivot-pandemic-dr-marc-siegel",
-        "source": "fox",
-        "title": "Fauci texts suggest officials were ‘too slow to pivot' amid pandemic, says Dr Marc Siegel"
-      },
-      {
-        "id": "art_1786405156560_ycqnb",
-        "url": "https://www.foxnews.com/politics/fauci-hot-seat-gop-senator-tears-truly-sick-vaccine-texts-tip-iceberg",
-        "source": "fox",
-        "title": "Fauci in the hot seat as GOP senator tears into 'truly sick' vaccine texts: 'Tip of the iceberg'"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
