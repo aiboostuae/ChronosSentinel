@@ -75,85 +75,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "8771f6a9b77575f02bc286d5b236f9c3",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-08-14T17:03:17.000Z",
-    "event_window_end": "2026-08-15T06:10:07.000Z",
-    "article_ids": [
-      "art_1786779356231_64lte",
-      "art_1786751729203_iids8",
-      "art_1786729011280_vqsh0"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-15T13:59:32.089Z",
-    "updated_at": "2026-08-15T13:59:32.089Z",
-    "region_tag": "middle-east",
-    "shared_facts": [],
-    "source_claims": [
-      "[aljazeera] Mohammad al-Halabi is attempting to farm on a 300-square-metre plot in Nuseirat refugee camp, Gaza.",
-      "[aljazeera] Mohammad al-Halabi previously owned approximately 40,000 square metres of farmland in Jabalia.",
-      "[fox] Eman Abdelhadi, half-sister of Abdul El-Sayed, delivered an 'October 7th blessing' in a video posted to Instagram.",
-      "[fox] Hamas militants killed approximately 1,200 people during attacks on Israel.",
-      "[bbc] Activists attempted to deliver aid to Palestinian families in Qusra whose homes have been blocked by settlers.",
-      "[bbc] Two residents claim Israeli forces prevented direct delivery of aid, while the IDF denied this claim."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the situation in Gaza through the lens of individual humanitarian efforts and agricultural recovery, while Fox focuses on a specific individual's public comments regarding the October 7 attacks, and the BBC focuses on conflict-related aid delivery and settler activity in the West Bank."
-    ],
-    "contested_claims": [
-      "Whether Israeli forces prevented activists from delivering aid directly to residents in Qusra; residents allege they did, while the IDF denies this."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Mohammad al-Halabi relied on farming as the primary source of income for his family.",
-      "[fox] The video of Eman Abdelhadi was posted via @rabbis4ceasefire on Instagram."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'terrorist attacks' to describe the Hamas-led attacks on Israel.",
-      "[bbc] uses the term 'besieged' to describe the status of Palestinian homes."
-    ],
-    "safe_conclusions": [
-      "There are active reports regarding agricultural activity in Gaza, political and social discourse surrounding the October 7 anniversary, and conflict-related restrictions on movement in the West Bank."
-    ],
-    "unknowns": [
-      "The current status of Mohammad al-Halabi's original land in Jabalia.",
-      "The full context of the video statement made by Eman Abdelhadi.",
-      "The current state of electricity and water infrastructure in the specific Qusra homes mentioned."
-    ],
-    "synthesis": "Current reporting highlights disparate events in the Middle East, including small-scale agricultural efforts in Gaza, political commentary regarding the October 7 anniversary, and confrontations between activists, settlers, and military forces in the West Bank. These reports focus on distinct humanitarian and political concerns in separate geographical areas. The information provided does not indicate a shared or connected narrative between these events.",
-    "confidence": "HIGH. The sources discuss entirely independent events and provide verifiable claims within their specific contexts.",
-    "sources": [
-      {
-        "id": "art_1786779356231_64lte",
-        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
-      },
-      {
-        "id": "art_1786751729203_iids8",
-        "url": "https://www.foxnews.com/politics/el-sayeds-half-sister-offered-oct-7-blessing-one-year-after-hamas-attack-allahu-akbar",
-        "source": "fox",
-        "title": "El-Sayed’s half sister offered Oct 7 ‘blessing,’ one year after Hamas attack: ‘Allahu Akbar’"
-      },
-      {
-        "id": "art_1786729011280_vqsh0",
-        "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "83f2c4d526357cac38eac2ffbac24061",
     "topic_label": "Yemen Houthi attacks",
     "event_window_start": "2026-08-14T22:45:19.000Z",
@@ -223,6 +144,74 @@
         "url": "https://www.aljazeera.com/news/2026/8/14/yemens-government-says-houthi-attack-on-al-makha-kills-at-least-four?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemen’s government says Houthi attack on al-Makha kills at least four"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9b5550ceddc566e07a114616be7f7a28",
+    "topic_label": "Healthcare CEO Shooting Case",
+    "event_window_start": "2026-08-14T17:02:59.000Z",
+    "event_window_end": "2026-08-14T17:22:49.000Z",
+    "article_ids": [
+      "art_1786729002961_nn5a1",
+      "art_1786729012465_yq45e"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-14T19:36:09.621Z",
+    "updated_at": "2026-08-14T19:36:09.621Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Luigi Mangione pleaded guilty to federal stalking charges related to the 2024 death of UnitedHealthcare CEO Brian Thompson.",
+      "Mangione stated in court: 'I shot Mr Thompson in Manhattan and he died.'",
+      "The federal sentencing for Mangione is scheduled for 18 December.",
+      "The killing of Brian Thompson occurred on 4 December 2024."
+    ],
+    "source_claims": [
+      "[guardian] Mangione stated his actions followed years of enduring severe back pain and difficulties navigating the healthcare system.",
+      "[guardian] Mangione stated he traveled to New York City and posed as an institutional investor via email to learn the location of a UnitedHealthcare investor convergence.",
+      "[guardian] Mangione stated during the hearing that he knew his actions were illegal."
+    ],
+    "framing_differences": [
+      "The guardian articles differ in their focus; one article emphasizes the potential impact of the federal plea on the separate state murder trial proceedings, while the other emphasizes the defendant's stated personal motivations regarding his health history."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Mangione claimed to have a broken back and severe back pain prior to the incident."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'hastily scheduled' to describe the 45-minute federal hearing."
+    ],
+    "safe_conclusions": [
+      "Luigi Mangione has entered a guilty plea to federal stalking charges in connection with the death of Brian Thompson.",
+      "A federal judge has set a sentencing date for December 18."
+    ],
+    "unknowns": [
+      "The final outcome of the separate state murder case.",
+      "Whether the federal guilty plea will result in the dismissal of the state murder charges."
+    ],
+    "synthesis": "Luigi Mangione pleaded guilty to federal stalking charges regarding the 2024 death of UnitedHealthcare CEO Brian Thompson. During the hearing, Mangione admitted to shooting Thompson in Manhattan and acknowledged he knew his actions were illegal. A federal sentencing hearing has been scheduled for December 18.",
+    "confidence": "HIGH: Both reports consistently describe the same court proceedings and the defendant's public statements.",
+    "sources": [
+      {
+        "id": "art_1786729002961_nn5a1",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
+        "source": "guardian",
+        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
+      },
+      {
+        "id": "art_1786729012465_yq45e",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+        "source": "guardian",
+        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -317,69 +306,242 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "9b5550ceddc566e07a114616be7f7a28",
-    "topic_label": "Healthcare CEO Shooting Case",
-    "event_window_start": "2026-08-14T17:02:59.000Z",
-    "event_window_end": "2026-08-14T17:22:49.000Z",
+    "cluster_id": "d46dabd0e0e97d62e18f2e64ef7812b1",
+    "topic_label": "Middle East conflicts and diplomacy",
+    "event_window_start": "2026-08-14T17:03:17.000Z",
+    "event_window_end": "2026-08-15T06:10:07.000Z",
     "article_ids": [
-      "art_1786729002961_nn5a1",
-      "art_1786729012465_yq45e"
+      "art_1786779356231_64lte",
+      "art_1786751726021_o9653",
+      "art_1786729011280_vqsh0"
     ],
     "source_ids": [
-      "guardian"
+      "aljazeera",
+      "bbc"
     ],
-    "article_count": 2,
-    "source_count": 1,
+    "article_count": 3,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-14T19:36:09.621Z",
-    "updated_at": "2026-08-14T19:36:09.621Z",
-    "region_tag": "global",
+    "created_at": "2026-08-15T09:29:13.851Z",
+    "updated_at": "2026-08-15T09:29:13.851Z",
+    "region_tag": "middle-east",
     "shared_facts": [
-      "Luigi Mangione pleaded guilty to federal stalking charges related to the 2024 death of UnitedHealthcare CEO Brian Thompson.",
-      "Mangione stated in court: 'I shot Mr Thompson in Manhattan and he died.'",
-      "The federal sentencing for Mangione is scheduled for 18 December.",
-      "The killing of Brian Thompson occurred on 4 December 2024."
+      "Activists attempted to deliver aid to Palestinians in Qusra, West Bank, whose homes are near Israeli settler activity.",
+      "Israeli forces declared Qusra a closed military zone.",
+      "Supplies were left outside the homes rather than delivered directly to the residents."
     ],
     "source_claims": [
-      "[guardian] Mangione stated his actions followed years of enduring severe back pain and difficulties navigating the healthcare system.",
-      "[guardian] Mangione stated he traveled to New York City and posed as an institutional investor via email to learn the location of a UnitedHealthcare investor convergence.",
-      "[guardian] Mangione stated during the hearing that he knew his actions were illegal."
+      "[bbc] Residents claim Israeli forces prevented activists from delivering aid directly to them.",
+      "[bbc] The Israel Defense Forces (IDF) denies preventing activists from delivering aid.",
+      "[bbc] Settlers set up a tent near the site on Friday after being dispersed the previous day.",
+      "[bbc] Israeli forces removed the tent set up by settlers on Friday."
     ],
     "framing_differences": [
-      "The guardian articles differ in their focus; one article emphasizes the potential impact of the federal plea on the separate state murder trial proceedings, while the other emphasizes the defendant's stated personal motivations regarding his health history."
+      "The BBC frames the Qusra situation as a conflict involving the siege of Palestinian homes by settlers and the obstruction of humanitarian aid, whereas Al Jazeera reports focus on individual agricultural efforts in Gaza and diplomatic negotiations regarding Lebanon."
+    ],
+    "contested_claims": [
+      "The BBC reports a conflict between the claims of residents, who state Israeli forces blocked aid delivery, and the IDF, which denies this interference."
+    ],
+    "unverified_claims": [
+      "[bbc] Two Palestinian families have been trapped in their homes in Qusra since Sunday with utilities cut off."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'besieged' to describe the situation of Palestinian homes in the West Bank."
+    ],
+    "safe_conclusions": [
+      "Aid delivery in Qusra is occurring within a restricted area managed by the Israel Defense Forces.",
+      "Tensions exist between Palestinian residents and Israeli settlers in the Qusra region of the West Bank."
+    ],
+    "unknowns": [
+      "The full extent of the humanitarian situation for the families in Qusra.",
+      "The specific reasons for the differing accounts regarding the blockage of aid delivery."
+    ],
+    "synthesis": "Activists attempted to provide food and water to Palestinian families in Qusra, West Bank, where residents report being restricted by the presence of Israeli settlers and military actions. The Israel Defense Forces have designated the area as a closed military zone and disputes claims regarding the obstruction of aid. Separately, reports cover agricultural recovery efforts in Gaza and diplomatic negotiations between the Lebanese government and Israel regarding withdrawal timelines.",
+    "confidence": "HIGH. The sources cover distinct, non-overlapping regional events, and the contested claim within the BBC report is explicitly presented as a conflict between two opposing accounts.",
+    "sources": [
+      {
+        "id": "art_1786779356231_64lte",
+        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
+      },
+      {
+        "id": "art_1786751726021_o9653",
+        "url": "https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal"
+      },
+      {
+        "id": "art_1786729011280_vqsh0",
+        "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9add1afc0a836cbdcdcea506d795819d",
+    "topic_label": "Trump administration and US politics",
+    "event_window_start": "2026-08-14T17:06:51.000Z",
+    "event_window_end": "2026-08-15T05:00:50.000Z",
+    "article_ids": [
+      "art_1786779361914_zxukd",
+      "art_1786751734672_drr8w",
+      "art_1786729009983_9z2qw"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T14:25:14.949Z",
+    "updated_at": "2026-08-15T14:25:14.949Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Alexandria Ocasio-Cortez is a congresswoman from New York.",
+      "Donald Trump made a public appearance on Long Island, New York.",
+      "Donald Trump addressed members of law enforcement at the Nassau County Police Academy.",
+      "The Trump administration has pursued legal action regarding the construction of a ballroom at the White House."
+    ],
+    "source_claims": [
+      "[guardian] reports that there is growing speculation regarding Alexandria Ocasio-Cortez potentially running for US president in 2028.",
+      "[guardian] quotes Ocasio-Cortez stating that her ambition is to change the country rather than seeking a specific title or seat.",
+      "[fox] claims Donald Trump exited a stage mid-speech to embrace the parents of a boy named Jacob Freytes who was killed by a stray bullet.",
+      "[guardian] states the Trump administration argues that the construction of a White House ballroom is vitally required for national security.",
+      "[guardian] notes that an appeals court ruling blocked above-ground construction of the ballroom but allowed underground work to continue."
+    ],
+    "framing_differences": [
+      "The [guardian] frames political discourse around the potential future presidential ambitions of Alexandria Ocasio-Cortez, whereas [fox] focuses on a specific public interaction involving Donald Trump and the parents of a crime victim."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[guardian] Mangione claimed to have a broken back and severe back pain prior to the incident."
+      "[guardian] mentions speculation regarding the stars aligning for Ocasio-Cortez to run for president in 2028.",
+      "[fox] attributes the death of Jacob Freytes to a repeat criminal.",
+      "[guardian] reports the Trump administration claims the ballroom is needed to make the president less safe if construction is halted."
     ],
     "loaded_language": [
-      "[guardian] uses the term 'hastily scheduled' to describe the 45-minute federal hearing."
+      "[guardian] uses the term 'steeliness' to describe Ocasio-Cortez's delivery.",
+      "[fox] uses the term 'beautiful impromptu moment' to describe Trump's interaction with the family.",
+      "[guardian] uses the term 'extraordinary and unlawful injunction' to describe the court order against the ballroom construction."
     ],
     "safe_conclusions": [
-      "Luigi Mangione has entered a guilty plea to federal stalking charges in connection with the death of Brian Thompson.",
-      "A federal judge has set a sentencing date for December 18."
+      "Alexandria Ocasio-Cortez serves as a US congresswoman.",
+      "Donald Trump held an event with law enforcement in New York.",
+      "The Trump administration is involved in a legal dispute over White House construction projects."
     ],
     "unknowns": [
-      "The final outcome of the separate state murder case.",
-      "Whether the federal guilty plea will result in the dismissal of the state murder charges."
+      "Whether Alexandria Ocasio-Cortez intends to run for president in 2028.",
+      "The specific legal status of the ballroom construction project beyond the initial court rulings mentioned.",
+      "The broader context of the criminal case referenced in the death of Jacob Freytes."
     ],
-    "synthesis": "Luigi Mangione pleaded guilty to federal stalking charges regarding the 2024 death of UnitedHealthcare CEO Brian Thompson. During the hearing, Mangione admitted to shooting Thompson in Manhattan and acknowledged he knew his actions were illegal. A federal sentencing hearing has been scheduled for December 18.",
-    "confidence": "HIGH: Both reports consistently describe the same court proceedings and the defendant's public statements.",
+    "synthesis": "The provided texts cover distinct political developments involving different public figures. Alexandria Ocasio-Cortez is discussed in the context of speculation regarding her future political path. Meanwhile, Donald Trump is reported on regarding his interaction with the family of a crime victim and ongoing litigation over White House construction.",
+    "confidence": "HIGH. The sources report on entirely different, unrelated events, making factual conflict between them nonexistent.",
     "sources": [
       {
-        "id": "art_1786729002961_nn5a1",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
+        "id": "art_1786779361914_zxukd",
+        "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/15/will-aoc-run-for-president",
         "source": "guardian",
-        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
+        "title": "Is the US ready for President Alexandria Ocasio-Cortez?"
       },
       {
-        "id": "art_1786729012465_yq45e",
-        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+        "id": "art_1786751734672_drr8w",
+        "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
+        "source": "fox",
+        "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
+      },
+      {
+        "id": "art_1786729009983_9z2qw",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
         "source": "guardian",
-        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case"
+        "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8771f6a9b77575f02bc286d5b236f9c3",
+    "topic_label": "Conflict in Gaza and Israel",
+    "event_window_start": "2026-08-14T17:03:17.000Z",
+    "event_window_end": "2026-08-15T06:10:07.000Z",
+    "article_ids": [
+      "art_1786779356231_64lte",
+      "art_1786751729203_iids8",
+      "art_1786729011280_vqsh0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T13:59:32.089Z",
+    "updated_at": "2026-08-15T13:59:32.089Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera] Mohammad al-Halabi is attempting to farm on a 300-square-metre plot in Nuseirat refugee camp, Gaza.",
+      "[aljazeera] Mohammad al-Halabi previously owned approximately 40,000 square metres of farmland in Jabalia.",
+      "[fox] Eman Abdelhadi, half-sister of Abdul El-Sayed, delivered an 'October 7th blessing' in a video posted to Instagram.",
+      "[fox] Hamas militants killed approximately 1,200 people during attacks on Israel.",
+      "[bbc] Activists attempted to deliver aid to Palestinian families in Qusra whose homes have been blocked by settlers.",
+      "[bbc] Two residents claim Israeli forces prevented direct delivery of aid, while the IDF denied this claim."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the situation in Gaza through the lens of individual humanitarian efforts and agricultural recovery, while Fox focuses on a specific individual's public comments regarding the October 7 attacks, and the BBC focuses on conflict-related aid delivery and settler activity in the West Bank."
+    ],
+    "contested_claims": [
+      "Whether Israeli forces prevented activists from delivering aid directly to residents in Qusra; residents allege they did, while the IDF denies this."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Mohammad al-Halabi relied on farming as the primary source of income for his family.",
+      "[fox] The video of Eman Abdelhadi was posted via @rabbis4ceasefire on Instagram."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'terrorist attacks' to describe the Hamas-led attacks on Israel.",
+      "[bbc] uses the term 'besieged' to describe the status of Palestinian homes."
+    ],
+    "safe_conclusions": [
+      "There are active reports regarding agricultural activity in Gaza, political and social discourse surrounding the October 7 anniversary, and conflict-related restrictions on movement in the West Bank."
+    ],
+    "unknowns": [
+      "The current status of Mohammad al-Halabi's original land in Jabalia.",
+      "The full context of the video statement made by Eman Abdelhadi.",
+      "The current state of electricity and water infrastructure in the specific Qusra homes mentioned."
+    ],
+    "synthesis": "Current reporting highlights disparate events in the Middle East, including small-scale agricultural efforts in Gaza, political commentary regarding the October 7 anniversary, and confrontations between activists, settlers, and military forces in the West Bank. These reports focus on distinct humanitarian and political concerns in separate geographical areas. The information provided does not indicate a shared or connected narrative between these events.",
+    "confidence": "HIGH. The sources discuss entirely independent events and provide verifiable claims within their specific contexts.",
+    "sources": [
+      {
+        "id": "art_1786779356231_64lte",
+        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
+      },
+      {
+        "id": "art_1786751729203_iids8",
+        "url": "https://www.foxnews.com/politics/el-sayeds-half-sister-offered-oct-7-blessing-one-year-after-hamas-attack-allahu-akbar",
+        "source": "fox",
+        "title": "El-Sayed’s half sister offered Oct 7 ‘blessing,’ one year after Hamas attack: ‘Allahu Akbar’"
+      },
+      {
+        "id": "art_1786729011280_vqsh0",
+        "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -607,84 +769,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/14/mississippi-ice-facility-gas-leak",
         "source": "guardian",
         "title": "People detained at Mississippi ICE facility sickened by gas leak and denied medical care"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d46dabd0e0e97d62e18f2e64ef7812b1",
-    "topic_label": "Middle East conflicts and diplomacy",
-    "event_window_start": "2026-08-14T17:03:17.000Z",
-    "event_window_end": "2026-08-15T06:10:07.000Z",
-    "article_ids": [
-      "art_1786779356231_64lte",
-      "art_1786751726021_o9653",
-      "art_1786729011280_vqsh0"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-15T09:29:13.851Z",
-    "updated_at": "2026-08-15T09:29:13.851Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Activists attempted to deliver aid to Palestinians in Qusra, West Bank, whose homes are near Israeli settler activity.",
-      "Israeli forces declared Qusra a closed military zone.",
-      "Supplies were left outside the homes rather than delivered directly to the residents."
-    ],
-    "source_claims": [
-      "[bbc] Residents claim Israeli forces prevented activists from delivering aid directly to them.",
-      "[bbc] The Israel Defense Forces (IDF) denies preventing activists from delivering aid.",
-      "[bbc] Settlers set up a tent near the site on Friday after being dispersed the previous day.",
-      "[bbc] Israeli forces removed the tent set up by settlers on Friday."
-    ],
-    "framing_differences": [
-      "The BBC frames the Qusra situation as a conflict involving the siege of Palestinian homes by settlers and the obstruction of humanitarian aid, whereas Al Jazeera reports focus on individual agricultural efforts in Gaza and diplomatic negotiations regarding Lebanon."
-    ],
-    "contested_claims": [
-      "The BBC reports a conflict between the claims of residents, who state Israeli forces blocked aid delivery, and the IDF, which denies this interference."
-    ],
-    "unverified_claims": [
-      "[bbc] Two Palestinian families have been trapped in their homes in Qusra since Sunday with utilities cut off."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'besieged' to describe the situation of Palestinian homes in the West Bank."
-    ],
-    "safe_conclusions": [
-      "Aid delivery in Qusra is occurring within a restricted area managed by the Israel Defense Forces.",
-      "Tensions exist between Palestinian residents and Israeli settlers in the Qusra region of the West Bank."
-    ],
-    "unknowns": [
-      "The full extent of the humanitarian situation for the families in Qusra.",
-      "The specific reasons for the differing accounts regarding the blockage of aid delivery."
-    ],
-    "synthesis": "Activists attempted to provide food and water to Palestinian families in Qusra, West Bank, where residents report being restricted by the presence of Israeli settlers and military actions. The Israel Defense Forces have designated the area as a closed military zone and disputes claims regarding the obstruction of aid. Separately, reports cover agricultural recovery efforts in Gaza and diplomatic negotiations between the Lebanese government and Israel regarding withdrawal timelines.",
-    "confidence": "HIGH. The sources cover distinct, non-overlapping regional events, and the contested claim within the BBC report is explicitly presented as a conflict between two opposing accounts.",
-    "sources": [
-      {
-        "id": "art_1786779356231_64lte",
-        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
-      },
-      {
-        "id": "art_1786751726021_o9653",
-        "url": "https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal"
-      },
-      {
-        "id": "art_1786729011280_vqsh0",
-        "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19075,105 +19159,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/pakistan-interior-minister-in-tehran-amid-talks-to-reopen-hormuz?traffic_source=rss",
         "source": "aljazeera",
         "title": "Pakistan interior minister in Tehran amid talks to reopen Hormuz"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5a67f33e20eac96bdfd296682701601b",
-    "topic_label": "Gaza and West Bank Conflict",
-    "event_window_start": "2026-08-11T18:45:26.000Z",
-    "event_window_end": "2026-08-12T04:59:19.000Z",
-    "article_ids": [
-      "art_1786512094108_beju9",
-      "art_1786486751812_aqqni",
-      "art_1786486755940_wo7ss",
-      "art_1786483483039_e7tax",
-      "art_1786483484070_g1082",
-      "art_1786475994403_ird0p"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T16:34:06.488Z",
-    "updated_at": "2026-08-12T16:34:06.488Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israeli military forces conduct arrests and home demolitions in the West Bank.",
-      "Individuals are experiencing displacement and loss of property in both Gaza and the West Bank."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Israeli forces arrested at least 23 Palestinians and destroyed a water pipeline in Khirbet ar-Ras al-Ahmar.",
-      "[aljazeera] claims civil defense teams in Gaza are unable to clear rubble effectively due to a blockade of heavy machinery.",
-      "[aljazeera] claims Israeli forces demolished the home of Farouk Ramadan, a man killed while confronting settlers.",
-      "[aljazeera] claims fishermen in Yemen's Red Sea face lethal risks due to ongoing conflict, citing a specific incident in al-Khawkhah."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the West Bank situation through the lens of a 'crackdown' and a UN-cited 'breaking point', whereas its Gaza coverage frames the military actions as a 'genocidal war'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims the war in Gaza is 'genocidal' in nature.",
-      "[aljazeera] claims the destruction of a water pipeline in Khirbet ar-Ras al-Ahmar was caused by Israeli settlers."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
-      "[aljazeera] uses the term 'crackdown' to describe Israeli military operations in the West Bank."
-    ],
-    "safe_conclusions": [
-      "Israeli military operations are occurring in the West Bank.",
-      "There is ongoing conflict in Gaza involving displacement and residential destruction.",
-      "Fishing activities in the Red Sea near Yemen are subject to increased security risks."
-    ],
-    "unknowns": [
-      "The official Israeli military justification for specific recent arrests and demolitions.",
-      "The specific party responsible for the firing on the fishing boat in al-Khawkhah.",
-      "The total number of ongoing home demolitions across all West Bank districts."
-    ],
-    "synthesis": "Israeli military operations, including arrests and home demolitions, continue within the West Bank alongside ongoing reports of settler-related property destruction. In Gaza, residents face extreme displacement and infrastructure challenges, compounded by limitations on heavy machinery access. Meanwhile, fishermen off the coast of Yemen are experiencing increased dangers due to the regional military activity in the Red Sea.",
-    "confidence": "HIGH. The sources consistently report on the occurrence of military operations and humanitarian crises across the mentioned regions, though individual interpretations of the conflict's nature vary.",
-    "sources": [
-      {
-        "id": "art_1786512094108_beju9",
-        "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli raids, demolitions continue as UN warns West Bank at breaking point"
-      },
-      {
-        "id": "art_1786486751812_aqqni",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/father-and-sons-forced-to-manually-clear-rubble-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Father and sons forced to manually clear rubble in Gaza"
-      },
-      {
-        "id": "art_1786486755940_wo7ss",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/israel-demolishes-home-of-palestinian-killed-during-settler-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel demolishes home of Palestinian killed during settler attack"
-      },
-      {
-        "id": "art_1786483483039_e7tax",
-        "url": "https://www.aljazeera.com/news/2026/8/11/in-gazas-tents-widows-face-wars-harshest-realities-alone?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "In Gaza’s tents, widows face war’s harshest realities alone"
-      },
-      {
-        "id": "art_1786483484070_g1082",
-        "url": "https://www.aljazeera.com/features/2026/8/11/yemen-red-sea-fishermen?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fishermen face deadly dangers as Yemen’s Red Sea becomes a warzone"
-      },
-      {
-        "id": "art_1786475994403_ird0p",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/tightened-blockade-on-gaza-causes-prices-to-soar?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Tightened blockade on Gaza causes prices to soar"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
