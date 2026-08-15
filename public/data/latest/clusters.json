@@ -332,6 +332,111 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "07aff78dffb356a994914b863f429bff",
+    "topic_label": "US Political News",
+    "event_window_start": "2026-08-14T16:54:25.000Z",
+    "event_window_end": "2026-08-15T05:00:50.000Z",
+    "article_ids": [
+      "art_1786779361914_zxukd",
+      "art_1786751721760_1eac9",
+      "art_1786751734672_drr8w",
+      "art_1786751736916_cxxhu",
+      "art_1786729009983_9z2qw",
+      "art_1786729017813_fpfdw"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T16:25:32.052Z",
+    "updated_at": "2026-08-15T16:25:32.052Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump visited New York for an event involving law enforcement.",
+      "Donald Trump is the President of the United States."
+    ],
+    "source_claims": [
+      "[guardian] States that Representative Alexandria Ocasio-Cortez's ambitions for 2028 are the subject of public speculation.",
+      "[guardian] Quotes Representative Alexandria Ocasio-Cortez as saying her ambition is to change the country.",
+      "[fox] Reports that Rebecca Cooke, a Blue Dog Democrat running for office in Wisconsin, stated her party has left behind rural and working-class voters.",
+      "[fox] Describes the 'Politics War Room' podcast hosts as known for calling out the far left of the Democratic Party.",
+      "[fox] States that Donald Trump left the stage during a speech at the Nassau County Police Academy to embrace the parents of 12-year-old Jacob Freytes.",
+      "[guardian] Reports that Donald Trump described a nine-month deployment of the USS Abraham Lincoln as 'not nearly long enough' while addressing concerns about mental health and supply issues.",
+      "[guardian] Reports the Trump administration is appealing to the Supreme Court to continue construction of a White House ballroom, citing national security."
+    ],
+    "framing_differences": [
+      "The guardian frames Donald Trump's commentary on the USS Abraham Lincoln deployment as a downplaying of mental health concerns, whereas the source focuses on his specific quote regarding the duration of the mission.",
+      "The guardian frames the White House ballroom construction project as a point of legal contention regarding congressional approval, whereas the administration frames it as 'vitally required by national security'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims that the stars may be aligning for Alexandria Ocasio-Cortez to run for president in 2028."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'far left' to describe a faction within the Democratic Party.",
+      "[fox] uses the term 'beautiful impromptu moment' to describe President Trump's interaction with the family of Jacob Freytes.",
+      "[guardian] uses the term 'extraordinary and unlawful injunction' to describe the appeals court ruling on the White House ballroom."
+    ],
+    "safe_conclusions": [
+      "Donald Trump held a speech at the Nassau County Police Academy.",
+      "Rebecca Cooke is a congressional candidate in Wisconsin affiliated with the Blue Dog Democrats.",
+      "There is ongoing public discourse regarding the political future of Alexandria Ocasio-Cortez.",
+      "The Trump administration is involved in legal proceedings concerning construction at the White House."
+    ],
+    "unknowns": [
+      "The specific current mental health status of sailors on the USS Abraham Lincoln.",
+      "The final outcome of the Supreme Court appeal regarding the White House ballroom.",
+      "Whether Representative Alexandria Ocasio-Cortez intends to run for president in 2028."
+    ],
+    "synthesis": "These sources report on various political activities, including presidential comments on military deployments and White House construction, alongside individual political campaigns and public speculation about potential future presidential candidates. President Trump engaged with law enforcement and the family of a deceased child during a visit to New York. Meanwhile, members of Congress and candidates for office continue to navigate internal party debates and public commentary regarding their policy priorities.",
+    "confidence": "HIGH. The sources represent distinct reporting on separate political events with no factual overlap that would create contradiction.",
+    "sources": [
+      {
+        "id": "art_1786779361914_zxukd",
+        "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/15/will-aoc-run-for-president",
+        "source": "guardian",
+        "title": "Is the US ready for President Alexandria Ocasio-Cortez?"
+      },
+      {
+        "id": "art_1786751721760_1eac9",
+        "url": "https://www.foxnews.com/media/wisconsin-democratic-candidate-says-her-party-left-behind-rural-america",
+        "source": "fox",
+        "title": "Wisconsin Democratic candidate says her party 'left behind' rural America"
+      },
+      {
+        "id": "art_1786751734672_drr8w",
+        "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
+        "source": "fox",
+        "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
+      },
+      {
+        "id": "art_1786751736916_cxxhu",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
+        "source": "guardian",
+        "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
+      },
+      {
+        "id": "art_1786729009983_9z2qw",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
+      },
+      {
+        "id": "art_1786729017813_fpfdw",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/florida-debbie-wasserman-schultz-elijah-manley",
+        "source": "guardian",
+        "title": "Progressives back substitute teacher over Wasserman Schultz in Florida"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
     "topic_label": "Trump administration actions",
     "event_window_start": "2026-08-14T17:06:51.000Z",
@@ -19017,118 +19122,6 @@
         "url": "https://www.aljazeera.com/economy/2026/8/11/paramount-ceo-may-remove-operations-from-california-over-stalled-merger?traffic_source=rss",
         "source": "aljazeera",
         "title": "Paramount CEO may remove operations from California over stalled merger"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a7e0196bbafefeb1ca700488adedce1e",
-    "topic_label": "Trump Plane Security Incident",
-    "event_window_start": "2026-08-11T20:39:42.000Z",
-    "event_window_end": "2026-08-12T15:34:47.000Z",
-    "article_ids": [
-      "art_1786549000341_9yhjc",
-      "art_1786512095134_lmx04",
-      "art_1786512098522_h334v",
-      "art_1786504320487_yk6cq",
-      "art_1786486745215_m28op",
-      "art_1786483477678_wyeys",
-      "art_1786483480974_pnojm"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 7,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T16:34:06.488Z",
-    "updated_at": "2026-08-12T16:34:06.488Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump swapped planes following a NATO summit in Turkey on July 8.",
-      "The aircraft switch involved the use of a catering truck.",
-      "The decision to switch planes involved the Secret Service and military personnel.",
-      "Reports indicate that Secretary of State Marco Rubio and Treasury Secretary Scott Bessent were on the original aircraft."
-    ],
-    "source_claims": [
-      "[bbc] reports that two cabinet members remained on the decoy plane while Trump departed on a military aircraft.",
-      "[aljazeera] reports that the plane switch was prompted by an alleged bomb plot involving Iran.",
-      "[bbc] states that Trump claimed the military jet he boarded was at greater risk than the decoy plane.",
-      "[guardian] notes that Democrats have requested a congressional briefing regarding the incident.",
-      "[guardian] reports that more than a hundred aides, officials, and reporters were left on the decoy plane."
-    ],
-    "framing_differences": [
-      "The BBC frames the incident as a tactical security maneuver involving cabinet members, whereas the Guardian frames the event as a 'deception' that raises scrutiny regarding the safety of passengers left on the decoy flight.",
-      "Al Jazeera frames the incident as a potential 'assassination plot,' while the BBC focuses on the logistics of the 'decoy' signal and the president's statements."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] reports that the incident occurred as Trump left the NATO Summit in Ankara."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'flee' to describe the president's movement.",
-      "[guardian] uses the terms 'stunning charade' and 'spirited away' to describe the plane switch.",
-      "[guardian] uses the word 'misled' to describe the situation regarding the press."
-    ],
-    "safe_conclusions": [
-      "President Trump changed aircraft after an initial boarding at a NATO summit in Turkey in July.",
-      "The Secret Service and military were involved in the decision to change aircraft."
-    ],
-    "unknowns": [
-      "The specific nature of the alleged security threat remains unconfirmed by official government spokespeople in the provided text.",
-      "The exact number of personnel remaining on the decoy plane is not provided beyond general descriptions.",
-      "The official reaction of the cabinet members reportedly left on the decoy plane is unknown."
-    ],
-    "synthesis": "President Donald Trump performed a secret aircraft transfer via catering truck following a NATO summit in Turkey in July, citing security advice from the Secret Service and military. While the president successfully transitioned to a military aircraft, news reports state that cabinet members, aides, and journalists remained on the original decoy plane. The incident has prompted calls from Democrats for a congressional briefing regarding the security protocols and the handling of the passengers on the decoy flight.",
-    "confidence": "HIGH. All sources agree on the core factual elements of the plane switch and the involvement of the Secret Service, despite differences in reporting tone and focus.",
-    "sources": [
-      {
-        "id": "art_1786549000341_9yhjc",
-        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit"
-      },
-      {
-        "id": "art_1786512095134_lmx04",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/did-trump-flee-an-iranian-assassination-plot-on-a-catering-truck?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Trump flee an Iranian assassination plot on a catering truck?"
-      },
-      {
-        "id": "art_1786512098522_h334v",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/trump-says-secret-plane-switch-up-to-the-secret?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says secret plane switch ‘up to the Secret Service’"
-      },
-      {
-        "id": "art_1786504320487_yk6cq",
-        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says he switched planes after Nato summit because of possible threat "
-      },
-      {
-        "id": "art_1786486745215_m28op",
-        "url": "https://www.theguardian.com/us-news/2026/aug/11/trump-air-force-one-deception-democrats",
-        "source": "guardian",
-        "title": "Trump’s Air Force One deception faces scrutiny over ‘decoy’ passengers"
-      },
-      {
-        "id": "art_1786483477678_wyeys",
-        "url": "https://www.foxnews.com/politics/trumps-sly-plane-switch-raises-eyebrows-safety-passengers-left-behind-board",
-        "source": "fox",
-        "title": "Trump’s sly plane switch raises eyebrows over safety of passengers left behind on board"
-      },
-      {
-        "id": "art_1786483480974_pnojm",
-        "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Inside the Secret Service 'shell game' to hide US presidents in plain sight"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

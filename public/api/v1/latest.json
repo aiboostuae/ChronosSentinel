@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:52:30.653Z",
+  "generated_at": "2026-08-15T16:25:37.246Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 183,
@@ -150,6 +150,55 @@
         }
       ],
       "updated_at": "2026-08-14T19:36:09.621Z"
+    },
+    {
+      "cluster_id": "07aff78dffb356a994914b863f429bff",
+      "topic_label": "US Political News",
+      "event_window_start": "2026-08-14T16:54:25.000Z",
+      "event_window_end": "2026-08-15T05:00:50.000Z",
+      "article_count": 6,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Donald Trump visited New York for an event involving law enforcement.",
+        "Donald Trump is the President of the United States."
+      ],
+      "source_differences": [],
+      "synthesis": "These sources report on various political activities, including presidential comments on military deployments and White House construction, alongside individual political campaigns and public speculation about potential future presidential candidates. President Trump engaged with law enforcement and the family of a deceased child during a visit to New York. Meanwhile, members of Congress and candidates for office continue to navigate internal party debates and public commentary regarding their policy priorities.",
+      "confidence": "HIGH. The sources represent distinct reporting on separate political events with no factual overlap that would create contradiction.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/15/will-aoc-run-for-president",
+          "title": "Is the US ready for President Alexandria Ocasio-Cortez?"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/wisconsin-democratic-candidate-says-her-party-left-behind-rural-america",
+          "title": "Wisconsin Democratic candidate says her party 'left behind' rural America"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
+          "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
+          "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
+          "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/14/florida-debbie-wasserman-schultz-elijah-manley",
+          "title": "Progressives back substitute teacher over Wasserman Schultz in Florida"
+        }
+      ],
+      "updated_at": "2026-08-15T16:25:32.052Z"
     },
     {
       "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
@@ -316,37 +365,6 @@
         }
       ],
       "updated_at": "2026-08-15T14:25:14.949Z"
-    },
-    {
-      "cluster_id": "8771f6a9b77575f02bc286d5b236f9c3",
-      "topic_label": "Conflict in Gaza and Israel",
-      "event_window_start": "2026-08-14T17:03:17.000Z",
-      "event_window_end": "2026-08-15T06:10:07.000Z",
-      "article_count": 3,
-      "source_count": 3,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Current reporting highlights disparate events in the Middle East, including small-scale agricultural efforts in Gaza, political commentary regarding the October 7 anniversary, and confrontations between activists, settlers, and military forces in the West Bank. These reports focus on distinct humanitarian and political concerns in separate geographical areas. The information provided does not indicate a shared or connected narrative between these events.",
-      "confidence": "HIGH. The sources discuss entirely independent events and provide verifiable claims within their specific contexts.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
-          "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/el-sayeds-half-sister-offered-oct-7-blessing-one-year-after-hamas-attack-allahu-akbar",
-          "title": "El-Sayed’s half sister offered Oct 7 ‘blessing,’ one year after Hamas attack: ‘Allahu Akbar’"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
-          "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
-        }
-      ],
-      "updated_at": "2026-08-15T13:59:32.089Z"
     }
   ],
   "latest_impact": [
@@ -410,6 +428,26 @@
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-08-15T08:29:25.096Z"
+    },
+    {
+      "id": "impact-07aff78d",
+      "title": "US Political News",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "These sources report on various political activities, including presidential comments on military deployments and White House construction, alongside individual political campaigns and public speculation about potential future presidential candidates. President Trump engaged with law enforcement and the family of a deceased child during a visit to New York. Meanwhile, members of Congress and candidates for office continue to navigate internal party debates and public commentary regarding their policy priorities.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "07aff78dffb356a994914b863f429bff",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-15T16:25:32.052Z"
     },
     {
       "id": "impact-4a159f58",
@@ -529,25 +567,6 @@
       "related_cluster_id": "8771f6a9b77575f02bc286d5b236f9c3",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-15T13:59:32.089Z"
-    },
-    {
-      "id": "impact-1793c637",
-      "title": "Global Health and Pandemic",
-      "severity": "low",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Victoria authorities have confirmed the first death of a little penguin from H5 bird flu on Phillip Island and are initiating a vaccination program. Separately, an economic analysis indicates that the high cost of GLP-1 weight-loss medication typically exceeds potential grocery savings for all but the highest earners. These reports cover distinct public health and economic topics without overlapping data points.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "1793c6374864bc944a7c11ed104ef5ac",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-08-15T13:59:32.089Z"
     }
   ]
