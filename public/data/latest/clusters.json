@@ -75,6 +75,85 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "8771f6a9b77575f02bc286d5b236f9c3",
+    "topic_label": "Conflict in Gaza and Israel",
+    "event_window_start": "2026-08-14T17:03:17.000Z",
+    "event_window_end": "2026-08-15T06:10:07.000Z",
+    "article_ids": [
+      "art_1786779356231_64lte",
+      "art_1786751729203_iids8",
+      "art_1786729011280_vqsh0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T13:59:32.089Z",
+    "updated_at": "2026-08-15T13:59:32.089Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera] Mohammad al-Halabi is attempting to farm on a 300-square-metre plot in Nuseirat refugee camp, Gaza.",
+      "[aljazeera] Mohammad al-Halabi previously owned approximately 40,000 square metres of farmland in Jabalia.",
+      "[fox] Eman Abdelhadi, half-sister of Abdul El-Sayed, delivered an 'October 7th blessing' in a video posted to Instagram.",
+      "[fox] Hamas militants killed approximately 1,200 people during attacks on Israel.",
+      "[bbc] Activists attempted to deliver aid to Palestinian families in Qusra whose homes have been blocked by settlers.",
+      "[bbc] Two residents claim Israeli forces prevented direct delivery of aid, while the IDF denied this claim."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the situation in Gaza through the lens of individual humanitarian efforts and agricultural recovery, while Fox focuses on a specific individual's public comments regarding the October 7 attacks, and the BBC focuses on conflict-related aid delivery and settler activity in the West Bank."
+    ],
+    "contested_claims": [
+      "Whether Israeli forces prevented activists from delivering aid directly to residents in Qusra; residents allege they did, while the IDF denies this."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Mohammad al-Halabi relied on farming as the primary source of income for his family.",
+      "[fox] The video of Eman Abdelhadi was posted via @rabbis4ceasefire on Instagram."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'terrorist attacks' to describe the Hamas-led attacks on Israel.",
+      "[bbc] uses the term 'besieged' to describe the status of Palestinian homes."
+    ],
+    "safe_conclusions": [
+      "There are active reports regarding agricultural activity in Gaza, political and social discourse surrounding the October 7 anniversary, and conflict-related restrictions on movement in the West Bank."
+    ],
+    "unknowns": [
+      "The current status of Mohammad al-Halabi's original land in Jabalia.",
+      "The full context of the video statement made by Eman Abdelhadi.",
+      "The current state of electricity and water infrastructure in the specific Qusra homes mentioned."
+    ],
+    "synthesis": "Current reporting highlights disparate events in the Middle East, including small-scale agricultural efforts in Gaza, political commentary regarding the October 7 anniversary, and confrontations between activists, settlers, and military forces in the West Bank. These reports focus on distinct humanitarian and political concerns in separate geographical areas. The information provided does not indicate a shared or connected narrative between these events.",
+    "confidence": "HIGH. The sources discuss entirely independent events and provide verifiable claims within their specific contexts.",
+    "sources": [
+      {
+        "id": "art_1786779356231_64lte",
+        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
+      },
+      {
+        "id": "art_1786751729203_iids8",
+        "url": "https://www.foxnews.com/politics/el-sayeds-half-sister-offered-oct-7-blessing-one-year-after-hamas-attack-allahu-akbar",
+        "source": "fox",
+        "title": "El-Sayed’s half sister offered Oct 7 ‘blessing,’ one year after Hamas attack: ‘Allahu Akbar’"
+      },
+      {
+        "id": "art_1786729011280_vqsh0",
+        "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "83f2c4d526357cac38eac2ffbac24061",
     "topic_label": "Yemen Houthi attacks",
     "event_window_start": "2026-08-14T22:45:19.000Z",
@@ -144,74 +223,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/14/yemens-government-says-houthi-attack-on-al-makha-kills-at-least-four?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemen’s government says Houthi attack on al-Makha kills at least four"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9b5550ceddc566e07a114616be7f7a28",
-    "topic_label": "Healthcare CEO Shooting Case",
-    "event_window_start": "2026-08-14T17:02:59.000Z",
-    "event_window_end": "2026-08-14T17:22:49.000Z",
-    "article_ids": [
-      "art_1786729002961_nn5a1",
-      "art_1786729012465_yq45e"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-14T19:36:09.621Z",
-    "updated_at": "2026-08-14T19:36:09.621Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Luigi Mangione pleaded guilty to federal stalking charges related to the 2024 death of UnitedHealthcare CEO Brian Thompson.",
-      "Mangione stated in court: 'I shot Mr Thompson in Manhattan and he died.'",
-      "The federal sentencing for Mangione is scheduled for 18 December.",
-      "The killing of Brian Thompson occurred on 4 December 2024."
-    ],
-    "source_claims": [
-      "[guardian] Mangione stated his actions followed years of enduring severe back pain and difficulties navigating the healthcare system.",
-      "[guardian] Mangione stated he traveled to New York City and posed as an institutional investor via email to learn the location of a UnitedHealthcare investor convergence.",
-      "[guardian] Mangione stated during the hearing that he knew his actions were illegal."
-    ],
-    "framing_differences": [
-      "The guardian articles differ in their focus; one article emphasizes the potential impact of the federal plea on the separate state murder trial proceedings, while the other emphasizes the defendant's stated personal motivations regarding his health history."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Mangione claimed to have a broken back and severe back pain prior to the incident."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'hastily scheduled' to describe the 45-minute federal hearing."
-    ],
-    "safe_conclusions": [
-      "Luigi Mangione has entered a guilty plea to federal stalking charges in connection with the death of Brian Thompson.",
-      "A federal judge has set a sentencing date for December 18."
-    ],
-    "unknowns": [
-      "The final outcome of the separate state murder case.",
-      "Whether the federal guilty plea will result in the dismissal of the state murder charges."
-    ],
-    "synthesis": "Luigi Mangione pleaded guilty to federal stalking charges regarding the 2024 death of UnitedHealthcare CEO Brian Thompson. During the hearing, Mangione admitted to shooting Thompson in Manhattan and acknowledged he knew his actions were illegal. A federal sentencing hearing has been scheduled for December 18.",
-    "confidence": "HIGH: Both reports consistently describe the same court proceedings and the defendant's public statements.",
-    "sources": [
-      {
-        "id": "art_1786729002961_nn5a1",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
-        "source": "guardian",
-        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
-      },
-      {
-        "id": "art_1786729012465_yq45e",
-        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
-        "source": "guardian",
-        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -301,6 +312,301 @@
         "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
         "source": "guardian",
         "title": "Hundreds arrested on suspicion of arson in France as wildfires rage across Europe"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9b5550ceddc566e07a114616be7f7a28",
+    "topic_label": "Healthcare CEO Shooting Case",
+    "event_window_start": "2026-08-14T17:02:59.000Z",
+    "event_window_end": "2026-08-14T17:22:49.000Z",
+    "article_ids": [
+      "art_1786729002961_nn5a1",
+      "art_1786729012465_yq45e"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-14T19:36:09.621Z",
+    "updated_at": "2026-08-14T19:36:09.621Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Luigi Mangione pleaded guilty to federal stalking charges related to the 2024 death of UnitedHealthcare CEO Brian Thompson.",
+      "Mangione stated in court: 'I shot Mr Thompson in Manhattan and he died.'",
+      "The federal sentencing for Mangione is scheduled for 18 December.",
+      "The killing of Brian Thompson occurred on 4 December 2024."
+    ],
+    "source_claims": [
+      "[guardian] Mangione stated his actions followed years of enduring severe back pain and difficulties navigating the healthcare system.",
+      "[guardian] Mangione stated he traveled to New York City and posed as an institutional investor via email to learn the location of a UnitedHealthcare investor convergence.",
+      "[guardian] Mangione stated during the hearing that he knew his actions were illegal."
+    ],
+    "framing_differences": [
+      "The guardian articles differ in their focus; one article emphasizes the potential impact of the federal plea on the separate state murder trial proceedings, while the other emphasizes the defendant's stated personal motivations regarding his health history."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Mangione claimed to have a broken back and severe back pain prior to the incident."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'hastily scheduled' to describe the 45-minute federal hearing."
+    ],
+    "safe_conclusions": [
+      "Luigi Mangione has entered a guilty plea to federal stalking charges in connection with the death of Brian Thompson.",
+      "A federal judge has set a sentencing date for December 18."
+    ],
+    "unknowns": [
+      "The final outcome of the separate state murder case.",
+      "Whether the federal guilty plea will result in the dismissal of the state murder charges."
+    ],
+    "synthesis": "Luigi Mangione pleaded guilty to federal stalking charges regarding the 2024 death of UnitedHealthcare CEO Brian Thompson. During the hearing, Mangione admitted to shooting Thompson in Manhattan and acknowledged he knew his actions were illegal. A federal sentencing hearing has been scheduled for December 18.",
+    "confidence": "HIGH: Both reports consistently describe the same court proceedings and the defendant's public statements.",
+    "sources": [
+      {
+        "id": "art_1786729002961_nn5a1",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
+        "source": "guardian",
+        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
+      },
+      {
+        "id": "art_1786729012465_yq45e",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+        "source": "guardian",
+        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
+    "topic_label": "Trump administration actions",
+    "event_window_start": "2026-08-14T17:06:51.000Z",
+    "event_window_end": "2026-08-14T22:19:30.000Z",
+    "article_ids": [
+      "art_1786751734672_drr8w",
+      "art_1786751736916_cxxhu",
+      "art_1786729009983_9z2qw"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T09:57:52.746Z",
+    "updated_at": "2026-08-15T09:57:52.746Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump traveled to New York on a Friday to attend an event.",
+      "Donald Trump made public remarks regarding crime rates in the United States."
+    ],
+    "source_claims": [
+      "[fox] claims Donald Trump exited the stage during a speech at the Nassau County Police Academy to embrace the parents of 12-year-old Jacob Freytes.",
+      "[fox] claims Jacob Freytes was killed by a stray bullet while on a bike outside a bodega.",
+      "[guardian] claims Donald Trump stated a nine-month deployment for sailors on the USS Abraham Lincoln was 'not nearly long enough'.",
+      "[guardian] claims the Trump administration is appealing to the Supreme Court to allow construction of a ballroom at the East Wing of the White House, citing national security."
+    ],
+    "framing_differences": [
+      "Fox focuses on Donald Trump's personal interaction with the family of a crime victim during a speech to law enforcement, while The Guardian focuses on Donald Trump's comments regarding military deployment lengths and his administration's legal efforts concerning White House construction."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims the person who killed Jacob Freytes was a 'repeat criminal'.",
+      "[guardian] claims families of sailors on the USS Abraham Lincoln have expressed concerns regarding a mental health crisis."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'beautiful impromptu moment' to describe the interaction between Donald Trump and the parents.",
+      "[guardian] uses the term 'downplayed' to describe the president's response to deployment concerns."
+    ],
+    "safe_conclusions": [
+      "Donald Trump attended events or made statements regarding crime, military deployment, and White House construction on a Friday."
+    ],
+    "unknowns": [
+      "The specific sequence of events for Donald Trump's Friday schedule is not fully detailed across all sources.",
+      "The specific nature of the concerns regarding the mental health of sailors on the USS Abraham Lincoln is not detailed beyond the claims made by The Guardian."
+    ],
+    "synthesis": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
+    "confidence": "HIGH. The sources discuss distinct, non-overlapping events occurring on the same day, and factual consistency is maintained within each respective topic.",
+    "sources": [
+      {
+        "id": "art_1786751734672_drr8w",
+        "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
+        "source": "fox",
+        "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
+      },
+      {
+        "id": "art_1786751736916_cxxhu",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
+        "source": "guardian",
+        "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
+      },
+      {
+        "id": "art_1786729009983_9z2qw",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1793c6374864bc944a7c11ed104ef5ac",
+    "topic_label": "Global Health and Pandemic",
+    "event_window_start": "2026-08-15T07:00:50.000Z",
+    "event_window_end": "2026-08-15T07:01:50.000Z",
+    "article_ids": [
+      "art_1786779352913_zlaiz",
+      "art_1786779354108_mcop5"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T13:59:32.089Z",
+    "updated_at": "2026-08-15T13:59:32.089Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian_1] Authorities confirmed the first death of a little penguin in Australia due to H5 bird flu on Phillip Island.",
+      "[guardian_1] The Victoria state government announced a vaccination rollout for little penguins beginning Monday.",
+      "[guardian_1] The infected penguin was located outside of the designated penguin parade area.",
+      "[guardian_2] An analysis by Baringa consultancy suggests that individuals require a discretionary income of nearly £100,000 per year to offset the £1,200 annual cost of GLP-1 weight-loss medication through food savings.",
+      "[guardian_2] Paddy Winters of Baringa states that GLP-1 medications may contribute to economic inequality."
+    ],
+    "framing_differences": [
+      "The two articles from The Guardian focus on entirely different subject matters—avian health and economic analysis of pharmaceuticals—precluding a comparative framing analysis."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_1] The Victoria state government plans to vaccinate thousands of birds.",
+      "[guardian_2] The cost of GLP-1 medication can be characterized as a 'regressive tax on being thin'."
+    ],
+    "loaded_language": [
+      "[guardian_1] uses the term 'deadly' to describe H5 bird flu.",
+      "[guardian_2] uses the term 'regressive tax on being thin' to describe the economic impact of weight-loss drugs."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The exact location where the infected penguin was found on Phillip Island remains undisclosed.",
+      "The broader implications of the H5 bird flu findings for the total population of 40,000 little penguins are not fully detailed.",
+      "The specific methodology used by Baringa to calculate the £100,000 discretionary income threshold is not provided."
+    ],
+    "synthesis": "Victoria authorities have confirmed the first death of a little penguin from H5 bird flu on Phillip Island and are initiating a vaccination program. Separately, an economic analysis indicates that the high cost of GLP-1 weight-loss medication typically exceeds potential grocery savings for all but the highest earners. These reports cover distinct public health and economic topics without overlapping data points.",
+    "confidence": "HIGH. The articles cover unrelated topics, meaning there is no factual conflict between them.",
+    "sources": [
+      {
+        "id": "art_1786779352913_zlaiz",
+        "url": "https://www.theguardian.com/world/2026/aug/15/little-penguin-found-dead-with-h5-bird-flu-on-victorias-phillip-island",
+        "source": "guardian",
+        "title": "First Australian death of little penguin with H5 bird flu confirmed on Phillip Island"
+      },
+      {
+        "id": "art_1786779354108_mcop5",
+        "url": "https://www.theguardian.com/science/2026/aug/15/high-earners-savings-weight-loss-drugs-income-glp-1",
+        "source": "guardian",
+        "title": "‘A tax on being thin’: only high earners make overall savings on food bills from weight-loss drugs"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8fd7ca6a1cd92556b11fd8a6f64b1429",
+    "topic_label": "US Domestic Issues",
+    "event_window_start": "2026-08-14T17:16:27.000Z",
+    "event_window_end": "2026-08-14T23:26:45.000Z",
+    "article_ids": [
+      "art_1786751723862_6zn1b",
+      "art_1786751724914_bd8f7",
+      "art_1786751730252_yjyz5",
+      "art_1786729006410_0rjcg"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T13:59:32.089Z",
+    "updated_at": "2026-08-15T13:59:32.089Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox_1] Delta Flight 81 from Paris to Seattle diverted to London Heathrow due to a lavatory mechanical issue.",
+      "[fox_1] The Airbus A330-900 involved carried 209 passengers and 13 crew members.",
+      "[fox_2] A new Surface Movement Radar system, SMR-4, was installed at Ronald Reagan Washington National Airport following a 2025 midair collision that killed 67 people.",
+      "[fox_2] Transportation Secretary Sean Duffy stated the technology assists air traffic controllers in identifying aircraft and vehicles in low-visibility conditions.",
+      "[fox_3] Six people are dead, including a suspect identified as Chad Hickman, following a shooting in Missaukee County, Michigan.",
+      "[guardian] Detainees at the Adams County detention center in Mississippi reported being sickened by a gas leak and subsequently denied medical care.",
+      "[guardian] A detainee reported that a power outage left the facility without air conditioning for two days during extreme heat."
+    ],
+    "framing_differences": [
+      "The provided articles cover four distinct, unrelated events, preventing comparative framing between sources."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox_2] Secretary Sean Duffy stated the department is working at the 'Speed of Trump' to upgrade air traffic systems.",
+      "[guardian] Detainees were forced to spend hours in 100F heat without shade following a power outage."
+    ],
+    "loaded_language": [
+      "[fox_2] uses the term 'drastic' to describe airport changes.",
+      "[guardian] uses the term 'overcrowded' to describe an immigration facility.",
+      "[guardian] uses the term 'swelter' to describe the conditions inside the facility cells."
+    ],
+    "safe_conclusions": [
+      "The provided texts describe independent news events occurring in different locations.",
+      "Multiple incidents involving transportation and public safety have been reported."
+    ],
+    "unknowns": [
+      "The specific cause of the gas leak mentioned in the Guardian report is unknown.",
+      "The official police report detailing the timeline of the Missaukee County shooting is incomplete.",
+      "Full details regarding the mechanical nature of the Delta lavatory failure are not provided."
+    ],
+    "synthesis": "The provided reports detail a Delta flight diversion, the installation of new radar technology at Reagan National Airport, a fatal shooting in Michigan, and detainee conditions at a Mississippi ICE facility. These accounts are independent of one another and cover separate geographical and thematic subjects. No source provides overlapping coverage of these events.",
+    "confidence": "HIGH. The sources discuss distinct, unrelated events, making factual consistency across sources not applicable as there is no overlap in subject matter.",
+    "sources": [
+      {
+        "id": "art_1786751723862_6zn1b",
+        "url": "https://www.foxnews.com/us/delta-flight-diverted-twice-lavatory-leak-floods-cabin-leaves-passengers-stranded-hours",
+        "source": "fox",
+        "title": "Delta flight diverted twice after lavatory leak floods cabin, leaves passengers stranded for hours"
+      },
+      {
+        "id": "art_1786751724914_bd8f7",
+        "url": "https://www.foxnews.com/politics/reagan-national-airport-makes-drastic-change-following-deadly-2025-midair-collision",
+        "source": "fox",
+        "title": "Reagan National Airport makes drastic change following deadly 2025 midair collision"
+      },
+      {
+        "id": "art_1786751730252_yjyz5",
+        "url": "https://www.foxnews.com/us/several-people-dead-including-suspect-rural-michigan-multi-scene-shooting-police",
+        "source": "fox",
+        "title": "Several people dead, including suspect, in rural Michigan multi-scene shooting, police say: reports"
+      },
+      {
+        "id": "art_1786729006410_0rjcg",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/mississippi-ice-facility-gas-leak",
+        "source": "guardian",
+        "title": "People detained at Mississippi ICE facility sickened by gas leak and denied medical care"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -815,82 +1121,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/14/florida-debbie-wasserman-schultz-elijah-manley",
         "source": "guardian",
         "title": "Progressives back substitute teacher over Wasserman Schultz in Florida"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
-    "topic_label": "Trump administration actions",
-    "event_window_start": "2026-08-14T17:06:51.000Z",
-    "event_window_end": "2026-08-14T22:19:30.000Z",
-    "article_ids": [
-      "art_1786751734672_drr8w",
-      "art_1786751736916_cxxhu",
-      "art_1786729009983_9z2qw"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-15T09:57:52.746Z",
-    "updated_at": "2026-08-15T09:57:52.746Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump traveled to New York on a Friday to attend an event.",
-      "Donald Trump made public remarks regarding crime rates in the United States."
-    ],
-    "source_claims": [
-      "[fox] claims Donald Trump exited the stage during a speech at the Nassau County Police Academy to embrace the parents of 12-year-old Jacob Freytes.",
-      "[fox] claims Jacob Freytes was killed by a stray bullet while on a bike outside a bodega.",
-      "[guardian] claims Donald Trump stated a nine-month deployment for sailors on the USS Abraham Lincoln was 'not nearly long enough'.",
-      "[guardian] claims the Trump administration is appealing to the Supreme Court to allow construction of a ballroom at the East Wing of the White House, citing national security."
-    ],
-    "framing_differences": [
-      "Fox focuses on Donald Trump's personal interaction with the family of a crime victim during a speech to law enforcement, while The Guardian focuses on Donald Trump's comments regarding military deployment lengths and his administration's legal efforts concerning White House construction."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims the person who killed Jacob Freytes was a 'repeat criminal'.",
-      "[guardian] claims families of sailors on the USS Abraham Lincoln have expressed concerns regarding a mental health crisis."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'beautiful impromptu moment' to describe the interaction between Donald Trump and the parents.",
-      "[guardian] uses the term 'downplayed' to describe the president's response to deployment concerns."
-    ],
-    "safe_conclusions": [
-      "Donald Trump attended events or made statements regarding crime, military deployment, and White House construction on a Friday."
-    ],
-    "unknowns": [
-      "The specific sequence of events for Donald Trump's Friday schedule is not fully detailed across all sources.",
-      "The specific nature of the concerns regarding the mental health of sailors on the USS Abraham Lincoln is not detailed beyond the claims made by The Guardian."
-    ],
-    "synthesis": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
-    "confidence": "HIGH. The sources discuss distinct, non-overlapping events occurring on the same day, and factual consistency is maintained within each respective topic.",
-    "sources": [
-      {
-        "id": "art_1786751734672_drr8w",
-        "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
-        "source": "fox",
-        "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
-      },
-      {
-        "id": "art_1786751736916_cxxhu",
-        "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
-        "source": "guardian",
-        "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
-      },
-      {
-        "id": "art_1786729009983_9z2qw",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18944,437 +19174,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/tightened-blockade-on-gaza-causes-prices-to-soar?traffic_source=rss",
         "source": "aljazeera",
         "title": "Tightened blockade on Gaza causes prices to soar"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0f58a20237ba46057f044131946e8f7d",
-    "topic_label": "Middle East Conflict and Tensions",
-    "event_window_start": "2026-08-11T18:32:42.000Z",
-    "event_window_end": "2026-08-12T05:01:43.000Z",
-    "article_ids": [
-      "art_1786512091866_ma7sy",
-      "art_1786512094108_beju9",
-      "art_1786512095134_lmx04",
-      "art_1786512100626_sk2qj",
-      "art_1786504322767_3eqep",
-      "art_1786504325003_mw6lc",
-      "art_1786493720194_uqtve",
-      "art_1786493732113_561qe",
-      "art_1786490417463_l4ixw",
-      "art_1786490429066_af0eo",
-      "art_1786486751812_aqqni",
-      "art_1786486755940_wo7ss",
-      "art_1786483469267_wavr2",
-      "art_1786483482010_6pnlf",
-      "art_1786483483039_e7tax",
-      "art_1786483484070_g1082",
-      "art_1786475994403_ird0p",
-      "art_1786475999785_1g88l"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 18,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T05:34:17.450Z",
-    "updated_at": "2026-08-12T05:34:17.450Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Donald Trump is the President of the United States.",
-      "Tensions exist regarding diplomatic and military situations involving the United States, Israel, and Iran.",
-      "Military or security operations involving arrests and infrastructure damage are occurring in the West Bank."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Benjamin Netanyahu rejected Donald Trump's Gaza peace plan.",
-      "[aljazeera] claims the United Nations warned the West Bank is at a breaking point.",
-      "[aljazeera] claims Donald Trump hid in a catering truck to switch planes due to an alleged bomb plot in Ankara.",
-      "[aljazeera] claims a drone struck a power station in Zawiya, Libya.",
-      "[aljazeera] claims Mohsen Rezaei stated Washington must end military campaigns and release Iranian funds to reopen the Strait of Hormuz."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the U.S.-Iran situation as a 'war' whereas other potential international reporting on these specific incidents might describe them as regional tensions or trade disputes."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims a drone strike occurred at a power station in Zawiya, Libya.",
-      "[aljazeera] claims Donald Trump used a catering truck to evade an alleged bomb plot in Ankara.",
-      "[aljazeera] claims Israeli forces arrested at least 23 Palestinians on Tuesday."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'crackdown' to describe Israeli military activity in the West Bank.",
-      "[aljazeera] uses the term 'US-Israel war on Iran' to characterize the ongoing geopolitical conflict."
-    ],
-    "safe_conclusions": [
-      "There are ongoing reports of military and political volatility involving the United States, Israel, Iran, and Libya."
-    ],
-    "unknowns": [
-      "Specific details regarding the origin and authorship of the alleged assassination plot against Donald Trump.",
-      "The official status of the Gaza peace plan negotiations beyond the stated rejection.",
-      "The specific identity of the drone operator in the Zawiya power station strike."
-    ],
-    "synthesis": "Reports indicate ongoing geopolitical instability involving the United States, Israel, Iran, and Libya, including military actions and diplomatic tensions. Allegations include a security incident involving Donald Trump in Turkey and continued military operations in the West Bank. Various stakeholders, including Iranian officials and international bodies like the UN, have issued statements regarding these regional conflicts.",
-    "confidence": "MEDIUM. While the reporting comes from a single source network, the internal consistency of the claims is high, though individual incident reports lack external corroboration.",
-    "sources": [
-      {
-        "id": "art_1786512091866_ma7sy",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/aje-onl-nf_-trump-keep-his-irritation-with-netanyahu-in-check-120826?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can Trump keep his ‘irritation’ with Netanyahu in check?"
-      },
-      {
-        "id": "art_1786512094108_beju9",
-        "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli raids, demolitions continue as UN warns West Bank at breaking point"
-      },
-      {
-        "id": "art_1786512095134_lmx04",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/did-trump-flee-an-iranian-assassination-plot-on-a-catering-truck?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Trump flee an Iranian assassination plot on a catering truck?"
-      },
-      {
-        "id": "art_1786512100626_sk2qj",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drone-strikes-power-station-near-libyas-largest-oil-refinery?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Drone strikes power station near Libya’s largest oil refinery"
-      },
-      {
-        "id": "art_1786504322767_3eqep",
-        "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran"
-      },
-      {
-        "id": "art_1786504325003_mw6lc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/stronghold-of-syrian-revolution-celebrates-assads-death-sentence?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Stronghold of Syrian revolution celebrates Assad’s death sentence"
-      },
-      {
-        "id": "art_1786493720194_uqtve",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/cargo-ship-in-flames-after-houthi-attack-in-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cargo ship in flames after Houthi attack in Bab al-Mandeb strait"
-      },
-      {
-        "id": "art_1786493732113_561qe",
-        "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US military fires on cargo vessel it said sought to break Iran blockade"
-      },
-      {
-        "id": "art_1786490417463_l4ixw",
-        "url": "https://www.foxnews.com/media/tyler-feehan-mother-fiancee-recall-excitement-fatal-middle-east-deployment",
-        "source": "fox",
-        "title": "Tyler Feehan's mother and fiancée recall his excitement before fatal Middle East deployment"
-      },
-      {
-        "id": "art_1786490429066_af0eo",
-        "url": "https://www.aljazeera.com/news/2026/8/11/trump-warns-of-jihadists-ruling-in-washington-as-democrats-show-momentum?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump warns of ‘jihadists’ ruling in Washington as Democrats show momentum"
-      },
-      {
-        "id": "art_1786486751812_aqqni",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/father-and-sons-forced-to-manually-clear-rubble-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Father and sons forced to manually clear rubble in Gaza"
-      },
-      {
-        "id": "art_1786486755940_wo7ss",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/israel-demolishes-home-of-palestinian-killed-during-settler-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel demolishes home of Palestinian killed during settler attack"
-      },
-      {
-        "id": "art_1786483469267_wavr2",
-        "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US says helicopter fired missiles to disable ship breaking Iran blockade"
-      },
-      {
-        "id": "art_1786483482010_6pnlf",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/pakistan-interior-minister-in-tehran-amid-talks-to-reopen-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan interior minister in Tehran amid talks to reopen Hormuz"
-      },
-      {
-        "id": "art_1786483483039_e7tax",
-        "url": "https://www.aljazeera.com/news/2026/8/11/in-gazas-tents-widows-face-wars-harshest-realities-alone?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "In Gaza’s tents, widows face war’s harshest realities alone"
-      },
-      {
-        "id": "art_1786483484070_g1082",
-        "url": "https://www.aljazeera.com/features/2026/8/11/yemen-red-sea-fishermen?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fishermen face deadly dangers as Yemen’s Red Sea becomes a warzone"
-      },
-      {
-        "id": "art_1786475994403_ird0p",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/tightened-blockade-on-gaza-causes-prices-to-soar?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Tightened blockade on Gaza causes prices to soar"
-      },
-      {
-        "id": "art_1786475999785_1g88l",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/justice-at-last-syrians-react-to-assad-death-sentence?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Justice at last’: Syrians react to Assad death sentence"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "02645b0f86214ac54ce2927e9991d6b2",
-    "topic_label": "Trump Security and Plane Switch",
-    "event_window_start": "2026-08-11T20:39:42.000Z",
-    "event_window_end": "2026-08-12T04:15:51.000Z",
-    "article_ids": [
-      "art_1786512098522_h334v",
-      "art_1786504320487_yk6cq",
-      "art_1786486745215_m28op",
-      "art_1786483477678_wyeys",
-      "art_1786483480974_pnojm"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T05:34:17.450Z",
-    "updated_at": "2026-08-12T05:34:17.450Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Donald Trump boarded Air Force One in public view on July 8 following a NATO summit in Turkey.",
-      "Donald Trump moved to a different military aircraft using a catering truck.",
-      "The Secret Service and military were involved in the decision-making process for the plane switch.",
-      "The switch took place amid reports of a potential security threat."
-    ],
-    "source_claims": [
-      "[aljazeera] The decision to switch planes was made by the Secret Service.",
-      "[bbc] Trump stated he followed the guidance of the Secret Service and the military regarding the flight change.",
-      "[bbc] Trump claimed the military jet he boarded was at greater risk than the decoy plane.",
-      "[guardian] Democrats requested a congressional briefing regarding the incident.",
-      "[fox] The White House did not respond to a request for comment on whether officials assessed risks to the passengers left on the decoy aircraft.",
-      "[bbc] Ronald Kessler stated that using decoys to mislead potential threats is a common historical strategy for the Secret Service."
-    ],
-    "framing_differences": [
-      "The Guardian frames the event as a 'charade' and 'deception' that raises questions about the treatment of passengers, while BBC frames the event as a historically 'common' security strategy often used to protect presidents.",
-      "Fox focuses on the 'security trade-off' and the safety of individuals left on the decoy plane, whereas Al Jazeera focuses on the specific justification provided by Trump regarding Secret Service authority."
-    ],
-    "contested_claims": [
-      "Trump claimed the military jet he boarded was at greater risk, while other accounts suggest the decoy plane was the one facing the reported threat."
-    ],
-    "unverified_claims": [
-      "[guardian] US intelligence allegedly identified a credible threat that Iran plotted to kill the president.",
-      "[fox] Secretary of State Marco Rubio may have been among those on the decoy aircraft."
-    ],
-    "loaded_language": [
-      "[guardian] uses the terms 'stunning charade' and 'spiriting' to describe the plane switch.",
-      "[fox] uses the term 'sly plane switch' to describe the move.",
-      "[bbc] uses the term 'shell game' to describe the security practice."
-    ],
-    "safe_conclusions": [
-      "Donald Trump changed aircraft during his departure from the NATO summit in Turkey in July.",
-      "A catering truck was used to facilitate the president's movement between aircraft.",
-      "Passengers and staff remained on the original aircraft after the president had departed it."
-    ],
-    "unknowns": [
-      "The specific nature and origin of the threat that prompted the security measure.",
-      "The exact number and identity of all individuals who remained on the decoy aircraft.",
-      "Whether specific protocols or additional protective measures were implemented for the passengers left on the decoy flight."
-    ],
-    "synthesis": "During a departure from a NATO summit in Turkey, Donald Trump switched from Air Force One to a military aircraft using a catering truck while the public and media believed he remained on the primary plane. The Secret Service and military orchestrated the move, which officials described as a security measure against a potential threat. The event has prompted scrutiny regarding the safety of passengers who remained on the decoy aircraft.",
-    "confidence": "HIGH; Sources consistently describe the physical events of the plane switch and the roles of the involved parties, with discrepancies limited to the framing and assessments of risk.",
-    "sources": [
-      {
-        "id": "art_1786512098522_h334v",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/trump-says-secret-plane-switch-up-to-the-secret?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says secret plane switch ‘up to the Secret Service’"
-      },
-      {
-        "id": "art_1786504320487_yk6cq",
-        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says he switched planes after Nato summit because of possible threat "
-      },
-      {
-        "id": "art_1786486745215_m28op",
-        "url": "https://www.theguardian.com/us-news/2026/aug/11/trump-air-force-one-deception-democrats",
-        "source": "guardian",
-        "title": "Trump’s Air Force One deception faces scrutiny over ‘decoy’ passengers"
-      },
-      {
-        "id": "art_1786483477678_wyeys",
-        "url": "https://www.foxnews.com/politics/trumps-sly-plane-switch-raises-eyebrows-safety-passengers-left-behind-board",
-        "source": "fox",
-        "title": "Trump’s sly plane switch raises eyebrows over safety of passengers left behind on board"
-      },
-      {
-        "id": "art_1786483480974_pnojm",
-        "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Inside the Secret Service 'shell game' to hide US presidents in plain sight"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ae640febfd0e38bba7eda45c0cbb856d",
-    "topic_label": "US Primary Elections and Politics",
-    "event_window_start": "2026-08-11T18:55:35.000Z",
-    "event_window_end": "2026-08-12T04:13:59.000Z",
-    "article_ids": [
-      "art_1786512099594_cvzha",
-      "art_1786512101701_iuh9d",
-      "art_1786512102756_kttv7",
-      "art_1786504321649_eq96i",
-      "art_1786504326150_flk1x",
-      "art_1786504331879_tpigq",
-      "art_1786504334222_yvfbn",
-      "art_1786490419543_mvtqm",
-      "art_1786483474584_9jaj6",
-      "art_1786475987441_kpvmv",
-      "art_1786475991032_dqav9"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 11,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T14:26:14.579Z",
-    "updated_at": "2026-08-12T14:26:14.579Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Peggy Flanagan won a Democratic primary race in Minnesota.",
-      "Rebecca Cooke won a Democratic primary for the U.S. House in Wisconsin's 3rd Congressional District.",
-      "Francesca Hong is a candidate in a four-way Democratic gubernatorial primary in Wisconsin.",
-      "Primary elections were held in various regions across the United States on Tuesday."
-    ],
-    "source_claims": [
-      "[guardian] Claims Francesca Hong is the frontrunner in the Wisconsin gubernatorial primary.",
-      "[guardian] Claims the Minnesota primary was centered on immigration enforcement and anti-ICE anger.",
-      "[fox] Claims the Wisconsin gubernatorial race involving Francesca Hong remains too close to call.",
-      "[fox] Claims Rebecca Cooke's primary victory sets her up for a rematch with Rep. Derrick Van Orden.",
-      "[fox] Claims Rep. John Larson lost his primary race to Hartford Mayor Luke Bronin."
-    ],
-    "framing_differences": [
-      "The guardian frames the primary elections as part of an 'anti-establishment wave' among Democratic voters, while fox frames the outcomes as a mix of progressive wins and specific electoral tests in battleground areas.",
-      "The guardian frames Peggy Flanagan's win as a result of 'anti-ICE anger,' while fox frames the same event as a demonstration of the 'progressive wing's strength'."
-    ],
-    "contested_claims": [
-      "The guardian identifies Francesca Hong as the 'frontrunner' in the Wisconsin gubernatorial primary, whereas fox reports the race is 'too close to call'."
-    ],
-    "unverified_claims": [
-      "[guardian] Claims the Minnesota primary was defined by anti-ICE anger following a crackdown by the Trump administration.",
-      "[fox] Claims Rep. John Larson 'erupted at his colleagues' during a legislative markup."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'democratic socialist' to describe Francesca Hong.",
-      "[fox] uses the term 'socialist Democratic' to describe Francesca Hong.",
-      "[fox] uses the term 'upstart' to describe Mayor Luke Bronin.",
-      "[guardian] uses the phrase 'anti-establishment wave' to describe voter sentiment."
-    ],
-    "safe_conclusions": [
-      "Primary elections occurred on Tuesday involving multiple Democratic candidates.",
-      "Peggy Flanagan and Rebecca Cooke won their respective Democratic primary races.",
-      "Francesca Hong is a candidate in the Wisconsin gubernatorial Democratic primary."
-    ],
-    "unknowns": [
-      "The official final vote tallies for the Wisconsin gubernatorial primary.",
-      "The specific influence of immigration policy vs. other factors on voter turnout in Minnesota."
-    ],
-    "synthesis": "Democratic primary elections held on Tuesday resulted in wins for candidates including Peggy Flanagan in Minnesota and Rebecca Cooke in Wisconsin. The status of the Wisconsin gubernatorial primary remains a point of varying assessment between sources. These results are occurring within the context of multiple legislative and executive primary races across several states.",
-    "confidence": "MEDIUM: While the factual outcomes of primary wins are consistent, sources differ on the status of ongoing races and the primary thematic drivers of voter behavior.",
-    "sources": [
-      {
-        "id": "art_1786512099594_cvzha",
-        "url": "https://www.theguardian.com/us-news/2026/aug/11/wisconsin-primary-election-governor-race",
-        "source": "guardian",
-        "title": "Francesca Hong aims to ride progressive wave in Wisconsin primary for governor"
-      },
-      {
-        "id": "art_1786512101701_iuh9d",
-        "url": "https://www.theguardian.com/us-news/2026/aug/11/minnesota-peggy-flanagan-wins-primary",
-        "source": "guardian",
-        "title": "Progressive Peggy Flanagan sweeps Minnesota Senate primary in race defined by anti-ICE anger"
-      },
-      {
-        "id": "art_1786512102756_kttv7",
-        "url": "https://www.foxnews.com/politics/state-of-play-highly-watched-hong-race-remains-too-close-call-progressives-notch-key-primary-wins",
-        "source": "fox",
-        "title": "STATE OF PLAY: Highly watched Hong race remains too close to call as progressives notch key primary wins"
-      },
-      {
-        "id": "art_1786504321649_eq96i",
-        "url": "https://www.foxnews.com/politics/dems-eye-pickup-wisconsin-swing-district-rep-van-orden-rematch-key-house-race",
-        "source": "fox",
-        "title": "Dems eye pick-up in Wisconsin swing district as Rep Van Orden set for rematch in key House race"
-      },
-      {
-        "id": "art_1786504326150_flk1x",
-        "url": "https://www.foxnews.com/politics/longtime-anti-trump-dem-ousted-tough-primary-from-upstart-progressive-mayor",
-        "source": "fox",
-        "title": "Longtime anti-Trump Dem ousted after tough primary from upstart progressive mayor"
-      },
-      {
-        "id": "art_1786504331879_tpigq",
-        "url": "https://www.foxnews.com/politics/republican-survives-primary-tim-walz-old-congressional-turf-dems-eye-seat-flip",
-        "source": "fox",
-        "title": "Republican survives primary on Tim Walz's old congressional turf as Dems eye seat flip"
-      },
-      {
-        "id": "art_1786504334222_yvfbn",
-        "url": "https://www.foxnews.com/politics/failed-presidential-candidate-wins-dem-primary-midwest-governor-fraud-scandal-fallout",
-        "source": "fox",
-        "title": "Failed presidential candidate wins Dem primary for Midwest governor amid fraud scandal fallout"
-      },
-      {
-        "id": "art_1786490419543_mvtqm",
-        "url": "https://www.foxnews.com/media/carville-warns-democrats-may-need-block-far-left-candidates-from-joining-caucus-moderate-group-disagrees",
-        "source": "fox",
-        "title": "Carville warns Democrats may need to block far-left candidates from joining caucus, moderate group disagrees"
-      },
-      {
-        "id": "art_1786483474584_9jaj6",
-        "url": "https://www.foxnews.com/politics/vulnerable-dems-campaign-pitch-clashes-radical-voting-record-culture-war-issue",
-        "source": "fox",
-        "title": "Vulnerable Dem's campaign pitch clashes with 'radical' voting record on top culture war issue"
-      },
-      {
-        "id": "art_1786475987441_kpvmv",
-        "url": "https://www.foxnews.com/media/former-wisconsin-gov-scott-walker-warns-hong-undermining-one-her-strengths-campaign-backtracking",
-        "source": "fox",
-        "title": "Former Wisconsin Gov Scott Walker warns Hong ‘undermining one of her strengths’ with campaign backtracking"
-      },
-      {
-        "id": "art_1786475991032_dqav9",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/11/donald-trump-democrats-primaries-wisconsin-minnesota-south-carolina-vaccines-max-miller-latest-news-updates",
-        "source": "guardian",
-        "title": "Officials monitoring polling sites in Minnesota’s two largest counties, says Trump’s justice department – live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
