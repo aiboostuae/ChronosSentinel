@@ -75,6 +75,79 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "66437d2947d956df181ef014416efa5b",
+    "topic_label": "Conflict in Gaza and Middle East",
+    "event_window_start": "2026-08-14T17:03:17.000Z",
+    "event_window_end": "2026-08-15T06:10:07.000Z",
+    "article_ids": [
+      "art_1786779356231_64lte",
+      "art_1786729011280_vqsh0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T14:55:38.786Z",
+    "updated_at": "2026-08-15T14:55:38.786Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israeli military forces have been active in the area of Qusra in the West Bank.",
+      "There has been a situation involving activists attempting to deliver aid to Palestinian homes in Qusra.",
+      "Israeli forces have interacted with activists or settler groups in the vicinity of Qusra."
+    ],
+    "source_claims": [
+      "[aljazeera] Mohammad al-Halabi is a farmer from Jabalia who is currently tending a small plot in Nuseirat.",
+      "[aljazeera] Mohammad al-Halabi previously farmed a 40,000-square-metre plot in northern Gaza.",
+      "[bbc] Activists attempted to deliver food and water to two Palestinian families in Qusra who have been trapped since Sunday.",
+      "[bbc] Two residents reported that the Israeli Defense Forces (IDF) prevented activists from delivering aid directly to their homes.",
+      "[bbc] The IDF stated that Qusra was a closed military zone and denied preventing the aid delivery.",
+      "[bbc] Settlers set up a tent near the site on Friday following a prior dispersal operation."
+    ],
+    "framing_differences": [
+      "aljazeera frames its article around individual economic recovery and the personal history of a specific farmer in Gaza, whereas bbc frames its article around ongoing conflict, humanitarian access, and tensions between settlers, activists, and the military in the West Bank."
+    ],
+    "contested_claims": [
+      "Regarding the aid delivery in Qusra, residents claim the IDF prevented activists from providing supplies directly, while the IDF denies this assertion."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Mohammad al-Halabi's family of four relied entirely on his former 40,000-square-metre farm for their income.",
+      "[bbc] Two Palestinian families have had their power and water supplies cut off since Sunday."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'besieged' to describe the status of Palestinian homes in the West Bank."
+    ],
+    "safe_conclusions": [
+      "There are ongoing humanitarian and military-related developments in the Gaza Strip and the West Bank affecting civilian populations."
+    ],
+    "unknowns": [
+      "The full scope of the military or administrative restrictions currently in place in Qusra.",
+      "The long-term agricultural prospects for displaced farmers like Mohammad al-Halabi."
+    ],
+    "synthesis": "The provided articles detail two distinct situations: agricultural efforts by a displaced farmer in Gaza and an aid-delivery attempt by activists in the West Bank. The reports focus on different geographic regions and separate humanitarian concerns. While the West Bank report involves contested claims regarding military intervention in aid delivery, the Gaza report centers on individual attempts to restore pre-war livelihoods.",
+    "confidence": "HIGH. The reports cover different events and locations, and where they overlap, the points of contention are clearly articulated.",
+    "sources": [
+      {
+        "id": "art_1786779356231_64lte",
+        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
+      },
+      {
+        "id": "art_1786729011280_vqsh0",
+        "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "83f2c4d526357cac38eac2ffbac24061",
     "topic_label": "Yemen Houthi attacks",
     "event_window_start": "2026-08-14T22:45:19.000Z",
@@ -144,74 +217,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/14/yemens-government-says-houthi-attack-on-al-makha-kills-at-least-four?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemen’s government says Houthi attack on al-Makha kills at least four"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9b5550ceddc566e07a114616be7f7a28",
-    "topic_label": "Healthcare CEO Shooting Case",
-    "event_window_start": "2026-08-14T17:02:59.000Z",
-    "event_window_end": "2026-08-14T17:22:49.000Z",
-    "article_ids": [
-      "art_1786729002961_nn5a1",
-      "art_1786729012465_yq45e"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-14T19:36:09.621Z",
-    "updated_at": "2026-08-14T19:36:09.621Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Luigi Mangione pleaded guilty to federal stalking charges related to the 2024 death of UnitedHealthcare CEO Brian Thompson.",
-      "Mangione stated in court: 'I shot Mr Thompson in Manhattan and he died.'",
-      "The federal sentencing for Mangione is scheduled for 18 December.",
-      "The killing of Brian Thompson occurred on 4 December 2024."
-    ],
-    "source_claims": [
-      "[guardian] Mangione stated his actions followed years of enduring severe back pain and difficulties navigating the healthcare system.",
-      "[guardian] Mangione stated he traveled to New York City and posed as an institutional investor via email to learn the location of a UnitedHealthcare investor convergence.",
-      "[guardian] Mangione stated during the hearing that he knew his actions were illegal."
-    ],
-    "framing_differences": [
-      "The guardian articles differ in their focus; one article emphasizes the potential impact of the federal plea on the separate state murder trial proceedings, while the other emphasizes the defendant's stated personal motivations regarding his health history."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Mangione claimed to have a broken back and severe back pain prior to the incident."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'hastily scheduled' to describe the 45-minute federal hearing."
-    ],
-    "safe_conclusions": [
-      "Luigi Mangione has entered a guilty plea to federal stalking charges in connection with the death of Brian Thompson.",
-      "A federal judge has set a sentencing date for December 18."
-    ],
-    "unknowns": [
-      "The final outcome of the separate state murder case.",
-      "Whether the federal guilty plea will result in the dismissal of the state murder charges."
-    ],
-    "synthesis": "Luigi Mangione pleaded guilty to federal stalking charges regarding the 2024 death of UnitedHealthcare CEO Brian Thompson. During the hearing, Mangione admitted to shooting Thompson in Manhattan and acknowledged he knew his actions were illegal. A federal sentencing hearing has been scheduled for December 18.",
-    "confidence": "HIGH: Both reports consistently describe the same court proceedings and the defendant's public statements.",
-    "sources": [
-      {
-        "id": "art_1786729002961_nn5a1",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
-        "source": "guardian",
-        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
-      },
-      {
-        "id": "art_1786729012465_yq45e",
-        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
-        "source": "guardian",
-        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -301,6 +306,150 @@
         "url": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
         "source": "guardian",
         "title": "Hundreds arrested on suspicion of arson in France as wildfires rage across Europe"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9b5550ceddc566e07a114616be7f7a28",
+    "topic_label": "Healthcare CEO Shooting Case",
+    "event_window_start": "2026-08-14T17:02:59.000Z",
+    "event_window_end": "2026-08-14T17:22:49.000Z",
+    "article_ids": [
+      "art_1786729002961_nn5a1",
+      "art_1786729012465_yq45e"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-14T19:36:09.621Z",
+    "updated_at": "2026-08-14T19:36:09.621Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Luigi Mangione pleaded guilty to federal stalking charges related to the 2024 death of UnitedHealthcare CEO Brian Thompson.",
+      "Mangione stated in court: 'I shot Mr Thompson in Manhattan and he died.'",
+      "The federal sentencing for Mangione is scheduled for 18 December.",
+      "The killing of Brian Thompson occurred on 4 December 2024."
+    ],
+    "source_claims": [
+      "[guardian] Mangione stated his actions followed years of enduring severe back pain and difficulties navigating the healthcare system.",
+      "[guardian] Mangione stated he traveled to New York City and posed as an institutional investor via email to learn the location of a UnitedHealthcare investor convergence.",
+      "[guardian] Mangione stated during the hearing that he knew his actions were illegal."
+    ],
+    "framing_differences": [
+      "The guardian articles differ in their focus; one article emphasizes the potential impact of the federal plea on the separate state murder trial proceedings, while the other emphasizes the defendant's stated personal motivations regarding his health history."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Mangione claimed to have a broken back and severe back pain prior to the incident."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'hastily scheduled' to describe the 45-minute federal hearing."
+    ],
+    "safe_conclusions": [
+      "Luigi Mangione has entered a guilty plea to federal stalking charges in connection with the death of Brian Thompson.",
+      "A federal judge has set a sentencing date for December 18."
+    ],
+    "unknowns": [
+      "The final outcome of the separate state murder case.",
+      "Whether the federal guilty plea will result in the dismissal of the state murder charges."
+    ],
+    "synthesis": "Luigi Mangione pleaded guilty to federal stalking charges regarding the 2024 death of UnitedHealthcare CEO Brian Thompson. During the hearing, Mangione admitted to shooting Thompson in Manhattan and acknowledged he knew his actions were illegal. A federal sentencing hearing has been scheduled for December 18.",
+    "confidence": "HIGH: Both reports consistently describe the same court proceedings and the defendant's public statements.",
+    "sources": [
+      {
+        "id": "art_1786729002961_nn5a1",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/luigi-mangione-court-plea-deal-ceo-killing-live",
+        "source": "guardian",
+        "title": "Luigi Mangione admits shooting healthcare CEO Brian Thompson and pleads guilty on federal charges – live"
+      },
+      {
+        "id": "art_1786729012465_yq45e",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+        "source": "guardian",
+        "title": "Luigi Mangione pleads guilty to causing UnitedHealthcare CEO’s death in federal case"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
+    "topic_label": "Trump administration actions",
+    "event_window_start": "2026-08-14T17:06:51.000Z",
+    "event_window_end": "2026-08-14T22:19:30.000Z",
+    "article_ids": [
+      "art_1786751734672_drr8w",
+      "art_1786751736916_cxxhu",
+      "art_1786729009983_9z2qw"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-15T09:57:52.746Z",
+    "updated_at": "2026-08-15T09:57:52.746Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump traveled to New York on a Friday to attend an event.",
+      "Donald Trump made public remarks regarding crime rates in the United States."
+    ],
+    "source_claims": [
+      "[fox] claims Donald Trump exited the stage during a speech at the Nassau County Police Academy to embrace the parents of 12-year-old Jacob Freytes.",
+      "[fox] claims Jacob Freytes was killed by a stray bullet while on a bike outside a bodega.",
+      "[guardian] claims Donald Trump stated a nine-month deployment for sailors on the USS Abraham Lincoln was 'not nearly long enough'.",
+      "[guardian] claims the Trump administration is appealing to the Supreme Court to allow construction of a ballroom at the East Wing of the White House, citing national security."
+    ],
+    "framing_differences": [
+      "Fox focuses on Donald Trump's personal interaction with the family of a crime victim during a speech to law enforcement, while The Guardian focuses on Donald Trump's comments regarding military deployment lengths and his administration's legal efforts concerning White House construction."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims the person who killed Jacob Freytes was a 'repeat criminal'.",
+      "[guardian] claims families of sailors on the USS Abraham Lincoln have expressed concerns regarding a mental health crisis."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'beautiful impromptu moment' to describe the interaction between Donald Trump and the parents.",
+      "[guardian] uses the term 'downplayed' to describe the president's response to deployment concerns."
+    ],
+    "safe_conclusions": [
+      "Donald Trump attended events or made statements regarding crime, military deployment, and White House construction on a Friday."
+    ],
+    "unknowns": [
+      "The specific sequence of events for Donald Trump's Friday schedule is not fully detailed across all sources.",
+      "The specific nature of the concerns regarding the mental health of sailors on the USS Abraham Lincoln is not detailed beyond the claims made by The Guardian."
+    ],
+    "synthesis": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
+    "confidence": "HIGH. The sources discuss distinct, non-overlapping events occurring on the same day, and factual consistency is maintained within each respective topic.",
+    "sources": [
+      {
+        "id": "art_1786751734672_drr8w",
+        "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
+        "source": "fox",
+        "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
+      },
+      {
+        "id": "art_1786751736916_cxxhu",
+        "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
+        "source": "guardian",
+        "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
+      },
+      {
+        "id": "art_1786729009983_9z2qw",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -542,82 +691,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Activists try to deliver aid to Palestinians in homes besieged by Israeli settlers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
-    "topic_label": "Trump administration actions",
-    "event_window_start": "2026-08-14T17:06:51.000Z",
-    "event_window_end": "2026-08-14T22:19:30.000Z",
-    "article_ids": [
-      "art_1786751734672_drr8w",
-      "art_1786751736916_cxxhu",
-      "art_1786729009983_9z2qw"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-15T09:57:52.746Z",
-    "updated_at": "2026-08-15T09:57:52.746Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump traveled to New York on a Friday to attend an event.",
-      "Donald Trump made public remarks regarding crime rates in the United States."
-    ],
-    "source_claims": [
-      "[fox] claims Donald Trump exited the stage during a speech at the Nassau County Police Academy to embrace the parents of 12-year-old Jacob Freytes.",
-      "[fox] claims Jacob Freytes was killed by a stray bullet while on a bike outside a bodega.",
-      "[guardian] claims Donald Trump stated a nine-month deployment for sailors on the USS Abraham Lincoln was 'not nearly long enough'.",
-      "[guardian] claims the Trump administration is appealing to the Supreme Court to allow construction of a ballroom at the East Wing of the White House, citing national security."
-    ],
-    "framing_differences": [
-      "Fox focuses on Donald Trump's personal interaction with the family of a crime victim during a speech to law enforcement, while The Guardian focuses on Donald Trump's comments regarding military deployment lengths and his administration's legal efforts concerning White House construction."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims the person who killed Jacob Freytes was a 'repeat criminal'.",
-      "[guardian] claims families of sailors on the USS Abraham Lincoln have expressed concerns regarding a mental health crisis."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'beautiful impromptu moment' to describe the interaction between Donald Trump and the parents.",
-      "[guardian] uses the term 'downplayed' to describe the president's response to deployment concerns."
-    ],
-    "safe_conclusions": [
-      "Donald Trump attended events or made statements regarding crime, military deployment, and White House construction on a Friday."
-    ],
-    "unknowns": [
-      "The specific sequence of events for Donald Trump's Friday schedule is not fully detailed across all sources.",
-      "The specific nature of the concerns regarding the mental health of sailors on the USS Abraham Lincoln is not detailed beyond the claims made by The Guardian."
-    ],
-    "synthesis": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
-    "confidence": "HIGH. The sources discuss distinct, non-overlapping events occurring on the same day, and factual consistency is maintained within each respective topic.",
-    "sources": [
-      {
-        "id": "art_1786751734672_drr8w",
-        "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
-        "source": "fox",
-        "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
-      },
-      {
-        "id": "art_1786751736916_cxxhu",
-        "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
-        "source": "guardian",
-        "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
-      },
-      {
-        "id": "art_1786729009983_9z2qw",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19056,109 +19129,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c9d84874dzjo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Inside the Secret Service 'shell game' to hide US presidents in plain sight"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "969caf5becbd04f6d173018aad938996",
-    "topic_label": "Iran and Strait of Hormuz",
-    "event_window_start": "2026-08-11T20:35:50.000Z",
-    "event_window_end": "2026-08-12T15:07:41.000Z",
-    "article_ids": [
-      "art_1786549011224_dm0hi",
-      "art_1786504322767_3eqep",
-      "art_1786493720194_uqtve",
-      "art_1786493732113_561qe",
-      "art_1786483469267_wavr2",
-      "art_1786483482010_6pnlf"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T16:34:06.488Z",
-    "updated_at": "2026-08-12T16:34:06.488Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A US Navy helicopter fired two Hellfire missiles at a Panama-flagged cargo vessel named the Vela Nova on Tuesday.",
-      "The US military states the vessel was targeting Iranian ports, which the US has placed under a blockade.",
-      "The missiles were fired into the engine room of the vessel, disabling its steering gear.",
-      "The US military claims the action was taken after warnings were ignored."
-    ],
-    "source_claims": [
-      "[aljazeera] Donald Trump claimed the US has 'total control' over the Strait of Hormuz.",
-      "[aljazeera] Donald Trump claimed the blockade of Iranian ports is being described as 'A WALL OF STEEL'.",
-      "[aljazeera] Mohsen Rezaei stated Iran requires an end to the US military campaign and the release of held funds to reopen the Strait of Hormuz.",
-      "[bbc] The US military states the ship is no longer transiting toward Iran following the incident."
-    ],
-    "framing_differences": [
-      "aljazeera frames the broader context as a 'US-Israel war with Iran', whereas bbc frames it as a war that the 'US and Israel started'.",
-      "aljazeera emphasizes the stalling of diplomatic efforts to end the conflict, while bbc focuses on the specific operational details of the ship interception."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] An Egyptian-owned cargo vessel was engulfed in flames after a suspected Houthi attack in the Bab al-Mandeb strait.",
-      "[aljazeera] Four crew members were killed in a Houthi strike, pending confirmation."
-    ],
-    "loaded_language": [
-      "[aljazeera] Donald Trump uses the term 'Bully of the Middle East' to describe Iran.",
-      "[aljazeera] Donald Trump uses the phrase 'A WALL OF STEEL' to describe the US blockade."
-    ],
-    "safe_conclusions": [
-      "A US military helicopter fired two Hellfire missiles at the M/V Vela Nova in the Gulf of Oman on Tuesday, disabling the vessel's steering gear.",
-      "The US is currently enforcing a blockade of Iranian ports.",
-      "Diplomatic efforts regarding the Strait of Hormuz and the ongoing conflict remain ongoing."
-    ],
-    "unknowns": [
-      "The current status and location of the M/V Vela Nova crew.",
-      "Whether Iran will provide an official response to the specific incident involving the Vela Nova.",
-      "The full terms of the memorandum of understanding signed in June that is referenced by aljazeera."
-    ],
-    "synthesis": "The United States military disabled a Panama-flagged cargo vessel in the Gulf of Oman on Tuesday, stating the ship was attempting to violate an ongoing blockade of Iranian ports. Simultaneously, President Donald Trump reiterated claims of US control over the Strait of Hormuz amidst a broader, ongoing conflict involving the US, Israel, and Iran. Diplomatic discussions regarding the status of the waterway and the conflict remain unresolved.",
-    "confidence": "HIGH. All sources agree on the core details of the military intervention against the Vela Nova.",
-    "sources": [
-      {
-        "id": "art_1786549011224_dm0hi",
-        "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As Strait of Hormuz transit drops, Trump again says US has ‘control’"
-      },
-      {
-        "id": "art_1786504322767_3eqep",
-        "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran"
-      },
-      {
-        "id": "art_1786493720194_uqtve",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/cargo-ship-in-flames-after-houthi-attack-in-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cargo ship in flames after Houthi attack in Bab al-Mandeb strait"
-      },
-      {
-        "id": "art_1786493732113_561qe",
-        "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US military fires on cargo vessel it said sought to break Iran blockade"
-      },
-      {
-        "id": "art_1786483469267_wavr2",
-        "url": "https://www.bbc.co.uk/news/articles/cvg8lyyyjedo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US says helicopter fired missiles to disable ship breaking Iran blockade"
-      },
-      {
-        "id": "art_1786483482010_6pnlf",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/pakistan-interior-minister-in-tehran-amid-talks-to-reopen-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan interior minister in Tehran amid talks to reopen Hormuz"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
