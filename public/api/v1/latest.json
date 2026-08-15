@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:23:20.827Z",
+  "generated_at": "2026-08-15T15:52:30.653Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 183,
@@ -152,6 +152,40 @@
       "updated_at": "2026-08-14T19:36:09.621Z"
     },
     {
+      "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
+      "topic_label": "Trump administration actions",
+      "event_window_start": "2026-08-14T17:06:51.000Z",
+      "event_window_end": "2026-08-14T22:19:30.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Donald Trump traveled to New York on a Friday to attend an event.",
+        "Donald Trump made public remarks regarding crime rates in the United States."
+      ],
+      "source_differences": [],
+      "synthesis": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
+      "confidence": "HIGH. The sources discuss distinct, non-overlapping events occurring on the same day, and factual consistency is maintained within each respective topic.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
+          "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
+          "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
+          "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
+        }
+      ],
+      "updated_at": "2026-08-15T09:57:52.746Z"
+    },
+    {
       "cluster_id": "66437d2947d956df181ef014416efa5b",
       "topic_label": "Conflict in Gaza and Middle East",
       "event_window_start": "2026-08-14T17:03:17.000Z",
@@ -211,40 +245,6 @@
         }
       ],
       "updated_at": "2026-08-15T05:27:43.602Z"
-    },
-    {
-      "cluster_id": "4a159f581cab47e4d699b443b1a918ba",
-      "topic_label": "Trump administration actions",
-      "event_window_start": "2026-08-14T17:06:51.000Z",
-      "event_window_end": "2026-08-14T22:19:30.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Donald Trump traveled to New York on a Friday to attend an event.",
-        "Donald Trump made public remarks regarding crime rates in the United States."
-      ],
-      "source_differences": [],
-      "synthesis": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
-      "confidence": "HIGH. The sources discuss distinct, non-overlapping events occurring on the same day, and factual consistency is maintained within each respective topic.",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/trump-leaves-stage-mid-speech-embrace-parents-12-year-old-killed-stray-bullet-bronx",
-          "title": "Trump leaves stage mid-speech to embrace parents of 12-year-old killed by stray bullet in the Bronx"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
-          "title": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/aug/14/donald-trump-speech-crime-safety-new-york-republicans-midterms-us-politics-latest-news-updates",
-          "title": "Trump administration argues that ballroom construction is ‘vital’ for national security in appeal to supreme court – US politics live"
-        }
-      ],
-      "updated_at": "2026-08-15T09:57:52.746Z"
     },
     {
       "cluster_id": "d46dabd0e0e97d62e18f2e64ef7812b1",
@@ -412,6 +412,26 @@
       "updated_at": "2026-08-15T08:29:25.096Z"
     },
     {
+      "id": "impact-4a159f58",
+      "title": "Trump administration actions",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "instability"
+      ],
+      "why_it_matters": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "4a159f581cab47e4d699b443b1a918ba",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-15T09:57:52.746Z"
+    },
+    {
       "id": "impact-66437d29",
       "title": "Conflict in Gaza and Middle East",
       "severity": "medium",
@@ -451,26 +471,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-15T05:27:43.602Z"
-    },
-    {
-      "id": "impact-4a159f58",
-      "title": "Trump administration actions",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "instability"
-      ],
-      "why_it_matters": "President Donald Trump engaged in various public activities on a Friday, including a speech to the Nassau County Police Academy and comments regarding military deployments. During his New York visit, he interacted with the family of a deceased child. Simultaneously, the Trump administration pursued legal action regarding White House construction projects.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "4a159f581cab47e4d699b443b1a918ba",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-15T09:57:52.746Z"
     },
     {
       "id": "impact-d46dabd0",
