@@ -175,12 +175,13 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "4870a4666d851dfb57262d5277f20380",
-    "topic_label": "Europe wildfire crisis",
+    "cluster_id": "e202377ee6c6ec69878e96374e8fd18d",
+    "topic_label": "European Heatwaves and Wildfires",
     "event_window_start": "2026-08-14T16:58:04.000Z",
     "event_window_end": "2026-08-15T05:01:13.000Z",
     "article_ids": [
       "art_1786779359536_fwiqc",
+      "art_1786729004167_vo0rg",
       "art_1786729005351_w6mt5",
       "art_1786729016756_ls6qh"
     ],
@@ -188,57 +189,64 @@
       "bbc",
       "guardian"
     ],
-    "article_count": 3,
+    "article_count": 4,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-15T10:55:23.248Z",
-    "updated_at": "2026-08-15T10:55:23.248Z",
+    "created_at": "2026-08-15T08:29:25.096Z",
+    "updated_at": "2026-08-15T08:29:25.096Z",
     "region_tag": "global",
     "shared_facts": [
-      "Europe has experienced record-breaking or extreme temperatures during the summer of 2022.",
-      "Wildfires have occurred across multiple European countries.",
-      "The EU's climate monitoring service, Copernicus, is involved in tracking European climate data."
+      "Europe experienced record-breaking or extreme temperatures during the summer period.",
+      "Multiple European countries have been affected by wildfires.",
+      "Heatwaves have resulted in various infrastructure and environmental impacts across the continent."
     ],
     "source_claims": [
-      "[bbc] Satellite imagery shows shrunken glaciers, scorched areas from wildfires, and lower river levels.",
-      "[bbc] The Palace of Versailles is visible in satellite images as an area of trees surrounded by brown fields.",
-      "[guardian_1] Residents of Stourbridge described the local fires as 'horrendous' and 'distressing'.",
-      "[guardian_1] West Midlands ambulance service treated 54 people for fire-related issues.",
-      "[guardian_1] 19 homes in Stourbridge were destroyed and 18 damaged.",
-      "[guardian_2] Almost 500 people have been arrested in France on suspicion of starting wildfires since the start of summer.",
-      "[guardian_2] One person was killed and 1,200 evacuated in a Croatian wildfire event.",
-      "[guardian_2] The EU warned of 'very extreme' wildfire conditions across the continent."
+      "[bbc] The Copernicus climate monitoring service confirmed western Europe had its hottest June-to-July period on record.",
+      "[guardian] Network Rail stated that the UK's fifth heatwave of the summer presented exceptional challenges to the railway.",
+      "[guardian] West Midlands ambulance service treated 54 people following fires in Stourbridge.",
+      "[guardian] French authorities have arrested almost 500 people on suspicion of starting wildfires since the beginning of the summer.",
+      "[guardian] A fire in a Croatian holiday resort resulted in one death, 40 injuries, and 1,200 evacuations."
     ],
     "framing_differences": [
-      "The bbc focuses on the macro-level environmental impact visible via satellite data, while the guardian focuses on the human impact, casualties, and emergency responses in specific towns like Stourbridge and across various European nations."
+      "The bbc frames the heatwave through environmental and landscape changes visible from satellite imagery, whereas the guardian frames the heatwave through human impact, infrastructure failure, and specific casualty counts."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[bbc] The immediate cause of the heatwaves is persistent high-pressure weather systems."
+      "[bbc] The Palace of Versailles appears as an island of trees surrounded by brown fields in satellite imagery.",
+      "[guardian] A Greater Anglia train derailed in an upright position at Wickford railway station on Friday.",
+      "[guardian] Two people were seriously injured in a Southern train derailment near Lewes on Thursday."
     ],
     "loaded_language": [
-      "[guardian_1] uses the terms 'horrendous', 'distressing', and 'scariest' to describe residents' experiences in Stourbridge.",
-      "[guardian_2] uses the word 'ferocious' to describe the blazes."
+      "[guardian] uses the terms 'horrendous', 'distressing', and 'one of the scariest days of my life' to describe resident experiences in Stourbridge.",
+      "[guardian] uses the term 'ferocious' to describe blazes in Europe."
     ],
     "safe_conclusions": [
-      "Europe has experienced significant heatwaves and widespread wildfire activity throughout the summer of 2022.",
-      "These events have resulted in property damage, evacuations, and hospitalizations across the continent."
+      "High temperatures have occurred in Europe during the summer months.",
+      "Wildfires have occurred in several European locations.",
+      "Authorities in multiple countries have responded to fire-related incidents."
     ],
     "unknowns": [
-      "The extent to which the 500 arrests in France are linked to accidental versus intentional causes.",
-      "The specific long-term environmental impact of the scorched landscapes beyond the immediate satellite observations."
+      "The specific cause of every individual fire mentioned across the continent.",
+      "The full extent of property damage across all European countries affected by the fires.",
+      "The long-term environmental consequences of the heatwave beyond current satellite observations."
     ],
-    "synthesis": "Europe experienced a period of extreme summer heatwaves and widespread wildfires throughout 2022. Satellite monitoring confirmed significant changes to the landscape, while emergency services across several nations managed residential destruction, evacuations, and medical treatment for affected citizens. Authorities have reported numerous wildfire incidents and related arrests in France amidst the record-breaking temperatures.",
-    "confidence": "HIGH. The sources consistently report on the occurrence of heatwaves and wildfires across Europe, with differences primarily in the geographic and human interest focus of their respective reporting.",
+    "synthesis": "Europe experienced a summer marked by record-breaking temperatures that contributed to widespread wildfires and environmental stress across the continent. These conditions strained infrastructure, leading to reports of transport disruptions and significant property damage in regions like Stourbridge. Authorities across several nations are managing active emergency responses, evacuations, and investigations into the causes of the fires.",
+    "confidence": "HIGH: The sources provide consistent reporting on the occurrence of a heatwave and its associated impacts, though they focus on different geographic and thematic aspects of the event.",
     "sources": [
       {
         "id": "art_1786779359536_fwiqc",
         "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Europe's scorched landscapes seen from space after summer heatwaves"
+      },
+      {
+        "id": "art_1786729004167_vo0rg",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
+        "source": "guardian",
+        "title": "National Rail acknowledges ‘exceptional challenges’ of extreme heat after second train derailment in 24 hours"
       },
       {
         "id": "art_1786729005351_w6mt5",
@@ -324,13 +332,12 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "e202377ee6c6ec69878e96374e8fd18d",
-    "topic_label": "European Heatwaves and Wildfires",
+    "cluster_id": "4870a4666d851dfb57262d5277f20380",
+    "topic_label": "Europe wildfire crisis",
     "event_window_start": "2026-08-14T16:58:04.000Z",
     "event_window_end": "2026-08-15T05:01:13.000Z",
     "article_ids": [
       "art_1786779359536_fwiqc",
-      "art_1786729004167_vo0rg",
       "art_1786729005351_w6mt5",
       "art_1786729016756_ls6qh"
     ],
@@ -338,64 +345,57 @@
       "bbc",
       "guardian"
     ],
-    "article_count": 4,
+    "article_count": 3,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-15T08:29:25.096Z",
-    "updated_at": "2026-08-15T08:29:25.096Z",
+    "created_at": "2026-08-15T10:55:23.248Z",
+    "updated_at": "2026-08-15T10:55:23.248Z",
     "region_tag": "global",
     "shared_facts": [
-      "Europe experienced record-breaking or extreme temperatures during the summer period.",
-      "Multiple European countries have been affected by wildfires.",
-      "Heatwaves have resulted in various infrastructure and environmental impacts across the continent."
+      "Europe has experienced record-breaking or extreme temperatures during the summer of 2022.",
+      "Wildfires have occurred across multiple European countries.",
+      "The EU's climate monitoring service, Copernicus, is involved in tracking European climate data."
     ],
     "source_claims": [
-      "[bbc] The Copernicus climate monitoring service confirmed western Europe had its hottest June-to-July period on record.",
-      "[guardian] Network Rail stated that the UK's fifth heatwave of the summer presented exceptional challenges to the railway.",
-      "[guardian] West Midlands ambulance service treated 54 people following fires in Stourbridge.",
-      "[guardian] French authorities have arrested almost 500 people on suspicion of starting wildfires since the beginning of the summer.",
-      "[guardian] A fire in a Croatian holiday resort resulted in one death, 40 injuries, and 1,200 evacuations."
+      "[bbc] Satellite imagery shows shrunken glaciers, scorched areas from wildfires, and lower river levels.",
+      "[bbc] The Palace of Versailles is visible in satellite images as an area of trees surrounded by brown fields.",
+      "[guardian_1] Residents of Stourbridge described the local fires as 'horrendous' and 'distressing'.",
+      "[guardian_1] West Midlands ambulance service treated 54 people for fire-related issues.",
+      "[guardian_1] 19 homes in Stourbridge were destroyed and 18 damaged.",
+      "[guardian_2] Almost 500 people have been arrested in France on suspicion of starting wildfires since the start of summer.",
+      "[guardian_2] One person was killed and 1,200 evacuated in a Croatian wildfire event.",
+      "[guardian_2] The EU warned of 'very extreme' wildfire conditions across the continent."
     ],
     "framing_differences": [
-      "The bbc frames the heatwave through environmental and landscape changes visible from satellite imagery, whereas the guardian frames the heatwave through human impact, infrastructure failure, and specific casualty counts."
+      "The bbc focuses on the macro-level environmental impact visible via satellite data, while the guardian focuses on the human impact, casualties, and emergency responses in specific towns like Stourbridge and across various European nations."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[bbc] The Palace of Versailles appears as an island of trees surrounded by brown fields in satellite imagery.",
-      "[guardian] A Greater Anglia train derailed in an upright position at Wickford railway station on Friday.",
-      "[guardian] Two people were seriously injured in a Southern train derailment near Lewes on Thursday."
+      "[bbc] The immediate cause of the heatwaves is persistent high-pressure weather systems."
     ],
     "loaded_language": [
-      "[guardian] uses the terms 'horrendous', 'distressing', and 'one of the scariest days of my life' to describe resident experiences in Stourbridge.",
-      "[guardian] uses the term 'ferocious' to describe blazes in Europe."
+      "[guardian_1] uses the terms 'horrendous', 'distressing', and 'scariest' to describe residents' experiences in Stourbridge.",
+      "[guardian_2] uses the word 'ferocious' to describe the blazes."
     ],
     "safe_conclusions": [
-      "High temperatures have occurred in Europe during the summer months.",
-      "Wildfires have occurred in several European locations.",
-      "Authorities in multiple countries have responded to fire-related incidents."
+      "Europe has experienced significant heatwaves and widespread wildfire activity throughout the summer of 2022.",
+      "These events have resulted in property damage, evacuations, and hospitalizations across the continent."
     ],
     "unknowns": [
-      "The specific cause of every individual fire mentioned across the continent.",
-      "The full extent of property damage across all European countries affected by the fires.",
-      "The long-term environmental consequences of the heatwave beyond current satellite observations."
+      "The extent to which the 500 arrests in France are linked to accidental versus intentional causes.",
+      "The specific long-term environmental impact of the scorched landscapes beyond the immediate satellite observations."
     ],
-    "synthesis": "Europe experienced a summer marked by record-breaking temperatures that contributed to widespread wildfires and environmental stress across the continent. These conditions strained infrastructure, leading to reports of transport disruptions and significant property damage in regions like Stourbridge. Authorities across several nations are managing active emergency responses, evacuations, and investigations into the causes of the fires.",
-    "confidence": "HIGH: The sources provide consistent reporting on the occurrence of a heatwave and its associated impacts, though they focus on different geographic and thematic aspects of the event.",
+    "synthesis": "Europe experienced a period of extreme summer heatwaves and widespread wildfires throughout 2022. Satellite monitoring confirmed significant changes to the landscape, while emergency services across several nations managed residential destruction, evacuations, and medical treatment for affected citizens. Authorities have reported numerous wildfire incidents and related arrests in France amidst the record-breaking temperatures.",
+    "confidence": "HIGH. The sources consistently report on the occurrence of heatwaves and wildfires across Europe, with differences primarily in the geographic and human interest focus of their respective reporting.",
     "sources": [
       {
         "id": "art_1786779359536_fwiqc",
         "url": "https://www.bbc.co.uk/news/articles/c4gxy0wqqd9o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Europe's scorched landscapes seen from space after summer heatwaves"
-      },
-      {
-        "id": "art_1786729004167_vo0rg",
-        "url": "https://www.theguardian.com/uk-news/2026/aug/14/train-derails-near-essex-town-of-wickford",
-        "source": "guardian",
-        "title": "National Rail acknowledges ‘exceptional challenges’ of extreme heat after second train derailment in 24 hours"
       },
       {
         "id": "art_1786729005351_w6mt5",
