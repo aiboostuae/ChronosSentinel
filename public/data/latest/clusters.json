@@ -1,5 +1,91 @@
 [
   {
+    "cluster_id": "ce8bcf11116741f2752e672f6a137b32",
+    "topic_label": "Indonesia magnitude 7.7 earthquake",
+    "event_window_start": "2026-08-15T21:49:12.000Z",
+    "event_window_end": "2026-08-16T05:14:00.000Z",
+    "article_ids": [
+      "art_1786860127522_9cj7f",
+      "art_1786855269049_id1tj",
+      "art_1786852437819_di27d"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T08:02:41.630Z",
+    "updated_at": "2026-08-16T08:02:41.630Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A magnitude 7.7 earthquake struck Flores island in Indonesia.",
+      "The earthquake caused building collapses, landslides, and displacement of thousands of people.",
+      "Rescue teams are actively searching for survivors and clearing debris."
+    ],
+    "source_claims": [
+      "[aljazeera] reports at least 51 people have died.",
+      "[aljazeera] reports 36 people were seriously injured and 77 suffered minor injuries.",
+      "[aljazeera] states the earthquake depth was 10km.",
+      "[guardian] reports at least 47 people have died.",
+      "[guardian] reports more than 100 people were injured.",
+      "[guardian] provides a breakdown of deaths by regency, including 24 in Manggarai and 17 in East Manggarai.",
+      "[bbc] reports at least 47 people have died.",
+      "[bbc] states the earthquake depth was 15km.",
+      "[bbc] reports a second earthquake of magnitude 6.9 occurred in a different region of Indonesia."
+    ],
+    "framing_differences": [
+      "[aljazeera] emphasizes the total death toll and health statistics, while [guardian] focuses on the geographical distribution of fatalities across specific regencies, and [bbc] frames the event within the broader geological context of the 'ring of fire'."
+    ],
+    "contested_claims": [
+      "The death toll is reported as 51 by [aljazeera] and 47 by [guardian] and [bbc].",
+      "The depth of the earthquake is reported as 10km by [aljazeera] and 15km by [bbc]."
+    ],
+    "unverified_claims": [
+      "[aljazeera] claims there were 341 aftershocks.",
+      "[bbc] claims that preliminary reports indicate hundreds of buildings have been severely damaged."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'ring of fire' to describe the geological region."
+    ],
+    "safe_conclusions": [
+      "A magnitude 7.7 earthquake impacted Flores island in Indonesia, resulting in fatalities, injuries, and property damage."
+    ],
+    "unknowns": [
+      "The final confirmed death toll.",
+      "The exact number of people still trapped or missing.",
+      "The precise extent of property damage across all affected regencies."
+    ],
+    "synthesis": "A magnitude 7.7 earthquake struck Flores, Indonesia, on Saturday, causing building collapses and landslides. Rescue operations are currently underway to locate survivors and clear debris in multiple affected regencies. Reports on the exact number of fatalities and the depth of the earthquake vary between the provided news sources.",
+    "confidence": "MEDIUM: While all sources agree on the magnitude and general location of the event, there are discrepancies regarding the specific death toll and the depth of the quake.",
+    "sources": [
+      {
+        "id": "art_1786860127522_9cj7f",
+        "url": "https://www.aljazeera.com/news/2026/8/16/indonesias-magnitude-7-7-quake-kills-at-least-51-displaces-thousands?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Indonesia’s magnitude 7.7 quake kills at least 51, displaces thousands"
+      },
+      {
+        "id": "art_1786855269049_id1tj",
+        "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
+        "source": "guardian",
+        "title": "Rescue teams search for survivors in Indonesia after powerful earthquake"
+      },
+      {
+        "id": "art_1786852437819_di27d",
+        "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Rescuers search for survivors of powerful Indonesia earthquake"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "968a045ef35e81f440aa8bfef9258ba4",
     "topic_label": "Conflict in Gaza and Israel",
     "event_window_start": "2026-08-16T00:44:59.000Z",
@@ -300,92 +386,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ce8bcf11116741f2752e672f6a137b32",
-    "topic_label": "Indonesia magnitude 7.7 earthquake",
-    "event_window_start": "2026-08-15T21:49:12.000Z",
-    "event_window_end": "2026-08-16T05:14:00.000Z",
-    "article_ids": [
-      "art_1786860127522_9cj7f",
-      "art_1786855269049_id1tj",
-      "art_1786852437819_di27d"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T08:02:41.630Z",
-    "updated_at": "2026-08-16T08:02:41.630Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A magnitude 7.7 earthquake struck Flores island in Indonesia.",
-      "The earthquake caused building collapses, landslides, and displacement of thousands of people.",
-      "Rescue teams are actively searching for survivors and clearing debris."
-    ],
-    "source_claims": [
-      "[aljazeera] reports at least 51 people have died.",
-      "[aljazeera] reports 36 people were seriously injured and 77 suffered minor injuries.",
-      "[aljazeera] states the earthquake depth was 10km.",
-      "[guardian] reports at least 47 people have died.",
-      "[guardian] reports more than 100 people were injured.",
-      "[guardian] provides a breakdown of deaths by regency, including 24 in Manggarai and 17 in East Manggarai.",
-      "[bbc] reports at least 47 people have died.",
-      "[bbc] states the earthquake depth was 15km.",
-      "[bbc] reports a second earthquake of magnitude 6.9 occurred in a different region of Indonesia."
-    ],
-    "framing_differences": [
-      "[aljazeera] emphasizes the total death toll and health statistics, while [guardian] focuses on the geographical distribution of fatalities across specific regencies, and [bbc] frames the event within the broader geological context of the 'ring of fire'."
-    ],
-    "contested_claims": [
-      "The death toll is reported as 51 by [aljazeera] and 47 by [guardian] and [bbc].",
-      "The depth of the earthquake is reported as 10km by [aljazeera] and 15km by [bbc]."
-    ],
-    "unverified_claims": [
-      "[aljazeera] claims there were 341 aftershocks.",
-      "[bbc] claims that preliminary reports indicate hundreds of buildings have been severely damaged."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'ring of fire' to describe the geological region."
-    ],
-    "safe_conclusions": [
-      "A magnitude 7.7 earthquake impacted Flores island in Indonesia, resulting in fatalities, injuries, and property damage."
-    ],
-    "unknowns": [
-      "The final confirmed death toll.",
-      "The exact number of people still trapped or missing.",
-      "The precise extent of property damage across all affected regencies."
-    ],
-    "synthesis": "A magnitude 7.7 earthquake struck Flores, Indonesia, on Saturday, causing building collapses and landslides. Rescue operations are currently underway to locate survivors and clear debris in multiple affected regencies. Reports on the exact number of fatalities and the depth of the earthquake vary between the provided news sources.",
-    "confidence": "MEDIUM: While all sources agree on the magnitude and general location of the event, there are discrepancies regarding the specific death toll and the depth of the quake.",
-    "sources": [
-      {
-        "id": "art_1786860127522_9cj7f",
-        "url": "https://www.aljazeera.com/news/2026/8/16/indonesias-magnitude-7-7-quake-kills-at-least-51-displaces-thousands?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Indonesia’s magnitude 7.7 quake kills at least 51, displaces thousands"
-      },
-      {
-        "id": "art_1786855269049_id1tj",
-        "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
-        "source": "guardian",
-        "title": "Rescue teams search for survivors in Indonesia after powerful earthquake"
-      },
-      {
-        "id": "art_1786852437819_di27d",
-        "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Rescuers search for survivors of powerful Indonesia earthquake"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
