@@ -1,60 +1,78 @@
 [
   {
-    "cluster_id": "f784ac7c6ca42c51da17e6f443474359",
-    "topic_label": "Israel-Lebanon border clashes",
-    "event_window_start": "2026-08-15T20:21:14.000Z",
-    "event_window_end": "2026-08-16T04:43:21.000Z",
+    "cluster_id": "6b27ec36dfd7615ad328aeb177d59093",
+    "topic_label": "Conflict in Lebanon and Gaza",
+    "event_window_start": "2026-08-16T00:44:59.000Z",
+    "event_window_end": "2026-08-16T06:10:58.000Z",
     "article_ids": [
+      "art_1786865833489_f4xwp",
+      "art_1786865834526_6vznc",
       "art_1786858389026_nkdfj",
-      "art_1786858392899_8zx44"
+      "art_1786858392899_8zx44",
+      "art_1786848587747_6ugch",
+      "art_1786848596415_cf0bd"
     ],
     "source_ids": [
       "aljazeera",
       "bbc"
     ],
-    "article_count": 2,
+    "article_count": 6,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-16T08:02:41.630Z",
-    "updated_at": "2026-08-16T08:02:41.630Z",
+    "created_at": "2026-08-16T14:25:58.715Z",
+    "updated_at": "2026-08-16T14:25:58.715Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Israeli airstrikes occurred in southern Lebanon.",
-      "Eleven people were killed in the strikes.",
-      "The events took place following a ceasefire agreement."
+      "An Israeli airstrike occurred in southern Lebanon resulting in at least 11 deaths.",
+      "The strike in southern Lebanon took place after a period of ceasefire or reduced hostilities."
     ],
     "source_claims": [
-      "[aljazeera] claims families are fleeing north, resulting in clogged roads.",
-      "[bbc] reports that Lebanon's prime minister stated seven people were killed in a strike near Ansar.",
-      "[bbc] reports that state media identified three children and two women among the total casualties.",
-      "[bbc] reports the IDF stated they killed a Hezbollah commander.",
-      "[bbc] reports the IDF claimed the commander used his family as human shields."
+      "[aljazeera] claims that Israel's military action in Gaza constitutes a 'genocidal war'.",
+      "[bbc] reports that the IDF stated the commander killed in the Lebanon strike used his family as 'human shields'.",
+      "[bbc] reports that the Lebanese prime minister stated seven people were killed in a strike on a house near Ansar."
     ],
     "framing_differences": [
-      "Al Jazeera frames the event through the perspective of displaced civilians fleeing the conflict, while the BBC frames the event through official casualty reports and IDF military justifications."
+      "Al Jazeera focuses on the humanitarian impact of resource shortages for individual civilians in Gaza, while the BBC focuses on specific casualty figures and official military and government statements regarding military strikes in Lebanon."
     ],
-    "contested_claims": [],
+    "contested_claims": [
+      "The BBC reports the IDF claimed a Hezbollah commander was killed and used his family as human shields, while Al Jazeera reports on the event as part of a series of Israeli raids without mention of specific combatant targets."
+    ],
     "unverified_claims": [
-      "[aljazeera] claims hundreds of families are fleeing north.",
-      "[bbc] reports an IDF claim that the targeted Hezbollah commander utilized his family as human shields."
+      "[aljazeera] claims the lighter has become the 'backbone of life' in Gaza due to the war.",
+      "[aljazeera] claims that there is 'near-universal animosity' towards Palestinians among Israeli Jewish voters."
     ],
     "loaded_language": [
+      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
       "[bbc] uses the term 'Iran-backed Shia militia' to describe Hezbollah."
     ],
     "safe_conclusions": [
-      "Israeli airstrikes resulted in 11 deaths in southern Lebanon.",
-      "There is an ongoing conflict involving Israel and Hezbollah."
+      "Israeli airstrikes have resulted in casualties in southern Lebanon.",
+      "Civilians in Gaza are experiencing shortages of cooking gas and fuel.",
+      "A cafe has been opened in Gaza by a journalist."
     ],
     "unknowns": [
-      "The identity of all individuals killed in the strikes remains unconfirmed beyond the general demographic description provided by state media.",
-      "The total number of displaced civilians is not verified by official sources."
+      "The exact total number of casualties from all recent airstrikes in Lebanon.",
+      "The specific identity of all individuals killed in the Ansar strike.",
+      "The long-term success or viability of the Gaza cafe project."
     ],
-    "synthesis": "Israeli airstrikes in southern Lebanon have resulted in 11 reported deaths, including women and children. The IDF stated the operation targeted a Hezbollah commander and alleged that the commander's family was present at the strike site. Reports indicate that the conflict has prompted civilian movement away from the affected area.",
-    "confidence": "HIGH. Both sources corroborate the casualty count and the occurrence of the airstrikes, while differing only in the focus of their reporting.",
+    "synthesis": "Israeli airstrikes in southern Lebanon have resulted in at least 11 deaths following a period of reduced hostilities. Meanwhile, civilians in Gaza continue to face significant shortages of basic goods, such as fuel and cooking gas, amid ongoing conflict. Reports also indicate the opening of a new cafe in Gaza intended to serve as a communal space for residents.",
+    "confidence": "HIGH. The primary reporting on the casualties in Lebanon is consistent across the provided sources, while other articles cover distinct, non-overlapping regional events.",
     "sources": [
+      {
+        "id": "art_1786865833489_f4xwp",
+        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How a simple lighter has become the backbone of life in Gaza"
+      },
+      {
+        "id": "art_1786865834526_6vznc",
+        "url": "https://www.aljazeera.com/news/2026/8/16/a-nation-divided-what-do-israelis-want-in-octobers-elections?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "A nation divided: What do Israelis want in October’s elections?"
+      },
       {
         "id": "art_1786858389026_nkdfj",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
@@ -66,69 +84,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "43aa0683fff3d83b44d34784a25a8626",
-    "topic_label": "Conflict in Gaza and Middle East",
-    "event_window_start": "2026-08-16T00:44:59.000Z",
-    "event_window_end": "2026-08-16T06:10:58.000Z",
-    "article_ids": [
-      "art_1786865833489_f4xwp",
-      "art_1786848587747_6ugch",
-      "art_1786848596415_cf0bd"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T13:18:46.678Z",
-    "updated_at": "2026-08-16T13:18:46.678Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Jared Kushner is planning a visit to Israel and Egypt.",
-      "Khalil al-Hayya is a leader within Hamas."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Rabab Deifallah requires firewood for cooking and heating due to shortages of cooking gas and high fuel prices.",
-      "[aljazeera] claims Hind Khoudary has opened a beach cafe in Gaza.",
-      "[aljazeera] claims Khalil al-Hayya is traveling to Cairo to meet Egyptian intelligence chief Hassan Rashad.",
-      "[aljazeera] claims Prime Minister Benjamin Netanyahu has rejected a Gaza plan that Jared Kushner intends to discuss."
-    ],
-    "framing_differences": [
-      "[aljazeera] frames the conflict in Gaza through personal interest stories regarding daily survival and community resilience, while simultaneously framing it through high-level international diplomatic negotiations involving Hamas and US envoys."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims the current conflict in Gaza is a 'genocidal war' initiated in October 2023.",
-      "[aljazeera] claims the cafe opened by Hind Khoudary offers a space where people can gather safely."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza."
-    ],
-    "safe_conclusions": [
-      "Residents in Gaza face difficulties in acquiring common household items like lighters.",
-      "Diplomatic discussions regarding Gaza involving Hamas, Egypt, and US representatives are occurring."
-    ],
-    "unknowns": [
-      "The specific details of the Gaza plan being proposed by Jared Kushner.",
-      "The outcome of the meetings between Khalil al-Hayya and Egyptian officials."
-    ],
-    "synthesis": "Current reports from Gaza highlight the ongoing challenges for residents in sourcing basic supplies alongside efforts by some to maintain social spaces. Simultaneously, international diplomatic activity is increasing as Hamas leadership engages in talks with Egyptian officials ahead of a visit by U.S. envoy Jared Kushner. These discussions focus on a proposed Gaza plan that has faced previous rejection from Israeli leadership.",
-    "confidence": "HIGH. The sources are internally consistent regarding the events reported, though they focus on disparate subject matter.",
-    "sources": [
-      {
-        "id": "art_1786865833489_f4xwp",
-        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How a simple lighter has become the backbone of life in Gaza"
       },
       {
         "id": "art_1786848587747_6ugch",
@@ -141,149 +96,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
         "source": "aljazeera",
         "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c16d0c15e38e41716ae7858d9b711ee1",
-    "topic_label": "Qatar and Iran Diplomatic Dispute",
-    "event_window_start": "2026-08-15T20:55:29.000Z",
-    "event_window_end": "2026-08-15T21:03:57.000Z",
-    "article_ids": [
-      "art_1786855275724_w346j",
-      "art_1786855278907_tujay"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T07:19:08.414Z",
-    "updated_at": "2026-08-16T07:19:08.414Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Iran has issued public demands for the release of three pilots it claims are being held by Qatar.",
-      "Qatar's Ministry of Foreign Affairs has issued a categorical denial regarding the detention of any Iranian pilots.",
-      "Iran claims an incident involving two fighter jets occurred on March 2, 2026.",
-      "A Qatari ministry spokesman expressed surprise at the claims made by Iranian officials."
-    ],
-    "source_claims": [
-      "[bbc] Iran's Brig Gen Mohammad Bagherzadeh identifies the alleged captives as Javad Salehi, Abdul Majid Dashtian, and Imran Behroshian.",
-      "[bbc] Iran alleges the body of a fourth pilot, Majid Kazemi, was previously returned to Iran.",
-      "[aljazeera] Qatar states they are not holding any surviving Iranian aircrew.",
-      "[aljazeera] Qatar claims the Iranian statements are occurring amid ongoing diplomatic efforts to de-escalate regional tensions."
-    ],
-    "framing_differences": [
-      "BBC frames the event as a specific request for humanitarian intervention via the ICRC regarding named individuals, while Al Jazeera frames the event as a broader diplomatic issue regarding regional tensions."
-    ],
-    "contested_claims": [
-      "Iran claims Qatar is holding three Iranian pilots in captivity, while Qatar denies holding any surviving Iranian aircrew."
-    ],
-    "unverified_claims": [
-      "[bbc] Iran claims the pilots have been held for six months.",
-      "[bbc] Iran claims two Su-24 fighter jets were involved in a mission on a Qatari military base."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'misleading statements' when quoting Qatar's reaction to Iranian claims.",
-      "[aljazeera] uses the term 'misleading statements' when quoting the Qatari ministry spokesman."
-    ],
-    "safe_conclusions": [
-      "There is a disagreement between the governments of Iran and Qatar concerning the status of Iranian pilots following military hostilities in 2026."
-    ],
-    "unknowns": [
-      "Whether the alleged pilots were ever captured by Qatari forces.",
-      "The current location or status of the individuals named by Iranian officials.",
-      "The details of the specific military incident involving the alleged fighter jets."
-    ],
-    "synthesis": "Iran has officially requested the release of three pilots it claims were captured by Qatar during military operations on March 2, 2026. Qatar has categorically denied holding any surviving Iranian aircrew and characterized the Iranian statements as misleading. Both nations remain in disagreement regarding the existence of these detainees.",
-    "confidence": "HIGH. Both sources independently report on the existence of the dispute and the respective official stances of both governments.",
-    "sources": [
-      {
-        "id": "art_1786855275724_w346j",
-        "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Qatar denies capturing three Iranian pilots after downing fighter jets"
-      },
-      {
-        "id": "art_1786855278907_tujay",
-        "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "330219d3f2ff81380457b3adfb9ac61b",
-    "topic_label": "Yemen Houthi Conflict",
-    "event_window_start": "2026-08-15T23:27:10.000Z",
-    "event_window_end": "2026-08-16T04:09:01.000Z",
-    "article_ids": [
-      "art_1786855266694_6nx54",
-      "art_1786848601988_wtwdb"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T07:19:08.414Z",
-    "updated_at": "2026-08-16T07:19:08.414Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Yemeni government forces and Houthi forces are engaged in active military operations in the region of Marib.",
-      "Houthi forces have launched ballistic missiles and drones toward the city of Marib."
-    ],
-    "source_claims": [
-      "[aljazeera] Houthi strikes hit residential neighborhoods in Marib, causing injuries and damage to civilian property.",
-      "[aljazeera] The Houthi offensive includes four ballistic missiles and four drones launched on Saturday, followed by two additional missiles on Sunday.",
-      "[aljazeera] Yemeni government forces are supported by Saudi Arabia in their response to the Houthi offensive.",
-      "[aljazeera] The Houthi military activity extends to the strategic port of Makha."
-    ],
-    "framing_differences": [
-      "The first aljazeera report frames the conflict as an escalation between the Yemeni government and Houthis potentially leading to full-scale war, while the second aljazeera report focuses specifically on the impact of Houthi strikes on civilian populations and residential areas."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Local authorities report specific casualty numbers and damage descriptions regarding Houthi strikes on residential zones.",
-      "[aljazeera] The Houthi offensive includes targets in the strategic port of Makha."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'ongoing assault' to describe the Houthi military actions in Marib."
-    ],
-    "safe_conclusions": [
-      "Military engagements are occurring in the Marib region between Yemeni government forces and Houthi forces.",
-      "Ballistic missiles and drones have been utilized by Houthi forces in the vicinity of Marib."
-    ],
-    "unknowns": [
-      "The total number of casualties caused by the reported strikes.",
-      "The specific operational goals of the Houthi forces beyond the regional engagements.",
-      "The status of the military situation in the port of Makha beyond the mention of strikes."
-    ],
-    "synthesis": "Yemeni government forces and Houthi rebels have engaged in a series of military confrontations in Marib, involving the use of ballistic missiles and drones. Local authorities report that these strikes have impacted residential areas and displaced populations. The Yemeni government is actively responding to these incursions with support from Saudi Arabia.",
-    "confidence": "HIGH; The sources are consistent regarding the nature of the conflict and the location of the hostilities.",
-    "sources": [
-      {
-        "id": "art_1786855266694_6nx54",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemeni government forces hit back after new Houthi offensive"
-      },
-      {
-        "id": "art_1786848601988_wtwdb",
-        "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -450,82 +262,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "b4ee5a82b6dc65302d55024c342535ce",
-    "topic_label": "Russian Strikes in Ukraine",
-    "event_window_start": "2026-08-16T04:54:33.000Z",
-    "event_window_end": "2026-08-16T12:18:09.000Z",
-    "article_ids": [
-      "art_1786887475396_us2t3",
-      "art_1786858386902_novc5"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T16:58:49.795Z",
-    "updated_at": "2026-08-16T16:58:49.795Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Russian strikes occurred in Ukraine.",
-      "People were injured in Ukraine during recent strikes.",
-      "There were reports of missile and drone attacks in Kyiv."
-    ],
-    "source_claims": [
-      "[bbc] reports six people were injured at a market in Kyiv.",
-      "[bbc] reports five people were killed across Ukraine.",
-      "[bbc] states Russian officials claimed seven people were killed in Ukrainian strikes.",
-      "[aljazeera] reports at least one person killed and seven wounded in Russian strikes.",
-      "[aljazeera] reports one woman was killed and six others wounded in Kryvyi Rig.",
-      "[aljazeera] reports one person wounded in Kyiv following ballistic missile attacks.",
-      "[aljazeera] reports a Spanish F-18 jet shot down a drone over Romanian airspace."
-    ],
-    "framing_differences": [
-      "BBC focuses on the immediate aftermath of strikes at a Kyiv market, while Al Jazeera provides a broader scope including events in Kryvyi Rig, Romania, and specific details about the types of munitions used."
-    ],
-    "contested_claims": [
-      "There is a discrepancy between sources regarding total casualty figures, with BBC reporting five killed across Ukraine and Al Jazeera reporting at least one killed."
-    ],
-    "unverified_claims": [
-      "[bbc] reports a market in Kyiv known for selling books and posters was hit.",
-      "[aljazeera] reports fires were sparked at non-residential sites in the Obolonsky and Holosiivskyi districts of Kyiv."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'smouldering' to describe the market."
-    ],
-    "safe_conclusions": [
-      "Military or projectile activity resulted in injuries within Ukraine.",
-      "Multiple locations in Ukraine were targeted by strikes."
-    ],
-    "unknowns": [
-      "The total number of casualties across Ukraine remains unconfirmed.",
-      "The origin and ownership of the drone intercepted over Romania are not specified.",
-      "The specific types of missiles or drones used in every individual strike are not fully accounted for."
-    ],
-    "synthesis": "Recent Russian strikes across Ukraine have resulted in civilian casualties and damage to various sites, including locations in Kyiv and Kryvyi Rig. Concurrently, a NATO-affiliated jet intercepted a drone over Romanian airspace. The reported casualty counts vary between sources, and investigations into the impacts are ongoing.",
-    "confidence": "MEDIUM.MEDIUM. While sources agree on the occurrence of strikes, there are discrepancies in reported casualty numbers and the geographical focus of the accounts.",
-    "sources": [
-      {
-        "id": "art_1786887475396_us2t3",
-        "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "BBC visits smouldering Kyiv market after Russian strikes"
-      },
-      {
-        "id": "art_1786858386902_novc5",
-        "url": "https://www.aljazeera.com/news/2026/8/16/russian-strikes-kill-ukrainian-woman-as-nato-jet-downs-drone-over-romania?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian strikes kill Ukrainian woman as NATO jet downs drone over Romania"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "b15cd2704537e1eab0f3899d0786db7b",
     "topic_label": "Australian Gun Buyback",
     "event_window_start": "2026-08-16T02:09:46.000Z",
@@ -602,6 +338,438 @@
         "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
         "source": "guardian",
         "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c16d0c15e38e41716ae7858d9b711ee1",
+    "topic_label": "Qatar and Iran Diplomatic Dispute",
+    "event_window_start": "2026-08-15T20:55:29.000Z",
+    "event_window_end": "2026-08-15T21:03:57.000Z",
+    "article_ids": [
+      "art_1786855275724_w346j",
+      "art_1786855278907_tujay"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T07:19:08.414Z",
+    "updated_at": "2026-08-16T07:19:08.414Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Iran has issued public demands for the release of three pilots it claims are being held by Qatar.",
+      "Qatar's Ministry of Foreign Affairs has issued a categorical denial regarding the detention of any Iranian pilots.",
+      "Iran claims an incident involving two fighter jets occurred on March 2, 2026.",
+      "A Qatari ministry spokesman expressed surprise at the claims made by Iranian officials."
+    ],
+    "source_claims": [
+      "[bbc] Iran's Brig Gen Mohammad Bagherzadeh identifies the alleged captives as Javad Salehi, Abdul Majid Dashtian, and Imran Behroshian.",
+      "[bbc] Iran alleges the body of a fourth pilot, Majid Kazemi, was previously returned to Iran.",
+      "[aljazeera] Qatar states they are not holding any surviving Iranian aircrew.",
+      "[aljazeera] Qatar claims the Iranian statements are occurring amid ongoing diplomatic efforts to de-escalate regional tensions."
+    ],
+    "framing_differences": [
+      "BBC frames the event as a specific request for humanitarian intervention via the ICRC regarding named individuals, while Al Jazeera frames the event as a broader diplomatic issue regarding regional tensions."
+    ],
+    "contested_claims": [
+      "Iran claims Qatar is holding three Iranian pilots in captivity, while Qatar denies holding any surviving Iranian aircrew."
+    ],
+    "unverified_claims": [
+      "[bbc] Iran claims the pilots have been held for six months.",
+      "[bbc] Iran claims two Su-24 fighter jets were involved in a mission on a Qatari military base."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'misleading statements' when quoting Qatar's reaction to Iranian claims.",
+      "[aljazeera] uses the term 'misleading statements' when quoting the Qatari ministry spokesman."
+    ],
+    "safe_conclusions": [
+      "There is a disagreement between the governments of Iran and Qatar concerning the status of Iranian pilots following military hostilities in 2026."
+    ],
+    "unknowns": [
+      "Whether the alleged pilots were ever captured by Qatari forces.",
+      "The current location or status of the individuals named by Iranian officials.",
+      "The details of the specific military incident involving the alleged fighter jets."
+    ],
+    "synthesis": "Iran has officially requested the release of three pilots it claims were captured by Qatar during military operations on March 2, 2026. Qatar has categorically denied holding any surviving Iranian aircrew and characterized the Iranian statements as misleading. Both nations remain in disagreement regarding the existence of these detainees.",
+    "confidence": "HIGH. Both sources independently report on the existence of the dispute and the respective official stances of both governments.",
+    "sources": [
+      {
+        "id": "art_1786855275724_w346j",
+        "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Qatar denies capturing three Iranian pilots after downing fighter jets"
+      },
+      {
+        "id": "art_1786855278907_tujay",
+        "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0dc59a9a2da816158ddf16afc0657455",
+    "topic_label": "Morocco Migrants Ceuta Enclave",
+    "event_window_start": "2026-08-15T20:58:31.000Z",
+    "event_window_end": "2026-08-15T20:07:07.000Z",
+    "article_ids": [
+      "art_1786858397854_p0yi0",
+      "art_1786855276763_bpl7y"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T19:52:25.051Z",
+    "updated_at": "2026-08-16T19:52:25.051Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Moroccan security forces intercepted migrants attempting to reach the border area near the Spanish enclave of Ceuta.",
+      "The events took place in or near the town of Fnideq.",
+      "Security measures in the border region have been increased."
+    ],
+    "source_claims": [
+      "[aljazeera] Moroccan security forces have stepped up operations to prevent border crossings.",
+      "[bbc] More than 100 people were blocked while attempting to reach the border, based on reports from security sources.",
+      "[bbc] A mass influx of approximately 78,000 migrants occurred in Ceuta two weeks ago, with 100 reported deaths."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the situation as a restoration of temporary calm through security operations, while the BBC frames the event within the context of recent large-scale migration surges and social media reports of potential mass crossing attempts."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The claim that 100 migrants died during a prior crossing event two weeks ago, attributed to the city's mayor."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "Moroccan security forces are currently monitoring and restricting movement near the Ceuta border region.",
+      "Heightened security in the Tarajal border area follows recent migration activity."
+    ],
+    "unknowns": [
+      "The exact number of migrants currently in the Fnideq area.",
+      "The specific identity or origin of the migrants involved in the latest interception.",
+      "The veracity of the reported death toll from the prior crossing event."
+    ],
+    "synthesis": "Moroccan security forces intercepted groups of migrants attempting to approach the Spanish enclave of Ceuta near the town of Fnideq. This operation follows a period of increased border security and recent reports of large-scale migration attempts in the region. Authorities have maintained a heavy presence in the area to manage transit flows near the border.",
+    "confidence": "HIGH. The core event of migrant interceptions near the Ceuta border is corroborated by both sources, with variations only regarding specific numbers and historical context.",
+    "sources": [
+      {
+        "id": "art_1786858397854_p0yi0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Moroccan police intercept migrants heading for Ceuta enclave"
+      },
+      {
+        "id": "art_1786855276763_bpl7y",
+        "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "330219d3f2ff81380457b3adfb9ac61b",
+    "topic_label": "Yemen Houthi Conflict",
+    "event_window_start": "2026-08-15T23:27:10.000Z",
+    "event_window_end": "2026-08-16T04:09:01.000Z",
+    "article_ids": [
+      "art_1786855266694_6nx54",
+      "art_1786848601988_wtwdb"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T07:19:08.414Z",
+    "updated_at": "2026-08-16T07:19:08.414Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Yemeni government forces and Houthi forces are engaged in active military operations in the region of Marib.",
+      "Houthi forces have launched ballistic missiles and drones toward the city of Marib."
+    ],
+    "source_claims": [
+      "[aljazeera] Houthi strikes hit residential neighborhoods in Marib, causing injuries and damage to civilian property.",
+      "[aljazeera] The Houthi offensive includes four ballistic missiles and four drones launched on Saturday, followed by two additional missiles on Sunday.",
+      "[aljazeera] Yemeni government forces are supported by Saudi Arabia in their response to the Houthi offensive.",
+      "[aljazeera] The Houthi military activity extends to the strategic port of Makha."
+    ],
+    "framing_differences": [
+      "The first aljazeera report frames the conflict as an escalation between the Yemeni government and Houthis potentially leading to full-scale war, while the second aljazeera report focuses specifically on the impact of Houthi strikes on civilian populations and residential areas."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Local authorities report specific casualty numbers and damage descriptions regarding Houthi strikes on residential zones.",
+      "[aljazeera] The Houthi offensive includes targets in the strategic port of Makha."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'ongoing assault' to describe the Houthi military actions in Marib."
+    ],
+    "safe_conclusions": [
+      "Military engagements are occurring in the Marib region between Yemeni government forces and Houthi forces.",
+      "Ballistic missiles and drones have been utilized by Houthi forces in the vicinity of Marib."
+    ],
+    "unknowns": [
+      "The total number of casualties caused by the reported strikes.",
+      "The specific operational goals of the Houthi forces beyond the regional engagements.",
+      "The status of the military situation in the port of Makha beyond the mention of strikes."
+    ],
+    "synthesis": "Yemeni government forces and Houthi rebels have engaged in a series of military confrontations in Marib, involving the use of ballistic missiles and drones. Local authorities report that these strikes have impacted residential areas and displaced populations. The Yemeni government is actively responding to these incursions with support from Saudi Arabia.",
+    "confidence": "HIGH; The sources are consistent regarding the nature of the conflict and the location of the hostilities.",
+    "sources": [
+      {
+        "id": "art_1786855266694_6nx54",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemeni government forces hit back after new Houthi offensive"
+      },
+      {
+        "id": "art_1786848601988_wtwdb",
+        "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b4ee5a82b6dc65302d55024c342535ce",
+    "topic_label": "Russian Strikes in Ukraine",
+    "event_window_start": "2026-08-16T04:54:33.000Z",
+    "event_window_end": "2026-08-16T12:18:09.000Z",
+    "article_ids": [
+      "art_1786887475396_us2t3",
+      "art_1786858386902_novc5"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T16:58:49.795Z",
+    "updated_at": "2026-08-16T16:58:49.795Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Russian strikes occurred in Ukraine.",
+      "People were injured in Ukraine during recent strikes.",
+      "There were reports of missile and drone attacks in Kyiv."
+    ],
+    "source_claims": [
+      "[bbc] reports six people were injured at a market in Kyiv.",
+      "[bbc] reports five people were killed across Ukraine.",
+      "[bbc] states Russian officials claimed seven people were killed in Ukrainian strikes.",
+      "[aljazeera] reports at least one person killed and seven wounded in Russian strikes.",
+      "[aljazeera] reports one woman was killed and six others wounded in Kryvyi Rig.",
+      "[aljazeera] reports one person wounded in Kyiv following ballistic missile attacks.",
+      "[aljazeera] reports a Spanish F-18 jet shot down a drone over Romanian airspace."
+    ],
+    "framing_differences": [
+      "BBC focuses on the immediate aftermath of strikes at a Kyiv market, while Al Jazeera provides a broader scope including events in Kryvyi Rig, Romania, and specific details about the types of munitions used."
+    ],
+    "contested_claims": [
+      "There is a discrepancy between sources regarding total casualty figures, with BBC reporting five killed across Ukraine and Al Jazeera reporting at least one killed."
+    ],
+    "unverified_claims": [
+      "[bbc] reports a market in Kyiv known for selling books and posters was hit.",
+      "[aljazeera] reports fires were sparked at non-residential sites in the Obolonsky and Holosiivskyi districts of Kyiv."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'smouldering' to describe the market."
+    ],
+    "safe_conclusions": [
+      "Military or projectile activity resulted in injuries within Ukraine.",
+      "Multiple locations in Ukraine were targeted by strikes."
+    ],
+    "unknowns": [
+      "The total number of casualties across Ukraine remains unconfirmed.",
+      "The origin and ownership of the drone intercepted over Romania are not specified.",
+      "The specific types of missiles or drones used in every individual strike are not fully accounted for."
+    ],
+    "synthesis": "Recent Russian strikes across Ukraine have resulted in civilian casualties and damage to various sites, including locations in Kyiv and Kryvyi Rig. Concurrently, a NATO-affiliated jet intercepted a drone over Romanian airspace. The reported casualty counts vary between sources, and investigations into the impacts are ongoing.",
+    "confidence": "MEDIUM.MEDIUM. While sources agree on the occurrence of strikes, there are discrepancies in reported casualty numbers and the geographical focus of the accounts.",
+    "sources": [
+      {
+        "id": "art_1786887475396_us2t3",
+        "url": "https://www.bbc.co.uk/news/videos/c8dnn05e90lo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "BBC visits smouldering Kyiv market after Russian strikes"
+      },
+      {
+        "id": "art_1786858386902_novc5",
+        "url": "https://www.aljazeera.com/news/2026/8/16/russian-strikes-kill-ukrainian-woman-as-nato-jet-downs-drone-over-romania?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian strikes kill Ukrainian woman as NATO jet downs drone over Romania"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f784ac7c6ca42c51da17e6f443474359",
+    "topic_label": "Israel-Lebanon border clashes",
+    "event_window_start": "2026-08-15T20:21:14.000Z",
+    "event_window_end": "2026-08-16T04:43:21.000Z",
+    "article_ids": [
+      "art_1786858389026_nkdfj",
+      "art_1786858392899_8zx44"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T08:02:41.630Z",
+    "updated_at": "2026-08-16T08:02:41.630Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israeli airstrikes occurred in southern Lebanon.",
+      "Eleven people were killed in the strikes.",
+      "The events took place following a ceasefire agreement."
+    ],
+    "source_claims": [
+      "[aljazeera] claims families are fleeing north, resulting in clogged roads.",
+      "[bbc] reports that Lebanon's prime minister stated seven people were killed in a strike near Ansar.",
+      "[bbc] reports that state media identified three children and two women among the total casualties.",
+      "[bbc] reports the IDF stated they killed a Hezbollah commander.",
+      "[bbc] reports the IDF claimed the commander used his family as human shields."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event through the perspective of displaced civilians fleeing the conflict, while the BBC frames the event through official casualty reports and IDF military justifications."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims hundreds of families are fleeing north.",
+      "[bbc] reports an IDF claim that the targeted Hezbollah commander utilized his family as human shields."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'Iran-backed Shia militia' to describe Hezbollah."
+    ],
+    "safe_conclusions": [
+      "Israeli airstrikes resulted in 11 deaths in southern Lebanon.",
+      "There is an ongoing conflict involving Israel and Hezbollah."
+    ],
+    "unknowns": [
+      "The identity of all individuals killed in the strikes remains unconfirmed beyond the general demographic description provided by state media.",
+      "The total number of displaced civilians is not verified by official sources."
+    ],
+    "synthesis": "Israeli airstrikes in southern Lebanon have resulted in 11 reported deaths, including women and children. The IDF stated the operation targeted a Hezbollah commander and alleged that the commander's family was present at the strike site. Reports indicate that the conflict has prompted civilian movement away from the affected area.",
+    "confidence": "HIGH. Both sources corroborate the casualty count and the occurrence of the airstrikes, while differing only in the focus of their reporting.",
+    "sources": [
+      {
+        "id": "art_1786858389026_nkdfj",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel strikes south Lebanon again as families flee north"
+      },
+      {
+        "id": "art_1786858392899_8zx44",
+        "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "43aa0683fff3d83b44d34784a25a8626",
+    "topic_label": "Conflict in Gaza and Middle East",
+    "event_window_start": "2026-08-16T00:44:59.000Z",
+    "event_window_end": "2026-08-16T06:10:58.000Z",
+    "article_ids": [
+      "art_1786865833489_f4xwp",
+      "art_1786848587747_6ugch",
+      "art_1786848596415_cf0bd"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T13:18:46.678Z",
+    "updated_at": "2026-08-16T13:18:46.678Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Jared Kushner is planning a visit to Israel and Egypt.",
+      "Khalil al-Hayya is a leader within Hamas."
+    ],
+    "source_claims": [
+      "[aljazeera] claims Rabab Deifallah requires firewood for cooking and heating due to shortages of cooking gas and high fuel prices.",
+      "[aljazeera] claims Hind Khoudary has opened a beach cafe in Gaza.",
+      "[aljazeera] claims Khalil al-Hayya is traveling to Cairo to meet Egyptian intelligence chief Hassan Rashad.",
+      "[aljazeera] claims Prime Minister Benjamin Netanyahu has rejected a Gaza plan that Jared Kushner intends to discuss."
+    ],
+    "framing_differences": [
+      "[aljazeera] frames the conflict in Gaza through personal interest stories regarding daily survival and community resilience, while simultaneously framing it through high-level international diplomatic negotiations involving Hamas and US envoys."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the current conflict in Gaza is a 'genocidal war' initiated in October 2023.",
+      "[aljazeera] claims the cafe opened by Hind Khoudary offers a space where people can gather safely."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza."
+    ],
+    "safe_conclusions": [
+      "Residents in Gaza face difficulties in acquiring common household items like lighters.",
+      "Diplomatic discussions regarding Gaza involving Hamas, Egypt, and US representatives are occurring."
+    ],
+    "unknowns": [
+      "The specific details of the Gaza plan being proposed by Jared Kushner.",
+      "The outcome of the meetings between Khalil al-Hayya and Egyptian officials."
+    ],
+    "synthesis": "Current reports from Gaza highlight the ongoing challenges for residents in sourcing basic supplies alongside efforts by some to maintain social spaces. Simultaneously, international diplomatic activity is increasing as Hamas leadership engages in talks with Egyptian officials ahead of a visit by U.S. envoy Jared Kushner. These discussions focus on a proposed Gaza plan that has faced previous rejection from Israeli leadership.",
+    "confidence": "HIGH. The sources are internally consistent regarding the events reported, though they focus on disparate subject matter.",
+    "sources": [
+      {
+        "id": "art_1786865833489_f4xwp",
+        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How a simple lighter has become the backbone of life in Gaza"
+      },
+      {
+        "id": "art_1786848587747_6ugch",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
+      },
+      {
+        "id": "art_1786848596415_cf0bd",
+        "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -838,107 +1006,6 @@
         "url": "https://www.bbc.co.uk/news/articles/ckg44x2ey1ro?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Morocco detains dozens of migrants trying to cross into Ceuta, reports say"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6b27ec36dfd7615ad328aeb177d59093",
-    "topic_label": "Conflict in Lebanon and Gaza",
-    "event_window_start": "2026-08-16T00:44:59.000Z",
-    "event_window_end": "2026-08-16T06:10:58.000Z",
-    "article_ids": [
-      "art_1786865833489_f4xwp",
-      "art_1786865834526_6vznc",
-      "art_1786858389026_nkdfj",
-      "art_1786858392899_8zx44",
-      "art_1786848587747_6ugch",
-      "art_1786848596415_cf0bd"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T14:25:58.715Z",
-    "updated_at": "2026-08-16T14:25:58.715Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "An Israeli airstrike occurred in southern Lebanon resulting in at least 11 deaths.",
-      "The strike in southern Lebanon took place after a period of ceasefire or reduced hostilities."
-    ],
-    "source_claims": [
-      "[aljazeera] claims that Israel's military action in Gaza constitutes a 'genocidal war'.",
-      "[bbc] reports that the IDF stated the commander killed in the Lebanon strike used his family as 'human shields'.",
-      "[bbc] reports that the Lebanese prime minister stated seven people were killed in a strike on a house near Ansar."
-    ],
-    "framing_differences": [
-      "Al Jazeera focuses on the humanitarian impact of resource shortages for individual civilians in Gaza, while the BBC focuses on specific casualty figures and official military and government statements regarding military strikes in Lebanon."
-    ],
-    "contested_claims": [
-      "The BBC reports the IDF claimed a Hezbollah commander was killed and used his family as human shields, while Al Jazeera reports on the event as part of a series of Israeli raids without mention of specific combatant targets."
-    ],
-    "unverified_claims": [
-      "[aljazeera] claims the lighter has become the 'backbone of life' in Gaza due to the war.",
-      "[aljazeera] claims that there is 'near-universal animosity' towards Palestinians among Israeli Jewish voters."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
-      "[bbc] uses the term 'Iran-backed Shia militia' to describe Hezbollah."
-    ],
-    "safe_conclusions": [
-      "Israeli airstrikes have resulted in casualties in southern Lebanon.",
-      "Civilians in Gaza are experiencing shortages of cooking gas and fuel.",
-      "A cafe has been opened in Gaza by a journalist."
-    ],
-    "unknowns": [
-      "The exact total number of casualties from all recent airstrikes in Lebanon.",
-      "The specific identity of all individuals killed in the Ansar strike.",
-      "The long-term success or viability of the Gaza cafe project."
-    ],
-    "synthesis": "Israeli airstrikes in southern Lebanon have resulted in at least 11 deaths following a period of reduced hostilities. Meanwhile, civilians in Gaza continue to face significant shortages of basic goods, such as fuel and cooking gas, amid ongoing conflict. Reports also indicate the opening of a new cafe in Gaza intended to serve as a communal space for residents.",
-    "confidence": "HIGH. The primary reporting on the casualties in Lebanon is consistent across the provided sources, while other articles cover distinct, non-overlapping regional events.",
-    "sources": [
-      {
-        "id": "art_1786865833489_f4xwp",
-        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How a simple lighter has become the backbone of life in Gaza"
-      },
-      {
-        "id": "art_1786865834526_6vznc",
-        "url": "https://www.aljazeera.com/news/2026/8/16/a-nation-divided-what-do-israelis-want-in-octobers-elections?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "A nation divided: What do Israelis want in October’s elections?"
-      },
-      {
-        "id": "art_1786858389026_nkdfj",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel strikes south Lebanon again as families flee north"
-      },
-      {
-        "id": "art_1786858392899_8zx44",
-        "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say"
-      },
-      {
-        "id": "art_1786848587747_6ugch",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
-      },
-      {
-        "id": "art_1786848596415_cf0bd",
-        "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18474,107 +18541,6 @@
         "url": "https://www.theguardian.com/politics/live/2026/aug/12/andy-burnham-early-prisoner-release-cobra-meeting-heatwave-climate-crisis-labour-conservatives-reform-latest-news-updates",
         "source": "guardian",
         "title": "Cooper warns NHS must prepare for regular heatwaves as Burnham holds emergency Cobra meeting – UK politics live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1da1a9d4d778eabc10d1a968486015d1",
-    "topic_label": "2025 Solar Eclipse",
-    "event_window_start": "2026-08-12T15:15:30.000Z",
-    "event_window_end": "2026-08-13T01:56:11.000Z",
-    "article_ids": [
-      "art_1786601041343_f41px",
-      "art_1786594576139_ig4p3",
-      "art_1786567668891_yoj1z",
-      "art_1786567677550_oxf81",
-      "art_1786567679008_cjvkx",
-      "art_1786549002532_m9qva"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-13T08:28:33.684Z",
-    "updated_at": "2026-08-13T08:28:33.684Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A solar eclipse occurred across parts of Europe, Greenland, Iceland, Russia, and Portugal.",
-      "The eclipse was partial in many locations and reached totality in specific regions including Spain, Iceland, and Greenland."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Danny León performed a skateboard jump timed with the solar eclipse.",
-      "[aljazeera] claims the eclipse lasted for about two minutes of sudden night along the path of totality.",
-      "[aljazeera] claims approximately 15 million people experienced near-total darkness.",
-      "[guardian] claims temperatures dropped and birds went quiet during the eclipse.",
-      "[guardian] claims the eclipse began in Russia’s Arctic north and reached parts of the UK and northern Italy."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the event through technical descriptions of the path of totality and individual human-interest stories, while the Guardian focuses on the communal, social, and emotional experiences of people watching the event."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims millions of people in Europe experienced their first total solar eclipse in 27 years.",
-      "[aljazeera] claims the eclipse was total in Spain, Greenland, and Iceland.",
-      "[guardian] claims the eclipse was total in Spain, Greenland, and Iceland."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'epic stunt' to describe Danny León's skateboard jump.",
-      "[aljazeera] uses the term 'sudden night' to describe the darkness during totality.",
-      "[guardian] uses the term 'magical eeriness' to describe the atmosphere during the eclipse."
-    ],
-    "safe_conclusions": [
-      "A solar eclipse was observed across various parts of Europe and the Arctic on a Wednesday.",
-      "Individuals viewed the eclipse using various methods including pinhole cameras."
-    ],
-    "unknowns": [
-      "The exact start and end times of the eclipse across all affected regions.",
-      "The total number of people who witnessed the event."
-    ],
-    "synthesis": "A solar eclipse visible across parts of Europe, Russia, Iceland, and Greenland occurred on a Wednesday, with totality observed in specific locations including Spain. Viewers across the continent engaged in communal observations and individual activities such as skateboarding stunts and the use of pinhole cameras. The event resulted in observable environmental changes including temporary darkness, temperature drops, and shifts in bird activity.",
-    "confidence": "HIGH. The sources are consistent regarding the geographic path of the eclipse and the general nature of the phenomenon, despite differing in their specific narrative focus.",
-    "sources": [
-      {
-        "id": "art_1786601041343_f41px",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/aje-onl-nf_skateboarder-times-epic-stunt-with-solar-eclipse-120826?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Olympic skateboarder times epic stunt with solar eclipse"
-      },
-      {
-        "id": "art_1786594576139_ig4p3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/solar-eclipse-carves-eiffel-towers-silhouette-in-paris-sky?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Solar eclipse carves Eiffel Tower’s silhouette in Paris sky"
-      },
-      {
-        "id": "art_1786567668891_yoj1z",
-        "url": "https://www.aljazeera.com/gallery/2026/8/12/photos-solar-eclipse-plunges-parts-of-europe-into-darkness?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Photos: Solar eclipse plunges parts of Europe into darkness"
-      },
-      {
-        "id": "art_1786567677550_oxf81",
-        "url": "https://www.theguardian.com/science/ng-interactive/2026/aug/12/cruise-ships-quiet-towns-and-an-all-day-festival-millions-flock-to-eclipse-viewing-spots-across-europe",
-        "source": "guardian",
-        "title": "Cruise ships, quiet towns and an all-day festival: millions flock to eclipse viewing spots across Europe"
-      },
-      {
-        "id": "art_1786567679008_cjvkx",
-        "url": "https://www.theguardian.com/science/2026/aug/12/a-magical-eeriness-cornwall-comes-together-for-communal-moment-during-solar-eclipse",
-        "source": "guardian",
-        "title": "‘A magical eeriness’: Cornwall comes together for communal moment during solar eclipse"
-      },
-      {
-        "id": "art_1786549002532_m9qva",
-        "url": "https://www.theguardian.com/world/live/2026/aug/12/europe-solar-eclipse-spain-uk-iceland-latest-news-updates",
-        "source": "guardian",
-        "title": "Europe solar eclipse live: millions flock to viewing spots in Spain, UK and Iceland"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
