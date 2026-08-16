@@ -1,5 +1,91 @@
 [
   {
+    "cluster_id": "56e0108d7e7f81998e13da28c1ce1728",
+    "topic_label": "Indonesia Earthquake",
+    "event_window_start": "2026-08-15T04:49:47.000Z",
+    "event_window_end": "2026-08-15T21:49:12.000Z",
+    "article_ids": [
+      "art_1786852437819_di27d",
+      "art_1786779351682_xlc49",
+      "art_1786779366296_64z83"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T04:16:59.241Z",
+    "updated_at": "2026-08-16T04:16:59.241Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A 7.7 magnitude earthquake occurred in Indonesia on Saturday.",
+      "The earthquake originated at a depth of 15km.",
+      "The earthquake caused damage to buildings in the region.",
+      "Dozens of aftershocks followed the initial earthquake.",
+      "Search and rescue operations were initiated following the event."
+    ],
+    "source_claims": [
+      "[bbc_1] states at least 47 people were killed.",
+      "[bbc_2] states at least 14 people were killed, citing the national disaster mitigation agency.",
+      "[bbc_2] notes one local rescuer claimed at least 20 were killed.",
+      "[aljazeera] states at least five people were killed.",
+      "[aljazeera] states the quake caused landslides and road blocks.",
+      "[bbc_1] states the quake struck the island of Flores.",
+      "[bbc_2] states the quake occurred 600 miles (1,000km) away from Bali."
+    ],
+    "framing_differences": [
+      "bbc_1 frames the event's impact as significantly higher, reporting 47 deaths, whereas aljazeera reports at least 5 deaths and bbc_2 reports at least 14 deaths."
+    ],
+    "contested_claims": [
+      "Sources provide varying, contradictory figures regarding the total number of fatalities, ranging from at least five to at least 47."
+    ],
+    "unverified_claims": [
+      "[aljazeera] claims the quake resulted in specific infrastructure damage including landslides and road blocks.",
+      "[bbc_1] claims a second earthquake of 6.9 magnitude occurred at the other end of Indonesia."
+    ],
+    "loaded_language": [
+      "[bbc_1] uses the term 'powerful' to describe the earthquake.",
+      "[aljazeera] uses the term 'powerful' to describe the earthquake.",
+      "[bbc_1] uses the term 'Ring of Fire' to describe the region."
+    ],
+    "safe_conclusions": [
+      "A 7.7 magnitude earthquake occurred in Indonesia on Saturday at a depth of 15km, resulting in human casualties and property damage."
+    ],
+    "unknowns": [
+      "The definitive number of casualties.",
+      "The total geographical scope of the damage beyond the identified locations.",
+      "The current status of all missing persons."
+    ],
+    "synthesis": "A 7.7 magnitude earthquake struck Indonesia at a depth of 15km on Saturday, resulting in building damage and multiple aftershocks. Sources report varying preliminary casualty figures, ranging from five to 47 deaths. Rescue operations are currently underway in the affected regions.",
+    "confidence": "CONTESTED. The casualty figures provided across the three sources are significantly divergent, indicating a lack of consensus on the event's immediate impact.",
+    "sources": [
+      {
+        "id": "art_1786852437819_di27d",
+        "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Rescuers search for survivors of powerful Indonesia earthquake"
+      },
+      {
+        "id": "art_1786779351682_xlc49",
+        "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 14 dead after 7.7-magnitude earthquake strikes Indonesia"
+      },
+      {
+        "id": "art_1786779366296_64z83",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/on-the-ground-in-indonesia-following-7-7-magnitude-earthquake?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "On the ground in Indonesia following 7.7 magnitude earthquake"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "6a3855d6138e06ee96d0510b8bed11f9",
     "topic_label": "Conflict in Gaza and Israel",
     "event_window_start": "2026-08-15T06:10:07.000Z",
@@ -78,6 +164,144 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "e4ec1348ffc60bb74d31327741da6f40",
+    "topic_label": "Middle East and Regional Conflict",
+    "event_window_start": "2026-08-15T23:27:10.000Z",
+    "event_window_end": "2026-08-16T00:50:12.000Z",
+    "article_ids": [
+      "art_1786848594339_miivr",
+      "art_1786848601988_wtwdb"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T03:35:33.683Z",
+    "updated_at": "2026-08-16T03:35:33.683Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Syrian army helicopters dropped roses over a Summer Syria festival at the Damascus Citadel.",
+      "Marib, Yemen, was struck by multiple projectiles, including ballistic missiles and drones, according to local authorities."
+    ],
+    "source_claims": [
+      "[aljazeera_1] The Syrian army is conducting a push to revive cultural events in Damascus.",
+      "[aljazeera_2] Marib provincial authorities stated that Houthi strikes hit residential areas, injuring several people and causing property damage.",
+      "[aljazeera_2] The attacks on Marib involved four ballistic missiles and four drones on Saturday, followed by subsequent missile launches."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames the activity in Damascus as a sign of cultural revival and normalcy, whereas aljazeera_2 frames the activity in Marib as an ongoing military threat to civilians and displaced persons."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_2] The Houthi group is responsible for the specific ballistic missile and drone strikes reported in Marib."
+    ],
+    "loaded_language": [
+      "[aljazeera_2] uses the term 'ongoing assault' to describe the actions of the Houthis in Marib."
+    ],
+    "safe_conclusions": [
+      "Syrian army helicopters performed an event involving dropping roses in Damascus.",
+      "Reports from local authorities in Marib indicate that ballistic missiles and drones impacted the city."
+    ],
+    "unknowns": [
+      "The official response or confirmation from the Houthi leadership regarding the Marib attacks.",
+      "The total number of casualties in Marib following the reported strikes.",
+      "The specific tactical intent behind the rose-dropping event in Damascus."
+    ],
+    "synthesis": "Syrian military helicopters conducted a floral drop over a festival in Damascus as part of a cultural initiative. Concurrently, local officials in the Yemeni city of Marib reported that Houthi forces executed multiple ballistic missile and drone strikes against residential areas. These events highlight divergent activities in separate conflict zones.",
+    "confidence": "HIGH. Both reports are attributed to local official sources and remain distinct in their geographical and thematic focus.",
+    "sources": [
+      {
+        "id": "art_1786848594339_miivr",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Army drops roses on Syrian crowds in a far cry from war"
+      },
+      {
+        "id": "art_1786848601988_wtwdb",
+        "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a7bb1131d561441bf4fdecd4c7ce435a",
+    "topic_label": "Australia Gun Control",
+    "event_window_start": "2026-08-16T02:09:46.000Z",
+    "event_window_end": "2026-08-15T21:41:43.000Z",
+    "article_ids": [
+      "art_1786852439898_iyfso",
+      "art_1786848590147_dm7vq"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T04:16:59.241Z",
+    "updated_at": "2026-08-16T04:16:59.241Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "New South Wales (NSW) is launching a gun buyback scheme.",
+      "The buyback scheme is a response to the Bondi Beach terror attack.",
+      "New South Wales Premier Chris Minns and Prime Minister Anthony Albanese have discussed the scheme."
+    ],
+    "source_claims": [
+      "[bbc] The NSW gun buyback scheme will offer up to AUS$1,000 for eligible handguns, shotguns, and rifles.",
+      "[bbc] The NSW scheme begins on 2 November.",
+      "[bbc] 15 people were murdered near Bondi Beach in a terror attack last December.",
+      "[guardian] Prime Minister Anthony Albanese stated there are currently more guns in Australia than at the time of the Port Arthur massacre.",
+      "[guardian] The federal government has made these buyback arrangements available to all states and territories."
+    ],
+    "framing_differences": [
+      "The bbc focuses on the specific details and rollout date of the New South Wales state scheme, while the guardian frames the event as part of a national effort involving a federal funding deal offered to all Australian states."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The buyback scheme could see hundreds of thousands of guns surrendered."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'terror attack' to describe the Bondi Beach incident.",
+      "[guardian] uses the term 'terror attack' to describe the Bondi Beach incident."
+    ],
+    "safe_conclusions": [
+      "New South Wales is initiating a government-backed gun buyback program.",
+      "Federal and state officials have cited the Bondi Beach incident as a catalyst for firearm policy reforms."
+    ],
+    "unknowns": [
+      "The exact number of firearms currently in circulation in Australia is not specified.",
+      "The total budget allocated for the federal and state buyback schemes is not stated."
+    ],
+    "synthesis": "The New South Wales government is launching a firearm buyback scheme following the Bondi Beach terror attack. Prime Minister Anthony Albanese has announced that this federal-state partnership is available for adoption by all Australian states and territories. Officials have cited the current volume of firearms in the country as a primary reason for the renewed focus on legislative reform.",
+    "confidence": "HIGH. The sources agree on the primary event of the state-level buyback scheme and the political context surrounding it.",
+    "sources": [
+      {
+        "id": "art_1786852439898_iyfso",
+        "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Australian state to launch gun buyback after Bondi Beach attack"
+      },
+      {
+        "id": "art_1786848590147_dm7vq",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
+        "source": "guardian",
+        "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "89967d2e16e73b29b54a142376b3f698",
     "topic_label": "Indonesia 7.7 Magnitude Earthquake",
     "event_window_start": "2026-08-15T04:49:47.000Z",
@@ -148,73 +372,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/15/on-the-ground-in-indonesia-following-7-7-magnitude-earthquake?traffic_source=rss",
         "source": "aljazeera",
         "title": "On the ground in Indonesia following 7.7 magnitude earthquake"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e4ec1348ffc60bb74d31327741da6f40",
-    "topic_label": "Middle East and Regional Conflict",
-    "event_window_start": "2026-08-15T23:27:10.000Z",
-    "event_window_end": "2026-08-16T00:50:12.000Z",
-    "article_ids": [
-      "art_1786848594339_miivr",
-      "art_1786848601988_wtwdb"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T03:35:33.683Z",
-    "updated_at": "2026-08-16T03:35:33.683Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Syrian army helicopters dropped roses over a Summer Syria festival at the Damascus Citadel.",
-      "Marib, Yemen, was struck by multiple projectiles, including ballistic missiles and drones, according to local authorities."
-    ],
-    "source_claims": [
-      "[aljazeera_1] The Syrian army is conducting a push to revive cultural events in Damascus.",
-      "[aljazeera_2] Marib provincial authorities stated that Houthi strikes hit residential areas, injuring several people and causing property damage.",
-      "[aljazeera_2] The attacks on Marib involved four ballistic missiles and four drones on Saturday, followed by subsequent missile launches."
-    ],
-    "framing_differences": [
-      "aljazeera_1 frames the activity in Damascus as a sign of cultural revival and normalcy, whereas aljazeera_2 frames the activity in Marib as an ongoing military threat to civilians and displaced persons."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_2] The Houthi group is responsible for the specific ballistic missile and drone strikes reported in Marib."
-    ],
-    "loaded_language": [
-      "[aljazeera_2] uses the term 'ongoing assault' to describe the actions of the Houthis in Marib."
-    ],
-    "safe_conclusions": [
-      "Syrian army helicopters performed an event involving dropping roses in Damascus.",
-      "Reports from local authorities in Marib indicate that ballistic missiles and drones impacted the city."
-    ],
-    "unknowns": [
-      "The official response or confirmation from the Houthi leadership regarding the Marib attacks.",
-      "The total number of casualties in Marib following the reported strikes.",
-      "The specific tactical intent behind the rose-dropping event in Damascus."
-    ],
-    "synthesis": "Syrian military helicopters conducted a floral drop over a festival in Damascus as part of a cultural initiative. Concurrently, local officials in the Yemeni city of Marib reported that Houthi forces executed multiple ballistic missile and drone strikes against residential areas. These events highlight divergent activities in separate conflict zones.",
-    "confidence": "HIGH. Both reports are attributed to local official sources and remain distinct in their geographical and thematic focus.",
-    "sources": [
-      {
-        "id": "art_1786848594339_miivr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Army drops roses on Syrian crowds in a far cry from war"
-      },
-      {
-        "id": "art_1786848601988_wtwdb",
-        "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18522,221 +18679,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0485bf37d49085650d622ff5b4639dcc",
-    "topic_label": "US Political News and Transitions",
-    "event_window_start": "2026-08-12T02:45:01.000Z",
-    "event_window_end": "2026-08-12T20:16:55.000Z",
-    "article_ids": [
-      "art_1786567666767_owc2z",
-      "art_1786567672108_vnso3",
-      "art_1786567680059_t9nx0",
-      "art_1786549000341_9yhjc",
-      "art_1786512098522_h334v",
-      "art_1786504320487_yk6cq"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T21:47:10.828Z",
-    "updated_at": "2026-08-12T21:47:10.828Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Karoline Leavitt will step down from her position as White House Press Secretary at the end of the month.",
-      "President Donald Trump announced Leavitt's departure on social media.",
-      "Leavitt will continue to serve as one of Trump's outside advisors.",
-      "Leavitt has young children."
-    ],
-    "source_claims": [
-      "[bbc] Leavitt is 28 years old and the youngest person to hold the Press Secretary position.",
-      "[aljazeera] Leavitt's departure is part of a series of senior officials stepping down, including the recent firing of Pam Bondi and Kristi Noem.",
-      "[guardian] Leavitt returned from maternity leave last month after giving birth to her daughter, Viviana, in May.",
-      "[guardian] Leavitt posted on X that returning to the White House made her realize she wanted to spend more time with her family.",
-      "[bbc] Two cabinet members were on a decoy plane that Trump secretly exited via a catering truck in Turkey last month due to security concerns involving Iran.",
-      "[aljazeera] Trump stated that the decision to switch planes in Turkey was made by the Secret Service."
-    ],
-    "framing_differences": [
-      "The Guardian frames Leavitt's departure specifically within the context of her recent return from maternity leave, whereas Al Jazeera frames the departure within the context of recent high-level staff firings in the Trump administration."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] President Trump hid on a catering truck to be clandestinely transported to a military plane in Turkey.",
-      "[aljazeera] There was an alleged Iranian threat that prompted the plane switch in Turkey."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'staffing shake-up' to describe the departure of Leavitt.",
-      "[aljazeera] uses the term 'fired' to describe the status of Pam Bondi and Kristi Noem."
-    ],
-    "safe_conclusions": [
-      "Karoline Leavitt is leaving her role as White House Press Secretary.",
-      "President Trump has publicly commented on the departure of Karoline Leavitt and the logistics of a plane switch that occurred in Turkey."
-    ],
-    "unknowns": [
-      "The identity of Leavitt's successor as White House Press Secretary.",
-      "The specific security details regarding the plane switch in Turkey beyond the reports citing the Secret Service and an alleged threat."
-    ],
-    "synthesis": "White House Press Secretary Karoline Leavitt will leave her post at the end of the month to focus on her family, though she will remain an outside advisor to President Trump. Separately, reports have emerged regarding a security-related plane switch involving the President in Turkey last month, which Trump attributed to the Secret Service. No successor for the press secretary role has been announced.",
-    "confidence": "HIGH. The primary subject (Leavitt's departure) is corroborated across multiple sources, and reports regarding the plane switch are consistently attributed to external reporting or the President's own comments.",
-    "sources": [
-      {
-        "id": "art_1786567666767_owc2z",
-        "url": "https://www.bbc.co.uk/news/articles/cvglzrvyrz3o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says White House press secretary Karoline Leavitt to leave post"
-      },
-      {
-        "id": "art_1786567672108_vnso3",
-        "url": "https://www.aljazeera.com/news/2026/8/12/trump-reveals-karoline-leavitt-to-step-down-as-white-house-press-secretary?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump reveals Karoline Leavitt to step down as White House press secretary"
-      },
-      {
-        "id": "art_1786567680059_t9nx0",
-        "url": "https://www.theguardian.com/us-news/2026/aug/12/karoline-leavitt-resigns",
-        "source": "guardian",
-        "title": "Karoline Leavitt will step down as White House press secretary, Trump says"
-      },
-      {
-        "id": "art_1786549000341_9yhjc",
-        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit"
-      },
-      {
-        "id": "art_1786512098522_h334v",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/trump-says-secret-plane-switch-up-to-the-secret?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says secret plane switch ‘up to the Secret Service’"
-      },
-      {
-        "id": "art_1786504320487_yk6cq",
-        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says he switched planes after Nato summit because of possible threat "
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1c10beb41e123d833624e26e47b42495",
-    "topic_label": "Natural Disasters and Heatwaves",
-    "event_window_start": "2026-08-11T23:11:32.000Z",
-    "event_window_end": "2026-08-12T15:13:45.000Z",
-    "article_ids": [
-      "art_1786549005771_8pmtq",
-      "art_1786549012407_8yig4",
-      "art_1786512096315_wk739",
-      "art_1786512105940_ub7zg",
-      "art_1786504333133_zd4u5",
-      "art_1786493725571_9fkzw",
-      "art_1786493729903_pvrkt"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T22:42:15.180Z",
-    "updated_at": "2026-08-12T22:42:15.180Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "There are no shared facts between the independent sources because they report on entirely separate events in different parts of the world."
-    ],
-    "source_claims": [
-      "[guardian] Andy Burnham stated that the UK government will consider a ban on disposable barbecues in public spaces as wildfires continue in the UK.",
-      "[guardian] An area the size of a football field caught fire in Cannock Chase in July, damaging wildlife but causing no human harm.",
-      "[guardian] Yvette Cooper directed NHS England to prepare for summer heatwaves using the same framework as winter crises.",
-      "[guardian] Repeated heatwaves in the UK may have cost the economy 4.4 billion pounds in lost output by the end of July.",
-      "[guardian] Thousands of people were evacuated in Beijing due to Typhoon Dolphin, which was forecast to bring over 150mm of rain.",
-      "[aljazeera] Cali is Colombia's worst-hit city following a recent earthquake, where volunteers are searching for survivors in apartment rubble."
-    ],
-    "framing_differences": [
-      "The guardian frames its coverage around climate change policy, environmental impacts, and economic costs of extreme weather in the UK and China, whereas aljazeera frames its coverage around the immediate humanitarian rescue efforts following an earthquake in Colombia."
-    ],
-    "contested_claims": [
-      "No directly contested claims exist because the sources report on entirely distinct and unrelated geographical events."
-    ],
-    "unverified_claims": [
-      "[guardian] Green thinktank Verdant estimated that the economic hit of June's hot weather was 2.36 billion pounds.",
-      "[guardian] Almost 3,000 excess deaths occurred in the UK during May and June due to heat.",
-      "[guardian] The economic cost of climate change to the UK could reach 25 billion pounds annually by 2030.",
-      "[aljazeera] Thousands of volunteers are currently digging through rubble in Cali, Colombia."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'rage' to describe the progression of wildfires in the UK.",
-      "[guardian] uses the term 'debilitating' to characterize the repeated summer heatwaves.",
-      "[aljazeera] uses the term 'desperate' to describe the search for survivors in the earthquake rubble."
-    ],
-    "safe_conclusions": [
-      "Governments and emergency services globally are actively responding to weather-related events and natural disasters.",
-      "Extreme weather and geological events can lead to significant public safety, environmental, and infrastructure challenges."
-    ],
-    "unknowns": [
-      "Whether the UK government will successfully pass or enforce a ban on disposable barbecues.",
-      "The exact final casualty count and total financial damage resulting from the earthquake in Cali, Colombia.",
-      "The long-term efficacy of the NHS's summer heatwave planning measures."
-    ],
-    "synthesis": "The Guardian reports on various global weather events, including UK heatwaves, wildfire prevention policies, economic impacts of climate change, and evacuations in Beijing due to Typhoon Dolphin. Concurrently, Al Jazeera reports on emergency rescue efforts following an earthquake in Cali, Colombia. Because these articles cover entirely distinct events, they do not offer overlapping details or conflicting narratives.",
-    "confidence": "LOW",
-    "sources": [
-      {
-        "id": "art_1786549005771_8pmtq",
-        "url": "https://www.theguardian.com/society/2026/aug/12/andy-burnham-ban-disposable-barbecues-wildfires-uk",
-        "source": "guardian",
-        "title": "Burnham to consider ban on disposable barbecues as wildfires rage in UK"
-      },
-      {
-        "id": "art_1786549012407_8yig4",
-        "url": "https://www.theguardian.com/politics/live/2026/aug/12/andy-burnham-early-prisoner-release-cobra-meeting-heatwave-climate-crisis-labour-conservatives-reform-latest-news-updates",
-        "source": "guardian",
-        "title": "Cooper warns NHS must prepare for regular heatwaves as Burnham holds emergency Cobra meeting – UK politics live"
-      },
-      {
-        "id": "art_1786512096315_wk739",
-        "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall",
-        "source": "guardian",
-        "title": "Mass evacuations in Beijing as Typhoon Dolphin brings more torrential rain to China"
-      },
-      {
-        "id": "art_1786512105940_ub7zg",
-        "url": "https://www.theguardian.com/business/2026/aug/12/heatwaves-uk-cost-economy-lost-output-thinktank",
-        "source": "guardian",
-        "title": "UK heatwaves may have cost economy £4.4bn in lost output so far this year, analysis finds"
-      },
-      {
-        "id": "art_1786504333133_zd4u5",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/on-the-ground-in-cali-colombias-worst-hit-city-after-the-quake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "On the ground in Cali, Colombia’s worst-hit city after the quake"
-      },
-      {
-        "id": "art_1786493725571_9fkzw",
-        "url": "https://www.aljazeera.com/features/longform/2026/8/11/colombia-scrambles-to-find-survivors-after-deadly-earthquake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Colombia scrambles to find survivors after deadly earthquake"
-      },
-      {
-        "id": "art_1786493729903_pvrkt",
-        "url": "https://www.bbc.co.uk/news/articles/clye8332d63o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "How a 97-year-old escaped deadly Indian floods on a banana raft"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
   }
 ]
