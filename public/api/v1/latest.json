@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T06:38:56.538Z",
+  "generated_at": "2026-08-16T07:19:21.414Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 183,
+  "impact_count": 184,
   "watchlist_count": 3,
   "latest_clusters": [
     {
@@ -46,20 +46,21 @@
       "updated_at": "2026-08-16T06:38:26.155Z"
     },
     {
-      "cluster_id": "26b28204559fb54aec0d74db266b6978",
-      "topic_label": "Middle East Conflict and Tensions",
-      "event_window_start": "2026-08-15T23:27:10.000Z",
+      "cluster_id": "e42dba18017f39153f6fd5039d6cdb44",
+      "topic_label": "Middle East and Israel-Lebanon Conflict",
+      "event_window_start": "2026-08-16T00:44:59.000Z",
       "event_window_end": "2026-08-16T04:43:21.000Z",
-      "article_count": 9,
+      "article_count": 4,
       "source_count": 2,
       "region_tag": "middle-east",
       "shared_facts": [
-        "There have been recent Israeli airstrikes in southern Lebanon, resulting in casualties.",
-        "Qatar has issued a denial regarding Iranian claims that it is holding Iranian pilots captive."
+        "Israeli airstrikes occurred in southern Lebanon.",
+        "Eleven people were killed in strikes in southern Lebanon.",
+        "The strikes occurred following a ceasefire agreement."
       ],
       "source_differences": [],
-      "synthesis": "Recent military activity has occurred in southern Lebanon resulting in 11 reported deaths, with Israel citing the targeting of a Hezbollah commander. Simultaneously, diplomatic tensions have surfaced between Qatar and Iran following Tehran's demand for the release of three pilots Qatar maintains it does not hold. These events represent localized combat operations and international diplomatic disputes occurring within the broader regional environment.",
-      "confidence": "HIGH. The sources are internally consistent regarding the occurrence of the events reported, while appropriately attributing claims to the respective parties involved.",
+      "synthesis": "Israeli airstrikes in southern Lebanon have resulted in the deaths of 11 people, including women and children. While the IDF states the attack targeted a Hezbollah commander, local authorities report casualties occurred at a residential house on the outskirts of Ansar. The strikes have prompted reports of civilians fleeing toward the north.",
+      "confidence": "HIGH; Sources are consistent regarding the total number of fatalities and the general context of the airstrikes occurring in southern Lebanon.",
       "sources": [
         {
           "source": "aljazeera",
@@ -73,9 +74,64 @@
         },
         {
           "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
+          "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
+          "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
+        }
+      ],
+      "updated_at": "2026-08-16T07:19:08.414Z"
+    },
+    {
+      "cluster_id": "330219d3f2ff81380457b3adfb9ac61b",
+      "topic_label": "Yemen Houthi Conflict",
+      "event_window_start": "2026-08-15T23:27:10.000Z",
+      "event_window_end": "2026-08-16T04:09:01.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "Yemeni government forces and Houthi forces are engaged in active military operations in the region of Marib.",
+        "Houthi forces have launched ballistic missiles and drones toward the city of Marib."
+      ],
+      "source_differences": [],
+      "synthesis": "Yemeni government forces and Houthi rebels have engaged in a series of military confrontations in Marib, involving the use of ballistic missiles and drones. Local authorities report that these strikes have impacted residential areas and displaced populations. The Yemeni government is actively responding to these incursions with support from Saudi Arabia.",
+      "confidence": "HIGH; The sources are consistent regarding the nature of the conflict and the location of the hostilities.",
+      "sources": [
+        {
+          "source": "aljazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
           "title": "Yemeni government forces hit back after new Houthi offensive"
         },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+          "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
+        }
+      ],
+      "updated_at": "2026-08-16T07:19:08.414Z"
+    },
+    {
+      "cluster_id": "c16d0c15e38e41716ae7858d9b711ee1",
+      "topic_label": "Qatar and Iran Diplomatic Dispute",
+      "event_window_start": "2026-08-15T20:55:29.000Z",
+      "event_window_end": "2026-08-15T21:03:57.000Z",
+      "article_count": 2,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Iran has issued public demands for the release of three pilots it claims are being held by Qatar.",
+        "Qatar's Ministry of Foreign Affairs has issued a categorical denial regarding the detention of any Iranian pilots.",
+        "Iran claims an incident involving two fighter jets occurred on March 2, 2026.",
+        "A Qatari ministry spokesman expressed surprise at the claims made by Iranian officials."
+      ],
+      "source_differences": [],
+      "synthesis": "Iran has officially requested the release of three pilots it claims were captured by Qatar during military operations on March 2, 2026. Qatar has categorically denied holding any surviving Iranian aircrew and characterized the Iranian statements as misleading. Both nations remain in disagreement regarding the existence of these detainees.",
+      "confidence": "HIGH. Both sources independently report on the existence of the dispute and the respective official stances of both governments.",
+      "sources": [
         {
           "source": "bbc",
           "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
@@ -85,29 +141,9 @@
           "source": "aljazeera",
           "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
           "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
-          "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
-          "title": "Army drops roses on Syrian crowds in a far cry from war"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
-          "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
-          "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
         }
       ],
-      "updated_at": "2026-08-16T06:38:26.155Z"
+      "updated_at": "2026-08-16T07:19:08.414Z"
     },
     {
       "cluster_id": "32b03dfef2190004245e320dd0c4951c",
@@ -218,6 +254,70 @@
       "updated_at": "2026-08-16T06:38:26.155Z"
     },
     {
+      "cluster_id": "26b28204559fb54aec0d74db266b6978",
+      "topic_label": "Middle East Conflict and Tensions",
+      "event_window_start": "2026-08-15T23:27:10.000Z",
+      "event_window_end": "2026-08-16T04:43:21.000Z",
+      "article_count": 9,
+      "source_count": 2,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "There have been recent Israeli airstrikes in southern Lebanon, resulting in casualties.",
+        "Qatar has issued a denial regarding Iranian claims that it is holding Iranian pilots captive."
+      ],
+      "source_differences": [],
+      "synthesis": "Recent military activity has occurred in southern Lebanon resulting in 11 reported deaths, with Israel citing the targeting of a Hezbollah commander. Simultaneously, diplomatic tensions have surfaced between Qatar and Iran following Tehran's demand for the release of three pilots Qatar maintains it does not hold. These events represent localized combat operations and international diplomatic disputes occurring within the broader regional environment.",
+      "confidence": "HIGH. The sources are internally consistent regarding the occurrence of the events reported, while appropriately attributing claims to the respective parties involved.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
+          "title": "Israel strikes south Lebanon again as families flee north"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo?at_medium=RSS&at_campaign=rss",
+          "title": "Eleven killed in Israeli strikes on southern Lebanon, authorities say"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
+          "title": "Yemeni government forces hit back after new Houthi offensive"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
+          "title": "Qatar denies capturing three Iranian pilots after downing fighter jets"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
+          "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
+          "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
+          "title": "Army drops roses on Syrian crowds in a far cry from war"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
+          "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+          "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
+        }
+      ],
+      "updated_at": "2026-08-16T06:38:26.155Z"
+    },
+    {
       "cluster_id": "ff44a83bb864f0d96abe5623a736ebe1",
       "topic_label": "Indonesia Earthquake",
       "event_window_start": "2026-08-15T07:22:22.000Z",
@@ -309,107 +409,6 @@
         }
       ],
       "updated_at": "2026-08-16T05:08:14.313Z"
-    },
-    {
-      "cluster_id": "a7bb1131d561441bf4fdecd4c7ce435a",
-      "topic_label": "Australia Gun Control",
-      "event_window_start": "2026-08-16T02:09:46.000Z",
-      "event_window_end": "2026-08-15T21:41:43.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "New South Wales (NSW) is launching a gun buyback scheme.",
-        "The buyback scheme is a response to the Bondi Beach terror attack.",
-        "New South Wales Premier Chris Minns and Prime Minister Anthony Albanese have discussed the scheme."
-      ],
-      "source_differences": [],
-      "synthesis": "The New South Wales government is launching a firearm buyback scheme following the Bondi Beach terror attack. Prime Minister Anthony Albanese has announced that this federal-state partnership is available for adoption by all Australian states and territories. Officials have cited the current volume of firearms in the country as a primary reason for the renewed focus on legislative reform.",
-      "confidence": "HIGH. The sources agree on the primary event of the state-level buyback scheme and the political context surrounding it.",
-      "sources": [
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
-          "title": "Australian state to launch gun buyback after Bondi Beach attack"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
-          "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
-        }
-      ],
-      "updated_at": "2026-08-16T04:16:59.241Z"
-    },
-    {
-      "cluster_id": "6dbac2c438dd596d2dac95fb2c2d9e6a",
-      "topic_label": "Disaster Alerts and Emergencies",
-      "event_window_start": "2026-08-15T23:34:24.000Z",
-      "event_window_end": "2026-08-16T04:00:15.000Z",
-      "article_count": 5,
-      "source_count": 3,
-      "region_tag": "global",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Various news sources report on a series of disconnected natural disasters and weather events occurring globally. These include drought conditions in Europe, wildfires and flooding in the United States, an earthquake in Colombia, and an approaching hurricane in Hawaii. Each report focuses on the immediate local response and the physical characteristics of the respective event.",
-      "confidence": "HIGH. The sources report on geographically and thematically distinct events, and there is no factual overlap that would permit contradiction.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/16/danube-drought-destroyed-crops-rock-of-starvation-climate-crisis",
-          "title": "Destroyed crops, riverbed cyclists and a ‘Rock of Starvation’: how drought has devastated the Danube"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/gallery/2026/8/15/california-tackles-multiple-wildfires-as-firefighter-workforce-faces-strain?traffic_source=rss",
-          "title": "California tackles multiple wildfires as firefighter workforce faces strain"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/at-least-five-reported-dead-amid-flooding-in-us-state-of-indiana?traffic_source=rss",
-          "title": "At least five reported dead amid flooding in US state of Indiana"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/15/colombia-asks-trump-to-suspend-tariffs-as-country-reels-from-earthquake?traffic_source=rss",
-          "title": "Colombia asks Trump to suspend tariffs as country reels from earthquake"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
-          "title": "Hawaii braces for potential first direct hit by a hurricane in 34 years"
-        }
-      ],
-      "updated_at": "2026-08-16T05:08:14.313Z"
-    },
-    {
-      "cluster_id": "920fff7835ea2256bfd71a25c31eb37a",
-      "topic_label": "Health Outbreaks and Risks",
-      "event_window_start": "2026-08-15T07:01:50.000Z",
-      "event_window_end": "2026-08-15T22:00:42.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "An Ebola outbreak is occurring in the Democratic Republic of the Congo",
-        "A H5 bird flu case has been confirmed in a little penguin on Phillip Island, Australia",
-        "The Australian government announced a vaccination rollout for little penguins"
-      ],
-      "source_differences": [],
-      "synthesis": "An Ebola outbreak in the Democratic Republic of the Congo has resulted in 2,000 deaths and is reported by the WHO to be spreading at an accelerated pace. Simultaneously, Australian authorities have confirmed the first death of a little penguin from H5 bird flu on Phillip Island. In response to the avian flu detection, the Victorian government has initiated a vaccination program for the local penguin population.",
-      "confidence": "HIGH: The sources discuss entirely different events in separate geographic regions, and the factual statements provided within each article are internally consistent.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/8/15/why-is-the-latest-ebola-outbreak-worsening?traffic_source=rss",
-          "title": "Why is the latest Ebola outbreak worsening?"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/aug/15/little-penguin-found-dead-with-h5-bird-flu-on-victorias-phillip-island",
-          "title": "First Australian death of little penguin with H5 bird flu confirmed on Phillip Island"
-        }
-      ],
-      "updated_at": "2026-08-16T05:08:14.313Z"
     }
   ],
   "latest_impact": [
@@ -434,24 +433,65 @@
       "updated_at": "2026-08-16T06:38:26.155Z"
     },
     {
-      "id": "impact-26b28204",
-      "title": "Middle East Conflict and Tensions",
+      "id": "impact-e42dba18",
+      "title": "Middle East and Israel-Lebanon Conflict",
       "severity": "medium",
       "status": "active",
       "region": "Middle East",
       "domains": [
         "conflict",
-        "shipping"
+        "shipping",
+        "instability"
       ],
-      "why_it_matters": "Recent military activity has occurred in southern Lebanon resulting in 11 reported deaths, with Israel citing the targeting of a Hezbollah commander. Simultaneously, diplomatic tensions have surfaced between Qatar and Iran following Tehran's demand for the release of three pilots Qatar maintains it does not hold. These events represent localized combat operations and international diplomatic disputes occurring within the broader regional environment.",
+      "why_it_matters": "Israeli airstrikes in southern Lebanon have resulted in the deaths of 11 people, including women and children. While the IDF states the attack targeted a Hezbollah commander, local authorities report casualties occurred at a residential house on the outskirts of Ansar. The strikes have prompted reports of civilians fleeing toward the north.",
       "evidence_summary": "2 source(s), high confidence.",
       "confidence_label": "high",
       "corroboration_level": "moderate",
       "source_count": 2,
-      "related_cluster_id": "26b28204559fb54aec0d74db266b6978",
+      "related_cluster_id": "e42dba18017f39153f6fd5039d6cdb44",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-16T06:38:26.155Z"
+      "updated_at": "2026-08-16T07:19:08.414Z"
+    },
+    {
+      "id": "impact-330219d3",
+      "title": "Yemen Houthi Conflict",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "Yemeni government forces and Houthi rebels have engaged in a series of military confrontations in Marib, involving the use of ballistic missiles and drones. Local authorities report that these strikes have impacted residential areas and displaced populations. The Yemeni government is actively responding to these incursions with support from Saudi Arabia.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "330219d3f2ff81380457b3adfb9ac61b",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-16T07:19:08.414Z"
+    },
+    {
+      "id": "impact-c16d0c15",
+      "title": "Qatar and Iran Diplomatic Dispute",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict"
+      ],
+      "why_it_matters": "Iran has officially requested the release of three pilots it claims were captured by Qatar during military operations on March 2, 2026. Qatar has categorically denied holding any surviving Iranian aircrew and characterized the Iranian statements as misleading. Both nations remain in disagreement regarding the existence of these detainees.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "c16d0c15e38e41716ae7858d9b711ee1",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-16T07:19:08.414Z"
     },
     {
       "id": "impact-32b03dfe",
@@ -491,6 +531,26 @@
       "corroboration_level": "moderate",
       "source_count": 3,
       "related_cluster_id": "3a7ffe7a69d3a9ec5488436d36651892",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-16T06:38:26.155Z"
+    },
+    {
+      "id": "impact-26b28204",
+      "title": "Middle East Conflict and Tensions",
+      "severity": "medium",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "Recent military activity has occurred in southern Lebanon resulting in 11 reported deaths, with Israel citing the targeting of a Hezbollah commander. Simultaneously, diplomatic tensions have surfaced between Qatar and Iran following Tehran's demand for the release of three pilots Qatar maintains it does not hold. These events represent localized combat operations and international diplomatic disputes occurring within the broader regional environment.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "26b28204559fb54aec0d74db266b6978",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-16T06:38:26.155Z"
@@ -551,65 +611,6 @@
       "related_cluster_id": "a7bb1131d561441bf4fdecd4c7ce435a",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-16T04:16:59.241Z"
-    },
-    {
-      "id": "impact-6dbac2c4",
-      "title": "Disaster Alerts and Emergencies",
-      "severity": "critical",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "disaster",
-        "shipping"
-      ],
-      "why_it_matters": "Various news sources report on a series of disconnected natural disasters and weather events occurring globally. These include drought conditions in Europe, wildfires and flooding in the United States, an earthquake in Colombia, and an approaching hurricane in Hawaii. Each report focuses on the immediate local response and the physical characteristics of the respective event.",
-      "evidence_summary": "3 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "6dbac2c438dd596d2dac95fb2c2d9e6a",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-08-16T05:08:14.313Z"
-    },
-    {
-      "id": "impact-920fff78",
-      "title": "Health Outbreaks and Risks",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "An Ebola outbreak in the Democratic Republic of the Congo has resulted in 2,000 deaths and is reported by the WHO to be spreading at an accelerated pace. Simultaneously, Australian authorities have confirmed the first death of a little penguin from H5 bird flu on Phillip Island. In response to the avian flu detection, the Victorian government has initiated a vaccination program for the local penguin population.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "920fff7835ea2256bfd71a25c31eb37a",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-08-16T05:08:14.313Z"
-    },
-    {
-      "id": "impact-56e0108d",
-      "title": "Indonesia Earthquake",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "disaster",
-        "shipping"
-      ],
-      "why_it_matters": "A 7.7 magnitude earthquake struck Indonesia at a depth of 15km on Saturday, resulting in building damage and multiple aftershocks. Sources report varying preliminary casualty figures, ranging from five to 47 deaths. Rescue operations are currently underway in the affected regions.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "56e0108d7e7f81998e13da28c1ce1728",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-08-16T04:16:59.241Z"
     }
   ]
