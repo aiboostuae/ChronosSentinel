@@ -1,5 +1,435 @@
 [
   {
+    "cluster_id": "ff44a83bb864f0d96abe5623a736ebe1",
+    "topic_label": "Indonesia Earthquake",
+    "event_window_start": "2026-08-15T07:22:22.000Z",
+    "event_window_end": "2026-08-16T03:57:34.000Z",
+    "article_ids": [
+      "art_1786855269049_id1tj",
+      "art_1786852437819_di27d",
+      "art_1786779351682_xlc49"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T05:08:14.313Z",
+    "updated_at": "2026-08-16T05:08:14.313Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A magnitude 7.7 earthquake struck the island of Flores in Indonesia early Saturday.",
+      "The earthquake caused damage to buildings and triggered search and rescue operations.",
+      "Indonesia's meteorology and geophysics agency stated the earthquake had a depth of 15km."
+    ],
+    "source_claims": [
+      "[guardian] reports at least 47 people have been killed, with fatalities recorded in Manggarai, East Manggarai, Sikka, Ngada, and Ende regencies.",
+      "[bbc_1] reports at least 47 people have been killed.",
+      "[bbc_2] reports at least 14 people have been killed, citing the disaster mitigation agency.",
+      "[bbc_2] notes one local rescuer reported at least 20 deaths."
+    ],
+    "framing_differences": [
+      "The guardian frames the disaster's scale by focusing on death counts across specific regencies, whereas bbc_1 contextualizes the event within the broader 'ring of fire' geographic region. bbc_2 presents a discrepancy in casualty figures by contrasting the official agency report with local rescuer accounts."
+    ],
+    "contested_claims": [
+      "The death toll is contested; guardian and bbc_1 report at least 47 fatalities, while bbc_2 reports at least 14 fatalities, acknowledging that these figures are preliminary."
+    ],
+    "unverified_claims": [
+      "[guardian] claims more than 100 people were injured.",
+      "[guardian] claims thousands of people have been displaced.",
+      "[bbc_1] claims there was a second earthquake of magnitude 6.9 in another part of Indonesia.",
+      "[bbc_1] claims tremors were felt as far as an unspecified location."
+    ],
+    "loaded_language": [
+      "[bbc_1] uses the term 'ring of fire' to describe the geological region prone to earthquakes."
+    ],
+    "safe_conclusions": [
+      "A significant earthquake occurred on the island of Flores, Indonesia, on Saturday morning.",
+      "Search and rescue efforts are underway to locate survivors and victims.",
+      "Authorities consider current death toll figures to be preliminary."
+    ],
+    "unknowns": [
+      "The final confirmed death toll is unknown.",
+      "The exact number of injuries and displaced persons is currently unverified.",
+      "The full extent of the structural damage across all affected regencies remains under assessment."
+    ],
+    "synthesis": "A 7.7 magnitude earthquake struck the island of Flores in Indonesia on Saturday, causing building damage and triggering search and rescue operations. Reports on the number of fatalities vary, with sources citing between 14 and 47 deaths. Authorities report that casualty figures and the total scale of the damage are preliminary as efforts continue.",
+    "confidence": "CONTESTED. There is a direct contradiction between the casualty figures provided by different BBC articles and the Guardian regarding the current death toll.",
+    "sources": [
+      {
+        "id": "art_1786855269049_id1tj",
+        "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
+        "source": "guardian",
+        "title": "Rescue teams search for survivors in Indonesia after powerful earthquake"
+      },
+      {
+        "id": "art_1786852437819_di27d",
+        "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Rescuers search for survivors of powerful Indonesia earthquake"
+      },
+      {
+        "id": "art_1786779351682_xlc49",
+        "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 14 dead after 7.7-magnitude earthquake strikes Indonesia"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e82d98d06706309691b205cf2d3f1891",
+    "topic_label": "Middle East Conflict and Tensions",
+    "event_window_start": "2026-08-15T06:10:07.000Z",
+    "event_window_end": "2026-08-16T04:09:01.000Z",
+    "article_ids": [
+      "art_1786855266694_6nx54",
+      "art_1786855275724_w346j",
+      "art_1786855278907_tujay",
+      "art_1786848587747_6ugch",
+      "art_1786848594339_miivr",
+      "art_1786848596415_cf0bd",
+      "art_1786848601988_wtwdb",
+      "art_1786779356231_64lte"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 8,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T05:08:14.313Z",
+    "updated_at": "2026-08-16T05:08:14.313Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Qatari Ministry of Foreign Affairs has publicly denied claims that it is holding captured Iranian pilots."
+    ],
+    "source_claims": [
+      "[bbc] Iran claims three pilots, identified as Javad Salehi, Abdul Majid Dashtian, and Imran Behroshian, are being held captive by Qatar.",
+      "[bbc] Iran claims a fourth pilot, Majid Kazemi, was killed during a military operation on 2 March 2026.",
+      "[aljazeera] Qatar states it is not holding any surviving aircrew and characterizes Iranian claims as 'misleading statements'."
+    ],
+    "framing_differences": [
+      "The BBC report frames the event around Iran's formal letter to the ICRC and names the specific pilots involved, whereas Al Jazeera focuses on the official rebuttal from the Qatari Ministry of Foreign Affairs."
+    ],
+    "contested_claims": [
+      "Iran asserts that Qatar is detaining three Iranian pilots, while Qatar officially denies holding any surviving Iranian aircrew."
+    ],
+    "unverified_claims": [
+      "[bbc] Brig Gen Mohammad Bagherzadeh claims the pilots have been held for six months."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'misleading statements' to describe the claims made by Iranian officials."
+    ],
+    "safe_conclusions": [
+      "There is a diplomatic disagreement between Iran and Qatar regarding the status of Iranian pilots following a military operation."
+    ],
+    "unknowns": [
+      "The actual location or status of the three named Iranian pilots.",
+      "The specific details of the military operation that occurred on 2 March 2026."
+    ],
+    "synthesis": "Iran has requested the release of three pilots it alleges are being held by Qatar following a military operation on 2 March 2026. The Qatari Ministry of Foreign Affairs has issued a categorical denial of these claims, stating that they are not holding any surviving aircrew. The situation remains a point of diplomatic tension between the two nations.",
+    "confidence": "CONTESTED. The two primary sources present directly opposing narratives regarding the detention of pilots, making the factual status of the individuals involved currently impossible to verify.",
+    "sources": [
+      {
+        "id": "art_1786855266694_6nx54",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemeni government forces hit back after new Houthi offensive"
+      },
+      {
+        "id": "art_1786855275724_w346j",
+        "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Qatar denies capturing three Iranian pilots after downing fighter jets"
+      },
+      {
+        "id": "art_1786855278907_tujay",
+        "url": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Qatar denies Tehran’s claim it is detaining Iranian bomber pilots"
+      },
+      {
+        "id": "art_1786848587747_6ugch",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
+      },
+      {
+        "id": "art_1786848594339_miivr",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-26-damascus-summer-festival-sv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Army drops roses on Syrian crowds in a far cry from war"
+      },
+      {
+        "id": "art_1786848596415_cf0bd",
+        "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
+      },
+      {
+        "id": "art_1786848601988_wtwdb",
+        "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
+      },
+      {
+        "id": "art_1786779356231_64lte",
+        "url": "https://www.aljazeera.com/economy/2026/8/15/small-scale-projects-offer-hope-for-gaza-farmers-rebuilding-lives?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Small-scale projects offer hope for Gaza farmers rebuilding lives"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a7bb1131d561441bf4fdecd4c7ce435a",
+    "topic_label": "Australia Gun Control",
+    "event_window_start": "2026-08-16T02:09:46.000Z",
+    "event_window_end": "2026-08-15T21:41:43.000Z",
+    "article_ids": [
+      "art_1786852439898_iyfso",
+      "art_1786848590147_dm7vq"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T04:16:59.241Z",
+    "updated_at": "2026-08-16T04:16:59.241Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "New South Wales (NSW) is launching a gun buyback scheme.",
+      "The buyback scheme is a response to the Bondi Beach terror attack.",
+      "New South Wales Premier Chris Minns and Prime Minister Anthony Albanese have discussed the scheme."
+    ],
+    "source_claims": [
+      "[bbc] The NSW gun buyback scheme will offer up to AUS$1,000 for eligible handguns, shotguns, and rifles.",
+      "[bbc] The NSW scheme begins on 2 November.",
+      "[bbc] 15 people were murdered near Bondi Beach in a terror attack last December.",
+      "[guardian] Prime Minister Anthony Albanese stated there are currently more guns in Australia than at the time of the Port Arthur massacre.",
+      "[guardian] The federal government has made these buyback arrangements available to all states and territories."
+    ],
+    "framing_differences": [
+      "The bbc focuses on the specific details and rollout date of the New South Wales state scheme, while the guardian frames the event as part of a national effort involving a federal funding deal offered to all Australian states."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The buyback scheme could see hundreds of thousands of guns surrendered."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'terror attack' to describe the Bondi Beach incident.",
+      "[guardian] uses the term 'terror attack' to describe the Bondi Beach incident."
+    ],
+    "safe_conclusions": [
+      "New South Wales is initiating a government-backed gun buyback program.",
+      "Federal and state officials have cited the Bondi Beach incident as a catalyst for firearm policy reforms."
+    ],
+    "unknowns": [
+      "The exact number of firearms currently in circulation in Australia is not specified.",
+      "The total budget allocated for the federal and state buyback schemes is not stated."
+    ],
+    "synthesis": "The New South Wales government is launching a firearm buyback scheme following the Bondi Beach terror attack. Prime Minister Anthony Albanese has announced that this federal-state partnership is available for adoption by all Australian states and territories. Officials have cited the current volume of firearms in the country as a primary reason for the renewed focus on legislative reform.",
+    "confidence": "HIGH. The sources agree on the primary event of the state-level buyback scheme and the political context surrounding it.",
+    "sources": [
+      {
+        "id": "art_1786852439898_iyfso",
+        "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Australian state to launch gun buyback after Bondi Beach attack"
+      },
+      {
+        "id": "art_1786848590147_dm7vq",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
+        "source": "guardian",
+        "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6dbac2c438dd596d2dac95fb2c2d9e6a",
+    "topic_label": "Disaster Alerts and Emergencies",
+    "event_window_start": "2026-08-15T23:34:24.000Z",
+    "event_window_end": "2026-08-16T04:00:15.000Z",
+    "article_ids": [
+      "art_1786855267915_zea06",
+      "art_1786855280984_uk6kf",
+      "art_1786852429099_qxl1v",
+      "art_1786852431209_dx6mh",
+      "art_1786848600936_ldk0i"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T05:08:14.313Z",
+    "updated_at": "2026-08-16T05:08:14.313Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian] States that the Rock of Starvation in Budapest has emerged due to record-low water levels on the Danube.",
+      "[aljazeera] States that the Timber Fire in California covers 4,655 acres and is 12 percent contained.",
+      "[aljazeera] States that at least five people have died in Indiana due to storms and flooding.",
+      "[aljazeera] Reports that Colombian President Abelardo de la Espriella has requested a temporary suspension of US tariffs following a 7.4-magnitude earthquake.",
+      "[bbc] Reports that Hurricane Lala, a category one storm with 75mph winds, is approaching Hawaii."
+    ],
+    "framing_differences": [
+      "The provided sources report on entirely distinct regional events, such as environmental conditions in Europe (guardian), wildfire and disaster management in the US (aljazeera), and hurricane preparation in the Pacific (bbc), preventing thematic comparison."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims that historical floating mills were unable to operate when the Rock of Starvation emerged.",
+      "[aljazeera] Claims that wind conditions in California involve the erosion of morning clouds.",
+      "[aljazeera] Claims that Colombia's export market relies heavily on the US, specifically regarding coffee and oil.",
+      "[bbc] Claims that Hurricane Lala could produce a 3ft storm surge and 25in of rain in a worst-case scenario."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'devastated' to describe the impact of drought on the Danube.",
+      "[aljazeera] uses the term 'rugged' to describe the Big Sur coastline.",
+      "[aljazeera] uses the term 'fierce' to describe storms in Indiana.",
+      "[aljazeera] uses the term 'reeling' to describe the state of Colombia after an earthquake.",
+      "[bbc] uses the term 'life-threatening' to describe potential weather conditions in Hawaii."
+    ],
+    "safe_conclusions": [
+      "Multiple distinct natural events, including drought, wildfires, flooding, earthquakes, and a hurricane, are being reported across different global regions."
+    ],
+    "unknowns": [
+      "The long-term economic impact of the tariffs on Colombia.",
+      "The specific identity of individuals affected by the various natural disasters.",
+      "The precise future trajectory of Hurricane Lala."
+    ],
+    "synthesis": "Various news sources report on a series of disconnected natural disasters and weather events occurring globally. These include drought conditions in Europe, wildfires and flooding in the United States, an earthquake in Colombia, and an approaching hurricane in Hawaii. Each report focuses on the immediate local response and the physical characteristics of the respective event.",
+    "confidence": "HIGH. The sources report on geographically and thematically distinct events, and there is no factual overlap that would permit contradiction.",
+    "sources": [
+      {
+        "id": "art_1786855267915_zea06",
+        "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/16/danube-drought-destroyed-crops-rock-of-starvation-climate-crisis",
+        "source": "guardian",
+        "title": "Destroyed crops, riverbed cyclists and a ‘Rock of Starvation’: how drought has devastated the Danube"
+      },
+      {
+        "id": "art_1786855280984_uk6kf",
+        "url": "https://www.aljazeera.com/gallery/2026/8/15/california-tackles-multiple-wildfires-as-firefighter-workforce-faces-strain?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "California tackles multiple wildfires as firefighter workforce faces strain"
+      },
+      {
+        "id": "art_1786852429099_qxl1v",
+        "url": "https://www.aljazeera.com/news/2026/8/15/at-least-five-reported-dead-amid-flooding-in-us-state-of-indiana?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least five reported dead amid flooding in US state of Indiana"
+      },
+      {
+        "id": "art_1786852431209_dx6mh",
+        "url": "https://www.aljazeera.com/news/2026/8/15/colombia-asks-trump-to-suspend-tariffs-as-country-reels-from-earthquake?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Colombia asks Trump to suspend tariffs as country reels from earthquake"
+      },
+      {
+        "id": "art_1786848600936_ldk0i",
+        "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Hawaii braces for potential first direct hit by a hurricane in 34 years"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "920fff7835ea2256bfd71a25c31eb37a",
+    "topic_label": "Health Outbreaks and Risks",
+    "event_window_start": "2026-08-15T07:01:50.000Z",
+    "event_window_end": "2026-08-15T22:00:42.000Z",
+    "article_ids": [
+      "art_1786852436647_8dlas",
+      "art_1786779352913_zlaiz"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T05:08:14.313Z",
+    "updated_at": "2026-08-16T05:08:14.313Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An Ebola outbreak is occurring in the Democratic Republic of the Congo",
+      "A H5 bird flu case has been confirmed in a little penguin on Phillip Island, Australia",
+      "The Australian government announced a vaccination rollout for little penguins"
+    ],
+    "source_claims": [
+      "[aljazeera] The Ebola outbreak in the Democratic Republic of the Congo has killed 2,000 people",
+      "[aljazeera] The WHO reports that the current Ebola outbreak is spreading faster than any previous outbreak",
+      "[guardian] Authorities confirmed the first death of an Australian little penguin due to H5 bird flu",
+      "[guardian] The infected penguin was found outside of the Phillip Island penguin parade area"
+    ],
+    "framing_differences": [
+      "Aljazeera frames the Ebola outbreak as an urgent, worsening humanitarian crisis, while The Guardian focuses on the discovery of a specific avian virus case and the subsequent governmental response in Australia."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Efforts to contain the Ebola outbreak are currently being outpaced by the spread of the virus",
+      "[guardian] There are approximately 40,000 little penguins on Phillip Island"
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'deadly' to describe H5 bird flu",
+      "[guardian] uses the phrase 'spark a race' to describe the urgency of the vaccination rollout"
+    ],
+    "safe_conclusions": [
+      "There is an ongoing Ebola outbreak in the Democratic Republic of the Congo.",
+      "A case of H5 bird flu has been identified in a little penguin on Phillip Island, Australia."
+    ],
+    "unknowns": [
+      "The exact number of total current Ebola cases in the DRC",
+      "The specific cause of the H5 bird flu transmission to the penguin",
+      "The long-term efficacy of the planned penguin vaccination program"
+    ],
+    "synthesis": "An Ebola outbreak in the Democratic Republic of the Congo has resulted in 2,000 deaths and is reported by the WHO to be spreading at an accelerated pace. Simultaneously, Australian authorities have confirmed the first death of a little penguin from H5 bird flu on Phillip Island. In response to the avian flu detection, the Victorian government has initiated a vaccination program for the local penguin population.",
+    "confidence": "HIGH: The sources discuss entirely different events in separate geographic regions, and the factual statements provided within each article are internally consistent.",
+    "sources": [
+      {
+        "id": "art_1786852436647_8dlas",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/15/why-is-the-latest-ebola-outbreak-worsening?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why is the latest Ebola outbreak worsening?"
+      },
+      {
+        "id": "art_1786779352913_zlaiz",
+        "url": "https://www.theguardian.com/world/2026/aug/15/little-penguin-found-dead-with-h5-bird-flu-on-victorias-phillip-island",
+        "source": "guardian",
+        "title": "First Australian death of little penguin with H5 bird flu confirmed on Phillip Island"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "56e0108d7e7f81998e13da28c1ce1728",
     "topic_label": "Indonesia Earthquake",
     "event_window_start": "2026-08-15T04:49:47.000Z",
@@ -226,77 +656,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemen’s government says Houthi strikes hit residential areas in Marib"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a7bb1131d561441bf4fdecd4c7ce435a",
-    "topic_label": "Australia Gun Control",
-    "event_window_start": "2026-08-16T02:09:46.000Z",
-    "event_window_end": "2026-08-15T21:41:43.000Z",
-    "article_ids": [
-      "art_1786852439898_iyfso",
-      "art_1786848590147_dm7vq"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T04:16:59.241Z",
-    "updated_at": "2026-08-16T04:16:59.241Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "New South Wales (NSW) is launching a gun buyback scheme.",
-      "The buyback scheme is a response to the Bondi Beach terror attack.",
-      "New South Wales Premier Chris Minns and Prime Minister Anthony Albanese have discussed the scheme."
-    ],
-    "source_claims": [
-      "[bbc] The NSW gun buyback scheme will offer up to AUS$1,000 for eligible handguns, shotguns, and rifles.",
-      "[bbc] The NSW scheme begins on 2 November.",
-      "[bbc] 15 people were murdered near Bondi Beach in a terror attack last December.",
-      "[guardian] Prime Minister Anthony Albanese stated there are currently more guns in Australia than at the time of the Port Arthur massacre.",
-      "[guardian] The federal government has made these buyback arrangements available to all states and territories."
-    ],
-    "framing_differences": [
-      "The bbc focuses on the specific details and rollout date of the New South Wales state scheme, while the guardian frames the event as part of a national effort involving a federal funding deal offered to all Australian states."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] The buyback scheme could see hundreds of thousands of guns surrendered."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'terror attack' to describe the Bondi Beach incident.",
-      "[guardian] uses the term 'terror attack' to describe the Bondi Beach incident."
-    ],
-    "safe_conclusions": [
-      "New South Wales is initiating a government-backed gun buyback program.",
-      "Federal and state officials have cited the Bondi Beach incident as a catalyst for firearm policy reforms."
-    ],
-    "unknowns": [
-      "The exact number of firearms currently in circulation in Australia is not specified.",
-      "The total budget allocated for the federal and state buyback schemes is not stated."
-    ],
-    "synthesis": "The New South Wales government is launching a firearm buyback scheme following the Bondi Beach terror attack. Prime Minister Anthony Albanese has announced that this federal-state partnership is available for adoption by all Australian states and territories. Officials have cited the current volume of firearms in the country as a primary reason for the renewed focus on legislative reform.",
-    "confidence": "HIGH. The sources agree on the primary event of the state-level buyback scheme and the political context surrounding it.",
-    "sources": [
-      {
-        "id": "art_1786852439898_iyfso",
-        "url": "https://www.bbc.co.uk/news/articles/cgjee21eenvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Australian state to launch gun buyback after Bondi Beach attack"
-      },
-      {
-        "id": "art_1786848590147_dm7vq",
-        "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
-        "source": "guardian",
-        "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18176,506 +18535,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/on-the-ground-in-cali-colombias-worst-hit-city-after-the-quake?traffic_source=rss",
         "source": "aljazeera",
         "title": "On the ground in Cali, Colombia’s worst-hit city after the quake"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "19e5b2b285c82dae57aec16059199ca0",
-    "topic_label": "Middle East conflicts and tensions",
-    "event_window_start": "2026-08-11T23:57:55.000Z",
-    "event_window_end": "2026-08-12T20:30:26.000Z",
-    "article_ids": [
-      "art_1786567665592_4jrge",
-      "art_1786567669962_yk55i",
-      "art_1786549011224_dm0hi",
-      "art_1786512093082_4f9du",
-      "art_1786512094108_beju9",
-      "art_1786512100626_sk2qj",
-      "art_1786504322767_3eqep",
-      "art_1786504325003_mw6lc",
-      "art_1786493720194_uqtve"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T23:43:09.556Z",
-    "updated_at": "2026-08-12T23:43:09.556Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[guardian] A news bargaining bill is expected to pass the Australian parliament following an agreement between the Labor party and the Coalition.",
-      "[guardian] Thousands of students are expected to participate in rallies against Pauline Hanson across Australian cities.",
-      "[aljazeera] Journalist Faten Elwan believes her Instagram account was shadow-banned due to her pro-Palestine content.",
-      "[aljazeera] Donald Trump claims the United States has total control over the Strait of Hormuz.",
-      "[aljazeera] Donald Trump describes the US blockade of Iranian ports as a 'WALL OF STEEL'.",
-      "[guardian] Scientists at the University of Reading have created a chocolate bar using cocoa grown in Berkshire.",
-      "[aljazeera] The United Nations has issued a warning that the situation in the West Bank is at a breaking point.",
-      "[aljazeera] Israeli forces arrested at least 23 Palestinians and demolished several homes in the West Bank on Tuesday."
-    ],
-    "framing_differences": [
-      "The Guardian frames Australian political and academic events as domestic news, while Al Jazeera frames Middle Eastern geopolitical and social issues as matters of international human rights and conflict."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Faten Elwan believes her Instagram account was subject to shadow-banning by Meta.",
-      "[aljazeera] Donald Trump claims that 'everyone' is calling the US blockade of Iranian ports 'A WALL OF STEEL'.",
-      "[aljazeera] Donald Trump characterizes Iran as the 'Bully of the Middle East' that is 'all talk and no action'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'Platformicide' to describe the restriction of pro-Palestine content on Meta.",
-      "[aljazeera] uses the term 'Bully of the Middle East' to describe Iran in a quote attributed to Donald Trump.",
-      "[aljazeera] uses the term 'crackdown' to describe Israeli military activity in the West Bank.",
-      "[guardian] uses the term 'anti-racist, anti-sexist, anti-bigot' to describe the goals of student protesters."
-    ],
-    "safe_conclusions": [
-      "Australian politics, Middle Eastern conflict, and academic research are ongoing areas of reporting across these sources."
-    ],
-    "unknowns": [
-      "Whether Meta has an official policy or technical mechanism to shadow-ban specific political content.",
-      "The extent to which public opinion agrees with Donald Trump's description of the US blockade.",
-      "The specific legislative outcomes of the Australian news bargaining bill."
-    ],
-    "synthesis": "Recent reporting covers diverse international topics including Australian domestic legislation, social protests, and Middle Eastern geopolitical conflict. Scientific developments in agriculture were also highlighted alongside reports of military activity in the West Bank. The sources provide distinct updates on political, environmental, and social issues across different global regions.",
-    "confidence": "HIGH; The sources report on entirely distinct, non-overlapping events, making the factual consistency high for their respective subject matters.",
-    "sources": [
-      {
-        "id": "art_1786567665592_4jrge",
-        "url": "https://www.theguardian.com/australia-news/live/2026/aug/13/australia-politics-live-news-bargaining-meta-tiktok-housing-migration-question-time-anthony-albanese-angus-taylor-pauline-hanson-labor-coalition-one-nation-ntwnfb",
-        "source": "guardian",
-        "title": "Australia politics live: tech giants face law to pay for news content; Australia joins call for Iran to end death penalty"
-      },
-      {
-        "id": "art_1786567669962_yk55i",
-        "url": "https://www.aljazeera.com/news/2026/8/12/platformicide-of-palestine-activists-struggle-to-be-heard-on-meta?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Platformicide’ of Palestine: Activists struggle to be heard on Meta"
-      },
-      {
-        "id": "art_1786549011224_dm0hi",
-        "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As Strait of Hormuz transit drops, Trump again says US has ‘control’"
-      },
-      {
-        "id": "art_1786512093082_4f9du",
-        "url": "https://www.theguardian.com/food/2026/aug/12/all-british-chocolate-bar-made-by-scientists-using-reading-grown-cocoa",
-        "source": "guardian",
-        "title": "All-British chocolate bar made by scientists using Reading-grown cocoa"
-      },
-      {
-        "id": "art_1786512094108_beju9",
-        "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli raids, demolitions continue as UN warns West Bank at breaking point"
-      },
-      {
-        "id": "art_1786512100626_sk2qj",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drone-strikes-power-station-near-libyas-largest-oil-refinery?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Drone strikes power station near Libya’s largest oil refinery"
-      },
-      {
-        "id": "art_1786504322767_3eqep",
-        "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran"
-      },
-      {
-        "id": "art_1786504325003_mw6lc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/stronghold-of-syrian-revolution-celebrates-assads-death-sentence?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Stronghold of Syrian revolution celebrates Assad’s death sentence"
-      },
-      {
-        "id": "art_1786493720194_uqtve",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/cargo-ship-in-flames-after-houthi-attack-in-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cargo ship in flames after Houthi attack in Bab al-Mandeb strait"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "39fb1ea2646299b140dc71cebdb376de",
-    "topic_label": "Trump security and staff changes",
-    "event_window_start": "2026-08-12T02:45:01.000Z",
-    "event_window_end": "2026-08-12T20:16:55.000Z",
-    "article_ids": [
-      "art_1786567666767_owc2z",
-      "art_1786567672108_vnso3",
-      "art_1786567680059_t9nx0",
-      "art_1786549000341_9yhjc",
-      "art_1786512095134_lmx04",
-      "art_1786512098522_h334v",
-      "art_1786504320487_yk6cq"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T23:43:09.556Z",
-    "updated_at": "2026-08-12T23:43:09.556Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "White House press secretary Karoline Leavitt is stepping down from her role at the end of the month.",
-      "President Donald Trump announced the departure of Karoline Leavitt on social media.",
-      "Karoline Leavitt will remain as an outside advisor to President Donald Trump.",
-      "A catering truck was used to facilitate a change of aircraft for President Donald Trump in Turkey last month."
-    ],
-    "source_claims": [
-      "[bbc] Trump described Leavitt as one of his most trusted aides.",
-      "[aljazeera] Trump stated that Leavitt has been a leader in the White House and has fought for justice, liberty, and freedom since 2018.",
-      "[guardian] Trump stated Leavitt is leaving to spend more time with her family.",
-      "[bbc] Two cabinet members, Marco Rubio and Scott Bessent, were on a decoy plane during the flight switch in Turkey.",
-      "[aljazeera] The flight switch in Turkey was prompted by an alleged bomb plot."
-    ],
-    "framing_differences": [
-      "The Guardian frames Leavitt's departure with specific details regarding her recent maternity leave and daughter's birth, whereas the BBC and Al Jazeera frame it primarily as a standard staffing announcement.",
-      "Al Jazeera frames the Turkey flight incident as an 'assassination plot' while the BBC refers to it as 'security concerns involving Iran'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Leavitt expressed that she felt in her heart she could [text truncated] since returning to the White House."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'flee' to describe the President's actions in Turkey.",
-      "[aljazeera] uses the term 'assassination plot' to characterize the security concerns."
-    ],
-    "safe_conclusions": [
-      "Karoline Leavitt is leaving her position as White House press secretary.",
-      "President Donald Trump changed aircraft in Turkey last month using a catering truck."
-    ],
-    "unknowns": [
-      "Who will replace Karoline Leavitt as White House press secretary.",
-      "The full statement from Karoline Leavitt regarding her departure.",
-      "The specific nature of the threat in Turkey beyond conflicting reports of an 'assassination plot' versus 'security concerns'."
-    ],
-    "synthesis": "White House press secretary Karoline Leavitt is stepping down from her role at the end of the month to transition into an outside advisory position. Separately, reports indicate that President Trump utilized a catering truck to switch aircraft in Turkey last month due to security concerns involving Iran. Both events have been confirmed via social media and official reporting, though specific details regarding the threat in Turkey and the full explanation for the press secretary's departure remain ongoing subjects of coverage.",
-    "confidence": "HIGH. The sources consistently report the primary events regarding the staffing change and the aircraft switch, despite differences in descriptive framing.",
-    "sources": [
-      {
-        "id": "art_1786567666767_owc2z",
-        "url": "https://www.bbc.co.uk/news/articles/cvglzrvyrz3o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says White House press secretary Karoline Leavitt to leave post"
-      },
-      {
-        "id": "art_1786567672108_vnso3",
-        "url": "https://www.aljazeera.com/news/2026/8/12/trump-reveals-karoline-leavitt-to-step-down-as-white-house-press-secretary?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump reveals Karoline Leavitt to step down as White House press secretary"
-      },
-      {
-        "id": "art_1786567680059_t9nx0",
-        "url": "https://www.theguardian.com/us-news/2026/aug/12/karoline-leavitt-resigns",
-        "source": "guardian",
-        "title": "Karoline Leavitt will step down as White House press secretary, Trump says"
-      },
-      {
-        "id": "art_1786549000341_9yhjc",
-        "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit"
-      },
-      {
-        "id": "art_1786512095134_lmx04",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/did-trump-flee-an-iranian-assassination-plot-on-a-catering-truck?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Trump flee an Iranian assassination plot on a catering truck?"
-      },
-      {
-        "id": "art_1786512098522_h334v",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/trump-says-secret-plane-switch-up-to-the-secret?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says secret plane switch ‘up to the Secret Service’"
-      },
-      {
-        "id": "art_1786504320487_yk6cq",
-        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says he switched planes after Nato summit because of possible threat "
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a8f39a3404a2dcbaa387434ae2af9773",
-    "topic_label": "US elections and primaries",
-    "event_window_start": "2026-08-12T01:32:50.000Z",
-    "event_window_end": "2026-08-12T20:31:56.000Z",
-    "article_ids": [
-      "art_1786567664295_gbvla",
-      "art_1786549006878_rzoee",
-      "art_1786549007972_594o1",
-      "art_1786512099594_cvzha",
-      "art_1786512101701_iuh9d",
-      "art_1786512102756_kttv7",
-      "art_1786504321649_eq96i",
-      "art_1786504326150_flk1x",
-      "art_1786504331879_tpigq",
-      "art_1786504334222_yvfbn"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 10,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T23:43:09.556Z",
-    "updated_at": "2026-08-12T23:43:09.556Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "David Crowley won the Democratic nomination for Wisconsin governor.",
-      "Francesca Hong was a candidate in the Wisconsin Democratic primary for governor.",
-      "David Crowley briefly exited the Wisconsin gubernatorial race in July before re-entering."
-    ],
-    "source_claims": [
-      "[guardian] Claims David Crowley won the primary by a margin of a few thousand votes.",
-      "[guardian] Claims Francesca Hong led in polls prior to the election.",
-      "[fox] Claims Christina Bohannan missed 348 of 773 floor votes (approximately 45%) in the Iowa House of Representatives in 2022."
-    ],
-    "framing_differences": [
-      "The guardian frames the Wisconsin primary as a contest between progressive movements and Democratic establishment figures, whereas the fox article focuses on the professional attendance records and past policy statements of an Iowa congressional candidate."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims Francesca Hong was the frontrunner in a four-way race.",
-      "[fox] Claims Christina Bohannan stressed the importance for leaders to 'show up' three years after her 2022 legislative session."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'messy' to describe the primary campaign.",
-      "[guardian] uses the term 'anti-establishment wave' to describe current political trends.",
-      "[fox] uses the term 'No show' to characterize Christina Bohannan's voting record."
-    ],
-    "safe_conclusions": [
-      "David Crowley is the Democratic nominee for governor in Wisconsin.",
-      "Francesca Hong competed in the Wisconsin Democratic primary for governor."
-    ],
-    "unknowns": [
-      "The exact vote count margin by which David Crowley defeated Francesca Hong.",
-      "The specific legislative activities Christina Bohannan was engaged in during the times she missed floor votes."
-    ],
-    "synthesis": "David Crowley secured the Democratic nomination for governor in Wisconsin after a competitive primary race against Francesca Hong. In an unrelated report, records indicate that Iowa congressional candidate Christina Bohannan missed a significant portion of state house votes during her 2022 term. These events reflect distinct narratives regarding political primary outcomes and the evaluation of legislative performance in different states.",
-    "confidence": "HIGH. The sources provide distinct information regarding separate political races and candidates, and factual consistency within each report is maintained.",
-    "sources": [
-      {
-        "id": "art_1786567664295_gbvla",
-        "url": "https://www.theguardian.com/us-news/2026/aug/12/wisconsin-primary-democrats-david-crowley",
-        "source": "guardian",
-        "title": "Wisconsin primary provided snapshot of Democratic party – can it now win?"
-      },
-      {
-        "id": "art_1786549006878_rzoee",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/12/donald-trump-air-force-one-switch-politics-primaries-midterm-elections-results-latest-updates",
-        "source": "guardian",
-        "title": "David Crowley vows to earn support from progressives after winning messy Democratic primary for Wisconsin governor – live"
-      },
-      {
-        "id": "art_1786549007972_594o1",
-        "url": "https://www.foxnews.com/politics/dem-key-swing-race-missed-nearly-half-state-house-votes-taking-taxpayer-salary-no-show",
-        "source": "fox",
-        "title": "Dem in key swing race missed nearly half her state House votes while taking taxpayer salary: 'No show'"
-      },
-      {
-        "id": "art_1786512099594_cvzha",
-        "url": "https://www.theguardian.com/us-news/2026/aug/11/wisconsin-primary-election-governor-race",
-        "source": "guardian",
-        "title": "Francesca Hong aims to ride progressive wave in Wisconsin primary for governor"
-      },
-      {
-        "id": "art_1786512101701_iuh9d",
-        "url": "https://www.theguardian.com/us-news/2026/aug/11/minnesota-peggy-flanagan-wins-primary",
-        "source": "guardian",
-        "title": "Progressive Peggy Flanagan sweeps Minnesota Senate primary in race defined by anti-ICE anger"
-      },
-      {
-        "id": "art_1786512102756_kttv7",
-        "url": "https://www.foxnews.com/politics/state-of-play-highly-watched-hong-race-remains-too-close-call-progressives-notch-key-primary-wins",
-        "source": "fox",
-        "title": "STATE OF PLAY: Highly watched Hong race remains too close to call as progressives notch key primary wins"
-      },
-      {
-        "id": "art_1786504321649_eq96i",
-        "url": "https://www.foxnews.com/politics/dems-eye-pickup-wisconsin-swing-district-rep-van-orden-rematch-key-house-race",
-        "source": "fox",
-        "title": "Dems eye pick-up in Wisconsin swing district as Rep Van Orden set for rematch in key House race"
-      },
-      {
-        "id": "art_1786504326150_flk1x",
-        "url": "https://www.foxnews.com/politics/longtime-anti-trump-dem-ousted-tough-primary-from-upstart-progressive-mayor",
-        "source": "fox",
-        "title": "Longtime anti-Trump Dem ousted after tough primary from upstart progressive mayor"
-      },
-      {
-        "id": "art_1786504331879_tpigq",
-        "url": "https://www.foxnews.com/politics/republican-survives-primary-tim-walz-old-congressional-turf-dems-eye-seat-flip",
-        "source": "fox",
-        "title": "Republican survives primary on Tim Walz's old congressional turf as Dems eye seat flip"
-      },
-      {
-        "id": "art_1786504334222_yvfbn",
-        "url": "https://www.foxnews.com/politics/failed-presidential-candidate-wins-dem-primary-midwest-governor-fraud-scandal-fallout",
-        "source": "fox",
-        "title": "Failed presidential candidate wins Dem primary for Midwest governor amid fraud scandal fallout"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d5c8fb466856e0ad8cdd5da151e1ec93",
-    "topic_label": "Middle East Conflicts and Tensions",
-    "event_window_start": "2026-08-11T22:49:18.000Z",
-    "event_window_end": "2026-08-12T20:15:38.000Z",
-    "article_ids": [
-      "art_1786567669962_yk55i",
-      "art_1786549003626_jrqlk",
-      "art_1786549011224_dm0hi",
-      "art_1786512093082_4f9du",
-      "art_1786512094108_beju9",
-      "art_1786512095134_lmx04",
-      "art_1786512100626_sk2qj",
-      "art_1786504322767_3eqep",
-      "art_1786504325003_mw6lc",
-      "art_1786493720194_uqtve",
-      "art_1786490417463_l4ixw"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 11,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-12T22:42:15.180Z",
-    "updated_at": "2026-08-12T22:42:15.180Z",
-    "region_tag": "middle-east",
-    "shared_facts": [],
-    "source_claims": [
-      "[aljazeera] Faten Elwan, a Jerusalem-based journalist, believes her Instagram account was shadow-banned due to her pro-Palestine content.",
-      "[fox] The NYPD stated it will not provide security for Rama Duwaji's travel to Lebanon and Syria because of level 4 travel advisories.",
-      "[fox] The office of Mayor Zohran Mamdani initially claimed security would accompany his wife, but later characterized the claim as a miscommunication.",
-      "[aljazeera] President Donald Trump stated on Truth Social that the U.S. has total control over the Strait of Hormuz.",
-      "[aljazeera] Israeli forces arrested at least 23 Palestinians and demolished several homes in the West Bank on Tuesday.",
-      "[guardian] Scientists at the University of Reading created a chocolate bar made from 100% British-grown cocoa beans."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the situation regarding Meta through the lens of individual activists experiencing alleged censorship, whereas no other provided source discusses Meta's platform policies.",
-      "Fox frames the request for security for Mayor Mamdani's wife through the lens of a contradiction between the Mayor's office and the NYPD, while no other source covers this event."
-    ],
-    "contested_claims": [
-      "Fox reports that the NYPD denied a security detail for Mayor Mamdani's wife, while the Mayor's office initially asserted one would be provided before attributing the discrepancy to a miscommunication."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Activists are being shadow-banned by Meta.",
-      "[aljazeera] The U.S. has a blockade of Iranian ports.",
-      "[aljazeera] Israeli settlers destroyed a water pipeline in Khirbet ar-Ras al-Ahmar."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'Platformicide' to describe Meta's alleged actions.",
-      "[aljazeera] uses the term 'shadow-banned' to describe alleged restrictions on account visibility.",
-      "[fox] uses the term 'terror hotspots' to describe Lebanon and Syria.",
-      "[aljazeera] attributes the phrase 'A WALL OF STEEL' to Trump regarding the U.S. blockade.",
-      "[aljazeera] quotes Trump describing Iran as the 'Bully of the Middle East'."
-    ],
-    "safe_conclusions": [
-      "There are multiple, unrelated news events occurring globally, including geopolitical conflicts, local government administrative issues, and scientific developments in food production."
-    ],
-    "unknowns": [
-      "The specific technical data confirming shadow-banning practices by Meta.",
-      "The official internal communications between Mayor Mamdani's office and the NYPD regarding the security detail request.",
-      "The long-term geopolitical impact of the current transit levels through the Strait of Hormuz."
-    ],
-    "synthesis": "The provided reports cover disparate topics, including allegations of social media censorship in the Middle East, a municipal security dispute in New York, and updates on the U.S.-Iran conflict. Additionally, reports detail ongoing military and civil unrest in the West Bank and a recent achievement in British food science. These events occur independently and represent a collection of global news briefs.",
-    "confidence": "HIGH: The sources cover unrelated subject matter, and factual assertions are attributed directly to the relevant parties or local authorities mentioned within each independent report.",
-    "sources": [
-      {
-        "id": "art_1786567669962_yk55i",
-        "url": "https://www.aljazeera.com/news/2026/8/12/platformicide-of-palestine-activists-struggle-to-be-heard-on-meta?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Platformicide’ of Palestine: Activists struggle to be heard on Meta"
-      },
-      {
-        "id": "art_1786549003626_jrqlk",
-        "url": "https://www.foxnews.com/politics/mamdanis-office-said-nypd-would-accompany-his-wife-middle-east-vacation-cops-say-thats-not-true",
-        "source": "fox",
-        "title": "Mamdani's team said NYPD would accompany his wife on Middle East vacation — cops say that's not true"
-      },
-      {
-        "id": "art_1786549011224_dm0hi",
-        "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As Strait of Hormuz transit drops, Trump again says US has ‘control’"
-      },
-      {
-        "id": "art_1786512093082_4f9du",
-        "url": "https://www.theguardian.com/food/2026/aug/12/all-british-chocolate-bar-made-by-scientists-using-reading-grown-cocoa",
-        "source": "guardian",
-        "title": "All-British chocolate bar made by scientists using Reading-grown cocoa"
-      },
-      {
-        "id": "art_1786512094108_beju9",
-        "url": "https://www.aljazeera.com/news/2026/8/12/israeli-raids-demolitions-continue-as-un-warns-west-bank-at-breaking-point?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli raids, demolitions continue as UN warns West Bank at breaking point"
-      },
-      {
-        "id": "art_1786512095134_lmx04",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/did-trump-flee-an-iranian-assassination-plot-on-a-catering-truck?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Trump flee an Iranian assassination plot on a catering truck?"
-      },
-      {
-        "id": "art_1786512100626_sk2qj",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/drone-strikes-power-station-near-libyas-largest-oil-refinery?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Drone strikes power station near Libya’s largest oil refinery"
-      },
-      {
-        "id": "art_1786504322767_3eqep",
-        "url": "https://www.aljazeera.com/news/2026/8/12/iran-holds-firm-on-hormuz-conditions-as-pakistans-naqvi-visits-tehran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran holds firm on Hormuz conditions as Pakistan’s Naqvi visits Tehran"
-      },
-      {
-        "id": "art_1786504325003_mw6lc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/stronghold-of-syrian-revolution-celebrates-assads-death-sentence?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Stronghold of Syrian revolution celebrates Assad’s death sentence"
-      },
-      {
-        "id": "art_1786493720194_uqtve",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/11/cargo-ship-in-flames-after-houthi-attack-in-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cargo ship in flames after Houthi attack in Bab al-Mandeb strait"
-      },
-      {
-        "id": "art_1786490417463_l4ixw",
-        "url": "https://www.foxnews.com/media/tyler-feehan-mother-fiancee-recall-excitement-fatal-middle-east-deployment",
-        "source": "fox",
-        "title": "Tyler Feehan's mother and fiancée recall his excitement before fatal Middle East deployment"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
