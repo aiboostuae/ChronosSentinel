@@ -1,29 +1,10 @@
 {
-  "generated_at": "2026-08-17T05:16:46.749Z",
+  "generated_at": "2026-08-17T06:09:49.284Z",
   "status": "ready",
   "items": [
     {
-      "id": "impact-9cc2c23f",
-      "title": "Death of Hayden Panettiere",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Actor Hayden Panettiere has died at the age of 36, as confirmed by her representative and family. Her father released a statement expressing grief and requesting privacy. No cause of death has been disclosed by any of the reporting outlets.",
-      "evidence_summary": "3 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "9cc2c23f07f40d80372a8c16a9e12dc1",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-08-17T05:16:33.039Z"
-    },
-    {
-      "id": "impact-a0be430d",
-      "title": "Israel-Gaza Conflict and Politics",
+      "id": "impact-87e57857",
+      "title": "Israel-Palestine conflict",
       "severity": "medium",
       "status": "active",
       "region": "Middle East",
@@ -31,15 +12,75 @@
         "conflict",
         "shipping"
       ],
-      "why_it_matters": "Diplomatic efforts are currently underway involving Jared Kushner and Hamas representatives to negotiate a Gaza ceasefire, amidst ongoing military and settler activities in the region. Reports indicate recent prisoner releases into Gaza and sustained tensions in the West Bank. Simultaneously, public discourse remains focused on statements by Israeli officials regarding military conduct and government policies.",
+      "why_it_matters": "Recent reports indicate continued diplomatic efforts to address the conflict in Gaza, including meetings between Jared Kushner and Hamas leadership. Simultaneously, Iranian officials have claimed victory in their broader political and military stance against the US and Israel. The situation on the ground remains marked by reports of ongoing violence in the West Bank and significant casualties in Gaza.",
       "evidence_summary": "2 source(s), medium confidence.",
       "confidence_label": "medium",
       "corroboration_level": "moderate",
       "source_count": 2,
-      "related_cluster_id": "a0be430d3891cf389d2d0fb19279d717",
+      "related_cluster_id": "87e578573563b58a4d07fc6f25e7bb9c",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-17T05:16:33.039Z"
+      "updated_at": "2026-08-17T06:09:12.353Z"
+    },
+    {
+      "id": "impact-8d42c433",
+      "title": "Russia-Ukraine war",
+      "severity": "low",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "Recent military strikes in the Belgorod region of Russia and the Ukrainian capital of Kyiv have resulted in civilian casualties and property damage. Officials from both sides have reported varying fatality figures following these exchanges. Firefighting and damage assessment efforts are currently underway at affected sites.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "8d42c433d15823f890e68530968912bd",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-17T06:09:12.353Z"
+    },
+    {
+      "id": "impact-77703828",
+      "title": "Global health crises",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "The Ebola outbreak in the Democratic Republic of Congo has become the deadliest in the country's history with 2,325 reported deaths and 4,945 total infections. Health officials and the United Nations report that the epidemic is the fastest-growing on record, with 101 new cases detected in a single 24-hour period. Efforts to manage the outbreak include the inauguration of new treatment facilities and continued development of potential vaccines.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "77703828e039da70a1adc1ea6737225c",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-08-17T06:09:12.353Z"
+    },
+    {
+      "id": "impact-462332c8",
+      "title": "Severe weather and disasters",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster",
+        "grid"
+      ],
+      "why_it_matters": "Recent extreme weather events have impacted multiple regions, including severe rainfall and a landslide in South Korea, a hurricane impacting Hawaii, and a record-setting wildfire in Belgium. Each incident has triggered emergency response efforts, resulting in infrastructure damage and confirmed fatalities. Local authorities in the affected areas are currently managing the consequences of these distinct natural disasters.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "462332c83d38193bfa28ddb23fbd4867",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-08-17T06:09:12.353Z"
     },
     {
       "id": "impact-65760b49",
@@ -61,6 +102,65 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-17T04:20:38.591Z"
+    },
+    {
+      "id": "impact-9cc2c23f",
+      "title": "Death of Hayden Panettiere",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "Actor Hayden Panettiere has died at the age of 36, as confirmed by her representative and family. Her father released a statement expressing grief and requesting privacy. No cause of death has been disclosed by any of the reporting outlets.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "9cc2c23f07f40d80372a8c16a9e12dc1",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-08-17T05:16:33.039Z"
+    },
+    {
+      "id": "impact-a8097f72",
+      "title": "WNBA news",
+      "severity": "low",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "The Indiana Fever defeated the Atlanta Dream in an overtime game with a score of 95-91, a contest highlighted by the performances of Caitlin Clark and Angel Reese. While reporting on the game, multiple articles provided by the source also discuss broader controversies regarding WNBA league management and player commentary. The coverage includes specific claims regarding internal league task forces and player involvement in public debates.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "a8097f729019f040cda2b149a71c7982",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-17T06:09:12.353Z"
+    },
+    {
+      "id": "impact-a0be430d",
+      "title": "Israel-Gaza Conflict and Politics",
+      "severity": "medium",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "Diplomatic efforts are currently underway involving Jared Kushner and Hamas representatives to negotiate a Gaza ceasefire, amidst ongoing military and settler activities in the region. Reports indicate recent prisoner releases into Gaza and sustained tensions in the West Bank. Simultaneously, public discourse remains focused on statements by Israeli officials regarding military conduct and government policies.",
+      "evidence_summary": "2 source(s), medium confidence.",
+      "confidence_label": "medium",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "a0be430d3891cf389d2d0fb19279d717",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-08-17T05:16:33.039Z"
     },
     {
       "id": "impact-34613105",
@@ -3756,84 +3856,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-13T21:47:04.310Z"
-    },
-    {
-      "id": "impact-666385ec",
-      "title": "DiJonai Carrington WNBA Controversies",
-      "severity": "low",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "DiJonai Carrington was ejected after receiving a Flagrant 2 foul for an incident involving Sophie Cunningham. Following the event, Carrington posted about 'White privilege' on social media, while media commentary has focused on the handling of the foul by Indiana Fever head coach Stephanie White. Separate reporting indicates that a fan was briefly removed from a game following an unfounded complaint made by Carrington.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "666385ecbaa53731b802472ce36adbf6",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-08-13T20:45:35.044Z"
-    },
-    {
-      "id": "impact-3df67fb1",
-      "title": "Israel-Palestine Conflict and West Bank",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "Recent reports cover a range of conflicts involving Israel, including military operations in the West Bank, a legal challenge from Lebanese Americans regarding the war in Lebanon, and ongoing discourse concerning nutrition data in Gaza. These events highlight the multifaceted nature of the current regional tensions and the varying international responses. Media outlets present divergent perspectives on the nature of these events, ranging from allegations of systemic abuse to official denials of humanitarian misconduct.",
-      "evidence_summary": "4 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "high",
-      "source_count": 4,
-      "related_cluster_id": "3df67fb1677a6d05b18094a1502ab591",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-13T19:42:31.204Z"
-    },
-    {
-      "id": "impact-a733d9ef",
-      "title": "Middle East Tensions and Iran",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "The conflict between the United States and Iran has led to significant diplomatic, military, and economic developments across the globe. Reports indicate military strain on US personnel and regional tension regarding the control of the Strait of Hormuz. Simultaneously, the broader economic consequences of the conflict are impacting global trade routes and national economies, including those of Russia and South Korea.",
-      "evidence_summary": "3 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "a733d9ef68d597cb50ade10edaf399f6",
-      "related_watchlist_id": "watch-001",
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-13T19:42:31.204Z"
-    },
-    {
-      "id": "impact-978b9f85",
-      "title": "Colombia earthquake",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster"
-      ],
-      "why_it_matters": "A 7.4 magnitude earthquake struck western Colombia, causing widespread destruction and at least 265 deaths. Rescue operations are currently transitioning into a critical phase as they reach the 72-hour mark following the event. The government, led by President Abelardo de La Espriella, has declared an economic emergency and is coordinating ongoing search efforts.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "978b9f8583272faabd5ff3d103df1c01",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-08-13T15:40:41.422Z"
     }
   ]
 }
