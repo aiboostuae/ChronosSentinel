@@ -1,10 +1,92 @@
 [
   {
-    "cluster_id": "b0d6bf27439ecf76d55cca4f48da83fb",
-    "topic_label": "Israel and Gaza Conflict",
-    "event_window_start": "2026-08-16T06:06:31.000Z",
-    "event_window_end": "2026-08-17T00:05:34.000Z",
+    "cluster_id": "9cc2c23f07f40d80372a8c16a9e12dc1",
+    "topic_label": "Death of Hayden Panettiere",
+    "event_window_start": "2026-08-17T03:12:03.000Z",
+    "event_window_end": "2026-08-17T04:39:58.000Z",
     "article_ids": [
+      "art_1786942157814_9v7tr",
+      "art_1786942159327_xm2it",
+      "art_1786938963532_51h1q"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-17T05:16:33.039Z",
+    "updated_at": "2026-08-17T05:16:33.039Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Hayden Panettiere has died at the age of 36.",
+      "A representative confirmed the death.",
+      "No cause of death has been provided.",
+      "The father of the actress, Skip Panettiere, released a statement describing her as an incredible light and a force of nature."
+    ],
+    "source_claims": [
+      "[guardian] States the death was first reported by ABC News.",
+      "[fox] Mentions that the actress was known for roles in the Scream franchise.",
+      "[bbc] Mentions that the actress was known for roles in Remember the Titans and Raising Helen."
+    ],
+    "framing_differences": [
+      "Guardian frames the announcement as coming directly from the father while noting ABC News as the initial reporter, whereas BBC frames the announcement as coming from her representative to several outlets, and Fox frames the announcement as a confirmation to Fox News Digital."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims the death was first reported on ABC News."
+    ],
+    "loaded_language": [
+      "[guardian] uses the terms 'incredible light', 'force of nature', and 'profound sadness' to describe the actor and the family's sentiment.",
+      "[bbc] uses the terms 'incredible light', 'force of nature', 'profound sadness', and 'unimaginable loss' to describe the actor and the family's sentiment.",
+      "[fox] uses the terms 'incredible light', 'force of nature', and 'profound sadness' to describe the actor and the family's sentiment."
+    ],
+    "safe_conclusions": [
+      "Hayden Panettiere died at age 36.",
+      "A formal statement regarding her death was issued by her family.",
+      "The cause of death has not been released to the public."
+    ],
+    "unknowns": [
+      "The specific cause of death.",
+      "The exact time and location of death."
+    ],
+    "synthesis": "Actor Hayden Panettiere has died at the age of 36, as confirmed by her representative and family. Her father released a statement expressing grief and requesting privacy. No cause of death has been disclosed by any of the reporting outlets.",
+    "confidence": "HIGH. All sources are in agreement regarding the death of the subject and the absence of a stated cause.",
+    "sources": [
+      {
+        "id": "art_1786942157814_9v7tr",
+        "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/hayden-panettiere-death-heroes-nashville-scream-star-dies-at-36",
+        "source": "guardian",
+        "title": "Hayden Panettiere, actor in Heroes and Nashville, dies aged 36"
+      },
+      {
+        "id": "art_1786942159327_xm2it",
+        "url": "https://www.bbc.co.uk/news/articles/cq5665zgg1po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Actress Hayden Panettiere dies aged 36, US media report"
+      },
+      {
+        "id": "art_1786938963532_51h1q",
+        "url": "https://www.foxnews.com/entertainment/hayden-panettiere-dead-36",
+        "source": "fox",
+        "title": "Hayden Panettiere dead at 36"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a0be430d3891cf389d2d0fb19279d717",
+    "topic_label": "Israel-Gaza Conflict and Politics",
+    "event_window_start": "2026-08-16T06:06:31.000Z",
+    "event_window_end": "2026-08-17T03:41:30.000Z",
+    "article_ids": [
+      "art_1786942163967_2s4cu",
+      "art_1786942173173_wpmns",
       "art_1786938971298_f4bn3",
       "art_1786938972394_9q7lx",
       "art_1786938973444_31tss",
@@ -13,55 +95,70 @@
       "art_1786865834526_6vznc"
     ],
     "source_ids": [
-      "aljazeera"
+      "aljazeera",
+      "guardian"
     ],
-    "article_count": 6,
-    "source_count": 1,
+    "article_count": 8,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-17T04:20:38.591Z",
-    "updated_at": "2026-08-17T04:20:38.591Z",
+    "created_at": "2026-08-17T05:16:33.039Z",
+    "updated_at": "2026-08-17T05:16:33.039Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Israel is currently engaged in a military conflict in Gaza.",
-      "Israeli settlers are active in the West Bank.",
+      "Jared Kushner is involved in diplomatic efforts regarding the situation in Gaza.",
+      "Israeli military forces or settlers are active in the West Bank and Gaza regions.",
       "Palestinian prisoners have been released by Israel into Gaza."
     ],
     "source_claims": [
-      "[aljazeera] Israel has released 35 Palestinian prisoners into Gaza.",
+      "[aljazeera] Loui Ridi is traveling to Qusra to reach his mother and 14 others trapped by Israeli settlers.",
       "[aljazeera] UN Special Rapporteur Francesca Albanese claims Israel is outsourcing coercion to settlers in the West Bank.",
-      "[aljazeera] National Security Minister Itamar Ben-Gvir stated in a podcast that Israeli forces should kill 30 to 40 people in Gaza nightly.",
-      "[aljazeera] Settlers have erected tents in the Wadi Zeytun area near Ramallah and are establishing an outpost in the village of Burqa.",
-      "[aljazeera] Rights groups have documented allegations of torture and sexual violence in Israeli detention centers."
+      "[aljazeera] Israel released 35 Palestinian prisoners into Gaza.",
+      "[aljazeera] National Security Minister Itamar Ben-Gvir suggested Israeli forces should kill 30 to 40 people in Gaza nightly.",
+      "[guardian] Jared Kushner held a meeting with the Hamas political chief in Egypt to discuss a ceasefire.",
+      "[guardian] Benjamin Netanyahu is facing pressure following his rejection of a 15-point US-backed roadmap."
     ],
     "framing_differences": [
-      "Al Jazeera frames the conflict in Gaza as a 'genocidal war' in multiple articles, whereas the sources do not provide an alternative perspective or official state designation for the military campaign."
+      "aljazeera frames the situation in the West Bank as a humanitarian crisis involving trapped residents, while the guardian focuses on high-level diplomatic negotiations regarding the Gaza ceasefire."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] Claims that there are 9,400 Palestinians currently imprisoned by Israel.",
-      "[aljazeera] Claims that Israeli settlers have been surrounding three homes in Qusra for a week."
+      "[aljazeera] Rights groups have documented torture, sexual violence, and deliberate starvation in Israeli detention.",
+      "[aljazeera] Itamar Ben-Gvir stated that Palestinians in Gaza are 'not worthy of life'.",
+      "[guardian] The war in Gaza has lasted more than 10 months since the ceasefire ended major military operations."
     ],
     "loaded_language": [
+      "[aljazeera] uses the term 'illegal Israeli settlers' to describe the actors in Qusra.",
       "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
-      "[aljazeera] uses the term 'far-right' to describe Minister Itamar Ben-Gvir.",
-      "[aljazeera] uses the term 'not worthy of life' as attributed to comments made by Itamar Ben-Gvir."
+      "[aljazeera] uses the term 'extreme statements' to describe the remarks made by Itamar Ben-Gvir."
     ],
     "safe_conclusions": [
-      "There is ongoing military activity in Gaza and settlement expansion activity in the West Bank.",
-      "Statements regarding military conduct have been made by Israeli government officials.",
-      "There are logistical shortages in Gaza affecting daily necessities like cooking fuel."
+      "Diplomatic efforts involving Jared Kushner are ongoing regarding the Gaza conflict.",
+      "There are active reports of tension involving settlers in the West Bank.",
+      "Prisoner transfers between Israel and Gaza have occurred."
     ],
     "unknowns": [
-      "The total number of Palestinian prisoners currently held by Israel.",
-      "The official Israeli government response to the statements made by Itamar Ben-Gvir.",
-      "The specific legal status of all mentioned West Bank outposts under current Israeli law."
+      "The current status of the individuals reported trapped in Qusra.",
+      "The specific terms or outcomes of the meeting between Jared Kushner and the Hamas chief.",
+      "The official response of the Israeli government to the comments made by Itamar Ben-Gvir."
     ],
-    "synthesis": "Reports cover multiple facets of the ongoing conflict, including prisoner releases, West Bank settlement expansion, and statements from Israeli government officials regarding military strategy in Gaza. Humanitarian challenges for civilians in Gaza are noted, specifically regarding the availability of fuel and basic household items. The coverage focuses on the actions of Israeli authorities and settlers in the context of the current military operations.",
-    "confidence": "HIGH; All reports originate from a single source network, ensuring consistency in terminology and framing.",
+    "synthesis": "Diplomatic efforts are currently underway involving Jared Kushner and Hamas representatives to negotiate a Gaza ceasefire, amidst ongoing military and settler activities in the region. Reports indicate recent prisoner releases into Gaza and sustained tensions in the West Bank. Simultaneously, public discourse remains focused on statements by Israeli officials regarding military conduct and government policies.",
+    "confidence": "MEDIUM. While all sources provide updates on current events, the reporting originates from different geographical focuses and perspectives with limited overlapping verification of specific political claims.",
     "sources": [
+      {
+        "id": "art_1786942163967_2s4cu",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-american-qusra-sv-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian-American travels to West Bank home encircled by Israeli settler"
+      },
+      {
+        "id": "art_1786942173173_wpmns",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+        "source": "guardian",
+        "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza"
+      },
       {
         "id": "art_1786938971298_f4bn3",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
@@ -261,6 +358,175 @@
         "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history?traffic_source=rss",
         "source": "aljazeera",
         "title": "Ebola outbreak in DR Congo becomes deadliest in country’s history"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "594e1418d2581cd6a239ad105734607e",
+    "topic_label": "Natural Disasters and Wildfires",
+    "event_window_start": "2026-08-16T12:35:31.000Z",
+    "event_window_end": "2026-08-16T13:09:03.000Z",
+    "article_ids": [
+      "art_1786887464866_d6edd",
+      "art_1786887472179_bq53q"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-17T05:16:33.039Z",
+    "updated_at": "2026-08-17T05:16:33.039Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian] Hurricane Lala skirted Hawaii's Big Island without making landfall.",
+      "[guardian] Governor Josh Green reported one death in a car accident in the South Point area.",
+      "[guardian] Approximately 60,000 households lost power, 19 roofs were damaged, and 190 flights were postponed.",
+      "[aljazeera] A wildfire in Belgium's High Fens reserve has burned over 27 square kilometers.",
+      "[aljazeera] The fire began on Friday in Liege province and is moving toward the German border.",
+      "[aljazeera] More than 250 emergency personnel from Belgium, Germany, Luxembourg, and the Netherlands are responding.",
+      "[aljazeera] About 600 people are subject to evacuation orders in the affected area."
+    ],
+    "framing_differences": [
+      "The sources cover entirely different geographic regions and meteorological/environmental events, with guardian focusing on a hurricane in Hawaii and aljazeera focusing on a wildfire in Belgium."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Hurricane Lala is expected to gradually weaken.",
+      "[aljazeera] The current fire is the largest on record in Belgium, surpassing a 2011 fire of 14 square kilometers."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'raging torrents' to describe the flooded rivers."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The specific cause of the wildfire in Belgium.",
+      "The current status of Hurricane Lala beyond its position relative to Hawaii.",
+      "The exact number of people evacuated in the fire zone as the text cut off."
+    ],
+    "synthesis": "Guardian reports on Hurricane Lala passing Hawaii's Big Island, causing one fatality and widespread power outages. Al Jazeera reports on a large wildfire burning through Belgium's High Fens nature reserve toward the German border. Both articles cover distinct natural disaster events in different parts of the world.",
+    "confidence": "HIGH. The sources report on unrelated events, and there is no factual conflict between them.",
+    "sources": [
+      {
+        "id": "art_1786887464866_d6edd",
+        "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall",
+        "source": "guardian",
+        "title": "Hurricane Lala skirts Hawaii’s Big Island as heavy wind and rain lash region"
+      },
+      {
+        "id": "art_1786887472179_bq53q",
+        "url": "https://www.aljazeera.com/news/2026/8/16/belgiums-largest-wildfire-on-record-spreads-towards-german-border?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Belgium’s largest wildfire on record spreads towards German border"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b0d6bf27439ecf76d55cca4f48da83fb",
+    "topic_label": "Israel and Gaza Conflict",
+    "event_window_start": "2026-08-16T06:06:31.000Z",
+    "event_window_end": "2026-08-17T00:05:34.000Z",
+    "article_ids": [
+      "art_1786938971298_f4bn3",
+      "art_1786938972394_9q7lx",
+      "art_1786938973444_31tss",
+      "art_1786934984559_182qn",
+      "art_1786865833489_f4xwp",
+      "art_1786865834526_6vznc"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-17T04:20:38.591Z",
+    "updated_at": "2026-08-17T04:20:38.591Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israel is currently engaged in a military conflict in Gaza.",
+      "Israeli settlers are active in the West Bank.",
+      "Palestinian prisoners have been released by Israel into Gaza."
+    ],
+    "source_claims": [
+      "[aljazeera] Israel has released 35 Palestinian prisoners into Gaza.",
+      "[aljazeera] UN Special Rapporteur Francesca Albanese claims Israel is outsourcing coercion to settlers in the West Bank.",
+      "[aljazeera] National Security Minister Itamar Ben-Gvir stated in a podcast that Israeli forces should kill 30 to 40 people in Gaza nightly.",
+      "[aljazeera] Settlers have erected tents in the Wadi Zeytun area near Ramallah and are establishing an outpost in the village of Burqa.",
+      "[aljazeera] Rights groups have documented allegations of torture and sexual violence in Israeli detention centers."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the conflict in Gaza as a 'genocidal war' in multiple articles, whereas the sources do not provide an alternative perspective or official state designation for the military campaign."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Claims that there are 9,400 Palestinians currently imprisoned by Israel.",
+      "[aljazeera] Claims that Israeli settlers have been surrounding three homes in Qusra for a week."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
+      "[aljazeera] uses the term 'far-right' to describe Minister Itamar Ben-Gvir.",
+      "[aljazeera] uses the term 'not worthy of life' as attributed to comments made by Itamar Ben-Gvir."
+    ],
+    "safe_conclusions": [
+      "There is ongoing military activity in Gaza and settlement expansion activity in the West Bank.",
+      "Statements regarding military conduct have been made by Israeli government officials.",
+      "There are logistical shortages in Gaza affecting daily necessities like cooking fuel."
+    ],
+    "unknowns": [
+      "The total number of Palestinian prisoners currently held by Israel.",
+      "The official Israeli government response to the statements made by Itamar Ben-Gvir.",
+      "The specific legal status of all mentioned West Bank outposts under current Israeli law."
+    ],
+    "synthesis": "Reports cover multiple facets of the ongoing conflict, including prisoner releases, West Bank settlement expansion, and statements from Israeli government officials regarding military strategy in Gaza. Humanitarian challenges for civilians in Gaza are noted, specifically regarding the availability of fuel and basic household items. The coverage focuses on the actions of Israeli authorities and settlers in the context of the current military operations.",
+    "confidence": "HIGH; All reports originate from a single source network, ensuring consistency in terminology and framing.",
+    "sources": [
+      {
+        "id": "art_1786938971298_f4bn3",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel releases 35 Palestinian prisoners back into Gaza"
+      },
+      {
+        "id": "art_1786938972394_9q7lx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank"
+      },
+      {
+        "id": "art_1786938973444_31tss",
+        "url": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly"
+      },
+      {
+        "id": "art_1786934984559_182qn",
+        "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank"
+      },
+      {
+        "id": "art_1786865833489_f4xwp",
+        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How a simple lighter has become the backbone of life in Gaza"
+      },
+      {
+        "id": "art_1786865834526_6vznc",
+        "url": "https://www.aljazeera.com/news/2026/8/16/a-nation-divided-what-do-israelis-want-in-octobers-elections?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "A nation divided: What do Israelis want in October’s elections?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -17951,368 +18217,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/12/karoline-leavitt-resigns",
         "source": "guardian",
         "title": "Karoline Leavitt will step down as White House press secretary, Trump says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d0cf182ab886fe6b0d284b4cd5a940c3",
-    "topic_label": "Travis Kelce and Taylor Swift",
-    "event_window_start": "2026-08-13T00:17:25.000Z",
-    "event_window_end": "2026-08-13T01:19:23.000Z",
-    "article_ids": [
-      "art_1786585713384_a8xrh",
-      "art_1786585719050_dnvx0"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-13T03:46:21.443Z",
-    "updated_at": "2026-08-13T03:46:21.443Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Travis Kelce and Taylor Swift married at Madison Square Garden in New York.",
-      "Travis Kelce described the event as the best night of his life.",
-      "Travis Kelce provided these comments at a Kansas City Chiefs briefing/training camp."
-    ],
-    "source_claims": [
-      "[bbc] The wedding took place on 3 July.",
-      "[bbc] The couple was wed by Adam Sandler.",
-      "[guardian] The wedding occurred over two days of celebrations on 2 and 3 July.",
-      "[guardian] The couple are both 36 years old."
-    ],
-    "framing_differences": [
-      "The BBC frames the wedding as a single event on 3 July, whereas the Guardian frames the event as a two-day celebration occurring on 2 and 3 July."
-    ],
-    "contested_claims": [
-      "The sources differ on the duration and specific date of the wedding, with BBC stating it occurred on 3 July and the Guardian stating it took place over two days, 2 and 3 July."
-    ],
-    "unverified_claims": [
-      "[bbc] The couple was wed by Adam Sandler.",
-      "[guardian] The couple are both 36 years old."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'star-studded' to describe the event.",
-      "[guardian] uses the term 'pop sensation' to describe Taylor Swift.",
-      "[guardian] uses the phrase 'shrouded in mystery' to describe the event."
-    ],
-    "safe_conclusions": [
-      "Travis Kelce and Taylor Swift were married at Madison Square Garden in early July.",
-      "Travis Kelce publicly stated that the wedding was the best night of his life."
-    ],
-    "unknowns": [
-      "The exact officiating party of the wedding is not confirmed by both sources.",
-      "The precise ages of the couple are not confirmed by both sources.",
-      "The full schedule of the wedding events remains unclear due to conflicting reports on the duration."
-    ],
-    "synthesis": "Travis Kelce confirmed in comments at a Kansas City Chiefs event that his wedding to Taylor Swift at Madison Square Garden was the best night of his life. The two sources provide conflicting reports regarding the specific dates and duration of the ceremony. No further official details have been confirmed regarding the marriage.",
-    "confidence": "MEDIUM. While both sources confirm the participants, the location, and the subject's personal reaction, they contain contradictory information regarding the dates and details of the ceremony.",
-    "sources": [
-      {
-        "id": "art_1786585713384_a8xrh",
-        "url": "https://www.bbc.co.uk/news/articles/cx2r179e232o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Travis Kelce shares first details from his wedding to Taylor Swift - 'Best night of my life'"
-      },
-      {
-        "id": "art_1786585719050_dnvx0",
-        "url": "https://www.theguardian.com/music/2026/aug/13/travis-kelce-comments-taylor-swift-wedding-best-night-of-my-life",
-        "source": "guardian",
-        "title": "Travis Kelce says wedding to Taylor Swift was 'the best night of my life' in first official comments"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d0a938d6761d7652a048b96fe4ed6ce3",
-    "topic_label": "Middle East Conflict and Tensions",
-    "event_window_start": "2026-08-12T20:15:38.000Z",
-    "event_window_end": "2026-08-13T17:38:52.000Z",
-    "article_ids": [
-      "art_1786644212621_b4g9w",
-      "art_1786644215831_iipkz",
-      "art_1786640693708_x26ml",
-      "art_1786640696880_2bjqk",
-      "art_1786637194895_wcuqr",
-      "art_1786633487036_4vhth",
-      "art_1786633488072_j51zc",
-      "art_1786629914175_ply9t",
-      "art_1786623405567_hm6rb",
-      "art_1786623410767_lsbig",
-      "art_1786615701281_4t2he",
-      "art_1786615703365_wv7vk",
-      "art_1786611531345_uy9qr",
-      "art_1786606129919_wzq5b",
-      "art_1786606132093_rthf7",
-      "art_1786606133163_mfvvw",
-      "art_1786601037193_z08rr",
-      "art_1786601040299_3rzdy",
-      "art_1786567669962_yk55i"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 19,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-13T18:35:29.695Z",
-    "updated_at": "2026-08-13T18:35:29.695Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] Claims a new U.S.-backed peace plan mandates the disarmament of Hamas and transition of power.",
-      "[fox] Claims GKS Katowice fans performed Nazi salutes directed at Hapoel Tel Aviv supporters.",
-      "[aljazeera] Claims Democratic Senator Richard Blumenthal has requested information from Pete Hegseth regarding conditions on the USS Abraham Lincoln.",
-      "[aljazeera] Claims the Russian economy faces strain from a widening deficit and Ukrainian strikes, despite energy windfalls.",
-      "[aljazeera] Claims Houthi attacks in Yemen have recently intensified, threatening a 2022 truce."
-    ],
-    "framing_differences": [
-      "Fox frames the Middle East situation regarding Hamas as a transition to a new government under a U.S.-backed plan, while Al Jazeera frames the regional context through the lens of a US-Israel war with Iran."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Claims Hamas has exploited civilian and humanitarian funding for terrorist infrastructure.",
-      "[aljazeera] Claims there are reports of sailors attempting to jump overboard from the USS Abraham Lincoln."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'terrorist infrastructure' to describe Hamas-related funding recipients.",
-      "[fox] uses the term 'hostile environment' to describe the atmosphere at the soccer match.",
-      "[aljazeera] uses the term 'dire conditions' to describe the environment on the USS Abraham Lincoln."
-    ],
-    "safe_conclusions": [
-      "Hapoel Tel Aviv played a soccer match against GKS Katowice.",
-      "The USS Abraham Lincoln has been deployed at sea for approximately seven months.",
-      "The Houthis have engaged in recent military activity in Yemen."
-    ],
-    "unknowns": [
-      "The full details of the US peace plan mentioned by Fox.",
-      "The official response of the Pentagon to Senator Blumenthal's inquiry regarding the USS Abraham Lincoln.",
-      "The current status of the 2022 Yemen truce."
-    ],
-    "synthesis": "Current regional reports detail various military and geopolitical developments across the Middle East, including soccer-related tensions in Poland and naval concerns for the U.S. military. Additionally, economic analysts are assessing the stability of the Russian economy amidst ongoing global conflicts. These events occur against a backdrop of escalating Houthi activity in Yemen and shifting U.S.-backed peace proposals.",
-    "confidence": "MEDIUM. The articles describe disparate, unrelated events in different geographic locations, preventing cross-source verification of specific claims.",
-    "sources": [
-      {
-        "id": "art_1786644212621_b4g9w",
-        "url": "https://www.foxnews.com/world/cruz-sounds-alarm-over-400m-hamas-era-provision-board-peace-plan-issues-blunt-warning",
-        "source": "fox",
-        "title": "Cruz sounds alarm over $400M Hamas-era provision in Board of Peace plan — issues blunt warning"
-      },
-      {
-        "id": "art_1786644215831_iipkz",
-        "url": "https://www.foxnews.com/sports/nazi-salutes-apparently-directed-israel-soccer-team-fans-uefa-conference-league-elimination-match",
-        "source": "fox",
-        "title": "Nazi salutes apparently directed at Israel soccer team fans during UEFA Conference League elimination match"
-      },
-      {
-        "id": "art_1786640693708_x26ml",
-        "url": "https://www.aljazeera.com/news/2026/8/13/reports-of-us-sailors-in-middle-east-trying-to-jump-ship-spark-outcry?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Reports of US sailors in Middle East trying to jump ship spark outcry"
-      },
-      {
-        "id": "art_1786640696880_2bjqk",
-        "url": "https://www.aljazeera.com/video/counting-the-cost/2026/8/13/is-russias-economy-cracking-despite-the-iran-war-windfall?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is Russia’s economy cracking despite the Iran war windfall?"
-      },
-      {
-        "id": "art_1786637194895_wcuqr",
-        "url": "https://www.aljazeera.com/news/2026/8/13/will-all-out-war-in-yemen-reignite-as-houthis-escalate-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will all-out war in Yemen reignite as the Houthis escalate attacks?"
-      },
-      {
-        "id": "art_1786633487036_4vhth",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/report-from-scene-of-palestinian-homes-besieged-by-settlers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Report from scene of Palestinian homes besieged by settlers"
-      },
-      {
-        "id": "art_1786633488072_j51zc",
-        "url": "https://www.aljazeera.com/news/2026/8/13/lebanese-americans-sue-us-over-israels-rights-abuses-in-lebanon-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese Americans sue US over Israel’s rights abuses in Lebanon war"
-      },
-      {
-        "id": "art_1786629914175_ply9t",
-        "url": "https://www.foxnews.com/world/unicef-gaza-findings-completely-shatters-starvation-claims-against-israel-state-dept-says",
-        "source": "fox",
-        "title": "UNICEF Gaza findings ‘completely shatters’ starvation claims against Israel, State Dept says"
-      },
-      {
-        "id": "art_1786623405567_hm6rb",
-        "url": "https://www.aljazeera.com/news/2026/8/13/us-iran-talks-in-deadlock-whats-the-latest?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US-Iran talks in deadlock – what’s the latest?"
-      },
-      {
-        "id": "art_1786623410767_lsbig",
-        "url": "https://www.aljazeera.com/features/2026/8/13/israel-trucks-out-gazas-rubble-to-hide-genocide-and-redraw-the-map?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel trucks out Gaza’s rubble to ‘hide genocide’ and ‘redraw the map’"
-      },
-      {
-        "id": "art_1786615701281_4t2he",
-        "url": "https://www.theguardian.com/world/2026/aug/13/south-korea-incheon-airport-iran-war-middle-east",
-        "source": "guardian",
-        "title": "South Korean airport becomes busiest in world for global traffic amid Iran war"
-      },
-      {
-        "id": "art_1786615703365_wv7vk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/pro-palestine-activists-smear-red-paint-on-danish-defence-company?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pro-Palestine activists smear red paint on Danish defence company"
-      },
-      {
-        "id": "art_1786611531345_uy9qr",
-        "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "More troops to be sent to West Bank village besieged by Israeli settlers"
-      },
-      {
-        "id": "art_1786606129919_wzq5b",
-        "url": "https://www.aljazeera.com/features/2026/8/13/palestinian-women-in-gaza-face-legal-hurdles-in-divorce-struggles?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian women in Gaza face legal hurdles in divorce struggles"
-      },
-      {
-        "id": "art_1786606132093_rthf7",
-        "url": "https://www.aljazeera.com/features/2026/8/13/they-destroyed-us-palestinian-family-sleeps-in-the-open-after-demolition?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘They destroyed us’: Palestinian family sleeps in the open after demolition"
-      },
-      {
-        "id": "art_1786606133163_mfvvw",
-        "url": "https://www.theguardian.com/business/2026/aug/13/uk-economic-growth-slows-iran-war-energy-prices-gdp-ons",
-        "source": "guardian",
-        "title": "UK economic growth slows down as Iran war pushes up energy prices"
-      },
-      {
-        "id": "art_1786601037193_z08rr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/three-palestinian-families-besieged-in-their-homes-by-israeli-settlers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Three Palestinian families besieged in their homes by Israeli settlers"
-      },
-      {
-        "id": "art_1786601040299_3rzdy",
-        "url": "https://www.aljazeera.com/news/2026/8/13/israeli-settlers-besiege-three-palestinian-families-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli settlers besiege three Palestinian families in West Bank’s Qusra"
-      },
-      {
-        "id": "art_1786567669962_yk55i",
-        "url": "https://www.aljazeera.com/news/2026/8/12/platformicide-of-palestine-activists-struggle-to-be-heard-on-meta?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Platformicide’ of Palestine: Activists struggle to be heard on Meta"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4ce70a34a13249c6e9452abb10e7a5e5",
-    "topic_label": "Solar Eclipse in Europe",
-    "event_window_start": "2026-08-12T19:55:59.000Z",
-    "event_window_end": "2026-08-13T15:19:13.000Z",
-    "article_ids": [
-      "art_1786637196996_twafv",
-      "art_1786594576139_ig4p3",
-      "art_1786567668891_yoj1z",
-      "art_1786567677550_oxf81",
-      "art_1786567679008_cjvkx"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-13T16:35:33.927Z",
-    "updated_at": "2026-08-13T16:35:33.927Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A solar eclipse occurred on a Wednesday evening.",
-      "The eclipse was visible in various parts of Europe, with partial views in some regions and totality in others.",
-      "People utilized various devices and methods, including colanders and pinhole cameras, to view the eclipse."
-    ],
-    "source_claims": [
-      "[guardian] states the eclipse triggered a drop in temperature and caused birds to go quiet.",
-      "[aljazeera] claims the eclipse turned day into sudden night for about two minutes along the path of totality.",
-      "[aljazeera] claims the path of totality crossed northern Russia, Greenland, Iceland, Spain, and a small part of Portugal.",
-      "[guardian] claims the path of totality included Greenland, Iceland, Spain, and a small strip of Portugal, beginning in Russia’s remote Arctic north."
-    ],
-    "framing_differences": [
-      "The Guardian frames the event through the lens of human experience, community interaction, and individual anecdote, while Al Jazeera frames the event through geographic descriptions of the path of totality and meteorological effects."
-    ],
-    "contested_claims": [
-      "Al Jazeera reports the eclipse began at 15:34 GMT, while The Guardian does not provide a specific start time, though it mentions the event occurred on Wednesday evening."
-    ],
-    "unverified_claims": [
-      "[aljazeera] claims the eclipse was a 'total solar eclipse' and the 'first... in 27 years'.",
-      "[aljazeera] claims the eclipse carved the Eiffel Tower's silhouette in the sky."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'magical eeriness' to describe the atmosphere of the eclipse.",
-      "[guardian] uses the term 'breathtaking sight' to describe the eclipse.",
-      "[aljazeera] uses the term 'plunges... into darkness' to describe the eclipse effect."
-    ],
-    "safe_conclusions": [
-      "A solar eclipse occurred on a Wednesday and was visible across parts of Europe.",
-      "Viewers in different locations used makeshift devices to observe the event."
-    ],
-    "unknowns": [
-      "The exact start and end times across all specific geographic locations.",
-      "The total number of people who observed the event across all regions."
-    ],
-    "synthesis": "A solar eclipse took place on a Wednesday, providing a total eclipse in some regions of Europe and a partial eclipse in others. Millions of people observed the event across Europe, with some using handheld devices to view the phenomenon. News sources described the experience as a communal event characterized by changes in lighting and atmospheric conditions.",
-    "confidence": "MEDIUM; While the general occurrence of the eclipse is confirmed, there are minor discrepancies in the geographic description of the path of totality between sources and varying claims regarding the frequency and timing of such events.",
-    "sources": [
-      {
-        "id": "art_1786637196996_twafv",
-        "url": "https://www.theguardian.com/science/2026/aug/13/guardian-readers-share-solar-eclipse-experience",
-        "source": "guardian",
-        "title": "‘The colander worked best!’ Guardian readers share their experience of the solar eclipse"
-      },
-      {
-        "id": "art_1786594576139_ig4p3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/13/solar-eclipse-carves-eiffel-towers-silhouette-in-paris-sky?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Solar eclipse carves Eiffel Tower’s silhouette in Paris sky"
-      },
-      {
-        "id": "art_1786567668891_yoj1z",
-        "url": "https://www.aljazeera.com/gallery/2026/8/12/photos-solar-eclipse-plunges-parts-of-europe-into-darkness?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Photos: Solar eclipse plunges parts of Europe into darkness"
-      },
-      {
-        "id": "art_1786567677550_oxf81",
-        "url": "https://www.theguardian.com/science/ng-interactive/2026/aug/12/cruise-ships-quiet-towns-and-an-all-day-festival-millions-flock-to-eclipse-viewing-spots-across-europe",
-        "source": "guardian",
-        "title": "Cruise ships, quiet towns and an all-day festival: millions flock to eclipse viewing spots across Europe"
-      },
-      {
-        "id": "art_1786567679008_cjvkx",
-        "url": "https://www.theguardian.com/science/2026/aug/12/a-magical-eeriness-cornwall-comes-together-for-communal-moment-during-solar-eclipse",
-        "source": "guardian",
-        "title": "‘A magical eeriness’: Cornwall comes together for communal moment during solar eclipse"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
