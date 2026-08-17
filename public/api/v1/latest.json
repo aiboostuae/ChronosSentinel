@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T11:59:27.604Z",
+  "generated_at": "2026-08-17T12:40:47.620Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 192,
@@ -87,22 +87,21 @@
       "updated_at": "2026-08-17T11:59:20.033Z"
     },
     {
-      "cluster_id": "1bb8de456753d6f5e855ff4f57c75130",
-      "topic_label": "International Wildfire Events",
-      "event_window_start": "2026-08-16T12:35:31.000Z",
+      "cluster_id": "cd447f2172938b509325de5b02745842",
+      "topic_label": "Wildfires in Greece and Europe",
+      "event_window_start": "2026-08-16T21:27:03.000Z",
       "event_window_end": "2026-08-17T07:39:32.000Z",
-      "article_count": 3,
-      "source_count": 2,
+      "article_count": 2,
+      "source_count": 1,
       "region_tag": "global",
       "shared_facts": [
-        "A major wildfire is burning in Belgium near the German border in the High Fens nature reserve.",
-        "The wildfire in Belgium began on Friday.",
-        "The wildfire in Belgium has impacted the Liege province.",
-        "Emergency personnel from multiple countries, including Germany, Luxembourg, and the Netherlands, are assisting Belgian efforts."
+        "A major wildfire is currently affecting Belgium in an area near the German border.",
+        "The wildfire in Belgium is being described as the largest in the country's recent history.",
+        "Firefighting efforts in Belgium have been ongoing over the weekend."
       ],
       "source_differences": [],
-      "synthesis": "Wildfires are currently affecting multiple European countries, including significant blazes in Belgium, Greece, and Spain. In Belgium, multinational emergency teams are working to contain a wildfire in the High Fens nature reserve that has been active since Friday. Greece and Spain have also reported casualties related to ongoing fire emergencies in their respective regions.",
-      "confidence": "MEDIUM. The sources agree on the existence and general location of the fires but provide conflicting measurements for the area burned in Belgium.",
+      "synthesis": "Significant wildfires are currently impacting several European nations, including Belgium, Greece, France, and Spain. Belgium is managing what is reported to be its largest wildfire in recent history near the German border. Meanwhile, casualties related to wildfire activity have been reported in Greece and Spain.",
+      "confidence": "HIGH. The sources consistently identify ongoing wildfire events across Europe, with minor variations in the specific scope and geographic focus of each report.",
       "sources": [
         {
           "source": "guardian",
@@ -113,11 +112,42 @@
           "source": "guardian",
           "url": "https://www.theguardian.com/world/2026/aug/16/greek-island-salamis-belgium-high-fens-helicopters-wildfire",
           "title": "Wildfires kill two in Greece and torch Belgian nature reserve"
-        },
+        }
+      ],
+      "updated_at": "2026-08-17T12:40:42.170Z"
+    },
+    {
+      "cluster_id": "6a8314a5c74d7eb768c85245d144a6d1",
+      "topic_label": "Mental Health on USS Lincoln",
+      "event_window_start": "2026-08-16T21:04:27.000Z",
+      "event_window_end": "2026-08-16T20:46:01.000Z",
+      "article_count": 3,
+      "source_count": 3,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "US Admiral Brad Cooper visited the USS Abraham Lincoln.",
+        "The USS Abraham Lincoln has been deployed at sea for a long duration without a port call.",
+        "Admiral Brad Cooper stated that the USS Abraham Lincoln has among the lowest number of mental health cases of the 11 active US aircraft carriers.",
+        "The USS Abraham Lincoln is deployed in the Middle East."
+      ],
+      "source_differences": [],
+      "synthesis": "Admiral Brad Cooper visited the USS Abraham Lincoln to address the status of the crew following an extended deployment in the Middle East. While sources differ on the specific duration of the time spent at sea, the commander maintained that the carrier currently reports among the lowest mental health case numbers in the fleet. The deployment has been the subject of reports regarding crew conditions, which officials have addressed.",
+      "confidence": "MEDIUM. While the sources agree on the primary event and the Admiral's statements, they provide inconsistent data regarding the exact duration of the deployment.",
+      "sources": [
         {
           "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/16/belgiums-largest-wildfire-on-record-spreads-towards-german-border?traffic_source=rss",
-          "title": "Belgium’s largest wildfire on record spreads towards German border"
+          "url": "https://www.aljazeera.com/news/2026/8/16/us-admiral-praises-uss-lincoln-crew-amid-reported-mental-health-concerns?traffic_source=rss",
+          "title": "US admiral praises USS Lincoln crew amid reported mental health concerns"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/centcom-commander-touts-uss-abraham-lincoln-mental-health-record-after-more-than-260-days-without-port-call",
+          "title": "CENTCOM commander touts USS Abraham Lincoln mental health record after more than 260 days without port call"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
+          "title": "US commander says mental health a 'priority' on USS Lincoln"
         }
       ],
       "updated_at": "2026-08-17T08:46:14.659Z"
@@ -162,42 +192,6 @@
         }
       ],
       "updated_at": "2026-08-17T04:20:38.591Z"
-    },
-    {
-      "cluster_id": "6a8314a5c74d7eb768c85245d144a6d1",
-      "topic_label": "Mental Health on USS Lincoln",
-      "event_window_start": "2026-08-16T21:04:27.000Z",
-      "event_window_end": "2026-08-16T20:46:01.000Z",
-      "article_count": 3,
-      "source_count": 3,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "US Admiral Brad Cooper visited the USS Abraham Lincoln.",
-        "The USS Abraham Lincoln has been deployed at sea for a long duration without a port call.",
-        "Admiral Brad Cooper stated that the USS Abraham Lincoln has among the lowest number of mental health cases of the 11 active US aircraft carriers.",
-        "The USS Abraham Lincoln is deployed in the Middle East."
-      ],
-      "source_differences": [],
-      "synthesis": "Admiral Brad Cooper visited the USS Abraham Lincoln to address the status of the crew following an extended deployment in the Middle East. While sources differ on the specific duration of the time spent at sea, the commander maintained that the carrier currently reports among the lowest mental health case numbers in the fleet. The deployment has been the subject of reports regarding crew conditions, which officials have addressed.",
-      "confidence": "MEDIUM. While the sources agree on the primary event and the Admiral's statements, they provide inconsistent data regarding the exact duration of the deployment.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/16/us-admiral-praises-uss-lincoln-crew-amid-reported-mental-health-concerns?traffic_source=rss",
-          "title": "US admiral praises USS Lincoln crew amid reported mental health concerns"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/centcom-commander-touts-uss-abraham-lincoln-mental-health-record-after-more-than-260-days-without-port-call",
-          "title": "CENTCOM commander touts USS Abraham Lincoln mental health record after more than 260 days without port call"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
-          "title": "US commander says mental health a 'priority' on USS Lincoln"
-        }
-      ],
-      "updated_at": "2026-08-17T08:46:14.659Z"
     },
     {
       "cluster_id": "77703828e039da70a1adc1ea6737225c",
@@ -271,6 +265,42 @@
         }
       ],
       "updated_at": "2026-08-17T05:16:33.039Z"
+    },
+    {
+      "cluster_id": "1bb8de456753d6f5e855ff4f57c75130",
+      "topic_label": "International Wildfire Events",
+      "event_window_start": "2026-08-16T12:35:31.000Z",
+      "event_window_end": "2026-08-17T07:39:32.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "A major wildfire is burning in Belgium near the German border in the High Fens nature reserve.",
+        "The wildfire in Belgium began on Friday.",
+        "The wildfire in Belgium has impacted the Liege province.",
+        "Emergency personnel from multiple countries, including Germany, Luxembourg, and the Netherlands, are assisting Belgian efforts."
+      ],
+      "source_differences": [],
+      "synthesis": "Wildfires are currently affecting multiple European countries, including significant blazes in Belgium, Greece, and Spain. In Belgium, multinational emergency teams are working to contain a wildfire in the High Fens nature reserve that has been active since Friday. Greece and Spain have also reported casualties related to ongoing fire emergencies in their respective regions.",
+      "confidence": "MEDIUM. The sources agree on the existence and general location of the fires but provide conflicting measurements for the area burned in Belgium.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/17/europe-wildfires-france-greece-belgium-germany-climate-crisis-drought-extreme-heat-latest-news-updates",
+          "title": "Wildfires rage in France and Greece as Belgium tackles enormous blaze – Europe live"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/16/greek-island-salamis-belgium-high-fens-helicopters-wildfire",
+          "title": "Wildfires kill two in Greece and torch Belgian nature reserve"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/16/belgiums-largest-wildfire-on-record-spreads-towards-german-border?traffic_source=rss",
+          "title": "Belgium’s largest wildfire on record spreads towards German border"
+        }
+      ],
+      "updated_at": "2026-08-17T08:46:14.659Z"
     },
     {
       "cluster_id": "5b7292fb2ff7c67fb226d4ba16f4a28f",
@@ -487,77 +517,6 @@
         }
       ],
       "updated_at": "2026-08-17T06:09:12.353Z"
-    },
-    {
-      "cluster_id": "212506222ce0358e8d41ab7fd9726b0d",
-      "topic_label": "Israel-Gaza Conflict and West Bank",
-      "event_window_start": "2026-08-17T01:28:13.000Z",
-      "event_window_end": "2026-08-17T06:32:03.000Z",
-      "article_count": 11,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Current reports cover diverse developments in the Middle East, including diplomatic efforts in Cairo involving US envoys and Hamas representatives. Other reports highlight separate instances of conflict and political rhetoric, ranging from allegations of genocide to claims of victory by Iranian officials. These events represent individual facets of a broader, ongoing regional situation.",
-      "confidence": "HIGH. The sources report on entirely distinct and unrelated sets of events, meaning factual consistency is not applicable across the separate articles.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/live/2026/aug/17/trump-kushner-netanyahu-hamas-gaza-israel-blair-us-iran-hormuz-oil-latest-news-updates",
-          "title": "Hamas calls for Trump’s Board of Peace to ‘compel’ Israel over Gaza peace plan – Middle East crisis live"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israelis-harass-palestinian-owned-cafe-in-iceland-tear-down-palestine-map?traffic_source=rss",
-          "title": "Israelis harass Palestinian-owned cafe in Iceland, tear down Palestine map"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/irans-top-negotiator-declares-victory-in-war-against-the-us-and-israel?traffic_source=rss",
-          "title": "Iran’s top negotiator declares victory in war against the US and Israel"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-14-2026-gaza-femigenocide-sv-mp4?traffic_source=rss",
-          "title": "Lawyer says Israel’s targeting of Palestinian women is a form of genocide"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/8/16/what-could-stop-israeli-settler-attacks-on-palestinians?traffic_source=rss",
-          "title": "What could stop Israeli settler attacks on Palestinians?"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-american-qusra-sv-mp4?traffic_source=rss",
-          "title": "Palestinian-American travels to West Bank home encircled by Israeli settler"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
-          "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
-          "title": "Israel releases 35 Palestinian prisoners back into Gaza"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
-          "title": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
-          "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
-          "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank"
-        }
-      ],
-      "updated_at": "2026-08-17T07:09:39.326Z"
     }
   ],
   "latest_impact": [
@@ -582,23 +541,41 @@
       "updated_at": "2026-08-17T11:59:20.033Z"
     },
     {
-      "id": "impact-1bb8de45",
-      "title": "International Wildfire Events",
-      "severity": "critical",
+      "id": "impact-cd447f21",
+      "title": "Wildfires in Greece and Europe",
+      "severity": "low",
       "status": "active",
       "region": "Global",
       "domains": [
-        "disaster",
         "shipping"
       ],
-      "why_it_matters": "Wildfires are currently affecting multiple European countries, including significant blazes in Belgium, Greece, and Spain. In Belgium, multinational emergency teams are working to contain a wildfire in the High Fens nature reserve that has been active since Friday. Greece and Spain have also reported casualties related to ongoing fire emergencies in their respective regions.",
-      "evidence_summary": "2 source(s), medium confidence.",
+      "why_it_matters": "Significant wildfires are currently impacting several European nations, including Belgium, Greece, France, and Spain. Belgium is managing what is reported to be its largest wildfire in recent history near the German border. Meanwhile, casualties related to wildfire activity have been reported in Greece and Spain.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "cd447f2172938b509325de5b02745842",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-08-17T12:40:42.170Z"
+    },
+    {
+      "id": "impact-6a8314a5",
+      "title": "Mental Health on USS Lincoln",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "Admiral Brad Cooper visited the USS Abraham Lincoln to address the status of the crew following an extended deployment in the Middle East. While sources differ on the specific duration of the time spent at sea, the commander maintained that the carrier currently reports among the lowest mental health case numbers in the fleet. The deployment has been the subject of reports regarding crew conditions, which officials have addressed.",
+      "evidence_summary": "3 source(s), medium confidence.",
       "confidence_label": "medium",
       "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "1bb8de456753d6f5e855ff4f57c75130",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "source_count": 3,
+      "related_cluster_id": "6a8314a5c74d7eb768c85245d144a6d1",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-08-17T08:46:14.659Z"
     },
     {
@@ -621,25 +598,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-17T04:20:38.591Z"
-    },
-    {
-      "id": "impact-6a8314a5",
-      "title": "Mental Health on USS Lincoln",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Admiral Brad Cooper visited the USS Abraham Lincoln to address the status of the crew following an extended deployment in the Middle East. While sources differ on the specific duration of the time spent at sea, the commander maintained that the carrier currently reports among the lowest mental health case numbers in the fleet. The deployment has been the subject of reports regarding crew conditions, which officials have addressed.",
-      "evidence_summary": "3 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "6a8314a5c74d7eb768c85245d144a6d1",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-08-17T08:46:14.659Z"
     },
     {
       "id": "impact-77703828",
@@ -678,6 +636,26 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-08-17T05:16:33.039Z"
+    },
+    {
+      "id": "impact-1bb8de45",
+      "title": "International Wildfire Events",
+      "severity": "critical",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster",
+        "shipping"
+      ],
+      "why_it_matters": "Wildfires are currently affecting multiple European countries, including significant blazes in Belgium, Greece, and Spain. In Belgium, multinational emergency teams are working to contain a wildfire in the High Fens nature reserve that has been active since Friday. Greece and Spain have also reported casualties related to ongoing fire emergencies in their respective regions.",
+      "evidence_summary": "2 source(s), medium confidence.",
+      "confidence_label": "medium",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "1bb8de456753d6f5e855ff4f57c75130",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-08-17T08:46:14.659Z"
     },
     {
       "id": "impact-5b7292fb",
@@ -739,26 +717,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-17T06:09:12.353Z"
-    },
-    {
-      "id": "impact-21250622",
-      "title": "Israel-Gaza Conflict and West Bank",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "Current reports cover diverse developments in the Middle East, including diplomatic efforts in Cairo involving US envoys and Hamas representatives. Other reports highlight separate instances of conflict and political rhetoric, ranging from allegations of genocide to claims of victory by Iranian officials. These events represent individual facets of a broader, ongoing regional situation.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "212506222ce0358e8d41ab7fd9726b0d",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-17T07:09:39.326Z"
     }
   ]
 }
