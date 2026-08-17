@@ -1,5 +1,85 @@
 [
   {
+    "cluster_id": "03c5a40f33f80eb7aecaa52a12018878",
+    "topic_label": "Conflict in Gaza and Lebanon",
+    "event_window_start": "2026-08-16T02:26:54.000Z",
+    "event_window_end": "2026-08-16T06:10:58.000Z",
+    "article_ids": [
+      "art_1786865833489_f4xwp",
+      "art_1786858389026_nkdfj",
+      "art_1786848587747_6ugch"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-17T01:03:01.265Z",
+    "updated_at": "2026-08-17T01:03:01.265Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israel has engaged in military activity within the Gaza Strip and Lebanon.",
+      "Civilians in Gaza are currently experiencing severe shortages of daily necessities.",
+      "The ongoing military activity has resulted in the displacement of populations in Lebanon."
+    ],
+    "source_claims": [
+      "[aljazeera-1] Rabab Deifallah reports that lighters are difficult to acquire in Gaza.",
+      "[aljazeera-1] Rabab Deifallah uses firewood for cooking and heating due to shortages of cooking gas.",
+      "[aljazeera-2] At least 11 people were killed in Israeli airstrikes in Lebanon.",
+      "[aljazeera-3] Journalist Hind Khoudary has opened a cafe on a beach in Gaza."
+    ],
+    "framing_differences": [
+      "aljazeera-1 frames the conflict in Gaza as having created a humanitarian crisis involving the scarcity of simple tools like lighters.",
+      "aljazeera-2 frames the conflict in Lebanon as an escalation resulting in displacement and casualties.",
+      "aljazeera-3 frames the opening of a cafe in Gaza as a symbolic act of resilience and community building amid the conflict."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera-1] Rabab Deifallah claims Israel’s war on Gaza is genocidal.",
+      "[aljazeera-2] Israel struck the Nabatieh district of southern Lebanon."
+    ],
+    "loaded_language": [
+      "[aljazeera-1] uses the term 'genocidal' to describe the war on Gaza.",
+      "[aljazeera-3] uses the term 'war-ravaged' to describe the Gaza enclave."
+    ],
+    "safe_conclusions": [
+      "Conflict in the Gaza Strip and Lebanon is currently impacting civilian life.",
+      "Civilians are subject to displacement and resource shortages in these regions."
+    ],
+    "unknowns": [
+      "The exact number of lighters currently available in the Gaza market.",
+      "The specific locations in northern Lebanon receiving displaced families.",
+      "The long-term operational feasibility of the cafe opened by Hind Khoudary."
+    ],
+    "synthesis": "Recent reports from Al Jazeera detail the ongoing humanitarian challenges in Gaza, including the scarcity of basic items and civilian attempts to maintain aspects of daily life. Simultaneously, military strikes in southern Lebanon have caused casualties and prompted civilian displacement to the north. These accounts illustrate the pervasive impact of current military activities on civilian populations in both territories.",
+    "confidence": "HIGH. The provided articles are from the same source and reflect internally consistent reporting on separate, distinct events within the same regional conflict.",
+    "sources": [
+      {
+        "id": "art_1786865833489_f4xwp",
+        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How a simple lighter has become the backbone of life in Gaza"
+      },
+      {
+        "id": "art_1786858389026_nkdfj",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel strikes south Lebanon again as families flee north"
+      },
+      {
+        "id": "art_1786848587747_6ugch",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "c2909b6ae1c3458defc0e7a7df612908",
     "topic_label": "Indonesia earthquake disaster",
     "event_window_start": "2026-08-16T03:57:34.000Z",
@@ -69,6 +149,78 @@
         "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
         "source": "guardian",
         "title": "Rescue teams search for survivors in Indonesia after powerful earthquake"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7401ab228e8032aa022e6a5f3777aa44",
+    "topic_label": "Australia gun control",
+    "event_window_start": "2026-08-16T02:09:46.000Z",
+    "event_window_end": "2026-08-16T04:35:26.000Z",
+    "article_ids": [
+      "art_1786858390071_f3e82",
+      "art_1786848590147_dm7vq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-16T21:52:32.578Z",
+    "updated_at": "2026-08-16T21:52:32.578Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Prime Minister Anthony Albanese and New South Wales Premier Chris Minns have announced a gun buyback scheme.",
+      "The buyback scheme is being implemented in response to a mass shooting event in Bondi.",
+      "The federal government is partnering with states and territories on gun control measures.",
+      "There are currently more firearms in Australia than at the time of the Port Arthur massacre."
+    ],
+    "source_claims": [
+      "[aljazeera] The gun buyback is scheduled to begin in November.",
+      "[aljazeera] The government intends to implement tighter gun licence checks and a crackdown on hate.",
+      "[aljazeera] The December 14, 2025, Bondi Beach attack resulted in 15 deaths.",
+      "[aljazeera] The alleged gunmen in the Bondi attack used legally obtained firearms.",
+      "[guardian] The prime minister invited all states and territories to join the buyback scheme under a federal funding deal."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event specifically as a 'nationwide response' tied to a 'crackdown on hate', whereas The Guardian frames the event as part of a broader federal-state funding partnership and historical comparison to the Port Arthur massacre."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Australians owned a record 4.1 million firearms last year, with 1.1 million in New South Wales."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'crackdown on hate' to describe government policy.",
+      "[guardian] uses the term 'Bondi terror attack' to characterize the event."
+    ],
+    "safe_conclusions": [
+      "A gun buyback program is being initiated in New South Wales.",
+      "The Australian federal government is addressing current firearm ownership levels."
+    ],
+    "unknowns": [
+      "The specific details of the gun licence checks and the 'crackdown on hate' measures mentioned by the Prime Minister.",
+      "The specific legislative details of the federal funding deal mentioned by The Guardian."
+    ],
+    "synthesis": "Prime Minister Anthony Albanese and New South Wales Premier Chris Minns have announced a new gun buyback scheme in response to a mass shooting at Bondi. The initiative is part of a broader effort to address rising firearm ownership numbers in Australia compared to the era of the Port Arthur massacre. The federal government has offered to extend this funding deal to all other states and territories.",
+    "confidence": "HIGH. Both sources confirm the existence of the gun buyback scheme and the political context of the federal-state partnership, though one provides specific date and casualty details regarding the underlying incident not present in the other.",
+    "sources": [
+      {
+        "id": "art_1786858390071_f3e82",
+        "url": "https://www.aljazeera.com/news/2026/8/16/australia-gun-buyback-spurred-by-bondi-attack-to-start-in-november-pm-says?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Australia gun buyback spurred by Bondi attack to start in November, PM says"
+      },
+      {
+        "id": "art_1786848590147_dm7vq",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
+        "source": "guardian",
+        "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -160,78 +312,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
         "source": "aljazeera",
         "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7401ab228e8032aa022e6a5f3777aa44",
-    "topic_label": "Australia gun control",
-    "event_window_start": "2026-08-16T02:09:46.000Z",
-    "event_window_end": "2026-08-16T04:35:26.000Z",
-    "article_ids": [
-      "art_1786858390071_f3e82",
-      "art_1786848590147_dm7vq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T21:52:32.578Z",
-    "updated_at": "2026-08-16T21:52:32.578Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Prime Minister Anthony Albanese and New South Wales Premier Chris Minns have announced a gun buyback scheme.",
-      "The buyback scheme is being implemented in response to a mass shooting event in Bondi.",
-      "The federal government is partnering with states and territories on gun control measures.",
-      "There are currently more firearms in Australia than at the time of the Port Arthur massacre."
-    ],
-    "source_claims": [
-      "[aljazeera] The gun buyback is scheduled to begin in November.",
-      "[aljazeera] The government intends to implement tighter gun licence checks and a crackdown on hate.",
-      "[aljazeera] The December 14, 2025, Bondi Beach attack resulted in 15 deaths.",
-      "[aljazeera] The alleged gunmen in the Bondi attack used legally obtained firearms.",
-      "[guardian] The prime minister invited all states and territories to join the buyback scheme under a federal funding deal."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the event specifically as a 'nationwide response' tied to a 'crackdown on hate', whereas The Guardian frames the event as part of a broader federal-state funding partnership and historical comparison to the Port Arthur massacre."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Australians owned a record 4.1 million firearms last year, with 1.1 million in New South Wales."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'crackdown on hate' to describe government policy.",
-      "[guardian] uses the term 'Bondi terror attack' to characterize the event."
-    ],
-    "safe_conclusions": [
-      "A gun buyback program is being initiated in New South Wales.",
-      "The Australian federal government is addressing current firearm ownership levels."
-    ],
-    "unknowns": [
-      "The specific details of the gun licence checks and the 'crackdown on hate' measures mentioned by the Prime Minister.",
-      "The specific legislative details of the federal funding deal mentioned by The Guardian."
-    ],
-    "synthesis": "Prime Minister Anthony Albanese and New South Wales Premier Chris Minns have announced a new gun buyback scheme in response to a mass shooting at Bondi. The initiative is part of a broader effort to address rising firearm ownership numbers in Australia compared to the era of the Port Arthur massacre. The federal government has offered to extend this funding deal to all other states and territories.",
-    "confidence": "HIGH. Both sources confirm the existence of the gun buyback scheme and the political context of the federal-state partnership, though one provides specific date and casualty details regarding the underlying incident not present in the other.",
-    "sources": [
-      {
-        "id": "art_1786858390071_f3e82",
-        "url": "https://www.aljazeera.com/news/2026/8/16/australia-gun-buyback-spurred-by-bondi-attack-to-start-in-november-pm-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Australia gun buyback spurred by Bondi attack to start in November, PM says"
-      },
-      {
-        "id": "art_1786848590147_dm7vq",
-        "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
-        "source": "guardian",
-        "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18286,100 +18366,5 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "8f757a0858f19690d37556c5b10ac0ef",
-    "topic_label": "Europe Heatwaves",
-    "event_window_start": "2026-08-13T08:13:10.000Z",
-    "event_window_end": "2026-08-13T15:48:53.000Z",
-    "article_ids": [
-      "art_1786637190713_yimrf",
-      "art_1786623409739_gizis",
-      "art_1786611526946_zpnzb",
-      "art_1786611527986_91oe0",
-      "art_1786611529195_ulgti"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-13T16:35:33.927Z",
-    "updated_at": "2026-08-13T16:35:33.927Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The UK and France are experiencing their fifth heatwave of the summer.",
-      "Temperatures in parts of the UK and Europe are reaching or are forecast to reach levels exceeding 35C.",
-      "Heat health warnings or drought conditions are present in parts of the UK."
-    ],
-    "source_claims": [
-      "[guardian] The UK recorded a provisional temperature of 38.1C at Kew Gardens, the hottest day of the year so far.",
-      "[guardian] 1,017 wildfires have been recorded in England and Wales this year, matching the total for the entirety of 2025.",
-      "[aljazeera] Nearly 135 million people across Europe will face temperatures above 35C.",
-      "[aljazeera] Nearly 340 million people in Europe will experience temperatures surpassing 30C."
-    ],
-    "framing_differences": [
-      "The guardian frames the heatwave primarily through immediate meteorological records and health advice for vulnerable groups, whereas aljazeera frames the event through large-scale demographic impact and data-driven projections from regional institutions."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] France has recorded 17 days of extreme heat, described as one of the longest periods ever recorded.",
-      "[aljazeera] Tom Pearson's personal account of soil cracking at his farm in Cambridgeshire."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'sweltered' to describe the condition of Europe under a heat dome.",
-      "[aljazeera] uses the term 'imperils' to describe the effect of drought on UK farmers.",
-      "[guardian] uses the term 'heaping pressure' to describe the effect of drought on water resources."
-    ],
-    "safe_conclusions": [
-      "High temperatures are currently affecting parts of the United Kingdom and continental Europe.",
-      "Drought conditions have been reported in parts of England and Wales.",
-      "There is a noted risk associated with heatwaves for both human health and agricultural stability."
-    ],
-    "unknowns": [
-      "The exact total number of wildfires in the UK for the entirety of the 2025 calendar year.",
-      "The long-term agricultural output consequences for the 2025 growing season.",
-      "Specific heat-related casualty numbers directly attributable to this specific heatwave event."
-    ],
-    "synthesis": "Parts of the United Kingdom and Europe are experiencing a fifth summer heatwave, with temperatures exceeding 35C in multiple regions. Meteorological data and reporting indicate that this weather pattern has contributed to drought conditions in England and Wales, as well as an increased frequency of wildfires. Public health agencies and agricultural sectors are responding to the associated heat and dryness, with focus on safety measures and resource management.",
-    "confidence": "HIGH; The sources provide consistent data regarding the presence of a heatwave and its meteorological impact across the UK and Europe.",
-    "sources": [
-      {
-        "id": "art_1786637190713_yimrf",
-        "url": "https://www.theguardian.com/environment/2026/aug/13/uk-records-hottest-day-of-the-year-fifth-summer-heatwave-peak",
-        "source": "guardian",
-        "title": "UK records hottest day of the year as fifth summer heatwave reaches peak"
-      },
-      {
-        "id": "art_1786623409739_gizis",
-        "url": "https://www.aljazeera.com/news/2026/8/13/more-than-135-million-people-in-europe-set-for-temperatures-over-35c?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "More than 135 million people in Europe set for temperatures over 35C"
-      },
-      {
-        "id": "art_1786611526946_zpnzb",
-        "url": "https://www.theguardian.com/environment/live/2026/aug/13/europe-heatwave-france-spain-italy-uk-degrees-temperature-record-summer-drought-latest-news-updates",
-        "source": "guardian",
-        "title": "Europe heatwave live: Temperatures of 40C expected in Spain, with amber heat health warning in place across large parts of UK"
-      },
-      {
-        "id": "art_1786611527986_91oe0",
-        "url": "https://www.aljazeera.com/news/2026/8/13/uk-drought-imperils-farmers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As temperatures soar, ‘exceptionally serious’ drought imperils UK farmers"
-      },
-      {
-        "id": "art_1786611529195_ulgti",
-        "url": "https://www.theguardian.com/environment/2026/aug/13/how-to-keep-babies-and-children-safe-in-heatwaves",
-        "source": "guardian",
-        "title": "How to keep babies and children safe in heatwaves"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
