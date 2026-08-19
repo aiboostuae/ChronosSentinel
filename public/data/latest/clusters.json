@@ -1,5 +1,618 @@
 [
   {
+    "cluster_id": "7a4a8e5d421d67a33ddc8869754abf50",
+    "topic_label": "Conflict in Gaza",
+    "event_window_start": "2026-08-18T18:32:24.000Z",
+    "event_window_end": "2026-08-18T21:03:04.000Z",
+    "article_ids": [
+      "art_1787088691786_fg7ui",
+      "art_1787081743403_qvf14"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T02:26:08.384Z",
+    "updated_at": "2026-08-19T02:26:08.384Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An Israeli strike occurred in Gaza City on Tuesday.",
+      "The strike resulted in the deaths of at least six individuals.",
+      "The target of the strike was a cafe located in the port area.",
+      "Several people were reported injured in the attack."
+    ],
+    "source_claims": [
+      "[aljazeera] Israel stated it targeted four Hamas commanders.",
+      "[aljazeera] Prime Minister Benjamin Netanyahu continues to reject a United States-backed plan to end hostilities.",
+      "[aljazeera] Netanyahu insists the Israeli military will not withdraw from Gaza unless Hamas agrees to disarm first.",
+      "[aljazeera] The Palestinian group Hamas insists it will only give up weapons once Israel withdraws its soldiers."
+    ],
+    "framing_differences": [
+      "One aljazeera article frames the strike primarily within the context of stalled peace negotiations and Netanyahu's political stance, while the other article frames the event around the casualties, specifically noting the death of a child."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Officials at al-Shifa Hospital received several bodies.",
+      "[aljazeera] Fourteen people were injured in the strike.",
+      "[aljazeera] The port area has been turned into a displacement camp.",
+      "[aljazeera] The blast threw victims into the sea.",
+      "[aljazeera] One of the deceased was a child."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'crowded cafe' to describe the location of the strike."
+    ],
+    "safe_conclusions": [
+      "An Israeli military strike hit a cafe in the Gaza City port area.",
+      "At least six people died as a result of the strike."
+    ],
+    "unknowns": [
+      "The names and identities of the deceased individuals.",
+      "The status of the four reported Hamas commanders mentioned by Israel.",
+      "Whether the port area is officially designated as a displacement camp."
+    ],
+    "synthesis": "An Israeli strike on a cafe in the Gaza City port resulted in at least six fatalities and multiple injuries. Israel stated the strike targeted four Hamas commanders while the reports emphasize the civilian impact, including a reported child fatality. The event occurs amid a broader stalemate in negotiations between Israel and Hamas regarding troop withdrawals and disarmament.",
+    "confidence": "HIGH. The sources consistently report the location, nature of the incident, and approximate casualty numbers, with minor variations in detail.",
+    "sources": [
+      {
+        "id": "art_1787088691786_fg7ui",
+        "url": "https://www.aljazeera.com/news/2026/8/18/israeli-strike-reported-to-kill-at-least-six-in-gaza-city?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike reported to kill at least six in Gaza City"
+      },
+      {
+        "id": "art_1787081743403_qvf14",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike on Gaza City cafe kills six, including child"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "04a2e37f85341668111fa35936e1c277",
+    "topic_label": "Iran and Middle East Tensions",
+    "event_window_start": "2026-08-18T14:26:18.000Z",
+    "event_window_end": "2026-08-18T21:03:59.000Z",
+    "article_ids": [
+      "art_1787088690753_b5i9g",
+      "art_1787083360319_u9b6m",
+      "art_1787069413622_0n5bb",
+      "art_1787066208299_50f37"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T09:17:05.218Z",
+    "updated_at": "2026-08-19T09:17:05.218Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "President Donald Trump stated on Tuesday that no talks are planned between the United States and Iran.",
+      "Iran has issued denials regarding the existence of back-channel communications with the Trump administration."
+    ],
+    "source_claims": [
+      "[aljazeera] Trump asserted the US is not engaged in talks with Iran and has not scheduled any.",
+      "[aljazeera] Trump posted a map on social media depicting the Strait of Hormuz as US territory.",
+      "[fox] Jared Kushner stated that communications between the US and Iran are currently more robust than ever.",
+      "[fox] Jared Kushner claimed Iranian officials have been attempting to trick the US with false narratives."
+    ],
+    "framing_differences": [
+      "aljazeera frames the Trump administration's messaging as an 'about-face' following Monday's claim of back-channel communications, while fox frames the situation through Jared Kushner's perspective that negotiations remain active and 'robust' despite public denials from Tehran."
+    ],
+    "contested_claims": [
+      "The status of diplomatic communication between the US and Iran is contested, with Trump claiming no talks are planned, while Kushner claims communications remain more robust than ever."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Trump claimed on Monday that the US was engaged in back-channel conversations with the Islamic Revolutionary Guard Corps.",
+      "[fox] Jared Kushner claimed that there are severe roadblocks preventing a peace deal between the US and Iran."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'about-face' to describe the shift in President Trump's statements.",
+      "[fox] uses the word 'trick' to characterize the alleged behavior of Iranian officials according to Jared Kushner."
+    ],
+    "safe_conclusions": [
+      "There is a public disagreement between the Trump administration and Iranian officials regarding the existence of diplomatic back-channels.",
+      "President Trump has publicly stated that no talks are planned with Iran."
+    ],
+    "unknowns": [
+      "The actual frequency and content of secret diplomatic communications between the US and Iran.",
+      "The specific reasoning behind the differing statements issued by President Trump and Jared Kushner regarding the status of US-Iran negotiations."
+    ],
+    "synthesis": "The Trump administration has provided conflicting statements regarding the status of diplomatic communications with Iran, with the President denying scheduled talks while senior advisor Jared Kushner characterizes current interactions as robust. Iran has officially denied the existence of back-channel negotiations with the administration. The situation remains characterized by public messaging shifts and contradictory claims from US officials and Tehran.",
+    "confidence": "CONTESTED. The sources present fundamentally different accounts of the current state of diplomatic engagement between the US and Iran.",
+    "sources": [
+      {
+        "id": "art_1787088690753_b5i9g",
+        "url": "https://www.aljazeera.com/news/2026/8/18/no-talks-with-iran-says-trump-as-us-president-stews-over-hormuz-deal?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal"
+      },
+      {
+        "id": "art_1787083360319_u9b6m",
+        "url": "https://www.aljazeera.com/features/2026/8/18/analysis-syrian-airbase-attack-is-an-israeli-message-to-damascus-ankara?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Analysis: Syrian airbase attack is an Israeli message to Damascus, Ankara"
+      },
+      {
+        "id": "art_1787069413622_0n5bb",
+        "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
+      },
+      {
+        "id": "art_1787066208299_50f37",
+        "url": "https://www.foxnews.com/politics/kushner-touts-unprecedented-iran-contacts-tehran-denies-trump-backchannel",
+        "source": "fox",
+        "title": "Kushner touts unprecedented Iran contacts as Tehran denies Trump backchannel"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "54aa2e97d979adaa1c4c1fd05cf7231b",
+    "topic_label": "Global Ebola Outbreak",
+    "event_window_start": "2026-08-18T20:53:44.000Z",
+    "event_window_end": "2026-08-18T21:24:52.000Z",
+    "article_ids": [
+      "art_1787090445189_fwt5h",
+      "art_1787088695046_6tv26"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Democratic Republic of Congo (DRC) is currently experiencing an Ebola outbreak.",
+      "The World Health Organization (WHO) has categorized the Ebola outbreak as a global health emergency.",
+      "The outbreak has resulted in more than 2,300 deaths.",
+      "The current outbreak is considered the deadliest in the DRC's history."
+    ],
+    "source_claims": [
+      "[aljazeera_1] The WHO Director-General stated the epidemic is not under control and the organization is playing catch-up.",
+      "[aljazeera_1] The current outbreak is the seventeenth to occur in the DRC.",
+      "[aljazeera_1] The current outbreak has exceeded the death toll of the 2018-2020 outbreak.",
+      "[aljazeera_2] The WHO asserts that the outbreak can be contained within three months if sufficient funding is provided."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames the situation as a critical, ongoing struggle described as 'playing catch-up,' whereas aljazeera_2 frames the situation through the lens of potential resolution contingent upon external funding."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] The current outbreak has killed more than 2,320 people.",
+      "[aljazeera_1] The current outbreak cases have passed 5,000."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the phrase 'playing catch-up' to describe the status of the WHO's response to the epidemic."
+    ],
+    "safe_conclusions": [
+      "The Ebola outbreak in the DRC is the deadliest on record in the country.",
+      "The WHO maintains that the outbreak constitutes a global health emergency.",
+      "The death toll from the current outbreak exceeds 2,300."
+    ],
+    "unknowns": [
+      "The exact total number of recorded cases beyond the 'more than 5,000' reported.",
+      "The specific amount of funding required for the WHO to contain the outbreak within three months."
+    ],
+    "synthesis": "The World Health Organization has classified the current Ebola outbreak in the Democratic Republic of Congo as a global health emergency with over 2,300 confirmed deaths. While the organization characterizes the situation as currently uncontrolled, it estimates that the outbreak could be contained within three months if adequate funding is secured. This event marks the deadliest Ebola outbreak in the country's history.",
+    "confidence": "HIGH. Both articles originate from the same source outlet and provide consistent data regarding the status and mortality of the outbreak.",
+    "sources": [
+      {
+        "id": "art_1787090445189_fwt5h",
+        "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Congo Ebola outbreak ‘global emergency’ as infections pass 5,000: WHO"
+      },
+      {
+        "id": "art_1787088695046_6tv26",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "WHO: Ebola can be contained in months if enough funding is provided"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "de281e78df2534968629df3e6533c169",
+    "topic_label": "Lindsay Clancy Murder Case",
+    "event_window_start": "2026-08-18T14:48:12.000Z",
+    "event_window_end": "2026-08-18T20:53:25.000Z",
+    "article_ids": [
+      "art_1787086925272_qb18m",
+      "art_1787083359263_c0nu8",
+      "art_1787066198001_t2rpw"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Lindsay Clancy is on trial for the 2023 deaths of her three children, Cora, Dawson, and Callan.",
+      "Lindsay Clancy has pleaded not guilty to three counts of first-degree murder.",
+      "The children were found strangled in their home in Duxbury, Massachusetts.",
+      "Susan Clancy, the mother-in-law of Lindsay Clancy, testified in court on Tuesday.",
+      "The defense argues that Lindsay Clancy was experiencing postpartum psychosis at the time of the incident."
+    ],
+    "source_claims": [
+      "[fox] prosecutors asked Susan Clancy if she knew that murder is a mortal sin to argue Lindsay Clancy understood the wrongfulness of her actions.",
+      "[bbc] Susan Clancy testified that Lindsay Clancy was 'begging for help' and experiencing symptoms like insomnia, anxiety, and loss of appetite before the deaths.",
+      "[bbc] prosecutors alleged Lindsay Clancy made a calculated decision to intentionally kill her children."
+    ],
+    "framing_differences": [
+      "fox frames the questioning of Susan Clancy as prosecutors playing the 'faith card' to counter the defense's postpartum psychosis argument, while bbc frames Susan Clancy's testimony around Lindsay Clancy's deteriorating mental health and requests for help."
+    ],
+    "contested_claims": [
+      "Prosecutors and the defense disagree on Lindsay Clancy's state of mind, with prosecutors alleging a calculated, intentional act and the defense arguing it was the result of postpartum psychosis."
+    ],
+    "unverified_claims": [
+      "[fox] claims the prosecutor's question about mortal sin prompted the judge to call an immediate sidebar."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'played the faith card' to describe the prosecution's line of questioning regarding the mother-in-law's Catholic faith."
+    ],
+    "safe_conclusions": [
+      "Susan Clancy provided testimony in the murder trial of Lindsay Clancy.",
+      "Lindsay Clancy is charged with murdering her three children.",
+      "There is a disagreement in court regarding whether Lindsay Clancy's mental state constitutes a defense for the killings."
+    ],
+    "unknowns": [
+      "The full scope of the prosecutor's strategy beyond the reported questioning.",
+      "The specific outcome or impact of the sidebar requested by the judge.",
+      "The final verdict of the trial."
+    ],
+    "synthesis": "Lindsay Clancy is currently standing trial for the 2023 deaths of her three young children in Duxbury, Massachusetts. During the proceedings, the defense presented testimony from Susan Clancy regarding Lindsay Clancy's mental health struggles, while the prosecution maintained their position that the killings were intentional. The trial continues to examine the conflict between claims of postpartum psychosis and allegations of calculated murder.",
+    "confidence": "HIGH. The sources agree on the core facts of the trial, the charges, and the primary arguments presented by both the prosecution and defense.",
+    "sources": [
+      {
+        "id": "art_1787086925272_qb18m",
+        "url": "https://www.foxnews.com/us/prosecutor-corners-lindsay-clancy-catholic-mother-in-law-mortal-sin-question",
+        "source": "fox",
+        "title": "Prosecutor corners Lindsay Clancy's Catholic mother-in-law with 'mortal sin' question"
+      },
+      {
+        "id": "art_1787083359263_c0nu8",
+        "url": "https://www.bbc.co.uk/news/articles/c62emm4yp8go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies"
+      },
+      {
+        "id": "art_1787066198001_t2rpw",
+        "url": "https://www.foxnews.com/us/lindsay-clancy-family-concerned-mental-health-months-before-killed-kids",
+        "source": "fox",
+        "title": "Lindsay Clancy's family was 'very concerned' about her mental health in the months before she killed her kids"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a2ef545d9f7b4f01fa8a9931185f80b4",
+    "topic_label": "US-ICC Sanctions Conflict",
+    "event_window_start": "2026-08-18T18:37:59.000Z",
+    "event_window_end": "2026-08-18T20:09:07.000Z",
+    "article_ids": [
+      "art_1787088698229_4xgis",
+      "art_1787081732814_z65rs",
+      "art_1787081740293_a0ktq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "US Secretary of State Marco Rubio announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye.",
+      "Tomoko Akane is a judge from Japan who became ICC president in 2024.",
+      "Abdoulaye Seye is a senior trial lawyer at the ICC from Senegal.",
+      "The Trump administration is engaged in a campaign regarding the ICC."
+    ],
+    "source_claims": [
+      "[aljazeera] Rubio framed the sanctions as part of a campaign to 'dismantle' the court and protect Americans from a 'sham of a court'.",
+      "[bbc] The ICC stated it stands behind its staff and believes these measures 'undermine the rule of law'.",
+      "[guardian] Rubio described the ICC as a 'corrupt and fatally politicized supranational court that has maliciously abused its authority and exceeded its mandate'."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the sanctions within the context of protecting Americans from being tried abroad; the BBC frames the sanctions as a broader escalation against a court empowered by 120 countries; The Guardian specifically frames the sanctions as a response to the investigation of Israeli war crimes in Gaza."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Abdoulaye Seye was specifically tasked with investigating crimes committed by Israel during its war on Gaza."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'sham of a court' to describe the ICC as attributed to Marco Rubio.",
+      "[guardian] uses the terms 'corrupt and fatally politicized supranational court' to describe the ICC as attributed to Marco Rubio."
+    ],
+    "safe_conclusions": [
+      "The US government has imposed sanctions on two specific high-ranking ICC officials, Tomoko Akane and Abdoulaye Seye."
+    ],
+    "unknowns": [
+      "The specific legal mechanisms or financial impacts of the sanctions imposed on these individuals are not detailed.",
+      "The official response from the Japanese or Senegalese governments regarding the sanctions on their citizens is not provided."
+    ],
+    "synthesis": "US Secretary of State Marco Rubio has announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye as part of an effort to challenge the court's jurisdiction. The ICC has publicly stated its opposition to these measures, characterizing them as an attempt to undermine the rule of law. The sanctions are described by administration officials as a protection of US sovereignty, while other outlets identify the move as a response to the court's investigations into specific international conflicts.",
+    "confidence": "HIGH: The core facts regarding the naming of the sanctioned officials and the official status of the action are consistent across all reports.",
+    "sources": [
+      {
+        "id": "art_1787088698229_4xgis",
+        "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US sanctions International Criminal Court president and trial lawyer"
+      },
+      {
+        "id": "art_1787081732814_z65rs",
+        "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US announces new sanctions on top ICC figures "
+      },
+      {
+        "id": "art_1787081740293_a0ktq",
+        "url": "https://www.theguardian.com/us-news/2026/aug/18/us-icc-sanctions",
+        "source": "guardian",
+        "title": "US sanctions international criminal court president and prosecutor"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "df58c5a273d66126602b63c027b34a20",
+    "topic_label": "Trump Admin Policy Challenges",
+    "event_window_start": "2026-08-18T18:51:47.000Z",
+    "event_window_end": "2026-08-18T21:26:47.000Z",
+    "article_ids": [
+      "art_1787090442119_dojrg",
+      "art_1787088689689_avoga",
+      "art_1787081733837_ocakj",
+      "art_1787081736983_l2zpn"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T02:26:08.384Z",
+    "updated_at": "2026-08-19T02:26:08.384Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Trump administration has filed a proposal to rescind the 2001 Roadless Area Conservation Rule, affecting approximately 45 million acres of national forest land.",
+      "U.S. District Judge Brian Murphy issued a ruling on Tuesday allowing the administration to terminate Temporary Protected Status (TPS) for Ethiopian nationals."
+    ],
+    "source_claims": [
+      "[aljazeera] USDA Secretary Brooke Rollins stated the rescission of the roadless rule will mitigate wildfire risk by returning authority to local managers.",
+      "[fox] The judge's ruling puts into effect all TPS terminations the Department of Homeland Security has pursued for select countries.",
+      "[aljazeera] The court ruling removes the final judicial block that prevented the government from ending TPS for individual countries.",
+      "[guardian] The proposed rescission of the roadless rule could potentially open 45 million acres of forest to road construction, drilling, and logging."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the forest rule rescission primarily through the lens of USDA Secretary Rollins' stated wildfire mitigation goals, while The Guardian frames it as an action that opens land to commercial activities like drilling and logging.",
+      "Fox frames the Ethiopian TPS ruling as a legal victory for the administration in the context of broader DHS policy, while Aljazeera frames the ruling as the revocation of protections for over 5,000 individuals."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Conservationists had anticipated the announcement to rescind the roadless rule since last summer."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'absurd obstacle' to describe the roadless rule, attributing the quote to Brooke Rollins.",
+      "[aljazeera] uses the term 'failed roadless rule' to describe the policy, attributing the quote to Brooke Rollins."
+    ],
+    "safe_conclusions": [
+      "The USDA has moved to rescind the 2001 Roadless Area Conservation Rule.",
+      "A federal court ruling allows the administration to end TPS for Ethiopian migrants."
+    ],
+    "unknowns": [
+      "The specific timeline for when the roadless rule will be officially rescinded.",
+      "The specific administrative steps that will follow the court's ruling regarding the timeline for the deportation of Ethiopian nationals."
+    ],
+    "synthesis": "The Trump administration has initiated the process to rescind the 2001 Roadless Area Conservation Rule regarding 45 million acres of forest and received a federal court decision allowing the termination of TPS for Ethiopian citizens. USDA officials state that the forest rule change is intended to improve land management, while reports note the potential for increased commercial access to these areas. The court's decision regarding TPS removes the final judicial injunctions currently blocking the administration's deportations for affected Ethiopian nationals.",
+    "confidence": "HIGH. All sources agree on the core actions taken by the administration and the judiciary on the date specified.",
+    "sources": [
+      {
+        "id": "art_1787090442119_dojrg",
+        "url": "https://www.aljazeera.com/news/2026/8/18/trump-administration-moves-to-end-rule-protecting-swaths-of-forest-land?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump administration moves to end rule protecting swaths of forest land"
+      },
+      {
+        "id": "art_1787088689689_avoga",
+        "url": "https://www.foxnews.com/politics/trump-admin-scores-court-win-end-deportation-protections-ethiopian-migrants",
+        "source": "fox",
+        "title": "Trump admin scores court win to end deportation protections for Ethiopian migrants"
+      },
+      {
+        "id": "art_1787081733837_ocakj",
+        "url": "https://www.aljazeera.com/news/2026/8/18/us-judge-says-government-can-revoke-deportation-protections-for-ethiopians?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US judge says government can revoke deportation protections for Ethiopians"
+      },
+      {
+        "id": "art_1787081736983_l2zpn",
+        "url": "https://www.theguardian.com/us-news/2026/aug/18/trump-administration-growth-forests",
+        "source": "guardian",
+        "title": "Trump administration to rescind rule protecting old growth forests"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "be653e54501573c6add3f806d6af5c90",
+    "topic_label": "Death of Frank Beard",
+    "event_window_start": "2026-08-18T20:20:11.000Z",
+    "event_window_end": "2026-08-18T20:06:57.000Z",
+    "article_ids": [
+      "art_1787088699255_54y2q",
+      "art_1787086941539_mjtyr"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T01:03:22.914Z",
+    "updated_at": "2026-08-19T01:03:22.914Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Frank Beard, the drummer for the rock band ZZ Top, has died at the age of 77."
+    ],
+    "source_claims": [
+      "[fox] The Fort Bend County Medical Examiner's Office confirmed the death to Fox News Digital.",
+      "[fox] Fox News Digital previously reported that Beard was battling serious health issues.",
+      "[guardian] A spokesperson for the band confirmed Beard died on August 17 in hospice care at his ranch in Richmond, Texas.",
+      "[guardian] ZZ Top singer Billy Gibbons stated that the band will continue as Beard wished."
+    ],
+    "framing_differences": [
+      "Fox focuses on the confirmation by the medical examiner, while The Guardian focuses on the band's official statement and the specific circumstances of his passing in hospice."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] It is unclear what led to his death at this time.",
+      "[guardian] Beard died in hospice care at his ranch in Richmond, Texas with his family by his side."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'great friend and collaborator' to describe Beard.",
+      "[guardian] uses the phrase 'true son of Texas' to describe Beard."
+    ],
+    "safe_conclusions": [
+      "Frank Beard, drummer for ZZ Top, has died at the age of 77."
+    ],
+    "unknowns": [
+      "The specific cause of death remains unconfirmed in the provided reports.",
+      "The discrepancy between the Fox News report stating the cause is unclear and The Guardian's inclusion of hospice care details."
+    ],
+    "synthesis": "ZZ Top drummer Frank Beard has died at the age of 77. Multiple sources confirmed his passing, with reporting from The Guardian providing details regarding hospice care and a statement from bandmate Billy Gibbons. Fox News additionally noted that the Fort Bend County Medical Examiner's Office confirmed the death.",
+    "confidence": "HIGH. Both sources independently verify the identity of the deceased and his age.",
+    "sources": [
+      {
+        "id": "art_1787088699255_54y2q",
+        "url": "https://www.foxnews.com/entertainment/legendary-zz-top-drummer-frank-beard-dead-77",
+        "source": "fox",
+        "title": "Legendary ZZ Top drummer Frank Beard dead at 77"
+      },
+      {
+        "id": "art_1787086941539_mjtyr",
+        "url": "https://www.theguardian.com/music/2026/aug/18/frank-beard-dies-zz-top",
+        "source": "guardian",
+        "title": "ZZ Top drummer Frank Beard dies aged 77"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e2c879a8c85a7241713ca9a70b4aa34f",
+    "topic_label": "Australian NDIS Reforms",
+    "event_window_start": "2026-08-18T09:18:47.000Z",
+    "event_window_end": "2026-08-18T20:33:58.000Z",
+    "article_ids": [
+      "art_1787086931208_liue0",
+      "art_1787046024750_6opor"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T09:17:05.218Z",
+    "updated_at": "2026-08-19T09:17:05.218Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The NDIS bill is expected to pass Parliament following the introduction of 63 amendments.",
+      "The government and the Coalition have reached an agreement regarding the amendments to the NDIS legislation.",
+      "Ministers Mark Butler and Jenny McAllister have publicly addressed the nature of the amendments."
+    ],
+    "source_claims": [
+      "[guardian_1] Mark Butler states the government remains confident in Treasury forecasts suggesting rent increases due to budget changes will be around $2 per week.",
+      "[guardian_1] The Australian newspaper reports that real estate agent Ray White supports figures suggesting rents could rise up to 30%.",
+      "[guardian_2] David Pocock states that the legislation still includes an 'indiscriminate cut' affecting hundreds of thousands of participants.",
+      "[guardian_2] Mark Butler describes some changes to the bill as 'relatively technical' and others as 'relatively substantial'."
+    ],
+    "framing_differences": [
+      "guardian_1 frames the NDIS bill passage within the context of broader political news including rental market forecasts, whereas guardian_2 frames the passage of the NDIS bill specifically around the controversy of the amendments and the criticism from stakeholders."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_1] Prime Minister Anthony Albanese rejected reports that NAB provided rental forecasts, stating the bank clarified it did not provide such projections."
+    ],
+    "loaded_language": [
+      "[guardian_2] uses the term 'controversial' to describe the NDIS bill.",
+      "[guardian_2] uses the term 'indiscriminate cut' to describe the impact of the legislation as characterized by David Pocock.",
+      "[guardian_2] uses the term 'heavy criticism' to describe the reaction from the Greens and the disability community."
+    ],
+    "safe_conclusions": [
+      "The Australian government has negotiated amendments to the NDIS bill with the Coalition to secure its passage.",
+      "There are ongoing discussions regarding the impact of government budget changes on rental prices."
+    ],
+    "unknowns": [
+      "The specific technical content of the 63 amendments to the NDIS bill.",
+      "The extent to which the 30% rental increase figure is accepted by institutional economic forecasters.",
+      "The total number of disability participants projected to be impacted by the legislative changes."
+    ],
+    "synthesis": "The Australian government and the Coalition have reached an agreement to pass the NDIS bill following the introduction of 63 amendments. While the government maintains the legislation is improved by these changes, some senators and stakeholders have expressed concerns regarding the bill's impact on participants. Concurrently, political discussion continues regarding Treasury forecasts for rental prices.",
+    "confidence": "HIGH. The sources consistently report on the status of the NDIS legislation and the involvement of the Coalition and government ministers.",
+    "sources": [
+      {
+        "id": "art_1787086931208_liue0",
+        "url": "https://www.theguardian.com/australia-news/live/2026/aug/19/australia-politcs-live-ndis-reform-coalition-labor-anthony-albanese-angus-taylor-mark-butler-david-pocock-question-time-tax-superannuation-ntwnfb",
+        "source": "guardian",
+        "title": "Australia politics live: NDIS reforms to pass parliament today after 63 amendments get Coalition on side"
+      },
+      {
+        "id": "art_1787046024750_6opor",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/18/controversial-ndis-bill-undergoes-substantial-amendments-as-labor-and-coalition-strike-deal",
+        "source": "guardian",
+        "title": "Controversial NDIS bill undergoes ‘substantial’ amendments as Labor and Coalition strike deal"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "60083a422b25ef80c79d27b18271d805",
     "topic_label": "Middle East Conflict and Tensions",
     "event_window_start": "2026-08-18T15:14:17.000Z",
@@ -88,77 +701,6 @@
         "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
         "source": "aljazeera",
         "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "54aa2e97d979adaa1c4c1fd05cf7231b",
-    "topic_label": "Global Ebola Outbreak",
-    "event_window_start": "2026-08-18T20:53:44.000Z",
-    "event_window_end": "2026-08-18T21:24:52.000Z",
-    "article_ids": [
-      "art_1787090445189_fwt5h",
-      "art_1787088695046_6tv26"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Democratic Republic of Congo (DRC) is currently experiencing an Ebola outbreak.",
-      "The World Health Organization (WHO) has categorized the Ebola outbreak as a global health emergency.",
-      "The outbreak has resulted in more than 2,300 deaths.",
-      "The current outbreak is considered the deadliest in the DRC's history."
-    ],
-    "source_claims": [
-      "[aljazeera_1] The WHO Director-General stated the epidemic is not under control and the organization is playing catch-up.",
-      "[aljazeera_1] The current outbreak is the seventeenth to occur in the DRC.",
-      "[aljazeera_1] The current outbreak has exceeded the death toll of the 2018-2020 outbreak.",
-      "[aljazeera_2] The WHO asserts that the outbreak can be contained within three months if sufficient funding is provided."
-    ],
-    "framing_differences": [
-      "aljazeera_1 frames the situation as a critical, ongoing struggle described as 'playing catch-up,' whereas aljazeera_2 frames the situation through the lens of potential resolution contingent upon external funding."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] The current outbreak has killed more than 2,320 people.",
-      "[aljazeera_1] The current outbreak cases have passed 5,000."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the phrase 'playing catch-up' to describe the status of the WHO's response to the epidemic."
-    ],
-    "safe_conclusions": [
-      "The Ebola outbreak in the DRC is the deadliest on record in the country.",
-      "The WHO maintains that the outbreak constitutes a global health emergency.",
-      "The death toll from the current outbreak exceeds 2,300."
-    ],
-    "unknowns": [
-      "The exact total number of recorded cases beyond the 'more than 5,000' reported.",
-      "The specific amount of funding required for the WHO to contain the outbreak within three months."
-    ],
-    "synthesis": "The World Health Organization has classified the current Ebola outbreak in the Democratic Republic of Congo as a global health emergency with over 2,300 confirmed deaths. While the organization characterizes the situation as currently uncontrolled, it estimates that the outbreak could be contained within three months if adequate funding is secured. This event marks the deadliest Ebola outbreak in the country's history.",
-    "confidence": "HIGH. Both articles originate from the same source outlet and provide consistent data regarding the status and mortality of the outbreak.",
-    "sources": [
-      {
-        "id": "art_1787090445189_fwt5h",
-        "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Congo Ebola outbreak ‘global emergency’ as infections pass 5,000: WHO"
-      },
-      {
-        "id": "art_1787088695046_6tv26",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "WHO: Ebola can be contained in months if enough funding is provided"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -255,87 +797,6 @@
     "model_used": "gemini-3.5-flash"
   },
   {
-    "cluster_id": "de281e78df2534968629df3e6533c169",
-    "topic_label": "Lindsay Clancy Murder Case",
-    "event_window_start": "2026-08-18T14:48:12.000Z",
-    "event_window_end": "2026-08-18T20:53:25.000Z",
-    "article_ids": [
-      "art_1787086925272_qb18m",
-      "art_1787083359263_c0nu8",
-      "art_1787066198001_t2rpw"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Lindsay Clancy is on trial for the 2023 deaths of her three children, Cora, Dawson, and Callan.",
-      "Lindsay Clancy has pleaded not guilty to three counts of first-degree murder.",
-      "The children were found strangled in their home in Duxbury, Massachusetts.",
-      "Susan Clancy, the mother-in-law of Lindsay Clancy, testified in court on Tuesday.",
-      "The defense argues that Lindsay Clancy was experiencing postpartum psychosis at the time of the incident."
-    ],
-    "source_claims": [
-      "[fox] prosecutors asked Susan Clancy if she knew that murder is a mortal sin to argue Lindsay Clancy understood the wrongfulness of her actions.",
-      "[bbc] Susan Clancy testified that Lindsay Clancy was 'begging for help' and experiencing symptoms like insomnia, anxiety, and loss of appetite before the deaths.",
-      "[bbc] prosecutors alleged Lindsay Clancy made a calculated decision to intentionally kill her children."
-    ],
-    "framing_differences": [
-      "fox frames the questioning of Susan Clancy as prosecutors playing the 'faith card' to counter the defense's postpartum psychosis argument, while bbc frames Susan Clancy's testimony around Lindsay Clancy's deteriorating mental health and requests for help."
-    ],
-    "contested_claims": [
-      "Prosecutors and the defense disagree on Lindsay Clancy's state of mind, with prosecutors alleging a calculated, intentional act and the defense arguing it was the result of postpartum psychosis."
-    ],
-    "unverified_claims": [
-      "[fox] claims the prosecutor's question about mortal sin prompted the judge to call an immediate sidebar."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'played the faith card' to describe the prosecution's line of questioning regarding the mother-in-law's Catholic faith."
-    ],
-    "safe_conclusions": [
-      "Susan Clancy provided testimony in the murder trial of Lindsay Clancy.",
-      "Lindsay Clancy is charged with murdering her three children.",
-      "There is a disagreement in court regarding whether Lindsay Clancy's mental state constitutes a defense for the killings."
-    ],
-    "unknowns": [
-      "The full scope of the prosecutor's strategy beyond the reported questioning.",
-      "The specific outcome or impact of the sidebar requested by the judge.",
-      "The final verdict of the trial."
-    ],
-    "synthesis": "Lindsay Clancy is currently standing trial for the 2023 deaths of her three young children in Duxbury, Massachusetts. During the proceedings, the defense presented testimony from Susan Clancy regarding Lindsay Clancy's mental health struggles, while the prosecution maintained their position that the killings were intentional. The trial continues to examine the conflict between claims of postpartum psychosis and allegations of calculated murder.",
-    "confidence": "HIGH. The sources agree on the core facts of the trial, the charges, and the primary arguments presented by both the prosecution and defense.",
-    "sources": [
-      {
-        "id": "art_1787086925272_qb18m",
-        "url": "https://www.foxnews.com/us/prosecutor-corners-lindsay-clancy-catholic-mother-in-law-mortal-sin-question",
-        "source": "fox",
-        "title": "Prosecutor corners Lindsay Clancy's Catholic mother-in-law with 'mortal sin' question"
-      },
-      {
-        "id": "art_1787083359263_c0nu8",
-        "url": "https://www.bbc.co.uk/news/articles/c62emm4yp8go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies"
-      },
-      {
-        "id": "art_1787066198001_t2rpw",
-        "url": "https://www.foxnews.com/us/lindsay-clancy-family-concerned-mental-health-months-before-killed-kids",
-        "source": "fox",
-        "title": "Lindsay Clancy's family was 'very concerned' about her mental health in the months before she killed her kids"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "c7a6aa408141da534005ffd69cac5e7e",
     "topic_label": "Environmental and Land Issues",
     "event_window_start": "2026-08-18T18:51:47.000Z",
@@ -402,83 +863,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/18/trump-administration-growth-forests",
         "source": "guardian",
         "title": "Trump administration to rescind rule protecting old growth forests"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a2ef545d9f7b4f01fa8a9931185f80b4",
-    "topic_label": "US-ICC Sanctions Conflict",
-    "event_window_start": "2026-08-18T18:37:59.000Z",
-    "event_window_end": "2026-08-18T20:09:07.000Z",
-    "article_ids": [
-      "art_1787088698229_4xgis",
-      "art_1787081732814_z65rs",
-      "art_1787081740293_a0ktq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "US Secretary of State Marco Rubio announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye.",
-      "Tomoko Akane is a judge from Japan who became ICC president in 2024.",
-      "Abdoulaye Seye is a senior trial lawyer at the ICC from Senegal.",
-      "The Trump administration is engaged in a campaign regarding the ICC."
-    ],
-    "source_claims": [
-      "[aljazeera] Rubio framed the sanctions as part of a campaign to 'dismantle' the court and protect Americans from a 'sham of a court'.",
-      "[bbc] The ICC stated it stands behind its staff and believes these measures 'undermine the rule of law'.",
-      "[guardian] Rubio described the ICC as a 'corrupt and fatally politicized supranational court that has maliciously abused its authority and exceeded its mandate'."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the sanctions within the context of protecting Americans from being tried abroad; the BBC frames the sanctions as a broader escalation against a court empowered by 120 countries; The Guardian specifically frames the sanctions as a response to the investigation of Israeli war crimes in Gaza."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Abdoulaye Seye was specifically tasked with investigating crimes committed by Israel during its war on Gaza."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'sham of a court' to describe the ICC as attributed to Marco Rubio.",
-      "[guardian] uses the terms 'corrupt and fatally politicized supranational court' to describe the ICC as attributed to Marco Rubio."
-    ],
-    "safe_conclusions": [
-      "The US government has imposed sanctions on two specific high-ranking ICC officials, Tomoko Akane and Abdoulaye Seye."
-    ],
-    "unknowns": [
-      "The specific legal mechanisms or financial impacts of the sanctions imposed on these individuals are not detailed.",
-      "The official response from the Japanese or Senegalese governments regarding the sanctions on their citizens is not provided."
-    ],
-    "synthesis": "US Secretary of State Marco Rubio has announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye as part of an effort to challenge the court's jurisdiction. The ICC has publicly stated its opposition to these measures, characterizing them as an attempt to undermine the rule of law. The sanctions are described by administration officials as a protection of US sovereignty, while other outlets identify the move as a response to the court's investigations into specific international conflicts.",
-    "confidence": "HIGH: The core facts regarding the naming of the sanctioned officials and the official status of the action are consistent across all reports.",
-    "sources": [
-      {
-        "id": "art_1787088698229_4xgis",
-        "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US sanctions International Criminal Court president and trial lawyer"
-      },
-      {
-        "id": "art_1787081732814_z65rs",
-        "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US announces new sanctions on top ICC figures "
-      },
-      {
-        "id": "art_1787081740293_a0ktq",
-        "url": "https://www.theguardian.com/us-news/2026/aug/18/us-icc-sanctions",
-        "source": "guardian",
-        "title": "US sanctions international criminal court president and prosecutor"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -718,159 +1102,6 @@
         "url": "https://www.foxnews.com/politics/kushner-touts-unprecedented-iran-contacts-tehran-denies-trump-backchannel",
         "source": "fox",
         "title": "Kushner touts unprecedented Iran contacts as Tehran denies Trump backchannel"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "df58c5a273d66126602b63c027b34a20",
-    "topic_label": "Trump Admin Policy Challenges",
-    "event_window_start": "2026-08-18T18:51:47.000Z",
-    "event_window_end": "2026-08-18T21:26:47.000Z",
-    "article_ids": [
-      "art_1787090442119_dojrg",
-      "art_1787088689689_avoga",
-      "art_1787081733837_ocakj",
-      "art_1787081736983_l2zpn"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T02:26:08.384Z",
-    "updated_at": "2026-08-19T02:26:08.384Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Trump administration has filed a proposal to rescind the 2001 Roadless Area Conservation Rule, affecting approximately 45 million acres of national forest land.",
-      "U.S. District Judge Brian Murphy issued a ruling on Tuesday allowing the administration to terminate Temporary Protected Status (TPS) for Ethiopian nationals."
-    ],
-    "source_claims": [
-      "[aljazeera] USDA Secretary Brooke Rollins stated the rescission of the roadless rule will mitigate wildfire risk by returning authority to local managers.",
-      "[fox] The judge's ruling puts into effect all TPS terminations the Department of Homeland Security has pursued for select countries.",
-      "[aljazeera] The court ruling removes the final judicial block that prevented the government from ending TPS for individual countries.",
-      "[guardian] The proposed rescission of the roadless rule could potentially open 45 million acres of forest to road construction, drilling, and logging."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the forest rule rescission primarily through the lens of USDA Secretary Rollins' stated wildfire mitigation goals, while The Guardian frames it as an action that opens land to commercial activities like drilling and logging.",
-      "Fox frames the Ethiopian TPS ruling as a legal victory for the administration in the context of broader DHS policy, while Aljazeera frames the ruling as the revocation of protections for over 5,000 individuals."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Conservationists had anticipated the announcement to rescind the roadless rule since last summer."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'absurd obstacle' to describe the roadless rule, attributing the quote to Brooke Rollins.",
-      "[aljazeera] uses the term 'failed roadless rule' to describe the policy, attributing the quote to Brooke Rollins."
-    ],
-    "safe_conclusions": [
-      "The USDA has moved to rescind the 2001 Roadless Area Conservation Rule.",
-      "A federal court ruling allows the administration to end TPS for Ethiopian migrants."
-    ],
-    "unknowns": [
-      "The specific timeline for when the roadless rule will be officially rescinded.",
-      "The specific administrative steps that will follow the court's ruling regarding the timeline for the deportation of Ethiopian nationals."
-    ],
-    "synthesis": "The Trump administration has initiated the process to rescind the 2001 Roadless Area Conservation Rule regarding 45 million acres of forest and received a federal court decision allowing the termination of TPS for Ethiopian citizens. USDA officials state that the forest rule change is intended to improve land management, while reports note the potential for increased commercial access to these areas. The court's decision regarding TPS removes the final judicial injunctions currently blocking the administration's deportations for affected Ethiopian nationals.",
-    "confidence": "HIGH. All sources agree on the core actions taken by the administration and the judiciary on the date specified.",
-    "sources": [
-      {
-        "id": "art_1787090442119_dojrg",
-        "url": "https://www.aljazeera.com/news/2026/8/18/trump-administration-moves-to-end-rule-protecting-swaths-of-forest-land?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump administration moves to end rule protecting swaths of forest land"
-      },
-      {
-        "id": "art_1787088689689_avoga",
-        "url": "https://www.foxnews.com/politics/trump-admin-scores-court-win-end-deportation-protections-ethiopian-migrants",
-        "source": "fox",
-        "title": "Trump admin scores court win to end deportation protections for Ethiopian migrants"
-      },
-      {
-        "id": "art_1787081733837_ocakj",
-        "url": "https://www.aljazeera.com/news/2026/8/18/us-judge-says-government-can-revoke-deportation-protections-for-ethiopians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US judge says government can revoke deportation protections for Ethiopians"
-      },
-      {
-        "id": "art_1787081736983_l2zpn",
-        "url": "https://www.theguardian.com/us-news/2026/aug/18/trump-administration-growth-forests",
-        "source": "guardian",
-        "title": "Trump administration to rescind rule protecting old growth forests"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "be653e54501573c6add3f806d6af5c90",
-    "topic_label": "Death of Frank Beard",
-    "event_window_start": "2026-08-18T20:20:11.000Z",
-    "event_window_end": "2026-08-18T20:06:57.000Z",
-    "article_ids": [
-      "art_1787088699255_54y2q",
-      "art_1787086941539_mjtyr"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T01:03:22.914Z",
-    "updated_at": "2026-08-19T01:03:22.914Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Frank Beard, the drummer for the rock band ZZ Top, has died at the age of 77."
-    ],
-    "source_claims": [
-      "[fox] The Fort Bend County Medical Examiner's Office confirmed the death to Fox News Digital.",
-      "[fox] Fox News Digital previously reported that Beard was battling serious health issues.",
-      "[guardian] A spokesperson for the band confirmed Beard died on August 17 in hospice care at his ranch in Richmond, Texas.",
-      "[guardian] ZZ Top singer Billy Gibbons stated that the band will continue as Beard wished."
-    ],
-    "framing_differences": [
-      "Fox focuses on the confirmation by the medical examiner, while The Guardian focuses on the band's official statement and the specific circumstances of his passing in hospice."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] It is unclear what led to his death at this time.",
-      "[guardian] Beard died in hospice care at his ranch in Richmond, Texas with his family by his side."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'great friend and collaborator' to describe Beard.",
-      "[guardian] uses the phrase 'true son of Texas' to describe Beard."
-    ],
-    "safe_conclusions": [
-      "Frank Beard, drummer for ZZ Top, has died at the age of 77."
-    ],
-    "unknowns": [
-      "The specific cause of death remains unconfirmed in the provided reports.",
-      "The discrepancy between the Fox News report stating the cause is unclear and The Guardian's inclusion of hospice care details."
-    ],
-    "synthesis": "ZZ Top drummer Frank Beard has died at the age of 77. Multiple sources confirmed his passing, with reporting from The Guardian providing details regarding hospice care and a statement from bandmate Billy Gibbons. Fox News additionally noted that the Fort Bend County Medical Examiner's Office confirmed the death.",
-    "confidence": "HIGH. Both sources independently verify the identity of the deceased and his age.",
-    "sources": [
-      {
-        "id": "art_1787088699255_54y2q",
-        "url": "https://www.foxnews.com/entertainment/legendary-zz-top-drummer-frank-beard-dead-77",
-        "source": "fox",
-        "title": "Legendary ZZ Top drummer Frank Beard dead at 77"
-      },
-      {
-        "id": "art_1787086941539_mjtyr",
-        "url": "https://www.theguardian.com/music/2026/aug/18/frank-beard-dies-zz-top",
-        "source": "guardian",
-        "title": "ZZ Top drummer Frank Beard dies aged 77"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -2455,80 +2686,6 @@
         "url": "https://www.foxnews.com/opinion/win-november-republicans-take-page-obamas-playbook",
         "source": "fox",
         "title": "To win in November, Republicans need to take a page from Obama’s playbook"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7a4a8e5d421d67a33ddc8869754abf50",
-    "topic_label": "Conflict in Gaza",
-    "event_window_start": "2026-08-18T18:32:24.000Z",
-    "event_window_end": "2026-08-18T21:03:04.000Z",
-    "article_ids": [
-      "art_1787088691786_fg7ui",
-      "art_1787081743403_qvf14"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T02:26:08.384Z",
-    "updated_at": "2026-08-19T02:26:08.384Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "An Israeli strike occurred in Gaza City on Tuesday.",
-      "The strike resulted in the deaths of at least six individuals.",
-      "The target of the strike was a cafe located in the port area.",
-      "Several people were reported injured in the attack."
-    ],
-    "source_claims": [
-      "[aljazeera] Israel stated it targeted four Hamas commanders.",
-      "[aljazeera] Prime Minister Benjamin Netanyahu continues to reject a United States-backed plan to end hostilities.",
-      "[aljazeera] Netanyahu insists the Israeli military will not withdraw from Gaza unless Hamas agrees to disarm first.",
-      "[aljazeera] The Palestinian group Hamas insists it will only give up weapons once Israel withdraws its soldiers."
-    ],
-    "framing_differences": [
-      "One aljazeera article frames the strike primarily within the context of stalled peace negotiations and Netanyahu's political stance, while the other article frames the event around the casualties, specifically noting the death of a child."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Officials at al-Shifa Hospital received several bodies.",
-      "[aljazeera] Fourteen people were injured in the strike.",
-      "[aljazeera] The port area has been turned into a displacement camp.",
-      "[aljazeera] The blast threw victims into the sea.",
-      "[aljazeera] One of the deceased was a child."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'crowded cafe' to describe the location of the strike."
-    ],
-    "safe_conclusions": [
-      "An Israeli military strike hit a cafe in the Gaza City port area.",
-      "At least six people died as a result of the strike."
-    ],
-    "unknowns": [
-      "The names and identities of the deceased individuals.",
-      "The status of the four reported Hamas commanders mentioned by Israel.",
-      "Whether the port area is officially designated as a displacement camp."
-    ],
-    "synthesis": "An Israeli strike on a cafe in the Gaza City port resulted in at least six fatalities and multiple injuries. Israel stated the strike targeted four Hamas commanders while the reports emphasize the civilian impact, including a reported child fatality. The event occurs amid a broader stalemate in negotiations between Israel and Hamas regarding troop withdrawals and disarmament.",
-    "confidence": "HIGH. The sources consistently report the location, nature of the incident, and approximate casualty numbers, with minor variations in detail.",
-    "sources": [
-      {
-        "id": "art_1787088691786_fg7ui",
-        "url": "https://www.aljazeera.com/news/2026/8/18/israeli-strike-reported-to-kill-at-least-six-in-gaza-city?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike reported to kill at least six in Gaza City"
-      },
-      {
-        "id": "art_1787081743403_qvf14",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike on Gaza City cafe kills six, including child"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -22262,214 +22419,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall",
         "source": "guardian",
         "title": "Hurricane Lala skirts Hawaii’s Big Island as heavy wind and rain lash region"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "87e578573563b58a4d07fc6f25e7bb9c",
-    "topic_label": "Israel-Palestine conflict",
-    "event_window_start": "2026-08-16T06:10:58.000Z",
-    "event_window_end": "2026-08-17T05:16:18.000Z",
-    "article_ids": [
-      "art_1786945315067_4z8x6",
-      "art_1786945318285_n2282",
-      "art_1786945322465_i8vgg",
-      "art_1786942163967_2s4cu",
-      "art_1786942173173_wpmns",
-      "art_1786938971298_f4bn3",
-      "art_1786938972394_9q7lx",
-      "art_1786938973444_31tss",
-      "art_1786934984559_182qn",
-      "art_1786865833489_f4xwp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 10,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T06:09:12.353Z",
-    "updated_at": "2026-08-17T06:09:12.353Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Jared Kushner is involved in diplomatic discussions regarding the conflict in Gaza.",
-      "Benjamin Netanyahu serves as the Prime Minister of Israel.",
-      "The ongoing conflict between Israel and Palestinian entities involves military and political dimensions."
-    ],
-    "source_claims": [
-      "[aljazeera] Mohammad Baqer Qalibaf declared a military and political victory for Iran over the US and Israel.",
-      "[aljazeera] Lawyer Ahmad Ibsais characterizes Israeli targeting of Palestinian women as a form of genocide.",
-      "[guardian] Jared Kushner held a meeting with the political chief of Hamas in Egypt.",
-      "[guardian] Benjamin Netanyahu rejected a 15-point US-backed roadmap for a ceasefire."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the situation in the West Bank as a matter of illegal settler activity and humanitarian crisis, whereas the Guardian focuses on high-level diplomatic efforts involving Kushner, Hamas, and Netanyahu."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Over 73,000 Palestinians have been killed since October 2023.",
-      "[aljazeera] 15 Palestinians are currently trapped in three homes in Qusra due to settler presence.",
-      "[guardian] The Gaza enclave is currently controlled by Israeli forces."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'far-right' to describe the Israeli government.",
-      "[aljazeera] uses the term 'illegal' to describe Israeli settlers.",
-      "[aljazeera] uses the term 'so-called' to describe the MoU US-Iran agreement."
-    ],
-    "safe_conclusions": [
-      "Diplomatic and military tensions persist in the region involving Israel, Iran, Hamas, and the United States."
-    ],
-    "unknowns": [
-      "The specific outcome of the meeting between Jared Kushner and the Hamas political chief.",
-      "The official status of the 60-day MoU US-Iran agreement beyond its expiration date.",
-      "The exact number of casualties and specific tactical control of regions within Gaza."
-    ],
-    "synthesis": "Recent reports indicate continued diplomatic efforts to address the conflict in Gaza, including meetings between Jared Kushner and Hamas leadership. Simultaneously, Iranian officials have claimed victory in their broader political and military stance against the US and Israel. The situation on the ground remains marked by reports of ongoing violence in the West Bank and significant casualties in Gaza.",
-    "confidence": "MEDIUM. The articles cover distinct events with limited overlap in factual reporting, necessitating reliance on disparate claims.",
-    "sources": [
-      {
-        "id": "art_1786945315067_4z8x6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/irans-top-negotiator-declares-victory-in-war-against-the-us-and-israel?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran’s top negotiator declares victory in war against the US and Israel"
-      },
-      {
-        "id": "art_1786945318285_n2282",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-14-2026-gaza-femigenocide-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lawyer says Israel’s targeting of Palestinian women is a form of genocide"
-      },
-      {
-        "id": "art_1786945322465_i8vgg",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/16/what-could-stop-israeli-settler-attacks-on-palestinians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could stop Israeli settler attacks on Palestinians?"
-      },
-      {
-        "id": "art_1786942163967_2s4cu",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-american-qusra-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian-American travels to West Bank home encircled by Israeli settler"
-      },
-      {
-        "id": "art_1786942173173_wpmns",
-        "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
-        "source": "guardian",
-        "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza"
-      },
-      {
-        "id": "art_1786938971298_f4bn3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel releases 35 Palestinian prisoners back into Gaza"
-      },
-      {
-        "id": "art_1786938972394_9q7lx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank"
-      },
-      {
-        "id": "art_1786938973444_31tss",
-        "url": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly"
-      },
-      {
-        "id": "art_1786934984559_182qn",
-        "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank"
-      },
-      {
-        "id": "art_1786865833489_f4xwp",
-        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How a simple lighter has become the backbone of life in Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "462332c83d38193bfa28ddb23fbd4867",
-    "topic_label": "Severe weather and disasters",
-    "event_window_start": "2026-08-16T12:35:31.000Z",
-    "event_window_end": "2026-08-17T04:34:09.000Z",
-    "article_ids": [
-      "art_1786945320360_2fwtj",
-      "art_1786887464866_d6edd",
-      "art_1786887472179_bq53q"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T06:09:12.353Z",
-    "updated_at": "2026-08-17T06:09:12.353Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Severe weather events have resulted in at least one death across different global locations."
-    ],
-    "source_claims": [
-      "[bbc] Geoje, South Korea, experienced more than 400mm of rain overnight, with 124.5mm recorded in a single hour.",
-      "[bbc] A landslide in Geoje buried the first floor of an apartment building, resulting in one death and two injuries.",
-      "[guardian] Hurricane Lala skirted Hawaii's Big Island, causing power outages for 60,000 households and the loss of 19 roofs.",
-      "[guardian] Governor Josh Green confirmed one person died in a car accident in the South Point area of Hawaii's Big Island.",
-      "[aljazeera] A wildfire in Belgium's High Fens nature reserve has burned over 27sq km, surpassing the previous 2011 record of 14sq km.",
-      "[aljazeera] Emergency response to the wildfire involves over 250 personnel from Belgium, Germany, Luxembourg, and the Netherlands."
-    ],
-    "framing_differences": [
-      "The BBC frames the news through the context of record-breaking rainfall and regional climate impacts in Asia, whereas The Guardian focuses on hurricane-related infrastructure damage in Hawaii and Al Jazeera focuses on wildfire management and cross-border emergency cooperation in Europe."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] The rainfall in Geoje is the highest since South Korea's meteorological agency started records in 1972.",
-      "[guardian] 190 flights were postponed due to the impact of Hurricane Lala."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'raging torrents' to describe flooded rivers.",
-      "[bbc] uses the term 'pummelled' to describe the effect of rains on Gyeongsang province."
-    ],
-    "safe_conclusions": [
-      "Significant weather events occurred recently in South Korea, Hawaii, and Belgium, causing emergency responses.",
-      "Deaths have been reported in connection to these weather-related events."
-    ],
-    "unknowns": [
-      "The specific identity of the individuals who died in these incidents.",
-      "The total economic cost of the damages caused by the landslide in Geoje or the hurricane in Hawaii."
-    ],
-    "synthesis": "Recent extreme weather events have impacted multiple regions, including severe rainfall and a landslide in South Korea, a hurricane impacting Hawaii, and a record-setting wildfire in Belgium. Each incident has triggered emergency response efforts, resulting in infrastructure damage and confirmed fatalities. Local authorities in the affected areas are currently managing the consequences of these distinct natural disasters.",
-    "confidence": "HIGH. The sources report on unrelated events in different geographic locations, and the facts presented are consistent within their respective reporting contexts.",
-    "sources": [
-      {
-        "id": "art_1786945320360_2fwtj",
-        "url": "https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Record rains drench South Korean city as landslide kills one"
-      },
-      {
-        "id": "art_1786887464866_d6edd",
-        "url": "https://www.theguardian.com/world/2026/aug/16/hurricane-lala-hawaii-big-island-avoids-landfall",
-        "source": "guardian",
-        "title": "Hurricane Lala skirts Hawaii’s Big Island as heavy wind and rain lash region"
-      },
-      {
-        "id": "art_1786887472179_bq53q",
-        "url": "https://www.aljazeera.com/news/2026/8/16/belgiums-largest-wildfire-on-record-spreads-towards-german-border?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Belgium’s largest wildfire on record spreads towards German border"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
