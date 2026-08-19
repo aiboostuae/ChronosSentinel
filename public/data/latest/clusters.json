@@ -1,5 +1,575 @@
 [
   {
+    "cluster_id": "54aa2e97d979adaa1c4c1fd05cf7231b",
+    "topic_label": "Global Ebola Outbreak",
+    "event_window_start": "2026-08-18T20:53:44.000Z",
+    "event_window_end": "2026-08-18T21:24:52.000Z",
+    "article_ids": [
+      "art_1787090445189_fwt5h",
+      "art_1787088695046_6tv26"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Democratic Republic of Congo (DRC) is currently experiencing an Ebola outbreak.",
+      "The World Health Organization (WHO) has categorized the Ebola outbreak as a global health emergency.",
+      "The outbreak has resulted in more than 2,300 deaths.",
+      "The current outbreak is considered the deadliest in the DRC's history."
+    ],
+    "source_claims": [
+      "[aljazeera_1] The WHO Director-General stated the epidemic is not under control and the organization is playing catch-up.",
+      "[aljazeera_1] The current outbreak is the seventeenth to occur in the DRC.",
+      "[aljazeera_1] The current outbreak has exceeded the death toll of the 2018-2020 outbreak.",
+      "[aljazeera_2] The WHO asserts that the outbreak can be contained within three months if sufficient funding is provided."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames the situation as a critical, ongoing struggle described as 'playing catch-up,' whereas aljazeera_2 frames the situation through the lens of potential resolution contingent upon external funding."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] The current outbreak has killed more than 2,320 people.",
+      "[aljazeera_1] The current outbreak cases have passed 5,000."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the phrase 'playing catch-up' to describe the status of the WHO's response to the epidemic."
+    ],
+    "safe_conclusions": [
+      "The Ebola outbreak in the DRC is the deadliest on record in the country.",
+      "The WHO maintains that the outbreak constitutes a global health emergency.",
+      "The death toll from the current outbreak exceeds 2,300."
+    ],
+    "unknowns": [
+      "The exact total number of recorded cases beyond the 'more than 5,000' reported.",
+      "The specific amount of funding required for the WHO to contain the outbreak within three months."
+    ],
+    "synthesis": "The World Health Organization has classified the current Ebola outbreak in the Democratic Republic of Congo as a global health emergency with over 2,300 confirmed deaths. While the organization characterizes the situation as currently uncontrolled, it estimates that the outbreak could be contained within three months if adequate funding is secured. This event marks the deadliest Ebola outbreak in the country's history.",
+    "confidence": "HIGH. Both articles originate from the same source outlet and provide consistent data regarding the status and mortality of the outbreak.",
+    "sources": [
+      {
+        "id": "art_1787090445189_fwt5h",
+        "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Congo Ebola outbreak ‘global emergency’ as infections pass 5,000: WHO"
+      },
+      {
+        "id": "art_1787088695046_6tv26",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "WHO: Ebola can be contained in months if enough funding is provided"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8b4eda115348d11351263551e55d20a2",
+    "topic_label": "US-Iran Tensions and Hormuz",
+    "event_window_start": "2026-08-18T06:35:43.000Z",
+    "event_window_end": "2026-08-18T21:03:59.000Z",
+    "article_ids": [
+      "art_1787088690753_b5i9g",
+      "art_1787066208299_50f37",
+      "art_1787039182810_1xbqm",
+      "art_1787039186097_tg2pm"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T05:12:45.147Z",
+    "updated_at": "2026-08-19T05:12:45.147Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Strait of Hormuz is currently experiencing maritime disruptions.",
+      "There are ongoing tensions involving the United States, Iran, and the Strait of Hormuz.",
+      "The United Kingdom Maritime Trade Operations (UKMTO) reported an incident involving a vessel hit by an unknown projectile in the Strait of Hormuz on Tuesday."
+    ],
+    "source_claims": [
+      "[aljazeera] President Trump stated the US has no scheduled talks with Iran and the Strait of Hormuz remains open for non-Iranian traffic.",
+      "[fox] Jared Kushner stated that communications between the US and Iran are currently robust.",
+      "[guardian] President Trump stated in an interview that he threatened to bomb Oman if it interferes with his efforts regarding the conflict.",
+      "[guardian] Iran stated it would adopt a more aggressive stance following the expiration of a negotiation window."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the situation around Trump's shifting statements on back-channel talks and the maritime security of the Strait, while Fox focuses on Jared Kushner's perspective on US-Iran communications and negotiation efforts.",
+      "The Guardian frames the event in the context of rising oil prices and a broader 'US-Israel war on Iran,' whereas Aljazeera and Fox focus on specific diplomatic and maritime incidents without characterizing the broader situation as a declared war."
+    ],
+    "contested_claims": [
+      "There is a contradiction regarding the existence of back-channel communications: Trump initially claimed they existed, later denied them, while Jared Kushner maintains that robust communications are occurring.",
+      "Iran denied the existence of back-channel talks between President Trump and the IRGC, contradicting Trump's earlier claim."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Trump posted a map depicting the Strait of Hormuz as US territory.",
+      "[guardian] President Trump demanded Tehran 'put up the white flag of surrender'.",
+      "[guardian] Trump threatened to 'bomb the shit out of' Oman if it obstructs US efforts."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'bomb the shit out of' to describe a reported threat made by Trump toward Oman.",
+      "[fox] uses the term 'trick' to describe Jared Kushner's characterization of Iranian officials' negotiation tactics.",
+      "[guardian] uses the phrase 'put up the white flag of surrender' to describe a demand allegedly made by Trump."
+    ],
+    "safe_conclusions": [
+      "A vessel was damaged in the Strait of Hormuz on Tuesday.",
+      "There is public disagreement among US officials regarding the status of communication with Iranian leadership."
+    ],
+    "unknowns": [
+      "The specific identity of the 'unknown projectile' that struck the vessel in the Strait of Hormuz.",
+      "The definitive status of current diplomatic communication between the United States and Iran.",
+      "The nature of the negotiations between Iran and Oman regarding the Strait of Hormuz."
+    ],
+    "synthesis": "Tensions in the Strait of Hormuz have intensified following a maritime incident involving an unknown projectile and conflicting reports regarding US-Iran diplomatic communications. While President Trump has denied that talks are scheduled, other officials report that communication channels remain robust. Oil prices have risen amid reports of a military threat directed at Oman and the expiration of a negotiation window for a ceasefire.",
+    "confidence": "MEDIUM.MEDIUM. While sources agree on the occurrence of the maritime incident and the presence of diplomatic friction, they provide conflicting accounts regarding the existence and nature of US-Iran communications.",
+    "sources": [
+      {
+        "id": "art_1787088690753_b5i9g",
+        "url": "https://www.aljazeera.com/news/2026/8/18/no-talks-with-iran-says-trump-as-us-president-stews-over-hormuz-deal?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal"
+      },
+      {
+        "id": "art_1787066208299_50f37",
+        "url": "https://www.foxnews.com/politics/kushner-touts-unprecedented-iran-contacts-tehran-denies-trump-backchannel",
+        "source": "fox",
+        "title": "Kushner touts unprecedented Iran contacts as Tehran denies Trump backchannel"
+      },
+      {
+        "id": "art_1787039182810_1xbqm",
+        "url": "https://www.theguardian.com/business/2026/aug/18/oil-prices-rise-us-iran-brent-crude-donald-trump",
+        "source": "guardian",
+        "title": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman"
+      },
+      {
+        "id": "art_1787039186097_tg2pm",
+        "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7692cc52400ed9e20c358844cfcebdbc",
+    "topic_label": "Israel-Gaza Conflict",
+    "event_window_start": "2026-08-18T07:20:35.000Z",
+    "event_window_end": "2026-08-18T21:03:04.000Z",
+    "article_ids": [
+      "art_1787088691786_fg7ui",
+      "art_1787083360319_u9b6m",
+      "art_1787081743403_qvf14",
+      "art_1787039176138_9cp4n"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T05:12:45.147Z",
+    "updated_at": "2026-08-19T05:12:45.147Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An Israeli strike occurred in Gaza City resulting in six deaths.",
+      "The strike in Gaza City hit a cafe located in the city's port area."
+    ],
+    "source_claims": [
+      "[aljazeera: Israeli strike reported to kill at least six in Gaza City] states that 14 people were injured in the strike.",
+      "[aljazeera: Israeli strike on Gaza City cafe kills six, including child] states that the strike killed six people, including a child, and injured several others.",
+      "[aljazeera: Israeli strike on Gaza City cafe kills six, including child] states that Israel targeted four Hamas commanders.",
+      "[aljazeera: Analysis: Syrian airbase attack is an Israeli message to Damascus, Ankara] states that Syria, the United States, and Jordan attributed the airbase strike in Idlib to Israel.",
+      "[aljazeera: Israeli settler children attack ambulance in occupied West Bank] states that Palestinian Red Crescent video shows children attacking an ambulance in Hebron."
+    ],
+    "framing_differences": [
+      "The article titled 'Israeli strike reported to kill at least six in Gaza City' frames the strike in the context of stalled ceasefire negotiations and Netanyahu's conditions for military withdrawal, whereas 'Israeli strike on Gaza City cafe kills six, including child' frames the event through the reported casualty details and the Israeli military's stated targeting of Hamas commanders."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera: Israeli strike reported to kill at least six in Gaza City] states the port area where the cafe is located has been turned into a displacement camp.",
+      "[aljazeera: Israeli strike on Gaza City cafe kills six, including child] states the blast threw victims into the sea."
+    ],
+    "loaded_language": [
+      "[aljazeera: Israeli strike reported to kill at least six in Gaza City] uses the term 'crowded' to describe the cafe."
+    ],
+    "safe_conclusions": [
+      "A military strike occurred in Gaza City's port area on Tuesday resulting in at least six fatalities.",
+      "Israeli forces have engaged in military actions in both Gaza and Syria."
+    ],
+    "unknowns": [
+      "The official Israeli government confirmation or denial regarding the Gaza City cafe strike.",
+      "The specific identities of the individuals killed in the Gaza City strike beyond the mention of a child.",
+      "The current status of the Israeli military's operations in Idlib, Syria."
+    ],
+    "synthesis": "An Israeli strike in Gaza City's port area resulted in six fatalities, with varying reports on the specific demographics of those killed and the intended targets. Separate reports identify recent Israeli military activity targeting an airbase in Syria and an incident involving settlers and an ambulance in the West Bank. These events occur against a backdrop of regional instability following the overthrow of the Syrian government.",
+    "confidence": "HIGH. The sources share a single publisher, and the core facts regarding the Gaza City strike death toll are corroborated across the provided texts.",
+    "sources": [
+      {
+        "id": "art_1787088691786_fg7ui",
+        "url": "https://www.aljazeera.com/news/2026/8/18/israeli-strike-reported-to-kill-at-least-six-in-gaza-city?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike reported to kill at least six in Gaza City"
+      },
+      {
+        "id": "art_1787083360319_u9b6m",
+        "url": "https://www.aljazeera.com/features/2026/8/18/analysis-syrian-airbase-attack-is-an-israeli-message-to-damascus-ankara?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Analysis: Syrian airbase attack is an Israeli message to Damascus, Ankara"
+      },
+      {
+        "id": "art_1787081743403_qvf14",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike on Gaza City cafe kills six, including child"
+      },
+      {
+        "id": "art_1787039176138_9cp4n",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-settler-children-attack-ambulance-in-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settler children attack ambulance in occupied West Bank"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8962c90fbd7756067b12312db1d6f85a",
+    "topic_label": "Russia-Ukraine Conflict",
+    "event_window_start": "2026-08-18T06:47:40.000Z",
+    "event_window_end": "2026-08-18T20:45:42.000Z",
+    "article_ids": [
+      "art_1787086927568_mvvyq",
+      "art_1787086940328_7aslo",
+      "art_1787046025900_7ty8m",
+      "art_1787039173890_52b5u",
+      "art_1787039185035_75gro"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T05:12:45.147Z",
+    "updated_at": "2026-08-19T05:12:45.147Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Russia reports a drone strike occurred near the Zaporizhzhia Nuclear Power Plant resulting in casualties.",
+      "Ukraine and Russia have both been involved in recent cross-border drone or missile attacks.",
+      "A Russian missile strike occurred in the Kharkiv region resulting in 10 reported civilian deaths.",
+      "Ukrainian drones targeted Moscow and the surrounding region."
+    ],
+    "source_claims": [
+      "[aljazeera] Russia reports a drone strike near the Zaporizhzhia Nuclear Power Plant killed one nuclear specialist and wounded 17.",
+      "[aljazeera] Moscow asserts the drone near Zaporizhzhia was launched by Ukraine.",
+      "[aljazeera] Russian management of the Zaporizhzhia facility calls the attack one of the most serious incidents in the plant's history.",
+      "[aljazeera] The IAEA confirmed the strike at the Zaporizhzhia plant hit staff members at a bus stop.",
+      "[aljazeera] Russian officials reported more than 620 drones targeted the Moscow region.",
+      "[aljazeera] Moscow Mayor Sergei Sobyanin stated Russian defences shot down 197 drones total.",
+      "[guardian] President Volodymyr Zelenskyy confirmed 10 people were killed in a Russian attack and stated Ukraine would respond.",
+      "[guardian] The Sunday Times reported Ukraine used British-made drones to strike targets on Russia's mainland.",
+      "[guardian] The UK Ministry of Defence stated it is committed to providing equipment for Ukraine to defend against the invasion."
+    ],
+    "framing_differences": [
+      "The Guardian frames the Ukrainian drone use as part of a 'deep strike campaign' and focuses on the UK's diplomatic and military stance, while Aljazeera focuses on the specific drone counts reported by Russian officials and the impact on civilian infrastructure in Moscow."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The Sunday Times report that Ukraine used British-made drones to strike targets on Russia's mainland."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'illegal invasion' to describe Russia's war in Ukraine.",
+      "[aljazeera] uses the term 'so-called deep strike campaign' to describe Ukrainian military tactics."
+    ],
+    "safe_conclusions": [
+      "Attacks involving missiles and drones have resulted in civilian casualties in both Russia and Ukraine.",
+      "Russian officials have reported significant drone activity near Moscow.",
+      "Ukrainian officials have confirmed their intention to respond to Russian missile attacks."
+    ],
+    "unknowns": [
+      "The exact origin and manufacturer of every drone used in the strikes.",
+      "The full extent of damage at the Zaporizhzhia Nuclear Power Plant beyond the reported personnel casualties.",
+      "The total number of casualties from the drone attack on Moscow, which sources only characterize as wounding three people."
+    ],
+    "synthesis": "Recent military activity has escalated with reported drone strikes targeting the Moscow region and a missile strike in the Kharkiv region causing multiple civilian casualties. Russian officials report a drone strike near the Zaporizhzhia Nuclear Power Plant, while Ukrainian leadership has announced plans for retaliatory strikes following Russian attacks. The international response includes ongoing debate regarding the use of Western-supplied equipment in cross-border operations.",
+    "confidence": "HIGH. The reports are consistent regarding the occurrence of the described attacks, though specific casualty counts and technical details remain dependent on the reporting entities involved.",
+    "sources": [
+      {
+        "id": "art_1787086927568_mvvyq",
+        "url": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant"
+      },
+      {
+        "id": "art_1787086940328_7aslo",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian missile strike kills 10 civilians in Kharkiv"
+      },
+      {
+        "id": "art_1787046025900_7ty8m",
+        "url": "https://www.theguardian.com/world/live/2026/aug/18/ukraine-drone-attack-moscow-crimea-russia-nato-wildfires-europe-live-latest-updates",
+        "source": "guardian",
+        "title": "Zelenskyy says Ukraine will respond after 10 killed in overnight Russian attack – Europe live"
+      },
+      {
+        "id": "art_1787039173890_52b5u",
+        "url": "https://www.theguardian.com/world/2026/aug/18/moscow-warns-uk-over-reports-ukraine-using-british-drones-to-attack-russia",
+        "source": "guardian",
+        "title": "Moscow warns UK over reports Ukraine using British drones to attack Russia"
+      },
+      {
+        "id": "art_1787039185035_75gro",
+        "url": "https://www.aljazeera.com/news/2026/8/18/russia-says-more-than-600-drones-targeted-moscow-region?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia says more than 600 drones targeted Moscow region"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "de281e78df2534968629df3e6533c169",
+    "topic_label": "Lindsay Clancy Murder Case",
+    "event_window_start": "2026-08-18T14:48:12.000Z",
+    "event_window_end": "2026-08-18T20:53:25.000Z",
+    "article_ids": [
+      "art_1787086925272_qb18m",
+      "art_1787083359263_c0nu8",
+      "art_1787066198001_t2rpw"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Lindsay Clancy is on trial for the 2023 deaths of her three children, Cora, Dawson, and Callan.",
+      "Lindsay Clancy has pleaded not guilty to three counts of first-degree murder.",
+      "The children were found strangled in their home in Duxbury, Massachusetts.",
+      "Susan Clancy, the mother-in-law of Lindsay Clancy, testified in court on Tuesday.",
+      "The defense argues that Lindsay Clancy was experiencing postpartum psychosis at the time of the incident."
+    ],
+    "source_claims": [
+      "[fox] prosecutors asked Susan Clancy if she knew that murder is a mortal sin to argue Lindsay Clancy understood the wrongfulness of her actions.",
+      "[bbc] Susan Clancy testified that Lindsay Clancy was 'begging for help' and experiencing symptoms like insomnia, anxiety, and loss of appetite before the deaths.",
+      "[bbc] prosecutors alleged Lindsay Clancy made a calculated decision to intentionally kill her children."
+    ],
+    "framing_differences": [
+      "fox frames the questioning of Susan Clancy as prosecutors playing the 'faith card' to counter the defense's postpartum psychosis argument, while bbc frames Susan Clancy's testimony around Lindsay Clancy's deteriorating mental health and requests for help."
+    ],
+    "contested_claims": [
+      "Prosecutors and the defense disagree on Lindsay Clancy's state of mind, with prosecutors alleging a calculated, intentional act and the defense arguing it was the result of postpartum psychosis."
+    ],
+    "unverified_claims": [
+      "[fox] claims the prosecutor's question about mortal sin prompted the judge to call an immediate sidebar."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'played the faith card' to describe the prosecution's line of questioning regarding the mother-in-law's Catholic faith."
+    ],
+    "safe_conclusions": [
+      "Susan Clancy provided testimony in the murder trial of Lindsay Clancy.",
+      "Lindsay Clancy is charged with murdering her three children.",
+      "There is a disagreement in court regarding whether Lindsay Clancy's mental state constitutes a defense for the killings."
+    ],
+    "unknowns": [
+      "The full scope of the prosecutor's strategy beyond the reported questioning.",
+      "The specific outcome or impact of the sidebar requested by the judge.",
+      "The final verdict of the trial."
+    ],
+    "synthesis": "Lindsay Clancy is currently standing trial for the 2023 deaths of her three young children in Duxbury, Massachusetts. During the proceedings, the defense presented testimony from Susan Clancy regarding Lindsay Clancy's mental health struggles, while the prosecution maintained their position that the killings were intentional. The trial continues to examine the conflict between claims of postpartum psychosis and allegations of calculated murder.",
+    "confidence": "HIGH. The sources agree on the core facts of the trial, the charges, and the primary arguments presented by both the prosecution and defense.",
+    "sources": [
+      {
+        "id": "art_1787086925272_qb18m",
+        "url": "https://www.foxnews.com/us/prosecutor-corners-lindsay-clancy-catholic-mother-in-law-mortal-sin-question",
+        "source": "fox",
+        "title": "Prosecutor corners Lindsay Clancy's Catholic mother-in-law with 'mortal sin' question"
+      },
+      {
+        "id": "art_1787083359263_c0nu8",
+        "url": "https://www.bbc.co.uk/news/articles/c62emm4yp8go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies"
+      },
+      {
+        "id": "art_1787066198001_t2rpw",
+        "url": "https://www.foxnews.com/us/lindsay-clancy-family-concerned-mental-health-months-before-killed-kids",
+        "source": "fox",
+        "title": "Lindsay Clancy's family was 'very concerned' about her mental health in the months before she killed her kids"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "61b4b5a49a0c9a41598004008740561a",
+    "topic_label": "Trump Administration Deportation Policy",
+    "event_window_start": "2026-08-18T19:09:23.000Z",
+    "event_window_end": "2026-08-18T21:10:35.000Z",
+    "article_ids": [
+      "art_1787088689689_avoga",
+      "art_1787081733837_ocakj"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A U.S. federal judge named Brian Murphy ruled on a Tuesday that the Trump administration may terminate Temporary Protected Status (TPS) for Ethiopian nationals.",
+      "This ruling removes a judicial hold that had previously prevented the termination of TPS for Ethiopia."
+    ],
+    "source_claims": [
+      "[fox] reports that this ruling completes the termination of TPS for all countries targeted by the Department of Homeland Security.",
+      "[aljazeera] claims the ruling impacts more than 5,000 Ethiopian individuals.",
+      "[aljazeera] states that since returning to office in 2025, President Trump has sought to end TPS for multiple nationalities."
+    ],
+    "framing_differences": [
+      "Fox frames the ruling as a victory for the Trump administration's efforts to end specific TPS programs, whereas Al Jazeera frames it as a legal development involving the revocation of protections for a specific number of individuals.",
+      "Fox includes an introductory paragraph about an interview with a Haitian council member that appears unrelated to the headline topic, while Al Jazeera focuses strictly on the ruling regarding Ethiopian migrants."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims this ruling puts into effect all TPS terminations the Department of Homeland Security has pursued."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "A U.S. District Court judge has issued a ruling that allows the U.S. government to proceed with the termination of TPS for Ethiopian nationals."
+    ],
+    "unknowns": [
+      "The specific number of Ethiopian nationals affected by this ruling remains unverified across both sources.",
+      "The full list of other nationalities whose TPS status the administration is currently seeking to terminate is not specified."
+    ],
+    "synthesis": "A U.S. federal judge has cleared the way for the Trump administration to end Temporary Protected Status for Ethiopian immigrants. This ruling removes the final judicial blocks previously preventing the government from terminating these protections for Ethiopia. The decision follows a broader administration effort to review and end TPS designations for various countries.",
+    "confidence": "HIGH. Both sources agree on the core legal action taken by the judge and the implications for Ethiopian TPS holders.",
+    "sources": [
+      {
+        "id": "art_1787088689689_avoga",
+        "url": "https://www.foxnews.com/politics/trump-admin-scores-court-win-end-deportation-protections-ethiopian-migrants",
+        "source": "fox",
+        "title": "Trump admin scores court win to end deportation protections for Ethiopian migrants"
+      },
+      {
+        "id": "art_1787081733837_ocakj",
+        "url": "https://www.aljazeera.com/news/2026/8/18/us-judge-says-government-can-revoke-deportation-protections-for-ethiopians?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US judge says government can revoke deportation protections for Ethiopians"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a2ef545d9f7b4f01fa8a9931185f80b4",
+    "topic_label": "US-ICC Sanctions Conflict",
+    "event_window_start": "2026-08-18T18:37:59.000Z",
+    "event_window_end": "2026-08-18T20:09:07.000Z",
+    "article_ids": [
+      "art_1787088698229_4xgis",
+      "art_1787081732814_z65rs",
+      "art_1787081740293_a0ktq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-18T22:26:48.778Z",
+    "updated_at": "2026-08-18T22:26:48.778Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "US Secretary of State Marco Rubio announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye.",
+      "Tomoko Akane is a judge from Japan who became ICC president in 2024.",
+      "Abdoulaye Seye is a senior trial lawyer at the ICC from Senegal.",
+      "The Trump administration is engaged in a campaign regarding the ICC."
+    ],
+    "source_claims": [
+      "[aljazeera] Rubio framed the sanctions as part of a campaign to 'dismantle' the court and protect Americans from a 'sham of a court'.",
+      "[bbc] The ICC stated it stands behind its staff and believes these measures 'undermine the rule of law'.",
+      "[guardian] Rubio described the ICC as a 'corrupt and fatally politicized supranational court that has maliciously abused its authority and exceeded its mandate'."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the sanctions within the context of protecting Americans from being tried abroad; the BBC frames the sanctions as a broader escalation against a court empowered by 120 countries; The Guardian specifically frames the sanctions as a response to the investigation of Israeli war crimes in Gaza."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Abdoulaye Seye was specifically tasked with investigating crimes committed by Israel during its war on Gaza."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'sham of a court' to describe the ICC as attributed to Marco Rubio.",
+      "[guardian] uses the terms 'corrupt and fatally politicized supranational court' to describe the ICC as attributed to Marco Rubio."
+    ],
+    "safe_conclusions": [
+      "The US government has imposed sanctions on two specific high-ranking ICC officials, Tomoko Akane and Abdoulaye Seye."
+    ],
+    "unknowns": [
+      "The specific legal mechanisms or financial impacts of the sanctions imposed on these individuals are not detailed.",
+      "The official response from the Japanese or Senegalese governments regarding the sanctions on their citizens is not provided."
+    ],
+    "synthesis": "US Secretary of State Marco Rubio has announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye as part of an effort to challenge the court's jurisdiction. The ICC has publicly stated its opposition to these measures, characterizing them as an attempt to undermine the rule of law. The sanctions are described by administration officials as a protection of US sovereignty, while other outlets identify the move as a response to the court's investigations into specific international conflicts.",
+    "confidence": "HIGH: The core facts regarding the naming of the sanctioned officials and the official status of the action are consistent across all reports.",
+    "sources": [
+      {
+        "id": "art_1787088698229_4xgis",
+        "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US sanctions International Criminal Court president and trial lawyer"
+      },
+      {
+        "id": "art_1787081732814_z65rs",
+        "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US announces new sanctions on top ICC figures "
+      },
+      {
+        "id": "art_1787081740293_a0ktq",
+        "url": "https://www.theguardian.com/us-news/2026/aug/18/us-icc-sanctions",
+        "source": "guardian",
+        "title": "US sanctions international criminal court president and prosecutor"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "c7bf89363085d93cf6c12f4800042eea",
     "topic_label": "Israel and Middle East Tensions",
     "event_window_start": "2026-08-18T06:35:43.000Z",
@@ -97,77 +667,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss",
         "source": "aljazeera",
         "title": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "54aa2e97d979adaa1c4c1fd05cf7231b",
-    "topic_label": "Global Ebola Outbreak",
-    "event_window_start": "2026-08-18T20:53:44.000Z",
-    "event_window_end": "2026-08-18T21:24:52.000Z",
-    "article_ids": [
-      "art_1787090445189_fwt5h",
-      "art_1787088695046_6tv26"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Democratic Republic of Congo (DRC) is currently experiencing an Ebola outbreak.",
-      "The World Health Organization (WHO) has categorized the Ebola outbreak as a global health emergency.",
-      "The outbreak has resulted in more than 2,300 deaths.",
-      "The current outbreak is considered the deadliest in the DRC's history."
-    ],
-    "source_claims": [
-      "[aljazeera_1] The WHO Director-General stated the epidemic is not under control and the organization is playing catch-up.",
-      "[aljazeera_1] The current outbreak is the seventeenth to occur in the DRC.",
-      "[aljazeera_1] The current outbreak has exceeded the death toll of the 2018-2020 outbreak.",
-      "[aljazeera_2] The WHO asserts that the outbreak can be contained within three months if sufficient funding is provided."
-    ],
-    "framing_differences": [
-      "aljazeera_1 frames the situation as a critical, ongoing struggle described as 'playing catch-up,' whereas aljazeera_2 frames the situation through the lens of potential resolution contingent upon external funding."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] The current outbreak has killed more than 2,320 people.",
-      "[aljazeera_1] The current outbreak cases have passed 5,000."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the phrase 'playing catch-up' to describe the status of the WHO's response to the epidemic."
-    ],
-    "safe_conclusions": [
-      "The Ebola outbreak in the DRC is the deadliest on record in the country.",
-      "The WHO maintains that the outbreak constitutes a global health emergency.",
-      "The death toll from the current outbreak exceeds 2,300."
-    ],
-    "unknowns": [
-      "The exact total number of recorded cases beyond the 'more than 5,000' reported.",
-      "The specific amount of funding required for the WHO to contain the outbreak within three months."
-    ],
-    "synthesis": "The World Health Organization has classified the current Ebola outbreak in the Democratic Republic of Congo as a global health emergency with over 2,300 confirmed deaths. While the organization characterizes the situation as currently uncontrolled, it estimates that the outbreak could be contained within three months if adequate funding is secured. This event marks the deadliest Ebola outbreak in the country's history.",
-    "confidence": "HIGH. Both articles originate from the same source outlet and provide consistent data regarding the status and mortality of the outbreak.",
-    "sources": [
-      {
-        "id": "art_1787090445189_fwt5h",
-        "url": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Congo Ebola outbreak ‘global emergency’ as infections pass 5,000: WHO"
-      },
-      {
-        "id": "art_1787088695046_6tv26",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "WHO: Ebola can be contained in months if enough funding is provided"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -402,87 +901,6 @@
         "url": "https://www.foxnews.com/politics/appeals-court-rules-trump-admin-unlawfully-appointed-nevadas-top-federal-prosecutor",
         "source": "fox",
         "title": "Appeals court rules Trump admin unlawfully appointed Nevada's top federal prosecutor"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "de281e78df2534968629df3e6533c169",
-    "topic_label": "Lindsay Clancy Murder Case",
-    "event_window_start": "2026-08-18T14:48:12.000Z",
-    "event_window_end": "2026-08-18T20:53:25.000Z",
-    "article_ids": [
-      "art_1787086925272_qb18m",
-      "art_1787083359263_c0nu8",
-      "art_1787066198001_t2rpw"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Lindsay Clancy is on trial for the 2023 deaths of her three children, Cora, Dawson, and Callan.",
-      "Lindsay Clancy has pleaded not guilty to three counts of first-degree murder.",
-      "The children were found strangled in their home in Duxbury, Massachusetts.",
-      "Susan Clancy, the mother-in-law of Lindsay Clancy, testified in court on Tuesday.",
-      "The defense argues that Lindsay Clancy was experiencing postpartum psychosis at the time of the incident."
-    ],
-    "source_claims": [
-      "[fox] prosecutors asked Susan Clancy if she knew that murder is a mortal sin to argue Lindsay Clancy understood the wrongfulness of her actions.",
-      "[bbc] Susan Clancy testified that Lindsay Clancy was 'begging for help' and experiencing symptoms like insomnia, anxiety, and loss of appetite before the deaths.",
-      "[bbc] prosecutors alleged Lindsay Clancy made a calculated decision to intentionally kill her children."
-    ],
-    "framing_differences": [
-      "fox frames the questioning of Susan Clancy as prosecutors playing the 'faith card' to counter the defense's postpartum psychosis argument, while bbc frames Susan Clancy's testimony around Lindsay Clancy's deteriorating mental health and requests for help."
-    ],
-    "contested_claims": [
-      "Prosecutors and the defense disagree on Lindsay Clancy's state of mind, with prosecutors alleging a calculated, intentional act and the defense arguing it was the result of postpartum psychosis."
-    ],
-    "unverified_claims": [
-      "[fox] claims the prosecutor's question about mortal sin prompted the judge to call an immediate sidebar."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'played the faith card' to describe the prosecution's line of questioning regarding the mother-in-law's Catholic faith."
-    ],
-    "safe_conclusions": [
-      "Susan Clancy provided testimony in the murder trial of Lindsay Clancy.",
-      "Lindsay Clancy is charged with murdering her three children.",
-      "There is a disagreement in court regarding whether Lindsay Clancy's mental state constitutes a defense for the killings."
-    ],
-    "unknowns": [
-      "The full scope of the prosecutor's strategy beyond the reported questioning.",
-      "The specific outcome or impact of the sidebar requested by the judge.",
-      "The final verdict of the trial."
-    ],
-    "synthesis": "Lindsay Clancy is currently standing trial for the 2023 deaths of her three young children in Duxbury, Massachusetts. During the proceedings, the defense presented testimony from Susan Clancy regarding Lindsay Clancy's mental health struggles, while the prosecution maintained their position that the killings were intentional. The trial continues to examine the conflict between claims of postpartum psychosis and allegations of calculated murder.",
-    "confidence": "HIGH. The sources agree on the core facts of the trial, the charges, and the primary arguments presented by both the prosecution and defense.",
-    "sources": [
-      {
-        "id": "art_1787086925272_qb18m",
-        "url": "https://www.foxnews.com/us/prosecutor-corners-lindsay-clancy-catholic-mother-in-law-mortal-sin-question",
-        "source": "fox",
-        "title": "Prosecutor corners Lindsay Clancy's Catholic mother-in-law with 'mortal sin' question"
-      },
-      {
-        "id": "art_1787083359263_c0nu8",
-        "url": "https://www.bbc.co.uk/news/articles/c62emm4yp8go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Lindsay Clancy begged for help before her children's killings, mother-in-law testifies"
-      },
-      {
-        "id": "art_1787066198001_t2rpw",
-        "url": "https://www.foxnews.com/us/lindsay-clancy-family-concerned-mental-health-months-before-killed-kids",
-        "source": "fox",
-        "title": "Lindsay Clancy's family was 'very concerned' about her mental health in the months before she killed her kids"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -937,83 +1355,6 @@
         "url": "https://www.foxnews.com/opinion/win-november-republicans-take-page-obamas-playbook",
         "source": "fox",
         "title": "To win in November, Republicans need to take a page from Obama’s playbook"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a2ef545d9f7b4f01fa8a9931185f80b4",
-    "topic_label": "US-ICC Sanctions Conflict",
-    "event_window_start": "2026-08-18T18:37:59.000Z",
-    "event_window_end": "2026-08-18T20:09:07.000Z",
-    "article_ids": [
-      "art_1787088698229_4xgis",
-      "art_1787081732814_z65rs",
-      "art_1787081740293_a0ktq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "US Secretary of State Marco Rubio announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye.",
-      "Tomoko Akane is a judge from Japan who became ICC president in 2024.",
-      "Abdoulaye Seye is a senior trial lawyer at the ICC from Senegal.",
-      "The Trump administration is engaged in a campaign regarding the ICC."
-    ],
-    "source_claims": [
-      "[aljazeera] Rubio framed the sanctions as part of a campaign to 'dismantle' the court and protect Americans from a 'sham of a court'.",
-      "[bbc] The ICC stated it stands behind its staff and believes these measures 'undermine the rule of law'.",
-      "[guardian] Rubio described the ICC as a 'corrupt and fatally politicized supranational court that has maliciously abused its authority and exceeded its mandate'."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the sanctions within the context of protecting Americans from being tried abroad; the BBC frames the sanctions as a broader escalation against a court empowered by 120 countries; The Guardian specifically frames the sanctions as a response to the investigation of Israeli war crimes in Gaza."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Abdoulaye Seye was specifically tasked with investigating crimes committed by Israel during its war on Gaza."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'sham of a court' to describe the ICC as attributed to Marco Rubio.",
-      "[guardian] uses the terms 'corrupt and fatally politicized supranational court' to describe the ICC as attributed to Marco Rubio."
-    ],
-    "safe_conclusions": [
-      "The US government has imposed sanctions on two specific high-ranking ICC officials, Tomoko Akane and Abdoulaye Seye."
-    ],
-    "unknowns": [
-      "The specific legal mechanisms or financial impacts of the sanctions imposed on these individuals are not detailed.",
-      "The official response from the Japanese or Senegalese governments regarding the sanctions on their citizens is not provided."
-    ],
-    "synthesis": "US Secretary of State Marco Rubio has announced sanctions against ICC President Tomoko Akane and Senior Trial Lawyer Abdoulaye Seye as part of an effort to challenge the court's jurisdiction. The ICC has publicly stated its opposition to these measures, characterizing them as an attempt to undermine the rule of law. The sanctions are described by administration officials as a protection of US sovereignty, while other outlets identify the move as a response to the court's investigations into specific international conflicts.",
-    "confidence": "HIGH: The core facts regarding the naming of the sanctioned officials and the official status of the action are consistent across all reports.",
-    "sources": [
-      {
-        "id": "art_1787088698229_4xgis",
-        "url": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US sanctions International Criminal Court president and trial lawyer"
-      },
-      {
-        "id": "art_1787081732814_z65rs",
-        "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US announces new sanctions on top ICC figures "
-      },
-      {
-        "id": "art_1787081740293_a0ktq",
-        "url": "https://www.theguardian.com/us-news/2026/aug/18/us-icc-sanctions",
-        "source": "guardian",
-        "title": "US sanctions international criminal court president and prosecutor"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -1678,71 +2019,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/08-18-26-arday-vigil-london-sv-mp4?traffic_source=rss",
         "source": "aljazeera",
         "title": "Vigil held in central London for late Cambridge professor Jason Arday"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "61b4b5a49a0c9a41598004008740561a",
-    "topic_label": "Trump Administration Deportation Policy",
-    "event_window_start": "2026-08-18T19:09:23.000Z",
-    "event_window_end": "2026-08-18T21:10:35.000Z",
-    "article_ids": [
-      "art_1787088689689_avoga",
-      "art_1787081733837_ocakj"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T22:26:48.778Z",
-    "updated_at": "2026-08-18T22:26:48.778Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A U.S. federal judge named Brian Murphy ruled on a Tuesday that the Trump administration may terminate Temporary Protected Status (TPS) for Ethiopian nationals.",
-      "This ruling removes a judicial hold that had previously prevented the termination of TPS for Ethiopia."
-    ],
-    "source_claims": [
-      "[fox] reports that this ruling completes the termination of TPS for all countries targeted by the Department of Homeland Security.",
-      "[aljazeera] claims the ruling impacts more than 5,000 Ethiopian individuals.",
-      "[aljazeera] states that since returning to office in 2025, President Trump has sought to end TPS for multiple nationalities."
-    ],
-    "framing_differences": [
-      "Fox frames the ruling as a victory for the Trump administration's efforts to end specific TPS programs, whereas Al Jazeera frames it as a legal development involving the revocation of protections for a specific number of individuals.",
-      "Fox includes an introductory paragraph about an interview with a Haitian council member that appears unrelated to the headline topic, while Al Jazeera focuses strictly on the ruling regarding Ethiopian migrants."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims this ruling puts into effect all TPS terminations the Department of Homeland Security has pursued."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "A U.S. District Court judge has issued a ruling that allows the U.S. government to proceed with the termination of TPS for Ethiopian nationals."
-    ],
-    "unknowns": [
-      "The specific number of Ethiopian nationals affected by this ruling remains unverified across both sources.",
-      "The full list of other nationalities whose TPS status the administration is currently seeking to terminate is not specified."
-    ],
-    "synthesis": "A U.S. federal judge has cleared the way for the Trump administration to end Temporary Protected Status for Ethiopian immigrants. This ruling removes the final judicial blocks previously preventing the government from terminating these protections for Ethiopia. The decision follows a broader administration effort to review and end TPS designations for various countries.",
-    "confidence": "HIGH. Both sources agree on the core legal action taken by the judge and the implications for Ethiopian TPS holders.",
-    "sources": [
-      {
-        "id": "art_1787088689689_avoga",
-        "url": "https://www.foxnews.com/politics/trump-admin-scores-court-win-end-deportation-protections-ethiopian-migrants",
-        "source": "fox",
-        "title": "Trump admin scores court win to end deportation protections for Ethiopian migrants"
-      },
-      {
-        "id": "art_1787081733837_ocakj",
-        "url": "https://www.aljazeera.com/news/2026/8/18/us-judge-says-government-can-revoke-deportation-protections-for-ethiopians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US judge says government can revoke deportation protections for Ethiopians"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -22094,249 +22370,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/16/rescue-teams-search-for-survivors-in-indonesia-after-powerful-earthquake",
         "source": "guardian",
         "title": "Rescue teams search for survivors in Indonesia after powerful earthquake"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c9b43c50ccb1260457daef368a87725d",
-    "topic_label": "Conflict in the Middle East",
-    "event_window_start": "2026-08-16T02:26:54.000Z",
-    "event_window_end": "2026-08-16T06:10:58.000Z",
-    "article_ids": [
-      "art_1786865833489_f4xwp",
-      "art_1786865834526_6vznc",
-      "art_1786858389026_nkdfj",
-      "art_1786855266694_6nx54",
-      "art_1786848587747_6ugch"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T02:26:51.246Z",
-    "updated_at": "2026-08-17T02:26:51.246Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Conflict and military actions are occurring in Gaza, Lebanon, and Yemen.",
-      "Civilians and infrastructure are being affected by ongoing hostilities in these regions."
-    ],
-    "source_claims": [
-      "[aljazeera_1] The war in Gaza is described as 'genocidal' and began in October 2023.",
-      "[aljazeera_1] Lighters and fuel for cooking are increasingly difficult to obtain in Gaza.",
-      "[aljazeera_2] Israeli general elections were scheduled for October 27.",
-      "[aljazeera_3] Israeli airstrikes occurred in the Nabatieh district of southern Lebanon following a ceasefire.",
-      "[aljazeera_4] Yemeni government forces, supported by Saudi Arabia, are engaged in combat against the Houthis.",
-      "[aljazeera_5] Journalist Hind Khoudary has opened a cafe on the beach in Gaza."
-    ],
-    "framing_differences": [
-      "No explicit framing differences found as all articles originate from the same source outlet."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] Rabab Deifallah's lighter has been repaired several times by her son."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'genocidal' to describe the war in Gaza.",
-      "[aljazeera_5] uses the term 'war-ravaged' to describe the enclave of Gaza."
-    ],
-    "safe_conclusions": [
-      "Ongoing military conflicts and political instability are present in multiple Middle Eastern locations including Gaza, Lebanon, and Yemen."
-    ],
-    "unknowns": [
-      "The specific current operational status of the mentioned cafe.",
-      "The exact casualty counts for ongoing conflicts outside of the specific incident mentioned in Lebanon.",
-      "The long-term impact of the fuel shortages in Gaza on the broader population."
-    ],
-    "synthesis": "Recent reports highlight ongoing military conflicts in Gaza, Lebanon, and Yemen impacting civilian life and local infrastructure. Domestic political shifts in Israel and civil hostilities in Yemen continue to develop alongside the humanitarian challenges faced by those in Gaza. Regional stability remains affected by recurring airstrikes and escalating military engagements.",
-    "confidence": "HIGH. All sources are derived from the same publication and present consistent, non-contradictory reporting on distinct regional events.",
-    "sources": [
-      {
-        "id": "art_1786865833489_f4xwp",
-        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How a simple lighter has become the backbone of life in Gaza"
-      },
-      {
-        "id": "art_1786865834526_6vznc",
-        "url": "https://www.aljazeera.com/news/2026/8/16/a-nation-divided-what-do-israelis-want-in-octobers-elections?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "A nation divided: What do Israelis want in October’s elections?"
-      },
-      {
-        "id": "art_1786858389026_nkdfj",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel strikes south Lebanon again as families flee north"
-      },
-      {
-        "id": "art_1786855266694_6nx54",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/08-16-2026-houthis-yemen-sv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemeni government forces hit back after new Houthi offensive"
-      },
-      {
-        "id": "art_1786848587747_6ugch",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "03c5a40f33f80eb7aecaa52a12018878",
-    "topic_label": "Conflict in Gaza and Lebanon",
-    "event_window_start": "2026-08-16T02:26:54.000Z",
-    "event_window_end": "2026-08-16T06:10:58.000Z",
-    "article_ids": [
-      "art_1786865833489_f4xwp",
-      "art_1786858389026_nkdfj",
-      "art_1786848587747_6ugch"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T01:03:01.265Z",
-    "updated_at": "2026-08-17T01:03:01.265Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israel has engaged in military activity within the Gaza Strip and Lebanon.",
-      "Civilians in Gaza are currently experiencing severe shortages of daily necessities.",
-      "The ongoing military activity has resulted in the displacement of populations in Lebanon."
-    ],
-    "source_claims": [
-      "[aljazeera-1] Rabab Deifallah reports that lighters are difficult to acquire in Gaza.",
-      "[aljazeera-1] Rabab Deifallah uses firewood for cooking and heating due to shortages of cooking gas.",
-      "[aljazeera-2] At least 11 people were killed in Israeli airstrikes in Lebanon.",
-      "[aljazeera-3] Journalist Hind Khoudary has opened a cafe on a beach in Gaza."
-    ],
-    "framing_differences": [
-      "aljazeera-1 frames the conflict in Gaza as having created a humanitarian crisis involving the scarcity of simple tools like lighters.",
-      "aljazeera-2 frames the conflict in Lebanon as an escalation resulting in displacement and casualties.",
-      "aljazeera-3 frames the opening of a cafe in Gaza as a symbolic act of resilience and community building amid the conflict."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera-1] Rabab Deifallah claims Israel’s war on Gaza is genocidal.",
-      "[aljazeera-2] Israel struck the Nabatieh district of southern Lebanon."
-    ],
-    "loaded_language": [
-      "[aljazeera-1] uses the term 'genocidal' to describe the war on Gaza.",
-      "[aljazeera-3] uses the term 'war-ravaged' to describe the Gaza enclave."
-    ],
-    "safe_conclusions": [
-      "Conflict in the Gaza Strip and Lebanon is currently impacting civilian life.",
-      "Civilians are subject to displacement and resource shortages in these regions."
-    ],
-    "unknowns": [
-      "The exact number of lighters currently available in the Gaza market.",
-      "The specific locations in northern Lebanon receiving displaced families.",
-      "The long-term operational feasibility of the cafe opened by Hind Khoudary."
-    ],
-    "synthesis": "Recent reports from Al Jazeera detail the ongoing humanitarian challenges in Gaza, including the scarcity of basic items and civilian attempts to maintain aspects of daily life. Simultaneously, military strikes in southern Lebanon have caused casualties and prompted civilian displacement to the north. These accounts illustrate the pervasive impact of current military activities on civilian populations in both territories.",
-    "confidence": "HIGH. The provided articles are from the same source and reflect internally consistent reporting on separate, distinct events within the same regional conflict.",
-    "sources": [
-      {
-        "id": "art_1786865833489_f4xwp",
-        "url": "https://www.aljazeera.com/economy/2026/8/16/struggle-for-a-spark-gaza-lighter-crisis-makes-cooking-an-expensive-chore?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How a simple lighter has become the backbone of life in Gaza"
-      },
-      {
-        "id": "art_1786858389026_nkdfj",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israel-strikes-south-lebanon-again-as-families-flee-north?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel strikes south Lebanon again as families flee north"
-      },
-      {
-        "id": "art_1786848587747_6ugch",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7401ab228e8032aa022e6a5f3777aa44",
-    "topic_label": "Australia gun control",
-    "event_window_start": "2026-08-16T02:09:46.000Z",
-    "event_window_end": "2026-08-16T04:35:26.000Z",
-    "article_ids": [
-      "art_1786858390071_f3e82",
-      "art_1786848590147_dm7vq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-16T21:52:32.578Z",
-    "updated_at": "2026-08-16T21:52:32.578Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Prime Minister Anthony Albanese and New South Wales Premier Chris Minns have announced a gun buyback scheme.",
-      "The buyback scheme is being implemented in response to a mass shooting event in Bondi.",
-      "The federal government is partnering with states and territories on gun control measures.",
-      "There are currently more firearms in Australia than at the time of the Port Arthur massacre."
-    ],
-    "source_claims": [
-      "[aljazeera] The gun buyback is scheduled to begin in November.",
-      "[aljazeera] The government intends to implement tighter gun licence checks and a crackdown on hate.",
-      "[aljazeera] The December 14, 2025, Bondi Beach attack resulted in 15 deaths.",
-      "[aljazeera] The alleged gunmen in the Bondi attack used legally obtained firearms.",
-      "[guardian] The prime minister invited all states and territories to join the buyback scheme under a federal funding deal."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the event specifically as a 'nationwide response' tied to a 'crackdown on hate', whereas The Guardian frames the event as part of a broader federal-state funding partnership and historical comparison to the Port Arthur massacre."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Australians owned a record 4.1 million firearms last year, with 1.1 million in New South Wales."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'crackdown on hate' to describe government policy.",
-      "[guardian] uses the term 'Bondi terror attack' to characterize the event."
-    ],
-    "safe_conclusions": [
-      "A gun buyback program is being initiated in New South Wales.",
-      "The Australian federal government is addressing current firearm ownership levels."
-    ],
-    "unknowns": [
-      "The specific details of the gun licence checks and the 'crackdown on hate' measures mentioned by the Prime Minister.",
-      "The specific legislative details of the federal funding deal mentioned by The Guardian."
-    ],
-    "synthesis": "Prime Minister Anthony Albanese and New South Wales Premier Chris Minns have announced a new gun buyback scheme in response to a mass shooting at Bondi. The initiative is part of a broader effort to address rising firearm ownership numbers in Australia compared to the era of the Port Arthur massacre. The federal government has offered to extend this funding deal to all other states and territories.",
-    "confidence": "HIGH. Both sources confirm the existence of the gun buyback scheme and the political context of the federal-state partnership, though one provides specific date and casualty details regarding the underlying incident not present in the other.",
-    "sources": [
-      {
-        "id": "art_1786858390071_f3e82",
-        "url": "https://www.aljazeera.com/news/2026/8/16/australia-gun-buyback-spurred-by-bondi-attack-to-start-in-november-pm-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Australia gun buyback spurred by Bondi attack to start in November, PM says"
-      },
-      {
-        "id": "art_1786848590147_dm7vq",
-        "url": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
-        "source": "guardian",
-        "title": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
