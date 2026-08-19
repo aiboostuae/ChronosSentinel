@@ -1,55 +1,63 @@
 [
   {
-    "cluster_id": "eb51682f9e1a7525d9d8f968427fd27b",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-08-18T18:32:24.000Z",
+    "cluster_id": "9f49277036a9041a9a47408bb37048b1",
+    "topic_label": "Conflict in Gaza and Middle East",
+    "event_window_start": "2026-08-18T15:14:17.000Z",
     "event_window_end": "2026-08-19T08:46:51.000Z",
     "article_ids": [
       "art_1787134306064_pkxb3",
       "art_1787088691786_fg7ui",
-      "art_1787081743403_qvf14"
+      "art_1787081743403_qvf14",
+      "art_1787069413622_0n5bb"
     ],
     "source_ids": [
       "aljazeera"
     ],
-    "article_count": 3,
+    "article_count": 4,
     "source_count": 1,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-19T11:06:28.067Z",
-    "updated_at": "2026-08-19T11:06:28.067Z",
+    "created_at": "2026-08-19T10:37:49.206Z",
+    "updated_at": "2026-08-19T10:37:49.206Z",
     "region_tag": "middle-east",
     "shared_facts": [
       "An Israeli strike occurred in Gaza City.",
-      "At least six people were killed in the strike."
+      "Multiple people were killed in the Gaza City strike.",
+      "The Asian Football Confederation held a draw for the Champions League group stage on Tuesday."
     ],
     "source_claims": [
-      "[aljazeera] reported an Israeli strike hit a crowded cafe in the port area of Gaza City, which serves as a displacement camp.",
-      "[aljazeera] reported that Israel stated it targeted four Hamas commanders in the strike."
+      "[aljazeera_2] Palestinian reports state 14 people were injured in the Gaza City cafe strike.",
+      "[aljazeera_2] Benjamin Netanyahu insists the Israeli military will not withdraw from Gaza unless Hamas agrees to disarm.",
+      "[aljazeera_2] Hamas insists it will only disarm once Israeli soldiers withdraw.",
+      "[aljazeera_3] Israel stated it targeted four Hamas commanders during the Gaza City strike.",
+      "[aljazeera_4] Iranian clubs will play against Qatari and UAE teams at neutral venues in the Asian Champions League Elite.",
+      "[aljazeera_4] Iran struck targets in Qatar and the UAE following attacks in February by the United States and Israel."
     ],
     "framing_differences": [
-      "One aljazeera article focuses on the impact on civilians and the status of ceasefire negotiations, while the other aljazeera article focuses on the specific casualties and the Israeli military's stated targeting objective."
+      "aljazeera_2 frames the stalled agreement as a result of Prime Minister Netanyahu rejecting a U.S.-backed plan, whereas aljazeera_3 frames the same event by detailing the immediate casualty count and Israel's stated tactical target."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] reported that 14 people were injured in the strike.",
-      "[aljazeera] reported that the blast threw victims into the sea."
+      "[aljazeera_2] Palestinian reports claim the cafe was located in a displacement camp.",
+      "[aljazeera_3] Reports claim the blast from the strike threw victims into the sea."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'crowded' to describe the cafe."
+      "[aljazeera_2] uses the term 'crowded' to describe the cafe site.",
+      "[aljazeera_4] uses the term 'heavily favoured' to describe the Saudi Arabian contingent."
     ],
     "safe_conclusions": [
-      "An Israeli strike took place in the port area of Gaza City resulting in six deaths."
+      "An Israeli strike in Gaza City resulted in civilian and child fatalities.",
+      "Negotiations to end hostilities in the Gaza conflict remain stalled.",
+      "The Asian Football Confederation scheduled matches between Iranian, Qatari, and UAE clubs to take place at neutral venues."
     ],
     "unknowns": [
-      "The identities of the six individuals killed.",
-      "The official Israeli military confirmation regarding the identities of the four targeted commanders.",
-      "The exact number of injuries reported by official health authorities."
+      "The specific identities of the individuals killed in the Gaza City strike are not confirmed.",
+      "The official response from the UAE or Qatar regarding the Iranian claims of strikes on their territory is not provided."
     ],
-    "synthesis": "An Israeli strike in the port area of Gaza City resulted in at least six deaths, including a child. Reports indicate the location was used as a displacement area, while Israeli authorities stated the operation targeted four Hamas commanders. Negotiations regarding the broader hostilities in the region remain ongoing.",
-    "confidence": "HIGH. The sources consistently identify the location, the nature of the event, and the casualty count.",
+    "synthesis": "An Israeli strike in Gaza City resulted in multiple fatalities, including a child, with Israel stating its intention was to target four Hamas commanders. Concurrently, negotiations to end hostilities in the region remain stalled due to conflicting demands regarding disarmament and military withdrawal. In unrelated regional developments, the Asian Football Confederation confirmed that Iranian clubs will play their Champions League matches against Qatari and Emirati teams at neutral venues.",
+    "confidence": "HIGH: The sources provide consistent reporting on the specific events, though they focus on different aspects of the broader regional conflicts.",
     "sources": [
       {
         "id": "art_1787134306064_pkxb3",
@@ -68,20 +76,25 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
         "source": "aljazeera",
         "title": "Israeli strike on Gaza City cafe kills six, including child"
+      },
+      {
+        "id": "art_1787069413622_0n5bb",
+        "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "3b91f8228bc9853143d12c5080d91c99",
-    "topic_label": "Iran and Middle East Tensions",
+    "cluster_id": "46c93233963810010eec71c737f17d39",
+    "topic_label": "US and Iran Relations",
     "event_window_start": "2026-08-18T14:26:18.000Z",
     "event_window_end": "2026-08-19T09:48:16.000Z",
     "article_ids": [
       "art_1787134299881_889un",
       "art_1787132487011_ja1w3",
       "art_1787088690753_b5i9g",
-      "art_1787069413622_0n5bb",
       "art_1787066208299_50f37"
     ],
     "source_ids": [
@@ -89,56 +102,51 @@
       "fox",
       "aljazeera"
     ],
-    "article_count": 5,
+    "article_count": 4,
     "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-19T11:06:28.067Z",
-    "updated_at": "2026-08-19T11:06:28.067Z",
+    "created_at": "2026-08-19T12:45:22.226Z",
+    "updated_at": "2026-08-19T12:45:22.226Z",
     "region_tag": "global",
     "shared_facts": [
-      "The United States and Iran have ongoing diplomatic and military tensions.",
-      "There is disagreement regarding the existence of back-channel communications between the United States and Iran."
+      "There are ongoing tensions and diplomatic disagreements between the United States and Iran.",
+      "The United States has engaged in communication efforts with Iran, the nature and existence of which are subject to conflicting reports."
     ],
     "source_claims": [
-      "[bbc] The US Department of Justice charged 17 Iranians associated with the Mabna Institute for allegedly stealing data from 144 universities and 42 private firms since 2013.",
-      "[fox_1] The movement of the USS George Washington to the Middle East may leave the Pacific without a US carrier, creating a strategic tradeoff for the US military.",
-      "[aljazeera_1] Donald Trump stated no talks are planned with Iran and claimed the US has naval blockades of Iranian ports in effect.",
-      "[aljazeera_1] Iran and Oman are engaged in talks regarding the management of the Strait of Hormuz.",
-      "[aljazeera_2] Iranian football clubs Esteghlal and Tractor will play their Asian Champions League matches against Qatari and UAE teams at neutral venues.",
-      "[aljazeera_2] The US and Israel allegedly attacked Iran in February, leading Iran to strike targets in Qatar and the UAE.",
-      "[fox_2] Jared Kushner claims US-Iran communications are 'more robust' than ever.",
-      "[fox_2] Jared Kushner claims Iranian officials are attempting to 'trick' the US."
+      "[bbc] The US Department of Justice charged 17 Iranians for allegedly conducting a coordinated campaign of cyber theft against 144 universities and 42 private firms.",
+      "[fox-1] The deployment of the USS George Washington to the Middle East may leave the Pacific without a US carrier for a period of time.",
+      "[aljazeera] President Donald Trump stated there are no planned talks with Iran and shared a map depicting the Strait of Hormuz as US territory.",
+      "[fox-2] Jared Kushner stated that US-Iran communications are currently more robust than ever."
     ],
     "framing_differences": [
-      "aljazeera_1 frames Trump's comments as an 'about-face' regarding previous claims of back-channel talks, while fox_2 frames the situation as Jared Kushner touting unprecedented contacts despite Iranian denials.",
-      "aljazeera_2 frames the relocation of football matches as a consequence of regional conflict, while fox_1 frames US military movements in the region as a strategic calculation regarding the deterrence of China."
+      "fox-1 frames the naval movement as a strategic tradeoff involving China, while aljazeera frames the naval presence in the context of port blockades and administrative tension.",
+      "aljazeera frames the status of US-Iran talks as nonexistent, whereas fox-2 frames the same relationship as having 'robust' communication channels."
     ],
     "contested_claims": [
-      "Donald Trump claimed the US was engaged in back-channel conversations with Iran (aljazeera_1), while Jared Kushner (fox_2) describes communications as 'robust' and the Iranian government (aljazeera_1) denied such a backchannel exists."
+      "aljazeera reports Trump claimed the US was in back-channel talks with the IRGC on Monday, which Iran rejected; meanwhile, fox-2 reports Jared Kushner confirmed communications are robust despite Iran's denials."
     ],
     "unverified_claims": [
-      "[aljazeera_2] The United States and Israel attacked Iran in February, prompting Iranian retaliatory strikes in Qatar and the UAE.",
-      "[aljazeera_1] Donald Trump posted a map on social media depicting the Strait of Hormuz as US territory."
+      "[bbc] The Mabna Institute is alleged to have stolen 31 terabytes of data worth $3.4bn.",
+      "[aljazeera] President Trump posted a map depicting the Strait of Hormuz as US territory."
     ],
     "loaded_language": [
-      "[bbc] uses the term 'massive' to describe the alleged cyber theft campaign.",
-      "[fox_2] uses the term 'trick' to describe the alleged behavior of Iranian officials.",
-      "[aljazeera_1] uses the term 'about-face' to describe the change in Trump's statements."
+      "[bbc] uses the term 'sweeping, state-sponsored' to describe the alleged cyber theft campaign.",
+      "[fox-2] uses the term 'trick' to characterize the actions of Iranian officials according to Jared Kushner."
     ],
     "safe_conclusions": [
-      "The United States and Iran have conflicting accounts regarding diplomatic communications.",
-      "Iranian football teams are scheduled to play against teams from Qatar and the UAE at neutral locations."
+      "The United States is currently active in both the Middle East and the Pacific with naval assets.",
+      "There is high-level public disagreement between US officials and Iranian counterparts regarding the existence and substance of bilateral diplomatic communication."
     ],
     "unknowns": [
-      "The veracity of the claim that the US and Israel attacked Iran in February.",
-      "The specific nature and current status of direct or indirect communications between the US and Iranian governments.",
-      "The total duration for which the Pacific may be without a US aircraft carrier."
+      "The exact current status of back-channel communications between the US and Iran.",
+      "The precise duration the Pacific will be without a US carrier due to the redeployment of the USS George Washington.",
+      "The ultimate impact of the alleged Mabna Institute cyber campaign on US intellectual property."
     ],
-    "synthesis": "Tensions between the United States and Iran persist, manifesting in conflicting reports regarding diplomatic back-channels and military posturing. While the US Justice Department has initiated legal action against Iranian individuals for cyber activities, military and diplomatic focus remains on the Middle East and the Strait of Hormuz. Regional instability is also affecting international sporting events, with Iranian football clubs relocated to neutral venues for upcoming matches.",
-    "confidence": "CONTESTED. There are significant contradictions between sources regarding diplomatic communication and the history of military engagements in the region.",
+    "synthesis": "US-Iran relations are currently marked by contradictory reports regarding diplomatic back-channels and significant naval redeployments in the Middle East. While US officials provide varying accounts on the robustness of communications, military adjustments are shifting naval assets from the Pacific to the Middle East. Concurrently, the Department of Justice continues to pursue legal actions against Iranian entities regarding historical cyber activity.",
+    "confidence": "CONTESTED. The provided sources offer conflicting accounts regarding the nature of diplomatic relations and US-Iran communication status.",
     "sources": [
       {
         "id": "art_1787134299881_889un",
@@ -157,12 +165,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/18/no-talks-with-iran-says-trump-as-us-president-stews-over-hormuz-deal?traffic_source=rss",
         "source": "aljazeera",
         "title": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal"
-      },
-      {
-        "id": "art_1787069413622_0n5bb",
-        "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
       },
       {
         "id": "art_1787066208299_50f37",
@@ -355,6 +357,408 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss",
         "source": "aljazeera",
         "title": "WHO: Ebola can be contained in months if enough funding is provided"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8529df501ec3fee58853bda1d37b7f16",
+    "topic_label": "Natural Disasters and Floods",
+    "event_window_start": "2026-08-18T17:55:26.000Z",
+    "event_window_end": "2026-08-19T09:22:30.000Z",
+    "article_ids": [
+      "art_1787134305038_v8sks",
+      "art_1787083358188_9uje5"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T11:06:28.067Z",
+    "updated_at": "2026-08-19T11:06:28.067Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Severe weather events involving heavy rain and landslides have occurred recently.",
+      "Emergency evacuations were conducted in response to these weather-related incidents."
+    ],
+    "source_claims": [
+      "[aljazeera_1] Cars were swept downhill in northern Chile and a state of catastrophe was declared in Tocopilla province.",
+      "[aljazeera_2] A hospital in Nigeria collapsed after rainwater triggered a landslide that compromised its foundations."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames the event in Chile as a disaster requiring a state of catastrophe declaration, while aljazeera_2 frames the event in Nigeria as an infrastructure failure resulting from environmental conditions."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] Residents described the moment as terrifying.",
+      "[aljazeera_2] Locals say people were evacuated prior to the collapse due to signs observed moments before the incident."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the term 'terrifying' to describe the residents' experience."
+    ],
+    "safe_conclusions": [
+      "Heavy rainfall has caused landslides in Chile and Nigeria.",
+      "Emergency evacuations have taken place in response to these landslides."
+    ],
+    "unknowns": [
+      "The exact number of casualties or injuries resulting from the events in Chile and Nigeria.",
+      "The extent of the physical damage to infrastructure beyond the collapse of the hospital in Nigeria.",
+      "The specific timeline and duration of the rainfall in both locations."
+    ],
+    "synthesis": "Heavy rains have triggered landslides in northern Chile and Nigeria, leading to infrastructure damage and emergency evacuations. In Chile, authorities have declared a state of catastrophe in Tocopilla province, while a hospital building collapsed in Nigeria following foundational damage. Local residents in both instances participated in or witnessed evacuation efforts during the weather events.",
+    "confidence": "HIGH. The sources report on distinct events in different geographic locations without contradiction.",
+    "sources": [
+      {
+        "id": "art_1787134305038_v8sks",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/cars-swept-downhill-as-flash-floods-hit-northern-chile?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Cars swept downhill as flash floods hit northern Chile"
+      },
+      {
+        "id": "art_1787083358188_9uje5",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/nigeria-hospital-collapses-after-rain-washed-away-its-foundations?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Nigeria hospital collapses after rain washed away its foundations"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9e54d2b8b2aa32f3554007ca92718bdf",
+    "topic_label": "US Domestic Political Events",
+    "event_window_start": "2026-08-18T14:29:11.000Z",
+    "event_window_end": "2026-08-19T09:24:01.000Z",
+    "article_ids": [
+      "art_1787132481738_c56s6",
+      "art_1787132482816_6wy2d",
+      "art_1787090446265_y77jt",
+      "art_1787066206345_kby8b"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T12:45:22.226Z",
+    "updated_at": "2026-08-19T12:45:22.226Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Alaska held primary elections on Tuesday.",
+      "The primary elections involve races that impact the balance of power in the U.S. Congress."
+    ],
+    "source_claims": [
+      "[guardian] Mary Peltola and Dan Sullivan are leading their respective primary contests for the U.S. Senate in Alaska.",
+      "[guardian] Angie Nixon won a primary in Florida.",
+      "[fox] All Trump-endorsed candidates in the 2026 primary season have secured victories.",
+      "[fox] Ken Paxton defeated John Cornyn in the Texas primary.",
+      "[fox] Speaker Mike Johnson expects Republicans to grow their House majority."
+    ],
+    "framing_differences": [
+      "guardian frames the Alaska primary as a contest where the outcome will help Democrats retake Congress, while aljazeera frames Alaska as a reliably Republican stronghold that has recently become central to the fight for control of Congress.",
+      "fox frames the primaries primarily through the lens of Donald Trump's influence on the GOP, whereas guardian and aljazeera frame the elections in the context of broader national congressional control."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] The Republican Party is now the 'MAGA party'.",
+      "[fox] Republican congressional majorities will grow in the upcoming midterms."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'iron grip' to describe Donald Trump's influence over the Republican Party.",
+      "[fox] uses the term 'frigid Alaskan tundra' to describe the location of Alaska's primary."
+    ],
+    "safe_conclusions": [
+      "Primary elections were conducted in several U.S. states on Tuesday.",
+      "Control of the U.S. Congress is a focal point of the current election cycle."
+    ],
+    "unknowns": [
+      "The final certified results for the Alaska U.S. Senate primary.",
+      "The full scope of primary outcomes across all states mentioned in the reports."
+    ],
+    "synthesis": "Primary elections held on Tuesday in states including Alaska and Florida are being monitored as indicators for control of the U.S. Congress. Sources report varying candidate leads and party-specific primary results, with different narratives regarding the influence of party leadership and national trends. The results remain subject to further counting and certification.",
+    "confidence": "MEDIUM. While the fact that elections took place is consistent, the reports focus on different, non-overlapping subsets of election results and interpret the national political landscape through different lenses.",
+    "sources": [
+      {
+        "id": "art_1787132481738_c56s6",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/19/mary-peltola-dan-sullivan-alaska-primary-election-us-senate-florida-california-wyoming--donald-trump-us-politics-latest",
+        "source": "guardian",
+        "title": "Democrat Mary Peltola and Republican Dan Sullivan lead in Alaska primary for US Senate – US politics live"
+      },
+      {
+        "id": "art_1787132482816_6wy2d",
+        "url": "https://www.foxnews.com/politics/socialists-capture-major-florida-victory-hit-miss-night-trump-endorsed-primary-candidates",
+        "source": "fox",
+        "title": "Socialists capture major Florida victory on hit-or-miss night for Trump-endorsed primary candidates"
+      },
+      {
+        "id": "art_1787090446265_y77jt",
+        "url": "https://www.foxnews.com/politics/anti-socialism-push-flip-battlegrounds-republican-leader-bets-party-fights-hold-house",
+        "source": "fox",
+        "title": "Anti-socialism push can flip battlegrounds, Republican leader bets as party fights to hold House"
+      },
+      {
+        "id": "art_1787066206345_kby8b",
+        "url": "https://www.aljazeera.com/news/2026/8/18/what-to-watch-in-the-alaska-and-wyoming-primary-elections?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What to watch in the Alaska and Wyoming primary elections"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "79c755d53b58057cbfbefd4ea4edf5f5",
+    "topic_label": "Legal Cases and Controversies",
+    "event_window_start": "2026-08-18T14:41:17.000Z",
+    "event_window_end": "2026-08-18T19:35:37.000Z",
+    "article_ids": [
+      "art_1787083351931_ezswf",
+      "art_1787081734888_3isee",
+      "art_1787066203558_cz8wz"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T12:45:22.226Z",
+    "updated_at": "2026-08-19T12:45:22.226Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian] Minnesota Attorney General Keith Ellison has filed a lawsuit against the governor of Texas to compel the extradition of ICE agent Christian Castro, who faces second-degree assault charges related to a shooting in Minneapolis.",
+      "[fox_1] Abdulloi Toshpulodzoda, an individual accused of murder, exited the U.S. for Tajikistan via Istanbul on July 6 while on a 48-hour pass from a Virginia mental health facility.",
+      "[fox_2] Salman Ahmed Elmi, a recipient of a Minnesota 'outstanding refugee' award, has been charged with Medicaid fraud involving over $1 million, with allegations linking participants to a sex-trafficking ring."
+    ],
+    "framing_differences": [
+      "The sources report on entirely disparate events in different geographic locations, with the guardian focusing on executive litigation regarding an ICE agent and fox focusing on criminal justice and immigration-related fraud/fleeing suspects."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Christian Castro lied to justify the shooting in Minneapolis.",
+      "[fox_1] Abdulloi Toshpulodzoda had access to a taxpayer-funded apartment while on leave from a mental health facility.",
+      "[fox_2] Members involved in the Medicaid fraud scheme were tied to a sex-trafficking ring involving brothels."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'controversial crackdown' to describe the ICE agency's activity in Minneapolis.",
+      "[fox_2] uses the phrase 'Can't make this up' in the title to characterize the nature of the fraud allegations."
+    ],
+    "safe_conclusions": [
+      "Various legal and criminal matters are currently being reported in Minnesota and Virginia involving government agencies."
+    ],
+    "unknowns": [
+      "The specific details of the charges against Christian Castro beyond the counts of second-degree assault.",
+      "The specific identity of the individuals linked to the alleged sex-trafficking ring in the Minnesota fraud case.",
+      "The specific criteria for the 'outstanding refugee' award cited in the fox report."
+    ],
+    "synthesis": "The provided news articles discuss three distinct legal matters: a lawsuit filed by Minnesota's attorney general to extradite an ICE agent, the international flight of a murder suspect from a Virginia facility, and fraud charges filed against a Minnesota resident. There is no shared subject matter between the reports. Each article focuses on separate allegations of criminal behavior or administrative controversy within different jurisdictions.",
+    "confidence": "HIGH. The sources do not overlap in subject matter, so they are not in competition or conflict with each other.",
+    "sources": [
+      {
+        "id": "art_1787083351931_ezswf",
+        "url": "https://www.theguardian.com/us-news/2026/aug/18/minnesota-ice-agent-lawsuit-texas",
+        "source": "guardian",
+        "title": "Minnesota sues Texas to force extradition of ICE agent accused of lying about shooting"
+      },
+      {
+        "id": "art_1787081734888_3isee",
+        "url": "https://www.foxnews.com/us/accused-murderer-fled-us-48-hour-pass-access-taxpayer-funded-apartment",
+        "source": "fox",
+        "title": "Accused murderer who fled US during 48-hour pass had access to taxpayer-funded apartment"
+      },
+      {
+        "id": "art_1787066203558_cz8wz",
+        "url": "https://www.foxnews.com/politics/minnesota-outstanding-refugee-honoree-accused-fraud-scheme-tied-sex-trafficking-cant-make-up",
+        "source": "fox",
+        "title": "Minnesota 'outstanding refugee' honoree accused in fraud scheme tied to sex trafficking: 'Can't make this up'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "eb51682f9e1a7525d9d8f968427fd27b",
+    "topic_label": "Conflict in Gaza and Israel",
+    "event_window_start": "2026-08-18T18:32:24.000Z",
+    "event_window_end": "2026-08-19T08:46:51.000Z",
+    "article_ids": [
+      "art_1787134306064_pkxb3",
+      "art_1787088691786_fg7ui",
+      "art_1787081743403_qvf14"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T11:06:28.067Z",
+    "updated_at": "2026-08-19T11:06:28.067Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An Israeli strike occurred in Gaza City.",
+      "At least six people were killed in the strike."
+    ],
+    "source_claims": [
+      "[aljazeera] reported an Israeli strike hit a crowded cafe in the port area of Gaza City, which serves as a displacement camp.",
+      "[aljazeera] reported that Israel stated it targeted four Hamas commanders in the strike."
+    ],
+    "framing_differences": [
+      "One aljazeera article focuses on the impact on civilians and the status of ceasefire negotiations, while the other aljazeera article focuses on the specific casualties and the Israeli military's stated targeting objective."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] reported that 14 people were injured in the strike.",
+      "[aljazeera] reported that the blast threw victims into the sea."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'crowded' to describe the cafe."
+    ],
+    "safe_conclusions": [
+      "An Israeli strike took place in the port area of Gaza City resulting in six deaths."
+    ],
+    "unknowns": [
+      "The identities of the six individuals killed.",
+      "The official Israeli military confirmation regarding the identities of the four targeted commanders.",
+      "The exact number of injuries reported by official health authorities."
+    ],
+    "synthesis": "An Israeli strike in the port area of Gaza City resulted in at least six deaths, including a child. Reports indicate the location was used as a displacement area, while Israeli authorities stated the operation targeted four Hamas commanders. Negotiations regarding the broader hostilities in the region remain ongoing.",
+    "confidence": "HIGH. The sources consistently identify the location, the nature of the event, and the casualty count.",
+    "sources": [
+      {
+        "id": "art_1787134306064_pkxb3",
+        "url": "https://www.aljazeera.com/features/2026/8/19/breastfeeding-in-gaza-mothers-seek-help-to-provide-for-their-babies?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Breastfeeding in Gaza: Mothers seek help to provide for their babies"
+      },
+      {
+        "id": "art_1787088691786_fg7ui",
+        "url": "https://www.aljazeera.com/news/2026/8/18/israeli-strike-reported-to-kill-at-least-six-in-gaza-city?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike reported to kill at least six in Gaza City"
+      },
+      {
+        "id": "art_1787081743403_qvf14",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike on Gaza City cafe kills six, including child"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3b91f8228bc9853143d12c5080d91c99",
+    "topic_label": "Iran and Middle East Tensions",
+    "event_window_start": "2026-08-18T14:26:18.000Z",
+    "event_window_end": "2026-08-19T09:48:16.000Z",
+    "article_ids": [
+      "art_1787134299881_889un",
+      "art_1787132487011_ja1w3",
+      "art_1787088690753_b5i9g",
+      "art_1787069413622_0n5bb",
+      "art_1787066208299_50f37"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T11:06:28.067Z",
+    "updated_at": "2026-08-19T11:06:28.067Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The United States and Iran have ongoing diplomatic and military tensions.",
+      "There is disagreement regarding the existence of back-channel communications between the United States and Iran."
+    ],
+    "source_claims": [
+      "[bbc] The US Department of Justice charged 17 Iranians associated with the Mabna Institute for allegedly stealing data from 144 universities and 42 private firms since 2013.",
+      "[fox_1] The movement of the USS George Washington to the Middle East may leave the Pacific without a US carrier, creating a strategic tradeoff for the US military.",
+      "[aljazeera_1] Donald Trump stated no talks are planned with Iran and claimed the US has naval blockades of Iranian ports in effect.",
+      "[aljazeera_1] Iran and Oman are engaged in talks regarding the management of the Strait of Hormuz.",
+      "[aljazeera_2] Iranian football clubs Esteghlal and Tractor will play their Asian Champions League matches against Qatari and UAE teams at neutral venues.",
+      "[aljazeera_2] The US and Israel allegedly attacked Iran in February, leading Iran to strike targets in Qatar and the UAE.",
+      "[fox_2] Jared Kushner claims US-Iran communications are 'more robust' than ever.",
+      "[fox_2] Jared Kushner claims Iranian officials are attempting to 'trick' the US."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames Trump's comments as an 'about-face' regarding previous claims of back-channel talks, while fox_2 frames the situation as Jared Kushner touting unprecedented contacts despite Iranian denials.",
+      "aljazeera_2 frames the relocation of football matches as a consequence of regional conflict, while fox_1 frames US military movements in the region as a strategic calculation regarding the deterrence of China."
+    ],
+    "contested_claims": [
+      "Donald Trump claimed the US was engaged in back-channel conversations with Iran (aljazeera_1), while Jared Kushner (fox_2) describes communications as 'robust' and the Iranian government (aljazeera_1) denied such a backchannel exists."
+    ],
+    "unverified_claims": [
+      "[aljazeera_2] The United States and Israel attacked Iran in February, prompting Iranian retaliatory strikes in Qatar and the UAE.",
+      "[aljazeera_1] Donald Trump posted a map on social media depicting the Strait of Hormuz as US territory."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'massive' to describe the alleged cyber theft campaign.",
+      "[fox_2] uses the term 'trick' to describe the alleged behavior of Iranian officials.",
+      "[aljazeera_1] uses the term 'about-face' to describe the change in Trump's statements."
+    ],
+    "safe_conclusions": [
+      "The United States and Iran have conflicting accounts regarding diplomatic communications.",
+      "Iranian football teams are scheduled to play against teams from Qatar and the UAE at neutral locations."
+    ],
+    "unknowns": [
+      "The veracity of the claim that the US and Israel attacked Iran in February.",
+      "The specific nature and current status of direct or indirect communications between the US and Iranian governments.",
+      "The total duration for which the Pacific may be without a US aircraft carrier."
+    ],
+    "synthesis": "Tensions between the United States and Iran persist, manifesting in conflicting reports regarding diplomatic back-channels and military posturing. While the US Justice Department has initiated legal action against Iranian individuals for cyber activities, military and diplomatic focus remains on the Middle East and the Strait of Hormuz. Regional instability is also affecting international sporting events, with Iranian football clubs relocated to neutral venues for upcoming matches.",
+    "confidence": "CONTESTED. There are significant contradictions between sources regarding diplomatic communication and the history of military engagements in the region.",
+    "sources": [
+      {
+        "id": "art_1787134299881_889un",
+        "url": "https://www.bbc.co.uk/news/articles/c1m14n4llvvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US charges 17 Iranians over 'massive' cyber theft campaign"
+      },
+      {
+        "id": "art_1787132487011_ja1w3",
+        "url": "https://www.foxnews.com/opinion/iran-war-forces-america-confront-strategic-cost-deterring-china",
+        "source": "fox",
+        "title": "Iran war forces America to confront the strategic cost of deterring China"
+      },
+      {
+        "id": "art_1787088690753_b5i9g",
+        "url": "https://www.aljazeera.com/news/2026/8/18/no-talks-with-iran-says-trump-as-us-president-stews-over-hormuz-deal?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal"
+      },
+      {
+        "id": "art_1787069413622_0n5bb",
+        "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
+      },
+      {
+        "id": "art_1787066208299_50f37",
+        "url": "https://www.foxnews.com/politics/kushner-touts-unprecedented-iran-contacts-tehran-denies-trump-backchannel",
+        "source": "fox",
+        "title": "Kushner touts unprecedented Iran contacts as Tehran denies Trump backchannel"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -624,73 +1028,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/18/us-icc-sanctions",
         "source": "guardian",
         "title": "US sanctions international criminal court president and prosecutor"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8529df501ec3fee58853bda1d37b7f16",
-    "topic_label": "Natural Disasters and Floods",
-    "event_window_start": "2026-08-18T17:55:26.000Z",
-    "event_window_end": "2026-08-19T09:22:30.000Z",
-    "article_ids": [
-      "art_1787134305038_v8sks",
-      "art_1787083358188_9uje5"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T11:06:28.067Z",
-    "updated_at": "2026-08-19T11:06:28.067Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Severe weather events involving heavy rain and landslides have occurred recently.",
-      "Emergency evacuations were conducted in response to these weather-related incidents."
-    ],
-    "source_claims": [
-      "[aljazeera_1] Cars were swept downhill in northern Chile and a state of catastrophe was declared in Tocopilla province.",
-      "[aljazeera_2] A hospital in Nigeria collapsed after rainwater triggered a landslide that compromised its foundations."
-    ],
-    "framing_differences": [
-      "aljazeera_1 frames the event in Chile as a disaster requiring a state of catastrophe declaration, while aljazeera_2 frames the event in Nigeria as an infrastructure failure resulting from environmental conditions."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] Residents described the moment as terrifying.",
-      "[aljazeera_2] Locals say people were evacuated prior to the collapse due to signs observed moments before the incident."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'terrifying' to describe the residents' experience."
-    ],
-    "safe_conclusions": [
-      "Heavy rainfall has caused landslides in Chile and Nigeria.",
-      "Emergency evacuations have taken place in response to these landslides."
-    ],
-    "unknowns": [
-      "The exact number of casualties or injuries resulting from the events in Chile and Nigeria.",
-      "The extent of the physical damage to infrastructure beyond the collapse of the hospital in Nigeria.",
-      "The specific timeline and duration of the rainfall in both locations."
-    ],
-    "synthesis": "Heavy rains have triggered landslides in northern Chile and Nigeria, leading to infrastructure damage and emergency evacuations. In Chile, authorities have declared a state of catastrophe in Tocopilla province, while a hospital building collapsed in Nigeria following foundational damage. Local residents in both instances participated in or witnessed evacuation efforts during the weather events.",
-    "confidence": "HIGH. The sources report on distinct events in different geographic locations without contradiction.",
-    "sources": [
-      {
-        "id": "art_1787134305038_v8sks",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/cars-swept-downhill-as-flash-floods-hit-northern-chile?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cars swept downhill as flash floods hit northern Chile"
-      },
-      {
-        "id": "art_1787083358188_9uje5",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/nigeria-hospital-collapses-after-rain-washed-away-its-foundations?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nigeria hospital collapses after rain washed away its foundations"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -1036,93 +1373,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/18/us-judge-says-government-can-revoke-deportation-protections-for-ethiopians?traffic_source=rss",
         "source": "aljazeera",
         "title": "US judge says government can revoke deportation protections for Ethiopians"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9f49277036a9041a9a47408bb37048b1",
-    "topic_label": "Conflict in Gaza and Middle East",
-    "event_window_start": "2026-08-18T15:14:17.000Z",
-    "event_window_end": "2026-08-19T08:46:51.000Z",
-    "article_ids": [
-      "art_1787134306064_pkxb3",
-      "art_1787088691786_fg7ui",
-      "art_1787081743403_qvf14",
-      "art_1787069413622_0n5bb"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T10:37:49.206Z",
-    "updated_at": "2026-08-19T10:37:49.206Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "An Israeli strike occurred in Gaza City.",
-      "Multiple people were killed in the Gaza City strike.",
-      "The Asian Football Confederation held a draw for the Champions League group stage on Tuesday."
-    ],
-    "source_claims": [
-      "[aljazeera_2] Palestinian reports state 14 people were injured in the Gaza City cafe strike.",
-      "[aljazeera_2] Benjamin Netanyahu insists the Israeli military will not withdraw from Gaza unless Hamas agrees to disarm.",
-      "[aljazeera_2] Hamas insists it will only disarm once Israeli soldiers withdraw.",
-      "[aljazeera_3] Israel stated it targeted four Hamas commanders during the Gaza City strike.",
-      "[aljazeera_4] Iranian clubs will play against Qatari and UAE teams at neutral venues in the Asian Champions League Elite.",
-      "[aljazeera_4] Iran struck targets in Qatar and the UAE following attacks in February by the United States and Israel."
-    ],
-    "framing_differences": [
-      "aljazeera_2 frames the stalled agreement as a result of Prime Minister Netanyahu rejecting a U.S.-backed plan, whereas aljazeera_3 frames the same event by detailing the immediate casualty count and Israel's stated tactical target."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_2] Palestinian reports claim the cafe was located in a displacement camp.",
-      "[aljazeera_3] Reports claim the blast from the strike threw victims into the sea."
-    ],
-    "loaded_language": [
-      "[aljazeera_2] uses the term 'crowded' to describe the cafe site.",
-      "[aljazeera_4] uses the term 'heavily favoured' to describe the Saudi Arabian contingent."
-    ],
-    "safe_conclusions": [
-      "An Israeli strike in Gaza City resulted in civilian and child fatalities.",
-      "Negotiations to end hostilities in the Gaza conflict remain stalled.",
-      "The Asian Football Confederation scheduled matches between Iranian, Qatari, and UAE clubs to take place at neutral venues."
-    ],
-    "unknowns": [
-      "The specific identities of the individuals killed in the Gaza City strike are not confirmed.",
-      "The official response from the UAE or Qatar regarding the Iranian claims of strikes on their territory is not provided."
-    ],
-    "synthesis": "An Israeli strike in Gaza City resulted in multiple fatalities, including a child, with Israel stating its intention was to target four Hamas commanders. Concurrently, negotiations to end hostilities in the region remain stalled due to conflicting demands regarding disarmament and military withdrawal. In unrelated regional developments, the Asian Football Confederation confirmed that Iranian clubs will play their Champions League matches against Qatari and Emirati teams at neutral venues.",
-    "confidence": "HIGH: The sources provide consistent reporting on the specific events, though they focus on different aspects of the broader regional conflicts.",
-    "sources": [
-      {
-        "id": "art_1787134306064_pkxb3",
-        "url": "https://www.aljazeera.com/features/2026/8/19/breastfeeding-in-gaza-mothers-seek-help-to-provide-for-their-babies?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Breastfeeding in Gaza: Mothers seek help to provide for their babies"
-      },
-      {
-        "id": "art_1787088691786_fg7ui",
-        "url": "https://www.aljazeera.com/news/2026/8/18/israeli-strike-reported-to-kill-at-least-six-in-gaza-city?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike reported to kill at least six in Gaza City"
-      },
-      {
-        "id": "art_1787081743403_qvf14",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/israeli-strike-on-gaza-city-cafe-kills-six-including-child?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike on Gaza City cafe kills six, including child"
-      },
-      {
-        "id": "art_1787069413622_0n5bb",
-        "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -21910,303 +22160,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
         "source": "guardian",
         "title": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "576aab4c073eba76b7de5bab7a5768a7",
-    "topic_label": "Israeli Settler Activity and Tensions",
-    "event_window_start": "2026-08-17T01:28:13.000Z",
-    "event_window_end": "2026-08-16T21:02:08.000Z",
-    "article_ids": [
-      "art_1786949793527_6z45u",
-      "art_1786945318285_n2282",
-      "art_1786945322465_i8vgg",
-      "art_1786942163967_2s4cu",
-      "art_1786938971298_f4bn3",
-      "art_1786938972394_9q7lx",
-      "art_1786938973444_31tss",
-      "art_1786934984559_182qn"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 8,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T14:10:14.041Z",
-    "updated_at": "2026-08-17T14:10:14.041Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The provided text consists of multiple reports published by Al Jazeera covering various aspects of the Israeli-Palestinian conflict, including incidents in Iceland and the West Bank."
-    ],
-    "source_claims": [
-      "[aljazeera] claims CCTV shows Israeli tourists removing a map of Palestine from a cafe in Iceland following harassment of staff.",
-      "[aljazeera] claims more than 73,000 Palestinians have been killed in Gaza since October 2023.",
-      "[aljazeera] claims Israeli settler attacks are confining Palestinian families to their homes in the West Bank.",
-      "[aljazeera] claims 35 Palestinian prisoners were released into Gaza by Israel, while 9,400 remain in detention."
-    ],
-    "framing_differences": [
-      "The articles consistently frame the events through the perspective of Palestinian individuals and groups, focusing on the impact of Israeli military and settler actions."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims Israeli detention centers involve torture, sexual violence, and deliberate starvation.",
-      "[aljazeera] claims lawyer Ahmad Ibsais argues Israeli attacks on women constitute genocide."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'far-right' to describe the Israeli government.",
-      "[aljazeera] uses the term 'illegal' to describe Israeli settlers in the West Bank.",
-      "[aljazeera] uses the term 'genocide' in the context of Israeli military actions."
-    ],
-    "safe_conclusions": [
-      "Multiple reports from Al Jazeera document various incidents occurring within the context of the ongoing Israel-Palestine conflict."
-    ],
-    "unknowns": [
-      "Independent verification of the specific details regarding the cafe incident in Iceland.",
-      "Data regarding Israeli government or official responses to the claims made in these reports.",
-      "Full context regarding the legal status and circumstances of the individuals imprisoned by Israel."
-    ],
-    "synthesis": "The provided articles detail several events involving the Israeli-Palestinian conflict, ranging from an incident at an Icelandic cafe to the status of Palestinian prisoners and West Bank violence. These reports focus on the experiences of Palestinians affected by Israeli military and settler activities. The texts collectively present a perspective critical of Israeli government and settler actions.",
-    "confidence": "HIGH. The sources are consistent within their own reporting framework, though the information is sourced from a single outlet.",
-    "sources": [
-      {
-        "id": "art_1786949793527_6z45u",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israelis-harass-palestinian-owned-cafe-in-iceland-tear-down-palestine-map?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israelis harass Palestinian-owned cafe in Iceland, tear down Palestine map"
-      },
-      {
-        "id": "art_1786945318285_n2282",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-14-2026-gaza-femigenocide-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lawyer says Israel’s targeting of Palestinian women is a form of genocide"
-      },
-      {
-        "id": "art_1786945322465_i8vgg",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/16/what-could-stop-israeli-settler-attacks-on-palestinians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What could stop Israeli settler attacks on Palestinians?"
-      },
-      {
-        "id": "art_1786942163967_2s4cu",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-american-qusra-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian-American travels to West Bank home encircled by Israeli settler"
-      },
-      {
-        "id": "art_1786938971298_f4bn3",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel releases 35 Palestinian prisoners back into Gaza"
-      },
-      {
-        "id": "art_1786938972394_9q7lx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank"
-      },
-      {
-        "id": "art_1786938973444_31tss",
-        "url": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly"
-      },
-      {
-        "id": "art_1786934984559_182qn",
-        "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "29aaa5a6583bf426db233da93eeab6c2",
-    "topic_label": "Trump and US-South Korea Relations",
-    "event_window_start": "2026-08-17T01:49:36.000Z",
-    "event_window_end": "2026-08-17T13:25:12.000Z",
-    "article_ids": [
-      "art_1786974423811_sshpy",
-      "art_1786938967988_hitdv",
-      "art_1786938970248_7o1xr",
-      "art_1786938974564_6rkei",
-      "art_1786934982406_f2hcz"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T14:10:14.041Z",
-    "updated_at": "2026-08-17T14:10:14.041Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump ordered the Pentagon to scale back joint military exercises with South Korea.",
-      "The exercises, known as Ulchi Freedom Shield, were scheduled to begin on a Monday.",
-      "President Trump cited his relationship with Kim Jong Un as a factor in his decision.",
-      "President Trump expressed dissatisfaction with the cost of the exercises and characterized them as hostile or inappropriate.",
-      "President Trump referenced South Korea's position regarding Iran."
-    ],
-    "source_claims": [
-      "[guardian] Trump cited a 'very good relationship' with Kim Jong-un as the basis for the decision.",
-      "[aljazeera] Trump stated North Korea 'has been unthreatening and respectful' during his time in the White House.",
-      "[bbc] Seoul stated that the military drills with the US would proceed 'as scheduled'.",
-      "[fox] Mark Montgomery of The Foundation for Defense of Democracies discussed the impact of North Korean ballistic missile tests during the U.S. conflict with Iran.",
-      "[guardian] US military officials have warned that the Ukraine war is boosting North Korea's combat capabilities."
-    ],
-    "framing_differences": [
-      "The Guardian frames the decision in the context of warnings about North Korea's increased battlefield experience from the Ukraine war, whereas Fox News frames the decision alongside recent North Korean missile tests.",
-      "The BBC includes the detail that Seoul declared the drills would proceed as scheduled, a point not emphasized in the initial reports by other outlets."
-    ],
-    "contested_claims": [
-      "There is a discrepancy regarding the status of the exercises: President Trump ordered them to be scaled back, while the BBC reports that Seoul stated the drills would proceed 'as scheduled'."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Trump mentioned Seoul's stance on the 'US-Israel war on Iran'."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'inappropriate and hostile' to describe the military exercises as cited by Trump.",
-      "[aljazeera] uses the term 'unthreatening and respectful' to describe North Korea as cited by Trump."
-    ],
-    "safe_conclusions": [
-      "President Trump has publicly ordered a reduction in the scale of upcoming US-South Korea military exercises.",
-      "The President identified cost and diplomatic signaling as reasons for his decision."
-    ],
-    "unknowns": [
-      "The exact extent to which the exercises will be scaled back is not specified.",
-      "Whether the US and South Korean military commands have aligned on the implementation of these orders remains unclear."
-    ],
-    "synthesis": "President Donald Trump has ordered a reduction in upcoming joint military exercises with South Korea, citing high costs and a desire to improve relations with North Korean leader Kim Jong Un. The President also criticized South Korea for its stance on U.S. involvement in Iran, while reports note conflicting statements regarding whether the drills will proceed as originally scheduled. Military officials have raised concerns about the impact of the decision in light of North Korea's recent ballistic missile testing and evolving battlefield tactics.",
-    "confidence": "HIGH. The sources consistently report the President's order to scale back the exercises and the specific justifications provided on social media.",
-    "sources": [
-      {
-        "id": "art_1786974423811_sshpy",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats",
-        "source": "guardian",
-        "title": "Trump cuts military drills with South Korea citing ‘very good relationship’ with Kim Jong-un – US politics live"
-      },
-      {
-        "id": "art_1786938967988_hitdv",
-        "url": "https://www.aljazeera.com/news/2026/8/17/trump-says-us-to-substantially-reduce-military-drills-with-south-korea?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says US to ‘substantially reduce’ military drills with South Korea"
-      },
-      {
-        "id": "art_1786938970248_7o1xr",
-        "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says US to scale back military drills with South Korea after it stayed out of Iran war"
-      },
-      {
-        "id": "art_1786938974564_6rkei",
-        "url": "https://www.foxnews.com/politics/trump-orders-major-cut-us-south-korea-drills-north-korea-ramps-up-missile-tests",
-        "source": "fox",
-        "title": "Trump orders major cut to US-South Korea drills as North Korea ramps up missile tests"
-      },
-      {
-        "id": "art_1786934982406_f2hcz",
-        "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un",
-        "source": "guardian",
-        "title": "Trump orders cuts to South Korea joint drills despite warnings of North’s growing battlefield experience"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6a8314a5c74d7eb768c85245d144a6d1",
-    "topic_label": "Mental Health on USS Lincoln",
-    "event_window_start": "2026-08-16T21:04:27.000Z",
-    "event_window_end": "2026-08-16T20:46:01.000Z",
-    "article_ids": [
-      "art_1786953582772_m3lik",
-      "art_1786949790435_de3n5",
-      "art_1786949791486_bolii"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-17T08:46:14.659Z",
-    "updated_at": "2026-08-17T08:46:14.659Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "US Admiral Brad Cooper visited the USS Abraham Lincoln.",
-      "The USS Abraham Lincoln has been deployed at sea for a long duration without a port call.",
-      "Admiral Brad Cooper stated that the USS Abraham Lincoln has among the lowest number of mental health cases of the 11 active US aircraft carriers.",
-      "The USS Abraham Lincoln is deployed in the Middle East."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the USS Abraham Lincoln has been at sea for more than 250 days.",
-      "[fox] claims the USS Abraham Lincoln has been at sea for more than 260 days.",
-      "[bbc] claims the USS Abraham Lincoln has been at sea for more than 240 days.",
-      "[fox] claims officials have denied allegations regarding supply shortages, plumbing problems, and crew members threatening to jump overboard.",
-      "[aljazeera] claims the ship is an integral part of the US war on Iran.",
-      "[bbc] reports the USS George Washington is expected to replace the USS Lincoln in about a week."
-    ],
-    "framing_differences": [
-      "[aljazeera] frames the visit in the context of specific reports of mental health and supply issues, while [fox] frames the visit as a response to mounting allegations of poor conditions and a broader discussion on deployment length.",
-      "[bbc] frames the visit by emphasizing that mental health is a priority for the military command, whereas [fox] focuses on the specific duration of the deployment and the Navy's denial of reported ship conditions."
-    ],
-    "contested_claims": [
-      "The sources provide conflicting data regarding the specific number of days the ship has been at sea: [aljazeera] says more than 250 days, [fox] says more than 260 days, and [bbc] says more than 240 days."
-    ],
-    "unverified_claims": [
-      "[fox] mentions that the carrier is at the center of a dispute over plumbing problems and crew members threatening to jump overboard.",
-      "[bbc] mentions that the ship's mission includes a blockade on Iranian ports."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'US war on Iran' to describe the context of the deployment.",
-      "[bbc] uses the term 'blockade on Iranian ports' to describe the ship's activities."
-    ],
-    "safe_conclusions": [
-      "Admiral Brad Cooper visited the USS Abraham Lincoln.",
-      "The US Navy command publicly addressed the mental health status of the crew on the USS Abraham Lincoln.",
-      "The USS Abraham Lincoln has been deployed at sea for an extended duration."
-    ],
-    "unknowns": [
-      "The exact number of days the USS Abraham Lincoln has been at sea.",
-      "The specific nature and veracity of the internal reports regarding crew mental health and supply issues.",
-      "The current operational status of the USS George Washington's arrival timeline."
-    ],
-    "synthesis": "Admiral Brad Cooper visited the USS Abraham Lincoln to address the status of the crew following an extended deployment in the Middle East. While sources differ on the specific duration of the time spent at sea, the commander maintained that the carrier currently reports among the lowest mental health case numbers in the fleet. The deployment has been the subject of reports regarding crew conditions, which officials have addressed.",
-    "confidence": "MEDIUM. While the sources agree on the primary event and the Admiral's statements, they provide inconsistent data regarding the exact duration of the deployment.",
-    "sources": [
-      {
-        "id": "art_1786953582772_m3lik",
-        "url": "https://www.aljazeera.com/news/2026/8/16/us-admiral-praises-uss-lincoln-crew-amid-reported-mental-health-concerns?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US admiral praises USS Lincoln crew amid reported mental health concerns"
-      },
-      {
-        "id": "art_1786949790435_de3n5",
-        "url": "https://www.foxnews.com/politics/centcom-commander-touts-uss-abraham-lincoln-mental-health-record-after-more-than-260-days-without-port-call",
-        "source": "fox",
-        "title": "CENTCOM commander touts USS Abraham Lincoln mental health record after more than 260 days without port call"
-      },
-      {
-        "id": "art_1786949791486_bolii",
-        "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US commander says mental health a 'priority' on USS Lincoln"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
