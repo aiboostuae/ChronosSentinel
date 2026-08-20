@@ -428,78 +428,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "765f4cd6b916d09b119a176119fbf61f",
-    "topic_label": "Prince Harry and Meghan Move",
-    "event_window_start": "2026-08-19T21:48:09.000Z",
-    "event_window_end": "2026-08-19T22:52:21.000Z",
-    "article_ids": [
-      "art_1787180452284_x0xt1",
-      "art_1787178747880_fmsjv"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T23:29:40.978Z",
-    "updated_at": "2026-08-19T23:29:40.978Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Prince Harry and Meghan Markle are reported to be planning a move from the United States to the United Kingdom.",
-      "The couple has two children, named Prince Archie and Princess Lilibet.",
-      "The children are expected to begin attending a British school in September.",
-      "The planned relocation is reported to involve a residence outside of London."
-    ],
-    "source_claims": [
-      "[fox] reports that Dan Wakeford claims Prince Harry misses his former life in the U.K. and faces questions regarding long-term financial strategy.",
-      "[fox] reports the move is occurring six years after the couple's royal exit.",
-      "[guardian] reports that King Charles was informed of the relocation plans on Sunday.",
-      "[guardian] notes that the couple held a reunion with King Charles at Highgrove last month."
-    ],
-    "framing_differences": [
-      "Fox focuses on the couple's financial status and the perspective of a celebrity intelligence expert, whereas The Guardian focuses on the timeline of the move and the reported notification of King Charles."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Prince Harry misses his former life in the U.K.",
-      "[fox] claims the couple faces questions about their long-term financial strategy.",
-      "[guardian] claims King Charles was informed of the return on Sunday."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'royal exit' to describe the couple's departure from royal duties."
-    ],
-    "safe_conclusions": [
-      "Reports exist stating that Prince Harry and Meghan Markle intend to relocate to the United Kingdom with their children."
-    ],
-    "unknowns": [
-      "The specific location of the new residence.",
-      "The exact date of the relocation beyond 'this month'.",
-      "The reaction of the royal family members other than King Charles."
-    ],
-    "synthesis": "Reports indicate that Prince Harry and Meghan Markle are planning to move from the United States to a residence outside of London this month. Their two children are reportedly enrolled to begin school in the United Kingdom in September. The move follows their departure for the United States six years ago.",
-    "confidence": "HIGH. Both sources corroborate the core details regarding the move to the U.K., the timeline for the children's schooling, and the nature of the residency.",
-    "sources": [
-      {
-        "id": "art_1787180452284_x0xt1",
-        "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-planning-move-back-uk-children-6-years-after-royal-exit-reports",
-        "source": "fox",
-        "title": "Prince Harry, Meghan Markle planning to move back to UK with children 6 years after royal exit: reports"
-      },
-      {
-        "id": "art_1787178747880_fmsjv",
-        "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month",
-        "source": "guardian",
-        "title": "Prince Harry and Meghan ‘moving back to Britain this month’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "9bf5e0d0b0ad8651e7e6a77957f3d45e",
     "topic_label": "US-Canada trade deal",
     "event_window_start": "2026-08-19T16:55:57.000Z",
@@ -570,6 +498,88 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "624fddbca8d6532d168e3de635d91608",
+    "topic_label": "Trump Administration and Politics",
+    "event_window_start": "2026-08-19T16:31:59.000Z",
+    "event_window_end": "2026-08-20T01:51:37.000Z",
+    "article_ids": [
+      "art_1787196916802_hof76",
+      "art_1787160787259_8e2k6",
+      "art_1787160795987_zaa1g"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T10:44:35.471Z",
+    "updated_at": "2026-08-20T10:44:35.471Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "President Donald Trump announced on Wednesday that he is nominating Dr. Heidi Overton as the next commissioner of the Food and Drug Administration (FDA)."
+    ],
+    "source_claims": [
+      "[guardian] Trump is personally overseeing extensive remodeling of the White House grounds, including a new granite driveway, refurbished columns, and a new helipad.",
+      "[guardian] US national debt has surpassed $40tn.",
+      "[guardian] The US is engaged in a war with Iran that began approximately six months ago.",
+      "[fox] Dr. Heidi Overton is currently serving as deputy assistant for domestic policy.",
+      "[guardian] Dr. Heidi Overton is an abortion opponent who has stated Congress should strictly regulate the abortion drug mifepristone.",
+      "[guardian] President Trump made false claims about vaccines while Dr. Overton stood next to him.",
+      "[fox] President Trump described Dr. Overton as a 'ROCKSTAR' in his administration."
+    ],
+    "framing_differences": [
+      "The guardian frames the White House renovations as taking place against a backdrop of rising national debt and an ongoing war with Iran, whereas fox focuses exclusively on personnel announcements.",
+      "The guardian identifies Dr. Overton primarily as an 'abortion opponent,' while fox describes her professional background as a physician and deputy assistant for domestic policy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The US is currently involved in a war with Iran that started six months ago.",
+      "[guardian] The US national debt has climbed past $40tn."
+    ],
+    "loaded_language": [
+      "[guardian] uses 'self-styled' to describe Trump as 'builder-in-chief'.",
+      "[fox] uses 'ROCKSTAR', 'AMERICA FIRST', and 'HEALTHY AMERICA' to quote Trump's description of Dr. Overton and her agenda.",
+      "[guardian] uses 'false claims' to describe statements made by the president regarding vaccines.",
+      "[guardian] uses 'abortion opponent' to describe Dr. Heidi Overton."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump has nominated Dr. Heidi Overton to serve as the commissioner of the FDA."
+    ],
+    "unknowns": [
+      "The current status of US-Iran relations.",
+      "Specifics regarding the scope and cost of the White House grounds renovations.",
+      "The official current debt figure of the United States."
+    ],
+    "synthesis": "President Donald Trump announced on Wednesday his nomination of Dr. Heidi Overton, a current deputy assistant for domestic policy, to lead the FDA. While one source highlights her professional background and administration support, another emphasizes her stance on abortion and the context of ongoing White House renovations. The administration characterizes the appointment as part of a transformative health agenda.",
+    "confidence": "MEDIUM.MEDIUM. While sources agree on the fact of the nomination, they provide significantly different contexts and factual background claims regarding the state of the US economy, international conflicts, and the nominee's policy history.",
+    "sources": [
+      {
+        "id": "art_1787196916802_hof76",
+        "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-white-house-renovations",
+        "source": "guardian",
+        "title": "Trump shows off White House renovations and ornate new helipad"
+      },
+      {
+        "id": "art_1787160787259_8e2k6",
+        "url": "https://www.foxnews.com/politics/trump-nominate-dr-heidi-overton-next-fda-commissioner",
+        "source": "fox",
+        "title": "Trump to nominate Dr Heidi Overton as next FDA commissioner"
+      },
+      {
+        "id": "art_1787160795987_zaa1g",
+        "url": "https://www.theguardian.com/us-news/2026/aug/19/heidi-overton-fda-commissioner-nomination",
+        "source": "guardian",
+        "title": "Trump nominates abortion opponent Heidi Overton to be head of FDA"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4d9e5a832bd1d17dc10d5f36c1498f4b",
     "topic_label": "Missing Teen Hiker Lily Hooper",
     "event_window_start": "2026-08-20T03:16:22.000Z",
@@ -635,6 +645,78 @@
         "url": "https://www.bbc.co.uk/news/articles/c304e2dlv20o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Missing teen hiker found dead in Australian bush after eight-day search"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "765f4cd6b916d09b119a176119fbf61f",
+    "topic_label": "Prince Harry and Meghan Move",
+    "event_window_start": "2026-08-19T21:48:09.000Z",
+    "event_window_end": "2026-08-19T22:52:21.000Z",
+    "article_ids": [
+      "art_1787180452284_x0xt1",
+      "art_1787178747880_fmsjv"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-19T23:29:40.978Z",
+    "updated_at": "2026-08-19T23:29:40.978Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Prince Harry and Meghan Markle are reported to be planning a move from the United States to the United Kingdom.",
+      "The couple has two children, named Prince Archie and Princess Lilibet.",
+      "The children are expected to begin attending a British school in September.",
+      "The planned relocation is reported to involve a residence outside of London."
+    ],
+    "source_claims": [
+      "[fox] reports that Dan Wakeford claims Prince Harry misses his former life in the U.K. and faces questions regarding long-term financial strategy.",
+      "[fox] reports the move is occurring six years after the couple's royal exit.",
+      "[guardian] reports that King Charles was informed of the relocation plans on Sunday.",
+      "[guardian] notes that the couple held a reunion with King Charles at Highgrove last month."
+    ],
+    "framing_differences": [
+      "Fox focuses on the couple's financial status and the perspective of a celebrity intelligence expert, whereas The Guardian focuses on the timeline of the move and the reported notification of King Charles."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims Prince Harry misses his former life in the U.K.",
+      "[fox] claims the couple faces questions about their long-term financial strategy.",
+      "[guardian] claims King Charles was informed of the return on Sunday."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'royal exit' to describe the couple's departure from royal duties."
+    ],
+    "safe_conclusions": [
+      "Reports exist stating that Prince Harry and Meghan Markle intend to relocate to the United Kingdom with their children."
+    ],
+    "unknowns": [
+      "The specific location of the new residence.",
+      "The exact date of the relocation beyond 'this month'.",
+      "The reaction of the royal family members other than King Charles."
+    ],
+    "synthesis": "Reports indicate that Prince Harry and Meghan Markle are planning to move from the United States to a residence outside of London this month. Their two children are reportedly enrolled to begin school in the United Kingdom in September. The move follows their departure for the United States six years ago.",
+    "confidence": "HIGH. Both sources corroborate the core details regarding the move to the U.K., the timeline for the children's schooling, and the nature of the residency.",
+    "sources": [
+      {
+        "id": "art_1787180452284_x0xt1",
+        "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-planning-move-back-uk-children-6-years-after-royal-exit-reports",
+        "source": "fox",
+        "title": "Prince Harry, Meghan Markle planning to move back to UK with children 6 years after royal exit: reports"
+      },
+      {
+        "id": "art_1787178747880_fmsjv",
+        "url": "https://www.theguardian.com/uk-news/2026/aug/19/prince-harry-and-meghan-moving-back-to-britain-this-month",
+        "source": "guardian",
+        "title": "Prince Harry and Meghan ‘moving back to Britain this month’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -20816,137 +20898,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/17/yemens-drone-war-rivals-flex-growing-aerial-muscle?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemen’s drone war: Rivals flex growing aerial muscle"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a5270cef15687d77cce5925a9dfcb2c3",
-    "topic_label": "Global Disasters and Climate Incidents",
-    "event_window_start": "2026-08-17T13:26:22.000Z",
-    "event_window_end": "2026-08-17T22:26:12.000Z",
-    "article_ids": [
-      "art_1787011025102_8i6hm",
-      "art_1787000661428_xnwwa",
-      "art_1786997058170_d1i3k",
-      "art_1786997066315_s1u02",
-      "art_1786995248537_62ctv",
-      "art_1786988002182_s19qx",
-      "art_1786988004250_nkf7h",
-      "art_1786979032008_bhevz",
-      "art_1786977227720_q6qrd",
-      "art_1786974421257_syulj"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 10,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T09:15:28.843Z",
-    "updated_at": "2026-08-18T09:15:28.843Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Various international disaster events have resulted in casualties and property damage.",
-      "Emergency response and recovery operations are currently underway in Colombia, Indonesia, France, and Zimbabwe following specific incidents."
-    ],
-    "source_claims": [
-      "[aljazeera] 289 people died and 4,187 were injured in a 7.4 magnitude earthquake in Colombia.",
-      "[aljazeera] 68 people have died and over 200 were injured in an earthquake in Indonesia.",
-      "[bbc] French Prime Minister Sébastien Lecornu was heckled during a visit to Le Porge, France, following wildfire damages.",
-      "[bbc] The French government announced €12m in aid for the Gironde and Landes regions.",
-      "[aljazeera] The death toll from a ferry capsizing on Lake Kariba in Zimbabwe has reached at least 92."
-    ],
-    "framing_differences": [
-      "The Al Jazeera articles focus on disaster management and casualty statistics for seismic events and flooding, while the BBC article focuses on political reactions and social unrest following environmental disasters."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] The ferry disaster in Zimbabwe is believed to be the deadliest of its kind in the country.",
-      "[bbc] The organizer of a resident group in France accused the prime minister of avoiding a meeting with residents."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'razor-thin' to describe survival chances in Colombia.",
-      "[aljazeera] uses the term 'grim shadow' to describe the impact of the earthquake on Indonesian Independence Day.",
-      "[bbc] uses the term 'heckled' to describe the interaction between the French Prime Minister and residents."
-    ],
-    "safe_conclusions": [
-      "Disaster relief operations are ongoing in multiple countries.",
-      "Multiple fatal incidents occurred, including earthquakes, wildfires, and a ferry capsizing."
-    ],
-    "unknowns": [
-      "The exact number of people aboard the ferry in Zimbabwe at the time of the capsizing.",
-      "The final casualty counts for the earthquakes in Colombia and Indonesia as assessment continues.",
-      "The specific cause of the ferry capsizing beyond high winds."
-    ],
-    "synthesis": "Several countries are currently managing the aftermath of various natural and maritime disasters, including earthquakes in Colombia and Indonesia, wildfires in France, and a ferry capsizing in Zimbabwe. Emergency aid and recovery operations are underway as authorities continue to assess damages and conduct search efforts. Death tolls and casualty figures for these events are being updated as response operations progress.",
-    "confidence": "HIGH. The sources report on distinct, separate geographical events with consistent factual reporting within their respective contexts.",
-    "sources": [
-      {
-        "id": "art_1787011025102_8i6hm",
-        "url": "https://www.aljazeera.com/news/2026/8/17/as-rubble-clears-colombia-begins-focusing-on-recovery-after-the-earthquake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As rubble clears, Colombia begins focusing on recovery after the earthquake"
-      },
-      {
-        "id": "art_1787000661428_xnwwa",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/torrential-rains-flood-homes-and-roads-across-lima-peru?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Torrential rains flood homes and roads across Lima, Peru"
-      },
-      {
-        "id": "art_1786997058170_d1i3k",
-        "url": "https://www.aljazeera.com/gallery/2026/8/17/photos-search-for-indonesia-earthquake-victims-continues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Photos: Search for Indonesia earthquake victims continues"
-      },
-      {
-        "id": "art_1786997066315_s1u02",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "French PM heckled over wildfire response as blazes continue across Europe"
-      },
-      {
-        "id": "art_1786995248537_62ctv",
-        "url": "https://www.aljazeera.com/news/2026/8/17/death-toll-from-capsized-ferry-in-zimbabwe-rises-to-92?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Death toll from capsized ferry in Zimbabwe rises to 92"
-      },
-      {
-        "id": "art_1786988002182_s19qx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Britain deploys military as wildfires spread across Europe"
-      },
-      {
-        "id": "art_1786988004250_nkf7h",
-        "url": "https://www.foxnews.com/us/american-tourist-killed-lightning-hiking-sicilys-mount-etna",
-        "source": "fox",
-        "title": "American tourist killed by lightning while hiking Sicily's Mount Etna"
-      },
-      {
-        "id": "art_1786979032008_bhevz",
-        "url": "https://www.bbc.co.uk/news/articles/ce34rlkw6q7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US hiker dies after being struck by lightning on Mount Etna"
-      },
-      {
-        "id": "art_1786977227720_q6qrd",
-        "url": "https://www.theguardian.com/us-news/2026/aug/17/storm-lala-hawaii-damage",
-        "source": "guardian",
-        "title": "Storm Lala damages bridges and more than 100 homes on Hawaii’s Big Island"
-      },
-      {
-        "id": "art_1786974421257_syulj",
-        "url": "https://www.theguardian.com/world/2026/aug/17/tourist-dies-lightning-strike-italy-mount-etna",
-        "source": "guardian",
-        "title": "US tourist dies after being struck by lightning on Italy’s Mount Etna"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
