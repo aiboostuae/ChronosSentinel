@@ -1,5 +1,88 @@
 [
   {
+    "cluster_id": "d6d5cc0a57497614ec677bb73080634f",
+    "topic_label": "Ukraine and Russia Conflict",
+    "event_window_start": "2026-08-20T02:50:17.000Z",
+    "event_window_end": "2026-08-20T09:37:31.000Z",
+    "article_ids": [
+      "art_1787218843205_hknuj",
+      "art_1787218847979_jz5d4",
+      "art_1787196910333_x09qr"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T18:06:28.260Z",
+    "updated_at": "2026-08-20T18:06:28.260Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Russian forces launched missile strikes on Kyiv.",
+      "People were killed and injured in the attacks.",
+      "Residential buildings in Kyiv sustained damage.",
+      "President Volodymyr Zelenskyy addressed the attacks."
+    ],
+    "source_claims": [
+      "[bbc] The Ukrainian prime minister stated at least 13 people were killed and 40 injured.",
+      "[guardian] President Zelenskyy stated at least 12 people were killed and 40 injured, and that Russia combined ballistic missiles, cruise missiles, and drones in the attack.",
+      "[aljazeera] Officials reported at least three people were killed and 20 others were wounded.",
+      "[bbc] President Zelenskyy stated the deaths resulted from a shortage of air defence missiles."
+    ],
+    "framing_differences": [
+      "bbc frames the event primarily through the lens of air defence shortages and international military aid, while aljazeera frames the event in the context of President Zelenskyy facing domestic political turmoil and election debates."
+    ],
+    "contested_claims": [
+      "The sources provide conflicting figures for the number of casualties: bbc reports at least 13 dead, guardian reports at least 12 dead, and aljazeera reports at least three dead."
+    ],
+    "unverified_claims": [
+      "[aljazeera] The attacks occurred shortly after midnight on Wednesday.",
+      "[guardian] Russia targeted the Odesa and Chernihiv regions in addition to Kyiv."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'massive attack' to describe the event.",
+      "[aljazeera] uses the term 'domestic political turmoil' to describe the state of affairs for the Zelenskyy administration."
+    ],
+    "safe_conclusions": [
+      "Russian missile strikes occurred in Kyiv resulting in civilian casualties and property damage.",
+      "Ukrainian officials are addressing the impact of the strikes."
+    ],
+    "unknowns": [
+      "The exact confirmed death toll.",
+      "The specific types of munitions used in all affected districts.",
+      "The full extent of damage in regions outside of Kyiv."
+    ],
+    "synthesis": "Russian forces conducted missile strikes against Kyiv, resulting in casualties and damage to residential infrastructure. Ukrainian President Volodymyr Zelenskyy attributed the severity of the impact to a shortage of air defence capabilities. The reporting varies regarding total casualty figures and the broader political context surrounding the administration's current challenges.",
+    "confidence": "CONTESTED. There is a significant discrepancy in the reported casualty figures across the three sources.",
+    "sources": [
+      {
+        "id": "art_1787218843205_hknuj",
+        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages"
+      },
+      {
+        "id": "art_1787218847979_jz5d4",
+        "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+        "source": "guardian",
+        "title": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live"
+      },
+      {
+        "id": "art_1787196910333_x09qr",
+        "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "0cf5bc2a990535de9f7ba3f1834321fb",
     "topic_label": "US Sanctions and Iran Tension",
     "event_window_start": "2026-08-20T01:56:41.000Z",
@@ -187,84 +270,71 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "d6d5cc0a57497614ec677bb73080634f",
-    "topic_label": "Ukraine and Russia Conflict",
-    "event_window_start": "2026-08-20T02:50:17.000Z",
-    "event_window_end": "2026-08-20T09:37:31.000Z",
+    "cluster_id": "25c29da73b20c5e312d415ea175b2a6f",
+    "topic_label": "North Korea Missile Activity",
+    "event_window_start": "2026-08-20T10:00:34.000Z",
+    "event_window_end": "2026-08-20T10:25:29.000Z",
     "article_ids": [
-      "art_1787218843205_hknuj",
-      "art_1787218847979_jz5d4",
-      "art_1787196910333_x09qr"
+      "art_1787224050334_3cjnq",
+      "art_1787224062587_u6tvn"
     ],
     "source_ids": [
-      "bbc",
       "guardian",
-      "aljazeera"
+      "fox"
     ],
-    "article_count": 3,
-    "source_count": 3,
+    "article_count": 2,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-20T18:06:28.260Z",
-    "updated_at": "2026-08-20T18:06:28.260Z",
+    "created_at": "2026-08-20T15:19:53.468Z",
+    "updated_at": "2026-08-20T15:19:53.468Z",
     "region_tag": "global",
     "shared_facts": [
-      "Russian forces launched missile strikes on Kyiv.",
-      "People were killed and injured in the attacks.",
-      "Residential buildings in Kyiv sustained damage.",
-      "President Volodymyr Zelenskyy addressed the attacks."
+      "President Trump is scaling back U.S.-South Korea military drills.",
+      "President Trump has expressed a desire to maintain a relationship with Kim Jong Un."
     ],
     "source_claims": [
-      "[bbc] The Ukrainian prime minister stated at least 13 people were killed and 40 injured.",
-      "[guardian] President Zelenskyy stated at least 12 people were killed and 40 injured, and that Russia combined ballistic missiles, cruise missiles, and drones in the attack.",
-      "[aljazeera] Officials reported at least three people were killed and 20 others were wounded.",
-      "[bbc] President Zelenskyy stated the deaths resulted from a shortage of air defence missiles."
+      "[guardian] North Korea launched approximately 10 short-range ballistic missiles toward their eastern waters on Thursday.",
+      "[guardian] South Korea's military detected the launches and has increased surveillance posture.",
+      "[fox] President Trump stated that North Korea possesses exactly 57 nuclear weapons.",
+      "[fox] President Trump signaled a possible meeting with Kim Jong Un later this year."
     ],
     "framing_differences": [
-      "bbc frames the event primarily through the lens of air defence shortages and international military aid, while aljazeera frames the event in the context of President Zelenskyy facing domestic political turmoil and election debates."
+      "The guardian frames the North Korean missile launches as a response to the curtailment of U.S.-South Korea military drills, while fox focuses on President Trump's public statements regarding the North Korean nuclear arsenal and his personal rapport with Kim Jong Un."
     ],
-    "contested_claims": [
-      "The sources provide conflicting figures for the number of casualties: bbc reports at least 13 dead, guardian reports at least 12 dead, and aljazeera reports at least three dead."
-    ],
+    "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] The attacks occurred shortly after midnight on Wednesday.",
-      "[guardian] Russia targeted the Odesa and Chernihiv regions in addition to Kyiv."
+      "[guardian] The North Korean missile launches were an attempt to shrug off or respond to the scaling back of military drills.",
+      "[fox] North Korea possesses exactly 57 nuclear weapons."
     ],
     "loaded_language": [
-      "[guardian] uses the term 'massive attack' to describe the event.",
-      "[aljazeera] uses the term 'domestic political turmoil' to describe the state of affairs for the Zelenskyy administration."
+      "[guardian] uses the term 'shrugged off' to describe North Korea's reaction to U.S. military policy."
     ],
     "safe_conclusions": [
-      "Russian missile strikes occurred in Kyiv resulting in civilian casualties and property damage.",
-      "Ukrainian officials are addressing the impact of the strikes."
+      "President Trump is scaling back joint military drills with South Korea.",
+      "There are ongoing discussions regarding the U.S.-North Korea relationship and potential future meetings."
     ],
     "unknowns": [
-      "The exact confirmed death toll.",
-      "The specific types of munitions used in all affected districts.",
-      "The full extent of damage in regions outside of Kyiv."
+      "Whether the missile launches reported by the guardian are directly linked to the military drills or other strategic factors.",
+      "The official U.S. intelligence verification of the 57 nuclear warhead figure mentioned by President Trump.",
+      "The specific nature and timeline of the potential meeting between President Trump and Kim Jong Un."
     ],
-    "synthesis": "Russian forces conducted missile strikes against Kyiv, resulting in casualties and damage to residential infrastructure. Ukrainian President Volodymyr Zelenskyy attributed the severity of the impact to a shortage of air defence capabilities. The reporting varies regarding total casualty figures and the broader political context surrounding the administration's current challenges.",
-    "confidence": "CONTESTED. There is a significant discrepancy in the reported casualty figures across the three sources.",
+    "synthesis": "President Trump has moved to scale back U.S.-South Korea military exercises while publicly discussing his rapport with Kim Jong Un. Concurrently, reports indicate North Korea launched multiple short-range ballistic missiles toward its eastern waters. President Trump has also cited a specific figure for North Korea's nuclear arsenal.",
+    "confidence": "MEDIUM. While the sources do not directly contradict each other, they cover different aspects of the U.S.-North Korea relationship without providing a comprehensive cross-confirmation of the missile launch event or the nuclear arsenal count.",
     "sources": [
       {
-        "id": "art_1787218843205_hknuj",
-        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages"
-      },
-      {
-        "id": "art_1787218847979_jz5d4",
-        "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+        "id": "art_1787224050334_3cjnq",
+        "url": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills",
         "source": "guardian",
-        "title": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live"
+        "title": "North Korea fires 10 missiles day after Trump curtails South Korea joint drills"
       },
       {
-        "id": "art_1787196910333_x09qr",
-        "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home"
+        "id": "art_1787224062587_u6tvn",
+        "url": "https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons",
+        "source": "fox",
+        "title": "Trump reveals exact number of North Korea's nuclear weapons"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -339,6 +409,81 @@
         "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Landslide at unlicensed Colombian gold mine kills 13"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f8a9aa3fa1f4fb8ef130c316e9dc8d62",
+    "topic_label": "Fishermen Rescued at Sea",
+    "event_window_start": "2026-08-20T19:10:45.000Z",
+    "event_window_end": "2026-08-20T20:41:31.000Z",
+    "article_ids": [
+      "art_1787263480781_klvjw",
+      "art_1787254769460_xk1ld"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T22:31:13.209Z",
+    "updated_at": "2026-08-20T22:31:13.209Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Two fishermen were rescued by the Mexican Navy after being missing for five days.",
+      "The rescue occurred off the coast of Chiapas, Mexico.",
+      "The men were found floating in or on a cool box used for storing fish.",
+      "The men were retrieved by the navy and received medical evaluation."
+    ],
+    "source_claims": [
+      "[bbc] The men were aged 53 and 32.",
+      "[bbc] The men were located 150 miles off the coast.",
+      "[aljazeera] The men were found in the Pacific.",
+      "[aljazeera] The men's boat sank prior to them clinging to the cooler.",
+      "[aljazeera] The men were located 240 kilometres off the coast.",
+      "[aljazeera] The men were airlifted for medical care."
+    ],
+    "framing_differences": [
+      "BBC frames the event by detailing the timeline of the distress call from the fishing cooperative, whereas Al Jazeera focuses on the sinking of the boat as the cause of the men being stranded."
+    ],
+    "contested_claims": [
+      "The distance from the coast is reported differently: BBC states 150 miles, while Al Jazeera states 240 kilometres."
+    ],
+    "unverified_claims": [
+      "[bbc] The men were 53 and 32 years old.",
+      "[aljazeera] The men's boat sank.",
+      "[aljazeera] The men were airlifted for medical care."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "Two fishermen were rescued by the Mexican Navy after being at sea for five days off the coast of Chiapas, Mexico.",
+      "The men used a fishing cool box to stay afloat."
+    ],
+    "unknowns": [
+      "The specific cause of the vessel becoming disabled or sinking.",
+      "The exact distance from the coast in standardized units.",
+      "The current health status of the fishermen beyond their initial medical evaluation."
+    ],
+    "synthesis": "Two fishermen were rescued by the Mexican Navy off the coast of Chiapas after being missing for five days. Both sources confirm the men were found floating with a fish cooler. The reports vary regarding the exact distance from the shore and the specific circumstances leading to their stranding.",
+    "confidence": "HIGH; The core narrative of the rescue is consistent across both sources, with minor discrepancies in specific distances and procedural details.",
+    "sources": [
+      {
+        "id": "art_1787263480781_klvjw",
+        "url": "https://www.bbc.co.uk/news/videos/c1l10g94yg1o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: Fishermen rescued after five days adrift in cool box"
+      },
+      {
+        "id": "art_1787254769460_xk1ld",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/fishermen-rescued-after-five-days-clinging-to-cooler-at-sea?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fishermen rescued after five days clinging to cooler at sea"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -435,81 +580,6 @@
         "url": "https://www.foxnews.com/us/idaho-county-probation-officers-compile-foreign-born-list-hand-ice-critics-raise-alarms",
         "source": "fox",
         "title": "Idaho county probation officers compile ‘foreign-born list’ to hand over to ICE as critics raise alarms"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f8a9aa3fa1f4fb8ef130c316e9dc8d62",
-    "topic_label": "Fishermen Rescued at Sea",
-    "event_window_start": "2026-08-20T19:10:45.000Z",
-    "event_window_end": "2026-08-20T20:41:31.000Z",
-    "article_ids": [
-      "art_1787263480781_klvjw",
-      "art_1787254769460_xk1ld"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-20T22:31:13.209Z",
-    "updated_at": "2026-08-20T22:31:13.209Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Two fishermen were rescued by the Mexican Navy after being missing for five days.",
-      "The rescue occurred off the coast of Chiapas, Mexico.",
-      "The men were found floating in or on a cool box used for storing fish.",
-      "The men were retrieved by the navy and received medical evaluation."
-    ],
-    "source_claims": [
-      "[bbc] The men were aged 53 and 32.",
-      "[bbc] The men were located 150 miles off the coast.",
-      "[aljazeera] The men were found in the Pacific.",
-      "[aljazeera] The men's boat sank prior to them clinging to the cooler.",
-      "[aljazeera] The men were located 240 kilometres off the coast.",
-      "[aljazeera] The men were airlifted for medical care."
-    ],
-    "framing_differences": [
-      "BBC frames the event by detailing the timeline of the distress call from the fishing cooperative, whereas Al Jazeera focuses on the sinking of the boat as the cause of the men being stranded."
-    ],
-    "contested_claims": [
-      "The distance from the coast is reported differently: BBC states 150 miles, while Al Jazeera states 240 kilometres."
-    ],
-    "unverified_claims": [
-      "[bbc] The men were 53 and 32 years old.",
-      "[aljazeera] The men's boat sank.",
-      "[aljazeera] The men were airlifted for medical care."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "Two fishermen were rescued by the Mexican Navy after being at sea for five days off the coast of Chiapas, Mexico.",
-      "The men used a fishing cool box to stay afloat."
-    ],
-    "unknowns": [
-      "The specific cause of the vessel becoming disabled or sinking.",
-      "The exact distance from the coast in standardized units.",
-      "The current health status of the fishermen beyond their initial medical evaluation."
-    ],
-    "synthesis": "Two fishermen were rescued by the Mexican Navy off the coast of Chiapas after being missing for five days. Both sources confirm the men were found floating with a fish cooler. The reports vary regarding the exact distance from the shore and the specific circumstances leading to their stranding.",
-    "confidence": "HIGH; The core narrative of the rescue is consistent across both sources, with minor discrepancies in specific distances and procedural details.",
-    "sources": [
-      {
-        "id": "art_1787263480781_klvjw",
-        "url": "https://www.bbc.co.uk/news/videos/c1l10g94yg1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: Fishermen rescued after five days adrift in cool box"
-      },
-      {
-        "id": "art_1787254769460_xk1ld",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/fishermen-rescued-after-five-days-clinging-to-cooler-at-sea?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fishermen rescued after five days clinging to cooler at sea"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -3058,76 +3128,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/19/volodymyr-zelenskyy-sacks-senior-aide-amid-ukraine-corruption-crisis",
         "source": "guardian",
         "title": "Volodymyr Zelenskyy sacks senior aide amid Ukraine corruption crisis"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "25c29da73b20c5e312d415ea175b2a6f",
-    "topic_label": "North Korea Missile Activity",
-    "event_window_start": "2026-08-20T10:00:34.000Z",
-    "event_window_end": "2026-08-20T10:25:29.000Z",
-    "article_ids": [
-      "art_1787224050334_3cjnq",
-      "art_1787224062587_u6tvn"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-20T15:19:53.468Z",
-    "updated_at": "2026-08-20T15:19:53.468Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Trump is scaling back U.S.-South Korea military drills.",
-      "President Trump has expressed a desire to maintain a relationship with Kim Jong Un."
-    ],
-    "source_claims": [
-      "[guardian] North Korea launched approximately 10 short-range ballistic missiles toward their eastern waters on Thursday.",
-      "[guardian] South Korea's military detected the launches and has increased surveillance posture.",
-      "[fox] President Trump stated that North Korea possesses exactly 57 nuclear weapons.",
-      "[fox] President Trump signaled a possible meeting with Kim Jong Un later this year."
-    ],
-    "framing_differences": [
-      "The guardian frames the North Korean missile launches as a response to the curtailment of U.S.-South Korea military drills, while fox focuses on President Trump's public statements regarding the North Korean nuclear arsenal and his personal rapport with Kim Jong Un."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The North Korean missile launches were an attempt to shrug off or respond to the scaling back of military drills.",
-      "[fox] North Korea possesses exactly 57 nuclear weapons."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'shrugged off' to describe North Korea's reaction to U.S. military policy."
-    ],
-    "safe_conclusions": [
-      "President Trump is scaling back joint military drills with South Korea.",
-      "There are ongoing discussions regarding the U.S.-North Korea relationship and potential future meetings."
-    ],
-    "unknowns": [
-      "Whether the missile launches reported by the guardian are directly linked to the military drills or other strategic factors.",
-      "The official U.S. intelligence verification of the 57 nuclear warhead figure mentioned by President Trump.",
-      "The specific nature and timeline of the potential meeting between President Trump and Kim Jong Un."
-    ],
-    "synthesis": "President Trump has moved to scale back U.S.-South Korea military exercises while publicly discussing his rapport with Kim Jong Un. Concurrently, reports indicate North Korea launched multiple short-range ballistic missiles toward its eastern waters. President Trump has also cited a specific figure for North Korea's nuclear arsenal.",
-    "confidence": "MEDIUM. While the sources do not directly contradict each other, they cover different aspects of the U.S.-North Korea relationship without providing a comprehensive cross-confirmation of the missile launch event or the nuclear arsenal count.",
-    "sources": [
-      {
-        "id": "art_1787224050334_3cjnq",
-        "url": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills",
-        "source": "guardian",
-        "title": "North Korea fires 10 missiles day after Trump curtails South Korea joint drills"
-      },
-      {
-        "id": "art_1787224062587_u6tvn",
-        "url": "https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons",
-        "source": "fox",
-        "title": "Trump reveals exact number of North Korea's nuclear weapons"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
