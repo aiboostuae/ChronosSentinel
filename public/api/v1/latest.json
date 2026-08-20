@@ -1,10 +1,53 @@
 {
-  "generated_at": "2026-08-20T18:06:41.888Z",
+  "generated_at": "2026-08-20T18:41:36.900Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 176,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "5a8a8203ec0a9ea95c4c74dcc41dd20d",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-08-20T16:52:49.000Z",
+      "event_window_end": "2026-08-20T17:04:32.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "There are no shared facts because the provided articles discuss entirely different and unrelated news events."
+      ],
+      "source_differences": [],
+      "synthesis": "The provided articles cover entirely separate news events, ranging from local traffic regulations in Como, Italy, to educational policy debates in California and political disputes in New Jersey. Because the sources do not report on the same occurrences, there is no overlapping factual narrative to synthesize. Consequently, each story must be evaluated independently as they share no common subjects or themes.",
+      "confidence": "LOW. The articles do not report on the same event, making it impossible to assess factual consistency or cross-verify claims between fox and bbc.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/sherrill-escalates-trump-fight-voter-fiasco-day-after-mullin-praises-nj-cooperation",
+          "title": "Sherrill escalates Trump fight over voter fiasco day after Mullin praises NJ cooperation"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-culture/open-marriage-leads-regret-woman-hooks-best-friend-sister-ex-dumb-divorce-excuses",
+          "title": "An open marriage somehow leads to regret, woman hooks best friend up with sister's ex & dumb divorce excuses"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/gavin-newsom-avoids-question-bringing-back-sat-scores-after-uc-open-letter-asks-show-me-data",
+          "title": "Gavin Newsom avoids question on bringing back SAT scores after UC open letter, asks 'show me the data'"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cn8n077vxd7o?at_medium=RSS&at_campaign=rss",
+          "title": "Como mayor bans 'beasts' in city centre after being hit by bike"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/florida-senate-candidate-angie-nixon-defends-drag-shows-wholesome-children-brought-kids",
+          "title": "Florida Senate candidate Angie Nixon defends drag shows as 'wholesome' for children, brought her kids to one"
+        }
+      ],
+      "updated_at": "2026-08-20T18:41:15.321Z"
+    },
     {
       "cluster_id": "b017036ddd35cfea25582e4ae3bd6ad0",
       "topic_label": "Conflict in Gaza and Israel",
@@ -345,43 +388,28 @@
         }
       ],
       "updated_at": "2026-08-20T17:36:29.794Z"
-    },
-    {
-      "cluster_id": "147dbe1d34f780f726803fa5dd546d57",
-      "topic_label": "Israel Military Actions and Gaza",
-      "event_window_start": "2026-08-19T21:09:15.000Z",
-      "event_window_end": "2026-08-20T09:08:58.000Z",
-      "article_count": 3,
-      "source_count": 1,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "The Israeli military and authorities are currently involved in various investigations or reports concerning actions taken in the West Bank and Gaza.",
-        "Deaths of Palestinian individuals, including civilians and minors, have been reported in the West Bank and Gaza Strip."
-      ],
-      "source_differences": [],
-      "synthesis": "Reports cover Human Rights Watch allegations of state-sponsored settler violence in the West Bank and ongoing Israeli military strikes in Gaza. Additional coverage notes the initiation of Israeli criminal investigations into the deaths of Hind Rajab and various aid workers. Sources indicate skepticism from victims' families regarding the outcomes of these internal military inquiries.",
-      "confidence": "HIGH: The facts reported are specific to named entities and documented events, though the context provided is limited to reporting from a single outlet.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/20/state-backed-israeli-settler-violence-forces-west-bank-displacement-hrw?traffic_source=rss",
-          "title": "State-backed Israeli settler violence forces West Bank displacement: HRW"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/israeli-strike-on-gaza-city-police-headquarters-kills-womens-police-chief?traffic_source=rss",
-          "title": "Israeli strike on Gaza City police headquarters kills women’s police chief"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/israel-orders-inquiry-into-killing-of-6-year-old-hind-rajab-in-gaza?traffic_source=rss",
-          "title": "Israel orders inquiry into killing of 6-year-old Hind Rajab in Gaza"
-        }
-      ],
-      "updated_at": "2026-08-20T17:36:29.794Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-5a8a8203",
+      "title": "Fallback Synthesis",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "The provided articles cover entirely separate news events, ranging from local traffic regulations in Como, Italy, to educational policy debates in California and political disputes in New Jersey. Because the sources do not report on the same occurrences, there is no overlapping factual narrative to synthesize. Consequently, each story must be evaluated independently as they share no common subjects or themes.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "5a8a8203ec0a9ea95c4c74dcc41dd20d",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-08-20T18:41:15.321Z"
+    },
     {
       "id": "impact-b017036d",
       "title": "Conflict in Gaza and Israel",
@@ -558,27 +586,6 @@
       "corroboration_level": "moderate",
       "source_count": 2,
       "related_cluster_id": "1b326068b6322d40d1e13d43472ab0ca",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-08-20T17:36:29.794Z"
-    },
-    {
-      "id": "impact-147dbe1d",
-      "title": "Israel Military Actions and Gaza",
-      "severity": "low",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Reports cover Human Rights Watch allegations of state-sponsored settler violence in the West Bank and ongoing Israeli military strikes in Gaza. Additional coverage notes the initiation of Israeli criminal investigations into the deaths of Hind Rajab and various aid workers. Sources indicate skepticism from victims' families regarding the outcomes of these internal military inquiries.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "147dbe1d34f780f726803fa5dd546d57",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-20T17:36:29.794Z"

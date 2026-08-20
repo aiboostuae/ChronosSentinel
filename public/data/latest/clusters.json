@@ -1,5 +1,102 @@
 [
   {
+    "cluster_id": "5a8a8203ec0a9ea95c4c74dcc41dd20d",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-08-20T16:52:49.000Z",
+    "event_window_end": "2026-08-20T17:04:32.000Z",
+    "article_ids": [
+      "art_1787245945381_crpnl",
+      "art_1787245946441_46x2i",
+      "art_1787245947480_k64dj",
+      "art_1787245948715_3g32v",
+      "art_1787245949754_mnylc"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T18:41:15.321Z",
+    "updated_at": "2026-08-20T18:41:15.321Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "There are no shared facts because the provided articles discuss entirely different and unrelated news events."
+    ],
+    "source_claims": [
+      "[fox] Gov. Mikie Sherrill criticized the Trump administration after releasing findings about ineligible voters registered in New Jersey.",
+      "[fox] DHS Secretary Markwayne Mullin issued a statement thanking Gov. Sherrill for cooperating, which a Democratic source disputed.",
+      "[fox] Over 3,000 UC faculty members signed an open letter demanding the reinstatement of SAT and ACT requirements.",
+      "[fox] Florida state Rep. Angie Nixon defended drag shows as wholesome and stated she brought her children to one.",
+      "[bbc] Mayor Alessandro Rapinese banned riding bicycles in approximately 30 streets in the center of Como starting in September."
+    ],
+    "framing_differences": [
+      "No direct framing differences can be evaluated between fox and bbc because the outlets do not cover the same events or topics."
+    ],
+    "contested_claims": [
+      "There are no directly contested claims across the sources because the articles cover unrelated topics."
+    ],
+    "unverified_claims": [
+      "[fox] A software error in New Jersey's Motor Vehicle Commission caused thousands of noncitizens to be registered on voting rolls.",
+      "[fox] Roughly one in eight incoming UC San Diego students fell below high school math standards.",
+      "[fox] Dakota Johnson and Role Model have broken up after having not been together for some time.",
+      "[bbc] The mayor of Como was hit by an electric bicycle prior to implementing the ban."
+    ],
+    "loaded_language": [
+      "[bbc] quotes Alessandro Rapinese using the term 'beasts' to describe electric bicycles.",
+      "[fox] uses the terms 'stomach-churning, tear-jerking' to describe the news of a celebrity breakup.",
+      "[fox] uses the term 'voter fiasco' in its headline to describe voter registration issues.",
+      "[fox] quotes Angie Nixon using the term 'wholesome' to describe drag shows."
+    ],
+    "safe_conclusions": [
+      "The provided articles cover distinct, unrelated news events across different geographic locations."
+    ],
+    "unknowns": [
+      "The specific technical cause of the New Jersey Motor Vehicle Commission software error remains unknown.",
+      "Whether the University of California will ultimately reinstate the SAT and ACT requirements is unknown.",
+      "The exact boundaries of the 30 streets affected by the bicycle ban in Como are unknown."
+    ],
+    "synthesis": "The provided articles cover entirely separate news events, ranging from local traffic regulations in Como, Italy, to educational policy debates in California and political disputes in New Jersey. Because the sources do not report on the same occurrences, there is no overlapping factual narrative to synthesize. Consequently, each story must be evaluated independently as they share no common subjects or themes.",
+    "confidence": "LOW. The articles do not report on the same event, making it impossible to assess factual consistency or cross-verify claims between fox and bbc.",
+    "sources": [
+      {
+        "id": "art_1787245945381_crpnl",
+        "url": "https://www.foxnews.com/politics/sherrill-escalates-trump-fight-voter-fiasco-day-after-mullin-praises-nj-cooperation",
+        "source": "fox",
+        "title": "Sherrill escalates Trump fight over voter fiasco day after Mullin praises NJ cooperation"
+      },
+      {
+        "id": "art_1787245946441_46x2i",
+        "url": "https://www.foxnews.com/outkick-culture/open-marriage-leads-regret-woman-hooks-best-friend-sister-ex-dumb-divorce-excuses",
+        "source": "fox",
+        "title": "An open marriage somehow leads to regret, woman hooks best friend up with sister's ex & dumb divorce excuses"
+      },
+      {
+        "id": "art_1787245947480_k64dj",
+        "url": "https://www.foxnews.com/media/gavin-newsom-avoids-question-bringing-back-sat-scores-after-uc-open-letter-asks-show-me-data",
+        "source": "fox",
+        "title": "Gavin Newsom avoids question on bringing back SAT scores after UC open letter, asks 'show me the data'"
+      },
+      {
+        "id": "art_1787245948715_3g32v",
+        "url": "https://www.bbc.co.uk/news/articles/cn8n077vxd7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Como mayor bans 'beasts' in city centre after being hit by bike"
+      },
+      {
+        "id": "art_1787245949754_mnylc",
+        "url": "https://www.foxnews.com/media/florida-senate-candidate-angie-nixon-defends-drag-shows-wholesome-children-brought-kids",
+        "source": "fox",
+        "title": "Florida Senate candidate Angie Nixon defends drag shows as 'wholesome' for children, brought her kids to one"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "b017036ddd35cfea25582e4ae3bd6ad0",
     "topic_label": "Conflict in Gaza and Israel",
     "event_window_start": "2026-08-19T20:54:48.000Z",
@@ -19732,107 +19829,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/17/russia-maintains-election-ban-on-opposition-yabloko-jails-deputy-head?traffic_source=rss",
         "source": "aljazeera",
         "title": "Russia maintains election ban on opposition Yabloko, jails deputy head"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "822c787823fc89cf97ef6905f9cf1841",
-    "topic_label": "International Natural Disasters",
-    "event_window_start": "2026-08-17T17:25:37.000Z",
-    "event_window_end": "2026-08-17T22:26:12.000Z",
-    "article_ids": [
-      "art_1787011025102_8i6hm",
-      "art_1787000661428_xnwwa",
-      "art_1786997058170_d1i3k",
-      "art_1786997066315_s1u02",
-      "art_1786995248537_62ctv",
-      "art_1786988002182_s19qx"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T14:40:33.525Z",
-    "updated_at": "2026-08-18T14:40:33.525Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Disasters involving earthquakes, floods, wildfires, and a ferry capsizing have occurred in various international locations including Colombia, Peru, Indonesia, France, and Zimbabwe.",
-      "Government and aid agencies are conducting search, rescue, and recovery operations in response to these events."
-    ],
-    "source_claims": [
-      "[aljazeera] A magnitude 7.4 earthquake in western Colombia killed at least 289 people and injured 4,187.",
-      "[aljazeera] An earthquake in eastern Indonesia killed 68 people and injured more than 200.",
-      "[bbc] French Prime Minister Sébastien Lecornu was heckled by residents in Le Porge during a visit to areas affected by wildfires.",
-      "[bbc] The French government announced €12m of aid for the Gironde and Landes regions.",
-      "[aljazeera] A ferry capsized on Lake Kariba in Zimbabwe, resulting in at least 92 confirmed deaths."
-    ],
-    "framing_differences": [
-      "aljazeera frames its reporting around the status of disaster recovery and the physical impact of environmental events, whereas bbc frames its reporting around political reaction and public response to government management of a wildfire crisis."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Reports that the ferry capsized during high winds on Lake Kariba.",
-      "[bbc] Claims from an organizer of affected residents that Prime Minister Lecornu did not want to meet with them."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'razor-thin' to describe chances of survival.",
-      "[aljazeera] uses the term 'grim shadow' to describe the impact of the earthquake on Independence Day celebrations.",
-      "[bbc] uses the term 'heckled' and 'booed' to describe the public reaction to the Prime Minister."
-    ],
-    "safe_conclusions": [
-      "Multiple distinct emergency incidents have occurred recently in different countries requiring government intervention.",
-      "Rescue and recovery operations are currently in progress for the reported disasters."
-    ],
-    "unknowns": [
-      "The total number of people on board the Zimbabwean ferry at the time it capsized.",
-      "The exact number of missing persons in the Indonesian earthquake.",
-      "The total economic impact of the mentioned natural disasters."
-    ],
-    "synthesis": "Multiple natural disasters, including earthquakes in Colombia and Indonesia, floods in Peru, and wildfires in France, have occurred alongside a ferry accident in Zimbabwe. Governments and aid organizations are engaged in recovery efforts and providing financial aid to affected populations. These events have resulted in significant casualties and property damage across the affected regions.",
-    "confidence": "HIGH: The sources provide distinct reports on independent global events, and factual consistency is maintained within each specific news item.",
-    "sources": [
-      {
-        "id": "art_1787011025102_8i6hm",
-        "url": "https://www.aljazeera.com/news/2026/8/17/as-rubble-clears-colombia-begins-focusing-on-recovery-after-the-earthquake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As rubble clears, Colombia begins focusing on recovery after the earthquake"
-      },
-      {
-        "id": "art_1787000661428_xnwwa",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/torrential-rains-flood-homes-and-roads-across-lima-peru?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Torrential rains flood homes and roads across Lima, Peru"
-      },
-      {
-        "id": "art_1786997058170_d1i3k",
-        "url": "https://www.aljazeera.com/gallery/2026/8/17/photos-search-for-indonesia-earthquake-victims-continues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Photos: Search for Indonesia earthquake victims continues"
-      },
-      {
-        "id": "art_1786997066315_s1u02",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rzx5g5yro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "French PM heckled over wildfire response as blazes continue across Europe"
-      },
-      {
-        "id": "art_1786995248537_62ctv",
-        "url": "https://www.aljazeera.com/news/2026/8/17/death-toll-from-capsized-ferry-in-zimbabwe-rises-to-92?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Death toll from capsized ferry in Zimbabwe rises to 92"
-      },
-      {
-        "id": "art_1786988002182_s19qx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/britain-deploys-military-as-wildfires-spread-across-europe?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Britain deploys military as wildfires spread across Europe"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
