@@ -178,86 +178,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "f16b764733a970c83d3bf3e076763197",
-    "topic_label": "Colombia gold mine landslide",
-    "event_window_start": "2026-08-20T15:07:57.000Z",
-    "event_window_end": "2026-08-20T20:36:51.000Z",
-    "article_ids": [
-      "art_1787296031916_41p2x",
-      "art_1787240576235_zo6jx",
-      "art_1787240577301_n9u8g"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T07:48:38.404Z",
-    "updated_at": "2026-08-21T07:48:38.404Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A landslide at an unlicensed or illegal gold mine in southwest Colombia resulted in 13 deaths and 7 injuries.",
-      "The incident occurred in the Narino department, specifically noted as Policarpa by BBC.",
-      "The collapse occurred on a Wednesday."
-    ],
-    "source_claims": [
-      "[aljazeera] Fredy Gamez states the landslide was caused by mining activity triggering a slope collapse.",
-      "[bbc] Witnesses reported hearing a sound like an explosion prior to the landslide.",
-      "[aljazeera] Residents report that approximately 50 people, mostly from the Quillacinga indigenous group, regularly worked at the mine.",
-      "[bbc] Witnesses claim four of the deceased were members of the same indigenous family."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the event primarily within the context of recent regional disasters by linking it to a recent 7.4 magnitude earthquake, whereas BBC frames the event as an isolated incident involving artisanal mining hazards."
-    ],
-    "contested_claims": [
-      "BBC reports witnesses hearing a sound like an explosion, while a local official cited by BBC attributes the landslide directly to mining activity without mentioning an explosion."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Claims that about 50 people regularly worked at the site.",
-      "[bbc] Claims that four of the 13 deceased were from the same indigenous family."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'illegal gold mine' to categorize the site.",
-      "[bbc] uses the term 'unlicensed' to describe the mine."
-    ],
-    "safe_conclusions": [
-      "13 people died and 7 were injured in a landslide at a mine in southwest Colombia on a Wednesday."
-    ],
-    "unknowns": [
-      "The exact number of workers present at the site at the time of the collapse.",
-      "Whether an explosion occurred or if the sound heard by witnesses was solely related to the collapse of the slope.",
-      "The identities and specific demographic breakdown of all victims."
-    ],
-    "synthesis": "A landslide at an unlicensed gold mine in southwest Colombia killed 13 people and injured 7 others on Wednesday. While local officials attribute the collapse to mining activity, some witnesses reported hearing a sound similar to an explosion. Emergency recovery efforts were conducted using diggers to retrieve the bodies.",
-    "confidence": "HIGH. The sources consistently agree on the death toll, injury count, and the nature of the location, with minor variations in attributed accounts of the event's cause.",
-    "sources": [
-      {
-        "id": "art_1787296031916_41p2x",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/landslide-at-illegal-gold-mine-kills-13-people-in-colombia-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Landslide at illegal gold mine kills 13 people in Colombia"
-      },
-      {
-        "id": "art_1787240576235_zo6jx",
-        "url": "https://www.aljazeera.com/news/2026/8/20/13-workers-killed-in-colombia-mine-landslide-local-official?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Landslide kills 13 at illegal gold mine in Colombia’s southwest"
-      },
-      {
-        "id": "art_1787240577301_n9u8g",
-        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Landslide at unlicensed Colombian gold mine kills 13"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "88badf7556b849cd2af2834b002c061f",
     "topic_label": "Hong Kong Security Trial",
     "event_window_start": "2026-08-21T02:22:17.000Z",
@@ -338,6 +258,186 @@
         "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Hong Kong's Tiananmen activists guilty in national security trial"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "feb8cff2514ca57e799125493b850d12",
+    "topic_label": "Iran Sanctions and Economy",
+    "event_window_start": "2026-08-20T14:55:47.000Z",
+    "event_window_end": "2026-08-20T23:16:45.000Z",
+    "article_ids": [
+      "art_1787270423157_u757g",
+      "art_1787263481852_oa363",
+      "art_1787254765157_ulvlh",
+      "art_1787254768397_8lbc1",
+      "art_1787240582717_7sbt5"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T09:41:36.451Z",
+    "updated_at": "2026-08-21T09:41:36.451Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "US Treasury Secretary Scott Bessent announced that the United States intends to implement new economic measures targeting Iran.",
+      "The United States has threatened economic consequences for countries that continue to trade with or provide a 'lifeline' to the Iranian government.",
+      "The conflict between the United States and Iran has been ongoing for approximately six months."
+    ],
+    "source_claims": [
+      "[bbc] reports that US President Donald Trump has promised an 'economic D-Day' targeting countries doing business with Iran.",
+      "[bbc] claims that Treasury Secretary Scott Bessent stated the new pressure campaign aims to minimize the need for a large-scale kinetic operation.",
+      "[guardian] reports that the US Treasury Department sanctioned 10 individuals allegedly involved in a cash-smuggling network supporting Hezbollah.",
+      "[aljazeera] claims that Treasury Secretary Scott Bessent described the upcoming measures as the 'toughest sanctions in history'.",
+      "[aljazeera] reports that analysts suggest US leverage over China and Russia regarding these sanctions is limited due to existing trade interests and previous sanctions."
+    ],
+    "framing_differences": [
+      "The BBC frames the situation as a 'standstill' where the effectiveness of sanctions is questioned, while Al Jazeera frames the sanctions as an aggressive foreign policy attempt by Trump to wield economic power despite limited leverage.",
+      "The Guardian focuses on specific enforcement actions (sanctions on a courier network) while BBC and Al Jazeera focus on the broader rhetorical strategy of the US administration."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] claims the prospects of a military victory or negotiated settlement are growing dimmer.",
+      "[aljazeera] claims that the US conflict with Iran has been 'costly'.",
+      "[guardian] claims the courier network allowed Hezbollah to obtain foreign currency and dodge sanctions."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'economic D-Day' to describe the planned sanctions.",
+      "[bbc] uses the term 'squash' to describe the intended effect on the Iranian economy.",
+      "[aljazeera] uses the term 'one-two punch' to describe the combination of a blockade and new sanctions.",
+      "[guardian] describes Hezbollah as an 'Iran-backed Lebanese militant group'."
+    ],
+    "safe_conclusions": [
+      "The US government is currently pursuing a strategy of economic pressure against Iran.",
+      "The US administration has publicly warned international partners of potential consequences for maintaining trade ties with Iran.",
+      "The US Treasury Department has issued recent sanctions related to an alleged cash-smuggling network."
+    ],
+    "unknowns": [
+      "The specific mechanics and details of the upcoming 'economic D-Day' or 'toughest sanctions' have not been disclosed by the US Treasury.",
+      "The extent to which international allies will comply with US demands remains unknown.",
+      "The actual impact these measures will have on the Iranian economy and regime stability is not yet determined."
+    ],
+    "synthesis": "The United States has announced plans to implement intensified economic sanctions against Iran, threatening penalties for countries that continue trade relations. While the US administration states these measures are intended to collapse the Iranian regime and reduce the need for military action, analysts suggest international trade partners like China and Russia may pose challenges to this policy. Concurrently, the US Treasury has taken specific enforcement actions against a network alleged to be smuggling cash to Hezbollah.",
+    "confidence": "HIGH: All sources consistently report on the US government's stated intent to increase economic pressure on Iran and the public rhetoric used by Treasury Secretary Bessent.",
+    "sources": [
+      {
+        "id": "art_1787270423157_u757g",
+        "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How much could Trump's 'economic D-Day' hurt Iran? "
+      },
+      {
+        "id": "art_1787263481852_oa363",
+        "url": "https://www.theguardian.com/us-news/2026/aug/20/alleged-money-smuggling-sanctions-hezbollah",
+        "source": "guardian",
+        "title": "US places sanctions on 10 people over alleged Hezbollah cash-smuggling ring"
+      },
+      {
+        "id": "art_1787254765157_ulvlh",
+        "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime"
+      },
+      {
+        "id": "art_1787254768397_8lbc1",
+        "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US Treasury secretary says new economic measures will ‘collapse’ Iran"
+      },
+      {
+        "id": "art_1787240582717_7sbt5",
+        "url": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How China and Russia could hobble Trump’s plans to isolate Iran"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f16b764733a970c83d3bf3e076763197",
+    "topic_label": "Colombia gold mine landslide",
+    "event_window_start": "2026-08-20T15:07:57.000Z",
+    "event_window_end": "2026-08-20T20:36:51.000Z",
+    "article_ids": [
+      "art_1787296031916_41p2x",
+      "art_1787240576235_zo6jx",
+      "art_1787240577301_n9u8g"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T07:48:38.404Z",
+    "updated_at": "2026-08-21T07:48:38.404Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A landslide at an unlicensed or illegal gold mine in southwest Colombia resulted in 13 deaths and 7 injuries.",
+      "The incident occurred in the Narino department, specifically noted as Policarpa by BBC.",
+      "The collapse occurred on a Wednesday."
+    ],
+    "source_claims": [
+      "[aljazeera] Fredy Gamez states the landslide was caused by mining activity triggering a slope collapse.",
+      "[bbc] Witnesses reported hearing a sound like an explosion prior to the landslide.",
+      "[aljazeera] Residents report that approximately 50 people, mostly from the Quillacinga indigenous group, regularly worked at the mine.",
+      "[bbc] Witnesses claim four of the deceased were members of the same indigenous family."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the event primarily within the context of recent regional disasters by linking it to a recent 7.4 magnitude earthquake, whereas BBC frames the event as an isolated incident involving artisanal mining hazards."
+    ],
+    "contested_claims": [
+      "BBC reports witnesses hearing a sound like an explosion, while a local official cited by BBC attributes the landslide directly to mining activity without mentioning an explosion."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Claims that about 50 people regularly worked at the site.",
+      "[bbc] Claims that four of the 13 deceased were from the same indigenous family."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'illegal gold mine' to categorize the site.",
+      "[bbc] uses the term 'unlicensed' to describe the mine."
+    ],
+    "safe_conclusions": [
+      "13 people died and 7 were injured in a landslide at a mine in southwest Colombia on a Wednesday."
+    ],
+    "unknowns": [
+      "The exact number of workers present at the site at the time of the collapse.",
+      "Whether an explosion occurred or if the sound heard by witnesses was solely related to the collapse of the slope.",
+      "The identities and specific demographic breakdown of all victims."
+    ],
+    "synthesis": "A landslide at an unlicensed gold mine in southwest Colombia killed 13 people and injured 7 others on Wednesday. While local officials attribute the collapse to mining activity, some witnesses reported hearing a sound similar to an explosion. Emergency recovery efforts were conducted using diggers to retrieve the bodies.",
+    "confidence": "HIGH. The sources consistently agree on the death toll, injury count, and the nature of the location, with minor variations in attributed accounts of the event's cause.",
+    "sources": [
+      {
+        "id": "art_1787296031916_41p2x",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/landslide-at-illegal-gold-mine-kills-13-people-in-colombia-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Landslide at illegal gold mine kills 13 people in Colombia"
+      },
+      {
+        "id": "art_1787240576235_zo6jx",
+        "url": "https://www.aljazeera.com/news/2026/8/20/13-workers-killed-in-colombia-mine-landslide-local-official?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Landslide kills 13 at illegal gold mine in Colombia’s southwest"
+      },
+      {
+        "id": "art_1787240577301_n9u8g",
+        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Landslide at unlicensed Colombian gold mine kills 13"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -426,6 +526,104 @@
         "url": "https://www.theguardian.com/uk-news/2026/aug/20/rival-courts-prince-harry-meghan-surprise-uk-return-king-charles-prince-william",
         "source": "guardian",
         "title": "‘Rival courts’: Prince Harry’s surprise UK return may provoke royal spot of bother"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "04a1f1f2ee08598378b73786ce74147b",
+    "topic_label": "Investigation into Rep. Swalwell",
+    "event_window_start": "2026-08-20T15:12:45.000Z",
+    "event_window_end": "2026-08-21T02:17:39.000Z",
+    "article_ids": [
+      "art_1787280841520_o2yqw",
+      "art_1787270430502_2wmud",
+      "art_1787270431540_v6ob6",
+      "art_1787254778108_kcdkv",
+      "art_1787240575186_kdony"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T13:51:30.650Z",
+    "updated_at": "2026-08-21T13:51:30.650Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Aisha Wahab won a special election to replace Eric Swalwell in his former US House seat.",
+      "Eric Swalwell resigned from Congress in April following allegations of sexual misconduct.",
+      "The FBI has taken actions related to an investigation into Eric Swalwell, including searching a home and seizing electronic devices."
+    ],
+    "source_claims": [
+      "[guardian] states Aisha Wahab won by more than 20 points over Hernandez.",
+      "[fox] describes the race as a front in a Democratic civil war between establishment and progressive wings.",
+      "[aljazeera] reports that one woman has publicly accused Swalwell of sexual assault, while four others have alleged other forms of sexual misconduct.",
+      "[fox] reports that FBI Director Kash Patel participated in a House Judiciary Committee hearing."
+    ],
+    "framing_differences": [
+      "guardian frames Aisha Wahab as a 'progressive' and notes the election followed a 'bitter intra-party battle,' whereas fox frames the same race as a victory for a 'far-left' candidate and part of a 'Democratic civil war.'",
+      "aljazeera frames the FBI actions as a raid on a 'home,' while fox describes the events as a 'search' and 'seizure' of electronic devices."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] reports that Dallas McInerney was sacked following an Icac inquiry regarding illegal donations from Catholic schools to the Reformers.",
+      "[fox] asserts that Illinois primary results suggest a broader voter preference for centrist policies over progressive agendas."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'bitter' to describe the election fight.",
+      "[fox] uses the term 'disgraced' to describe Eric Swalwell.",
+      "[fox] uses the term 'far-left' to describe progressive candidates.",
+      "[aljazeera] uses the term 'raid' to describe the FBI's entry into the home."
+    ],
+    "safe_conclusions": [
+      "Aisha Wahab has been elected to fill the House seat previously held by Eric Swalwell.",
+      "Eric Swalwell is currently the subject of an investigation involving the FBI regarding allegations of sexual misconduct.",
+      "The FBI has seized electronic devices belonging to Eric Swalwell."
+    ],
+    "unknowns": [
+      "The specific current status of the Icac investigation regarding Dallas McInerney.",
+      "The official details or charges, if any, resulting from the FBI investigation into Eric Swalwell.",
+      "The total number of allegations or legal status regarding the claims of sexual misconduct against Eric Swalwell."
+    ],
+    "synthesis": "Aisha Wahab has won a special election for the congressional seat formerly held by Eric Swalwell, who resigned in April amid allegations of sexual misconduct. Federal authorities have seized electronic devices belonging to Swalwell and searched his residence as part of an ongoing investigation. Separately, Catholic Schools NSW chief executive Dallas McInerney has been dismissed following an inquiry into potential illegal political donations.",
+    "confidence": "HIGH. While framing varies, the core factual events regarding the election outcome and the federal investigation into Swalwell are consistent across sources.",
+    "sources": [
+      {
+        "id": "art_1787280841520_o2yqw",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/21/catholic-schools-nsw-ceo-dallas-mcinerney-sacked-after-icac-ntwnfb",
+        "source": "guardian",
+        "title": "Catholic Schools NSW boss sacked after appearance at Icac inquiry into alleged Liberal party corruption"
+      },
+      {
+        "id": "art_1787270430502_2wmud",
+        "url": "https://www.theguardian.com/us-news/2026/aug/20/california-special-election-results-eric-swalwell",
+        "source": "guardian",
+        "title": "Democrat Aisha Wahab wins California special election to fill Eric Swalwell’s US House seat"
+      },
+      {
+        "id": "art_1787270431540_v6ob6",
+        "url": "https://www.foxnews.com/politics/progressives-notch-victory-race-replace-swalwell-following-sexual-assault-scandal",
+        "source": "fox",
+        "title": "Progressives notch victory in race to replace Swalwell following sexual assault scandal"
+      },
+      {
+        "id": "art_1787254778108_kcdkv",
+        "url": "https://www.aljazeera.com/news/2026/8/20/fbi-raids-ex-us-representative-swalwells-home-amid-sexual-misconduct-probe?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FBI raids ex-US Representative Swalwell’s home amid sexual misconduct probe"
+      },
+      {
+        "id": "art_1787240575186_kdony",
+        "url": "https://www.foxnews.com/politics/fbi-seizes-swalwells-devices-airport-sexual-misconduct-investigation-escalates-sources",
+        "source": "fox",
+        "title": "FBI seizes Swalwell’s devices at airport as sexual misconduct investigation escalates: sources"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -750,106 +948,6 @@
         "url": "https://www.foxnews.com/politics/fbi-seizes-swalwells-devices-airport-sexual-misconduct-investigation-escalates-sources",
         "source": "fox",
         "title": "FBI seizes Swalwell’s devices at airport as sexual misconduct investigation escalates: sources"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "feb8cff2514ca57e799125493b850d12",
-    "topic_label": "Iran Sanctions and Economy",
-    "event_window_start": "2026-08-20T14:55:47.000Z",
-    "event_window_end": "2026-08-20T23:16:45.000Z",
-    "article_ids": [
-      "art_1787270423157_u757g",
-      "art_1787263481852_oa363",
-      "art_1787254765157_ulvlh",
-      "art_1787254768397_8lbc1",
-      "art_1787240582717_7sbt5"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T09:41:36.451Z",
-    "updated_at": "2026-08-21T09:41:36.451Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "US Treasury Secretary Scott Bessent announced that the United States intends to implement new economic measures targeting Iran.",
-      "The United States has threatened economic consequences for countries that continue to trade with or provide a 'lifeline' to the Iranian government.",
-      "The conflict between the United States and Iran has been ongoing for approximately six months."
-    ],
-    "source_claims": [
-      "[bbc] reports that US President Donald Trump has promised an 'economic D-Day' targeting countries doing business with Iran.",
-      "[bbc] claims that Treasury Secretary Scott Bessent stated the new pressure campaign aims to minimize the need for a large-scale kinetic operation.",
-      "[guardian] reports that the US Treasury Department sanctioned 10 individuals allegedly involved in a cash-smuggling network supporting Hezbollah.",
-      "[aljazeera] claims that Treasury Secretary Scott Bessent described the upcoming measures as the 'toughest sanctions in history'.",
-      "[aljazeera] reports that analysts suggest US leverage over China and Russia regarding these sanctions is limited due to existing trade interests and previous sanctions."
-    ],
-    "framing_differences": [
-      "The BBC frames the situation as a 'standstill' where the effectiveness of sanctions is questioned, while Al Jazeera frames the sanctions as an aggressive foreign policy attempt by Trump to wield economic power despite limited leverage.",
-      "The Guardian focuses on specific enforcement actions (sanctions on a courier network) while BBC and Al Jazeera focus on the broader rhetorical strategy of the US administration."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] claims the prospects of a military victory or negotiated settlement are growing dimmer.",
-      "[aljazeera] claims that the US conflict with Iran has been 'costly'.",
-      "[guardian] claims the courier network allowed Hezbollah to obtain foreign currency and dodge sanctions."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'economic D-Day' to describe the planned sanctions.",
-      "[bbc] uses the term 'squash' to describe the intended effect on the Iranian economy.",
-      "[aljazeera] uses the term 'one-two punch' to describe the combination of a blockade and new sanctions.",
-      "[guardian] describes Hezbollah as an 'Iran-backed Lebanese militant group'."
-    ],
-    "safe_conclusions": [
-      "The US government is currently pursuing a strategy of economic pressure against Iran.",
-      "The US administration has publicly warned international partners of potential consequences for maintaining trade ties with Iran.",
-      "The US Treasury Department has issued recent sanctions related to an alleged cash-smuggling network."
-    ],
-    "unknowns": [
-      "The specific mechanics and details of the upcoming 'economic D-Day' or 'toughest sanctions' have not been disclosed by the US Treasury.",
-      "The extent to which international allies will comply with US demands remains unknown.",
-      "The actual impact these measures will have on the Iranian economy and regime stability is not yet determined."
-    ],
-    "synthesis": "The United States has announced plans to implement intensified economic sanctions against Iran, threatening penalties for countries that continue trade relations. While the US administration states these measures are intended to collapse the Iranian regime and reduce the need for military action, analysts suggest international trade partners like China and Russia may pose challenges to this policy. Concurrently, the US Treasury has taken specific enforcement actions against a network alleged to be smuggling cash to Hezbollah.",
-    "confidence": "HIGH: All sources consistently report on the US government's stated intent to increase economic pressure on Iran and the public rhetoric used by Treasury Secretary Bessent.",
-    "sources": [
-      {
-        "id": "art_1787270423157_u757g",
-        "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "How much could Trump's 'economic D-Day' hurt Iran? "
-      },
-      {
-        "id": "art_1787263481852_oa363",
-        "url": "https://www.theguardian.com/us-news/2026/aug/20/alleged-money-smuggling-sanctions-hezbollah",
-        "source": "guardian",
-        "title": "US places sanctions on 10 people over alleged Hezbollah cash-smuggling ring"
-      },
-      {
-        "id": "art_1787254765157_ulvlh",
-        "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime"
-      },
-      {
-        "id": "art_1787254768397_8lbc1",
-        "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US Treasury secretary says new economic measures will ‘collapse’ Iran"
-      },
-      {
-        "id": "art_1787240582717_7sbt5",
-        "url": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How China and Russia could hobble Trump’s plans to isolate Iran"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18900,82 +18998,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss",
         "source": "aljazeera",
         "title": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7de1c20b92f8943536eca118eec91eca",
-    "topic_label": "US Political Campaigns",
-    "event_window_start": "2026-08-18T14:43:59.000Z",
-    "event_window_end": "2026-08-18T15:36:20.000Z",
-    "article_ids": [
-      "art_1787069407154_gyprm",
-      "art_1787069409216_3fi4f",
-      "art_1787066200944_i27sk"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T02:26:08.384Z",
-    "updated_at": "2026-08-19T02:26:08.384Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Senator Jon Ossoff mentioned Trump executive assistant Natalie Harp during a campaign rally in Atlanta.",
-      "The mention of Natalie Harp by Jon Ossoff resulted in reactions from political figures."
-    ],
-    "source_claims": [
-      "[fox] claims Senator Jon Ossoff did not provide a reason for invoking Natalie Harp when asked by Jen Psaki.",
-      "[fox] claims White House spokesperson Davis Ingle referred to Senator Ossoff as a 'lightweight loser'.",
-      "[fox] claims Rep. Mike Collins described Senator Ossoff as an 'out of touch, far-left liberal'."
-    ],
-    "framing_differences": [
-      "[fox] frames Ossoff's comments as a 'jab' or 'personal shot' that resulted in a 'brutal takedown' by the White House, whereas the initial fox report frames the event as a question about why Ossoff chose to invoke a specific aide."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims that some progressives were 'gleefully suggesting' certain things regarding the speech.",
-      "[fox] claims Senator Ossoff is 'cringeworthy, feminine theatre kid cosplaying as Barack Obama' according to a statement attributed to Davis Ingle."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'lightweight loser' to attribute a quote from White House spokesperson Davis Ingle.",
-      "[fox] uses the term 'out of touch, far-left liberal' to describe Senator Ossoff via a quote attributed to Rep. Mike Collins.",
-      "[fox] uses the term 'cringeworthy, feminine theatre kid' to attribute a quote from White House spokesperson Davis Ingle."
-    ],
-    "safe_conclusions": [
-      "Senator Jon Ossoff made public remarks about Natalie Harp at a campaign rally in Atlanta.",
-      "The remarks by Senator Ossoff have been addressed by representatives of the White House."
-    ],
-    "unknowns": [
-      "The full context and specific phrasing of Senator Ossoff's original comments regarding Natalie Harp.",
-      "The specific reasoning Senator Ossoff has for invoking Natalie Harp."
-    ],
-    "synthesis": "Senator Jon Ossoff discussed Trump aide Natalie Harp during a campaign rally in Atlanta. This action prompted critical responses from White House officials and Republican representatives. Ossoff was subsequently asked about the motivation for his comments during an interview.",
-    "confidence": "HIGH. The sources consistently identify the event and the participants involved, though they differ in their descriptive framing of the reactions.",
-    "sources": [
-      {
-        "id": "art_1787069407154_gyprm",
-        "url": "https://www.foxnews.com/media/jon-ossoff-dodges-why-invoked-trump-aides-name-georgia-campaign-rally",
-        "source": "fox",
-        "title": "Jon Ossoff dodges on why he invoked Trump aide's name during Georgia campaign rally"
-      },
-      {
-        "id": "art_1787069409216_3fi4f",
-        "url": "https://www.foxnews.com/politics/longtime-gop-aide-defects-dem-rising-star-texas-senate-battle-heats",
-        "source": "fox",
-        "title": "Longtime GOP aide defects to Dem rising star as Texas Senate battle for Cornyn's seat heats up"
-      },
-      {
-        "id": "art_1787066200944_i27sk",
-        "url": "https://www.foxnews.com/politics/white-house-tears-ossoff-brutal-takedown-after-jab-key-trump-aide-lightweight-loser",
-        "source": "fox",
-        "title": "White House tears into Ossoff with brutal takedown after jab at key Trump aide: ‘Lightweight loser’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
