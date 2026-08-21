@@ -1,88 +1,11 @@
 [
   {
-    "cluster_id": "15aa4add3bd1c3cd721467c1c1b57995",
-    "topic_label": "Conflict in Ukraine",
-    "event_window_start": "2026-08-20T09:23:42.000Z",
-    "event_window_end": "2026-08-20T09:37:31.000Z",
-    "article_ids": [
-      "art_1787218843205_hknuj",
-      "art_1787218847979_jz5d4"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T03:40:14.177Z",
-    "updated_at": "2026-08-21T03:40:14.177Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A series of Russian strikes occurred in the Kyiv region.",
-      "There are 40 reported injuries resulting from the attacks.",
-      "Residential and civilian infrastructure sustained damage.",
-      "The events have drawn attention to Ukraine's air defense missile shortages."
-    ],
-    "source_claims": [
-      "[bbc] The Ukrainian prime minister reports at least 13 people were killed.",
-      "[guardian] President Zelenskyy reports at least 12 people were killed.",
-      "[bbc] President Zelenskyy attributes the casualties directly to a shortage of air defense missiles.",
-      "[guardian] President Zelenskyy claims Russia prepared for a long time by combining different types of ballistic missiles, cruise missiles, and drones."
-    ],
-    "framing_differences": [
-      "BBC frames the event specifically through the lens of air defense shortages and includes direct on-the-ground quotes from Mayor Vitali Klitschko, whereas The Guardian frames the event as part of a wider 'massive attack' that extends beyond Kyiv into the Odesa and Chernihiv regions."
-    ],
-    "contested_claims": [
-      "The reported death toll differs between sources, with BBC stating at least 13 killed and The Guardian stating at least 12 killed."
-    ],
-    "unverified_claims": [
-      "[bbc] The State Emergency Service of Ukraine stated that warehouses were struck alongside apartment blocks, a children's hospital, and a school.",
-      "[guardian] President Zelenskyy stated the intent of the attack was to cause as much damage as possible to civilian infrastructure."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'massive attack' to describe the event.",
-      "[bbc] uses the term 'wrecked' to describe an apartment block."
-    ],
-    "safe_conclusions": [
-      "Russian strikes resulted in casualties and infrastructure damage in Ukraine.",
-      "Ukrainian officials are requesting increased military support from international partners.",
-      "Injuries have been confirmed by both sources."
-    ],
-    "unknowns": [
-      "The exact total number of casualties across all affected regions.",
-      "The specific types of munitions used in the attack beyond those described by President Zelenskyy.",
-      "The current status of air defense inventory levels."
-    ],
-    "synthesis": "Russian missile and drone strikes targeted Kyiv and other regions, resulting in infrastructure damage and multiple casualties. Ukrainian leadership linked the event to a shortage of air defense systems and ongoing reliance on Western military aid. Officials report 40 injuries, though sources provide slightly different figures regarding the total number of fatalities.",
-    "confidence": "MEDIUM: The sources provide conflicting fatality counts, indicating a lack of uniform reporting on the immediate impact.",
-    "sources": [
-      {
-        "id": "art_1787218843205_hknuj",
-        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages"
-      },
-      {
-        "id": "art_1787218847979_jz5d4",
-        "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
-        "source": "guardian",
-        "title": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "79a7473e6fdd6624e7a1e7308cb7df0c",
-    "topic_label": "US-Iran Tensions and Sanctions",
+    "cluster_id": "ba6b445158f3d421044cba6987b8133b",
+    "topic_label": "Iran Sanctions and Conflict",
     "event_window_start": "2026-08-20T09:20:17.000Z",
     "event_window_end": "2026-08-20T23:16:45.000Z",
     "article_ids": [
       "art_1787270423157_u757g",
-      "art_1787263481852_oa363",
       "art_1787254765157_ulvlh",
       "art_1787254768397_8lbc1",
       "art_1787240582717_7sbt5",
@@ -90,71 +13,61 @@
     ],
     "source_ids": [
       "bbc",
-      "guardian",
       "aljazeera"
     ],
-    "article_count": 6,
-    "source_count": 3,
+    "article_count": 5,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-21T03:40:14.177Z",
-    "updated_at": "2026-08-21T03:40:14.177Z",
+    "created_at": "2026-08-21T04:21:15.627Z",
+    "updated_at": "2026-08-21T04:21:15.627Z",
     "region_tag": "global",
     "shared_facts": [
-      "The United States has been in an ongoing conflict with Iran for approximately six months.",
-      "US Treasury Secretary Scott Bessent has stated that the US will implement new economic measures intended to collapse the Iranian regime.",
-      "President Donald Trump has threatened economic consequences for countries that provide financial support or conduct trade with Iran.",
-      "The US Treasury Department announced sanctions against 10 individuals accused of operating a cash-smuggling network for Hezbollah."
+      "US President Donald Trump has declared an 'economic D-Day' or 'crushing economic operation' against Iran.",
+      "US Treasury Secretary Scott Bessent has stated the goal of these economic measures is to 'collapse' the Iranian regime.",
+      "The US has signaled that countries trading with Iran may face economic consequences.",
+      "There has been an ongoing conflict between the US and Iran for approximately six months."
     ],
     "source_claims": [
-      "[bbc] The current conflict is at a standstill with prospects for negotiated settlement or military victory appearing dim.",
-      "[guardian] The US sanctioned 10 people for operating a courier network that transported hundreds of millions of dollars to Hezbollah via commercial flights.",
-      "[bbc] Treasury Secretary Bessent stated the pressure campaign is intended to minimize the need for large-scale military action.",
-      "[aljazeera] The US plans to implement the 'toughest sanctions in history' as part of an 'economic D-Day' strategy.",
-      "[aljazeera] Analysts suggest US leverage over China and Russia regarding the isolation of Iran is limited due to existing sanctions and independent trade interests."
+      "[bbc] reports that the current conflict appears to be at a standstill with diminishing prospects for a military or negotiated victory.",
+      "[bbc] reports that US Treasury Secretary Scott Bessent stated international sanctions will minimize the need for a 'large-scale kinetic' conflict.",
+      "[aljazeera] reports that US Treasury Secretary Scott Bessent described the plan as a 'one-two punch' consisting of a blockade and the 'toughest sanctions in history'.",
+      "[aljazeera] reports that analysts suggest US leverage over China and Russia regarding Iran is limited due to existing sanctions or divergent economic interests."
     ],
     "framing_differences": [
-      "BBC frames the event as a 'standstill' in a conflict, whereas Al Jazeera frames the event as part of a series of economic power moves and potential US trade wars.",
-      "Guardian focuses specifically on the technical operations of a Hezbollah finance network, while BBC and Al Jazeera frame the broader US strategy as an existential economic campaign against the Iranian regime."
+      "BBC frames the event by questioning the efficacy of the sanctions strategy given historical trends, whereas Al Jazeera frames the event by highlighting the potential limitations of US leverage against China and Russia and the domestic economic impact on Iranian citizens."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[bbc] The US conflict with Iran is at a standstill.",
-      "[aljazeera] China is willing to ignore US sanctions if it serves their economic interests."
+      "[bbc] claims that Iran has a demonstrated capacity to adapt to immense economic and military pressure.",
+      "[aljazeera] claims that many Iranians are already struggling with soaring prices and a weakening currency due to the conflict."
     ],
     "loaded_language": [
-      "[bbc] uses the term 'economic D-Day' to describe the planned sanctions.",
-      "[bbc] uses the term 'squash' to describe the goal for the Iranian economy.",
-      "[aljazeera] uses the term 'adversary' to describe Iran in relation to the US.",
-      "[guardian] uses the term 'militant group' to describe Hezbollah.",
-      "[bbc/aljazeera] uses the phrase 'with us or against us' to describe the ultimatum given to international allies."
+      "[bbc] uses the term 'economic D-Day' to describe the planned US campaign.",
+      "[bbc] uses the term 'squash' to describe the intended effect on the Iranian economy.",
+      "[aljazeera] uses the term 'crushing economic operation' to describe the plan.",
+      "[aljazeera] uses the term 'one-two punch' to describe the combination of a blockade and sanctions."
     ],
     "safe_conclusions": [
-      "The US government is currently pursuing a policy of economic pressure against Iran.",
-      "The US government has imposed recent sanctions on individuals linked to Hezbollah's financing.",
-      "US officials have publicly called for international compliance with these economic policies."
+      "The US administration is planning to implement new economic measures against Iran.",
+      "The US administration has requested international cooperation for its economic pressure campaign against Iran.",
+      "The conflict between the US and Iran has persisted for approximately six months."
     ],
     "unknowns": [
-      "The specific mechanics and implementation dates for the planned 'economic D-Day' sanctions.",
-      "The specific countries or entities that would be prioritized for economic penalties beyond general threats.",
-      "The current status of existing negotiations, if any, between the US and Iran."
+      "The specific mechanics and details of the planned US economic measures.",
+      "How China and Russia will respond to the specific threats of economic penalties.",
+      "The exact timeline for the implementation of the new economic pressure campaign."
     ],
-    "synthesis": "The United States is escalating economic pressure on Iran through new sanctions targeting individual financial networks and threats of broader penalties against international trade partners. Treasury Secretary Scott Bessent has stated that these measures aim to collapse the Iranian regime and avoid large-scale military conflict. Analysts note that the effectiveness of this strategy may be impacted by the trade policies of major powers like Russia and China.",
-    "confidence": "HIGH: All sources report consistent information regarding the Treasury Secretary's statements and the administration's stated economic goals.",
+    "synthesis": "The US administration has announced an intensive economic pressure campaign against Iran, described by Treasury Secretary Scott Bessent as a means to collapse the Iranian regime and avoid large-scale military conflict. President Trump has threatened economic consequences for any nation that provides a lifeline to the Iranian government. While the US seeks to isolate Iran, analysts note potential obstacles regarding the compliance of major trade partners like China and Russia.",
+    "confidence": "HIGH. The sources are consistent regarding the primary claims of the US administration and the duration of the conflict, despite differences in reporting focus.",
     "sources": [
       {
         "id": "art_1787270423157_u757g",
         "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "How much could Trump's 'economic D-Day' hurt Iran? "
-      },
-      {
-        "id": "art_1787263481852_oa363",
-        "url": "https://www.theguardian.com/us-news/2026/aug/20/alleged-money-smuggling-sanctions-hezbollah",
-        "source": "guardian",
-        "title": "US places sanctions on 10 people over alleged Hezbollah cash-smuggling ring"
       },
       {
         "id": "art_1787254765157_ulvlh",
@@ -349,6 +262,331 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "db7e8ab81e1c0da71731a0f04bb9679c",
+    "topic_label": "El Nino and Extreme Weather",
+    "event_window_start": "2026-08-21T00:33:21.000Z",
+    "event_window_end": "2026-08-21T01:12:02.000Z",
+    "article_ids": [
+      "art_1787284673920_pwsi0",
+      "art_1787284679259_ubddu"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T04:21:15.627Z",
+    "updated_at": "2026-08-21T04:21:15.627Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An El Niño weather phenomenon is currently developing over the Pacific Ocean.",
+      "El Niño is associated with risks of extreme weather conditions globally."
+    ],
+    "source_claims": [
+      "[aljazeera] The Panama Canal Authority is setting daily transit caps of 34 vessels starting September 4, and 32 vessels starting September 15.",
+      "[aljazeera] The Panama Canal Authority previously stated in May they had no plans to limit crossings this year.",
+      "[bbc] The UK Met Office warns this El Niño event is likely to be the strongest in living memory.",
+      "[bbc] The Met Office projects 2027 is 'very likely' to be the hottest year on record due to El Niño and climate change."
+    ],
+    "framing_differences": [
+      "aljazeera frames the El Niño phenomenon through the specific economic and logistical impact on global shipping infrastructure in Panama, while bbc frames the event through global meteorological trends and long-term climate projections."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The Panama Canal handles approximately 5 percent of global maritime traffic.",
+      "[bbc] The current El Niño event is 'unprecedented'.",
+      "[bbc] Indonesia experienced widespread drought in 2015 caused by El Niño."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'strongest in living memory' to describe the developing El Niño event.",
+      "[bbc] uses the term 'unprecedented event' to describe the current climate situation."
+    ],
+    "safe_conclusions": [
+      "El Niño is currently developing.",
+      "The Panama Canal Authority is implementing measures to restrict vessel transit.",
+      "Meteorological organizations are monitoring the impact of El Niño on global weather patterns."
+    ],
+    "unknowns": [
+      "The specific long-term duration of the Panama Canal transit restrictions.",
+      "The full scope of global economic consequences resulting from both the canal restrictions and the broader El Niño event."
+    ],
+    "synthesis": "The Panama Canal Authority is reducing daily vessel transit limits in response to water level concerns linked to the El Niño phenomenon. Simultaneously, the UK Met Office has issued warnings that this specific El Niño event may be the strongest in living memory, impacting global weather patterns. These reports highlight both localized infrastructure adjustments and broad meteorological projections related to climate change.",
+    "confidence": "HIGH. The sources discuss distinct aspects of the same meteorological event without directly contradicting each other on shared subject matter.",
+    "sources": [
+      {
+        "id": "art_1787284673920_pwsi0",
+        "url": "https://www.aljazeera.com/news/2026/8/21/panama-canal-to-limit-shipping-ahead-of-extreme-weather-during-el-nino?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Panama Canal to limit shipping ahead of extreme weather during El Nino"
+      },
+      {
+        "id": "art_1787284679259_ubddu",
+        "url": "https://www.bbc.co.uk/weather/articles/c3ekg93vjz9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "El Niño set to be 'strongest in living memory', says Met Office"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "15aa4add3bd1c3cd721467c1c1b57995",
+    "topic_label": "Conflict in Ukraine",
+    "event_window_start": "2026-08-20T09:23:42.000Z",
+    "event_window_end": "2026-08-20T09:37:31.000Z",
+    "article_ids": [
+      "art_1787218843205_hknuj",
+      "art_1787218847979_jz5d4"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A series of Russian strikes occurred in the Kyiv region.",
+      "There are 40 reported injuries resulting from the attacks.",
+      "Residential and civilian infrastructure sustained damage.",
+      "The events have drawn attention to Ukraine's air defense missile shortages."
+    ],
+    "source_claims": [
+      "[bbc] The Ukrainian prime minister reports at least 13 people were killed.",
+      "[guardian] President Zelenskyy reports at least 12 people were killed.",
+      "[bbc] President Zelenskyy attributes the casualties directly to a shortage of air defense missiles.",
+      "[guardian] President Zelenskyy claims Russia prepared for a long time by combining different types of ballistic missiles, cruise missiles, and drones."
+    ],
+    "framing_differences": [
+      "BBC frames the event specifically through the lens of air defense shortages and includes direct on-the-ground quotes from Mayor Vitali Klitschko, whereas The Guardian frames the event as part of a wider 'massive attack' that extends beyond Kyiv into the Odesa and Chernihiv regions."
+    ],
+    "contested_claims": [
+      "The reported death toll differs between sources, with BBC stating at least 13 killed and The Guardian stating at least 12 killed."
+    ],
+    "unverified_claims": [
+      "[bbc] The State Emergency Service of Ukraine stated that warehouses were struck alongside apartment blocks, a children's hospital, and a school.",
+      "[guardian] President Zelenskyy stated the intent of the attack was to cause as much damage as possible to civilian infrastructure."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'massive attack' to describe the event.",
+      "[bbc] uses the term 'wrecked' to describe an apartment block."
+    ],
+    "safe_conclusions": [
+      "Russian strikes resulted in casualties and infrastructure damage in Ukraine.",
+      "Ukrainian officials are requesting increased military support from international partners.",
+      "Injuries have been confirmed by both sources."
+    ],
+    "unknowns": [
+      "The exact total number of casualties across all affected regions.",
+      "The specific types of munitions used in the attack beyond those described by President Zelenskyy.",
+      "The current status of air defense inventory levels."
+    ],
+    "synthesis": "Russian missile and drone strikes targeted Kyiv and other regions, resulting in infrastructure damage and multiple casualties. Ukrainian leadership linked the event to a shortage of air defense systems and ongoing reliance on Western military aid. Officials report 40 injuries, though sources provide slightly different figures regarding the total number of fatalities.",
+    "confidence": "MEDIUM: The sources provide conflicting fatality counts, indicating a lack of uniform reporting on the immediate impact.",
+    "sources": [
+      {
+        "id": "art_1787218843205_hknuj",
+        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages"
+      },
+      {
+        "id": "art_1787218847979_jz5d4",
+        "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+        "source": "guardian",
+        "title": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dca9995149f3e59741e34c3bce0a4d91",
+    "topic_label": "Hong Kong Security Trial",
+    "event_window_start": "2026-08-21T02:22:17.000Z",
+    "event_window_end": "2026-08-21T02:45:42.000Z",
+    "article_ids": [
+      "art_1787280837010_wpoqv",
+      "art_1787280840321_6pix0"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Lee Cheuk-yan and Chow Hang-tung were convicted of inciting subversion under the Hong Kong national security law.",
+      "The defendants face a maximum penalty of 10 years in prison.",
+      "Sentencing for the defendants is expected to occur at a later date.",
+      "Albert Ho is a third defendant who pleaded guilty in January."
+    ],
+    "source_claims": [
+      "[guardian] The case is widely criticised as exemplifying the erosion of freedom of expression in Hong Kong.",
+      "[bbc] Prosecutors argued the defendants endangered national security in the name of human rights.",
+      "[bbc] Chow Hang-tung stated in court that the national security law itself was on trial."
+    ],
+    "framing_differences": [
+      "The guardian frames the verdict as a development concerning the erosion of freedom of expression, whereas the bbc focuses on the legal arguments presented by the prosecution and the defense's response."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Lee Cheuk-yan and Chow Hang-tung were tried under a 2020 national security law."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'erosion of freedom of expression' to describe the context of the legal proceedings.",
+      "[bbc] uses the term 'controversial' to describe the national security law."
+    ],
+    "safe_conclusions": [
+      "Lee Cheuk-yan, Chow Hang-tung, and Albert Ho were prosecuted under Hong Kong's national security law regarding their involvement with the Hong Kong Alliance."
+    ],
+    "unknowns": [
+      "The exact date of sentencing for Lee Cheuk-yan and Chow Hang-tung is not provided.",
+      "The specific 'unlawful means' cited by the court summary are not detailed in the articles."
+    ],
+    "synthesis": "Two Hong Kong activists, Lee Cheuk-yan and Chow Hang-tung, were found guilty of inciting subversion under the city's national security law. A third individual, Albert Ho, had previously pleaded guilty to the same charge. Sentencing for the two convicted activists is scheduled to take place at a future date.",
+    "confidence": "HIGH: The sources provide consistent facts regarding the verdict, the names of the defendants, and the potential sentencing penalties.",
+    "sources": [
+      {
+        "id": "art_1787280837010_wpoqv",
+        "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
+        "source": "guardian",
+        "title": "Tiananmen Square vigil organisers found guilty in Hong Kong of ‘inciting subversion’"
+      },
+      {
+        "id": "art_1787280840321_6pix0",
+        "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Hong Kong's Tiananmen activists guilty in national security trial"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "79a7473e6fdd6624e7a1e7308cb7df0c",
+    "topic_label": "US-Iran Tensions and Sanctions",
+    "event_window_start": "2026-08-20T09:20:17.000Z",
+    "event_window_end": "2026-08-20T23:16:45.000Z",
+    "article_ids": [
+      "art_1787270423157_u757g",
+      "art_1787263481852_oa363",
+      "art_1787254765157_ulvlh",
+      "art_1787254768397_8lbc1",
+      "art_1787240582717_7sbt5",
+      "art_1787218849015_1t6bs"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The United States has been in an ongoing conflict with Iran for approximately six months.",
+      "US Treasury Secretary Scott Bessent has stated that the US will implement new economic measures intended to collapse the Iranian regime.",
+      "President Donald Trump has threatened economic consequences for countries that provide financial support or conduct trade with Iran.",
+      "The US Treasury Department announced sanctions against 10 individuals accused of operating a cash-smuggling network for Hezbollah."
+    ],
+    "source_claims": [
+      "[bbc] The current conflict is at a standstill with prospects for negotiated settlement or military victory appearing dim.",
+      "[guardian] The US sanctioned 10 people for operating a courier network that transported hundreds of millions of dollars to Hezbollah via commercial flights.",
+      "[bbc] Treasury Secretary Bessent stated the pressure campaign is intended to minimize the need for large-scale military action.",
+      "[aljazeera] The US plans to implement the 'toughest sanctions in history' as part of an 'economic D-Day' strategy.",
+      "[aljazeera] Analysts suggest US leverage over China and Russia regarding the isolation of Iran is limited due to existing sanctions and independent trade interests."
+    ],
+    "framing_differences": [
+      "BBC frames the event as a 'standstill' in a conflict, whereas Al Jazeera frames the event as part of a series of economic power moves and potential US trade wars.",
+      "Guardian focuses specifically on the technical operations of a Hezbollah finance network, while BBC and Al Jazeera frame the broader US strategy as an existential economic campaign against the Iranian regime."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The US conflict with Iran is at a standstill.",
+      "[aljazeera] China is willing to ignore US sanctions if it serves their economic interests."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'economic D-Day' to describe the planned sanctions.",
+      "[bbc] uses the term 'squash' to describe the goal for the Iranian economy.",
+      "[aljazeera] uses the term 'adversary' to describe Iran in relation to the US.",
+      "[guardian] uses the term 'militant group' to describe Hezbollah.",
+      "[bbc/aljazeera] uses the phrase 'with us or against us' to describe the ultimatum given to international allies."
+    ],
+    "safe_conclusions": [
+      "The US government is currently pursuing a policy of economic pressure against Iran.",
+      "The US government has imposed recent sanctions on individuals linked to Hezbollah's financing.",
+      "US officials have publicly called for international compliance with these economic policies."
+    ],
+    "unknowns": [
+      "The specific mechanics and implementation dates for the planned 'economic D-Day' sanctions.",
+      "The specific countries or entities that would be prioritized for economic penalties beyond general threats.",
+      "The current status of existing negotiations, if any, between the US and Iran."
+    ],
+    "synthesis": "The United States is escalating economic pressure on Iran through new sanctions targeting individual financial networks and threats of broader penalties against international trade partners. Treasury Secretary Scott Bessent has stated that these measures aim to collapse the Iranian regime and avoid large-scale military conflict. Analysts note that the effectiveness of this strategy may be impacted by the trade policies of major powers like Russia and China.",
+    "confidence": "HIGH: All sources report consistent information regarding the Treasury Secretary's statements and the administration's stated economic goals.",
+    "sources": [
+      {
+        "id": "art_1787270423157_u757g",
+        "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How much could Trump's 'economic D-Day' hurt Iran? "
+      },
+      {
+        "id": "art_1787263481852_oa363",
+        "url": "https://www.theguardian.com/us-news/2026/aug/20/alleged-money-smuggling-sanctions-hezbollah",
+        "source": "guardian",
+        "title": "US places sanctions on 10 people over alleged Hezbollah cash-smuggling ring"
+      },
+      {
+        "id": "art_1787254765157_ulvlh",
+        "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime"
+      },
+      {
+        "id": "art_1787254768397_8lbc1",
+        "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US Treasury secretary says new economic measures will ‘collapse’ Iran"
+      },
+      {
+        "id": "art_1787240582717_7sbt5",
+        "url": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How China and Russia could hobble Trump’s plans to isolate Iran"
+      },
+      {
+        "id": "art_1787218849015_1t6bs",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/how-conflict-is-making-life-more-expensive-for-iranians?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How conflict is making life more expensive for Iranians"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "25c29da73b20c5e312d415ea175b2a6f",
     "topic_label": "North Korea Missile Activity",
     "event_window_start": "2026-08-20T10:00:34.000Z",
@@ -482,75 +720,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
         "source": "aljazeera",
         "title": "Pakistan’s ex-PM Imran Khan reportedly moved to hospital from jail"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "dca9995149f3e59741e34c3bce0a4d91",
-    "topic_label": "Hong Kong Security Trial",
-    "event_window_start": "2026-08-21T02:22:17.000Z",
-    "event_window_end": "2026-08-21T02:45:42.000Z",
-    "article_ids": [
-      "art_1787280837010_wpoqv",
-      "art_1787280840321_6pix0"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T03:40:14.177Z",
-    "updated_at": "2026-08-21T03:40:14.177Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Lee Cheuk-yan and Chow Hang-tung were convicted of inciting subversion under the Hong Kong national security law.",
-      "The defendants face a maximum penalty of 10 years in prison.",
-      "Sentencing for the defendants is expected to occur at a later date.",
-      "Albert Ho is a third defendant who pleaded guilty in January."
-    ],
-    "source_claims": [
-      "[guardian] The case is widely criticised as exemplifying the erosion of freedom of expression in Hong Kong.",
-      "[bbc] Prosecutors argued the defendants endangered national security in the name of human rights.",
-      "[bbc] Chow Hang-tung stated in court that the national security law itself was on trial."
-    ],
-    "framing_differences": [
-      "The guardian frames the verdict as a development concerning the erosion of freedom of expression, whereas the bbc focuses on the legal arguments presented by the prosecution and the defense's response."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Lee Cheuk-yan and Chow Hang-tung were tried under a 2020 national security law."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'erosion of freedom of expression' to describe the context of the legal proceedings.",
-      "[bbc] uses the term 'controversial' to describe the national security law."
-    ],
-    "safe_conclusions": [
-      "Lee Cheuk-yan, Chow Hang-tung, and Albert Ho were prosecuted under Hong Kong's national security law regarding their involvement with the Hong Kong Alliance."
-    ],
-    "unknowns": [
-      "The exact date of sentencing for Lee Cheuk-yan and Chow Hang-tung is not provided.",
-      "The specific 'unlawful means' cited by the court summary are not detailed in the articles."
-    ],
-    "synthesis": "Two Hong Kong activists, Lee Cheuk-yan and Chow Hang-tung, were found guilty of inciting subversion under the city's national security law. A third individual, Albert Ho, had previously pleaded guilty to the same charge. Sentencing for the two convicted activists is scheduled to take place at a future date.",
-    "confidence": "HIGH: The sources provide consistent facts regarding the verdict, the names of the defendants, and the potential sentencing penalties.",
-    "sources": [
-      {
-        "id": "art_1787280837010_wpoqv",
-        "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
-        "source": "guardian",
-        "title": "Tiananmen Square vigil organisers found guilty in Hong Kong of ‘inciting subversion’"
-      },
-      {
-        "id": "art_1787280840321_6pix0",
-        "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Hong Kong's Tiananmen activists guilty in national security trial"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18980,208 +19149,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/gaza-flotilla-sets-sail-from-the-uk-in-bid-to-break-israeli-siege?traffic_source=rss",
         "source": "aljazeera",
         "title": "Gaza flotilla sets sail from the UK in bid to break Israeli siege"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b8d65499d33d6f1475932fe2fa5dd8c4",
-    "topic_label": "Global Disasters and Flooding",
-    "event_window_start": "2026-08-17T19:22:54.000Z",
-    "event_window_end": "2026-08-18T15:00:04.000Z",
-    "article_ids": [
-      "art_1787066194167_f7gko",
-      "art_1787011025102_8i6hm",
-      "art_1787000661428_xnwwa",
-      "art_1786997058170_d1i3k"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T19:19:00.125Z",
-    "updated_at": "2026-08-18T19:19:00.125Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Various regions are currently dealing with extreme weather events, including heavy rainfall and earthquakes."
-    ],
-    "source_claims": [
-      "[guardian] States the UK is facing simultaneous risks of drought and flooding due to heavy rain on parched soil.",
-      "[aljazeera_1] States a magnitude 7.4 earthquake in western Colombia killed 289 people and injured 4,187.",
-      "[aljazeera_2] States torrential rains have flooded homes and roads in Lima, Peru, with potential for intensifying rain.",
-      "[aljazeera_3] States a powerful earthquake in eastern Indonesia has killed 68 people and injured more than 200."
-    ],
-    "framing_differences": [
-      "The guardian frames UK weather as a dual crisis of drought and flood, whereas aljazeera focuses exclusively on distinct natural disasters in South America and Indonesia."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] States the current heatwave is the summer’s 'fifth climate crisis driven heatwave'.",
-      "[aljazeera_3] Notes the Indonesian earthquake is the country's deadliest disaster since a 2022 earthquake."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'climate crisis' to describe the cause of heatwaves.",
-      "[aljazeera_3] uses the term 'grim shadow' to describe the effect of the earthquake on Independence Day celebrations."
-    ],
-    "safe_conclusions": [
-      "Parts of the UK are experiencing drought conditions and are forecasted to receive rainfall.",
-      "Colombia and Indonesia have both recently experienced earthquakes resulting in casualties.",
-      "Peru is experiencing flooding due to heavy rains."
-    ],
-    "unknowns": [
-      "The specific long-term impact of the rainfall on the UK's drought status.",
-      "The final casualty counts for the earthquakes in Colombia and Indonesia as recovery efforts continue."
-    ],
-    "synthesis": "Different regions across the globe are currently responding to severe natural disasters, including earthquakes in Colombia and Indonesia and flooding in Peru. Meanwhile, the UK is managing a complex weather situation involving both drought conditions and expected heavy rainfall. Authorities in these various locations are actively engaged in rescue, aid, and damage assessment operations.",
-    "confidence": "HIGH. The information provided by each source is distinct and does not overlap in content, making factual consistency irrelevant as they describe separate global events.",
-    "sources": [
-      {
-        "id": "art_1787066194167_f7gko",
-        "url": "https://www.theguardian.com/environment/2026/aug/18/heavy-rain-forecast-will-not-reverse-widespread-drought-conditions-uk",
-        "source": "guardian",
-        "title": "Heavy rain on dry ground may cause UK floods as taps run dry for thousands"
-      },
-      {
-        "id": "art_1787011025102_8i6hm",
-        "url": "https://www.aljazeera.com/news/2026/8/17/as-rubble-clears-colombia-begins-focusing-on-recovery-after-the-earthquake?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As rubble clears, Colombia begins focusing on recovery after the earthquake"
-      },
-      {
-        "id": "art_1787000661428_xnwwa",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/torrential-rains-flood-homes-and-roads-across-lima-peru?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Torrential rains flood homes and roads across Lima, Peru"
-      },
-      {
-        "id": "art_1786997058170_d1i3k",
-        "url": "https://www.aljazeera.com/gallery/2026/8/17/photos-search-for-indonesia-earthquake-victims-continues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Photos: Search for Indonesia earthquake victims continues"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "76472fc91c1ffb16b887abbe643e673b",
-    "topic_label": "US Political News and White House",
-    "event_window_start": "2026-08-17T20:22:25.000Z",
-    "event_window_end": "2026-08-18T14:52:23.000Z",
-    "article_ids": [
-      "art_1787066195377_iawde",
-      "art_1787066200944_i27sk",
-      "art_1787046029132_sr5p2",
-      "art_1787039179592_v1xjm",
-      "art_1787029904507_7fi1j",
-      "art_1787011021389_lbjj0",
-      "art_1787000662454_d1r5f",
-      "art_1787000665891_obppj"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 8,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T19:19:00.125Z",
-    "updated_at": "2026-08-18T19:19:00.125Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Senator Jon Ossoff made remarks regarding Donald Trump and his aide Natalie Harp during a campaign event.",
-      "The White House and various officials have engaged in public discourse regarding Senator Jon Ossoff."
-    ],
-    "source_claims": [
-      "[guardian] The Walt Disney Corporation and ABC filed a federal lawsuit against the FCC alleging political retaliation regarding license renewal processes.",
-      "[guardian] The Foundation for Individual Rights and Expression stated Brendan Carr has shown a willingness to weaponize the FCC against media outlets.",
-      "[fox] White House spokesperson Davis Ingle described Senator Jon Ossoff as a 'lightweight loser' and a 'cringeworthy, feminine theatre kid'.",
-      "[fox] A federal appeals court panel ruled that Sigal Chattah was not validly appointed to lead the U.S. Attorney's Office for the District of Nevada.",
-      "[guardian] The White House posted a social media message targeting CNN reporter Kristen Holmes that referenced her children.",
-      "[guardian] Senator Jon Ossoff stated in a speech that Donald Trump 'doesn't want to do the job' and referenced the use of a plane gifted by the emir of Qatar."
-    ],
-    "framing_differences": [
-      "The Guardian frames the administration's actions toward media outlets as 'pressure tactics' and 'political retaliation', whereas Fox News reports on administration interactions with media and political opponents as a 'brutal takedown' or a response to 'personal shots'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The FCC’s demand for an early license renewal process is political retaliation against Disney and ABC."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'weaponize' to describe Brendan Carr's alleged approach to the FCC.",
-      "[fox] uses the term 'lightweight loser' to describe Senator Jon Ossoff.",
-      "[fox] uses the term 'cringeworthy, feminine theatre kid' to describe Senator Jon Ossoff.",
-      "[fox] uses the term 'far-left liberal' to describe Senator Jon Ossoff.",
-      "[guardian] uses the term 'disgusting and inhumane' to describe the question asked by a CNN reporter, as referenced in a White House post.",
-      "[fox] uses the term 'extremely unfortunate, inexplicable and reckless' to describe lower court decisions."
-    ],
-    "safe_conclusions": [
-      "Senator Jon Ossoff made public comments about Donald Trump and Natalie Harp.",
-      "Federal litigation is ongoing involving the FCC, the U.S. Attorney's Office for the District of Nevada, and White House construction projects."
-    ],
-    "unknowns": [
-      "The legal outcome of the Disney/ABC lawsuit against the FCC.",
-      "The full context and intent of the White House's social media post regarding Kristen Holmes beyond what was reported."
-    ],
-    "synthesis": "Current reporting highlights several ongoing legal and political conflicts, including a lawsuit by Disney and ABC against the FCC and a federal appeals court ruling regarding the appointment of the U.S. Attorney in Nevada. Simultaneously, tensions persist between the White House and political figures such as Senator Jon Ossoff, as well as segments of the media. These events involve disputes over regulatory authority, political rhetoric, and the conduct of public officials.",
-    "confidence": "HIGH. The sources consistently report on distinct, verifiable events, even when framing them through different editorial perspectives.",
-    "sources": [
-      {
-        "id": "art_1787066195377_iawde",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/18/donald-trump-florida-alaska-wyoming-primaries-midterms-white-house-ballroom-iran-cnn-latest-news-updates",
-        "source": "guardian",
-        "title": "ABC is ‘right to stand up to pressure tactics’ from Trump administration, say media advocacy organizations – US politics live"
-      },
-      {
-        "id": "art_1787066200944_i27sk",
-        "url": "https://www.foxnews.com/politics/white-house-tears-ossoff-brutal-takedown-after-jab-key-trump-aide-lightweight-loser",
-        "source": "fox",
-        "title": "White House tears into Ossoff with brutal takedown after jab at key Trump aide: ‘Lightweight loser’"
-      },
-      {
-        "id": "art_1787046029132_sr5p2",
-        "url": "https://www.foxnews.com/opinion/morning-glory-scotus-should-urgently-allow-construction-white-house-proceed",
-        "source": "fox",
-        "title": "MORNING GLORY: SCOTUS should urgently allow construction at the White House to proceed"
-      },
-      {
-        "id": "art_1787039179592_v1xjm",
-        "url": "https://www.foxnews.com/politics/appeals-court-rules-trump-admin-unlawfully-appointed-nevadas-top-federal-prosecutor",
-        "source": "fox",
-        "title": "Appeals court rules Trump admin unlawfully appointed Nevada's top federal prosecutor"
-      },
-      {
-        "id": "art_1787029904507_7fi1j",
-        "url": "https://www.theguardian.com/us-news/2026/aug/17/white-house-personal-attack-cnn-reporter-trump",
-        "source": "guardian",
-        "title": "White House launches personal attack on CNN reporter over question to Trump"
-      },
-      {
-        "id": "art_1787011021389_lbjj0",
-        "url": "https://www.foxnews.com/media/cnn-fires-back-trump-white-house-attacks-reporter-calls-beneath-office",
-        "source": "fox",
-        "title": "CNN fires back at Trump White House over attacks on reporter, calls them 'beneath the office'"
-      },
-      {
-        "id": "art_1787000662454_d1r5f",
-        "url": "https://www.aljazeera.com/economy/2026/8/17/trumps-approval-rating-sinks-to-new-low?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump’s approval rating sinks to new low"
-      },
-      {
-        "id": "art_1787000665891_obppj",
-        "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-uss-abraham-lincoln-strait-of-hormuz",
-        "source": "guardian",
-        "title": "Trump dismisses USS Lincoln criticism and snaps at CNN reporter to ‘be quiet’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
