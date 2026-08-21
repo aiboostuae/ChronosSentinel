@@ -1,5 +1,635 @@
 [
   {
+    "cluster_id": "15aa4add3bd1c3cd721467c1c1b57995",
+    "topic_label": "Conflict in Ukraine",
+    "event_window_start": "2026-08-20T09:23:42.000Z",
+    "event_window_end": "2026-08-20T09:37:31.000Z",
+    "article_ids": [
+      "art_1787218843205_hknuj",
+      "art_1787218847979_jz5d4"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A series of Russian strikes occurred in the Kyiv region.",
+      "There are 40 reported injuries resulting from the attacks.",
+      "Residential and civilian infrastructure sustained damage.",
+      "The events have drawn attention to Ukraine's air defense missile shortages."
+    ],
+    "source_claims": [
+      "[bbc] The Ukrainian prime minister reports at least 13 people were killed.",
+      "[guardian] President Zelenskyy reports at least 12 people were killed.",
+      "[bbc] President Zelenskyy attributes the casualties directly to a shortage of air defense missiles.",
+      "[guardian] President Zelenskyy claims Russia prepared for a long time by combining different types of ballistic missiles, cruise missiles, and drones."
+    ],
+    "framing_differences": [
+      "BBC frames the event specifically through the lens of air defense shortages and includes direct on-the-ground quotes from Mayor Vitali Klitschko, whereas The Guardian frames the event as part of a wider 'massive attack' that extends beyond Kyiv into the Odesa and Chernihiv regions."
+    ],
+    "contested_claims": [
+      "The reported death toll differs between sources, with BBC stating at least 13 killed and The Guardian stating at least 12 killed."
+    ],
+    "unverified_claims": [
+      "[bbc] The State Emergency Service of Ukraine stated that warehouses were struck alongside apartment blocks, a children's hospital, and a school.",
+      "[guardian] President Zelenskyy stated the intent of the attack was to cause as much damage as possible to civilian infrastructure."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'massive attack' to describe the event.",
+      "[bbc] uses the term 'wrecked' to describe an apartment block."
+    ],
+    "safe_conclusions": [
+      "Russian strikes resulted in casualties and infrastructure damage in Ukraine.",
+      "Ukrainian officials are requesting increased military support from international partners.",
+      "Injuries have been confirmed by both sources."
+    ],
+    "unknowns": [
+      "The exact total number of casualties across all affected regions.",
+      "The specific types of munitions used in the attack beyond those described by President Zelenskyy.",
+      "The current status of air defense inventory levels."
+    ],
+    "synthesis": "Russian missile and drone strikes targeted Kyiv and other regions, resulting in infrastructure damage and multiple casualties. Ukrainian leadership linked the event to a shortage of air defense systems and ongoing reliance on Western military aid. Officials report 40 injuries, though sources provide slightly different figures regarding the total number of fatalities.",
+    "confidence": "MEDIUM: The sources provide conflicting fatality counts, indicating a lack of uniform reporting on the immediate impact.",
+    "sources": [
+      {
+        "id": "art_1787218843205_hknuj",
+        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 13 killed in Kyiv as Ukraine grapples with air defence shortages"
+      },
+      {
+        "id": "art_1787218847979_jz5d4",
+        "url": "https://www.theguardian.com/world/live/2026/aug/20/ukraine-volodymyr-zelenskyy-russia-vladimir-putin-kyiv-europe-live-latest-updates",
+        "source": "guardian",
+        "title": "Russia launches ‘massive attack’ on Kyiv and surrounding region – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "79a7473e6fdd6624e7a1e7308cb7df0c",
+    "topic_label": "US-Iran Tensions and Sanctions",
+    "event_window_start": "2026-08-20T09:20:17.000Z",
+    "event_window_end": "2026-08-20T23:16:45.000Z",
+    "article_ids": [
+      "art_1787270423157_u757g",
+      "art_1787263481852_oa363",
+      "art_1787254765157_ulvlh",
+      "art_1787254768397_8lbc1",
+      "art_1787240582717_7sbt5",
+      "art_1787218849015_1t6bs"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The United States has been in an ongoing conflict with Iran for approximately six months.",
+      "US Treasury Secretary Scott Bessent has stated that the US will implement new economic measures intended to collapse the Iranian regime.",
+      "President Donald Trump has threatened economic consequences for countries that provide financial support or conduct trade with Iran.",
+      "The US Treasury Department announced sanctions against 10 individuals accused of operating a cash-smuggling network for Hezbollah."
+    ],
+    "source_claims": [
+      "[bbc] The current conflict is at a standstill with prospects for negotiated settlement or military victory appearing dim.",
+      "[guardian] The US sanctioned 10 people for operating a courier network that transported hundreds of millions of dollars to Hezbollah via commercial flights.",
+      "[bbc] Treasury Secretary Bessent stated the pressure campaign is intended to minimize the need for large-scale military action.",
+      "[aljazeera] The US plans to implement the 'toughest sanctions in history' as part of an 'economic D-Day' strategy.",
+      "[aljazeera] Analysts suggest US leverage over China and Russia regarding the isolation of Iran is limited due to existing sanctions and independent trade interests."
+    ],
+    "framing_differences": [
+      "BBC frames the event as a 'standstill' in a conflict, whereas Al Jazeera frames the event as part of a series of economic power moves and potential US trade wars.",
+      "Guardian focuses specifically on the technical operations of a Hezbollah finance network, while BBC and Al Jazeera frame the broader US strategy as an existential economic campaign against the Iranian regime."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The US conflict with Iran is at a standstill.",
+      "[aljazeera] China is willing to ignore US sanctions if it serves their economic interests."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'economic D-Day' to describe the planned sanctions.",
+      "[bbc] uses the term 'squash' to describe the goal for the Iranian economy.",
+      "[aljazeera] uses the term 'adversary' to describe Iran in relation to the US.",
+      "[guardian] uses the term 'militant group' to describe Hezbollah.",
+      "[bbc/aljazeera] uses the phrase 'with us or against us' to describe the ultimatum given to international allies."
+    ],
+    "safe_conclusions": [
+      "The US government is currently pursuing a policy of economic pressure against Iran.",
+      "The US government has imposed recent sanctions on individuals linked to Hezbollah's financing.",
+      "US officials have publicly called for international compliance with these economic policies."
+    ],
+    "unknowns": [
+      "The specific mechanics and implementation dates for the planned 'economic D-Day' sanctions.",
+      "The specific countries or entities that would be prioritized for economic penalties beyond general threats.",
+      "The current status of existing negotiations, if any, between the US and Iran."
+    ],
+    "synthesis": "The United States is escalating economic pressure on Iran through new sanctions targeting individual financial networks and threats of broader penalties against international trade partners. Treasury Secretary Scott Bessent has stated that these measures aim to collapse the Iranian regime and avoid large-scale military conflict. Analysts note that the effectiveness of this strategy may be impacted by the trade policies of major powers like Russia and China.",
+    "confidence": "HIGH: All sources report consistent information regarding the Treasury Secretary's statements and the administration's stated economic goals.",
+    "sources": [
+      {
+        "id": "art_1787270423157_u757g",
+        "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How much could Trump's 'economic D-Day' hurt Iran? "
+      },
+      {
+        "id": "art_1787263481852_oa363",
+        "url": "https://www.theguardian.com/us-news/2026/aug/20/alleged-money-smuggling-sanctions-hezbollah",
+        "source": "guardian",
+        "title": "US places sanctions on 10 people over alleged Hezbollah cash-smuggling ring"
+      },
+      {
+        "id": "art_1787254765157_ulvlh",
+        "url": "https://www.bbc.co.uk/news/articles/c87n90eg0p2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US says sanctions will 'squash' Iran's economy and 'collapse' its regime"
+      },
+      {
+        "id": "art_1787254768397_8lbc1",
+        "url": "https://www.aljazeera.com/news/2026/8/20/us-treasury-secretary-says-new-economic-measures-will-collapse-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US Treasury secretary says new economic measures will ‘collapse’ Iran"
+      },
+      {
+        "id": "art_1787240582717_7sbt5",
+        "url": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How China and Russia could hobble Trump’s plans to isolate Iran"
+      },
+      {
+        "id": "art_1787218849015_1t6bs",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/how-conflict-is-making-life-more-expensive-for-iranians?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How conflict is making life more expensive for Iranians"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a0f7925194a80945c967f87b5f289353",
+    "topic_label": "Israel and West Bank Conflict",
+    "event_window_start": "2026-08-20T09:08:58.000Z",
+    "event_window_end": "2026-08-20T19:09:33.000Z",
+    "article_ids": [
+      "art_1787254770502_zhkdh",
+      "art_1787254775938_q02mg",
+      "art_1787218852221_rutfw"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T22:31:13.209Z",
+    "updated_at": "2026-08-20T22:31:13.209Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israel oversees settlements in the West Bank.",
+      "Settlements in the West Bank are a subject of international concern and discourse regarding their status under international law."
+    ],
+    "source_claims": [
+      "[aljazeera] Sam Sherman, a Jewish-American activist, was barred from re-entering Israel due to his work with Palestinians.",
+      "[aljazeera] Human Rights Watch reports that Palestinian communities are facing displacement due to settler attacks.",
+      "[aljazeera] Human Rights Watch alleges Israeli authorities arm, fund, and provide impunity to settlers.",
+      "[bbc] The UK, France, Germany, Italy, and Canada issued a joint statement calling Israel's plan to build 1,200 settlement homes in the E1 area unacceptable and urged for a retraction."
+    ],
+    "framing_differences": [
+      "aljazeera frames the issue through the lens of individual activist accounts and human rights reports focusing on settler violence and displacement, whereas bbc frames the issue through the diplomatic response of Western nations to Israeli construction tenders."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Sam Sherman characterized settler violence as 'state terror'.",
+      "[aljazeera] Settler violence reportedly spiked in the first two months of the war on Iran, including instances of sexual violence and the killing of children."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'state terror' to describe settler violence.",
+      "[aljazeera] uses the term 'erasure' to describe the impact of settler attacks on Palestinian communities.",
+      "[bbc] uses the term 'so-called' to describe the E1 project."
+    ],
+    "safe_conclusions": [
+      "There is ongoing geopolitical tension regarding Israeli construction projects and settler activity in the West Bank.",
+      "Western nations have expressed formal opposition to recent Israeli plans for settlement expansion in the E1 area."
+    ],
+    "unknowns": [
+      "The specific reasoning provided by Israeli authorities for barring Sam Sherman.",
+      "The detailed response or official position of the Israeli government regarding the allegations presented in the Human Rights Watch report."
+    ],
+    "synthesis": "Western nations have collectively condemned new Israeli plans for settlement construction in the West Bank, characterizing the move as unacceptable. Concurrently, reports from human rights organizations and activists describe an increase in settler violence and displacement of Palestinian communities. These events occur within the ongoing context of international debate regarding the legality and future of Israeli settlements in the West Bank.",
+    "confidence": "HIGH. The sources address distinct events—one involving an individual activist and a report, and the other involving international diplomatic statements—which are consistent with their respective editorial focuses.",
+    "sources": [
+      {
+        "id": "art_1787254770502_zhkdh",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/08-20-208-20-2026-jewish-american-banned-sv-mp4?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jewish-American barred by Israel calls settler violence ‘state terror’"
+      },
+      {
+        "id": "art_1787254775938_q02mg",
+        "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project"
+      },
+      {
+        "id": "art_1787218852221_rutfw",
+        "url": "https://www.aljazeera.com/news/2026/8/20/state-backed-israeli-settler-violence-forces-west-bank-displacement-hrw?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "State-backed Israeli settler violence forces West Bank displacement: HRW"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f6bb9ab3bd9cc2b24726ba97b8c6eb25",
+    "topic_label": "Conflict in Syria",
+    "event_window_start": "2026-08-20T10:16:08.000Z",
+    "event_window_end": "2026-08-20T22:51:51.000Z",
+    "article_ids": [
+      "art_1787270427325_2jmf9",
+      "art_1787254774849_tskto",
+      "art_1787245958485_c90pi",
+      "art_1787224052435_smq6v"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Ahmad Badreddin Hassoun served as Syria's grand mufti between 2005 and 2021.",
+      "A Syrian police officer, Ahmad Jawad, has been detained following the death of detainee Mohammad Ghamira.",
+      "Israel conducted air strikes on the Abu al-Duhur airbase near Aleppo.",
+      "Syrian Foreign Minister Asaad al-Shaibani stated there are no plans for a Turkish military presence at the Abu al-Duhur base."
+    ],
+    "source_claims": [
+      "[aljazeera] Prosecutors are seeking the death penalty for Ahmad Badreddin Hassoun in the Fourth Criminal Court in Damascus.",
+      "[aljazeera] Mohammad Ghamira died on Sunday after being slapped by a police investigator while in custody.",
+      "[aljazeera] Foreign Minister Asaad al-Shaibani claims that Turkish officials visited the Abu al-Duhur site only for training and military cooperation purposes."
+    ],
+    "framing_differences": [
+      "Regarding the death of Mohammad Ghamira, the source frames the event as a specific instance of police misconduct resulting in death, whereas other reports provided in this set focus on high-level judicial proceedings or state-level geopolitical military concerns."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Ahmad Badreddin Hassoun is believed to have built deep ties with state and security officials during his time as grand mufti."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'war-ravaged' to describe Syria.",
+      "[aljazeera] uses the term 'barrel bomb mufti' to describe Ahmad Hassoun.",
+      "[aljazeera] describes Hassoun as known for 'using dehumanising language against opponents'."
+    ],
+    "safe_conclusions": [
+      "Ahmad Badreddin Hassoun is currently facing a criminal trial in Damascus.",
+      "An investigation by the Syrian Interior Ministry is underway regarding the death of Mohammad Ghamira.",
+      "Israel has targeted the Abu al-Duhur airbase with air strikes.",
+      "The Syrian government denies plans for a permanent Turkish military presence at the Abu al-Duhur airbase."
+    ],
+    "unknowns": [
+      "The full details of the specific charges against Ahmad Badreddin Hassoun besides the request for the death penalty.",
+      "The extent of the medical evidence regarding the cause of Mohammad Ghamira's death.",
+      "The specific nature and scope of the 'military cooperation' mentioned by Foreign Minister Asaad al-Shaibani regarding Turkey."
+    ],
+    "synthesis": "Current events in Syria include the criminal trial of former grand mufti Ahmad Badreddin Hassoun and an investigation into a police officer following the death of a detainee. Meanwhile, the Syrian government has publicly denied that the Abu al-Duhur airbase, recently struck by Israel, will host a permanent Turkish military presence. These reports reflect ongoing domestic judicial processes and regional geopolitical tensions involving Syria, Israel, and Turkey.",
+    "confidence": "HIGH. The provided articles all originate from a single source outlet, ensuring consistent terminology and reporting style across the provided content.",
+    "sources": [
+      {
+        "id": "art_1787270427325_2jmf9",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/the-cost-of-rebuilding-family-homes-in-war-ravaged-syria?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The cost of rebuilding family homes in war-ravaged Syria"
+      },
+      {
+        "id": "art_1787254774849_tskto",
+        "url": "https://www.aljazeera.com/news/2026/8/20/ahmad-badreddine-hassoun-assads-barrel-bomb-mufti-faces-court-verdict?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ahmad Hassoun, Assad’s ‘barrel bomb mufti’, faces Damascus court verdict"
+      },
+      {
+        "id": "art_1787245958485_c90pi",
+        "url": "https://www.aljazeera.com/news/2026/8/20/syria-detains-policeman-over-death-of-white-helmets-rescuer-hit-in-custody?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Syria detains policeman over death of White Helmets rescuer hit in custody"
+      },
+      {
+        "id": "art_1787224052435_smq6v",
+        "url": "https://www.aljazeera.com/news/2026/8/20/syrian-official-says-no-plans-to-establish-turkish-military-presence?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Syrian official says ‘no plans’ to establish Turkish military presence"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "25c29da73b20c5e312d415ea175b2a6f",
+    "topic_label": "North Korea Missile Activity",
+    "event_window_start": "2026-08-20T10:00:34.000Z",
+    "event_window_end": "2026-08-20T10:25:29.000Z",
+    "article_ids": [
+      "art_1787224050334_3cjnq",
+      "art_1787224062587_u6tvn"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T15:19:53.468Z",
+    "updated_at": "2026-08-20T15:19:53.468Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "President Trump is scaling back U.S.-South Korea military drills.",
+      "President Trump has expressed a desire to maintain a relationship with Kim Jong Un."
+    ],
+    "source_claims": [
+      "[guardian] North Korea launched approximately 10 short-range ballistic missiles toward their eastern waters on Thursday.",
+      "[guardian] South Korea's military detected the launches and has increased surveillance posture.",
+      "[fox] President Trump stated that North Korea possesses exactly 57 nuclear weapons.",
+      "[fox] President Trump signaled a possible meeting with Kim Jong Un later this year."
+    ],
+    "framing_differences": [
+      "The guardian frames the North Korean missile launches as a response to the curtailment of U.S.-South Korea military drills, while fox focuses on President Trump's public statements regarding the North Korean nuclear arsenal and his personal rapport with Kim Jong Un."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The North Korean missile launches were an attempt to shrug off or respond to the scaling back of military drills.",
+      "[fox] North Korea possesses exactly 57 nuclear weapons."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'shrugged off' to describe North Korea's reaction to U.S. military policy."
+    ],
+    "safe_conclusions": [
+      "President Trump is scaling back joint military drills with South Korea.",
+      "There are ongoing discussions regarding the U.S.-North Korea relationship and potential future meetings."
+    ],
+    "unknowns": [
+      "Whether the missile launches reported by the guardian are directly linked to the military drills or other strategic factors.",
+      "The official U.S. intelligence verification of the 57 nuclear warhead figure mentioned by President Trump.",
+      "The specific nature and timeline of the potential meeting between President Trump and Kim Jong Un."
+    ],
+    "synthesis": "President Trump has moved to scale back U.S.-South Korea military exercises while publicly discussing his rapport with Kim Jong Un. Concurrently, reports indicate North Korea launched multiple short-range ballistic missiles toward its eastern waters. President Trump has also cited a specific figure for North Korea's nuclear arsenal.",
+    "confidence": "MEDIUM. While the sources do not directly contradict each other, they cover different aspects of the U.S.-North Korea relationship without providing a comprehensive cross-confirmation of the missile launch event or the nuclear arsenal count.",
+    "sources": [
+      {
+        "id": "art_1787224050334_3cjnq",
+        "url": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills",
+        "source": "guardian",
+        "title": "North Korea fires 10 missiles day after Trump curtails South Korea joint drills"
+      },
+      {
+        "id": "art_1787224062587_u6tvn",
+        "url": "https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons",
+        "source": "fox",
+        "title": "Trump reveals exact number of North Korea's nuclear weapons"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "cf07d3a656bbd356aa31f428df076e1e",
+    "topic_label": "Imran Khan Hospitalized",
+    "event_window_start": "2026-08-20T21:18:10.000Z",
+    "event_window_end": "2026-08-20T23:07:10.000Z",
+    "article_ids": [
+      "art_1787270424233_7btmp",
+      "art_1787263475157_zcski"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T01:06:56.045Z",
+    "updated_at": "2026-08-21T01:06:56.045Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Imran Khan has been transferred from Adiala jail to Shifa International Hospital in Islamabad.",
+      "The transfer was carried out following an order issued by the Supreme Court of Pakistan."
+    ],
+    "source_claims": [
+      "[guardian] Zulfikar Bukhari states the transfer must include independent medical oversight and legal rights for Khan.",
+      "[aljazeera] Sources told Geo News that authorities had completed preparations earlier in the day to shift the former prime minister.",
+      "[aljazeera] The Pakistani government filed a petition against the Supreme Court's decision."
+    ],
+    "framing_differences": [
+      "The Guardian frames the event in the context of 'weeks of uproar' regarding Khan's health, while Al Jazeera frames the event through the administrative timeline of the transfer and the government's legal challenge."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Zulfikar Bukhari claims that as per the court order, family should be allowed to meet Khan."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'uproar' to describe the public response to Khan's health status."
+    ],
+    "safe_conclusions": [
+      "Imran Khan, the former prime minister of Pakistan, was moved from Adiala jail to a hospital in Islamabad.",
+      "The Supreme Court of Pakistan issued an order regarding the transfer of Imran Khan."
+    ],
+    "unknowns": [
+      "The specific medical condition of Imran Khan.",
+      "The outcome of the government's petition against the Supreme Court order.",
+      "Whether Imran Khan has received independent medical oversight or family visitation since arriving at the hospital."
+    ],
+    "synthesis": "Former Pakistani Prime Minister Imran Khan was transferred from Adiala jail to Shifa International Hospital in Islamabad following a Supreme Court order. The transfer occurred amidst public discourse regarding his health and a legal challenge filed by the government. The move was confirmed by party spokespersons and media reports citing local authorities.",
+    "confidence": "HIGH. Both sources independently confirm the core fact of the hospital transfer and the role of the Supreme Court in the process.",
+    "sources": [
+      {
+        "id": "art_1787270424233_7btmp",
+        "url": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
+        "source": "guardian",
+        "title": "Jailed ex-Pakistani PM Imran Khan in hospital after uproar over health"
+      },
+      {
+        "id": "art_1787263475157_zcski",
+        "url": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pakistan’s ex-PM Imran Khan reportedly moved to hospital from jail"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dca9995149f3e59741e34c3bce0a4d91",
+    "topic_label": "Hong Kong Security Trial",
+    "event_window_start": "2026-08-21T02:22:17.000Z",
+    "event_window_end": "2026-08-21T02:45:42.000Z",
+    "article_ids": [
+      "art_1787280837010_wpoqv",
+      "art_1787280840321_6pix0"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T03:40:14.177Z",
+    "updated_at": "2026-08-21T03:40:14.177Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Lee Cheuk-yan and Chow Hang-tung were convicted of inciting subversion under the Hong Kong national security law.",
+      "The defendants face a maximum penalty of 10 years in prison.",
+      "Sentencing for the defendants is expected to occur at a later date.",
+      "Albert Ho is a third defendant who pleaded guilty in January."
+    ],
+    "source_claims": [
+      "[guardian] The case is widely criticised as exemplifying the erosion of freedom of expression in Hong Kong.",
+      "[bbc] Prosecutors argued the defendants endangered national security in the name of human rights.",
+      "[bbc] Chow Hang-tung stated in court that the national security law itself was on trial."
+    ],
+    "framing_differences": [
+      "The guardian frames the verdict as a development concerning the erosion of freedom of expression, whereas the bbc focuses on the legal arguments presented by the prosecution and the defense's response."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Lee Cheuk-yan and Chow Hang-tung were tried under a 2020 national security law."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'erosion of freedom of expression' to describe the context of the legal proceedings.",
+      "[bbc] uses the term 'controversial' to describe the national security law."
+    ],
+    "safe_conclusions": [
+      "Lee Cheuk-yan, Chow Hang-tung, and Albert Ho were prosecuted under Hong Kong's national security law regarding their involvement with the Hong Kong Alliance."
+    ],
+    "unknowns": [
+      "The exact date of sentencing for Lee Cheuk-yan and Chow Hang-tung is not provided.",
+      "The specific 'unlawful means' cited by the court summary are not detailed in the articles."
+    ],
+    "synthesis": "Two Hong Kong activists, Lee Cheuk-yan and Chow Hang-tung, were found guilty of inciting subversion under the city's national security law. A third individual, Albert Ho, had previously pleaded guilty to the same charge. Sentencing for the two convicted activists is scheduled to take place at a future date.",
+    "confidence": "HIGH: The sources provide consistent facts regarding the verdict, the names of the defendants, and the potential sentencing penalties.",
+    "sources": [
+      {
+        "id": "art_1787280837010_wpoqv",
+        "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
+        "source": "guardian",
+        "title": "Tiananmen Square vigil organisers found guilty in Hong Kong of ‘inciting subversion’"
+      },
+      {
+        "id": "art_1787280840321_6pix0",
+        "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Hong Kong's Tiananmen activists guilty in national security trial"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "489732100a3f0009a1de01690782dbc6",
+    "topic_label": "Colombia gold mine landslide",
+    "event_window_start": "2026-08-20T15:07:57.000Z",
+    "event_window_end": "2026-08-20T15:08:16.000Z",
+    "article_ids": [
+      "art_1787240576235_zo6jx",
+      "art_1787240577301_n9u8g"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-20T16:11:02.242Z",
+    "updated_at": "2026-08-20T16:11:02.242Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A landslide occurred at a gold mine in southwest Colombia.",
+      "At least 13 people died as a result of the landslide.",
+      "Seven people were injured in the incident.",
+      "The mine was described as illegal or unlicensed by officials."
+    ],
+    "source_claims": [
+      "[aljazeera] Fredy Gamez, government secretary for the Narino department, states the collapse was caused by mining activity.",
+      "[bbc] Witnesses described hearing a sound like an explosion at the mine shortly before the collapse.",
+      "[bbc] Witnesses stated that four of the 13 deceased individuals were members of the same indigenous family."
+    ],
+    "framing_differences": [
+      "aljazeera frames the landslide within the context of recent national disaster recovery efforts by mentioning a prior earthquake, whereas bbc frames the event as an example of common, recurring accidents in unlicensed artisanal mines."
+    ],
+    "contested_claims": [
+      "Regarding the cause of the landslide, aljazeera reports a local official attributed it to mining activity, while bbc notes witnesses reported hearing an explosion-like sound before the event."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Mentions a 7.4 magnitude earthquake on August 10 and a death toll of 319 in Colombia.",
+      "[aljazeera] Mentions Colombia's President is named Abelardo de la Espriella.",
+      "[bbc] Mentions the specific location of the mine is in Policarpa."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'illegal gold mine' to describe the site.",
+      "[bbc] uses the term 'unlicensed mine' to describe the site.",
+      "[bbc] uses the phrase 'deadly accidents are not uncommon' to characterize mining risks."
+    ],
+    "safe_conclusions": [
+      "A landslide occurred at a gold mine in southwest Colombia on Wednesday, resulting in 13 deaths and 7 injuries."
+    ],
+    "unknowns": [
+      "The specific cause of the ground collapse.",
+      "The exact identities of the victims beyond the description of an indigenous family."
+    ],
+    "synthesis": "A landslide at an unlicensed gold mine in southwestern Colombia resulted in 13 deaths and seven injuries on Wednesday. Authorities attributed the collapse to ongoing mining activities, while witness reports noted sounds resembling an explosion preceding the incident. Recovery operations were conducted by emergency workers using excavation equipment.",
+    "confidence": "HIGH. The sources agree on the primary facts of the event, including casualties and the nature of the site, despite minor differences in contextual framing and witness reports.",
+    "sources": [
+      {
+        "id": "art_1787240576235_zo6jx",
+        "url": "https://www.aljazeera.com/news/2026/8/20/13-workers-killed-in-colombia-mine-landslide-local-official?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Landslide kills 13 at illegal gold mine in Colombia’s southwest"
+      },
+      {
+        "id": "art_1787240577301_n9u8g",
+        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Landslide at unlicensed Colombian gold mine kills 13"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "d910daff3ff34a708bfb67a5463ea78f",
     "topic_label": "US Sanctions on Iran",
     "event_window_start": "2026-08-20T03:22:57.000Z",
@@ -102,158 +732,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "a0f7925194a80945c967f87b5f289353",
-    "topic_label": "Israel and West Bank Conflict",
-    "event_window_start": "2026-08-20T09:08:58.000Z",
-    "event_window_end": "2026-08-20T19:09:33.000Z",
-    "article_ids": [
-      "art_1787254770502_zhkdh",
-      "art_1787254775938_q02mg",
-      "art_1787218852221_rutfw"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-20T22:31:13.209Z",
-    "updated_at": "2026-08-20T22:31:13.209Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israel oversees settlements in the West Bank.",
-      "Settlements in the West Bank are a subject of international concern and discourse regarding their status under international law."
-    ],
-    "source_claims": [
-      "[aljazeera] Sam Sherman, a Jewish-American activist, was barred from re-entering Israel due to his work with Palestinians.",
-      "[aljazeera] Human Rights Watch reports that Palestinian communities are facing displacement due to settler attacks.",
-      "[aljazeera] Human Rights Watch alleges Israeli authorities arm, fund, and provide impunity to settlers.",
-      "[bbc] The UK, France, Germany, Italy, and Canada issued a joint statement calling Israel's plan to build 1,200 settlement homes in the E1 area unacceptable and urged for a retraction."
-    ],
-    "framing_differences": [
-      "aljazeera frames the issue through the lens of individual activist accounts and human rights reports focusing on settler violence and displacement, whereas bbc frames the issue through the diplomatic response of Western nations to Israeli construction tenders."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Sam Sherman characterized settler violence as 'state terror'.",
-      "[aljazeera] Settler violence reportedly spiked in the first two months of the war on Iran, including instances of sexual violence and the killing of children."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'state terror' to describe settler violence.",
-      "[aljazeera] uses the term 'erasure' to describe the impact of settler attacks on Palestinian communities.",
-      "[bbc] uses the term 'so-called' to describe the E1 project."
-    ],
-    "safe_conclusions": [
-      "There is ongoing geopolitical tension regarding Israeli construction projects and settler activity in the West Bank.",
-      "Western nations have expressed formal opposition to recent Israeli plans for settlement expansion in the E1 area."
-    ],
-    "unknowns": [
-      "The specific reasoning provided by Israeli authorities for barring Sam Sherman.",
-      "The detailed response or official position of the Israeli government regarding the allegations presented in the Human Rights Watch report."
-    ],
-    "synthesis": "Western nations have collectively condemned new Israeli plans for settlement construction in the West Bank, characterizing the move as unacceptable. Concurrently, reports from human rights organizations and activists describe an increase in settler violence and displacement of Palestinian communities. These events occur within the ongoing context of international debate regarding the legality and future of Israeli settlements in the West Bank.",
-    "confidence": "HIGH. The sources address distinct events—one involving an individual activist and a report, and the other involving international diplomatic statements—which are consistent with their respective editorial focuses.",
-    "sources": [
-      {
-        "id": "art_1787254770502_zhkdh",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/08-20-208-20-2026-jewish-american-banned-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jewish-American barred by Israel calls settler violence ‘state terror’"
-      },
-      {
-        "id": "art_1787254775938_q02mg",
-        "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "UK, France, Germany, Italy and Canada condemn Israel's West Bank settlement project"
-      },
-      {
-        "id": "art_1787218852221_rutfw",
-        "url": "https://www.aljazeera.com/news/2026/8/20/state-backed-israeli-settler-violence-forces-west-bank-displacement-hrw?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "State-backed Israeli settler violence forces West Bank displacement: HRW"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "489732100a3f0009a1de01690782dbc6",
-    "topic_label": "Colombia gold mine landslide",
-    "event_window_start": "2026-08-20T15:07:57.000Z",
-    "event_window_end": "2026-08-20T15:08:16.000Z",
-    "article_ids": [
-      "art_1787240576235_zo6jx",
-      "art_1787240577301_n9u8g"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-20T16:11:02.242Z",
-    "updated_at": "2026-08-20T16:11:02.242Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A landslide occurred at a gold mine in southwest Colombia.",
-      "At least 13 people died as a result of the landslide.",
-      "Seven people were injured in the incident.",
-      "The mine was described as illegal or unlicensed by officials."
-    ],
-    "source_claims": [
-      "[aljazeera] Fredy Gamez, government secretary for the Narino department, states the collapse was caused by mining activity.",
-      "[bbc] Witnesses described hearing a sound like an explosion at the mine shortly before the collapse.",
-      "[bbc] Witnesses stated that four of the 13 deceased individuals were members of the same indigenous family."
-    ],
-    "framing_differences": [
-      "aljazeera frames the landslide within the context of recent national disaster recovery efforts by mentioning a prior earthquake, whereas bbc frames the event as an example of common, recurring accidents in unlicensed artisanal mines."
-    ],
-    "contested_claims": [
-      "Regarding the cause of the landslide, aljazeera reports a local official attributed it to mining activity, while bbc notes witnesses reported hearing an explosion-like sound before the event."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Mentions a 7.4 magnitude earthquake on August 10 and a death toll of 319 in Colombia.",
-      "[aljazeera] Mentions Colombia's President is named Abelardo de la Espriella.",
-      "[bbc] Mentions the specific location of the mine is in Policarpa."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'illegal gold mine' to describe the site.",
-      "[bbc] uses the term 'unlicensed mine' to describe the site.",
-      "[bbc] uses the phrase 'deadly accidents are not uncommon' to characterize mining risks."
-    ],
-    "safe_conclusions": [
-      "A landslide occurred at a gold mine in southwest Colombia on Wednesday, resulting in 13 deaths and 7 injuries."
-    ],
-    "unknowns": [
-      "The specific cause of the ground collapse.",
-      "The exact identities of the victims beyond the description of an indigenous family."
-    ],
-    "synthesis": "A landslide at an unlicensed gold mine in southwestern Colombia resulted in 13 deaths and seven injuries on Wednesday. Authorities attributed the collapse to ongoing mining activities, while witness reports noted sounds resembling an explosion preceding the incident. Recovery operations were conducted by emergency workers using excavation equipment.",
-    "confidence": "HIGH. The sources agree on the primary facts of the event, including casualties and the nature of the site, despite minor differences in contextual framing and witness reports.",
-    "sources": [
-      {
-        "id": "art_1787240576235_zo6jx",
-        "url": "https://www.aljazeera.com/news/2026/8/20/13-workers-killed-in-colombia-mine-landslide-local-official?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Landslide kills 13 at illegal gold mine in Colombia’s southwest"
-      },
-      {
-        "id": "art_1787240577301_n9u8g",
-        "url": "https://www.bbc.co.uk/news/articles/czxel9lz3vqo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Landslide at unlicensed Colombian gold mine kills 13"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "d6d5cc0a57497614ec677bb73080634f",
     "topic_label": "Ukraine and Russia Conflict",
     "event_window_start": "2026-08-20T02:50:17.000Z",
@@ -332,74 +810,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home?traffic_source=rss",
         "source": "aljazeera",
         "title": "Russian strike kills 3 in Ukraine as Zelenskyy faces pressure at home"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cf07d3a656bbd356aa31f428df076e1e",
-    "topic_label": "Imran Khan Hospitalized",
-    "event_window_start": "2026-08-20T21:18:10.000Z",
-    "event_window_end": "2026-08-20T23:07:10.000Z",
-    "article_ids": [
-      "art_1787270424233_7btmp",
-      "art_1787263475157_zcski"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T01:06:56.045Z",
-    "updated_at": "2026-08-21T01:06:56.045Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Imran Khan has been transferred from Adiala jail to Shifa International Hospital in Islamabad.",
-      "The transfer was carried out following an order issued by the Supreme Court of Pakistan."
-    ],
-    "source_claims": [
-      "[guardian] Zulfikar Bukhari states the transfer must include independent medical oversight and legal rights for Khan.",
-      "[aljazeera] Sources told Geo News that authorities had completed preparations earlier in the day to shift the former prime minister.",
-      "[aljazeera] The Pakistani government filed a petition against the Supreme Court's decision."
-    ],
-    "framing_differences": [
-      "The Guardian frames the event in the context of 'weeks of uproar' regarding Khan's health, while Al Jazeera frames the event through the administrative timeline of the transfer and the government's legal challenge."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Zulfikar Bukhari claims that as per the court order, family should be allowed to meet Khan."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'uproar' to describe the public response to Khan's health status."
-    ],
-    "safe_conclusions": [
-      "Imran Khan, the former prime minister of Pakistan, was moved from Adiala jail to a hospital in Islamabad.",
-      "The Supreme Court of Pakistan issued an order regarding the transfer of Imran Khan."
-    ],
-    "unknowns": [
-      "The specific medical condition of Imran Khan.",
-      "The outcome of the government's petition against the Supreme Court order.",
-      "Whether Imran Khan has received independent medical oversight or family visitation since arriving at the hospital."
-    ],
-    "synthesis": "Former Pakistani Prime Minister Imran Khan was transferred from Adiala jail to Shifa International Hospital in Islamabad following a Supreme Court order. The transfer occurred amidst public discourse regarding his health and a legal challenge filed by the government. The move was confirmed by party spokespersons and media reports citing local authorities.",
-    "confidence": "HIGH. Both sources independently confirm the core fact of the hospital transfer and the role of the Supreme Court in the process.",
-    "sources": [
-      {
-        "id": "art_1787270424233_7btmp",
-        "url": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
-        "source": "guardian",
-        "title": "Jailed ex-Pakistani PM Imran Khan in hospital after uproar over health"
-      },
-      {
-        "id": "art_1787263475157_zcski",
-        "url": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan’s ex-PM Imran Khan reportedly moved to hospital from jail"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -559,76 +969,6 @@
         "url": "https://www.foxnews.com/us/philadelphia-woman-stage-combat-training-fight-masked-man-chasing-residents",
         "source": "fox",
         "title": "Philadelphia woman says she used stage combat training to fight off masked man chasing residents"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "25c29da73b20c5e312d415ea175b2a6f",
-    "topic_label": "North Korea Missile Activity",
-    "event_window_start": "2026-08-20T10:00:34.000Z",
-    "event_window_end": "2026-08-20T10:25:29.000Z",
-    "article_ids": [
-      "art_1787224050334_3cjnq",
-      "art_1787224062587_u6tvn"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-20T15:19:53.468Z",
-    "updated_at": "2026-08-20T15:19:53.468Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Trump is scaling back U.S.-South Korea military drills.",
-      "President Trump has expressed a desire to maintain a relationship with Kim Jong Un."
-    ],
-    "source_claims": [
-      "[guardian] North Korea launched approximately 10 short-range ballistic missiles toward their eastern waters on Thursday.",
-      "[guardian] South Korea's military detected the launches and has increased surveillance posture.",
-      "[fox] President Trump stated that North Korea possesses exactly 57 nuclear weapons.",
-      "[fox] President Trump signaled a possible meeting with Kim Jong Un later this year."
-    ],
-    "framing_differences": [
-      "The guardian frames the North Korean missile launches as a response to the curtailment of U.S.-South Korea military drills, while fox focuses on President Trump's public statements regarding the North Korean nuclear arsenal and his personal rapport with Kim Jong Un."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The North Korean missile launches were an attempt to shrug off or respond to the scaling back of military drills.",
-      "[fox] North Korea possesses exactly 57 nuclear weapons."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'shrugged off' to describe North Korea's reaction to U.S. military policy."
-    ],
-    "safe_conclusions": [
-      "President Trump is scaling back joint military drills with South Korea.",
-      "There are ongoing discussions regarding the U.S.-North Korea relationship and potential future meetings."
-    ],
-    "unknowns": [
-      "Whether the missile launches reported by the guardian are directly linked to the military drills or other strategic factors.",
-      "The official U.S. intelligence verification of the 57 nuclear warhead figure mentioned by President Trump.",
-      "The specific nature and timeline of the potential meeting between President Trump and Kim Jong Un."
-    ],
-    "synthesis": "President Trump has moved to scale back U.S.-South Korea military exercises while publicly discussing his rapport with Kim Jong Un. Concurrently, reports indicate North Korea launched multiple short-range ballistic missiles toward its eastern waters. President Trump has also cited a specific figure for North Korea's nuclear arsenal.",
-    "confidence": "MEDIUM. While the sources do not directly contradict each other, they cover different aspects of the U.S.-North Korea relationship without providing a comprehensive cross-confirmation of the missile launch event or the nuclear arsenal count.",
-    "sources": [
-      {
-        "id": "art_1787224050334_3cjnq",
-        "url": "https://www.theguardian.com/world/2026/aug/20/north-korea-fires-10-missiles-day-after-trump-curtails-south-korea-joint-drills",
-        "source": "guardian",
-        "title": "North Korea fires 10 missiles day after Trump curtails South Korea joint drills"
-      },
-      {
-        "id": "art_1787224062587_u6tvn",
-        "url": "https://www.foxnews.com/politics/trump-reveals-exact-number-north-koreas-nuclear-weapons",
-        "source": "fox",
-        "title": "Trump reveals exact number of North Korea's nuclear weapons"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18842,402 +19182,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-uss-abraham-lincoln-strait-of-hormuz",
         "source": "guardian",
         "title": "Trump dismisses USS Lincoln criticism and snaps at CNN reporter to ‘be quiet’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "56d80961ba9a2347a96988e4129e212c",
-    "topic_label": "Trump and North Korea",
-    "event_window_start": "2026-08-17T19:34:20.000Z",
-    "event_window_end": "2026-08-18T15:13:23.000Z",
-    "article_ids": [
-      "art_1787066190761_xpj2f",
-      "art_1787046038070_lyqra",
-      "art_1787029907100_iir4s",
-      "art_1786997055065_mea88"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T19:19:00.125Z",
-    "updated_at": "2026-08-18T19:19:00.125Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump ordered a reduction in U.S.-South Korean joint military exercises.",
-      "The joint military exercises began around the time of the announcement.",
-      "President Donald Trump stated that the exercises projected a hostile tone toward North Korea."
-    ],
-    "source_claims": [
-      "[fox] South Korean President Lee Jae Myung urged his nation to boost independent military capabilities in response to the drill reductions.",
-      "[fox] President Donald Trump ordered War Secretary Pete Hegseth to reduce U.S. involvement.",
-      "[aljazeera] Donald Trump claimed that talking to Kim Jong Un makes the region safer.",
-      "[aljazeera] Donald Trump told a CNN reporter he was a 'fake reporter' after being asked if Kim Jong Un requested the scale-back."
-    ],
-    "framing_differences": [
-      "Fox focuses on the South Korean political response to the drill reduction, whereas Al Jazeera focuses on the interaction between the U.S. President and the media regarding the motivation for the decision.",
-      "Fox frames the military drills as 'Ulchi Freedom Shield', while Al Jazeera characterizes them broadly as 'war games' and 'annual military manoeuvres'."
-    ],
-    "contested_claims": [
-      "There is a disagreement regarding whether the decision to reduce drills was influenced by a direct request from Kim Jong Un, as suggested by a question from a CNN reporter reported in Al Jazeera, which the President denied."
-    ],
-    "unverified_claims": [
-      "[fox] President Lee Jae Myung made a statement urging increased independent military capabilities during a cabinet meeting."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'lashes out' to describe the President's response to a reporter.",
-      "[aljazeera] uses the term 'fake reporter' as a direct quote attributed to Donald Trump.",
-      "[fox] describes the President's words toward Kim Jong Un as 'warm words'."
-    ],
-    "safe_conclusions": [
-      "Donald Trump scaled back U.S.-South Korean joint military exercises.",
-      "The exercises were scheduled to occur on an annual basis.",
-      "President Trump expressed a desire to maintain a relationship with Kim Jong Un."
-    ],
-    "unknowns": [
-      "The exact extent and specific details of the 'substantially reduced' military exercises.",
-      "Whether any formal communication occurred between North Korean leadership and the U.S. regarding the scale-back prior to the President's announcement.",
-      "The official South Korean government stance on the reduction, beyond the specific cabinet statement reported by Fox."
-    ],
-    "synthesis": "President Donald Trump ordered a substantial reduction in joint military exercises with South Korea, citing a desire to avoid projecting hostility toward North Korea. The move prompted reports of concern from South Korean leadership regarding independent military readiness. The President also addressed media inquiries concerning whether the decision was influenced by North Korean requests.",
-    "confidence": "MEDIUM. While there is consensus on the reduction of military exercises, there is conflicting reporting regarding the motivations and external influences behind the decision.",
-    "sources": [
-      {
-        "id": "art_1787066190761_xpj2f",
-        "url": "https://www.foxnews.com/world/south-korean-president-jumps-invest-military-trump-cuts-joint-exercises",
-        "source": "fox",
-        "title": "South Korean president jumps to invest in military after Trump cuts joint exercises"
-      },
-      {
-        "id": "art_1787046038070_lyqra",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/trump-lashes-out-at-cnn-reporter-over-south-korea-question?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump lashes out at CNN reporter over South Korea question"
-      },
-      {
-        "id": "art_1787029907100_iir4s",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/trump-says-talking-to-north-koreas-kim-makes-the-south-safer?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says talking to North Korea’s Kim makes the south safer"
-      },
-      {
-        "id": "art_1786997055065_mea88",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/17/why-did-trump-scale-back-war-games-with-south-korea?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why did Trump scale back war games with South Korea?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a70d65ad6d6fac92e59ec59c50131b4d",
-    "topic_label": "Jason Arday Vigils and Tributes",
-    "event_window_start": "2026-08-17T20:32:38.000Z",
-    "event_window_end": "2026-08-18T03:17:58.000Z",
-    "article_ids": [
-      "art_1787029901327_m5raw",
-      "art_1787029910700_qgbj9",
-      "art_1787000663660_rapy5"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T06:04:16.140Z",
-    "updated_at": "2026-08-18T06:04:16.140Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A vigil for Jason Arday, a former Cambridge University professor, took place in London's Trafalgar Square.",
-      "Jason Arday died on a Friday at his home in south London at age 41.",
-      "Mourners attended the event in large numbers, with many carrying flowers and wearing black.",
-      "Placards reading 'rest in power' were present at the gathering."
-    ],
-    "source_claims": [
-      "[aljazeera] Attendees at the vigil blamed 'racist' and 'relentless' media coverage for Arday's death.",
-      "[aljazeera] Speakers at the vigil accused the press of waging a 'vicious campaign' against Arday.",
-      "[aljazeera] There are calls for a public inquiry into the treatment of Arday by the media.",
-      "[guardian] Stand Up to Racism organized the vigil and estimated that 30,000 mourners attended.",
-      "[guardian] The event included emotional speeches from MPs, friends, and campaigners, as well as a minute of silence."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the event primarily through the lens of political activism and criticism of the media, highlighting specific slogans about racism. The Guardian frames the event as a tribute, focusing on the organizers, the estimated attendance numbers, and the presence of public figures like MPs."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Arday was the youngest Black professor in Cambridge’s history.",
-      "[aljazeera] Arday was diagnosed with autism as a child.",
-      "[aljazeera] Arday had denied plagiarism allegations against him prior to his death.",
-      "[guardian] Arday had recently resigned from his role at Cambridge before his death."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the terms 'racist' and 'relentless' to describe media coverage.",
-      "[aljazeera] uses the phrase 'vicious campaign' to describe the media's actions towards Arday.",
-      "[guardian] uses the term 'emotional' to describe the speeches given at the vigil."
-    ],
-    "safe_conclusions": [
-      "A public vigil was held in Trafalgar Square to honor the late Jason Arday.",
-      "Jason Arday was a former Cambridge University professor who died in London."
-    ],
-    "unknowns": [
-      "The official cause of death of Jason Arday.",
-      "The extent to which plagiarism allegations were a subject of formal investigation prior to his death.",
-      "The total attendance figure verified by independent authorities."
-    ],
-    "synthesis": "Tens of thousands of people gathered at Trafalgar Square in London to hold a vigil for the late Cambridge professor Jason Arday. Attendees and speakers at the event expressed criticism of the media's treatment of the professor regarding plagiarism allegations. The gathering was organized by Stand Up to Racism and featured tributes from various public figures.",
-    "confidence": "HIGH: The sources consistently report the event, location, and the general context of the professor's death and the resulting public vigil.",
-    "sources": [
-      {
-        "id": "art_1787029901327_m5raw",
-        "url": "https://www.aljazeera.com/features/2026/8/18/tens-of-thousands-mourn-jason-arday-in-london-blaming-press-for-his-death?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Thousands mourn Jason Arday in London, blaming ‘racist’ press for his death"
-      },
-      {
-        "id": "art_1787029910700_qgbj9",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/18/08-18-26-arday-vigil-london-sv-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Vigil held in central London for late Cambridge professor Jason Arday"
-      },
-      {
-        "id": "art_1787000663660_rapy5",
-        "url": "https://www.theguardian.com/uk-news/2026/aug/17/tens-of-thousands-pay-tribute-jason-arday-trafalgar-square-vigil",
-        "source": "guardian",
-        "title": "Tens of thousands pay tribute to Jason Arday at Trafalgar Square vigil"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "342d814f1889a73430f014fb1656302e",
-    "topic_label": "Lindsay Clancy trial proceedings",
-    "event_window_start": "2026-08-17T21:49:13.000Z",
-    "event_window_end": "2026-08-18T14:48:12.000Z",
-    "article_ids": [
-      "art_1787066198001_t2rpw",
-      "art_1787011029403_afs44"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T18:04:03.984Z",
-    "updated_at": "2026-08-18T18:04:03.984Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Lindsay Clancy is on trial for the murder of her three young children in Duxbury, Massachusetts.",
-      "The children—Cora, Dawson, and Callan—were under six years old.",
-      "The deaths occurred in January 2023.",
-      "The defense has called witnesses to testify regarding the mental health of Lindsay Clancy in the months preceding the deaths."
-    ],
-    "source_claims": [
-      "[fox] reports that Lindsay Clancy’s family was very concerned about her mental health in the months before she killed her children.",
-      "[guardian] reports that Paula Musgrove, Lindsay Clancy's mother, testified that her daughter said medications were destroying her mind and that she was becoming paranoid.",
-      "[guardian] reports that Paula Musgrove testified that her daughter had thoughts of harming the children."
-    ],
-    "framing_differences": [
-      "Fox focuses on the general family concern regarding Lindsay Clancy's mental state, while The Guardian focuses specifically on the mother's testimony regarding medication side effects and specific thoughts of harm."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims the jury consists of 12 women and six men.",
-      "[guardian] claims the prosecution presented evidence for three weeks prior to the defense calling witnesses."
-    ],
-    "loaded_language": [
-      "[guardian] uses the word 'harrowing' to describe the prosecution's evidence."
-    ],
-    "safe_conclusions": [
-      "Lindsay Clancy is currently facing murder charges in court for the deaths of her three children.",
-      "The defense is presenting witness testimony concerning the defendant's mental health history."
-    ],
-    "unknowns": [
-      "The specific medications Lindsay Clancy was prescribed.",
-      "The final verdict of the trial.",
-      "The specific medical diagnoses provided to the defendant before the incident."
-    ],
-    "synthesis": "Lindsay Clancy is currently standing trial in Massachusetts on charges of first-degree murder for the deaths of her three children in 2023. Defense witnesses, including the defendant's mother, have testified regarding Clancy's mental health struggles and concerns over prescribed medications in the months preceding the incident. The trial is ongoing following the conclusion of the prosecution's case.",
-    "confidence": "HIGH. The core facts regarding the nature of the trial and the testimonies presented are consistent across both reports.",
-    "sources": [
-      {
-        "id": "art_1787066198001_t2rpw",
-        "url": "https://www.foxnews.com/us/lindsay-clancy-family-concerned-mental-health-months-before-killed-kids",
-        "source": "fox",
-        "title": "Lindsay Clancy's family was 'very concerned' about her mental health in the months before she killed her kids"
-      },
-      {
-        "id": "art_1787011029403_afs44",
-        "url": "https://www.theguardian.com/us-news/2026/aug/17/lindsay-clancy-trial-mother-witness-testimony",
-        "source": "guardian",
-        "title": "Lindsay Clancy had ‘thoughts of harming the children’, her mother testifies at trial"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "34e3ca62a9a47b507cb38438331cda25",
-    "topic_label": "Middle East Tensions and Iran",
-    "event_window_start": "2026-08-17T19:32:06.000Z",
-    "event_window_end": "2026-08-18T15:14:17.000Z",
-    "article_ids": [
-      "art_1787069413622_0n5bb",
-      "art_1787066208299_50f37",
-      "art_1787039177273_hv37z",
-      "art_1787039182810_1xbqm",
-      "art_1787039186097_tg2pm",
-      "art_1787039187203_r95ke",
-      "art_1787029908121_wb9nl",
-      "art_1787011015501_0jtoq",
-      "art_1787011017164_m17yy",
-      "art_1787000659365_ak3u2",
-      "art_1786997050652_barai",
-      "art_1786997056106_fyrby"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 12,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-18T18:39:21.394Z",
-    "updated_at": "2026-08-18T18:39:21.394Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Conflict is currently occurring involving Iran, the United States, and Israel.",
-      "The ongoing regional situation is impacting economic or logistical activities.",
-      "Donald Trump has conducted interviews with Fox News regarding the situation with Iran."
-    ],
-    "source_claims": [
-      "[aljazeera] Iranian clubs will play matches against Qatari and UAE opponents at neutral venues due to regional conflict.",
-      "[fox] Jared Kushner claims U.S.-Iran communications are more robust than ever, while Iran denies a backchannel with Donald Trump.",
-      "[fox] Jared Kushner claims Iran is attempting to trick the U.S. regarding peace deals.",
-      "[guardian] Wage growth in the UK slowed in June to 4.1% amidst the economic impact of the war.",
-      "[guardian] Oil prices exceeded $90 per barrel following the expiration of a two-month peace negotiation window.",
-      "[guardian] Donald Trump stated in an interview that he threatened to bomb Oman if the country interferes with his efforts.",
-      "[aljazeera] A vessel in the Strait of Hormuz was struck by an unknown projectile, resulting in damage and a casualty."
-    ],
-    "framing_differences": [
-      "The Guardian frames the economic impact of the conflict as a 'cost of living squeeze' and reports on specific threats from Donald Trump against Oman, while Al Jazeera focuses on logistical impacts to international sports and maritime navigation.",
-      "Fox News frames the U.S. administration's involvement as an active diplomatic effort to secure a deal, whereas The Guardian frames the situation as a failed negotiation period leading to increased aggression and market volatility."
-    ],
-    "contested_claims": [
-      "Jared Kushner claims U.S.-Iran communication is robust, while Iran denies the existence of a backchannel with the Trump administration."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Since February, the U.S. and Israel have attacked Iran, and Iran has retaliated against targets in Qatar and the UAE.",
-      "[guardian] A two-month ceasefire window between the U.S., Israel, and Iran expired on Monday."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'bomb the s*** out of them' to report Donald Trump's quote regarding Oman.",
-      "[guardian] uses the term 'put up the white flag of surrender' to report Donald Trump's demand to Tehran.",
-      "[fox] uses the term 'trick' to describe how Iranian officials are interacting with the U.S."
-    ],
-    "safe_conclusions": [
-      "Conflict in the Middle East is affecting international relations, economic indicators, and logistics.",
-      "The Strait of Hormuz is experiencing maritime security incidents.",
-      "The United States is currently involved in diplomatic and military tensions with Iran."
-    ],
-    "unknowns": [
-      "The specific identity of the perpetrator behind the projectile strike in the Strait of Hormuz.",
-      "The official status of any ongoing peace negotiations between the U.S. and Iran beyond conflicting reports.",
-      "The full extent of the diplomatic fallout between the U.S. and Oman following the reported threats."
-    ],
-    "synthesis": "Ongoing conflict involving Iran, the United States, and Israel has resulted in broader regional instability, impacting maritime transit, oil prices, and diplomatic relations. While the U.S. administration asserts that communication channels remain open, reports from international sources highlight escalated rhetoric and economic consequences in the UK. Maritime operations in the Strait of Hormuz remain under heightened security alerts following reported vessel strikes.",
-    "confidence": "MEDIUM; While sources are consistent regarding the existence of a regional conflict, specific details regarding diplomatic backchannels, military timelines, and threat assessments vary significantly between outlets.",
-    "sources": [
-      {
-        "id": "art_1787069413622_0n5bb",
-        "url": "https://www.aljazeera.com/sports/2026/8/18/iran-clubs-to-play-qatar-and-uae-champions-league-games-at-neutral-venues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran clubs face Qatar and UAE sides at neutral venues in Champions League"
-      },
-      {
-        "id": "art_1787066208299_50f37",
-        "url": "https://www.foxnews.com/politics/kushner-touts-unprecedented-iran-contacts-tehran-denies-trump-backchannel",
-        "source": "fox",
-        "title": "Kushner touts unprecedented Iran contacts as Tehran denies Trump backchannel"
-      },
-      {
-        "id": "art_1787039177273_hv37z",
-        "url": "https://www.theguardian.com/business/2026/aug/18/uk-pay-growth-ons-iran-war-cost-of-living-unemployment-rate",
-        "source": "guardian",
-        "title": "UK pay growth slows as Iran war prompts cost of living squeeze"
-      },
-      {
-        "id": "art_1787039182810_1xbqm",
-        "url": "https://www.theguardian.com/business/2026/aug/18/oil-prices-rise-us-iran-brent-crude-donald-trump",
-        "source": "guardian",
-        "title": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman"
-      },
-      {
-        "id": "art_1787039186097_tg2pm",
-        "url": "https://www.aljazeera.com/news/2026/8/18/vessel-hit-by-unknown-projectile-in-strait-of-hormuz-ukmto-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz, UKMTO says"
-      },
-      {
-        "id": "art_1787039187203_r95ke",
-        "url": "https://www.aljazeera.com/news/2026/8/18/can-chinas-new-arctic-sea-route-to-europe-replace-middle-east-chokepoints?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can China’s new Arctic sea route to Europe replace Middle East chokepoints?"
-      },
-      {
-        "id": "art_1787029908121_wb9nl",
-        "url": "https://www.aljazeera.com/news/2026/8/18/large-fire-breaks-out-at-fuel-depot-near-iraqs-sulaimaniyah?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Large fire breaks out at fuel depot near Iraq’s Sulaimaniyah"
-      },
-      {
-        "id": "art_1787011015501_0jtoq",
-        "url": "https://www.aljazeera.com/news/2026/8/17/we-will-not-allow-gaza-to-be-rebuilt-until-hamas-disarms-kushner-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘We will not allow Gaza to be rebuilt’ until Hamas disarms, Kushner says"
-      },
-      {
-        "id": "art_1787011017164_m17yy",
-        "url": "https://www.foxnews.com/world/kushner-gives-hamas-stark-ultimatum-disarm-israel-gets-us-backing-finish-job",
-        "source": "fox",
-        "title": "Kushner gives Hamas stark ultimatum: Disarm or Israel gets US backing to ‘finish the job’"
-      },
-      {
-        "id": "art_1787000659365_ak3u2",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/trump-says-iran-will-not-make-the-deal-he-believes-is-necessary?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says Iran will not make the deal he believes is necessary"
-      },
-      {
-        "id": "art_1786997050652_barai",
-        "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-party-campaign-billboard-mamdani-iran-hezbollah",
-        "source": "guardian",
-        "title": "Netanyahu party campaign billboard likens Mamdani to leaders of Iran and Hezbollah"
-      },
-      {
-        "id": "art_1786997056106_fyrby",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/17/gaza-flotilla-sets-sail-from-the-uk-in-bid-to-break-israeli-siege?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza flotilla sets sail from the UK in bid to break Israeli siege"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
