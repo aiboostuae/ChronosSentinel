@@ -80,25 +80,88 @@ body {
     gap: 2rem;
 }
 
-.logo-area h1 {
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+/* ─── CS Lettermark Logo ─── */
+.logo-area {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    background: linear-gradient(90deg, #FFFFFF 0%, var(--text-secondary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    flex-shrink: 0;
 }
 
-.logo-area span {
+.cs-lettermark {
+    display: inline-flex;
+    align-items: baseline;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1;
+}
+
+.cs-c {
     color: var(--accent-cyan);
-    font-weight: 300;
-    -webkit-text-fill-color: var(--accent-cyan);
-    text-shadow: 0 0 15px var(--accent-cyan-glow);
+    text-shadow: 0 0 20px rgba(0, 229, 255, 0.45);
+}
+
+.cs-s {
+    color: var(--accent-indigo);
+    text-shadow: 0 0 20px rgba(99, 102, 241, 0.45);
+}
+
+.logo-wordmark {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    gap: 0;
+}
+
+.logo-primary {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-primary);
+}
+
+.logo-secondary {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent-cyan);
+    opacity: 0.8;
+}
+
+/* ─── About Link (header) ─── */
+.about-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    text-decoration: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.about-link:hover {
+    color: var(--accent-cyan);
+    border-color: rgba(0, 229, 255, 0.2);
+    background: rgba(0, 229, 255, 0.05);
+}
+
+.about-link svg {
+    flex-shrink: 0;
 }
 
 /* Threat Level Indicator */
@@ -868,11 +931,12 @@ td a:hover {
         align-items: flex-start;
     }
 
-    .logo-area h1 {
-        font-size: 1rem;
-        line-height: 1.2;
-        flex-wrap: wrap;
-        gap: 0.35rem;
+    .cs-lettermark {
+        font-size: 1.4rem;
+    }
+
+    .logo-wordmark {
+        display: none;
     }
 
     .header-right {

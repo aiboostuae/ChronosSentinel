@@ -3,25 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chronos Sentinel | Intelligence Feed</title>
-    
-    <!-- PWA & Mobile Meta -->
+
+    <!-- ═══ Primary SEO ═══ -->
+    <title>Chronos Sentinel | AI-Assisted Open-Source Intelligence Dashboard</title>
+    <meta name="description" content="Chronos Sentinel is an AI-assisted OSINT dashboard that transforms global news into source-compared, confidence-scored intelligence reports. Real-time synthesis. Zero editorial bias.">
+    <meta name="keywords" content="OSINT, open-source intelligence, AI news synthesis, media bias analysis, global intelligence dashboard, news aggregator, fact checking, source comparison">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sentinel.codexarchai.com/">
+    <meta name="author" content="Chronos Sentinel">
+
+    <!-- ═══ Open Graph (Facebook, WhatsApp, Messenger, LinkedIn) ═══ -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sentinel.codexarchai.com/">
+    <meta property="og:title" content="Chronos Sentinel | AI-Assisted Intelligence Dashboard">
+    <meta property="og:description" content="Real-time AI synthesis of global news. Source-compared. Confidence-scored. No editorial bias. See how different outlets frame the same story.">
+    <meta property="og:image" content="https://sentinel.codexarchai.com/assets/og-image.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Chronos Sentinel — AI-Assisted Open-Source Intelligence">
+    <meta property="og:site_name" content="Chronos Sentinel">
+    <meta property="og:locale" content="en_US">
+
+    <!-- ═══ Twitter / X Card ═══ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://sentinel.codexarchai.com/">
+    <meta name="twitter:title" content="Chronos Sentinel | AI-Assisted Intelligence Dashboard">
+    <meta name="twitter:description" content="Real-time AI synthesis of global news. Source-compared. Confidence-scored. No editorial bias.">
+    <meta name="twitter:image" content="https://sentinel.codexarchai.com/assets/og-image.svg">
+    <meta name="twitter:image:alt" content="Chronos Sentinel — AI-Assisted Open-Source Intelligence">
+
+    <!-- ═══ PWA & Mobile ═══ -->
     <meta name="theme-color" content="#0A0B10">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Chronos Sentinel">
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 
+    <!-- ═══ Fonts ═══ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="cyber-grid"></div>
     
     <header class="app-header">
-        <div class="logo-area">
-            <h1>CHRONOS <span>SENTINEL</span></h1>
-        </div>
+        <a href="/" class="logo-area" aria-label="Chronos Sentinel Home">
+            <div class="cs-lettermark" aria-hidden="true">
+                <span class="cs-c">C</span><span class="cs-s">S</span>
+            </div>
+            <div class="logo-wordmark">
+                <span class="logo-primary">CHRONOS</span>
+                <span class="logo-secondary">SENTINEL</span>
+            </div>
+        </a>
         <div class="header-right">
              <!-- Model Indicator -->
              <div id="ai-model-banner">AI-assisted - Syncing</div>
@@ -36,6 +75,10 @@
                 <option value="western">WESTERN INTEL</option>
                 <option value="asia">ASIA-PACIFIC</option>
              </select>
+             <a href="about.html" class="about-link" aria-label="About Chronos Sentinel">
+                 <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke-width="1.5"/><line x1="12" y1="16" x2="12" y2="12" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="8" r="1" fill="currentColor"/></svg>
+                 <span>About</span>
+             </a>
         </div>
     </header>
 
@@ -51,6 +94,7 @@
             <button class="more-menu-item" data-target="archive">Archive</button>
             <button class="more-menu-item" data-target="watchlist">Watchlist</button>
             <button class="more-menu-item" data-action="status">Status</button>
+            <a class="more-menu-item" href="about.html">About</a>
         </div>
     </nav>
 
