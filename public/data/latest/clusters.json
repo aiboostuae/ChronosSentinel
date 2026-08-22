@@ -1,5 +1,567 @@
 [
   {
+    "cluster_id": "c436ddd688ea977bbd4d48baeca4a64b",
+    "topic_label": "US-Canada Trade War Tariffs",
+    "event_window_start": "2026-08-21T15:22:48.000Z",
+    "event_window_end": "2026-08-22T06:05:58.000Z",
+    "article_ids": [
+      "art_1787384377608_h9qjj",
+      "art_1787384387196_hlqp1",
+      "art_1787384392322_5cmlm",
+      "art_1787340862323_vtsx8",
+      "art_1787326830999_fgwuv"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-22T08:04:33.803Z",
+    "updated_at": "2026-08-22T08:04:33.803Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Negotiations between the US and Canada regarding a trade deal failed to reach an agreement by the Friday midnight deadline.",
+      "US President Donald Trump proposed a 50% tariff on approximately $20bn worth of Canadian goods.",
+      "Canadian Prime Minister Mark Carney stated that Canada would match US tariffs on a dollar-for-dollar basis.",
+      "The trade negotiations took place in Washington, DC."
+    ],
+    "source_claims": [
+      "[guardian] Mark Carney characterized last-minute changes to the US proposed terms as unfair, uneconomic, and unreliable.",
+      "[bbc] Mark Carney stated that progress in the talks was insufficient to meet Canada's objectives.",
+      "[guardian] A leaked audio recording reportedly captures US Vice President JD Vance mocking Mark Carney for trying to 'out-tough' Donald Trump."
+    ],
+    "framing_differences": [
+      "Guardian frames the breakdown as a result of US last-minute changes being 'unfair,' while Al Jazeera frames the breakdown as a failure to meet Canadian objectives following three days of talks.",
+      "Guardian highlights alleged internal US political rhetoric via JD Vance, whereas BBC and Al Jazeera focus primarily on the official trade status and government statements."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] JD Vance purportedly stated in a private fundraiser that Mark Carney tries to 'puff his chest out' during negotiations."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'unfair' to describe US trade terms.",
+      "[guardian] uses the term 'mocking' to describe JD Vance's comments.",
+      "[bbc] uses the term 'breakdown' to describe the status of trade talks.",
+      "[guardian] uses the phrase 'puffs his chest out' to attribute a description of Mark Carney to JD Vance."
+    ],
+    "safe_conclusions": [
+      "The US and Canada have currently not reached a trade agreement.",
+      "Tariffs have been implemented or threatened on $20bn of Canadian goods.",
+      "The Canadian government has publicly committed to reciprocal tariff measures."
+    ],
+    "unknowns": [
+      "The specific technical details of the 'last-minute changes' proposed by the US.",
+      "The specific list of Canadian goods affected by the US 50% tariff.",
+      "The full content and context of the audio recording involving JD Vance."
+    ],
+    "synthesis": "Trade negotiations between the United States and Canada concluded without an agreement, leading to the implementation of US tariffs on $20bn worth of Canadian goods. Canadian Prime Minister Mark Carney announced that Canada will respond with reciprocal, dollar-for-dollar tariffs. Meanwhile, reports have emerged regarding comments allegedly made by US Vice President JD Vance concerning the negotiation dynamics.",
+    "confidence": "HIGH. Sources consistently report the breakdown of talks, the failure to meet the deadline, and the Canadian government's public commitment to reciprocal tariffs.",
+    "sources": [
+      {
+        "id": "art_1787384377608_h9qjj",
+        "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+        "source": "guardian",
+        "title": "Canada vows to match Trump’s 50% tariffs after trade deal talks fail"
+      },
+      {
+        "id": "art_1787384387196_hlqp1",
+        "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down"
+      },
+      {
+        "id": "art_1787384392322_5cmlm",
+        "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail"
+      },
+      {
+        "id": "art_1787340862323_vtsx8",
+        "url": "https://www.aljazeera.com/economy/2026/8/21/us-canada-negotiators-race-to-ink-a-deal-as-trumps-tariff-deadline-looms?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US, Canada negotiators race to ink a deal as Trump’s tariff deadline looms"
+      },
+      {
+        "id": "art_1787326830999_fgwuv",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade",
+        "source": "guardian",
+        "title": "JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "07605f4b5f06a6c2ae672d58c9b094e5",
+    "topic_label": "Middle East Conflict and Israel",
+    "event_window_start": "2026-08-21T10:24:31.000Z",
+    "event_window_end": "2026-08-22T04:30:20.000Z",
+    "article_ids": [
+      "art_1787384389252_tvj97",
+      "art_1787340865472_oxe8g",
+      "art_1787340870664_1jugz",
+      "art_1787333772666_gymhr",
+      "art_1787331423871_czc8d",
+      "art_1787326837387_bx6yx",
+      "art_1787326838455_rhgfh",
+      "art_1787308604955_j3ai1"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 8,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-22T08:04:33.803Z",
+    "updated_at": "2026-08-22T08:04:33.803Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Israeli settlers have been involved in incidents in the West Bank near Hebron.",
+      "Israel's military and police forces engage in investigations regarding incidents in the West Bank."
+    ],
+    "source_claims": [
+      "[aljazeera] A 17-year-old Palestinian was killed and another was critically injured in a settler attack near Hebron.",
+      "[aljazeera] The UN has requested protection for Palestinians and accountability for perpetrators of settler attacks.",
+      "[aljazeera] Turkiye has sought an Interpol warrant for Benjamin Netanyahu regarding a May incident involving the Global Sumud Flotilla.",
+      "[bbc] The UK, Canada, and Australia issued a joint statement condemning Israel's decision not to launch a criminal investigation into the deaths of seven World Central Kitchen aid workers.",
+      "[bbc] Israeli ambassador Hillel Newman stated there was no criminal intent or responsibility regarding the WCK convoy strikes."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the incidents in the West Bank as 'settler attacks' against Palestinians, whereas the BBC frames incidents involving Israeli military actions through the lens of international diplomatic condemnation regarding accountability.",
+      "Aljazeera focuses on individual and group narratives of victims in the West Bank, while the BBC focuses on state-level diplomatic responses from Western nations."
+    ],
+    "contested_claims": [
+      "Regarding the death of Ziad, [aljazeera] notes Israeli police categorized the victim as a 'terrorist', which is presented as a contrast to the victim's personal history described by his wife."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Claims 22 Palestinians have been killed in settler attacks this year.",
+      "[aljazeera] Claims Turkish Justice Minister Akin Gurlek stated arrest warrants were issued for Netanyahu on July 14."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'genocide' to describe Turkiye's accusations against Benjamin Netanyahu.",
+      "[bbc] uses the term 'shameful' to describe how the UK, Canada, and Australia characterized Israel's decision not to investigate the WCK convoy deaths."
+    ],
+    "safe_conclusions": [
+      "There are ongoing tensions and incidents involving Israeli settlers and the military in the West Bank.",
+      "International diplomatic and legal entities are currently pursuing various accusations and accountability measures against Israeli officials and military actions."
+    ],
+    "unknowns": [
+      "The specific current status of the Interpol red notice request for Benjamin Netanyahu.",
+      "The full identities and backgrounds of all victims mentioned in the West Bank incidents.",
+      "The total number of ongoing investigations by Israeli authorities into settler-related violence."
+    ],
+    "synthesis": "Multiple sources report on incidents involving Israeli settlers and military actions in the West Bank and Gaza. Various international actors, including the governments of the UK, Canada, Australia, and Turkiye, are pursuing legal and diplomatic actions regarding these events. The reports highlight ongoing conflict and disagreement over the attribution of criminal intent and accountability in these incidents.",
+    "confidence": "MEDIUM: The sources cover distinct, unrelated events occurring in different contexts, making the overall factual consistency high for each specific event, but limited in scope for a holistic picture.",
+    "sources": [
+      {
+        "id": "art_1787384389252_tvj97",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/palestinian-teen-shot-and-killed-in-west-bank-attack-un-responds?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian teen shot and killed in West Bank attack, UN responds"
+      },
+      {
+        "id": "art_1787340865472_oxe8g",
+        "url": "https://www.aljazeera.com/features/2026/8/21/palestinian-victims-of-israeli-settlers-face-painful-battle-for-justice?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian victims of Israeli settler attacks face battle for justice"
+      },
+      {
+        "id": "art_1787340870664_1jugz",
+        "url": "https://www.aljazeera.com/news/2026/8/21/turkiye-accuses-israels-netanyahu-of-genocide-seeks-interpol-warrant?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Turkiye accuses Israel’s Netanyahu of ‘genocide’, seeks Interpol warrant"
+      },
+      {
+        "id": "art_1787333772666_gymhr",
+        "url": "https://www.bbc.co.uk/news/articles/cvgl2pe09eno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza"
+      },
+      {
+        "id": "art_1787331423871_czc8d",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-settlers-set-fire-to-heavy-machinery-at-west-bank-quarry?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settlers set fire to heavy machinery at West Bank quarry"
+      },
+      {
+        "id": "art_1787326837387_bx6yx",
+        "url": "https://www.theguardian.com/world/2026/aug/21/uk-australia-canada-criticise-israel-gaza-aid-convoy-killings-decision",
+        "source": "guardian",
+        "title": "‘Shameful’: UK, Australia and Canada criticise Israel over Gaza aid convoy killings decision"
+      },
+      {
+        "id": "art_1787326838455_rhgfh",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/22/appeal-nsw-supreme-court-ruling-desmond-fagan-israel-antisemitism-ntwnfb",
+        "source": "guardian",
+        "title": "NSW ‘seeking urgent advice’ on controversial court ruling that found anti-Israel vandalism was not antisemitic"
+      },
+      {
+        "id": "art_1787308604955_j3ai1",
+        "url": "https://www.theguardian.com/politics/live/2026/aug/21/andy-burnham-growth-labour-john-healey-uk-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Ban on goods from occupied West Bank would help protect two-state solution, says Emily Thornberry – UK politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5135a54bed6314a17dc571e5f2a12355",
+    "topic_label": "International Flood Disasters",
+    "event_window_start": "2026-08-21T10:01:49.000Z",
+    "event_window_end": "2026-08-22T05:35:50.000Z",
+    "article_ids": [
+      "art_1787384383905_7xvoi",
+      "art_1787384388229_y3w2l",
+      "art_1787308609414_3824j"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-22T08:04:33.803Z",
+    "updated_at": "2026-08-22T08:04:33.803Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Monsoon rains have caused flooding in parts of the Philippines.",
+      "Residents in the northern Philippines are questioning the effectiveness of flood control projects."
+    ],
+    "source_claims": [
+      "[aljazeera_1] claims that a 37-year-old labourer lost his wife and daughter to rising waters from the Dikhow River in Assam, India on July 19.",
+      "[aljazeera_2] claims that residents in the northern Philippines are angry that flood control measures they say were paid for appear not to work.",
+      "[aljazeera_3] claims that weeks of monsoon rain have flooded the northern Philippines and that residents are demanding answers regarding alleged corruption in flood-control projects."
+    ],
+    "framing_differences": [
+      "aljazeera_1 focuses on the personal tragedy of a specific family in Assam, India, while aljazeera_2 and aljazeera_3 focus on the political and economic implications of flood control in the Philippines."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] claims that Dipika and her four-year-old daughter were swept away by a current from the Dikhow River.",
+      "[aljazeera_2] claims that residents believe flood control measures were paid for but do not work."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the term 'tsunami' to describe the flooding in Assam.",
+      "[aljazeera_1] uses the term 'ferocious' to describe the river current.",
+      "[aljazeera_3] uses the term 'anger' to describe the public response in the Philippines."
+    ],
+    "safe_conclusions": [
+      "Flooding has occurred in parts of India and the Philippines.",
+      "There are ongoing concerns regarding flood infrastructure in the Philippines."
+    ],
+    "unknowns": [
+      "The total number of casualties in the Assam floods.",
+      "The specific identity or location of the flood control projects in the Philippines that are being questioned.",
+      "Evidence or formal findings regarding the alleged corruption in the Philippines."
+    ],
+    "synthesis": "Recent monsoon flooding has affected multiple regions, resulting in reported loss of life in India and property damage in the Philippines. In the Philippines, residents are expressing concern and frustration regarding the efficacy and financial integrity of local flood control infrastructure. These reports highlight both the immediate humanitarian impact of the floods and the subsequent public demand for governmental accountability.",
+    "confidence": "HIGH. The sources are internally consistent, and the discrepancies arise only because the articles report on distinct geographical events.",
+    "sources": [
+      {
+        "id": "art_1787384383905_7xvoi",
+        "url": "https://www.aljazeera.com/news/2026/8/22/it-was-a-tsunami-floods-leave-death-trail-in-indias-assam?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘It was a tsunami’: Floods leave death trail in India’s Assam"
+      },
+      {
+        "id": "art_1787384388229_y3w2l",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/inundated-philippine-communities-seek-answers-over-flood-control-funds?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Inundated Philippine communities seek answers over flood control funds"
+      },
+      {
+        "id": "art_1787308609414_3824j",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/philippines-floods-fuel-anger-over-alleged-corruption?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Philippines floods fuel anger over alleged corruption"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c1794a78d28d3dfea009555aa7b03a18",
+    "topic_label": "Russia-Related Intelligence and Sanctions",
+    "event_window_start": "2026-08-21T10:10:52.000Z",
+    "event_window_end": "2026-08-21T16:26:53.000Z",
+    "article_ids": [
+      "art_1787333771563_tovqc",
+      "art_1787308606118_x7bar",
+      "art_1787308607216_0i2ma"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-21T19:18:06.516Z",
+    "updated_at": "2026-08-21T19:18:06.516Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A weapons cache was discovered in a forest near Berlin last year.",
+      "The German federal prosecutor's office is investigating the discovery of weapons.",
+      "A suspect has been arrested in Romania in connection with the weapons investigation."
+    ],
+    "source_claims": [
+      "[bbc] Reports state German intelligence believes the cache was intended for assassinations on behalf of Russia.",
+      "[bbc] Interior Minister Alexander Dobrindt stated he cannot rule out the involvement of foreign powers.",
+      "[guardian] The newspaper Süddeutsche Zeitung, in a joint report with NDR and WDR, states authorities believe the weapons were to be used for assassinations on behalf of Russian intelligence.",
+      "[aljazeera] Ukrainian diver Volodymyr Zhuravlev was arrested in Croatia in connection with the 2022 Nord Stream pipeline bombing."
+    ],
+    "framing_differences": [
+      "The BBC and The Guardian frame the discovery of the Berlin forest weapons cache as a potential Russian intelligence operation, whereas Al Jazeera focuses on the unrelated arrest of Volodymyr Zhuravlev regarding the Nord Stream pipeline bombing."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] Security agencies have warned that Russian intelligence services are planning assassinations in Germany.",
+      "[guardian] One suspect arrested in Romania may have been responsible for setting up the weapons storage."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the phrase 'It could be a Hollywood script – with a twist' to describe the circumstances of the Zhuravlev arrest."
+    ],
+    "safe_conclusions": [
+      "German authorities are conducting investigations involving weapons caches and individuals potentially linked to security threats.",
+      "Multiple international investigations involving German interests and foreign nationals are currently ongoing."
+    ],
+    "unknowns": [
+      "The specific identity of the suspect arrested in Romania remains unconfirmed by official sources.",
+      "The official confirmation of Russian involvement in the Berlin weapons cache is not yet provided by the German government."
+    ],
+    "synthesis": "German authorities are investigating a weapons cache discovered near Berlin, with reports suggesting links to potential assassination plots and Russian intelligence. Concurrently, a Ukrainian national has been arrested in Croatia regarding the 2022 Nord Stream pipeline bombing. These investigations are ongoing and involve potential international actors.",
+    "confidence": "HIGH. The articles provide consistent factual reporting regarding the existence of separate, ongoing investigations.",
+    "sources": [
+      {
+        "id": "art_1787333771563_tovqc",
+        "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say"
+      },
+      {
+        "id": "art_1787308606118_x7bar",
+        "url": "https://www.theguardian.com/world/2026/aug/21/gun-stash-germany-forest-berlin-believed-linked-russia-reports",
+        "source": "guardian",
+        "title": "Gun stash discovered in German forest believed to be linked to Russia, say reports"
+      },
+      {
+        "id": "art_1787308607216_0i2ma",
+        "url": "https://www.aljazeera.com/news/2026/8/21/nord-stream-bombing-suspect-to-hollywood-fixer-who-is-volodymyr-zhuravlev?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Nord Stream bombing suspect to Hollywood fixer: Who is Volodymyr Zhuravlev?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e98af9d75bbd77aac2c0dddc0c8843d7",
+    "topic_label": "Trump Administration Policies",
+    "event_window_start": "2026-08-21T16:27:32.000Z",
+    "event_window_end": "2026-08-21T19:14:07.000Z",
+    "article_ids": [
+      "art_1787340866526_nog6k",
+      "art_1787340868609_0cdch",
+      "art_1787340869633_rog6u",
+      "art_1787333762651_qtfgs",
+      "art_1787331417283_a12tl"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-22T08:04:33.803Z",
+    "updated_at": "2026-08-22T08:04:33.803Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Trump administration is engaged in various policy and administrative actions involving international funding, federal agency regulations, judicial processes, space policy, and public event planning."
+    ],
+    "source_claims": [
+      "[guardian] The Trump administration has initiated the transfer of $725 million to the United Nations.",
+      "[guardian] The Trump administration is seeking public comment on vaccine recommendation categories.",
+      "[fox] Chief Justice John Roberts issued an administrative stay allowing construction of a White House ballroom to continue.",
+      "[fox] The administration aims to increase U.S. space launches to approximately three per day by 2030.",
+      "[aljazeera] A professional IndyCar race, the Freedom 250 Grand Prix, is taking place in Washington, DC, as part of the country's 250th anniversary."
+    ],
+    "framing_differences": [
+      "[guardian] frames the UN payment as a response to 'imminent financial collapse' while noting prior funding cuts, whereas [fox] and [aljazeera] focus on distinct domestic policy initiatives.",
+      "[guardian] characterizes the request for public comment on vaccines as a move that will 'sow confusion,' while [fox] describes space policy in terms of national competition with China."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The Trump administration has 'slashed funding to many UN agencies.'",
+      "[guardian] Public feedback on vaccine recommendations is 'likely opening the door to greater access challenges and confusion.'",
+      "[aljazeera] The Freedom 250 Grand Prix is receiving a 'heavy dose of criticism' regarding disruptions to life in the capital."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'slashed' to describe changes in UN funding.",
+      "[guardian] uses the phrase 'sow confusion' to describe the impact of vaccine policy changes.",
+      "[fox] uses the term 'spectacle' to describe past spaceflight efforts.",
+      "[aljazeera] uses the phrase 'heavy dose of criticism' to describe reactions to the IndyCar race."
+    ],
+    "safe_conclusions": [
+      "The Trump administration is currently managing multiple disparate policy initiatives ranging from international financial obligations to domestic infrastructure projects and commemorative events."
+    ],
+    "unknowns": [
+      "Specific reasons for the $725 million UN payment are not provided.",
+      "The full extent of the legal arguments regarding the White House ballroom construction is not detailed.",
+      "The specific identity of the entities criticizing the Freedom 250 Grand Prix is not provided."
+    ],
+    "synthesis": "The Trump administration is simultaneously managing various policy fronts, including a $725 million transfer to the United Nations and the development of a new space policy targeting increased launch frequency. Domestic activities include public feedback processes for vaccine recommendations, the legal status of White House ballroom construction, and the staging of the Freedom 250 Grand Prix in Washington, DC. Each of these initiatives involves different administrative departments and legal or logistical frameworks.",
+    "confidence": "HIGH. The sources represent distinct, unrelated policy developments, and there are no direct factual contradictions between them.",
+    "sources": [
+      {
+        "id": "art_1787340866526_nog6k",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/trump-administration-united-nations-payment",
+        "source": "guardian",
+        "title": "Trump administration begins transfer of $725m to UN, amid billions owed"
+      },
+      {
+        "id": "art_1787340868609_0cdch",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/trump-administration-public-comment-vaccines",
+        "source": "guardian",
+        "title": "Trump administration asking public comment on vaccine recommendations"
+      },
+      {
+        "id": "art_1787340869633_rog6u",
+        "url": "https://www.foxnews.com/politics/supreme-court-allows-trumps-white-house-ballroom-construction-continue",
+        "source": "fox",
+        "title": "Supreme Court allows Trump’s White House ballroom construction to continue for now"
+      },
+      {
+        "id": "art_1787333762651_qtfgs",
+        "url": "https://www.foxnews.com/politics/trump-transform-spaceflight-spectacle-status-quo-targeting-3-launches-per-day",
+        "source": "fox",
+        "title": "Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day"
+      },
+      {
+        "id": "art_1787331417283_a12tl",
+        "url": "https://www.aljazeera.com/news/2026/8/21/what-to-know-about-the-freedom-250-grand-prix-trumps-capital-car-race?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What to know about the Freedom 250 Grand Prix, Trump’s capital car race"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a192f74c47a518bd6b172f8600fb36e8",
+    "topic_label": "Migrant and Border Issues",
+    "event_window_start": "2026-08-21T10:00:31.000Z",
+    "event_window_end": "2026-08-22T04:24:11.000Z",
+    "article_ids": [
+      "art_1787384391299_d35vg",
+      "art_1787333764891_jgcc8",
+      "art_1787333767044_tlcd8",
+      "art_1787333769316_64cs9",
+      "art_1787308615876_5wws5"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-22T08:04:33.803Z",
+    "updated_at": "2026-08-22T08:04:33.803Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Migrants frequently attempt journeys involving maritime or land border crossings.",
+      "Immigration and border enforcement agencies are active in various global regions including Tunisia, France, the US-Mexico border, and Haiti."
+    ],
+    "source_claims": [
+      "[aljazeera] 13 Tunisians are missing and 2 rescued after a boat capsized off the Tunisian coast.",
+      "[aljazeera] Migration attempts from Tunisia have declined over the last two years due to tighter controls.",
+      "[guardian] 19 migrant remains were recovered along the Arizona-Mexico border last month, totaling 73 this year.",
+      "[guardian] An ICE charter flight carrying over 160 Haitian nationals landed in Cap-Haïtien following a status revocation.",
+      "[aljazeera] French border police and migrants clashed in northern France during a boat interception."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the Tunisian event as a specific maritime emergency, whereas Guardian frames the Arizona border story as a systemic policy and climate issue.",
+      "Guardian frames the deportation to Haiti within the context of US judicial decisions and regional instability, while Aljazeera focuses on immediate operational police clashes in France."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The assertion that the number of migrants attempting crossings from Tunisia has declined due to a crackdown.",
+      "[guardian] The claim that the new data from Pima county is a direct reflection of US asylum blocking policy."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'troubled nation' to describe Haiti.",
+      "[guardian] uses the term 'perilous journey' to describe the movement of migrants through Mexico.",
+      "[aljazeera] uses the term 'crackdown' to describe Tunisian maritime controls."
+    ],
+    "safe_conclusions": [
+      "Migrants continue to attempt travel to the US and Europe.",
+      "Border enforcement operations are currently occurring in Tunisia, France, and the US.",
+      "Remains of deceased migrants have been recovered along the Arizona-Mexico border."
+    ],
+    "unknowns": [
+      "The exact cause of the boat capsize mentioned by Aljazeera.",
+      "The specific identities and ages of all 19 individuals found in Pima County.",
+      "The current number of asylum seekers currently in custody or transit in France."
+    ],
+    "synthesis": "Recent reports highlight ongoing international migration challenges, including maritime accidents off the Tunisian coast and border enforcement activities in France and the United States. Data from Pima County indicates an increase in migrant deaths along the Arizona-Mexico border compared to the previous year. Additionally, the United States has resumed deportation flights to Haiti, citing safety concerns at the capital's airport.",
+    "confidence": "HIGH. The sources report on distinct, separate geographical events with consistent factual claims within their respective domains.",
+    "sources": [
+      {
+        "id": "art_1787384391299_d35vg",
+        "url": "https://www.aljazeera.com/news/2026/8/22/at-least-13-tunisians-missing-as-migrant-boat-headed-for-italy-capsizes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least 13 Tunisians missing as migrant boat headed for Italy capsizes"
+      },
+      {
+        "id": "art_1787333764891_jgcc8",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/migrant-deaths-arizona",
+        "source": "guardian",
+        "title": "Rise in migrant deaths as 19 bodies found along Arizona border last month"
+      },
+      {
+        "id": "art_1787333767044_tlcd8",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/migrants-clash-with-french-police-as-they-attempt-to-cross-the-channel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Migrants clash with French police as they attempt to cross the Channel"
+      },
+      {
+        "id": "art_1787333769316_64cs9",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/haiti-deportation-tps",
+        "source": "guardian",
+        "title": "First deportation flight lands in Haiti after TPS suspension"
+      },
+      {
+        "id": "art_1787308615876_5wws5",
+        "url": "https://www.theguardian.com/world/2026/aug/21/mexico-city-little-la-us-deportees",
+        "source": "guardian",
+        "title": "Strangers in their own land: Mexicans deported from Trump’s America find refuge in ‘Little LA’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "8a4fb87d83f2a765764e552ac97241e8",
     "topic_label": "Israel and Palestine conflict",
     "event_window_start": "2026-08-21T15:00:39.000Z",
@@ -7192,84 +7754,6 @@
         "url": "https://www.foxnews.com/lifestyle/i-heard-you-missed-me-melania-trump-turns-heads-patriotic-rose-garden-look-major-announcement",
         "source": "fox",
         "title": "'I heard you missed me': Melania Trump turns heads in patriotic Rose Garden look for major announcement"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c1794a78d28d3dfea009555aa7b03a18",
-    "topic_label": "Russia-Related Intelligence and Sanctions",
-    "event_window_start": "2026-08-21T10:10:52.000Z",
-    "event_window_end": "2026-08-21T16:26:53.000Z",
-    "article_ids": [
-      "art_1787333771563_tovqc",
-      "art_1787308606118_x7bar",
-      "art_1787308607216_0i2ma"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T19:18:06.516Z",
-    "updated_at": "2026-08-21T19:18:06.516Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A weapons cache was discovered in a forest near Berlin last year.",
-      "The German federal prosecutor's office is investigating the discovery of weapons.",
-      "A suspect has been arrested in Romania in connection with the weapons investigation."
-    ],
-    "source_claims": [
-      "[bbc] Reports state German intelligence believes the cache was intended for assassinations on behalf of Russia.",
-      "[bbc] Interior Minister Alexander Dobrindt stated he cannot rule out the involvement of foreign powers.",
-      "[guardian] The newspaper Süddeutsche Zeitung, in a joint report with NDR and WDR, states authorities believe the weapons were to be used for assassinations on behalf of Russian intelligence.",
-      "[aljazeera] Ukrainian diver Volodymyr Zhuravlev was arrested in Croatia in connection with the 2022 Nord Stream pipeline bombing."
-    ],
-    "framing_differences": [
-      "The BBC and The Guardian frame the discovery of the Berlin forest weapons cache as a potential Russian intelligence operation, whereas Al Jazeera focuses on the unrelated arrest of Volodymyr Zhuravlev regarding the Nord Stream pipeline bombing."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] Security agencies have warned that Russian intelligence services are planning assassinations in Germany.",
-      "[guardian] One suspect arrested in Romania may have been responsible for setting up the weapons storage."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the phrase 'It could be a Hollywood script – with a twist' to describe the circumstances of the Zhuravlev arrest."
-    ],
-    "safe_conclusions": [
-      "German authorities are conducting investigations involving weapons caches and individuals potentially linked to security threats.",
-      "Multiple international investigations involving German interests and foreign nationals are currently ongoing."
-    ],
-    "unknowns": [
-      "The specific identity of the suspect arrested in Romania remains unconfirmed by official sources.",
-      "The official confirmation of Russian involvement in the Berlin weapons cache is not yet provided by the German government."
-    ],
-    "synthesis": "German authorities are investigating a weapons cache discovered near Berlin, with reports suggesting links to potential assassination plots and Russian intelligence. Concurrently, a Ukrainian national has been arrested in Croatia regarding the 2022 Nord Stream pipeline bombing. These investigations are ongoing and involve potential international actors.",
-    "confidence": "HIGH. The articles provide consistent factual reporting regarding the existence of separate, ongoing investigations.",
-    "sources": [
-      {
-        "id": "art_1787333771563_tovqc",
-        "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say"
-      },
-      {
-        "id": "art_1787308606118_x7bar",
-        "url": "https://www.theguardian.com/world/2026/aug/21/gun-stash-germany-forest-berlin-believed-linked-russia-reports",
-        "source": "guardian",
-        "title": "Gun stash discovered in German forest believed to be linked to Russia, say reports"
-      },
-      {
-        "id": "art_1787308607216_0i2ma",
-        "url": "https://www.aljazeera.com/news/2026/8/21/nord-stream-bombing-suspect-to-hollywood-fixer-who-is-volodymyr-zhuravlev?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nord Stream bombing suspect to Hollywood fixer: Who is Volodymyr Zhuravlev?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19115,484 +19599,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/ukraines-sacked-defence-minister-calls-for-wartime-elections?traffic_source=rss",
         "source": "aljazeera",
         "title": "Ukraine’s sacked defence minister calls for wartime elections"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5f4b8ea63a9523d8dc25169112bfecbb",
-    "topic_label": "Middle East Tension and Iran",
-    "event_window_start": "2026-08-19T09:00:49.000Z",
-    "event_window_end": "2026-08-19T21:10:39.000Z",
-    "article_ids": [
-      "art_1787180463968_kpvvv",
-      "art_1787180468605_14edn",
-      "art_1787173509691_9r838",
-      "art_1787147615752_drw4i",
-      "art_1787134299881_889un",
-      "art_1787132487011_ja1w3"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T23:29:40.978Z",
-    "updated_at": "2026-08-19T23:29:40.978Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Tensions exist between the United States and Iran.",
-      "There is ongoing conflict involving US and Iranian interests in the Middle East."
-    ],
-    "source_claims": [
-      "[aljazeera] Claims Israel is erasing towns and villages in southern Lebanon's 'pilot zones'.",
-      "[aljazeera] Claims the conflict between the US and Iran has reached a grinding stalemate after six months.",
-      "[aljazeera] Reports the UAE has suspended trade with Iran following alleged ballistic missile targeting.",
-      "[bbc] Reports the US Department of Justice charged 17 Iranians associated with the Mabna Institute for a cyber theft campaign.",
-      "[bbc] Claims the alleged cyber campaign targeted 144 US universities and 42 private firms to steal 31 terabytes of data."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the conflict primarily through the perspective of regional military engagements and diplomatic strain, whereas the BBC focuses on legal action taken by the US Department of Justice against specific individuals for cyber activities."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Claims Israel's attack on a Syrian airbase could have sparked a direct confrontation with Turkish forces, as warned by a US envoy.",
-      "[aljazeera] Claims US military sites in the region have been bombarded throughout the war."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'erasing' to describe Israeli actions in southern Lebanon.",
-      "[aljazeera] uses the term 'woes' to describe the status of the USS Abraham Lincoln.",
-      "[bbc] uses the term 'massive' to describe the scope of the alleged cyber theft campaign."
-    ],
-    "safe_conclusions": [
-      "Regional tensions involving the US, Iran, and various Middle Eastern actors are ongoing.",
-      "The US Department of Justice has initiated legal proceedings against 17 Iranian nationals."
-    ],
-    "unknowns": [
-      "The specific current status of diplomatic negotiations between the US and Iran.",
-      "The full extent of the reported damage to US military sites in the region.",
-      "The long-term impact of the UAE's trade suspension on Iran."
-    ],
-    "synthesis": "Current reports indicate broad regional tensions involving the United States, Iran, and multiple Middle Eastern states. While military and diplomatic conflicts are described as ongoing, the US Department of Justice has also pursued legal actions against Iranian individuals for alleged cyber theft. The provided information highlights military engagement, trade shifts, and cyber-security concerns across the region.",
-    "confidence": "HIGH. The sources represent distinct reporting streams that are factually consistent within their respective scopes, though they address different events occurring within a broader regional context.",
-    "sources": [
-      {
-        "id": "art_1787180463968_kpvvv",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/displaced-lebanese-watch-southern-lebanons-pilot-zones-from-afar-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Lebanese watch southern Lebanon’s ‘pilot zones’ from afar"
-      },
-      {
-        "id": "art_1787180468605_14edn",
-        "url": "https://www.aljazeera.com/news/2026/8/19/uss-lincoln-woes-highlight-us-navy-limits-in-prolonged-iran-war-experts?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "USS Lincoln woes highlight US Navy limits in prolonged Iran war: Experts"
-      },
-      {
-        "id": "art_1787173509691_9r838",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/19/whats-behind-israels-latest-attack-on-syria?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What’s behind Israel’s latest attack on Syria?"
-      },
-      {
-        "id": "art_1787147615752_drw4i",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/war-on-iran-iran-allegedly-targets-the-uae?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Iran allegedly targets the UAE"
-      },
-      {
-        "id": "art_1787134299881_889un",
-        "url": "https://www.bbc.co.uk/news/articles/c1m14n4llvvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US charges 17 Iranians over 'massive' cyber theft campaign"
-      },
-      {
-        "id": "art_1787132487011_ja1w3",
-        "url": "https://www.foxnews.com/opinion/iran-war-forces-america-confront-strategic-cost-deterring-china",
-        "source": "fox",
-        "title": "Iran war forces America to confront the strategic cost of deterring China"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8888be0605dfed42fb0799b6158b94e9",
-    "topic_label": "Ukraine Corruption and Leadership",
-    "event_window_start": "2026-08-19T08:46:56.000Z",
-    "event_window_end": "2026-08-19T17:14:02.000Z",
-    "article_ids": [
-      "art_1787160781845_qrwt8",
-      "art_1787155787113_68v7b",
-      "art_1787132480684_33ybm",
-      "art_1787132484936_wag72",
-      "art_1787132493417_gui6l"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T22:02:22.078Z",
-    "updated_at": "2026-08-19T22:02:22.078Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Mykhailo Fedorov was dismissed from his role as Ukraine's defence minister.",
-      "Mykhailo Fedorov has called for wartime presidential elections in Ukraine.",
-      "Ukraine has been under martial law since the 2022 Russian invasion, resulting in the suspension of elections."
-    ],
-    "source_claims": [
-      "[guardian] states Iryna Mudra, a presidential deputy chief of staff, was dismissed by decree amid reports of a money-laundering investigation.",
-      "[guardian] states 2,000 people marched in Kyiv in support of Mykhailo Fedorov.",
-      "[guardian] reports Ukraine's parliament voted to approve Yevhen Khmara as the new defence minister.",
-      "[bbc] states Mykhailo Fedorov did not mention Volodymyr Zelenskyy by name in his video address.",
-      "[aljazeera] states Mykhailo Fedorov declared that Ukraine is facing a crisis of governance."
-    ],
-    "framing_differences": [
-      "The Guardian frames the dismissals and protests as part of a trend of 'growing pressure for democratic renewal' and 'crisis of governance', whereas the BBC frames the events primarily as a 'political challenge' to the existing presidency."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims Mykhailo Fedorov was 'widely seen as an effective and reforming figure'."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'blistering critique' to describe Fedorov's statements.",
-      "[guardian] uses the term 'embattled president' to describe Volodymyr Zelenskyy.",
-      "[guardian] uses the term 'ousted hero' to describe Mykhailo Fedorov."
-    ],
-    "safe_conclusions": [
-      "Mykhailo Fedorov was removed from his position as Ukraine's defence minister.",
-      "A call for wartime elections has been made by Mykhailo Fedorov.",
-      "Ukraine is currently operating under martial law."
-    ],
-    "unknowns": [
-      "The specific details of the corruption investigation involving Iryna Mudra.",
-      "The official reason for the dismissal of Iryna Mudra.",
-      "The extent of public support for Mykhailo Fedorov beyond the mentioned protests."
-    ],
-    "synthesis": "Former Ukrainian defence minister Mykhailo Fedorov has called for wartime presidential elections, marking a significant political development amidst ongoing martial law. This call coincides with the dismissal of deputy chief of staff Iryna Mudra and anti-corruption investigations involving government officials. The Ukrainian parliament has moved to appoint Yevhen Khmara as the new defence minister following Fedorov's departure.",
-    "confidence": "HIGH: The core events regarding the change in defence minister and the public call for elections are consistently reported across all sources.",
-    "sources": [
-      {
-        "id": "art_1787160781845_qrwt8",
-        "url": "https://www.theguardian.com/world/2026/aug/19/volodymyr-zelenskyy-sacks-senior-aide-amid-ukraine-corruption-crisis",
-        "source": "guardian",
-        "title": "Volodymyr Zelenskyy sacks senior aide amid Ukraine corruption crisis"
-      },
-      {
-        "id": "art_1787155787113_68v7b",
-        "url": "https://www.theguardian.com/world/2026/aug/19/mykhailo-fedorov-zelenskyy-loyalist-opponent-ukraine",
-        "source": "guardian",
-        "title": "Sacking turns former Zelenskyy loyalist into potent political opponent"
-      },
-      {
-        "id": "art_1787132480684_33ybm",
-        "url": "https://www.theguardian.com/world/live/2026/aug/19/europe-ukraine-zelenskyy-mykhailo-fedorov-parliament-vote-corruption-probe-russia-belgium-wildfires-latest-news-updates",
-        "source": "guardian",
-        "title": "Fresh Ukraine corruption probe adds to pressure on Zelenskyy ahead of key vote – Europe live"
-      },
-      {
-        "id": "art_1787132484936_wag72",
-        "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Sacked Ukrainian defence minister calls for presidential election"
-      },
-      {
-        "id": "art_1787132493417_gui6l",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/ukraines-sacked-defence-minister-calls-for-wartime-elections?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukraine’s sacked defence minister calls for wartime elections"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "114dc0980ac3dca9fcc6c80a4598edec",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-08-19T08:46:51.000Z",
-    "event_window_end": "2026-08-19T20:54:48.000Z",
-    "article_ids": [
-      "art_1787173503331_du7qm",
-      "art_1787173509691_9r838",
-      "art_1787160780731_iuuoc",
-      "art_1787155791696_5b06m",
-      "art_1787147609433_yv2hr",
-      "art_1787147614728_ujqdz",
-      "art_1787147616781_66rsy",
-      "art_1787134306064_pkxb3"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 8,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T22:02:22.078Z",
-    "updated_at": "2026-08-19T22:02:22.078Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Israeli government and military are currently involved in several distinct incidents involving international diplomatic tensions, military investigations, and settlement policy.",
-      "The Australian government has expressed dissatisfaction with Israeli military investigative processes regarding the death of Australian aid worker Zomi Frankcom."
-    ],
-    "source_claims": [
-      "[guardian] Penny Wong states the Australian government is 'outraged' by the IDF decision not to pursue a criminal investigation into the 2024 aid convoy strike.",
-      "[bbc] The Israeli government has opened tenders for 1,200 settlement homes in the E1 area of the West Bank.",
-      "[aljazeera] Israel has opened a criminal investigation into the death of Hind Rajab following internal reviews regarding ambulance coordination failures.",
-      "[aljazeera] Israeli forces marked Palestinian detainees with numbers during an arrest campaign in Qabatiya.",
-      "[aljazeera] A US envoy stated that an Israeli strike on a Syrian airbase risked direct confrontation with Turkish forces."
-    ],
-    "framing_differences": [
-      "The BBC frames the E1 settlement project as a move to 'end any chance of a Palestinian state,' while the guardian frames the Australian government's diplomatic actions through the lens of a specific incident regarding Zomi Frankcom.",
-      "Al Jazeera focuses on humanitarian and conflict-related events, such as the killing of Hind Rajab and the treatment of detainees in Qabatiya, while the BBC focuses on land use and international law regarding settlements."
-    ],
-    "contested_claims": [
-      "Regarding the death of Hind Rajab, aljazeera reports that Israel initially denied its soldiers were in the area, a claim that was later adjusted after journalistic investigations."
-    ],
-    "unverified_claims": [
-      "[bbc] The report states that settlements are illegal under international law.",
-      "[bbc] The report claims the Israeli government's specific intent in opening settlement tenders is to 'end any chance of a Palestinian state.'"
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'especially insulting' to describe the timing of the Israeli decision.",
-      "[bbc] uses the term 'so-called' to describe the E1 project.",
-      "[aljazeera] uses the term 'symbol of Gaza’s suffering' to describe Hind Rajab.",
-      "[aljazeera] uses the term 'atrocity' to describe the circumstances surrounding Hind Rajab’s death."
-    ],
-    "safe_conclusions": [
-      "The Israeli military has faced recent scrutiny regarding its investigative procedures and military conduct in Gaza and the West Bank.",
-      "There are ongoing diplomatic and political disputes involving Israel, Australia, and the United States regarding military and settlement activities."
-    ],
-    "unknowns": [
-      "The long-term impact of the reported Israeli settlement tenders on future Palestinian statehood.",
-      "The specific operational details and timeline of the announced criminal investigation into Hind Rajab’s death.",
-      "The total number of detainees marked in the Qabatiya incident."
-    ],
-    "synthesis": "The provided reports detail various ongoing conflicts and diplomatic friction involving the Israeli military and government, including issues related to aid worker safety, settlement expansion, and detainee treatment. Diplomatic relations with Australia are strained following an Israeli decision regarding a past aid convoy strike, while US officials have expressed concern over military actions in Syria. Separately, Israel has initiated a criminal investigation into the death of a young child in Gaza and continues settlement activity in the West Bank.",
-    "confidence": "MEDIUM: HIGH: The sources provide distinct reports on separate events; factual statements regarding the existence of these reports and their claims are internally consistent within each source.",
-    "sources": [
-      {
-        "id": "art_1787173503331_du7qm",
-        "url": "https://www.theguardian.com/australia-news/live/2026/aug/20/australian-politics-live-penny-wong-labor-government-anthony-albanese-gambling-ndis-question-time-angus-taylor-pauline-hanson-ntwnfb",
-        "source": "guardian",
-        "title": "Australian politics live: Penny Wong says government ‘outraged’ and will call in Israel ambassador over IDF decision not to investigate Frankcom killing"
-      },
-      {
-        "id": "art_1787173509691_9r838",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/19/whats-behind-israels-latest-attack-on-syria?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What’s behind Israel’s latest attack on Syria?"
-      },
-      {
-        "id": "art_1787160780731_iuuoc",
-        "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Israel opens up bids for highly-sensitive West Bank settlement project"
-      },
-      {
-        "id": "art_1787155791696_5b06m",
-        "url": "https://www.aljazeera.com/news/2026/8/19/israel-admits-firing-on-car-carrying-hind-rajab-symbol-of-gazas-suffering?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel admits firing on car carrying Hind Rajab, symbol of Gaza’s suffering"
-      },
-      {
-        "id": "art_1787147609433_yv2hr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/israeli-forces-mark-palestinians-with-numbers-amid-mass-arrests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli forces mark Palestinians with numbers amid mass arrests"
-      },
-      {
-        "id": "art_1787147614728_ujqdz",
-        "url": "https://www.aljazeera.com/news/2026/8/19/why-aid-entering-gaza-may-not-reach-those-who-need-it?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why aid entering Gaza may not reach those who need it"
-      },
-      {
-        "id": "art_1787147616781_66rsy",
-        "url": "https://www.aljazeera.com/news/2026/8/19/palestinian-factions-explore-broad-alliance-for-november-elections?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian factions explore broad alliance for November elections"
-      },
-      {
-        "id": "art_1787134306064_pkxb3",
-        "url": "https://www.aljazeera.com/features/2026/8/19/breastfeeding-in-gaza-mothers-seek-help-to-provide-for-their-babies?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Breastfeeding in Gaza: Mothers seek help to provide for their babies"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "56817f92eeba4209927f9777ff5582da",
-    "topic_label": "UAE and Iran Tensions",
-    "event_window_start": "2026-08-19T09:48:16.000Z",
-    "event_window_end": "2026-08-19T13:01:05.000Z",
-    "article_ids": [
-      "art_1787147615752_drw4i",
-      "art_1787134299881_889un"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T22:02:22.078Z",
-    "updated_at": "2026-08-19T22:02:22.078Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The US Department of Justice has initiated legal proceedings against Iranian individuals."
-    ],
-    "source_claims": [
-      "[aljazeera] Iran allegedly targeted the UAE with two ballistic missiles.",
-      "[aljazeera] The UAE has suspended trade with Iran due to the alleged missile incident.",
-      "[bbc] The US Department of Justice charged 17 Iranians for a cyber theft campaign.",
-      "[bbc] The Mabna Institute is alleged to have targeted 144 American universities and 42 private firms since 2013.",
-      "[bbc] The alleged cyber campaign resulted in the theft of 31 terabytes of data worth $3.4bn."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the news cycle around geopolitical military escalation involving the UAE and Iran, whereas the BBC frames the news cycle around specific criminal charges brought by the US Department of Justice against Iranian hackers."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Iran targeted the UAE with two ballistic missiles.",
-      "[aljazeera] The UAE has suspended trade with Iran.",
-      "[bbc] Seventeen Iranians conducted a state-sponsored cyber campaign to steal data from 144 US universities and 42 private firms."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'massive' to describe the scope of the alleged cyber theft campaign.",
-      "[bbc] uses the term 'sweeping' to characterize the state-sponsored effort."
-    ],
-    "safe_conclusions": [
-      "The US government has reported activities involving Iranian entities."
-    ],
-    "unknowns": [
-      "The details of the specific missile incident mentioned by Al Jazeera.",
-      "The current status of diplomatic relations between the UAE and Iran.",
-      "The identities of the 17 individuals charged by the US Department of Justice."
-    ],
-    "synthesis": "News reports have emerged regarding distinct incidents involving Iran, including alleged ballistic missile activity reported by Al Jazeera and criminal cyber theft charges brought by the US Department of Justice reported by the BBC. These reports focus on different domains of security and international relations. No direct link between these two specific reporting threads is identified in the provided texts.",
-    "confidence": "LOW: The sources discuss completely different events, making cross-verification of the provided claims impossible.",
-    "sources": [
-      {
-        "id": "art_1787147615752_drw4i",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/war-on-iran-iran-allegedly-targets-the-uae?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "War on Iran: Iran allegedly targets the UAE"
-      },
-      {
-        "id": "art_1787134299881_889un",
-        "url": "https://www.bbc.co.uk/news/articles/c1m14n4llvvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US charges 17 Iranians over 'massive' cyber theft campaign"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "14847761fabc0f745a22a631c0170763",
-    "topic_label": "US Politics and Trump Admin",
-    "event_window_start": "2026-08-19T15:41:19.000Z",
-    "event_window_end": "2026-08-19T20:13:33.000Z",
-    "article_ids": [
-      "art_1787173513034_kszdm",
-      "art_1787160787259_8e2k6",
-      "art_1787160795987_zaa1g",
-      "art_1787155795678_9wewg"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T22:02:22.078Z",
-    "updated_at": "2026-08-19T22:02:22.078Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump has nominated Dr. Heidi Overton as the commissioner of the FDA.",
-      "Dr. Heidi Overton currently serves in the Trump administration.",
-      "President Trump referred to Dr. Heidi Overton as a 'ROCKSTAR' in a Truth Social post."
-    ],
-    "source_claims": [
-      "[fox] President Trump's approval rating is at 33%, down from 35% the previous week.",
-      "[fox] President Trump stated Dr. Overton will 'continue putting AMERICA FIRST, and creating a HEALTHY AMERICA.'",
-      "[guardian] Dr. Heidi Overton has expressed that Congress should strictly regulate the abortion drug mifepristone to protect women and children.",
-      "[guardian] President Trump made false claims about vaccines while standing next to Dr. Heidi Overton."
-    ],
-    "framing_differences": [
-      "Fox describes Dr. Heidi Overton's professional stance as 'pro-life,' whereas The Guardian frames her stance as being an 'abortion opponent.'",
-      "The Guardian frames the Trump administration's agenda and appointments with language like 'false claims about vaccines,' while Fox highlights the administration's stated goals like 'creating a HEALTHY AMERICA.'"
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] President Trump's approval rating is tied for his lowest ever as commander-in-chief.",
-      "[guardian] President Trump 'sleeps through his meetings' and 'golfs and trades stocks' instead of doing his job, according to comments attributed to Senator Jon Ossoff."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'ROCKSTAR' to describe Dr. Heidi Overton as quoted from the president.",
-      "[fox] uses the term 'AMERICA FIRST' and 'HEALTHY AMERICA' to describe the president's agenda.",
-      "[guardian] uses the term 'false claims' to describe statements made by the president.",
-      "[guardian] uses the term 'abortion opponent' to describe Dr. Heidi Overton.",
-      "[guardian] uses the term 'fruitlessly drains our munitions' to describe the president's actions, quoting Senator Ossoff."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump has nominated Dr. Heidi Overton to lead the FDA.",
-      "Dr. Heidi Overton's nomination is supported by President Trump."
-    ],
-    "unknowns": [
-      "The specific current approval rating of the president is contested by the limited scope of polling data provided.",
-      "The full policy platform Dr. Heidi Overton intends to pursue as FDA commissioner beyond the statements provided."
-    ],
-    "synthesis": "President Donald Trump has nominated Dr. Heidi Overton to serve as the commissioner of the FDA, praising her performance in his administration. Sources differ in their characterization of Overton, with descriptions ranging from 'pro-life' to 'abortion opponent.' Additionally, political discourse includes criticism from Senator Jon Ossoff regarding the president's conduct and military policy during the midterm election cycle.",
-    "confidence": "HIGH. The primary subject—the nomination of Dr. Heidi Overton—is corroborated by multiple sources, though political interpretations of the administration's actions vary significantly.",
-    "sources": [
-      {
-        "id": "art_1787173513034_kszdm",
-        "url": "https://www.foxnews.com/politics/trump-approval-rating-plummets-new-low-ahead-critical-midterms",
-        "source": "fox",
-        "title": "Trump's approval rating plummets to new low ahead of critical midterms: 'More work to do'"
-      },
-      {
-        "id": "art_1787160787259_8e2k6",
-        "url": "https://www.foxnews.com/politics/trump-nominate-dr-heidi-overton-next-fda-commissioner",
-        "source": "fox",
-        "title": "Trump to nominate Dr Heidi Overton as next FDA commissioner"
-      },
-      {
-        "id": "art_1787160795987_zaa1g",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/heidi-overton-fda-commissioner-nomination",
-        "source": "guardian",
-        "title": "Trump nominates abortion opponent Heidi Overton to be head of FDA"
-      },
-      {
-        "id": "art_1787155795678_9wewg",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/trump-white-house-attacks",
-        "source": "guardian",
-        "title": "White House intensifies attacks on opponents and media as Trump seeks new mouthpiece"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
