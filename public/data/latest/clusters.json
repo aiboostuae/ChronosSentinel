@@ -70,6 +70,73 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "a635813b8ceb1a44d1bbbd2bd1bbd57a",
+    "topic_label": "Global flood disasters",
+    "event_window_start": "2026-08-22T04:36:26.000Z",
+    "event_window_end": "2026-08-22T05:35:50.000Z",
+    "article_ids": [
+      "art_1787384383905_7xvoi",
+      "art_1787384388229_y3w2l"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-22T10:27:40.580Z",
+    "updated_at": "2026-08-22T10:27:40.580Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Flooding has occurred in parts of Asia, impacting local communities and residents."
+    ],
+    "source_claims": [
+      "[aljazeera_1] A resident named Debiram Panika reports that his wife and daughter were swept away by floodwaters from the Dikhow River in Assam, India, on July 19.",
+      "[aljazeera_2] Residents in the northern Philippines are questioning the efficacy of funded flood control infrastructure following recent inundation."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames the flood event through a personal narrative of individual loss and tragedy in India, while aljazeera_2 frames the flooding through an investigation into governance and the failure of public infrastructure in the Philippines."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] The specific details of the video call and the death of Debiram Panika's family members.",
+      "[aljazeera_2] The assertion that flood control measures were paid for but failed to function."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the word 'ferocious' to describe the water current.",
+      "[aljazeera_1] uses the word 'tsunami' in the title to describe the nature of the flood impact.",
+      "[aljazeera_2] uses the word 'angry' to describe the sentiment of Philippine residents regarding infrastructure."
+    ],
+    "safe_conclusions": [
+      "Floods have caused disruption and distress to residents in the reported regions of India and the Philippines."
+    ],
+    "unknowns": [
+      "The total number of casualties in the Assam flooding.",
+      "The specific technical or administrative status of the flood control projects in the Philippines.",
+      "Whether the Philippine government has issued an official response to the residents' demands."
+    ],
+    "synthesis": "Reports indicate significant flooding impacts in the Assam state of India and parts of the northern Philippines. Individuals in India are experiencing personal loss due to river surges, while residents in the Philippines are raising questions regarding the performance of flood control infrastructure. Both reports document the immediate challenges faced by communities during monsoon-related flooding events.",
+    "confidence": "HIGH. The sources report on entirely distinct events in different countries, and the factual content provided for each is internally consistent within the context of the respective articles.",
+    "sources": [
+      {
+        "id": "art_1787384383905_7xvoi",
+        "url": "https://www.aljazeera.com/news/2026/8/22/it-was-a-tsunami-floods-leave-death-trail-in-indias-assam?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘It was a tsunami’: Floods leave death trail in India’s Assam"
+      },
+      {
+        "id": "art_1787384388229_y3w2l",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/inundated-philippine-communities-seek-answers-over-flood-control-funds?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Inundated Philippine communities seek answers over flood control funds"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "b05787e8f448251a8ff56b52ab727e0a",
     "topic_label": "US and Canada trade tensions",
     "event_window_start": "2026-08-22T04:02:32.000Z",
@@ -149,13 +216,13 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "a635813b8ceb1a44d1bbbd2bd1bbd57a",
-    "topic_label": "Global flood disasters",
-    "event_window_start": "2026-08-22T04:36:26.000Z",
-    "event_window_end": "2026-08-22T05:35:50.000Z",
+    "cluster_id": "8159fd124ed6fc159028a1aedeedab03",
+    "topic_label": "International Military and Security Conflict",
+    "event_window_start": "2026-08-22T04:30:07.000Z",
+    "event_window_end": "2026-08-22T12:09:09.000Z",
     "article_ids": [
-      "art_1787384383905_7xvoi",
-      "art_1787384388229_y3w2l"
+      "art_1787406044405_lipsf",
+      "art_1787384390274_aruh7"
     ],
     "source_ids": [
       "aljazeera"
@@ -166,51 +233,56 @@
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-22T10:27:40.580Z",
-    "updated_at": "2026-08-22T10:27:40.580Z",
+    "created_at": "2026-08-22T22:57:25.267Z",
+    "updated_at": "2026-08-22T22:57:25.267Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Flooding has occurred in parts of Asia, impacting local communities and residents."
+      "Russian strikes resulted in deaths and injuries in Ukraine.",
+      "A Ukrainian drone attack caused casualties in southern Russia."
     ],
     "source_claims": [
-      "[aljazeera_1] A resident named Debiram Panika reports that his wife and daughter were swept away by floodwaters from the Dikhow River in Assam, India, on July 19.",
-      "[aljazeera_2] Residents in the northern Philippines are questioning the efficacy of funded flood control infrastructure following recent inundation."
+      "[aljazeera_1] Kyiv Mayor Vitali Klitschko confirmed one death in a warehouse fire in Darnytskyi district following a Russian ballistic missile attack.",
+      "[aljazeera_1] The Kherson regional military administration reported three deaths and 13 injuries from Russian strikes.",
+      "[aljazeera_1] Donetsk regional governor Vadym Filashkin reported one death and seven injuries from Russian attacks.",
+      "[aljazeera_2] Burkina Faso detained 11 Nigerian Air Force personnel after a C-130 made an emergency landing in December 2025.",
+      "[aljazeera_2] Burkina Faso stated the aircraft entered its airspace without authorization.",
+      "[aljazeera_2] Nigerian officials stated the landing was caused by a technical issue and followed safety procedures."
     ],
     "framing_differences": [
-      "aljazeera_1 frames the flood event through a personal narrative of individual loss and tragedy in India, while aljazeera_2 frames the flooding through an investigation into governance and the failure of public infrastructure in the Philippines."
+      "aljazeera_1 frames the ongoing conflict through the lens of specific casualty counts and military strikes, while aljazeera_2 frames the geopolitical tension through a specific diplomatic incident regarding airspace and security."
     ],
-    "contested_claims": [],
+    "contested_claims": [
+      "Burkina Faso officials claim the Nigerian aircraft entered its airspace without proper authorization, while Nigerian officials claim the landing was an emergency response to a technical problem conducted according to safety protocols."
+    ],
     "unverified_claims": [
-      "[aljazeera_1] The specific details of the video call and the death of Debiram Panika's family members.",
-      "[aljazeera_2] The assertion that flood control measures were paid for but failed to function."
+      "[aljazeera_1] Russian aerial strikes killed at least six people total and injured 26 in Ukraine.",
+      "[aljazeera_1] A Ukrainian drone attack in southern Russia killed two children and injured their parents."
     ],
     "loaded_language": [
-      "[aljazeera_1] uses the word 'ferocious' to describe the water current.",
-      "[aljazeera_1] uses the word 'tsunami' in the title to describe the nature of the flood impact.",
-      "[aljazeera_2] uses the word 'angry' to describe the sentiment of Philippine residents regarding infrastructure."
+      "[aljazeera_2] uses the term 'growing security divide' to describe the relationship between Nigeria and Sahelian countries."
     ],
     "safe_conclusions": [
-      "Floods have caused disruption and distress to residents in the reported regions of India and the Philippines."
+      "Military actions and accidents involving multiple nations occurred in both Eastern Europe and West Africa during the period described.",
+      "Diplomatic engagement followed the detention of Nigerian personnel in Burkina Faso."
     ],
     "unknowns": [
-      "The total number of casualties in the Assam flooding.",
-      "The specific technical or administrative status of the flood control projects in the Philippines.",
-      "Whether the Philippine government has issued an official response to the residents' demands."
+      "The exact technical cause of the Nigerian Air Force aircraft's emergency landing remains unstated.",
+      "The broader military strategy or long-term impact of the reported aerial strikes in Ukraine and Russia is not defined."
     ],
-    "synthesis": "Reports indicate significant flooding impacts in the Assam state of India and parts of the northern Philippines. Individuals in India are experiencing personal loss due to river surges, while residents in the Philippines are raising questions regarding the performance of flood control infrastructure. Both reports document the immediate challenges faced by communities during monsoon-related flooding events.",
-    "confidence": "HIGH. The sources report on entirely distinct events in different countries, and the factual content provided for each is internally consistent within the context of the respective articles.",
+    "synthesis": "Recent reports cover Russian aerial strikes in Ukraine resulting in casualties alongside a reported Ukrainian drone attack in Russia. Separately, Nigeria and Burkina Faso experienced a diplomatic incident involving the detention and subsequent release of Nigerian Air Force personnel following an emergency aircraft landing. Both events highlight ongoing security challenges and localized escalations in their respective regions.",
+    "confidence": "HIGH. The sources report on distinct events with consistent narrative structures within each topic.",
     "sources": [
       {
-        "id": "art_1787384383905_7xvoi",
-        "url": "https://www.aljazeera.com/news/2026/8/22/it-was-a-tsunami-floods-leave-death-trail-in-indias-assam?traffic_source=rss",
+        "id": "art_1787406044405_lipsf",
+        "url": "https://www.aljazeera.com/news/2026/8/22/russian-strikes-kill-6-people-in-ukraine-day-after-shopping-complex-attack?traffic_source=rss",
         "source": "aljazeera",
-        "title": "‘It was a tsunami’: Floods leave death trail in India’s Assam"
+        "title": "Russian strikes kill 6 people in Ukraine, day after shopping complex attack"
       },
       {
-        "id": "art_1787384388229_y3w2l",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/inundated-philippine-communities-seek-answers-over-flood-control-funds?traffic_source=rss",
+        "id": "art_1787384390274_aruh7",
+        "url": "https://www.aljazeera.com/news/2026/8/22/nigeria-and-the-sahel-a-growing-security-divide?traffic_source=rss",
         "source": "aljazeera",
-        "title": "Inundated Philippine communities seek answers over flood control funds"
+        "title": "Nigeria and the Sahel: A growing security divide"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19005,76 +19077,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Israel opens up bids for highly-sensitive West Bank settlement project"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9bf5e0d0b0ad8651e7e6a77957f3d45e",
-    "topic_label": "US-Canada trade deal",
-    "event_window_start": "2026-08-19T16:55:57.000Z",
-    "event_window_end": "2026-08-19T19:59:14.000Z",
-    "article_ids": [
-      "art_1787173514154_3mbbv",
-      "art_1787160786215_hf9ta"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-19T21:31:43.937Z",
-    "updated_at": "2026-08-19T21:31:43.937Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Canada and the US are in the process of finalizing a trade agreement.",
-      "US President Donald Trump paused threatened tariffs on Canadian goods following discussions with Canadian Prime Minister Mark Carney.",
-      "Trade negotiators met on Wednesday."
-    ],
-    "source_claims": [
-      "[bbc] US Trade Representative Jamieson Greer stated the deal eliminates several trade irritants.",
-      "[bbc] Prime Minister Mark Carney stated the deal secures the best terms for Canada's strategic sectors and provides certainty.",
-      "[aljazeera] President Trump stated the deal includes no tariffs on exports by US farmers and businesses to Canada.",
-      "[aljazeera] President Trump described the deal as very fair."
-    ],
-    "framing_differences": [
-      "bbc frames the deal as having murky details and an ongoing negotiation process, whereas aljazeera frames the agreement as having reached a definitive 'very fair' status."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] President Trump stated that tariffs will be non-existent for farmers."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'very fair' to describe the trade agreement."
-    ],
-    "safe_conclusions": [
-      "The US and Canada are engaged in final negotiations regarding a trade agreement.",
-      "Planned tariffs on Canadian goods have been paused for three days.",
-      "President Trump and Prime Minister Carney have discussed the trade agreement."
-    ],
-    "unknowns": [
-      "The specific terms and concessions of the final trade agreement are not yet publicly disclosed.",
-      "The exact timeline for the finalization of the deal documentation is not specified."
-    ],
-    "synthesis": "The United States and Canada are currently finalizing a trade agreement following discussions between President Donald Trump and Prime Minister Mark Carney. A previously threatened 50 percent tariff on Canadian goods has been paused by the US for three days. While both nations describe the progress positively, the specific terms of the deal remain unpublished.",
-    "confidence": "HIGH; The sources consistently report on the ongoing nature of the deal, the suspension of tariffs, and the dialogue between national leaders.",
-    "sources": [
-      {
-        "id": "art_1787173514154_3mbbv",
-        "url": "https://www.bbc.co.uk/news/articles/c3ekl74jnk5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Canada and US say they are finalising a trade deal, but details remain murky"
-      },
-      {
-        "id": "art_1787160786215_hf9ta",
-        "url": "https://www.aljazeera.com/economy/2026/8/19/us-and-canada-reach-very-fair-trade-agreement-trump-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US and Canada reach ‘very fair’ trade agreement, Trump says"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
