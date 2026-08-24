@@ -1,59 +1,60 @@
 [
   {
-    "cluster_id": "635bf1254aaad2552bab596cbdbfdfcf",
+    "cluster_id": "8e89c51143ab4405a4c38fe952efc1e9",
     "topic_label": "Conflict in Gaza",
-    "event_window_start": "2026-08-23T09:43:47.000Z",
+    "event_window_start": "2026-08-23T13:20:57.000Z",
     "event_window_end": "2026-08-24T07:08:07.000Z",
     "article_ids": [
       "art_1787558862008_uwfln",
       "art_1787558868841_ifgev",
-      "art_1787492458876_bqdys",
-      "art_1787479397563_bjvo3"
+      "art_1787492458876_bqdys"
     ],
     "source_ids": [
       "aljazeera"
     ],
-    "article_count": 4,
+    "article_count": 3,
     "source_count": 1,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-24T08:53:18.457Z",
-    "updated_at": "2026-08-24T08:53:18.457Z",
+    "created_at": "2026-08-24T09:54:43.360Z",
+    "updated_at": "2026-08-24T09:54:43.360Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "Military activities, including air strikes, continue to occur within the Gaza Strip.",
-      "The healthcare system in Gaza is operating under severely restricted conditions.",
-      "Casualties from recent Israeli military actions have been reported in central Gaza."
+      "Gaza faces significant medical infrastructure challenges.",
+      "Israeli military operations have occurred within the Gaza Strip."
     ],
     "source_claims": [
-      "[aljazeera] claims the healthcare system in Gaza is in a state of worsening collapse, particularly within displacement camps.",
-      "[aljazeera] claims Israel is advancing the 'E1' plan in the West Bank.",
-      "[aljazeera] reports that at least 1,286 Palestinians have been killed since the October ceasefire agreement took effect according to the Gaza Ministry of Health.",
-      "[aljazeera] reports an air strike hit a warehouse east of Az-Zawayda in central Gaza.",
-      "[aljazeera] reports an air attack near Maghazi refugee camp resulted in one death and two injuries."
+      "[aljazeera_1] asserts that Gaza's healthcare system is suffering from a worsening collapse despite a current lack of headline coverage regarding hospital raids or bombings.",
+      "[aljazeera_1] states that residents in displacement camps face extreme poverty, lack of sanitation, and inadequate access to healthcare.",
+      "[aljazeera_2] reports that Israel is advancing the 'E1' plan in the occupied West Bank.",
+      "[aljazeera_3] reports that an Israeli air strike hit a warehouse east of Az-Zawayda in central Gaza."
     ],
     "framing_differences": [
-      "Aljazeera frames the healthcare situation in Gaza as a systemic collapse characterized by a lack of basic necessities, while it frames the West Bank situation through the potential geopolitical consequences of the 'E1' plan on a future Palestinian state."
+      "Aljazeera_1 frames the situation in Gaza as a systemic health crisis occurring outside the current news cycle, whereas aljazeera_3 frames the situation through the lens of specific kinetic military actions."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] asserts the current state of Gaza's healthcare system is worse than the previous period of hospital raids and bombings."
+      "[aljazeera_1] claims that there are no violent raids, bombings, or sniper killings occurring in Gaza hospitals currently.",
+      "[aljazeera_3] notes that the air strike is believed to have hit a warehouse east of Az-Zawayda."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the conflict involving Israeli forces in Gaza."
+      "[aljazeera_1] uses the term 'devastated' to describe the healthcare system.",
+      "[aljazeera_1] uses the term 'unbearable' to describe the weather conditions."
     ],
     "safe_conclusions": [
-      "Military actions by Israeli forces are ongoing in the Gaza Strip.",
-      "Health infrastructure in Gaza is currently limited in its ability to provide care to the displaced population."
+      "Medical infrastructure in Gaza is currently limited in its capacity to serve the population.",
+      "Israeli military activity continues in Gaza.",
+      "Israel has an ongoing territorial plan known as E1 in the West Bank."
     ],
     "unknowns": [
-      "The specific tactical objectives of the reported air strikes.",
-      "The total number of casualties from all military engagements occurring simultaneously throughout the Gaza Strip."
+      "The full scope and current status of all medical facilities in Gaza.",
+      "The specific tactical or strategic intent behind the air strike in Az-Zawayda.",
+      "The timeline and specific implementation details of the E1 plan."
     ],
-    "synthesis": "Recent reports indicate ongoing Israeli military air strikes in central Gaza, resulting in reported casualties near the Maghazi refugee camp and damage to a warehouse in Az-Zawayda. The healthcare system in Gaza remains severely constrained, with challenges exacerbated by poor sanitation and limited access for displaced persons. Concurrently, discussions persist regarding the long-term implications of Israeli plans in the West Bank.",
-    "confidence": "HIGH. The sources are internally consistent regarding the occurrence of recent military events and the status of regional infrastructure.",
+    "synthesis": "Current reporting highlights the ongoing degradation of medical infrastructure in Gaza alongside reports of specific Israeli military air strikes. Simultaneously, attention is directed toward Israeli planning in the West Bank, specifically regarding the E1 project. These reports indicate that both humanitarian and territorial issues remain central to the ongoing conflict.",
+    "confidence": "HIGH. The sources are internally consistent and represent the reporting of a single media entity covering different facets of the same conflict.",
     "sources": [
       {
         "id": "art_1787558862008_uwfln",
@@ -72,12 +73,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/heavy-israeli-air-strike-hits-warehouse-in-central-gaza?traffic_source=rss",
         "source": "aljazeera",
         "title": "Heavy Israeli air strike hits warehouse in central Gaza"
-      },
-      {
-        "id": "art_1787479397563_bjvo3",
-        "url": "https://www.aljazeera.com/news/2026/8/23/israeli-air-strike-near-gaza-refugee-camp-kills-one-person-and-injures-two?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli air strike near Gaza refugee camp kills one person and injures two"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -263,75 +258,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/23/russia-withdraws-ambassador-uk-kremlin-pressure-ukraine-andrey-kelin",
         "source": "guardian",
         "title": "Russia withdraws ambassador to UK as Kremlin raises pressure over Ukraine support"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b3e4e87f66e3b51faaa5bf58e875ee20",
-    "topic_label": "Middle East Regional Diplomacy",
-    "event_window_start": "2026-08-24T03:56:59.000Z",
-    "event_window_end": "2026-08-23T21:23:05.000Z",
-    "article_ids": [
-      "art_1787550439883_jy2l5",
-      "art_1787544205700_qin4l"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-24T08:53:18.457Z",
-    "updated_at": "2026-08-24T08:53:18.457Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A US official made statements regarding US policy on the Golan Heights.",
-      "Syrian and Israeli officials have met in Jordan for mediated discussions.",
-      "The United States has acted as a mediator in diplomatic engagements involving Syria and Israel."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Tom Barrack retracted a statement suggesting the Golan Heights is occupied territory.",
-      "[aljazeera] claims Syrian Foreign Minister Asaad al-Shaibani met with Israeli intelligence officials in Jordan.",
-      "[aljazeera] claims the Syrian state news agency Sana reported discussions focused on halting Israeli attacks and arrests.",
-      "[aljazeera] claims the AFP news agency reported the Israeli delegation was led by Mossad chief Roman Gofman."
-    ],
-    "framing_differences": [
-      "The first aljazeera article frames the US position on the Golan Heights as a return to the 2019 policy, while the second aljazeera article focuses on current diplomatic de-escalation efforts between Syria and Israel."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims an Israeli attack occurred on a Syrian airbase near the Turkish border.",
-      "[aljazeera] claims the meetings in Jordan involved 'high-level' Israeli delegations."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'occupied' to describe the status of the Golan Heights under Israeli control."
-    ],
-    "safe_conclusions": [
-      "Diplomatic engagement between Syria and Israel has occurred in Jordan with US mediation.",
-      "US policy regarding the Golan Heights has been publicly clarified by a US representative."
-    ],
-    "unknowns": [
-      "The specific outcomes or formal agreements resulting from the talks in Jordan remain unknown.",
-      "The official details regarding the reported attack on the Syrian airbase are not provided."
-    ],
-    "synthesis": "US representative Tom Barrack clarified that the United States maintains its 2019 policy recognizing Israeli sovereignty over the Golan Heights. Simultaneously, Syrian and Israeli officials have engaged in US-mediated talks in Jordan aimed at de-escalating regional tensions. These discussions reportedly involved high-level representatives from both sides addressing security concerns.",
-    "confidence": "HIGH. The sources consistently report on the diplomatic engagements and the clarification of US policy positions.",
-    "sources": [
-      {
-        "id": "art_1787550439883_jy2l5",
-        "url": "https://www.aljazeera.com/news/2026/8/23/us-envoy-tom-barrack-retracts-comment-that-syrias-golan-is-occupied?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US envoy Tom Barrack retracts comment that Syria’s Golan is occupied"
-      },
-      {
-        "id": "art_1787544205700_qin4l",
-        "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -585,6 +511,305 @@
         "url": "https://www.foxnews.com/outkick-sports/ny-liberty-run-pro-trans-messages-scoreboard-vs-fever-protesters-erupt-outside-arena-refuse-interview",
         "source": "fox",
         "title": "NY Liberty run pro-trans messages on scoreboard vs Fever as protesters erupt outside arena, refuse interview"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "590f016ae180c07499dffa590b459402",
+    "topic_label": "Shein Stock Market Debut",
+    "event_window_start": "2026-08-24T02:05:04.000Z",
+    "event_window_end": "2026-08-24T04:02:59.000Z",
+    "article_ids": [
+      "art_1787547146204_sice2",
+      "art_1787544210313_6kiuk"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-24T05:22:11.190Z",
+    "updated_at": "2026-08-24T05:22:11.190Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Shein plans to list on the Hong Kong stock exchange on 1 September.",
+      "The company aims to raise up to HK$13.86bn ($1.77bn) through the IPO.",
+      "Shein is offering approximately 280 million shares.",
+      "The price range for shares is set between HK$47.60 and HK$49.50.",
+      "The valuation at the top of the price range is approximately $27bn.",
+      "Shein was founded in China and is now headquartered in Singapore."
+    ],
+    "source_claims": [
+      "[guardian] states the company's valuation has dropped by about 70% from a $100bn peak four years ago.",
+      "[bbc] states the valuation decrease reflects weaker sales growth and higher costs.",
+      "[bbc] claims previous attempts to list in the US and London failed due to regulatory challenges.",
+      "[bbc] states the IPO is backed by Goldman Sachs."
+    ],
+    "framing_differences": [
+      "The Guardian frames the valuation drop in the context of ongoing scrutiny regarding the company's environmental footprint, whereas the BBC frames the drop in the context of weaker sales growth, higher costs, and failed attempts to list in other international markets."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims the company has faced scrutiny over its environmental footprint."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'fast-fashion giant' to describe Shein.",
+      "[bbc] uses the term 'fast-fashion giant' to describe Shein."
+    ],
+    "safe_conclusions": [
+      "Shein is moving forward with an IPO on the Hong Kong stock exchange.",
+      "The current targeted valuation of $27bn is lower than the valuation reached by the company in 2022."
+    ],
+    "unknowns": [
+      "The specific regulatory reasons for the failure of potential IPOs in the US or London.",
+      "The final market valuation of the company upon the completion of the IPO."
+    ],
+    "synthesis": "Shein has announced plans for an IPO on the Hong Kong stock exchange, targeting a valuation of approximately $27 billion. The company intends to raise up to HK$13.86 billion through the sale of 280 million shares at a set price range. This listing follows the company's previous private market valuation peak in 2022.",
+    "confidence": "HIGH. The primary financial and logistical details of the IPO are corroborated by both sources.",
+    "sources": [
+      {
+        "id": "art_1787547146204_sice2",
+        "url": "https://www.theguardian.com/business/2026/aug/24/fashion-giant-shein-27bn-valuation-hong-kong-market-debut",
+        "source": "guardian",
+        "title": "Fast-fashion giant Shein aims for $27bn valuation in Hong Kong market debut"
+      },
+      {
+        "id": "art_1787544210313_6kiuk",
+        "url": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Shein aims for almost $27bn valuation in stock market debut"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a65e48593da84ffffb5b305470a922fe",
+    "topic_label": "Maradona Ball Auction",
+    "event_window_start": "2026-08-24T04:19:46.000Z",
+    "event_window_end": "2026-08-24T06:55:06.000Z",
+    "article_ids": [
+      "art_1787558866568_0mo8r",
+      "art_1787547144020_r0dzy"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-24T09:54:43.360Z",
+    "updated_at": "2026-08-24T09:54:43.360Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Diego Maradona scored a goal using his hand against England in the 1986 World Cup.",
+      "The football used in that match has been sold at auction.",
+      "Argentina won the match 2-1 against England.",
+      "Maradona scored a second goal in the same match involving a dribble past five players, referred to as the 'Goal of the Century'."
+    ],
+    "source_claims": [
+      "[bbc] The football sold for £2.5m ($3.3m) at Heritage Auctions.",
+      "[aljazeera] The football sold for $3.35m.",
+      "[bbc] The ball was expected to fetch near £7.3m ($10m)."
+    ],
+    "framing_differences": [
+      "bbc frames the story around the specific auction house and the failed price expectation, while aljazeera frames the event as part of the broader context of Argentina winning the 1986 World Cup."
+    ],
+    "contested_claims": [
+      "The sources report different final sale prices: bbc reports £2.5m ($3.3m) while aljazeera reports $3.35m."
+    ],
+    "unverified_claims": [
+      "[bbc] The auction took place on a Saturday.",
+      "[bbc] Mike Provenza provided comments before the auction.",
+      "[aljazeera] Argentina went on to lift the World Cup after this match."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'famously' to describe the goal.",
+      "[aljazeera] uses the term 'Hand of God' as a title and description."
+    ],
+    "safe_conclusions": [
+      "The football used during the 1986 World Cup match between Argentina and England has been sold at auction."
+    ],
+    "unknowns": [
+      "The identity of the buyer.",
+      "The precise final dollar amount agreed upon at the auction.",
+      "Why the two sources report different final sale figures."
+    ],
+    "synthesis": "The football used by Diego Maradona to score his notable goal during the 1986 World Cup match against England has been sold at auction. Sources provide varying figures for the final sale price, with reports of £2.5m and $3.35m respectively. The match is also noted for the second goal scored by Maradona, frequently referred to as the 'Goal of the Century'.",
+    "confidence": "MEDIUM; While the core event of the ball being sold is consistent, the sources provide conflicting data regarding the specific sale price.",
+    "sources": [
+      {
+        "id": "art_1787558866568_0mo8r",
+        "url": "https://www.bbc.co.uk/sport/football/articles/cqxvj8j7gy8o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Maradona's 'Hand of God' ball sells for £2.5m"
+      },
+      {
+        "id": "art_1787547144020_r0dzy",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-mardona-ball-sold-clip?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Maradona’s ‘Hand of God’ ball from Mexico sells for $3.35m"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "635bf1254aaad2552bab596cbdbfdfcf",
+    "topic_label": "Conflict in Gaza",
+    "event_window_start": "2026-08-23T09:43:47.000Z",
+    "event_window_end": "2026-08-24T07:08:07.000Z",
+    "article_ids": [
+      "art_1787558862008_uwfln",
+      "art_1787558868841_ifgev",
+      "art_1787492458876_bqdys",
+      "art_1787479397563_bjvo3"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-24T08:53:18.457Z",
+    "updated_at": "2026-08-24T08:53:18.457Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Military activities, including air strikes, continue to occur within the Gaza Strip.",
+      "The healthcare system in Gaza is operating under severely restricted conditions.",
+      "Casualties from recent Israeli military actions have been reported in central Gaza."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the healthcare system in Gaza is in a state of worsening collapse, particularly within displacement camps.",
+      "[aljazeera] claims Israel is advancing the 'E1' plan in the West Bank.",
+      "[aljazeera] reports that at least 1,286 Palestinians have been killed since the October ceasefire agreement took effect according to the Gaza Ministry of Health.",
+      "[aljazeera] reports an air strike hit a warehouse east of Az-Zawayda in central Gaza.",
+      "[aljazeera] reports an air attack near Maghazi refugee camp resulted in one death and two injuries."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the healthcare situation in Gaza as a systemic collapse characterized by a lack of basic necessities, while it frames the West Bank situation through the potential geopolitical consequences of the 'E1' plan on a future Palestinian state."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] asserts the current state of Gaza's healthcare system is worse than the previous period of hospital raids and bombings."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'genocidal war' to describe the conflict involving Israeli forces in Gaza."
+    ],
+    "safe_conclusions": [
+      "Military actions by Israeli forces are ongoing in the Gaza Strip.",
+      "Health infrastructure in Gaza is currently limited in its ability to provide care to the displaced population."
+    ],
+    "unknowns": [
+      "The specific tactical objectives of the reported air strikes.",
+      "The total number of casualties from all military engagements occurring simultaneously throughout the Gaza Strip."
+    ],
+    "synthesis": "Recent reports indicate ongoing Israeli military air strikes in central Gaza, resulting in reported casualties near the Maghazi refugee camp and damage to a warehouse in Az-Zawayda. The healthcare system in Gaza remains severely constrained, with challenges exacerbated by poor sanitation and limited access for displaced persons. Concurrently, discussions persist regarding the long-term implications of Israeli plans in the West Bank.",
+    "confidence": "HIGH. The sources are internally consistent regarding the occurrence of recent military events and the status of regional infrastructure.",
+    "sources": [
+      {
+        "id": "art_1787558862008_uwfln",
+        "url": "https://www.aljazeera.com/opinions/2026/8/24/the-right-to-health-in-gaza-is-now-a-privilege?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The right to health in Gaza is now a privilege"
+      },
+      {
+        "id": "art_1787558868841_ifgev",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/occupied-west-bank-division-ps?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Is Israel about to split the occupied West Bank in half?"
+      },
+      {
+        "id": "art_1787492458876_bqdys",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/heavy-israeli-air-strike-hits-warehouse-in-central-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Heavy Israeli air strike hits warehouse in central Gaza"
+      },
+      {
+        "id": "art_1787479397563_bjvo3",
+        "url": "https://www.aljazeera.com/news/2026/8/23/israeli-air-strike-near-gaza-refugee-camp-kills-one-person-and-injures-two?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli air strike near Gaza refugee camp kills one person and injures two"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b3e4e87f66e3b51faaa5bf58e875ee20",
+    "topic_label": "Middle East Regional Diplomacy",
+    "event_window_start": "2026-08-24T03:56:59.000Z",
+    "event_window_end": "2026-08-23T21:23:05.000Z",
+    "article_ids": [
+      "art_1787550439883_jy2l5",
+      "art_1787544205700_qin4l"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-24T08:53:18.457Z",
+    "updated_at": "2026-08-24T08:53:18.457Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A US official made statements regarding US policy on the Golan Heights.",
+      "Syrian and Israeli officials have met in Jordan for mediated discussions.",
+      "The United States has acted as a mediator in diplomatic engagements involving Syria and Israel."
+    ],
+    "source_claims": [
+      "[aljazeera] claims Tom Barrack retracted a statement suggesting the Golan Heights is occupied territory.",
+      "[aljazeera] claims Syrian Foreign Minister Asaad al-Shaibani met with Israeli intelligence officials in Jordan.",
+      "[aljazeera] claims the Syrian state news agency Sana reported discussions focused on halting Israeli attacks and arrests.",
+      "[aljazeera] claims the AFP news agency reported the Israeli delegation was led by Mossad chief Roman Gofman."
+    ],
+    "framing_differences": [
+      "The first aljazeera article frames the US position on the Golan Heights as a return to the 2019 policy, while the second aljazeera article focuses on current diplomatic de-escalation efforts between Syria and Israel."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims an Israeli attack occurred on a Syrian airbase near the Turkish border.",
+      "[aljazeera] claims the meetings in Jordan involved 'high-level' Israeli delegations."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'occupied' to describe the status of the Golan Heights under Israeli control."
+    ],
+    "safe_conclusions": [
+      "Diplomatic engagement between Syria and Israel has occurred in Jordan with US mediation.",
+      "US policy regarding the Golan Heights has been publicly clarified by a US representative."
+    ],
+    "unknowns": [
+      "The specific outcomes or formal agreements resulting from the talks in Jordan remain unknown.",
+      "The official details regarding the reported attack on the Syrian airbase are not provided."
+    ],
+    "synthesis": "US representative Tom Barrack clarified that the United States maintains its 2019 policy recognizing Israeli sovereignty over the Golan Heights. Simultaneously, Syrian and Israeli officials have engaged in US-mediated talks in Jordan aimed at de-escalating regional tensions. These discussions reportedly involved high-level representatives from both sides addressing security concerns.",
+    "confidence": "HIGH. The sources consistently report on the diplomatic engagements and the clarification of US policy positions.",
+    "sources": [
+      {
+        "id": "art_1787550439883_jy2l5",
+        "url": "https://www.aljazeera.com/news/2026/8/23/us-envoy-tom-barrack-retracts-comment-that-syrias-golan-is-occupied?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US envoy Tom Barrack retracts comment that Syria’s Golan is occupied"
+      },
+      {
+        "id": "art_1787544205700_qin4l",
+        "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -973,79 +1198,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/23/dr-congo-m23-rebels-agree-on-roadmap-for-peace-talks?traffic_source=rss",
         "source": "aljazeera",
         "title": "DR Congo, M23 rebels agree on roadmap for peace talks"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "590f016ae180c07499dffa590b459402",
-    "topic_label": "Shein Stock Market Debut",
-    "event_window_start": "2026-08-24T02:05:04.000Z",
-    "event_window_end": "2026-08-24T04:02:59.000Z",
-    "article_ids": [
-      "art_1787547146204_sice2",
-      "art_1787544210313_6kiuk"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-24T05:22:11.190Z",
-    "updated_at": "2026-08-24T05:22:11.190Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Shein plans to list on the Hong Kong stock exchange on 1 September.",
-      "The company aims to raise up to HK$13.86bn ($1.77bn) through the IPO.",
-      "Shein is offering approximately 280 million shares.",
-      "The price range for shares is set between HK$47.60 and HK$49.50.",
-      "The valuation at the top of the price range is approximately $27bn.",
-      "Shein was founded in China and is now headquartered in Singapore."
-    ],
-    "source_claims": [
-      "[guardian] states the company's valuation has dropped by about 70% from a $100bn peak four years ago.",
-      "[bbc] states the valuation decrease reflects weaker sales growth and higher costs.",
-      "[bbc] claims previous attempts to list in the US and London failed due to regulatory challenges.",
-      "[bbc] states the IPO is backed by Goldman Sachs."
-    ],
-    "framing_differences": [
-      "The Guardian frames the valuation drop in the context of ongoing scrutiny regarding the company's environmental footprint, whereas the BBC frames the drop in the context of weaker sales growth, higher costs, and failed attempts to list in other international markets."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims the company has faced scrutiny over its environmental footprint."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'fast-fashion giant' to describe Shein.",
-      "[bbc] uses the term 'fast-fashion giant' to describe Shein."
-    ],
-    "safe_conclusions": [
-      "Shein is moving forward with an IPO on the Hong Kong stock exchange.",
-      "The current targeted valuation of $27bn is lower than the valuation reached by the company in 2022."
-    ],
-    "unknowns": [
-      "The specific regulatory reasons for the failure of potential IPOs in the US or London.",
-      "The final market valuation of the company upon the completion of the IPO."
-    ],
-    "synthesis": "Shein has announced plans for an IPO on the Hong Kong stock exchange, targeting a valuation of approximately $27 billion. The company intends to raise up to HK$13.86 billion through the sale of 280 million shares at a set price range. This listing follows the company's previous private market valuation peak in 2022.",
-    "confidence": "HIGH. The primary financial and logistical details of the IPO are corroborated by both sources.",
-    "sources": [
-      {
-        "id": "art_1787547146204_sice2",
-        "url": "https://www.theguardian.com/business/2026/aug/24/fashion-giant-shein-27bn-valuation-hong-kong-market-debut",
-        "source": "guardian",
-        "title": "Fast-fashion giant Shein aims for $27bn valuation in Hong Kong market debut"
-      },
-      {
-        "id": "art_1787544210313_6kiuk",
-        "url": "https://www.bbc.co.uk/news/articles/cdeweewjdxno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Shein aims for almost $27bn valuation in stock market debut"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18541,168 +18693,6 @@
         "url": "https://www.foxnews.com/world/venezuelans-cubans-colombians-arrive-african-nation-trump-deportation-deal",
         "source": "fox",
         "title": "Venezuelans, Cubans, Colombians arrive in African nation under Trump deportation deal"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e97b27ae29b31165cd55c4336d325994",
-    "topic_label": "Pakistan: Imran Khan Hospitalized",
-    "event_window_start": "2026-08-20T21:18:10.000Z",
-    "event_window_end": "2026-08-21T03:08:09.000Z",
-    "article_ids": [
-      "art_1787290804570_nyftb",
-      "art_1787290810860_g00oe",
-      "art_1787270424233_7btmp",
-      "art_1787263475157_zcski"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T06:08:18.984Z",
-    "updated_at": "2026-08-21T06:08:18.984Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Imran Khan is a former Prime Minister of Pakistan currently held in prison.",
-      "The Supreme Court of Pakistan ordered that Imran Khan be transferred from prison to a hospital for a medical evaluation.",
-      "Imran Khan was transferred to a hospital in Islamabad and subsequently returned to prison.",
-      "Government officials and medical personnel stated that Khan was found to be medically fit."
-    ],
-    "source_claims": [
-      "[aljazeera] The government stated that the medical evaluation found no issue requiring immediate care.",
-      "[bbc] Pakistan's information minister Attaullah Tarar stated that Khan was examined by a team of doctors including an ophthalmologist, a cardiologist, and a physician.",
-      "[guardian] Zulfikar Bukhari, a spokesperson for Khan's party, stated that the court order specifies that Khan's family should be allowed to meet him.",
-      "[aljazeera] Geo News reported that authorities completed preparations to shift the 73-year-old former prime minister to Shifa International Hospital."
-    ],
-    "framing_differences": [
-      "[guardian] frames the transfer as a result of public uproar and deteriorating health, whereas [bbc] and [aljazeera] frame the transfer as a procedural response to a specific Supreme Court order.",
-      "[guardian] highlights the legal and family access rights requested by the party, while [bbc] emphasizes the government's official assessment of Khan being medically fit."
-    ],
-    "contested_claims": [
-      "Sources differ on the context of the health concerns: [guardian] reports his health is 'deteriorating' amid 'uproar,' while government sources cited by [aljazeera] and [bbc] classify him as 'medically fit' and requiring no immediate care."
-    ],
-    "unverified_claims": [
-      "[guardian] Reports that Imran Khan's health is deteriorating.",
-      "[aljazeera] Reports that the government filed a petition against the Supreme Court's decision to move Khan to the hospital."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'uproar' to describe the public reaction to Khan's health.",
-      "[bbc] uses the term 'cricketer-turned-politician' to describe Imran Khan."
-    ],
-    "safe_conclusions": [
-      "Imran Khan was moved from prison to a hospital in Islamabad to receive a medical examination, as ordered by the Supreme Court, and has since been returned to prison."
-    ],
-    "unknowns": [
-      "The exact medical findings of the doctors who examined Khan.",
-      "Whether the Supreme Court order explicitly granted family visitation rights.",
-      "The status of the government's petition against the transfer."
-    ],
-    "synthesis": "Former Pakistani Prime Minister Imran Khan was transferred from Adiala jail to a hospital in Islamabad for a medical evaluation, following a directive from the Supreme Court. Upon examination by a medical team, government officials reported that Khan was deemed fit and returned to custody. Media sources offer varying perspectives on the status of his health and the legal requirements surrounding the transfer.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1787290804570_nyftb",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/pakistans-imran-khan-moved-to-hospital-after-supreme-court-order?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan’s Imran Khan moved to hospital after Supreme Court order"
-      },
-      {
-        "id": "art_1787290810860_g00oe",
-        "url": "https://www.bbc.co.uk/news/articles/ckgdr9vr50po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Jailed Pakistan ex-PM Imran Khan taken to hospital for treatment"
-      },
-      {
-        "id": "art_1787270424233_7btmp",
-        "url": "https://www.theguardian.com/world/2026/aug/20/imran-khan-hospital-pakistan",
-        "source": "guardian",
-        "title": "Jailed ex-Pakistani PM Imran Khan in hospital after uproar over health"
-      },
-      {
-        "id": "art_1787263475157_zcski",
-        "url": "https://www.aljazeera.com/news/2026/8/20/pakistans-ex-pm-imran-khan-transferred-from-jail-to-hospital?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan’s ex-PM Imran Khan reportedly moved to hospital from jail"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "52a20ec66384e89ae64f24650031d62a",
-    "topic_label": "US Capitol Bomb Plot Arrest",
-    "event_window_start": "2026-08-20T23:01:15.000Z",
-    "event_window_end": "2026-08-20T21:03:30.000Z",
-    "article_ids": [
-      "art_1787290809818_5p2y2",
-      "art_1787270425258_mcxbo"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-21T06:08:18.984Z",
-    "updated_at": "2026-08-21T06:08:18.984Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Jessica Bowie, age 35, has been arrested in New York.",
-      "Bowie is charged with providing material support to a foreign terrorist organization.",
-      "The Justice Department alleges Bowie pledged allegiance to the Islamic State/ISIL.",
-      "The FBI reports the arrest was related to a plot involving the New York State Capitol."
-    ],
-    "source_claims": [
-      "[bbc] reports that prosecutors allege Bowie was carrying a fake bomb and a defective gun supplied by undercover agents.",
-      "[bbc] reports that prosecutors state Bowie made specific verbal threats to destroy the building and kill senators.",
-      "[aljazeera] reports that Assistant Attorney General John A. Eisenberg stated investigators stopped Bowie before she could act on the plot.",
-      "[aljazeera] reports the Department of Justice announced the arrest on Thursday."
-    ],
-    "framing_differences": [
-      "The BBC frames the story by focusing on the evidence of surveillance and the specific details of the alleged bomb-making materials, while Al Jazeera focuses on the official statement from the Department of Justice regarding the prevention of the attack."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] claims police provided images of the suspect purchasing bomb-making materials at a hardware store."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'thwarted' to describe the FBI's intervention in the alleged plot.",
-      "[aljazeera] uses the term 'bring terror' to describe the alleged intent of the suspect as characterized by the Justice Department."
-    ],
-    "safe_conclusions": [
-      "Jessica Bowie is currently in custody facing federal charges related to providing support for a terrorist organization.",
-      "Law enforcement officials have stated publicly that they prevented an attack on the New York State Capitol involving the suspect."
-    ],
-    "unknowns": [
-      "Whether the suspect entered a plea in court.",
-      "The timeline of when the FBI began monitoring the suspect.",
-      "The specific nature of the hardware store items allegedly purchased by the suspect."
-    ],
-    "synthesis": "The FBI has arrested 35-year-old Jessica Bowie and charged her with providing material support to the Islamic State. Prosecutors allege the suspect planned to attack the New York State Capitol, though the plot was intercepted by law enforcement. The suspect remains in custody pending further legal proceedings.",
-    "confidence": "HIGH. Both sources are consistent regarding the identity of the suspect, the nature of the charges, and the government's official position on the thwarted plot.",
-    "sources": [
-      {
-        "id": "art_1787290809818_5p2y2",
-        "url": "https://www.bbc.co.uk/news/articles/c5y615l2w46o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "FBI arrests woman over alleged plot to bomb New York capitol building"
-      },
-      {
-        "id": "art_1787270425258_mcxbo",
-        "url": "https://www.aljazeera.com/news/2026/8/20/us-charges-woman-for-allegedly-plotting-attack-on-new-york-state-capitol?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US charges woman for allegedly plotting attack on New York State Capitol"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
