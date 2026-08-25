@@ -116,61 +116,68 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "a3118a0d2869e7ec404756fe059ee789",
-    "topic_label": "Israel-Gaza Conflict",
-    "event_window_start": "2026-08-24T07:08:07.000Z",
+    "cluster_id": "84d7e7bfe68ae344124261675c118a49",
+    "topic_label": "Conflict in Gaza and Middle East",
+    "event_window_start": "2026-08-24T03:56:59.000Z",
     "event_window_end": "2026-08-24T21:12:06.000Z",
     "article_ids": [
       "art_1787612719567_60y2c",
       "art_1787610763476_lvrmq",
       "art_1787595311561_8x6i7",
-      "art_1787558862008_uwfln"
+      "art_1787558862008_uwfln",
+      "art_1787554926260_6umtc",
+      "art_1787544205700_qin4l"
     ],
     "source_ids": [
-      "aljazeera"
+      "aljazeera",
+      "guardian"
     ],
-    "article_count": 4,
-    "source_count": 1,
+    "article_count": 6,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-25T01:08:09.778Z",
-    "updated_at": "2026-08-25T01:08:09.778Z",
+    "created_at": "2026-08-25T02:32:36.249Z",
+    "updated_at": "2026-08-25T02:32:36.249Z",
     "region_tag": "middle-east",
     "shared_facts": [
-      "An Israeli air strike occurred in the Deir al-Balah area of Gaza.",
-      "The strike resulted in at least one fatality.",
-      "Sliman Mansour, a Palestinian artist, has died at the age of 79."
+      "An Israeli air strike occurred near al-Aqsa Hospital in Deir al-Balah.",
+      "At least one person was killed in the strike in Deir al-Balah.",
+      "Sliman Mansour, a Palestinian artist, has died at age 79."
     ],
     "source_claims": [
-      "[aljazeera] claims that the strike hit a tent sheltering displaced Palestinians near al-Aqsa Hospital.",
-      "[aljazeera] claims the Israeli military stated they targeted two militants, including Muhammad Abdul Nasser Jaber Abu Asad, who were allegedly involved in the October 7 attack and Hamas operations.",
-      "[aljazeera] claims more than 1,300 Palestinians have been killed since the October ceasefire."
+      "[aljazeera] The Israeli army stated it targeted two militants in Deir al-Balah, claiming one was a member of Hamas's elite forces involved in the October 7 attack.",
+      "[aljazeera] The Israeli army claimed the targeted individuals were working to rebuild Hamas's capabilities.",
+      "[guardian] Joshua Aviles stated he is a sailor on the USS Abraham Lincoln deployed in the Middle East.",
+      "[guardian] The US Department of Homeland Security stated Luis Manuel Aviles Roa was arrested by Border Patrol during a vehicle stop in Key West, Florida."
     ],
     "framing_differences": [
-      "Aljazeera frames the strike in Deir al-Balah primarily through the perspective of displaced civilians in tents, while also reporting the Israeli military's statement regarding specific militant targets."
+      "Aljazeera frames the Deir al-Balah strike as part of a 'wider escalation' in Gaza, while the Guardian focuses on a specific domestic immigration case involving a US sailor.",
+      "Aljazeera characterizes Sliman Mansour's work as a 'symbol of resistance', focusing on his role in documenting Palestinian heritage."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] claims that Gaza's healthcare system currently faces no violent raids, hospital bombings, or sniper killings in hospital yards."
+      "[aljazeera] More than 1,300 Palestinians have been killed since the October ceasefire.",
+      "[aljazeera] Gaza's healthcare system is facing a 'worsening collapse' characterized by a lack of sanitation, water, and exposure to extreme temperatures."
     ],
     "loaded_language": [
       "[aljazeera] uses the term 'iconic' to describe Sliman Mansour.",
-      "[aljazeera] uses the term 'devastated' to describe Gaza's healthcare system."
+      "[aljazeera] uses the term 'devastated' to describe Gaza's healthcare system.",
+      "[aljazeera] uses the term 'unbearable' to describe the heat or cold in displacement camps."
     ],
     "safe_conclusions": [
-      "An Israeli military operation took place in Deir al-Balah involving airstrikes.",
-      "Palestinian artist Sliman Mansour has died.",
-      "Displaced persons are present in the Deir al-Balah area."
+      "An incident involving an Israeli strike resulted in casualties in Deir al-Balah.",
+      "A Nicaraguan national named Luis Manuel Aviles Roa was taken into federal immigration detention in Florida.",
+      "Sliman Mansour died at age 79."
     ],
     "unknowns": [
-      "The total number of casualties from the Deir al-Balah strike beyond the one reported fatality.",
-      "The official cause of death for Sliman Mansour.",
-      "The specific operational status of all healthcare facilities in Gaza."
+      "The total number of casualties in the Deir al-Balah strike beyond the confirmed one death.",
+      "The specific current legal status of Luis Manuel Aviles Roa regarding his residency application.",
+      "The extent of medical infrastructure functionality in specific Gaza displacement camps."
     ],
-    "synthesis": "An Israeli airstrike in Deir al-Balah resulted in at least one death after targeting individuals identified by the Israeli military as Hamas militants. Separately, the Palestinian artist Sliman Mansour has died at age 79. Reports indicate ongoing humanitarian and healthcare challenges within Gaza's displacement camps.",
-    "confidence": "HIGH. The sources are consistent in their reporting of the specific events mentioned, though the articles cover disparate topics including military strikes, an artist's death, and healthcare conditions.",
+    "synthesis": "Israeli forces conducted a strike in Deir al-Balah that resulted in at least one death, with the military citing the targeting of Hamas militants. Separately, the father of a deployed US sailor was taken into federal immigration detention in Florida following a vehicle stop. Additionally, Palestinian artist Sliman Mansour has died at age 79.",
+    "confidence": "HIGH. The sources report on distinct and independent events with minimal overlapping factual disputes.",
     "sources": [
       {
         "id": "art_1787612719567_60y2c",
@@ -195,6 +202,125 @@
         "url": "https://www.aljazeera.com/opinions/2026/8/24/the-right-to-health-in-gaza-is-now-a-privilege?traffic_source=rss",
         "source": "aljazeera",
         "title": "The right to health in Gaza is now a privilege"
+      },
+      {
+        "id": "art_1787554926260_6umtc",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/uss-lincoln-sailor-deployed-iran-war-father-arrested-by-ice",
+        "source": "guardian",
+        "title": "Father of USS Lincoln sailor taken into ICE detention while son deployed in Middle East"
+      },
+      {
+        "id": "art_1787544205700_qin4l",
+        "url": "https://www.aljazeera.com/news/2026/8/24/syria-israel-hold-us-mediated-talks-in-jordan-to-de-escalate-tensions?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Syria, Israel hold US-mediated talks in Jordan to de-escalate tensions"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "13c6104a56500240ff61cedd18eb8f7c",
+    "topic_label": "Ukraine War and Support",
+    "event_window_start": "2026-08-24T06:55:58.000Z",
+    "event_window_end": "2026-08-24T22:53:40.000Z",
+    "article_ids": [
+      "art_1787612711097_bs6j8",
+      "art_1787612722748_lhl6f",
+      "art_1787595310308_55blm",
+      "art_1787593390602_pqz80",
+      "art_1787558856401_yakaa",
+      "art_1787558864129_w8vi4"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-24T23:30:06.935Z",
+    "updated_at": "2026-08-24T23:30:06.935Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Ukraine celebrated its 35th Independence Day on a Monday.",
+      "International leaders visited Kyiv to mark the occasion of Ukraine's Independence Day.",
+      "Ukrainian President Volodymyr Zelenskyy was present in Kyiv during Independence Day events.",
+      "Russian military actions and attacks continue in the context of the ongoing war."
+    ],
+    "source_claims": [
+      "[fox] Claims that former Deputy Assistant Secretary of State Carrie Filipetti stated Vladimir Putin is 'panicked' due to Ukrainian forces striking inside Russia.",
+      "[fox] Claims that Ukraine's Security Service issued warnings regarding possible terrorist attacks ahead of the holiday.",
+      "[aljazeera] Claims that President Volodymyr Zelenskyy has rejected calls for wartime elections amidst domestic political pressure.",
+      "[aljazeera] States that President Vladimir Putin signed a decree allowing the Russian state to take temporary control of critical infrastructure deemed inadequately protected.",
+      "[guardian] States that UK Prime Minister Andy Burnham visited Kyiv on Monday to pledge military and diplomatic support, including plans regarding long-range missiles.",
+      "[guardian] Describes a ceremony at St Sophia cathedral where President Zelenskyy presented awards to families of fallen soldiers."
+    ],
+    "framing_differences": [
+      "Fox frames the Independence Day event primarily through the lens of security risks, military bombardment, and the psychological state of the Russian leadership.",
+      "Al Jazeera frames the event in the context of domestic political challenges for President Zelenskyy and administrative shifts within Russia regarding infrastructure control.",
+      "The Guardian frames the event as a diplomatic milestone, focusing on the visit of UK Prime Minister Andy Burnham and the human toll of the conflict."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Claims that Vladimir Putin is 'panicked' as a result of Ukrainian strikes deeper inside Russia.",
+      "[aljazeera] Mentions corruption investigations into senior government officials as a factor in domestic political pressure."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'panicked' to describe the state of Vladimir Putin.",
+      "[guardian] uses the phrase 'bitter human cost of the war' to describe the impact of the conflict on the Ukrainian population."
+    ],
+    "safe_conclusions": [
+      "Ukraine held Independence Day commemorations while involved in an ongoing armed conflict.",
+      "Foreign leaders and officials visited Kyiv during the 35th Independence Day anniversary.",
+      "Military and administrative activities are occurring in both Russia and Ukraine during this period."
+    ],
+    "unknowns": [
+      "The specific identity of all international leaders present at the Independence Day ceremonies.",
+      "The full scope and long-term impact of the Russian decree concerning infrastructure control.",
+      "The specific nature of the domestic political pressure mentioned in relation to wartime elections."
+    ],
+    "synthesis": "Ukraine marked its 35th Independence Day on Monday amid ongoing conflict and high-level international diplomatic visits to Kyiv. While international leaders pledged continued support, including military and diplomatic cooperation, the region remains subject to intensified Russian military activity. Concurrently, domestic political and administrative developments, including infrastructure decrees in Russia and election discussions in Ukraine, continue to unfold.",
+    "confidence": "HIGH. The sources consistently report on the occurrence of the Independence Day anniversary and the presence of international figures in Kyiv, despite varying focus areas.",
+    "sources": [
+      {
+        "id": "art_1787612711097_bs6j8",
+        "url": "https://www.foxnews.com/world/putin-panicked-defiant-ukraine-marks-independence-day-under-russian-bombardment",
+        "source": "fox",
+        "title": "Putin ‘panicked’ as defiant Ukraine marks Independence Day under Russian bombardment"
+      },
+      {
+        "id": "art_1787612722748_lhl6f",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/24/whats-behind-domestic-political-pressure-on-ukraines-president?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What’s behind domestic political pressure on Ukraine’s president?"
+      },
+      {
+        "id": "art_1787595310308_55blm",
+        "url": "https://www.theguardian.com/politics/2026/aug/24/burnham-visit-kyiv-support-for-ukraine",
+        "source": "guardian",
+        "title": "Burnham’s visit to Kyiv marks a renewal of badly needed support for Ukraine"
+      },
+      {
+        "id": "art_1787593390602_pqz80",
+        "url": "https://www.aljazeera.com/news/2026/8/24/russia-to-seize-poorly-protected-infrastructure-as-ukraine-barrage-persists?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia to seize poorly protected infrastructure as Ukraine barrage persists"
+      },
+      {
+        "id": "art_1787558856401_yakaa",
+        "url": "https://www.theguardian.com/world/live/2026/aug/24/europe-ukraine-russia-war-kyiv-andy-burnham-volodymyr-zelenskyy-latest-news-updates",
+        "source": "guardian",
+        "title": "Andy Burnham arrives in Ukraine with plans to share UK blueprints for long-range missiles - Europe live"
+      },
+      {
+        "id": "art_1787558864129_w8vi4",
+        "url": "https://www.aljazeera.com/news/2026/8/24/ukraines-allies-convene-in-kyiv-as-zelenskyy-seeks-air-defence-boost?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukraine’s allies convene in Kyiv as Zelenskyy seeks air defence boost"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -282,6 +408,323 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/24/supreme-court-trump-mail-in-voting",
         "source": "guardian",
         "title": "US supreme court rules Trump can proceed with crackdown on mail-in voting"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ca29322c79ccf5c27941030805ac73cd",
+    "topic_label": "Nevada Wildfire Evacuations",
+    "event_window_start": "2026-08-24T02:55:39.000Z",
+    "event_window_end": "2026-08-24T13:17:40.000Z",
+    "article_ids": [
+      "art_1787579957919_ipesm",
+      "art_1787544209283_gzgim"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-24T14:50:35.815Z",
+    "updated_at": "2026-08-24T14:50:35.815Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A wildfire near Reno, Nevada, has resulted in at least six injuries.",
+      "Officials have categorized the wildfire as human-caused.",
+      "Approximately 42,000 people have been forced to evacuate due to the fire.",
+      "An additional 45,000 people have been placed on evacuation alert.",
+      "Several homes have been destroyed by the fire."
+    ],
+    "source_claims": [
+      "[guardian] cites Reno mayor Hillary Schieve regarding the evacuation figures.",
+      "[guardian] reports the fire began on Saturday to the north-west of Reno and displayed extreme fire behavior.",
+      "[guardian] reports three of the six injured individuals are first responders."
+    ],
+    "framing_differences": [
+      "The Guardian provides more descriptive detail regarding fire behavior and the composition of the injured parties, whereas Al Jazeera focuses on the scale of the evacuations and the status of the investigation."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] reports that all but one school in Washoe county was affected by the incident."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'fast-moving' to describe the fire progression.",
+      "[guardian] uses the term 'extreme fire behavior' to describe the fire conditions."
+    ],
+    "safe_conclusions": [
+      "A wildfire is currently active near Reno, Nevada, causing evacuations and injuries.",
+      "Authorities have determined the fire is human-caused and are conducting an investigation."
+    ],
+    "unknowns": [
+      "The specific cause of the human-caused fire remains undisclosed.",
+      "The exact timeline for when the 45,000 people on alert might need to evacuate is not provided."
+    ],
+    "synthesis": "A human-caused wildfire near Reno, Nevada, has led to the evacuation of 42,000 residents and placed 45,000 others on alert. Six people, including three first responders, have been injured, and multiple homes have been destroyed. The situation remains under investigation by local officials.",
+    "confidence": "HIGH. The primary figures and the official determination regarding the origin of the fire are consistent across both reports.",
+    "sources": [
+      {
+        "id": "art_1787579957919_ipesm",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/hawk-fire-reno-nevada-injuries-evacuations",
+        "source": "guardian",
+        "title": "At least six injured in Reno, Nevada, wildfire as 42,000 forced to evacuate"
+      },
+      {
+        "id": "art_1787544209283_gzgim",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "81152214ac2e82bc927d0f4028dc18a0",
+    "topic_label": "WNBA Controversy and Conflict",
+    "event_window_start": "2026-08-24T03:39:04.000Z",
+    "event_window_end": "2026-08-24T21:03:31.000Z",
+    "article_ids": [
+      "art_1787612720604_6g8kh",
+      "art_1787595298906_wlvgx",
+      "art_1787595304605_c5gau",
+      "art_1787550429597_wkpgn",
+      "art_1787544206793_24rhm"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T02:32:36.249Z",
+    "updated_at": "2026-08-25T02:32:36.249Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Enes Kanter Freedom and Royce White have declared for the 2027 WNBA draft.",
+      "A verbal altercation occurred between Enes Kanter Freedom and Chicago Sky player Natasha Cloud during a game between the Indiana Fever and the Chicago Sky at Wintrust Arena.",
+      "Enes Kanter Freedom was removed from the arena by security following the interaction with Natasha Cloud."
+    ],
+    "source_claims": [
+      "[fox] claims the WNBA has declared Enes Kanter Freedom and Royce White ineligible for the 2027 draft based on anonymous league sources.",
+      "[fox] claims Enes Kanter Freedom was ejected from the game after Natasha Cloud made vulgar, expletive-laden remarks toward him.",
+      "[fox] claims Natasha Cloud posted a social media message stating that transgender individuals belong and are protected by her following the altercation."
+    ],
+    "framing_differences": [
+      "The sources collectively frame the incident through the lens of a conflict over WNBA eligibility policies and transgender inclusion, whereas the specific reports from Fox prioritize Enes Kanter Freedom's perspective on his removal from the arena."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] reports unnamed league sources claim the WNBA has deemed Freedom and White ineligible, though no official WNBA confirmation is provided.",
+      "[fox] claims Enes Kanter Freedom was told by Natasha Cloud, 'She’s not gonna sleep with you' after he celebrated a shot by Sophie Cunningham."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'vulgar remark' to describe comments allegedly made by Natasha Cloud.",
+      "[fox] uses the term 'hostile' to describe the behavior of WNBA fans toward Enes Kanter Freedom."
+    ],
+    "safe_conclusions": [
+      "Enes Kanter Freedom was removed from a WNBA game after an interaction with Natasha Cloud.",
+      "There is public discourse regarding the WNBA's player eligibility criteria and stance on transgender athletes."
+    ],
+    "unknowns": [
+      "The official reason for the alleged ineligibility of Freedom and White for the 2027 WNBA draft.",
+      "The specific content of all remarks exchanged between Natasha Cloud and Enes Kanter Freedom during the game.",
+      "Whether the WNBA has issued any formal statements or internal policies regarding the eligibility of the individuals mentioned."
+    ],
+    "synthesis": "Former NBA players Enes Kanter Freedom and Royce White have declared their intent to enter the 2027 WNBA draft. During a game between the Indiana Fever and the Chicago Sky, an altercation occurred between Freedom and Chicago Sky player Natasha Cloud, resulting in Freedom's removal from the arena. Following the incident, Cloud expressed support for transgender individuals on social media.",
+    "confidence": "HIGH: All reports provided originate from a single outlet, ensuring consistency in the narrative details provided across the various articles.",
+    "sources": [
+      {
+        "id": "art_1787612720604_6g8kh",
+        "url": "https://www.foxnews.com/outkick-sports/wnba-reportedly-says-enes-kanter-freedom-royce-white-ineligible-wont-explain-why",
+        "source": "fox",
+        "title": "WNBA reportedly says Enes Kanter Freedom and Royce White are ineligible, but won't explain why"
+      },
+      {
+        "id": "art_1787595298906_wlvgx",
+        "url": "https://www.foxnews.com/outkick-sports/royce-white-predicts-enes-kanter-freedom-suspended-wnba-events-run-natasha-cloud",
+        "source": "fox",
+        "title": "Royce White predicts Enes Kanter Freedom will be suspended from WNBA events after run in with Natasha Cloud"
+      },
+      {
+        "id": "art_1787595304605_c5gau",
+        "url": "https://www.foxnews.com/outkick-sports/wnba-fight-males-womens-sports-exposes-left-keeps-answering-question-nobody-asked",
+        "source": "fox",
+        "title": "WNBA fight over males in women's sports exposes how the left keeps answering a question nobody asked"
+      },
+      {
+        "id": "art_1787550429597_wkpgn",
+        "url": "https://www.foxnews.com/outkick-sports/enes-kanter-freedom-opens-confrontation-natasha-cloud-led-ejection-wnba-pursuit",
+        "source": "fox",
+        "title": "Enes Kanter Freedom opens up on confrontation with Natasha Cloud that led to ejection, WNBA pursuit"
+      },
+      {
+        "id": "art_1787544206793_24rhm",
+        "url": "https://www.foxnews.com/outkick-sports/wnba-player-natasha-cloud-fires-pro-trans-message-following-altercation-enes-kanter-freedom",
+        "source": "fox",
+        "title": "WNBA player Natasha Cloud fires off pro-trans message following altercation with Enes Kanter Freedom"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "94b0a4a70e108dc8978d6ea333462a2b",
+    "topic_label": "US Political Speculation",
+    "event_window_start": "2026-08-24T16:37:47.000Z",
+    "event_window_end": "2026-08-24T22:19:08.000Z",
+    "article_ids": [
+      "art_1787612717445_0mxs5",
+      "art_1787595308181_8le11"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T02:32:36.249Z",
+    "updated_at": "2026-08-25T02:32:36.249Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Hakeem Jeffries and Jared Kushner held a private meeting.",
+      "The meeting topics included housing, immigration, and the cost of living.",
+      "The New York Times originally reported on the meeting."
+    ],
+    "source_claims": [
+      "[aljazeera] The meeting is a signal the White House is seeking ways to work with Democrats if they win the midterm elections.",
+      "[fox] The meeting has resulted in backlash from progressives on social media.",
+      "[fox] Jeffries is facing accusations of betrayal from some on the political left."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the meeting as a potential signal for future bipartisan cooperation, whereas Fox frames the meeting primarily through the lens of internal political backlash and negative reactions from the progressive wing of the Democratic party."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The meeting indicates the White House is preparing for a potential Democratic majority.",
+      "[fox] Jeffries is in hot water with those on the political left."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'far-left progressives' to describe critics of the meeting.",
+      "[fox] uses the term 'in hot water' to describe Jeffries' political standing regarding the meeting.",
+      "[fox] uses the term 'betrayal' to describe the accusations leveled against Jeffries."
+    ],
+    "safe_conclusions": [
+      "Hakeem Jeffries and Jared Kushner met privately to discuss policy areas including housing, immigration, and the cost of living."
+    ],
+    "unknowns": [
+      "The specific policy details discussed during the meeting.",
+      "The official response or statement from Hakeem Jeffries regarding the meeting.",
+      "The scope of the backlash or the specific number of individuals involved in the reported criticism."
+    ],
+    "synthesis": "House Minority Leader Hakeem Jeffries and Jared Kushner met privately to discuss potential bipartisan cooperation on housing, immigration, and cost-of-living issues. The meeting, which was first reported by the New York Times, has been interpreted by different media outlets as either a sign of future political collaboration or a source of internal party tension. The exact details of the discussions remain undisclosed.",
+    "confidence": "HIGH. Both sources corroborate the occurrence of the meeting, the participants, and the primary topics of discussion, despite differences in emphasis.",
+    "sources": [
+      {
+        "id": "art_1787612717445_0mxs5",
+        "url": "https://www.aljazeera.com/news/2026/8/24/jeffries-kushner-meeting-sparks-speculation-amid-contentious-us-midterms?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jeffries-Kushner meeting sparks speculation amid contentious US midterms"
+      },
+      {
+        "id": "art_1787595308181_8le11",
+        "url": "https://www.foxnews.com/politics/jeffries-reported-meeting-kushner-possible-trump-cooperation-draws-left-wing-backlash",
+        "source": "fox",
+        "title": "Jeffries' reported meeting with Kushner about possible Trump cooperation draws left-wing backlash"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a3118a0d2869e7ec404756fe059ee789",
+    "topic_label": "Israel-Gaza Conflict",
+    "event_window_start": "2026-08-24T07:08:07.000Z",
+    "event_window_end": "2026-08-24T21:12:06.000Z",
+    "article_ids": [
+      "art_1787612719567_60y2c",
+      "art_1787610763476_lvrmq",
+      "art_1787595311561_8x6i7",
+      "art_1787558862008_uwfln"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T01:08:09.778Z",
+    "updated_at": "2026-08-25T01:08:09.778Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "An Israeli air strike occurred in the Deir al-Balah area of Gaza.",
+      "The strike resulted in at least one fatality.",
+      "Sliman Mansour, a Palestinian artist, has died at the age of 79."
+    ],
+    "source_claims": [
+      "[aljazeera] claims that the strike hit a tent sheltering displaced Palestinians near al-Aqsa Hospital.",
+      "[aljazeera] claims the Israeli military stated they targeted two militants, including Muhammad Abdul Nasser Jaber Abu Asad, who were allegedly involved in the October 7 attack and Hamas operations.",
+      "[aljazeera] claims more than 1,300 Palestinians have been killed since the October ceasefire."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the strike in Deir al-Balah primarily through the perspective of displaced civilians in tents, while also reporting the Israeli military's statement regarding specific militant targets."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims that Gaza's healthcare system currently faces no violent raids, hospital bombings, or sniper killings in hospital yards."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'iconic' to describe Sliman Mansour.",
+      "[aljazeera] uses the term 'devastated' to describe Gaza's healthcare system."
+    ],
+    "safe_conclusions": [
+      "An Israeli military operation took place in Deir al-Balah involving airstrikes.",
+      "Palestinian artist Sliman Mansour has died.",
+      "Displaced persons are present in the Deir al-Balah area."
+    ],
+    "unknowns": [
+      "The total number of casualties from the Deir al-Balah strike beyond the one reported fatality.",
+      "The official cause of death for Sliman Mansour.",
+      "The specific operational status of all healthcare facilities in Gaza."
+    ],
+    "synthesis": "An Israeli airstrike in Deir al-Balah resulted in at least one death after targeting individuals identified by the Israeli military as Hamas militants. Separately, the Palestinian artist Sliman Mansour has died at age 79. Reports indicate ongoing humanitarian and healthcare challenges within Gaza's displacement camps.",
+    "confidence": "HIGH. The sources are consistent in their reporting of the specific events mentioned, though the articles cover disparate topics including military strikes, an artist's death, and healthcare conditions.",
+    "sources": [
+      {
+        "id": "art_1787612719567_60y2c",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinians-in-gaza-face-intensifying-israeli-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes"
+      },
+      {
+        "id": "art_1787610763476_lvrmq",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/iconic-palestinian-artist-sliman-mansour-passes-away-at-age-79?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iconic Palestinian artist Sliman Mansour passes away at age 79"
+      },
+      {
+        "id": "art_1787595311561_8x6i7",
+        "url": "https://www.aljazeera.com/news/2026/8/24/israeli-strike-on-gaza-shelter-extends-casualty-list?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike on Gaza shelter extends casualty list"
+      },
+      {
+        "id": "art_1787558862008_uwfln",
+        "url": "https://www.aljazeera.com/opinions/2026/8/24/the-right-to-health-in-gaza-is-now-a-privilege?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The right to health in Gaza is now a privilege"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -483,77 +926,6 @@
         "url": "https://www.foxnews.com/outkick-sports/enes-kanter-freedom-ejected-sky-fever-game-verbal-altercation-natasha-cloud",
         "source": "fox",
         "title": "Enes Kanter Freedom ejected from Sky-Fever game after verbal altercation with Natasha Cloud"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ca29322c79ccf5c27941030805ac73cd",
-    "topic_label": "Nevada Wildfire Evacuations",
-    "event_window_start": "2026-08-24T02:55:39.000Z",
-    "event_window_end": "2026-08-24T13:17:40.000Z",
-    "article_ids": [
-      "art_1787579957919_ipesm",
-      "art_1787544209283_gzgim"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-24T14:50:35.815Z",
-    "updated_at": "2026-08-24T14:50:35.815Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A wildfire near Reno, Nevada, has resulted in at least six injuries.",
-      "Officials have categorized the wildfire as human-caused.",
-      "Approximately 42,000 people have been forced to evacuate due to the fire.",
-      "An additional 45,000 people have been placed on evacuation alert.",
-      "Several homes have been destroyed by the fire."
-    ],
-    "source_claims": [
-      "[guardian] cites Reno mayor Hillary Schieve regarding the evacuation figures.",
-      "[guardian] reports the fire began on Saturday to the north-west of Reno and displayed extreme fire behavior.",
-      "[guardian] reports three of the six injured individuals are first responders."
-    ],
-    "framing_differences": [
-      "The Guardian provides more descriptive detail regarding fire behavior and the composition of the injured parties, whereas Al Jazeera focuses on the scale of the evacuations and the status of the investigation."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] reports that all but one school in Washoe county was affected by the incident."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'fast-moving' to describe the fire progression.",
-      "[guardian] uses the term 'extreme fire behavior' to describe the fire conditions."
-    ],
-    "safe_conclusions": [
-      "A wildfire is currently active near Reno, Nevada, causing evacuations and injuries.",
-      "Authorities have determined the fire is human-caused and are conducting an investigation."
-    ],
-    "unknowns": [
-      "The specific cause of the human-caused fire remains undisclosed.",
-      "The exact timeline for when the 45,000 people on alert might need to evacuate is not provided."
-    ],
-    "synthesis": "A human-caused wildfire near Reno, Nevada, has led to the evacuation of 42,000 residents and placed 45,000 others on alert. Six people, including three first responders, have been injured, and multiple homes have been destroyed. The situation remains under investigation by local officials.",
-    "confidence": "HIGH. The primary figures and the official determination regarding the origin of the fire are consistent across both reports.",
-    "sources": [
-      {
-        "id": "art_1787579957919_ipesm",
-        "url": "https://www.theguardian.com/us-news/2026/aug/24/hawk-fire-reno-nevada-injuries-evacuations",
-        "source": "guardian",
-        "title": "At least six injured in Reno, Nevada, wildfire as 42,000 forced to evacuate"
-      },
-      {
-        "id": "art_1787544209283_gzgim",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/08-24-26-nevada-forest-fire-sv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Human-caused Nevada wildfire forces 42,000 people to evacuate"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -772,113 +1144,6 @@
         "url": "https://www.aljazeera.com/opinions/2026/8/24/the-right-to-health-in-gaza-is-now-a-privilege?traffic_source=rss",
         "source": "aljazeera",
         "title": "The right to health in Gaza is now a privilege"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "13c6104a56500240ff61cedd18eb8f7c",
-    "topic_label": "Ukraine War and Support",
-    "event_window_start": "2026-08-24T06:55:58.000Z",
-    "event_window_end": "2026-08-24T22:53:40.000Z",
-    "article_ids": [
-      "art_1787612711097_bs6j8",
-      "art_1787612722748_lhl6f",
-      "art_1787595310308_55blm",
-      "art_1787593390602_pqz80",
-      "art_1787558856401_yakaa",
-      "art_1787558864129_w8vi4"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-24T23:30:06.935Z",
-    "updated_at": "2026-08-24T23:30:06.935Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ukraine celebrated its 35th Independence Day on a Monday.",
-      "International leaders visited Kyiv to mark the occasion of Ukraine's Independence Day.",
-      "Ukrainian President Volodymyr Zelenskyy was present in Kyiv during Independence Day events.",
-      "Russian military actions and attacks continue in the context of the ongoing war."
-    ],
-    "source_claims": [
-      "[fox] Claims that former Deputy Assistant Secretary of State Carrie Filipetti stated Vladimir Putin is 'panicked' due to Ukrainian forces striking inside Russia.",
-      "[fox] Claims that Ukraine's Security Service issued warnings regarding possible terrorist attacks ahead of the holiday.",
-      "[aljazeera] Claims that President Volodymyr Zelenskyy has rejected calls for wartime elections amidst domestic political pressure.",
-      "[aljazeera] States that President Vladimir Putin signed a decree allowing the Russian state to take temporary control of critical infrastructure deemed inadequately protected.",
-      "[guardian] States that UK Prime Minister Andy Burnham visited Kyiv on Monday to pledge military and diplomatic support, including plans regarding long-range missiles.",
-      "[guardian] Describes a ceremony at St Sophia cathedral where President Zelenskyy presented awards to families of fallen soldiers."
-    ],
-    "framing_differences": [
-      "Fox frames the Independence Day event primarily through the lens of security risks, military bombardment, and the psychological state of the Russian leadership.",
-      "Al Jazeera frames the event in the context of domestic political challenges for President Zelenskyy and administrative shifts within Russia regarding infrastructure control.",
-      "The Guardian frames the event as a diplomatic milestone, focusing on the visit of UK Prime Minister Andy Burnham and the human toll of the conflict."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Claims that Vladimir Putin is 'panicked' as a result of Ukrainian strikes deeper inside Russia.",
-      "[aljazeera] Mentions corruption investigations into senior government officials as a factor in domestic political pressure."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'panicked' to describe the state of Vladimir Putin.",
-      "[guardian] uses the phrase 'bitter human cost of the war' to describe the impact of the conflict on the Ukrainian population."
-    ],
-    "safe_conclusions": [
-      "Ukraine held Independence Day commemorations while involved in an ongoing armed conflict.",
-      "Foreign leaders and officials visited Kyiv during the 35th Independence Day anniversary.",
-      "Military and administrative activities are occurring in both Russia and Ukraine during this period."
-    ],
-    "unknowns": [
-      "The specific identity of all international leaders present at the Independence Day ceremonies.",
-      "The full scope and long-term impact of the Russian decree concerning infrastructure control.",
-      "The specific nature of the domestic political pressure mentioned in relation to wartime elections."
-    ],
-    "synthesis": "Ukraine marked its 35th Independence Day on Monday amid ongoing conflict and high-level international diplomatic visits to Kyiv. While international leaders pledged continued support, including military and diplomatic cooperation, the region remains subject to intensified Russian military activity. Concurrently, domestic political and administrative developments, including infrastructure decrees in Russia and election discussions in Ukraine, continue to unfold.",
-    "confidence": "HIGH. The sources consistently report on the occurrence of the Independence Day anniversary and the presence of international figures in Kyiv, despite varying focus areas.",
-    "sources": [
-      {
-        "id": "art_1787612711097_bs6j8",
-        "url": "https://www.foxnews.com/world/putin-panicked-defiant-ukraine-marks-independence-day-under-russian-bombardment",
-        "source": "fox",
-        "title": "Putin ‘panicked’ as defiant Ukraine marks Independence Day under Russian bombardment"
-      },
-      {
-        "id": "art_1787612722748_lhl6f",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/24/whats-behind-domestic-political-pressure-on-ukraines-president?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What’s behind domestic political pressure on Ukraine’s president?"
-      },
-      {
-        "id": "art_1787595310308_55blm",
-        "url": "https://www.theguardian.com/politics/2026/aug/24/burnham-visit-kyiv-support-for-ukraine",
-        "source": "guardian",
-        "title": "Burnham’s visit to Kyiv marks a renewal of badly needed support for Ukraine"
-      },
-      {
-        "id": "art_1787593390602_pqz80",
-        "url": "https://www.aljazeera.com/news/2026/8/24/russia-to-seize-poorly-protected-infrastructure-as-ukraine-barrage-persists?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia to seize poorly protected infrastructure as Ukraine barrage persists"
-      },
-      {
-        "id": "art_1787558856401_yakaa",
-        "url": "https://www.theguardian.com/world/live/2026/aug/24/europe-ukraine-russia-war-kyiv-andy-burnham-volodymyr-zelenskyy-latest-news-updates",
-        "source": "guardian",
-        "title": "Andy Burnham arrives in Ukraine with plans to share UK blueprints for long-range missiles - Europe live"
-      },
-      {
-        "id": "art_1787558864129_w8vi4",
-        "url": "https://www.aljazeera.com/news/2026/8/24/ukraines-allies-convene-in-kyiv-as-zelenskyy-seeks-air-defence-boost?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukraine’s allies convene in Kyiv as Zelenskyy seeks air defence boost"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18100,283 +18365,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/21/israeli-settler-attacks-shift-to-heart-of-territory-earmarked-for-palestinian-state",
         "source": "guardian",
         "title": "Israeli settler attacks shift to heart of territory earmarked for Palestinian state"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c8014248595a2fd8ee6c3fd3005dd9bc",
-    "topic_label": "Ukraine-Russia Conflict",
-    "event_window_start": "2026-08-21T10:10:52.000Z",
-    "event_window_end": "2026-08-21T18:51:43.000Z",
-    "article_ids": [
-      "art_1787340876409_49dsu",
-      "art_1787333768144_7b8et",
-      "art_1787333770387_d1b3u",
-      "art_1787333771563_tovqc",
-      "art_1787308606118_x7bar",
-      "art_1787308607216_0i2ma"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-22T02:23:35.817Z",
-    "updated_at": "2026-08-22T02:23:35.817Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "German authorities are investigating a cache of weapons found in a forest near Berlin.",
-      "A suspect has been arrested in Romania in connection with the discovery of the weapons."
-    ],
-    "source_claims": [
-      "[bbc] Reports that German intelligence believes the weapons cache was intended for assassinations on behalf of Russia.",
-      "[bbc] Quotes German Interior Minister Alexander Dobrindt stating he cannot rule out the involvement of foreign powers.",
-      "[guardian] Reports that the newspaper Sueddeutsche, alongside NDR and WDR, cited unspecified sources claiming the weapons were for assassinations on behalf of Russian intelligence.",
-      "[bbc] Reports 15 people killed and 130 injured in a drone strike on a Kryvyi Rih mall.",
-      "[aljazeera] Reports Ukraine has imposed sanctions on the producers and distributors of the Russian cartoon 'Masha and the Bear'."
-    ],
-    "framing_differences": [
-      "Regarding the weapons cache, [bbc] frames the story around statements from the German Interior Minister, whereas [guardian] frames the story around a report from the newspaper Sueddeutsche."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] Claims the drone strike in Kryvyi Rih was a 'double-tap' strike targeting emergency responders.",
-      "[aljazeera] Claims the producers of 'Masha and the Bear' are accused of spreading 'pro-Russian narratives' that threaten Ukrainian national security."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'absolutely cynical and despicable' to describe the attack on the mall, attributing the quote to Volodymyr Zelensky.",
-      "[aljazeera] uses the term 'pro-Russian narratives' to describe the content of the cartoon show, attributed to Ukrainian officials."
-    ],
-    "safe_conclusions": [
-      "A weapons cache was discovered in a forest near Berlin.",
-      "An individual has been arrested in Romania regarding the weapons cache case.",
-      "Ukraine has placed sanctions on the Russian animation studio Animaccord.",
-      "Shakhtar Donetsk has reached an agreement to play Champions League matches at Chelsea's home stadium."
-    ],
-    "unknowns": [
-      "The official confirmation of the specific target or purpose of the Berlin weapons cache remains under investigation.",
-      "The total number of people trapped in the rubble in Kryvyi Rih is not definitively stated.",
-      "The final regulatory approval from UEFA for Shakhtar Donetsk to play at Stamford Bridge is pending."
-    ],
-    "synthesis": "German authorities are investigating a weapons cache found near Berlin that is linked to a suspect arrested in Romania. Separately, international news reports cover a fatal drone strike in Kryvyi Rih, new sanctions imposed by Ukraine on the Russian cartoon 'Masha and the Bear,' and the relocation of Shakhtar Donetsk's home Champions League games to London. These events reflect ongoing military, security, and diplomatic tensions involving Russia and Ukraine.",
-    "confidence": "HIGH. The sources provide distinct reports on separate topics, and where they overlap regarding the German weapons investigation, their core factual reports regarding the discovery and the suspect in Romania are consistent.",
-    "sources": [
-      {
-        "id": "art_1787340876409_49dsu",
-        "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russian double-tap drone strike kills 15 in Ukrainian mall, officials say"
-      },
-      {
-        "id": "art_1787333768144_7b8et",
-        "url": "https://www.aljazeera.com/sports/2026/8/21/ukraines-shakhtar-donetsk-to-play-champions-league-home-games-at-chelsea?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukraine’s Shakhtar to use ex-Russian-owned Chelsea as Champions League home"
-      },
-      {
-        "id": "art_1787333770387_d1b3u",
-        "url": "https://www.aljazeera.com/news/2026/8/21/ukraine-sanctions-popular-russian-cartoon-masha-and-the?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukraine sanctions popular Russian cartoon ‘Masha and the Bear’"
-      },
-      {
-        "id": "art_1787333771563_tovqc",
-        "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Germany investigates Russia links to weapons cache discovered in woods, reports say"
-      },
-      {
-        "id": "art_1787308606118_x7bar",
-        "url": "https://www.theguardian.com/world/2026/aug/21/gun-stash-germany-forest-berlin-believed-linked-russia-reports",
-        "source": "guardian",
-        "title": "Gun stash discovered in German forest believed to be linked to Russia, say reports"
-      },
-      {
-        "id": "art_1787308607216_0i2ma",
-        "url": "https://www.aljazeera.com/news/2026/8/21/nord-stream-bombing-suspect-to-hollywood-fixer-who-is-volodymyr-zhuravlev?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nord Stream bombing suspect to Hollywood fixer: Who is Volodymyr Zhuravlev?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a11853995267fa662dbd33bb15b2b2bb",
-    "topic_label": "Natural Disasters and Environmental Impacts",
-    "event_window_start": "2026-08-21T06:34:11.000Z",
-    "event_window_end": "2026-08-21T16:15:11.000Z",
-    "article_ids": [
-      "art_1787331421726_4y9sy",
-      "art_1787308608364_dk8kz",
-      "art_1787308609414_3824j",
-      "art_1787296026330_z0qc4",
-      "art_1787296027399_99ea0"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-22T05:10:07.406Z",
-    "updated_at": "2026-08-22T05:10:07.406Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[guardian] States tornadoes touched down in Delaware and Long Island, New York, causing flooding and damage.",
-      "[bbc] Reports bodies of two Belgian hikers missing since 1992 were found on the Trift Glacier in Switzerland.",
-      "[aljazeera] Notes residents in the northern Philippines are protesting regarding alleged corruption in flood-control projects.",
-      "[bbc] States the Panama Canal Authority will reduce ship traffic to 32 vessels per day starting 15 September.",
-      "[guardian] Reports the UK recorded a £1.8bn budget deficit in July with total public debt reaching £2.98tn."
-    ],
-    "framing_differences": [
-      "The provided articles cover entirely unrelated events, so no comparative framing exists between sources."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims one person suffered minor injuries at the Sun & Surf Beach Club during a tornado.",
-      "[bbc] Claims Glamos recorded a 25% reduction in Swiss glacier mass in the decade leading to 2025.",
-      "[bbc] States shipping industry disruptions are currently linked to an 'Iran war'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'anger' to describe the public sentiment regarding floods in the Philippines.",
-      "[guardian] uses the phrase 'pummel' and 'battered' to describe weather events."
-    ],
-    "safe_conclusions": [],
-    "unknowns": [
-      "The articles discuss disparate global events, leaving no common set of questions across the sources."
-    ],
-    "synthesis": "The provided articles detail separate international reports regarding weather, public infrastructure, and economic data. Major topics include storm damage in the United States, climate-related glacier melting in Switzerland, flooding and public dissatisfaction in the Philippines, shipping limitations at the Panama Canal, and UK public deficit figures. These reports represent independent news stories rather than a single event.",
-    "confidence": "HIGH. The sources report on entirely distinct, verifiable geographic events, each contained within its own specific context.",
-    "sources": [
-      {
-        "id": "art_1787331421726_4y9sy",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/tornado-new-york-long-island-delaware",
-        "source": "guardian",
-        "title": "Tornadoes pummel New York’s Long Island and Delaware capital"
-      },
-      {
-        "id": "art_1787308608364_dk8kz",
-        "url": "https://www.bbc.co.uk/news/articles/cd9w1jwdkkjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Bodies of two hikers missing for decades found after Swiss glacier melts"
-      },
-      {
-        "id": "art_1787308609414_3824j",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/philippines-floods-fuel-anger-over-alleged-corruption?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Philippines floods fuel anger over alleged corruption"
-      },
-      {
-        "id": "art_1787296026330_z0qc4",
-        "url": "https://www.bbc.co.uk/news/articles/cwyl0jkxxryo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Panama Canal to cut number of ships passing through due to El Niño"
-      },
-      {
-        "id": "art_1787296027399_99ea0",
-        "url": "https://www.theguardian.com/politics/2026/aug/21/uk-unexpected-deficit-john-healey-prepares-for-first-budget",
-        "source": "guardian",
-        "title": "UK reports unexpected deficit of £1.8bn as John Healey prepares for first budget"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f64cd06a06fa169da0fcc7aae0399e89",
-    "topic_label": "US Domestic and Immigration Policy",
-    "event_window_start": "2026-08-21T10:00:31.000Z",
-    "event_window_end": "2026-08-21T19:18:17.000Z",
-    "article_ids": [
-      "art_1787340863389_jy4la",
-      "art_1787333764891_jgcc8",
-      "art_1787333769316_64cs9",
-      "art_1787308615876_5wws5"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-22T05:10:07.406Z",
-    "updated_at": "2026-08-22T05:10:07.406Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "ICE is a federal agency that conducts detention and deportation operations."
-    ],
-    "source_claims": [
-      "[fox] Chief U.S. District Judge Daniel Domenico issued a preliminary injunction blocking Colorado state laws targeting the GEO Group's Aurora ICE Processing Center.",
-      "[fox] A federal judge blocked New York state regulations regarding ICE identification requirements.",
-      "[guardian] Pima County, Arizona, medical examiner data indicates 19 migrant remains were recovered along the Arizona-Mexico border last month.",
-      "[guardian] An ICE charter flight carrying over 160 Haitian nationals landed in Cap-Haïtien, Haiti.",
-      "[guardian] The U.S. has banned commercial flights to Port-au-Prince, Haiti, through early September due to gang violence.",
-      "[guardian] A neighborhood in Mexico City known as 'Little LA' serves as a community for deported individuals who previously lived in the U.S."
-    ],
-    "framing_differences": [
-      "fox frames the legal actions against states as a 'victory' for federal authority and oversight of ICE, while the guardian focuses on the humanitarian impacts of migration, deportation, and U.S. immigration policy."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Colorado state law likely overstepped constitutional authority in its oversight of the Aurora ICE Processing Center.",
-      "[guardian] Migrant deaths in Arizona are a direct reflection of U.S. domestic and foreign policy."
-    ],
-    "loaded_language": [
-      "[fox] uses 'crackdown' to describe state regulations on ICE detention centers.",
-      "[guardian] uses 'perilous' to describe the journey migrants take through Mexico.",
-      "[guardian] uses 'troubled' to describe the nation of Haiti."
-    ],
-    "safe_conclusions": [
-      "ICE continues to engage in detention and deportation activities across the United States.",
-      "Legal and administrative actions regarding immigration policy are currently occurring at both the state and federal levels."
-    ],
-    "unknowns": [
-      "The full impact of the judicial rulings in Colorado and New York on long-term ICE operations.",
-      "The specific identities and backgrounds of the individuals on the flight to Haiti beyond the aggregate number.",
-      "The exact causal link between specific U.S. policies and the death statistics reported in Pima County."
-    ],
-    "synthesis": "The provided articles detail various facets of U.S. immigration enforcement, including legal challenges to state-level oversight of ICE facilities, the humanitarian conditions associated with migration, and recent deportation activity involving Haiti. Federal courts are currently adjudicating the extent of state authority in regulating federal immigration detention centers. Simultaneously, immigration operations continue, characterized by reported migrant fatalities and ongoing deportation flights.",
-    "confidence": "HIGH. The sources report on distinct, verifiable events occurring in different regions, and there are no direct factual contradictions between them.",
-    "sources": [
-      {
-        "id": "art_1787340863389_jy4la",
-        "url": "https://www.foxnews.com/politics/trump-appointed-judge-blocks-blue-states-crackdown-ice-detention-center",
-        "source": "fox",
-        "title": "Trump-appointed judge blocks blue state's crackdown on ICE detention center"
-      },
-      {
-        "id": "art_1787333764891_jgcc8",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/migrant-deaths-arizona",
-        "source": "guardian",
-        "title": "Rise in migrant deaths as 19 bodies found along Arizona border last month"
-      },
-      {
-        "id": "art_1787333769316_64cs9",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/haiti-deportation-tps",
-        "source": "guardian",
-        "title": "First deportation flight lands in Haiti after TPS suspension"
-      },
-      {
-        "id": "art_1787308615876_5wws5",
-        "url": "https://www.theguardian.com/world/2026/aug/21/mexico-city-little-la-us-deportees",
-        "source": "guardian",
-        "title": "Strangers in their own land: Mexicans deported from Trump’s America find refuge in ‘Little LA’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
