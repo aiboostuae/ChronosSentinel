@@ -1,5 +1,626 @@
 [
   {
+    "cluster_id": "302abf827a0d1d46d7fcbe0c3ab53896",
+    "topic_label": "Conflict in Gaza and Israel",
+    "event_window_start": "2026-08-24T16:27:36.000Z",
+    "event_window_end": "2026-08-24T19:21:01.000Z",
+    "article_ids": [
+      "art_1787647880836_kvb0n",
+      "art_1787636458509_5e1m6",
+      "art_1787612719567_60y2c",
+      "art_1787595311561_8x6i7"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T12:07:23.434Z",
+    "updated_at": "2026-08-25T12:07:23.434Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Israeli military conducted strikes in the Gaza Strip.",
+      "A strike occurred in the Deir al-Balah area near al-Aqsa Hospital involving tents used by displaced Palestinians.",
+      "The Israeli military confirmed targeting individuals in Deir al-Balah, identifying Muhammad Abdul Nasser Jaber Abu Asad as a target."
+    ],
+    "source_claims": [
+      "[aljazeera] claims Israel attacked a water desalination plant and a mosque.",
+      "[aljazeera] reports that Israel maintains heavy restrictions on construction materials entering Gaza.",
+      "[aljazeera] reports one man was killed in a strike on a makeshift tent in Deir al-Balah.",
+      "[aljazeera] claims more than 1,300 Palestinians have been killed since the October ceasefire.",
+      "[aljazeera] notes that the Israeli army identified the target Muhammad Abdul Nasser Jaber Abu Asad as a member of Hamas’s military wing involved in the October 7 attack."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the conflict through the impact on displaced civilians and civilian infrastructure, whereas the Israeli army statements cited by Aljazeera frame the operations as tactical strikes against specific military targets."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims Israel attacked a water desalination plant and a mosque without providing specific locations or timestamps for these specific incidents."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'intensifies' to describe military actions.",
+      "[aljazeera] uses the term 'hostilities' to describe Israeli military operations."
+    ],
+    "safe_conclusions": [
+      "Military operations by Israel are ongoing in Gaza.",
+      "Casualties have been reported in the Deir al-Balah area near al-Aqsa Hospital.",
+      "The Israeli military has publicly identified specific individuals it targeted in Gaza."
+    ],
+    "unknowns": [
+      "The specific current status of construction material flow into Gaza.",
+      "The total number of casualties from individual strikes versus the cumulative total since October.",
+      "Verification of the claims regarding the desalination plant and mosque attacks by independent sources."
+    ],
+    "synthesis": "Israeli military strikes continue in the Gaza Strip, including actions in the Deir al-Balah area near al-Aqsa Hospital that resulted in civilian casualties. The Israeli military stated these operations targeted specific individuals identified as members of Hamas. Reports from the region also highlight ongoing difficulties for displaced Palestinians regarding housing and infrastructure access.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "id": "art_1787647880836_kvb0n",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-israel-attacks-desalination-plant-and-mosque-in-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Video: Israel attacks desalination plant and mosque in Gaza"
+      },
+      {
+        "id": "art_1787636458509_5e1m6",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinian-builds-mud-shelter-as-tents-offer-little-relief?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Displaced Palestinian builds mud shelter as tents offer little relief"
+      },
+      {
+        "id": "art_1787612719567_60y2c",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinians-in-gaza-face-intensifying-israeli-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes"
+      },
+      {
+        "id": "art_1787595311561_8x6i7",
+        "url": "https://www.aljazeera.com/news/2026/8/24/israeli-strike-on-gaza-shelter-extends-casualty-list?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike on Gaza shelter extends casualty list"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "cceb510528b92cba246c3dd34756ba92",
+    "topic_label": "Iran War and Sanctions",
+    "event_window_start": "2026-08-24T17:10:37.000Z",
+    "event_window_end": "2026-08-25T08:32:52.000Z",
+    "article_ids": [
+      "art_1787647867640_ioqif",
+      "art_1787647870046_nh9fy",
+      "art_1787644440780_k7j8n",
+      "art_1787638306384_alv1f",
+      "art_1787630241899_pqcqj",
+      "art_1787612712225_lf54z",
+      "art_1787612724827_77ym9",
+      "art_1787610762445_o2hkn",
+      "art_1787593381188_j3ljw",
+      "art_1787593383251_gjmzx"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 10,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T14:49:48.739Z",
+    "updated_at": "2026-08-25T14:49:48.739Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A conflict involving Iran, the United States, and Israel is ongoing.",
+      "The ongoing regional instability and conflict have been referenced in media and diplomatic reporting."
+    ],
+    "source_claims": [
+      "[aljazeera] Pakistan’s army chief and interior minister held high-level talks in Tehran with Iranian leaders including President Pezeshkian and Foreign Minister Araghchi.",
+      "[aljazeera] Pakistani officials reported significant progress in talks aimed at ending the conflict.",
+      "[aljazeera] Israeli Prime Minister Benjamin Netanyahu claims Iran attempted to kill one of his sons.",
+      "[aljazeera] A joint US-Israeli strike on Tehran killed Iranian Supreme Leader Ali Khamenei and four family members.",
+      "[guardian] Gold prices reached a three-month high due to investor uncertainty regarding the Middle East conflict.",
+      "[aljazeera] Two US carrier strike groups are deployed in the Middle East."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the conflict through the lens of diplomatic efforts by Pakistan and reports on specific domestic Israeli political claims, while The Guardian frames the conflict through its impact on global financial markets and commodity prices."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Netanyahu’s claim that Iran attempted to kill one of his sons.",
+      "[aljazeera] Reports that a joint US-Israeli strike killed Supreme Leader Ali Khamenei and his family members."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the ongoing conflict.",
+      "[aljazeera] uses the term 'Iran-linked hackers' when discussing cyberwarfare targeting a British power plant.",
+      "[aljazeera] uses the term 'conservative' to describe Israeli outlet Channel 14."
+    ],
+    "safe_conclusions": [
+      "There is ongoing geopolitical tension involving Iran, the United States, and Israel.",
+      "Diplomatic and military movements are occurring in relation to the regional instability."
+    ],
+    "unknowns": [
+      "The specific details or timeline of the alleged Iranian plot against Netanyahu's son.",
+      "The exact status of ceasefire negotiations between the involved parties.",
+      "The extent and impact of reported cyberattacks on international critical infrastructure."
+    ],
+    "synthesis": "The ongoing regional conflict involving Iran, the United States, and Israel continues to influence international diplomatic, military, and financial landscapes. Pakistani officials report conducting high-level discussions in Tehran, while the Israeli government has made public claims regarding alleged Iranian threats against the Prime Minister's family. Simultaneously, global financial markets reflect investor uncertainty, with gold prices reaching multi-month highs amidst the broader geopolitical instability.",
+    "confidence": "MEDIUM; While sources agree on the existence of a conflict, there are significant discrepancies in the specific geopolitical events reported, such as the reported status of Iranian leadership, which are not corroborated across the provided texts.",
+    "sources": [
+      {
+        "id": "art_1787647867640_ioqif",
+        "url": "https://www.aljazeera.com/news/2026/8/25/pakistan-says-significant-progress-made-in-talks-on-iran-us-war?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pakistan says significant progress made in talks on Iran-US war"
+      },
+      {
+        "id": "art_1787647870046_nh9fy",
+        "url": "https://www.theguardian.com/business/2026/aug/25/gold-price-high-iran-war-donald-trump-economy-us",
+        "source": "guardian",
+        "title": "Gold price hits three-month high amid fears over Iran war and Trump economy"
+      },
+      {
+        "id": "art_1787644440780_k7j8n",
+        "url": "https://www.aljazeera.com/opinions/2026/8/25/the-iran-war-is-bringing-cyberwarfare-into-critical-infrastructure?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The Iran war is bringing cyberwarfare into critical infrastructure"
+      },
+      {
+        "id": "art_1787638306384_alv1f",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/two-us-carrier-groups-in-middle-east-strain-navy-resources?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Two US carrier groups in Middle East strain navy resources"
+      },
+      {
+        "id": "art_1787630241899_pqcqj",
+        "url": "https://www.aljazeera.com/news/2026/8/25/israels-netanyahu-claims-iran-tried-to-kill-one-of-his-sons?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel’s Netanyahu claims Iran tried to kill one of his sons"
+      },
+      {
+        "id": "art_1787612712225_lf54z",
+        "url": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How US sanctions on Iran ripple through global markets and consumers"
+      },
+      {
+        "id": "art_1787612724827_77ym9",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-iran-reacts-to-us-economic-d-day-sanctions?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Video: Iran reacts to US ‘economic D-Day’ sanctions"
+      },
+      {
+        "id": "art_1787610762445_o2hkn",
+        "url": "https://www.aljazeera.com/news/2026/8/24/us-public-support-for-iran-war-falls-as-trump-approval-at-record-low-poll?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US public support for Iran war falls as Trump approval at record low: Poll"
+      },
+      {
+        "id": "art_1787593381188_j3ljw",
+        "url": "https://www.foxnews.com/politics/iran-linked-hackers-suspected-uk-power-plant-shutdown-alleged-minnesota-water-attack",
+        "source": "fox",
+        "title": "Iran-linked hackers suspected in UK power-plant shutdown after alleged Minnesota water attack"
+      },
+      {
+        "id": "art_1787593383251_gjmzx",
+        "url": "https://www.aljazeera.com/news/2026/8/24/trump-administration-announces-global-economic-war-on-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump administration announces ‘economic D-day’ sanctions on Iran"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0d33c35615e6e4087c684285e2eec73b",
+    "topic_label": "Syria Removed from Terror List",
+    "event_window_start": "2026-08-24T22:32:26.000Z",
+    "event_window_end": "2026-08-25T04:38:24.000Z",
+    "article_ids": [
+      "art_1787633272463_3c2gf",
+      "art_1787630244001_apzhw",
+      "art_1787630249444_0xm9z",
+      "art_1787612716406_ov9ho"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T05:15:37.117Z",
+    "updated_at": "2026-08-25T05:15:37.117Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The United States has removed Syria from its list of state sponsors of terrorism.",
+      "Ahmed al-Sharaa is the President of Syria.",
+      "Hayat Tahrir al-Sham (HTS) has been removed from the US list of Specially Designated Global Terrorists (SDGT).",
+      "The removal of the state sponsor of terrorism designation is expected to facilitate foreign investment in Syria."
+    ],
+    "source_claims": [
+      "[aljazeera] claims Syria had been on the state sponsor of terrorism list since 1979.",
+      "[fox] claims the rescission followed a mandatory 45-day congressional notification period.",
+      "[bbc] claims President Trump hosted Ahmed al-Sharaa at the White House last year.",
+      "[bbc] claims Ahmed al-Sharaa was a former militant who previously had an American bounty on his head.",
+      "[aljazeera] claims the designation revocation confirms a decision initially revealed last month."
+    ],
+    "framing_differences": [
+      "BBC frames the removal in the context of al-Sharaa's background as a former militant and leader of an al-Qaeda off-shoot, while aljazeera frames it as Syria shaking off a 'dark burden' and seeking international reintegration.",
+      "Fox focuses on the administrative actions of the Trump administration and Secretary of State Marco Rubio, whereas aljazeera focuses on the economic impact for Syria."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] claims the US administration has 'embraced' President Ahmed al-Sharaa."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'dark burden' to describe the period Syria spent on the US terror list.",
+      "[bbc] uses the term 'former militant' to describe President Ahmed al-Sharaa."
+    ],
+    "safe_conclusions": [
+      "The United States government has officially rescinded Syria's status as a state sponsor of terrorism.",
+      "HTS is no longer classified as a Specially Designated Global Terrorist group by the United States.",
+      "The change in designation is intended to allow for increased foreign investment in Syria."
+    ],
+    "unknowns": [
+      "The specific conditions or benchmarks Syria met to trigger the removal from the terrorism list beyond general assertions of distancing from terrorism.",
+      "The current total number of years Syria was on the list, as sources provide varying timelines (1979 vs 47 years)."
+    ],
+    "synthesis": "The United States has officially removed Syria from its state sponsor of terrorism list, a move intended to facilitate foreign investment and economic reintegration for the nation. Simultaneously, the US has rescinded the terrorist designation for Hayat Tahrir al-Sham, the group led by Syrian President Ahmed al-Sharaa. The administration of President Donald Trump initiated the process following reports that the Syrian government had ceased supporting acts of international terrorism.",
+    "confidence": "HIGH. The sources are consistent regarding the core policy changes, specifically the removal of Syria and HTS from US terrorism designations.",
+    "sources": [
+      {
+        "id": "art_1787633272463_3c2gf",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-president-thanks-nation-for-getting-off-us-state-terror-list?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Syrian president thanks nation for getting off US state terror list"
+      },
+      {
+        "id": "art_1787630244001_apzhw",
+        "url": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle",
+        "source": "fox",
+        "title": "Syria off US terror blacklist after nearly 50 years as Trump admin clears investment hurdle"
+      },
+      {
+        "id": "art_1787630249444_0xm9z",
+        "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US removes Syria from list of state sponsors of terrorism"
+      },
+      {
+        "id": "art_1787612716406_ov9ho",
+        "url": "https://www.aljazeera.com/news/2026/8/24/us-removes-syria-from-state-sponsor-of-terrorism-list?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US removes Syria from ‘state sponsor of terrorism’ list"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2c2de1eec636cac4ea9e619e660ac344",
+    "topic_label": "US-Canada-China Trade Tensions",
+    "event_window_start": "2026-08-24T17:54:07.000Z",
+    "event_window_end": "2026-08-25T02:51:53.000Z",
+    "article_ids": [
+      "art_1787638308612_ufu42",
+      "art_1787626447577_hcz56",
+      "art_1787595297877_10o1s"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T12:07:23.434Z",
+    "updated_at": "2026-08-25T12:07:23.434Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Trade talks between the US and Canada have collapsed.",
+      "President Donald Trump has proposed increasing tariffs on Canadian automobiles and auto parts.",
+      "Vice President JD Vance made remarks regarding Canadian trade policies toward China compared to the US."
+    ],
+    "source_claims": [
+      "[bbc] President Trump intends to increase tariffs on Canadian vehicles and parts from 25% to 50% effective January 1.",
+      "[bbc] Canadian officials scheduled a news conference to outline a response to the trade tensions.",
+      "[bbc] Canada is the top export destination for 26 US states.",
+      "[fox] Vice President JD Vance stated that Canada treats Chinese goods more fairly than goods from Maine.",
+      "[fox] The US is implementing 50% tariffs on $20 billion worth of Canadian goods."
+    ],
+    "framing_differences": [
+      "BBC frames the event as a trade war between neighbors with a focus on Canadian economic leverage, whereas Fox frames the conflict through the lens of US trade fairness and comparative treatment of China by Canada."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] Prime Minister Mark Carney is the current Prime Minister of Canada.",
+      "[bbc] Prime Minister Mark Carney is planning 'dollar-for-dollar' retaliatory duties."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'insanity' to describe Canadian trade treatment of US goods.",
+      "[bbc] uses the term 'spiralling' to describe the trade dispute."
+    ],
+    "safe_conclusions": [
+      "The United States and Canada are currently experiencing a period of heightened trade tension characterized by threats of tariff increases and the breakdown of negotiations."
+    ],
+    "unknowns": [
+      "The specific final list of Canadian retaliatory measures.",
+      "The exact official response Canada will take following their scheduled news conference.",
+      "The current political leadership of Canada, as the sources contain conflicting or potentially erroneous information regarding the Prime Minister's identity."
+    ],
+    "synthesis": "The United States and Canada have seen a breakdown in trade negotiations, leading President Trump to threaten a tariff increase on Canadian automotive products to 50%. While US officials emphasize perceived unfair trade treatment by Canada relative to China, Canadian officials are preparing to announce measures to protect their domestic economy. The situation remains in flux as both nations consider further trade actions.",
+    "confidence": "MEDIUM: There is a discrepancy in the provided text regarding the identity of the Canadian Prime Minister, which affects the factual accuracy of the synthesis.",
+    "sources": [
+      {
+        "id": "art_1787638308612_ufu42",
+        "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles"
+      },
+      {
+        "id": "art_1787626447577_hcz56",
+        "url": "https://www.bbc.co.uk/news/articles/c05rj80ve56o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How Canada could hit back to hurt the US economy - and Trump"
+      },
+      {
+        "id": "art_1787595297877_10o1s",
+        "url": "https://www.foxnews.com/politics/vance-says-canada-friendlier-china-trade-us-insanity",
+        "source": "fox",
+        "title": "Vance says Canada friendlier to China on trade than to US: 'Insanity'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "aeb72741f08298667f379854ae6dc445",
+    "topic_label": "Global Heatwaves and Climate",
+    "event_window_start": "2026-08-25T04:00:47.000Z",
+    "event_window_end": "2026-08-25T08:10:10.000Z",
+    "article_ids": [
+      "art_1787647871074_1fnnf",
+      "art_1787633274724_ynp0a",
+      "art_1787633278603_46rr0",
+      "art_1787633281542_j1jm6"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T14:49:48.739Z",
+    "updated_at": "2026-08-25T14:49:48.739Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Global weather patterns and heat events are currently being monitored by various international agencies and research bodies.",
+      "Heat-related environmental and health impacts are being recorded in different regions, including Europe and Southeast Asia."
+    ],
+    "source_claims": [
+      "[aljazeera] The EU’s Copernicus Climate Change Service reported global sea surface temperatures reached 21.1 degrees Celsius.",
+      "[aljazeera] Samantha Burgess of the ECMWF attributed current ocean temperatures to the combination of El Nino and human-driven warming.",
+      "[guardian] Fires in Kalimantan have affected tens of thousands of acres of land, impacting air quality in Indonesia, Malaysia, and Singapore.",
+      "[guardian] Data from the Indonesian health ministry indicates respiratory-related emergency room visits in West Kalimantan increased from 500 to 5,000 per week since July.",
+      "[guardian] S&P rating agency stated that extreme heat in Europe could impact insurer earnings and potentially increase premiums.",
+      "[guardian] Provisional national figures suggest at least 35,000 excess deaths occurred across Europe during recent heatwaves, with numbers expected to rise."
+    ],
+    "framing_differences": [
+      "Aljazeera frames global temperature records through the lens of oceanic climate monitoring and long-term climate change, whereas The Guardian frames weather impacts through regional crises like wildfires in Indonesia and socio-economic risks in Europe."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] A local resident in Kalimantan described breathing in the haze as 'like smoking a cigarette'."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'suffocating smoke' to describe the haze in Indonesia.",
+      "[guardian] uses the term 'perfect storm' to describe the combination of European heatwaves and an ageing population.",
+      "[aljazeera] uses the term 'unprecedented strain' to describe the pressure on the world's oceans."
+    ],
+    "safe_conclusions": [
+      "Record-high sea surface temperatures have been documented by the EU's Copernicus Climate Change Service.",
+      "Excess mortality rates and health issues associated with heatwaves have been reported in parts of Europe.",
+      "Wildfires have occurred in the Kalimantan region of Indonesia."
+    ],
+    "unknowns": [
+      "The final total of excess deaths in Europe for the year 2024 is currently unknown as reporting is incomplete.",
+      "The full long-term economic impact of heat-related insurance claims remains to be seen."
+    ],
+    "synthesis": "Recent reports highlight rising global ocean temperatures and localized environmental crises, including wildfires in Indonesia and heatwaves in Europe. European data suggests significant excess mortality and potential insurance industry volatility linked to these temperature trends. Agencies continue to monitor the intersection of natural climate phenomena like El Nino with broader environmental conditions.",
+    "confidence": "HIGH. The sources provide distinct reports on separate regional events and climate indicators, which are consistent within their respective scopes.",
+    "sources": [
+      {
+        "id": "art_1787647871074_1fnnf",
+        "url": "https://www.aljazeera.com/news/2026/8/25/global-ocean-temperatures-hit-record-high-as-el-nino-intensifies?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Global ocean temperatures hit record high as El Nino intensifies"
+      },
+      {
+        "id": "art_1787633274724_ynp0a",
+        "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
+        "source": "guardian",
+        "title": "‘Like smoking a cigarette’: Indonesia chokes on haze as blazes intensify amid super ‘El Niño’"
+      },
+      {
+        "id": "art_1787633278603_46rr0",
+        "url": "https://www.theguardian.com/business/2026/aug/25/europe-heatwaves-insurance-companies-earnings",
+        "source": "guardian",
+        "title": "Europe’s heatwaves threaten insurers’ earnings, rating agency S&P says"
+      },
+      {
+        "id": "art_1787633281542_j1jm6",
+        "url": "https://www.theguardian.com/environment/2026/aug/25/at-least-35000-excess-deaths-europe-back-to-back-heatwaves",
+        "source": "guardian",
+        "title": "At least 35,000 excess deaths recorded in Europe’s back-to-back heatwaves"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "85d64d650309ad7aea4d2ac669cf719d",
+    "topic_label": "Haiti Gang Violence",
+    "event_window_start": "2026-08-25T01:46:26.000Z",
+    "event_window_end": "2026-08-24T20:23:39.000Z",
+    "article_ids": [
+      "art_1787638312807_ersbu",
+      "art_1787626452790_xtne7"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T06:55:02.498Z",
+    "updated_at": "2026-08-25T06:55:02.498Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "At least 30 people were killed in a gang attack.",
+      "The attack took place in the community of Kenscoff.",
+      "Kenscoff is located south of the capital, Port-au-Prince."
+    ],
+    "source_claims": [
+      "[aljazeera_1] Kenscoff’s mayor, Jean Massillon, stated that armed men set homes on fire, targeted a church, and targeted the home of public health expert Jean William Pape.",
+      "[aljazeera_1] Mayor Jean Massillon attributed the attack to the gang coalition Viv Ansanm.",
+      "[aljazeera_1] The United States government designated Viv Ansanm as a foreign terrorist organization last year.",
+      "[aljazeera_1] Gangs control an estimated 70 percent of Port-au-Prince.",
+      "[aljazeera_2] Kenscoff is a strategic hillside community that overlooks routes into Port-au-Prince.",
+      "[aljazeera_2] Kenscoff has experienced dozens of attacks since last year."
+    ],
+    "framing_differences": [
+      "aljazeera_2 frames the location of Kenscoff specifically as a 'strategic hillside' relevant to controlling transit routes, whereas aljazeera_1 focuses on the humanitarian impact and specific high-profile residential targets."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] Jean William Pape's home was specifically targeted.",
+      "[aljazeera_1] Viv Ansanm was responsible for the attack."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the phrase 'sowed chaos' to describe the actions of the armed men.",
+      "[aljazeera_2] uses the adjective 'brutal' to describe the gang attack."
+    ],
+    "safe_conclusions": [
+      "A violent event involving an armed gang resulted in at least 30 deaths in the Kenscoff community."
+    ],
+    "unknowns": [
+      "The exact identities of the individuals responsible for the attack.",
+      "The official confirmation of the motives behind targeting specific locations like the church or the residence of Jean William Pape.",
+      "Current status of the security situation in Kenscoff following the event."
+    ],
+    "synthesis": "A gang attack in the Haitian community of Kenscoff resulted in at least 30 deaths. Local officials have attributed the violence to the gang coalition Viv Ansanm. The incident follows a pattern of ongoing regional instability affecting areas surrounding the capital of Port-au-Prince.",
+    "confidence": "HIGH. Both reports are from the same source outlet and align on the core casualty figures and location.",
+    "sources": [
+      {
+        "id": "art_1787638312807_ersbu",
+        "url": "https://www.aljazeera.com/news/2026/8/24/violence-flares-in-haiti-as-gang-attack-kills-30-people?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Violence flares in Haiti as gang attack kills 30 people"
+      },
+      {
+        "id": "art_1787626452790_xtne7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/brutal-gang-attack-on-strategic-haiti-hillside-leaves-at-least-30-dead?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Brutal gang attack on strategic Haiti hillside leaves at least 30 dead"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "32ddfbcd510910bc298c6dc6d1a3a7d1",
+    "topic_label": "US Immigration Policy Changes",
+    "event_window_start": "2026-08-25T01:01:44.000Z",
+    "event_window_end": "2026-08-25T00:17:47.000Z",
+    "article_ids": [
+      "art_1787630248186_881xh",
+      "art_1787626453877_vnuxp",
+      "art_1787626460140_0jjxn"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-25T14:49:48.739Z",
+    "updated_at": "2026-08-25T14:49:48.739Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Trump administration is coordinating with the Department of Homeland Security to revoke B1 and B2 visas held by foreigners who have sought or are seeking asylum.",
+      "The target population for these visa revocations involves individuals who received these visas between 2016 and 2026.",
+      "The Associated Press first reported the plan based on internal documents and interviews with two U.S. officials."
+    ],
+    "source_claims": [
+      "[fox] reports the administration is evaluating the revocation of up to 200,000 visas.",
+      "[guardian] cites a State Department spokesperson stating the objective is to revoke visas of foreigners who entered as short-term visitors but filed for asylum to stay permanently.",
+      "[aljazeera] reports that the action, if implemented, would represent the largest single mass revocation of visas in U.S. history."
+    ],
+    "framing_differences": [
+      "[fox] frames the initiative in the context of a crackdown on criminals and fraud, noting that Tom Homan is evaluating the efforts. [guardian] frames the initiative as a step in a broader 'sweeping immigration crackdown.' [aljazeera] focuses on the historical scale of the revocation, describing it as the 'largest single mass revocation' in U.S. history."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims the action could face legal challenges."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'sweeping immigration crackdown' to describe the administration's actions.",
+      "[aljazeera] uses the term 'so-called' when referring to B1 and B2 visas."
+    ],
+    "safe_conclusions": [
+      "The U.S. State Department is planning to revoke a subset of business and tourism visas issued between 2016 and 2026 for individuals who have applied for asylum."
+    ],
+    "unknowns": [
+      "The specific number of visas to be revoked is not officially confirmed by the State Department.",
+      "The exact timeline for the announcement and implementation of the plan.",
+      "The specific criteria the Department of Homeland Security will use to identify individuals for revocation."
+    ],
+    "synthesis": "The Trump administration is reportedly preparing to revoke B1 and business and tourist visas for approximately 200,000 foreign nationals who applied for asylum after their entry. This initiative, reported by The Associated Press to be the largest mass visa revocation in U.S. history, is being coordinated between the State Department and the Department of Homeland Security. The effort targets individuals who received their visas between 2016 and 2026.",
+    "confidence": "HIGH. The core information regarding the plan to revoke specific visa categories for asylum seekers is corroborated across all sources.",
+    "sources": [
+      {
+        "id": "art_1787630248186_881xh",
+        "url": "https://www.foxnews.com/politics/trump-admin-eyes-historic-mass-visa-revocation-targeting-200k-asylum-seekers",
+        "source": "fox",
+        "title": "Trump admin eyes historic mass visa revocation targeting up to 200K asylum seekers: report"
+      },
+      {
+        "id": "art_1787626453877_vnuxp",
+        "url": "https://www.theguardian.com/us-news/2026/aug/24/trump-administration-revoke-asylum-visas",
+        "source": "guardian",
+        "title": "Trump administration plans to revoke 200,000 visas of asylum seekers"
+      },
+      {
+        "id": "art_1787626460140_0jjxn",
+        "url": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US plans to revoke business, tourism visas of 200,000 asylum seekers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "940f770b4c63cbd6ca1a81766b69198d",
     "topic_label": "Conflict in Gaza and Middle East",
     "event_window_start": "2026-08-24T17:10:37.000Z",
@@ -1029,95 +1650,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "0d33c35615e6e4087c684285e2eec73b",
-    "topic_label": "Syria Removed from Terror List",
-    "event_window_start": "2026-08-24T22:32:26.000Z",
-    "event_window_end": "2026-08-25T04:38:24.000Z",
-    "article_ids": [
-      "art_1787633272463_3c2gf",
-      "art_1787630244001_apzhw",
-      "art_1787630249444_0xm9z",
-      "art_1787612716406_ov9ho"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T05:15:37.117Z",
-    "updated_at": "2026-08-25T05:15:37.117Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The United States has removed Syria from its list of state sponsors of terrorism.",
-      "Ahmed al-Sharaa is the President of Syria.",
-      "Hayat Tahrir al-Sham (HTS) has been removed from the US list of Specially Designated Global Terrorists (SDGT).",
-      "The removal of the state sponsor of terrorism designation is expected to facilitate foreign investment in Syria."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Syria had been on the state sponsor of terrorism list since 1979.",
-      "[fox] claims the rescission followed a mandatory 45-day congressional notification period.",
-      "[bbc] claims President Trump hosted Ahmed al-Sharaa at the White House last year.",
-      "[bbc] claims Ahmed al-Sharaa was a former militant who previously had an American bounty on his head.",
-      "[aljazeera] claims the designation revocation confirms a decision initially revealed last month."
-    ],
-    "framing_differences": [
-      "BBC frames the removal in the context of al-Sharaa's background as a former militant and leader of an al-Qaeda off-shoot, while aljazeera frames it as Syria shaking off a 'dark burden' and seeking international reintegration.",
-      "Fox focuses on the administrative actions of the Trump administration and Secretary of State Marco Rubio, whereas aljazeera focuses on the economic impact for Syria."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] claims the US administration has 'embraced' President Ahmed al-Sharaa."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'dark burden' to describe the period Syria spent on the US terror list.",
-      "[bbc] uses the term 'former militant' to describe President Ahmed al-Sharaa."
-    ],
-    "safe_conclusions": [
-      "The United States government has officially rescinded Syria's status as a state sponsor of terrorism.",
-      "HTS is no longer classified as a Specially Designated Global Terrorist group by the United States.",
-      "The change in designation is intended to allow for increased foreign investment in Syria."
-    ],
-    "unknowns": [
-      "The specific conditions or benchmarks Syria met to trigger the removal from the terrorism list beyond general assertions of distancing from terrorism.",
-      "The current total number of years Syria was on the list, as sources provide varying timelines (1979 vs 47 years)."
-    ],
-    "synthesis": "The United States has officially removed Syria from its state sponsor of terrorism list, a move intended to facilitate foreign investment and economic reintegration for the nation. Simultaneously, the US has rescinded the terrorist designation for Hayat Tahrir al-Sham, the group led by Syrian President Ahmed al-Sharaa. The administration of President Donald Trump initiated the process following reports that the Syrian government had ceased supporting acts of international terrorism.",
-    "confidence": "HIGH. The sources are consistent regarding the core policy changes, specifically the removal of Syria and HTS from US terrorism designations.",
-    "sources": [
-      {
-        "id": "art_1787633272463_3c2gf",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/syrian-president-thanks-nation-for-getting-off-us-state-terror-list?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Syrian president thanks nation for getting off US state terror list"
-      },
-      {
-        "id": "art_1787630244001_apzhw",
-        "url": "https://www.foxnews.com/world/syria-off-us-terror-blacklist-after-nearly-50-years-trump-admin-clears-investment-hurdle",
-        "source": "fox",
-        "title": "Syria off US terror blacklist after nearly 50 years as Trump admin clears investment hurdle"
-      },
-      {
-        "id": "art_1787630249444_0xm9z",
-        "url": "https://www.bbc.co.uk/news/articles/c33knmyl0y5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US removes Syria from list of state sponsors of terrorism"
-      },
-      {
-        "id": "art_1787612716406_ov9ho",
-        "url": "https://www.aljazeera.com/news/2026/8/24/us-removes-syria-from-state-sponsor-of-terrorism-list?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US removes Syria from ‘state sponsor of terrorism’ list"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "cb773d0de47fd0c42a84ae830d1a71e8",
     "topic_label": "Trump Administration Visa Crackdown",
     "event_window_start": "2026-08-24T13:30:27.000Z",
@@ -1361,92 +1893,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/25/france-saudi-arabia-agree-on-7bn-theme-park-project-near-paris?traffic_source=rss",
         "source": "aljazeera",
         "title": "France, Saudi Arabia agree on $7bn theme park project near Paris"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "302abf827a0d1d46d7fcbe0c3ab53896",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-08-24T16:27:36.000Z",
-    "event_window_end": "2026-08-24T19:21:01.000Z",
-    "article_ids": [
-      "art_1787647880836_kvb0n",
-      "art_1787636458509_5e1m6",
-      "art_1787612719567_60y2c",
-      "art_1787595311561_8x6i7"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T12:07:23.434Z",
-    "updated_at": "2026-08-25T12:07:23.434Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Israeli military conducted strikes in the Gaza Strip.",
-      "A strike occurred in the Deir al-Balah area near al-Aqsa Hospital involving tents used by displaced Palestinians.",
-      "The Israeli military confirmed targeting individuals in Deir al-Balah, identifying Muhammad Abdul Nasser Jaber Abu Asad as a target."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Israel attacked a water desalination plant and a mosque.",
-      "[aljazeera] reports that Israel maintains heavy restrictions on construction materials entering Gaza.",
-      "[aljazeera] reports one man was killed in a strike on a makeshift tent in Deir al-Balah.",
-      "[aljazeera] claims more than 1,300 Palestinians have been killed since the October ceasefire.",
-      "[aljazeera] notes that the Israeli army identified the target Muhammad Abdul Nasser Jaber Abu Asad as a member of Hamas’s military wing involved in the October 7 attack."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the conflict through the impact on displaced civilians and civilian infrastructure, whereas the Israeli army statements cited by Aljazeera frame the operations as tactical strikes against specific military targets."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims Israel attacked a water desalination plant and a mosque without providing specific locations or timestamps for these specific incidents."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'intensifies' to describe military actions.",
-      "[aljazeera] uses the term 'hostilities' to describe Israeli military operations."
-    ],
-    "safe_conclusions": [
-      "Military operations by Israel are ongoing in Gaza.",
-      "Casualties have been reported in the Deir al-Balah area near al-Aqsa Hospital.",
-      "The Israeli military has publicly identified specific individuals it targeted in Gaza."
-    ],
-    "unknowns": [
-      "The specific current status of construction material flow into Gaza.",
-      "The total number of casualties from individual strikes versus the cumulative total since October.",
-      "Verification of the claims regarding the desalination plant and mosque attacks by independent sources."
-    ],
-    "synthesis": "Israeli military strikes continue in the Gaza Strip, including actions in the Deir al-Balah area near al-Aqsa Hospital that resulted in civilian casualties. The Israeli military stated these operations targeted specific individuals identified as members of Hamas. Reports from the region also highlight ongoing difficulties for displaced Palestinians regarding housing and infrastructure access.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1787647880836_kvb0n",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-israel-attacks-desalination-plant-and-mosque-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Video: Israel attacks desalination plant and mosque in Gaza"
-      },
-      {
-        "id": "art_1787636458509_5e1m6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinian-builds-mud-shelter-as-tents-offer-little-relief?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Palestinian builds mud shelter as tents offer little relief"
-      },
-      {
-        "id": "art_1787612719567_60y2c",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinians-in-gaza-face-intensifying-israeli-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes"
-      },
-      {
-        "id": "art_1787595311561_8x6i7",
-        "url": "https://www.aljazeera.com/news/2026/8/24/israeli-strike-on-gaza-shelter-extends-casualty-list?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike on Gaza shelter extends casualty list"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -1696,85 +2142,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "2c2de1eec636cac4ea9e619e660ac344",
-    "topic_label": "US-Canada-China Trade Tensions",
-    "event_window_start": "2026-08-24T17:54:07.000Z",
-    "event_window_end": "2026-08-25T02:51:53.000Z",
-    "article_ids": [
-      "art_1787638308612_ufu42",
-      "art_1787626447577_hcz56",
-      "art_1787595297877_10o1s"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T12:07:23.434Z",
-    "updated_at": "2026-08-25T12:07:23.434Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Trade talks between the US and Canada have collapsed.",
-      "President Donald Trump has proposed increasing tariffs on Canadian automobiles and auto parts.",
-      "Vice President JD Vance made remarks regarding Canadian trade policies toward China compared to the US."
-    ],
-    "source_claims": [
-      "[bbc] President Trump intends to increase tariffs on Canadian vehicles and parts from 25% to 50% effective January 1.",
-      "[bbc] Canadian officials scheduled a news conference to outline a response to the trade tensions.",
-      "[bbc] Canada is the top export destination for 26 US states.",
-      "[fox] Vice President JD Vance stated that Canada treats Chinese goods more fairly than goods from Maine.",
-      "[fox] The US is implementing 50% tariffs on $20 billion worth of Canadian goods."
-    ],
-    "framing_differences": [
-      "BBC frames the event as a trade war between neighbors with a focus on Canadian economic leverage, whereas Fox frames the conflict through the lens of US trade fairness and comparative treatment of China by Canada."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] Prime Minister Mark Carney is the current Prime Minister of Canada.",
-      "[bbc] Prime Minister Mark Carney is planning 'dollar-for-dollar' retaliatory duties."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'insanity' to describe Canadian trade treatment of US goods.",
-      "[bbc] uses the term 'spiralling' to describe the trade dispute."
-    ],
-    "safe_conclusions": [
-      "The United States and Canada are currently experiencing a period of heightened trade tension characterized by threats of tariff increases and the breakdown of negotiations."
-    ],
-    "unknowns": [
-      "The specific final list of Canadian retaliatory measures.",
-      "The exact official response Canada will take following their scheduled news conference.",
-      "The current political leadership of Canada, as the sources contain conflicting or potentially erroneous information regarding the Prime Minister's identity."
-    ],
-    "synthesis": "The United States and Canada have seen a breakdown in trade negotiations, leading President Trump to threaten a tariff increase on Canadian automotive products to 50%. While US officials emphasize perceived unfair trade treatment by Canada relative to China, Canadian officials are preparing to announce measures to protect their domestic economy. The situation remains in flux as both nations consider further trade actions.",
-    "confidence": "MEDIUM: There is a discrepancy in the provided text regarding the identity of the Canadian Prime Minister, which affects the factual accuracy of the synthesis.",
-    "sources": [
-      {
-        "id": "art_1787638308612_ufu42",
-        "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles"
-      },
-      {
-        "id": "art_1787626447577_hcz56",
-        "url": "https://www.bbc.co.uk/news/articles/c05rj80ve56o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "How Canada could hit back to hurt the US economy - and Trump"
-      },
-      {
-        "id": "art_1787595297877_10o1s",
-        "url": "https://www.foxnews.com/politics/vance-says-canada-friendlier-china-trade-us-insanity",
-        "source": "fox",
-        "title": "Vance says Canada friendlier to China on trade than to US: 'Insanity'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "1b63a3412cf706fe4e1d33b6614bcb5c",
     "topic_label": "US Trump Administration Visa Crackdown",
     "event_window_start": "2026-08-24T13:30:27.000Z",
@@ -1862,78 +2229,6 @@
         "url": "https://www.foxnews.com/politics/birth-tourism-scams-draw-sweeping-crackdown-visa-revocations-climb",
         "source": "fox",
         "title": "Birth tourism scams draw sweeping crackdown as visa revocations climb"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "85d64d650309ad7aea4d2ac669cf719d",
-    "topic_label": "Haiti Gang Violence",
-    "event_window_start": "2026-08-25T01:46:26.000Z",
-    "event_window_end": "2026-08-24T20:23:39.000Z",
-    "article_ids": [
-      "art_1787638312807_ersbu",
-      "art_1787626452790_xtne7"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T06:55:02.498Z",
-    "updated_at": "2026-08-25T06:55:02.498Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "At least 30 people were killed in a gang attack.",
-      "The attack took place in the community of Kenscoff.",
-      "Kenscoff is located south of the capital, Port-au-Prince."
-    ],
-    "source_claims": [
-      "[aljazeera_1] Kenscoff’s mayor, Jean Massillon, stated that armed men set homes on fire, targeted a church, and targeted the home of public health expert Jean William Pape.",
-      "[aljazeera_1] Mayor Jean Massillon attributed the attack to the gang coalition Viv Ansanm.",
-      "[aljazeera_1] The United States government designated Viv Ansanm as a foreign terrorist organization last year.",
-      "[aljazeera_1] Gangs control an estimated 70 percent of Port-au-Prince.",
-      "[aljazeera_2] Kenscoff is a strategic hillside community that overlooks routes into Port-au-Prince.",
-      "[aljazeera_2] Kenscoff has experienced dozens of attacks since last year."
-    ],
-    "framing_differences": [
-      "aljazeera_2 frames the location of Kenscoff specifically as a 'strategic hillside' relevant to controlling transit routes, whereas aljazeera_1 focuses on the humanitarian impact and specific high-profile residential targets."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] Jean William Pape's home was specifically targeted.",
-      "[aljazeera_1] Viv Ansanm was responsible for the attack."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the phrase 'sowed chaos' to describe the actions of the armed men.",
-      "[aljazeera_2] uses the adjective 'brutal' to describe the gang attack."
-    ],
-    "safe_conclusions": [
-      "A violent event involving an armed gang resulted in at least 30 deaths in the Kenscoff community."
-    ],
-    "unknowns": [
-      "The exact identities of the individuals responsible for the attack.",
-      "The official confirmation of the motives behind targeting specific locations like the church or the residence of Jean William Pape.",
-      "Current status of the security situation in Kenscoff following the event."
-    ],
-    "synthesis": "A gang attack in the Haitian community of Kenscoff resulted in at least 30 deaths. Local officials have attributed the violence to the gang coalition Viv Ansanm. The incident follows a pattern of ongoing regional instability affecting areas surrounding the capital of Port-au-Prince.",
-    "confidence": "HIGH. Both reports are from the same source outlet and align on the core casualty figures and location.",
-    "sources": [
-      {
-        "id": "art_1787638312807_ersbu",
-        "url": "https://www.aljazeera.com/news/2026/8/24/violence-flares-in-haiti-as-gang-attack-kills-30-people?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Violence flares in Haiti as gang attack kills 30 people"
-      },
-      {
-        "id": "art_1787626452790_xtne7",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/brutal-gang-attack-on-strategic-haiti-hillside-leaves-at-least-30-dead?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Brutal gang attack on strategic Haiti hillside leaves at least 30 dead"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18514,311 +18809,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/21/tornado-new-york-long-island-delaware",
         "source": "guardian",
         "title": "Tornadoes pummel New York’s Long Island and Delaware capital"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "171dfc4ab96872e1f74e32d4005a0c63",
-    "topic_label": "Trump administration and policy",
-    "event_window_start": "2026-08-21T15:33:36.000Z",
-    "event_window_end": "2026-08-21T19:18:17.000Z",
-    "article_ids": [
-      "art_1787340863389_jy4la",
-      "art_1787340866526_nog6k",
-      "art_1787340868609_0cdch",
-      "art_1787340869633_rog6u",
-      "art_1787333762651_qtfgs",
-      "art_1787333774787_atf6s",
-      "art_1787333775827_48svh"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-22T15:25:35.866Z",
-    "updated_at": "2026-08-22T15:25:35.866Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Fallback activated."
-    ],
-    "source_claims": [
-      "No data available."
-    ],
-    "framing_differences": [
-      "No comparative data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [],
-    "loaded_language": [],
-    "safe_conclusions": [],
-    "unknowns": [
-      "No analysis possible."
-    ],
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "confidence": "LOW (Deterministic Fallback)",
-    "sources": [
-      {
-        "id": "art_1787340863389_jy4la",
-        "url": "https://www.foxnews.com/politics/trump-appointed-judge-blocks-blue-states-crackdown-ice-detention-center",
-        "source": "fox",
-        "title": "Trump-appointed judge blocks blue state's crackdown on ICE detention center"
-      },
-      {
-        "id": "art_1787340866526_nog6k",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/trump-administration-united-nations-payment",
-        "source": "guardian",
-        "title": "Trump administration begins transfer of $725m to UN, amid billions owed"
-      },
-      {
-        "id": "art_1787340868609_0cdch",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/trump-administration-public-comment-vaccines",
-        "source": "guardian",
-        "title": "Trump administration asking public comment on vaccine recommendations"
-      },
-      {
-        "id": "art_1787340869633_rog6u",
-        "url": "https://www.foxnews.com/politics/supreme-court-allows-trumps-white-house-ballroom-construction-continue",
-        "source": "fox",
-        "title": "Supreme Court allows Trump’s White House ballroom construction to continue for now"
-      },
-      {
-        "id": "art_1787333762651_qtfgs",
-        "url": "https://www.foxnews.com/politics/trump-transform-spaceflight-spectacle-status-quo-targeting-3-launches-per-day",
-        "source": "fox",
-        "title": "Trump to transform spaceflight from spectacle to status quo targeting 3 launches per day"
-      },
-      {
-        "id": "art_1787333774787_atf6s",
-        "url": "https://www.foxnews.com/opinion/served-trumps-nsa-scotus-need-stop-courts-putting-presidents-security-risk",
-        "source": "fox",
-        "title": "I served as Trump’s NSA. SCOTUS need to stop courts putting the president's security at risk"
-      },
-      {
-        "id": "art_1787333775827_48svh",
-        "url": "https://www.foxnews.com/politics/surprise-election-upset-shows-hating-trump-no-longer-enough-democratic-voters-turn-new-playbook",
-        "source": "fox",
-        "title": "Surprise election upset shows hating Trump is no longer enough as Democratic voters turn to new playbook"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "9c96337121e054aa43cf4cfd9f937d0a",
-    "topic_label": "Israel and Palestinian Conflict",
-    "event_window_start": "2026-08-21T15:00:39.000Z",
-    "event_window_end": "2026-08-22T12:51:55.000Z",
-    "article_ids": [
-      "art_1787406034770_2ua8q",
-      "art_1787384389252_tvj97",
-      "art_1787340865472_oxe8g",
-      "art_1787340870664_1jugz",
-      "art_1787333772666_gymhr",
-      "art_1787331423871_czc8d",
-      "art_1787326837387_bx6yx",
-      "art_1787326838455_rhgfh"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 8,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-22T14:01:41.226Z",
-    "updated_at": "2026-08-22T14:01:41.226Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "International entities and governments have engaged in diplomatic and legal actions regarding casualties involving Israeli military or settler activity.",
-      "Deaths of individuals have occurred in the West Bank and Gaza involving Israeli military or settler involvement."
-    ],
-    "source_claims": [
-      "[aljazeera] Jewish activists are providing a 'protective presence' in Palestinian villages to deter settler violence.",
-      "[aljazeera] A 17-year-old Palestinian was killed and another person injured in a settler attack near Hebron.",
-      "[aljazeera] Turkiye has sought an Interpol red notice for Israeli PM Benjamin Netanyahu regarding the May interception of the Global Sumud Flotilla.",
-      "[bbc] The UK, Canada, and Australia issued a joint statement describing as 'shameful' Israel's decision not to launch a criminal investigation into the April 2024 killing of seven World Central Kitchen workers.",
-      "[bbc] Israeli ambassador to Australia Hillel Newman stated there was 'no criminal intention' regarding the WCK convoy strikes."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the incidents in the West Bank through the lens of human rights activism and individual victimhood, whereas the BBC frames the Gaza aid worker incident through the lens of international diplomatic condemnation and state-level accountability."
-    ],
-    "contested_claims": [
-      "The characterization of the killing of individuals in the West Bank is contested; Aljazeera describes a specific death as a 'settler attack,' while the provided articles do not contain a counter-claim from Israeli sources regarding this specific event, though they do provide an Israeli official's denial of 'criminal intention' regarding a different incident involving aid workers."
-    ],
-    "unverified_claims": [
-      "[aljazeera] 22 Palestinians have been killed in settler attacks this year.",
-      "[aljazeera] Israeli police attached the word 'terrorist' to Ziad after he died."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocide' to describe Turkiye's accusation against Benjamin Netanyahu.",
-      "[bbc] uses the term 'shameful' to describe the joint statement by the UK, Canada, and Australia regarding Israel's decision."
-    ],
-    "safe_conclusions": [
-      "Various international stakeholders are currently involved in legal and diplomatic disputes concerning Israeli actions in the West Bank and Gaza.",
-      "Multiple fatalities involving civilians and aid workers have occurred during the conflict period."
-    ],
-    "unknowns": [
-      "The specific judicial outcome of the Turkish request for an Interpol warrant.",
-      "The internal investigative findings of the Israeli government regarding the specific West Bank killing near Hebron.",
-      "The full scope of 'protective presence' activities conducted by Jewish activists."
-    ],
-    "synthesis": "Current reporting highlights ongoing international diplomatic tension and legal actions concerning casualties in the West Bank and Gaza. Various nations and entities are pressing for accountability regarding Israeli military and settler conduct, while Israeli representatives maintain that criminal intent is absent in specific incidents. These events illustrate a sustained conflict between localized reports of violence and international efforts to apply judicial or diplomatic pressure.",
-    "confidence": "MEDIUM;HIGH; The sources provide clear statements of their respective claims, though they focus on disparate geographic events and entities.",
-    "sources": [
-      {
-        "id": "art_1787406034770_2ua8q",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/jewish-activists-push-back-against-israeli-settlers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jewish activists push back against Israeli settlers"
-      },
-      {
-        "id": "art_1787384389252_tvj97",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/palestinian-teen-shot-and-killed-in-west-bank-attack-un-responds?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian teen shot and killed in West Bank attack, UN responds"
-      },
-      {
-        "id": "art_1787340865472_oxe8g",
-        "url": "https://www.aljazeera.com/features/2026/8/21/palestinian-victims-of-israeli-settlers-face-painful-battle-for-justice?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian victims of Israeli settler attacks face battle for justice"
-      },
-      {
-        "id": "art_1787340870664_1jugz",
-        "url": "https://www.aljazeera.com/news/2026/8/21/turkiye-accuses-israels-netanyahu-of-genocide-seeks-interpol-warrant?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Turkiye accuses Israel’s Netanyahu of ‘genocide’, seeks Interpol warrant"
-      },
-      {
-        "id": "art_1787333772666_gymhr",
-        "url": "https://www.bbc.co.uk/news/articles/cvgl2pe09eno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "UK, Canada and Australia condemn Israel for refusing criminal probe into aid worker killings in Gaza"
-      },
-      {
-        "id": "art_1787331423871_czc8d",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/21/israeli-settlers-set-fire-to-heavy-machinery-at-west-bank-quarry?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli settlers set fire to heavy machinery at West Bank quarry"
-      },
-      {
-        "id": "art_1787326837387_bx6yx",
-        "url": "https://www.theguardian.com/world/2026/aug/21/uk-australia-canada-criticise-israel-gaza-aid-convoy-killings-decision",
-        "source": "guardian",
-        "title": "‘Shameful’: UK, Australia and Canada criticise Israel over Gaza aid convoy killings decision"
-      },
-      {
-        "id": "art_1787326838455_rhgfh",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/22/appeal-nsw-supreme-court-ruling-desmond-fagan-israel-antisemitism-ntwnfb",
-        "source": "guardian",
-        "title": "NSW ‘seeking urgent advice’ on controversial court ruling that found anti-Israel vandalism was not antisemitic"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c436ddd688ea977bbd4d48baeca4a64b",
-    "topic_label": "US-Canada Trade War Tariffs",
-    "event_window_start": "2026-08-21T15:22:48.000Z",
-    "event_window_end": "2026-08-22T06:05:58.000Z",
-    "article_ids": [
-      "art_1787384377608_h9qjj",
-      "art_1787384387196_hlqp1",
-      "art_1787384392322_5cmlm",
-      "art_1787340862323_vtsx8",
-      "art_1787326830999_fgwuv"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-22T08:04:33.803Z",
-    "updated_at": "2026-08-22T08:04:33.803Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Negotiations between the US and Canada regarding a trade deal failed to reach an agreement by the Friday midnight deadline.",
-      "US President Donald Trump proposed a 50% tariff on approximately $20bn worth of Canadian goods.",
-      "Canadian Prime Minister Mark Carney stated that Canada would match US tariffs on a dollar-for-dollar basis.",
-      "The trade negotiations took place in Washington, DC."
-    ],
-    "source_claims": [
-      "[guardian] Mark Carney characterized last-minute changes to the US proposed terms as unfair, uneconomic, and unreliable.",
-      "[bbc] Mark Carney stated that progress in the talks was insufficient to meet Canada's objectives.",
-      "[guardian] A leaked audio recording reportedly captures US Vice President JD Vance mocking Mark Carney for trying to 'out-tough' Donald Trump."
-    ],
-    "framing_differences": [
-      "Guardian frames the breakdown as a result of US last-minute changes being 'unfair,' while Al Jazeera frames the breakdown as a failure to meet Canadian objectives following three days of talks.",
-      "Guardian highlights alleged internal US political rhetoric via JD Vance, whereas BBC and Al Jazeera focus primarily on the official trade status and government statements."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] JD Vance purportedly stated in a private fundraiser that Mark Carney tries to 'puff his chest out' during negotiations."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'unfair' to describe US trade terms.",
-      "[guardian] uses the term 'mocking' to describe JD Vance's comments.",
-      "[bbc] uses the term 'breakdown' to describe the status of trade talks.",
-      "[guardian] uses the phrase 'puffs his chest out' to attribute a description of Mark Carney to JD Vance."
-    ],
-    "safe_conclusions": [
-      "The US and Canada have currently not reached a trade agreement.",
-      "Tariffs have been implemented or threatened on $20bn of Canadian goods.",
-      "The Canadian government has publicly committed to reciprocal tariff measures."
-    ],
-    "unknowns": [
-      "The specific technical details of the 'last-minute changes' proposed by the US.",
-      "The specific list of Canadian goods affected by the US 50% tariff.",
-      "The full content and context of the audio recording involving JD Vance."
-    ],
-    "synthesis": "Trade negotiations between the United States and Canada concluded without an agreement, leading to the implementation of US tariffs on $20bn worth of Canadian goods. Canadian Prime Minister Mark Carney announced that Canada will respond with reciprocal, dollar-for-dollar tariffs. Meanwhile, reports have emerged regarding comments allegedly made by US Vice President JD Vance concerning the negotiation dynamics.",
-    "confidence": "HIGH. Sources consistently report the breakdown of talks, the failure to meet the deadline, and the Canadian government's public commitment to reciprocal tariffs.",
-    "sources": [
-      {
-        "id": "art_1787384377608_h9qjj",
-        "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
-        "source": "guardian",
-        "title": "Canada vows to match Trump’s 50% tariffs after trade deal talks fail"
-      },
-      {
-        "id": "art_1787384387196_hlqp1",
-        "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down"
-      },
-      {
-        "id": "art_1787384392322_5cmlm",
-        "url": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail"
-      },
-      {
-        "id": "art_1787340862323_vtsx8",
-        "url": "https://www.aljazeera.com/economy/2026/8/21/us-canada-negotiators-race-to-ink-a-deal-as-trumps-tariff-deadline-looms?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US, Canada negotiators race to ink a deal as Trump’s tariff deadline looms"
-      },
-      {
-        "id": "art_1787326830999_fgwuv",
-        "url": "https://www.theguardian.com/us-news/2026/aug/21/jd-vance-mark-carney-out-tough-trump-trade",
-        "source": "guardian",
-        "title": "JD Vance reportedly mocks Carney for trying to ‘out-tough’ Trump on trade"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
