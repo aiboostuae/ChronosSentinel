@@ -1,10 +1,62 @@
 {
-  "generated_at": "2026-08-27T07:16:53.758Z",
+  "generated_at": "2026-08-27T18:38:46.165Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 179,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "e74083f9cbc5d4bab6d7abc0c9b14a2a",
+      "topic_label": "Nepal-Tibet Flash Floods",
+      "event_window_start": "2026-08-27T00:24:58.000Z",
+      "event_window_end": "2026-08-27T10:06:23.000Z",
+      "article_count": 6,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Flash floods occurred on the Nepal-Tibet border.",
+        "The disaster resulted in fatalities and missing persons.",
+        "The United States Geological Survey (USGS) analyzed the event.",
+        "A glacier collapse is identified as the likely cause of the flood.",
+        "Search and rescue operations are ongoing."
+      ],
+      "source_differences": [],
+      "synthesis": "Flash floods occurred along the Nepal-Tibet border following a glacial collapse, causing significant loss of life and infrastructure damage. While initial reports erroneously identified an earthquake as the cause, the USGS later confirmed the disaster was triggered by the disintegration of a glacier. Rescue operations are currently underway for a large number of missing individuals, including international tourists.",
+      "confidence": "CONTESTED. There are significant discrepancies in the reported death tolls between the sources and within the reporting of a single outlet.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news",
+          "title": "Nepal flash flood: 270 bodies recovered with hundreds more missing – latest updates"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
+          "title": "What we know about deadly Nepal-Tibet floods"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/27/what-caused-nepal-flash-flood-glacial-collapse-tibet-border",
+          "title": "Nearly 1,400 missing, mostly tourists, after Nepal-Tibet flash flood kills at least 270"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
+          "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/aug/27/britons-missing-flash-floods-nepal-tibet",
+          "title": "Search on for at least 33 Britons missing after flash floods in Nepal and Tibet"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
+          "title": "Anthony Albanese says 34 Australians among hundreds of people missing in deadly Nepal flash floods"
+        }
+      ],
+      "updated_at": "2026-08-27T18:38:40.484Z"
+    },
     {
       "cluster_id": "1ea4a0c5649ac9af7082bc39ff6fbf63",
       "topic_label": "Nepal Flash Floods Disaster",
@@ -402,40 +454,30 @@
         }
       ],
       "updated_at": "2026-08-26T07:55:32.636Z"
-    },
-    {
-      "cluster_id": "f6074cfb4f8aed0c8aed59701dc74966",
-      "topic_label": "Flash floods in Nepal",
-      "event_window_start": "2026-08-26T09:48:36.000Z",
-      "event_window_end": "2026-08-26T10:56:50.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "A flash flood occurred on the Nepal-Tibet border affecting the district of Rasuwa.",
-        "The flood caused damage to infrastructure including roads.",
-        "Search and rescue operations were initiated following the event.",
-        "The Bhote Koshi river is the area impacted by the flooding."
-      ],
-      "source_differences": [],
-      "synthesis": "A flash flood has impacted the Rasuwa district along the Nepal-Tibet border, resulting in fatalities and damage to infrastructure including roads and bridges. Rescue operations are currently underway despite reports of conditions impeding helicopter landings. Casualty estimates vary between the sources as search efforts continue.",
-      "confidence": "MEDIUM. There is a discrepancy in the reported death toll and the number of people missing between the provided sources.",
-      "sources": [
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/cx2zyerv2lmo?at_medium=RSS&at_campaign=rss",
-          "title": "Seventeen dead and hundreds unaccounted for as flash flood hits Nepal-Tibet border"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss",
-          "title": "At least eight killed as Nepal flash flood damages roads, energy facilities"
-        }
-      ],
-      "updated_at": "2026-08-26T12:07:30.844Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-e74083f9",
+      "title": "Nepal-Tibet Flash Floods",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster",
+        "grid",
+        "shipping"
+      ],
+      "why_it_matters": "Flash floods occurred along the Nepal-Tibet border following a glacial collapse, causing significant loss of life and infrastructure damage. While initial reports erroneously identified an earthquake as the cause, the USGS later confirmed the disaster was triggered by the disintegration of a glacier. Rescue operations are currently underway for a large number of missing individuals, including international tourists.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "e74083f9cbc5d4bab6d7abc0c9b14a2a",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-08-27T18:38:40.484Z"
+    },
     {
       "id": "impact-1ea4a0c5",
       "title": "Nepal Flash Floods Disaster",
@@ -613,27 +655,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-08-26T07:55:32.636Z"
-    },
-    {
-      "id": "impact-f6074cfb",
-      "title": "Flash floods in Nepal",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "disaster",
-        "grid",
-        "shipping"
-      ],
-      "why_it_matters": "A flash flood has impacted the Rasuwa district along the Nepal-Tibet border, resulting in fatalities and damage to infrastructure including roads and bridges. Rescue operations are currently underway despite reports of conditions impeding helicopter landings. Casualty estimates vary between the sources as search efforts continue.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "f6074cfb4f8aed0c8aed59701dc74966",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-08-26T12:07:30.844Z"
     }
   ]
 }
