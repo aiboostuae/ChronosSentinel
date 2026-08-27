@@ -1,5 +1,100 @@
 [
   {
+    "cluster_id": "e14497dbe5eeb7f99c4fa02de1f42326",
+    "topic_label": "Israel-Palestine Conflict",
+    "event_window_start": "2026-08-26T02:54:12.000Z",
+    "event_window_end": "2026-08-26T11:00:11.000Z",
+    "article_ids": [
+      "art_1787742845694_ycf8k",
+      "art_1787742846853_53i6c",
+      "art_1787732454172_xyjq6",
+      "art_1787732456344_t65fx",
+      "art_1787717042828_1oe9p"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-26T20:43:13.158Z",
+    "updated_at": "2026-08-26T20:43:13.158Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Military or security operations involving Israeli forces are occurring in various Palestinian territories including Gaza and the West Bank.",
+      "Israeli government officials and security forces maintain control over various aspects of Palestinian movement and infrastructure."
+    ],
+    "source_claims": [
+      "[guardian] States that farmers in Gaza face severe shortages of water, fertilizer, and pesticides, with over 80% of greenhouses destroyed.",
+      "[guardian] Reports that a website posing as a thinktank was established to influence AI chatbots to provide pro-Israel arguments.",
+      "[aljazeera] Claims the United Nations condemned threats by Israel to expel Palestinians from areas where children were flying kites.",
+      "[aljazeera] Reports that Israeli forces shot and injured at least five Palestinians during a raid on an UNRWA facility in East Jerusalem.",
+      "[aljazeera] States that Israeli soldiers blocked Knesset member Ofer Cassif from accessing a Palestinian home in Qusra that had been under a 17-day siege by settlers."
+    ],
+    "framing_differences": [
+      "The guardian focuses on the humanitarian impact of conflict on Gaza's food supply and investigates digital advocacy strategies, while aljazeera focuses on specific military confrontations and individual incidents involving Israeli authorities and Palestinian civilians."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Claims a website published 560,000 words in nine days to influence AI chatbots.",
+      "[aljazeera] States that Israeli minister Itamar Ben-Gvir led a raid on an UNRWA training center.",
+      "[aljazeera] Claims that kites launched from Gaza were not carrying incendiary devices."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'propaganda' to describe the activities of a pro-Israel messaging website.",
+      "[aljazeera] uses the term 'far-right' to describe Israeli minister Itamar Ben-Gvir.",
+      "[aljazeera] uses the term 'besieged' to describe the situation in the Gaza Strip and a specific home in the West Bank."
+    ],
+    "safe_conclusions": [
+      "Conflict continues to affect various regions involving Israeli security forces and Palestinian populations.",
+      "Incidents involving military or administrative interventions are reported in Gaza, East Jerusalem, and the West Bank."
+    ],
+    "unknowns": [
+      "The specific identity or total origin of the funding for the website mentioned by the guardian.",
+      "The official legal status or outcomes of the incidents reported by aljazeera regarding the UNRWA facility and the residence in Qusra.",
+      "The full extent of agricultural damage in Gaza beyond the figures provided by the guardian."
+    ],
+    "synthesis": "Current reports detail ongoing military and administrative actions taken by Israeli forces within Gaza, the West Bank, and East Jerusalem. These actions have resulted in various humanitarian and security incidents, including restrictions on civilian movement and damage to infrastructure. Simultaneously, there are reports regarding digital efforts to influence public discourse through AI platforms regarding the conflict.",
+    "confidence": "MEDIUM: The sources cover distinct, non-overlapping events, making cross-source verification of specific claims impossible while maintaining general consistency in the context of ongoing regional conflict.",
+    "sources": [
+      {
+        "id": "art_1787742845694_ycf8k",
+        "url": "https://www.theguardian.com/world/2026/aug/26/gaza-farmers-struggle-scraps-of-land-constant-threat",
+        "source": "guardian",
+        "title": "On scraps of land and under constant threat, Gaza farmers struggle to survive"
+      },
+      {
+        "id": "art_1787742846853_53i6c",
+        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+        "source": "guardian",
+        "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
+      },
+      {
+        "id": "art_1787732454172_xyjq6",
+        "url": "https://www.aljazeera.com/news/2026/8/26/un-rejects-israels-threat-to-expel-gaza-residents-over-kite-flying?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN rejects Israel’s threat to expel Gaza residents over kite-flying"
+      },
+      {
+        "id": "art_1787732456344_t65fx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/palestinian-boy-shot-during-israeli-raid-on-unrwa-centre?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian boy shot during Israeli raid on UNRWA centre"
+      },
+      {
+        "id": "art_1787717042828_1oe9p",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/israeli-soldiers-block-knesset-member-from-besieged-palestinian-home?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli soldiers block Knesset member from besieged Palestinian home"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "6815d3c839ae230f8c8096a271c5627b",
     "topic_label": "Iran Tensions and Sanctions",
     "event_window_start": "2026-08-26T05:20:17.000Z",
@@ -115,101 +210,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "e14497dbe5eeb7f99c4fa02de1f42326",
-    "topic_label": "Israel-Palestine Conflict",
-    "event_window_start": "2026-08-26T02:54:12.000Z",
-    "event_window_end": "2026-08-26T11:00:11.000Z",
-    "article_ids": [
-      "art_1787742845694_ycf8k",
-      "art_1787742846853_53i6c",
-      "art_1787732454172_xyjq6",
-      "art_1787732456344_t65fx",
-      "art_1787717042828_1oe9p"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T20:43:13.158Z",
-    "updated_at": "2026-08-26T20:43:13.158Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Military or security operations involving Israeli forces are occurring in various Palestinian territories including Gaza and the West Bank.",
-      "Israeli government officials and security forces maintain control over various aspects of Palestinian movement and infrastructure."
-    ],
-    "source_claims": [
-      "[guardian] States that farmers in Gaza face severe shortages of water, fertilizer, and pesticides, with over 80% of greenhouses destroyed.",
-      "[guardian] Reports that a website posing as a thinktank was established to influence AI chatbots to provide pro-Israel arguments.",
-      "[aljazeera] Claims the United Nations condemned threats by Israel to expel Palestinians from areas where children were flying kites.",
-      "[aljazeera] Reports that Israeli forces shot and injured at least five Palestinians during a raid on an UNRWA facility in East Jerusalem.",
-      "[aljazeera] States that Israeli soldiers blocked Knesset member Ofer Cassif from accessing a Palestinian home in Qusra that had been under a 17-day siege by settlers."
-    ],
-    "framing_differences": [
-      "The guardian focuses on the humanitarian impact of conflict on Gaza's food supply and investigates digital advocacy strategies, while aljazeera focuses on specific military confrontations and individual incidents involving Israeli authorities and Palestinian civilians."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims a website published 560,000 words in nine days to influence AI chatbots.",
-      "[aljazeera] States that Israeli minister Itamar Ben-Gvir led a raid on an UNRWA training center.",
-      "[aljazeera] Claims that kites launched from Gaza were not carrying incendiary devices."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'propaganda' to describe the activities of a pro-Israel messaging website.",
-      "[aljazeera] uses the term 'far-right' to describe Israeli minister Itamar Ben-Gvir.",
-      "[aljazeera] uses the term 'besieged' to describe the situation in the Gaza Strip and a specific home in the West Bank."
-    ],
-    "safe_conclusions": [
-      "Conflict continues to affect various regions involving Israeli security forces and Palestinian populations.",
-      "Incidents involving military or administrative interventions are reported in Gaza, East Jerusalem, and the West Bank."
-    ],
-    "unknowns": [
-      "The specific identity or total origin of the funding for the website mentioned by the guardian.",
-      "The official legal status or outcomes of the incidents reported by aljazeera regarding the UNRWA facility and the residence in Qusra.",
-      "The full extent of agricultural damage in Gaza beyond the figures provided by the guardian."
-    ],
-    "synthesis": "Current reports detail ongoing military and administrative actions taken by Israeli forces within Gaza, the West Bank, and East Jerusalem. These actions have resulted in various humanitarian and security incidents, including restrictions on civilian movement and damage to infrastructure. Simultaneously, there are reports regarding digital efforts to influence public discourse through AI platforms regarding the conflict.",
-    "confidence": "MEDIUM: The sources cover distinct, non-overlapping events, making cross-source verification of specific claims impossible while maintaining general consistency in the context of ongoing regional conflict.",
-    "sources": [
-      {
-        "id": "art_1787742845694_ycf8k",
-        "url": "https://www.theguardian.com/world/2026/aug/26/gaza-farmers-struggle-scraps-of-land-constant-threat",
-        "source": "guardian",
-        "title": "On scraps of land and under constant threat, Gaza farmers struggle to survive"
-      },
-      {
-        "id": "art_1787742846853_53i6c",
-        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-        "source": "guardian",
-        "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
-      },
-      {
-        "id": "art_1787732454172_xyjq6",
-        "url": "https://www.aljazeera.com/news/2026/8/26/un-rejects-israels-threat-to-expel-gaza-residents-over-kite-flying?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN rejects Israel’s threat to expel Gaza residents over kite-flying"
-      },
-      {
-        "id": "art_1787732456344_t65fx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/palestinian-boy-shot-during-israeli-raid-on-unrwa-centre?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian boy shot during Israeli raid on UNRWA centre"
-      },
-      {
-        "id": "art_1787717042828_1oe9p",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/israeli-soldiers-block-knesset-member-from-besieged-palestinian-home?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli soldiers block Knesset member from besieged Palestinian home"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "a4288d510420e2c945ad853b8622a19d",
     "topic_label": "Conflict in Sudan",
     "event_window_start": "2026-08-26T01:54:00.000Z",
@@ -298,6 +298,157 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "f6074cfb4f8aed0c8aed59701dc74966",
+    "topic_label": "Flash floods in Nepal",
+    "event_window_start": "2026-08-26T09:48:36.000Z",
+    "event_window_end": "2026-08-26T10:56:50.000Z",
+    "article_ids": [
+      "art_1787742848418_ygneq",
+      "art_1787739499709_iz48l"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-26T12:07:30.844Z",
+    "updated_at": "2026-08-26T12:07:30.844Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A flash flood occurred on the Nepal-Tibet border affecting the district of Rasuwa.",
+      "The flood caused damage to infrastructure including roads.",
+      "Search and rescue operations were initiated following the event.",
+      "The Bhote Koshi river is the area impacted by the flooding."
+    ],
+    "source_claims": [
+      "[bbc] reports at least 17 people have been killed and nearly 400 are unaccounted for.",
+      "[aljazeera] reports at least eight people have been killed.",
+      "[bbc] claims the event may have been caused by an earthquake triggering an avalanche with melted snow.",
+      "[aljazeera] reports that water levels prevented rescue helicopters from landing in Syapru Besi and Timure."
+    ],
+    "framing_differences": [
+      "BBC frames the event with a higher casualty estimate and includes specific numbers of missing tourists, whereas Al Jazeera reports a lower casualty count and focuses on the tactical difficulties of current rescue operations."
+    ],
+    "contested_claims": [
+      "The reported number of fatalities differs, with BBC reporting at least 17 deaths and Al Jazeera reporting at least eight deaths."
+    ],
+    "unverified_claims": [
+      "[bbc] claims nearly 400 people are unaccounted for.",
+      "[bbc] reports the Nepal tourism board is trying to locate 291 tourists.",
+      "[aljazeera] cites district administrator Narendra Pariyar stating he cannot confirm the extent of casualties yet."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'huge scale loss' to describe the anticipated impact according to Nepalese officials.",
+      "[aljazeera] uses the term 'huge flash flood' to describe the event."
+    ],
+    "safe_conclusions": [
+      "A flash flood has occurred in the Rasuwa district of Nepal near the border with Tibet.",
+      "Casualties and infrastructure damage have resulted from the flooding.",
+      "Official rescue efforts are currently underway."
+    ],
+    "unknowns": [
+      "The exact number of fatalities remains unconfirmed.",
+      "The specific cause of the flash flood has not been verified.",
+      "The precise number of people currently missing is not confirmed."
+    ],
+    "synthesis": "A flash flood has impacted the Rasuwa district along the Nepal-Tibet border, resulting in fatalities and damage to infrastructure including roads and bridges. Rescue operations are currently underway despite reports of conditions impeding helicopter landings. Casualty estimates vary between the sources as search efforts continue.",
+    "confidence": "MEDIUM. There is a discrepancy in the reported death toll and the number of people missing between the provided sources.",
+    "sources": [
+      {
+        "id": "art_1787742848418_ygneq",
+        "url": "https://www.bbc.co.uk/news/articles/cx2zyerv2lmo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Seventeen dead and hundreds unaccounted for as flash flood hits Nepal-Tibet border"
+      },
+      {
+        "id": "art_1787739499709_iz48l",
+        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least eight killed as Nepal flash flood damages roads, energy facilities"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3282d4497d92e668224b06f207077aaa",
+    "topic_label": "Pakistan hospital nursery fire",
+    "event_window_start": "2026-08-26T07:05:43.000Z",
+    "event_window_end": "2026-08-26T04:27:15.000Z",
+    "article_ids": [
+      "art_1787732463675_48w21",
+      "art_1787729907185_78b3y"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-26T08:49:02.071Z",
+    "updated_at": "2026-08-26T08:49:02.071Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A fire occurred on a Wednesday at the Pakistan Institute of Medical Sciences (PIMS) in Islamabad.",
+      "The fire affected a ward housing newborn babies.",
+      "At least 14 newborn infants died as a result of the fire."
+    ],
+    "source_claims": [
+      "[aljazeera] Prime Minister Shehbaz Sharif has ordered an investigation into the incident.",
+      "[aljazeera] Local broadcaster Geo TV reports a death toll of 15 infants.",
+      "[guardian] Hospital administration confirms 14 newborn deaths.",
+      "[guardian] Hospital spokesperson Dr. Aneeza Jalil stated 15 babies were in the ward and one was rescued by a doctor.",
+      "[guardian] The health minister, Mustafa Kamal, stated that many of the babies had breathing issues."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the location as the 'Mother and Child Centre' on the third floor, while The Guardian frames it as the 'maternity ward' at the 'biggest state hospital' in Islamabad."
+    ],
+    "contested_claims": [
+      "Sources differ on the total death toll, with Aljazeera citing reports of 15 deaths via Geo TV, while The Guardian states 14 deaths confirmed by hospital administration."
+    ],
+    "unverified_claims": [
+      "[aljazeera] The fire began shortly before 7am local time.",
+      "[guardian] Women who had just given birth were forced to run down several flights of stairs to evacuate."
+    ],
+    "loaded_language": [
+      "[guardian] uses the word 'engulfed' to describe the fire's effect on the ward."
+    ],
+    "safe_conclusions": [
+      "A fire took place at the Pakistan Institute of Medical Sciences resulting in infant fatalities.",
+      "Government and hospital authorities are currently addressing the incident."
+    ],
+    "unknowns": [
+      "The official cause of the fire.",
+      "The exact number of infants present in the ward at the start of the fire.",
+      "The total number of survivors."
+    ],
+    "synthesis": "A fire occurred at the Pakistan Institute of Medical Sciences in Islamabad on Wednesday, resulting in the deaths of at least 14 newborn infants. Government and hospital authorities have confirmed the event and initiated an investigation. Reports regarding the total death toll and specific rescue details vary slightly between sources.",
+    "confidence": "HIGH. While there is a minor discrepancy regarding the total count of deceased infants, all sources confirm the fundamental event, location, and the tragic loss of life.",
+    "sources": [
+      {
+        "id": "art_1787732463675_48w21",
+        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-15-newborns-killed-in-pakistan-hospital-fire?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least 14 newborn babies killed in Pakistan hospital nursery fire"
+      },
+      {
+        "id": "art_1787729907185_78b3y",
+        "url": "https://www.theguardian.com/world/2026/aug/26/newborn-babies-die-fire-pakistan-hospital-maternity-ward",
+        "source": "guardian",
+        "title": "At least 14 newborn babies die in fire at Pakistan hospital’s maternity ward"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "91218850e75a1ab75c555051bb09dc43",
     "topic_label": "Dolly Parton Life and Death",
     "event_window_start": "2026-08-26T02:03:18.000Z",
@@ -378,6 +529,224 @@
         "url": "https://www.foxnews.com/politics/dolly-parton-refused-pick-political-sides-decades-im-not-politics-im-entertainer",
         "source": "fox",
         "title": "Dolly Parton refused to pick political sides for decades: ‘I’m not in politics, I’m an entertainer’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bfbf782bdcc359fd3629e8b91dc8e304",
+    "topic_label": "Trump and US politics",
+    "event_window_start": "2026-08-26T01:01:03.000Z",
+    "event_window_end": "2026-08-26T11:00:46.000Z",
+    "article_ids": [
+      "art_1787742835475_81cek",
+      "art_1787739489470_7lt2f",
+      "art_1787739501904_cbbyj",
+      "art_1787736263766_ou9jv",
+      "art_1787736265836_m6hya",
+      "art_1787736271098_bh7l8",
+      "art_1787732462656_1nqi5",
+      "art_1787717041798_4h4bl",
+      "art_1787717045930_26f81",
+      "art_1787717046968_3iqv2"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 10,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-27T00:09:36.680Z",
+    "updated_at": "2026-08-27T00:09:36.680Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Abdul El-Sayed is a Democratic Senate nominee in Michigan.",
+      "Troy Jackson is a Democratic Senate nominee in Maine.",
+      "Susan Collins is a Republican incumbent US Senator from Maine."
+    ],
+    "source_claims": [
+      "[fox] claims that Abdul El-Sayed advocates for a wealth tax, socialized healthcare, and reparations.",
+      "[fox] claims that state Rep. Bill G. Schuette asserts El-Sayed's policies are emblematic of socialism.",
+      "[guardian] claims that Reproductive Freedom for All has endorsed Troy Jackson in the Maine Senate race.",
+      "[guardian] claims Darline Graham won the Republican nomination for US Senate in South Carolina."
+    ],
+    "framing_differences": [
+      "Fox frames Abdul El-Sayed's policy agenda as 'socialist' and damaging to the economy, while the Guardian does not mention El-Sayed, focusing instead on electoral outcomes in South Carolina and Maine."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims that Abdul El-Sayed 'cannot define what a woman is'.",
+      "[guardian] claims Susan Collins has been 'dogged on the campaign trail' regarding her role in abortion access."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'wealth-tax fantasy' to describe Abdul El-Sayed’s proposals.",
+      "[fox] uses the term 'tragically wealthy' to describe wealthy citizens.",
+      "[fox] uses the term 'far-left socialist' to describe Abdul El-Sayed's policies."
+    ],
+    "safe_conclusions": [
+      "Abdul El-Sayed and Troy Jackson are current Democratic candidates for US Senate.",
+      "Susan Collins is a Republican US Senator currently seeking reelection in Maine.",
+      "Darline Graham is a Republican nominee for the US Senate in South Carolina."
+    ],
+    "unknowns": [
+      "The specific economic impact of the wealth tax proposed by Abdul El-Sayed.",
+      "The full policy platform of Darline Graham beyond her nomination status.",
+      "The current polling data for the Maine and Michigan Senate races."
+    ],
+    "synthesis": "Recent political developments include the nomination of Darline Graham for the US Senate in South Carolina and the endorsement of Maine Democratic candidate Troy Jackson by Reproductive Freedom for All. In Michigan, Republican lawmakers have criticized Democratic Senate nominee Abdul El-Sayed for his support of wealth taxes and other policy proposals. These reports cover independent electoral events and candidate platforms in different US states.",
+    "confidence": "HIGH. The sources focus on distinct regional political events that do not conflict with one another.",
+    "sources": [
+      {
+        "id": "art_1787742835475_81cek",
+        "url": "https://www.foxnews.com/opinion/lefts-constitutional-hypocrisy-full-display-war-trump",
+        "source": "fox",
+        "title": "The Left’s constitutional hypocrisy is on full display in its war on Trump"
+      },
+      {
+        "id": "art_1787739489470_7lt2f",
+        "url": "https://www.theguardian.com/us-news/live/2026/aug/26/darline-graham-lindsey-south-carolina-gop-post-office-voting-senate-midterms-donald-trump-latest-news-updates",
+        "source": "guardian",
+        "title": "Darline Graham wins South Carolina GOP nomination to replace her late brother in US Senate – US politics live"
+      },
+      {
+        "id": "art_1787739501904_cbbyj",
+        "url": "https://www.theguardian.com/us-news/2026/aug/26/abortion-rights-group-endorses-democrat-troy-jackson-in-critical-maine-senate-race",
+        "source": "guardian",
+        "title": "Abortion rights group endorses Democrat Troy Jackson in critical Maine Senate race"
+      },
+      {
+        "id": "art_1787736263766_ou9jv",
+        "url": "https://www.foxnews.com/opinion/jonathan-turley-abdul-el-sayed-wealth-tax-fantasy-wreck-michigan-economy",
+        "source": "fox",
+        "title": "JONATHAN TURLEY:  Abdul El-Sayed’s wealth-tax fantasy could wreck the Michigan economy"
+      },
+      {
+        "id": "art_1787736265836_m6hya",
+        "url": "https://www.foxnews.com/politics/michigan-gop-lawmaker-casts-doubt-el-sayeds-socialist-denial-policies-tell-another-story-sharp-odds",
+        "source": "fox",
+        "title": "Michigan GOP lawmaker casts doubt on El-Sayed’s socialist denial as policies tell another story: ‘Sharp odds’"
+      },
+      {
+        "id": "art_1787736271098_bh7l8",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/lindsey-grahams-sister-up-for-election-to-his-us-senate-seat?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Lindsey Graham’s sister up for election to his US Senate seat"
+      },
+      {
+        "id": "art_1787732462656_1nqi5",
+        "url": "https://www.theguardian.com/us-news/2026/aug/26/alaska-dan-sullivan-senate",
+        "source": "guardian",
+        "title": "Two Dan Sullivans to appear on Alaska’s US Senate ballot in November’s midterm elections"
+      },
+      {
+        "id": "art_1787717041798_4h4bl",
+        "url": "https://www.foxnews.com/politics/trump-endorsed-candidate-clears-key-hurdle-red-state-gubernatorial-race",
+        "source": "fox",
+        "title": "Trump-endorsed candidate clears key hurdle in red state gubernatorial race"
+      },
+      {
+        "id": "art_1787717045930_26f81",
+        "url": "https://www.foxnews.com/politics/trump-endorsement-boosts-sister-late-lindsey-graham-historic-runoff-win",
+        "source": "fox",
+        "title": "Trump endorsement boosts sister of late Lindsey Graham to historic runoff victory"
+      },
+      {
+        "id": "art_1787717046968_3iqv2",
+        "url": "https://www.foxnews.com/politics/democratic-newcomer-scores-runoff-upset-oklahoma-vows-impeach-trump-elected",
+        "source": "fox",
+        "title": "Democratic newcomer scores runoff upset in Oklahoma, vows to impeach Trump if elected"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "436558091906be9c72265e32283c33b7",
+    "topic_label": "US immigration and visa restrictions",
+    "event_window_start": "2026-08-26T01:16:18.000Z",
+    "event_window_end": "2026-08-26T10:00:42.000Z",
+    "article_ids": [
+      "art_1787739492906_bl9ne",
+      "art_1787736266881_is3v0",
+      "art_1787732455321_ppnb2",
+      "art_1787713118404_ya71m"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-26T12:07:30.844Z",
+    "updated_at": "2026-08-26T12:07:30.844Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Trump administration is implementing new public-charge guidance for immigration visa applicants.",
+      "The U.S. State Department has instructed embassies and consulates to reschedule immigrant visa interviews for staff training.",
+      "Government data indicates an increase in immigration-related enforcement actions."
+    ],
+    "source_claims": [
+      "[guardian] The administration has moved away from high-profile, militarized raids toward a quieter, scaled-up enforcement approach.",
+      "[aljazeera] ICE arrested 49,571 people in July, representing a 15 percent increase over June and a 70 percent increase over February.",
+      "[fox] More than 100,000 visas have been revoked under the continuous vetting program, with DUIs cited as a primary factor.",
+      "[guardian] All immigrant visa applications are paused as part of a broader crackdown on lawful and undocumented immigration."
+    ],
+    "framing_differences": [
+      "[guardian] frames the visa pause and enforcement data as part of an overarching 'crackdown' on both lawful and undocumented immigration, whereas [fox] frames the visa pause specifically within the context of 'heightened screening' and 'public-charge' guidance training."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Monthly arrests in December 2024 were slightly over 8,000.",
+      "[guardian] The administration's shift away from militarized raids is a deliberate tactical change to quieter enforcement."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'deportation spree' to describe the increase in removals.",
+      "[guardian] uses the term 'crackdown' to describe the administration's immigration policy.",
+      "[fox] uses the term 'heightened screening' to describe new visa application requirements."
+    ],
+    "safe_conclusions": [
+      "U.S. immigration enforcement activity has increased since earlier in the year.",
+      "U.S. visa interviews are currently being rescheduled for staff training on public-charge guidance."
+    ],
+    "unknowns": [
+      "The specific duration of the visa interview pause.",
+      "The full scope of how 'public charge' determinations will be applied to future visa applicants."
+    ],
+    "synthesis": "The Trump administration has increased immigration enforcement, with ICE recording 49,571 arrests in July. Simultaneously, the State Department has paused immigrant visa interviews worldwide to facilitate training on new public-charge guidance. These measures occur alongside the revocation of over 100,000 visas under continuous vetting programs.",
+    "confidence": "HIGH. The sources consistently report on the occurrence of increased enforcement statistics and the logistical pause of visa services due to training, though they differ in their editorial framing of these policies.",
+    "sources": [
+      {
+        "id": "art_1787739492906_bl9ne",
+        "url": "https://www.theguardian.com/us-news/2026/aug/26/record-arrests-deportations-immigrants",
+        "source": "guardian",
+        "title": "New data shows record number of arrests and deportations of immigrants in the US"
+      },
+      {
+        "id": "art_1787736266881_is3v0",
+        "url": "https://www.aljazeera.com/news/2026/8/26/us-immigration-agents-arrested-more-than-49500-people-in-july?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US immigration agents arrested more than 49,500 people in July"
+      },
+      {
+        "id": "art_1787732455321_ppnb2",
+        "url": "https://www.foxnews.com/politics/trump-immigrant-visa-interview-pause",
+        "source": "fox",
+        "title": "Trump admin pauses visa appointments worldwide amid heightened screening for applicants"
+      },
+      {
+        "id": "art_1787713118404_ya71m",
+        "url": "https://www.theguardian.com/us-news/2026/aug/25/us-immigrant-visa-application-trump-crackdwon",
+        "source": "guardian",
+        "title": "US halts all immigrant visa applications amid tightening restrictions"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -998,157 +1367,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "f6074cfb4f8aed0c8aed59701dc74966",
-    "topic_label": "Flash floods in Nepal",
-    "event_window_start": "2026-08-26T09:48:36.000Z",
-    "event_window_end": "2026-08-26T10:56:50.000Z",
-    "article_ids": [
-      "art_1787742848418_ygneq",
-      "art_1787739499709_iz48l"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T12:07:30.844Z",
-    "updated_at": "2026-08-26T12:07:30.844Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A flash flood occurred on the Nepal-Tibet border affecting the district of Rasuwa.",
-      "The flood caused damage to infrastructure including roads.",
-      "Search and rescue operations were initiated following the event.",
-      "The Bhote Koshi river is the area impacted by the flooding."
-    ],
-    "source_claims": [
-      "[bbc] reports at least 17 people have been killed and nearly 400 are unaccounted for.",
-      "[aljazeera] reports at least eight people have been killed.",
-      "[bbc] claims the event may have been caused by an earthquake triggering an avalanche with melted snow.",
-      "[aljazeera] reports that water levels prevented rescue helicopters from landing in Syapru Besi and Timure."
-    ],
-    "framing_differences": [
-      "BBC frames the event with a higher casualty estimate and includes specific numbers of missing tourists, whereas Al Jazeera reports a lower casualty count and focuses on the tactical difficulties of current rescue operations."
-    ],
-    "contested_claims": [
-      "The reported number of fatalities differs, with BBC reporting at least 17 deaths and Al Jazeera reporting at least eight deaths."
-    ],
-    "unverified_claims": [
-      "[bbc] claims nearly 400 people are unaccounted for.",
-      "[bbc] reports the Nepal tourism board is trying to locate 291 tourists.",
-      "[aljazeera] cites district administrator Narendra Pariyar stating he cannot confirm the extent of casualties yet."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'huge scale loss' to describe the anticipated impact according to Nepalese officials.",
-      "[aljazeera] uses the term 'huge flash flood' to describe the event."
-    ],
-    "safe_conclusions": [
-      "A flash flood has occurred in the Rasuwa district of Nepal near the border with Tibet.",
-      "Casualties and infrastructure damage have resulted from the flooding.",
-      "Official rescue efforts are currently underway."
-    ],
-    "unknowns": [
-      "The exact number of fatalities remains unconfirmed.",
-      "The specific cause of the flash flood has not been verified.",
-      "The precise number of people currently missing is not confirmed."
-    ],
-    "synthesis": "A flash flood has impacted the Rasuwa district along the Nepal-Tibet border, resulting in fatalities and damage to infrastructure including roads and bridges. Rescue operations are currently underway despite reports of conditions impeding helicopter landings. Casualty estimates vary between the sources as search efforts continue.",
-    "confidence": "MEDIUM. There is a discrepancy in the reported death toll and the number of people missing between the provided sources.",
-    "sources": [
-      {
-        "id": "art_1787742848418_ygneq",
-        "url": "https://www.bbc.co.uk/news/articles/cx2zyerv2lmo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Seventeen dead and hundreds unaccounted for as flash flood hits Nepal-Tibet border"
-      },
-      {
-        "id": "art_1787739499709_iz48l",
-        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At least eight killed as Nepal flash flood damages roads, energy facilities"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3282d4497d92e668224b06f207077aaa",
-    "topic_label": "Pakistan hospital nursery fire",
-    "event_window_start": "2026-08-26T07:05:43.000Z",
-    "event_window_end": "2026-08-26T04:27:15.000Z",
-    "article_ids": [
-      "art_1787732463675_48w21",
-      "art_1787729907185_78b3y"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T08:49:02.071Z",
-    "updated_at": "2026-08-26T08:49:02.071Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A fire occurred on a Wednesday at the Pakistan Institute of Medical Sciences (PIMS) in Islamabad.",
-      "The fire affected a ward housing newborn babies.",
-      "At least 14 newborn infants died as a result of the fire."
-    ],
-    "source_claims": [
-      "[aljazeera] Prime Minister Shehbaz Sharif has ordered an investigation into the incident.",
-      "[aljazeera] Local broadcaster Geo TV reports a death toll of 15 infants.",
-      "[guardian] Hospital administration confirms 14 newborn deaths.",
-      "[guardian] Hospital spokesperson Dr. Aneeza Jalil stated 15 babies were in the ward and one was rescued by a doctor.",
-      "[guardian] The health minister, Mustafa Kamal, stated that many of the babies had breathing issues."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the location as the 'Mother and Child Centre' on the third floor, while The Guardian frames it as the 'maternity ward' at the 'biggest state hospital' in Islamabad."
-    ],
-    "contested_claims": [
-      "Sources differ on the total death toll, with Aljazeera citing reports of 15 deaths via Geo TV, while The Guardian states 14 deaths confirmed by hospital administration."
-    ],
-    "unverified_claims": [
-      "[aljazeera] The fire began shortly before 7am local time.",
-      "[guardian] Women who had just given birth were forced to run down several flights of stairs to evacuate."
-    ],
-    "loaded_language": [
-      "[guardian] uses the word 'engulfed' to describe the fire's effect on the ward."
-    ],
-    "safe_conclusions": [
-      "A fire took place at the Pakistan Institute of Medical Sciences resulting in infant fatalities.",
-      "Government and hospital authorities are currently addressing the incident."
-    ],
-    "unknowns": [
-      "The official cause of the fire.",
-      "The exact number of infants present in the ward at the start of the fire.",
-      "The total number of survivors."
-    ],
-    "synthesis": "A fire occurred at the Pakistan Institute of Medical Sciences in Islamabad on Wednesday, resulting in the deaths of at least 14 newborn infants. Government and hospital authorities have confirmed the event and initiated an investigation. Reports regarding the total death toll and specific rescue details vary slightly between sources.",
-    "confidence": "HIGH. While there is a minor discrepancy regarding the total count of deceased infants, all sources confirm the fundamental event, location, and the tragic loss of life.",
-    "sources": [
-      {
-        "id": "art_1787732463675_48w21",
-        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-15-newborns-killed-in-pakistan-hospital-fire?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At least 14 newborn babies killed in Pakistan hospital nursery fire"
-      },
-      {
-        "id": "art_1787729907185_78b3y",
-        "url": "https://www.theguardian.com/world/2026/aug/26/newborn-babies-die-fire-pakistan-hospital-maternity-ward",
-        "source": "guardian",
-        "title": "At least 14 newborn babies die in fire at Pakistan hospital’s maternity ward"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "f3707a44c752e3f57acff669b1b2f82c",
     "topic_label": "Ukrainian Attacks on Russia",
     "event_window_start": "2026-08-26T04:54:38.000Z",
@@ -1655,93 +1873,6 @@
         "url": "https://www.theguardian.com/world/2026/aug/25/china-us-sanctions-iran-oil",
         "source": "guardian",
         "title": "China denounces US threat of sanctions over trade with Iran"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "436558091906be9c72265e32283c33b7",
-    "topic_label": "US immigration and visa restrictions",
-    "event_window_start": "2026-08-26T01:16:18.000Z",
-    "event_window_end": "2026-08-26T10:00:42.000Z",
-    "article_ids": [
-      "art_1787739492906_bl9ne",
-      "art_1787736266881_is3v0",
-      "art_1787732455321_ppnb2",
-      "art_1787713118404_ya71m"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T12:07:30.844Z",
-    "updated_at": "2026-08-26T12:07:30.844Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Trump administration is implementing new public-charge guidance for immigration visa applicants.",
-      "The U.S. State Department has instructed embassies and consulates to reschedule immigrant visa interviews for staff training.",
-      "Government data indicates an increase in immigration-related enforcement actions."
-    ],
-    "source_claims": [
-      "[guardian] The administration has moved away from high-profile, militarized raids toward a quieter, scaled-up enforcement approach.",
-      "[aljazeera] ICE arrested 49,571 people in July, representing a 15 percent increase over June and a 70 percent increase over February.",
-      "[fox] More than 100,000 visas have been revoked under the continuous vetting program, with DUIs cited as a primary factor.",
-      "[guardian] All immigrant visa applications are paused as part of a broader crackdown on lawful and undocumented immigration."
-    ],
-    "framing_differences": [
-      "[guardian] frames the visa pause and enforcement data as part of an overarching 'crackdown' on both lawful and undocumented immigration, whereas [fox] frames the visa pause specifically within the context of 'heightened screening' and 'public-charge' guidance training."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Monthly arrests in December 2024 were slightly over 8,000.",
-      "[guardian] The administration's shift away from militarized raids is a deliberate tactical change to quieter enforcement."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'deportation spree' to describe the increase in removals.",
-      "[guardian] uses the term 'crackdown' to describe the administration's immigration policy.",
-      "[fox] uses the term 'heightened screening' to describe new visa application requirements."
-    ],
-    "safe_conclusions": [
-      "U.S. immigration enforcement activity has increased since earlier in the year.",
-      "U.S. visa interviews are currently being rescheduled for staff training on public-charge guidance."
-    ],
-    "unknowns": [
-      "The specific duration of the visa interview pause.",
-      "The full scope of how 'public charge' determinations will be applied to future visa applicants."
-    ],
-    "synthesis": "The Trump administration has increased immigration enforcement, with ICE recording 49,571 arrests in July. Simultaneously, the State Department has paused immigrant visa interviews worldwide to facilitate training on new public-charge guidance. These measures occur alongside the revocation of over 100,000 visas under continuous vetting programs.",
-    "confidence": "HIGH. The sources consistently report on the occurrence of increased enforcement statistics and the logistical pause of visa services due to training, though they differ in their editorial framing of these policies.",
-    "sources": [
-      {
-        "id": "art_1787739492906_bl9ne",
-        "url": "https://www.theguardian.com/us-news/2026/aug/26/record-arrests-deportations-immigrants",
-        "source": "guardian",
-        "title": "New data shows record number of arrests and deportations of immigrants in the US"
-      },
-      {
-        "id": "art_1787736266881_is3v0",
-        "url": "https://www.aljazeera.com/news/2026/8/26/us-immigration-agents-arrested-more-than-49500-people-in-july?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US immigration agents arrested more than 49,500 people in July"
-      },
-      {
-        "id": "art_1787732455321_ppnb2",
-        "url": "https://www.foxnews.com/politics/trump-immigrant-visa-interview-pause",
-        "source": "fox",
-        "title": "Trump admin pauses visa appointments worldwide amid heightened screening for applicants"
-      },
-      {
-        "id": "art_1787713118404_ya71m",
-        "url": "https://www.theguardian.com/us-news/2026/aug/25/us-immigrant-visa-application-trump-crackdwon",
-        "source": "guardian",
-        "title": "US halts all immigrant visa applications amid tightening restrictions"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -19861,94 +19992,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/23/heavy-israeli-air-strike-hits-warehouse-in-central-gaza?traffic_source=rss",
         "source": "aljazeera",
         "title": "Heavy Israeli air strike hits warehouse in central Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c086cf59772b28afe0c47fef18343213",
-    "topic_label": "Tensions and Sanctions on Iran",
-    "event_window_start": "2026-08-24T04:02:14.000Z",
-    "event_window_end": "2026-08-24T07:26:15.000Z",
-    "article_ids": [
-      "art_1787558858700_ar0so",
-      "art_1787558867652_wz7b6",
-      "art_1787550437747_b2vzp",
-      "art_1787547147238_4lbat"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-24T08:53:18.457Z",
-    "updated_at": "2026-08-24T08:53:18.457Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The United States and Israel have been engaged in a conflict with Iran for approximately six months.",
-      "The United States is implementing or preparing new economic sanctions against Iran.",
-      "Diplomatic efforts to reach an agreement to end the conflict between the United States, Israel, and Iran have stalled.",
-      "Pakistan's Chief of Army Staff Asim Munir is scheduled to travel to Tehran for discussions with Iranian officials."
-    ],
-    "source_claims": [
-      "[aljazeera] Petrol prices have risen in at least 145 countries due to the war in Iran.",
-      "[aljazeera] Myanmar experienced the largest petrol price increase at 56 percent between February and August.",
-      "[aljazeera] Iran stated that any countries joining the US economic campaign will be treated as enemies.",
-      "[aljazeera] US President Donald Trump announced plans for a 'crushing economic operation' against Iran.",
-      "[aljazeera] Iranian Foreign Minister Abbas Araghchi stated that new US sanctions are a repetition of past policies."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the conflict as a 'war on Iran' initiated by the United States and Israel, while reporting on international petrol price fluctuations as a consequence of this conflict."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Iran stated that any countries joining the US campaign will be treated as enemies."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'crushing measures' to describe US economic actions.",
-      "[aljazeera] uses the term 'bullying' to describe US policy as characterized by Iran's Foreign Minister.",
-      "[aljazeera] uses the term 'greatest coordinated economic isolation in history' to describe the US campaign."
-    ],
-    "safe_conclusions": [
-      "There is an ongoing conflict involving the United States, Israel, and Iran.",
-      "International petrol prices have seen volatility in various countries over the past six months.",
-      "Diplomatic communications are occurring between Pakistan and Iran regarding the current geopolitical situation."
-    ],
-    "unknowns": [
-      "The specific agenda for the meeting between Asim Munir and Iranian officials.",
-      "The full list of countries involved in the US-led economic isolation campaign.",
-      "The precise economic impact attributable specifically to the conflict versus other market factors."
-    ],
-    "synthesis": "The United States and Israel are currently engaged in a six-month conflict with Iran, prompting new US plans for economic sanctions. Global petrol prices have fluctuated across 145 countries during this period, while diplomatic efforts to resolve the conflict remain at an impasse. Pakistan is actively seeking to mediate the situation, with its army chief scheduled for talks in Tehran.",
-    "confidence": "HIGH. The sources consistently report on the ongoing conflict and the current diplomatic and economic developments involving the named nations.",
-    "sources": [
-      {
-        "id": "art_1787558858700_ar0so",
-        "url": "https://www.aljazeera.com/news/2026/8/24/how-much-more-are-you-spending-on-petrol-since-the-war-in-iran-began?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How much more are you spending on petrol since the war in Iran began?"
-      },
-      {
-        "id": "art_1787558867652_wz7b6",
-        "url": "https://www.aljazeera.com/news/2026/8/24/pakistans-army-chief-munir-returns-to-iran-can-he-break-us-war-deadlock?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan’s army chief back in Iran: Can he break peace talks deadlock?"
-      },
-      {
-        "id": "art_1787550437747_b2vzp",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/23/will-donald-trumps-new-sanctions-against-iran-work?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Donald Trump’s new sanctions against Iran work?"
-      },
-      {
-        "id": "art_1787547147238_4lbat",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/we-know-this-movie-iran-mocks-latest-us-sanctions?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘We know this movie’: Iran mocks latest US sanctions"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
