@@ -1,5 +1,644 @@
 [
   {
+    "cluster_id": "8f9a970ab3ff6fcc5a68583940cdc780",
+    "topic_label": "Grand Canyon Flash Flooding",
+    "event_window_start": "2026-08-30T21:00:38.000Z",
+    "event_window_end": "2026-08-31T00:19:04.000Z",
+    "article_ids": [
+      "art_1788137846666_oj1lc",
+      "art_1788137848962_qw6x6",
+      "art_1788129242567_x333e",
+      "art_1788129251542_2obnz"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-31T03:06:27.828Z",
+    "updated_at": "2026-08-31T03:06:27.828Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A flash flood occurred in the Grand Canyon area, specifically affecting Bright Angel Canyon and Phantom Ranch.",
+      "The National Park Service and Arizona authorities are conducting operations to account for individuals and perform evacuations.",
+      "More than 60 people have been evacuated from the affected area.",
+      "No injuries have been reported."
+    ],
+    "source_claims": [
+      "[aljazeera] claims more than 20 people may be missing.",
+      "[guardian] claims at least 15 people may be missing or unaccounted for.",
+      "[bbc] claims more than 20 people are thought to be missing or unaccounted for.",
+      "[fox] claims more than 20 people may be missing or unaccounted for.",
+      "[bbc] claims the event occurred at 14:30 local time on Saturday.",
+      "[fox] claims the flooding occurred on Aug. 29."
+    ],
+    "framing_differences": [
+      "aljazeera focuses on the number of missing people while guardian and fox emphasize the National Park Service's official request for public assistance in accounting for people.",
+      "bbc includes personal eyewitness accounts to frame the event, whereas aljazeera, guardian, and fox rely exclusively on official reporting."
+    ],
+    "contested_claims": [
+      "The number of missing people is reported as 'more than 20' by aljazeera, bbc, and fox, while guardian reports 'at least 15'."
+    ],
+    "unverified_claims": [
+      "[fox] claims the flood occurred on Aug. 29.",
+      "[bbc] claims the flood occurred on Saturday at 14:30 local time."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'terrifying' to describe the flooding as quoted by an eyewitness."
+    ],
+    "safe_conclusions": [
+      "Flash flooding occurred in the Bright Angel Canyon and Phantom Ranch area of the Grand Canyon.",
+      "Evacuation operations are ongoing.",
+      "A search is underway to account for individuals who were in the area."
+    ],
+    "unknowns": [
+      "The exact number of people currently missing.",
+      "The specific cause of the flash flooding.",
+      "The total number of people who were in the area at the time of the flood."
+    ],
+    "synthesis": "Flash flooding occurred in the Bright Angel Canyon and Phantom Ranch area of the Grand Canyon on Saturday, prompting an evacuation of over 60 people. Search operations are ongoing to account for individuals who remain missing following the event. No injuries have been reported to date.",
+    "confidence": "MEDIUM. While the core event is consistent, there is a discrepancy in the estimated number of missing persons between sources.",
+    "sources": [
+      {
+        "id": "art_1788137846666_oj1lc",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/08-31-26-arizona-flash-floods-sv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Flash flooding in Grand Canyon leaves more than 20 people missing"
+      },
+      {
+        "id": "art_1788137848962_qw6x6",
+        "url": "https://www.theguardian.com/us-news/2026/aug/30/grand-canyon-flash-flood-arizona-people-missing-evacuated",
+        "source": "guardian",
+        "title": "At least 15 people may be missing after flash flood in Arizona’s Grand Canyon"
+      },
+      {
+        "id": "art_1788129242567_x333e",
+        "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Hikers feared missing after 'terrifying' flash flooding hits Grand Canyon"
+      },
+      {
+        "id": "art_1788129251542_2obnz",
+        "url": "https://www.foxnews.com/us/urgent-search-underway-more-than-20-people-after-grand-canyon-flash-flood",
+        "source": "fox",
+        "title": "Urgent search underway for more than 20 people after Grand Canyon flash flood"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "81c04004b8c45be20ed0c8b5425a4058",
+    "topic_label": "US Strikes on Larak Island",
+    "event_window_start": "2026-08-30T21:05:43.000Z",
+    "event_window_end": "2026-08-30T21:15:42.000Z",
+    "article_ids": [
+      "art_1788129247075_08fiy",
+      "art_1788129249360_d0elr"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-31T03:06:27.828Z",
+    "updated_at": "2026-08-31T03:06:27.828Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "US forces conducted a strike on two Iranian launchers located on Larak Island on Sunday.",
+      "This event marks the first known US strike in Iran since late July.",
+      "The IRGC stated that the strike resulted in casualties and vowed a response."
+    ],
+    "source_claims": [
+      "[bbc] Cites US Central Command spokesman Cdr Tim Hawkins stating IRGC forces were observed preparing to launch rockets with sea mines into the Strait of Hormuz.",
+      "[guardian] Cites a US official stating the strike was a response to IRGC forces preparing to launch rockets with sea mines.",
+      "[bbc] Mentions the US claimed it had finished clearing all mines from the strait's main shipping lane earlier.",
+      "[guardian] Mentions a spokesperson stated the US would pay for the attack on both economic and military fronts."
+    ],
+    "framing_differences": [
+      "The BBC frames the event by providing geographical context about vessels in the Strait of Hormuz near Bandar Abbas and Larak Island, whereas the Guardian focuses more heavily on the subsequent threats of economic and military retaliation from Iranian officials."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The US had finished clearing all mines from the strait's main shipping lane earlier."
+    ],
+    "loaded_language": [
+      "[guardian] uses the phrase 'would pay for the attack' to describe the IRGC's reaction.",
+      "[bbc] uses the term 'vowed' to describe the IRGC's promise of a response."
+    ],
+    "safe_conclusions": [
+      "US military assets struck Iranian launchers on Larak Island on Sunday.",
+      "Iranian officials have confirmed casualties occurred as a result of this action.",
+      "The Iranian government has announced intent to retaliate."
+    ],
+    "unknowns": [
+      "The exact number of casualties sustained in the strike.",
+      "The specific identity of the 'spokesperson' mentioned in the Guardian report.",
+      "The current status of mining operations within the Strait of Hormuz."
+    ],
+    "synthesis": "US forces conducted a strike against two Iranian launchers on Larak Island on Sunday, marking the first such action since July. Both the US and the IRGC provided conflicting justifications, with the US citing preparations for mining the Strait of Hormuz and the IRGC reporting casualties among soldiers and citizens. Iranian officials have since stated that they intend to respond to the military action.",
+    "confidence": "HIGH. Both sources provide consistent reporting regarding the location, timing, and fundamental nature of the military engagement.",
+    "sources": [
+      {
+        "id": "art_1788129247075_08fiy",
+        "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks"
+      },
+      {
+        "id": "art_1788129249360_d0elr",
+        "url": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions",
+        "source": "guardian",
+        "title": "US strikes Iranian launchers on Larak island amid strait of Hormuz tensions"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dd428123190edda9a3e1280809cc4a96",
+    "topic_label": "Shipwreck off Cyprus coast",
+    "event_window_start": "2026-08-30T11:52:12.000Z",
+    "event_window_end": "2026-08-30T12:15:50.000Z",
+    "article_ids": [
+      "art_1788092350715_hp8wp",
+      "art_1788092362215_wt8c0"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-30T14:33:49.019Z",
+    "updated_at": "2026-08-30T14:33:49.019Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A boat carrying passengers capsized off the coast of northern Cyprus.",
+      "A search and rescue operation is underway.",
+      "The vessel departed from the area of Kyrenia (also known as Girne)."
+    ],
+    "source_claims": [
+      "[bbc] reports the vessel was carrying some 270 people.",
+      "[bbc] reports 159 people have been reached.",
+      "[bbc] reports the vessel began taking on water about four miles off the shore.",
+      "[aljazeera] reports the vessel was carrying around 260 people.",
+      "[aljazeera] reports there are no immediate reports of casualties."
+    ],
+    "framing_differences": [
+      "BBC frames the event with an emphasis on the severity of the situation through direct quotes from local officials, while Al Jazeera frames the event by focusing on the lack of immediate reports regarding casualties."
+    ],
+    "contested_claims": [
+      "The sources provide different estimates for the number of people on board: BBC reports approximately 270, while Al Jazeera reports around 260."
+    ],
+    "unverified_claims": [
+      "[bbc] claims that 159 people have been reached.",
+      "[bbc] claims the vessel started taking on water four miles off the shore.",
+      "[aljazeera] claims the vessel was a catamaran-style boat."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'very serious' to describe the situation, as quoted by the mayor of Kyrenia."
+    ],
+    "safe_conclusions": [
+      "A boat capsized off the coast of northern Cyprus and a search and rescue operation was initiated."
+    ],
+    "unknowns": [
+      "The exact number of passengers on the vessel.",
+      "The number of casualties or confirmed survivors.",
+      "The cause of the vessel capsizing."
+    ],
+    "synthesis": "A passenger boat capsized off the coast of northern Cyprus near Kyrenia, prompting a search and rescue mission involving coastguard and helicopter units. Reports on the exact number of people aboard differ slightly between 260 and 270. Authorities are currently engaged in rescue efforts, with no confirmed casualties reported.",
+    "confidence": "HIGH; MEDIUM; The sources differ on the total passenger count and details regarding the progress of the rescue.",
+    "sources": [
+      {
+        "id": "art_1788092350715_hp8wp",
+        "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Boat carrying some 270 people capsizes off northern Cyprus - reports"
+      },
+      {
+        "id": "art_1788092362215_wt8c0",
+        "url": "https://www.aljazeera.com/news/2026/8/30/ferry-carrying-260-people-capsizes-off-northern-cyprus-coast?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ferry carrying 260 people capsizes off northern Cyprus coast"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "551dd773038a98ca4e79f70d6aa0f739",
+    "topic_label": "Nepal Flooding",
+    "event_window_start": "2026-08-30T16:39:38.000Z",
+    "event_window_end": "2026-08-30T18:34:59.000Z",
+    "article_ids": [
+      "art_1788119432881_7jucm",
+      "art_1788109608214_8s6fg",
+      "art_1788109610325_sabxu"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-31T03:06:27.828Z",
+    "updated_at": "2026-08-31T03:06:27.828Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A catastrophic flood event occurred in the Nepal-China border region following a glacier collapse in the Himalayas.",
+      "The death toll from the floods is reported to be between 794 and 797 people.",
+      "The Trishuli river system was impacted by the flooding."
+    ],
+    "source_claims": [
+      "[aljazeera] claims more than 3,000 people remain missing.",
+      "[aljazeera] claims 93,000 people have been affected in Nepal.",
+      "[bbc] claims headteacher Rajendra Dawadi evacuated 900 students 10 minutes before floodwaters reached his school.",
+      "[guardian] claims morgues across Nepal are currently overflowing and authorities are struggling to identify bodies."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event by highlighting the scale of destruction across the region, while the BBC focuses on the individual story of a school evacuation, and The Guardian focuses on the post-flood humanitarian crisis regarding the identification of victims."
+    ],
+    "contested_claims": [
+      "The sources report slightly different death tolls, with aljazeera and the guardian reporting 797 deaths while the bbc reports at least 794 deaths."
+    ],
+    "unverified_claims": [
+      "[aljazeera] claims bodies were carried as far as India.",
+      "[bbc] claims the headteacher received four phone calls at 09:10 local time warning of the disaster."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'catastrophic' to describe the flooding.",
+      "[guardian] uses the term 'thick, tar-like mud' to describe the debris left behind."
+    ],
+    "safe_conclusions": [
+      "A flood disaster has caused significant loss of life and property damage in Nepal and the surrounding Himalayan border region."
+    ],
+    "unknowns": [
+      "The exact number of missing persons outside of aljazeera's initial estimate.",
+      "The full extent of environmental damage to the river systems.",
+      "The specific cause of the initial glacier collapse."
+    ],
+    "synthesis": "A glacier collapse in the Himalayas has caused massive flooding along the Nepal-China border, resulting in hundreds of deaths. Rescue and recovery efforts are currently hampered by damaged infrastructure and a high volume of casualties. Authorities are facing significant challenges in managing the aftermath and identifying the deceased.",
+    "confidence": "HIGH; The sources are in strong agreement regarding the nature of the event and the approximate death toll, with minor discrepancies likely resulting from different reporting times.",
+    "sources": [
+      {
+        "id": "art_1788119432881_7jucm",
+        "url": "https://www.aljazeera.com/gallery/2026/8/30/in-pictures-devastation-from-the-nepal-china-floods?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Photos: Devastation from the Nepal-China floods"
+      },
+      {
+        "id": "art_1788109608214_8s6fg",
+        "url": "https://www.bbc.co.uk/news/articles/c5ymvdm5520o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Head teacher evacuated 900 children minutes before Nepal floods hit school"
+      },
+      {
+        "id": "art_1788109610325_sabxu",
+        "url": "https://www.theguardian.com/world/2026/aug/30/people-return-remains-homes-nepal-floods-devighat-trishuli-river",
+        "source": "guardian",
+        "title": "‘The river has taken everything’: people return to remains of their homes in Nepal"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "19c328e23024171bbea4b867039b0c93",
+    "topic_label": "Switzerland rave shooting",
+    "event_window_start": "2026-08-30T11:25:11.000Z",
+    "event_window_end": "2026-08-30T11:58:32.000Z",
+    "article_ids": [
+      "art_1788092360161_vyftn",
+      "art_1788092364283_jwjop"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-30T14:33:49.019Z",
+    "updated_at": "2026-08-30T14:33:49.019Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A shooting occurred at a rave held at a horse-racing track in Aarau, Switzerland.",
+      "A 22-year-old woman died at the scene.",
+      "Five other people, four men and one woman between the ages of 24 and 27, were injured.",
+      "Police have launched a manhunt for those responsible."
+    ],
+    "source_claims": [
+      "[fox] Aargau cantonal police stated all six victims are residents of Switzerland.",
+      "[bbc] Police spokesperson Bernhard Graser stated it is unlikely the shooter is still in Aarau.",
+      "[bbc] A police spokesperson stated that as of Sunday afternoon, there were no concrete leads regarding the perpetrator."
+    ],
+    "framing_differences": [
+      "Fox focuses on the status of the investigation as a large-scale search, while BBC highlights the lack of concrete leads and the logistical status of the suspect's potential whereabouts."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] The shooting occurred in the Schachen area of Aarau."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "A shooting incident took place at an event in Aarau, Switzerland, resulting in one fatality and five injuries.",
+      "A police investigation is currently active."
+    ],
+    "unknowns": [
+      "The identity of the shooter.",
+      "The motive behind the shooting.",
+      "The current location of the suspect."
+    ],
+    "synthesis": "A shooting at a rave in Aarau, Switzerland, left one 22-year-old woman dead and five others injured. Police have initiated a search for the perpetrator but reported having no concrete leads as of Sunday. All victims involved are receiving medical treatment for injuries.",
+    "confidence": "HIGH: Both sources consistently report the same casualty figures, location, and the status of the police investigation.",
+    "sources": [
+      {
+        "id": "art_1788092360161_vyftn",
+        "url": "https://www.foxnews.com/world/switzerland-rave-shooting-kills-1-injures-5-police-hunt-responsible",
+        "source": "fox",
+        "title": "Switzerland rave shooting kills 1, injures 5 as police hunt those responsible"
+      },
+      {
+        "id": "art_1788092364283_jwjop",
+        "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "82c844a57757a884e66bedea66ebeb0b",
+    "topic_label": "Aaron Donald Returns to Rams",
+    "event_window_start": "2026-08-30T20:42:36.000Z",
+    "event_window_end": "2026-08-30T20:57:29.000Z",
+    "article_ids": [
+      "art_1788129253626_7kni4",
+      "art_1788129255845_dejhe"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-30T23:54:13.546Z",
+    "updated_at": "2026-08-30T23:54:13.546Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Aaron Donald has announced he is returning to the NFL to play for the Los Angeles Rams.",
+      "Aaron Donald previously retired from the NFL."
+    ],
+    "source_claims": [
+      "[fox] Aaron Donald released a video on Instagram to announce his return.",
+      "[fox] Aaron Donald sent an official letter to Commissioner Roger Goodell quoting Michael Jordan.",
+      "[fox] Erica Donald posted about her husband's return on X.",
+      "[guardian] The Rams were betting favorites to win the Super Bowl prior to the return announcement.",
+      "[guardian] Aaron Donald had a ten-season career with the Rams prior to his initial retirement."
+    ],
+    "framing_differences": [
+      "Fox focuses on the social media and personal presentation of the return, whereas The Guardian focuses on the statistical history and professional accolades of the player."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Aaron Donald is 35 years old.",
+      "[guardian] Aaron Donald is 35 years old.",
+      "[guardian] The Rams roster includes reigning MVP Matthew Stafford."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'Rams legend' to describe Aaron Donald.",
+      "[guardian] uses the term 'All-time great' to describe Aaron Donald.",
+      "[guardian] uses the term 'stacked' to describe the Rams roster."
+    ],
+    "safe_conclusions": [
+      "Aaron Donald is returning to the Los Angeles Rams after a period of retirement."
+    ],
+    "unknowns": [
+      "The exact terms or duration of the contract for the returning player.",
+      "The specific date of the return announcement beyond the general reference to Sunday."
+    ],
+    "synthesis": "Aaron Donald has announced his return to the NFL to rejoin the Los Angeles Rams. The move follows his retirement in 2024 after a career spanning ten seasons with the team. Both reports confirm his return to active play with the Rams organization.",
+    "confidence": "HIGH. Both sources corroborate the fundamental fact of the player's return to the Rams.",
+    "sources": [
+      {
+        "id": "art_1788129253626_7kni4",
+        "url": "https://www.foxnews.com/outkick-sports/aaron-donald-returns-rams-defense-loaded-myles-garrett",
+        "source": "fox",
+        "title": "'We back': Aaron Donald returns to the Rams and a defense now loaded with Myles Garrett and others"
+      },
+      {
+        "id": "art_1788129255845_dejhe",
+        "url": "https://www.theguardian.com/sport/2026/aug/30/all-time-great-aaron-donald-comes-out-of-retirement-to-rejoin-stacked-la-rams",
+        "source": "guardian",
+        "title": "All-time great Aaron Donald comes out of retirement to rejoin stacked LA Rams"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b40d231e9bc2336f9f10fdbf6d2bc68a",
+    "topic_label": "Israel-Palestine Conflict",
+    "event_window_start": "2026-08-30T11:52:27.000Z",
+    "event_window_end": "2026-08-30T21:02:45.000Z",
+    "article_ids": [
+      "art_1788129250453_pec1w",
+      "art_1788129254725_5fdcc",
+      "art_1788119420447_yfo9c",
+      "art_1788119423620_2hov9",
+      "art_1788109615644_y64fy",
+      "art_1788109617750_8g59w",
+      "art_1788092361196_uduse"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-31T03:06:27.828Z",
+    "updated_at": "2026-08-31T03:06:27.828Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "There is an ongoing conflict involving Israel, the Gaza Strip, and various international actors.",
+      "Protests related to the Israeli military's actions have occurred in international locations such as Sydney, Australia."
+    ],
+    "source_claims": [
+      "[aljazeera] A 3-year-old child was killed in an Israeli strike on Deir el-Balah.",
+      "[aljazeera] José Andrés is calling for an independent investigation into the April 2024 Israeli strikes that killed seven World Central Kitchen aid workers.",
+      "[aljazeera] Israeli settler rabbi Menachem Ben Shahar stated in a video that non-Jews in Israel have no national rights and should be removed.",
+      "[aljazeera] A nonprofit organization called Frontline Advocates organized demonstrations in New York City using former Israeli soldiers to promote Israel's position.",
+      "[aljazeera] Forty Israeli soldiers participated in the Sydney Marathon, leading to protests by pro-Palestine activists."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the presence of Israeli soldiers in Sydney through the lens of activism and protest, while reporting on their military history as a primary context for the event."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The deaths in Deir el-Balah occurred despite a so-called ceasefire.",
+      "[aljazeera] The WCK vehicles killed in April 2024 were traveling on a route approved by and in compliance with Israeli authorities.",
+      "[aljazeera] Frontline Advocates collaborates with the Israeli government.",
+      "[aljazeera] Some soldiers participating in the Sydney Marathon were linked to Israeli genocide in Gaza."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'genocide' in reference to Israeli military actions.",
+      "[aljazeera] uses the term 'apartheid' when referring to Israel.",
+      "[aljazeera] uses the term 'war criminals' in relation to the protesters' characterization of Israeli soldiers.",
+      "[aljazeera] uses the term 'deceive' regarding the actions of former Israeli soldiers in New York."
+    ],
+    "safe_conclusions": [
+      "These articles document various incidents occurring in Israel, the West Bank, the United States, and Australia related to the ongoing Israeli-Palestinian conflict."
+    ],
+    "unknowns": [
+      "The official status of any ceasefire agreements mentioned.",
+      "The specific institutional relationship between the Israeli government and the nonprofit Frontline Advocates.",
+      "The legal standing and identity of the Israeli soldiers participating in the Sydney Marathon."
+    ],
+    "synthesis": "Aljazeera has published reports detailing various aspects of the ongoing Israeli-Palestinian conflict, including military strikes in Gaza, aid worker deaths, and domestic political commentary. Protests and debates surrounding these events have extended to international locations, including New York City and Sydney, Australia. The reporting emphasizes the perspective of pro-Palestinian activists and aid organizations regarding Israeli government policies.",
+    "confidence": "HIGH: All articles were provided by the same source, ensuring consistency in vocabulary and editorial stance across the reports.",
+    "sources": [
+      {
+        "id": "art_1788129250453_pec1w",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/israeli-strike-kills-3-year-old-child-in-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike kills 3-year-old child in Gaza"
+      },
+      {
+        "id": "art_1788129254725_5fdcc",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/jose-andres-renews-call-for-investigation-into-wck-gaza-staff-killings?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jose Andres renews call for investigation into WCK Gaza staff killings"
+      },
+      {
+        "id": "art_1788119420447_yfo9c",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/israeli-settler-rabbi-says-palestinians-should-leave-the-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settler rabbi says Palestinians should leave the occupied West Bank"
+      },
+      {
+        "id": "art_1788119423620_2hov9",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/former-israeli-soldiers-pose-as-pro-palestinian-supporters-in-the-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Former Israeli soldiers pose as Pro-Palestinian supporters in the US"
+      },
+      {
+        "id": "art_1788109615644_y64fy",
+        "url": "https://www.aljazeera.com/sports/2026/8/30/israeli-soldiers-participate-in-sydney-marathon-despite-protests?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli soldiers participate in Sydney Marathon despite protests"
+      },
+      {
+        "id": "art_1788109617750_8g59w",
+        "url": "https://www.aljazeera.com/news/2026/8/30/whats-behind-netanyahus-condemnation-of-this-weekends-settler-pogroms?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What’s behind Netanyahu’s condemnation of this weekend’s settler pogroms?"
+      },
+      {
+        "id": "art_1788092361196_uduse",
+        "url": "https://www.aljazeera.com/news/2026/8/30/israels-ben-gvir-lauds-harsh-conditions-for-palestinian-female-prisoners?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel’s Ben-Gvir lauds harsh conditions for Palestinian female prisoners"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5960d895a972a42c315911431f50b8ca",
+    "topic_label": "Sudan civil war crisis",
+    "event_window_start": "2026-08-30T04:05:04.000Z",
+    "event_window_end": "2026-08-30T06:00:48.000Z",
+    "article_ids": [
+      "art_1788071054669_lbntw",
+      "art_1788071068943_stqek"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-30T09:12:18.899Z",
+    "updated_at": "2026-08-30T09:12:18.899Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Sudan is currently experiencing a civil war involving the Sudanese Armed Forces and other groups.",
+      "Civilians are being displaced as a result of the ongoing conflict in Sudan."
+    ],
+    "source_claims": [
+      "[guardian] reports that humanitarian conditions in El Obeid and nearby camps are dire and deteriorating due to the arrival of displaced families.",
+      "[guardian] cites UN data indicating over 15,000 families arrived since mid-July, following over 200,000 arrivals in the first half of the year.",
+      "[aljazeera] reports that residents of Golo in central Darfur are manually clearing and repairing a rugged road to facilitate emergency vehicle access."
+    ],
+    "framing_differences": [
+      "The guardian focuses on the humanitarian crisis and population displacement in El Obeid, while aljazeera focuses on community-led infrastructure efforts in Golo."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] states the city of El Obeid is shockingly overcrowded.",
+      "[aljazeera] describes the effort to clear boulders from the road in Golo as an often futile task."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'shockingly overcrowded' to describe the state of El Obeid.",
+      "[aljazeera] uses the term 'futile' to characterize the road repair work."
+    ],
+    "safe_conclusions": [
+      "The ongoing civil war in Sudan has created conditions affecting civilian populations and infrastructure."
+    ],
+    "unknowns": [
+      "The total number of displaced persons currently in Golo.",
+      "The specific current status of the road repair project in Golo.",
+      "Comprehensive data regarding humanitarian conditions in regions other than El Obeid and Golo."
+    ],
+    "synthesis": "Sudan's civil war has led to significant displacement, with El Obeid facing severe humanitarian strain due to a high influx of arrivals. Simultaneously, residents in the Golo region of Darfur are working manually to repair local roads to improve emergency vehicle access. Both accounts highlight the ongoing impacts of the conflict on civilian life and local infrastructure.",
+    "confidence": "HIGH. The sources report on different regional events within the same country and do not contradict each other's factual claims.",
+    "sources": [
+      {
+        "id": "art_1788071054669_lbntw",
+        "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
+        "source": "guardian",
+        "title": "Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war"
+      },
+      {
+        "id": "art_1788071068943_stqek",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/sudanese-repair-roads-by-hand-in-darfur-to-improve-emergency-access?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Sudanese repair roads by hand in Darfur to improve emergency access"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "14267bae86841f05c5f3b0ecc8025dc4",
     "topic_label": "Conflict in the Middle East",
     "event_window_start": "2026-08-30T05:09:11.000Z",
@@ -303,220 +942,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "dd428123190edda9a3e1280809cc4a96",
-    "topic_label": "Shipwreck off Cyprus coast",
-    "event_window_start": "2026-08-30T11:52:12.000Z",
-    "event_window_end": "2026-08-30T12:15:50.000Z",
-    "article_ids": [
-      "art_1788092350715_hp8wp",
-      "art_1788092362215_wt8c0"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-30T14:33:49.019Z",
-    "updated_at": "2026-08-30T14:33:49.019Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A boat carrying passengers capsized off the coast of northern Cyprus.",
-      "A search and rescue operation is underway.",
-      "The vessel departed from the area of Kyrenia (also known as Girne)."
-    ],
-    "source_claims": [
-      "[bbc] reports the vessel was carrying some 270 people.",
-      "[bbc] reports 159 people have been reached.",
-      "[bbc] reports the vessel began taking on water about four miles off the shore.",
-      "[aljazeera] reports the vessel was carrying around 260 people.",
-      "[aljazeera] reports there are no immediate reports of casualties."
-    ],
-    "framing_differences": [
-      "BBC frames the event with an emphasis on the severity of the situation through direct quotes from local officials, while Al Jazeera frames the event by focusing on the lack of immediate reports regarding casualties."
-    ],
-    "contested_claims": [
-      "The sources provide different estimates for the number of people on board: BBC reports approximately 270, while Al Jazeera reports around 260."
-    ],
-    "unverified_claims": [
-      "[bbc] claims that 159 people have been reached.",
-      "[bbc] claims the vessel started taking on water four miles off the shore.",
-      "[aljazeera] claims the vessel was a catamaran-style boat."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'very serious' to describe the situation, as quoted by the mayor of Kyrenia."
-    ],
-    "safe_conclusions": [
-      "A boat capsized off the coast of northern Cyprus and a search and rescue operation was initiated."
-    ],
-    "unknowns": [
-      "The exact number of passengers on the vessel.",
-      "The number of casualties or confirmed survivors.",
-      "The cause of the vessel capsizing."
-    ],
-    "synthesis": "A passenger boat capsized off the coast of northern Cyprus near Kyrenia, prompting a search and rescue mission involving coastguard and helicopter units. Reports on the exact number of people aboard differ slightly between 260 and 270. Authorities are currently engaged in rescue efforts, with no confirmed casualties reported.",
-    "confidence": "HIGH; MEDIUM; The sources differ on the total passenger count and details regarding the progress of the rescue.",
-    "sources": [
-      {
-        "id": "art_1788092350715_hp8wp",
-        "url": "https://www.bbc.co.uk/news/articles/c770jyd4l7lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Boat carrying some 270 people capsizes off northern Cyprus - reports"
-      },
-      {
-        "id": "art_1788092362215_wt8c0",
-        "url": "https://www.aljazeera.com/news/2026/8/30/ferry-carrying-260-people-capsizes-off-northern-cyprus-coast?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ferry carrying 260 people capsizes off northern Cyprus coast"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "19c328e23024171bbea4b867039b0c93",
-    "topic_label": "Switzerland rave shooting",
-    "event_window_start": "2026-08-30T11:25:11.000Z",
-    "event_window_end": "2026-08-30T11:58:32.000Z",
-    "article_ids": [
-      "art_1788092360161_vyftn",
-      "art_1788092364283_jwjop"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-30T14:33:49.019Z",
-    "updated_at": "2026-08-30T14:33:49.019Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A shooting occurred at a rave held at a horse-racing track in Aarau, Switzerland.",
-      "A 22-year-old woman died at the scene.",
-      "Five other people, four men and one woman between the ages of 24 and 27, were injured.",
-      "Police have launched a manhunt for those responsible."
-    ],
-    "source_claims": [
-      "[fox] Aargau cantonal police stated all six victims are residents of Switzerland.",
-      "[bbc] Police spokesperson Bernhard Graser stated it is unlikely the shooter is still in Aarau.",
-      "[bbc] A police spokesperson stated that as of Sunday afternoon, there were no concrete leads regarding the perpetrator."
-    ],
-    "framing_differences": [
-      "Fox focuses on the status of the investigation as a large-scale search, while BBC highlights the lack of concrete leads and the logistical status of the suspect's potential whereabouts."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] The shooting occurred in the Schachen area of Aarau."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "A shooting incident took place at an event in Aarau, Switzerland, resulting in one fatality and five injuries.",
-      "A police investigation is currently active."
-    ],
-    "unknowns": [
-      "The identity of the shooter.",
-      "The motive behind the shooting.",
-      "The current location of the suspect."
-    ],
-    "synthesis": "A shooting at a rave in Aarau, Switzerland, left one 22-year-old woman dead and five others injured. Police have initiated a search for the perpetrator but reported having no concrete leads as of Sunday. All victims involved are receiving medical treatment for injuries.",
-    "confidence": "HIGH: Both sources consistently report the same casualty figures, location, and the status of the police investigation.",
-    "sources": [
-      {
-        "id": "art_1788092360161_vyftn",
-        "url": "https://www.foxnews.com/world/switzerland-rave-shooting-kills-1-injures-5-police-hunt-responsible",
-        "source": "fox",
-        "title": "Switzerland rave shooting kills 1, injures 5 as police hunt those responsible"
-      },
-      {
-        "id": "art_1788092364283_jwjop",
-        "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "82c844a57757a884e66bedea66ebeb0b",
-    "topic_label": "Aaron Donald Returns to Rams",
-    "event_window_start": "2026-08-30T20:42:36.000Z",
-    "event_window_end": "2026-08-30T20:57:29.000Z",
-    "article_ids": [
-      "art_1788129253626_7kni4",
-      "art_1788129255845_dejhe"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-30T23:54:13.546Z",
-    "updated_at": "2026-08-30T23:54:13.546Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Aaron Donald has announced he is returning to the NFL to play for the Los Angeles Rams.",
-      "Aaron Donald previously retired from the NFL."
-    ],
-    "source_claims": [
-      "[fox] Aaron Donald released a video on Instagram to announce his return.",
-      "[fox] Aaron Donald sent an official letter to Commissioner Roger Goodell quoting Michael Jordan.",
-      "[fox] Erica Donald posted about her husband's return on X.",
-      "[guardian] The Rams were betting favorites to win the Super Bowl prior to the return announcement.",
-      "[guardian] Aaron Donald had a ten-season career with the Rams prior to his initial retirement."
-    ],
-    "framing_differences": [
-      "Fox focuses on the social media and personal presentation of the return, whereas The Guardian focuses on the statistical history and professional accolades of the player."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Aaron Donald is 35 years old.",
-      "[guardian] Aaron Donald is 35 years old.",
-      "[guardian] The Rams roster includes reigning MVP Matthew Stafford."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'Rams legend' to describe Aaron Donald.",
-      "[guardian] uses the term 'All-time great' to describe Aaron Donald.",
-      "[guardian] uses the term 'stacked' to describe the Rams roster."
-    ],
-    "safe_conclusions": [
-      "Aaron Donald is returning to the Los Angeles Rams after a period of retirement."
-    ],
-    "unknowns": [
-      "The exact terms or duration of the contract for the returning player.",
-      "The specific date of the return announcement beyond the general reference to Sunday."
-    ],
-    "synthesis": "Aaron Donald has announced his return to the NFL to rejoin the Los Angeles Rams. The move follows his retirement in 2024 after a career spanning ten seasons with the team. Both reports confirm his return to active play with the Rams organization.",
-    "confidence": "HIGH. Both sources corroborate the fundamental fact of the player's return to the Rams.",
-    "sources": [
-      {
-        "id": "art_1788129253626_7kni4",
-        "url": "https://www.foxnews.com/outkick-sports/aaron-donald-returns-rams-defense-loaded-myles-garrett",
-        "source": "fox",
-        "title": "'We back': Aaron Donald returns to the Rams and a defense now loaded with Myles Garrett and others"
-      },
-      {
-        "id": "art_1788129255845_dejhe",
-        "url": "https://www.theguardian.com/sport/2026/aug/30/all-time-great-aaron-donald-comes-out-of-retirement-to-rejoin-stacked-la-rams",
-        "source": "guardian",
-        "title": "All-time great Aaron Donald comes out of retirement to rejoin stacked LA Rams"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "cdf6b1d7a4996414f0f3c64bc16f8e9f",
     "topic_label": "Australian Secret Harbour Election",
     "event_window_start": "2026-08-30T00:00:28.000Z",
@@ -769,75 +1194,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/30/mapping-the-iran-wars-strikes-on-gulf-energy-and-what-comes-next-for-oil?traffic_source=rss",
         "source": "aljazeera",
         "title": "Mapping the Iran war’s strikes on Gulf energy – and what comes next for oil"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5960d895a972a42c315911431f50b8ca",
-    "topic_label": "Sudan civil war crisis",
-    "event_window_start": "2026-08-30T04:05:04.000Z",
-    "event_window_end": "2026-08-30T06:00:48.000Z",
-    "article_ids": [
-      "art_1788071054669_lbntw",
-      "art_1788071068943_stqek"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-30T09:12:18.899Z",
-    "updated_at": "2026-08-30T09:12:18.899Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Sudan is currently experiencing a civil war involving the Sudanese Armed Forces and other groups.",
-      "Civilians are being displaced as a result of the ongoing conflict in Sudan."
-    ],
-    "source_claims": [
-      "[guardian] reports that humanitarian conditions in El Obeid and nearby camps are dire and deteriorating due to the arrival of displaced families.",
-      "[guardian] cites UN data indicating over 15,000 families arrived since mid-July, following over 200,000 arrivals in the first half of the year.",
-      "[aljazeera] reports that residents of Golo in central Darfur are manually clearing and repairing a rugged road to facilitate emergency vehicle access."
-    ],
-    "framing_differences": [
-      "The guardian focuses on the humanitarian crisis and population displacement in El Obeid, while aljazeera focuses on community-led infrastructure efforts in Golo."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] states the city of El Obeid is shockingly overcrowded.",
-      "[aljazeera] describes the effort to clear boulders from the road in Golo as an often futile task."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'shockingly overcrowded' to describe the state of El Obeid.",
-      "[aljazeera] uses the term 'futile' to characterize the road repair work."
-    ],
-    "safe_conclusions": [
-      "The ongoing civil war in Sudan has created conditions affecting civilian populations and infrastructure."
-    ],
-    "unknowns": [
-      "The total number of displaced persons currently in Golo.",
-      "The specific current status of the road repair project in Golo.",
-      "Comprehensive data regarding humanitarian conditions in regions other than El Obeid and Golo."
-    ],
-    "synthesis": "Sudan's civil war has led to significant displacement, with El Obeid facing severe humanitarian strain due to a high influx of arrivals. Simultaneously, residents in the Golo region of Darfur are working manually to repair local roads to improve emergency vehicle access. Both accounts highlight the ongoing impacts of the conflict on civilian life and local infrastructure.",
-    "confidence": "HIGH. The sources report on different regional events within the same country and do not contradict each other's factual claims.",
-    "sources": [
-      {
-        "id": "art_1788071054669_lbntw",
-        "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
-        "source": "guardian",
-        "title": "Humanitarian crisis worsening in refuge for civilians fleeing Sudan’s civil war"
-      },
-      {
-        "id": "art_1788071068943_stqek",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/sudanese-repair-roads-by-hand-in-darfur-to-improve-emergency-access?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Sudanese repair roads by hand in Darfur to improve emergency access"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18586,492 +18942,6 @@
         "url": "https://www.theguardian.com/us-news/live/2026/aug/24/hakeem-jeffries-jared-kushner-democrats-midterm-elections-donald-trump-iran-war-sanctions-latest-news-updates",
         "source": "guardian",
         "title": "Trump claims Iran is ‘completely collapsing’ ahead of new sanctions announcement – live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "16ff0ec2c23901e8f4ae64db408203f5",
-    "topic_label": "Global climate and weather events",
-    "event_window_start": "2026-08-24T13:14:48.000Z",
-    "event_window_end": "2026-08-25T08:10:10.000Z",
-    "article_ids": [
-      "art_1787647871074_1fnnf",
-      "art_1787633274724_ynp0a",
-      "art_1787633278603_46rr0",
-      "art_1787633281542_j1jm6",
-      "art_1787633283790_ibkka",
-      "art_1787630250470_9gxlg",
-      "art_1787579951246_ml9tt",
-      "art_1787579958973_fwzje"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 8,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T11:40:10.704Z",
-    "updated_at": "2026-08-25T11:40:10.704Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Environmental conditions and climate-related events are currently impacting different regions globally.",
-      "El Niño is cited in the provided texts as a contributing factor to specific weather-related occurrences."
-    ],
-    "source_claims": [
-      "[aljazeera_1] The European Union’s Copernicus Climate Change Service reported that average global sea surface temperatures reached 21.1 degrees Celsius on Friday and Saturday.",
-      "[aljazeera_1] Samantha Burgess of the ECMWF states that ocean heat is driven by both El Niño and human-driven warming.",
-      "[guardian_1] Fires in Kalimantan, Indonesia, have affected tens of thousands of acres and impacted air quality in Malaysia and Singapore.",
-      "[guardian_1] Indonesian health ministry data indicates 5,000 respiratory-related emergency room visits per week in West Kalimantan since July.",
-      "[guardian_2] S&P states that European heatwaves may negatively impact insurance company earnings and increase premiums.",
-      "[guardian_3] At least 35,000 excess deaths were recorded in Europe during summer heatwaves, based on incomplete data from half the continent.",
-      "[aljazeera_2] A tornado near Carcassonne, France, damaged approximately 100 homes and caused at least 26 injuries."
-    ],
-    "framing_differences": [
-      "Aljazeera_1 frames environmental data through global climate metrics and institutional reports, whereas Guardian_1 frames environmental impact through localized human experiences and health data in Indonesia.",
-      "Guardian_2 and Guardian_3 frame weather events through the lens of economic and demographic consequences for Europe, while Aljazeera_2 focuses on the immediate physical damage and injury resulting from a specific storm event."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian_1] A resident named Suwadi describes breathing the smoke as 'like smoking a cigarette'.",
-      "[guardian_2] S&P claims that extreme heat and an ageing population in Europe have created a 'perfect storm' for insurers."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'unprecedented strain' to describe the impact on the world's oceans.",
-      "[guardian_1] uses the term 'suffocating smoke' to describe the conditions in Indonesia.",
-      "[guardian_2] uses the term 'perfect storm' to describe the combination of European heatwaves and an ageing population."
-    ],
-    "safe_conclusions": [
-      "Various weather and climate-related events, including record sea temperatures, fires, heatwaves, and a tornado, have been reported across different geographic locations."
-    ],
-    "unknowns": [
-      "The total final death toll for European heatwaves after August data is consolidated.",
-      "The full extent of long-term economic impacts on the global insurance industry due to climate events.",
-      "The specific duration of the ongoing fires in Indonesia."
-    ],
-    "synthesis": "Recent reports document various global weather and climate-related developments, ranging from record-high sea surface temperatures to localized natural disasters like fires and tornadoes. Institutional data links these events to factors such as El Niño and human-driven climate change. Concurrently, regional impacts on health, infrastructure, and insurance markets are being monitored in Europe and Southeast Asia.",
-    "confidence": "HIGH. The sources provide distinct reports on different geographic events; while they do not overlap on a single event, the individual facts presented are internally consistent with the reporting agencies cited.",
-    "sources": [
-      {
-        "id": "art_1787647871074_1fnnf",
-        "url": "https://www.aljazeera.com/news/2026/8/25/global-ocean-temperatures-hit-record-high-as-el-nino-intensifies?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Global ocean temperatures hit record high as El Nino intensifies"
-      },
-      {
-        "id": "art_1787633274724_ynp0a",
-        "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
-        "source": "guardian",
-        "title": "‘Like smoking a cigarette’: Indonesia chokes on haze as blazes intensify amid super ‘El Niño’"
-      },
-      {
-        "id": "art_1787633278603_46rr0",
-        "url": "https://www.theguardian.com/business/2026/aug/25/europe-heatwaves-insurance-companies-earnings",
-        "source": "guardian",
-        "title": "Europe’s heatwaves threaten insurers’ earnings, rating agency S&P says"
-      },
-      {
-        "id": "art_1787633281542_j1jm6",
-        "url": "https://www.theguardian.com/environment/2026/aug/25/at-least-35000-excess-deaths-europe-back-to-back-heatwaves",
-        "source": "guardian",
-        "title": "At least 35,000 excess deaths recorded in Europe’s back-to-back heatwaves"
-      },
-      {
-        "id": "art_1787633283790_ibkka",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/rare-tornado-near-carcassonne-in-france-causes-damage-and-injuries?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rare tornado near Carcassonne in France causes damage and injuries"
-      },
-      {
-        "id": "art_1787630250470_9gxlg",
-        "url": "https://www.bbc.co.uk/news/videos/ckg8wkd0j7do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Moment tornado tears through southern France"
-      },
-      {
-        "id": "art_1787579951246_ml9tt",
-        "url": "https://www.theguardian.com/us-news/2026/aug/24/gary-indiana-mayor-power-outages-storm",
-        "source": "guardian",
-        "title": "Indiana mayor calls it ‘unacceptable’ for thousands to have no power two weeks after storm"
-      },
-      {
-        "id": "art_1787579958973_fwzje",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/rain-and-flooding-from-typhoon-narra-hits-china-and-vietnam?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rain and flooding from Typhoon Narra hits China and Vietnam"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c1a007628bf14369c719d52bfa51eb8d",
-    "topic_label": "US-Canada trade tensions",
-    "event_window_start": "2026-08-24T17:54:07.000Z",
-    "event_window_end": "2026-08-25T10:15:05.000Z",
-    "article_ids": [
-      "art_1787654387582_vo6cq",
-      "art_1787638308612_ufu42",
-      "art_1787626447577_hcz56",
-      "art_1787595297877_10o1s"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T11:40:10.704Z",
-    "updated_at": "2026-08-25T11:40:10.704Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "US-Canada trade talks collapsed recently.",
-      "President Donald Trump threatened to increase tariffs on Canadian automobiles and auto parts.",
-      "Canadian officials have expressed intent to respond to the trade tensions."
-    ],
-    "source_claims": [
-      "[guardian] states the USS Abraham Lincoln has been at sea for more than 200 days and will dock in Thailand next week.",
-      "[bbc] reports President Trump threatened to raise tariffs from 25% to 50% starting January 1.",
-      "[bbc] claims Canadian Prime Minister Mark Carney is preparing 'dollar-for-dollar' retaliatory duties.",
-      "[fox] reports Vice President JD Vance stated Canada treats Chinese goods more fairly than goods from the United States."
-    ],
-    "framing_differences": [
-      "The guardian focuses on the logistics and crew welfare of a US naval vessel, while bbc and fox focus on US-Canada trade relations.",
-      "bbc frames the trade situation as a 'spiralling trade dispute' and 'challenging times,' while fox highlights Vice President Vance's specific criticisms regarding Canadian trade policies toward China."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] reports allegations of low morale and poor mental health among the crew of the USS Abraham Lincoln.",
-      "[bbc] notes that Canadian Prime Minister Mark Carney is finalizing a list of retaliatory duties."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'spiralling' to describe the trade dispute.",
-      "[fox] quotes Vice President Vance using the term 'insanity' to describe Canadian trade policy."
-    ],
-    "safe_conclusions": [
-      "There is an ongoing trade tension between the United States and Canada.",
-      "The USS Abraham Lincoln is deployed in the Indo-Pacific region."
-    ],
-    "unknowns": [
-      "The specific details of the 'finalized' list of Canadian retaliatory measures.",
-      "The official response plan to be announced by Canadian officials.",
-      "The exact cause of the collapse of US-Canada trade talks beyond the accusation of 'unreasonable last-minute demands'."
-    ],
-    "synthesis": "Trade negotiations between the United States and Canada have stalled following mutual accusations of unreasonable demands, leading to threats of increased US tariffs on Canadian automotive goods. In response, Canadian officials have signaled plans to implement retaliatory trade measures. Separately, the US Navy announced the USS Abraham Lincoln will dock in Thailand following a lengthy deployment.",
-    "confidence": "HIGH; The sources provide consistent reports regarding the status of US-Canada trade tensions and the movement of the USS Abraham Lincoln.",
-    "sources": [
-      {
-        "id": "art_1787654387582_vo6cq",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/25/donald-trump-tariffs-canada-midterms-primary-south-carolina-iran-ukraine-voting-rights-latest-news-updates",
-        "source": "guardian",
-        "title": "Canada to respond to Trump’s new tariffs – US politics live"
-      },
-      {
-        "id": "art_1787638308612_ufu42",
-        "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles"
-      },
-      {
-        "id": "art_1787626447577_hcz56",
-        "url": "https://www.bbc.co.uk/news/articles/c05rj80ve56o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "How Canada could hit back to hurt the US economy - and Trump"
-      },
-      {
-        "id": "art_1787595297877_10o1s",
-        "url": "https://www.foxnews.com/politics/vance-says-canada-friendlier-china-trade-us-insanity",
-        "source": "fox",
-        "title": "Vance says Canada friendlier to China on trade than to US: 'Insanity'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "52ebb718af181b55650c88b2de7a8264",
-    "topic_label": "US-Iran Conflict and Sanctions",
-    "event_window_start": "2026-08-24T13:19:38.000Z",
-    "event_window_end": "2026-08-25T10:22:00.000Z",
-    "article_ids": [
-      "art_1787654386433_6j7xw",
-      "art_1787647867640_ioqif",
-      "art_1787647870046_nh9fy",
-      "art_1787644440780_k7j8n",
-      "art_1787638306384_alv1f",
-      "art_1787630239677_wmv5b",
-      "art_1787630241899_pqcqj",
-      "art_1787612712225_lf54z",
-      "art_1787612724827_77ym9",
-      "art_1787610762445_o2hkn",
-      "art_1787593383251_gjmzx",
-      "art_1787579952349_mlrga",
-      "art_1787579956751_syku9"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 13,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T11:10:52.228Z",
-    "updated_at": "2026-08-25T11:10:52.228Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Pakistani Army Chief Field Marshal Asim Munir traveled to Tehran, Iran, on Monday.",
-      "Asim Munir held meetings with Iranian President Masoud Pezeshkian during his visit to Tehran."
-    ],
-    "source_claims": [
-      "[aljazeera] claims Pakistani officials reported significant progress in talks aimed at ending the US-Iran conflict.",
-      "[aljazeera] claims Asim Munir met with Parliament Speaker Mohammad Bagher Ghalibaf.",
-      "[aljazeera] claims Asim Munir met with Foreign Minister Abbas Araghchi and Supreme National Security Council Secretary Mohsen Rezaei.",
-      "[aljazeera] claims the Pakistani military stated the trip was intended to end the stalemate in the US-Iran conflict.",
-      "[guardian] claims gold prices reached a three-month high on Tuesday amid ongoing Middle East conflict.",
-      "[guardian] claims optimism in early August existed regarding a potential US-Iran ceasefire.",
-      "[aljazeera] claims hackers linked to Iran reportedly targeted a British power plant.",
-      "[aljazeera] claims the US has deployed two carrier strike groups to the Middle East."
-    ],
-    "framing_differences": [
-      "[aljazeera] frames the visit of Asim Munir as a diplomatic mission to resolve a military stalemate, whereas [guardian] frames the geopolitical situation primarily through the lens of economic volatility and investor reactions to the Middle East conflict."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims there is a US-Israel war on Iran.",
-      "[aljazeera] claims there is a US-Iran war."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the conflict.",
-      "[aljazeera] uses the term 'US-Iran war' to describe the conflict.",
-      "[aljazeera] uses the term 'Iran-linked hackers' to describe the perpetrators of a cyberattack."
-    ],
-    "safe_conclusions": [
-      "Pakistani Army Chief Asim Munir visited Tehran and met with President Masoud Pezeshkian.",
-      "Global market indicators, including gold prices, fluctuate in response to regional political instability.",
-      "The United States has military assets currently deployed in the Middle East."
-    ],
-    "unknowns": [
-      "The specific outcomes or agreements reached during the meetings in Tehran.",
-      "The validity of the attribution of the power plant cyberattack to Iran-linked hackers.",
-      "The current official status of US-Iran diplomatic negotiations."
-    ],
-    "synthesis": "Pakistani Army Chief Field Marshal Asim Munir conducted a diplomatic visit to Tehran on Monday to engage with Iranian leadership, including President Masoud Pezeshkian. While Pakistani officials characterize the meetings as progress toward ending regional conflict, the broader geopolitical environment remains marked by market volatility and reports of ongoing military and cyber tensions. International observers continue to monitor these developments as they impact global security and economic indicators.",
-    "confidence": "MEDIUM: The sources provided represent a collection of reports on different aspects of the same regional conflict with varying levels of specific detail.",
-    "sources": [
-      {
-        "id": "art_1787654386433_6j7xw",
-        "url": "https://www.aljazeera.com/news/2026/8/25/can-pakistans-asim-munir-convince-iran-military-chiefs-to-return-to-talks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can Pakistan’s Asim Munir convince Iran military chiefs to return to talks?"
-      },
-      {
-        "id": "art_1787647867640_ioqif",
-        "url": "https://www.aljazeera.com/news/2026/8/25/pakistan-says-significant-progress-made-in-talks-on-iran-us-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan says significant progress made in talks on Iran-US war"
-      },
-      {
-        "id": "art_1787647870046_nh9fy",
-        "url": "https://www.theguardian.com/business/2026/aug/25/gold-price-high-iran-war-donald-trump-economy-us",
-        "source": "guardian",
-        "title": "Gold price hits three-month high amid fears over Iran war and Trump economy"
-      },
-      {
-        "id": "art_1787644440780_k7j8n",
-        "url": "https://www.aljazeera.com/opinions/2026/8/25/the-iran-war-is-bringing-cyberwarfare-into-critical-infrastructure?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Iran war is bringing cyberwarfare into critical infrastructure"
-      },
-      {
-        "id": "art_1787638306384_alv1f",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/two-us-carrier-groups-in-middle-east-strain-navy-resources?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Two US carrier groups in Middle East strain navy resources"
-      },
-      {
-        "id": "art_1787630239677_wmv5b",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/25/woodside-scraps-emissions-clean-energy-targets-australia",
-        "source": "guardian",
-        "title": "Woodside scraps long-term emissions and clean energy targets despite windfall oil profits caused by Iran war"
-      },
-      {
-        "id": "art_1787630241899_pqcqj",
-        "url": "https://www.aljazeera.com/news/2026/8/25/israels-netanyahu-claims-iran-tried-to-kill-one-of-his-sons?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s Netanyahu claims Iran tried to kill one of his sons"
-      },
-      {
-        "id": "art_1787612712225_lf54z",
-        "url": "https://www.aljazeera.com/economy/2026/8/24/how-us-sanctions-on-iran-ripple-through-global-markets-and-consumers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How US sanctions on Iran ripple through global markets and consumers"
-      },
-      {
-        "id": "art_1787612724827_77ym9",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-iran-reacts-to-us-economic-d-day-sanctions?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Video: Iran reacts to US ‘economic D-Day’ sanctions"
-      },
-      {
-        "id": "art_1787610762445_o2hkn",
-        "url": "https://www.aljazeera.com/news/2026/8/24/us-public-support-for-iran-war-falls-as-trump-approval-at-record-low-poll?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US public support for Iran war falls as Trump approval at record low: Poll"
-      },
-      {
-        "id": "art_1787593383251_gjmzx",
-        "url": "https://www.aljazeera.com/news/2026/8/24/trump-administration-announces-global-economic-war-on-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump administration announces ‘economic D-day’ sanctions on Iran"
-      },
-      {
-        "id": "art_1787579952349_mlrga",
-        "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Iran faces 'greatest financial offensive ever', says US treasury secretary"
-      },
-      {
-        "id": "art_1787579956751_syku9",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/24/hakeem-jeffries-jared-kushner-democrats-midterm-elections-donald-trump-iran-war-sanctions-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump claims Iran is ‘completely collapsing’ ahead of new sanctions announcement – live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "606389b7d5fd29c311f353b3ca6e698c",
-    "topic_label": "Israel-Gaza Conflict",
-    "event_window_start": "2026-08-24T16:27:36.000Z",
-    "event_window_end": "2026-08-25T10:11:46.000Z",
-    "article_ids": [
-      "art_1787654388610_egy4m",
-      "art_1787647873299_17pbr",
-      "art_1787647880836_kvb0n",
-      "art_1787644439366_0lw06",
-      "art_1787644447101_sjvec",
-      "art_1787636458509_5e1m6",
-      "art_1787612719567_60y2c",
-      "art_1787610763476_lvrmq",
-      "art_1787595311561_8x6i7"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T11:10:52.228Z",
-    "updated_at": "2026-08-25T11:10:52.228Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Sliman Mansour died at age 79.",
-      "The Saudi oil tanker Amzan was involved in a maritime incident in the Red Sea."
-    ],
-    "source_claims": [
-      "[aljazeera] claims a Thai vendor confronted Israeli tourists in Phuket after being provoked by the group.",
-      "[aljazeera] claims Israel attacked a desalination plant and a mosque in Gaza.",
-      "[guardian] claims Mohommed Farhat was denied parole a second time despite a judge calling the case a potential miscarriage of justice.",
-      "[aljazeera] claims the Houthis targeted the Saudi oil tanker Amzan with a ballistic missile."
-    ],
-    "framing_differences": [
-      "aljazeera frames the death of Sliman Mansour as the loss of a 'giant of resistance art', while the guardian focuses on legal proceedings regarding anti-Israel graffiti.",
-      "aljazeera describes Houthi actions as being in support of Iran, whereas the reporting on the Thai vendor focuses on interpersonal confrontation."
-    ],
-    "contested_claims": [
-      "The Thai vendor claims he was provoked by tourists shouting 'Free Israel', a claim that is presented without corroboration from the tourists or witnesses."
-    ],
-    "unverified_claims": [
-      "[aljazeera] claims that Israel's recent actions in Gaza are occurring despite a ceasefire.",
-      "[guardian] claims the NSW parole authority characterized Farhat's actions as following an 'extremist ideology of antisemitic character'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'giant of resistance art' to describe Sliman Mansour.",
-      "[aljazeera] uses the term 'US-Israel war on Iran' to describe the regional conflict.",
-      "[guardian] uses the term 'scathing critique' to describe the judge's assessment of the case."
-    ],
-    "safe_conclusions": [
-      "Sliman Mansour was a prominent Palestinian artist.",
-      "Mohommed Farhat is a 22-year-old man who was denied parole in Australia.",
-      "The Houthi group in Yemen released a statement regarding an incident involving a Saudi tanker."
-    ],
-    "unknowns": [
-      "The veracity of the Thai vendor's account of the altercation in Phuket.",
-      "The specific current status of the desalination plant and mosque mentioned in the Gaza report.",
-      "The official response from the Saudi government regarding the alleged ballistic missile attack on the Amzan."
-    ],
-    "synthesis": "The provided news reports cover diverse international events, including the death of artist Sliman Mansour, regional conflicts in the Middle East, and a legal case in Australia. Sources detail incidents involving maritime security, alleged military strikes, and individual altercations. These reports present distinct news items rather than a single unified event.",
-    "confidence": "HIGH. The sources cover independent events and the factual claims provided are internally consistent within their respective reporting contexts.",
-    "sources": [
-      {
-        "id": "art_1787654388610_egy4m",
-        "url": "https://www.aljazeera.com/gallery/2026/8/25/palestinian-artist-sliman-mansour-giant-of-resistance-art-dies-aged-79?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian artist Sliman Mansour, giant of resistance art, dies aged 79"
-      },
-      {
-        "id": "art_1787647873299_17pbr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/thai-vendor-confronts-israeli-tourists-raises-palestinian-flag?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Thai vendor confronts Israeli tourists, raises Palestinian flag"
-      },
-      {
-        "id": "art_1787647880836_kvb0n",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-israel-attacks-desalination-plant-and-mosque-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Video: Israel attacks desalination plant and mosque in Gaza"
-      },
-      {
-        "id": "art_1787644439366_0lw06",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/25/sydney-denied-parole-anti-israel-graffiti-despite-supreme-court-ruling-antisemitism-ntwnfb",
-        "source": "guardian",
-        "title": "Man denied parole a second time over anti-Israel graffiti despite judge’s scathing critique of case"
-      },
-      {
-        "id": "art_1787644447101_sjvec",
-        "url": "https://www.aljazeera.com/news/2026/8/24/yemens-houthis-report-attack-on-saudi-ship?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen’s Houthis report attack on Saudi oil tanker in Red Sea"
-      },
-      {
-        "id": "art_1787636458509_5e1m6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinian-builds-mud-shelter-as-tents-offer-little-relief?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Palestinian builds mud shelter as tents offer little relief"
-      },
-      {
-        "id": "art_1787612719567_60y2c",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinians-in-gaza-face-intensifying-israeli-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes"
-      },
-      {
-        "id": "art_1787610763476_lvrmq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/iconic-palestinian-artist-sliman-mansour-passes-away-at-age-79?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iconic Palestinian artist Sliman Mansour passes away at age 79"
-      },
-      {
-        "id": "art_1787595311561_8x6i7",
-        "url": "https://www.aljazeera.com/news/2026/8/24/israeli-strike-on-gaza-shelter-extends-casualty-list?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike on Gaza shelter extends casualty list"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
