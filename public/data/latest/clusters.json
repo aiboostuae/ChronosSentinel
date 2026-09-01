@@ -1,64 +1,179 @@
 [
   {
-    "cluster_id": "460291783f1f430a9b0a01b7dba220e8",
-    "topic_label": "Nepal floods and missing Australians",
-    "event_window_start": "2026-08-31T04:19:22.000Z",
-    "event_window_end": "2026-08-31T20:49:14.000Z",
+    "cluster_id": "56873d11788f37e9ecedfd28aee80a05",
+    "topic_label": "Middle East Tensions and Iran",
+    "event_window_start": "2026-08-31T13:52:40.000Z",
+    "event_window_end": "2026-08-31T20:13:18.000Z",
     "article_ids": [
+      "art_1788209599639_026er",
+      "art_1788209601855_ivs9z",
+      "art_1788188591193_zy7qa",
+      "art_1788188592245_oqcrl",
+      "art_1788188593451_pidq7",
+      "art_1788188600939_7yxbe"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-01T01:16:52.324Z",
+    "updated_at": "2026-09-01T01:16:52.324Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "There is ongoing military tension involving Iran and the United States in the Middle East.",
+      "Donald Trump is the President of the United States."
+    ],
+    "source_claims": [
+      "[aljazeera] Leaders of Saudi Arabia, Pakistan, and Turkiye signed a security agreement in Mecca on August 7.",
+      "[fox] The Institute for Science and International Security (ISIS) claims to have identified a partially submerged Iranian uranium facility at the Natanz compound.",
+      "[fox] An NBC News crew and a Palestinian family were attacked by masked individuals in the West Bank.",
+      "[guardian] The US Equal Employment Opportunity Commission found reasonable cause to believe Cisco violated the civil rights of Middle Eastern and Muslim employees.",
+      "[guardian] Iran targeted US-operated airbases in Jordan following a US assault on Larak Island."
+    ],
+    "framing_differences": [
+      "[aljazeera] focuses on regional security pacts and operational military frameworks, whereas [fox] and [guardian] focus on specific conflicts involving Iran and localized violence in the West Bank.",
+      "[guardian] frames the Cisco employment investigation within the context of post-October 7 advocacy, while [fox] frames Middle Eastern developments primarily through the lens of Iranian nuclear concerns and US military deterrence."
+    ],
+    "contested_claims": [
+      "[guardian] reports that Iranian state media claims their missiles caused heavy damage to US airbases in Jordan, whereas [guardian] also notes that the Jordan army confirmed they intercepted eight missiles."
+    ],
+    "unverified_claims": [
+      "[aljazeera] An attack against one of the three countries (Saudi Arabia, Pakistan, Turkiye) will be considered an attack against all of them.",
+      "[fox] Iran’s nuclear weapons apparatus may have survived American-Israeli-launched wars in 2025 and 2026."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'regime's ongoing nuclear work' to describe Iranian nuclear activity.",
+      "[guardian] uses the term 'hostile work environment' to describe the conditions allegedly faced by Cisco employees."
+    ],
+    "safe_conclusions": [
+      "There are active security and employment disputes occurring in the Middle East and the United States."
+    ],
+    "unknowns": [
+      "The full operational details of the Saudi-Pakistan-Turkiye security pact.",
+      "The final outcome of the EEOC investigation into Cisco.",
+      "The specific extent of damage caused by the reported missile exchange between Iranian and US-linked forces in Jordan."
+    ],
+    "synthesis": "The provided articles detail a series of disjointed events including regional security agreements between Saudi Arabia, Pakistan, and Turkiye, and ongoing military hostilities between the United States and Iran. Concurrent reports highlight localized violence in the West Bank involving an NBC News crew and separate employment discrimination findings against Cisco regarding employee advocacy. These events represent distinct developments in international security, regional conflict, and corporate civil rights.",
+    "confidence": "MEDIUM; the articles report on entirely separate, unrelated events, making factual consistency across sources non-applicable.",
+    "sources": [
+      {
+        "id": "art_1788209599639_026er",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/8/31/how-will-the-mecca-agreement-become-an-operational-framework?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How will the Mecca agreement become an operational framework?"
+      },
+      {
+        "id": "art_1788209601855_ivs9z",
+        "url": "https://www.foxnews.com/world/new-report-exposes-intact-iranian-bunker-may-hide-regimes-ongoing-nuclear-work",
+        "source": "fox",
+        "title": "New report exposes intact Iranian bunker that may hide regime's ongoing nuclear work"
+      },
+      {
+        "id": "art_1788188591193_zy7qa",
+        "url": "https://www.foxnews.com/media/masked-israeli-settlers-attack-nbc-news-crew-palestinian-family-west-bank",
+        "source": "fox",
+        "title": "Masked Israeli settlers attack NBC News crew and Palestinian family in West Bank"
+      },
+      {
+        "id": "art_1788188592245_oqcrl",
+        "url": "https://www.theguardian.com/technology/2026/aug/31/cisco-civil-rights-palestine-advocacy-violation",
+        "source": "guardian",
+        "title": "Cisco probably violated Middle Eastern and Muslim employees’ civil rights, US agency finds"
+      },
+      {
+        "id": "art_1788188593451_pidq7",
+        "url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump says US will ‘hit Iran hard’ as hostilities resume – Middle East crisis live"
+      },
+      {
+        "id": "art_1788188600939_7yxbe",
+        "url": "https://www.aljazeera.com/news/2026/8/31/greece-signs-3-5bn-air-defence-deal-with-israel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Greece signs $3.5bn air defence deal with Israel"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b16cdd8dbb3dd13c56e9ce34ba103134",
+    "topic_label": "Himalayan Floods and Disaster",
+    "event_window_start": "2026-08-31T04:19:22.000Z",
+    "event_window_end": "2026-09-01T00:07:23.000Z",
+    "article_ids": [
+      "art_1788222877884_91pts",
       "art_1788209589794_depl5",
       "art_1788159011555_yvc5e",
       "art_1788159016423_va8et",
       "art_1788159023835_vd8wq"
     ],
     "source_ids": [
+      "fox",
       "guardian",
       "aljazeera"
     ],
-    "article_count": 4,
-    "source_count": 2,
+    "article_count": 5,
+    "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-08-31T22:12:12.978Z",
-    "updated_at": "2026-08-31T22:12:12.978Z",
+    "created_at": "2026-09-01T01:16:52.324Z",
+    "updated_at": "2026-09-01T01:16:52.324Z",
     "region_tag": "global",
     "shared_facts": [
-      "A glacier collapse has triggered flash floods in Nepal and Tibet.",
-      "People remain missing and confirmed deaths have occurred following the event.",
-      "Rescue operations are underway in the affected regions."
+      "A major flood occurred in the Nepal-Tibet region following a glacier collapse.",
+      "The flood resulted in a high number of deaths and missing persons.",
+      "Recovery and rescue operations are ongoing."
     ],
     "source_claims": [
-      "[guardian] Australian Foreign Minister Penny Wong stated the government has provided $8m in aid.",
-      "[guardian] 43 Australians are reported missing following the floods.",
-      "[guardian] Social media comments targeting the missing Australians have been described as racist.",
-      "[aljazeera] At least 781 people have been killed in the floods.",
-      "[aljazeera] More than 2,500 people remain missing."
+      "[fox] 80 Americans are currently unaccounted for.",
+      "[fox] 13 American citizens have reached safety in Nepal.",
+      "[guardian] 43 Australians are missing following the floods.",
+      "[guardian] The Australian government has provided $8m in aid.",
+      "[aljazeera] At least 781 people have been killed, with over 2,500 missing."
     ],
     "framing_differences": [
-      "The Guardian focuses on the impact on Australian citizens and the geopolitical response, while Al Jazeera focuses on local survivors returning to homes in the Nuwakot district."
+      "Fox focuses specifically on the status of American citizens, whereas The Guardian focuses on Australian citizens and the broader climate-related implications of the event.",
+      "Al Jazeera frames the event through the perspective of local survivors returning to their homes in the Nuwakot district, while The Guardian emphasizes the international political and social response."
     ],
     "contested_claims": [
-      "Death toll and missing persons figures vary between sources: Guardian reports over 900 dead and 4,400 missing, whereas Al Jazeera reports 781 dead and over 2,500 missing."
+      "There are conflicting figures regarding the total death toll and number of missing persons: Fox and Guardian report 903 deaths and over 4,000 missing, while Al Jazeera reports 781 deaths and over 2,500 missing."
     ],
     "unverified_claims": [
-      "[guardian] 14 of the missing Australians are members of the Australia Bharatha Brahmin Samaj community."
+      "[guardian] 14 of the missing Australians are members of the Australia Bharatha Brahmin Samaj community.",
+      "[guardian] Racist social media comments have been directed at missing Australians."
     ],
     "loaded_language": [
-      "[guardian] uses the terms 'heartbreaking' and 'abhorrent' to describe social media comments.",
-      "[guardian] uses the term 'catastrophic' to describe the floods."
+      "[fox] uses the term 'catastrophic' to describe the floods.",
+      "[guardian] uses the terms 'heartbreaking' and 'abhorrent' to describe racist slurs.",
+      "[guardian] uses the term 'stark warning' to describe the disaster's relationship to climate change."
     ],
     "safe_conclusions": [
-      "Flash floods caused by a glacier collapse have resulted in casualties and missing persons in the Nepal-Tibet region.",
-      "International aid and rescue efforts are ongoing."
+      "A flood event has occurred in the Himalayan region causing loss of life and displacement.",
+      "International governments are involved in tracking missing citizens and providing aid."
     ],
     "unknowns": [
-      "The exact total number of casualties, as figures vary significantly between reporting sources.",
-      "The current status of all 43 Australians reported missing."
+      "The exact total death toll and number of missing persons remain unconfirmed due to varying official reports.",
+      "The precise cause of the glacier collapse beyond general climate references.",
+      "The current status of thousands of individuals reported as missing."
     ],
-    "synthesis": "A glacier collapse in the Himalayas has triggered widespread flash floods across Nepal and Tibet, resulting in significant casualties and thousands of missing persons. Australia has initiated aid efforts, including the transport of supplies, while families await updates on 43 missing Australian citizens. Rescue operations continue as survivors navigate the destruction in affected areas.",
-    "confidence": "MEDIUM. While the core event of a glacier-induced flood is corroborated, there are significant discrepancies in the casualty statistics provided across the sources.",
+    "synthesis": "Flash floods triggered by a glacier collapse in the Himalayan region have resulted in significant loss of life and thousands of missing persons across Nepal and Tibet. International aid and search efforts are underway as various governments work to locate missing citizens. Reports on the total number of casualties remain inconsistent between news outlets.",
+    "confidence": "CONTESTED. There is significant variation in the reported casualty and missing person statistics between the provided sources.",
     "sources": [
+      {
+        "id": "art_1788222877884_91pts",
+        "url": "https://www.foxnews.com/world/roughly-80-americans-still-unaccounted-after-himalayan-disaster-kills-903-officials-say",
+        "source": "fox",
+        "title": "Roughly 80 Americans still unaccounted for after Himalayan disaster kills 903, officials say"
+      },
       {
         "id": "art_1788209589794_depl5",
         "url": "https://www.theguardian.com/australia-news/live/2026/sep/01/nepal-tibet-flooding-missing-australians-penny-wong-anthony-albanese-pacific-islands-forum-liberal-national-coalition-one-nation-politics-reactions-ntwnfb",
@@ -158,6 +273,165 @@
         "url": "https://www.foxnews.com/politics/white-house-ballroom-construction-lifeline-scotus-heated-legal-fight",
         "source": "fox",
         "title": "Trump's White House ballroom construction gets another lifeline from SCOTUS amid heated legal fight"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7339737b6580121a1fe7aa3faf816621",
+    "topic_label": "US Army Secretary Resignation",
+    "event_window_start": "2026-08-31T23:09:25.000Z",
+    "event_window_end": "2026-08-31T23:23:00.000Z",
+    "article_ids": [
+      "art_1788222881122_nxsn5",
+      "art_1788222884394_zhpkc"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-01T01:16:52.324Z",
+    "updated_at": "2026-09-01T01:16:52.324Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Daniel Driscoll has resigned from his position as US Army Secretary.",
+      "The White House confirmed the resignation on Monday.",
+      "The White House released a statement praising Driscoll for advancing President Trump's agenda."
+    ],
+    "source_claims": [
+      "[aljazeera] claims the resignation follows months of tension with Defense Secretary Pete Hegseth.",
+      "[guardian] claims the resignation follows months of turmoil at the Pentagon including a leaked investigation and the ousting of senior officials.",
+      "[guardian] claims Driscoll was second in line to Defense Secretary Pete Hegseth.",
+      "[guardian] claims Driscoll had been reportedly eyeing an exit from the Pentagon."
+    ],
+    "framing_differences": [
+      "[aljazeera] frames the event primarily through the lens of interpersonal conflict between Driscoll and Hegseth, while [guardian] frames the resignation as part of a wider pattern of turmoil and turnover within the Pentagon."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims the resignation is specifically tied to months of tension with Pete Hegseth.",
+      "[guardian] claims the resignation is linked to broader Pentagon turmoil including a leaked investigation and staff oustings."
+    ],
+    "loaded_language": [
+      "[aljazeera] and [guardian] use the term 'friction' to describe the relationship between Driscoll and Hegseth.",
+      "[guardian] uses the term 'turmoil' to describe the state of the Pentagon."
+    ],
+    "safe_conclusions": [
+      "Daniel Driscoll is no longer the US Army Secretary.",
+      "The White House publicly praised Driscoll's tenure upon his departure."
+    ],
+    "unknowns": [
+      "The official reason provided by Daniel Driscoll for his resignation.",
+      "Whether there is documentation confirming direct conflict between Driscoll and Hegseth.",
+      "The specific nature of the 'leaked investigation' mentioned by the Guardian."
+    ],
+    "synthesis": "US Army Secretary Daniel Driscoll has resigned from his position, an action confirmed by the White House on Monday. The White House issued a statement commending Driscoll for his efforts in advancing the president's agenda. Media outlets report that the departure occurs amidst underlying tensions within the Department of Defense.",
+    "confidence": "HIGH. Both sources agree on the core fact of the resignation and cite the same official White House statement, with minor differences only in their reporting of the surrounding context.",
+    "sources": [
+      {
+        "id": "art_1788222881122_nxsn5",
+        "url": "https://www.aljazeera.com/news/2026/8/31/us-army-secretary-daniel-driscoll-submits-resignation-media-reports-say?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US Army Secretary Daniel Driscoll submits resignation, media reports say"
+      },
+      {
+        "id": "art_1788222884394_zhpkc",
+        "url": "https://www.theguardian.com/us-news/2026/aug/31/army-secretary-dan-driscoll-resigns",
+        "source": "guardian",
+        "title": "US army secretary Dan Driscoll resigns over reported friction with Pete Hegseth"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "460291783f1f430a9b0a01b7dba220e8",
+    "topic_label": "Nepal floods and missing Australians",
+    "event_window_start": "2026-08-31T04:19:22.000Z",
+    "event_window_end": "2026-08-31T20:49:14.000Z",
+    "article_ids": [
+      "art_1788209589794_depl5",
+      "art_1788159011555_yvc5e",
+      "art_1788159016423_va8et",
+      "art_1788159023835_vd8wq"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-08-31T22:12:12.978Z",
+    "updated_at": "2026-08-31T22:12:12.978Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A glacier collapse has triggered flash floods in Nepal and Tibet.",
+      "People remain missing and confirmed deaths have occurred following the event.",
+      "Rescue operations are underway in the affected regions."
+    ],
+    "source_claims": [
+      "[guardian] Australian Foreign Minister Penny Wong stated the government has provided $8m in aid.",
+      "[guardian] 43 Australians are reported missing following the floods.",
+      "[guardian] Social media comments targeting the missing Australians have been described as racist.",
+      "[aljazeera] At least 781 people have been killed in the floods.",
+      "[aljazeera] More than 2,500 people remain missing."
+    ],
+    "framing_differences": [
+      "The Guardian focuses on the impact on Australian citizens and the geopolitical response, while Al Jazeera focuses on local survivors returning to homes in the Nuwakot district."
+    ],
+    "contested_claims": [
+      "Death toll and missing persons figures vary between sources: Guardian reports over 900 dead and 4,400 missing, whereas Al Jazeera reports 781 dead and over 2,500 missing."
+    ],
+    "unverified_claims": [
+      "[guardian] 14 of the missing Australians are members of the Australia Bharatha Brahmin Samaj community."
+    ],
+    "loaded_language": [
+      "[guardian] uses the terms 'heartbreaking' and 'abhorrent' to describe social media comments.",
+      "[guardian] uses the term 'catastrophic' to describe the floods."
+    ],
+    "safe_conclusions": [
+      "Flash floods caused by a glacier collapse have resulted in casualties and missing persons in the Nepal-Tibet region.",
+      "International aid and rescue efforts are ongoing."
+    ],
+    "unknowns": [
+      "The exact total number of casualties, as figures vary significantly between reporting sources.",
+      "The current status of all 43 Australians reported missing."
+    ],
+    "synthesis": "A glacier collapse in the Himalayas has triggered widespread flash floods across Nepal and Tibet, resulting in significant casualties and thousands of missing persons. Australia has initiated aid efforts, including the transport of supplies, while families await updates on 43 missing Australian citizens. Rescue operations continue as survivors navigate the destruction in affected areas.",
+    "confidence": "MEDIUM. While the core event of a glacier-induced flood is corroborated, there are significant discrepancies in the casualty statistics provided across the sources.",
+    "sources": [
+      {
+        "id": "art_1788209589794_depl5",
+        "url": "https://www.theguardian.com/australia-news/live/2026/sep/01/nepal-tibet-flooding-missing-australians-penny-wong-anthony-albanese-pacific-islands-forum-liberal-national-coalition-one-nation-politics-reactions-ntwnfb",
+        "source": "guardian",
+        "title": "News live: Penny Wong has ‘grave concerns’ for missing Australians in Nepal; capital city house prices fall below $1m"
+      },
+      {
+        "id": "art_1788159011555_yvc5e",
+        "url": "https://www.theguardian.com/australia-news/2026/aug/31/australians-missing-in-nepal-targeted-by-heartbreaking-and-abhorrent-racist-slurs",
+        "source": "guardian",
+        "title": "Australians missing in Nepal targeted by ‘heartbreaking’ and ‘abhorrent’ racist slurs"
+      },
+      {
+        "id": "art_1788159016423_va8et",
+        "url": "https://www.theguardian.com/world/2026/aug/30/monday-briefing-nepal-and-tibets-floods-are-a-warning-for-the-future",
+        "source": "guardian",
+        "title": "Monday briefing: Nepal and Tibet’s floods are a warning for the future"
+      },
+      {
+        "id": "art_1788159023835_vd8wq",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/08-31-26-nepal-aftermath-clip?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "People return to their flood-ravaged homes in Nepal"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -18495,292 +18769,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/nearly-one-in-two-ebola-patients-dying-in-dr-congo-outbreak?traffic_source=rss",
         "source": "aljazeera",
         "title": "Nearly one in two Ebola patients dying in DR Congo outbreak"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6c209ba25d724bacab96b90ffa9e70f8",
-    "topic_label": "Russia Ukraine Conflict",
-    "event_window_start": "2026-08-24T16:59:47.000Z",
-    "event_window_end": "2026-08-25T07:03:01.000Z",
-    "article_ids": [
-      "art_1787644437124_m4r0j",
-      "art_1787612711097_bs6j8",
-      "art_1787612722748_lhl6f",
-      "art_1787595310308_55blm",
-      "art_1787593390602_pqz80"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T13:58:29.468Z",
-    "updated_at": "2026-08-25T13:58:29.468Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ukraine celebrated its 35th Independence Day on Monday.",
-      "Russian attacks on infrastructure have occurred recently.",
-      "UK Prime Minister Andy Burnham visited Kyiv on Monday."
-    ],
-    "source_claims": [
-      "[guardian] Andy Burnham plans to travel to the US in September to lobby for Patriot missiles for Ukraine.",
-      "[fox] Former official Carrie Filipetti claims Vladimir Putin is 'panicked' due to Ukrainian strikes inside Russia.",
-      "[aljazeera] President Zelenskyy rejected calls from a former minister to hold wartime elections.",
-      "[aljazeera] Vladimir Putin signed a decree allowing the Russian state to take temporary control of inadequately protected infrastructure."
-    ],
-    "framing_differences": [
-      "The Guardian frames Andy Burnham's visit to Kyiv as a demonstration of UK support and a strategic move to facilitate US aid, while Al Jazeera frames the current political landscape in Ukraine around domestic pressure and corruption investigations.",
-      "Fox focuses on the psychological state of Vladimir Putin and security threats during Independence Day, while Al Jazeera focuses on structural political and legislative changes in both Ukraine and Russia."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Ukrainian officials described data handed to the UK as a 'goldmine'.",
-      "[fox] One regional security expert argues Russian President Vladimir Putin is 'panicked'."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'panicked' to describe the state of Vladimir Putin.",
-      "[guardian] uses the term 'goldmine' to describe intelligence data provided by Ukraine.",
-      "[guardian] uses the term 'neophyte' to describe Andy Burnham's foreign policy experience."
-    ],
-    "safe_conclusions": [
-      "Ukraine held Independence Day commemorations on Monday.",
-      "The UK Prime Minister visited Kyiv this week.",
-      "New legislative or executive actions regarding infrastructure security have been taken in Russia."
-    ],
-    "unknowns": [
-      "The exact nature and content of the 'goldmine' of data handed to the UK.",
-      "The full extent of the domestic political pressure or specific corruption investigations mentioned regarding the Zelenskyy administration.",
-      "The specific identity of the 'regional security expert' cited by Fox."
-    ],
-    "synthesis": "UK Prime Minister Andy Burnham visited Kyiv on the 35th anniversary of Ukraine's independence to reiterate diplomatic and military support. Meanwhile, Russian President Vladimir Putin issued a decree allowing the state to seize control of poorly protected infrastructure following ongoing drone campaigns. Concurrently, Ukrainian President Volodymyr Zelenskyy has faced reports of domestic political tension and calls for wartime elections.",
-    "confidence": "HIGH. While the sources cover different aspects of the conflict, the core factual events such as the Prime Minister's visit, the Independence Day anniversary, and the Russian infrastructure decree are consistent across reports.",
-    "sources": [
-      {
-        "id": "art_1787644437124_m4r0j",
-        "url": "https://www.theguardian.com/politics/2026/aug/25/andy-burnham-us-new-york-ukraine-patriot-missiles",
-        "source": "guardian",
-        "title": "Burnham plans trip to New York as Ukraine pleads for US-made missiles"
-      },
-      {
-        "id": "art_1787612711097_bs6j8",
-        "url": "https://www.foxnews.com/world/putin-panicked-defiant-ukraine-marks-independence-day-under-russian-bombardment",
-        "source": "fox",
-        "title": "Putin ‘panicked’ as defiant Ukraine marks Independence Day under Russian bombardment"
-      },
-      {
-        "id": "art_1787612722748_lhl6f",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/24/whats-behind-domestic-political-pressure-on-ukraines-president?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What’s behind domestic political pressure on Ukraine’s president?"
-      },
-      {
-        "id": "art_1787595310308_55blm",
-        "url": "https://www.theguardian.com/politics/2026/aug/24/burnham-visit-kyiv-support-for-ukraine",
-        "source": "guardian",
-        "title": "Burnham’s visit to Kyiv marks a renewal of badly needed support for Ukraine"
-      },
-      {
-        "id": "art_1787593390602_pqz80",
-        "url": "https://www.aljazeera.com/news/2026/8/24/russia-to-seize-poorly-protected-infrastructure-as-ukraine-barrage-persists?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia to seize poorly protected infrastructure as Ukraine barrage persists"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "920e926427e9c8ebc0a6a06c4c4f4809",
-    "topic_label": "Trump and US Political Contention",
-    "event_window_start": "2026-08-24T21:53:38.000Z",
-    "event_window_end": "2026-08-25T02:51:53.000Z",
-    "article_ids": [
-      "art_1787638308612_ufu42",
-      "art_1787612715367_ls3p8",
-      "art_1787612718526_3zdfi",
-      "art_1787610755721_wa03x"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T13:58:29.468Z",
-    "updated_at": "2026-08-25T13:58:29.468Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The US Supreme Court issued a ruling on a Monday regarding an executive order by President Trump concerning mail-in voting.",
-      "The ruling was decided by a 6-3 vote with liberal justices dissenting.",
-      "The decision leaves room for potential future legal challenges.",
-      "Implementation of the order before the November midterm elections is uncertain."
-    ],
-    "source_claims": [
-      "[bbc] The President threatened to hike tariffs on Canadian automobiles and auto parts to 50% starting January 1.",
-      "[aljazeera] The Supreme Court cleared the way for the administration to move ahead with an executive order restricting mail-in voting.",
-      "[fox] The Supreme Court lifted an injunction that had blocked the administration's order in 23 states.",
-      "[guardian] The Supreme Court lifted an injunction issued by a Massachusetts judge in June."
-    ],
-    "framing_differences": [
-      "[fox] frames the Supreme Court ruling as an 'election integrity' measure and a 'victory' for the administration, whereas [guardian] frames it as a 'crackdown' on mail-in voting.",
-      "[aljazeera] and [guardian] highlight the 6-3 ideological split of the court, while [fox] focuses on the specific action of lifting the injunction in 23 states."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims there is 'overwhelming evidence that the system is secure' regarding mail-in voting.",
-      "[aljazeera] claims President Trump has 'claimed that it breeds fraud'."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'crackdown' to describe the administration's actions regarding mail-in voting.",
-      "[fox] uses the term 'election integrity' to describe the executive order.",
-      "[guardian] uses the word 'cheating' when describing the President's characterization of mail-in voting.",
-      "[bbc] uses the term 'trade war' to describe the state of US-Canada relations."
-    ],
-    "safe_conclusions": [
-      "The Supreme Court issued a 6-3 ruling on Monday affecting a presidential executive order related to mail-in voting.",
-      "The legal status of the administration's order remains subject to potential further litigation."
-    ],
-    "unknowns": [
-      "The specific technical details of the 'state citizenship list' mentioned by The Guardian.",
-      "The extent to which the executive order will be implemented before the November midterm elections.",
-      "The status of the second injunction mentioned by The Guardian."
-    ],
-    "synthesis": "The US Supreme Court issued a 6-3 ruling on Monday that permits the Trump administration to proceed with an executive order restricting mail-in voting, though further legal challenges remain possible. Separately, international trade tensions are reported between the US and Canada regarding proposed automobile tariffs. The implementation timeline for the mail-in voting restrictions ahead of the November midterm elections is currently uncertain.",
-    "confidence": "HIGH. The sources are consistent regarding the core event of the Supreme Court ruling, though they apply different descriptive framing.",
-    "sources": [
-      {
-        "id": "art_1787638308612_ufu42",
-        "url": "https://www.bbc.co.uk/news/articles/c93vpd60654o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US-Canada trade war escalates as Trump threatens tariff hike on vehicles"
-      },
-      {
-        "id": "art_1787612715367_ls3p8",
-        "url": "https://www.aljazeera.com/news/2026/8/24/us-supreme-court-sides-with-trump-administration-on-mail-voting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US Supreme Court sides with Trump administration on mail voting"
-      },
-      {
-        "id": "art_1787612718526_3zdfi",
-        "url": "https://www.foxnews.com/politics/trump-scores-supreme-court-win-mail-in-voting-restrictions-before-midterms",
-        "source": "fox",
-        "title": "Trump scores Supreme Court win on mail-in voting restrictions before midterms"
-      },
-      {
-        "id": "art_1787610755721_wa03x",
-        "url": "https://www.theguardian.com/us-news/2026/aug/24/supreme-court-trump-mail-in-voting",
-        "source": "guardian",
-        "title": "US supreme court rules Trump can proceed with crackdown on mail-in voting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "923607a2bb73d568f75031681ecab14a",
-    "topic_label": "Conflict in Gaza and Middle East",
-    "event_window_start": "2026-08-24T16:27:36.000Z",
-    "event_window_end": "2026-08-25T10:11:46.000Z",
-    "article_ids": [
-      "art_1787654388610_egy4m",
-      "art_1787647880836_kvb0n",
-      "art_1787636458509_5e1m6",
-      "art_1787612719567_60y2c",
-      "art_1787610763476_lvrmq",
-      "art_1787595311561_8x6i7"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T12:46:30.427Z",
-    "updated_at": "2026-08-25T12:46:30.427Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Sliman Mansour, a Palestinian artist, has died at the age of 79.",
-      "Sliman Mansour was born in 1947 in Birzeit."
-    ],
-    "source_claims": [
-      "[aljazeera] Israel has attacked a desalination plant and a mosque in Gaza.",
-      "[aljazeera] A displaced Palestinian built a mud-brick house in Gaza due to restrictions on construction materials.",
-      "[aljazeera] An Israeli strike in Deir al-Balah killed one man in a tent.",
-      "[aljazeera] More than 1,300 Palestinians have been killed since an October ceasefire.",
-      "[aljazeera] Sliman Mansour's work was central to Palestinian resistance art and identity."
-    ],
-    "framing_differences": [
-      "The articles on Sliman Mansour from aljazeera utilize similar themes of national identity and cultural preservation, though one focuses specifically on his biography while the other frames his work primarily as 'resistance art'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Israel is maintaining heavy restrictions on construction materials entering Gaza."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'giant of resistance art' to describe Sliman Mansour.",
-      "[aljazeera] uses the term 'intensifies attacks' to describe Israeli military activity."
-    ],
-    "safe_conclusions": [
-      "Sliman Mansour was a Palestinian artist who died at age 79.",
-      "Israeli military operations are ongoing in the Gaza Strip."
-    ],
-    "unknowns": [
-      "The specific cause of the conflict or immediate circumstances surrounding the individual military strikes mentioned.",
-      "The current status of all construction material restrictions mentioned regarding Gaza."
-    ],
-    "synthesis": "Palestinian artist Sliman Mansour has died at the age of 79 after a career focused on Palestinian heritage and identity. Concurrently, reports indicate ongoing military escalation in Gaza involving strikes on infrastructure and displacement sites. The situation includes reports of civilian casualties and the use of alternative housing methods by displaced residents.",
-    "confidence": "HIGH. The sources are internally consistent as they are all authored by the same entity.",
-    "sources": [
-      {
-        "id": "art_1787654388610_egy4m",
-        "url": "https://www.aljazeera.com/gallery/2026/8/25/palestinian-artist-sliman-mansour-giant-of-resistance-art-dies-aged-79?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian artist Sliman Mansour, giant of resistance art, dies aged 79"
-      },
-      {
-        "id": "art_1787647880836_kvb0n",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/video-israel-attacks-desalination-plant-and-mosque-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Video: Israel attacks desalination plant and mosque in Gaza"
-      },
-      {
-        "id": "art_1787636458509_5e1m6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinian-builds-mud-shelter-as-tents-offer-little-relief?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Palestinian builds mud shelter as tents offer little relief"
-      },
-      {
-        "id": "art_1787612719567_60y2c",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/displaced-palestinians-in-gaza-face-intensifying-israeli-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Displaced Palestinians in Gaza face intensifying Israeli strikes"
-      },
-      {
-        "id": "art_1787610763476_lvrmq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/24/iconic-palestinian-artist-sliman-mansour-passes-away-at-age-79?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iconic Palestinian artist Sliman Mansour passes away at age 79"
-      },
-      {
-        "id": "art_1787595311561_8x6i7",
-        "url": "https://www.aljazeera.com/news/2026/8/24/israeli-strike-on-gaza-shelter-extends-casualty-list?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strike on Gaza shelter extends casualty list"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
