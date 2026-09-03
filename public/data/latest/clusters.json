@@ -1,5 +1,145 @@
 [
   {
+    "cluster_id": "fa7d0ab0601f51819ff7e0bb12c5e27f",
+    "topic_label": "Conflict in Gaza and Middle East",
+    "event_window_start": "2026-09-02T11:51:46.000Z",
+    "event_window_end": "2026-09-02T12:14:45.000Z",
+    "article_ids": [
+      "art_1788353118082_oko75",
+      "art_1788353126069_yfyfx",
+      "art_1788353127110_vxh3l"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-03T09:36:40.638Z",
+    "updated_at": "2026-09-03T09:36:40.638Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera] Palestinian landowners used their bare hands to confront a bulldozer during property demolition by Israeli forces in the West Bank.",
+      "[guardian] Iran has accused the United States of a war crime following a missile strike on a wedding in Kuhestak that killed five people and injured 68.",
+      "[bbc] The Hamas-run Ministry of Health reports over 900 people have been killed in Gaza since a ceasefire was declared following a peace plan initiated by Donald Trump."
+    ],
+    "framing_differences": [
+      "Aljazeera focuses on local land disputes and house demolitions in the West Bank, whereas The Guardian frames events around international accusations of war crimes in Iran, and BBC frames the situation through regional casualty statistics in Gaza following a failed ceasefire."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Israeli forces used pepper spray during the demolition incident.",
+      "[guardian] A US missile struck a wedding ceremony in Kuhestak, Iran.",
+      "[bbc] Israeli strikes have continued in Gaza despite an agreed suspension of military operations as part of a 20-point peace plan."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'war crime' to describe the missile blast in Iran.",
+      "[bbc] uses the term 'Hamas-run' to describe the health ministry."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The sources provide reports on three distinct and geographically separate events involving different actors and conflict zones.",
+      "There is no shared narrative or singular event connecting the reports from the West Bank, Iran, and Gaza."
+    ],
+    "synthesis": "The provided articles detail separate events in the West Bank, Iran, and Gaza involving military or state-led actions. Each report focuses on distinct incidents of violence and casualties reported by local or government entities. There is no intersection of events or actors across the three sources.",
+    "confidence": "LOW. The sources provide disparate reports on unrelated incidents without overlapping factual verification.",
+    "sources": [
+      {
+        "id": "art_1788353118082_oko75",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/palestinian-landowners-confront-bulldozers-using-their-hands?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian landowners confront bulldozers using their hands"
+      },
+      {
+        "id": "art_1788353126069_yfyfx",
+        "url": "https://www.theguardian.com/world/2026/sep/02/iran-us-missile-blast-wedding",
+        "source": "guardian",
+        "title": "Iran accuses US of ‘war crime’ after missile blast kills five people at wedding"
+      },
+      {
+        "id": "art_1788353127110_vxh3l",
+        "url": "https://www.bbc.co.uk/news/articles/c7708dy33pdo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "More than 900 killed in Gaza this year despite ceasefire, Hamas-run health ministry says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dfc7c863c1e5ccf5eaf0550eb61549be",
+    "topic_label": "Global geopolitical tensions",
+    "event_window_start": "2026-09-02T11:47:11.000Z",
+    "event_window_end": "2026-09-02T11:59:48.000Z",
+    "article_ids": [
+      "art_1788353123543_0h1t1",
+      "art_1788353128139_3ancm"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-03T09:36:40.638Z",
+    "updated_at": "2026-09-03T09:36:40.638Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] Claims that an illicit pipeline is transporting the experimental drug retatrutide from Chinese manufacturers to U.S. homes.",
+      "[fox] Claims that retatrutide is an experimental drug currently in clinical trials for obesity and diabetes with no FDA-approved version.",
+      "[bbc] Claims that Vladimir Putin responded to a question regarding potential strikes on UK military facilities by stating that those who try to 'gobble us up' might get 'punched in the teeth'.",
+      "[bbc] Claims that the Kremlin is employing psychological pressure to influence the UK's support for Ukraine."
+    ],
+    "framing_differences": [
+      "fox frames international trade and drug distribution as a national security vulnerability exploited by China, whereas bbc frames Russian rhetoric as a deliberate psychological campaign intended to influence Western geopolitical support for Ukraine."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Claims that China is actively exploiting American supply chains through the distribution of unauthorized retatrutide.",
+      "[bbc] Claims that Vladimir Putin's rhetoric is specifically designed to make the UK 'stress' over Russian intentions."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'illicit pipeline' to describe the supply chain of retatrutide.",
+      "[bbc] uses the term 'veiled threat' to describe the comments made by Vladimir Putin."
+    ],
+    "safe_conclusions": [
+      "Vladimir Putin made comments regarding the consequences for those who attempt to 'gobble' Russia up.",
+      "Retatrutide is currently in clinical trials for weight loss and diabetes treatment."
+    ],
+    "unknowns": [
+      "The extent of the unauthorized retatrutide market in the U.S.",
+      "The official Russian government policy regarding military responses to UK arms supplies.",
+      "The specific impact of Putin's comments on UK foreign policy decisions."
+    ],
+    "synthesis": "The provided texts discuss separate geopolitical and domestic health concerns, focusing on Chinese drug supply chains and Russian military rhetoric respectively. No shared event or subject matter links the two reports. Each source highlights a specific perceived threat to Western interests from a foreign nation.",
+    "confidence": "LOW: The sources cover entirely unrelated topics, preventing a comparison of factual consistency regarding a single event.",
+    "sources": [
+      {
+        "id": "art_1788353123543_0h1t1",
+        "url": "https://www.foxnews.com/opinion/china-found-new-illicit-drug-market-america-must-shut-down",
+        "source": "fox",
+        "title": "China has found a new illicit drug market. America must shut it down"
+      },
+      {
+        "id": "art_1788353128139_3ancm",
+        "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Rosenberg: Putin's veiled threat to UK part of Russia's campaign against West"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "2dbf28ec2f5cd5d81f88d39e17d6be11",
     "topic_label": "Israel-Gaza Conflict and Regional Impact",
     "event_window_start": "2026-09-02T06:00:24.000Z",
@@ -17661,222 +17801,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
         "source": "guardian",
         "title": "Darline Graham and Ralph Norman head to South Carolina’s Senate runoff"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4890a52436642f97a16d47e848af3083",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-08-25T06:55:31.000Z",
-    "event_window_end": "2026-08-25T19:02:18.000Z",
-    "article_ids": [
-      "art_1787686866635_a79bl",
-      "art_1787686869763_scy7u",
-      "art_1787679912090_898bn",
-      "art_1787647873299_17pbr",
-      "art_1787644439366_0lw06"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-25T21:34:24.081Z",
-    "updated_at": "2026-08-25T21:34:24.081Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "There are multiple ongoing events involving geopolitical tensions related to Israel, including protests at the Kerem Shalom crossing, operations in East Jerusalem, and legal/social controversies regarding anti-Israel expression."
-    ],
-    "source_claims": [
-      "[aljazeera] Israeli protesters at Kerem Shalom blocked aid trucks and demanded the disarmament of Hamas before reconstruction.",
-      "[aljazeera] Itamar Ben-Gvir celebrated the raid of a UNRWA facility in East Jerusalem where an Israeli flag was raised.",
-      "[aljazeera] A poll by the IMEU Policy Project suggests a majority of Democratic voters in several key 2028 primary states oppose aid to Israel.",
-      "[aljazeera] A Thai vendor in Phuket confronted Israeli tourists after an alleged verbal provocation.",
-      "[guardian] The NSW parole authority denied parole to Mohommed Farhat a second time, citing extremist ideology, despite a judge describing the case as a potential miscarriage of justice."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the UNRWA facility event as a 'raid' and a 'breach of international law,' while the Guardian focuses on domestic legal disputes concerning anti-Israel vandalism and parole.",
-      "Aljazeera presents polling data to suggest a trend in US public opinion, whereas the Guardian focuses on individual judicial and administrative proceedings in Australia."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Experts say the raid on the UNRWA facility is a breach of international law.",
-      "[aljazeera] The majority of voters in South Carolina, Nevada, New Hampshire, New Mexico, Michigan, and Virginia believe Israel is committing genocide in Gaza.",
-      "[aljazeera] The Thai vendor was provoked by Israeli tourists shouting 'Free Israel'.",
-      "[guardian] A supreme court judge stated the case against Mohommed Farhat appeared to be a 'serious miscarriage of justice'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'occupied East Jerusalem' to describe the location of the UNRWA facility.",
-      "[aljazeera] uses the term 'genocide' to describe the activities of Israel in Gaza as referenced in the poll results.",
-      "[guardian] uses the term 'extremist ideology' to describe the motivation attributed to Mohommed Farhat by the NSW parole authority.",
-      "[guardian] uses the term 'scathing critique' to describe the judge's assessment of the case."
-    ],
-    "safe_conclusions": [
-      "Israeli protesters have gathered at the Kerem Shalom crossing.",
-      "Israeli forces entered a UNRWA facility in East Jerusalem.",
-      "Polling data regarding US voter sentiment on Israel has been released by the IMEU Policy Project.",
-      "A Thai vendor and Israeli tourists were involved in a confrontation in Phuket.",
-      "A Sydney man named Mohommed Farhat remains in prison after being denied parole."
-    ],
-    "unknowns": [
-      "The specific operational details or legal authorization behind the Israeli raid on the UNRWA facility.",
-      "The full context and complete records of the court proceedings regarding Mohommed Farhat beyond the provided report.",
-      "The representativeness and methodology of the IMEU Policy Project poll beyond the details provided."
-    ],
-    "synthesis": "This report summarizes several distinct geopolitical and social incidents involving Israeli-related tensions across multiple international locations. These events include protests, government and military actions, public opinion polling, and legal challenges. The provided articles do not share a common narrative focus, as they address independent occurrences in the Middle East, the United States, Thailand, and Australia.",
-    "confidence": "HIGH. The sources report on geographically and thematically distinct events, and there are no direct factual contradictions between them.",
-    "sources": [
-      {
-        "id": "art_1787686866635_a79bl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/israeli-protesters-block-aid-trucks-from-reaching-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli protesters block aid trucks from reaching Gaza"
-      },
-      {
-        "id": "art_1787686869763_scy7u",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/video-israeli-forces-raid-un-training-centre-and-raise-israeli-flag?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Video: Israeli forces raid UN training centre and raise Israeli flag"
-      },
-      {
-        "id": "art_1787679912090_898bn",
-        "url": "https://www.aljazeera.com/news/2026/8/25/most-us-democrats-in-early-2028-primary-states-oppose-aid-to-israel-poll?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Most US Democrats in early 2028 primary states oppose aid to Israel: Poll"
-      },
-      {
-        "id": "art_1787647873299_17pbr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/thai-vendor-confronts-israeli-tourists-raises-palestinian-flag?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Thai vendor confronts Israeli tourists, raises Palestinian flag"
-      },
-      {
-        "id": "art_1787644439366_0lw06",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/25/sydney-denied-parole-anti-israel-graffiti-despite-supreme-court-ruling-antisemitism-ntwnfb",
-        "source": "guardian",
-        "title": "Man denied parole a second time over anti-Israel graffiti despite judge’s scathing critique of case"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7378a4fce05bce9fd7962138a7d1c6da",
-    "topic_label": "Middle East Iran-US Tensions",
-    "event_window_start": "2026-08-25T02:54:40.000Z",
-    "event_window_end": "2026-08-25T17:11:21.000Z",
-    "article_ids": [
-      "art_1787679917296_8jehr",
-      "art_1787654386433_6j7xw",
-      "art_1787647867640_ioqif",
-      "art_1787647870046_nh9fy",
-      "art_1787644440780_k7j8n",
-      "art_1787638306384_alv1f",
-      "art_1787630239677_wmv5b",
-      "art_1787630241899_pqcqj"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 8,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T01:07:49.398Z",
-    "updated_at": "2026-08-26T01:07:49.398Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Pakistan's army chief, Field Marshal Syed Asim Munir, visited Tehran on Monday.",
-      "During the Tehran visit, Munir held meetings with Iranian officials, including President Masoud Pezeshkian.",
-      "There is an ongoing conflict involving Iran."
-    ],
-    "source_claims": [
-      "[guardian] China has denounced the threat of US sanctions regarding trade with Iran and stated it would take 'all necessary measures' to protect its interests.",
-      "[guardian] China is estimated to purchase 80% of Iran's oil exports.",
-      "[aljazeera] Pakistani officials reported significant progress in high-level talks in Tehran aimed at ending the US-Iran conflict.",
-      "[aljazeera] Pakistan's Interior Minister Mohsin Naqvi accompanied Munir on the diplomatic mission.",
-      "[guardian] Gold prices reached a three-month high on Tuesday amid market uncertainty regarding the conflict and economic factors.",
-      "[aljazeera] A cyberattack reportedly linked to Iran-linked hackers forced a British power plant offline for four days."
-    ],
-    "framing_differences": [
-      "The Guardian frames the Iran situation primarily through the lenses of international trade sanctions, economic markets, and geopolitical tensions with the US. Al Jazeera frames the situation through the lens of regional diplomatic mediation efforts by Pakistan and the expansion of the conflict into cyberwarfare."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Reports suggest a deadlock exists in peace negotiations between the US and Iran.",
-      "[guardian] Gold reached $4,651 per ounce during Asian trading hours on Tuesday."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'regime' to describe the government of Tehran.",
-      "[aljazeera] uses the term 'new battlefield' to characterize the expansion of the conflict into cyberwarfare."
-    ],
-    "safe_conclusions": [
-      "Pakistani officials have engaged in diplomatic visits to Tehran to discuss the ongoing conflict involving Iran.",
-      "The conflict in the Middle East has had documented effects on international commodity prices, specifically gold."
-    ],
-    "unknowns": [
-      "The specific terms or details of the 'significant progress' claimed by Pakistani officials.",
-      "The exact extent and impact of the cyberattack on the British power plant.",
-      "The official response of the United States government to the Pakistani diplomatic mission."
-    ],
-    "synthesis": "Pakistani military and government officials conducted high-level diplomatic meetings in Tehran on Monday to discuss the ongoing conflict in the region. Meanwhile, international markets have reacted to the instability with a rise in gold prices, as China formally rejected potential US sanctions related to its trade with Iran. Reports also indicate concerns regarding the potential for the conflict to escalate through cyber warfare targeting critical infrastructure.",
-    "confidence": "HIGH: The sources provide complementary rather than contradictory reporting on the diplomatic visits and market trends, despite differing thematic focuses.",
-    "sources": [
-      {
-        "id": "art_1787679917296_8jehr",
-        "url": "https://www.theguardian.com/world/2026/aug/25/china-us-sanctions-iran-oil",
-        "source": "guardian",
-        "title": "China denounces US threat of sanctions over trade with Iran"
-      },
-      {
-        "id": "art_1787654386433_6j7xw",
-        "url": "https://www.aljazeera.com/news/2026/8/25/can-pakistans-asim-munir-convince-iran-military-chiefs-to-return-to-talks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can Pakistan’s Asim Munir convince Iran military chiefs to return to talks?"
-      },
-      {
-        "id": "art_1787647867640_ioqif",
-        "url": "https://www.aljazeera.com/news/2026/8/25/pakistan-says-significant-progress-made-in-talks-on-iran-us-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistan says significant progress made in talks on Iran-US war"
-      },
-      {
-        "id": "art_1787647870046_nh9fy",
-        "url": "https://www.theguardian.com/business/2026/aug/25/gold-price-high-iran-war-donald-trump-economy-us",
-        "source": "guardian",
-        "title": "Gold price hits three-month high amid fears over Iran war and Trump economy"
-      },
-      {
-        "id": "art_1787644440780_k7j8n",
-        "url": "https://www.aljazeera.com/opinions/2026/8/25/the-iran-war-is-bringing-cyberwarfare-into-critical-infrastructure?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Iran war is bringing cyberwarfare into critical infrastructure"
-      },
-      {
-        "id": "art_1787638306384_alv1f",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/two-us-carrier-groups-in-middle-east-strain-navy-resources?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Two US carrier groups in Middle East strain navy resources"
-      },
-      {
-        "id": "art_1787630239677_wmv5b",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/25/woodside-scraps-emissions-clean-energy-targets-australia",
-        "source": "guardian",
-        "title": "Woodside scraps long-term emissions and clean energy targets despite windfall oil profits caused by Iran war"
-      },
-      {
-        "id": "art_1787630241899_pqcqj",
-        "url": "https://www.aljazeera.com/news/2026/8/25/israels-netanyahu-claims-iran-tried-to-kill-one-of-his-sons?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s Netanyahu claims Iran tried to kill one of his sons"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
