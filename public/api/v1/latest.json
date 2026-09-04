@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:58:47.064Z",
+  "generated_at": "2026-09-04T22:16:43.212Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 178,
@@ -128,6 +128,35 @@
         }
       ],
       "updated_at": "2026-09-04T00:53:06.024Z"
+    },
+    {
+      "cluster_id": "05326932082cdd863676a8961b59a4ff",
+      "topic_label": "Gender issues in schools",
+      "event_window_start": "2026-09-03T22:46:48.000Z",
+      "event_window_end": "2026-09-04T09:00:53.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [
+        "Legal disputes are currently ongoing regarding school policies related to transgender students and gender identity in the United States.",
+        "The Department of Justice under the Trump administration is involved in legal challenges concerning policies impacting transgender individuals in schools."
+      ],
+      "source_differences": [],
+      "synthesis": "Legal disputes regarding school policies on gender identity and sports participation are currently active in the United States. These cases involve specific policies in New Jersey schools and a federal lawsuit in California concerning athletic teams. The Department of Justice has stated its commitment to its current policy agenda despite recent court outcomes.",
+      "confidence": "HIGH. The sources consistently report on legal activities and stated positions of involved parties without internal contradiction.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/blue-state-school-district-accused-defying-supreme-court-hiding-gender-transitions-parents",
+          "title": "Blue state school district accused of defying Supreme Court, hiding gender transitions from parents"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/california-girls-sports-advocates-vow-fight-after-judge-tosses-trans-athlete-case-far-over",
+          "title": "California girls’ sports advocates vow fight after judge tosses trans athlete case: 'Far from over'"
+        }
+      ],
+      "updated_at": "2026-09-04T22:16:35.668Z"
     },
     {
       "cluster_id": "fa7d0ab0601f51819ff7e0bb12c5e27f",
@@ -292,41 +321,6 @@
         }
       ],
       "updated_at": "2026-09-03T05:05:18.013Z"
-    },
-    {
-      "cluster_id": "e1887bebdc7cf23ad69443ba861f71c7",
-      "topic_label": "Nepal flood disaster relief",
-      "event_window_start": "2026-09-02T01:59:06.000Z",
-      "event_window_end": "2026-09-02T12:33:15.000Z",
-      "article_count": 3,
-      "source_count": 3,
-      "region_tag": "global",
-      "shared_facts": [
-        "Flash floods occurred along the Nepal-Tibet border approximately one week ago.",
-        "Relief and recovery operations are currently underway in the affected regions.",
-        "Individuals remain missing following the disaster."
-      ],
-      "source_differences": [],
-      "synthesis": "Flash floods occurred along the Nepal-Tibet border approximately one week ago, resulting in widespread recovery efforts and a significant number of missing persons. News coverage varies between international reporting on official death tolls, specific personal narratives of those affected, and the status of foreign nationals. Rescue operations continue as officials navigate logistical and communication challenges in the impacted areas.",
-      "confidence": "MEDIUM. While reports of the disaster are consistent, specific statistics regarding fatalities and the number of missing persons vary or are attributed to different national agencies without broader confirmation.",
-      "sources": [
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
-          "title": "Nepal intensifies relief and recovery efforts after deadly floods, UN says"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/features/2026/9/2/nepal-floods-father-borrows-13-walks-for-days-to-search-for-missing-son?traffic_source=rss",
-          "title": "Nepal floods: Father borrows $13, walks for days to search for missing son"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods",
-          "title": "Relief as five Australians missing in Nepal-Tibet flood disaster found alive"
-        }
-      ],
-      "updated_at": "2026-09-02T22:27:54.673Z"
     }
   ],
   "latest_impact": [
@@ -370,6 +364,25 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-04T14:11:05.480Z"
+    },
+    {
+      "id": "impact-05326932",
+      "title": "Gender issues in schools",
+      "severity": "low",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "Legal disputes regarding school policies on gender identity and sports participation are currently active in the United States. These cases involve specific policies in New Jersey schools and a federal lawsuit in California concerning athletic teams. The Department of Justice has stated its commitment to its current policy agenda despite recent court outcomes.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "05326932082cdd863676a8961b59a4ff",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-09-04T22:16:35.668Z"
     },
     {
       "id": "impact-fa7d0ab0",
@@ -511,27 +524,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-03T00:39:35.557Z"
-    },
-    {
-      "id": "impact-3fdd0950",
-      "title": "US-Iran geopolitical tensions",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Military strikes have been reported on the southern coast of Iran near the Strait of Hormuz, resulting in claims of civilian casualties by Iranian officials. The United States has engaged in military operations against Iran, while reporting confirms an exchange of strikes involving regional bases. Conflicting statements exist between Iranian and US officials regarding the impact and legitimacy of these military engagements.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "3fdd095092491a7f4fa0aec6af2da022",
-      "related_watchlist_id": "watch-001",
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-02T22:27:54.673Z"
     }
   ]
 }

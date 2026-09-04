@@ -291,6 +291,77 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "05326932082cdd863676a8961b59a4ff",
+    "topic_label": "Gender issues in schools",
+    "event_window_start": "2026-09-03T22:46:48.000Z",
+    "event_window_end": "2026-09-04T09:00:53.000Z",
+    "article_ids": [
+      "art_1788516290040_2xgno",
+      "art_1788476226423_gk7lm"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-04T22:16:35.668Z",
+    "updated_at": "2026-09-04T22:16:35.668Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Legal disputes are currently ongoing regarding school policies related to transgender students and gender identity in the United States.",
+      "The Department of Justice under the Trump administration is involved in legal challenges concerning policies impacting transgender individuals in schools."
+    ],
+    "source_claims": [
+      "[fox_1] Claims a New Jersey school district policy allows students to change names and gender identities in official records without parental notification.",
+      "[fox_1] Claims the school district policy permits students to use bathrooms and locker rooms aligning with their gender identity.",
+      "[fox_2] Claims a federal judge dismissed a Department of Justice lawsuit regarding California policies on transgender athletes in girls' sports.",
+      "[fox_2] Claims the DOJ is considering an appeal regarding the dismissed lawsuit."
+    ],
+    "framing_differences": [
+      "Fox (article 1) frames the New Jersey school policy as an act of 'defying' the Supreme Court, whereas the article frames the issue through the perspective of parent rights advocates.",
+      "Fox (article 2) frames the dismissal of the lawsuit as a 'setback' for the Department of Justice's stated agenda regarding girls' sports."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox_1] Claims the School District of the Chathams' policy is inconsistent with the Supreme Court ruling in Mirabelli v. Bonta.",
+      "[fox_2] Claims Gov. Gavin Newsom has made comments regarding athletic fairness."
+    ],
+    "loaded_language": [
+      "[fox_1] uses the phrase 'flies in the face of' to describe the school's policy in relation to a court ruling.",
+      "[fox_2] uses the term 'biological males' to describe transgender athletes."
+    ],
+    "safe_conclusions": [
+      "Legal actions involving school districts and the Department of Justice are occurring in relation to policies on gender identity and sports participation.",
+      "Advocacy groups are actively involved in these legal and policy discussions."
+    ],
+    "unknowns": [
+      "The specific legal details or text of the policies mentioned in the New Jersey school district.",
+      "The specific reasoning provided by the federal judge for dismissing the California case.",
+      "The complete details of the Supreme Court ruling mentioned as Mirabelli v. Bonta."
+    ],
+    "synthesis": "Legal disputes regarding school policies on gender identity and sports participation are currently active in the United States. These cases involve specific policies in New Jersey schools and a federal lawsuit in California concerning athletic teams. The Department of Justice has stated its commitment to its current policy agenda despite recent court outcomes.",
+    "confidence": "HIGH. The sources consistently report on legal activities and stated positions of involved parties without internal contradiction.",
+    "sources": [
+      {
+        "id": "art_1788516290040_2xgno",
+        "url": "https://www.foxnews.com/politics/blue-state-school-district-accused-defying-supreme-court-hiding-gender-transitions-parents",
+        "source": "fox",
+        "title": "Blue state school district accused of defying Supreme Court, hiding gender transitions from parents"
+      },
+      {
+        "id": "art_1788476226423_gk7lm",
+        "url": "https://www.foxnews.com/media/california-girls-sports-advocates-vow-fight-after-judge-tosses-trans-athlete-case-far-over",
+        "source": "fox",
+        "title": "California girls’ sports advocates vow fight after judge tosses trans athlete case: 'Far from over'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "fa7d0ab0601f51819ff7e0bb12c5e27f",
     "topic_label": "Conflict in Gaza and Middle East",
     "event_window_start": "2026-09-02T11:51:46.000Z",
@@ -17617,101 +17688,6 @@
         "url": "https://www.theguardian.com/australia-news/2026/aug/25/woodside-scraps-emissions-clean-energy-targets-australia",
         "source": "guardian",
         "title": "Woodside scraps long-term emissions and clean energy targets despite windfall oil profits caused by Iran war"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ecafb3b5540cb355ed7d0080b82b421c",
-    "topic_label": "Climate Crisis and Disasters",
-    "event_window_start": "2026-08-25T03:56:30.000Z",
-    "event_window_end": "2026-08-25T08:10:10.000Z",
-    "article_ids": [
-      "art_1787647871074_1fnnf",
-      "art_1787633274724_ynp0a",
-      "art_1787633278603_46rr0",
-      "art_1787633281542_j1jm6",
-      "art_1787633283790_ibkka"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T02:34:45.169Z",
-    "updated_at": "2026-08-26T02:34:45.169Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Climate conditions, including El Nino and extreme weather patterns, are affecting different regions globally.",
-      "Data from specific regions or agencies indicates significant environmental or weather-related events."
-    ],
-    "source_claims": [
-      "[aljazeera] The EU’s Copernicus Climate Change Service reported global sea surface temperatures reached a record 21.1 degrees Celsius.",
-      "[aljazeera] Samantha Burgess of the ECMWF stated El Nino and human-driven warming are causing strain on oceans.",
-      "[guardian] Fires in Kalimantan, Indonesia, have burned tens of thousands of acres and caused a spike in respiratory emergency visits.",
-      "[guardian] S&P Global stated European heatwaves and an aging population may impact insurer earnings and increase customer premiums.",
-      "[guardian] At least 35,000 excess deaths were recorded in Europe during summer heatwaves, based on data covering half the continent.",
-      "[aljazeera] A rare tornado in southern France damaged approximately 100 homes and injured at least 26 people."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames global temperature records in the context of ocean health and human-driven climate change, whereas The Guardian focuses on specific regional impacts of extreme weather such as forest fires in Indonesia, financial consequences for insurers in Europe, and mortality rates from heatwaves."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The true mortality figure for European heatwaves is likely much higher than the recorded 35,000.",
-      "[guardian] Respiratory issues in Kalimantan are being compared by residents to the sensation of 'smoking a cigarette'."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'suffocating smoke' to describe the haze in Indonesia.",
-      "[guardian] uses the term 'perfect storm' to describe the combination of heatwaves and an aging population in Europe.",
-      "[aljazeera] uses the term 'unprecedented strain' to describe the impact of climate change on the ocean."
-    ],
-    "safe_conclusions": [
-      "Various extreme weather events, including heatwaves, tornadoes, and fires, have been reported in different parts of the world.",
-      "Record-high sea surface temperatures have been noted by the Copernicus Climate Change Service."
-    ],
-    "unknowns": [
-      "The final total of excess deaths in Europe for the entire summer period.",
-      "The full extent of long-term economic consequences for the global insurance industry.",
-      "The specific cause of the tornado formation near Carcassonne beyond the mention of a supercell thunderstorm."
-    ],
-    "synthesis": "Global weather records and regional environmental events have been documented across multiple geographic locations. Reports indicate that phenomena such as record-high ocean temperatures, intense heatwaves, and severe weather incidents have resulted in measurable impacts on human health, infrastructure, and the economy. Scientific agencies and news organizations continue to monitor these conditions as they relate to climate trends and meteorological occurrences.",
-    "confidence": "HIGH. The sources represent distinct reporting on different geographical events, with no factual contradictions between them.",
-    "sources": [
-      {
-        "id": "art_1787647871074_1fnnf",
-        "url": "https://www.aljazeera.com/news/2026/8/25/global-ocean-temperatures-hit-record-high-as-el-nino-intensifies?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Global ocean temperatures hit record high as El Nino intensifies"
-      },
-      {
-        "id": "art_1787633274724_ynp0a",
-        "url": "https://www.theguardian.com/world/2026/aug/25/indonesia-wildfires-kalimantan-smoke-super-el-nino",
-        "source": "guardian",
-        "title": "‘Like smoking a cigarette’: Indonesia chokes on haze as blazes intensify amid super ‘El Niño’"
-      },
-      {
-        "id": "art_1787633278603_46rr0",
-        "url": "https://www.theguardian.com/business/2026/aug/25/europe-heatwaves-insurance-companies-earnings",
-        "source": "guardian",
-        "title": "Europe’s heatwaves threaten insurers’ earnings, rating agency S&P says"
-      },
-      {
-        "id": "art_1787633281542_j1jm6",
-        "url": "https://www.theguardian.com/environment/2026/aug/25/at-least-35000-excess-deaths-europe-back-to-back-heatwaves",
-        "source": "guardian",
-        "title": "At least 35,000 excess deaths recorded in Europe’s back-to-back heatwaves"
-      },
-      {
-        "id": "art_1787633283790_ibkka",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/25/rare-tornado-near-carcassonne-in-france-causes-damage-and-injuries?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rare tornado near Carcassonne in France causes damage and injuries"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
