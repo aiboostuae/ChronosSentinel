@@ -1,5 +1,72 @@
 [
   {
+    "cluster_id": "654cc5e1828f65e9d95935ad5e3cfc1b",
+    "topic_label": "US legal and political developments",
+    "event_window_start": "2026-09-03T22:38:41.000Z",
+    "event_window_end": "2026-09-03T22:44:51.000Z",
+    "article_ids": [
+      "art_1788476227630_m7u6m",
+      "art_1788476228801_fd4gt"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-04T00:53:06.024Z",
+    "updated_at": "2026-09-04T00:53:06.024Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump is involved in ongoing legal challenges regarding mail-in voting procedures and congressional redistricting.",
+      "The US Supreme Court and state supreme courts are venues for judicial rulings affecting electoral processes."
+    ],
+    "source_claims": [
+      "[guardian_1] The Trump administration filed an emergency request to the Supreme Court to lift a judge's order blocking USPS mail-in voting restrictions.",
+      "[guardian_2] The Missouri Supreme Court unanimously blocked congressional maps backed by Donald Trump from use in the November election."
+    ],
+    "framing_differences": [
+      "guardian_1 frames the judicial intervention as an administration effort to implement a new postal system, while guardian_2 frames judicial rulings as a setback for Republican political objectives."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_1] A whistleblower told Congress that USPS requirements could result in scores of mail ballots never being counted.",
+      "[guardian_2] Republicans hoped the new Missouri congressional boundaries would help them win an additional seat and hold onto their House majority."
+    ],
+    "loaded_language": [
+      "[guardian_1] uses the term 'fierce criticism' to describe the reception of the USPS mail-in ballot plan.",
+      "[guardian_2] uses the term 'setback' to describe the Missouri Supreme Court decision regarding Republicans."
+    ],
+    "safe_conclusions": [
+      "Legal disputes involving electoral procedures, including postal service operations and congressional redistricting, are currently pending in judicial systems.",
+      "Donald Trump is involved in or has expressed support for the initiatives mentioned in both reports."
+    ],
+    "unknowns": [
+      "The ultimate outcome of the emergency request to the US Supreme Court regarding USPS mail-in voting restrictions.",
+      "Whether the Missouri Supreme Court ruling will be appealed further."
+    ],
+    "synthesis": "The Trump administration is seeking Supreme Court intervention to overturn a lower court order restricting new USPS mail-in voting protocols. Concurrently, the Missouri Supreme Court has blocked the use of new congressional maps in the upcoming November elections. These legal actions highlight ongoing judicial engagement with electoral and administrative voting procedures.",
+    "confidence": "HIGH. The sources focus on distinct, separate legal events regarding electoral processes, and the facts reported are consistent with the respective administrative and judicial actions described.",
+    "sources": [
+      {
+        "id": "art_1788476227630_m7u6m",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/03/donald-trump-immigration-tariffs-canada-trade-iran-jd-vance-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump administration asks supreme court to intervene over judge’s ban on USPS mail-in voting restrictions – live"
+      },
+      {
+        "id": "art_1788476228801_fd4gt",
+        "url": "https://www.theguardian.com/us-news/2026/sep/03/missouri-supreme-court-trump",
+        "source": "guardian",
+        "title": "Missouri supreme court throws out new congressional maps backed by Trump"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "fa7d0ab0601f51819ff7e0bb12c5e27f",
     "topic_label": "Conflict in Gaza and Middle East",
     "event_window_start": "2026-09-02T11:51:46.000Z",
@@ -17653,154 +17720,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/25/france-saudi-arabia-agree-on-7bn-theme-park-project-near-paris?traffic_source=rss",
         "source": "aljazeera",
         "title": "France, Saudi Arabia agree on $7bn theme park project near Paris"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2473350490feb72eebc56c98aba94496",
-    "topic_label": "US Political News",
-    "event_window_start": "2026-08-25T10:00:33.000Z",
-    "event_window_end": "2026-08-25T19:33:55.000Z",
-    "article_ids": [
-      "art_1787686856841_tvdw1",
-      "art_1787686858930_khxdp",
-      "art_1787686863428_a6dn4",
-      "art_1787679906860_57zg1",
-      "art_1787679908946_f8tqf",
-      "art_1787679909988_7j7lf",
-      "art_1787679913133_euwe8",
-      "art_1787679916232_5pckk",
-      "art_1787654389783_43m0o",
-      "art_1787654391858_470fy",
-      "art_1787654394019_slyvr",
-      "art_1787654396185_hgphb"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 12,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T02:34:45.169Z",
-    "updated_at": "2026-08-26T02:34:45.169Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Illinois Governor JB Pritzker posted a social media video on a Monday featuring himself making expressions behind a caption regarding aura-farming.",
-      "Angel Reese set a WNBA single-game record with 26 rebounds and broke the single-season rebound record.",
-      "Zohran Mamdani announced a new initiative to fast-track emergency housing court cases in New York City.",
-      "President Donald Trump has nominated Dr. Heidi Overton to lead the FDA.",
-      "Senator Jon Ossoff referenced Trump aide Natalie Harp in a stump speech."
-    ],
-    "source_claims": [
-      "[fox] claims Pritzker's video prompted online mockery and was described by critics as 'out-of-touch'.",
-      "[fox] claims Angel Reese's performance was tainted by a late-game layup and refers to her rebounds as 'Mebounds'.",
-      "[fox] claims Mamdani stated that landlords unable to comply with new housing standards 'should not be a landlord'.",
-      "[fox] claims Americans United for Life CEO John Mize believes Dr. Heidi Overton will bring objectivity to mifepristone reviews.",
-      "[fox] claims CNN and MS NOW have focused extensively on Natalie Harp following a comment by Sen. Jon Ossoff."
-    ],
-    "framing_differences": [
-      "Regarding the Pritzker video, fox frames the event as a failed 'swagger stunt' and highlights negative social media reaction, whereas other potential sources are not provided for contrast."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Pritzker's video received more than 1 million views.",
-      "[fox] claims Reese grabbed three 'Mebounds' during the game.",
-      "[fox] claims Ossoff's comment suggested an inappropriate relationship between Trump and Harp."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'swagger stunt' and 'cringiest' to describe Pritzker's video.",
-      "[fox] uses the terms 'tainted', 'shameless', 'stat-padding', and 'Mebounds' to describe Reese's performance.",
-      "[fox] uses the term 'political firestorm' and 'fixation' to describe media coverage of Natalie Harp.",
-      "[fox] uses the term 'overdrive' and 'feeding frenzy' to describe news network coverage."
-    ],
-    "safe_conclusions": [
-      "The provided text consists of five separate news reports from Fox News covering distinct political, sports, and social events."
-    ],
-    "unknowns": [
-      "The broader public or official response to Pritzker's video beyond those critical of it.",
-      "The specific technical definitions or metrics behind the term 'Mebounds'.",
-      "The full text of Senator Ossoff's remarks regarding Natalie Harp.",
-      "Whether the New York housing initiative has faced opposition or support from housing organizations."
-    ],
-    "synthesis": "The provided articles detail disparate events, including Illinois Governor Pritzker's social media activity, Angel Reese's record-breaking WNBA performance, a new New York City housing court policy, the nomination of Dr. Heidi Overton for the FDA, and media coverage of Natalie Harp. Each report focuses on political or cultural developments from a singular editorial perspective. The content remains restricted to these specific, unrelated news items without broader cross-source confirmation.",
-    "confidence": "HIGH. The sources are internally consistent as they are all authored by the same outlet, though they cover unrelated events.",
-    "sources": [
-      {
-        "id": "art_1787686856841_tvdw1",
-        "url": "https://www.foxnews.com/politics/pritzkers-swagger-stunt-backfires-critics-roast-viral-video-cringiest-thing-hes-ever-posted",
-        "source": "fox",
-        "title": "Pritzker’s swagger stunt backfires as critics roast viral video: ‘Cringiest thing he’s ever posted’"
-      },
-      {
-        "id": "art_1787686858930_khxdp",
-        "url": "https://www.foxnews.com/outkick-sports/angel-reese-tainted-historic-wnba-night-shameless-late-game-stat-padding-layup",
-        "source": "fox",
-        "title": "Angel Reese tainted a historic WNBA night with a shameless late-game stat-padding layup"
-      },
-      {
-        "id": "art_1787686863428_a6dn4",
-        "url": "https://www.foxnews.com/us/mamdani-launches-fast-track-housing-court-push-says-landlords-unable-comply-should-not-be-landlord",
-        "source": "fox",
-        "title": "Mamdani launches fast-track housing-court push, says landlords unable to comply ‘should not be a landlord’"
-      },
-      {
-        "id": "art_1787679906860_57zg1",
-        "url": "https://www.foxnews.com/politics/pro-life-ceo-predicts-trump-fda-nominee-could-bring-renewed-scrutiny-abortion-drug-risks",
-        "source": "fox",
-        "title": "Pro-life CEO predicts Trump FDA nominee could bring renewed scrutiny to abortion drug risks"
-      },
-      {
-        "id": "art_1787679908946_f8tqf",
-        "url": "https://www.foxnews.com/media/cnn-msnbc-mentioned-trump-aide-natalie-harp-hundreds-times-ossoff-viral-jab",
-        "source": "fox",
-        "title": "CNN, MS NOW has mentioned Trump aide Natalie Harp hundreds of times since Ossoff's viral jab"
-      },
-      {
-        "id": "art_1787679909988_7j7lf",
-        "url": "https://www.foxnews.com/media/aoc-could-2028-dem-nominee-after-playing-obamas-game-conservative-radio-host-says",
-        "source": "fox",
-        "title": "AOC could be 2028 Dem nominee after playing Obama's 'game,' conservative radio host says"
-      },
-      {
-        "id": "art_1787679913133_euwe8",
-        "url": "https://www.foxnews.com/politics/doj-sues-stop-ohio-court-blocking-courthouse-arrests",
-        "source": "fox",
-        "title": "DOJ sues to stop Ohio court blocking courthouse arrests"
-      },
-      {
-        "id": "art_1787679916232_5pckk",
-        "url": "https://www.foxnews.com/politics/not-1984-flock-cameras-watching-millions-americans-spark-bipartisan-revolt",
-        "source": "fox",
-        "title": "'Not 1984': Flock cameras watching millions of Americans spark bipartisan revolt"
-      },
-      {
-        "id": "art_1787654389783_43m0o",
-        "url": "https://www.foxnews.com/politics/smithsonian-linked-museum-el-sayeds-backyard-puts-americas-post-9-11-response-trial",
-        "source": "fox",
-        "title": "Smithsonian-linked museum in El-Sayed’s backyard puts America’s post-9/11 response on trial"
-      },
-      {
-        "id": "art_1787654391858_470fy",
-        "url": "https://www.foxnews.com/politics/newsom-camp-taunts-buttigieg-over-black-voter-outreach-2028-fight-heats-up",
-        "source": "fox",
-        "title": "Newsom's attack dog taunts Buttigieg over South Carolina visit as 2028 fight heats up"
-      },
-      {
-        "id": "art_1787654394019_slyvr",
-        "url": "https://www.theguardian.com/us-news/2026/aug/25/us-gas-power-china-ai-datacenter",
-        "source": "guardian",
-        "title": "US building twice as much gas-fired capacity as China in AI boom, analysis finds"
-      },
-      {
-        "id": "art_1787654396185_hgphb",
-        "url": "https://www.theguardian.com/us-news/2026/aug/25/south-carolina-senate-runoff-election",
-        "source": "guardian",
-        "title": "Darline Graham and Ralph Norman head to South Carolina’s Senate runoff"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

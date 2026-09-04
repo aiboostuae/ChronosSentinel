@@ -1,10 +1,39 @@
 {
-  "generated_at": "2026-09-03T09:36:52.071Z",
+  "generated_at": "2026-09-04T00:53:11.195Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 179,
+  "impact_count": 178,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "654cc5e1828f65e9d95935ad5e3cfc1b",
+      "topic_label": "US legal and political developments",
+      "event_window_start": "2026-09-03T22:38:41.000Z",
+      "event_window_end": "2026-09-03T22:44:51.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [
+        "Donald Trump is involved in ongoing legal challenges regarding mail-in voting procedures and congressional redistricting.",
+        "The US Supreme Court and state supreme courts are venues for judicial rulings affecting electoral processes."
+      ],
+      "source_differences": [],
+      "synthesis": "The Trump administration is seeking Supreme Court intervention to overturn a lower court order restricting new USPS mail-in voting protocols. Concurrently, the Missouri Supreme Court has blocked the use of new congressional maps in the upcoming November elections. These legal actions highlight ongoing judicial engagement with electoral and administrative voting procedures.",
+      "confidence": "HIGH. The sources focus on distinct, separate legal events regarding electoral processes, and the facts reported are consistent with the respective administrative and judicial actions described.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/sep/03/donald-trump-immigration-tariffs-canada-trade-iran-jd-vance-latest-news-updates",
+          "title": "Trump administration asks supreme court to intervene over judge’s ban on USPS mail-in voting restrictions – live"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/03/missouri-supreme-court-trump",
+          "title": "Missouri supreme court throws out new congressional maps backed by Trump"
+        }
+      ],
+      "updated_at": "2026-09-04T00:53:06.024Z"
+    },
     {
       "cluster_id": "fa7d0ab0601f51819ff7e0bb12c5e27f",
       "topic_label": "Conflict in Gaza and Middle East",
@@ -328,35 +357,6 @@
         }
       ],
       "updated_at": "2026-09-02T22:27:54.673Z"
-    },
-    {
-      "cluster_id": "f42b2445eec396895295502a4b905f9d",
-      "topic_label": "Trump Administration Appointments",
-      "event_window_start": "2026-09-02T01:24:20.000Z",
-      "event_window_end": "2026-09-02T12:34:40.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Donald Trump has announced the nomination of Hung Cao as the permanent Secretary of the Navy.",
-        "Hung Cao has been serving as the acting Secretary of the Navy for several months prior to this announcement."
-      ],
-      "source_differences": [],
-      "synthesis": "President Donald Trump has nominated acting Navy Secretary Hung Cao to serve as the permanent Secretary of the Navy. Cao, a former special operations officer, has served in the acting role for several months. The nomination has been accompanied by public support from the President for quick Senate confirmation.",
-      "confidence": "HIGH. Both sources agree on the primary fact of the nomination and the background of the nominee, with differences limited to the contextual framing of the administration's priorities.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/02/us-politics-latest-news-updates-donald-trump-iran",
-          "title": "Trump nominates loyalist Hung Cao to be permanent navy secretary – US politics live"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/trump-taps-true-warrior-hung-cao-navy-secretary-after-4-months-acting-leader",
-          "title": "Trump taps ‘true warrior’ Hung Cao as Navy secretary after 4 months as acting leader"
-        }
-      ],
-      "updated_at": "2026-09-02T19:48:34.383Z"
     }
   ],
   "latest_impact": [
