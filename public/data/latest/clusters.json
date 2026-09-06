@@ -1,5 +1,94 @@
 [
   {
+    "cluster_id": "1fe97e6f211bd64736bd411dde720ae9",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-06T21:08:30.000Z",
+    "event_window_end": "2026-09-06T21:40:54.000Z",
+    "article_ids": [
+      "art_1788731183136_eoc96",
+      "art_1788731184254_tp2tn",
+      "art_1788731185762_ueose",
+      "art_1788731186798_msqnt",
+      "art_1788731187826_pznru"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T22:51:25.251Z",
+    "updated_at": "2026-09-06T22:51:25.251Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] claims Team USA basketball defeated Italy 55-52 in a FIBA World Cup game.",
+      "[fox] claims Italy led by three points midway through the fourth quarter.",
+      "[guardian] claims the parents of Australian surfers Callum and Jake Robinson are flying to Ensenada, Mexico, for an aggravated homicide trial.",
+      "[aljazeera] claims an Amazon cargo plane (Boeing 767-300) overran a runway at Miami International Airport and caught fire.",
+      "[aljazeera] claims at least 10 people were killed and 60 wounded in a fireworks explosion in Santa Maria Canchesda, Mexico."
+    ],
+    "framing_differences": [
+      "The sources cover entirely disparate events, ranging from international sports and criminal trials to aviation accidents and industrial accidents, with no shared subject matter between them."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims an Italian player may have been fouled on a final shot during the basketball game.",
+      "[aljazeera] claims multiple vehicles were struck by the plane involved in the Miami crash."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'BLASTS' to describe Michele Tafoya's comments regarding Alicia Keys.",
+      "[fox] uses the term 'stunning' and 'shocking' to describe the opening week of the college football season.",
+      "[guardian] uses the terms 'immense love', 'heartbreak', and 'unimaginable loss' to describe the feelings of the Robinson family."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The number of crew or passengers on board the Amazon cargo plane in Miami.",
+      "Potential injuries or fatalities regarding the Amazon cargo plane crash.",
+      "The full identities and specific number of victims in the Mexico fireworks blast beyond the reported 10 deaths and 60 injuries."
+    ],
+    "synthesis": "Multiple news reports document distinct events, including a basketball game, a criminal trial, a college football season update, an aviation incident, and a fireworks accident. These reports originate from different sources covering unrelated geographic locations and subject matters. There is no overlap in the information provided by the sources regarding the specific events described.",
+    "confidence": "HIGH. The sources cover completely independent events, meaning there are no contradictions between them, and the factual reporting within each specific source is internally consistent.",
+    "sources": [
+      {
+        "id": "art_1788731183136_eoc96",
+        "url": "https://www.foxnews.com/outkick-sports/team-usa-basketball-survives-scare-against-italy-fiba-womens-world-cup-secures-quarterfinal-berth",
+        "source": "fox",
+        "title": "Team USA basketball survives scare against Italy in FIBA Women's World Cup, secures quarterfinal berth"
+      },
+      {
+        "id": "art_1788731184254_tp2tn",
+        "url": "https://www.theguardian.com/australia-news/live/2026/sep/07/anthony-albanese-labor-lobbying-rules-greens-social-media-fines-ntwnfb",
+        "source": "guardian",
+        "title": "News live: parents of Australian surfers killed in Mexico fly in for trial; Labor pressured to toughen lobbying rules"
+      },
+      {
+        "id": "art_1788731185762_ueose",
+        "url": "https://www.foxnews.com/outkick-sports/national-championship-picture-college-football-changed-stunning-week-one",
+        "source": "fox",
+        "title": "Has National Championship picture in college football already changed after a stunning first week?"
+      },
+      {
+        "id": "art_1788731186798_msqnt",
+        "url": "https://www.aljazeera.com/news/2026/9/6/amazon-cargo-plane-crashes-in-us-while-landing-at-miami-airport?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Amazon cargo plane crashes in US while landing at Miami airport"
+      },
+      {
+        "id": "art_1788731187826_pznru",
+        "url": "https://www.aljazeera.com/news/2026/9/6/at-least-10-killed-in-central-mexico-fireworks-blast-during-festival?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least 10 killed in central Mexico fireworks blast during festival"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "873576042b8f276bdb8644153046b303",
     "topic_label": "Indonesia volcano eruption",
     "event_window_start": "2026-09-06T05:12:44.000Z",
@@ -17369,72 +17458,6 @@
         "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-death-celebrity-reactions",
         "source": "guardian",
         "title": "Celebrity tributes pour in for Dolly Parton: ‘a gift to the world’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3ad8ee36942ad885347eb63cde51f772",
-    "topic_label": "Global Health and Outbreaks",
-    "event_window_start": "2026-08-26T11:00:12.000Z",
-    "event_window_end": "2026-08-26T23:46:49.000Z",
-    "article_ids": [
-      "art_1787791081602_evh00",
-      "art_1787742843366_xkwur"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T07:16:25.024Z",
-    "updated_at": "2026-08-27T07:16:25.024Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The provided texts discuss distinct epidemiological events: one regarding the end of an Ebola outbreak in Uganda and another regarding the emergence of mpox in Guinea Bissau."
-    ],
-    "source_claims": [
-      "[aljazeera] The World Health Organization officially declared Uganda free of Ebola after a 42-day monitoring period.",
-      "[aljazeera] Uganda declared its own Ebola outbreak over roughly a month before the WHO declaration.",
-      "[guardian] Mpox cases have been reported in Guinea Bissau for the first time.",
-      "[guardian] Since 2022, nearly 190,000 lab-confirmed cases of mpox have been recorded across 145 countries."
-    ],
-    "framing_differences": [
-      "aljazeera frames the event as an administrative completion of international health protocols, whereas guardian frames the broader mpox situation as a continuing global public health concern."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Diana Atwine claims Uganda knew it was free from Ebola before the official WHO declaration.",
-      "[guardian] Children appear particularly affected by recent mpox cases."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "Uganda has completed a period of monitoring for Ebola.",
-      "Mpox cases have been documented in Guinea Bissau."
-    ],
-    "unknowns": [
-      "The specific number of cases involved in the Uganda Ebola outbreak.",
-      "The current status of containment efforts in Guinea Bissau beyond the initial report of the outbreak."
-    ],
-    "synthesis": "The World Health Organization has officially declared the end of the Ebola outbreak in Uganda following a 42-day observation period. Simultaneously, reporting indicates a new emergence of mpox cases in Guinea Bissau. These events represent two separate public health developments occurring in different African nations.",
-    "confidence": "HIGH: The sources discuss entirely different medical outbreaks and do not conflict with one another.",
-    "sources": [
-      {
-        "id": "art_1787791081602_evh00",
-        "url": "https://www.aljazeera.com/news/2026/8/26/world-health-organization-says-ebola-outbreak-in-uganda-is-over?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "World Health Organization says Ebola outbreak in Uganda is over"
-      },
-      {
-        "id": "art_1787742843366_xkwur",
-        "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
-        "source": "guardian",
-        "title": "Mpox is back – and in new countries. How this outbreak can be contained"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
