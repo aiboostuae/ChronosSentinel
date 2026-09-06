@@ -1,5 +1,676 @@
 [
   {
+    "cluster_id": "873576042b8f276bdb8644153046b303",
+    "topic_label": "Indonesia volcano eruption",
+    "event_window_start": "2026-09-06T05:12:44.000Z",
+    "event_window_end": "2026-09-06T18:58:35.000Z",
+    "article_ids": [
+      "art_1788723329890_5rfua",
+      "art_1788676115236_q3auy"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T20:56:00.175Z",
+    "updated_at": "2026-09-06T20:56:00.175Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Mount Anak Krakatau has experienced volcanic eruptions.",
+      "Volcanic ash from these eruptions has caused the suspension of hundreds of flights in Indonesia."
+    ],
+    "source_claims": [
+      "[aljazeera] reports that volcanic ash affected six airports.",
+      "[bbc] reports that 209 flights were suspended, specifically impacting Soekarno-Hatta International Airport.",
+      "[bbc] reports that over 22,000 passengers have been impacted by the flight suspensions.",
+      "[bbc] states the volcano began erupting late Friday night and generated seismic activity, lava fountains, and booming sounds."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the event as a broad disruption across six airports, while the BBC frames the event specifically around the impact at Indonesia's main international airport in Jakarta."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] claims that ash is currently blanketing roads and public spaces.",
+      "[bbc] claims the flight suspension was extended until 13:30 (0630 GMT)."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "Volcanic activity from Anak Krakatau has occurred.",
+      "The resulting ash has led to flight disruptions in Indonesia."
+    ],
+    "unknowns": [
+      "The exact total number of airports affected is unclear due to conflicting accounts of six airports versus the focus on Jakarta's main airport.",
+      "The total number of flights cancelled across all affected regions beyond the 209 mentioned by the BBC is not explicitly confirmed."
+    ],
+    "synthesis": "Mount Anak Krakatau in Indonesia experienced multiple volcanic eruptions, resulting in significant flight disruptions. Authorities suspended flights as ash entered the airspace near major transport hubs, impacting thousands of passengers. The situation remains active as transportation ministries manage the resulting operational pauses.",
+    "confidence": "HIGH. Both sources agree on the core facts of the volcanic eruption and the resulting disruption to air travel.",
+    "sources": [
+      {
+        "id": "art_1788723329890_5rfua",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/indonesia-volcano-eruption-disrupts-hundreds-of-flights?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Indonesia volcano eruption disrupts hundreds of flights"
+      },
+      {
+        "id": "art_1788676115236_q3auy",
+        "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Volcano eruption triggers flight suspensions at Indonesia's main airport"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4fa51a8ed5521cbf85c66940ed69d41f",
+    "topic_label": "Israel-Gaza Conflict and Regional Tension",
+    "event_window_start": "2026-09-06T01:02:08.000Z",
+    "event_window_end": "2026-09-06T18:56:25.000Z",
+    "article_ids": [
+      "art_1788723330950_ky9s2",
+      "art_1788723333075_tu4h9",
+      "art_1788715613555_2p89n",
+      "art_1788715620012_5p60d",
+      "art_1788693934812_bz5kb",
+      "art_1788693937313_ppay2",
+      "art_1788676120597_ndvlm",
+      "art_1788657844552_vck4o"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 8,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T20:56:00.175Z",
+    "updated_at": "2026-09-06T20:56:00.175Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The United States and Iran have engaged in military actions involving attacks on tankers.",
+      "US Central Command (CENTCOM) has released footage of strikes on Iranian tankers.",
+      "Iran has issued public statements threatening a response to US military actions."
+    ],
+    "source_claims": [
+      "[bbc] Mohammad Bagher Ghalibaf stated that Americans must understand the rules of the game have changed.",
+      "[aljazeera] CENTCOM reported that two Iranian tankers were permanently disabled and one sank.",
+      "[aljazeera] The IRGC claims to have used explosives-laden projectiles against ships in the Strait of Hormuz.",
+      "[aljazeera] The US has targeted three Iranian oil tankers and Iran has targeted tankers and fired a ballistic missile at US warships."
+    ],
+    "framing_differences": [
+      "aljazeera frames the naval conflict as a 'tanker war' involving 'tit-for-tat attacks' and global chokepoints, whereas bbc frames the situation specifically as Iran warning of a 'faster, heavier, more painful response' to US attacks."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Experts described Iranian targeting of US aircraft carriers as a 'calculated escalation'."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'malignance' to describe US actions in the region.",
+      "[fox] uses the term 'far-left' to describe streamer Hasan Piker.",
+      "[fox] uses the term 'controversial' to describe online personality Hasan Piker.",
+      "[aljazeera] uses the term 'assault' to describe Israeli military activity in the 2021 Israel-Gaza conflict."
+    ],
+    "safe_conclusions": [
+      "There is ongoing military tension between the United States and Iran involving naval assets in the region."
+    ],
+    "unknowns": [
+      "The exact figures regarding oil flow through the Strait of Hormuz.",
+      "The full extent of damage to all US and Iranian naval vessels involved in recent exchanges.",
+      "The long-term strategic intent of both nations regarding the Strait of Hormuz."
+    ],
+    "synthesis": "The United States and Iran have escalated military hostilities, with both nations conducting strikes against naval vessels including oil tankers. CENTCOM reports disabling Iranian tankers, while Iranian officials have publicly threatened a more forceful military response. This conflict is centered on strategic maritime control in the Strait of Hormuz.",
+    "confidence": "HIGH; The provided sources consistently report on the ongoing naval exchanges between the US and Iran.",
+    "sources": [
+      {
+        "id": "art_1788723330950_ky9s2",
+        "url": "https://www.aljazeera.com/sports/2026/9/6/adidas-faces-boycott-calls-over-campaign-featuring-former-israeli-soldier?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Adidas faces boycott calls over campaign featuring former Israeli soldier"
+      },
+      {
+        "id": "art_1788723333075_tu4h9",
+        "url": "https://www.foxnews.com/media/raskin-calls-pikers-rhetoric-irrelevant-distraction-streamer-said-hed-vote-hamas-over-israel",
+        "source": "fox",
+        "title": "Raskin calls Piker’s rhetoric 'irrelevant distraction' after the streamer said he'd vote for Hamas over Israel"
+      },
+      {
+        "id": "art_1788715613555_2p89n",
+        "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Iran warns of 'faster, heavier, more painful response' to US attacks"
+      },
+      {
+        "id": "art_1788715620012_5p60d",
+        "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran touts military response as US maintains blockade, hits tankers"
+      },
+      {
+        "id": "art_1788693934812_bz5kb",
+        "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?"
+      },
+      {
+        "id": "art_1788693937313_ppay2",
+        "url": "https://www.aljazeera.com/news/2026/9/6/palestinians-in-gaza-bury-remains-of-100-people-recovered-from-rubble?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinians in Gaza bury remains of 100 people recovered from rubble"
+      },
+      {
+        "id": "art_1788676120597_ndvlm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/israeli-prime-minister-netanyahu-says-qatar-is-a-hostile?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli Prime Minister Netanyahu says ‘Qatar is a hostile state’"
+      },
+      {
+        "id": "art_1788657844552_vck4o",
+        "url": "https://www.aljazeera.com/news/2026/9/6/netanyahu-boasts-about-bombing-qatar-says-gaza-funds-used-for-aid?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Netanyahu boasts about bombing Qatar, says Gaza funds used for aid"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "eaa708ddafda6128eba3ba89b591dab5",
+    "topic_label": "German Far-Right AfD Election",
+    "event_window_start": "2026-09-06T04:12:18.000Z",
+    "event_window_end": "2026-09-06T18:32:53.000Z",
+    "article_ids": [
+      "art_1788723337335_vkqpp",
+      "art_1788715610377_jikn8",
+      "art_1788715618976_misqk",
+      "art_1788715624167_x9049",
+      "art_1788693933640_h7u0t",
+      "art_1788693943587_dwyql",
+      "art_1788676123659_ilflt"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 7,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T20:56:00.175Z",
+    "updated_at": "2026-09-06T20:56:00.175Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Alternative für Deutschland (AfD) party participated in an election in the German state of Saxony-Anhalt.",
+      "Exit polls indicate the AfD achieved a significant percentage of the vote.",
+      "The AfD outperformed the Christian Democratic Union (CDU) in the exit poll projections.",
+      "The potential for the AfD to form a state government remains dependent on seat distributions and potential coalitions with other parties.",
+      "Ulrich Siegmund is a lead candidate for the AfD in Saxony-Anhalt."
+    ],
+    "source_claims": [
+      "[bbc] The AfD is projected to win more than 44% of the vote.",
+      "[bbc] Ulrich Siegmund has refused to govern with any other party.",
+      "[guardian] The AfD is described as populist, far-right, and anti-immigration.",
+      "[guardian] Exit polls show the AfD secured 44.5% of the vote.",
+      "[aljazeera] The AfD has won the election according to exit polls, marking the first time a far-right party has taken power at a state level since World War II.",
+      "[aljazeera] Alice Weidel stated the result provides a clear mandate to govern."
+    ],
+    "framing_differences": [
+      "The guardian and aljazeera consistently categorize the AfD as 'populist, far-right, and anti-immigration,' whereas the bbc focuses primarily on 'far-right' labeling.",
+      "The guardian frames the election as a 'crucial' event with international interest, while the bbc focuses on the specific uncertainty of the parliamentary threshold for smaller parties.",
+      "aljazeera frames the result as the party having 'taken power,' whereas the bbc and guardian emphasize that forming a government remains unclear or dependent on future developments."
+    ],
+    "contested_claims": [
+      "There is a discrepancy regarding the status of the AfD's victory; aljazeera frames the event as the AfD having 'taken power' at a state level, while the bbc and the guardian state it is not yet clear if the party can form a government or secure a majority."
+    ],
+    "unverified_claims": [
+      "[guardian] The election contest was followed across the world.",
+      "[guardian] The election had a 'huge turnout'.",
+      "[bbc] No far-right party has won control of a state in Germany since World War Two."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'far-right' to describe the AfD.",
+      "[guardian] uses the terms 'populist', 'far-right', and 'anti-immigration' to describe the AfD.",
+      "[aljazeera] uses the term 'far-right' to describe the AfD.",
+      "[guardian] uses the term 'rightwing extremist' to describe the party in their second article."
+    ],
+    "safe_conclusions": [
+      "Exit polls for the state of Saxony-Anhalt show the AfD received a higher percentage of the vote than the CDU.",
+      "The formation of a new state government in Saxony-Anhalt has not yet been finalized."
+    ],
+    "unknowns": [
+      "The exact distribution of seats in the Saxony-Anhalt state parliament.",
+      "Whether the AfD will successfully form a government coalition.",
+      "The final certified vote count following the exit poll projections."
+    ],
+    "synthesis": "Exit polls indicate that the AfD party received approximately 44% to 44.5% of the vote in the Saxony-Anhalt state election, placing them ahead of the CDU. While the party has characterized these results as a historic mandate, the ability to form a government remains dependent on final seat allocations and parliamentary thresholds. No final state government has been confirmed following the polling.",
+    "confidence": "MEDIUM. While all sources agree on the exit poll projections, there is inconsistency regarding whether the party has 'taken power' versus the need for future coalition or seat verification.",
+    "sources": [
+      {
+        "id": "art_1788723337335_vkqpp",
+        "url": "https://www.bbc.co.uk/news/videos/c5yegd6ldy6o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Germany's far-right AfD celebrate projected win in state election"
+      },
+      {
+        "id": "art_1788715610377_jikn8",
+        "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "German far-right set for big win in eastern state - projections"
+      },
+      {
+        "id": "art_1788715618976_misqk",
+        "url": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
+        "source": "guardian",
+        "title": "Far-right AfD wins key German state election but may fail to secure majority"
+      },
+      {
+        "id": "art_1788715624167_x9049",
+        "url": "https://www.aljazeera.com/news/2026/9/6/far-right-afd-wins-vote-in-germanys-saxony-anhalt-state-exit-polls?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Far-right AfD wins vote in Germany’s Saxony-Anhalt state: Exit polls"
+      },
+      {
+        "id": "art_1788693933640_h7u0t",
+        "url": "https://www.theguardian.com/world/2026/sep/06/far-right-afd-saxony-anhalt-state-election-germany",
+        "source": "guardian",
+        "title": "Far-right AfD predicted to win big in crucial German state election"
+      },
+      {
+        "id": "art_1788693943587_dwyql",
+        "url": "https://www.foxnews.com/world/anti-migrant-afd-seeks-break-germanys-political-firewall-historic-state-election",
+        "source": "fox",
+        "title": "Anti-migrant AfD seeks to break Germany’s political ‘firewall’ in historic state election"
+      },
+      {
+        "id": "art_1788676123659_ilflt",
+        "url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "German voters head to polls as far-right AfD party eyes historic state win"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4f462bcc6a3726eb3064bb3892b0d075",
+    "topic_label": "Trump Supreme Court Mail-in Ballot",
+    "event_window_start": "2026-09-06T16:23:02.000Z",
+    "event_window_end": "2026-09-06T18:47:03.000Z",
+    "article_ids": [
+      "art_1788723332004_o0bce",
+      "art_1788723340532_ygwxx",
+      "art_1788715617920_wow4n"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T20:56:00.175Z",
+    "updated_at": "2026-09-06T20:56:00.175Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Trump administration filed an appeal with the US Supreme Court on Sunday regarding mail-in voting rules.",
+      "US District Judge Indira Talwani issued a preliminary injunction on Friday that blocked the USPS from enforcing certain ballot handling directives.",
+      "States have begun sending out mail-in ballots for the November midterm elections."
+    ],
+    "source_claims": [
+      "[aljazeera] The administration is asking the Supreme Court to allow the USPS to track mail-in ballots and decide whether they could be rejected.",
+      "[fox] The legal conflict involves lawsuits filed by 24 states and Washington, D.C. against the USPS regarding mail-in voting rules.",
+      "[guardian] The administration renewed its appeal after a judge extended a court order preventing the enforcement of the president's executive order."
+    ],
+    "framing_differences": [
+      "aljazeera frames the event as the administration seeking control over ballot rejection, while fox frames the event as part of a wider legal struggle involving 24 states and Washington D.C.",
+      "guardian frames the timeline as an urgent legal fight occurring as mail-in ballots are currently being sent to voters."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Judge Indira Talwani's order stated that the directives are likely unconstitutional."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the word 'escalated' to describe the administration's appeal to the Supreme Court."
+    ],
+    "safe_conclusions": [
+      "The Trump administration is pursuing a stay of a federal injunction regarding USPS mail-in ballot procedures at the US Supreme Court.",
+      "Litigation regarding mail-in voting procedures is ongoing as states initiate ballot distribution for the upcoming midterm elections."
+    ],
+    "unknowns": [
+      "The specific technical content of the directives blocked by Judge Talwani.",
+      "The exact timeline for when the Supreme Court will respond to the administration's request."
+    ],
+    "synthesis": "The Trump administration has appealed to the US Supreme Court to stay a preliminary injunction issued by US District Judge Indira Talwani regarding mail-in ballot procedures. The lower court order currently prevents the USPS from enforcing new handling directives for mail-in ballots. This legal action occurs while states have already commenced the distribution of ballots for the November midterm elections.",
+    "confidence": "HIGH: The sources provide consistent information regarding the core legal event and the context of the ongoing ballot distribution.",
+    "sources": [
+      {
+        "id": "art_1788723332004_o0bce",
+        "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump administration appeals again to US Supreme Court over mail-in voting"
+      },
+      {
+        "id": "art_1788723340532_ygwxx",
+        "url": "https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court",
+        "source": "fox",
+        "title": "Trump admin’s mail-in ballot fight lands back at Supreme Court"
+      },
+      {
+        "id": "art_1788715617920_wow4n",
+        "url": "https://www.theguardian.com/us-news/2026/sep/06/trump-administration-supreme-court-mail-in-voting",
+        "source": "guardian",
+        "title": "Trump again asks supreme court to restrict mail-in voting as midterms loom"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "130ff834de4d2eeb307877e54ca8a938",
+    "topic_label": "Ukraine Peace and War Discussions",
+    "event_window_start": "2026-09-05T21:23:06.000Z",
+    "event_window_end": "2026-09-06T18:28:27.000Z",
+    "article_ids": [
+      "art_1788723339495_r77s0",
+      "art_1788676125766_mb5w0",
+      "art_1788650568845_box6k"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T20:56:00.175Z",
+    "updated_at": "2026-09-06T20:56:00.175Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Steve Witkoff and Jared Kushner have been appointed as US envoys regarding the Russia-Ukraine war.",
+      "Steve Witkoff and Jared Kushner have engaged in diplomatic efforts involving Russia and Ukraine."
+    ],
+    "source_claims": [
+      "[aljazeera] Steve Witkoff describes peace talks regarding Ukraine as 'very meaningful'.",
+      "[aljazeera] Steve Witkoff and Jared Kushner met with Russian President Vladimir Putin at the Kremlin on Saturday.",
+      "[guardian] Serhii Beskrestnov states that neither side can entirely prevail in the current conflict.",
+      "[guardian] Serhii Beskrestnov suggests that elderly people in Kyiv should be evacuated due to risks to the energy supply.",
+      "[guardian] Serhii Beskrestnov notes plans for Ukraine to launch 1,000 drones a night to strike targets within Russia."
+    ],
+    "framing_differences": [
+      "aljazeera frames the activities of Witkoff and Kushner as a diplomatic push to revive peace negotiations, while the guardian frames the current status of the war as a deadlock marked by escalating long-range strikes."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Witkoff and Kushner met Vladimir Putin at the Kremlin.",
+      "[guardian] Ukraine plans to launch 1,000 drones a night to strike economic and military targets in Russia."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'mutual destruction' to characterize the outlook of the war."
+    ],
+    "safe_conclusions": [
+      "US envoys Steve Witkoff and Jared Kushner are involved in diplomatic efforts concerning the Russia-Ukraine conflict.",
+      "The Russia-Ukraine war is ongoing with active long-range strikes."
+    ],
+    "unknowns": [
+      "The specific outcomes or agreements reached during the meetings between US envoys and officials in Russia or Ukraine.",
+      "The official status of peace negotiations prior to the arrival of Witkoff and Kushner."
+    ],
+    "synthesis": "US envoys Steve Witkoff and Jared Kushner have traveled to the region to engage in diplomatic talks regarding the Russia-Ukraine conflict. Concurrently, a Ukrainian official has highlighted the risks posed by ongoing long-range strikes and the potential for a difficult winter. The situation remains characterized by both diplomatic outreach and continued military escalation.",
+    "confidence": "MEDIUM. The sources cover different aspects of the conflict—diplomacy versus the frontline situation—but do not directly confirm the same specific events.",
+    "sources": [
+      {
+        "id": "art_1788723339495_r77s0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/witkoff-says-peace-talks-have-been-very-meaningful-in-ukraine?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Witkoff says peace talks have been ‘very meaningful’ in Ukraine"
+      },
+      {
+        "id": "art_1788676125766_mb5w0",
+        "url": "https://www.theguardian.com/world/2026/sep/06/zelenskyy-advisor-warns-mutual-destruction-war-russia",
+        "source": "guardian",
+        "title": "‘Nobody will win’: Zelenskyy adviser warns of mutual destruction if war with Russia continues"
+      },
+      {
+        "id": "art_1788650568845_box6k",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5ee8476831dd74adc43d5dbfe29f0cfd",
+    "topic_label": "UK Reform Party donation controversy",
+    "event_window_start": "2026-09-06T11:12:09.000Z",
+    "event_window_end": "2026-09-06T11:19:37.000Z",
+    "article_ids": [
+      "art_1788693929100_jg6te",
+      "art_1788693930311_bruqf"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T16:35:40.064Z",
+    "updated_at": "2026-09-06T16:35:40.064Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Nigel Farage was interviewed by Laura Kuenssberg on the BBC.",
+      "Nigel Farage stated that the optics of the undercover filming of his aides 'looks bad'.",
+      "James Orr and Dan Jukes were suspended by Reform UK.",
+      "An undercover investigation recorded James Orr and Dan Jukes discussing electoral laws regarding foreign donations."
+    ],
+    "source_claims": [
+      "[guardian] Nigel Farage stated that Reform UK has never taken foreign money in breach of electoral law.",
+      "[guardian] Nigel Farage characterized the comments made by James Orr and Dan Jukes as 'injudicious at best'.",
+      "[guardian] The Metropolitan Police are considering launching an investigation into the matter.",
+      "[guardian] Robert Jenrick stated that the party has followed legal protocol at all times."
+    ],
+    "framing_differences": [
+      "The guardian frames the event primarily through the lens of Reform UK's internal crisis and the specific actions of aides, whereas the second guardian article expands the framing to include the potential legal implications and comments from external political figures like Robert Jenrick."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The undercover filming shows James Orr and Dan Jukes apparently plotting to bypass electoral laws."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'engulfing' to describe the situation facing Reform UK.",
+      "[guardian] uses the term 'plotting' to describe the behavior of Reform UK aides."
+    ],
+    "safe_conclusions": [
+      "Nigel Farage has addressed the undercover investigation involving two of his staff members.",
+      "James Orr and Dan Jukes have been suspended from their roles at Reform UK."
+    ],
+    "unknowns": [
+      "The full scope and content of the undercover footage beyond the reported excerpts.",
+      "Whether the Metropolitan Police will formally initiate a criminal investigation.",
+      "The specific details of the plans discussed by James Orr and Dan Jukes."
+    ],
+    "synthesis": "Nigel Farage has acknowledged that an undercover investigation featuring his aides, James Orr and Dan Jukes, presents a negative image for Reform UK. While Farage has suspended both individuals and denied that the party accepted illegal foreign donations, he admitted their recorded comments were injudicious. The situation remains under scrutiny as the Metropolitan Police consider an investigation into potential breaches of electoral law.",
+    "confidence": "HIGH. The sources are internally consistent and represent reporting on the same interview and political developments.",
+    "sources": [
+      {
+        "id": "art_1788693929100_jg6te",
+        "url": "https://www.theguardian.com/politics/live/2026/sep/06/nigel-farage-reform-uk-donations-undercover-investigation-latest-news-updates",
+        "source": "guardian",
+        "title": "Undercover report on donations ‘looks bad’ for Reform, admits Nigel Farage – UK politics live"
+      },
+      {
+        "id": "art_1788693930311_bruqf",
+        "url": "https://www.theguardian.com/politics/2026/sep/06/farage-says-overseas-donation-row-looks-bad-but-denies-reform-breached-electoral-law",
+        "source": "guardian",
+        "title": "Farage says overseas donation row ‘looks bad’ but denies Reform breached electoral law"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "182612a628100859c3f66b332be2b8fa",
+    "topic_label": "Prince William in Norway",
+    "event_window_start": "2026-09-05T21:00:02.000Z",
+    "event_window_end": "2026-09-05T22:11:21.000Z",
+    "article_ids": [
+      "art_1788650566659_sb0dp",
+      "art_1788644476794_jym0x"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T00:41:42.581Z",
+    "updated_at": "2026-09-06T00:41:42.581Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "King Harald V of Norway died at age 89.",
+      "King Harald V reigned for 35 years.",
+      "Prince William will attend the funeral of King Harald V.",
+      "Princess Anne will attend the funeral of King Harald V in a personal capacity.",
+      "The funeral is scheduled to take place on 9 September at Oslo Cathedral.",
+      "Princess Anne is the godmother of the new Norwegian monarch, King Haakon VIII.",
+      "Buckingham Palace announced the attendance of Prince William and Princess Anne."
+    ],
+    "source_claims": [
+      "[guardian] Prince William is attending as a matter of precedent.",
+      "[bbc] Royal sources state Prince William's attendance follows the convention that a monarch does not typically attend the funeral of another head of state."
+    ],
+    "framing_differences": [
+      "The guardian frames the event by focusing on the 'outpouring of grief' in Norway, whereas the bbc focuses on the logistical conventions of royal attendance."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The late King Harald was an inclusive 'people's king'."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'people's king' to describe King Harald.",
+      "[guardian] uses the term 'outpouring of grief' to describe the public reaction in Norway.",
+      "[bbc] uses the term 'popular' to describe King Harald."
+    ],
+    "safe_conclusions": [
+      "Prince William and Princess Anne will represent the British royal family at the funeral of King Harald V in Oslo on 9 September."
+    ],
+    "unknowns": [
+      "The exact date of King Harald V's death beyond the month of August is not specified in the BBC text.",
+      "The complete list of international dignitaries attending the funeral is not provided."
+    ],
+    "synthesis": "Buckingham Palace has announced that the Prince of Wales and the Princess Royal will attend the funeral of the late King Harald V of Norway in Oslo on 9 September. Prince William will attend in his capacity representing King Charles, while Princess Anne will attend in a personal capacity as the godmother of King Haakon VIII. The funeral will be held at Oslo Cathedral following the death of King Harald V, who reigned for 35 years.",
+    "confidence": "HIGH. The primary facts regarding the individuals attending, the date, and the location of the event are consistent across both sources.",
+    "sources": [
+      {
+        "id": "art_1788650566659_sb0dp",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/05/prince-william-to-represent-king-charles-at-funeral-of-norways-king-harald-v",
+        "source": "guardian",
+        "title": "Prince William to represent King Charles at funeral of Norway’s King Harald V"
+      },
+      {
+        "id": "art_1788644476794_jym0x",
+        "url": "https://www.bbc.co.uk/news/articles/cp301rw6kvro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Prince William to attend King Harald's funeral in Norway"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5558583da292ed31d3715cba0603b001",
+    "topic_label": "Texas Senate Election Campaign",
+    "event_window_start": "2026-09-05T22:58:33.000Z",
+    "event_window_end": "2026-09-06T00:59:13.000Z",
+    "article_ids": [
+      "art_1788657845687_ebmm8",
+      "art_1788650562304_91zdx"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T05:11:03.086Z",
+    "updated_at": "2026-09-06T05:11:03.086Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "MAGA, Inc., a super PAC associated with Donald Trump, filed with the FEC to spend $10 million on ads in Texas.",
+      "The spending is designated for the Texas Senate race involving Republican candidate Ken Paxton and Democratic candidate James Talarico.",
+      "The $10 million investment covers both television and digital advertisements."
+    ],
+    "source_claims": [
+      "[fox] Claims the $10 million spend is specifically to support Ken Paxton in his race.",
+      "[fox] States that polls show the race between Paxton and Talarico is neck and neck.",
+      "[aljazeera] Claims the advertisements are expected to heavily target Democratic candidate James Talarico.",
+      "[aljazeera] Mentions speculation that Democrats may have a chance of flipping a Texas Senate seat for the first time since 1993.",
+      "[aljazeera] Notes that Ken Paxton has faced a series of scandals."
+    ],
+    "framing_differences": [
+      "fox frames the event by highlighting the super PAC's support for Paxton, while aljazeera frames the event by noting the targeting of the Democratic opponent and the broader political context of the potential seat flip.",
+      "fox characterizes the race as a tight contest between candidates, whereas aljazeera provides context regarding the rarity of potential Democratic success in Texas since 1993."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Claims that polls show the two candidates as neck and neck.",
+      "[aljazeera] Claims there is speculation that Democrats have a chance of flipping the seat."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'weathered a series of scandals' to describe the status of Ken Paxton."
+    ],
+    "safe_conclusions": [
+      "A super PAC called MAGA, Inc. has filed with the FEC to spend $10 million on political advertising in Texas for the upcoming Senate election."
+    ],
+    "unknowns": [
+      "The specific content or messaging of the $10 million ad campaign.",
+      "The exact polling data referenced by fox.",
+      "The nature of the scandals mentioned by aljazeera."
+    ],
+    "synthesis": "MAGA, Inc. has filed a record of $10 million in planned advertising spending for the Texas Senate race between Republican Ken Paxton and Democrat James Talarico. The funds are allocated for digital and television media within the state. The two sources differ on whether to emphasize the support for the Republican candidate or the strategic targeting of the Democratic candidate.",
+    "confidence": "HIGH. The primary subject—a $10 million FEC filing for political ads in the Texas Senate race—is corroborated by both sources.",
+    "sources": [
+      {
+        "id": "art_1788657845687_ebmm8",
+        "url": "https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico",
+        "source": "fox",
+        "title": "Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico"
+      },
+      {
+        "id": "art_1788650562304_91zdx",
+        "url": "https://www.aljazeera.com/news/2026/9/5/trump-backed-group-announces-10m-ad-spend-for-midterm-senate-race-in-texas?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump-backed group announces $10m ad spend for midterm Senate race in Texas"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4aaa26e64645548efeeaba70ee05457b",
     "topic_label": "Middle East Conflicts",
     "event_window_start": "2026-09-05T20:00:05.000Z",
@@ -371,77 +1042,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "5ee8476831dd74adc43d5dbfe29f0cfd",
-    "topic_label": "UK Reform Party donation controversy",
-    "event_window_start": "2026-09-06T11:12:09.000Z",
-    "event_window_end": "2026-09-06T11:19:37.000Z",
-    "article_ids": [
-      "art_1788693929100_jg6te",
-      "art_1788693930311_bruqf"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T16:35:40.064Z",
-    "updated_at": "2026-09-06T16:35:40.064Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Nigel Farage was interviewed by Laura Kuenssberg on the BBC.",
-      "Nigel Farage stated that the optics of the undercover filming of his aides 'looks bad'.",
-      "James Orr and Dan Jukes were suspended by Reform UK.",
-      "An undercover investigation recorded James Orr and Dan Jukes discussing electoral laws regarding foreign donations."
-    ],
-    "source_claims": [
-      "[guardian] Nigel Farage stated that Reform UK has never taken foreign money in breach of electoral law.",
-      "[guardian] Nigel Farage characterized the comments made by James Orr and Dan Jukes as 'injudicious at best'.",
-      "[guardian] The Metropolitan Police are considering launching an investigation into the matter.",
-      "[guardian] Robert Jenrick stated that the party has followed legal protocol at all times."
-    ],
-    "framing_differences": [
-      "The guardian frames the event primarily through the lens of Reform UK's internal crisis and the specific actions of aides, whereas the second guardian article expands the framing to include the potential legal implications and comments from external political figures like Robert Jenrick."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The undercover filming shows James Orr and Dan Jukes apparently plotting to bypass electoral laws."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'engulfing' to describe the situation facing Reform UK.",
-      "[guardian] uses the term 'plotting' to describe the behavior of Reform UK aides."
-    ],
-    "safe_conclusions": [
-      "Nigel Farage has addressed the undercover investigation involving two of his staff members.",
-      "James Orr and Dan Jukes have been suspended from their roles at Reform UK."
-    ],
-    "unknowns": [
-      "The full scope and content of the undercover footage beyond the reported excerpts.",
-      "Whether the Metropolitan Police will formally initiate a criminal investigation.",
-      "The specific details of the plans discussed by James Orr and Dan Jukes."
-    ],
-    "synthesis": "Nigel Farage has acknowledged that an undercover investigation featuring his aides, James Orr and Dan Jukes, presents a negative image for Reform UK. While Farage has suspended both individuals and denied that the party accepted illegal foreign donations, he admitted their recorded comments were injudicious. The situation remains under scrutiny as the Metropolitan Police consider an investigation into potential breaches of electoral law.",
-    "confidence": "HIGH. The sources are internally consistent and represent reporting on the same interview and political developments.",
-    "sources": [
-      {
-        "id": "art_1788693929100_jg6te",
-        "url": "https://www.theguardian.com/politics/live/2026/sep/06/nigel-farage-reform-uk-donations-undercover-investigation-latest-news-updates",
-        "source": "guardian",
-        "title": "Undercover report on donations ‘looks bad’ for Reform, admits Nigel Farage – UK politics live"
-      },
-      {
-        "id": "art_1788693930311_bruqf",
-        "url": "https://www.theguardian.com/politics/2026/sep/06/farage-says-overseas-donation-row-looks-bad-but-denies-reform-breached-electoral-law",
-        "source": "guardian",
-        "title": "Farage says overseas donation row ‘looks bad’ but denies Reform breached electoral law"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "c8f9abdd22df6c990b9679f231387457",
     "topic_label": "US Midterm Politics",
     "event_window_start": "2026-09-05T21:44:19.000Z",
@@ -614,78 +1214,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/5/colombian-government-reports-three-killed-in-rebel-attack-on-military-post?traffic_source=rss",
         "source": "aljazeera",
         "title": "Colombian government reports three killed in rebel attack on military post"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "182612a628100859c3f66b332be2b8fa",
-    "topic_label": "Prince William in Norway",
-    "event_window_start": "2026-09-05T21:00:02.000Z",
-    "event_window_end": "2026-09-05T22:11:21.000Z",
-    "article_ids": [
-      "art_1788650566659_sb0dp",
-      "art_1788644476794_jym0x"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T00:41:42.581Z",
-    "updated_at": "2026-09-06T00:41:42.581Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "King Harald V of Norway died at age 89.",
-      "King Harald V reigned for 35 years.",
-      "Prince William will attend the funeral of King Harald V.",
-      "Princess Anne will attend the funeral of King Harald V in a personal capacity.",
-      "The funeral is scheduled to take place on 9 September at Oslo Cathedral.",
-      "Princess Anne is the godmother of the new Norwegian monarch, King Haakon VIII.",
-      "Buckingham Palace announced the attendance of Prince William and Princess Anne."
-    ],
-    "source_claims": [
-      "[guardian] Prince William is attending as a matter of precedent.",
-      "[bbc] Royal sources state Prince William's attendance follows the convention that a monarch does not typically attend the funeral of another head of state."
-    ],
-    "framing_differences": [
-      "The guardian frames the event by focusing on the 'outpouring of grief' in Norway, whereas the bbc focuses on the logistical conventions of royal attendance."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The late King Harald was an inclusive 'people's king'."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'people's king' to describe King Harald.",
-      "[guardian] uses the term 'outpouring of grief' to describe the public reaction in Norway.",
-      "[bbc] uses the term 'popular' to describe King Harald."
-    ],
-    "safe_conclusions": [
-      "Prince William and Princess Anne will represent the British royal family at the funeral of King Harald V in Oslo on 9 September."
-    ],
-    "unknowns": [
-      "The exact date of King Harald V's death beyond the month of August is not specified in the BBC text.",
-      "The complete list of international dignitaries attending the funeral is not provided."
-    ],
-    "synthesis": "Buckingham Palace has announced that the Prince of Wales and the Princess Royal will attend the funeral of the late King Harald V of Norway in Oslo on 9 September. Prince William will attend in his capacity representing King Charles, while Princess Anne will attend in a personal capacity as the godmother of King Haakon VIII. The funeral will be held at Oslo Cathedral following the death of King Harald V, who reigned for 35 years.",
-    "confidence": "HIGH. The primary facts regarding the individuals attending, the date, and the location of the event are consistent across both sources.",
-    "sources": [
-      {
-        "id": "art_1788650566659_sb0dp",
-        "url": "https://www.theguardian.com/uk-news/2026/sep/05/prince-william-to-represent-king-charles-at-funeral-of-norways-king-harald-v",
-        "source": "guardian",
-        "title": "Prince William to represent King Charles at funeral of Norway’s King Harald V"
-      },
-      {
-        "id": "art_1788644476794_jym0x",
-        "url": "https://www.bbc.co.uk/news/articles/cp301rw6kvro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Prince William to attend King Harald's funeral in Norway"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -2053,78 +2581,6 @@
         "url": "https://www.theguardian.com/politics/live/2026/sep/05/nigel-farage-robert-jenrick-reform-uk-politics-latest-news-updates",
         "source": "guardian",
         "title": "Jenrick speaks on final day of Reform conference marred by scandal and protests – UK politics live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5558583da292ed31d3715cba0603b001",
-    "topic_label": "Texas Senate Election Campaign",
-    "event_window_start": "2026-09-05T22:58:33.000Z",
-    "event_window_end": "2026-09-06T00:59:13.000Z",
-    "article_ids": [
-      "art_1788657845687_ebmm8",
-      "art_1788650562304_91zdx"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T05:11:03.086Z",
-    "updated_at": "2026-09-06T05:11:03.086Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "MAGA, Inc., a super PAC associated with Donald Trump, filed with the FEC to spend $10 million on ads in Texas.",
-      "The spending is designated for the Texas Senate race involving Republican candidate Ken Paxton and Democratic candidate James Talarico.",
-      "The $10 million investment covers both television and digital advertisements."
-    ],
-    "source_claims": [
-      "[fox] Claims the $10 million spend is specifically to support Ken Paxton in his race.",
-      "[fox] States that polls show the race between Paxton and Talarico is neck and neck.",
-      "[aljazeera] Claims the advertisements are expected to heavily target Democratic candidate James Talarico.",
-      "[aljazeera] Mentions speculation that Democrats may have a chance of flipping a Texas Senate seat for the first time since 1993.",
-      "[aljazeera] Notes that Ken Paxton has faced a series of scandals."
-    ],
-    "framing_differences": [
-      "fox frames the event by highlighting the super PAC's support for Paxton, while aljazeera frames the event by noting the targeting of the Democratic opponent and the broader political context of the potential seat flip.",
-      "fox characterizes the race as a tight contest between candidates, whereas aljazeera provides context regarding the rarity of potential Democratic success in Texas since 1993."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Claims that polls show the two candidates as neck and neck.",
-      "[aljazeera] Claims there is speculation that Democrats have a chance of flipping the seat."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'weathered a series of scandals' to describe the status of Ken Paxton."
-    ],
-    "safe_conclusions": [
-      "A super PAC called MAGA, Inc. has filed with the FEC to spend $10 million on political advertising in Texas for the upcoming Senate election."
-    ],
-    "unknowns": [
-      "The specific content or messaging of the $10 million ad campaign.",
-      "The exact polling data referenced by fox.",
-      "The nature of the scandals mentioned by aljazeera."
-    ],
-    "synthesis": "MAGA, Inc. has filed a record of $10 million in planned advertising spending for the Texas Senate race between Republican Ken Paxton and Democrat James Talarico. The funds are allocated for digital and television media within the state. The two sources differ on whether to emphasize the support for the Republican candidate or the strategic targeting of the Democratic candidate.",
-    "confidence": "HIGH. The primary subject—a $10 million FEC filing for political ads in the Texas Senate race—is corroborated by both sources.",
-    "sources": [
-      {
-        "id": "art_1788657845687_ebmm8",
-        "url": "https://www.foxnews.com/politics/trump-linked-maga-inc-pours-10m-ken-paxton-texas-senate-race-james-talarico",
-        "source": "fox",
-        "title": "Trump-linked MAGA Inc pours $10M into Ken Paxton's Texas Senate race against James Talarico"
-      },
-      {
-        "id": "art_1788650562304_91zdx",
-        "url": "https://www.aljazeera.com/news/2026/9/5/trump-backed-group-announces-10m-ad-spend-for-midterm-senate-race-in-texas?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump-backed group announces $10m ad spend for midterm Senate race in Texas"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -16979,448 +17435,6 @@
         "url": "https://www.theguardian.com/global-development/2026/aug/26/global-health-mpox-outbreak-explainer-children",
         "source": "guardian",
         "title": "Mpox is back – and in new countries. How this outbreak can be contained"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f3cf642f4a0a0402ff833051855c68f6",
-    "topic_label": "US Immigration Trends",
-    "event_window_start": "2026-08-26T08:55:23.000Z",
-    "event_window_end": "2026-08-26T10:00:42.000Z",
-    "article_ids": [
-      "art_1787739492906_bl9ne",
-      "art_1787736266881_is3v0"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T07:16:25.024Z",
-    "updated_at": "2026-08-27T07:16:25.024Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "New government data indicates that US immigration enforcement operations resulted in a significant number of arrests and deportations in July.",
-      "The July data shows a quantitative increase in ICE arrest activity compared to previous months under the current administration."
-    ],
-    "source_claims": [
-      "[guardian] Claims the administration has shifted from high-profile, militarized raids to a quieter ramping up of deportation operations.",
-      "[aljazeera] Claims ICE arrested 49,571 people in July, marking the highest monthly total since the start of President Trump’s second term.",
-      "[aljazeera] Attributes the data to government figures provided to the Deportation Data Project and analyzed by The Associated Press."
-    ],
-    "framing_differences": [
-      "The guardian frames the trend as a 'deportation spree' focused on operational strategy changes, whereas aljazeera frames the event through specific statistical milestones and comparative growth percentages."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims that immigration attorneys and advocates have observed a shift in enforcement tactics away from 'high-profile, militarized raids' nationwide."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'deportation spree' to describe the recent increase in ICE activity."
-    ],
-    "safe_conclusions": [
-      "Government data reports an increase in immigration arrests and deportations for the month of July.",
-      "The number of arrests conducted by ICE in July reached 49,571."
-    ],
-    "unknowns": [
-      "The specific breakdown of whether these arrests occurred in public spaces, at workplaces, or via transfers from local jail systems.",
-      "The long-term statistical trends beyond the comparisons provided for February through July."
-    ],
-    "synthesis": "Government data for July 2025 shows that US immigration authorities arrested 49,571 individuals, which represents an increase over previous months in the same year. Reports characterize this activity as a ramping up of operations compared to earlier periods. The data was analyzed by the Associated Press and sourced from figures provided to the Deportation Data Project.",
-    "confidence": "HIGH. The sources rely on the same underlying government data set, and the variance in reporting reflects stylistic choices rather than factual contradictions.",
-    "sources": [
-      {
-        "id": "art_1787739492906_bl9ne",
-        "url": "https://www.theguardian.com/us-news/2026/aug/26/record-arrests-deportations-immigrants",
-        "source": "guardian",
-        "title": "New data shows record number of arrests and deportations of immigrants in the US"
-      },
-      {
-        "id": "art_1787736266881_is3v0",
-        "url": "https://www.aljazeera.com/news/2026/8/26/us-immigration-agents-arrested-more-than-49500-people-in-july?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US immigration agents arrested more than 49,500 people in July"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e14497dbe5eeb7f99c4fa02de1f42326",
-    "topic_label": "Israel-Palestine Conflict",
-    "event_window_start": "2026-08-26T02:54:12.000Z",
-    "event_window_end": "2026-08-26T11:00:11.000Z",
-    "article_ids": [
-      "art_1787742845694_ycf8k",
-      "art_1787742846853_53i6c",
-      "art_1787732454172_xyjq6",
-      "art_1787732456344_t65fx",
-      "art_1787717042828_1oe9p"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T20:43:13.158Z",
-    "updated_at": "2026-08-26T20:43:13.158Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Military or security operations involving Israeli forces are occurring in various Palestinian territories including Gaza and the West Bank.",
-      "Israeli government officials and security forces maintain control over various aspects of Palestinian movement and infrastructure."
-    ],
-    "source_claims": [
-      "[guardian] States that farmers in Gaza face severe shortages of water, fertilizer, and pesticides, with over 80% of greenhouses destroyed.",
-      "[guardian] Reports that a website posing as a thinktank was established to influence AI chatbots to provide pro-Israel arguments.",
-      "[aljazeera] Claims the United Nations condemned threats by Israel to expel Palestinians from areas where children were flying kites.",
-      "[aljazeera] Reports that Israeli forces shot and injured at least five Palestinians during a raid on an UNRWA facility in East Jerusalem.",
-      "[aljazeera] States that Israeli soldiers blocked Knesset member Ofer Cassif from accessing a Palestinian home in Qusra that had been under a 17-day siege by settlers."
-    ],
-    "framing_differences": [
-      "The guardian focuses on the humanitarian impact of conflict on Gaza's food supply and investigates digital advocacy strategies, while aljazeera focuses on specific military confrontations and individual incidents involving Israeli authorities and Palestinian civilians."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Claims a website published 560,000 words in nine days to influence AI chatbots.",
-      "[aljazeera] States that Israeli minister Itamar Ben-Gvir led a raid on an UNRWA training center.",
-      "[aljazeera] Claims that kites launched from Gaza were not carrying incendiary devices."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'propaganda' to describe the activities of a pro-Israel messaging website.",
-      "[aljazeera] uses the term 'far-right' to describe Israeli minister Itamar Ben-Gvir.",
-      "[aljazeera] uses the term 'besieged' to describe the situation in the Gaza Strip and a specific home in the West Bank."
-    ],
-    "safe_conclusions": [
-      "Conflict continues to affect various regions involving Israeli security forces and Palestinian populations.",
-      "Incidents involving military or administrative interventions are reported in Gaza, East Jerusalem, and the West Bank."
-    ],
-    "unknowns": [
-      "The specific identity or total origin of the funding for the website mentioned by the guardian.",
-      "The official legal status or outcomes of the incidents reported by aljazeera regarding the UNRWA facility and the residence in Qusra.",
-      "The full extent of agricultural damage in Gaza beyond the figures provided by the guardian."
-    ],
-    "synthesis": "Current reports detail ongoing military and administrative actions taken by Israeli forces within Gaza, the West Bank, and East Jerusalem. These actions have resulted in various humanitarian and security incidents, including restrictions on civilian movement and damage to infrastructure. Simultaneously, there are reports regarding digital efforts to influence public discourse through AI platforms regarding the conflict.",
-    "confidence": "MEDIUM: The sources cover distinct, non-overlapping events, making cross-source verification of specific claims impossible while maintaining general consistency in the context of ongoing regional conflict.",
-    "sources": [
-      {
-        "id": "art_1787742845694_ycf8k",
-        "url": "https://www.theguardian.com/world/2026/aug/26/gaza-farmers-struggle-scraps-of-land-constant-threat",
-        "source": "guardian",
-        "title": "On scraps of land and under constant threat, Gaza farmers struggle to survive"
-      },
-      {
-        "id": "art_1787742846853_53i6c",
-        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-        "source": "guardian",
-        "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
-      },
-      {
-        "id": "art_1787732454172_xyjq6",
-        "url": "https://www.aljazeera.com/news/2026/8/26/un-rejects-israels-threat-to-expel-gaza-residents-over-kite-flying?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN rejects Israel’s threat to expel Gaza residents over kite-flying"
-      },
-      {
-        "id": "art_1787732456344_t65fx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/palestinian-boy-shot-during-israeli-raid-on-unrwa-centre?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian boy shot during Israeli raid on UNRWA centre"
-      },
-      {
-        "id": "art_1787717042828_1oe9p",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/israeli-soldiers-block-knesset-member-from-besieged-palestinian-home?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli soldiers block Knesset member from besieged Palestinian home"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6815d3c839ae230f8c8096a271c5627b",
-    "topic_label": "Iran Tensions and Sanctions",
-    "event_window_start": "2026-08-26T05:20:17.000Z",
-    "event_window_end": "2026-08-26T10:00:05.000Z",
-    "article_ids": [
-      "art_1787739497490_1vh58",
-      "art_1787739502942_wpjx1",
-      "art_1787736259480_wndvi",
-      "art_1787732458467_4zqg5",
-      "art_1787729905963_eut70",
-      "art_1787729912916_kc79i",
-      "art_1787729916424_qqwyp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T20:43:13.158Z",
-    "updated_at": "2026-08-26T20:43:13.158Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The United States has implemented economic sanctions against Iran.",
-      "A conflict involving the United States, Israel, and Iran began on February 28.",
-      "US Air Force refueling aircraft were stationed at Bezmer airbase in Bulgaria and have since departed."
-    ],
-    "source_claims": [
-      "[aljazeera] The Iranian rial has reached a value of 2 million rials to 1 US dollar on the free market.",
-      "[aljazeera] Tehran urged Bulgaria to refuse the use of its territory for military operations against Iran.",
-      "[fox] Treasury Secretary Scott Bessent announced a 'maximum-pressure' campaign described as an 'Economic D-Day' against Iran.",
-      "[fox] The US administration warned that financial institutions aiding Iran will be removed from the US dollar system and that China may face sanctions for importing Iranian crude oil.",
-      "[guardian] Iranian lawmakers are discussing a proposed law that would criminalize contact with foreign media and specific social media platforms.",
-      "[aljazeera] The US-Israel war has caused a spike in oil prices and supply chain disruptions due to the blockade of the Strait of Hormuz."
-    ],
-    "framing_differences": [
-      "Al Jazeera describes the ongoing conflict as a 'US-Israel war on Iran,' while Fox characterizes US actions as an 'Economic D-Day' and a 'maximum-pressure campaign.'",
-      "Al Jazeera frames the presence of USAF tankers in Bulgaria as a security risk for local villagers, whereas the US Air Force and Bulgarian officials frame the mission as an operational requirement that has concluded."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] The Iranian economy has been 'crippled by decades' of sanctions.",
-      "[guardian] Human rights groups describe the potential law as an attempt to 'sever the entire Iranian society from the rest of the world.'",
-      "[aljazeera] The blockade of the Strait of Hormuz is the primary cause of global supply chain disruptions."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the terms 'strangle Tehran’s economy,' 'crippled,' and 'piling up misery' to describe the impact of sanctions.",
-      "[fox] uses the term 'Economic D-Day' to describe the Treasury Secretary's sanctions campaign.",
-      "[guardian] uses the word 'chilling' to describe the potential crackdown on media contact."
-    ],
-    "safe_conclusions": [
-      "The United States has military and economic policies directed at Iran.",
-      "New economic sanctions have been placed on Iranian-related entities.",
-      "There is ongoing legislative activity in Iran regarding foreign media contact.",
-      "US aircraft operations in Bulgaria concluded recently."
-    ],
-    "unknowns": [
-      "The exact current economic impact of sanctions on individual Iranian households.",
-      "The specific details and legal status of the proposed Iranian media law.",
-      "The precise extent of global supply chain disruptions linked to the Strait of Hormuz blockade."
-    ],
-    "synthesis": "The United States is currently employing secondary economic sanctions and military posturing against Iran as part of a conflict initiated on February 28. These actions have affected global energy markets and led to diplomatic tensions involving countries like Bulgaria and China. Simultaneously, the Iranian government is considering domestic legislation that would further restrict interaction with international media entities.",
-    "confidence": "MEDIUM. While sources agree on the occurrence of the conflict and the implementation of sanctions, they rely on differing geopolitical perspectives and interpret the economic and social consequences of these events using distinct narratives.",
-    "sources": [
-      {
-        "id": "art_1787739497490_1vh58",
-        "url": "https://www.aljazeera.com/economy/2026/8/26/one-us-dollar-now-costs-2-million-rials-in-iran-and-heres-what-it-can-buy?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "One US dollar now costs 2 million rials in Iran, and here’s what it can buy"
-      },
-      {
-        "id": "art_1787739502942_wpjx1",
-        "url": "https://www.aljazeera.com/news/2026/8/26/the-bulgarian-village-that-fears-becoming-an-iranian-target?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Bulgarian village that fears becoming an Iranian target"
-      },
-      {
-        "id": "art_1787736259480_wndvi",
-        "url": "https://www.foxnews.com/opinion/trumps-economic-d-day-hammer-iran-tehran-surrender",
-        "source": "fox",
-        "title": "Trump’s Economic D-Day can hammer Iran, but will Tehran ever surrender?"
-      },
-      {
-        "id": "art_1787732458467_4zqg5",
-        "url": "https://www.theguardian.com/global-development/2026/aug/26/iran-criminalises-contact-foreign-media-human-rights-crackdown",
-        "source": "guardian",
-        "title": "Iran seeks to criminalise all contact with foreign media in latest ‘chilling’ crackdown"
-      },
-      {
-        "id": "art_1787729905963_eut70",
-        "url": "https://www.aljazeera.com/economy/2026/8/26/trump-threatens-irans-partners-how-do-secondary-sanctions-work?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump threatens Iran’s partners: How do secondary sanctions work?"
-      },
-      {
-        "id": "art_1787729912916_kc79i",
-        "url": "https://www.aljazeera.com/economy/2026/8/26/top-official-says-iran-oman-have-agreed-new-temporary-hormuz-route?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Top official says Iran, Oman have agreed new temporary route in Hormuz"
-      },
-      {
-        "id": "art_1787729916424_qqwyp",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/iran-bets-economic-pain-will-pressure-trump-in-game-of?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran bets economic pain will pressure Trump in game of ‘chicken’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a4288d510420e2c945ad853b8622a19d",
-    "topic_label": "Conflict in Sudan",
-    "event_window_start": "2026-08-26T01:54:00.000Z",
-    "event_window_end": "2026-08-26T07:26:45.000Z",
-    "article_ids": [
-      "art_1787729903878_4pqki",
-      "art_1787717035084_rb1hc",
-      "art_1787717047996_8tvc2",
-      "art_1787713108770_onb04"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T07:55:32.636Z",
-    "updated_at": "2026-08-26T07:55:32.636Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The conflict in Sudan involves the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF).",
-      "The RSF has alliances with certain groups, including factions of the Sudan People's Liberation Movement-North (SPLM-N).",
-      "The conflict has resulted in civilian casualties, displacement, and infrastructure damage, including impacts on water sources in El Obeid.",
-      "Fighting is occurring in various regions, including South Kordofan and the Blue Nile state."
-    ],
-    "source_claims": [
-      "[aljazeera] The SAF has recaptured towns along the Export Road and pushed the RSF into a defensive position in central Sudan.",
-      "[aljazeera] The Sudan Doctors Network claims the SPLM-N killed 27 people in Qardud and Abu Hamama.",
-      "[aljazeera] The SAF leadership has expressed confidence in the total defeat of the RSF.",
-      "[aljazeera] The RSF and SPLM-N forces seized Kurmuk and Geisan in mid-August.",
-      "[aljazeera] The RSF is experiencing a new wave of defections."
-    ],
-    "framing_differences": [
-      "One aljazeera report frames the battlefield as a series of SAF gains and potential RSF collapse, while another aljazeera report focuses on the escalating humanitarian crisis and ethnic dimensions of the violence in South Kordofan."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] The Sudan Doctors Network states that the killings in Qardud and Abu Hamama were motivated by ethnic targeting.",
-      "[aljazeera] The RSF is intentionally targeting water sources in El Obeid."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'defensive crouch' to describe the status of the RSF.",
-      "[aljazeera] uses the term 'crippling water shortages' to describe the humanitarian conditions in El Obeid."
-    ],
-    "safe_conclusions": [
-      "Sudan is currently experiencing an ongoing armed conflict between the SAF and the RSF.",
-      "The conflict has caused significant displacement of civilians and disruption to essential services.",
-      "Military developments and political activities are both components of the current situation in Sudan."
-    ],
-    "unknowns": [
-      "The total number of casualties across the entire conflict is not provided.",
-      "The specific strategic intent behind all military movements remains unclear.",
-      "The extent of international involvement in the supply chains mentioned is not detailed."
-    ],
-    "synthesis": "The conflict in Sudan involves shifting military control between the SAF and the RSF, with reports of both military gains by the SAF and ongoing violence in regions like South Kordofan. Humanitarian organizations report civilian casualties and displacement, particularly in areas impacted by military operations and resource shortages. Simultaneously, leadership from the SAF is pursuing a parallel political track while managing the ongoing military campaign.",
-    "confidence": "HIGH: All reports originate from the same media organization and maintain consistency in their characterization of the ongoing conflict.",
-    "sources": [
-      {
-        "id": "art_1787729903878_4pqki",
-        "url": "https://www.aljazeera.com/opinions/2026/8/26/the-rsfs-defeat-will-not-end-sudans-war-but-merely-fragment-it?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The RSF’s defeat will not end Sudan’s war but merely fragment it"
-      },
-      {
-        "id": "art_1787717035084_rb1hc",
-        "url": "https://www.aljazeera.com/news/2026/8/26/dozens-killed-in-rebel-attacks-on-sudans-kordofan-medical-group-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Dozens killed in rebel attacks on Sudan’s Kordofan, medical group says"
-      },
-      {
-        "id": "art_1787717047996_8tvc2",
-        "url": "https://www.aljazeera.com/news/2026/8/26/is-sudans-battlefield-shaping-the-terms-of-its-next-political-phase?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is Sudan’s battlefield shaping the terms of its next political phase?"
-      },
-      {
-        "id": "art_1787713108770_onb04",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/water-crisis-makes-life-in-sudans-el-obeid-refugee-camps-even-worse?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Water crisis makes life in Sudan’s El Obeid refugee camps even worse"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f6074cfb4f8aed0c8aed59701dc74966",
-    "topic_label": "Flash floods in Nepal",
-    "event_window_start": "2026-08-26T09:48:36.000Z",
-    "event_window_end": "2026-08-26T10:56:50.000Z",
-    "article_ids": [
-      "art_1787742848418_ygneq",
-      "art_1787739499709_iz48l"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-26T12:07:30.844Z",
-    "updated_at": "2026-08-26T12:07:30.844Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A flash flood occurred on the Nepal-Tibet border affecting the district of Rasuwa.",
-      "The flood caused damage to infrastructure including roads.",
-      "Search and rescue operations were initiated following the event.",
-      "The Bhote Koshi river is the area impacted by the flooding."
-    ],
-    "source_claims": [
-      "[bbc] reports at least 17 people have been killed and nearly 400 are unaccounted for.",
-      "[aljazeera] reports at least eight people have been killed.",
-      "[bbc] claims the event may have been caused by an earthquake triggering an avalanche with melted snow.",
-      "[aljazeera] reports that water levels prevented rescue helicopters from landing in Syapru Besi and Timure."
-    ],
-    "framing_differences": [
-      "BBC frames the event with a higher casualty estimate and includes specific numbers of missing tourists, whereas Al Jazeera reports a lower casualty count and focuses on the tactical difficulties of current rescue operations."
-    ],
-    "contested_claims": [
-      "The reported number of fatalities differs, with BBC reporting at least 17 deaths and Al Jazeera reporting at least eight deaths."
-    ],
-    "unverified_claims": [
-      "[bbc] claims nearly 400 people are unaccounted for.",
-      "[bbc] reports the Nepal tourism board is trying to locate 291 tourists.",
-      "[aljazeera] cites district administrator Narendra Pariyar stating he cannot confirm the extent of casualties yet."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'huge scale loss' to describe the anticipated impact according to Nepalese officials.",
-      "[aljazeera] uses the term 'huge flash flood' to describe the event."
-    ],
-    "safe_conclusions": [
-      "A flash flood has occurred in the Rasuwa district of Nepal near the border with Tibet.",
-      "Casualties and infrastructure damage have resulted from the flooding.",
-      "Official rescue efforts are currently underway."
-    ],
-    "unknowns": [
-      "The exact number of fatalities remains unconfirmed.",
-      "The specific cause of the flash flood has not been verified.",
-      "The precise number of people currently missing is not confirmed."
-    ],
-    "synthesis": "A flash flood has impacted the Rasuwa district along the Nepal-Tibet border, resulting in fatalities and damage to infrastructure including roads and bridges. Rescue operations are currently underway despite reports of conditions impeding helicopter landings. Casualty estimates vary between the sources as search efforts continue.",
-    "confidence": "MEDIUM. There is a discrepancy in the reported death toll and the number of people missing between the provided sources.",
-    "sources": [
-      {
-        "id": "art_1787742848418_ygneq",
-        "url": "https://www.bbc.co.uk/news/articles/cx2zyerv2lmo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Seventeen dead and hundreds unaccounted for as flash flood hits Nepal-Tibet border"
-      },
-      {
-        "id": "art_1787739499709_iz48l",
-        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At least eight killed as Nepal flash flood damages roads, energy facilities"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
