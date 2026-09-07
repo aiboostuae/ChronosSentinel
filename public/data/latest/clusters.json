@@ -1,5 +1,621 @@
 [
   {
+    "cluster_id": "239e4fcb8308a9ad4473013e594b5860",
+    "topic_label": "Amazon cargo plane crash",
+    "event_window_start": "2026-09-06T20:24:13.000Z",
+    "event_window_end": "2026-09-07T00:57:38.000Z",
+    "article_ids": [
+      "art_1788744329711_rtdck",
+      "art_1788731186798_msqnt",
+      "art_1788731188851_3usco",
+      "art_1788731197083_6sqlk",
+      "art_1788731200446_agzqf"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-07T05:47:45.156Z",
+    "updated_at": "2026-09-07T05:47:45.156Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A Boeing 767-300 cargo plane operating for Amazon Prime Air overran a runway at Miami International Airport.",
+      "The aircraft arrived from San Juan, Puerto Rico.",
+      "The plane struck several vehicles on the ground after overrunning the runway.",
+      "The aircraft caught fire after the crash.",
+      "The incident caused a disruption to airport operations and a ground stop."
+    ],
+    "source_claims": [
+      "[bbc] reports five people died and five were injured in the crash.",
+      "[aljazeera] states it is not clear how many crew members or passengers were on board.",
+      "[guardian] reports there were unconfirmed reports of casualties.",
+      "[bbc] reports more than 60 members of the Miami Dade Fire Rescue responded to the scene."
+    ],
+    "framing_differences": [
+      "BBC frames the event with definitive fatality and injury statistics, whereas Al Jazeera and Guardian frame the casualty status as unclear or unconfirmed."
+    ],
+    "contested_claims": [
+      "BBC reports five deaths and five injuries, while Al Jazeera and Guardian state that fatality and injury details are currently unclear or unconfirmed."
+    ],
+    "unverified_claims": [
+      "[bbc] reports five deaths and five injuries, figures not corroborated by other sources in the provided text."
+    ],
+    "loaded_language": [
+      "[guardian] uses the phrase 'erupting in flames' to describe the fire.",
+      "[guardian] uses the phrase 'dark smoke billowed into the sky' to describe the post-crash scene."
+    ],
+    "safe_conclusions": [
+      "An Amazon Prime Air cargo plane was involved in an accident at Miami International Airport involving an overrun runway and a fire."
+    ],
+    "unknowns": [
+      "The exact number of casualties.",
+      "The specific cause of the runway overrun.",
+      "The number of crew members or passengers on board."
+    ],
+    "synthesis": "An Amazon Prime Air Boeing 767-300 cargo flight from San Juan, Puerto Rico, overran a runway at Miami International Airport on Sunday. The aircraft struck multiple vehicles on the ground and caught fire, resulting in a temporary cessation of airport operations. Sources disagree on the status of casualties, with some reporting five fatalities and others stating such details remain unconfirmed.",
+    "confidence": "CONTESTED. There is a significant discrepancy regarding reported fatalities between the BBC and other sources, which cite casualties as unconfirmed.",
+    "sources": [
+      {
+        "id": "art_1788744329711_rtdck",
+        "url": "https://www.bbc.co.uk/news/articles/c0e3p1j7n3ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Five dead after Amazon cargo plane crashes at Miami airport"
+      },
+      {
+        "id": "art_1788731186798_msqnt",
+        "url": "https://www.aljazeera.com/news/2026/9/6/amazon-cargo-plane-crashes-in-us-while-landing-at-miami-airport?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Amazon cargo plane crashes in US while landing at Miami airport"
+      },
+      {
+        "id": "art_1788731188851_3usco",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/amazon-prime-plane-overruns-runway-at-miami-airport?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Amazon Prime plane overruns runway at Miami Airport"
+      },
+      {
+        "id": "art_1788731197083_6sqlk",
+        "url": "https://www.bbc.co.uk/news/videos/c62k8dz8r4lo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Video shows damaged Amazon cargo plane after crash"
+      },
+      {
+        "id": "art_1788731200446_agzqf",
+        "url": "https://www.theguardian.com/us-news/2026/sep/06/amazon-cargo-plane-crashes-miami-airport",
+        "source": "guardian",
+        "title": "Amazon cargo plane crashes at Miami airport and hits several vehicles"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8ce5935f6cde107319ed70f13b394da3",
+    "topic_label": "Germany AfD state election results",
+    "event_window_start": "2026-09-06T10:00:24.000Z",
+    "event_window_end": "2026-09-07T01:03:39.000Z",
+    "article_ids": [
+      "art_1788744328526_hd3ln",
+      "art_1788731196049_empgx",
+      "art_1788723337335_vkqpp",
+      "art_1788715610377_jikn8",
+      "art_1788715618976_misqk",
+      "art_1788715624167_x9049",
+      "art_1788693933640_h7u0t",
+      "art_1788693943587_dwyql"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 8,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-07T05:47:45.156Z",
+    "updated_at": "2026-09-07T05:47:45.156Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Alternative für Deutschland (AfD) party participated in a state election in Saxony-Anhalt, Germany.",
+      "Exit polls indicate the AfD received approximately 44% to 44.5% of the vote.",
+      "The AfD results represent a significant increase compared to the party's performance in previous elections.",
+      "The AfD's ability to form a state government remains uncertain due to the potential actions of other political parties.",
+      "No far-right party has held power at the state level in Germany since the Second World War."
+    ],
+    "source_claims": [
+      "[guardian] The AfD lead candidate, Ulrich Siegmund, thanked Elon Musk for his support on X.",
+      "[guardian] A French minister stated that the AfD's performance is a 'serious moment' for Europe.",
+      "[bbc] The AfD states it has won a mandate to govern.",
+      "[bbc] Ulrich Siegmund has refused to govern with any other party.",
+      "[guardian] The election saw a 'huge turnout'."
+    ],
+    "framing_differences": [
+      "The Guardian frames the event with an international perspective, noting French government concerns, while BBC focuses on the local political mechanics of government formation and parliament thresholds.",
+      "Aljazeera frames the election through the specific question of whether the AfD can form a government, whereas The Guardian and BBC emphasize the historical significance of the vote percentages."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The French minister stated 'We cannot forget our history' in response to the election."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'far-right' to describe the AfD.",
+      "[aljazeera] uses the term 'far-right' to describe the AfD.",
+      "[bbc] uses the term 'far-right' to describe the AfD.",
+      "[guardian] uses the term 'populist' to describe the AfD.",
+      "[guardian] uses the term 'anti-immigration' to describe the AfD.",
+      "[bbc] uses the term 'charismatic' to describe Ulrich Siegmund."
+    ],
+    "safe_conclusions": [
+      "Exit polls show the AfD party received over 44% of the vote in the Saxony-Anhalt state election.",
+      "The AfD party leaders have described the election outcome as 'historic'."
+    ],
+    "unknowns": [
+      "The final, official vote tally.",
+      "Whether the AfD will secure enough seats to form a government.",
+      "The specific identity of the French minister who commented on the election.",
+      "The exact percentage of the turnout."
+    ],
+    "synthesis": "Exit polls project the AfD party has won approximately 44% of the vote in the Saxony-Anhalt state election, representing a significant increase in their support. While the result is being described as historic, it remains unclear if the party will successfully form a government. The formation of a potential administration depends on parliamentary seat distribution and the cooperation of other political parties.",
+    "confidence": "HIGH. All sources consistently report the core exit poll figures and the uncertainty regarding government formation.",
+    "sources": [
+      {
+        "id": "art_1788744328526_hd3ln",
+        "url": "https://www.theguardian.com/world/2026/sep/07/afd-thanks-elon-musk-german-state-elections-2026-win",
+        "source": "guardian",
+        "title": "Germany’s far-right AfD thanks Elon Musk as France warns state election win a ‘serious moment’"
+      },
+      {
+        "id": "art_1788731196049_empgx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/06-09-sv-germany-afd-wins-saxony-de-fm?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can AfD form Germany’s first far-right state government since World War II?"
+      },
+      {
+        "id": "art_1788723337335_vkqpp",
+        "url": "https://www.bbc.co.uk/news/videos/c5yegd6ldy6o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Germany's far-right AfD celebrate projected win in state election"
+      },
+      {
+        "id": "art_1788715610377_jikn8",
+        "url": "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "German far-right set for big win in eastern state - projections"
+      },
+      {
+        "id": "art_1788715618976_misqk",
+        "url": "https://www.theguardian.com/world/2026/sep/06/saxony-anhalt-germany-afd-exit-poll-ulrich-siegmund",
+        "source": "guardian",
+        "title": "Far-right AfD wins key German state election but may fail to secure majority"
+      },
+      {
+        "id": "art_1788715624167_x9049",
+        "url": "https://www.aljazeera.com/news/2026/9/6/far-right-afd-wins-vote-in-germanys-saxony-anhalt-state-exit-polls?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Far-right AfD wins vote in Germany’s Saxony-Anhalt state: Exit polls"
+      },
+      {
+        "id": "art_1788693933640_h7u0t",
+        "url": "https://www.theguardian.com/world/2026/sep/06/far-right-afd-saxony-anhalt-state-election-germany",
+        "source": "guardian",
+        "title": "Far-right AfD predicted to win big in crucial German state election"
+      },
+      {
+        "id": "art_1788693943587_dwyql",
+        "url": "https://www.foxnews.com/world/anti-migrant-afd-seeks-break-germanys-political-firewall-historic-state-election",
+        "source": "fox",
+        "title": "Anti-migrant AfD seeks to break Germany’s political ‘firewall’ in historic state election"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ed82539a2b14c292c5a624ddc6e08e05",
+    "topic_label": "US-Iran and Middle East tensions",
+    "event_window_start": "2026-09-06T06:00:58.000Z",
+    "event_window_end": "2026-09-06T17:00:56.000Z",
+    "article_ids": [
+      "art_1788715613555_2p89n",
+      "art_1788715620012_5p60d",
+      "art_1788705131047_iss70",
+      "art_1788693934812_bz5kb",
+      "art_1788676113068_xbknk"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-07T05:47:45.156Z",
+    "updated_at": "2026-09-07T05:47:45.156Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The US Central Command (CENTCOM) released footage showing strikes on Iranian oil tankers.",
+      "Hostilities between the United States and Iran have escalated, with recent military activity centered on naval assets and tankers in the region.",
+      "CENTCOM reports that Iranian oil tankers have been hit by US military action."
+    ],
+    "source_claims": [
+      "[bbc] Mohammad Bagher Ghalibaf stated that the rules of the game have changed and warned of a faster, heavier, and more painful response.",
+      "[aljazeera] CENTCOM reported that three Iranian crude oil tankers were hit, with two permanently disabled and one sunk.",
+      "[aljazeera] The IRGC claimed to have hit multiple ships in the Strait of Hormuz using explosives-laden projectiles.",
+      "[aljazeera] The IRGC stated that the US is an aggressor that must leave the region and stop its malignance.",
+      "[aljazeera] Experts have described Iran's targeting of US aircraft carriers as a calculated escalation.",
+      "[aljazeera] The US claims that an increasing volume of oil is flowing through the Strait of Hormuz despite the naval blockade."
+    ],
+    "framing_differences": [
+      "BBC frames the event primarily through the lens of Iranian official warnings and regional escalation, whereas Aljazeera frames the event as part of a sustained economic and military struggle involving a blockade and 'tit-for-tat' attacks.",
+      "Aljazeera presents the naval conflict as a contest over leverage at a global chokepoint, while BBC focuses on the direct rhetoric of Iranian leadership."
+    ],
+    "contested_claims": [
+      "Sources report different actions regarding ship targets: Aljazeera reports the IRGC fired upon ships in the Strait of Hormuz and toward US warships, while BBC reports Iran attacked American warships in the region's waters without providing the specific detail of ship-to-ship projectile attacks."
+    ],
+    "unverified_claims": [
+      "[guardian] Taraneh and Romina Rahimi were seized by masked men sent by the IRGC due to their participation in January protests.",
+      "[guardian] The Rahimi sisters were allegedly tortured in prison, including having their hair pulled out and being threatened with rape."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'malignance' to describe US presence in the region.",
+      "[aljazeera] uses the term 'aggressor' to describe the United States."
+    ],
+    "safe_conclusions": [
+      "Military actions involving the United States and Iran have occurred in the region, including attacks on tankers.",
+      "Iranian officials have issued public statements regarding the escalation of hostilities."
+    ],
+    "unknowns": [
+      "The exact number of casualties resulting from the naval engagements.",
+      "The specific current status of the Rahimi sisters mentioned in the Guardian report.",
+      "The precise volume of oil flowing through the Strait of Hormuz during the conflict."
+    ],
+    "synthesis": "The United States and Iran have engaged in escalating naval hostilities, resulting in damage to multiple oil tankers. Both nations have issued statements regarding the conflict, with the US utilizing military force and economic pressure, and Iranian officials threatening a more significant response. Concurrent with these regional tensions, reports have emerged regarding the detention and treatment of individuals in Iranian custody.",
+    "confidence": "MEDIUM; Factual consistency is high regarding the naval skirmishes, but the sources cover disparate topics ranging from regional military conflict to domestic human rights issues.",
+    "sources": [
+      {
+        "id": "art_1788715613555_2p89n",
+        "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Iran warns of 'faster, heavier, more painful response' to US attacks"
+      },
+      {
+        "id": "art_1788715620012_5p60d",
+        "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran touts military response as US maintains blockade, hits tankers"
+      },
+      {
+        "id": "art_1788705131047_iss70",
+        "url": "https://www.aljazeera.com/news/2026/9/6/how-significant-are-the-yemeni-governments-military-gains-against-the-houthis?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How significant are the Yemeni government’s military gains against Houthis?"
+      },
+      {
+        "id": "art_1788693934812_bz5kb",
+        "url": "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US, Iran engaged in tanker war: Where is the months-long conflict headed?"
+      },
+      {
+        "id": "art_1788676113068_xbknk",
+        "url": "https://www.theguardian.com/world/2026/sep/06/taraneh-romina-rahimi-twin-sisters-jailed-over-iran-protests",
+        "source": "guardian",
+        "title": "Broken feet, ripped-out hair and now a death sentence: the fate of twin sisters jailed over Iran protests"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6a5bc90b1c7a3c47c611b7587a4c087f",
+    "topic_label": "New Delhi building collapse",
+    "event_window_start": "2026-09-06T14:07:35.000Z",
+    "event_window_end": "2026-09-06T20:05:32.000Z",
+    "article_ids": [
+      "art_1788738007742_ad1h7",
+      "art_1788705123787_e0iga"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-07T05:47:45.156Z",
+    "updated_at": "2026-09-07T05:47:45.156Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "A building collapse occurred in the Satya Niketan neighborhood of New Delhi.",
+      "The building housed students.",
+      "Emergency rescue operations were conducted at the site."
+    ],
+    "source_claims": [
+      "[aljazeera] claims at least five people were killed and nine were rescued.",
+      "[bbc] reports at least one person was killed and six were rescued, citing NDTV.",
+      "[bbc] claims that eyewitnesses estimated as many as 50 people were inside the building.",
+      "[bbc] claims the collapse occurred around 13:30 local time on Sunday.",
+      "[bbc] claims construction work was occurring in the basement of the building."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the incident by stating a specific death toll of five, while BBC frames the incident by highlighting fears that dozens were trapped and citing varying estimates from other media outlets."
+    ],
+    "contested_claims": [
+      "The number of fatalities is reported as 'at least five' by Aljazeera, whereas BBC reports 'at least one' based on information from NDTV."
+    ],
+    "unverified_claims": [
+      "[bbc] claims the building was five storeys tall.",
+      "[bbc] claims the building was named 'Hostel Daze'.",
+      "[bbc] claims the building is located a short distance from the Delhi University campus."
+    ],
+    "loaded_language": [
+      "[bbc] uses the phrase 'dozens feared trapped' to describe the potential status of the residents."
+    ],
+    "safe_conclusions": [
+      "A building collapse involving student residents occurred in New Delhi.",
+      "Casualties and injuries occurred as a result of the collapse.",
+      "Rescue operations were initiated."
+    ],
+    "unknowns": [
+      "The exact number of casualties.",
+      "The total number of occupants present at the time of the collapse.",
+      "The official cause of the building collapse."
+    ],
+    "synthesis": "A building housing students collapsed in the Satya Niketan area of New Delhi, triggering rescue operations. Sources provide conflicting reports regarding the number of casualties and the total number of people involved in the incident. Investigations are ongoing regarding the circumstances of the collapse, including reports of construction work in the building basement.",
+    "confidence": "CONTESTED. The two sources provide directly conflicting information regarding the number of fatalities and the scale of the rescue operation.",
+    "sources": [
+      {
+        "id": "art_1788738007742_ad1h7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/at-least-five-killed-in-new-delhi-building-collapse?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "At least five killed in New Delhi building collapse"
+      },
+      {
+        "id": "art_1788705123787_e0iga",
+        "url": "https://www.bbc.co.uk/news/articles/c8r6ezx1jmro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Dozens feared trapped in collapsed building in Delhi"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4f462bcc6a3726eb3064bb3892b0d075",
+    "topic_label": "Trump Supreme Court Mail-in Ballot",
+    "event_window_start": "2026-09-06T16:23:02.000Z",
+    "event_window_end": "2026-09-06T18:47:03.000Z",
+    "article_ids": [
+      "art_1788723332004_o0bce",
+      "art_1788723340532_ygwxx",
+      "art_1788715617920_wow4n"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T20:56:00.175Z",
+    "updated_at": "2026-09-06T20:56:00.175Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The Trump administration filed an appeal with the US Supreme Court on Sunday regarding mail-in voting rules.",
+      "US District Judge Indira Talwani issued a preliminary injunction on Friday that blocked the USPS from enforcing certain ballot handling directives.",
+      "States have begun sending out mail-in ballots for the November midterm elections."
+    ],
+    "source_claims": [
+      "[aljazeera] The administration is asking the Supreme Court to allow the USPS to track mail-in ballots and decide whether they could be rejected.",
+      "[fox] The legal conflict involves lawsuits filed by 24 states and Washington, D.C. against the USPS regarding mail-in voting rules.",
+      "[guardian] The administration renewed its appeal after a judge extended a court order preventing the enforcement of the president's executive order."
+    ],
+    "framing_differences": [
+      "aljazeera frames the event as the administration seeking control over ballot rejection, while fox frames the event as part of a wider legal struggle involving 24 states and Washington D.C.",
+      "guardian frames the timeline as an urgent legal fight occurring as mail-in ballots are currently being sent to voters."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Judge Indira Talwani's order stated that the directives are likely unconstitutional."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the word 'escalated' to describe the administration's appeal to the Supreme Court."
+    ],
+    "safe_conclusions": [
+      "The Trump administration is pursuing a stay of a federal injunction regarding USPS mail-in ballot procedures at the US Supreme Court.",
+      "Litigation regarding mail-in voting procedures is ongoing as states initiate ballot distribution for the upcoming midterm elections."
+    ],
+    "unknowns": [
+      "The specific technical content of the directives blocked by Judge Talwani.",
+      "The exact timeline for when the Supreme Court will respond to the administration's request."
+    ],
+    "synthesis": "The Trump administration has appealed to the US Supreme Court to stay a preliminary injunction issued by US District Judge Indira Talwani regarding mail-in ballot procedures. The lower court order currently prevents the USPS from enforcing new handling directives for mail-in ballots. This legal action occurs while states have already commenced the distribution of ballots for the November midterm elections.",
+    "confidence": "HIGH: The sources provide consistent information regarding the core legal event and the context of the ongoing ballot distribution.",
+    "sources": [
+      {
+        "id": "art_1788723332004_o0bce",
+        "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump administration appeals again to US Supreme Court over mail-in voting"
+      },
+      {
+        "id": "art_1788723340532_ygwxx",
+        "url": "https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court",
+        "source": "fox",
+        "title": "Trump admin’s mail-in ballot fight lands back at Supreme Court"
+      },
+      {
+        "id": "art_1788715617920_wow4n",
+        "url": "https://www.theguardian.com/us-news/2026/sep/06/trump-administration-supreme-court-mail-in-voting",
+        "source": "guardian",
+        "title": "Trump again asks supreme court to restrict mail-in voting as midterms loom"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "5ee8476831dd74adc43d5dbfe29f0cfd",
+    "topic_label": "UK Reform Party donation controversy",
+    "event_window_start": "2026-09-06T11:12:09.000Z",
+    "event_window_end": "2026-09-06T11:19:37.000Z",
+    "article_ids": [
+      "art_1788693929100_jg6te",
+      "art_1788693930311_bruqf"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-06T16:35:40.064Z",
+    "updated_at": "2026-09-06T16:35:40.064Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Nigel Farage was interviewed by Laura Kuenssberg on the BBC.",
+      "Nigel Farage stated that the optics of the undercover filming of his aides 'looks bad'.",
+      "James Orr and Dan Jukes were suspended by Reform UK.",
+      "An undercover investigation recorded James Orr and Dan Jukes discussing electoral laws regarding foreign donations."
+    ],
+    "source_claims": [
+      "[guardian] Nigel Farage stated that Reform UK has never taken foreign money in breach of electoral law.",
+      "[guardian] Nigel Farage characterized the comments made by James Orr and Dan Jukes as 'injudicious at best'.",
+      "[guardian] The Metropolitan Police are considering launching an investigation into the matter.",
+      "[guardian] Robert Jenrick stated that the party has followed legal protocol at all times."
+    ],
+    "framing_differences": [
+      "The guardian frames the event primarily through the lens of Reform UK's internal crisis and the specific actions of aides, whereas the second guardian article expands the framing to include the potential legal implications and comments from external political figures like Robert Jenrick."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The undercover filming shows James Orr and Dan Jukes apparently plotting to bypass electoral laws."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'engulfing' to describe the situation facing Reform UK.",
+      "[guardian] uses the term 'plotting' to describe the behavior of Reform UK aides."
+    ],
+    "safe_conclusions": [
+      "Nigel Farage has addressed the undercover investigation involving two of his staff members.",
+      "James Orr and Dan Jukes have been suspended from their roles at Reform UK."
+    ],
+    "unknowns": [
+      "The full scope and content of the undercover footage beyond the reported excerpts.",
+      "Whether the Metropolitan Police will formally initiate a criminal investigation.",
+      "The specific details of the plans discussed by James Orr and Dan Jukes."
+    ],
+    "synthesis": "Nigel Farage has acknowledged that an undercover investigation featuring his aides, James Orr and Dan Jukes, presents a negative image for Reform UK. While Farage has suspended both individuals and denied that the party accepted illegal foreign donations, he admitted their recorded comments were injudicious. The situation remains under scrutiny as the Metropolitan Police consider an investigation into potential breaches of electoral law.",
+    "confidence": "HIGH. The sources are internally consistent and represent reporting on the same interview and political developments.",
+    "sources": [
+      {
+        "id": "art_1788693929100_jg6te",
+        "url": "https://www.theguardian.com/politics/live/2026/sep/06/nigel-farage-reform-uk-donations-undercover-investigation-latest-news-updates",
+        "source": "guardian",
+        "title": "Undercover report on donations ‘looks bad’ for Reform, admits Nigel Farage – UK politics live"
+      },
+      {
+        "id": "art_1788693930311_bruqf",
+        "url": "https://www.theguardian.com/politics/2026/sep/06/farage-says-overseas-donation-row-looks-bad-but-denies-reform-breached-electoral-law",
+        "source": "guardian",
+        "title": "Farage says overseas donation row ‘looks bad’ but denies Reform breached electoral law"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3cfe11855da565a796eda5e0511f4d0f",
+    "topic_label": "Assault on Ohio governor candidate",
+    "event_window_start": "2026-09-06T22:19:29.000Z",
+    "event_window_end": "2026-09-06T22:40:55.000Z",
+    "article_ids": [
+      "art_1788737999366_kzeqw",
+      "art_1788738001435_u5xtf"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-07T05:47:45.156Z",
+    "updated_at": "2026-09-07T05:47:45.156Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Amy Acton, a Democratic candidate for Ohio governor, attended an event at the Canfield Fair on Sunday.",
+      "An armed individual lunged at Amy Acton during the event.",
+      "Multiple people were injured during the incident.",
+      "Law enforcement took action at the scene and an individual was arrested.",
+      "Amy Acton was not injured during the encounter."
+    ],
+    "source_claims": [
+      "[guardian] Mahoning county Democratic party chairperson Chris Anderson stated that the suspect knocked volunteers to the ground.",
+      "[guardian] The campaign stated the suspect was discovered to have weapons.",
+      "[fox] Addie Bullock, campaign communications director, stated that Dr. Acton and Eric are grateful for law enforcement and are praying for the recovery of those injured."
+    ],
+    "framing_differences": [
+      "The guardian frames the event by focusing on the political candidate's status and the statement from the local Democratic party chair, while fox frames the report by first referencing a separate discussion regarding the normalization of political violence in America involving Vivek Ramaswamy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The suspect knocked volunteers to the ground."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'chaos, hate and vitriol' in a quote attributed to the campaign."
+    ],
+    "safe_conclusions": [
+      "An incident involving an armed individual occurred at the Canfield Fair where Amy Acton was present.",
+      "Injuries to multiple people were reported following an interaction with the individual.",
+      "Law enforcement arrested the individual involved."
+    ],
+    "unknowns": [
+      "The identity of the individual arrested.",
+      "The specific types of weapons the individual possessed.",
+      "The number of people injured and the severity of their injuries.",
+      "The specific motives of the individual involved."
+    ],
+    "synthesis": "An armed individual lunged at Democratic gubernatorial candidate Amy Acton during a campaign stop at the Canfield Fair on Sunday. The incident resulted in injuries to multiple people, though Acton was unharmed. Law enforcement intervened, arrested the individual, and the campaign subsequently expressed gratitude for their response.",
+    "confidence": "HIGH. Both sources agree on the core factual details regarding the incident involving an armed individual, the location, the target of the encounter, and the involvement of law enforcement.",
+    "sources": [
+      {
+        "id": "art_1788737999366_kzeqw",
+        "url": "https://www.theguardian.com/us-news/2026/sep/06/amy-acton-ohio-governor-candidate-attack",
+        "source": "guardian",
+        "title": "Assailant lunged at Democratic candidate for Ohio governor, campaign says"
+      },
+      {
+        "id": "art_1788738001435_u5xtf",
+        "url": "https://www.foxnews.com/politics/amy-acton-campaign-says-armed-individual-lunged-ohio-governor-candidate-injuring-multiple-people",
+        "source": "fox",
+        "title": "Amy Acton campaign says armed individual lunged at Ohio governor candidate, injuring multiple people"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "c38a4b4b1f35e5378b2e72250189cd17",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-09-06T23:01:18.000Z",
@@ -482,83 +1098,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "4f462bcc6a3726eb3064bb3892b0d075",
-    "topic_label": "Trump Supreme Court Mail-in Ballot",
-    "event_window_start": "2026-09-06T16:23:02.000Z",
-    "event_window_end": "2026-09-06T18:47:03.000Z",
-    "article_ids": [
-      "art_1788723332004_o0bce",
-      "art_1788723340532_ygwxx",
-      "art_1788715617920_wow4n"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T20:56:00.175Z",
-    "updated_at": "2026-09-06T20:56:00.175Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Trump administration filed an appeal with the US Supreme Court on Sunday regarding mail-in voting rules.",
-      "US District Judge Indira Talwani issued a preliminary injunction on Friday that blocked the USPS from enforcing certain ballot handling directives.",
-      "States have begun sending out mail-in ballots for the November midterm elections."
-    ],
-    "source_claims": [
-      "[aljazeera] The administration is asking the Supreme Court to allow the USPS to track mail-in ballots and decide whether they could be rejected.",
-      "[fox] The legal conflict involves lawsuits filed by 24 states and Washington, D.C. against the USPS regarding mail-in voting rules.",
-      "[guardian] The administration renewed its appeal after a judge extended a court order preventing the enforcement of the president's executive order."
-    ],
-    "framing_differences": [
-      "aljazeera frames the event as the administration seeking control over ballot rejection, while fox frames the event as part of a wider legal struggle involving 24 states and Washington D.C.",
-      "guardian frames the timeline as an urgent legal fight occurring as mail-in ballots are currently being sent to voters."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Judge Indira Talwani's order stated that the directives are likely unconstitutional."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the word 'escalated' to describe the administration's appeal to the Supreme Court."
-    ],
-    "safe_conclusions": [
-      "The Trump administration is pursuing a stay of a federal injunction regarding USPS mail-in ballot procedures at the US Supreme Court.",
-      "Litigation regarding mail-in voting procedures is ongoing as states initiate ballot distribution for the upcoming midterm elections."
-    ],
-    "unknowns": [
-      "The specific technical content of the directives blocked by Judge Talwani.",
-      "The exact timeline for when the Supreme Court will respond to the administration's request."
-    ],
-    "synthesis": "The Trump administration has appealed to the US Supreme Court to stay a preliminary injunction issued by US District Judge Indira Talwani regarding mail-in ballot procedures. The lower court order currently prevents the USPS from enforcing new handling directives for mail-in ballots. This legal action occurs while states have already commenced the distribution of ballots for the November midterm elections.",
-    "confidence": "HIGH: The sources provide consistent information regarding the core legal event and the context of the ongoing ballot distribution.",
-    "sources": [
-      {
-        "id": "art_1788723332004_o0bce",
-        "url": "https://www.aljazeera.com/news/2026/9/6/trump-administration-appeals-again-to-us-supreme-court-over-mail-in-voting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump administration appeals again to US Supreme Court over mail-in voting"
-      },
-      {
-        "id": "art_1788723340532_ygwxx",
-        "url": "https://www.foxnews.com/politics/trump-admin-mail-ballot-fight-lands-back-supreme-court",
-        "source": "fox",
-        "title": "Trump admin’s mail-in ballot fight lands back at Supreme Court"
-      },
-      {
-        "id": "art_1788715617920_wow4n",
-        "url": "https://www.theguardian.com/us-news/2026/sep/06/trump-administration-supreme-court-mail-in-voting",
-        "source": "guardian",
-        "title": "Trump again asks supreme court to restrict mail-in voting as midterms loom"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "130ff834de4d2eeb307877e54ca8a938",
     "topic_label": "Ukraine Peace and War Discussions",
     "event_window_start": "2026-09-05T21:23:06.000Z",
@@ -631,77 +1170,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
         "source": "aljazeera",
         "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5ee8476831dd74adc43d5dbfe29f0cfd",
-    "topic_label": "UK Reform Party donation controversy",
-    "event_window_start": "2026-09-06T11:12:09.000Z",
-    "event_window_end": "2026-09-06T11:19:37.000Z",
-    "article_ids": [
-      "art_1788693929100_jg6te",
-      "art_1788693930311_bruqf"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T16:35:40.064Z",
-    "updated_at": "2026-09-06T16:35:40.064Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Nigel Farage was interviewed by Laura Kuenssberg on the BBC.",
-      "Nigel Farage stated that the optics of the undercover filming of his aides 'looks bad'.",
-      "James Orr and Dan Jukes were suspended by Reform UK.",
-      "An undercover investigation recorded James Orr and Dan Jukes discussing electoral laws regarding foreign donations."
-    ],
-    "source_claims": [
-      "[guardian] Nigel Farage stated that Reform UK has never taken foreign money in breach of electoral law.",
-      "[guardian] Nigel Farage characterized the comments made by James Orr and Dan Jukes as 'injudicious at best'.",
-      "[guardian] The Metropolitan Police are considering launching an investigation into the matter.",
-      "[guardian] Robert Jenrick stated that the party has followed legal protocol at all times."
-    ],
-    "framing_differences": [
-      "The guardian frames the event primarily through the lens of Reform UK's internal crisis and the specific actions of aides, whereas the second guardian article expands the framing to include the potential legal implications and comments from external political figures like Robert Jenrick."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The undercover filming shows James Orr and Dan Jukes apparently plotting to bypass electoral laws."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'engulfing' to describe the situation facing Reform UK.",
-      "[guardian] uses the term 'plotting' to describe the behavior of Reform UK aides."
-    ],
-    "safe_conclusions": [
-      "Nigel Farage has addressed the undercover investigation involving two of his staff members.",
-      "James Orr and Dan Jukes have been suspended from their roles at Reform UK."
-    ],
-    "unknowns": [
-      "The full scope and content of the undercover footage beyond the reported excerpts.",
-      "Whether the Metropolitan Police will formally initiate a criminal investigation.",
-      "The specific details of the plans discussed by James Orr and Dan Jukes."
-    ],
-    "synthesis": "Nigel Farage has acknowledged that an undercover investigation featuring his aides, James Orr and Dan Jukes, presents a negative image for Reform UK. While Farage has suspended both individuals and denied that the party accepted illegal foreign donations, he admitted their recorded comments were injudicious. The situation remains under scrutiny as the Metropolitan Police consider an investigation into potential breaches of electoral law.",
-    "confidence": "HIGH. The sources are internally consistent and represent reporting on the same interview and political developments.",
-    "sources": [
-      {
-        "id": "art_1788693929100_jg6te",
-        "url": "https://www.theguardian.com/politics/live/2026/sep/06/nigel-farage-reform-uk-donations-undercover-investigation-latest-news-updates",
-        "source": "guardian",
-        "title": "Undercover report on donations ‘looks bad’ for Reform, admits Nigel Farage – UK politics live"
-      },
-      {
-        "id": "art_1788693930311_bruqf",
-        "url": "https://www.theguardian.com/politics/2026/sep/06/farage-says-overseas-donation-row-looks-bad-but-denies-reform-breached-electoral-law",
-        "source": "guardian",
-        "title": "Farage says overseas donation row ‘looks bad’ but denies Reform breached electoral law"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -16949,531 +17417,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/27/trump-truth-social-ai-george-washington",
         "source": "guardian",
         "title": "AI slopper in chief: Trump turns to social media amid tough questions"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d45bace9c47f4bca082213094295abc6",
-    "topic_label": "International diplomatic relations",
-    "event_window_start": "2026-08-27T10:00:04.000Z",
-    "event_window_end": "2026-08-27T10:10:50.000Z",
-    "article_ids": [
-      "art_1787825934351_6tv5c",
-      "art_1787825944722_iqmh7"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-28T02:27:33.013Z",
-    "updated_at": "2026-08-28T02:27:33.013Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The United States government is currently managing trade-related policies involving foreign entities and industries."
-    ],
-    "source_claims": [
-      "[guardian] The Trump administration is considering new, wider-ranging tariffs on semiconductors and tech products like laptops and servers.",
-      "[guardian] Commerce Secretary Howard Lutnick is exploring a strategy to tie tariff relief for foreign companies to domestic US manufacturing investments.",
-      "[fox] China has imposed retaliatory sanctions on US firms and tightened restrictions on drone exports.",
-      "[fox] Washington is considering additional sanctions on Chinese AI firms and targeting companies using Iranian fuel.",
-      "[fox] A State Department official described Chinese economic activity in Africa as a 'China shock wave' affecting African manufacturing."
-    ],
-    "framing_differences": [
-      "Guardian frames US economic policy through the lens of domestic tariff strategy and internal administration discussions, whereas Fox frames US economic policy through the lens of geopolitical conflict and trade tensions with China."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The Trump administration is considering sweeping tariffs on semiconductors and consumer electronics.",
-      "[fox] Chinese exports to Africa reached $225 billion in 2025.",
-      "[fox] African manufacturing is being crippled by a surge of Chinese state-subsidized imports."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'shock wave' to describe the economic impact of Chinese imports on African economies.",
-      "[fox] uses the term 'triple whammy' to describe the trade relationship between China and African nations."
-    ],
-    "safe_conclusions": [
-      "The United States is engaged in ongoing trade and tariff policy deliberations regarding international commerce."
-    ],
-    "unknowns": [
-      "The official status of the reported semiconductor tariff proposals within the US government.",
-      "The specific details of the sanctions China has imposed on US firms.",
-      "The current economic data validating the specific impacts of Chinese trade on African manufacturing sectors."
-    ],
-    "synthesis": "The United States is currently navigating complex trade relations, with reports indicating potential new semiconductor tariffs and ongoing efforts to counter Chinese influence. Simultaneously, trade tensions between the US and China are escalating through retaliatory sanctions and export restrictions. Perspectives on these economic policies vary, ranging from domestic tariff strategy to broader geopolitical competition in international markets.",
-    "confidence": "MEDIUM. The sources discuss unrelated trade policy actions and different geopolitical regions, resulting in minimal factual overlap to confirm.",
-    "sources": [
-      {
-        "id": "art_1787825934351_6tv5c",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/27/cia-moscow-nato-ratcliffe-rutte-colby-trump-paxton-voting-latest-news-updates",
-        "source": "guardian",
-        "title": "CIA chief reportedly warns Russia against attacking Nato countries on visit to Moscow – US politics live"
-      },
-      {
-        "id": "art_1787825944722_iqmh7",
-        "url": "https://www.foxnews.com/world/us-counters-china-beijings-shock-wave-hits-african-economies",
-        "source": "fox",
-        "title": "US counters China as Beijing’s ‘shock wave’ hits African economies"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e74083f9cbc5d4bab6d7abc0c9b14a2a",
-    "topic_label": "Nepal-Tibet Flash Floods",
-    "event_window_start": "2026-08-27T00:24:58.000Z",
-    "event_window_end": "2026-08-27T10:06:23.000Z",
-    "article_ids": [
-      "art_1787825935624_ujc6f",
-      "art_1787825945829_q65p2",
-      "art_1787825947020_puscg",
-      "art_1787825948049_bocn4",
-      "art_1787825949254_skfrx",
-      "art_1787791074882_3id0v"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T18:38:40.484Z",
-    "updated_at": "2026-08-27T18:38:40.484Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Flash floods occurred on the Nepal-Tibet border.",
-      "The disaster resulted in fatalities and missing persons.",
-      "The United States Geological Survey (USGS) analyzed the event.",
-      "A glacier collapse is identified as the likely cause of the flood.",
-      "Search and rescue operations are ongoing."
-    ],
-    "source_claims": [
-      "[guardian] cites Nepal police stating 270 bodies have been recovered.",
-      "[guardian] reports nearly 1,400 to 1,500 people are missing, many of whom are tourists.",
-      "[guardian] reports missing individuals include nationals from India, US, UK, Australia, Canada, Malaysia, and Ukraine.",
-      "[bbc] reports initial reports of an earthquake preceded the understanding that it was a glacial collapse.",
-      "[bbc] reports that the impact of the glacial collapse registered a magnitude of 5.2 according to USGS data.",
-      "[bbc] reports that 177 to 165 people have been killed according to different updates provided."
-    ],
-    "framing_differences": [
-      "The Guardian frames the event with a focus on the humanitarian toll and the nationality of missing tourists, while the BBC focuses on the scientific investigation and the retraction of the initial earthquake report."
-    ],
-    "contested_claims": [
-      "Sources report conflicting death tolls, with the Guardian citing 270 deaths in multiple reports and the BBC citing 177 and 165 deaths in separate articles."
-    ],
-    "unverified_claims": [
-      "[guardian] claims 25 miles (40km) of roads were destroyed in the mountainous region.",
-      "[guardian] claims tour company Kailash Journeys cannot account for seven UK nationals.",
-      "[guardian] claims tour operator Alpine Eco Trek reports a 13-year-old girl is among the missing."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'catastrophic' to describe the flash flood.",
-      "[guardian] uses the term 'obliterating' to describe the effect on villages.",
-      "[guardian] uses the term 'roaring down valleys' to describe the flood's movement.",
-      "[bbc] uses the term 'devastating' to describe the floods."
-    ],
-    "safe_conclusions": [
-      "A geological event on the Nepal-Tibet border caused widespread flooding.",
-      "There are significant casualties and missing persons.",
-      "Scientific consensus identified a glacial collapse as the trigger for the flooding."
-    ],
-    "unknowns": [
-      "The exact number of confirmed fatalities.",
-      "The exact number of missing persons.",
-      "The final verified breakdown of missing individuals by nationality."
-    ],
-    "synthesis": "Flash floods occurred along the Nepal-Tibet border following a glacial collapse, causing significant loss of life and infrastructure damage. While initial reports erroneously identified an earthquake as the cause, the USGS later confirmed the disaster was triggered by the disintegration of a glacier. Rescue operations are currently underway for a large number of missing individuals, including international tourists.",
-    "confidence": "CONTESTED. There are significant discrepancies in the reported death tolls between the sources and within the reporting of a single outlet.",
-    "sources": [
-      {
-        "id": "art_1787825935624_ujc6f",
-        "url": "https://www.theguardian.com/world/live/2026/aug/27/nepal-flash-flood-live-updates-tibet-border-death-toll-missing-himalayas-floods-flooding-latest-news",
-        "source": "guardian",
-        "title": "Nepal flash flood: 270 bodies recovered with hundreds more missing – latest updates"
-      },
-      {
-        "id": "art_1787825945829_q65p2",
-        "url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we know about deadly Nepal-Tibet floods"
-      },
-      {
-        "id": "art_1787825947020_puscg",
-        "url": "https://www.theguardian.com/world/2026/aug/27/what-caused-nepal-flash-flood-glacial-collapse-tibet-border",
-        "source": "guardian",
-        "title": "Nearly 1,400 missing, mostly tourists, after Nepal-Tibet flash flood kills at least 270"
-      },
-      {
-        "id": "art_1787825948049_bocn4",
-        "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say"
-      },
-      {
-        "id": "art_1787825949254_skfrx",
-        "url": "https://www.theguardian.com/world/2026/aug/27/britons-missing-flash-floods-nepal-tibet",
-        "source": "guardian",
-        "title": "Search on for at least 33 Britons missing after flash floods in Nepal and Tibet"
-      },
-      {
-        "id": "art_1787791074882_3id0v",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
-        "source": "guardian",
-        "title": "Anthony Albanese says 34 Australians among hundreds of people missing in deadly Nepal flash floods"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1ea4a0c5649ac9af7082bc39ff6fbf63",
-    "topic_label": "Nepal Flash Floods Disaster",
-    "event_window_start": "2026-08-26T09:48:36.000Z",
-    "event_window_end": "2026-08-27T00:24:58.000Z",
-    "article_ids": [
-      "art_1787791074882_3id0v",
-      "art_1787742848418_ygneq",
-      "art_1787739499709_iz48l"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T07:16:25.024Z",
-    "updated_at": "2026-08-27T07:16:25.024Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A flash flood event has occurred in the Nepal-Tibet border region.",
-      "The disaster has damaged roads, bridges, and infrastructure in the district of Rasuwa.",
-      "Search and rescue operations are being conducted.",
-      "The event has resulted in fatalities and missing persons."
-    ],
-    "source_claims": [
-      "[guardian] Australian Prime Minister Anthony Albanese stated that 34 Australians are missing.",
-      "[guardian] The Nepal Tourist Board reported that 403 people are missing, including 341 foreign nationals.",
-      "[bbc] At least 17 people have been killed, with nearly 400 unaccounted for.",
-      "[bbc] Preliminary information suggests the event was caused by an earthquake triggering an avalanche with melted snow entering the Bhote Koshi river.",
-      "[aljazeera] At least eight people have been killed.",
-      "[aljazeera] Helicopter rescue operations are hindered by high water levels in Syapru Besi and Timure."
-    ],
-    "framing_differences": [
-      "The guardian focuses on the impact on Australian nationals and data provided by the Nepal Tourist Board; the bbc provides a higher death toll and details regarding the potential geological cause of the flood; aljazeera emphasizes the operational challenges for rescue helicopters and the impact on local energy facilities."
-    ],
-    "contested_claims": [
-      "There is a discrepancy in the reported number of fatalities, with the bbc reporting at least 17 and aljazeera reporting at least eight."
-    ],
-    "unverified_claims": [
-      "[guardian] The Nepal Tourist Board reported 203 of the missing are male and 200 female.",
-      "[bbc] 12 people have been rescued so far.",
-      "[aljazeera] District administrator Narendra Pariyar urged residents along the Bhote Koshi River to seek higher ground."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'huge scale loss' to describe the anticipation of officials regarding the disaster."
-    ],
-    "safe_conclusions": [
-      "Flash flooding has caused infrastructure damage and casualties in the Nepal-Tibet border area near Rasuwa."
-    ],
-    "unknowns": [
-      "The exact total number of fatalities remains unconfirmed.",
-      "The total number of missing persons varies across reporting sources.",
-      "The definitive cause of the flash flood has not been officially determined by authorities."
-    ],
-    "synthesis": "Flash floods occurred along the Nepal-Tibet border, causing damage to infrastructure and resulting in multiple fatalities and missing persons. Different sources report varying figures regarding the number of deceased and missing individuals, as well as the potential environmental cause of the disaster. Rescue operations are currently underway in the affected areas.",
-    "confidence": "MEDIUM: The sources provide conflicting fatality counts and varying data regarding the number of missing persons.",
-    "sources": [
-      {
-        "id": "art_1787791074882_3id0v",
-        "url": "https://www.theguardian.com/australia-news/2026/aug/27/australian-tourists-reported-missing-nepal-tibet-floods",
-        "source": "guardian",
-        "title": "Anthony Albanese says 34 Australians among hundreds of people missing in deadly Nepal flash floods"
-      },
-      {
-        "id": "art_1787742848418_ygneq",
-        "url": "https://www.bbc.co.uk/news/articles/cx2zyerv2lmo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Seventeen dead and hundreds unaccounted for as flash flood hits Nepal-Tibet border"
-      },
-      {
-        "id": "art_1787739499709_iz48l",
-        "url": "https://www.aljazeera.com/news/2026/8/26/at-least-eight-killed-in-nepal-flash-floods-that-swept-away-villages-roads?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "At least eight killed as Nepal flash flood damages roads, energy facilities"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4fe461148a1f76c4cd663b81de0fc3c6",
-    "topic_label": "Middle East Conflict and Tensions",
-    "event_window_start": "2026-08-26T07:18:07.000Z",
-    "event_window_end": "2026-08-26T11:00:11.000Z",
-    "article_ids": [
-      "art_1787742845694_ycf8k",
-      "art_1787742846853_53i6c",
-      "art_1787739497490_1vh58",
-      "art_1787739502942_wpjx1",
-      "art_1787736259480_wndvi",
-      "art_1787736261691_ko5pu",
-      "art_1787732454172_xyjq6",
-      "art_1787732456344_t65fx",
-      "art_1787729903878_4pqki",
-      "art_1787729905963_eut70"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 10,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T07:16:25.024Z",
-    "updated_at": "2026-08-27T07:16:25.024Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The United States has implemented economic sanctions targeting Iran.",
-      "US Air Force refueling aircraft were stationed at the Bezmer airbase in Bulgaria.",
-      "Treasury Secretary Scott Bessent has described current US economic measures against Iran as an 'Economic D-Day'."
-    ],
-    "source_claims": [
-      "[guardian] Claims Israel funded a non-existent thinktank to publish content designed to influence AI chatbots with pro-Israel narratives.",
-      "[aljazeera] Claims the Iranian rial dropped to a value of 2 million per 1 US dollar on the free market.",
-      "[aljazeera] States that a US-Israel war on Iran was launched on February 28.",
-      "[fox] States that the US administration will remove financial institutions aiding Iran from the US dollar system.",
-      "[fox] Claims the US administration intends to sanction China if it continues importing Iranian crude oil."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the current regional situation as a 'US-Israel war on Iran,' while Fox News frames the situation as an 'Economic D-Day' or 'maximum-pressure campaign.'",
-      "Guardian frames the Israeli influence efforts as an attempt to 'game AI,' whereas other sources do not address this specific activity."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Claims that a US-Israel war on Iran commenced on February 28.",
-      "[guardian] Claims that Israel created a fake thinktank to influence AI models.",
-      "[guardian] Claims that Gaza farmers face severe challenges with over 80% of greenhouses ruined."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'propaganda' to describe pro-Israel AI content.",
-      "[aljazeera] uses the term 'misery' to describe the effect of inflation on the Iranian population.",
-      "[aljazeera] uses the term 'crippled' to describe the state of the Iranian economy.",
-      "[fox] uses the term 'Economic D-Day' to describe the US economic strategy toward Iran."
-    ],
-    "safe_conclusions": [
-      "US policy currently involves utilizing economic sanctions against Iran.",
-      "US Air Force aircraft have been deployed to and subsequently departed from an airbase in Bulgaria.",
-      "The Iranian currency has experienced significant depreciation against the US dollar."
-    ],
-    "unknowns": [
-      "Whether the US has officially declared war on Iran.",
-      "The full extent of damage to agricultural infrastructure in Gaza.",
-      "The specific operational details regarding the US-Israel military cooperation mentioned by Al Jazeera."
-    ],
-    "synthesis": "The United States is employing economic sanctions against Iran, with officials characterizing these measures as a maximum-pressure campaign. Military movements involving US Air Force tankers have occurred in Bulgaria, amidst regional reports of active conflict. Concurrently, international reporting highlights economic instability in Iran and concerns regarding digital influence efforts related to the conflict in Gaza.",
-    "confidence": "MEDIUM.MEDIUM. The sources provide consistent reporting on economic and military policy but differ significantly on the characterization of the nature and timeline of current combat operations.",
-    "sources": [
-      {
-        "id": "art_1787742845694_ycf8k",
-        "url": "https://www.theguardian.com/world/2026/aug/26/gaza-farmers-struggle-scraps-of-land-constant-threat",
-        "source": "guardian",
-        "title": "On scraps of land and under constant threat, Gaza farmers struggle to survive"
-      },
-      {
-        "id": "art_1787742846853_53i6c",
-        "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
-        "source": "guardian",
-        "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda"
-      },
-      {
-        "id": "art_1787739497490_1vh58",
-        "url": "https://www.aljazeera.com/economy/2026/8/26/one-us-dollar-now-costs-2-million-rials-in-iran-and-heres-what-it-can-buy?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "One US dollar now costs 2 million rials in Iran, and here’s what it can buy"
-      },
-      {
-        "id": "art_1787739502942_wpjx1",
-        "url": "https://www.aljazeera.com/news/2026/8/26/the-bulgarian-village-that-fears-becoming-an-iranian-target?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Bulgarian village that fears becoming an Iranian target"
-      },
-      {
-        "id": "art_1787736259480_wndvi",
-        "url": "https://www.foxnews.com/opinion/trumps-economic-d-day-hammer-iran-tehran-surrender",
-        "source": "fox",
-        "title": "Trump’s Economic D-Day can hammer Iran, but will Tehran ever surrender?"
-      },
-      {
-        "id": "art_1787736261691_ko5pu",
-        "url": "https://www.aljazeera.com/sports/2026/8/26/bodo-return-to-champions-league-azerbaijans-sabah-deny-israeli-beer-sheva?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bodo return to Champions League, Azerbaijan’s Sabah deny Israeli Beer-Sheva"
-      },
-      {
-        "id": "art_1787732454172_xyjq6",
-        "url": "https://www.aljazeera.com/news/2026/8/26/un-rejects-israels-threat-to-expel-gaza-residents-over-kite-flying?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN rejects Israel’s threat to expel Gaza residents over kite-flying"
-      },
-      {
-        "id": "art_1787732456344_t65fx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/palestinian-boy-shot-during-israeli-raid-on-unrwa-centre?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian boy shot during Israeli raid on UNRWA centre"
-      },
-      {
-        "id": "art_1787729903878_4pqki",
-        "url": "https://www.aljazeera.com/opinions/2026/8/26/the-rsfs-defeat-will-not-end-sudans-war-but-merely-fragment-it?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The RSF’s defeat will not end Sudan’s war but merely fragment it"
-      },
-      {
-        "id": "art_1787729905963_eut70",
-        "url": "https://www.aljazeera.com/economy/2026/8/26/trump-threatens-irans-partners-how-do-secondary-sanctions-work?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump threatens Iran’s partners: How do secondary sanctions work?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c05d4b192be8f2de5835d872718b89d7",
-    "topic_label": "US Political News",
-    "event_window_start": "2026-08-26T08:42:28.000Z",
-    "event_window_end": "2026-08-27T00:26:31.000Z",
-    "article_ids": [
-      "art_1787791073715_2rew2",
-      "art_1787791083688_ncix2",
-      "art_1787791084725_41n7c",
-      "art_1787742835475_81cek",
-      "art_1787739489470_7lt2f",
-      "art_1787739501904_cbbyj",
-      "art_1787736262730_cw08l",
-      "art_1787736265836_m6hya",
-      "art_1787736271098_bh7l8"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T07:16:25.024Z",
-    "updated_at": "2026-08-27T07:16:25.024Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] Hunter Biden stated on the podcast 'Bleep! with Ana Navarro' that the U.S. has lost democracy under President Trump and that Trump is a 'dictator.'",
-      "[fox] Justice Clarence Thomas recounted a conversation where Justice Samuel Alito described him as 'scary' during their time at Yale Law School.",
-      "[fox] Lawyers for President Donald Trump filed an appeal in the New York Court of Appeals requesting the dismissal of a $464 million civil fraud judgment.",
-      "[fox] A contributor argues that progressive critiques of Donald Trump regarding judicial rulings are inconsistent with the concepts of popular constitutionalism and departmentalism.",
-      "[guardian] Darline Graham won the South Carolina Republican nomination for a U.S. Senate seat previously held by her late brother.",
-      "[guardian] The organization Reproductive Freedom for All has endorsed Troy Jackson in the Maine U.S. Senate race against incumbent Susan Collins."
-    ],
-    "framing_differences": [
-      "The fox source covering Hunter Biden frames the interview as a disagreement between the host and the guest, while the fox source covering the judicial philosophy article frames political discourse as hypocritical on the part of progressives."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Lawyers for Trump claim the $464 million civil fraud case involves 'reams of improper statements targeting President Trump, his family, and his businesses.'",
-      "[guardian] The guardian claims Darline Graham faced 'concern about lack of experience' in her run for the nomination."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'dictator' to describe Donald Trump as quoted from Hunter Biden.",
-      "[fox] uses the term 'scary' to describe Clarence Thomas as quoted from Samuel Alito.",
-      "[fox] uses the term 'constitutional hypocrisy' to describe the actions of the political Left.",
-      "[fox] uses the term 'war on Trump' to describe actions taken against the former president."
-    ],
-    "safe_conclusions": [
-      "Hunter Biden participated in an interview on the podcast 'Bleep! with Ana Navarro'.",
-      "Justice Clarence Thomas and Justice Samuel Alito both attended Yale Law School.",
-      "Donald Trump's legal team filed an appeal in a New York civil fraud case.",
-      "Darline Graham secured a Republican nomination in South Carolina.",
-      "Reproductive Freedom for All endorsed Troy Jackson for a U.S. Senate seat."
-    ],
-    "unknowns": [
-      "The specific context regarding the internal dynamics of the South Carolina Republican nomination process.",
-      "The full legal arguments presented in the Trump civil fraud appeal beyond the summary provided.",
-      "The complete list of policies referred to as the 'war on Trump' by the provided source."
-    ],
-    "synthesis": "The provided articles cover various disparate political and legal events, including statements by Hunter Biden on a podcast, personal recollections of Supreme Court Justices, a legal appeal by Donald Trump's attorneys, and developments in U.S. Senate primary and general election races. There is no central event connecting these reports. The sources represent individual news reports on unrelated topics ranging from the judiciary to electoral politics.",
-    "confidence": "HIGH. The provided texts are unrelated reports on distinct topics, and the factual claims are attributed to specific, identifiable sources or events.",
-    "sources": [
-      {
-        "id": "art_1787791073715_2rew2",
-        "url": "https://www.foxnews.com/media/view-host-ana-navarro-rejects-hunter-biden-assertion-trump-already-dictator",
-        "source": "fox",
-        "title": "'View' host Ana Navarro rejects Hunter Biden's assertion that Trump is 'already' a 'dictator'"
-      },
-      {
-        "id": "art_1787791083688_ncix2",
-        "url": "https://www.foxnews.com/politics/justice-thomas-recalls-wasnt-friends-alito-law-school-clarence-scary",
-        "source": "fox",
-        "title": "Justice Thomas recalls why he wasn't friends with Alito in law school: 'Clarence, you were scary'"
-      },
-      {
-        "id": "art_1787791084725_41n7c",
-        "url": "https://www.foxnews.com/politics/trumps-lawyers-put-dem-ag-notice-targeting-his-family-ny-fraud-fight",
-        "source": "fox",
-        "title": "Trump's lawyers put Dem AG on notice for targeting his family in NY fraud fight: 'Cannot stand'"
-      },
-      {
-        "id": "art_1787742835475_81cek",
-        "url": "https://www.foxnews.com/opinion/lefts-constitutional-hypocrisy-full-display-war-trump",
-        "source": "fox",
-        "title": "The Left’s constitutional hypocrisy is on full display in its war on Trump"
-      },
-      {
-        "id": "art_1787739489470_7lt2f",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/26/darline-graham-lindsey-south-carolina-gop-post-office-voting-senate-midterms-donald-trump-latest-news-updates",
-        "source": "guardian",
-        "title": "Darline Graham wins South Carolina GOP nomination to replace her late brother in US Senate – US politics live"
-      },
-      {
-        "id": "art_1787739501904_cbbyj",
-        "url": "https://www.theguardian.com/us-news/2026/aug/26/abortion-rights-group-endorses-democrat-troy-jackson-in-critical-maine-senate-race",
-        "source": "guardian",
-        "title": "Abortion rights group endorses Democrat Troy Jackson in critical Maine Senate race"
-      },
-      {
-        "id": "art_1787736262730_cw08l",
-        "url": "https://www.foxnews.com/opinion/aoc-says-woke-1-crazy-democrats-owe-voters-explanation",
-        "source": "fox",
-        "title": "AOC says ‘Woke 1 was crazy,’ but Democrats still owe voters an explanation"
-      },
-      {
-        "id": "art_1787736265836_m6hya",
-        "url": "https://www.foxnews.com/politics/michigan-gop-lawmaker-casts-doubt-el-sayeds-socialist-denial-policies-tell-another-story-sharp-odds",
-        "source": "fox",
-        "title": "Michigan GOP lawmaker casts doubt on El-Sayed’s socialist denial as policies tell another story: ‘Sharp odds’"
-      },
-      {
-        "id": "art_1787736271098_bh7l8",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/lindsey-grahams-sister-up-for-election-to-his-us-senate-seat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lindsey Graham’s sister up for election to his US Senate seat"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
