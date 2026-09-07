@@ -1,5 +1,96 @@
 [
   {
+    "cluster_id": "c38a4b4b1f35e5378b2e72250189cd17",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-06T23:01:18.000Z",
+    "event_window_end": "2026-09-06T23:32:27.000Z",
+    "article_ids": [
+      "art_1788737992542_2wpsw",
+      "art_1788737993597_eo67u",
+      "art_1788737994786_nanmu",
+      "art_1788737995828_d6qzg",
+      "art_1788737997043_fpggn"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-07T00:49:49.909Z",
+    "updated_at": "2026-09-07T00:49:49.909Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] claims the Kansas State Wildcats mascot performed a large number of push-ups during a 71-3 game.",
+      "[fox] claims a group of eight fans was ejected from a Portland Thorns NWSL match for wearing pro-women apparel.",
+      "[bbc] claims volunteer firefighter Fahrin Ramadhianto has been fighting wildfires in Borneo for over a month.",
+      "[bbc] claims India's National Testing Agency is experiencing a crisis of confidence regarding its examination system.",
+      "[guardian] claims the University of Bristol's new £500m Temple Quarter Enterprise Campus has opened."
+    ],
+    "framing_differences": [
+      "The source 'fox' frames the Portland Thorns incident as a controversy over apparel labeled 'transphobic' by venue staff, whereas the incident itself is framed around the ejection of fans."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims the Portland Thorns venue staff labeled the apparel worn by the ejected group as 'transphobic'.",
+      "[bbc] claims the smog from Borneo wildfires has reached Singapore, Manila, and Kuala Lumpur.",
+      "[guardian] claims the former Royal Mail sorting office site was described by David Cameron as looking like the entrance to a war zone."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'absurd amount' to describe the number of push-ups performed by the mascot.",
+      "[fox] uses the term 'pro-women' to describe the apparel worn by the ejected fans."
+    ],
+    "safe_conclusions": [
+      "Various news stories were reported covering college football, a sports stadium ejection, environmental fires in Borneo, Indian testing agency policies, and a university campus opening in Bristol."
+    ],
+    "unknowns": [
+      "The specific content of the apparel slogans that led to the stadium ejection is not fully detailed.",
+      "The full extent of the environmental impact of the Borneo wildfires beyond the accounts provided.",
+      "The specific administrative failures leading to the crisis at India's National Testing Agency."
+    ],
+    "synthesis": "These articles cover a range of independent global news stories, including sports, social issues, environmental concerns, and educational infrastructure. There is no intersection in the subject matter between the provided sources. Each report focuses on localized events specific to its respective geographic and cultural context.",
+    "confidence": "HIGH. The sources report on entirely distinct and unrelated events, making factual consistency irrelevant across the provided articles.",
+    "sources": [
+      {
+        "id": "art_1788737992542_2wpsw",
+        "url": "https://www.foxnews.com/outkick-sports/kansas-state-wildcats-mascot-forced-complete-absurd-amount-push-ups-during-71-3-victory",
+        "source": "fox",
+        "title": "Kansas State Wildcats' mascot forced to complete absurd amount of push-ups during 71-3 victory"
+      },
+      {
+        "id": "art_1788737993597_eo67u",
+        "url": "https://www.foxnews.com/outkick-sports/group-fans-kicked-out-portland-thorns-nwsl-match-transphobic-pro-women-apparel",
+        "source": "fox",
+        "title": "Group of fans kicked out of Portland Thorns NWSL match over pro-women apparel labeled 'transphobic'"
+      },
+      {
+        "id": "art_1788737994786_nanmu",
+        "url": "https://www.bbc.co.uk/news/articles/c1kx4lgy4z4o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "The volunteers risking their lives to defuse Indonesia's wildfire 'carbon bombs'"
+      },
+      {
+        "id": "art_1788737995828_d6qzg",
+        "url": "https://www.bbc.co.uk/news/articles/cvgy1g7egy9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "India's high-stakes exam system faces a crisis of trust"
+      },
+      {
+        "id": "art_1788737997043_fpggn",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/07/university-of-bristol-flagship-500m-campus-opens",
+        "source": "guardian",
+        "title": "‘Gigantic spaceship’: University of Bristol’s flagship £500m campus opens"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "1fe97e6f211bd64736bd411dde720ae9",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-09-06T21:08:30.000Z",
@@ -17383,81 +17474,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/8/26/lindsey-grahams-sister-up-for-election-to-his-us-senate-seat?traffic_source=rss",
         "source": "aljazeera",
         "title": "Lindsey Graham’s sister up for election to his US Senate seat"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4acd711d93e43b61d54122ab0177a3a4",
-    "topic_label": "Death of Dolly Parton",
-    "event_window_start": "2026-08-26T07:46:12.000Z",
-    "event_window_end": "2026-08-26T11:00:33.000Z",
-    "article_ids": [
-      "art_1787742840523_f5ndn",
-      "art_1787742853532_dzlrx",
-      "art_1787732453147_gvfy7"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-08-27T07:16:25.024Z",
-    "updated_at": "2026-08-27T07:16:25.024Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Dolly Parton has died at age 80.",
-      "The news of her death was confirmed on a Tuesday."
-    ],
-    "source_claims": [
-      "[fox] Parton died after a brief battle with cancer.",
-      "[guardian] Parton's nephew shared news of her death on social media.",
-      "[guardian] Parton had canceled a Las Vegas residency earlier this year due to health issues."
-    ],
-    "framing_differences": [
-      "Fox focuses on Parton's career legacy and the official statement from her team, while The Guardian focuses on celebrity tributes and the personal statement from her nephew."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Parton died in Nashville.",
-      "[guardian] Parton is in the arms of Jesus."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'country music immortality' to describe Parton's legacy.",
-      "[guardian] uses the term 'queen of country' to describe Parton."
-    ],
-    "safe_conclusions": [
-      "Dolly Parton, a notable country music singer, songwriter, and actor, died at the age of 80."
-    ],
-    "unknowns": [
-      "The specific medical nature of the health issues leading to the cancellation of her residency.",
-      "The exact location of Parton's death, as only one source mentions Nashville."
-    ],
-    "synthesis": "Country music figure Dolly Parton has died at the age of 80. Her death was confirmed by representatives and family members, prompting global tributes from various public figures. The cause of death and specific health history remain reported with varying levels of detail across sources.",
-    "confidence": "HIGH. The sources consistently report the death of the subject and her age, with only minor variations in the reporting of the circumstances.",
-    "sources": [
-      {
-        "id": "art_1787742840523_f5ndn",
-        "url": "https://www.foxnews.com/entertainment/dolly-parton-life-own-words-smoky-mountains-poverty-country-music-immortality",
-        "source": "fox",
-        "title": "Dolly Parton's life in her own words: from Smoky Mountains poverty to country music immortality"
-      },
-      {
-        "id": "art_1787742853532_dzlrx",
-        "url": "https://www.foxnews.com/us/dolly-parton-cause-of-death-revealed-more-top-headlines",
-        "source": "fox",
-        "title": "Dolly Parton's cause of death revealed and more top headlines"
-      },
-      {
-        "id": "art_1787732453147_gvfy7",
-        "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-death-celebrity-reactions",
-        "source": "guardian",
-        "title": "Celebrity tributes pour in for Dolly Parton: ‘a gift to the world’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
