@@ -1,39 +1,10 @@
 {
-  "generated_at": "2026-09-09T21:49:13.258Z",
+  "generated_at": "2026-09-09T23:58:38.045Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 174,
   "watchlist_count": 3,
   "latest_clusters": [
-    {
-      "cluster_id": "3c88fb5755f3d240c23b503fa724f62b",
-      "topic_label": "Conflict in the Middle East",
-      "event_window_start": "2026-09-08T22:54:18.000Z",
-      "event_window_end": "2026-09-09T00:08:37.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "A sequence of military events occurred in the Gulf region involving the United States and Iran on a Tuesday.",
-        "The Strait of Hormuz is currently a site of military activity."
-      ],
-      "source_differences": [],
-      "synthesis": "Recent reports describe conflicting military engagements in the Gulf region involving the United States and Iranian forces. One account details kinetic strikes on oil tankers and retaliatory missile fire at a base in Jordan, while another report focuses on the seizure of a malfunctioning American underwater drone. The relationship between these reported events remains unverified.",
-      "confidence": "LOW. The sources provide entirely different narratives regarding the nature and scope of the military activity occurring in the region.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss",
-          "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz",
-          "title": "US says Iranian tankers destroyed after missile attacks on American warship"
-        }
-      ],
-      "updated_at": "2026-09-09T19:15:28.152Z"
-    },
     {
       "cluster_id": "051cd025e94042586bef31506c1b388c",
       "topic_label": "US Elections and Political Campaigns",
@@ -83,6 +54,35 @@
         }
       ],
       "updated_at": "2026-09-09T21:49:04.743Z"
+    },
+    {
+      "cluster_id": "3c88fb5755f3d240c23b503fa724f62b",
+      "topic_label": "Conflict in the Middle East",
+      "event_window_start": "2026-09-08T22:54:18.000Z",
+      "event_window_end": "2026-09-09T00:08:37.000Z",
+      "article_count": 2,
+      "source_count": 2,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "A sequence of military events occurred in the Gulf region involving the United States and Iran on a Tuesday.",
+        "The Strait of Hormuz is currently a site of military activity."
+      ],
+      "source_differences": [],
+      "synthesis": "Recent reports describe conflicting military engagements in the Gulf region involving the United States and Iranian forces. One account details kinetic strikes on oil tankers and retaliatory missile fire at a base in Jordan, while another report focuses on the seizure of a malfunctioning American underwater drone. The relationship between these reported events remains unverified.",
+      "confidence": "LOW. The sources provide entirely different narratives regarding the nature and scope of the military activity occurring in the region.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss",
+          "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz",
+          "title": "US says Iranian tankers destroyed after missile attacks on American warship"
+        }
+      ],
+      "updated_at": "2026-09-09T19:15:28.152Z"
     },
     {
       "cluster_id": "a031ef9cb176b39dd042dd988a4b644b",
@@ -445,6 +445,26 @@
   ],
   "latest_impact": [
     {
+      "id": "impact-051cd025",
+      "title": "US Elections and Political Campaigns",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "New Hampshire held primary elections featuring contests for Senate, House, and gubernatorial seats. Sources report differing outcomes for various Republican and Democratic candidates, including primary wins for incumbent officials and challengers. The reports highlight the political landscape of the state as candidates move toward the general election.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "051cd025e94042586bef31506c1b388c",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-09T21:49:04.743Z"
+    },
+    {
       "id": "impact-3c88fb57",
       "title": "Conflict in the Middle East",
       "severity": "high",
@@ -465,26 +485,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-09T19:15:28.152Z"
-    },
-    {
-      "id": "impact-051cd025",
-      "title": "US Elections and Political Campaigns",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "New Hampshire held primary elections featuring contests for Senate, House, and gubernatorial seats. Sources report differing outcomes for various Republican and Democratic candidates, including primary wins for incumbent officials and challengers. The reports highlight the political landscape of the state as candidates move toward the general election.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "051cd025e94042586bef31506c1b388c",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-09T21:49:04.743Z"
     },
     {
       "id": "impact-a031ef9c",
