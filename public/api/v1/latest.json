@@ -1,27 +1,38 @@
 {
-  "generated_at": "2026-09-09T06:31:06.591Z",
+  "generated_at": "2026-09-09T11:54:27.237Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 175,
   "watchlist_count": 3,
   "latest_clusters": [
     {
-      "cluster_id": "b6636c2c088c9278c7a935e2aef04ff3",
+      "cluster_id": "e35d102ff46f8ca3e54659ace069937a",
       "topic_label": "Conflict in the Middle East",
-      "event_window_start": "2026-09-08T08:08:17.000Z",
-      "event_window_end": "2026-09-08T17:04:28.000Z",
-      "article_count": 5,
-      "source_count": 2,
+      "event_window_start": "2026-09-08T12:34:55.000Z",
+      "event_window_end": "2026-09-09T00:08:37.000Z",
+      "article_count": 9,
+      "source_count": 3,
       "region_tag": "middle-east",
       "shared_facts": [
-        "The UK government has announced an import ban on goods from Israeli settlements in the West Bank.",
-        "Ed Miliband is the UK Foreign Secretary.",
-        "The Israeli government has taken retaliatory diplomatic measures against the UK, including the closure of the British consulate in East Jerusalem and entry bans on certain UK MPs."
+        "An exchange of fire occurred involving US and Iranian assets in the region.",
+        "The IRGC and the US military have had interactions involving drones or naval assets near the Strait of Hormuz.",
+        "Israeli military operations are ongoing in Gaza.",
+        "Israel has announced the closure of the British consulate in Jerusalem and entry bans for some UK MPs."
       ],
       "source_differences": [],
-      "synthesis": "The United Kingdom has announced an import ban on goods from Israeli settlements in the West Bank, labeling the occupation unlawful and alleging government-backed violence. In response, Israel has ordered the closure of the British consulate in East Jerusalem and banned specific UK MPs from entry. Concurrently, military operations continue in Gaza with reports of infrastructure destruction and casualties.",
-      "confidence": "HIGH",
+      "synthesis": "Military and diplomatic tensions have increased between the United States, Iran, Israel, and the United Kingdom. Reports include alleged strikes on tankers, missile exchanges, drone seizures, and retaliatory diplomatic sanctions. Public and corporate sectors are also experiencing secondary effects related to these ongoing conflicts.",
+      "confidence": "MEDIUM: While individual reports are internally consistent, the sources cover disparate events and do not provide a unified timeline of the described regional hostilities.",
       "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss",
+          "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz",
+          "title": "US says Iranian tankers destroyed after missile attacks on American warship"
+        },
         {
           "source": "aljazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/israeli-strikes-devastate-homes-displace-families-across-gaza?traffic_source=rss",
@@ -33,49 +44,9 @@
           "title": "Israel to close British consulate in Jerusalem after sanctions announced"
         },
         {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
-          "title": "UK accuses Israeli ‘terrorists’ of ethnic cleansing in West Bank with government backing"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
-          "title": "UK announces sanctions on illegal Israeli settlements"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/politics/live/2026/sep/08/uk-us-trade-israel-sanctions-labour-ed-miliband-farage-latest-news-updates",
-          "title": "UK-US trade could suffer as a result of sanctions for illegal Israeli settlements, American ambassador warns – UK politics live"
-        }
-      ],
-      "updated_at": "2026-09-09T06:30:33.401Z"
-    },
-    {
-      "cluster_id": "3ef67a84afeadfed4513162aa71976d5",
-      "topic_label": "Iran Oil Tanker Attacks",
-      "event_window_start": "2026-09-08T08:19:50.000Z",
-      "event_window_end": "2026-09-09T00:08:37.000Z",
-      "article_count": 5,
-      "source_count": 3,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "Conflict in the Middle East is currently impacting oil prices.",
-        "Global oil prices have seen an increase, with benchmarks approaching $100 per barrel.",
-        "Attacks have occurred involving energy facilities or maritime assets in the region."
-      ],
-      "source_differences": [],
-      "synthesis": "Recent military and industrial activity in the Middle East has disrupted energy infrastructure and contributed to rising global oil prices. Regional actors including the US, Iran, and Houthi forces are engaged in conflicting reports regarding maritime drones, tanker strikes, and attacks on Saudi oil facilities. Diplomatic efforts involving Qatar and China are simultaneously underway to address the ongoing conflict.",
-      "confidence": "CONTESTED. While there is broad agreement on the rising price of oil and regional instability, the sources provide contradictory reports of specific military engagements and differ significantly on the primary drivers of the current escalation.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss",
-          "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz",
-          "title": "US says Iranian tankers destroyed after missile attacks on American warship"
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/adidas-apologizes-ad-featuring-former-israeli-soldier-lost-leg-draws-boycott-calls",
+          "title": "Adidas apologizes after ad featuring former Israeli soldier who lost leg draws boycott calls"
         },
         {
           "source": "fox",
@@ -89,11 +60,47 @@
         },
         {
           "source": "guardian",
-          "url": "https://www.theguardian.com/business/live/2026/sep/08/oil-price-approaches-100-a-barrel-saudi-attacks-bank-of-england-latest-news-updates",
-          "title": "Oil price approaches $100 a barrel after attacks on Saudi oil facilities – business live"
+          "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
+          "title": "UK accuses Israeli ‘terrorists’ of ethnic cleansing in West Bank with government backing"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
+          "title": "UK announces sanctions on illegal Israeli settlements"
         }
       ],
-      "updated_at": "2026-09-09T06:30:33.401Z"
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
+    {
+      "cluster_id": "f7c9f8df914a284fa60c6f33a5313ad4",
+      "topic_label": "Natural Disasters and Emergencies",
+      "event_window_start": "2026-09-08T12:09:58.000Z",
+      "event_window_end": "2026-09-08T19:53:48.000Z",
+      "article_count": 3,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "Fox News provided reports on three distinct events: the status of missing Americans following flooding in Nepal, a hotel fire involving basketball teams in Berlin, and the search for a missing aircraft in the Bahamas. Each report highlights ongoing recovery or search operations involving either government agencies or international teams. No overlapping themes exist between these disparate news reports.",
+      "confidence": "HIGH. The sources provided are distinct reports on separate, unrelated news events with no conflicting data points.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/world/70-americans-still-unaccounted-catastrophic-nepal-flooding",
+          "title": "70 Americans still unaccounted for after catastrophic Nepal flooding"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/fiba-womens-world-cup-players-hotel-evacuated-fire-breaks-ahead-high-stakes-final-stage",
+          "title": "FIBA Women's World Cup players' hotel evacuated after fire breaks out ahead of high-stakes final stage"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/4-family-members-flying-bahamas-florida-small-plane-missing-coast-guard-joining-search",
+          "title": "4 family members flying from Bahamas to Florida in small plane go missing, with Coast Guard joining search"
+        }
+      ],
+      "updated_at": "2026-09-09T11:53:58.513Z"
     },
     {
       "cluster_id": "6875bbf1b922a6dfc29451e033e680bf",
@@ -191,6 +198,192 @@
           "source": "guardian",
           "url": "https://www.theguardian.com/world/2026/sep/08/anti-afd-protests-germany-far-right-berlin-mecklenburg-western-pomerania",
           "title": "Anti-AfD protests sweep Germany as far right closes in on two more states"
+        }
+      ],
+      "updated_at": "2026-09-09T06:30:33.401Z"
+    },
+    {
+      "cluster_id": "7e51af2bcd8e12a60488d3a909a1d58a",
+      "topic_label": "US Political Controversies",
+      "event_window_start": "2026-09-08T16:55:38.000Z",
+      "event_window_end": "2026-09-09T00:40:03.000Z",
+      "article_count": 7,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "Recent news coverage highlights a series of distinct political developments across the United States. These include a records release in New York City regarding 9/11, judicial decisions on congressional redistricting in Missouri, ongoing internal debates within the Democratic Party regarding Senator John Fetterman, and local policy shifts in Virginia. There are no direct factual overlaps between the events reported across these sources.",
+      "confidence": "HIGH. The sources cover independent, unrelated news events, and there is no direct contradiction between the reports.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/air-quality-september-11-attacks-documents-release",
+          "title": "Mamdani releases 170,000 pages of records regarding impact on air quality of the 9/11 attacks"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/supreme-court-ruling-missouri-gop-congressional-maps",
+          "title": "US supreme court blocks Missouri’s new congressional map backed by Trump"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/fetterman-leans-unlikely-gop-ally-dems-sharpen-knives-over-explosive-report",
+          "title": "Fetterman leans on unlikely GOP ally as Dems sharpen their knives over explosive report"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/the-view-co-host-demands-25th-amendment-used-against-trump-suggests-cabinet-could-do-it-after-midterms",
+          "title": "'The View' co-host demands 25th Amendment be used against Trump, suggests Cabinet could do it after midterms"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/virginia-county-pay-2k-families-primary-wage-earner-detained-ice",
+          "title": "Virginia county to pay up to $2K to families with primary wage earner detained by ICE"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/smithsonian-head-lonnie-bunch-retire-amid-allegations-far-left-woke-messaging-museums",
+          "title": "Smithsonian head Lonnie Bunch to retire amid allegations of far-left woke messaging at museums"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/families-911-victims-message-mamdani-please-do-not-come-memorial-ceremony",
+          "title": "Families of 9/11 victims' message to Mamdani: 'Please do not come' to memorial ceremony"
+        }
+      ],
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
+    {
+      "cluster_id": "d0d2f902b1810cc8a0572ba8245396ef",
+      "topic_label": "International Geopolitical Tensions",
+      "event_window_start": "2026-09-08T17:04:10.000Z",
+      "event_window_end": "2026-09-09T01:09:15.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "US President Donald Trump has issued public statements or executive orders regarding trade and business relations with Canada.",
+        "Tensions exist regarding trade policies and manufacturing between the United States and Canada.",
+        "President Donald Trump has expressed criticism toward Canadian trade and manufacturing practices."
+      ],
+      "source_differences": [],
+      "synthesis": "The United States has engaged in trade conflicts with Canada, including reports of an impending import ban on specific Canadian goods and public pressure on the manufacturer Bombardier. Bombardier has responded by citing its existing American workforce and supply chain in defense of its US operations. These developments follow a period of stalled trade negotiations between the two nations.",
+      "confidence": "HIGH. The sources consistently report on statements and actions attributed to government officials and corporate entities, and while specific claims are contested between parties, the reporting on the existence of these disputes is consistent.",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
+          "title": "US slaps import ban on Canadian alcohol and other goods"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/marco-rubio-says-us-seeks-more-economic-and-security-ties-in-latin-america?traffic_source=rss",
+          "title": "Marco Rubio says US seeks more economic and security ties in Latin America"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/protesters-police-clash-in-albania-over-trump-linked-project?traffic_source=rss",
+          "title": "Protesters, police clash in Albania over Trump-linked project"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/09-08-philippine-defence-min-denounces-china-clip?traffic_source=rss",
+          "title": "Philippine defence chief calls out China over note handed to him mid-panel"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/8/bombardier-defends-us-manufacturing-amid-trumps-aviation-sales-threat?traffic_source=rss",
+          "title": "Bombardier defends US manufacturing amid Trump’s aviation sales threat"
+        }
+      ],
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
+    {
+      "cluster_id": "b6636c2c088c9278c7a935e2aef04ff3",
+      "topic_label": "Conflict in the Middle East",
+      "event_window_start": "2026-09-08T08:08:17.000Z",
+      "event_window_end": "2026-09-08T17:04:28.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "The UK government has announced an import ban on goods from Israeli settlements in the West Bank.",
+        "Ed Miliband is the UK Foreign Secretary.",
+        "The Israeli government has taken retaliatory diplomatic measures against the UK, including the closure of the British consulate in East Jerusalem and entry bans on certain UK MPs."
+      ],
+      "source_differences": [],
+      "synthesis": "The United Kingdom has announced an import ban on goods from Israeli settlements in the West Bank, labeling the occupation unlawful and alleging government-backed violence. In response, Israel has ordered the closure of the British consulate in East Jerusalem and banned specific UK MPs from entry. Concurrently, military operations continue in Gaza with reports of infrastructure destruction and casualties.",
+      "confidence": "HIGH",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/israeli-strikes-devastate-homes-displace-families-across-gaza?traffic_source=rss",
+          "title": "Israeli strikes devastate homes, displace families across Gaza"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/08/israel-close-british-consulate-jerusalem-sanctions",
+          "title": "Israel to close British consulate in Jerusalem after sanctions announced"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
+          "title": "UK accuses Israeli ‘terrorists’ of ethnic cleansing in West Bank with government backing"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
+          "title": "UK announces sanctions on illegal Israeli settlements"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/08/uk-us-trade-israel-sanctions-labour-ed-miliband-farage-latest-news-updates",
+          "title": "UK-US trade could suffer as a result of sanctions for illegal Israeli settlements, American ambassador warns – UK politics live"
+        }
+      ],
+      "updated_at": "2026-09-09T06:30:33.401Z"
+    },
+    {
+      "cluster_id": "3ef67a84afeadfed4513162aa71976d5",
+      "topic_label": "Iran Oil Tanker Attacks",
+      "event_window_start": "2026-09-08T08:19:50.000Z",
+      "event_window_end": "2026-09-09T00:08:37.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "Conflict in the Middle East is currently impacting oil prices.",
+        "Global oil prices have seen an increase, with benchmarks approaching $100 per barrel.",
+        "Attacks have occurred involving energy facilities or maritime assets in the region."
+      ],
+      "source_differences": [],
+      "synthesis": "Recent military and industrial activity in the Middle East has disrupted energy infrastructure and contributed to rising global oil prices. Regional actors including the US, Iran, and Houthi forces are engaged in conflicting reports regarding maritime drones, tanker strikes, and attacks on Saudi oil facilities. Diplomatic efforts involving Qatar and China are simultaneously underway to address the ongoing conflict.",
+      "confidence": "CONTESTED. While there is broad agreement on the rising price of oil and regional instability, the sources provide contradictory reports of specific military engagements and differ significantly on the primary drivers of the current escalation.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss",
+          "title": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/08/iran-underwater-drone-strait-of-hormuz",
+          "title": "US says Iranian tankers destroyed after missile attacks on American warship"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/iran-backed-attacks-threaten-second-major-oil-chokepoint-new-risk-emerges-us-consumers",
+          "title": "Iran-backed attacks threaten a second major oil chokepoint as new risk emerges for US consumers"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/8/qatar-says-reopening-strait-of-hormuz-unconditionally-is-a-priority?traffic_source=rss",
+          "title": "Qatar says reopening Strait of Hormuz ‘unconditionally’ is a priority"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/business/live/2026/sep/08/oil-price-approaches-100-a-barrel-saudi-attacks-bank-of-england-latest-news-updates",
+          "title": "Oil price approaches $100 a barrel after attacks on Saudi oil facilities – business live"
         }
       ],
       "updated_at": "2026-09-09T06:30:33.401Z"
@@ -297,207 +490,128 @@
         }
       ],
       "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "cluster_id": "572a018e0840de2097454ac90ede1022",
-      "topic_label": "US Politics and Elections",
-      "event_window_start": "2026-09-08T13:00:39.000Z",
-      "event_window_end": "2026-09-09T00:44:29.000Z",
-      "article_count": 12,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "New Hampshire held primary elections on a Tuesday.",
-        "Karishma Manzur and Chris Pappas were candidates in a Democratic primary.",
-        "Kelly Ayotte and Lily Tang Williams participated in Republican primary races."
-      ],
-      "source_differences": [],
-      "synthesis": "New Hampshire held primary elections featuring various Democratic and Republican candidates for congressional and gubernatorial seats. The provided sources offer conflicting reports on which individuals won specific party nominations for the Senate and other offices. Election results and candidate descriptions vary significantly between the Fox and Guardian reports.",
-      "confidence": "LOW. The provided articles contain contradictory reporting regarding the candidates and outcomes of the New Hampshire primaries, suggesting either different election cycles or factual inaccuracies across sources.",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/wife-top-ex-biden-advisor-easily-advances-house-showdown-november",
-          "title": "Wife of top ex-Biden advisor easily advances to House showdown in November"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/establishment-dem-defeats-socialist-challenger-crucial-battleground-senate-primary",
-          "title": "Establishment Dem defeats socialist challenger in crucial battleground Senate primary"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/gop-voters-rally-around-businesswoman-try-flip-crucial-house-seat",
-          "title": "GOP voters rally around businesswoman as they try to flip crucial House seat red"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/incumbent-gop-governor-rolls-primary-victory-keeping-trump-distance",
-          "title": "Incumbent GOP governor rolls to primary victory after keeping Trump at a distance"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/08/new-hampshire-republican-senate-primary",
-          "title": "Trump-backed John Sununu wins New Hampshire Republican Senate primary"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/ex-gop-senator-clears-hurdle-crucial-comeback-bid-republicans-try-flip-key-senate-seat",
-          "title": "Ex-GOP senator clears hurdle in crucial comeback bid as Republicans try to flip key Senate seat"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/fetterman-leans-unlikely-gop-ally-dems-sharpen-knives-over-explosive-report",
-          "title": "Fetterman leans on unlikely GOP ally as Dems sharpen their knives over explosive report"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/media/the-view-co-host-demands-25th-amendment-used-against-trump-suggests-cabinet-could-do-it-after-midterms",
-          "title": "'The View' co-host demands 25th Amendment be used against Trump, suggests Cabinet could do it after midterms"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/trumps-unusual-role-midterm-convention",
-          "title": "Trump's unusual role at midterm convention revealed as schedule goes public"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/government-land-grab-agenda-hits-key-senate-race-dem-backs-property-takeovers-echoing-mamdani",
-          "title": "Government land-grab agenda hits key Senate race as Dem backs property takeovers echoing Mamdani"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/08/new-hampshire-rhode-island-vote-state-primaries-trump-canada-us-politics-latest-news-updates",
-          "title": "New Hampshire and Rhode Island to vote in state primaries - US politics live"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/08/new-hampshire-primary-democrats-republicans",
-          "title": "New Hampshire voters head to polls in race crucial to Democrats’ Senate hopes"
-        }
-      ],
-      "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "cluster_id": "1757c82265bf2fa4a48b2f15a89a605f",
-      "topic_label": "Germany Far-Right Protests",
-      "event_window_start": "2026-09-08T12:54:24.000Z",
-      "event_window_end": "2026-09-09T00:16:06.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "The AfD party achieved a major election success in the Saxony-Anhalt state election.",
-        "Thousands of people participated in protests against the AfD following the election results."
-      ],
-      "source_differences": [],
-      "synthesis": "Following a significant election performance by the AfD in Saxony-Anhalt, thousands of protesters mobilized in German cities to demonstrate against the party. While Al Jazeera highlights a protest in Cologne and reports the party won nearly 44% of the vote, The Guardian focuses on a rally at Berlin's Brandenburg Gate and the potential impact on upcoming state elections. Both sources report that the demonstrations were directed against the political positions and success of the AfD.",
-      "confidence": "HIGH. Both sources report on the same core event of anti-AfD protests following the Saxony-Anhalt election without contradicting each other on major facts.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/9/aje-onl-nf_anti-afd-protesters-rally-in-after-election-win-080926?traffic_source=rss",
-          "title": "Anti-AfD protesters rally in Cologne after far-right election win"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/08/anti-afd-protests-germany-far-right-berlin-mecklenburg-western-pomerania",
-          "title": "Anti-AfD protests sweep Germany as far right closes in on two more states"
-        }
-      ],
-      "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "cluster_id": "643be16e250c9bca166b01ca88afb5f4",
-      "topic_label": "Ukraine Conflict and Corruption",
-      "event_window_start": "2026-09-08T03:08:28.000Z",
-      "event_window_end": "2026-09-08T17:00:31.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Ukrainian Prosecutor General Ruslan Kravchenko has resigned from his post.",
-        "The resignation follows corruption allegations and investigations into illegal call centers.",
-        "Russian forces have resumed air strikes on Kyiv."
-      ],
-      "source_differences": [],
-      "synthesis": "Ukrainian Prosecutor General Ruslan Kravchenko has resigned amid investigations into corruption involving the protection of illegal call centers, though he denies personal wrongdoing and terms it a political decision. Concurrently, Russia has resumed air strikes on Kyiv and surrounding districts following the expiration of a three-day pause. The political resignation and the resumption of military attacks present ongoing domestic and security challenges for President Volodymyr Zelenskyy's administration.",
-      "confidence": "MEDIUM",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/08/ukraine-prosecutor-general-ruslan-kravchenko-quits-anti-corruption-agents-raid-office",
-          "title": "Ukraine’s prosecutor general quits after anti-corruption agents raid his office"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/live/2026/sep/08/ukraine-russia-war-zelesnkyy-putin-ruslan-kravchenko-prosecutor-general-germany-france-europe-latest-news-updates",
-          "title": "Ukraine’s prosecutor general resigns after corruption allegations as Russia resumes strikes on Kyiv – Europe live"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends?traffic_source=rss",
-          "title": "Russia strikes Kyiv as three-day pause during US envoy visits ends"
-        }
-      ],
-      "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "cluster_id": "36d48aaf7deccd1c9498ee54dfe30b42",
-      "topic_label": "Conflict in Gaza and Israel",
-      "event_window_start": "2026-09-08T01:58:28.000Z",
-      "event_window_end": "2026-09-08T17:04:28.000Z",
-      "article_count": 7,
-      "source_count": 3,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "UK Foreign Secretary Ed Miliband announced the implementation of sanctions against Israeli settlements.",
-        "The UK government is enacting an import ban on goods produced in Israeli settlements."
-      ],
-      "source_differences": [],
-      "synthesis": "The UK government has announced new sanctions and an import ban on goods from Israeli settlements in the West Bank. Israel has responded to these diplomatic measures with the reported closure of the British consulate in East Jerusalem and entry bans for some UK officials. Separately, Adidas has issued an apology regarding the content of a local advertisement featuring an Israel Defense Forces veteran.",
-      "confidence": "HIGH. The sources consistently report on distinct, separate events regarding diplomatic policy and corporate PR, with minimal overlap that creates factual conflict.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/israeli-strikes-devastate-homes-displace-families-across-gaza?traffic_source=rss",
-          "title": "Israeli strikes devastate homes, displace families across Gaza"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/08/israel-close-british-consulate-jerusalem-sanctions",
-          "title": "Israel to close British consulate in Jerusalem after sanctions announced"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/outkick-sports/adidas-apologizes-ad-featuring-former-israeli-soldier-lost-leg-draws-boycott-calls",
-          "title": "Adidas apologizes after ad featuring former Israeli soldier who lost leg draws boycott calls"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
-          "title": "UK accuses Israeli ‘terrorists’ of ethnic cleansing in West Bank with government backing"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
-          "title": "UK announces sanctions on illegal Israeli settlements"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/politics/live/2026/sep/08/uk-us-trade-israel-sanctions-labour-ed-miliband-farage-latest-news-updates",
-          "title": "UK-US trade could suffer as a result of sanctions for illegal Israeli settlements, American ambassador warns – UK politics live"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/world/uk-moves-sanction-israeli-settlements-pm-burnham-risks-clash-trump-report",
-          "title": "UK moves to sanction Israeli settlements as PM Burnham risks clash with Trump: report"
-        }
-      ],
-      "updated_at": "2026-09-08T23:44:12.567Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-e35d102f",
+      "title": "Conflict in the Middle East",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "Military and diplomatic tensions have increased between the United States, Iran, Israel, and the United Kingdom. Reports include alleged strikes on tankers, missile exchanges, drone seizures, and retaliatory diplomatic sanctions. Public and corporate sectors are also experiencing secondary effects related to these ongoing conflicts.",
+      "evidence_summary": "3 source(s), medium confidence.",
+      "confidence_label": "medium",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "e35d102ff46f8ca3e54659ace069937a",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
+    {
+      "id": "impact-f7c9f8df",
+      "title": "Natural Disasters and Emergencies",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster",
+        "shipping"
+      ],
+      "why_it_matters": "Fox News provided reports on three distinct events: the status of missing Americans following flooding in Nepal, a hotel fire involving basketball teams in Berlin, and the search for a missing aircraft in the Bahamas. Each report highlights ongoing recovery or search operations involving either government agencies or international teams. No overlapping themes exist between these disparate news reports.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "f7c9f8df914a284fa60c6f33a5313ad4",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
+    {
+      "id": "impact-6875bbf1",
+      "title": "US Midterm Primary Elections",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "New Hampshire held primary elections for various House, Senate, and gubernatorial seats on Tuesday. Multiple candidates, including Chris Pappas, Maggie Goodlander, Lily Tang Williams, and John E. Sununu, are reported to have advanced from their respective primaries. The outcomes set the stage for general election contests in November.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "6875bbf1b922a6dfc29451e033e680bf",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-09-09T06:30:33.401Z"
+    },
+    {
+      "id": "impact-8e998ced",
+      "title": "Far-right Protests in Europe",
+      "severity": "medium",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "Recent political developments have triggered protests, with demonstrations against the AfD occurring in Germany following a state election in Saxony-Anhalt. Simultaneously, masked protests against illegal immigration via small boats took place at ports in the UK. UK authorities are currently reviewing police intelligence and response procedures regarding these events.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "8e998cedb24201cd131faf5176ddcf25",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-09-09T06:30:33.401Z"
+    },
+    {
+      "id": "impact-7e51af2b",
+      "title": "US Political Controversies",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "Recent news coverage highlights a series of distinct political developments across the United States. These include a records release in New York City regarding 9/11, judicial decisions on congressional redistricting in Missouri, ongoing internal debates within the Democratic Party regarding Senator John Fetterman, and local policy shifts in Virginia. There are no direct factual overlaps between the events reported across these sources.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "7e51af2bcd8e12a60488d3a909a1d58a",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
+    {
+      "id": "impact-d0d2f902",
+      "title": "International Geopolitical Tensions",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "The United States has engaged in trade conflicts with Canada, including reports of an impending import ban on specific Canadian goods and public pressure on the manufacturer Bombardier. Bombardier has responded by citing its existing American workforce and supply chain in defense of its US operations. These developments follow a period of stalled trade negotiations between the two nations.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "d0d2f902b1810cc8a0572ba8245396ef",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-09T11:53:58.513Z"
+    },
     {
       "id": "impact-b6636c2c",
       "title": "Conflict in the Middle East",
@@ -543,45 +657,6 @@
       "updated_at": "2026-09-09T06:30:33.401Z"
     },
     {
-      "id": "impact-6875bbf1",
-      "title": "US Midterm Primary Elections",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "New Hampshire held primary elections for various House, Senate, and gubernatorial seats on Tuesday. Multiple candidates, including Chris Pappas, Maggie Goodlander, Lily Tang Williams, and John E. Sununu, are reported to have advanced from their respective primaries. The outcomes set the stage for general election contests in November.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "6875bbf1b922a6dfc29451e033e680bf",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-09T06:30:33.401Z"
-    },
-    {
-      "id": "impact-8e998ced",
-      "title": "Far-right Protests in Europe",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Recent political developments have triggered protests, with demonstrations against the AfD occurring in Germany following a state election in Saxony-Anhalt. Simultaneously, masked protests against illegal immigration via small boats took place at ports in the UK. UK authorities are currently reviewing police intelligence and response procedures regarding these events.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "8e998cedb24201cd131faf5176ddcf25",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-09T06:30:33.401Z"
-    },
-    {
       "id": "impact-185749e7",
       "title": "Conflict in the Middle East",
       "severity": "high",
@@ -620,86 +695,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "id": "impact-572a018e",
-      "title": "US Politics and Elections",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "New Hampshire held primary elections featuring various Democratic and Republican candidates for congressional and gubernatorial seats. The provided sources offer conflicting reports on which individuals won specific party nominations for the Senate and other offices. Election results and candidate descriptions vary significantly between the Fox and Guardian reports.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "572a018e0840de2097454ac90ede1022",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "id": "impact-1757c822",
-      "title": "Germany Far-Right Protests",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Following a significant election performance by the AfD in Saxony-Anhalt, thousands of protesters mobilized in German cities to demonstrate against the party. While Al Jazeera highlights a protest in Cologne and reports the party won nearly 44% of the vote, The Guardian focuses on a rally at Berlin's Brandenburg Gate and the potential impact on upcoming state elections. Both sources report that the demonstrations were directed against the political positions and success of the AfD.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "1757c82265bf2fa4a48b2f15a89a605f",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "id": "impact-643be16e",
-      "title": "Ukraine Conflict and Corruption",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "instability"
-      ],
-      "why_it_matters": "Ukrainian Prosecutor General Ruslan Kravchenko has resigned amid investigations into corruption involving the protection of illegal call centers, though he denies personal wrongdoing and terms it a political decision. Concurrently, Russia has resumed air strikes on Kyiv and surrounding districts following the expiration of a three-day pause. The political resignation and the resumption of military attacks present ongoing domestic and security challenges for President Volodymyr Zelenskyy's administration.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "643be16e250c9bca166b01ca88afb5f4",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-09T01:39:20.426Z"
-    },
-    {
-      "id": "impact-36d48aaf",
-      "title": "Conflict in Gaza and Israel",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "shipping"
-      ],
-      "why_it_matters": "The UK government has announced new sanctions and an import ban on goods from Israeli settlements in the West Bank. Israel has responded to these diplomatic measures with the reported closure of the British consulate in East Jerusalem and entry bans for some UK officials. Separately, Adidas has issued an apology regarding the content of a local advertisement featuring an Israel Defense Forces veteran.",
-      "evidence_summary": "3 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "36d48aaf7deccd1c9498ee54dfe30b42",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-08T23:44:12.567Z"
     }
   ]
 }
