@@ -1,5 +1,76 @@
 [
   {
+    "cluster_id": "a1fae07ac28f28033d07c18be0f065ce",
+    "topic_label": "9/11 Anniversary and Counterterrorism",
+    "event_window_start": "2026-09-10T02:10:08.000Z",
+    "event_window_end": "2026-09-10T02:33:51.000Z",
+    "article_ids": [
+      "art_1789009591607_xe0cl",
+      "art_1789009598999_42ecr"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-10T17:07:51.394Z",
+    "updated_at": "2026-09-10T17:07:51.394Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The 9/11 terrorist attacks occurred 25 years ago.",
+      "Former President George W. Bush served as president during the time of the 9/11 attacks."
+    ],
+    "source_claims": [
+      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[fox] Tom Homan states that 70% of those detained by ICE are convicted criminals.",
+      "[fox] ICE has been involved in the rescue of over 150,000 smuggled children.",
+      "[fox] Former President George W. Bush shared a story about Derek Jeter before his 2001 World Series first pitch at a reunification event in Dallas."
+    ],
+    "framing_differences": [
+      "The first [fox] article frames ICE enforcement as a critical national security measure against terrorism, while the second [fox] article frames the 9/11 legacy through the lens of political reflection and sports history."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[fox] ICE has rescued over 150,000 smuggled children."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'Border czar' to describe Tom Homan.",
+      "[fox] uses the term 'slams' to describe Tom Homan's reaction to calls for abolishing ICE.",
+      "[fox] uses the term 'dangerous consequences' to characterize the potential dismantling of the agency."
+    ],
+    "safe_conclusions": [
+      "George W. Bush threw a ceremonial first pitch at Yankee Stadium during the 2001 World Series.",
+      "There are ongoing discussions regarding the role and existence of ICE in the United States."
+    ],
+    "unknowns": [
+      "The total number of terrorists identified or apprehended compared to the number deported.",
+      "The specific methodology used by ICE to calculate the rescue of 150,000 children.",
+      "The exact timeline of when ICE enforcement data was finalized."
+    ],
+    "synthesis": "Fox News reported on recent ICE enforcement statistics involving terrorism and child smuggling alongside a separate report regarding George W. Bush's recollections of the 2001 World Series. The reports highlight the agency's current operations and historical reflections on the post-9/11 era. These accounts focus on government data and presidential history without direct overlap in subject matter.",
+    "confidence": "HIGH; The provided texts are consistent in their reporting of distinct events and statements, although they focus on different subject matters.",
+    "sources": [
+      {
+        "id": "art_1789009591607_xe0cl",
+        "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
+        "source": "fox",
+        "title": "EXCLUSIVE: 25 years after 9/11, ICE says more than 2K known or suspected terrorists have been deported"
+      },
+      {
+        "id": "art_1789009598999_42ecr",
+        "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
+        "source": "fox",
+        "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "e53fffc698e90fc3809c863a68c4150c",
     "topic_label": "US election politics and policy",
     "event_window_start": "2026-09-10T02:05:20.000Z",
@@ -73,77 +144,6 @@
         "url": "https://www.theguardian.com/us-news/2026/sep/09/rhode-island-primary-results-dan-mckee",
         "source": "guardian",
         "title": "Rhode Island’s Democratic governor loses primary amid anger over bridge"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a1fae07ac28f28033d07c18be0f065ce",
-    "topic_label": "9/11 Anniversary and Counterterrorism",
-    "event_window_start": "2026-09-10T02:10:08.000Z",
-    "event_window_end": "2026-09-10T02:33:51.000Z",
-    "article_ids": [
-      "art_1789009591607_xe0cl",
-      "art_1789009598999_42ecr"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-10T17:07:51.394Z",
-    "updated_at": "2026-09-10T17:07:51.394Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The 9/11 terrorist attacks occurred 25 years ago.",
-      "Former President George W. Bush served as president during the time of the 9/11 attacks."
-    ],
-    "source_claims": [
-      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
-      "[fox] Tom Homan states that 70% of those detained by ICE are convicted criminals.",
-      "[fox] ICE has been involved in the rescue of over 150,000 smuggled children.",
-      "[fox] Former President George W. Bush shared a story about Derek Jeter before his 2001 World Series first pitch at a reunification event in Dallas."
-    ],
-    "framing_differences": [
-      "The first [fox] article frames ICE enforcement as a critical national security measure against terrorism, while the second [fox] article frames the 9/11 legacy through the lens of political reflection and sports history."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
-      "[fox] ICE has rescued over 150,000 smuggled children."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'Border czar' to describe Tom Homan.",
-      "[fox] uses the term 'slams' to describe Tom Homan's reaction to calls for abolishing ICE.",
-      "[fox] uses the term 'dangerous consequences' to characterize the potential dismantling of the agency."
-    ],
-    "safe_conclusions": [
-      "George W. Bush threw a ceremonial first pitch at Yankee Stadium during the 2001 World Series.",
-      "There are ongoing discussions regarding the role and existence of ICE in the United States."
-    ],
-    "unknowns": [
-      "The total number of terrorists identified or apprehended compared to the number deported.",
-      "The specific methodology used by ICE to calculate the rescue of 150,000 children.",
-      "The exact timeline of when ICE enforcement data was finalized."
-    ],
-    "synthesis": "Fox News reported on recent ICE enforcement statistics involving terrorism and child smuggling alongside a separate report regarding George W. Bush's recollections of the 2001 World Series. The reports highlight the agency's current operations and historical reflections on the post-9/11 era. These accounts focus on government data and presidential history without direct overlap in subject matter.",
-    "confidence": "HIGH; The provided texts are consistent in their reporting of distinct events and statements, although they focus on different subject matters.",
-    "sources": [
-      {
-        "id": "art_1789009591607_xe0cl",
-        "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
-        "source": "fox",
-        "title": "EXCLUSIVE: 25 years after 9/11, ICE says more than 2K known or suspected terrorists have been deported"
-      },
-      {
-        "id": "art_1789009598999_42ecr",
-        "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
-        "source": "fox",
-        "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
