@@ -1,5 +1,89 @@
 [
   {
+    "cluster_id": "521e2e8398f32dbcd068e3d763a280eb",
+    "topic_label": "Middle East and Global Security",
+    "event_window_start": "2026-09-10T02:02:00.000Z",
+    "event_window_end": "2026-09-10T02:53:22.000Z",
+    "article_ids": [
+      "art_1789009588352_fvxf4",
+      "art_1789009591607_xe0cl",
+      "art_1789009598999_42ecr",
+      "art_1789009605220_dme4p"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-10T23:51:06.124Z",
+    "updated_at": "2026-09-10T23:51:06.124Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian] President Trump stated he would provide $5,000 to every American citizen if Republicans win the midterms, referring to it as the 'Trump dividend'.",
+      "[guardian] The cost of the proposed dividend would exceed $1tn.",
+      "[fox] DHS reported that ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[fox] Tom Homan stated that 70% of those detained by ICE are convicted criminals.",
+      "[fox] George W. Bush recalled a conversation with Derek Jeter prior to throwing the ceremonial first pitch at Yankee Stadium in October 2001.",
+      "[fox] A U.S. military strike in the Eastern Pacific killed three individuals described as 'narco-terrorists' on a suspected drug-smuggling vessel."
+    ],
+    "framing_differences": [
+      "The Guardian frames Trump's economic proposal by questioning its legality and funding, whereas Fox News focuses on separate reports regarding border enforcement, historical reflection on 9/11, and military operations."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Trump stated he would provide $5,000 to every citizen if Republicans win the midterms.",
+      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[fox] Three individuals killed in an Eastern Pacific strike were 'narco-terrorists'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'narco-terrorist' to describe individuals killed in a maritime strike.",
+      "[guardian] uses the term 'so-called' to describe the 'Trump dividend'.",
+      "[fox] uses the term 'obliterate' to describe the military action against a vessel.",
+      "[fox] uses the term 'slams' to describe the actions of Tom Homan regarding progressives."
+    ],
+    "safe_conclusions": [
+      "The sources report on independent and unrelated events, including a political statement by Donald Trump, immigration enforcement statistics provided by DHS, historical reflections by George W. Bush, and a military strike in the Eastern Pacific."
+    ],
+    "unknowns": [
+      "The sources provide no information that intersects or confirms facts between the different outlets, as the articles discuss entirely different subject matters."
+    ],
+    "synthesis": "The provided articles cover disparate topics including a campaign proposal by Donald Trump, DHS statistics on deportations, historical recollections by George W. Bush, and a U.S. military strike in the Eastern Pacific. No facts are shared or corroborated across the different sources. The reporting ranges from political commentary and historical retrospectives to official government reports on military and law enforcement activities.",
+    "confidence": "HIGH. The sources discuss distinct, unrelated events, and the provided analysis accurately reflects the lack of overlap between them.",
+    "sources": [
+      {
+        "id": "art_1789009588352_fvxf4",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-national-convention-jd-vance-midterms-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump claims he will give $5,000 to every American if Republicans win the midterms as he defends Iran war and tariffs– live"
+      },
+      {
+        "id": "art_1789009591607_xe0cl",
+        "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
+        "source": "fox",
+        "title": "EXCLUSIVE: 25 years after 9/11, ICE says more than 2K known or suspected terrorists have been deported"
+      },
+      {
+        "id": "art_1789009598999_42ecr",
+        "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
+        "source": "fox",
+        "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
+      },
+      {
+        "id": "art_1789009605220_dme4p",
+        "url": "https://www.foxnews.com/us/us-forces-obliterate-suspected-narco-terrorist-vessel-lethal-eastern-pacific-strike-killing-3",
+        "source": "fox",
+        "title": "US forces obliterate suspected 'narco-terrorist' vessel in lethal Eastern Pacific strike, killing 3"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "a1fae07ac28f28033d07c18be0f065ce",
     "topic_label": "9/11 Anniversary and Counterterrorism",
     "event_window_start": "2026-09-10T02:10:08.000Z",
@@ -17788,109 +17872,6 @@
         "url": "https://www.theguardian.com/us-news/live/2026/aug/31/donald-trump-lake-america-ontario-canada-trade-war-tariffs-jd-vance-g20-latest-news-updates",
         "source": "guardian",
         "title": "House lawmakers return to Capitol Hill as Republicans hope to pass stopgap spending bill – live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8faf5620e84cc041d38125a9bb9dc61c",
-    "topic_label": "Middle East and Regional Conflict",
-    "event_window_start": "2026-08-31T13:52:40.000Z",
-    "event_window_end": "2026-09-01T00:15:22.000Z",
-    "article_ids": [
-      "art_1788222875762_4qf6m",
-      "art_1788209599639_026er",
-      "art_1788209601855_ivs9z",
-      "art_1788188591193_zy7qa",
-      "art_1788188593451_pidq7",
-      "art_1788188600939_7yxbe"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T06:42:41.878Z",
-    "updated_at": "2026-09-01T06:42:41.878Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump has indicated that the United States will respond to the targeting of U.S. military bases in Jordan.",
-      "The Jordanian army confirmed the interception of eight missiles.",
-      "There are ongoing hostilities involving the United States and Iran."
-    ],
-    "source_claims": [
-      "[fox] reports an incident where masked Israeli settlers attacked an NBC News crew and a Palestinian family in the West Bank.",
-      "[fox] reports that the Institute for Science and International Security identified a partially submerged Iranian uranium facility at Natanz.",
-      "[guardian] reports that the IRGC targeted US-operated King Hussein and al-Azraq airbases in Jordan with ballistic missiles, citing Iranian state TV.",
-      "[aljazeera] reports that Saudi Arabia, Pakistan, and Turkiye signed a security agreement on August 7, including a mutual defense clause.",
-      "[aljazeera] reports that Tunisia is experiencing grievances related to water, electricity, and economic shortages five years after President Kais Saied suspended parliament."
-    ],
-    "framing_differences": [
-      "guardian frames the regional conflict as an escalating cycle of retaliation involving U.S. strikes on Larak Island followed by Iranian missile strikes on bases in Jordan, whereas fox focuses on the rhetoric of President Trump and specific intelligence regarding Iranian nuclear facilities."
-    ],
-    "contested_claims": [
-      "There is a discrepancy regarding the status of Iranian nuclear infrastructure; fox references reports of an intact facility at Natanz, while also mentioning previous American-Israeli-launched wars in 2025 and 2026, which are not corroborated by other sources."
-    ],
-    "unverified_claims": [
-      "[fox] claims American-Israeli-launched wars occurred against Iran in 2025 and 2026.",
-      "[guardian] reports that Iranian state TV claims 'heavy damage' was caused to King Hussein and al-Azraq airbases."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'regime' to describe the Iranian government.",
-      "[guardian] uses the term 'enemy fighter jet positions' to describe US military assets as reported by Iranian state TV."
-    ],
-    "safe_conclusions": [
-      "Tensions in the Middle East have escalated to involve direct confrontations between the United States and Iran, impacting regional sites including Jordan."
-    ],
-    "unknowns": [
-      "The full extent of damage to U.S. military bases in Jordan is not independently confirmed.",
-      "The current status and operational capacity of the alleged Iranian nuclear facility at Natanz remain unverified.",
-      "The specific terms and implementation status of the security agreement between Saudi Arabia, Pakistan, and Turkiye are not fully detailed."
-    ],
-    "synthesis": "Hostilities between the United States and Iran have escalated, with missile exchanges reported in Jordan following U.S. operations against Iranian targets. Parallel developments include ongoing internal socio-economic grievances in Tunisia and a security pact involving Saudi Arabia, Pakistan, and Turkiye. Sources also report on emerging concerns regarding Iranian nuclear infrastructure and local incidents of violence in the West Bank.",
-    "confidence": "MEDIUM: The sources cover disparate geographical and political events, making cross-source verification limited, though internal consistency within reports of the U.S.-Iran conflict is maintained.",
-    "sources": [
-      {
-        "id": "art_1788222875762_4qf6m",
-        "url": "https://www.aljazeera.com/news/2026/9/1/five-years-after-saieds-power-grab-tunisias-old-grievances-resurface?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Five years after Saied’s power grab, Tunisia’s old grievances resurface"
-      },
-      {
-        "id": "art_1788209599639_026er",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/8/31/how-will-the-mecca-agreement-become-an-operational-framework?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How will the Mecca agreement become an operational framework?"
-      },
-      {
-        "id": "art_1788209601855_ivs9z",
-        "url": "https://www.foxnews.com/world/new-report-exposes-intact-iranian-bunker-may-hide-regimes-ongoing-nuclear-work",
-        "source": "fox",
-        "title": "New report exposes intact Iranian bunker that may hide regime's ongoing nuclear work"
-      },
-      {
-        "id": "art_1788188591193_zy7qa",
-        "url": "https://www.foxnews.com/media/masked-israeli-settlers-attack-nbc-news-crew-palestinian-family-west-bank",
-        "source": "fox",
-        "title": "Masked Israeli settlers attack NBC News crew and Palestinian family in West Bank"
-      },
-      {
-        "id": "art_1788188593451_pidq7",
-        "url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump says US will ‘hit Iran hard’ as hostilities resume – Middle East crisis live"
-      },
-      {
-        "id": "art_1788188600939_7yxbe",
-        "url": "https://www.aljazeera.com/news/2026/8/31/greece-signs-3-5bn-air-defence-deal-with-israel?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Greece signs $3.5bn air defence deal with Israel"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
