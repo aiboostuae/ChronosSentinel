@@ -1,67 +1,60 @@
 [
   {
-    "cluster_id": "20a4777691bb90d4230c35389a870680",
-    "topic_label": "US Political Events and Security",
+    "cluster_id": "e53fffc698e90fc3809c863a68c4150c",
+    "topic_label": "US election politics and policy",
     "event_window_start": "2026-09-10T02:05:20.000Z",
     "event_window_end": "2026-09-10T02:55:14.000Z",
     "article_ids": [
       "art_1789009585931_tpduj",
       "art_1789009588352_fvxf4",
-      "art_1789009591607_xe0cl",
-      "art_1789009598999_42ecr",
       "art_1789009602639_u1peg"
     ],
     "source_ids": [
       "fox",
       "guardian"
     ],
-    "article_count": 5,
+    "article_count": 3,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-09-10T12:50:26.994Z",
-    "updated_at": "2026-09-10T12:50:26.994Z",
+    "created_at": "2026-09-10T07:58:37.164Z",
+    "updated_at": "2026-09-10T07:58:37.164Z",
     "region_tag": "global",
     "shared_facts": [
-      "An event described as a 'midterm convention' took place in Dallas involving the Republican National Committee.",
-      "Senator John Fetterman recorded a video introduction for Senator Dave McCormick."
+      "A Republican-affiliated event described as a 'midterm convention' took place on a Wednesday.",
+      "Senator Dave McCormick was mentioned in relation to the event."
     ],
     "source_claims": [
-      "[fox] claims Sen. John Fetterman has expressed interest in potentially leaving the Democratic Party.",
-      "[fox] claims Sen. John Fetterman describes himself as a 'commonsense Democrat' who rejects socialism.",
-      "[guardian] claims Donald Trump stated he would give $5,000 to every American citizen if Republicans retain control of the House and Senate.",
-      "[guardian] claims the 'Trump dividend' policy would cost more than $1 trillion.",
-      "[fox] claims ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
-      "[guardian] claims Rhode Island governor Dan McKee lost his primary election to Helena Foulkes."
+      "[fox] claims Sen. John Fetterman made a surprise video appearance at the GOP midterm convention in Dallas.",
+      "[fox] claims Sen. John Fetterman has been 'toying with the idea of leaving his party'.",
+      "[guardian] claims Donald Trump stated he would give every American $5,000 if Republicans win the House and Senate.",
+      "[guardian] claims the 'Trump dividend' would cost more than $1 trillion."
     ],
     "framing_differences": [
-      "Fox frames John Fetterman as a 'rogue Senate Democrat' potentially 'toying with the idea of leaving his party,' whereas The Guardian does not mention Fetterman in its reporting on the convention."
+      "[fox] frames John Fetterman's attendance as a potential indication of shifting political loyalties, while [guardian] focuses on Donald Trump's policy proposals and RNC activities at the same convention."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[fox] claims Tom Homan characterizes the potential dismantling of ICE as having 'dangerous consequences'.",
-      "[guardian] claims Donald Trump provided no details regarding the funding source or legality of a $5,000 payment to citizens."
+      "[fox] claims John Fetterman 'rejected socialism'.",
+      "[guardian] claims Donald Trump provided no details on the funding or legality of the proposed $5,000 dividend."
     ],
     "loaded_language": [
-      "[fox] uses the term 'rogue Senate Democrat' to describe Senator John Fetterman.",
-      "[fox] uses the term 'Trump-centric' to describe the RNC convention.",
-      "[fox] uses the term 'border czar' to describe Tom Homan.",
-      "[fox] uses the term 'slams' to describe Tom Homan's critique of progressive policies."
+      "[fox] uses the term 'rogue' to describe Sen. John Fetterman.",
+      "[fox] uses the term 'jump ship' to describe Sen. John Fetterman's potential party exit.",
+      "[fox] uses the term 'Trump-centric' to describe the GOP convention."
     ],
     "safe_conclusions": [
-      "Senator John Fetterman participated in a video for the RNC midterm convention.",
-      "The Republican National Committee held a midterm convention in Dallas.",
-      "Dan McKee lost a primary election in Rhode Island to Helena Foulkes."
+      "A GOP midterm convention occurred on Wednesday.",
+      "Senator Dave McCormick was associated with the event."
     ],
     "unknowns": [
-      "The specific current party affiliation or future intentions of Senator John Fetterman regarding his membership in the Democratic caucus.",
-      "The legislative feasibility or funding mechanisms for the 'Trump dividend' described by the Guardian.",
-      "The official status of Rhode Island's Washington bridge construction timeline beyond the 2028 estimate mentioned by the Guardian."
+      "Whether Senator John Fetterman intends to change his party affiliation.",
+      "The official funding source or legal framework for the proposed $5,000 dividend mentioned by Donald Trump."
     ],
-    "synthesis": "The provided articles detail disparate events, including an RNC midterm convention in Dallas, the results of a Rhode Island gubernatorial primary, and statements from Donald Trump regarding economic proposals. Senator John Fetterman appeared in a video at the RNC convention, while other news covers historical 9/11 commemorations and ICE deportation statistics. These reports cover independent political and governmental developments occurring in separate jurisdictions.",
-    "confidence": "HIGH. The sources report on distinct, unrelated events without direct factual conflict regarding the core details of each specific story.",
+    "synthesis": "An event identified as a Republican midterm convention took place, featuring appearances and speeches by political figures including Donald Trump and references to Senator Dave McCormick. Reports indicate Senator John Fetterman provided a video introduction for Senator McCormick at the event. Additionally, Donald Trump proposed a $5,000 dividend for citizens contingent on a Republican victory in the upcoming midterms.",
+    "confidence": "HIGH. The sources independently confirm the occurrence of a GOP midterm convention, though the articles cover distinct, non-overlapping segments of the event's proceedings.",
     "sources": [
       {
         "id": "art_1789009585931_tpduj",
@@ -76,6 +69,71 @@
         "title": "Trump claims he will give $5,000 to every American if Republicans win the midterms as he defends Iran war and tariffs– live"
       },
       {
+        "id": "art_1789009602639_u1peg",
+        "url": "https://www.theguardian.com/us-news/2026/sep/09/rhode-island-primary-results-dan-mckee",
+        "source": "guardian",
+        "title": "Rhode Island’s Democratic governor loses primary amid anger over bridge"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a1fae07ac28f28033d07c18be0f065ce",
+    "topic_label": "9/11 Anniversary and Counterterrorism",
+    "event_window_start": "2026-09-10T02:10:08.000Z",
+    "event_window_end": "2026-09-10T02:33:51.000Z",
+    "article_ids": [
+      "art_1789009591607_xe0cl",
+      "art_1789009598999_42ecr"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-10T17:07:51.394Z",
+    "updated_at": "2026-09-10T17:07:51.394Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The 9/11 terrorist attacks occurred 25 years ago.",
+      "Former President George W. Bush served as president during the time of the 9/11 attacks."
+    ],
+    "source_claims": [
+      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[fox] Tom Homan states that 70% of those detained by ICE are convicted criminals.",
+      "[fox] ICE has been involved in the rescue of over 150,000 smuggled children.",
+      "[fox] Former President George W. Bush shared a story about Derek Jeter before his 2001 World Series first pitch at a reunification event in Dallas."
+    ],
+    "framing_differences": [
+      "The first [fox] article frames ICE enforcement as a critical national security measure against terrorism, while the second [fox] article frames the 9/11 legacy through the lens of political reflection and sports history."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[fox] ICE has rescued over 150,000 smuggled children."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'Border czar' to describe Tom Homan.",
+      "[fox] uses the term 'slams' to describe Tom Homan's reaction to calls for abolishing ICE.",
+      "[fox] uses the term 'dangerous consequences' to characterize the potential dismantling of the agency."
+    ],
+    "safe_conclusions": [
+      "George W. Bush threw a ceremonial first pitch at Yankee Stadium during the 2001 World Series.",
+      "There are ongoing discussions regarding the role and existence of ICE in the United States."
+    ],
+    "unknowns": [
+      "The total number of terrorists identified or apprehended compared to the number deported.",
+      "The specific methodology used by ICE to calculate the rescue of 150,000 children.",
+      "The exact timeline of when ICE enforcement data was finalized."
+    ],
+    "synthesis": "Fox News reported on recent ICE enforcement statistics involving terrorism and child smuggling alongside a separate report regarding George W. Bush's recollections of the 2001 World Series. The reports highlight the agency's current operations and historical reflections on the post-9/11 era. These accounts focus on government data and presidential history without direct overlap in subject matter.",
+    "confidence": "HIGH; The provided texts are consistent in their reporting of distinct events and statements, although they focus on different subject matters.",
+    "sources": [
+      {
         "id": "art_1789009591607_xe0cl",
         "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
         "source": "fox",
@@ -86,12 +144,6 @@
         "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
         "source": "fox",
         "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
-      },
-      {
-        "id": "art_1789009602639_u1peg",
-        "url": "https://www.theguardian.com/us-news/2026/sep/09/rhode-island-primary-results-dan-mckee",
-        "source": "guardian",
-        "title": "Rhode Island’s Democratic governor loses primary amid anger over bridge"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -178,61 +230,68 @@
     "model_used": "gemini-3.5-flash"
   },
   {
-    "cluster_id": "e53fffc698e90fc3809c863a68c4150c",
-    "topic_label": "US election politics and policy",
+    "cluster_id": "20a4777691bb90d4230c35389a870680",
+    "topic_label": "US Political Events and Security",
     "event_window_start": "2026-09-10T02:05:20.000Z",
     "event_window_end": "2026-09-10T02:55:14.000Z",
     "article_ids": [
       "art_1789009585931_tpduj",
       "art_1789009588352_fvxf4",
+      "art_1789009591607_xe0cl",
+      "art_1789009598999_42ecr",
       "art_1789009602639_u1peg"
     ],
     "source_ids": [
       "fox",
       "guardian"
     ],
-    "article_count": 3,
+    "article_count": 5,
     "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-09-10T07:58:37.164Z",
-    "updated_at": "2026-09-10T07:58:37.164Z",
+    "created_at": "2026-09-10T12:50:26.994Z",
+    "updated_at": "2026-09-10T12:50:26.994Z",
     "region_tag": "global",
     "shared_facts": [
-      "A Republican-affiliated event described as a 'midterm convention' took place on a Wednesday.",
-      "Senator Dave McCormick was mentioned in relation to the event."
+      "An event described as a 'midterm convention' took place in Dallas involving the Republican National Committee.",
+      "Senator John Fetterman recorded a video introduction for Senator Dave McCormick."
     ],
     "source_claims": [
-      "[fox] claims Sen. John Fetterman made a surprise video appearance at the GOP midterm convention in Dallas.",
-      "[fox] claims Sen. John Fetterman has been 'toying with the idea of leaving his party'.",
-      "[guardian] claims Donald Trump stated he would give every American $5,000 if Republicans win the House and Senate.",
-      "[guardian] claims the 'Trump dividend' would cost more than $1 trillion."
+      "[fox] claims Sen. John Fetterman has expressed interest in potentially leaving the Democratic Party.",
+      "[fox] claims Sen. John Fetterman describes himself as a 'commonsense Democrat' who rejects socialism.",
+      "[guardian] claims Donald Trump stated he would give $5,000 to every American citizen if Republicans retain control of the House and Senate.",
+      "[guardian] claims the 'Trump dividend' policy would cost more than $1 trillion.",
+      "[fox] claims ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
+      "[guardian] claims Rhode Island governor Dan McKee lost his primary election to Helena Foulkes."
     ],
     "framing_differences": [
-      "[fox] frames John Fetterman's attendance as a potential indication of shifting political loyalties, while [guardian] focuses on Donald Trump's policy proposals and RNC activities at the same convention."
+      "Fox frames John Fetterman as a 'rogue Senate Democrat' potentially 'toying with the idea of leaving his party,' whereas The Guardian does not mention Fetterman in its reporting on the convention."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[fox] claims John Fetterman 'rejected socialism'.",
-      "[guardian] claims Donald Trump provided no details on the funding or legality of the proposed $5,000 dividend."
+      "[fox] claims Tom Homan characterizes the potential dismantling of ICE as having 'dangerous consequences'.",
+      "[guardian] claims Donald Trump provided no details regarding the funding source or legality of a $5,000 payment to citizens."
     ],
     "loaded_language": [
-      "[fox] uses the term 'rogue' to describe Sen. John Fetterman.",
-      "[fox] uses the term 'jump ship' to describe Sen. John Fetterman's potential party exit.",
-      "[fox] uses the term 'Trump-centric' to describe the GOP convention."
+      "[fox] uses the term 'rogue Senate Democrat' to describe Senator John Fetterman.",
+      "[fox] uses the term 'Trump-centric' to describe the RNC convention.",
+      "[fox] uses the term 'border czar' to describe Tom Homan.",
+      "[fox] uses the term 'slams' to describe Tom Homan's critique of progressive policies."
     ],
     "safe_conclusions": [
-      "A GOP midterm convention occurred on Wednesday.",
-      "Senator Dave McCormick was associated with the event."
+      "Senator John Fetterman participated in a video for the RNC midterm convention.",
+      "The Republican National Committee held a midterm convention in Dallas.",
+      "Dan McKee lost a primary election in Rhode Island to Helena Foulkes."
     ],
     "unknowns": [
-      "Whether Senator John Fetterman intends to change his party affiliation.",
-      "The official funding source or legal framework for the proposed $5,000 dividend mentioned by Donald Trump."
+      "The specific current party affiliation or future intentions of Senator John Fetterman regarding his membership in the Democratic caucus.",
+      "The legislative feasibility or funding mechanisms for the 'Trump dividend' described by the Guardian.",
+      "The official status of Rhode Island's Washington bridge construction timeline beyond the 2028 estimate mentioned by the Guardian."
     ],
-    "synthesis": "An event identified as a Republican midterm convention took place, featuring appearances and speeches by political figures including Donald Trump and references to Senator Dave McCormick. Reports indicate Senator John Fetterman provided a video introduction for Senator McCormick at the event. Additionally, Donald Trump proposed a $5,000 dividend for citizens contingent on a Republican victory in the upcoming midterms.",
-    "confidence": "HIGH. The sources independently confirm the occurrence of a GOP midterm convention, though the articles cover distinct, non-overlapping segments of the event's proceedings.",
+    "synthesis": "The provided articles detail disparate events, including an RNC midterm convention in Dallas, the results of a Rhode Island gubernatorial primary, and statements from Donald Trump regarding economic proposals. Senator John Fetterman appeared in a video at the RNC convention, while other news covers historical 9/11 commemorations and ICE deportation statistics. These reports cover independent political and governmental developments occurring in separate jurisdictions.",
+    "confidence": "HIGH. The sources report on distinct, unrelated events without direct factual conflict regarding the core details of each specific story.",
     "sources": [
       {
         "id": "art_1789009585931_tpduj",
@@ -245,6 +304,18 @@
         "url": "https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-national-convention-jd-vance-midterms-latest-news-updates",
         "source": "guardian",
         "title": "Trump claims he will give $5,000 to every American if Republicans win the midterms as he defends Iran war and tariffs– live"
+      },
+      {
+        "id": "art_1789009591607_xe0cl",
+        "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
+        "source": "fox",
+        "title": "EXCLUSIVE: 25 years after 9/11, ICE says more than 2K known or suspected terrorists have been deported"
+      },
+      {
+        "id": "art_1789009598999_42ecr",
+        "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
+        "source": "fox",
+        "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
       },
       {
         "id": "art_1789009602639_u1peg",
@@ -17820,80 +17891,6 @@
         "url": "https://www.aljazeera.com/news/2026/8/31/greece-signs-3-5bn-air-defence-deal-with-israel?traffic_source=rss",
         "source": "aljazeera",
         "title": "Greece signs $3.5bn air defence deal with Israel"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "220805fdf864ce554bbdd2bd5d72fe0e",
-    "topic_label": "Himalayan Disaster",
-    "event_window_start": "2026-08-31T20:49:14.000Z",
-    "event_window_end": "2026-09-01T00:07:23.000Z",
-    "article_ids": [
-      "art_1788222877884_91pts",
-      "art_1788209589794_depl5"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T06:42:41.878Z",
-    "updated_at": "2026-09-01T06:42:41.878Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A flash flood occurred near the Nepal-Tibet border.",
-      "People are currently missing, and fatalities have been reported in the region.",
-      "National governments are monitoring the status of their respective citizens."
-    ],
-    "source_claims": [
-      "[fox] reports approximately 80 Americans are currently unaccounted for following the flood.",
-      "[fox] states the Nepal death toll is 903 and approximately 4,200 people are missing.",
-      "[guardian] reports 43 Australians are missing following the flood.",
-      "[guardian] states the death toll is more than 930 people and more than 4,400 people are missing across both sides of the border.",
-      "[guardian] reports the Australian government has provided $8 million in aid and notes $2 million in private donations."
-    ],
-    "framing_differences": [
-      "Fox focuses specifically on the status of American citizens and the American State Department's tracking of those individuals, while The Guardian focuses on the Australian government's response and aid efforts."
-    ],
-    "contested_claims": [
-      "The sources report different figures for the total death toll (903 by Fox vs. over 930 by The Guardian) and the total number of missing persons (roughly 4,200 by Fox vs. more than 4,400 by The Guardian)."
-    ],
-    "unverified_claims": [
-      "[fox] states that 13 American citizens have successfully reached safety in Nepal."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'catastrophic' to describe the Himalayan flood.",
-      "[guardian] uses the term 'grave concerns' to describe the Australian foreign minister's position on missing citizens."
-    ],
-    "safe_conclusions": [
-      "A flash flood has occurred in the Himalayan region near the Nepal-Tibet border, resulting in casualties and missing persons.",
-      "Both the U.S. and Australian governments are actively tracking the status of their citizens in the area."
-    ],
-    "unknowns": [
-      "The exact total number of fatalities across the entire affected region.",
-      "The exact total number of missing individuals across the entire affected region.",
-      "The total number of international citizens unaccounted for beyond U.S. and Australian nationals."
-    ],
-    "synthesis": "A flash flood near the Nepal-Tibet border has resulted in hundreds of confirmed deaths and several thousand people reported missing. Both the United States and Australian governments have reported that groups of their citizens are currently unaccounted for in the region. Humanitarian and government efforts are underway to locate missing individuals and provide aid to the area.",
-    "confidence": "MEDIUM: The sources provide conflicting statistics regarding the death toll and number of missing persons, likely due to different reporting timestamps or geographical scope.",
-    "sources": [
-      {
-        "id": "art_1788222877884_91pts",
-        "url": "https://www.foxnews.com/world/roughly-80-americans-still-unaccounted-after-himalayan-disaster-kills-903-officials-say",
-        "source": "fox",
-        "title": "Roughly 80 Americans still unaccounted for after Himalayan disaster kills 903, officials say"
-      },
-      {
-        "id": "art_1788209589794_depl5",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/01/nepal-tibet-flooding-missing-australians-penny-wong-anthony-albanese-pacific-islands-forum-liberal-national-coalition-one-nation-politics-reactions-ntwnfb",
-        "source": "guardian",
-        "title": "News live: Penny Wong has ‘grave concerns’ for missing Australians in Nepal; capital city house prices fall below $1m"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
