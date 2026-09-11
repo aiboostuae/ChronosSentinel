@@ -1,5 +1,171 @@
 [
   {
+    "cluster_id": "067373004099ea4c3c68673f8cc9d83e",
+    "topic_label": "US Political Campaign News",
+    "event_window_start": "2026-09-11T01:52:37.000Z",
+    "event_window_end": "2026-09-11T02:44:23.000Z",
+    "article_ids": [
+      "art_1789095613454_7gizt",
+      "art_1789095618971_vkwfk",
+      "art_1789095624317_uwv1e"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-11T07:40:05.695Z",
+    "updated_at": "2026-09-11T07:40:05.695Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A Republican National Committee convention is taking place in Dallas, Texas.",
+      "The event is occurring during the midterm election cycle."
+    ],
+    "source_claims": [
+      "[guardian] Trump pledged a $5,000 payment to all U.S. adults if Republicans retain control of Congress.",
+      "[guardian] Trump led the audience in a pledge of allegiance to 'cheat like hell' regarding midterms.",
+      "[fox] Vice President JD Vance encountered a protestor waving Mexican and Palestinian flags during his keynote address.",
+      "[fox] Senator John Barrasso stated that Democratic colleagues privately expressed concern regarding the party's movement toward a 'far, far left' future."
+    ],
+    "framing_differences": [
+      "The Guardian focuses on Trump's rhetoric and potential legal concerns regarding campaign promises, while Fox News focuses on the actions of individual speakers and attendees at the convention."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Trump stated the country is 'taking in trillions, trillions of dollars' to fund the $5,000 payments.",
+      "[fox] Senator John Barrasso claims Democratic colleagues are 'wringing their hands' over the progressive movement in their party."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'bribery' to characterize the proposed $5,000 payments.",
+      "[fox] uses the term 'rabble-rouser' to describe a protestor.",
+      "[fox] uses the term 'far, far left' to describe the political direction of the Democratic Party."
+    ],
+    "safe_conclusions": [
+      "Republicans are holding a convention in Dallas to discuss midterm election strategy.",
+      "The convention has featured remarks from Donald Trump and JD Vance."
+    ],
+    "unknowns": [
+      "Whether the $5,000 payment proposal is legally viable.",
+      "The specific identities or number of protestors present at the convention.",
+      "The specific evidence or individuals associated with Senator Barrasso's claims about private Democratic concerns."
+    ],
+    "synthesis": "The Republican National Committee is holding a convention in Dallas during the midterm election season. Speakers including Donald Trump and JD Vance have addressed attendees, with Trump proposing a $5,000 citizen payment and Vance responding to a protestor. Concurrently, Senate Republicans are discussing perceived political shifts within the Democratic Party.",
+    "confidence": "HIGH. The sources report on distinct, non-overlapping events occurring within the same convention, making the reports consistent despite their different focal points.",
+    "sources": [
+      {
+        "id": "art_1789095613454_7gizt",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/10/donald-trump-republican-midterm-convention-dividend-offer-5000-vance-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump doubles down on pledge of $5,000 payments if his party retains control of Congress as he address convention a second time – live"
+      },
+      {
+        "id": "art_1789095618971_vkwfk",
+        "url": "https://www.foxnews.com/politics/crowd-erupts-vance-smacks-down-protester-waving-mexican-flag-get-your-over-there",
+        "source": "fox",
+        "title": "Crowd erupts as Vance smacks down protester waving Mexican flag: 'Get your a-- over there'"
+      },
+      {
+        "id": "art_1789095624317_uwv1e",
+        "url": "https://www.foxnews.com/politics/top-gop-senator-reveals-what-dem-colleagues-are-fretting-about-behind-closed-doors",
+        "source": "fox",
+        "title": "Top GOP senator reveals what Dem colleagues are fretting about behind closed doors"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "611726f199bf5f48dceb4139f2a84873",
+    "topic_label": "Criminal Justice and Legal Cases",
+    "event_window_start": "2026-09-11T01:50:26.000Z",
+    "event_window_end": "2026-09-11T02:39:56.000Z",
+    "article_ids": [
+      "art_1789095614649_fffar",
+      "art_1789095616929_8w6c7",
+      "art_1789095623297_133w9",
+      "art_1789095625334_0lyx2"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-11T07:40:05.695Z",
+    "updated_at": "2026-09-11T07:40:05.695Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Luke Sayers and Cate Sayers have settled a defamation case in the Victorian supreme court.",
+      "Luke Sayers apologized to Cate Sayers for suggesting she posted a lewd photo.",
+      "Daniel Billings was sentenced to 28 years in jail for the murder of Molly Ticehurst.",
+      "Lindsay Clancy was on trial for the killing of her three children.",
+      "Nekime Matu Oxendine was indicted for the murder of Adam Bean in North Carolina."
+    ],
+    "source_claims": [
+      "[guardian] Luke Sayers accepted that Cate Sayers did not post a lewd photo of his genitals.",
+      "[guardian] Molly Ticehurst's murder was described as revenge for reporting sexual assault allegations.",
+      "[fox] A juror in the Lindsay Clancy trial stated the jury let down the defendant.",
+      "[fox] Nekime Matu Oxendine reportedly shot Adam Bean following a confrontation outside a woman's home."
+    ],
+    "framing_differences": [
+      "The guardian article on Molly Ticehurst frames the event with explicit moral descriptors like 'senseless and brutal,' whereas the fox article on the shooting of Adam Bean maintains a more technical reporting style regarding the police investigation."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] An anonymous juror in the Lindsay Clancy trial believes the jury failed to fulfill its task properly."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'senseless and brutal' to describe the murder of Molly Ticehurst.",
+      "[guardian] uses the term 'embattled' to describe Luke Sayers.",
+      "[fox] uses the term 'high-profile' to describe the Lindsay Clancy trial."
+    ],
+    "safe_conclusions": [
+      "Legal proceedings have concluded or advanced in cases involving Luke Sayers, Daniel Billings, Lindsay Clancy, and Nekime Matu Oxendine."
+    ],
+    "unknowns": [
+      "Specific details regarding the evidence presented in the Lindsay Clancy mistrial.",
+      "The underlying details of the sexual assault allegations mentioned in the Molly Ticehurst case.",
+      "The specific nature of the 'years-long romantic dispute' involving the North Carolina officers."
+    ],
+    "synthesis": "Four distinct legal or criminal cases were reported, involving settlements, sentencing, and ongoing legal motions. These cases encompass a defamation settlement in Australia, a murder conviction in New South Wales, a high-profile criminal trial in Massachusetts, and an indictment for a fatal shooting in North Carolina. Each event involves different legal outcomes and criminal circumstances as documented by the respective sources.",
+    "confidence": "HIGH. The articles describe four independent, unrelated news events that are reported with consistent factual details within their respective contexts.",
+    "sources": [
+      {
+        "id": "art_1789095614649_fffar",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/11/former-carlton-president-luke-sayers-apologises-to-ex-wife-as-lewd-photo-defamation-case-settles-ntwnfb",
+        "source": "guardian",
+        "title": "Former Carlton president apologises to ex-wife as lewd photo defamation case settles"
+      },
+      {
+        "id": "art_1789095616929_8w6c7",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/11/molly-ticehursts-killer-daniel-billings-sentenced-ntwnfb",
+        "source": "guardian",
+        "title": "Molly Ticehurst’s killer Daniel Billings sentenced to 28 years in jail for her murder"
+      },
+      {
+        "id": "art_1789095623297_133w9",
+        "url": "https://www.foxnews.com/us/juror-lindsay-clancy-trial-says-we-let-down-lindsay-following-mistrial",
+        "source": "fox",
+        "title": "Juror on Lindsay Clancy trial says 'we let down Lindsay' following mistrial"
+      },
+      {
+        "id": "art_1789095625334_0lyx2",
+        "url": "https://www.foxnews.com/us/patrol-sergeant-accused-murdering-sheriffs-captain-yearslong-romantic-dispute-woman-dated",
+        "source": "fox",
+        "title": "Patrol sergeant accused of murdering sheriff’s captain in yearslong romantic dispute over woman they dated"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "521e2e8398f32dbcd068e3d763a280eb",
     "topic_label": "Middle East and Global Security",
     "event_window_start": "2026-09-10T02:02:00.000Z",
@@ -17728,150 +17894,6 @@
         "url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
         "source": "guardian",
         "title": "Trump says US will ‘hit Iran hard’ as hostilities resume – Middle East crisis live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f825f221fa34407adff075fe7925868d",
-    "topic_label": "Russian Attacks on Ukraine",
-    "event_window_start": "2026-08-31T14:14:56.000Z",
-    "event_window_end": "2026-09-01T10:17:28.000Z",
-    "article_ids": [
-      "art_1788258822417_qcr77",
-      "art_1788209603154_1rym7",
-      "art_1788188596545_e2ike"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T12:08:18.271Z",
-    "updated_at": "2026-09-01T12:08:18.271Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Russian military strikes have occurred in Ukraine, resulting in deaths and injuries.",
-      "The German government is investigating an incident involving a drone and a Ukrainian cargo plane near Leipzig."
-    ],
-    "source_claims": [
-      "[guardian_1] President Zelenskyy reported at least 12 people killed, dozens injured, and thousands without power in the Odesa region due to overnight Russian attacks.",
-      "[guardian_1] Zelenskyy stated a border crossing with Romania was deliberately damaged.",
-      "[guardian_2] Dmytrivka community leader Taras Didych was killed alongside 38 others in a Russian strike on an ammunition warehouse in Myla.",
-      "[guardian_3] German Chancellor Friedrich Merz stated that investigations into the Leipzig drone attack are concluding and a government response is forthcoming."
-    ],
-    "framing_differences": [
-      "guardian_1 frames the events as part of a series of prolonged Russian attacks intended to wear down the country, whereas aljazeera focuses on the local impact of a specific individual's death in the Dmytrivka community."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian_1] Russian attacks have hit Kyiv for six consecutive days.",
-      "[guardian_3] The drone incident in Leipzig is widely speculated to have been coordinated by Russia."
-    ],
-    "loaded_language": [
-      "[guardian_1] uses the term 'wear down' to describe the intent behind the Russian attacks.",
-      "[guardian_1] uses the word 'deliberately' to describe the damage to a border crossing."
-    ],
-    "safe_conclusions": [
-      "There are active military hostilities involving Russian strikes within Ukraine.",
-      "German officials are investigating an attempted drone attack on a cargo plane."
-    ],
-    "unknowns": [
-      "The total number of casualties from Russian strikes across Ukraine is not consistent across reports.",
-      "The official findings of the German government regarding the identity of the actors behind the Leipzig drone incident remain unreleased."
-    ],
-    "synthesis": "Russian military strikes in Ukraine have resulted in multiple deaths, injuries, and infrastructure damage across different regions. Simultaneously, the German government is finalizing its investigation into a drone attack on a Ukrainian plane near Leipzig. Officials in both nations have indicated that updates regarding these events are expected in the near future.",
-    "confidence": "MEDIUM. While reports provide consistent information about ongoing events, the articles describe different, localized incidents in Ukraine and Germany, making a holistic comparison difficult.",
-    "sources": [
-      {
-        "id": "art_1788258822417_qcr77",
-        "url": "https://www.theguardian.com/world/live/2026/sep/01/ukraine-russia-strikes-attacks-odesa-zelenskyy-putin-eu-defence-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "At least 12 people killed in Russian overnight attacks on Ukraine – Europe live"
-      },
-      {
-        "id": "art_1788209603154_1rym7",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/ukrainians-mourn-community-leader-killed-in-russian-strike-on-myla?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukrainians mourn community leader killed in Russian strike on Myla"
-      },
-      {
-        "id": "art_1788188596545_e2ike",
-        "url": "https://www.theguardian.com/world/2026/aug/31/germany-leipzig-drone-attack-ukrainian-plane",
-        "source": "guardian",
-        "title": "Germany poised to identify suspect in Leipzig drone attack on Ukrainian plane"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c31d843643a4b431776c31c98d030d0e",
-    "topic_label": "US Federal Funding and Shutdown",
-    "event_window_start": "2026-08-31T14:48:26.000Z",
-    "event_window_end": "2026-09-01T10:13:03.000Z",
-    "article_ids": [
-      "art_1788258824612_kxgll",
-      "art_1788188588940_vie9o"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T12:08:18.271Z",
-    "updated_at": "2026-09-01T12:08:18.271Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The US House of Representatives is returning from a recess.",
-      "Speaker Mike Johnson is leading an effort to pass a stopgap funding bill.",
-      "The purpose of the proposed legislation is to prevent a federal government shutdown."
-    ],
-    "source_claims": [
-      "[guardian_1] Speaker Mike Johnson stated he aims to ensure the government is funded to avoid a 'Democratic shutdown'.",
-      "[guardian_1] The stopgap bill was modified in the Senate to increase its appeal to Democrats.",
-      "[guardian_2] Speaker Mike Johnson intends to utilize a fast-track voting procedure requiring a two-thirds majority."
-    ],
-    "framing_differences": [
-      "guardian_1 frames the immediate goal as preventing a shutdown specifically before the midterm elections, while guardian_2 frames the legislative effort in the context of a five-week recess and a year marked by previous shutdowns."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian_1] The funding bill delays a rule from the Office of Management and Budget."
-    ],
-    "loaded_language": [
-      "[guardian_1] uses the term 'Democratic shutdown' to describe a potential funding lapse."
-    ],
-    "safe_conclusions": [
-      "The US House of Representatives is currently working on legislation to extend government funding to avoid a shutdown."
-    ],
-    "unknowns": [
-      "The specific details of the changes made to the funding bill in the Senate.",
-      "The exact voting outcome for the proposed stopgap bill.",
-      "The specific content of the Office of Management and Budget rule mentioned in the text."
-    ],
-    "synthesis": "The US House of Representatives has returned from recess with Speaker Mike Johnson leading an effort to pass a stopgap funding bill. The legislation aims to prevent a government shutdown by extending current funding levels through early December. The House plans to utilize a fast-track procedure to advance the measure.",
-    "confidence": "HIGH. The articles provide consistent reports on the House's return and the legislative focus on preventing a shutdown.",
-    "sources": [
-      {
-        "id": "art_1788258824612_kxgll",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/01/house-vote-stopgap-funding-bill-us-federal-government-shutdown-mike-johnson-trump-ballroom-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "House to vote on stopgap funding bill as lawmakers scramble to avoid government shutdown – US politics live"
-      },
-      {
-        "id": "art_1788188588940_vie9o",
-        "url": "https://www.theguardian.com/us-news/live/2026/aug/31/donald-trump-lake-america-ontario-canada-trade-war-tariffs-jd-vance-g20-latest-news-updates",
-        "source": "guardian",
-        "title": "House lawmakers return to Capitol Hill as Republicans hope to pass stopgap spending bill – live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
