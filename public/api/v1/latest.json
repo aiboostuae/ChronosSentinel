@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T16:54:05.792Z",
+  "generated_at": "2026-09-11T19:37:50.100Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 172,
+  "impact_count": 173,
   "watchlist_count": 3,
   "latest_clusters": [
     {
@@ -102,6 +102,41 @@
         }
       ],
       "updated_at": "2026-09-11T12:32:45.206Z"
+    },
+    {
+      "cluster_id": "f5dc70ca59e10b71ed3271eb820ff486",
+      "topic_label": "9/11 Legacy and Consequences",
+      "event_window_start": "2026-09-11T05:27:06.000Z",
+      "event_window_end": "2026-09-11T06:00:55.000Z",
+      "article_count": 3,
+      "source_count": 1,
+      "region_tag": "middle-east",
+      "shared_facts": [
+        "The 9/11 attacks occurred 25 years ago.",
+        "The 9/11 attacks involved hijackers flying commercial airplanes into the World Trade Center and the Pentagon.",
+        "The 9/11 attacks resulted in the deaths of nearly 3,000 people."
+      ],
+      "source_differences": [],
+      "synthesis": "Twenty-five years after the 9/11 attacks, media analysis is focusing on the long-term impact of subsequent US foreign policy and the evolution of public discourse surrounding the event. Al Jazeera reports on the human cost of post-9/11 military actions and the persistence of conspiracy theories within mainstream American media. The reporting also notes ongoing challenges regarding societal perceptions of Muslims in the United States.",
+      "confidence": "HIGH: All articles originate from the same publisher and maintain consistent historical references regarding the 9/11 attacks.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-hosted-us-911-muslims-withmusic?traffic_source=rss",
+          "title": "Is the US more anti-Muslim now than after 9/11?"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news-analysis/2026/9/11/how-9-11-conspiracy-theories-moved-into-mainstream-american?traffic_source=rss",
+          "title": "How 9/11 conspiracy theories moved into mainstream American politics"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/longform/2026/9/11/everything-changed-the-human-cost-of-25-years-of-us-wars?traffic_source=rss",
+          "title": "‘Everything changed’: The human cost of 25 years of US wars"
+        }
+      ],
+      "updated_at": "2026-09-11T19:37:41.775Z"
     },
     {
       "cluster_id": "0c9e9e51dcad5635d7b2ed82bf8547d3",
@@ -304,43 +339,29 @@
         }
       ],
       "updated_at": "2026-09-10T17:07:51.394Z"
-    },
-    {
-      "cluster_id": "e53fffc698e90fc3809c863a68c4150c",
-      "topic_label": "US election politics and policy",
-      "event_window_start": "2026-09-10T02:05:20.000Z",
-      "event_window_end": "2026-09-10T02:55:14.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "A Republican-affiliated event described as a 'midterm convention' took place on a Wednesday.",
-        "Senator Dave McCormick was mentioned in relation to the event."
-      ],
-      "source_differences": [],
-      "synthesis": "An event identified as a Republican midterm convention took place, featuring appearances and speeches by political figures including Donald Trump and references to Senator Dave McCormick. Reports indicate Senator John Fetterman provided a video introduction for Senator McCormick at the event. Additionally, Donald Trump proposed a $5,000 dividend for citizens contingent on a Republican victory in the upcoming midterms.",
-      "confidence": "HIGH. The sources independently confirm the occurrence of a GOP midterm convention, though the articles cover distinct, non-overlapping segments of the event's proceedings.",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/fetterman-teases-true-loyalty-surprise-appearance-gop-convention",
-          "title": "Fetterman teases where his true loyalty lies after surprise appearance at GOP convention"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-national-convention-jd-vance-midterms-latest-news-updates",
-          "title": "Trump claims he will give $5,000 to every American if Republicans win the midterms as he defends Iran war and tariffs– live"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/09/rhode-island-primary-results-dan-mckee",
-          "title": "Rhode Island’s Democratic governor loses primary amid anger over bridge"
-        }
-      ],
-      "updated_at": "2026-09-10T07:58:37.164Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-f5dc70ca",
+      "title": "9/11 Legacy and Consequences",
+      "severity": "low",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "Twenty-five years after the 9/11 attacks, media analysis is focusing on the long-term impact of subsequent US foreign policy and the evolution of public discourse surrounding the event. Al Jazeera reports on the human cost of post-9/11 military actions and the persistence of conspiracy theories within mainstream American media. The reporting also notes ongoing challenges regarding societal perceptions of Muslims in the United States.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "f5dc70ca59e10b71ed3271eb820ff486",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-11T19:37:41.775Z"
+    },
     {
       "id": "impact-0c9e9e51",
       "title": "Trump and US Politics",
@@ -514,27 +535,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-09-10T12:50:26.994Z"
-    },
-    {
-      "id": "impact-de878a61",
-      "title": "Terrorism and security concerns",
-      "severity": "low",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Fox News reported on recent U.S. national security and immigration enforcement operations, citing significant statistics regarding deportations and child rescues by ICE. Additionally, the network covered a military strike against a vessel in the Eastern Pacific and provided a retrospective on George W. Bush's ceremonial pitch following the 9/11 attacks. The reporting focuses on federal agency activity and presidential history.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "de878a616538316412872046381515d9",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-10T07:58:37.164Z"
     }
   ]
 }
