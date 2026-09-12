@@ -1,84 +1,5 @@
 [
   {
-    "cluster_id": "c1596fabcd0c70d451f48d5c19cb97d1",
-    "topic_label": "Trump and US Politics",
-    "event_window_start": "2026-09-11T01:52:37.000Z",
-    "event_window_end": "2026-09-11T06:16:54.000Z",
-    "article_ids": [
-      "art_1789113534226_5jw2z",
-      "art_1789095613454_7gizt",
-      "art_1789095624317_uwv1e"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-11T16:53:59.969Z",
-    "updated_at": "2026-09-11T16:53:59.969Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Republican Party held a convention in Dallas.",
-      "Donald Trump and JD Vance spoke at the convention."
-    ],
-    "source_claims": [
-      "[bbc] The convention was held to boost enthusiasm among supporters.",
-      "[guardian] Trump pledged $5,000 payments to US citizens if Republicans win control of Congress.",
-      "[guardian] Trump led the audience in a pledge to 'cheat like hell' during voting.",
-      "[fox] Senate Majority Whip John Barrasso stated that Democratic colleagues are worried about a progressive shift in their party."
-    ],
-    "framing_differences": [
-      "The BBC frames the convention as an effort to boost voter enthusiasm; The Guardian frames the event around specific, potentially controversial policy promises and rhetoric; Fox News frames the event as a venue for discussing Democratic party strategy."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Trump's energy for discussing politics has waned.",
-      "[fox] Democratic colleagues are worried about an insurgent progressive wave in their party."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'bribery' to describe the $5,000 payment promise.",
-      "[fox] uses the term 'far, far left' to describe the trajectory of the Democratic Party.",
-      "[guardian] uses the term 'cheat like hell' to describe the pledge made by Trump."
-    ],
-    "safe_conclusions": [
-      "A Republican convention occurred in Dallas featuring speeches from party leadership.",
-      "Donald Trump addressed the convention attendees."
-    ],
-    "unknowns": [
-      "The legal standing of the proposed $5,000 payments.",
-      "The extent of private sentiment among Democratic lawmakers regarding their party's future."
-    ],
-    "synthesis": "The Republican Party held a convention in Dallas featuring appearances by Donald Trump and JD Vance. Discussions at the event included specific policy promises regarding payments to citizens and commentary on the political trajectory of the Democratic Party. Media coverage varies significantly in its focus, highlighting different aspects of the speakers' rhetoric and party messaging.",
-    "confidence": "MEDIUM; While the basic event details are consistent, the sources prioritize vastly different aspects of the convention, making it difficult to construct a single unified narrative of the event's purpose.",
-    "sources": [
-      {
-        "id": "art_1789113534226_5jw2z",
-        "url": "https://www.bbc.co.uk/news/videos/cn9w5e7wl9ro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Has Trump won over voters with his midterm convention?"
-      },
-      {
-        "id": "art_1789095613454_7gizt",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/10/donald-trump-republican-midterm-convention-dividend-offer-5000-vance-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump doubles down on pledge of $5,000 payments if his party retains control of Congress as he address convention a second time – live"
-      },
-      {
-        "id": "art_1789095624317_uwv1e",
-        "url": "https://www.foxnews.com/politics/top-gop-senator-reveals-what-dem-colleagues-are-fretting-about-behind-closed-doors",
-        "source": "fox",
-        "title": "Top GOP senator reveals what Dem colleagues are fretting about behind closed doors"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "7dde3ac97b1f022c8f4d53a2f18a1b8e",
     "topic_label": "UK Assisted Dying Bill",
     "event_window_start": "2026-09-11T06:18:09.000Z",
@@ -218,6 +139,85 @@
         "url": "https://www.theguardian.com/uk-news/2026/sep/11/diana-revenge-dress-auction-sothebys-stambolian",
         "source": "guardian",
         "title": "Diana’s ‘revenge dress’, worn when Charles revealed infidelity, up for auction"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c1596fabcd0c70d451f48d5c19cb97d1",
+    "topic_label": "Trump and US Politics",
+    "event_window_start": "2026-09-11T01:52:37.000Z",
+    "event_window_end": "2026-09-11T06:16:54.000Z",
+    "article_ids": [
+      "art_1789113534226_5jw2z",
+      "art_1789095613454_7gizt",
+      "art_1789095624317_uwv1e"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-11T16:53:59.969Z",
+    "updated_at": "2026-09-11T16:53:59.969Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Republican Party held a convention in Dallas.",
+      "Donald Trump and JD Vance spoke at the convention."
+    ],
+    "source_claims": [
+      "[bbc] The convention was held to boost enthusiasm among supporters.",
+      "[guardian] Trump pledged $5,000 payments to US citizens if Republicans win control of Congress.",
+      "[guardian] Trump led the audience in a pledge to 'cheat like hell' during voting.",
+      "[fox] Senate Majority Whip John Barrasso stated that Democratic colleagues are worried about a progressive shift in their party."
+    ],
+    "framing_differences": [
+      "The BBC frames the convention as an effort to boost voter enthusiasm; The Guardian frames the event around specific, potentially controversial policy promises and rhetoric; Fox News frames the event as a venue for discussing Democratic party strategy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Trump's energy for discussing politics has waned.",
+      "[fox] Democratic colleagues are worried about an insurgent progressive wave in their party."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'bribery' to describe the $5,000 payment promise.",
+      "[fox] uses the term 'far, far left' to describe the trajectory of the Democratic Party.",
+      "[guardian] uses the term 'cheat like hell' to describe the pledge made by Trump."
+    ],
+    "safe_conclusions": [
+      "A Republican convention occurred in Dallas featuring speeches from party leadership.",
+      "Donald Trump addressed the convention attendees."
+    ],
+    "unknowns": [
+      "The legal standing of the proposed $5,000 payments.",
+      "The extent of private sentiment among Democratic lawmakers regarding their party's future."
+    ],
+    "synthesis": "The Republican Party held a convention in Dallas featuring appearances by Donald Trump and JD Vance. Discussions at the event included specific policy promises regarding payments to citizens and commentary on the political trajectory of the Democratic Party. Media coverage varies significantly in its focus, highlighting different aspects of the speakers' rhetoric and party messaging.",
+    "confidence": "MEDIUM; While the basic event details are consistent, the sources prioritize vastly different aspects of the convention, making it difficult to construct a single unified narrative of the event's purpose.",
+    "sources": [
+      {
+        "id": "art_1789113534226_5jw2z",
+        "url": "https://www.bbc.co.uk/news/videos/cn9w5e7wl9ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Has Trump won over voters with his midterm convention?"
+      },
+      {
+        "id": "art_1789095613454_7gizt",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/10/donald-trump-republican-midterm-convention-dividend-offer-5000-vance-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump doubles down on pledge of $5,000 payments if his party retains control of Congress as he address convention a second time – live"
+      },
+      {
+        "id": "art_1789095624317_uwv1e",
+        "url": "https://www.foxnews.com/politics/top-gop-senator-reveals-what-dem-colleagues-are-fretting-about-behind-closed-doors",
+        "source": "fox",
+        "title": "Top GOP senator reveals what Dem colleagues are fretting about behind closed doors"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
