@@ -151,6 +151,73 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "2673212a0235df27936b09fb0873d50b",
+    "topic_label": "Trump Campaign Policy Proposals",
+    "event_window_start": "2026-09-12T01:58:55.000Z",
+    "event_window_end": "2026-09-12T14:38:25.000Z",
+    "article_ids": [
+      "art_1789226180294_qt3w2",
+      "art_1789182543688_oloit"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-12T17:50:02.093Z",
+    "updated_at": "2026-09-12T17:50:02.093Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump has proposed a $5,000 dividend for all US adults contingent on Republicans maintaining control of Congress in the upcoming elections.",
+      "Howard Lutnick stated that this dividend would not be funded by US tax revenues.",
+      "Howard Lutnick indicated that the administration could generate the necessary $500 billion to $1 trillion from a new visa program."
+    ],
+    "source_claims": [
+      "[guardian-1] Howard Lutnick stated that the funds for the dividend would come from a new visa program rather than the federal deficit or taxpayers.",
+      "[guardian-2] Donald Trump stated via Truth Social that the dividend will occur because the country is generating trillions of dollars in economic development and investment."
+    ],
+    "framing_differences": [
+      "The first guardian article frames the proposal by focusing on the funding source explanations provided by Howard Lutnick, whereas the second guardian article frames the proposal around political criticism, questions of feasibility, and the national debt."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian-2] The article claims the proposal has sparked accusations of bribery."
+    ],
+    "loaded_language": [
+      "[guardian-2] uses the term 'incredulity' to describe reactions to the proposal.",
+      "[guardian-2] uses the term 'extreme concern' to describe the national debt situation."
+    ],
+    "safe_conclusions": [
+      "Donald Trump has publicly proposed a $5,000 payment to US adults tied to Republican legislative success.",
+      "The viability and funding mechanisms for the proposal are subjects of public discussion."
+    ],
+    "unknowns": [
+      "The specific details and legal structure of the proposed visa program remain unspecified.",
+      "The potential legislative path for implementing such a dividend is not defined."
+    ],
+    "synthesis": "Donald Trump has proposed a $5,000 dividend for all US adults conditioned on Republicans retaining control of Congress. Commerce Secretary Howard Lutnick stated that the program would be funded through a new visa program rather than taxpayer money. The proposal has prompted public discussion regarding its feasibility and legal status.",
+    "confidence": "HIGH. The sources are consistent regarding the core details of the proposal and the comments provided by the Commerce Secretary.",
+    "sources": [
+      {
+        "id": "art_1789226180294_qt3w2",
+        "url": "https://www.theguardian.com/us-news/2026/sep/12/trump-midterm-dividend-funding",
+        "source": "guardian",
+        "title": "Taxes wouldn’t fund $5,000 Trump ‘dividend’ if Republicans win midterms, says commerce secretary"
+      },
+      {
+        "id": "art_1789182543688_oloit",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/11/september-11-anniversary-memorials-world-trade-center-pentagon-vance-trump-us-politics-live",
+        "source": "guardian",
+        "title": "Trump keeps touting $5,000 payments if Republicans retain control of Congress as some in his party question feasibility – as it happened"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "0b1e0c47b53228e3cc1ec9eed3eb7d6e",
     "topic_label": "Reform Party UK Donations",
     "event_window_start": "2026-09-12T14:17:56.000Z",
@@ -214,73 +281,6 @@
         "url": "https://www.theguardian.com/politics/2026/sep/12/christopher-harborne-matches-36m-reform-donation-of-ben-zelo",
         "source": "guardian",
         "title": "Christopher Harborne matches £36m Reform donation of Ben Delo"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2673212a0235df27936b09fb0873d50b",
-    "topic_label": "Trump Campaign Policy Proposals",
-    "event_window_start": "2026-09-12T01:58:55.000Z",
-    "event_window_end": "2026-09-12T14:38:25.000Z",
-    "article_ids": [
-      "art_1789226180294_qt3w2",
-      "art_1789182543688_oloit"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-12T17:50:02.093Z",
-    "updated_at": "2026-09-12T17:50:02.093Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump has proposed a $5,000 dividend for all US adults contingent on Republicans maintaining control of Congress in the upcoming elections.",
-      "Howard Lutnick stated that this dividend would not be funded by US tax revenues.",
-      "Howard Lutnick indicated that the administration could generate the necessary $500 billion to $1 trillion from a new visa program."
-    ],
-    "source_claims": [
-      "[guardian-1] Howard Lutnick stated that the funds for the dividend would come from a new visa program rather than the federal deficit or taxpayers.",
-      "[guardian-2] Donald Trump stated via Truth Social that the dividend will occur because the country is generating trillions of dollars in economic development and investment."
-    ],
-    "framing_differences": [
-      "The first guardian article frames the proposal by focusing on the funding source explanations provided by Howard Lutnick, whereas the second guardian article frames the proposal around political criticism, questions of feasibility, and the national debt."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian-2] The article claims the proposal has sparked accusations of bribery."
-    ],
-    "loaded_language": [
-      "[guardian-2] uses the term 'incredulity' to describe reactions to the proposal.",
-      "[guardian-2] uses the term 'extreme concern' to describe the national debt situation."
-    ],
-    "safe_conclusions": [
-      "Donald Trump has publicly proposed a $5,000 payment to US adults tied to Republican legislative success.",
-      "The viability and funding mechanisms for the proposal are subjects of public discussion."
-    ],
-    "unknowns": [
-      "The specific details and legal structure of the proposed visa program remain unspecified.",
-      "The potential legislative path for implementing such a dividend is not defined."
-    ],
-    "synthesis": "Donald Trump has proposed a $5,000 dividend for all US adults conditioned on Republicans retaining control of Congress. Commerce Secretary Howard Lutnick stated that the program would be funded through a new visa program rather than taxpayer money. The proposal has prompted public discussion regarding its feasibility and legal status.",
-    "confidence": "HIGH. The sources are consistent regarding the core details of the proposal and the comments provided by the Commerce Secretary.",
-    "sources": [
-      {
-        "id": "art_1789226180294_qt3w2",
-        "url": "https://www.theguardian.com/us-news/2026/sep/12/trump-midterm-dividend-funding",
-        "source": "guardian",
-        "title": "Taxes wouldn’t fund $5,000 Trump ‘dividend’ if Republicans win midterms, says commerce secretary"
-      },
-      {
-        "id": "art_1789182543688_oloit",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/11/september-11-anniversary-memorials-world-trade-center-pentagon-vance-trump-us-politics-live",
-        "source": "guardian",
-        "title": "Trump keeps touting $5,000 payments if Republicans retain control of Congress as some in his party question feasibility – as it happened"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
