@@ -1,10 +1,41 @@
 {
-  "generated_at": "2026-09-12T07:47:11.014Z",
+  "generated_at": "2026-09-12T12:05:56.301Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 173,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "a9fc11348a319a7e97aeed1ed2443dad",
+      "topic_label": "Middle East geopolitical tensions",
+      "event_window_start": "2026-09-12T01:22:41.000Z",
+      "event_window_end": "2026-09-12T02:22:29.000Z",
+      "article_count": 3,
+      "source_count": 1,
+      "region_tag": "middle-east",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided articles detail three distinct events: diplomatic criticism of US economic policies by Iran and Russia, a drone-related shutdown of a Saudi Arabian oil pipeline, and a major CIA release of 9/11-related presidential briefings. These reports cover separate geopolitical, security, and historical matters. No single event connects the provided texts.",
+      "confidence": "HIGH. The articles concern entirely separate topics, and there is no factual conflict between them.",
+      "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss",
+          "title": "Putin and Pezeshkian call out US dominance ahead of BRICS"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss",
+          "title": "Satellite image shows critical Saudi pipeline damaged in drone attack"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/12/cia-drops-dozens-of-declassified-documents-on-bin-laden-and-al-qaeda?traffic_source=rss",
+          "title": "CIA drops dozens of declassified documents on bin Laden and al-Qaeda"
+        }
+      ],
+      "updated_at": "2026-09-12T12:05:51.503Z"
+    },
     {
       "cluster_id": "2daecaca5ca6a8b2397221f4a692ea45",
       "topic_label": "Middle East Security and Geopolitics",
@@ -288,51 +319,30 @@
         }
       ],
       "updated_at": "2026-09-11T07:40:05.695Z"
-    },
-    {
-      "cluster_id": "611726f199bf5f48dceb4139f2a84873",
-      "topic_label": "Criminal Justice and Legal Cases",
-      "event_window_start": "2026-09-11T01:50:26.000Z",
-      "event_window_end": "2026-09-11T02:39:56.000Z",
-      "article_count": 4,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Luke Sayers and Cate Sayers have settled a defamation case in the Victorian supreme court.",
-        "Luke Sayers apologized to Cate Sayers for suggesting she posted a lewd photo.",
-        "Daniel Billings was sentenced to 28 years in jail for the murder of Molly Ticehurst.",
-        "Lindsay Clancy was on trial for the killing of her three children.",
-        "Nekime Matu Oxendine was indicted for the murder of Adam Bean in North Carolina."
-      ],
-      "source_differences": [],
-      "synthesis": "Four distinct legal or criminal cases were reported, involving settlements, sentencing, and ongoing legal motions. These cases encompass a defamation settlement in Australia, a murder conviction in New South Wales, a high-profile criminal trial in Massachusetts, and an indictment for a fatal shooting in North Carolina. Each event involves different legal outcomes and criminal circumstances as documented by the respective sources.",
-      "confidence": "HIGH. The articles describe four independent, unrelated news events that are reported with consistent factual details within their respective contexts.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/11/former-carlton-president-luke-sayers-apologises-to-ex-wife-as-lewd-photo-defamation-case-settles-ntwnfb",
-          "title": "Former Carlton president apologises to ex-wife as lewd photo defamation case settles"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/11/molly-ticehursts-killer-daniel-billings-sentenced-ntwnfb",
-          "title": "Molly Ticehurst’s killer Daniel Billings sentenced to 28 years in jail for her murder"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/us/juror-lindsay-clancy-trial-says-we-let-down-lindsay-following-mistrial",
-          "title": "Juror on Lindsay Clancy trial says 'we let down Lindsay' following mistrial"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/us/patrol-sergeant-accused-murdering-sheriffs-captain-yearslong-romantic-dispute-woman-dated",
-          "title": "Patrol sergeant accused of murdering sheriff’s captain in yearslong romantic dispute over woman they dated"
-        }
-      ],
-      "updated_at": "2026-09-11T07:40:05.695Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-a9fc1134",
+      "title": "Middle East geopolitical tensions",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "energy",
+        "shipping"
+      ],
+      "why_it_matters": "The provided articles detail three distinct events: diplomatic criticism of US economic policies by Iran and Russia, a drone-related shutdown of a Saudi Arabian oil pipeline, and a major CIA release of 9/11-related presidential briefings. These reports cover separate geopolitical, security, and historical matters. No single event connects the provided texts.",
+      "evidence_summary": "1 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "a9fc11348a319a7e97aeed1ed2443dad",
+      "related_watchlist_id": "watch-002",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-12T12:05:51.503Z"
+    },
     {
       "id": "impact-2daecaca",
       "title": "Middle East Security and Geopolitics",
@@ -510,25 +520,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-10T17:07:51.394Z"
-    },
-    {
-      "id": "impact-e53fffc6",
-      "title": "US election politics and policy",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "An event identified as a Republican midterm convention took place, featuring appearances and speeches by political figures including Donald Trump and references to Senator Dave McCormick. Reports indicate Senator John Fetterman provided a video introduction for Senator McCormick at the event. Additionally, Donald Trump proposed a $5,000 dividend for citizens contingent on a Republican victory in the upcoming midterms.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "e53fffc698e90fc3809c863a68c4150c",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-10T07:58:37.164Z"
     }
   ]
 }

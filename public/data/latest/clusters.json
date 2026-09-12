@@ -1,5 +1,77 @@
 [
   {
+    "cluster_id": "a9fc11348a319a7e97aeed1ed2443dad",
+    "topic_label": "Middle East geopolitical tensions",
+    "event_window_start": "2026-09-12T01:22:41.000Z",
+    "event_window_end": "2026-09-12T02:22:29.000Z",
+    "article_ids": [
+      "art_1789182540460_a84vz",
+      "art_1789182541488_apfnm",
+      "art_1789182549007_8ncpk"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-12T12:05:51.503Z",
+    "updated_at": "2026-09-12T12:05:51.503Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera] The presidents of Iran and Russia have criticized US dollar dominance ahead of the BRICS summit in India.",
+      "[aljazeera] Saudi Arabia has shut its East-West oil pipeline following a drone attack that Riyadh claims originated in Iraq.",
+      "[aljazeera] The CIA released declassified presidential briefing documents regarding Osama bin Laden and al-Qaeda on the 25th anniversary of the September 11 attacks."
+    ],
+    "framing_differences": [
+      "The provided sources discuss entirely unrelated geopolitical events, including economic alliances, regional infrastructure security, and historical intelligence disclosure, and therefore do not frame the same event."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The drone attack on the Saudi East-West pipeline originated in Iraq according to Riyadh."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'act of exceptional transparency' to describe the CIA's release of declassified documents."
+    ],
+    "safe_conclusions": [
+      "The CIA has released declassified presidential briefing documents.",
+      "Saudi Arabia has shut down the East-West oil pipeline.",
+      "Leaders of Iran and Russia have issued statements regarding US economic influence."
+    ],
+    "unknowns": [
+      "The specific details of the BRICS summit agenda.",
+      "The evidentiary basis for Riyadh's claim regarding the origin of the drone attack.",
+      "The full content of the declassified CIA documents beyond the described topics."
+    ],
+    "synthesis": "The provided articles detail three distinct events: diplomatic criticism of US economic policies by Iran and Russia, a drone-related shutdown of a Saudi Arabian oil pipeline, and a major CIA release of 9/11-related presidential briefings. These reports cover separate geopolitical, security, and historical matters. No single event connects the provided texts.",
+    "confidence": "HIGH. The articles concern entirely separate topics, and there is no factual conflict between them.",
+    "sources": [
+      {
+        "id": "art_1789182540460_a84vz",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Putin and Pezeshkian call out US dominance ahead of BRICS"
+      },
+      {
+        "id": "art_1789182541488_apfnm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Satellite image shows critical Saudi pipeline damaged in drone attack"
+      },
+      {
+        "id": "art_1789182549007_8ncpk",
+        "url": "https://www.aljazeera.com/news/2026/9/12/cia-drops-dozens-of-declassified-documents-on-bin-laden-and-al-qaeda?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "CIA drops dozens of declassified documents on bin Laden and al-Qaeda"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "2daecaca5ca6a8b2397221f4a692ea45",
     "topic_label": "Middle East Security and Geopolitics",
     "event_window_start": "2026-09-12T02:18:52.000Z",
@@ -17693,103 +17765,6 @@
         "url": "https://www.theguardian.com/us-news/2026/aug/31/army-secretary-dan-driscoll-resigns",
         "source": "guardian",
         "title": "US army secretary Dan Driscoll resigns over reported friction with Pete Hegseth"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "517ca0971d7d8b1a63537ddf682e2553",
-    "topic_label": "Himalayan Floods and Nepal Disaster",
-    "event_window_start": "2026-08-31T20:49:14.000Z",
-    "event_window_end": "2026-09-01T18:48:40.000Z",
-    "article_ids": [
-      "art_1788289024417_aknai",
-      "art_1788289037713_q0hbb",
-      "art_1788258826714_jtbas",
-      "art_1788222877884_91pts",
-      "art_1788209589794_depl5"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T19:25:39.524Z",
-    "updated_at": "2026-09-01T19:25:39.524Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Flash floods occurred in the Nepal-Tibet border region.",
-      "A disaster triggered by glacial issues has resulted in significant loss of life and missing persons.",
-      "Rescue and recovery operations are currently underway."
-    ],
-    "source_claims": [
-      "[guardian] An army spokesperson reported 119 people were rescued on Tuesday, including one British national.",
-      "[aljazeera] Rescuers are prioritizing the search for 900 workers missing from 12 hydropower projects.",
-      "[fox] The US State Department confirms 13 American citizens reached safety and 80 Americans remain unaccounted for.",
-      "[guardian] Australian Foreign Minister Penny Wong stated 43 Australians are missing."
-    ],
-    "framing_differences": [
-      "The guardian frames the event by focusing on individual rescues and the international diplomatic response regarding missing citizens, while aljazeera frames it around the industrial impact on hydropower projects, and fox frames it through the specific lens of American casualties."
-    ],
-    "contested_claims": [
-      "The death toll is reported differently across sources: guardian mentions over 1,000, while fox reports 903 deaths as of Sunday."
-    ],
-    "unverified_claims": [
-      "[guardian] Claims more than 11,000 people have been rescued across the region according to prime minister Balendra Shah.",
-      "[guardian] Reports more than 4,400 people are missing."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'catastrophic' to describe the Himalayan flood.",
-      "[guardian] uses the word 'devastating' to describe the week for communities."
-    ],
-    "safe_conclusions": [
-      "Flash floods have caused fatalities and missing persons in the Nepal-Tibet border region.",
-      "International governments are monitoring the status of their citizens in the affected area.",
-      "Rescue operations are ongoing."
-    ],
-    "unknowns": [
-      "The exact, verified total number of fatalities.",
-      "The exact number of individuals missing.",
-      "The full scope of infrastructure damage beyond the mentioned hydropower stations."
-    ],
-    "synthesis": "Flash floods triggered by a glacial collapse in the Nepal-Tibet border region have resulted in significant casualties and thousands of missing persons. Rescue efforts are ongoing with a focus on trapped hydropower workers and locating foreign nationals. International aid and diplomatic efforts are currently being directed toward the affected region.",
-    "confidence": "CONTESTED; The sources provide conflicting data regarding death tolls and the total number of missing individuals.",
-    "sources": [
-      {
-        "id": "art_1788289024417_aknai",
-        "url": "https://www.theguardian.com/world/2026/sep/01/briton-among-119-more-people-rescued-in-nepal-after-flash-floods",
-        "source": "guardian",
-        "title": "Briton among 119 more people rescued in Nepal after flash floods"
-      },
-      {
-        "id": "art_1788289037713_q0hbb",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/nepal-rescuers-race-to-reach-900-missing-hydropower-workers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nepal rescuers race to reach 900 missing hydropower workers"
-      },
-      {
-        "id": "art_1788258826714_jtbas",
-        "url": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification",
-        "source": "guardian",
-        "title": "Nepal-Tibet flood deaths pass 1,000 as police ask relatives for DNA to identify victims"
-      },
-      {
-        "id": "art_1788222877884_91pts",
-        "url": "https://www.foxnews.com/world/roughly-80-americans-still-unaccounted-after-himalayan-disaster-kills-903-officials-say",
-        "source": "fox",
-        "title": "Roughly 80 Americans still unaccounted for after Himalayan disaster kills 903, officials say"
-      },
-      {
-        "id": "art_1788209589794_depl5",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/01/nepal-tibet-flooding-missing-australians-penny-wong-anthony-albanese-pacific-islands-forum-liberal-national-coalition-one-nation-politics-reactions-ntwnfb",
-        "source": "guardian",
-        "title": "News live: Penny Wong has ‘grave concerns’ for missing Australians in Nepal; capital city house prices fall below $1m"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
