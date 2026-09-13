@@ -1,86 +1,5 @@
 [
   {
-    "cluster_id": "a68fb4ae0ca5035cbc0146e5ee85be04",
-    "topic_label": "Iran and Middle East Geopolitics",
-    "event_window_start": "2026-09-12T02:18:52.000Z",
-    "event_window_end": "2026-09-12T14:49:48.000Z",
-    "article_ids": [
-      "art_1789226177059_8vo0x",
-      "art_1789182540460_a84vz",
-      "art_1789182541488_apfnm"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-12T17:50:02.093Z",
-    "updated_at": "2026-09-12T17:50:02.093Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Iran is currently involved in diplomatic and economic tensions involving the United States.",
-      "Iran maintains relationships with international partners, including Russia."
-    ],
-    "source_claims": [
-      "[aljazeera_1] Esmaeil Baghaei states the IAEA resolution regarding Iran's nuclear safeguards was imposed by the US and Israel.",
-      "[aljazeera_2] The presidents of Iran and Russia criticized US dollar dominance.",
-      "[aljazeera_3] Saudi Arabia shut its East-West oil pipeline following a drone attack.",
-      "[aljazeera_3] The Saudi government claims the drone attack originated in Iraq."
-    ],
-    "framing_differences": [
-      "aljazeera_1 frames the IAEA resolution as a product of US and Israeli influence, whereas the IAEA itself is not a primary source in these articles.",
-      "aljazeera_2 frames the meeting between Iranian and Russian leadership within the context of the upcoming BRICS summit and economic policy.",
-      "aljazeera_3 frames the drone attack against Saudi infrastructure as a security incident affecting regional oil logistics."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] Esmaeil Baghaei claims Iran is defending itself against US military and economic aggression.",
-      "[aljazeera_3] Saudi Arabia claims the drone attack originated in Iraq."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'imposed' to describe the IAEA resolution.",
-      "[aljazeera_1] uses the term 'aggression' to describe US actions toward Iran.",
-      "[aljazeera_2] uses the term 'call out' to describe the actions of the Iranian and Russian presidents regarding US dominance."
-    ],
-    "safe_conclusions": [
-      "Iran is engaging with international organizations and other nations regarding its foreign policy.",
-      "Saudi Arabia has experienced a drone attack on its oil infrastructure.",
-      "The United States is a significant factor in Iranian foreign policy discussions."
-    ],
-    "unknowns": [
-      "The specific technical details of the IAEA resolution mentioned by Al Jazeera.",
-      "Evidence supporting the claim that the drone attack on the Saudi pipeline originated in Iraq.",
-      "The specific agenda items for the upcoming BRICS summit beyond the mention of US dollar dominance."
-    ],
-    "synthesis": "Iranian officials have criticized recent IAEA resolutions and US economic influence while coordinating with Russia on global economic policy. Simultaneously, Saudi Arabia reported a drone attack on its East-West oil pipeline that necessitated a shutdown of operations. These events highlight ongoing geopolitical and economic tensions in the Middle East.",
-    "confidence": "HIGH. The sources are internally consistent within their respective reporting scopes and provide distinct updates on separate regional developments.",
-    "sources": [
-      {
-        "id": "art_1789226177059_8vo0x",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-iranian-fm-spox-aj?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iranian official tells Al Jazeera IAEA ruling was imposed by US and Israel"
-      },
-      {
-        "id": "art_1789182540460_a84vz",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Putin and Pezeshkian call out US dominance ahead of BRICS"
-      },
-      {
-        "id": "art_1789182541488_apfnm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Satellite image shows critical Saudi pipeline damaged in drone attack"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "aaf6e64c7e7511c13c594afebdaf27e2",
     "topic_label": "Trump and Irish Unification",
     "event_window_start": "2026-09-12T14:20:28.000Z",
@@ -154,6 +73,155 @@
         "url": "https://www.aljazeera.com/news/2026/9/12/trump-says-a-unified-ireland-would-be-fantastic-during-irish-visit?traffic_source=rss",
         "source": "aljazeera",
         "title": "Trump says a unified Ireland would be ‘fantastic’ during Irish visit"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c71c2adec5cac3f1019f6c8f9dca2c24",
+    "topic_label": "AI Industry Regulation",
+    "event_window_start": "2026-09-12T20:48:40.000Z",
+    "event_window_end": "2026-09-12T21:16:47.000Z",
+    "article_ids": [
+      "art_1789252834075_ssqyh",
+      "art_1789252839266_nxfyz"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-13T05:18:27.970Z",
+    "updated_at": "2026-09-13T05:18:27.970Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Dario Amodei, the CEO of Anthropic, published an essay regarding the pace of artificial intelligence development.",
+      "Dario Amodei has called for a slower pace of AI development and increased monitoring.",
+      "Sam Altman and Elon Musk have expressed agreement with Dario Amodei's call for caution."
+    ],
+    "source_claims": [
+      "[bbc] Dario Amodei stated that while AI development is necessary, the associated risks are serious and require time to address.",
+      "[bbc] An unnamed former Anthropic researcher stated there is a strong chance of mass casualty in the immediate future if progress does not slow.",
+      "[fox] Former OpenAI researcher Daniel Kokotajlo warned that AI development must slow down to prevent human extinction.",
+      "[fox] Daniel Kokotajlo advocates for third-party evaluators to monitor technology companies.",
+      "[fox] Some unnamed executives argue that the United States cannot surrender its lead role in the AI industry."
+    ],
+    "framing_differences": [
+      "BBC frames the event primarily around Dario Amodei's essay and internal concerns at Anthropic, whereas Fox frames the event around the broader AI arms race and includes perspectives from former OpenAI staffer Daniel Kokotajlo."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] A former Anthropic researcher stated that current rates of AI progress carry a strong chance of death in the immediate future.",
+      "[fox] Former OpenAI researcher Daniel Kokotajlo claims there is a severe lack of safety safeguards in the industry."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'we could all die in the immediate future' to describe potential AI risks.",
+      "[fox] uses the term 'AI arms race' to describe the current competitive climate of AI development.",
+      "[fox] uses the term 'threaten the very future of mankind' to describe the potential impact of unbridled progress."
+    ],
+    "safe_conclusions": [
+      "Dario Amodei, Sam Altman, and Elon Musk have publicly discussed the need for caution regarding the speed of AI development.",
+      "There is ongoing public and internal debate regarding the safety and speed of artificial intelligence advancement."
+    ],
+    "unknowns": [
+      "Specific details regarding the timeline or regulatory mechanisms proposed by Amodei.",
+      "The identity of the specific unnamed former Anthropic researcher mentioned by the BBC.",
+      "The current consensus among other major tech industry leaders who were not cited."
+    ],
+    "synthesis": "Anthropic CEO Dario Amodei has publicly advocated for a slower, more monitored pace of artificial intelligence development. His position has drawn support from other industry figures, including Elon Musk and Sam Altman, amid broader debates regarding safety. Perspectives vary between calls for increased caution to mitigate existential risk and concerns about maintaining technological leadership.",
+    "confidence": "HIGH: The core factual assertions regarding the statements made by the executives and the general nature of the discourse are consistent across sources.",
+    "sources": [
+      {
+        "id": "art_1789252834075_ssqyh",
+        "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Anthropic boss Dario Amodei calls for AI development to slow down"
+      },
+      {
+        "id": "art_1789252839266_nxfyz",
+        "url": "https://www.foxnews.com/media/anthropic-ceo-calls-ai-industry-slow-down-tech-race-drawing-support-elon-musk-sam-altman",
+        "source": "fox",
+        "title": "Anthropic CEO calls on AI industry to slow down tech race, drawing support from Elon Musk, Sam Altman"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4e1eed1794aff6fdd2d69e716c09a618",
+    "topic_label": "Women's Basketball World Cup",
+    "event_window_start": "2026-09-12T20:49:06.000Z",
+    "event_window_end": "2026-09-12T22:10:18.000Z",
+    "article_ids": [
+      "art_1789252830238_4a11r",
+      "art_1789252838227_ucj07"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-13T00:19:11.331Z",
+    "updated_at": "2026-09-13T00:19:11.331Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The United States defeated Spain with a final score of 76-66.",
+      "The match took place on Saturday.",
+      "The United States advanced to the Women's Basketball World Cup final.",
+      "The United States' winning streak in the tournament dates back to 2006."
+    ],
+    "source_claims": [
+      "[aljazeera] The United States will face France in the final.",
+      "[aljazeera] Breanna Stewart scored 16 points and Kahleah Copper scored 13 points.",
+      "[fox] Team USA dominated Hungary by 52 points prior to this match.",
+      "[fox] Fans and media are demanding changes to the starting lineup."
+    ],
+    "framing_differences": [
+      "Al Jazeera frames the result as the United States 'scraping' to a win after being tied at the end of the third quarter, while Fox frames the game as Spain having 'Team USA staring straight at the end of a dynasty' before the Americans 'slammed the door'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The final against France is a rematch of the 2024 Paris Olympics gold medal match.",
+      "[fox] The podcast of Sophie Cunningham is returning under a new name.",
+      "[fox] Breanna Stewart delivered a message about the honor of representing the United States."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'underdogs' to describe Spain.",
+      "[fox] uses the term 'scare' to describe the game's progression.",
+      "[fox] uses the term 'dynasty' to describe Team USA."
+    ],
+    "safe_conclusions": [
+      "The United States basketball team won its semifinal match against Spain by a 10-point margin.",
+      "The United States basketball team is scheduled to play in the World Cup final."
+    ],
+    "unknowns": [
+      "The specific rosters of both teams.",
+      "The total points scored by other players besides those mentioned in Al Jazeera.",
+      "Whether France officially qualified for the final prior to the report."
+    ],
+    "synthesis": "The United States defeated Spain 76-66 in a Women’s Basketball World Cup semifinal match on Saturday. With this victory, the United States maintained a winning streak in the tournament that has lasted since 2006. The team is now slated to compete in the final round.",
+    "confidence": "HIGH; Sources are consistent regarding the final score, the date of the match, and the progression of the tournament.",
+    "sources": [
+      {
+        "id": "art_1789252830238_4a11r",
+        "url": "https://www.aljazeera.com/sports/2026/9/12/usa-edge-spain-to-book-womens-basketball-world-cup-final-against-france?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "USA edge Spain to book Women’s Basketball World Cup final against France"
+      },
+      {
+        "id": "art_1789252838227_ucj07",
+        "url": "https://www.foxnews.com/outkick-sports/team-usa-survives-spain-scare-fourth-quarter-surge-reach-fiba-womens-world-cup-final",
+        "source": "fox",
+        "title": "Team USA survives Spain scare with fourth-quarter surge to reach FIBA Women's World Cup final"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -233,6 +301,87 @@
         "url": "https://www.theguardian.com/politics/2026/sep/12/christopher-harborne-matches-36m-reform-donation-of-ben-zelo",
         "source": "guardian",
         "title": "Christopher Harborne matches £36m Reform donation of Ben Delo"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a68fb4ae0ca5035cbc0146e5ee85be04",
+    "topic_label": "Iran and Middle East Geopolitics",
+    "event_window_start": "2026-09-12T02:18:52.000Z",
+    "event_window_end": "2026-09-12T14:49:48.000Z",
+    "article_ids": [
+      "art_1789226177059_8vo0x",
+      "art_1789182540460_a84vz",
+      "art_1789182541488_apfnm"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-12T17:50:02.093Z",
+    "updated_at": "2026-09-12T17:50:02.093Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Iran is currently involved in diplomatic and economic tensions involving the United States.",
+      "Iran maintains relationships with international partners, including Russia."
+    ],
+    "source_claims": [
+      "[aljazeera_1] Esmaeil Baghaei states the IAEA resolution regarding Iran's nuclear safeguards was imposed by the US and Israel.",
+      "[aljazeera_2] The presidents of Iran and Russia criticized US dollar dominance.",
+      "[aljazeera_3] Saudi Arabia shut its East-West oil pipeline following a drone attack.",
+      "[aljazeera_3] The Saudi government claims the drone attack originated in Iraq."
+    ],
+    "framing_differences": [
+      "aljazeera_1 frames the IAEA resolution as a product of US and Israeli influence, whereas the IAEA itself is not a primary source in these articles.",
+      "aljazeera_2 frames the meeting between Iranian and Russian leadership within the context of the upcoming BRICS summit and economic policy.",
+      "aljazeera_3 frames the drone attack against Saudi infrastructure as a security incident affecting regional oil logistics."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_1] Esmaeil Baghaei claims Iran is defending itself against US military and economic aggression.",
+      "[aljazeera_3] Saudi Arabia claims the drone attack originated in Iraq."
+    ],
+    "loaded_language": [
+      "[aljazeera_1] uses the term 'imposed' to describe the IAEA resolution.",
+      "[aljazeera_1] uses the term 'aggression' to describe US actions toward Iran.",
+      "[aljazeera_2] uses the term 'call out' to describe the actions of the Iranian and Russian presidents regarding US dominance."
+    ],
+    "safe_conclusions": [
+      "Iran is engaging with international organizations and other nations regarding its foreign policy.",
+      "Saudi Arabia has experienced a drone attack on its oil infrastructure.",
+      "The United States is a significant factor in Iranian foreign policy discussions."
+    ],
+    "unknowns": [
+      "The specific technical details of the IAEA resolution mentioned by Al Jazeera.",
+      "Evidence supporting the claim that the drone attack on the Saudi pipeline originated in Iraq.",
+      "The specific agenda items for the upcoming BRICS summit beyond the mention of US dollar dominance."
+    ],
+    "synthesis": "Iranian officials have criticized recent IAEA resolutions and US economic influence while coordinating with Russia on global economic policy. Simultaneously, Saudi Arabia reported a drone attack on its East-West oil pipeline that necessitated a shutdown of operations. These events highlight ongoing geopolitical and economic tensions in the Middle East.",
+    "confidence": "HIGH. The sources are internally consistent within their respective reporting scopes and provide distinct updates on separate regional developments.",
+    "sources": [
+      {
+        "id": "art_1789226177059_8vo0x",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-iranian-fm-spox-aj?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iranian official tells Al Jazeera IAEA ruling was imposed by US and Israel"
+      },
+      {
+        "id": "art_1789182540460_a84vz",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Putin and Pezeshkian call out US dominance ahead of BRICS"
+      },
+      {
+        "id": "art_1789182541488_apfnm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Satellite image shows critical Saudi pipeline damaged in drone attack"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -382,81 +531,6 @@
         "url": "https://www.theguardian.com/us-news/live/2026/sep/11/september-11-anniversary-memorials-world-trade-center-pentagon-vance-trump-us-politics-live",
         "source": "guardian",
         "title": "Trump keeps touting $5,000 payments if Republicans retain control of Congress as some in his party question feasibility – as it happened"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4e1eed1794aff6fdd2d69e716c09a618",
-    "topic_label": "Women's Basketball World Cup",
-    "event_window_start": "2026-09-12T20:49:06.000Z",
-    "event_window_end": "2026-09-12T22:10:18.000Z",
-    "article_ids": [
-      "art_1789252830238_4a11r",
-      "art_1789252838227_ucj07"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-13T00:19:11.331Z",
-    "updated_at": "2026-09-13T00:19:11.331Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The United States defeated Spain with a final score of 76-66.",
-      "The match took place on Saturday.",
-      "The United States advanced to the Women's Basketball World Cup final.",
-      "The United States' winning streak in the tournament dates back to 2006."
-    ],
-    "source_claims": [
-      "[aljazeera] The United States will face France in the final.",
-      "[aljazeera] Breanna Stewart scored 16 points and Kahleah Copper scored 13 points.",
-      "[fox] Team USA dominated Hungary by 52 points prior to this match.",
-      "[fox] Fans and media are demanding changes to the starting lineup."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the result as the United States 'scraping' to a win after being tied at the end of the third quarter, while Fox frames the game as Spain having 'Team USA staring straight at the end of a dynasty' before the Americans 'slammed the door'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] The final against France is a rematch of the 2024 Paris Olympics gold medal match.",
-      "[fox] The podcast of Sophie Cunningham is returning under a new name.",
-      "[fox] Breanna Stewart delivered a message about the honor of representing the United States."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'underdogs' to describe Spain.",
-      "[fox] uses the term 'scare' to describe the game's progression.",
-      "[fox] uses the term 'dynasty' to describe Team USA."
-    ],
-    "safe_conclusions": [
-      "The United States basketball team won its semifinal match against Spain by a 10-point margin.",
-      "The United States basketball team is scheduled to play in the World Cup final."
-    ],
-    "unknowns": [
-      "The specific rosters of both teams.",
-      "The total points scored by other players besides those mentioned in Al Jazeera.",
-      "Whether France officially qualified for the final prior to the report."
-    ],
-    "synthesis": "The United States defeated Spain 76-66 in a Women’s Basketball World Cup semifinal match on Saturday. With this victory, the United States maintained a winning streak in the tournament that has lasted since 2006. The team is now slated to compete in the final round.",
-    "confidence": "HIGH; Sources are consistent regarding the final score, the date of the match, and the progression of the tournament.",
-    "sources": [
-      {
-        "id": "art_1789252830238_4a11r",
-        "url": "https://www.aljazeera.com/sports/2026/9/12/usa-edge-spain-to-book-womens-basketball-world-cup-final-against-france?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "USA edge Spain to book Women’s Basketball World Cup final against France"
-      },
-      {
-        "id": "art_1789252838227_ucj07",
-        "url": "https://www.foxnews.com/outkick-sports/team-usa-survives-spain-scare-fourth-quarter-surge-reach-fiba-womens-world-cup-final",
-        "source": "fox",
-        "title": "Team USA survives Spain scare with fourth-quarter surge to reach FIBA Women's World Cup final"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -17620,69 +17694,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c46c8bde9c8a8f8a9c30c65edce47fd4",
-    "topic_label": "Iran Military and Nuclear Tensions",
-    "event_window_start": "2026-09-01T10:00:12.000Z",
-    "event_window_end": "2026-09-01T21:32:23.000Z",
-    "article_ids": [
-      "art_1788299287496_bl20w",
-      "art_1788299289807_ic767",
-      "art_1788258830892_vvqf3"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T23:56:49.516Z",
-    "updated_at": "2026-09-01T23:56:49.516Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Fallback activated."
-    ],
-    "source_claims": [
-      "No data available."
-    ],
-    "framing_differences": [
-      "No comparative data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [],
-    "loaded_language": [],
-    "safe_conclusions": [],
-    "unknowns": [
-      "No analysis possible."
-    ],
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "confidence": "LOW (Deterministic Fallback)",
-    "sources": [
-      {
-        "id": "art_1788299287496_bl20w",
-        "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US strikes Iran as state media reports four killed at wedding party"
-      },
-      {
-        "id": "art_1788299289807_ic767",
-        "url": "https://www.aljazeera.com/news/2026/9/1/urgent-need-for-access-to-iranian-sites-cautions-un-nuclear-watchdog?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Urgent need for access to Iranian sites, cautions UN nuclear watchdog"
-      },
-      {
-        "id": "art_1788258830892_vvqf3",
-        "url": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink",
-        "source": "fox",
-        "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   }
 ]
