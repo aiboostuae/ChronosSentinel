@@ -1,5 +1,209 @@
 [
   {
+    "cluster_id": "9bcc51a8855237dd33e8457c29a98f1b",
+    "topic_label": "Middle East Conflict and Tensions",
+    "event_window_start": "2026-09-14T16:53:11.000Z",
+    "event_window_end": "2026-09-14T17:16:18.000Z",
+    "article_ids": [
+      "art_1789408118183_amqzo",
+      "art_1789408128928_tiyya"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-14T21:06:34.291Z",
+    "updated_at": "2026-09-14T21:06:34.291Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera_vance] US Vice President JD Vance states the Trump administration is 'on top of' the Houthi advance in the Red Sea.",
+      "[aljazeera_vance] JD Vance claims the US is in close contact with Saudi Arabia and has engaged in direct talks with the Houthis.",
+      "[aljazeera_westbank] The group B’Tselem published a report arguing that recent Israeli military raids, home demolitions in Masafer Yatta, and settler actions in Qusra are part of a systematic effort to make Palestinian life unsustainable in the West Bank."
+    ],
+    "framing_differences": [
+      "The first article frames the US administration's involvement in the Red Sea as a matter of foreign policy oversight, whereas the second article frames Israeli actions in the West Bank as a domestic and systematic humanitarian issue for Palestinians."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera_vance] JD Vance claims the US has held direct talks with the Houthis.",
+      "[aljazeera_westbank] B’Tselem claims that Israeli military and settler actions are coordinated to achieve a single end of making Palestinian life unsustainable."
+    ],
+    "loaded_language": [
+      "[aljazeera_westbank] uses the term 'systematically dismantles' to describe Israeli actions.",
+      "[aljazeera_westbank] uses the term 'violence and suppression' to describe Israeli military operations."
+    ],
+    "safe_conclusions": [
+      "There are ongoing conflicts involving Houthi forces in the Red Sea.",
+      "There are ongoing military and civilian interactions occurring in the West Bank involving Israeli forces and Palestinian residents."
+    ],
+    "unknowns": [
+      "The specific outcomes or goals of the alleged direct talks between the US and the Houthis.",
+      "The official response of the Israeli government to the report published by B’Tselem."
+    ],
+    "synthesis": "Recent reports highlight US administration claims of managing Houthi activity in the Red Sea through diplomatic engagement and military awareness. Concurrently, reports indicate ongoing military and civilian tensions in the West Bank, characterized by B'Tselem as a systematic effort to restrict Palestinian residency. These events represent two distinct regional security and humanitarian issues involving different geopolitical actors.",
+    "confidence": "HIGH. The sources address entirely separate geopolitical events, resulting in no factual contradictions between them.",
+    "sources": [
+      {
+        "id": "art_1789408118183_amqzo",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/jd-vance-insists-us-is-on-top-of-houthi-advance-in-red-sea?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "JD Vance insists US is ‘on top of’ Houthi advance in Red Sea"
+      },
+      {
+        "id": "art_1789408128928_tiyya",
+        "url": "https://www.aljazeera.com/news/2026/9/14/how-israel-systematically-dismantles-palestinian-life-in-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How Israel systematically dismantles Palestinian life in occupied West Bank"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3c917625ebd9f124767f3ced2d0b0c88",
+    "topic_label": "Trump and AI Regulation",
+    "event_window_start": "2026-09-14T17:18:48.000Z",
+    "event_window_end": "2026-09-14T17:28:11.000Z",
+    "article_ids": [
+      "art_1789408112221_fgwcw",
+      "art_1789408117066_cu9jx"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-14T21:06:34.291Z",
+    "updated_at": "2026-09-14T21:06:34.291Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Tech company executives, including leaders from Anthropic, OpenAI, and SpaceX, have called for slower AI development.",
+      "Donald Trump referred to concerns regarding AI development as a 'sick conspiracy' in a social media post.",
+      "Stock prices for companies including Nvidia, AMD, and Micron experienced a decline on Monday."
+    ],
+    "source_claims": [
+      "[guardian] The president claims the only guardrails necessary for AI are provided by the current administration.",
+      "[guardian] The president claims he has stopped leaders of AI companies from engaging in bad or potentially bad actions."
+    ],
+    "framing_differences": [
+      "The guardian frames the stock market decline as a direct consequence of the executives' statements, while the guardian also frames the event through the lens of Trump's political response and his assertion of personal oversight."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The president claims he has actively prevented AI companies from potential malfeasance, though the source notes no concrete examples were provided."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'sick conspiracy' to describe the president's characterization of AI regulation calls.",
+      "[guardian] uses the term 'reckless' to describe development practices as cited by AI company leaders."
+    ],
+    "safe_conclusions": [
+      "Leaders of AI companies have advocated for limits on AI development.",
+      "The president has publicly rejected the necessity of additional AI regulations.",
+      "Tech stocks saw a decline in value on Monday."
+    ],
+    "unknowns": [
+      "What specific actions or policies the president has taken to curb AI abuse are not specified.",
+      "The direct causal link between the executive statements and the exact percentage of stock decline remains a market analysis."
+    ],
+    "synthesis": "Following calls from leaders of major AI companies for a slowdown in development, tech stocks experienced a market downturn on Monday. President Trump publicly dismissed these calls for regulation as a 'sick conspiracy' and asserted that his administration provides sufficient oversight for the industry. The president did not provide specific examples of his regulatory interventions.",
+    "confidence": "HIGH. Both reports provide consistent information regarding the events and the president's public comments.",
+    "sources": [
+      {
+        "id": "art_1789408112221_fgwcw",
+        "url": "https://www.theguardian.com/business/2026/sep/14/ai-linked-stocks-fall-tech-bosses-call-slowdown-anthropic-openai",
+        "source": "guardian",
+        "title": "Trump attacks ‘sick conspiracy’ against AI as tech stocks slide"
+      },
+      {
+        "id": "art_1789408117066_cu9jx",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/14/donald-trump-mail-in-voting-supreme-court-blocked-ukraine-oil-diplomat-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump claims he is only ‘guardrail’ needed to control AI as top Republicans join him in dismissing calls for more checks – live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8f76e16ed5b3248801d45f12c1a77675",
+    "topic_label": "Ukraine-Russia Conflict",
+    "event_window_start": "2026-09-14T16:55:41.000Z",
+    "event_window_end": "2026-09-14T16:56:53.000Z",
+    "article_ids": [
+      "art_1789408126519_f34wy",
+      "art_1789408127658_7rfc7"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-14T21:06:34.291Z",
+    "updated_at": "2026-09-14T21:06:34.291Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump holds the office of US President.",
+      "The ongoing conflict between Russia and Ukraine has impacted global diesel prices.",
+      "A Russian drone strike occurred near the Ukraine-Poland border involving a passenger train."
+    ],
+    "source_claims": [
+      "[guardian_1] Mark Rutte states the Russian strike on a passenger train demonstrates Vladimir Putin’s desperation.",
+      "[guardian_1] Mark Rutte asserts the strike will not deter NATO’s support for Ukraine.",
+      "[guardian_2] Donald Trump claims Ukraine and Russia have reached an agreement to refrain from striking energy targets.",
+      "[guardian_2] Donald Trump claims the rise in global diesel prices is primarily caused by the Russia-Ukraine conflict rather than Iran.",
+      "[guardian_2] Donald Trump requested that President Volodymyr Zelenskyy halt strikes on Russian oil refineries and infrastructure."
+    ],
+    "framing_differences": [
+      "Guardian_1 frames the recent Russian train strike in the context of Western military and political solidarity, while Guardian_2 focuses on the diplomatic and economic claims made by Donald Trump regarding energy infrastructure strikes."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_1] Claims the Russian drone strike 'narrowly missed' Boris Johnson and David Petraeus.",
+      "[guardian_2] Claims there exists a bilateral agreement between Russia and Ukraine to stop hitting energy targets."
+    ],
+    "loaded_language": [
+      "[guardian_1] uses the term 'desperation' to describe Vladimir Putin’s motivations."
+    ],
+    "safe_conclusions": [
+      "A train in Ukraine near the Polish border was hit by a Russian drone.",
+      "Donald Trump has issued statements regarding the conflict between Russia and Ukraine via Truth Social."
+    ],
+    "unknowns": [
+      "Whether an official agreement between Russia and Ukraine to halt energy strikes actually exists.",
+      "The specific tactical intent behind the Russian drone strike near the border.",
+      "The current status of diesel price negotiations or global supply chain impacts attributed to the conflict."
+    ],
+    "synthesis": "NATO Secretary General Mark Rutte condemned a Russian drone strike on a passenger train near the Polish border, characterizing it as a sign of Russian desperation. Concurrently, US President Donald Trump claimed that Ukraine and Russia have agreed to cease targeting energy infrastructure. President Trump also asserted that the Russia-Ukraine war is the primary driver of current diesel price increases.",
+    "confidence": "MEDIUM. The sources cover distinct, non-overlapping events and rely on statements from political figures that remain uncorroborated by independent evidence.",
+    "sources": [
+      {
+        "id": "art_1789408126519_f34wy",
+        "url": "https://www.theguardian.com/world/2026/sep/14/ukraine-kallas-not-scared-russian-strike-train",
+        "source": "guardian",
+        "title": "Russian strike on passenger train will not deter Ukraine’s backers, Nato chief says"
+      },
+      {
+        "id": "art_1789408127658_7rfc7",
+        "url": "https://www.theguardian.com/world/live/2026/sep/14/sweden-election-magdalena-andersson-social-democrats-centre-left-latest-news-updates",
+        "source": "guardian",
+        "title": "Ukraine and Russia have agreed not to hit energy targets, Trump claims – as it happened"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4e1eed1794aff6fdd2d69e716c09a618",
     "topic_label": "Women's Basketball World Cup",
     "event_window_start": "2026-09-12T20:49:06.000Z",
@@ -17403,289 +17607,6 @@
         "url": "https://www.foxnews.com/politics/johnson-quells-house-gop-rebellion-advance-anti-socialism-resolution",
         "source": "fox",
         "title": "Two Democrats rescue Mike Johnson's anti-socialism resolution in stunning move"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ee9a02ba5c5bbd3cf0ade48ccd5d77f5",
-    "topic_label": "Nepal-Tibet Flood Disaster",
-    "event_window_start": "2026-09-01T10:04:26.000Z",
-    "event_window_end": "2026-09-02T01:59:06.000Z",
-    "article_ids": [
-      "art_1788317586061_jcitg",
-      "art_1788299288694_0urt1",
-      "art_1788289024417_aknai",
-      "art_1788289037713_q0hbb",
-      "art_1788258826714_jtbas"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-02T07:28:18.894Z",
-    "updated_at": "2026-09-02T07:28:18.894Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Over 1,000 people have been confirmed dead following flash floods on the Nepal-Tibet border.",
-      "Approximately 4,000 people remain missing in the disaster.",
-      "Flash floods were triggered by a glacial collapse.",
-      "Rescue operations are focused on hydropower project sites."
-    ],
-    "source_claims": [
-      "[guardian] States five Australians previously listed as missing have been confirmed safe, reducing the number of missing Australians from 43 to 38.",
-      "[guardian] Reports that 18 Australian personnel have traveled to Nepal to assist with the response.",
-      "[guardian] Notes that one British male was rescued in Nepal on Tuesday.",
-      "[aljazeera] Reports that 900 workers from 12 hydropower projects are a primary focus for rescue efforts.",
-      "[guardian] Reports that Nepal’s prime minister stated more than 11,000 people have been rescued in total."
-    ],
-    "framing_differences": [
-      "The guardian focuses on the status of Australian and British nationals affected by the floods, while aljazeera focuses on the specific search for missing hydropower workers."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] States that of the five Australians found, one was in China, while a different report from the same source stated one was in Tibet and one in Nepal without mentioning China in the secondary count."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'devastating' to describe the floods.",
-      "[guardian] uses the term 'rare breakthrough' to describe the rescue of 119 people."
-    ],
-    "safe_conclusions": [
-      "A major flood event occurred along the Nepal-Tibet border resulting in over 1,000 deaths.",
-      "Search and rescue operations for thousands of missing persons are ongoing.",
-      "The disaster has impacted hydropower infrastructure in the region."
-    ],
-    "unknowns": [
-      "The exact identities of the deceased and missing remain unconfirmed.",
-      "The total number of international nationals affected beyond those specifically mentioned by the guardian is not fully detailed.",
-      "The full extent of damage to the power grid and infrastructure remains to be assessed."
-    ],
-    "synthesis": "Flash floods caused by a glacial collapse on the Nepal-Tibet border have resulted in more than 1,000 confirmed deaths and approximately 4,000 people missing. Rescue efforts are currently prioritizing remote hydropower project sites where hundreds of workers remain trapped. International governments are monitoring the situation and assisting with the search for their citizens caught in the disaster.",
-    "confidence": "HIGH. The sources consistently report the death toll, the cause of the flooding, and the ongoing rescue mission for missing hydropower workers.",
-    "sources": [
-      {
-        "id": "art_1788317586061_jcitg",
-        "url": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods",
-        "source": "guardian",
-        "title": "Relief as five Australians missing in Nepal-Tibet flood disaster found alive"
-      },
-      {
-        "id": "art_1788299288694_0urt1",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/02/anthony-albanese-palau-forum-one-nation-pauline-hanson-channel-contos-ntwnfb",
-        "source": "guardian",
-        "title": "News live: Five Australians confirmed safe after Nepal-Tibet flooding; Chanel Contos urges action on ‘manosphere’"
-      },
-      {
-        "id": "art_1788289024417_aknai",
-        "url": "https://www.theguardian.com/world/2026/sep/01/briton-among-119-more-people-rescued-in-nepal-after-flash-floods",
-        "source": "guardian",
-        "title": "Briton among 119 more people rescued in Nepal after flash floods"
-      },
-      {
-        "id": "art_1788289037713_q0hbb",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/nepal-rescuers-race-to-reach-900-missing-hydropower-workers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nepal rescuers race to reach 900 missing hydropower workers"
-      },
-      {
-        "id": "art_1788258826714_jtbas",
-        "url": "https://www.theguardian.com/world/2026/sep/01/nepal-tibet-flood-deaths-police-relatives-dna-identification",
-        "source": "guardian",
-        "title": "Nepal-Tibet flood deaths pass 1,000 as police ask relatives for DNA to identify victims"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7db17302059204c7c54305db2bfc7962",
-    "topic_label": "Israel-Gaza Conflict",
-    "event_window_start": "2026-09-01T14:39:39.000Z",
-    "event_window_end": "2026-09-01T20:59:43.000Z",
-    "article_ids": [
-      "art_1788299299398_zr4hs",
-      "art_1788289028108_inum2",
-      "art_1788289033541_grf6p",
-      "art_1788289035623_d0tes",
-      "art_1788275969521_2qajc",
-      "art_1788275974745_9u6jt"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-01T23:56:49.516Z",
-    "updated_at": "2026-09-01T23:56:49.516Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Fallback activated."
-    ],
-    "source_claims": [
-      "No data available."
-    ],
-    "framing_differences": [
-      "No comparative data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [],
-    "loaded_language": [],
-    "safe_conclusions": [],
-    "unknowns": [
-      "No analysis possible."
-    ],
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "confidence": "LOW (Deterministic Fallback)",
-    "sources": [
-      {
-        "id": "art_1788299299398_zr4hs",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/palestinians-mourn-children-killed-in-israeli-airstrikes-on-gaza-city?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinians mourn children killed in Israeli airstrikes on Gaza City"
-      },
-      {
-        "id": "art_1788289028108_inum2",
-        "url": "https://www.theguardian.com/politics/2026/sep/01/ed-miliband-promises-reset-of-uk-policy-toward-israel",
-        "source": "guardian",
-        "title": "Ed Miliband promises ‘comprehensive reset’ of UK policy toward Israel"
-      },
-      {
-        "id": "art_1788289033541_grf6p",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/un-food-agency-cuts-aid-in-west-bank-amid-funding-crisis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN food agency cuts aid in West Bank amid funding crisis"
-      },
-      {
-        "id": "art_1788289035623_d0tes",
-        "url": "https://www.aljazeera.com/news/2026/9/1/health-crisis-looming-as-gaza-heads-towards-rainy-season-warns-who?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Health crisis looming as Gaza heads towards rainy season, warns WHO"
-      },
-      {
-        "id": "art_1788275969521_2qajc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/palestinian-farmers-inspect-olive-trees-bulldozed-by-israeli-forces?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian farmers inspect olive trees bulldozed by Israeli forces"
-      },
-      {
-        "id": "art_1788275974745_9u6jt",
-        "url": "https://www.foxnews.com/world/israel-captures-top-hamas-commander-gaza-strike-defense-minister-says",
-        "source": "fox",
-        "title": "Israel captures top Hamas commander in Gaza strike, defense minister says"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "6bf3978bfdc08c38a4259cae961e4e0e",
-    "topic_label": "US Military Strikes on Iran",
-    "event_window_start": "2026-09-01T10:00:12.000Z",
-    "event_window_end": "2026-09-02T01:34:55.000Z",
-    "article_ids": [
-      "art_1788317592335_8jrnj",
-      "art_1788317598831_cjwdu",
-      "art_1788299287496_bl20w",
-      "art_1788258825669_im25u",
-      "art_1788258830892_vvqf3"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-02T07:28:18.894Z",
-    "updated_at": "2026-09-02T07:28:18.894Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "US forces conducted strikes in Iran, specifically near the southern coast and the Strait of Hormuz.",
-      "Iranian state media and officials have reported casualties resulting from these strikes.",
-      "There are reports of an incident involving a home in Sirik where a wedding was taking place.",
-      "Tensions between the US and Iran have involved activities near the Strait of Hormuz and reports of military exchanges."
-    ],
-    "source_claims": [
-      "[aljazeera] claims five people, including a child, were killed in a strike on a home in Sirik.",
-      "[aljazeera] claims the US launched strikes on Iran's southern coast and Tehran fired back at US bases in Jordan.",
-      "[bbc] claims the Iranian Red Crescent reported four people, including a child, were killed and over 50 injured in Sirik.",
-      "[bbc] claims US Central Command stated the strikes were in response to attempted attacks by the IRGC against shipping and service members.",
-      "[fox] claims Donald Trump labeled Iran a 'Failed Nation' and stated the country is economically and militarily broken."
-    ],
-    "framing_differences": [
-      "aljazeera focuses on the reported humanitarian impact of the strike on a wedding party, while bbc frames the event within the context of Centcom's stated justification regarding regional shipping security.",
-      "fox frames the escalation through the lens of US political commentary and economic assessment, while aljazeera and bbc focus on the immediate reports of military kinetic activity and casualties."
-    ],
-    "contested_claims": [
-      "There is a discrepancy between aljazeera's report of five fatalities in the Sirik strike and the bbc's report, which cites the Iranian Red Crescent as stating four people were killed."
-    ],
-    "unverified_claims": [
-      "[aljazeera] claims 63 people were wounded in the Sirik strike, with 50 being women and children.",
-      "[aljazeera] claims the US denied reports of US casualties in Jordan.",
-      "[bbc] claims Iranian news agencies reported retaliatory missile and drone attacks had begun.",
-      "[fox] claims Iranian inflation has reached 300%."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'brutal' to describe the attack as quoted by the Iranian Foreign Ministry spokesman.",
-      "[fox] uses the term 'DEAD' and 'Failed Nation' to describe Iran as quoted from Donald Trump's social media post."
-    ],
-    "safe_conclusions": [
-      "Military actions involving US and Iranian forces have occurred in the region.",
-      "Casualties in Sirik have been reported by Iranian entities following a strike.",
-      "Official statements from US and Iranian government figures reflect conflicting narratives regarding the conflict."
-    ],
-    "unknowns": [
-      "The exact number of casualties in the Sirik incident remains unconfirmed by independent third-party verification.",
-      "The full extent of damage to US and Iranian military assets is not independently verified.",
-      "The specific sequence of events leading to the strike in Sirik is not corroborated by non-Iranian sources."
-    ],
-    "synthesis": "US forces have engaged in military strikes against targets in Iran following reported friction in the Strait of Hormuz. Iranian officials and state media report that these strikes hit a wedding party in Sirik, resulting in multiple casualties. The US characterizes the strikes as a response to threats against American service members and international shipping, while political figures in the US have characterized the current Iranian state as economically and militarily compromised.",
-    "confidence": "MEDIUM: The sources agree on the occurrence of strikes but provide conflicting figures on casualties and represent divergent geopolitical perspectives.",
-    "sources": [
-      {
-        "id": "art_1788317592335_8jrnj",
-        "url": "https://www.aljazeera.com/news/2026/9/2/iran-says-us-strikes-hit-a-wedding-party-in-sirik-killing-five?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran says US bombed a wedding party in Sirik, killing five"
-      },
-      {
-        "id": "art_1788317598831_cjwdu",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/2/us-launches-new-strikes-on-iran-denies-its-bases-hit-in-jordan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US launches new strikes on Iran, denies its bases hit in Jordan"
-      },
-      {
-        "id": "art_1788299287496_bl20w",
-        "url": "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US strikes Iran as state media reports four killed at wedding party"
-      },
-      {
-        "id": "art_1788258825669_im25u",
-        "url": "https://www.theguardian.com/business/2026/sep/01/london-stock-exchange-to-lose-three-more-firms-after-takeover-offers",
-        "source": "guardian",
-        "title": "London Stock Exchange to lose three more firms after takeover offers"
-      },
-      {
-        "id": "art_1788258830892_vvqf3",
-        "url": "https://www.foxnews.com/world/trump-says-iran-dead-experts-point-real-sign-tehran-nearing-brink",
-        "source": "fox",
-        "title": "Trump says Iran is ‘DEAD’ — experts point to the real sign Tehran is nearing the brink"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
