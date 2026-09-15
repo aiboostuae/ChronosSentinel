@@ -1,5 +1,82 @@
 [
   {
+    "cluster_id": "a35de65b731058c887bfef220d2ca744",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-15T08:49:31.000Z",
+    "event_window_end": "2026-09-15T09:02:47.000Z",
+    "article_ids": [
+      "art_1789463314526_gcri7",
+      "art_1789463315613_ryimk",
+      "art_1789463316644_lcxum",
+      "art_1789463317676_7qc5q",
+      "art_1789463318734_x32hh"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-15T14:00:31.557Z",
+    "updated_at": "2026-09-15T14:00:31.557Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Fallback activated."
+    ],
+    "source_claims": [
+      "No data available."
+    ],
+    "framing_differences": [
+      "No comparative data."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [],
+    "loaded_language": [],
+    "safe_conclusions": [],
+    "unknowns": [
+      "No analysis possible."
+    ],
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "confidence": "LOW (Deterministic Fallback)",
+    "sources": [
+      {
+        "id": "art_1789463314526_gcri7",
+        "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Suspected sabotage causes major Netherlands rail disruption"
+      },
+      {
+        "id": "art_1789463315613_ryimk",
+        "url": "https://www.foxnews.com/opinion/liz-peek-ai-alarm-bells-ringing-trump-needs-take-seriously",
+        "source": "fox",
+        "title": "LIZ PEEK: AI alarm bells are ringing and Trump needs to take them seriously"
+      },
+      {
+        "id": "art_1789463316644_lcxum",
+        "url": "https://www.foxnews.com/opinion/forget-paying-fair-share-taxes-5-ways-politicians-want-even-more",
+        "source": "fox",
+        "title": "Forget paying your ‘fair share’ of taxes. Here are 5 ways politicians want even more"
+      },
+      {
+        "id": "art_1789463317676_7qc5q",
+        "url": "https://www.foxnews.com/opinion/morning-glory-spare-us-ai-apocalypse-rhetoric-let-congress-decide-what-comes-next",
+        "source": "fox",
+        "title": "MORNING GLORY: Spare us the AI apocalypse rhetoric. Let Congress decide what comes next"
+      },
+      {
+        "id": "art_1789463318734_x32hh",
+        "url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "3c09bea1bba8896bc668eff74c770ef1",
     "topic_label": "Houthi activity and Middle East",
     "event_window_start": "2026-09-14T16:53:11.000Z",
@@ -17348,111 +17425,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/1/urgent-need-for-access-to-iranian-sites-cautions-un-nuclear-watchdog?traffic_source=rss",
         "source": "aljazeera",
         "title": "Urgent need for access to Iranian sites, cautions UN nuclear watchdog"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5354e2b2c837ef7eb41572f6c1d88ee3",
-    "topic_label": "Nepal flood disaster relief",
-    "event_window_start": "2026-09-01T18:18:16.000Z",
-    "event_window_end": "2026-09-02T12:33:15.000Z",
-    "article_ids": [
-      "art_1788353113720_rl0qe",
-      "art_1788335331531_pmle0",
-      "art_1788317586061_jcitg",
-      "art_1788299288694_0urt1",
-      "art_1788289024417_aknai",
-      "art_1788289037713_q0hbb"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-02T17:01:14.637Z",
-    "updated_at": "2026-09-02T17:01:14.637Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Flash floods occurred along the Nepal-Tibet border approximately one week ago.",
-      "Search and rescue operations are ongoing.",
-      "Multiple citizens from other countries have been reported missing or involved in the disaster."
-    ],
-    "source_claims": [
-      "[bbc] reports at least 1,114 people have died in Nepal and nearly 4,000 are missing, with 16 deaths and over 500 missing in Tibet.",
-      "[guardian] reports that 38 Australian citizens remain missing, with 18 Australian personnel on the ground in Nepal.",
-      "[guardian] reports that an army spokesperson stated 119 people were rescued on Tuesday, including 118 Nepali nationals and one British male.",
-      "[aljazeera] reports that floods occurred on August 26, destroying infrastructure in southern Nepal."
-    ],
-    "framing_differences": [
-      "[bbc] frames the event through the perspective of international relief efforts and UN data, whereas [aljazeera] frames the event through the personal narrative of an individual searching for a missing family member.",
-      "[guardian] focuses primarily on the status and consular response regarding Australian and British citizens affected by the disaster."
-    ],
-    "contested_claims": [
-      "[bbc] cites a death toll in Nepal of 1,114, while [guardian] cites a figure of at least 1,050 for the same region."
-    ],
-    "unverified_claims": [
-      "[bbc] reports that hundreds of workers may be trapped in Nepalese hydropower tunnels.",
-      "[guardian] notes the cause of the disaster as a glacial collapse."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'catastrophic' to describe the flash floods.",
-      "[aljazeera] uses the terms 'devastating' and 'desperate' to characterize the situation."
-    ],
-    "safe_conclusions": [
-      "Flash floods have occurred in the Nepal-Tibet border region.",
-      "There are active search and rescue operations underway involving both local and international entities.",
-      "There are confirmed fatalities and missing persons resulting from the floods."
-    ],
-    "unknowns": [
-      "The exact total number of casualties, as reported figures vary across sources.",
-      "The current status and location of all foreign nationals reported missing.",
-      "The specific number of workers currently trapped in hydropower tunnels."
-    ],
-    "synthesis": "Flash floods along the Nepal-Tibet border have resulted in a significant number of fatalities and missing persons, prompting ongoing international and local search and rescue efforts. While rescue teams have successfully located several individuals, including foreign nationals, the humanitarian situation remains critical. Sources report varying figures regarding the total death toll and the number of people currently missing.",
-    "confidence": "MEDIUM. While the occurrence of the disaster is confirmed, the specific casualty figures vary significantly between independent sources.",
-    "sources": [
-      {
-        "id": "art_1788353113720_rl0qe",
-        "url": "https://www.bbc.co.uk/news/articles/c8xk45k9r1go?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Nepal intensifies relief and recovery efforts after deadly floods, UN says"
-      },
-      {
-        "id": "art_1788335331531_pmle0",
-        "url": "https://www.aljazeera.com/features/2026/9/2/nepal-floods-father-borrows-13-walks-for-days-to-search-for-missing-son?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nepal floods: Father borrows $13, walks for days to search for missing son"
-      },
-      {
-        "id": "art_1788317586061_jcitg",
-        "url": "https://www.theguardian.com/world/2026/sep/01/missing-australian-found-alive-nepal-tibet-floods",
-        "source": "guardian",
-        "title": "Relief as five Australians missing in Nepal-Tibet flood disaster found alive"
-      },
-      {
-        "id": "art_1788299288694_0urt1",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/02/anthony-albanese-palau-forum-one-nation-pauline-hanson-channel-contos-ntwnfb",
-        "source": "guardian",
-        "title": "News live: Five Australians confirmed safe after Nepal-Tibet flooding; Chanel Contos urges action on ‘manosphere’"
-      },
-      {
-        "id": "art_1788289024417_aknai",
-        "url": "https://www.theguardian.com/world/2026/sep/01/briton-among-119-more-people-rescued-in-nepal-after-flash-floods",
-        "source": "guardian",
-        "title": "Briton among 119 more people rescued in Nepal after flash floods"
-      },
-      {
-        "id": "art_1788289037713_q0hbb",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/1/nepal-rescuers-race-to-reach-900-missing-hydropower-workers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nepal rescuers race to reach 900 missing hydropower workers"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
