@@ -1,5 +1,640 @@
 [
   {
+    "cluster_id": "14de36bcfb9ef1dd4849a1b8abe9c0f7",
+    "topic_label": "US Federal Reserve Rate Hike",
+    "event_window_start": "2026-09-16T18:08:10.000Z",
+    "event_window_end": "2026-09-16T18:09:18.000Z",
+    "article_ids": [
+      "art_1789582902396_5h5z8",
+      "art_1789582903610_3yjmd"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T20:34:08.806Z",
+    "updated_at": "2026-09-16T20:34:08.806Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "The Federal Reserve voted to raise the benchmark interest rate by a quarter-percentage point to a range of 3.75% to 4%.",
+      "The vote by the Federal Open Market Committee was unanimous (12-0).",
+      "This is the first interest rate hike implemented by the Federal Reserve since July 2023.",
+      "Kevin Warsh is the current chair of the Federal Reserve.",
+      "Michelle Bowman and Christopher Waller are Federal Reserve appointees."
+    ],
+    "source_claims": [
+      "[guardian_1] states the rate hike is intended to support a return to the committee's 2 percent inflation goal.",
+      "[guardian_2] states the rate hike occurred despite intense pressure from the president.",
+      "[guardian_2] claims the unanimous decision serves as a blow to Donald Trump who wanted interest rates cut."
+    ],
+    "framing_differences": [
+      "guardian_1 frames the rate hike primarily in the context of the Federal Reserve's effort to fight inflation, whereas guardian_2 frames the event through the lens of political conflict between the Federal Reserve and the White House."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_1] claims the policy move potentially sets Kevin Warsh on a collision course with Donald Trump."
+    ],
+    "loaded_language": [
+      "[guardian_1] uses the phrase 'collision course' to describe the potential relationship between Kevin Warsh and Donald Trump.",
+      "[guardian_2] uses the phrase 'intense pressure' to describe the communication from the president regarding interest rates.",
+      "[guardian_2] uses the term 'blow' to describe the impact of the unanimous vote on Donald Trump's objectives."
+    ],
+    "safe_conclusions": [
+      "The Federal Reserve committee voted unanimously to increase the federal funds rate by 0.25% to a new range of 3.75% to 4%."
+    ],
+    "unknowns": [
+      "The specific nature and methods of the pressure exerted by the president on the Federal Reserve.",
+      "The long-term impact of this interest rate hike on the broader United States economy."
+    ],
+    "synthesis": "The Federal Reserve committee voted unanimously to raise the benchmark interest rate by a quarter-percentage point to a range of 3.75% to 4%. This action marks the first rate increase by the central bank since July 2023. The decision coincides with public commentary from Donald Trump regarding his preference for lower interest rates.",
+    "confidence": "HIGH. The core factual details regarding the interest rate hike and the voting tally are consistent across the provided source articles.",
+    "sources": [
+      {
+        "id": "art_1789582902396_5h5z8",
+        "url": "https://www.theguardian.com/business/2026/sep/16/us-federal-reserve-votes-hike-rates",
+        "source": "guardian",
+        "title": "US Federal Reserve votes to hike rates for the first time since 2023"
+      },
+      {
+        "id": "art_1789582903610_3yjmd",
+        "url": "https://www.theguardian.com/business/live/2026/sep/16/federal-reserve-interest-rate-increase-live-updates",
+        "source": "guardian",
+        "title": "Federal Reserve raises interest rates for first time since July 2023 – live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dd7eb7e43eac4df00cb1acfc2d2eb34e",
+    "topic_label": "Middle East Conflict and Gaza",
+    "event_window_start": "2026-09-15T22:57:21.000Z",
+    "event_window_end": "2026-09-16T17:42:00.000Z",
+    "article_ids": [
+      "art_1789582914887_cai9a",
+      "art_1789582915951_n4f6u",
+      "art_1789568217475_ymt1e",
+      "art_1789549251276_hrhuq",
+      "art_1789529873450_l4wek",
+      "art_1789517428549_51d5l"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T20:34:08.806Z",
+    "updated_at": "2026-09-16T20:34:08.806Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The ongoing war in Gaza has resulted in deaths of civilians and significant damage to infrastructure.",
+      "Tensions exist between Israeli and Palestinian populations in the West Bank and Gaza."
+    ],
+    "source_claims": [
+      "[aljazeera] The UK Trades Union Congress voted to back the BDS movement.",
+      "[aljazeera] Norway's sovereign wealth fund reported $2.4bn in returns from its remaining Israeli holdings in the first half of 2026.",
+      "[fox] Critics labeled a New York Times report as 'grotesque' for its framing of the Oct. 7 attack victims.",
+      "[bbc] At least 12 people were killed following the collapse of a war-damaged building in the Tal al-Hawa area of Gaza.",
+      "[guardian] An English teacher in the West Bank reports his village is surrounded by settlers and military blockades."
+    ],
+    "framing_differences": [
+      "aljazeera frames the situation in Gaza and the West Bank through the lens of human rights and institutional complicity, while fox frames the media coverage of the conflict as being unfairly critical of Israel."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The UK trade union motion describes the war in Gaza as a 'genocidal war'.",
+      "[bbc] The Hamas-run Civil Defence rescue service experienced delays in searching for survivors due to Israeli restrictions on equipment."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
+      "[fox] uses the term 'grotesque' to describe a New York Times report.",
+      "[aljazeera] uses the term 'military aggression' to describe Israeli activities."
+    ],
+    "safe_conclusions": [
+      "Trade unions in the UK have held a conference involving motions regarding the Israeli-Palestinian conflict.",
+      "Buildings have collapsed in Gaza causing civilian deaths.",
+      "There is ongoing public and media debate regarding the reporting and investment activities related to the Israel-Gaza conflict."
+    ],
+    "unknowns": [
+      "The specific identity of all victims in the building collapse in Gaza.",
+      "The full long-term policy response of the Norwegian sovereign wealth fund regarding its remaining Israeli assets.",
+      "The precise impact of the UK trade union motion on future British foreign policy."
+    ],
+    "synthesis": "Recent reports highlight ongoing violence and humanitarian concerns in Gaza and the West Bank, alongside international reactions to these events. UK trade unions have formally moved to support the BDS movement, while media and financial institutions face scrutiny over their coverage and investments. Rescue efforts continue in Gaza following the collapse of damaged buildings amidst reports of limited equipment.",
+    "confidence": "MEDIUM: The sources cover distinct, non-overlapping events related to a shared conflict, making factual consistency difficult to measure across the disparate topics.",
+    "sources": [
+      {
+        "id": "art_1789582914887_cai9a",
+        "url": "https://www.aljazeera.com/news/2026/9/16/uk-trade-unions-back-motion-to-boycott-and-sanction-israel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK trade unions back motion to boycott and sanction Israel"
+      },
+      {
+        "id": "art_1789582915951_n4f6u",
+        "url": "https://www.foxnews.com/media/new-york-times-report-under-fire-questioning-whether-israelis-were-true-victims-oct-7-terror-attack",
+        "source": "fox",
+        "title": "New York Times report under fire for questioning whether Israelis were true victims of Oct 7 terror attack"
+      },
+      {
+        "id": "art_1789568217475_ymt1e",
+        "url": "https://www.aljazeera.com/news/2026/9/16/norway-oil-fund-ethical-concerns?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Norway’s sovereign wealth fund profits from Israeli holdings amid genocide"
+      },
+      {
+        "id": "art_1789549251276_hrhuq",
+        "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 12 killed after war-damaged Gaza building collapses"
+      },
+      {
+        "id": "art_1789529873450_l4wek",
+        "url": "https://www.theguardian.com/news/audio/2026/sep/16/palestinian-school-al-mughayyir-under-siege-podcast",
+        "source": "guardian",
+        "title": "The Palestinian school under siege – podcast"
+      },
+      {
+        "id": "art_1789517428549_51d5l",
+        "url": "https://www.foxnews.com/media/anti-israel-activist-mahmoud-khalil-sues-columbia-university-citing-deliberate-indifference-palestinians",
+        "source": "fox",
+        "title": "Anti-Israel activist Mahmoud Khalil sues Columbia University citing 'deliberate indifference' to Palestinians"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9f48093a9b5cbec712a67f0cb2b75055",
+    "topic_label": "Houthi Drone Interception Saudi Arabia",
+    "event_window_start": "2026-09-16T01:53:27.000Z",
+    "event_window_end": "2026-09-16T08:36:17.000Z",
+    "article_ids": [
+      "art_1789549248130_r0m1h",
+      "art_1789529865773_aujmf",
+      "art_1789529874555_2p8ss"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T20:34:08.806Z",
+    "updated_at": "2026-09-16T20:34:08.806Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A drone was intercepted by the Saudi-led coalition south of Mecca on Tuesday.",
+      "The Saudi-led coalition is engaged in a conflict against Houthi forces in Yemen."
+    ],
+    "source_claims": [
+      "[bbc] The Saudi-led coalition spokesman stated that the targeting of Mecca was a disgraceful act.",
+      "[bbc] The Houthis denied targeting Mecca and characterized Saudi statements as fabrications.",
+      "[guardian] Saudi coalition spokesperson Turki al-Malki stated that the security of holy sites is a red line and warned of deterrent measures.",
+      "[aljazeera] Saudi Arabia cancelled some oil deliveries to Europe following drone attacks on the East-West pipeline."
+    ],
+    "framing_differences": [
+      "BBC and Guardian frame the event primarily as a security incident regarding the proximity of a drone to the holy city of Mecca, while Al Jazeera frames the event as an economic and energy sector disruption involving a pipeline blast."
+    ],
+    "contested_claims": [
+      "The Saudi-led coalition implies the drone was intended to target Mecca, whereas the Houthi group explicitly denies targeting the city."
+    ],
+    "unverified_claims": [
+      "[aljazeera] Saudi Arabia has cancelled oil deliveries to Europe due to drone attacks on the East-West pipeline.",
+      "[bbc] The Organisation of Islamic Cooperation described the drone event as an unacceptable and intolerable transgression."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'disgraceful act' to describe the alleged targeting of Mecca.",
+      "[bbc] uses the term 'fabrications and lies' to describe the Houthis' characterization of Saudi statements.",
+      "[guardian] uses the term 'red line' to describe the security of holy sites.",
+      "[aljazeera] uses the term 'global panic' to describe the market response to oil delivery cancellations."
+    ],
+    "safe_conclusions": [
+      "A drone was intercepted by the Saudi-led coalition in the vicinity of Mecca.",
+      "The Saudi-led coalition and the Houthi movement are involved in an ongoing military conflict."
+    ],
+    "unknowns": [
+      "The specific intended target of the drone intercepted south of Mecca.",
+      "Whether the drone incident near Mecca and the pipeline attack reported by Al Jazeera are part of the same coordinated effort.",
+      "The current status of oil deliveries to Europe beyond the claims reported in Al Jazeera."
+    ],
+    "synthesis": "The Saudi-led coalition intercepted a drone south of Mecca on Tuesday, leading to condemnation from the coalition and the Organisation of Islamic Cooperation. The Houthi group denied targeting the holy city and accused Saudi Arabia of misrepresenting the events. Separately, reports indicate disruptions to Saudi oil exports to Europe following attacks on a key pipeline.",
+    "confidence": "MEDIUM. While sources agree on the interception of a drone, the articles cover different incidents or perspectives, making a comprehensive account of the broader security situation difficult to verify.",
+    "sources": [
+      {
+        "id": "art_1789549248130_r0m1h",
+        "url": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Saudi Arabia says it shot down Houthi drone south of Mecca"
+      },
+      {
+        "id": "art_1789529865773_aujmf",
+        "url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
+        "source": "guardian",
+        "title": "Saudi Arabia warns of ‘red line’ after Houthi drone intercepted close to holy city of Mecca"
+      },
+      {
+        "id": "art_1789529874555_2p8ss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Saudi Arabia cancels oil to Europe over East-West pipeline blast"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6e9e51008c76cb3ddbb583fab69f7397",
+    "topic_label": "Kosovo War Crimes Verdicts",
+    "event_window_start": "2026-09-16T07:49:30.000Z",
+    "event_window_end": "2026-09-16T13:40:05.000Z",
+    "article_ids": [
+      "art_1789568214191_rgoe9",
+      "art_1789549253452_hmxi5"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T17:42:14.214Z",
+    "updated_at": "2026-09-16T17:42:14.214Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Hashim Thaci is a 58-year-old former president of Kosovo and a former senior commander of the Kosovo Liberation Army (KLA).",
+      "Thaci was tried by a tribunal in The Hague regarding his actions during the conflict with Serbia in the late 1990s.",
+      "The case involves allegations of murder and torture committed by Thaci and three other former KLA commanders.",
+      "The case is described as contentious within Kosovo."
+    ],
+    "source_claims": [
+      "[guardian] Hashim Thaci has been sentenced to 25 years in prison for war crimes including 96 murders.",
+      "[aljazeera] Prosecutors requested 45-year prison sentences for Thaci and three other commanders.",
+      "[aljazeera] Thaci, Jakup Krasniqi, Rexhep Selimi, and Kadri Veseli deny all charges against them."
+    ],
+    "framing_differences": [
+      "The guardian frames the event as a finalized conviction with a set prison term, whereas aljazeera frames the event as an ongoing judicial process prior to the verdict."
+    ],
+    "contested_claims": [
+      "The guardian reports Thaci has been convicted and sentenced to 25 years in prison, while aljazeera reports the defendants deny the charges and notes prosecutors requested 45-year sentences."
+    ],
+    "unverified_claims": [
+      "[guardian] The tribunal convicted Thaci and three other commanders of 96 murders and counts of torture, cruel treatment, and arbitrary detention."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'revered figure' to describe Hashim Thaci's status among many Kosovan Albanians."
+    ],
+    "safe_conclusions": [
+      "Hashim Thaci and other former KLA commanders have been subject to a legal process at a tribunal in The Hague concerning their roles in the late 1990s conflict."
+    ],
+    "unknowns": [
+      "Whether the defendants intend to appeal the verdict.",
+      "The specific breakdown of individual charges for the three co-defendants mentioned."
+    ],
+    "synthesis": "Hashim Thaci, the former president of Kosovo and a senior commander of the Kosovo Liberation Army, was tried by the Kosovo Specialist Chambers in The Hague for his role in the 1990s conflict with Serbia. While the guardian reports a conviction and a 25-year prison sentence, aljazeera describes the proceedings as a trial where the defendants denied the charges and prosecutors requested 45-year sentences. The legal proceedings remain a subject of significant domestic contention in Kosovo.",
+    "confidence": "CONTESTED. The sources provide conflicting information regarding the outcome and status of the judicial process, likely due to differences in the time of publication.",
+    "sources": [
+      {
+        "id": "art_1789568214191_rgoe9",
+        "url": "https://www.theguardian.com/world/2026/sep/16/kosovo-former-president-hashim-thaci-jailed-war-crimes",
+        "source": "guardian",
+        "title": "Kosovo’s former president jailed for 25 years over war crimes"
+      },
+      {
+        "id": "art_1789549253452_hmxi5",
+        "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-faces-verdict-for-alleged-war-crimes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Former Kosovo President Hashim Thaci faces verdict for alleged war crimes"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "35ca465bca7980662ba95d4d473df9d3",
+    "topic_label": "Canada Associate EU Membership",
+    "event_window_start": "2026-09-16T08:38:26.000Z",
+    "event_window_end": "2026-09-16T08:42:24.000Z",
+    "article_ids": [
+      "art_1789549245802_bj9sq",
+      "art_1789549246872_ehjr4"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T17:42:14.214Z",
+    "updated_at": "2026-09-16T17:42:14.214Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Ursula von der Leyen delivered an address in the European parliament.",
+      "Ursula von der Leyen expressed interest in Canada potentially becoming an associate member of the European Union."
+    ],
+    "source_claims": [
+      "[guardian_1] Von der Leyen described the EU as currently in a precarious state while facing an openly hostile world.",
+      "[guardian_1] Von der Leyen outlined proposals for reforming the EU single market, energy market, and trade relationships.",
+      "[guardian_2] Von der Leyen held a meeting with Canadian prime minister Mark Carney.",
+      "[guardian_2] Carney has called for a unique alliance with the EU to reduce dependence on US trade.",
+      "[guardian_2] The overture is framed as a response to US tariffs and discussions regarding Canada joining the US."
+    ],
+    "framing_differences": [
+      "guardian_1 focuses on the internal policy goals of the European Union, while guardian_2 frames the potential associate membership primarily as a reactive move by Canada to shift its geopolitical and economic reliance away from the US."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_2] States Mark Carney is the current Canadian prime minister."
+    ],
+    "loaded_language": [
+      "[guardian_1] uses the term 'openly hostile world' to describe the global environment as cited by von der Leyen.",
+      "[guardian_1] uses the term 'most precarious' to describe the status of the EU."
+    ],
+    "safe_conclusions": [
+      "Ursula von der Leyen proposed the idea of Canada becoming an associate member of the EU."
+    ],
+    "unknowns": [
+      "Whether there is an official EU framework currently in place for associate membership.",
+      "The specific terms or conditions that would define the proposed associate membership for Canada.",
+      "Confirmation of the current Canadian head of government."
+    ],
+    "synthesis": "European Commission president Ursula von der Leyen has publicly proposed that Canada could become the first associate member of the European Union. This suggestion occurred during a European parliament address, where she also discussed broader EU economic and trade reforms. The potential for a deeper partnership is being linked by observers to Canada's interest in diversifying its economic and security alliances.",
+    "confidence": "LOW. There is a significant factual discrepancy in the provided text regarding the identity of the Canadian Prime Minister, which contradicts known current events.",
+    "sources": [
+      {
+        "id": "art_1789549245802_bj9sq",
+        "url": "https://www.theguardian.com/world/live/2026/sep/16/european-union-ursula-von-der-leyen-eu-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "Canada could become first ‘associate member’ of the EU, von der Leyen suggests – Europe live"
+      },
+      {
+        "id": "art_1789549246872_ehjr4",
+        "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
+        "source": "guardian",
+        "title": "European Union opens door for Canada to become first associate member"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "fd4a62a2212d63fa64c0de1246b69862",
+    "topic_label": "AI Growth and Regulation Debate",
+    "event_window_start": "2026-09-15T21:05:14.000Z",
+    "event_window_end": "2026-09-16T18:03:28.000Z",
+    "article_ids": [
+      "art_1789582906779_n4m5y",
+      "art_1789549258743_ju8zz",
+      "art_1789529869086_z0n9j",
+      "art_1789509086380_f2urs",
+      "art_1789509088627_c6esx"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T20:34:08.806Z",
+    "updated_at": "2026-09-16T20:34:08.806Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "OpenAI and Anthropic are leading artificial intelligence companies.",
+      "Executives from AI companies are engaging in discussions regarding the regulation and development speed of AI.",
+      "The pace of AI development is currently a subject of debate among tech executives and government officials."
+    ],
+    "source_claims": [
+      "[fox] JD Vance stated the Trump administration is concerned about AI development but views industry-led calls for regulation as a potential Trojan horse.",
+      "[bbc] Sam Altman stated the world is right to fear AI but should trust firms to do the right thing.",
+      "[aljazeera] Anthropic CEO Dario Amodei stated he did not appreciate the speed of global AI growth.",
+      "[guardian] The Australian government is considering proposals to give AI companies access to creatives' works by default.",
+      "[guardian] Dario Amodei and Nvidia CEO Jensen Huang expressed opposing views on the necessity of an AI development slowdown."
+    ],
+    "framing_differences": [
+      "fox frames industry calls for regulation as a tactical distraction, whereas bbc frames them as an appeal for public trust.",
+      "guardian (first article) frames the meeting between OpenAI and the Australian government through the lens of copyright protection and local data needs, whereas other sources focus on general regulatory or growth-related discourse."
+    ],
+    "contested_claims": [
+      "The necessity of slowing down AI development is contested, with Anthropic's CEO advocating for it and Nvidia's CEO arguing against it."
+    ],
+    "unverified_claims": [
+      "[fox] Claims that large AI companies invented AI doomsday narratives to avoid real-life problems.",
+      "[guardian] Claims the Albanese government is considering allowing AI companies access to Australian content by default."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'moribund bandwagon' to describe the regulatory movement.",
+      "[fox] uses the term 'Trojan horse' to describe industry-led calls for regulation.",
+      "[guardian] uses the phrase 'throw creatives under the bus' to describe the potential impact of government policy."
+    ],
+    "safe_conclusions": [
+      "Representatives from OpenAI and Anthropic are actively participating in public and private dialogues concerning AI governance.",
+      "There is disagreement among industry leaders and political figures regarding how to best approach the regulation of AI technologies."
+    ],
+    "unknowns": [
+      "The specific legislative details of the proposed Australian copyright compromise.",
+      "The internal motivations behind the regulatory positions held by OpenAI and Anthropic executives.",
+      "The extent of the influence AI companies currently have on specific government regulatory agendas."
+    ],
+    "synthesis": "Discussions surrounding artificial intelligence are currently focused on balancing development speed with safety and copyright considerations. While some tech executives advocate for regulatory caution and a slowdown in development, others emphasize the need for continued expansion and public trust. Government officials in the U.S. and Australia are actively evaluating how to manage the integration of these technologies into the economy.",
+    "confidence": "MEDIUM: MEDIUM: The sources are factually consistent regarding events like the San Francisco conference and the meeting with Australian officials, but differ significantly in their ideological framing of corporate motives.",
+    "sources": [
+      {
+        "id": "art_1789582906779_n4m5y",
+        "url": "https://www.foxnews.com/opinion/david-marcus-big-tech-invented-ai-doomsday-duck-real-life-problems",
+        "source": "fox",
+        "title": "DAVID MARCUS: Big Tech invented AI doomsday to duck real life problems"
+      },
+      {
+        "id": "art_1789549258743_ju8zz",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms"
+      },
+      {
+        "id": "art_1789529869086_z0n9j",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/anthropic-ceo-didnt-foresee-the-speed-of-global-ai-growth?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Anthropic CEO didn’t foresee the speed of global AI growth"
+      },
+      {
+        "id": "art_1789509086380_f2urs",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/16/pocock-says-labor-easing-copyright-protections-for-ai-datacentre-investment-would-throw-creatives-under-the-bus",
+        "source": "guardian",
+        "title": "Pocock says Labor easing copyright protections for AI datacentre investment would throw creatives ‘under the bus’"
+      },
+      {
+        "id": "art_1789509088627_c6esx",
+        "url": "https://www.theguardian.com/technology/2026/sep/15/anthropic-nvidia-ceos-ai",
+        "source": "guardian",
+        "title": "Anthropic’s CEO calls for AI slowdown as Nvidia’s urges acceleration"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f6a1c043ea4aefa4533cb626f46b26f1",
+    "topic_label": "Search for Noah Woods",
+    "event_window_start": "2026-09-16T13:32:45.000Z",
+    "event_window_end": "2026-09-16T17:51:10.000Z",
+    "article_ids": [
+      "art_1789582912676_p2f4k",
+      "art_1789568215328_h0v1n"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T20:34:08.806Z",
+    "updated_at": "2026-09-16T20:34:08.806Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "A three-year-old boy named Noah Woods went missing from a playground in Brantham, Suffolk, on Tuesday afternoon.",
+      "Noah Woods was last seen after becoming separated from a relative.",
+      "Suffolk police conducted a search for the child.",
+      "Supt Tom Pearse provided official updates on behalf of the Suffolk police."
+    ],
+    "source_claims": [
+      "[guardian_1] states that a body was found in Decoy Pond in the village of Brantham.",
+      "[guardian_1] reports that police are treating the death as not suspicious but unexplained.",
+      "[guardian_1] notes that formal identification of the body has yet to take place.",
+      "[guardian_2] states that Noah Woods is autistic, non-verbal, and partially deaf.",
+      "[guardian_2] reports that Noah Woods will not respond to his name if called."
+    ],
+    "framing_differences": [
+      "[guardian_1] frames the event through the discovery of a body and the subsequent police statement, whereas [guardian_2] frames the event through the ongoing search efforts and the involvement of volunteers."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian_1] claims that the body found in Decoy Pond is linked to the search for Noah Woods.",
+      "[guardian_2] claims that hundreds of volunteers joined the hunt for the missing child."
+    ],
+    "loaded_language": [
+      "[guardian_1] uses the word 'sadly' to describe the recovery of the body.",
+      "[guardian_2] uses the word 'massive' to describe the search operation."
+    ],
+    "safe_conclusions": [
+      "Police were searching for a missing three-year-old boy in Brantham.",
+      "The family of Noah Woods has been informed by the police of recent developments."
+    ],
+    "unknowns": [
+      "The official identity of the body recovered from the pond.",
+      "The exact circumstances leading to the child becoming separated from his relative."
+    ],
+    "synthesis": "Police conducted a search in Brantham, Suffolk, for a missing three-year-old boy named Noah Woods who disappeared after separating from a relative on Tuesday. Following extensive search efforts, a body was recovered from a pond in the village. Suffolk police stated that the family has been notified and that the death is currently being treated as unexplained.",
+    "confidence": "HIGH / The reports are internally consistent regarding the location and the status of the police search and recovery efforts.",
+    "sources": [
+      {
+        "id": "art_1789582912676_p2f4k",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/16/body-found-search-boy-missing-suffolk-playground-noah-woods",
+        "source": "guardian",
+        "title": "Body found in search for three-year-old Noah Woods"
+      },
+      {
+        "id": "art_1789568215328_h0v1n",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/16/suffolk-police-footage-missing-noah-woods",
+        "source": "guardian",
+        "title": "Suffolk police release footage of Noah Woods as search for missing boy continues"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e892af28f782ce3fc7848e0a08052c24",
+    "topic_label": "Lindsay Clancy Legal Proceedings",
+    "event_window_start": "2026-09-15T22:49:12.000Z",
+    "event_window_end": "2026-09-16T18:04:40.000Z",
+    "article_ids": [
+      "art_1789582905748_ba7r4",
+      "art_1789517430619_v4op9"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-16T20:34:08.806Z",
+    "updated_at": "2026-09-16T20:34:08.806Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Lindsay Clancy is accused of strangling her three young children.",
+      "A jury trial for Lindsay Clancy resulted in a mistrial due to a deadlocked jury.",
+      "The defense team for Lindsay Clancy has added attorney Martin Weinberg."
+    ],
+    "source_claims": [
+      "[fox_1] Attorney Jonathan Turley suggests prosecutors face difficulty securing a unanimous verdict against an insanity defense in Massachusetts.",
+      "[fox_2] Defense attorney Kevin Reddington expressed disappointment in the mistrial and stated his belief that the evidence supported an acquittal.",
+      "[fox_2] Reports suggest the jury in the first trial was split 11-1 in favor of finding the defendant not criminally responsible."
+    ],
+    "framing_differences": [
+      "The first Fox article frames the case around the prosecutorial dilemma of choosing between a retrial and a plea deal, while the second Fox article focuses on the defense's legal maneuvering and the hiring of a new attorney."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox_2] The jury split in the first trial was 11-1 in favor of finding the defendant not criminally responsible."
+    ],
+    "loaded_language": [
+      "[fox_2] uses the term 'high-stakes double jeopardy fight' to describe the legal proceedings."
+    ],
+    "safe_conclusions": [
+      "A mistrial was declared in the murder trial of Lindsay Clancy due to a hung jury.",
+      "The defense team is currently adjusting its composition by adding Martin Weinberg."
+    ],
+    "unknowns": [
+      "The specific breakdown of the jury vote remains unconfirmed by official court records.",
+      "Whether prosecutors will pursue a second trial or offer a plea deal is currently undecided."
+    ],
+    "synthesis": "Lindsay Clancy's murder trial ended in a mistrial after the jury failed to reach a unanimous verdict regarding her insanity defense. Her legal team has since expanded to include attorney Martin Weinberg to address pending legal challenges. Prosecutors are currently evaluating whether to proceed with a retrial or seek an alternative resolution.",
+    "confidence": "HIGH. The primary facts regarding the mistrial and the addition of new counsel are consistent across the provided source texts.",
+    "sources": [
+      {
+        "id": "art_1789582905748_ba7r4",
+        "url": "https://www.foxnews.com/us/lindsay-clancy-prosecutors-dilemma-retrial-plea-deal-case-involving-3-strangled-children",
+        "source": "fox",
+        "title": "Lindsay Clancy prosecutors face dilemma: Retrial or plea deal in case involving 3 strangled children"
+      },
+      {
+        "id": "art_1789517430619_v4op9",
+        "url": "https://www.foxnews.com/us/lindsay-clancy-hires-karen-read-attorney-high-stakes-double-jeopardy-fight-after-murder-mistrial",
+        "source": "fox",
+        "title": "Lindsay Clancy hires Karen Read attorney for high-stakes double jeopardy fight after murder mistrial"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "59485ba11b2a8fc9d5766fe07978f408",
     "topic_label": "Conflicts and Tensions in Middle East",
     "event_window_start": "2026-09-15T18:05:24.000Z",
@@ -259,145 +894,6 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "35ca465bca7980662ba95d4d473df9d3",
-    "topic_label": "Canada Associate EU Membership",
-    "event_window_start": "2026-09-16T08:38:26.000Z",
-    "event_window_end": "2026-09-16T08:42:24.000Z",
-    "article_ids": [
-      "art_1789549245802_bj9sq",
-      "art_1789549246872_ehjr4"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-16T17:42:14.214Z",
-    "updated_at": "2026-09-16T17:42:14.214Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ursula von der Leyen delivered an address in the European parliament.",
-      "Ursula von der Leyen expressed interest in Canada potentially becoming an associate member of the European Union."
-    ],
-    "source_claims": [
-      "[guardian_1] Von der Leyen described the EU as currently in a precarious state while facing an openly hostile world.",
-      "[guardian_1] Von der Leyen outlined proposals for reforming the EU single market, energy market, and trade relationships.",
-      "[guardian_2] Von der Leyen held a meeting with Canadian prime minister Mark Carney.",
-      "[guardian_2] Carney has called for a unique alliance with the EU to reduce dependence on US trade.",
-      "[guardian_2] The overture is framed as a response to US tariffs and discussions regarding Canada joining the US."
-    ],
-    "framing_differences": [
-      "guardian_1 focuses on the internal policy goals of the European Union, while guardian_2 frames the potential associate membership primarily as a reactive move by Canada to shift its geopolitical and economic reliance away from the US."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian_2] States Mark Carney is the current Canadian prime minister."
-    ],
-    "loaded_language": [
-      "[guardian_1] uses the term 'openly hostile world' to describe the global environment as cited by von der Leyen.",
-      "[guardian_1] uses the term 'most precarious' to describe the status of the EU."
-    ],
-    "safe_conclusions": [
-      "Ursula von der Leyen proposed the idea of Canada becoming an associate member of the EU."
-    ],
-    "unknowns": [
-      "Whether there is an official EU framework currently in place for associate membership.",
-      "The specific terms or conditions that would define the proposed associate membership for Canada.",
-      "Confirmation of the current Canadian head of government."
-    ],
-    "synthesis": "European Commission president Ursula von der Leyen has publicly proposed that Canada could become the first associate member of the European Union. This suggestion occurred during a European parliament address, where she also discussed broader EU economic and trade reforms. The potential for a deeper partnership is being linked by observers to Canada's interest in diversifying its economic and security alliances.",
-    "confidence": "LOW. There is a significant factual discrepancy in the provided text regarding the identity of the Canadian Prime Minister, which contradicts known current events.",
-    "sources": [
-      {
-        "id": "art_1789549245802_bj9sq",
-        "url": "https://www.theguardian.com/world/live/2026/sep/16/european-union-ursula-von-der-leyen-eu-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Canada could become first ‘associate member’ of the EU, von der Leyen suggests – Europe live"
-      },
-      {
-        "id": "art_1789549246872_ehjr4",
-        "url": "https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member",
-        "source": "guardian",
-        "title": "European Union opens door for Canada to become first associate member"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6e9e51008c76cb3ddbb583fab69f7397",
-    "topic_label": "Kosovo War Crimes Verdicts",
-    "event_window_start": "2026-09-16T07:49:30.000Z",
-    "event_window_end": "2026-09-16T13:40:05.000Z",
-    "article_ids": [
-      "art_1789568214191_rgoe9",
-      "art_1789549253452_hmxi5"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-16T17:42:14.214Z",
-    "updated_at": "2026-09-16T17:42:14.214Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Hashim Thaci is a 58-year-old former president of Kosovo and a former senior commander of the Kosovo Liberation Army (KLA).",
-      "Thaci was tried by a tribunal in The Hague regarding his actions during the conflict with Serbia in the late 1990s.",
-      "The case involves allegations of murder and torture committed by Thaci and three other former KLA commanders.",
-      "The case is described as contentious within Kosovo."
-    ],
-    "source_claims": [
-      "[guardian] Hashim Thaci has been sentenced to 25 years in prison for war crimes including 96 murders.",
-      "[aljazeera] Prosecutors requested 45-year prison sentences for Thaci and three other commanders.",
-      "[aljazeera] Thaci, Jakup Krasniqi, Rexhep Selimi, and Kadri Veseli deny all charges against them."
-    ],
-    "framing_differences": [
-      "The guardian frames the event as a finalized conviction with a set prison term, whereas aljazeera frames the event as an ongoing judicial process prior to the verdict."
-    ],
-    "contested_claims": [
-      "The guardian reports Thaci has been convicted and sentenced to 25 years in prison, while aljazeera reports the defendants deny the charges and notes prosecutors requested 45-year sentences."
-    ],
-    "unverified_claims": [
-      "[guardian] The tribunal convicted Thaci and three other commanders of 96 murders and counts of torture, cruel treatment, and arbitrary detention."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'revered figure' to describe Hashim Thaci's status among many Kosovan Albanians."
-    ],
-    "safe_conclusions": [
-      "Hashim Thaci and other former KLA commanders have been subject to a legal process at a tribunal in The Hague concerning their roles in the late 1990s conflict."
-    ],
-    "unknowns": [
-      "Whether the defendants intend to appeal the verdict.",
-      "The specific breakdown of individual charges for the three co-defendants mentioned."
-    ],
-    "synthesis": "Hashim Thaci, the former president of Kosovo and a senior commander of the Kosovo Liberation Army, was tried by the Kosovo Specialist Chambers in The Hague for his role in the 1990s conflict with Serbia. While the guardian reports a conviction and a 25-year prison sentence, aljazeera describes the proceedings as a trial where the defendants denied the charges and prosecutors requested 45-year sentences. The legal proceedings remain a subject of significant domestic contention in Kosovo.",
-    "confidence": "CONTESTED. The sources provide conflicting information regarding the outcome and status of the judicial process, likely due to differences in the time of publication.",
-    "sources": [
-      {
-        "id": "art_1789568214191_rgoe9",
-        "url": "https://www.theguardian.com/world/2026/sep/16/kosovo-former-president-hashim-thaci-jailed-war-crimes",
-        "source": "guardian",
-        "title": "Kosovo’s former president jailed for 25 years over war crimes"
-      },
-      {
-        "id": "art_1789549253452_hmxi5",
-        "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-faces-verdict-for-alleged-war-crimes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Former Kosovo President Hashim Thaci faces verdict for alleged war crimes"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   },
   {
     "cluster_id": "917b3cd5c0aaa61a60396715bb299925",
@@ -17256,467 +17752,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/4/small-potatoes-us-president-trump-downplays-war-on-iran?traffic_source=rss",
         "source": "aljazeera",
         "title": "‘Small potatoes’: US President Trump downplays war on Iran"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c0cb06e81da04e8925b14f3a5c2ceed2",
-    "topic_label": "Lindsay Clancy murder trial",
-    "event_window_start": "2026-09-05T06:37:46.000Z",
-    "event_window_end": "2026-09-05T12:15:27.000Z",
-    "article_ids": [
-      "art_1788611572413_0timt",
-      "art_1788611577880_rwrmr",
-      "art_1788598791229_12guu"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T14:10:29.371Z",
-    "updated_at": "2026-09-05T14:10:29.371Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The murder trial of Lindsay Clancy ended in a mistrial.",
-      "The case involves the death of three children.",
-      "The trial took place in Massachusetts."
-    ],
-    "source_claims": [
-      "[fox] Patrick Clancy stated that the prospect of another trial is extraordinarily painful.",
-      "[fox] Attorney David Meier stated Patrick Clancy is grateful to the Court and jurors.",
-      "[guardian] The trial lasted five weeks.",
-      "[guardian] A lone male juror holdout appeared to be preventing a conclusion to the case.",
-      "[bbc] Dozens of women wearing pink rallied at the courthouse in support of Lindsay Clancy."
-    ],
-    "framing_differences": [
-      "[guardian] frames the event as a 'dramatic deadlock' and 'agonizing spectacle' that has gripped the country, whereas [fox] frames the event through the perspective of Patrick Clancy’s statement and legal expert analysis.",
-      "[bbc] frames the event as a social divide concerning whether the defendant is a 'victim or criminal', while [guardian] focuses on the procedural uncertainty of a potential retrial."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] claims a lone male juror holdout prevented a conclusion to the case.",
-      "[bbc] claims the case has 'divided US' on whether the defendant is a victim or criminal."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'dramatic deadlock' to describe the trial's end.",
-      "[guardian] uses the term 'agonizing spectacle' to describe the legal proceedings.",
-      "[bbc] uses the term 'distressing details' to describe the nature of the case."
-    ],
-    "safe_conclusions": [
-      "The murder trial for Lindsay Clancy concluded without a verdict.",
-      "A mistrial was declared in the case."
-    ],
-    "unknowns": [
-      "Whether the prosecution will pursue a second trial.",
-      "The specific reasons for the jury's failure to reach a unanimous verdict.",
-      "The exact timeline for any potential future legal proceedings."
-    ],
-    "synthesis": "The murder trial of Lindsay Clancy in Massachusetts has concluded in a mistrial after the jury failed to reach a unanimous verdict. Patrick Clancy released a statement through his attorney expressing that a potential retrial would be painful. The case has garnered significant public attention and debate regarding the legal and social circumstances surrounding the defendant.",
-    "confidence": "HIGH. While sources emphasize different aspects of the trial, they are consistent regarding the core fact that a mistrial was declared.",
-    "sources": [
-      {
-        "id": "art_1788611572413_0timt",
-        "url": "https://www.foxnews.com/us/patrick-clancy-speaks-hung-jury-lindsay-clancy-case-addresses-prospect-another-trial",
-        "source": "fox",
-        "title": "Patrick Clancy speaks out after hung jury in Lindsay Clancy case, addresses prospect of another trial"
-      },
-      {
-        "id": "art_1788611577880_rwrmr",
-        "url": "https://www.theguardian.com/us-news/2026/sep/05/lindsay-clancy-murder-trial-retrial",
-        "source": "guardian",
-        "title": "Lindsay Clancy murder trial ends in dramatic deadlock – what comes next?"
-      },
-      {
-        "id": "art_1788598791229_12guu",
-        "url": "https://www.bbc.co.uk/news/articles/cx2z0xnw2d6o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Lindsay Clancy murder trial has divided US on whether she's victim or criminal"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ad96e5d76c446bf8cd9b0e4f6e437c1e",
-    "topic_label": "Williams sisters US Open",
-    "event_window_start": "2026-09-05T02:52:11.000Z",
-    "event_window_end": "2026-09-05T07:15:29.000Z",
-    "article_ids": [
-      "art_1788598786770_92ic4",
-      "art_1788584408405_s6y3a"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T11:33:23.026Z",
-    "updated_at": "2026-09-05T11:33:23.026Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Venus and Serena Williams returned to play doubles at the US Open on Friday.",
-      "The match took place in Queens."
-    ],
-    "source_claims": [
-      "[aljazeera] Carlos Alcaraz defeated Wu Yibing 6-3, 6-4, 6-1.",
-      "[aljazeera] Aryna Sabalenka defeated Kamilla Rakhimova 6-3, 6-4.",
-      "[aljazeera] Tommy Paul defeated Alexander Bublik in five sets.",
-      "[fox] Serena Williams is 44 years old and is currently making a comeback after several years away from the sport.",
-      "[fox] The Williams sisters received an ovation from the crowd at Arthur Ashe Stadium."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the event primarily as a tennis tournament results summary, while Fox focuses on the narrative arc of the Williams sisters' return to the sport."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Carlos Alcaraz was returning from a four-month injury absence.",
-      "[fox] Serena Williams previously called the anti-doping process 'unprofessional'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'agonising defeat' to describe the sisters' loss.",
-      "[fox] uses the term 'heartbreaking loss' to describe the match outcome.",
-      "[fox] uses the term 'cringeworthy' to describe a photoshoot performed by influencers."
-    ],
-    "safe_conclusions": [
-      "Venus and Serena Williams competed in a doubles match at the US Open on Friday."
-    ],
-    "unknowns": [
-      "The specific score of the Williams sisters' doubles match.",
-      "The name of the opponents the Williams sisters faced."
-    ],
-    "synthesis": "Carlos Alcaraz and Aryna Sabalenka progressed to the last 16 of the US Open after securing victories in their respective singles matches. Simultaneously, Venus and Serena Williams made their return to the tournament in a doubles match at Arthur Ashe Stadium. The sisters' return was marked by a loss following a period of absence from the sport.",
-    "confidence": "HIGH. The sources provide complementary information regarding different aspects of the US Open schedule and do not directly conflict on factual claims.",
-    "sources": [
-      {
-        "id": "art_1788598786770_92ic4",
-        "url": "https://www.aljazeera.com/sports/2026/9/5/alcaraz-sabalenka-into-us-open-last-16-as-williams-sisters-lose-on-return?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Alcaraz, Sabalenka into US Open last 16 as Williams sisters lose on return"
-      },
-      {
-        "id": "art_1788584408405_s6y3a",
-        "url": "https://www.foxnews.com/outkick-sports/venus-serena-williams-highly-anticipated-us-open-return-ends-heartbreaking-loss",
-        "source": "fox",
-        "title": "Venus and Serena Williams' highly anticipated US Open return ends in heartbreaking loss"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9f846f5fefc9cfd9554e0eb6e9d5c0da",
-    "topic_label": "Israel-Palestine conflict and Gaza",
-    "event_window_start": "2026-09-05T00:00:20.000Z",
-    "event_window_end": "2026-09-05T12:04:52.000Z",
-    "article_ids": [
-      "art_1788611574468_vbvoj",
-      "art_1788584402998_r0rx0",
-      "art_1788584409456_43qyl",
-      "art_1788568107811_gp177",
-      "art_1788568108926_g3p7h"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T14:10:29.371Z",
-    "updated_at": "2026-09-05T14:10:29.371Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "World Central Kitchen aid workers were killed in an Israeli airstrike in April 2024.",
-      "The Israeli military participated in the planning of a food aid delivery involving World Central Kitchen on April 1, 2024.",
-      "Seven aid workers were killed in the incident involving World Central Kitchen vehicles.",
-      "The Israeli military conducted an investigation into the April 2024 aid worker deaths, and no criminal proceedings were pursued against personnel."
-    ],
-    "source_claims": [
-      "[aljazeera] US Ambassador Mike Huckabee stated the Israeli government has a responsibility to protect Palestinians in the West Bank from settler violence.",
-      "[aljazeera] Scientists report the destruction of Gaza's sewage system has contributed to algae blooms that impacted Israeli desalination plants.",
-      "[aljazeera] The Freedom Flotilla Coalition claims Israeli forces have committed violence against volunteers, including beatings, tasering, and sexual assault.",
-      "[guardian] An investigation suggests the World Central Kitchen convoy was targeted based on an Israeli military practice of 'guilt by association'.",
-      "[guardian] An Israeli military prosecutor decided against pursuing criminal proceedings regarding the April 2024 airstrike on the aid convoy."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames Israeli actions as part of a pattern of 'pogroms' and 'illegal and deadly blockade', whereas The Guardian focuses on investigating specific military procedures and internal accountability regarding the WCK incident."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Freedom Flotilla Coalition claims documented cases of severe beatings, repeated tasering and sexual assault by Israeli forces against activists.",
-      "[guardian] Claims that the targeting of the WCK convoy was the result of a widely used military tactic described as 'guilt by association'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'pogroms' to describe violence by settlers in the West Bank.",
-      "[aljazeera] uses the term 'illegal and deadly blockade' to describe Israel’s policy toward Gaza.",
-      "[guardian] uses the term 'guilt by association' to characterize the Israeli military's targeting practice."
-    ],
-    "safe_conclusions": [
-      "There are ongoing tensions and violent incidents involving Israeli forces, settlers, and international humanitarian operations in the West Bank and Gaza.",
-      "Airstrikes conducted by the Israeli military in Gaza resulted in the deaths of seven World Central Kitchen aid workers in April 2024."
-    ],
-    "unknowns": [
-      "The specific operational details and internal command decisions that led to the approval of the April 2024 airstrike on the World Central Kitchen vehicles.",
-      "The total number of ongoing or future legal actions, if any, beyond the mentioned decision not to pursue criminal proceedings by the Israeli military prosecutor."
-    ],
-    "synthesis": "Recent reports highlight ongoing conflict-related events in the West Bank and Gaza, including diplomatic calls for Palestinian protection and incidents involving aid organizations. Investigations by media outlets have scrutinized the April 2024 Israeli airstrike that killed seven World Central Kitchen personnel. Furthermore, various organizations continue to challenge Israeli military policies and actions through public statements and planned maritime missions.",
-    "confidence": "HIGH. The sources consistently report on the occurrence of the specific incidents mentioned, even where interpretations and characterizations of those events differ.",
-    "sources": [
-      {
-        "id": "art_1788611574468_vbvoj",
-        "url": "https://www.aljazeera.com/news/2026/9/5/israel-must-guarantee-safety-of-west-bank-population-ambassador?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel must protect West Bank’s Palestinians amid settler pogroms: US envoy"
-      },
-      {
-        "id": "art_1788584402998_r0rx0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/did-israels-destruction-of-gaza-worsen-its-water-crisis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Israel’s destruction of Gaza worsen its water crisis?"
-      },
-      {
-        "id": "art_1788584409456_43qyl",
-        "url": "https://www.aljazeera.com/news/2026/9/5/to-challenge-deadly-blockade-new-flotilla-mission-sets-sail-for-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘To challenge deadly blockade’: New flotilla mission sets sail for Gaza"
-      },
-      {
-        "id": "art_1788568107811_gp177",
-        "url": "https://www.theguardian.com/world/2026/sep/05/gaza-aid-workers-world-central-kitchen-idf-israel",
-        "source": "guardian",
-        "title": "Death on the road to Rafah: the night the IDF targeted World Central Kitchen aid workers"
-      },
-      {
-        "id": "art_1788568108926_g3p7h",
-        "url": "https://www.theguardian.com/world/2026/sep/05/aid-workers-gaza-killed-in-israel-airstrike-investigation",
-        "source": "guardian",
-        "title": "‘Guilt by association’: why seven international aid workers were killed in Israeli airstrike"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "72c810279ceebbad61bf4b8b6f330545",
-    "topic_label": "US relations with Russia-Ukraine",
-    "event_window_start": "2026-09-05T03:25:46.000Z",
-    "event_window_end": "2026-09-05T12:23:00.000Z",
-    "article_ids": [
-      "art_1788611570185_shx2g",
-      "art_1788584405272_8yopp"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T14:10:29.371Z",
-    "updated_at": "2026-09-05T14:10:29.371Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Steve Witkoff and Jared Kushner have been designated by US President Donald Trump as envoys for discussions regarding the war in Ukraine.",
-      "The envoys are scheduled to visit both Moscow and Kyiv."
-    ],
-    "source_claims": [
-      "[bbc] reports that the envoys are due to travel to Kyiv on Sunday following talks in Moscow.",
-      "[bbc] reports that Donald Trump stated the envoys are bringing a proposal to end the war.",
-      "[bbc] cites an Axios report claiming the envoys will separately meet with Vladimir Putin and Volodymyr Zelensky.",
-      "[aljazeera] reports that the proposal being carried by the envoys could include security guarantees for Ukraine and an initial ceasefire."
-    ],
-    "framing_differences": [
-      "The BBC frames the visit in the context of previous failed efforts to broker peace, whereas Al Jazeera frames the visit by detailing potential components of the new proposal such as security guarantees and a ceasefire."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims the peace proposal could include security guarantees and an initial ceasefire.",
-      "[bbc] claims the envoys are due to hold talks in Moscow on Saturday."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "Jared Kushner and Steve Witkoff have been sent by US President Donald Trump to engage in discussions with officials in Russia and Ukraine regarding the ongoing conflict."
-    ],
-    "unknowns": [
-      "The specific details of the peace proposal have not been officially released.",
-      "The confirmed schedule and list of high-level officials each envoy will meet with have not been verified by official government statements.",
-      "The exact nature of the security guarantees or ceasefire terms remains unknown."
-    ],
-    "synthesis": "US President Donald Trump has dispatched envoys Jared Kushner and Steve Witkoff to Russia and Ukraine to discuss a new peace proposal. The envoys are scheduled to visit both Moscow and Kyiv as part of these diplomatic efforts. Sources note that the proposal reportedly aims to address the ongoing war through potential security guarantees and a ceasefire.",
-    "confidence": "HIGH. Both sources agree on the primary participants and the mission objective of the diplomatic trip.",
-    "sources": [
-      {
-        "id": "art_1788611570185_shx2g",
-        "url": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US envoys arrive in Moscow ahead of Ukraine talks"
-      },
-      {
-        "id": "art_1788584405272_8yopp",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/trump-sends-envoys-to-russia-ukraine-with-new-peace-plan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump sends envoys to Russia, Ukraine with new peace plan"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b784f81a87f1470b4b3c7aa1bb536a6f",
-    "topic_label": "US-Iran conflict and Trump",
-    "event_window_start": "2026-09-04T23:55:50.000Z",
-    "event_window_end": "2026-09-05T00:11:30.000Z",
-    "article_ids": [
-      "art_1788568104577_upzxo",
-      "art_1788568111048_xsvaz"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T11:33:23.026Z",
-    "updated_at": "2026-09-05T11:33:23.026Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump referred to the ongoing military conflict with Iran as 'small potatoes' during an Oval Office appearance on Friday.",
-      "Eighteen US service members have died during the conflict with Iran.",
-      "President Trump compared the conflict in Iran to military actions in Venezuela."
-    ],
-    "source_claims": [
-      "[guardian] Trump stated that the conflict is 'a military conflict' rather than a war.",
-      "[guardian] Trump stated that 100,000 people were lost in Vietnam.",
-      "[aljazeera] The conflict with Iran has entered its seventh month.",
-      "[aljazeera] The conflict has resulted in a spike in global energy prices.",
-      "[aljazeera] Trump commented on the conflict following remarks made by Vice President JD Vance."
-    ],
-    "framing_differences": [
-      "The guardian frames the event by highlighting the casualties in Iran and US service member injuries, while aljazeera frames the event as part of a joint US and Israeli war effort entering its seventh month."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Thousands of Iranians have been killed in the ongoing conflict.",
-      "[guardian] More than 750 US service members have been wounded in the conflict.",
-      "[aljazeera] There was a January 3 operation to abduct Venezuelan President Nicolas Maduro."
-    ],
-    "loaded_language": [
-      "[guardian] uses the phrase 'downplays war' to describe the President's characterization of the conflict.",
-      "[aljazeera] uses the term 'US and Israel’s war on Iran' to describe the nature of the conflict."
-    ],
-    "safe_conclusions": [
-      "President Trump publicly described the military conflict involving Iran as 'small potatoes' and 'not a big thing' in response to reporter questions.",
-      "The President's comments were made during an event at the White House."
-    ],
-    "unknowns": [
-      "The official US government casualty count for Iranian forces.",
-      "The exact number of US service members wounded in the conflict.",
-      "The specific strategic objectives or current status of the US-Iran military engagement beyond the President's commentary."
-    ],
-    "synthesis": "President Donald Trump characterized the ongoing military conflict with Iran as 'small potatoes' during an Oval Office event, noting the deaths of 18 US service members. Sources differ in their contextual framing, with the guardian focusing on casualty statistics and aljazeera framing the events within a seven-month conflict involving Israel. The President made these remarks while comparing the Iran conflict to previous US military actions in Venezuela.",
-    "confidence": "HIGH. Both sources confirm the primary quote and the number of US service member deaths, though they provide differing context regarding the scope of the conflict.",
-    "sources": [
-      {
-        "id": "art_1788568104577_upzxo",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/04/missouri-supreme-court-congressional-district-map-mail-in-voting-us-canada-trade-war-executive-orders-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump downplays war with Iran, in which 18 US service members have been killed so far, as ‘small potatoes’ – live"
-      },
-      {
-        "id": "art_1788568111048_xsvaz",
-        "url": "https://www.aljazeera.com/news/2026/9/4/small-potatoes-us-president-trump-downplays-war-on-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Small potatoes’: US President Trump downplays war on Iran"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "eeb03a37836e2823a60d88dd5cfe01ac",
-    "topic_label": "Environmental alerts and haze",
-    "event_window_start": "2026-09-05T03:48:17.000Z",
-    "event_window_end": "2026-09-05T05:00:29.000Z",
-    "article_ids": [
-      "art_1788598795404_et352",
-      "art_1788584401950_4bnvq"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T14:10:29.371Z",
-    "updated_at": "2026-09-05T14:10:29.371Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "None, the provided texts discuss two entirely different, unrelated topics."
-    ],
-    "source_claims": [
-      "[guardian] British beekeepers are calling for a national awareness campaign regarding Asian hornets.",
-      "[guardian] Asian hornets are considered an invasive species currently spreading in Europe.",
-      "[aljazeera] The Malaysian government declared a state of emergency in the Serian Division of Sarawak.",
-      "[aljazeera] The emergency declaration was in response to air pollution caused by wildfires in Indonesia."
-    ],
-    "framing_differences": [
-      "The guardian frames the Asian hornet issue as an environmental and food security threat to the UK, while aljazeera frames the haze event as a public health and safety emergency in Malaysia."
-    ],
-    "contested_claims": [
-      "None, the sources address different events."
-    ],
-    "unverified_claims": [
-      "[guardian] Asian hornets are creating 'pollinator deserts'.",
-      "[aljazeera] The Air Pollutant Index in Serian reached levels requiring a local emergency."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'pollinator deserts' to describe the impact of hornets.",
-      "[aljazeera] uses the term 'hazardous' to describe the levels of air pollution."
-    ],
-    "safe_conclusions": [
-      "There is no shared information between the two articles provided."
-    ],
-    "unknowns": [
-      "The sources do not contain overlapping information.",
-      "The current geographical scope of the Asian hornet in the UK.",
-      "The current status of wildfire suppression efforts in Indonesia."
-    ],
-    "synthesis": "The Guardian reports on British beekeepers seeking a national campaign against the invasive Asian hornet due to its threat to local pollinators. Al Jazeera reports that the Malaysian government has declared a state of emergency in Sarawak’s Serian Division because of hazardous air quality resulting from Indonesian wildfires. The two articles cover distinct, geographically separate events with no shared factual content.",
-    "confidence": "HIGH. The articles are independent reports on entirely different subjects, making factual consistency irrelevant as they do not overlap.",
-    "sources": [
-      {
-        "id": "art_1788598795404_et352",
-        "url": "https://www.theguardian.com/environment/2026/sep/05/beekeepers-asian-hornet-threat-uk-awareness-campaign",
-        "source": "guardian",
-        "title": "Beekeepers warn of Asian hornet threat and call for UK awareness campaign"
-      },
-      {
-        "id": "art_1788584401950_4bnvq",
-        "url": "https://www.aljazeera.com/news/2026/9/5/malaysia-declares-emergency-in-sarawak-as-haze-from-indonesia-worsens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Malaysia declares emergency in Sarawak as haze from Indonesia worsens"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
