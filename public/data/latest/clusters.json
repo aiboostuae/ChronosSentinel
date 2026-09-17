@@ -1,5 +1,95 @@
 [
   {
+    "cluster_id": "33983f667e2962f80835d0b0ef5604d8",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-17T04:52:07.000Z",
+    "event_window_end": "2026-09-17T05:05:09.000Z",
+    "article_ids": [
+      "art_1789622394757_9jm0m",
+      "art_1789622395928_myizd",
+      "art_1789622396978_6t8ru",
+      "art_1789622398011_eqtep",
+      "art_1789622399068_44rsp"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-17T07:15:56.821Z",
+    "updated_at": "2026-09-17T07:15:56.821Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[bbc] Home Affairs Minister Tony Burke announced new rules in Australia to curb immigration by targeting international students, visa hoppers, and backpackers.",
+      "[guardian] Thousands of women in England with HER2-low advanced breast cancer will access the drug Enhertu via the NHS following a price deal.",
+      "[bbc] The Kremlin maintains a system described as a managed democracy, and upcoming elections are expected to result in a parliament dominated by United Russia.",
+      "[bbc] Austin Tice was kidnapped in Syria in 2012 in a pre-planned operation allegedly sanctioned by Bashar al-Assad.",
+      "[aljazeera] An Argentinian judge in Tierra del Fuego suspended a British-Israeli oil project near the Falkland Islands following a lawsuit by 1982 war veterans and environmental lawyers."
+    ],
+    "framing_differences": [
+      "aljazeera frames the Argentine judicial ruling as a 'purely symbolic' move in an escalation over territory, while no other source discusses this event."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] A member of the group that detained Austin Tice claims the abduction was sanctioned by Bashar al-Assad.",
+      "[bbc] Critics of the Russian electoral process dismiss the upcoming vote as neither free nor fair."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'visa hoppers' to describe certain immigrants.",
+      "[bbc] uses the term 'managed democracy' to describe the Russian political system.",
+      "[aljazeera] uses the term 'purely symbolic' to describe a court ruling."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The provided articles concern entirely disparate global events, preventing any cross-verification of shared facts or broader synthesis.",
+      "The ultimate impact of the Australian visa changes on actual immigration numbers.",
+      "The long-term efficacy of Enhertu beyond the clinical trial data mentioned.",
+      "The specific identity of the individual claiming Bashar al-Assad sanctioned the Tice kidnapping."
+    ],
+    "synthesis": "The provided news reports cover unrelated international events, including immigration policy changes in Australia, medical access updates in England, political developments in Russia, a historical kidnapping investigation in Syria, and a judicial ruling regarding oil exploration near the Falkland Islands. Each report focuses on localized geopolitical or health policy developments. There are no overlapping themes or events among the provided sources.",
+    "confidence": "HIGH; The sources discuss entirely distinct, unrelated topics, resulting in no factual conflict.",
+    "sources": [
+      {
+        "id": "art_1789622394757_9jm0m",
+        "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
+      },
+      {
+        "id": "art_1789622395928_myizd",
+        "url": "https://www.theguardian.com/society/2026/sep/17/women-england-incurable-breast-cancer-life-extending-drug-enhertu-nhs",
+        "source": "guardian",
+        "title": "Women in England with incurable breast cancer to get life-extending drug on NHS"
+      },
+      {
+        "id": "art_1789622396978_6t8ru",
+        "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter"
+      },
+      {
+        "id": "art_1789622398011_eqtep",
+        "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds"
+      },
+      {
+        "id": "art_1789622399068_44rsp",
+        "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Argentinian judge orders suspension of Falklands oil project"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "c3040bd24944c18f26389a8b0182a4a6",
     "topic_label": "Federal Reserve Interest Rate Hike",
     "event_window_start": "2026-09-16T18:08:10.000Z",
@@ -17592,109 +17682,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "At least two dead in blast at Bolivia military barracks"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e2c0564e69295c2636ea7aaebee8391f",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-09-05T00:00:20.000Z",
-    "event_window_end": "2026-09-05T16:17:47.000Z",
-    "article_ids": [
-      "art_1788630150553_1djf5",
-      "art_1788630155199_kstyp",
-      "art_1788584402998_r0rx0",
-      "art_1788584409456_43qyl",
-      "art_1788568107811_gp177",
-      "art_1788568108926_g3p7h"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T22:47:09.237Z",
-    "updated_at": "2026-09-05T22:47:09.237Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Israel has engaged in military operations in both Gaza and southern Lebanon.",
-      "The Israeli military has conducted airstrikes within the Gaza Strip.",
-      "Non-governmental organizations and aid groups operate within Gaza."
-    ],
-    "source_claims": [
-      "[aljazeera] Gaza’s civil defence recovered the remains of 55 people from a residential building in Gaza City.",
-      "[aljazeera] Israel claims to have established operational control over the Ali al-Taher ridge in southern Lebanon.",
-      "[aljazeera] Israel’s Defence Minister stated Israeli forces will not withdraw from a security zone in Lebanon until Hezbollah is disarmed.",
-      "[aljazeera] Scientists suggest damage to Gaza’s sewage system may have contributed to algae blooms affecting Israeli desalination plants.",
-      "[aljazeera] The Freedom Flotilla Coalition is attempting to reach Gaza to challenge the Israeli blockade.",
-      "[guardian] Seven World Central Kitchen aid workers were killed in an Israeli airstrike on 1 April 2024.",
-      "[guardian] The Israeli army was involved in the planning of the food aid delivery that resulted in the deaths of seven aid workers."
-    ],
-    "framing_differences": [
-      "Aljazeera frames Israeli actions through the lens of human suffering and humanitarian impact, whereas the Guardian focuses on the procedural and accountability aspects of a specific military incident involving aid workers."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Algae blooms caused by Gaza's sewage system have knocked out five of six Israeli desalination plants.",
-      "[aljazeera] Israeli forces subjected flotilla volunteers to severe beatings, repeated tasering, and sexual assault."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'illegal and deadly blockade' to describe Israeli policy regarding Gaza.",
-      "[aljazeera] uses the term 'uncompromising policy' to describe the stance of Israeli leadership."
-    ],
-    "safe_conclusions": [
-      "Military conflict is occurring between Israeli forces and various groups in the Middle East region.",
-      "The ongoing conflict has resulted in fatalities of both aid workers and civilians in Gaza."
-    ],
-    "unknowns": [
-      "The specific operational details and decision-making processes behind the airstrike that killed the World Central Kitchen workers.",
-      "The comprehensive long-term environmental impact of the Gaza infrastructure destruction on Mediterranean water supplies.",
-      "The current status and eventual success of the Freedom Flotilla mission."
-    ],
-    "synthesis": "Recent reports highlight ongoing military actions by Israel in the Gaza Strip and southern Lebanon, including the recovery of human remains and the assertion of operational control over strategic highland areas. Simultaneously, aid organizations such as the World Central Kitchen and the Freedom Flotilla Coalition are navigating the conflict to provide assistance or challenge existing blockades. These events underscore the high toll of the conflict on both humanitarian efforts and civilian infrastructure.",
-    "confidence": "HIGH. The sources provide distinct reports on separate events; factual consistency is maintained within the context of each independent report.",
-    "sources": [
-      {
-        "id": "art_1788630150553_1djf5",
-        "url": "https://www.aljazeera.com/news/2026/9/5/gaza-teams-recover-remains-of-55-people-nearly-3-years-after-israeli-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza teams recover remains of 55 people nearly 3 years after Israeli strike"
-      },
-      {
-        "id": "art_1788630155199_kstyp",
-        "url": "https://www.aljazeera.com/news/2026/9/5/israel-claims-control-of-lebanons-key-ali-al-taher-ridge-what-that-means?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel claims control of Lebanon’s key Ali al-Taher ridge: What that means"
-      },
-      {
-        "id": "art_1788584402998_r0rx0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/did-israels-destruction-of-gaza-worsen-its-water-crisis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Israel’s destruction of Gaza worsen its water crisis?"
-      },
-      {
-        "id": "art_1788584409456_43qyl",
-        "url": "https://www.aljazeera.com/news/2026/9/5/to-challenge-deadly-blockade-new-flotilla-mission-sets-sail-for-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘To challenge deadly blockade’: New flotilla mission sets sail for Gaza"
-      },
-      {
-        "id": "art_1788568107811_gp177",
-        "url": "https://www.theguardian.com/world/2026/sep/05/gaza-aid-workers-world-central-kitchen-idf-israel",
-        "source": "guardian",
-        "title": "Death on the road to Rafah: the night the IDF targeted World Central Kitchen aid workers"
-      },
-      {
-        "id": "art_1788568108926_g3p7h",
-        "url": "https://www.theguardian.com/world/2026/sep/05/aid-workers-gaza-killed-in-israel-airstrike-investigation",
-        "source": "guardian",
-        "title": "‘Guilt by association’: why seven international aid workers were killed in Israeli airstrike"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

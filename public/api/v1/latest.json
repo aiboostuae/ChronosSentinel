@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-09-17T01:50:41.224Z",
+  "generated_at": "2026-09-17T07:16:12.545Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 161,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "33983f667e2962f80835d0b0ef5604d8",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-09-17T04:52:07.000Z",
+      "event_window_end": "2026-09-17T05:05:09.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided news reports cover unrelated international events, including immigration policy changes in Australia, medical access updates in England, political developments in Russia, a historical kidnapping investigation in Syria, and a judicial ruling regarding oil exploration near the Falkland Islands. Each report focuses on localized geopolitical or health policy developments. There are no overlapping themes or events among the provided sources.",
+      "confidence": "HIGH; The sources discuss entirely distinct, unrelated topics, resulting in no factual conflict.",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
+          "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/society/2026/sep/17/women-england-incurable-breast-cancer-life-extending-drug-enhertu-nhs",
+          "title": "Women in England with incurable breast cancer to get life-extending drug on NHS"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
+          "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+          "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
+          "title": "Argentinian judge orders suspension of Falklands oil project"
+        }
+      ],
+      "updated_at": "2026-09-17T07:15:56.821Z"
+    },
     {
       "cluster_id": "c3040bd24944c18f26389a8b0182a4a6",
       "topic_label": "Federal Reserve Interest Rate Hike",
@@ -322,53 +363,29 @@
         }
       ],
       "updated_at": "2026-09-16T23:19:30.159Z"
-    },
-    {
-      "cluster_id": "e8c383e49d837ae255e8d696460612f7",
-      "topic_label": "Regional tensions in the Gulf",
-      "event_window_start": "2026-09-16T01:41:40.000Z",
-      "event_window_end": "2026-09-16T21:24:24.000Z",
-      "article_count": 5,
-      "source_count": 3,
-      "region_tag": "global",
-      "shared_facts": [
-        "A Houthi drone was intercepted and destroyed south of Mecca by Saudi Arabia.",
-        "Saudi Arabia is engaged in a military coalition fighting the Houthi movement in Yemen."
-      ],
-      "source_differences": [],
-      "synthesis": "Recent regional developments include a reported drone interception by the Saudi-led coalition near Mecca and economic disruptions following damage to Saudi pipeline infrastructure. Simultaneously, reports suggest significant damage to US military sites in the Middle East, while political tensions between regional actors such as Israel and Qatar have been noted. The parties involved maintain conflicting narratives regarding the targets and legitimacy of these military and geopolitical actions.",
-      "confidence": "MEDIUM: MEDIUM. While there is consistent reporting on the interception near Mecca, other claims regarding US base damage and regional political campaigns rely on single-source reporting or unverified attribution.",
-      "sources": [
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/videos/c9dr7e1lr265o?at_medium=RSS&at_campaign=rss",
-          "title": "Watch: Leaked photos reveal extensive damage at US bases in Gulf"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/cr89jqd1w45eo?at_medium=RSS&at_campaign=rss",
-          "title": "Saudi Arabia says it shot down Houthi drone south of Mecca"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/16/saudi-arabia-houthi-drone-shot-down-mecca-iran-middle-east",
-          "title": "Saudi Arabia warns of ‘red line’ after Houthi drone intercepted close to holy city of Mecca"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/saudi-arabia-cancels-oil-to-europe-over-east-west-pipeline-blast?traffic_source=rss",
-          "title": "Saudi Arabia cancels oil to Europe over East-West pipeline blast"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/israel-started-an-anti-qatar-campaign-then-scrapped-it?traffic_source=rss",
-          "title": "Israel started an anti-Qatar campaign, then scrapped it"
-        }
-      ],
-      "updated_at": "2026-09-16T23:19:30.159Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-33983f66",
+      "title": "Fallback Synthesis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "energy",
+        "shipping"
+      ],
+      "why_it_matters": "The provided news reports cover unrelated international events, including immigration policy changes in Australia, medical access updates in England, political developments in Russia, a historical kidnapping investigation in Syria, and a judicial ruling regarding oil exploration near the Falkland Islands. Each report focuses on localized geopolitical or health policy developments. There are no overlapping themes or events among the provided sources.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "33983f667e2962f80835d0b0ef5604d8",
+      "related_watchlist_id": null,
+      "operator_hint": "Track crude commodity prices and pipeline telemetry alerts.",
+      "updated_at": "2026-09-17T07:15:56.821Z"
+    },
     {
       "id": "impact-c3040bd2",
       "title": "Federal Reserve Interest Rate Hike",
@@ -547,25 +564,6 @@
       "related_cluster_id": "e8c383e49d837ae255e8d696460612f7",
       "related_watchlist_id": "watch-002",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-16T23:19:30.159Z"
-    },
-    {
-      "id": "impact-890601f7",
-      "title": "Global Interest Rates",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "instability"
-      ],
-      "why_it_matters": "The Federal Reserve unanimously voted to raise interest rates to a range of 3.75% to 4% in an effort to address inflation. The decision occurred despite public statements from President Donald Trump favoring lower interest rates. The move includes the participation of Federal Reserve officials appointed by the current administration.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "890601f77c99ad368a1d20b6767bd6e6",
-      "related_watchlist_id": null,
-      "operator_hint": "Monitor social media feeds and local transit advisories for escalation signals.",
       "updated_at": "2026-09-16T23:19:30.159Z"
     }
   ]
