@@ -1,95 +1,5 @@
 [
   {
-    "cluster_id": "33983f667e2962f80835d0b0ef5604d8",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-09-17T04:52:07.000Z",
-    "event_window_end": "2026-09-17T05:05:09.000Z",
-    "article_ids": [
-      "art_1789622394757_9jm0m",
-      "art_1789622395928_myizd",
-      "art_1789622396978_6t8ru",
-      "art_1789622398011_eqtep",
-      "art_1789622399068_44rsp"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-17T07:15:56.821Z",
-    "updated_at": "2026-09-17T07:15:56.821Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[bbc] Home Affairs Minister Tony Burke announced new rules in Australia to curb immigration by targeting international students, visa hoppers, and backpackers.",
-      "[guardian] Thousands of women in England with HER2-low advanced breast cancer will access the drug Enhertu via the NHS following a price deal.",
-      "[bbc] The Kremlin maintains a system described as a managed democracy, and upcoming elections are expected to result in a parliament dominated by United Russia.",
-      "[bbc] Austin Tice was kidnapped in Syria in 2012 in a pre-planned operation allegedly sanctioned by Bashar al-Assad.",
-      "[aljazeera] An Argentinian judge in Tierra del Fuego suspended a British-Israeli oil project near the Falkland Islands following a lawsuit by 1982 war veterans and environmental lawyers."
-    ],
-    "framing_differences": [
-      "aljazeera frames the Argentine judicial ruling as a 'purely symbolic' move in an escalation over territory, while no other source discusses this event."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] A member of the group that detained Austin Tice claims the abduction was sanctioned by Bashar al-Assad.",
-      "[bbc] Critics of the Russian electoral process dismiss the upcoming vote as neither free nor fair."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'visa hoppers' to describe certain immigrants.",
-      "[bbc] uses the term 'managed democracy' to describe the Russian political system.",
-      "[aljazeera] uses the term 'purely symbolic' to describe a court ruling."
-    ],
-    "safe_conclusions": [],
-    "unknowns": [
-      "The provided articles concern entirely disparate global events, preventing any cross-verification of shared facts or broader synthesis.",
-      "The ultimate impact of the Australian visa changes on actual immigration numbers.",
-      "The long-term efficacy of Enhertu beyond the clinical trial data mentioned.",
-      "The specific identity of the individual claiming Bashar al-Assad sanctioned the Tice kidnapping."
-    ],
-    "synthesis": "The provided news reports cover unrelated international events, including immigration policy changes in Australia, medical access updates in England, political developments in Russia, a historical kidnapping investigation in Syria, and a judicial ruling regarding oil exploration near the Falkland Islands. Each report focuses on localized geopolitical or health policy developments. There are no overlapping themes or events among the provided sources.",
-    "confidence": "HIGH; The sources discuss entirely distinct, unrelated topics, resulting in no factual conflict.",
-    "sources": [
-      {
-        "id": "art_1789622394757_9jm0m",
-        "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
-      },
-      {
-        "id": "art_1789622395928_myizd",
-        "url": "https://www.theguardian.com/society/2026/sep/17/women-england-incurable-breast-cancer-life-extending-drug-enhertu-nhs",
-        "source": "guardian",
-        "title": "Women in England with incurable breast cancer to get life-extending drug on NHS"
-      },
-      {
-        "id": "art_1789622396978_6t8ru",
-        "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter"
-      },
-      {
-        "id": "art_1789622398011_eqtep",
-        "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds"
-      },
-      {
-        "id": "art_1789622399068_44rsp",
-        "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Argentinian judge orders suspension of Falklands oil project"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "c3040bd24944c18f26389a8b0182a4a6",
     "topic_label": "Federal Reserve Interest Rate Hike",
     "event_window_start": "2026-09-16T18:08:10.000Z",
@@ -177,6 +87,529 @@
         "url": "https://www.theguardian.com/business/live/2026/sep/16/federal-reserve-interest-rate-increase-live-updates",
         "source": "guardian",
         "title": "Federal Reserve raises interest rates for first time since July 2023 – live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0a7406d2f81fc2f7b70c1fb6e413006f",
+    "topic_label": "Middle East Conflicts and Ties",
+    "event_window_start": "2026-09-16T13:29:32.000Z",
+    "event_window_end": "2026-09-17T10:10:47.000Z",
+    "article_ids": [
+      "art_1789640915496_wfd6s",
+      "art_1789640926515_rwd8e",
+      "art_1789640928580_xj9d6",
+      "art_1789622398011_eqtep",
+      "art_1789622402170_htfc5",
+      "art_1789622407524_lq010",
+      "art_1789622408551_via6m",
+      "art_1789604182885_t8hin",
+      "art_1789604184974_bbnig",
+      "art_1789604186017_jbn2r",
+      "art_1789595140178_equpw",
+      "art_1789595143391_bwflj",
+      "art_1789582914887_cai9a",
+      "art_1789582915951_n4f6u",
+      "art_1789568209692_5e0qg",
+      "art_1789568217475_ymt1e"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 16,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-17T12:45:20.360Z",
+    "updated_at": "2026-09-17T12:45:20.360Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Kyrie Irving publicly stated he would pay a fine issued to Azeez Al-Shaair.",
+      "Azeez Al-Shaair was fined $11,941 by the NFL for an equipment violation during a game against the Buffalo Bills."
+    ],
+    "source_claims": [
+      "[aljazeera] Azeez Al-Shaair was fined for wearing the name of Hind Rajab on his gear.",
+      "[aljazeera] Donald Trump stated in Dublin that the Houthis claimed they do not want to fight the United States.",
+      "[aljazeera] Houthi forces seized the port of Mocha, the town of Dhubab, and Perim Island.",
+      "[aljazeera] Drone attacks on the East-West pipeline removed 4-5 million barrels per day of oil from global supply.",
+      "[bbc] The kidnapping of journalist Austin Tice was a calculated operation planned over a month in advance.",
+      "[bbc] A member of the group that detained Austin Tice claims the abduction was sanctioned by Bashar al-Assad.",
+      "[aljazeera] The US denied visas to Mahmoud Abbas and Palestinian Authority officials for the UN General Assembly for two consecutive years."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the Houthi territorial gains in the context of US policy and Donald Trump's specific public remarks, while other articles focus on unrelated geopolitical or sports-related events."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] Austin Tice's abduction was sanctioned by Bashar al-Assad.",
+      "[aljazeera] Saudi oil exports lost 4-5 million barrels per day due to pipeline drone attacks."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'strategic' to describe the port of Mocha.",
+      "[aljazeera] uses the term 'calculated operation' to describe the kidnapping of Austin Tice."
+    ],
+    "safe_conclusions": [
+      "Kyrie Irving expressed intent to pay an NFL fine involving Azeez Al-Shaair.",
+      "A fine of $11,941 was issued to Azeez Al-Shaair by the NFL."
+    ],
+    "unknowns": [
+      "The official reasoning provided by the US government for the visa denial to Palestinian officials.",
+      "The specific identity of the individual who claimed Bashar al-Assad sanctioned the Tice kidnapping.",
+      "The exact timeframe for the repair of the Saudi East-West pipeline."
+    ],
+    "synthesis": "The provided articles cover distinct, unrelated international events including a fine issued to an NFL player, regional conflicts involving the Houthis and Saudi oil infrastructure, the investigation into the 2012 disappearance of journalist Austin Tice, and US visa policies regarding Palestinian leadership. These reports detail specific actions taken by individuals, government entities, and non-state actors across various global locations. No singular event links all reports beyond their collection in this analysis.",
+    "confidence": "HIGH. The articles provide distinct, non-overlapping reports on separate events, maintaining internal factual consistency for the events they describe.",
+    "sources": [
+      {
+        "id": "art_1789640915496_wfd6s",
+        "url": "https://www.aljazeera.com/sports/2026/9/17/nba-star-irving-pledges-to-pay-al-shaairs-nfl-fine-over-hind-rajab-message?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "NBA star Irving pledges to pay Al-Shaair’s NFL fine over Hind Rajab message"
+      },
+      {
+        "id": "art_1789640926515_rwd8e",
+        "url": "https://www.aljazeera.com/opinions/2026/9/17/they-called-us-has-trump-abandoned-bab-al-mandeb-to-the-houthis?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘They called us’: Has Trump abandoned Bab al-Mandeb to the Houthis?"
+      },
+      {
+        "id": "art_1789640928580_xj9d6",
+        "url": "https://www.aljazeera.com/news/2026/9/17/from-yanbu-to-sohar-tracking-saudi-arabias-alternative-oil-routes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "From Yanbu to Sohar: Tracking Saudi Arabia’s alternative oil routes"
+      },
+      {
+        "id": "art_1789622398011_eqtep",
+        "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds"
+      },
+      {
+        "id": "art_1789622402170_htfc5",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/us-bars-palestinian-president-from-attending-unga-for-second-year?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US bars Palestinian president from attending UNGA for second year"
+      },
+      {
+        "id": "art_1789622407524_lq010",
+        "url": "https://www.aljazeera.com/news/2026/9/17/us-extends-visa-ban-on-palestinian-officials-before-un-general-assembly?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US extends visa ban on Palestinian officials before UN General Assembly"
+      },
+      {
+        "id": "art_1789622408551_via6m",
+        "url": "https://www.aljazeera.com/news/2026/9/17/yemeni-forces-target-houthis-and-a-saudi-base-as-us-rules-out-direct-role?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemeni forces target Houthis as US rules out direct role"
+      },
+      {
+        "id": "art_1789604182885_t8hin",
+        "url": "https://www.aljazeera.com/news/2026/9/16/israel-and-morocco-agree-to-open-embassies-upgrading-diplomatic-ties?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel and Morocco agree to open embassies, upgrading diplomatic ties"
+      },
+      {
+        "id": "art_1789604184974_bbnig",
+        "url": "https://www.aljazeera.com/news/2026/9/16/us-military-claims-strait-of-hormuz-remains-open-amid-ongoing-blockade?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US military claims Strait of Hormuz remains open amid ongoing blockade"
+      },
+      {
+        "id": "art_1789604186017_jbn2r",
+        "url": "https://www.aljazeera.com/news/2026/9/16/people-dont-have-money-syrian-fuel-hikes-deepen-economic-pain?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘People don’t have money’: Syrian fuel hikes deepen economic pain"
+      },
+      {
+        "id": "art_1789595140178_equpw",
+        "url": "https://www.bbc.co.uk/news/videos/c9dr7e1lr265o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: Leaked photos reveal extensive damage at US bases in Gulf"
+      },
+      {
+        "id": "art_1789595143391_bwflj",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/rescue-workers-search-for-survivors-after-gaza-building-collapse?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Rescue workers search for survivors after Gaza building collapse"
+      },
+      {
+        "id": "art_1789582914887_cai9a",
+        "url": "https://www.aljazeera.com/news/2026/9/16/uk-trade-unions-back-motion-to-boycott-and-sanction-israel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK trade unions back motion to boycott and sanction Israel"
+      },
+      {
+        "id": "art_1789582915951_n4f6u",
+        "url": "https://www.foxnews.com/media/new-york-times-report-under-fire-questioning-whether-israelis-were-true-victims-oct-7-terror-attack",
+        "source": "fox",
+        "title": "New York Times report under fire for questioning whether Israelis were true victims of Oct 7 terror attack"
+      },
+      {
+        "id": "art_1789568209692_5e0qg",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/16/donald-trump-iran-russia-midterms-north-carolina-latest-news-updates",
+        "source": "guardian",
+        "title": "House votes for a third time to end Iran war in symbolic move as conflict drags on – US politics live"
+      },
+      {
+        "id": "art_1789568217475_ymt1e",
+        "url": "https://www.aljazeera.com/news/2026/9/16/norway-oil-fund-ethical-concerns?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Norway’s sovereign wealth fund profits from Israeli holdings amid genocide"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0bcb254b00e95a17171eb5bdf9aff008",
+    "topic_label": "Palestine Boycott Ed Sheeran Tour",
+    "event_window_start": "2026-09-16T13:27:24.000Z",
+    "event_window_end": "2026-09-16T21:26:53.000Z",
+    "article_ids": [
+      "art_1789595137984_cf8fc",
+      "art_1789582908973_6wjgc",
+      "art_1789568218526_vqbjk"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-17T01:48:36.797Z",
+    "updated_at": "2026-09-17T01:48:36.797Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Macklemore was removed from Ed Sheeran's tour.",
+      "Macklemore made comments supporting Palestine while on the tour.",
+      "Robert Kraft, the owner of Gillette Stadium, had a role in the situation regarding Macklemore's performances."
+    ],
+    "source_claims": [
+      "[guardian] Macklemore is donating his $1m tour salary to organizations providing relief in Gaza.",
+      "[guardian] Macklemore challenged Robert Kraft to match his donation.",
+      "[aljazeera] All supporting acts for Ed Sheeran's US tour have quit in solidarity with Macklemore.",
+      "[aljazeera] Other artists cited Ireland's historical experience under occupation as a reason for their opposition to Israel's occupation of Palestinian territories.",
+      "[fox] Hannah Einbinder criticized Ed Sheeran on Instagram, wishing him a painful sunburn."
+    ],
+    "framing_differences": [
+      "The guardian frames the event as a donation challenge and a response to Macklemore's removal from the tour; aljazeera frames the event as a collective act of solidarity by artists; fox frames the events as a 'celebrity revolt' and a sign of 'online pressure' similar to campus demonstrations."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Describes the current situation as a 'growing celebrity revolt' and 'Macklemore tour drama'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'brutal message' to describe Hannah Einbinder's Instagram post.",
+      "[aljazeera] uses the term 'illegal occupation' when referencing the Israeli presence in Palestinian territories."
+    ],
+    "safe_conclusions": [
+      "Macklemore is no longer part of Ed Sheeran's tour lineup.",
+      "The removal of Macklemore from the tour has led to public statements by other performers."
+    ],
+    "unknowns": [
+      "The exact number of supporting acts that have quit.",
+      "The full terms of the contracts for the supporting acts.",
+      "The complete sequence of communications between Ed Sheeran, venue management, and the artists involved."
+    ],
+    "synthesis": "Macklemore was removed from Ed Sheeran's U.S. tour following public comments he made in support of Palestine. In response, Macklemore has pledged his tour salary to relief organizations, while other artists have announced their departure from the tour in solidarity. Media coverage of the events varies between a focus on political solidarity and a characterization of the situation as a growing celebrity revolt.",
+    "confidence": "MEDIUM. While all sources agree on the core fact of Macklemore's removal, they differ significantly in their scope and the specific details regarding the subsequent actions of other artists.",
+    "sources": [
+      {
+        "id": "art_1789595137984_cf8fc",
+        "url": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
+        "source": "guardian",
+        "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine"
+      },
+      {
+        "id": "art_1789582908973_6wjgc",
+        "url": "https://www.foxnews.com/entertainment/hannah-einbinders-brutal-message-ed-sheeran-fuels-growing-celebrity-revolt-over-macklemore-tour-drama",
+        "source": "fox",
+        "title": "Hannah Einbinder's brutal message to Ed Sheeran fuels growing celebrity revolt over Macklemore tour drama"
+      },
+      {
+        "id": "art_1789568218526_vqbjk",
+        "url": "https://www.aljazeera.com/news/2026/9/16/the-artists-who-pulled-out-of-ed-sheerans-tour-over-palestine?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The artists who pulled out of Ed Sheeran’s tour over Palestine"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f7a195238cc2ce844ae41c06de7ba5f8",
+    "topic_label": "Global Disasters and Climate Crisis",
+    "event_window_start": "2026-09-16T23:01:32.000Z",
+    "event_window_end": "2026-09-17T00:01:21.000Z",
+    "article_ids": [
+      "art_1789604179495_sqmhw",
+      "art_1789604190236_iktkw"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-17T12:45:20.360Z",
+    "updated_at": "2026-09-17T12:45:20.360Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "There have been flooding incidents resulting in fatalities in distinct global regions."
+    ],
+    "source_claims": [
+      "[aljazeera] Navajo Nation President Buu Nygren confirmed three deaths involving two adults and a child near Newcomb, New Mexico.",
+      "[guardian] A scientific study attributes the glacier collapse in Nepal and Tibet that killed hundreds to global heating and unusually warm conditions."
+    ],
+    "framing_differences": [
+      "aljazeera frames its report around a local emergency and government response within the Navajo Nation, while guardian frames its report around global climate science and environmental policy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Reports indicate the incident occurred at 12:30am near Newcomb, New Mexico.",
+      "[guardian] Researchers estimate the glacier collapse involved 110m cubic metres of snow and ice."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'catastrophic' to describe the floods.",
+      "[guardian] uses the phrase 'paying with their lives for a crisis driven by fossil fuel emissions' to describe the impact on communities."
+    ],
+    "safe_conclusions": [
+      "Deaths have occurred due to flooding events in the Navajo Nation and in the region of Nepal and Tibet."
+    ],
+    "unknowns": [
+      "The full scope of the total global impact of recent flooding events is not provided.",
+      "Specific details regarding the long-term environmental factors for the New Mexico flooding are not addressed."
+    ],
+    "synthesis": "Flooding events have caused fatalities in both the Navajo Nation in New Mexico and the Nepal-Tibet region. Al Jazeera reports on local rescue efforts and the loss of three individuals, while The Guardian discusses a study linking a glacier collapse in South Asia to climate change. The two reports cover geographically and causally distinct flooding disasters.",
+    "confidence": "HIGH. The sources report on two entirely separate geographical events, and the information provided is internally consistent within each report.",
+    "sources": [
+      {
+        "id": "art_1789604179495_sqmhw",
+        "url": "https://www.aljazeera.com/news/2026/9/17/three-dead-after-flooding-inundates-navajo-nation-in-new-mexico?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Three dead after flooding inundates Navajo Nation in New Mexico"
+      },
+      {
+        "id": "art_1789604190236_iktkw",
+        "url": "https://www.theguardian.com/science/2026/sep/17/climate-crisis-likely-behind-deadly-nepal-tibet-floods",
+        "source": "guardian",
+        "title": "Climate crisis likely behind devastating Nepal-Tibet floods that killed more than 1,300, first study finds"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e9752dc48c1c4cd04004f1a61d8c47c1",
+    "topic_label": "Trump and US Political Developments",
+    "event_window_start": "2026-09-16T14:00:39.000Z",
+    "event_window_end": "2026-09-17T10:22:10.000Z",
+    "article_ids": [
+      "art_1789640914421_j51ml",
+      "art_1789640922060_md8qc",
+      "art_1789640923117_4i9pb",
+      "art_1789640924219_vu9oe",
+      "art_1789622400102_eh1lf",
+      "art_1789604187055_wwu4j",
+      "art_1789595147556_cayco",
+      "art_1789568207482_jvlva"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 8,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-17T12:45:20.360Z",
+    "updated_at": "2026-09-17T12:45:20.360Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "President Donald Trump has expressed opposition to Federal Reserve interest rate increases.",
+      "The Federal Reserve raised interest rates."
+    ],
+    "source_claims": [
+      "[fox] Senator Josh Hawley stated he has no intention of running for president in 2028.",
+      "[fox] Dalisia Ballinger stated that a federal crime crackdown associated with Donald Trump reduced gunfire in her neighborhood.",
+      "[fox] Reid Hoffman characterized a future presidential run by Kamala Harris as a 'very challenging path'.",
+      "[fox] Reid Hoffman described Representative Alexandria Ocasio-Cortez as 'pragmatic'.",
+      "[aljazeera] President Donald Trump threatened to end trade with Canada, Mexico, and the European Union following the Federal Reserve's decision to raise interest rates."
+    ],
+    "framing_differences": [
+      "Fox frames the Federal Reserve rate hike as a 'wrench' in Donald Trump's economic messaging, whereas Al Jazeera frames it as a prompt for Trump to threaten international trade termination."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Senator Josh Hawley argued tech giants were using a 2017 tax loophole to build data centers in low-income areas.",
+      "[fox] LinkedIn co-founder Reid Hoffman is a major billionaire backer of Kamala Harris for 2024."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'socialist firebrand' to describe Representative Alexandria Ocasio-Cortez.",
+      "[fox] uses the term 'progressive firebrand' to describe Representative Alexandria Ocasio-Cortez."
+    ],
+    "safe_conclusions": [
+      "The Federal Reserve raised interest rates.",
+      "President Donald Trump previously advocated for lower interest rates."
+    ],
+    "unknowns": [
+      "The long-term impact of the Federal Reserve's interest rate hike on the 2028 election or the specific economic outcome for consumers.",
+      "The specific legislative details of the tax loophole Senator Josh Hawley intends to close."
+    ],
+    "synthesis": "The Federal Reserve recently raised interest rates despite opposition from President Donald Trump, leading to reports of trade threats against international partners. Political discourse remains focused on 2028 election prospects, with Senator Josh Hawley disavowing a presidential bid and donor Reid Hoffman discussing future Democratic candidates. Additionally, local perspectives on crime and economic impacts of federal policies continue to be highlighted in media coverage.",
+    "confidence": "HIGH",
+    "sources": [
+      {
+        "id": "art_1789640914421_j51ml",
+        "url": "https://www.foxnews.com/politics/josh-hawley-no-intention-2028-presidential-run",
+        "source": "fox",
+        "title": "Josh Hawley shoots down prospect of 2028 White House bid, says he has 'no intention' of running: report"
+      },
+      {
+        "id": "art_1789640922060_md8qc",
+        "url": "https://www.foxnews.com/us/memphis-mom-says-trump-brought-peace-streets-democratic-da-battles-task-force-oversight",
+        "source": "fox",
+        "title": "Memphis mom says Trump brought peace to streets as Democratic DA battles task force oversight"
+      },
+      {
+        "id": "art_1789640923117_4i9pb",
+        "url": "https://www.foxnews.com/politics/fed-threw-wrench-trumps-midterm-economic-message",
+        "source": "fox",
+        "title": "The Fed just threw a wrench in Trump's midterm economic message"
+      },
+      {
+        "id": "art_1789640924219_vu9oe",
+        "url": "https://www.foxnews.com/politics/dem-megadonor-unleashes-reality-check-harris-2028-eying-socialist-firebrand",
+        "source": "fox",
+        "title": "Dem megadonor unleashes reality check on Harris for 2028 while eying socialist firebrand"
+      },
+      {
+        "id": "art_1789622400102_eh1lf",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/trump-threatens-to-end-trade-with-mexico-and-europe-after-rate-hike?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump threatens to end trade with Mexico and Europe after rate hike"
+      },
+      {
+        "id": "art_1789604187055_wwu4j",
+        "url": "https://www.foxnews.com/media/gavin-newsom-blames-trump-housing-costs-chart-showing-massive-increase-biden",
+        "source": "fox",
+        "title": "Gavin Newsom blames Trump for housing costs using chart showing massive increase under Biden"
+      },
+      {
+        "id": "art_1789595147556_cayco",
+        "url": "https://www.foxnews.com/us/would-be-trump-assassin-thomas-crooks-snapchat-may-hold-evidence-treasure-trove-former-fbi-agent",
+        "source": "fox",
+        "title": "Would-be Trump assassin Thomas Crooks had Snapchat, which may hold evidence 'treasure trove': former FBI agent"
+      },
+      {
+        "id": "art_1789568207482_jvlva",
+        "url": "https://www.foxnews.com/politics/trump-dhs-hits-16-straight-months-0-releases-border",
+        "source": "fox",
+        "title": "Trump DHS hits 16 straight months with 0 releases at the border"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "33983f667e2962f80835d0b0ef5604d8",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-17T04:52:07.000Z",
+    "event_window_end": "2026-09-17T05:05:09.000Z",
+    "article_ids": [
+      "art_1789622394757_9jm0m",
+      "art_1789622395928_myizd",
+      "art_1789622396978_6t8ru",
+      "art_1789622398011_eqtep",
+      "art_1789622399068_44rsp"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-17T07:15:56.821Z",
+    "updated_at": "2026-09-17T07:15:56.821Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[bbc] Home Affairs Minister Tony Burke announced new rules in Australia to curb immigration by targeting international students, visa hoppers, and backpackers.",
+      "[guardian] Thousands of women in England with HER2-low advanced breast cancer will access the drug Enhertu via the NHS following a price deal.",
+      "[bbc] The Kremlin maintains a system described as a managed democracy, and upcoming elections are expected to result in a parliament dominated by United Russia.",
+      "[bbc] Austin Tice was kidnapped in Syria in 2012 in a pre-planned operation allegedly sanctioned by Bashar al-Assad.",
+      "[aljazeera] An Argentinian judge in Tierra del Fuego suspended a British-Israeli oil project near the Falkland Islands following a lawsuit by 1982 war veterans and environmental lawyers."
+    ],
+    "framing_differences": [
+      "aljazeera frames the Argentine judicial ruling as a 'purely symbolic' move in an escalation over territory, while no other source discusses this event."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] A member of the group that detained Austin Tice claims the abduction was sanctioned by Bashar al-Assad.",
+      "[bbc] Critics of the Russian electoral process dismiss the upcoming vote as neither free nor fair."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'visa hoppers' to describe certain immigrants.",
+      "[bbc] uses the term 'managed democracy' to describe the Russian political system.",
+      "[aljazeera] uses the term 'purely symbolic' to describe a court ruling."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The provided articles concern entirely disparate global events, preventing any cross-verification of shared facts or broader synthesis.",
+      "The ultimate impact of the Australian visa changes on actual immigration numbers.",
+      "The long-term efficacy of Enhertu beyond the clinical trial data mentioned.",
+      "The specific identity of the individual claiming Bashar al-Assad sanctioned the Tice kidnapping."
+    ],
+    "synthesis": "The provided news reports cover unrelated international events, including immigration policy changes in Australia, medical access updates in England, political developments in Russia, a historical kidnapping investigation in Syria, and a judicial ruling regarding oil exploration near the Falkland Islands. Each report focuses on localized geopolitical or health policy developments. There are no overlapping themes or events among the provided sources.",
+    "confidence": "HIGH; The sources discuss entirely distinct, unrelated topics, resulting in no factual conflict.",
+    "sources": [
+      {
+        "id": "art_1789622394757_9jm0m",
+        "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
+      },
+      {
+        "id": "art_1789622395928_myizd",
+        "url": "https://www.theguardian.com/society/2026/sep/17/women-england-incurable-breast-cancer-life-extending-drug-enhertu-nhs",
+        "source": "guardian",
+        "title": "Women in England with incurable breast cancer to get life-extending drug on NHS"
+      },
+      {
+        "id": "art_1789622396978_6t8ru",
+        "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter"
+      },
+      {
+        "id": "art_1789622398011_eqtep",
+        "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds"
+      },
+      {
+        "id": "art_1789622399068_44rsp",
+        "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Argentinian judge orders suspension of Falklands oil project"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -469,86 +902,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-faces-verdict-for-alleged-war-crimes?traffic_source=rss",
         "source": "aljazeera",
         "title": "Former Kosovo President Hashim Thaci faces verdict for alleged war crimes"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0bcb254b00e95a17171eb5bdf9aff008",
-    "topic_label": "Palestine Boycott Ed Sheeran Tour",
-    "event_window_start": "2026-09-16T13:27:24.000Z",
-    "event_window_end": "2026-09-16T21:26:53.000Z",
-    "article_ids": [
-      "art_1789595137984_cf8fc",
-      "art_1789582908973_6wjgc",
-      "art_1789568218526_vqbjk"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-17T01:48:36.797Z",
-    "updated_at": "2026-09-17T01:48:36.797Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Macklemore was removed from Ed Sheeran's tour.",
-      "Macklemore made comments supporting Palestine while on the tour.",
-      "Robert Kraft, the owner of Gillette Stadium, had a role in the situation regarding Macklemore's performances."
-    ],
-    "source_claims": [
-      "[guardian] Macklemore is donating his $1m tour salary to organizations providing relief in Gaza.",
-      "[guardian] Macklemore challenged Robert Kraft to match his donation.",
-      "[aljazeera] All supporting acts for Ed Sheeran's US tour have quit in solidarity with Macklemore.",
-      "[aljazeera] Other artists cited Ireland's historical experience under occupation as a reason for their opposition to Israel's occupation of Palestinian territories.",
-      "[fox] Hannah Einbinder criticized Ed Sheeran on Instagram, wishing him a painful sunburn."
-    ],
-    "framing_differences": [
-      "The guardian frames the event as a donation challenge and a response to Macklemore's removal from the tour; aljazeera frames the event as a collective act of solidarity by artists; fox frames the events as a 'celebrity revolt' and a sign of 'online pressure' similar to campus demonstrations."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Describes the current situation as a 'growing celebrity revolt' and 'Macklemore tour drama'."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'brutal message' to describe Hannah Einbinder's Instagram post.",
-      "[aljazeera] uses the term 'illegal occupation' when referencing the Israeli presence in Palestinian territories."
-    ],
-    "safe_conclusions": [
-      "Macklemore is no longer part of Ed Sheeran's tour lineup.",
-      "The removal of Macklemore from the tour has led to public statements by other performers."
-    ],
-    "unknowns": [
-      "The exact number of supporting acts that have quit.",
-      "The full terms of the contracts for the supporting acts.",
-      "The complete sequence of communications between Ed Sheeran, venue management, and the artists involved."
-    ],
-    "synthesis": "Macklemore was removed from Ed Sheeran's U.S. tour following public comments he made in support of Palestine. In response, Macklemore has pledged his tour salary to relief organizations, while other artists have announced their departure from the tour in solidarity. Media coverage of the events varies between a focus on political solidarity and a characterization of the situation as a growing celebrity revolt.",
-    "confidence": "MEDIUM. While all sources agree on the core fact of Macklemore's removal, they differ significantly in their scope and the specific details regarding the subsequent actions of other artists.",
-    "sources": [
-      {
-        "id": "art_1789595137984_cf8fc",
-        "url": "https://www.theguardian.com/music/2026/sep/16/macklemore-ed-sheeran-tour-salary-palestine",
-        "source": "guardian",
-        "title": "Macklemore pledges his $1m Ed Sheeran tour salary to Palestine"
-      },
-      {
-        "id": "art_1789582908973_6wjgc",
-        "url": "https://www.foxnews.com/entertainment/hannah-einbinders-brutal-message-ed-sheeran-fuels-growing-celebrity-revolt-over-macklemore-tour-drama",
-        "source": "fox",
-        "title": "Hannah Einbinder's brutal message to Ed Sheeran fuels growing celebrity revolt over Macklemore tour drama"
-      },
-      {
-        "id": "art_1789568218526_vqbjk",
-        "url": "https://www.aljazeera.com/news/2026/9/16/the-artists-who-pulled-out-of-ed-sheerans-tour-over-palestine?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The artists who pulled out of Ed Sheeran’s tour over Palestine"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -17400,288 +17753,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/niger-accuses-france-of-orchestrating-failed-military-mutiny?traffic_source=rss",
         "source": "aljazeera",
         "title": "Niger accuses France of orchestrating failed military mutiny"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "299266e3ac80a917177ffb787b4008bf",
-    "topic_label": "Conflict in the Middle East",
-    "event_window_start": "2026-09-05T02:43:23.000Z",
-    "event_window_end": "2026-09-05T20:00:05.000Z",
-    "article_ids": [
-      "art_1788650572006_g8ng6",
-      "art_1788630150553_1djf5",
-      "art_1788630155199_kstyp",
-      "art_1788611574468_vbvoj",
-      "art_1788584402998_r0rx0",
-      "art_1788584409456_43qyl"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T00:41:42.581Z",
-    "updated_at": "2026-09-06T00:41:42.581Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "US Ambassador to Israel Mike Huckabee visited the occupied West Bank to meet with local officials and residents.",
-      "Mike Huckabee stated that the Israeli government has a responsibility to ensure the safety of Palestinians in the West Bank.",
-      "Gaza's civil defence recovered remains from a residential building in Gaza City destroyed in an Israeli air strike approximately three years ago.",
-      "Israel has claimed operational control over the Ali al-Taher ridge in southern Lebanon.",
-      "Israeli Defence Minister Israel Katz stated that Israel will not withdraw from a security zone in Lebanon until Hezbollah is disarmed."
-    ],
-    "source_claims": [
-      "[aljazeera] claims 55 remains were recovered from the Malka family home rubble in Gaza City.",
-      "[aljazeera] claims Israel's destruction of Gaza's sewage system may have exacerbated an algae bloom affecting Israeli desalination plants.",
-      "[aljazeera] claims Colonel Muhammad Abu Dan stated teams were searching for over 60 bodies at the Malka site."
-    ],
-    "framing_differences": [
-      "Regarding the West Bank, aljazeera frames the violence as 'settler pogroms', while reporting that US Ambassador Mike Huckabee characterized the violent settlers as a 'small minority'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] reports scientists claim the destruction of Gaza's sewage system worsened the Mediterranean algae bloom."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'pogroms' to describe violent acts by Israeli settlers.",
-      "[aljazeera] uses the term 'destruction' to describe Israeli military actions in Gaza."
-    ],
-    "safe_conclusions": [
-      "US Ambassador Mike Huckabee visited the occupied West Bank.",
-      "Remains were recovered from a building in Gaza City destroyed three years ago.",
-      "The Israeli military has engaged in operations near the Ali al-Taher ridge in Lebanon."
-    ],
-    "unknowns": [
-      "The total number of victims buried under the specific Malka family home site.",
-      "The full extent of the causal link between the sewage system in Gaza and the desalination plant shutdowns in Israel.",
-      "The precise current status of Hezbollah's infrastructure near the Ali al-Taher ridge."
-    ],
-    "synthesis": "US Ambassador Mike Huckabee visited the West Bank and affirmed the Israeli government's responsibility for Palestinian safety amid reports of settler violence. In Gaza, civil defence teams recovered 55 remains from a building struck three years ago. Additionally, Israel has asserted operational control over the Ali al-Taher ridge in southern Lebanon as part of its ongoing conflict with Hezbollah.",
-    "confidence": "HIGH. The sources consist entirely of reporting from a single outlet, providing internal consistency across all articles.",
-    "sources": [
-      {
-        "id": "art_1788650572006_g8ng6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/al-jazeera-reporter-challenges-huckabee-over-israeli-settler-pogroms?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Al Jazeera reporter challenges Huckabee over Israeli settler pogroms"
-      },
-      {
-        "id": "art_1788630150553_1djf5",
-        "url": "https://www.aljazeera.com/news/2026/9/5/gaza-teams-recover-remains-of-55-people-nearly-3-years-after-israeli-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza teams recover remains of 55 people nearly 3 years after Israeli strike"
-      },
-      {
-        "id": "art_1788630155199_kstyp",
-        "url": "https://www.aljazeera.com/news/2026/9/5/israel-claims-control-of-lebanons-key-ali-al-taher-ridge-what-that-means?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel claims control of Lebanon’s key Ali al-Taher ridge: What that means"
-      },
-      {
-        "id": "art_1788611574468_vbvoj",
-        "url": "https://www.aljazeera.com/news/2026/9/5/israel-must-guarantee-safety-of-west-bank-population-ambassador?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel must protect West Bank’s Palestinians amid settler pogroms: US envoy"
-      },
-      {
-        "id": "art_1788584402998_r0rx0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/did-israels-destruction-of-gaza-worsen-its-water-crisis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Did Israel’s destruction of Gaza worsen its water crisis?"
-      },
-      {
-        "id": "art_1788584409456_43qyl",
-        "url": "https://www.aljazeera.com/news/2026/9/5/to-challenge-deadly-blockade-new-flotilla-mission-sets-sail-for-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘To challenge deadly blockade’: New flotilla mission sets sail for Gaza"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0e66998a0fc06678997f945b1603a4f4",
-    "topic_label": "Russia-Ukraine peace efforts",
-    "event_window_start": "2026-09-05T03:25:46.000Z",
-    "event_window_end": "2026-09-05T21:23:06.000Z",
-    "article_ids": [
-      "art_1788650568845_box6k",
-      "art_1788636688217_s2vqr",
-      "art_1788622688172_mr3w4",
-      "art_1788611570185_shx2g",
-      "art_1788584405272_8yopp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-06T00:41:42.581Z",
-    "updated_at": "2026-09-06T00:41:42.581Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Steve Witkoff and Jared Kushner have been designated as US envoys to discuss the Russia-Ukraine war.",
-      "Witkoff and Kushner traveled to Moscow to meet with Russian President Vladimir Putin.",
-      "President Donald Trump stated that the envoys are carrying a proposal to end the war.",
-      "The envoys are scheduled to travel to Kyiv for discussions with Ukrainian officials."
-    ],
-    "source_claims": [
-      "[aljazeera] Russian President Vladimir Putin stated that the situation regarding the Ukraine war is not simple.",
-      "[fox] President Donald Trump described Witkoff and Kushner as 'two great negotiators' who have 'done a great job'.",
-      "[aljazeera] A peace plan potentially includes security guarantees for Ukraine and an initial ceasefire."
-    ],
-    "framing_differences": [
-      "[aljazeera] frames the meeting as part of a push to revive stalled negotiations to end the 'worst conflict since the Second World War', whereas [fox] frames the visit as an effort to see if 'something can be done' regarding Trump's 'idea for peace'.",
-      "[bbc] frames the visit as a specific effort to 'accelerate' current peace efforts, contrasting this with the failure of previous US-led diplomatic initiatives."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] reports that both Russia and Ukraine vowed not to strike each other’s capitals for three days during the negotiations.",
-      "[bbc] reports that US news outlet Axios claimed the envoys would meet separately with Putin and Zelensky."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'worst conflict since the Second World War' to describe the Russia-Ukraine war.",
-      "[fox] uses the term 'two great negotiators' to describe Witkoff and Kushner as attributed to Donald Trump."
-    ],
-    "safe_conclusions": [
-      "Jared Kushner and Steve Witkoff held a meeting with Vladimir Putin at the Kremlin on Saturday.",
-      "President Donald Trump has authorized these envoys to present a proposal regarding the war in Ukraine.",
-      "The envoys have a planned itinerary that includes visits to both Moscow and Kyiv."
-    ],
-    "unknowns": [
-      "The specific details of the peace proposal carried by the envoys.",
-      "Whether the reported 'three-day vow' regarding capital city strikes has been officially confirmed by both governments.",
-      "The specific agenda for the upcoming meeting in Kyiv."
-    ],
-    "synthesis": "US envoys Steve Witkoff and Jared Kushner traveled to Moscow on Saturday to meet with President Vladimir Putin regarding a new peace proposal initiated by President Donald Trump. Following these discussions, the envoys are expected to travel to Kyiv on Sunday to meet with Ukrainian leadership. The diplomatic mission aims to address the ongoing conflict in Ukraine by presenting a peace plan that reportedly includes potential security guarantees and a ceasefire.",
-    "confidence": "HIGH. All sources are in agreement regarding the primary objective, the individuals involved, and the planned schedule of the diplomatic visit.",
-    "sources": [
-      {
-        "id": "art_1788650568845_box6k",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/us-envoys-witkoff-kushner-meet-putin-for-talks-on-ukraine-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US envoys Witkoff, Kushner meet Putin for talks on Ukraine war"
-      },
-      {
-        "id": "art_1788636688217_s2vqr",
-        "url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia’s Putin meets US envoys to discuss Trump proposal to end Ukraine war"
-      },
-      {
-        "id": "art_1788622688172_mr3w4",
-        "url": "https://www.foxnews.com/world/trump-negotiators-witkoff-kushner-arrive-moscow-us-pushes-end-russia-ukraine-war",
-        "source": "fox",
-        "title": "Trump negotiators Witkoff, Kushner arrive in Moscow as US pushes for end to Russia-Ukraine war"
-      },
-      {
-        "id": "art_1788611570185_shx2g",
-        "url": "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US envoys arrive in Moscow ahead of Ukraine talks"
-      },
-      {
-        "id": "art_1788584405272_8yopp",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/trump-sends-envoys-to-russia-ukraine-with-new-peace-plan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump sends envoys to Russia, Ukraine with new peace plan"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "388f4e3ddeefd445fac4cae6573229d1",
-    "topic_label": "Bolivian military barracks explosion",
-    "event_window_start": "2026-09-05T02:59:40.000Z",
-    "event_window_end": "2026-09-05T06:11:05.000Z",
-    "article_ids": [
-      "art_1788598792263_58w2t",
-      "art_1788584400886_ow5tb",
-      "art_1788584407372_xr30e"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-05T11:33:23.026Z",
-    "updated_at": "2026-09-05T11:33:23.026Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "An explosion occurred at a military barracks in Viacha, Bolivia.",
-      "The explosion involved pyrotechnic materials.",
-      "The incident occurred approximately 30km from La Paz.",
-      "Health director Rita Nebraska stated that between 10 and 15 people are believed to have been killed.",
-      "Dozen of people were injured in the incident."
-    ],
-    "source_claims": [
-      "[aljazeera] At least 10 people were killed in the explosion.",
-      "[aljazeera] 62 people were injured, with 14 transferred to hospitals in La Paz.",
-      "[aljazeera] Seven people are reported missing.",
-      "[bbc] At least two people have been killed in the incident.",
-      "[bbc] Defence Minister Ernesto Justiniano stated 58 people were injured.",
-      "[bbc] The explosion occurred at approximately 14:30 (18:30 GMT) on Friday.",
-      "[bbc] The facility hosts an artillery regiment.",
-      "[bbc] Dozens of homes sustained damage, primarily shattered windows."
-    ],
-    "framing_differences": [
-      "Aljazeera titles and text emphasize a death toll of at least 10, whereas the BBC title emphasizes at least two dead while noting fears that the toll could rise."
-    ],
-    "contested_claims": [
-      "There is a discrepancy regarding the confirmed number of fatalities: Aljazeera reports at least 10 deaths, while the BBC reports at least two deaths."
-    ],
-    "unverified_claims": [
-      "[aljazeera] Seven people are currently missing.",
-      "[bbc] The explosion occurred at 14:30 (18:30 GMT).",
-      "[bbc] The barracks houses an artillery regiment.",
-      "[bbc] Dozens of homes suffered structural damage such as broken windows."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "An explosion involving pyrotechnics took place at a military facility in Viacha, Bolivia, resulting in multiple casualties."
-    ],
-    "unknowns": [
-      "The official confirmed number of fatalities.",
-      "The exact cause of the pyrotechnic detonation.",
-      "The total number of missing persons.",
-      "The full extent of property damage outside the military facility."
-    ],
-    "synthesis": "An explosion occurred at a military barracks in Viacha, Bolivia, involving stored pyrotechnic materials. Reports on the number of casualties vary, with local health officials estimating between 10 and 15 deaths. Authorities are currently investigating the cause of the blast.",
-    "confidence": "CONTESTED. There is a discrepancy in the reporting of the confirmed death toll between the two sources.",
-    "sources": [
-      {
-        "id": "art_1788598792263_58w2t",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/5/bolivian-military-barracks-explosion-kills-at-least-10?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bolivian military barracks explosion kills at least 10"
-      },
-      {
-        "id": "art_1788584400886_ow5tb",
-        "url": "https://www.aljazeera.com/news/2026/9/5/blasts-at-bolivian-military-base-kill-at-least-10-injure-dozens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Blasts at Bolivian military base kill at least 10, injure dozens"
-      },
-      {
-        "id": "art_1788584407372_xr30e",
-        "url": "https://www.bbc.co.uk/news/articles/c3v45xy67g5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least two dead in blast at Bolivia military barracks"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
