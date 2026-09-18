@@ -1,5 +1,110 @@
 [
   {
+    "cluster_id": "1e82aed1dca11876b81708c7a92c07e1",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-18T17:40:44.000Z",
+    "event_window_end": "2026-09-18T18:00:41.000Z",
+    "article_ids": [
+      "art_1789755612462_l97ak",
+      "art_1789755613515_4ktgb",
+      "art_1789755614563_d1qel",
+      "art_1789755615815_y7635",
+      "art_1789755616864_5kac9"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-18T19:02:34.983Z",
+    "updated_at": "2026-09-18T19:02:34.983Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Claire Valdez is a candidate seeking office in New York.",
+      "Shelly Headen is a candidate for the North Carolina legislature whose party withdrew support following social media posts.",
+      "The Arc of Justice foundation has provided funding to various activist organizations.",
+      "Earl Spencer claims King Charles made specific comments regarding Diana, Princess of Wales, following her death.",
+      "Buckingham Palace released a statement regarding Earl Spencer's claims about King Charles.",
+      "A federal lawsuit has been filed against the city of Dearborn and Mayor Abdullah Hammoud regarding religious displays."
+    ],
+    "source_claims": [
+      "[fox] claims Claire Valdez met with members of Mexico's ruling party.",
+      "[fox] claims Shelly Headen called for an attack on U.S. soil targeting red states.",
+      "[fox] claims Arc of Justice gave nearly $3.2 million to CodePink.",
+      "[guardian] claims Earl Spencer alleges King Charles said 'we'll forget her soon enough' regarding Princess Diana.",
+      "[guardian] claims Buckingham Palace suggested Earl Spencer's grief has clouded his memory.",
+      "[fox] claims the city of Dearborn ignored a Christian resident's requests for Easter and Passover recognition."
+    ],
+    "framing_differences": [
+      "Regarding the Dearborn lawsuit, [fox] frames the event as a 'religious-favoritism fight' involving a challenge to 'Muslim religious code', whereas the core conflict is presented as a legal dispute over First and Fourteenth Amendment rights."
+    ],
+    "contested_claims": [
+      "Earl Spencer claims King Charles made specific comments regarding Princess Diana, while Buckingham Palace implies these recollections are inaccurate due to grief."
+    ],
+    "unverified_claims": [
+      "[fox] claims Claire Valdez pledged to carry a 'fight' inspired by Mexico's struggle for independence into Congress.",
+      "[fox] claims Shelly Headen compared President Donald Trump to Adolf Hitler."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'socialist' to describe Claire Valdez.",
+      "[fox] uses the term 'inflammatory' to describe social media posts made by Shelly Headen.",
+      "[fox] uses the term 'malign foreign influence' to describe Chinese government activity.",
+      "[guardian] uses the term 'monstrous' to describe a phone call mentioned by Earl Spencer.",
+      "[guardian] uses the term 'bombshell' to describe the claims made by Earl Spencer."
+    ],
+    "safe_conclusions": [
+      "Candidates and political figures are currently involved in various public and legal controversies in different regions of the United States and the United Kingdom.",
+      "Private foundations provide financial support to various activist organizations.",
+      "There are ongoing disputes regarding religious displays in public spaces in Dearborn, Michigan.",
+      "There is a disagreement between Earl Spencer and Buckingham Palace regarding the recollection of past conversations."
+    ],
+    "unknowns": [
+      "The internal motivations of the various political candidates regarding their statements.",
+      "The accuracy of Earl Spencer's memory versus the official position of Buckingham Palace.",
+      "The final outcome of the federal lawsuit in Dearborn, Michigan."
+    ],
+    "synthesis": "Political candidates in North Carolina and New York are facing controversies related to their public statements and political affiliations. In other areas, legal and personal disputes are underway involving public funding of religious displays in Michigan and historical recollections regarding the British royal family. These events involve various actors, including government entities, activist groups, and individuals, engaged in public debates and legal proceedings.",
+    "confidence": "HIGH. The sources are reporting on distinct, unrelated events, and the facts provided regarding each individual event are consistent within the provided reports.",
+    "sources": [
+      {
+        "id": "art_1789755612462_l97ak",
+        "url": "https://www.foxnews.com/politics/socialist-claire-valdez-faces-calls-federal-probe-mexico-fight-pledge",
+        "source": "fox",
+        "title": "Socialist Claire Valdez faces calls for federal probe after Mexico ‘fight’ pledge"
+      },
+      {
+        "id": "art_1789755613515_4ktgb",
+        "url": "https://www.foxnews.com/politics/dems-abandon-candidate-who-said-maga-more-destructive-than-nazis-shes-stuck-ballot",
+        "source": "fox",
+        "title": "Dems abandon candidate who said MAGA 'more destructive' than Nazis, but she’s stuck on the ballot"
+      },
+      {
+        "id": "art_1789755614563_d1qel",
+        "url": "https://www.foxnews.com/politics/codepink-cofounder-medea-benjamin-family-foundation-major-funder-left-wing-activist-groups",
+        "source": "fox",
+        "title": "How CodePink co-founder Medea Benjamin's family foundation became a major funder of left-wing activist groups"
+      },
+      {
+        "id": "art_1789755615815_y7635",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/18/earl-spencer-doubles-down-on-claims-about-monstrous-call-with-king-charles-after-dianas-death",
+        "source": "guardian",
+        "title": "Earl Spencer doubles down on claims about ‘monstrous’ call with King Charles after Diana’s death"
+      },
+      {
+        "id": "art_1789755616864_5kac9",
+        "url": "https://www.foxnews.com/politics/swing-state-mayor-sued-citys-muslim-holiday-displays-ignite-religious-favoritism-fight",
+        "source": "fox",
+        "title": "Swing state mayor sued as city’s Muslim holiday displays ignite religious-favoritism fight"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "ca6b9b677ad5d876c91d38557ddbb48a",
     "topic_label": "Conflict in Iran and Middle East",
     "event_window_start": "2026-09-17T18:30:53.000Z",
@@ -17804,114 +17909,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/6/indonesia-volcano-eruption-disrupts-hundreds-of-flights?traffic_source=rss",
         "source": "aljazeera",
         "title": "Indonesia volcano eruption disrupts hundreds of flights"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9ccebc50102b053ec50bf5c0187da271",
-    "topic_label": "Middle East conflicts and tensions",
-    "event_window_start": "2026-09-06T13:41:25.000Z",
-    "event_window_end": "2026-09-07T04:00:25.000Z",
-    "article_ids": [
-      "art_1788763061939_3druh",
-      "art_1788738005639_gf2go",
-      "art_1788723330950_ky9s2",
-      "art_1788715613555_2p89n",
-      "art_1788715620012_5p60d",
-      "art_1788705131047_iss70"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-07T11:30:53.139Z",
-    "updated_at": "2026-09-07T11:30:53.139Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The US Central Command released footage on Saturday depicting strikes on Iranian oil tankers.",
-      "Iran has issued official statements threatening a military response to US actions.",
-      "The UK government has discussed implementing a ban on trade with Israeli settlements."
-    ],
-    "source_claims": [
-      "[guardian] UN special rapporteur Francesca Albanese described the UK's planned settlement trade ban as a 'welcome, if overdue, first step'.",
-      "[guardian] US ambassador Mike Huckabee claimed on X that Downing Street was motivated by 'Jew hatred'.",
-      "[aljazeera] Benjamin Netanyahu is seeking re-election for his role as Israel's prime minister.",
-      "[aljazeera] Adidas faces boycott calls due to an advertisement featuring former Israeli soldier Shalev Biton.",
-      "[aljazeera] The IRGC claimed the US must leave the region and stop its 'malignance'.",
-      "[bbc] Iran's Parliament speaker Mohammad Bagher Ghalibaf stated that the 'rules of the game have changed'."
-    ],
-    "framing_differences": [
-      "The guardian frames UK policy toward Israel in the context of international human rights criticism, whereas aljazeera frames Israeli leadership through the lens of domestic electoral polling and conflict management.",
-      "The bbc frames the US-Iran situation as a conflict between the US and 'Iran-linked' entities, while aljazeera frames the same situation as a direct confrontation between the United States and Iran."
-    ],
-    "contested_claims": [
-      "Regarding the status of the Iranian oil tankers: aljazeera reports CENTCOM stated two tankers were 'permanently disabled' and one sank, while the bbc report focuses on the release of footage showing the strikes without explicitly confirming the vessels' current status."
-    ],
-    "unverified_claims": [
-      "[aljazeera] A boycott campaigns coordinator termed the Adidas advertisement featuring Shalev Biton 'an affront to Palestinians'.",
-      "[aljazeera] Recent opinion polls suggest the opposition bloc in Israel is currently ahead of the prime minister's coalition."
-    ],
-    "loaded_language": [
-      "[guardian] US ambassador Mike Huckabee uses the term 'Jew hatred' to describe the motivation of the UK government.",
-      "[aljazeera] The IRGC uses the term 'malignance' to describe US activity in the region.",
-      "[aljazeera] A boycott campaigns coordinator uses the term 'an affront to Palestinians' to describe an Adidas advertisement."
-    ],
-    "safe_conclusions": [
-      "The United States has engaged in military actions against Iranian interests, including oil tankers.",
-      "Tensions between the United States and Iran are currently escalating.",
-      "Israel faces upcoming parliamentary elections."
-    ],
-    "unknowns": [
-      "The specific future legislative timeline for the UK's proposed trade ban on Israeli settlements.",
-      "The official response or policy adjustment from the Adidas corporation regarding the boycott calls.",
-      "The precise current status of the Iranian tankers beyond the initial strike reports."
-    ],
-    "synthesis": "Global tensions are escalating as the United States conducts military operations against Iranian vessels, leading to threats of retaliation from Iranian officials. Concurrently, the UK is considering trade restrictions on Israeli settlements while Israel prepares for upcoming national elections. Separately, commercial entities like Adidas are experiencing public pressure regarding their selection of promotional figures.",
-    "confidence": "MEDIUM. While independent sources corroborate military strikes and political tensions, the narratives are highly fragmented across distinct regional and geopolitical issues.",
-    "sources": [
-      {
-        "id": "art_1788763061939_3druh",
-        "url": "https://www.theguardian.com/world/2026/sep/07/un-francesca-albanese-miliband-israel-palestine-settlements-trade",
-        "source": "guardian",
-        "title": "UN expert Francesca Albanese calls for ‘true paradigm shift’ as Miliband resets policy on Israel"
-      },
-      {
-        "id": "art_1788738005639_gf2go",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/9/6/will-israelis-re-elect-benjamin-netanyahu?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Israelis re-elect Benjamin Netanyahu?"
-      },
-      {
-        "id": "art_1788723330950_ky9s2",
-        "url": "https://www.aljazeera.com/sports/2026/9/6/adidas-faces-boycott-calls-over-campaign-featuring-former-israeli-soldier?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Adidas faces boycott calls over campaign featuring former Israeli soldier"
-      },
-      {
-        "id": "art_1788715613555_2p89n",
-        "url": "https://www.bbc.co.uk/news/articles/cp8d56w7d9po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Iran warns of 'faster, heavier, more painful response' to US attacks"
-      },
-      {
-        "id": "art_1788715620012_5p60d",
-        "url": "https://www.aljazeera.com/news/2026/9/6/iran-touts-military-response-as-us-maintains-blockade-hits-tankers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran touts military response as US maintains blockade, hits tankers"
-      },
-      {
-        "id": "art_1788705131047_iss70",
-        "url": "https://www.aljazeera.com/news/2026/9/6/how-significant-are-the-yemeni-governments-military-gains-against-the-houthis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How significant are the Yemeni government’s military gains against Houthis?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
