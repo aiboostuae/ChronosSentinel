@@ -1,5 +1,786 @@
 [
   {
+    "cluster_id": "e75e32a7a11adbbeeeebbb481a87c727",
+    "topic_label": "Conflict in the Middle East",
+    "event_window_start": "2026-09-18T09:59:09.000Z",
+    "event_window_end": "2026-09-18T20:55:57.000Z",
+    "article_ids": [
+      "art_1789766350518_6xnid",
+      "art_1789766355776_fz12t",
+      "art_1789755623372_tsgsm",
+      "art_1789743064386_5yog9",
+      "art_1789743068662_omrbs",
+      "art_1789728171581_ezxgb",
+      "art_1789728186772_2sxyf"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 7,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "The provided text contains multiple, unrelated news reports from various international contexts.",
+      "The sources cover disparate events including a legal verdict in the UK, a concert in Syria, military rallies in Iran, a military rout in Yemen, and regional diplomatic relations between Saudi Arabia and Iran."
+    ],
+    "source_claims": [
+      "[aljazeera] Sarah Cotte was found not guilty by an Old Bailey jury of expressing support for Hamas.",
+      "[aljazeera] Assala Nasri performed in Damascus after 15 years of exile.",
+      "[aljazeera] 313,000 volunteers rallied in Tehran in a government-organized event.",
+      "[guardian] More than 15 brigades of anti-Houthi forces were defeated in Yemen, resulting in the loss of the west coast.",
+      "[guardian] Some Yemeni politicians claim billions of dollars were offered to persuade forces to abandon their positions.",
+      "[aljazeera] Saudi Arabia expelled Iran’s military attache and four embassy staff following direct Iranian attacks."
+    ],
+    "framing_differences": [
+      "Regarding the Iran rally, [aljazeera] frames the event as a display of 'defiance' against the US, while simultaneously noting that official attendance figures could not be independently verified."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Reports that 313,000 volunteers mobilized in Tehran.",
+      "[guardian] Claims that billions of dollars were offered as bribes to anti-Houthi forces in Yemen."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'terrorist' to describe Hamas in the context of UK law.",
+      "[aljazeera] uses the term 'defiance' to describe the Iranian rally.",
+      "[guardian] uses the term 'bitter' to describe the inquest occurring among anti-Houthi forces."
+    ],
+    "safe_conclusions": [
+      "Multiple independent events occurred involving legal, cultural, military, and diplomatic developments in the Middle East and the UK."
+    ],
+    "unknowns": [
+      "The exact number of attendees at the Tehran rally.",
+      "The validity of claims regarding bribery of Yemeni forces.",
+      "The long-term impact of the military rout in Yemen on the UN-recognized government."
+    ],
+    "synthesis": "The provided articles detail a variety of distinct geopolitical and social events, ranging from a court acquittal in London to military developments in Yemen and Iran. Reports cover the return of a Syrian artist from exile and the strain on diplomatic relations between Saudi Arabia and Iran. These accounts focus on disparate regional and international occurrences without shared thematic focus.",
+    "confidence": "HIGH. The sources discuss completely independent events, meaning there is no factual conflict between them.",
+    "sources": [
+      {
+        "id": "art_1789766350518_6xnid",
+        "url": "https://www.aljazeera.com/news/2026/9/18/uk-court-clears-woman-of-voicing-support-for-hamas-in-university-speech?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK court clears woman of voicing support for Hamas in university speech"
+      },
+      {
+        "id": "art_1789766355776_fz12t",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/daughter-of-damascus-assala-performs-in-syria-after-15-year-exile?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile"
+      },
+      {
+        "id": "art_1789755623372_tsgsm",
+        "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iranians rally in biggest show of defiance against US since war began"
+      },
+      {
+        "id": "art_1789743064386_5yog9",
+        "url": "https://www.theguardian.com/world/2026/sep/18/yemen-anti-houthi-forces-inquest-military-collapse",
+        "source": "guardian",
+        "title": "Yemen’s anti-Houthi forces launch inquest into sudden military collapse"
+      },
+      {
+        "id": "art_1789743068662_omrbs",
+        "url": "https://www.aljazeera.com/opinions/2026/9/18/the-cost-of-irans-regional-leverage?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The cost of Iran’s regional leverage"
+      },
+      {
+        "id": "art_1789728171581_ezxgb",
+        "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "At least 16 killed in attack on mosque in Pakistan"
+      },
+      {
+        "id": "art_1789728186772_2sxyf",
+        "url": "https://www.theguardian.com/film/2026/sep/18/iranian-actor-laheh-marzban-venice-film-festival-speech-falling-house",
+        "source": "guardian",
+        "title": "Iranian actor Laheh Marzban faces severe threats after Venice film festival speech"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bf20ce51f673528646cf2bddba42ec9a",
+    "topic_label": "US Political News",
+    "event_window_start": "2026-09-18T10:00:16.000Z",
+    "event_window_end": "2026-09-18T21:05:49.000Z",
+    "article_ids": [
+      "art_1789766346222_1yzn8",
+      "art_1789766347322_cd53n",
+      "art_1789766353635_ceh7t",
+      "art_1789766354672_9j5sc",
+      "art_1789755612462_l97ak",
+      "art_1789755613515_4ktgb",
+      "art_1789755614563_d1qel",
+      "art_1789743057748_asbe6",
+      "art_1789728183553_ev91y"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 9,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Donald Trump is the President of the United States."
+    ],
+    "source_claims": [
+      "[bbc] President Trump announced on Truth Social an immediate ban of CNN, MS NOW, and Politico from the White House.",
+      "[bbc] President Trump stated these outlets report 'fiction or lies'.",
+      "[bbc] CNN characterized the move as an 'illegal assault' on press freedoms.",
+      "[fox] Tegan Lecheler states that some conservatives are supporting guaranteed income programs for mothers and newborns.",
+      "[fox] Jonathan Lemire stated that President Trump is an 'unfettered version of himself' in his second term.",
+      "[fox] Claire Valdez, a candidate, faces calls for a federal probe following remarks about taking a 'fight' into Congress."
+    ],
+    "framing_differences": [
+      "The bbc article focuses on administrative actions concerning media access, whereas the fox articles cover a range of separate political topics including guaranteed income, Trump's leadership style, and local university and candidate controversies."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] President Trump claimed outlets are 'reporting fiction or lies'.",
+      "[fox] Jonathan Lemire claimed President Trump 'completed, arguably, the greatest comeback in American political history'."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'fraught' to describe the relationship between Trump and media outlets.",
+      "[bbc] uses the term 'slammed' to describe CNN's response to the ban.",
+      "[fox] uses the term 'Radicals' in the newsletter title to describe campus groups.",
+      "[fox] uses the term 'socialist' to describe candidate Claire Valdez."
+    ],
+    "safe_conclusions": [
+      "President Donald Trump is currently serving in office.",
+      "There is ongoing public discourse regarding media access to the White House.",
+      "Various political campaigns and campus-related controversies are occurring in the United States."
+    ],
+    "unknowns": [
+      "The specific mechanism by which the White House intends to implement the media ban mentioned by the BBC.",
+      "The legal standing or outcome of the media ban."
+    ],
+    "synthesis": "President Donald Trump announced a ban on specific news outlets from the White House, claiming they report lies, a move CNN has described as an illegal assault on press freedom. Concurrently, various news reports highlight political developments regarding guaranteed income initiatives and local election controversies. The sources cover distinct political events and do not share a common narrative focus.",
+    "confidence": "HIGH. The sources represent distinct reporting on different news topics, and the factual claims within each individual article do not contradict the factual claims of others.",
+    "sources": [
+      {
+        "id": "art_1789766346222_1yzn8",
+        "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump says he is banning CNN and Politico from White House"
+      },
+      {
+        "id": "art_1789766347322_cd53n",
+        "url": "https://www.foxnews.com/media/pro-life-vs-socialism-gop-lawmakers-divided-over-controversial-guaranteed-income-programs",
+        "source": "fox",
+        "title": "'Pro-life' vs 'socialism': GOP lawmakers divided over controversial guaranteed income programs"
+      },
+      {
+        "id": "art_1789766353635_ceh7t",
+        "url": "https://www.foxnews.com/media/trump-unfettered-comfortable-power-second-term-journalists-say",
+        "source": "fox",
+        "title": "Trump is 'unfettered' and more comfortable with power in his second term, journalists say"
+      },
+      {
+        "id": "art_1789766354672_9j5sc",
+        "url": "https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-trump-bashing-chilled-speech-major-saga-renewed",
+        "source": "fox",
+        "title": "Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed"
+      },
+      {
+        "id": "art_1789755612462_l97ak",
+        "url": "https://www.foxnews.com/politics/socialist-claire-valdez-faces-calls-federal-probe-mexico-fight-pledge",
+        "source": "fox",
+        "title": "Socialist Claire Valdez faces calls for federal probe after Mexico ‘fight’ pledge"
+      },
+      {
+        "id": "art_1789755613515_4ktgb",
+        "url": "https://www.foxnews.com/politics/dems-abandon-candidate-who-said-maga-more-destructive-than-nazis-shes-stuck-ballot",
+        "source": "fox",
+        "title": "Dems abandon candidate who said MAGA 'more destructive' than Nazis, but she’s stuck on the ballot"
+      },
+      {
+        "id": "art_1789755614563_d1qel",
+        "url": "https://www.foxnews.com/politics/codepink-cofounder-medea-benjamin-family-foundation-major-funder-left-wing-activist-groups",
+        "source": "fox",
+        "title": "How CodePink co-founder Medea Benjamin's family foundation became a major funder of left-wing activist groups"
+      },
+      {
+        "id": "art_1789743057748_asbe6",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/18/us-politics-midterms-early-voting-cost-of-living-iran-war-trump-kennedy-center-institute-of-peace-latest-news-updates",
+        "source": "guardian",
+        "title": "Early voting begins in midterms as campaign shifts focus to cost of living and Iran war – US politics live"
+      },
+      {
+        "id": "art_1789728183553_ev91y",
+        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-undocumented-children-texas",
+        "source": "guardian",
+        "title": "Trump officials sending undocumented children to Texas sparks fears of mass deportation"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1d66819b1cb99d4055ec9702cf001871",
+    "topic_label": "Russia-Ukraine Conflict and Tensions",
+    "event_window_start": "2026-09-18T10:00:34.000Z",
+    "event_window_end": "2026-09-18T14:42:01.000Z",
+    "article_ids": [
+      "art_1789743055492_3hi6h",
+      "art_1789743063182_pvl0e",
+      "art_1789728179202_smq54"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Russia is currently involved in conflict or tensions regarding Ukraine.",
+      "Western nations including France and the UK are providing support to Ukraine."
+    ],
+    "source_claims": [
+      "[bbc] President Emmanuel Macron states that Russia has launched hybrid attacks against France and has ordered a protection plan for critical infrastructure.",
+      "[aljazeera] The Russian Ministry of Foreign Affairs summoned the British charge d'affaires to protest UK arms shipments to Ukraine.",
+      "[aljazeera] Russia has seized Russian assets belonging to several Western firms.",
+      "[fox] Russian State Duma elections are occurring, including in Russian-occupied regions of Ukraine.",
+      "[fox] OSCE election observers have not been invited to monitor the Russian elections."
+    ],
+    "framing_differences": [
+      "bbc frames the situation as a security threat posed by Russia to European nations through hybrid warfare, while aljazeera frames it as a geopolitical escalation involving diplomatic protests and economic retaliations between Russia and the West.",
+      "fox frames the Russian electoral process as an effort to manufacture legitimacy in occupied territories, focusing on the absence of independent observers."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] French President Emmanuel Macron asserts that France has been the target of Russian hybrid attacks in recent weeks.",
+      "[aljazeera] The Russian Ministry of Foreign Affairs characterizes the actions of the Kyiv regime as terrorism and war crimes.",
+      "[fox] Keti Korkiya claims that Russian citizens are likely afraid to provide honest opinions to pollsters regarding the war."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'bloody atrocities' and 'terrorism' to describe the actions of the Kyiv regime as attributed to the Russian Ministry of Foreign Affairs.",
+      "[fox] uses the term 'illusion of popular support' to describe Russia's activities in occupied Ukraine.",
+      "[fox] uses the term 'worrying disregard' to describe the Kremlin's approach to democratic standards."
+    ],
+    "safe_conclusions": [
+      "France is concerned about potential Russian hybrid attacks.",
+      "Russia has taken diplomatic and economic actions against Western countries.",
+      "Elections are taking place in Russia and in certain territories occupied by Russia."
+    ],
+    "unknowns": [
+      "Specific details regarding the nature of the alleged hybrid attacks mentioned by France.",
+      "The full list of Western firms whose assets were seized by Russia.",
+      "The long-term impact of the diplomatic actions taken by Russia toward the UK."
+    ],
+    "synthesis": "Tensions between Russia and Western nations are manifesting through increased military support for Ukraine, diplomatic protests, and concerns over hybrid security threats. France has reported defensive measures against perceived hybrid attacks, while Russia has retaliated against the UK and other Western firms. Simultaneously, Russia is conducting parliamentary elections that include occupied territories in Ukraine, which has drawn international criticism regarding the lack of independent oversight.",
+    "confidence": "MEDIUM. The articles cover different aspects of the Russia-Ukraine conflict, meaning the sources are generally not corroborating each other's specific claims but are providing contextually distinct reports on related geopolitical tensions.",
+    "sources": [
+      {
+        "id": "art_1789743055492_3hi6h",
+        "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russian hybrid attacks against Europe intensifying, says Macron"
+      },
+      {
+        "id": "art_1789743063182_pvl0e",
+        "url": "https://www.aljazeera.com/news/2026/9/18/russia-seizes-assets-of-french-firms-summons-uk-envoy-over-ukraine-support?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia seizes assets of French firms, summons UK envoy over Ukraine support"
+      },
+      {
+        "id": "art_1789728179202_smq54",
+        "url": "https://www.foxnews.com/world/voters-get-choose-just-not-result-russias-parliamentary-election-reaches-occupied-ukraine",
+        "source": "fox",
+        "title": "‘Voters get to choose — just not the result’: Russia’s parliamentary election reaches occupied Ukraine"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f83cc87c1f82efcf244ba5cb7e6c20c6",
+    "topic_label": "International Crime and Violence",
+    "event_window_start": "2026-09-18T10:00:35.000Z",
+    "event_window_end": "2026-09-18T17:31:45.000Z",
+    "article_ids": [
+      "art_1789755620074_d1u9c",
+      "art_1789755621203_bj28k",
+      "art_1789728173810_jcmml",
+      "art_1789728177118_nxsho",
+      "art_1789728178175_8pwze"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Various news reports detail separate violent incidents in the United States, Nigeria, the Philippines, Colombia/Nicaragua, and Thailand."
+    ],
+    "source_claims": [
+      "[guardian] The San Diego police identified three members of the Voight family as fatally shot in their home.",
+      "[guardian] Survivors of a prison cell incident in Minna, Nigeria, reported difficulty breathing, while 37 people died in custody of the NSCDC.",
+      "[bbc] A 16-year-old gunman killed two students and injured eight at a high school in Banga, Philippines, before reportedly killing himself.",
+      "[fox] A Colombian man named Luis Enrique Linero Pinto pleaded guilty in a US federal court for his role in a smuggling conspiracy involving 42 people who vanished at sea.",
+      "[guardian] Simon Peter Carman pleaded not guilty in a Pattaya, Thailand court to charges of murdering a 17-year-old girl and concealing her body."
+    ],
+    "framing_differences": [
+      "The guardian frames the Minna prison incident through the lens of protest and state custody failures, while the reports on the Voight family and the Thailand murder case focus on individual criminal investigation narratives."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] Relatives reported that David Voight was suffering from PTSD.",
+      "[guardian] The NSCDC raided suspected illegal gold mines in Niger state prior to the deaths in custody.",
+      "[fox] A top DOJ official stated the danger to the 42 people would not have ended even if they had reached land."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'tragic case' to describe the San Diego family shooting.",
+      "[guardian] uses the term 'panic and struggle to breathe' to describe the victims' experience in the Minna prison cell.",
+      "[fox] uses the term 'deadly smuggling route' and 'transnational criminal networks' to characterize migrant smuggling operations."
+    ],
+    "safe_conclusions": [
+      "Multiple distinct fatal incidents occurred in different international jurisdictions within the timeframe of the reports.",
+      "Law enforcement and judicial authorities are involved in investigating or prosecuting these events."
+    ],
+    "unknowns": [
+      "The specific motive of the 16-year-old gunman in the Philippines remains unknown.",
+      "The ultimate fate of the 42 people who vanished at sea is not confirmed beyond the fact they are missing.",
+      "The official cause of death for the 37 people in the Nigerian prison cell is not explicitly provided in the text."
+    ],
+    "synthesis": "The provided articles detail unrelated criminal incidents and deaths occurring in various countries. Authorities in the United States, Nigeria, the Philippines, Thailand, and Colombia are actively investigating or litigating these separate cases. No common factors link the incidents, which include domestic violence, civil unrest, school violence, human smuggling, and murder charges.",
+    "confidence": "HIGH. The sources discuss distinct, unrelated events that do not require cross-verification between the provided texts.",
+    "sources": [
+      {
+        "id": "art_1789755620074_d1u9c",
+        "url": "https://www.theguardian.com/us-news/2026/sep/18/san-diego-police-investigate-family-found-dead",
+        "source": "guardian",
+        "title": "San Diego police investigate case of family of three found fatally shot in home"
+      },
+      {
+        "id": "art_1789755621203_bj28k",
+        "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+        "source": "guardian",
+        "title": "Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died"
+      },
+      {
+        "id": "art_1789728173810_jcmml",
+        "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Three dead and eight injured in Philippines school shooting"
+      },
+      {
+        "id": "art_1789728177118_nxsho",
+        "url": "https://www.foxnews.com/us/top-doj-official-warns-catastrophic-smuggling-danger-42-vanish-doomed-sea-voyage",
+        "source": "fox",
+        "title": "Top DOJ official warns of deadly smuggling route after 42 vanish at sea"
+      },
+      {
+        "id": "art_1789728178175_8pwze",
+        "url": "https://www.theguardian.com/world/2026/sep/18/australian-man-accused-of-murdering-thai-teenager-and-putting-body-in-suitcase-pleads-not-guilty-ntwnfb",
+        "source": "guardian",
+        "title": "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "890f58561a56fd7136b3d0f958670108",
+    "topic_label": "Royal Family and Celebrity News",
+    "event_window_start": "2026-09-18T10:00:16.000Z",
+    "event_window_end": "2026-09-18T20:52:38.000Z",
+    "article_ids": [
+      "art_1789766352594_qw5r2",
+      "art_1789766358878_kbzha",
+      "art_1789755615815_y7635",
+      "art_1789743069762_wm1bi",
+      "art_1789728182291_4wm9g"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Charles Spencer has released a memoir titled 'Swan Song: Diana, My Sister.'",
+      "Buckingham Palace issued a statement regarding claims made by Charles Spencer about comments attributed to King Charles following the death of Diana, Princess of Wales.",
+      "King Charles has issued guidance regarding the royal status of Prince Harry and Meghan Markle."
+    ],
+    "source_claims": [
+      "[guardian] Charles Spencer claims that King Charles said 'we’ll forget her soon enough' days after the death of Diana, Princess of Wales.",
+      "[guardian] Buckingham Palace suggested that Charles Spencer’s recollection of events may be affected by the pain of grief.",
+      "[fox] Buckingham Palace issued a letter via the Lord Chamberlain stating that Prince Harry and Meghan Markle are 'akin to private citizens'.",
+      "[fox] Sources close to Prince Harry and Meghan Markle claim the couple are 'public figures' rather than private citizens."
+    ],
+    "framing_differences": [
+      "Regarding the claims made by Charles Spencer, the Guardian focuses on his defense of his recollection, whereas Fox focuses on the royal response and the Palace's stance on the matter."
+    ],
+    "contested_claims": [
+      "There is a disagreement between the claims of Charles Spencer, who asserts he accurately remembers a conversation with King Charles, and the statement from Buckingham Palace, which suggests the memory may be clouded by grief."
+    ],
+    "unverified_claims": [
+      "[fox] A 'royal expert' claims that problems Prince Harry and Meghan Markle have regarding the school-run should not come as a surprise.",
+      "[fox] A 'royal expert' claims King Charles has drawn a 'line in the sand' with Prince Harry and Meghan Markle."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'monstrous' to describe a phone call involving King Charles.",
+      "[guardian] uses the term 'bombshell' to describe a claim made by Charles Spencer.",
+      "[fox] uses the term 'bruta' to describe a homecoming event."
+    ],
+    "safe_conclusions": [
+      "Charles Spencer has made claims in his memoir regarding comments allegedly made by King Charles following the death of Diana, Princess of Wales.",
+      "Buckingham Palace and Charles Spencer have offered differing accounts regarding the accuracy of Spencer's recollections.",
+      "King Charles has formally communicated guidance regarding the royal status of Prince Harry and Meghan Markle."
+    ],
+    "unknowns": [
+      "The exact text of the correspondence between the Lord Chamberlain and Prince Harry/Meghan Markle.",
+      "The full context and duration of the conversation between King Charles and Charles Spencer referenced in the memoir."
+    ],
+    "synthesis": "Charles Spencer has published a memoir containing claims about comments allegedly made by King Charles regarding the late Princess Diana, which Buckingham Palace has publicly questioned. Simultaneously, Buckingham Palace has issued formal guidance characterizing Prince Harry and Meghan Markle as akin to private citizens. Representatives for the Sussexes have reportedly disputed this characterization, maintaining that the couple remain public figures.",
+    "confidence": "HIGH. The primary accounts of the claims and the existence of the official Palace statements are consistent across the sources provided.",
+    "sources": [
+      {
+        "id": "art_1789766352594_qw5r2",
+        "url": "https://www.foxnews.com/entertainment/margot-robbie-turns-heads-blue-bikini-set-new-oceans-eleven-prequel",
+        "source": "fox",
+        "title": "Margot Robbie turns heads in blue bikini on set of new 'Ocean's Eleven' prequel"
+      },
+      {
+        "id": "art_1789766358878_kbzha",
+        "url": "https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-king-charles-draws-line-sand-harry-meghans-school-run-issues",
+        "source": "fox",
+        "title": "Fox News Entertainment newsletter: King Charles draws ‘line in the sand'; Harry and Meghan's school-run issues"
+      },
+      {
+        "id": "art_1789755615815_y7635",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/18/earl-spencer-doubles-down-on-claims-about-monstrous-call-with-king-charles-after-dianas-death",
+        "source": "guardian",
+        "title": "Earl Spencer doubles down on claims about ‘monstrous’ call with King Charles after Diana’s death"
+      },
+      {
+        "id": "art_1789743069762_wm1bi",
+        "url": "https://www.foxnews.com/outkick-sports/maye-musk-defends-sydney-sweeney-nude-sports-ad-recalls-12-year-path-citizenship",
+        "source": "fox",
+        "title": "Maye Musk defends Sydney Sweeney's nude sports ad and recalls 12-year path to citizenship"
+      },
+      {
+        "id": "art_1789728182291_4wm9g",
+        "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-feeding-publicity-machine-despite-privacy-demands-expert",
+        "source": "fox",
+        "title": "Prince Harry, Meghan Markle feeding the 'publicity machine' despite privacy demands: expert"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "75f79c10d98c28f9c528e92edb9d77c0",
+    "topic_label": "Sports News and Activism",
+    "event_window_start": "2026-09-18T14:08:03.000Z",
+    "event_window_end": "2026-09-18T21:05:25.000Z",
+    "article_ids": [
+      "art_1789766348361_x45r5",
+      "art_1789766351557_wgp9z",
+      "art_1789766356812_hmf10",
+      "art_1789766359909_t2duc",
+      "art_1789755618923_9kjwe",
+      "art_1789755622256_b10md",
+      "art_1789755624401_rbrxh",
+      "art_1789743056643_j6784",
+      "art_1789743066537_z8anb"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 9,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] claims Olympic swimmer Réka György criticized Governor Abigail Spanberger for withdrawing a regulation regarding female sports and private spaces.",
+      "[fox] claims the Minnesota Vikings are starting Carson Wentz due to Kyler Murray being in concussion protocol.",
+      "[fox] claims SEC football fans are preparing for a high-stakes, hostile game between LSU and Ole Miss.",
+      "[fox] claims Patriots head coach Mike Vrabel has softened his stance on TreVeyon Henderson's social activism.",
+      "[fox] claims Dabble is offering a promotional bonus for new users during college football week 3."
+    ],
+    "framing_differences": [],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims Louisiana Governor Jeff Landry called for military backup for the LSU vs. Ole Miss game.",
+      "[fox] claims Lane Kiffin admitted there are safety issues regarding the sideline at the upcoming game."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'hostile homecoming' to describe the upcoming LSU vs. Ole Miss game.",
+      "[fox] uses the term 'quarterback hijinks' to describe the Minnesota Vikings roster management.",
+      "[fox] uses the term 'painfully aware' to describe audience knowledge of a college football game."
+    ],
+    "safe_conclusions": [
+      "Various sports and political events are being reported by the provided news source.",
+      "The sources discuss topics including collegiate and professional sports, as well as state-level political actions in Virginia."
+    ],
+    "unknowns": [
+      "The actual impact or current status of the Virginia Board of Health petition mentioned by Réka György.",
+      "Official confirmation regarding the specific security measures taken for the LSU vs. Ole Miss game."
+    ],
+    "synthesis": "The provided articles cover disparate topics ranging from Virginia state politics regarding sports regulations to updates on NFL quarterback availability and college football game coverage. The reporting focuses on reactions to institutional policies and sports-related developments. All information is presented through the lens of a single news entity.",
+    "confidence": "HIGH. The sources consist of a single news provider, ensuring consistency in style and reporting format across all topics.",
+    "sources": [
+      {
+        "id": "art_1789766348361_x45r5",
+        "url": "https://www.foxnews.com/outkick-sports/olympic-swimmer-reka-gyorgy-calls-virginia-governor-spanberger-withdrawing-female-sports-regulation",
+        "source": "fox",
+        "title": "Olympic swimmer Réka György calls out Virginia Governor Spanberger for withdrawing female sports regulation"
+      },
+      {
+        "id": "art_1789766351557_wgp9z",
+        "url": "https://www.foxnews.com/outkick-sports/kyler-murray-concussion-door-opens-carson-wentz-vikings-starter",
+        "source": "fox",
+        "title": "Kyler Murray out with concussion so door opens for Carson Wentz as Vikings' new starter – perhaps for a while"
+      },
+      {
+        "id": "art_1789766356812_hmf10",
+        "url": "https://www.foxnews.com/outkick-sports/lane-kiffin-visit-oxford-isnt-first-time-coach-made-unwelcome-return-former-school",
+        "source": "fox",
+        "title": "Lane Kiffin's visit to Oxford isn't the first time a coach made an unwelcome return to his former school"
+      },
+      {
+        "id": "art_1789766359909_t2duc",
+        "url": "https://www.foxnews.com/outkick-sports/patriots-coach-mike-vrabel-about-face-treveyom-henderson-activism-russini-scandal",
+        "source": "fox",
+        "title": "Patriots coach Mike Vrabel does about-face on TreVeyon Henderson's activism after Russini scandal"
+      },
+      {
+        "id": "art_1789755618923_9kjwe",
+        "url": "https://www.foxnews.com/outkick-betting/dabble-promo-code-foxnews-unlocks-play-5-get-50-promo-college-football-week-3",
+        "source": "fox",
+        "title": "Dabble Promo Code FOXNEWS Unlocks Play $5, Get $50 Promo for College Football Week 3"
+      },
+      {
+        "id": "art_1789755622256_b10md",
+        "url": "https://www.foxnews.com/politics/obamas-brother-in-law-rejects-civil-rights-racism-argument-against-college-sports-overhaul",
+        "source": "fox",
+        "title": "Obama's brother-in-law rejects civil rights, racism argument against college sports overhaul"
+      },
+      {
+        "id": "art_1789755624401_rbrxh",
+        "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-provides-1000-deposit-match-college-football-lsu-vs-ole-miss",
+        "source": "fox",
+        "title": "Underdog Promo Code FOXNEWS Provides a $1000 Deposit Match for College Football, LSU vs Ole Miss"
+      },
+      {
+        "id": "art_1789743056643_j6784",
+        "url": "https://www.aljazeera.com/sports/2026/9/18/real-madrids-kylian-mbappe-ends-nike-partnership-to-join-swiss-brand-on?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Real Madrid’s Kylian Mbappe ends Nike partnership to join Swiss brand On"
+      },
+      {
+        "id": "art_1789743066537_z8anb",
+        "url": "https://www.aljazeera.com/sports/2026/9/18/barcelonas-lamine-yamal-says-he-has-experienced-racism-a-thousand-times?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Barcelona’s Lamine Yamal says he has experienced racism ‘a thousand times’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "633deb2c15d534f08f22d04eb723e3ee",
+    "topic_label": "Medical and Public Health Reports",
+    "event_window_start": "2026-09-18T10:00:18.000Z",
+    "event_window_end": "2026-09-18T20:21:55.000Z",
+    "article_ids": [
+      "art_1789766360937_1r97i",
+      "art_1789743067605_o68kr",
+      "art_1789728181259_m0iir"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox_1] Three people have died from malaria in Germany linked to a mosquito transported on a flight.",
+      "[fox_1] One victim was a resident of Schwanheim and one was an airport worker; neither had traveled to a malaria-endemic region.",
+      "[guardian] A study led by Brown University found US military veterans have higher levels of Pfas in their blood than non-veterans.",
+      "[guardian] Firefighting foam used at military bases contains Pfas, contributing to soil and water pollution.",
+      "[fox_2] Tim Donahue ate exclusively at Sweetgreen for 25 days, losing nine pounds in the process."
+    ],
+    "framing_differences": [
+      "The provided sources report on entirely unrelated topics—malaria outbreaks, Pfas pollution, and a personal diet experiment—and therefore utilize different thematic framings.",
+      "fox_1 frames the malaria incident as a news headline about a rare health phenomenon, while fox_2 frames a dietary experiment as a modern comparison to a 2004 documentary."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox_1] It is unclear where the flights associated with the malaria outbreak departed from.",
+      "[fox_2] The dietary experiment resulted in a financial and logistical impact for the participant."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'forever chemicals' to describe Pfas.",
+      "[fox_2] uses the term 'modern-day spin' to describe the subject's dietary challenge."
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The specific cause and exact timeline of the malaria deaths in Germany remain unverified by independent sources in this set.",
+      "The scope of health risks for veterans due to Pfas exposure is not fully detailed in the provided text.",
+      "The long-term health impact of the 25-day diet experiment on the participant is not specified."
+    ],
+    "synthesis": "The provided articles cover three distinct topics: a report on malaria fatalities in Germany, a study regarding Pfas levels in US veterans, and a personal experience involving a 25-day restrictive diet. No shared subject matter exists between the reports to allow for cross-corroboration. Each article operates as an independent account of its respective topic.",
+    "confidence": "HIGH. The sources discuss completely different events, so there are no factual inconsistencies between them.",
+    "sources": [
+      {
+        "id": "art_1789766360937_1r97i",
+        "url": "https://www.foxnews.com/world/third-person-dies-mosquito-trapped-plane-germany-airport-malaria-phenomenon",
+        "source": "fox",
+        "title": "Third person dies after mosquito is reportedly trapped on plane to Germany in 'airport malaria' phenomenon"
+      },
+      {
+        "id": "art_1789743067605_o68kr",
+        "url": "https://www.theguardian.com/environment/2026/sep/18/pfas-veterans-blood-forever-chemicals",
+        "source": "guardian",
+        "title": "US veterans have greater levels of Pfas in their blood than civilians, new study finds"
+      },
+      {
+        "id": "art_1789728181259_m0iir",
+        "url": "https://www.foxnews.com/food-drink/man-loses-weight-eating-nothing-certain-food-25-days-paid-price",
+        "source": "fox",
+        "title": "Man loses weight eating nothing but a certain food for 25 days — and paid a price"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d71d4b6985aa4277ec6a4f5445952571",
+    "topic_label": "Legal and Judicial Cases",
+    "event_window_start": "2026-09-18T10:00:11.000Z",
+    "event_window_end": "2026-09-18T17:40:44.000Z",
+    "article_ids": [
+      "art_1789755616864_5kac9",
+      "art_1789755617896_v39ro",
+      "art_1789728176091_8hik6",
+      "art_1789728185630_21yqj"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T06:24:30.907Z",
+    "updated_at": "2026-09-19T06:24:30.907Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Lindsay Clancy is a Massachusetts mother accused of killing her three children.",
+      "The murder trial of Lindsay Clancy ended in a mistrial due to a hung jury.",
+      "Judge William Sullivan presided over the Lindsay Clancy murder trial."
+    ],
+    "source_claims": [
+      "[fox] Judge Judy Sheindlin stated there is a 'danger' in prosecutors deciding not to retry Lindsay Clancy.",
+      "[fox] A retired Massachusetts judge suggests the trial of Latarsha Sanders would look 'dramatically different' if retried due to a Supreme Judicial Court ruling on psychiatric records.",
+      "[fox] The Massachusetts Supreme Judicial Court vacated the murder convictions of Latarsha Sanders and ordered a new trial."
+    ],
+    "framing_differences": [
+      "Regarding the Lindsay Clancy case, fox highlights opinions from Judge Judy Sheindlin on the necessity of a retrial, whereas the secondary fox report focuses on procedural precedents set by the Latarsha Sanders case and its implications for future trials."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Judge Judy Sheindlin expressed her opinion that there is a 'danger' in not retrying Lindsay Clancy."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'danger' when quoting Judge Judy Sheindlin regarding the potential decision not to retry a murder case."
+    ],
+    "safe_conclusions": [
+      "A mistrial occurred in the Lindsay Clancy murder trial.",
+      "The Massachusetts Supreme Judicial Court ordered a new trial for Latarsha Sanders.",
+      "Judge William Sullivan presided over both the Clancy and Sanders cases."
+    ],
+    "unknowns": [
+      "Whether prosecutors will officially decide to retry Lindsay Clancy.",
+      "The specific outcome of any future trial for Latarsha Sanders.",
+      "The full content of the psychiatric records mentioned in the Latarsha Sanders case."
+    ],
+    "synthesis": "The murder trial of Lindsay Clancy ended in a mistrial, prompting public discussion regarding the necessity of a second trial. Concurrently, the Massachusetts Supreme Judicial Court has ordered a new trial for Latarsha Sanders, citing the exclusion of psychiatric records. Legal commentators are analyzing how the Sanders ruling may impact procedural considerations in subsequent child-killing trials.",
+    "confidence": "HIGH. The articles report on distinct judicial proceedings with verifiable outcomes and attributed commentary.",
+    "sources": [
+      {
+        "id": "art_1789755616864_5kac9",
+        "url": "https://www.foxnews.com/politics/swing-state-mayor-sued-citys-muslim-holiday-displays-ignite-religious-favoritism-fight",
+        "source": "fox",
+        "title": "Swing state mayor sued as city’s Muslim holiday displays ignite religious-favoritism fight"
+      },
+      {
+        "id": "art_1789755617896_v39ro",
+        "url": "https://www.foxnews.com/us/ice-officer-accused-lying-fbi-about-minneapolis-shooting-pleads-not-guilty",
+        "source": "fox",
+        "title": "ICE officer accused of lying to FBI about Minneapolis shooting pleads not guilty"
+      },
+      {
+        "id": "art_1789728176091_8hik6",
+        "url": "https://www.foxnews.com/us/judge-judy-warns-danger-prosecutors-dont-retry-lindsay-clancy-murder-trial-ends-mistrial",
+        "source": "fox",
+        "title": "Judge Judy warns of 'danger' if prosecutors don't retry Lindsay Clancy after murder trial ends in mistrial"
+      },
+      {
+        "id": "art_1789728185630_21yqj",
+        "url": "https://www.foxnews.com/us/psychosis-evidence-changes-everything-clancy-judges-killer-mom-case-retired-judge",
+        "source": "fox",
+        "title": "Psychosis evidence changes everything in Clancy judge's other killer mom case: retired judge"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "bb21694b6e9e1cdd231516a14f52183a",
     "topic_label": "Iran political situation and regional tensions",
     "event_window_start": "2026-09-18T05:26:51.000Z",
@@ -17224,727 +18005,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "dd30e31c61385e7136343b3ac633f637",
-    "topic_label": "Amazon Cargo Plane Crash",
-    "event_window_start": "2026-09-07T12:03:32.000Z",
-    "event_window_end": "2026-09-07T22:23:03.000Z",
-    "article_ids": [
-      "art_1788826217930_c0huw",
-      "art_1788818054670_5v293",
-      "art_1788786445432_ycz47"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T01:06:53.882Z",
-    "updated_at": "2026-09-08T01:06:53.882Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Fallback activated."
-    ],
-    "source_claims": [
-      "No data available."
-    ],
-    "framing_differences": [
-      "No comparative data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [],
-    "loaded_language": [],
-    "safe_conclusions": [],
-    "unknowns": [
-      "No analysis possible."
-    ],
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "confidence": "LOW (Deterministic Fallback)",
-    "sources": [
-      {
-        "id": "art_1788826217930_c0huw",
-        "url": "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Flight recorders recovered from 'devastating' Amazon cargo plane crash"
-      },
-      {
-        "id": "art_1788818054670_5v293",
-        "url": "https://www.foxnews.com/us/ntsb-reveals-crew-survived-amazon-cargo-jet-disaster-shares-details-victims",
-        "source": "fox",
-        "title": "NTSB reveals if crew survived Amazon cargo jet disaster as it shares details about victims"
-      },
-      {
-        "id": "art_1788786445432_ycz47",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/moment-amazon-plane-crash-lands-in-miami?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Moment Amazon plane crash lands in Miami"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "a13d6d72791a524debb356d8310cc424",
-    "topic_label": "US-Canada Trade Dispute",
-    "event_window_start": "2026-09-07T23:20:24.000Z",
-    "event_window_end": "2026-09-07T23:29:12.000Z",
-    "article_ids": [
-      "art_1788826210353_dccxu",
-      "art_1788826211543_fpfj8"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T01:06:53.882Z",
-    "updated_at": "2026-09-08T01:06:53.882Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump has expressed opposition to current trade practices regarding the Canadian company Bombardier.",
-      "A trade dispute exists between the United States and Canada involving tariffs.",
-      "Canada is planning to impose retaliatory tariffs on American goods."
-    ],
-    "source_claims": [
-      "[bbc] Donald Trump stated in a Truth Social post that Bombardier cannot sell in the US unless it moves manufacturing to the US.",
-      "[bbc] The trade dispute involves tariffs on $20bn worth of US goods.",
-      "[guardian] Canada will impose tariffs ranging from 15% to 50% on Canadian dollars 27.6bn worth of US imports.",
-      "[guardian] US President Donald Trump announced 50% tariffs on Canadian goods."
-    ],
-    "framing_differences": [
-      "The bbc frames the situation primarily around a specific threat made by Donald Trump toward Bombardier, whereas the guardian frames the situation as a broader trade dispute involving escalating retaliatory measures across multiple sectors."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] Trump wrote, 'If they want our Market, they must build here, and stop treating America like a piggybank.'",
-      "[guardian] The tariffs will target specific sectors including steel, dairy, appliances, agricultural equipment, pulp and paper, and electronics."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'piggybank' to describe how Trump characterizes the US-Canadian trade relationship.",
-      "[bbc] uses the term 'escalating trade war' to describe the status of the economic relationship between the two countries."
-    ],
-    "safe_conclusions": [
-      "Economic tensions between the United States and Canada are increasing.",
-      "Canada is preparing to enact trade measures against the United States."
-    ],
-    "unknowns": [
-      "The legal mechanism by which Donald Trump intends to block Bombardier from selling in the US is not specified.",
-      "The total specific value of the retaliatory tariffs remains inconsistent between the two reports."
-    ],
-    "synthesis": "President Donald Trump has threatened to block Bombardier from the US market unless manufacturing is moved to the United States. Concurrently, Canada is preparing to implement retaliatory tariffs on billions of dollars in American goods in response to US tariff actions. These events occur as trade relations between the two nations continue to shift.",
-    "confidence": "MEDIUM. While both sources confirm an ongoing trade dispute and imminent retaliatory tariffs, there are discrepancies regarding the total monetary values associated with the trade measures.",
-    "sources": [
-      {
-        "id": "art_1788826210353_dccxu",
-        "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump threatens to stop sale of Canadian Bombardier jets in US"
-      },
-      {
-        "id": "art_1788826211543_fpfj8",
-        "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump",
-        "source": "guardian",
-        "title": "Canada’s retaliatory US tariffs set to take effect as trade dispute grows"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6db082ad78fd946700dd9a29865667c4",
-    "topic_label": "Serbian Politics and Ratko Mladic",
-    "event_window_start": "2026-09-07T17:09:47.000Z",
-    "event_window_end": "2026-09-07T17:52:47.000Z",
-    "article_ids": [
-      "art_1788805109088_m45ua",
-      "art_1788805122143_tshc0"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T10:38:43.802Z",
-    "updated_at": "2026-09-08T10:38:43.802Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Serbian government has proposed the dissolution of parliament.",
-      "Prime Minister Djuro Macut announced a call for early elections in Belgrade on Monday.",
-      "President Aleksandar Vucic plans to hold a vote in late October."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the call for early elections is a bid to tighten the rule of President Aleksandar Vucic.",
-      "[aljazeera] claims there has been nearly two years of anti-government unrest in Serbia.",
-      "[aljazeera] claims there is speculation that Vucic seeks to move into the role of prime minister.",
-      "[aljazeera] claims the early election will test Vucic's grip on Serbian politics.",
-      "[aljazeera] claims there have been massive and persistent anticorruption demonstrations."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the election as a strategic political maneuver by President Vucic to consolidate power following civil unrest, whereas the report on the funeral frames the political atmosphere through the lens of historical conflict and nationalism."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] claims President Aleksandar Vucic is a 'veteran authoritarian leader'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'veteran authoritarian leader' to describe President Aleksandar Vucic."
-    ],
-    "safe_conclusions": [
-      "The Serbian government intends to hold early parliamentary elections in late October."
-    ],
-    "unknowns": [
-      "The official legal justification for the dissolution of parliament.",
-      "The specific impact the reported anticorruption demonstrations have had on the current government's stability.",
-      "The full list of parties or candidates participating in the snap elections."
-    ],
-    "synthesis": "The Serbian government has moved to dissolve parliament and initiate early elections, currently scheduled for late October. The move is reported as an effort to consolidate the political position of President Aleksandar Vucic. This development follows a period of public anti-government and anticorruption protests.",
-    "confidence": "HIGH. The sources share consistent information regarding the schedule and announcement of the snap elections.",
-    "sources": [
-      {
-        "id": "art_1788805109088_m45ua",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/thousands-attend-funeral-of-war-criminal-ratko-mladic-in-serbia?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Thousands attend funeral of war criminal Ratko Mladic in Serbia"
-      },
-      {
-        "id": "art_1788805122143_tshc0",
-        "url": "https://www.aljazeera.com/news/2026/9/7/serbian-government-opens-route-to-snap-vote-with-call-to-dissolve-parliament?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Serbian government sets up snap vote with call to dissolve parliament"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5eaf080d5415f2d07fa4ac3751e2d809",
-    "topic_label": "Conflict in Gaza and Israel",
-    "event_window_start": "2026-09-07T12:46:51.000Z",
-    "event_window_end": "2026-09-08T01:58:28.000Z",
-    "article_ids": [
-      "art_1788837755919_tcaqx",
-      "art_1788818052465_i5jsm",
-      "art_1788818055727_1wjpn",
-      "art_1788805110241_4mbim",
-      "art_1788805115773_twjhl",
-      "art_1788805119030_tfb9q",
-      "art_1788786432534_2yqch"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T05:45:25.864Z",
-    "updated_at": "2026-09-08T05:45:25.864Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The United Kingdom is considering policies regarding Israeli settlements.",
-      "The status of Jerusalem is contested.",
-      "Military and humanitarian activity is ongoing in the West Bank and Gaza Strip."
-    ],
-    "source_claims": [
-      "[fox] The UK is expected to announce trade restrictions targeting Israeli settlements on Tuesday.",
-      "[fox] U.S. and Israeli officials have expressed pushback regarding the UK's expected move on settlements.",
-      "[bbc] The head-teacher of al-Mughayyir boys school reports fear among students and parents due to settler-related violence.",
-      "[aljazeera] UN Special Rapporteur Francesca Albanese stated that the removal of rubble in Gaza may destroy evidence of war crimes.",
-      "[aljazeera] Athena Rayburn describes the situation for Palestinians in Gaza as untenable due to Israeli restrictions on humanitarian aid.",
-      "[aljazeera] Nauru has opened an embassy in Jerusalem."
-    ],
-    "framing_differences": [
-      "fox frames the UK's potential sanctioning of settlements as a political decision by PM Burnham that risks a clash with the Trump administration, while bbc frames the situation in the West Bank through the lens of safety concerns for Palestinian students.",
-      "aljazeera focuses on accusations of war crimes and humanitarian crises in Gaza, whereas fox focuses on geopolitical relations and trade policies."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] PM Andy Burnham has adopted 'leftist policies'.",
-      "[aljazeera] Israel's war on Gaza is described as 'genocidal'.",
-      "[bbc] Six people in al-Mughayyir were killed in settler-related violence this year."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'leftist policies' to describe the platform of UK Prime Minister Andy Burnham.",
-      "[aljazeera] uses the term 'genocidal' to describe the war in Gaza.",
-      "[aljazeera] describes Francesca Albanese as a 'harsh critic of Israel'."
-    ],
-    "safe_conclusions": [
-      "The United Kingdom and international bodies are involved in diplomatic and political discourse concerning the West Bank and Gaza.",
-      "Violence and humanitarian challenges are reported in Palestinian territories.",
-      "Nauru has opened an embassy in Jerusalem."
-    ],
-    "unknowns": [
-      "The specific details of the UK's proposed trade measures regarding settlements.",
-      "The exact number of casualties in al-Mughayyir and the official classifications of those deaths.",
-      "The future impact of Nauru's embassy opening on regional diplomacy."
-    ],
-    "synthesis": "Current reporting highlights multiple geopolitical and humanitarian developments involving Israel and the Palestinian territories, including the UK's potential trade actions against settlements and Nauru's embassy opening in Jerusalem. Reports from humanitarian and UN officials detail severe conditions and concerns regarding the destruction of evidence in Gaza. Simultaneously, local accounts from the West Bank emphasize ongoing security fears for Palestinian civilians.",
-    "confidence": "MEDIUM; The articles cover distinct regional events, resulting in minimal factual overlap and reliance on disparate subject matter.",
-    "sources": [
-      {
-        "id": "art_1788837755919_tcaqx",
-        "url": "https://www.foxnews.com/world/uk-moves-sanction-israeli-settlements-pm-burnham-risks-clash-trump-report",
-        "source": "fox",
-        "title": "UK moves to sanction Israeli settlements as PM Burnham risks clash with Trump: report"
-      },
-      {
-        "id": "art_1788818052465_i5jsm",
-        "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Palestinian parents fear for children's lives at school as settler attacks grow"
-      },
-      {
-        "id": "art_1788818055727_1wjpn",
-        "url": "https://www.aljazeera.com/news/2026/9/7/israels-removal-of-gaza-rubble-risk-to-war-crimes-evidence-un?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s removal of Gaza rubble risk to war crimes evidence: UN"
-      },
-      {
-        "id": "art_1788805110241_4mbim",
-        "url": "https://www.aljazeera.com/video/the-bottom-line/2026/9/7/board-of-peace-touts-progress-as-palestinians-situation-worsens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Board of Peace touts progress as Palestinians’ situation worsens"
-      },
-      {
-        "id": "art_1788805115773_twjhl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/nauru-opens-embassy-in-jerusalem?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nauru opens embassy in Jerusalem"
-      },
-      {
-        "id": "art_1788805119030_tfb9q",
-        "url": "https://www.aljazeera.com/video/aljazeerauntangles/2026/9/7/gaza-genocide-in-real-time?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza: Genocide in Real Time?"
-      },
-      {
-        "id": "art_1788786432534_2yqch",
-        "url": "https://www.foxnews.com/world/un-agency-accused-hamas-ties-sees-another-european-nation-cut-funding",
-        "source": "fox",
-        "title": "UN agency accused of Hamas ties sees another European nation cut funding"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3c0e90a7941fb50cafa73322608d9dbe",
-    "topic_label": "Yemen and Strait of Hormuz",
-    "event_window_start": "2026-09-07T20:59:56.000Z",
-    "event_window_end": "2026-09-08T03:01:38.000Z",
-    "article_ids": [
-      "art_1788837750726_6vmum",
-      "art_1788826204760_88sok",
-      "art_1788818051329_ngc8r",
-      "art_1788818056784_9qjzh"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T05:45:25.864Z",
-    "updated_at": "2026-09-08T05:45:25.864Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Fighting has intensified in multiple provinces in Yemen, including al-Bayda, al-Jawf, Taiz, and Hodeidah.",
-      "Forces loyal to the internationally recognized government have launched counterattacks against Houthi forces.",
-      "The Houthis claim seven people were killed in an air strike in al-Hazm."
-    ],
-    "source_claims": [
-      "[aljazeera] Yemen's deputy defence minister, Major-General Samir Al-Sabri, stated the decision has been made to retake the capital, Sanaa.",
-      "[aljazeera] The Houthis have accused Saudi Arabia of conducting an air strike on a prison in al-Hazm that killed seven people.",
-      "[aljazeera] The Houthi-run Al Masirah TV aired footage they claim shows the aftermath of a prison strike and Houthi missile attacks on Saudi supply trucks.",
-      "[aljazeera] Oil prices have risen to nearly a six-week high due to recent strikes between the United States and Iran in the Strait of Hormuz."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the Yemen conflict through the lens of a government counteroffensive to reclaim the capital in one article, while framing it as a regional escalation involving international actors and casualties in other reports."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Houthi-run Al Masirah TV claims Houthi forces used ballistic missiles to attack Saudi supply trucks containing military equipment.",
-      "[aljazeera] The Houthi-run Health Ministry claims a child was among the seven killed in the al-Hazm prison strike."
-    ],
-    "loaded_language": [
-      "[aljazeera] describes the Houthis as 'Iran-backed'.",
-      "[aljazeera] describes the government forces as 'internationally recognised'."
-    ],
-    "safe_conclusions": [
-      "Hostilities between government-aligned forces and Houthi rebels have increased in Yemen.",
-      "There are reports of casualties in al-Jawf following an air strike.",
-      "Global oil prices have experienced an increase recently."
-    ],
-    "unknowns": [
-      "Whether Saudi Arabia or another coalition member was responsible for the strike on the al-Hazm prison.",
-      "The official number of casualties confirmed by independent international observers.",
-      "The specific impact of the Strait of Hormuz strikes on global oil supply volumes."
-    ],
-    "synthesis": "Government-aligned forces in Yemen have launched a counteroffensive against Houthi rebels with the stated goal of retaking the capital, Sanaa. Amidst this escalation, reports indicate a deadly strike on a prison in al-Hazm, while regional volatility coincides with rising global oil prices linked to strikes in the Strait of Hormuz. Fighting has spread across several Yemeni provinces, leading to reported casualties and displacement.",
-    "confidence": "HIGH: All information is sourced from the same media entity providing consistent reporting on the escalation of conflicts in Yemen and the Strait of Hormuz.",
-    "sources": [
-      {
-        "id": "art_1788837750726_6vmum",
-        "url": "https://www.aljazeera.com/news/2026/9/8/yemeni-forces-launch-counteroffensive-against-houthis-vow-to-retake-sanaa?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemeni forces launch counteroffensive against Houthis, vow to retake Sanaa"
-      },
-      {
-        "id": "art_1788826204760_88sok",
-        "url": "https://www.aljazeera.com/news/2026/9/7/houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Houthis accuse Saudi Arabia of killing seven in Yemen prison attack"
-      },
-      {
-        "id": "art_1788818051329_ngc8r",
-        "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz"
-      },
-      {
-        "id": "art_1788818056784_9qjzh",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/yemen-fighting-escalates-as-forces-battle-for-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen fighting escalates as forces battle for Bab al-Mandeb Strait"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "26627d5658576eaf366c8e4dc5c3ecd9",
-    "topic_label": "Middle East Conflict and Tension",
-    "event_window_start": "2026-09-07T04:00:25.000Z",
-    "event_window_end": "2026-09-07T23:50:53.000Z",
-    "article_ids": [
-      "art_1788826204760_88sok",
-      "art_1788818051329_ngc8r",
-      "art_1788818052465_i5jsm",
-      "art_1788818055727_1wjpn",
-      "art_1788818056784_9qjzh",
-      "art_1788805110241_4mbim",
-      "art_1788805115773_twjhl",
-      "art_1788805119030_tfb9q",
-      "art_1788786432534_2yqch",
-      "art_1788763061939_3druh"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 10,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T01:06:53.882Z",
-    "updated_at": "2026-09-08T01:06:53.882Z",
-    "region_tag": "middle-east",
-    "shared_facts": [],
-    "source_claims": [
-      "[aljazeera] Houthi officials claim Saudi Arabia conducted an air strike on a prison in al-Hazm resulting in seven deaths.",
-      "[aljazeera] Brent oil futures increased to approximately $97 per barrel following reported US-Iran strikes in the Strait of Hormuz.",
-      "[bbc] The head-teacher of al-Mughayyir boys school in the West Bank reports that students and parents are afraid due to local settler-related violence.",
-      "[aljazeera] UN Special Rapporteur Francesca Albanese warns that rubble clearance in Gaza risks the destruction of evidence related to alleged war crimes.",
-      "[aljazeera] Government-aligned forces in Yemen have launched counterattacks against Houthi forces in Taiz and Hodeidah."
-    ],
-    "framing_differences": [
-      "Regarding the UN Special Rapporteur, [aljazeera] characterizes the ongoing conflict in Gaza as a 'genocidal war' while reporting on Albanese's statements, whereas no other source provides a description of the conflict's nature."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Claims Houthi forces used ballistic missiles to attack Saudi supply trucks containing military equipment.",
-      "[aljazeera] Claims US forces hit three Iranian oil tankers while the IRGC claims it hit three tankers and three US-linked vessels.",
-      "[bbc] Claims six people, including three students, were killed in al-Mughayyir this year due to settler-related violence.",
-      "[aljazeera] Reports that hundreds of people have been killed in Yemen over a 24-hour period."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war' to describe the conflict in Gaza.",
-      "[aljazeera] uses the term 'Iran-backed' to describe Houthi forces."
-    ],
-    "safe_conclusions": [
-      "Various military and regional conflicts are currently ongoing in Yemen, the Strait of Hormuz, the West Bank, and Gaza.",
-      "Oil market prices have experienced volatility in response to reported maritime strikes.",
-      "The UN has issued a statement regarding the preservation of evidence in Gaza."
-    ],
-    "unknowns": [
-      "Independent verification of the prison attack in al-Hazm.",
-      "Independent verification of the specific casualty counts in Yemen.",
-      "The specific identities or affiliations of the vessels involved in the Strait of Hormuz incidents.",
-      "The full scope of the impact of rubble removal on potential war crimes investigations in Gaza."
-    ],
-    "synthesis": "Multiple independent conflicts are active across the Middle East, involving clashes in Yemen, the Strait of Hormuz, the West Bank, and Gaza. Reports indicate significant human casualties and infrastructure damage, alongside economic impacts such as rising global oil prices. International entities are monitoring these developments, specifically regarding the potential loss of evidence in Gaza and regional security stability.",
-    "confidence": "LOW: The provided text consists of five distinct, unrelated reports from a single news provider and one article from another, preventing cross-source verification of specific events.",
-    "sources": [
-      {
-        "id": "art_1788826204760_88sok",
-        "url": "https://www.aljazeera.com/news/2026/9/7/houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Houthis accuse Saudi Arabia of killing seven in Yemen prison attack"
-      },
-      {
-        "id": "art_1788818051329_ngc8r",
-        "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz"
-      },
-      {
-        "id": "art_1788818052465_i5jsm",
-        "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Palestinian parents fear for children's lives at school as settler attacks grow"
-      },
-      {
-        "id": "art_1788818055727_1wjpn",
-        "url": "https://www.aljazeera.com/news/2026/9/7/israels-removal-of-gaza-rubble-risk-to-war-crimes-evidence-un?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s removal of Gaza rubble risk to war crimes evidence: UN"
-      },
-      {
-        "id": "art_1788818056784_9qjzh",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/yemen-fighting-escalates-as-forces-battle-for-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen fighting escalates as forces battle for Bab al-Mandeb Strait"
-      },
-      {
-        "id": "art_1788805110241_4mbim",
-        "url": "https://www.aljazeera.com/video/the-bottom-line/2026/9/7/board-of-peace-touts-progress-as-palestinians-situation-worsens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Board of Peace touts progress as Palestinians’ situation worsens"
-      },
-      {
-        "id": "art_1788805115773_twjhl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/nauru-opens-embassy-in-jerusalem?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nauru opens embassy in Jerusalem"
-      },
-      {
-        "id": "art_1788805119030_tfb9q",
-        "url": "https://www.aljazeera.com/video/aljazeerauntangles/2026/9/7/gaza-genocide-in-real-time?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza: Genocide in Real Time?"
-      },
-      {
-        "id": "art_1788786432534_2yqch",
-        "url": "https://www.foxnews.com/world/un-agency-accused-hamas-ties-sees-another-european-nation-cut-funding",
-        "source": "fox",
-        "title": "UN agency accused of Hamas ties sees another European nation cut funding"
-      },
-      {
-        "id": "art_1788763061939_3druh",
-        "url": "https://www.theguardian.com/world/2026/sep/07/un-francesca-albanese-miliband-israel-palestine-settlements-trade",
-        "source": "guardian",
-        "title": "UN expert Francesca Albanese calls for ‘true paradigm shift’ as Miliband resets policy on Israel"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2d08b274896bbf855e7f3b26d8b6492c",
-    "topic_label": "German AfD Election Impact",
-    "event_window_start": "2026-09-07T04:07:23.000Z",
-    "event_window_end": "2026-09-07T19:50:05.000Z",
-    "article_ids": [
-      "art_1788818065319_yuv08",
-      "art_1788805112598_ka0zq",
-      "art_1788786439793_g8m2b",
-      "art_1788786440923_kg1pc",
-      "art_1788763059775_64i0e"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T01:06:53.882Z",
-    "updated_at": "2026-09-08T01:06:53.882Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Alternative for Germany (AfD) won the regional election in Saxony-Anhalt with approximately 44% of the vote, falling just short of an outright majority.",
-      "German Chancellor Friedrich Merz expressed deep shock at the election results and acknowledged it as a severe defeat for his party, the CDU.",
-      "Mainstream German political parties have maintained a policy of refusing to cooperate or form coalitions with the AfD."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the AfD's electoral rise has benefited from voters' economic concerns and increasing anger over immigration.",
-      "[aljazeera] claims the AfD is currently leading in national polls.",
-      "[guardian] claims that Chancellor Friedrich Merz had previously pledged to halve the AfD's support at the national level.",
-      "[guardian] claims nearly 60% of voters in Saxony-Anhalt cast ballots for political parties that fundamentally call into question the country's democratic institutions.",
-      "[bbc] claims the AfD fell exactly three seats short of an outright majority.",
-      "[bbc] claims Saxony-Anhalt has a population of 1.7 million out of Germany's 59 million eligible voters nationwide."
-    ],
-    "framing_differences": [
-      "While aljazeera and bbc frame the election around the AfD's democratic mandate and the logistical challenge of forming a governing coalition, guardian frames the event around the personal political survival and humiliation of Chancellor Friedrich Merz.",
-      "guardian frames the AfD as 'pro-Kremlin' and 'nativist', whereas aljazeera and bbc limit their framing of the party's platform to 'far-right' and 'anti-immigration' issues."
-    ],
-    "contested_claims": [
-      "While aljazeera reports that Germany's domestic intelligence agency has classified the Saxony-Anhalt branch of the AfD as a 'proven right-wing extremist group', the AfD explicitly rejects this classification."
-    ],
-    "unverified_claims": [
-      "[guardian] claims that the AfD is a 'pro-Kremlin' party.",
-      "[guardian] claims that Chancellor Friedrich Merz is 'unpopular' and appeared 'ashen-faced' to reporters.",
-      "[bbc] claims that Saxony-Anhalt constitutes 1.7 million of Germany's 59 million eligible voters."
-    ],
-    "loaded_language": [
-      "[guardian] uses the terms 'nativist', 'anti-immigrant', and 'pro-Kremlin' to describe the AfD.",
-      "[guardian] describes Friedrich Merz as 'ashen-faced', 'unpopular', and 'chastened'.",
-      "[guardian] describes the election outcome as an 'utter rout' of the CDU.",
-      "[bbc] quotes external descriptions of the election as 'seismic', 'a socio-political earthquake', and 'a watershed moment'."
-    ],
-    "safe_conclusions": [
-      "The AfD achieved its strongest regional election finish in Saxony-Anhalt, though it did not secure enough seats to govern alone.",
-      "The CDU and its leader, Chancellor Friedrich Merz, suffered a significant electoral setback.",
-      "There remains a strong political barrier, or firewall, between mainstream German parties and the AfD regarding coalition building."
-    ],
-    "unknowns": [
-      "Whether any mainstream political party or individual lawmaker will break the firewall to cooperate with the AfD.",
-      "How the election result will impact the stability of the national coalition government in Berlin.",
-      "Whether Friedrich Merz will face leadership challenges within the CDU as a result of this defeat."
-    ],
-    "synthesis": "The Alternative for Germany (AfD) won a historic regional election victory in Saxony-Anhalt, securing approximately 44% of the vote but falling just short of an outright majority. Chancellor Friedrich Merz described the result as a shocking and severe defeat for the conservative Christian Democratic Union. Although the AfD is calling for other parties to respect the vote and enter coalition talks, mainstream political parties continue to refuse any cooperation with them.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1788818065319_yuv08",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/9/7/what-are-the-implications-of-afds-electoral-rise-for-germany-and-europe?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What are the implications of AfD’s electoral rise for Germany and Europe?"
-      },
-      {
-        "id": "art_1788805112598_ka0zq",
-        "url": "https://www.theguardian.com/world/2026/sep/07/german-chancellor-friedrich-merz-cdu-afd-saxony-anhalt",
-        "source": "guardian",
-        "title": "German chancellor vows to stay in office despite AfD triumph in state election"
-      },
-      {
-        "id": "art_1788786439793_g8m2b",
-        "url": "https://www.theguardian.com/world/live/2026/sep/07/germany-afd-saxony-anhalt-merz-greenland-ratko-mladic-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Merz says ‘shock’ AfD victory in key German state ‘is an election result we cannot simply move past’ – Europe live"
-      },
-      {
-        "id": "art_1788786440923_kg1pc",
-        "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win"
-      },
-      {
-        "id": "art_1788763059775_64i0e",
-        "url": "https://www.bbc.co.uk/news/articles/c986w38r4j5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Europe wrestles with impact of historic regional gains for Germany's AfD"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "99c9b4e3e99cdcd7bbeba496a5b9c8e4",
-    "topic_label": "Global Disaster Alerts",
-    "event_window_start": "2026-09-07T04:56:51.000Z",
-    "event_window_end": "2026-09-07T22:37:25.000Z",
-    "article_ids": [
-      "art_1788826215807_ageb3",
-      "art_1788763046671_cl2e4",
-      "art_1788763050211_khoq8",
-      "art_1788763054740_7izqs"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T01:06:53.882Z",
-    "updated_at": "2026-09-08T01:06:53.882Z",
-    "region_tag": "middle-east",
-    "shared_facts": [],
-    "source_claims": [
-      "[aljazeera] Hurricane Lowell is a Category 3 storm in the Pacific Ocean currently tracking toward the Hawaiian islands.",
-      "[aljazeera] The U.S. National Hurricane Center issued emergency hurricane and tropical storm warnings for Hawaii on Sunday.",
-      "[bbc] A volcanic eruption of Anak Krakatau in Indonesia has resulted in the suspension of airport operations and the grounding of over 2,000 flights.",
-      "[bbc] Approximately 270,000 passengers are stranded in Indonesia due to the volcanic eruption.",
-      "[aljazeera] A fire in Babuda, Central Papua, killed 11 people, including six children, and destroyed 40 buildings.",
-      "[aljazeera] A fireworks explosion during a religious festival in Temascalcingo, Mexico, killed 10 people and injured approximately 60 others."
-    ],
-    "framing_differences": [
-      "The articles cover distinct, unrelated geographic events and do not share a common framing of a single topic."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Forecasters warn that Hurricane Lowell could unleash tornadoes on the islands of Kauai and Niihau.",
-      "[aljazeera] Residents of Hawaii should prepare for severe windstorms and possible mudslides beginning Monday night.",
-      "[bbc] Jakarta's Soekarno-Hatta International airport and three others will remain closed until 18:00 local time on Monday."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'tragedy struck' to describe the fireworks explosion in Mexico."
-    ],
-    "safe_conclusions": [
-      "Various independent news events occurred in Hawaii, Indonesia, and Mexico involving natural disasters and accidents."
-    ],
-    "unknowns": [
-      "The full extent of damage to Hawaiian infrastructure.",
-      "The specific cause of the market fire in Central Papua.",
-      "The exact cause of the fireworks detonation in Mexico."
-    ],
-    "synthesis": "Recent news reports detail unrelated events including an approaching hurricane in Hawaii, volcanic eruptions in Indonesia, a fatal market fire in Papua, and a fireworks accident in Mexico. These events have caused significant disruptions to travel, infrastructure damage, and multiple casualties. Each incident is being addressed by local authorities or government agencies in their respective regions.",
-    "confidence": "HIGH. The sources describe clearly distinct events, and there is no factual overlap or conflict between them to analyze.",
-    "sources": [
-      {
-        "id": "art_1788826215807_ageb3",
-        "url": "https://www.aljazeera.com/news/2026/9/7/hawaii-braces-for-hurricane-lowell?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hawaii braces for Hurricane Lowell"
-      },
-      {
-        "id": "art_1788763046671_cl2e4",
-        "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Indonesia volcano eruption leaves 270,000 stranded as airports extend closure"
-      },
-      {
-        "id": "art_1788763050211_khoq8",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/aje-onl-nf_11-dead-in-massive-indonesia-market-fire-070926?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Six children among 11 people killed in Indonesian market fire"
-      },
-      {
-        "id": "art_1788763054740_7izqs",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/ten-killed-and-dozens-injured-in-mexico-fireworks-blast?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ten killed and dozens injured in Mexico fireworks blast"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
