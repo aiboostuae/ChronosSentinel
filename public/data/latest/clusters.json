@@ -1,5 +1,456 @@
 [
   {
+    "cluster_id": "2bd6cb2706880a05fcc5ef566470f481",
+    "topic_label": "Middle East Developments",
+    "event_window_start": "2026-09-18T17:23:23.000Z",
+    "event_window_end": "2026-09-18T20:55:57.000Z",
+    "article_ids": [
+      "art_1789766350518_6xnid",
+      "art_1789766355776_fz12t",
+      "art_1789755623372_tsgsm"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T14:48:57.388Z",
+    "updated_at": "2026-09-19T14:48:57.388Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera] Sarah Cotte was found not guilty by a jury at the Old Bailey regarding charges of supporting Hamas in a speech given in 2023.",
+      "[aljazeera] Assala Nasri performed a concert in Damascus after 15 years of living in exile following her support for the 2011 uprising against Bashar al-Assad.",
+      "[aljazeera] Iranian authorities claim 313,000 volunteers participated in a government-organized rally in Tehran to demonstrate readiness for potential conflict."
+    ],
+    "framing_differences": [
+      "The articles provided cover three distinct and unrelated events: a legal trial in the UK, a cultural event in Syria, and a military rally in Iran, with no shared framing between them."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The Iranian government claims 313,000 people attended the rally, though the text notes this figure could not be independently verified.",
+      "[aljazeera] Prosecutors claimed Sarah Cotte’s use of the term 'unconditional solidarity' was a 'thinly veiled reference' to Hamas."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'terrorist' to describe Hamas in the context of UK law.",
+      "[aljazeera] uses the term 'Daughter of Damascus' to describe Assala Nasri.",
+      "[aljazeera] uses the term 'defiance' to describe the Iranian government-organized rally."
+    ],
+    "safe_conclusions": [
+      "A London court reached a verdict in the case of Sarah Cotte.",
+      "Assala Nasri performed in Damascus.",
+      "A rally took place in Tehran involving volunteers."
+    ],
+    "unknowns": [
+      "The specific outcome of Sarah Cotte's trial defense strategy.",
+      "The official reaction of the Syrian government to Assala Nasri's return.",
+      "The actual number of participants in the Tehran rally beyond the government's provided figure."
+    ],
+    "synthesis": "Three separate reports cover a legal acquittal in London, a musical performance in Damascus, and a government-organized rally in Tehran. The reports address unrelated geopolitical and cultural events involving the United Kingdom, Syria, and Iran. Each article provides details concerning individual or state-level activities within these specific regions.",
+    "confidence": "HIGH. The sources represent distinct reporting on three separate, non-overlapping events, and there is no factual contradiction between them.",
+    "sources": [
+      {
+        "id": "art_1789766350518_6xnid",
+        "url": "https://www.aljazeera.com/news/2026/9/18/uk-court-clears-woman-of-voicing-support-for-hamas-in-university-speech?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK court clears woman of voicing support for Hamas in university speech"
+      },
+      {
+        "id": "art_1789766355776_fz12t",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/daughter-of-damascus-assala-performs-in-syria-after-15-year-exile?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile"
+      },
+      {
+        "id": "art_1789755623372_tsgsm",
+        "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iranians rally in biggest show of defiance against US since war began"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0ac1c07b34e0bf0e5509f379d7eb32ce",
+    "topic_label": "Trump Administration and Politics",
+    "event_window_start": "2026-09-18T20:44:23.000Z",
+    "event_window_end": "2026-09-18T21:05:49.000Z",
+    "article_ids": [
+      "art_1789766346222_1yzn8",
+      "art_1789766353635_ceh7t",
+      "art_1789766354672_9j5sc"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T14:48:57.388Z",
+    "updated_at": "2026-09-19T14:48:57.388Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "President Donald Trump is currently serving in his second term."
+    ],
+    "source_claims": [
+      "[bbc] President Trump announced on Truth Social that he is banning CNN, MS NOW, and Politico from the White House.",
+      "[bbc] Trump claimed these outlets report 'fiction or lies' about his administration.",
+      "[bbc] CNN described the move as an 'illegal assault' on American press freedoms.",
+      "[fox_1] Journalists from The Atlantic described Trump as an 'unfettered version of himself' who trusts his instincts."
+    ],
+    "framing_differences": [
+      "The bbc frames the event as a conflict regarding White House access and press freedom, while the fox_1 source frames the current administration as a display of Trump's increased comfort and confidence in his second term."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] President Trump has banned CNN, MS NOW, and Politico from the White House.",
+      "[bbc] The move by Trump is likely to be met with legal challenges."
+    ],
+    "loaded_language": [
+      "[bbc] uses the term 'illegal assault' to describe CNN's characterization of the ban.",
+      "[bbc] uses the term 'fraught relationship' to describe the interactions between Trump and media outlets.",
+      "[fox_1] uses the term 'greatest comeback' to describe Trump's political return."
+    ],
+    "safe_conclusions": [
+      "President Trump has expressed criticism of specific media organizations.",
+      "The Atlantic held a panel discussion about covering the White House."
+    ],
+    "unknowns": [
+      "Whether the reported ban on media outlets has been implemented or how it would technically function.",
+      "What specific media reports Trump was referring to when he alleged 'fiction or lies'."
+    ],
+    "synthesis": "President Donald Trump announced on social media that he intends to ban several news organizations from the White House, citing dissatisfaction with their reporting. While the potential impact on press access remains unclear, the move has been criticized by the affected outlets. Simultaneously, journalists have observed that the President appears increasingly confident and comfortable during his second term.",
+    "confidence": "MEDIUM. The articles discuss different subjects and events, with only the existence of the Trump administration being a shared, verified context.",
+    "sources": [
+      {
+        "id": "art_1789766346222_1yzn8",
+        "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump says he is banning CNN and Politico from White House"
+      },
+      {
+        "id": "art_1789766353635_ceh7t",
+        "url": "https://www.foxnews.com/media/trump-unfettered-comfortable-power-second-term-journalists-say",
+        "source": "fox",
+        "title": "Trump is 'unfettered' and more comfortable with power in his second term, journalists say"
+      },
+      {
+        "id": "art_1789766354672_9j5sc",
+        "url": "https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-trump-bashing-chilled-speech-major-saga-renewed",
+        "source": "fox",
+        "title": "Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7f95a13cfe126be85ce6088f1ed96703",
+    "topic_label": "US Political Activism and Controversy",
+    "event_window_start": "2026-09-18T17:43:25.000Z",
+    "event_window_end": "2026-09-18T21:05:45.000Z",
+    "article_ids": [
+      "art_1789766347322_cd53n",
+      "art_1789755612462_l97ak",
+      "art_1789755613515_4ktgb",
+      "art_1789755614563_d1qel"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T14:48:57.388Z",
+    "updated_at": "2026-09-19T14:48:57.388Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Various political candidates and activist organizations are currently involved in local and national electoral and policy discussions.",
+      "Guaranteed income programs for mothers and infants are being debated within political circles.",
+      "Shelly Headen is a candidate for the North Carolina state legislature appearing on the general election ballot.",
+      "Medea Benjamin is a co-founder of CodePink and associated with the Arc of Justice foundation."
+    ],
+    "source_claims": [
+      "[fox] Tegan Lecheler states that conservative lawmakers have reached out to the Mother and Infant Cash Coalition in support of cash assistance programs.",
+      "[fox] Claire Valdez met with members of Mexico’s ruling political party.",
+      "[fox] The North Carolina House Democratic Caucus and a county party group have publicly condemned Shelly Headen.",
+      "[fox] The Arc of Justice foundation has provided approximately $3.2 million to CodePink and $24.6 million to various organizations over two decades."
+    ],
+    "framing_differences": [
+      "Regarding Claire Valdez, [fox] frames her pledges and international meetings as a point of controversy and political scrutiny, while [fox] identifies her simply as a socialist candidate in the context of New York primary elections."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Tegan Lecheler claims that conservative lawmakers find common ground with direct cash initiatives for mothers.",
+      "[fox] Shelly Headen made social media posts calling for an attack on U.S. soil and comparing Donald Trump to Adolf Hitler."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'socialist' to describe Claire Valdez.",
+      "[fox] uses the term 'inflammatory' to describe social media posts made by Shelly Headen.",
+      "[fox] uses the term 'left-wing' to describe activist organizations funded by the Arc of Justice."
+    ],
+    "safe_conclusions": [
+      "Political candidates in New York and North Carolina are currently participating in election processes.",
+      "Various political organizations are actively engaging in advocacy and funding activities."
+    ],
+    "unknowns": [
+      "The full scope of conservative support for cash assistance programs remains unquantified.",
+      "The specific nature and content of the meetings between Claire Valdez and members of the Mexican political party are not fully detailed.",
+      "The total impact of the Arc of Justice foundation's funding on specific policy outcomes is not defined."
+    ],
+    "synthesis": "Political activity and debates regarding policy platforms continue across multiple states as primary and general elections proceed. Candidates are facing scrutiny for past statements and organizational ties, while advocacy groups continue to influence policy discussions through funding and coalition-building. Various political figures and organizations are subject to public and party-level evaluation regarding their platforms and rhetoric.",
+    "confidence": "HIGH. The sources represent a consistent reporting style from the same outlet, detailing discrete, albeit separate, political events.",
+    "sources": [
+      {
+        "id": "art_1789766347322_cd53n",
+        "url": "https://www.foxnews.com/media/pro-life-vs-socialism-gop-lawmakers-divided-over-controversial-guaranteed-income-programs",
+        "source": "fox",
+        "title": "'Pro-life' vs 'socialism': GOP lawmakers divided over controversial guaranteed income programs"
+      },
+      {
+        "id": "art_1789755612462_l97ak",
+        "url": "https://www.foxnews.com/politics/socialist-claire-valdez-faces-calls-federal-probe-mexico-fight-pledge",
+        "source": "fox",
+        "title": "Socialist Claire Valdez faces calls for federal probe after Mexico ‘fight’ pledge"
+      },
+      {
+        "id": "art_1789755613515_4ktgb",
+        "url": "https://www.foxnews.com/politics/dems-abandon-candidate-who-said-maga-more-destructive-than-nazis-shes-stuck-ballot",
+        "source": "fox",
+        "title": "Dems abandon candidate who said MAGA 'more destructive' than Nazis, but she’s stuck on the ballot"
+      },
+      {
+        "id": "art_1789755614563_d1qel",
+        "url": "https://www.foxnews.com/politics/codepink-cofounder-medea-benjamin-family-foundation-major-funder-left-wing-activist-groups",
+        "source": "fox",
+        "title": "How CodePink co-founder Medea Benjamin's family foundation became a major funder of left-wing activist groups"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ba52f98941e9b5df9ff9ded6a917d892",
+    "topic_label": "UK Royal Family",
+    "event_window_start": "2026-09-18T17:40:49.000Z",
+    "event_window_end": "2026-09-18T20:30:45.000Z",
+    "article_ids": [
+      "art_1789766358878_kbzha",
+      "art_1789755615815_y7635"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T11:30:54.106Z",
+    "updated_at": "2026-09-19T11:30:54.106Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "King Charles issued a statement regarding claims made by Charles Spencer in a new memoir.",
+      "The memoir by Charles Spencer is titled 'Swan Song: Diana, My Sister'."
+    ],
+    "source_claims": [
+      "[fox] claims King Charles has drawn a 'line in the sand' with Prince Harry and Meghan Markle.",
+      "[fox] claims Prince Harry and Meghan Markle experienced school-run issues regarding their children in England.",
+      "[guardian] claims Charles Spencer stated King Charles told him 'we’ll forget her soon enough' following the death of Princess Diana.",
+      "[guardian] claims Buckingham Palace issued a statement suggesting Charles Spencer’s memory of the event may be affected by grief."
+    ],
+    "framing_differences": [
+      "Fox focuses on the status of Prince Harry and Meghan Markle's relationship with the Royal Family, whereas The Guardian focuses on the dispute between Charles Spencer and Buckingham Palace regarding memories of Princess Diana."
+    ],
+    "contested_claims": [
+      "The accuracy of Charles Spencer’s recollection of remarks allegedly made by King Charles following the death of Princess Diana is contested between Charles Spencer and Buckingham Palace."
+    ],
+    "unverified_claims": [
+      "[fox] claims Prince Harry's homecoming 'goes off the rails'.",
+      "[fox] asserts that an expert claims Prince Harry and Meghan Markle's school-run problems should not come as a surprise."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'line in the sand' to describe King Charles's stance on Harry and Meghan.",
+      "[fox] uses the term 'brutal' to describe Prince Harry's homecoming.",
+      "[guardian] uses the term 'bombshell' to describe Charles Spencer's claim.",
+      "[guardian] uses the term 'monstrous' to describe the call between King Charles and Charles Spencer as characterized by Spencer."
+    ],
+    "safe_conclusions": [
+      "King Charles and Charles Spencer are involved in a disagreement regarding historical recollections published in a memoir.",
+      "Buckingham Palace has publicly addressed claims made by Charles Spencer."
+    ],
+    "unknowns": [
+      "The specific nature of the school-run issues faced by Prince Harry and Meghan Markle.",
+      "The full content of the conversation between King Charles and Charles Spencer beyond the contested quote."
+    ],
+    "synthesis": "King Charles has released a formal statement in response to claims made by Charles Spencer in his new memoir concerning the death of Princess Diana. Buckingham Palace suggested that grief may have impacted Spencer's memory, a point Spencer publicly disputed in an interview. Separately, reports indicate ongoing tensions involving Prince Harry and Meghan Markle regarding their activities in England.",
+    "confidence": "HIGH. The sources agree on the existence of the memoir and the occurrence of the public disagreement between the Palace and Charles Spencer.",
+    "sources": [
+      {
+        "id": "art_1789766358878_kbzha",
+        "url": "https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-king-charles-draws-line-sand-harry-meghans-school-run-issues",
+        "source": "fox",
+        "title": "Fox News Entertainment newsletter: King Charles draws ‘line in the sand'; Harry and Meghan's school-run issues"
+      },
+      {
+        "id": "art_1789755615815_y7635",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/18/earl-spencer-doubles-down-on-claims-about-monstrous-call-with-king-charles-after-dianas-death",
+        "source": "guardian",
+        "title": "Earl Spencer doubles down on claims about ‘monstrous’ call with King Charles after Diana’s death"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "77bbcf8d627551195461a7ec3871fc1a",
+    "topic_label": "International Humanitarian and Safety Issues",
+    "event_window_start": "2026-09-18T17:27:39.000Z",
+    "event_window_end": "2026-09-18T20:21:55.000Z",
+    "article_ids": [
+      "art_1789766360937_1r97i",
+      "art_1789755621203_bj28k"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T14:48:57.388Z",
+    "updated_at": "2026-09-19T14:48:57.388Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] Three individuals have died from malaria in Germany following exposure linked to an airport.",
+      "[fox] A resident of Schwanheim and an airport worker are two of the reported deceased.",
+      "[guardian] 37 suspected illegal goldminers died while in the custody of the Nigeria Security and Civil Defence Corps (NSCDC) in Minna, Nigeria.",
+      "[guardian] Protests occurred in Minna following the deaths, resulting in police firing teargas and the imposition of a curfew."
+    ],
+    "framing_differences": [
+      "fox frames the events around a medical phenomenon described as 'airport malaria' involving deaths in Germany, while guardian frames the event around human rights and custodial deaths in Nigeria."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] The malaria cases are a result of a mosquito being transported aboard a flight to Germany.",
+      "[guardian] The victims in the NSCDC cell included many children."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'panic and struggle to breathe' to describe the experience of the survivors."
+    ],
+    "safe_conclusions": [
+      "There are reports of deaths occurring in two different international locations, Germany and Nigeria."
+    ],
+    "unknowns": [
+      "The specific flight origin for the alleged malaria cases in Germany is unknown.",
+      "The official cause of death for the 37 individuals in the Nigerian custody remains pending investigation.",
+      "The total number of people affected in the German malaria outbreak is not fully clarified."
+    ],
+    "synthesis": "Reports indicate separate fatal incidents in Germany and Nigeria. In Germany, authorities are investigating deaths linked to potential malaria exposure near Frankfurt Airport. In Nigeria, 37 suspected illegal goldminers died while in the custody of the NSCDC, leading to protests and a local curfew.",
+    "confidence": "HIGH. The sources discuss entirely different geographical events, meaning there is no factual contradiction between the reports.",
+    "sources": [
+      {
+        "id": "art_1789766360937_1r97i",
+        "url": "https://www.foxnews.com/world/third-person-dies-mosquito-trapped-plane-germany-airport-malaria-phenomenon",
+        "source": "fox",
+        "title": "Third person dies after mosquito is reportedly trapped on plane to Germany in 'airport malaria' phenomenon"
+      },
+      {
+        "id": "art_1789755621203_bj28k",
+        "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+        "source": "guardian",
+        "title": "Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6bcd46d055fc79277fe2fcc8be8ecb55",
+    "topic_label": "College Sports and Activism",
+    "event_window_start": "2026-09-18T17:27:07.000Z",
+    "event_window_end": "2026-09-18T20:25:26.000Z",
+    "article_ids": [
+      "art_1789766359909_t2duc",
+      "art_1789755622256_b10md"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T14:48:57.388Z",
+    "updated_at": "2026-09-19T14:48:57.388Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "New England Patriots head coach Mike Vrabel has addressed the social activism of running back TreVeyon Henderson.",
+      "TreVeyon Henderson has expressed public support for a Massachusetts couple involved in a custody dispute with the Department of Children and Families (DCF)."
+    ],
+    "source_claims": [
+      "[fox] claims Mike Vrabel has softened his stance on TreVeyon Henderson's activism since April.",
+      "[fox] claims authorities have stated the custody dispute involving the couple and their daughter is related to allegations of abuse.",
+      "[fox] claims the Protect College Sports Act is currently receiving bipartisan support in the Senate.",
+      "[fox] claims NAACP President Derrick Johnson, the Congressional Black Caucus, and Sen. Chris Murphy have argued that the Protect College Sports Act would disproportionately affect Black athletes."
+    ],
+    "framing_differences": [
+      "The first Fox article frames the relationship between coach and player as being influenced by a 'scandal' involving photos, whereas the second Fox article frames the legislative debate on college sports through the lens of civil rights and racial policy controversy."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims there was a 'Russini scandal' involving viral photos and Mike Vrabel.",
+      "[fox] claims the Patriots issued a statement on 'mandated counseling' following the fallout of a scandal."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'about-face' to describe Mike Vrabel's change in stance.",
+      "[fox] uses the term 'scandal' in relation to Dianna Russini.",
+      "[fox] uses the term 'misguided' to characterize arguments against the college sports bill."
+    ],
+    "safe_conclusions": [
+      "Mike Vrabel is the head coach of the New England Patriots.",
+      "TreVeyon Henderson is a running back for the New England Patriots.",
+      "The Protect College Sports Act is currently under consideration in the U.S. Senate."
+    ],
+    "unknowns": [
+      "Specific details regarding the alleged 'Russini scandal' mentioned in the fox text are not provided.",
+      "The specific content or official status of the Patriots' statement on 'mandated counseling' is not provided.",
+      "The ultimate outcome of the custody dispute involving the Massachusetts couple is not provided."
+    ],
+    "synthesis": "New England Patriots head coach Mike Vrabel has commented on player TreVeyon Henderson's support for a family in a child custody dispute involving DCF. Separately, the U.S. Senate is considering the bipartisan Protect College Sports Act, which faces opposition from figures who argue it contains racial implications. These two topics reflect distinct ongoing discussions within the sports and legislative landscapes.",
+    "confidence": "HIGH. The sources consist of two distinct articles regarding unrelated subject matter, both provided by the same outlet, with facts within each article presented clearly.",
+    "sources": [
+      {
+        "id": "art_1789766359909_t2duc",
+        "url": "https://www.foxnews.com/outkick-sports/patriots-coach-mike-vrabel-about-face-treveyom-henderson-activism-russini-scandal",
+        "source": "fox",
+        "title": "Patriots coach Mike Vrabel does about-face on TreVeyon Henderson's activism after Russini scandal"
+      },
+      {
+        "id": "art_1789755622256_b10md",
+        "url": "https://www.foxnews.com/politics/obamas-brother-in-law-rejects-civil-rights-racism-argument-against-college-sports-overhaul",
+        "source": "fox",
+        "title": "Obama's brother-in-law rejects civil rights, racism argument against college sports overhaul"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "57f031a76d9a5a740f674ce96c9b40e5",
     "topic_label": "Middle East Conflicts and Geopolitics",
     "event_window_start": "2026-09-18T13:52:49.000Z",
@@ -458,80 +909,6 @@
         "url": "https://www.aljazeera.com/sports/2026/9/18/barcelonas-lamine-yamal-says-he-has-experienced-racism-a-thousand-times?traffic_source=rss",
         "source": "aljazeera",
         "title": "Barcelona’s Lamine Yamal says he has experienced racism ‘a thousand times’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ba52f98941e9b5df9ff9ded6a917d892",
-    "topic_label": "UK Royal Family",
-    "event_window_start": "2026-09-18T17:40:49.000Z",
-    "event_window_end": "2026-09-18T20:30:45.000Z",
-    "article_ids": [
-      "art_1789766358878_kbzha",
-      "art_1789755615815_y7635"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T11:30:54.106Z",
-    "updated_at": "2026-09-19T11:30:54.106Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "King Charles issued a statement regarding claims made by Charles Spencer in a new memoir.",
-      "The memoir by Charles Spencer is titled 'Swan Song: Diana, My Sister'."
-    ],
-    "source_claims": [
-      "[fox] claims King Charles has drawn a 'line in the sand' with Prince Harry and Meghan Markle.",
-      "[fox] claims Prince Harry and Meghan Markle experienced school-run issues regarding their children in England.",
-      "[guardian] claims Charles Spencer stated King Charles told him 'we’ll forget her soon enough' following the death of Princess Diana.",
-      "[guardian] claims Buckingham Palace issued a statement suggesting Charles Spencer’s memory of the event may be affected by grief."
-    ],
-    "framing_differences": [
-      "Fox focuses on the status of Prince Harry and Meghan Markle's relationship with the Royal Family, whereas The Guardian focuses on the dispute between Charles Spencer and Buckingham Palace regarding memories of Princess Diana."
-    ],
-    "contested_claims": [
-      "The accuracy of Charles Spencer’s recollection of remarks allegedly made by King Charles following the death of Princess Diana is contested between Charles Spencer and Buckingham Palace."
-    ],
-    "unverified_claims": [
-      "[fox] claims Prince Harry's homecoming 'goes off the rails'.",
-      "[fox] asserts that an expert claims Prince Harry and Meghan Markle's school-run problems should not come as a surprise."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'line in the sand' to describe King Charles's stance on Harry and Meghan.",
-      "[fox] uses the term 'brutal' to describe Prince Harry's homecoming.",
-      "[guardian] uses the term 'bombshell' to describe Charles Spencer's claim.",
-      "[guardian] uses the term 'monstrous' to describe the call between King Charles and Charles Spencer as characterized by Spencer."
-    ],
-    "safe_conclusions": [
-      "King Charles and Charles Spencer are involved in a disagreement regarding historical recollections published in a memoir.",
-      "Buckingham Palace has publicly addressed claims made by Charles Spencer."
-    ],
-    "unknowns": [
-      "The specific nature of the school-run issues faced by Prince Harry and Meghan Markle.",
-      "The full content of the conversation between King Charles and Charles Spencer beyond the contested quote."
-    ],
-    "synthesis": "King Charles has released a formal statement in response to claims made by Charles Spencer in his new memoir concerning the death of Princess Diana. Buckingham Palace suggested that grief may have impacted Spencer's memory, a point Spencer publicly disputed in an interview. Separately, reports indicate ongoing tensions involving Prince Harry and Meghan Markle regarding their activities in England.",
-    "confidence": "HIGH. The sources agree on the existence of the memoir and the occurrence of the public disagreement between the Palace and Charles Spencer.",
-    "sources": [
-      {
-        "id": "art_1789766358878_kbzha",
-        "url": "https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-king-charles-draws-line-sand-harry-meghans-school-run-issues",
-        "source": "fox",
-        "title": "Fox News Entertainment newsletter: King Charles draws ‘line in the sand'; Harry and Meghan's school-run issues"
-      },
-      {
-        "id": "art_1789755615815_y7635",
-        "url": "https://www.theguardian.com/uk-news/2026/sep/18/earl-spencer-doubles-down-on-claims-about-monstrous-call-with-king-charles-after-dianas-death",
-        "source": "guardian",
-        "title": "Earl Spencer doubles down on claims about ‘monstrous’ call with King Charles after Diana’s death"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -17495,475 +17872,6 @@
         "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
         "source": "aljazeera",
         "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "dd1297cfbda5117659c6e79f81dd73b1",
-    "topic_label": "Amazon Cargo Plane Crash",
-    "event_window_start": "2026-09-07T21:06:56.000Z",
-    "event_window_end": "2026-09-07T22:23:03.000Z",
-    "article_ids": [
-      "art_1788826217930_c0huw",
-      "art_1788818054670_5v293"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T14:56:42.222Z",
-    "updated_at": "2026-09-08T14:56:42.222Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "A Boeing 767-300 cargo plane operated by 21 Air crashed at Miami International Airport on Sunday.",
-      "The aircraft overshot the runway.",
-      "The crash resulted in five fatalities and five serious injuries.",
-      "The aircraft collided with two vehicles at the airport perimeter.",
-      "NTSB Chairwoman Jennifer Homendy stated it is currently the fact-finding stage and too early to determine the cause."
-    ],
-    "source_claims": [
-      "[bbc] reports the crash occurred shortly before 14:00 local time.",
-      "[bbc] reports the van involved in the collision carried seven people.",
-      "[bbc] reports a Toyota involved in the collision carried three passengers.",
-      "[fox] reports the jet continued about 1,300 feet beyond the paved runway surface.",
-      "[fox] reports the crew aboard the cargo jet survived the accident.",
-      "[fox] reports the plane caught fire while landing."
-    ],
-    "framing_differences": [
-      "BBC frames the event focus around the recovery of flight recorders and victims, whereas Fox frames the event by highlighting the survival of the flight crew and specific distance markers of the runway overrun."
-    ],
-    "contested_claims": [
-      "There is a discrepancy in the reporting of the number of occupants in the vehicles; BBC states the van carried seven people and a Toyota carried three, while Fox reports the two vehicles carried at least eight occupants."
-    ],
-    "unverified_claims": [
-      "[fox] claims the plane caught fire while landing."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'devastating' to describe the cargo plane crash.",
-      "[fox] uses the term 'disaster' to describe the cargo plane crash."
-    ],
-    "safe_conclusions": [
-      "A Boeing 767-300 cargo aircraft crashed at Miami International Airport on Sunday, resulting in casualties and vehicle collisions, with an ongoing NTSB investigation."
-    ],
-    "unknowns": [
-      "The precise identities and roles of the deceased and injured individuals are not fully clarified.",
-      "The exact cause of the crash remains under investigation.",
-      "The status of the fire mentioned by Fox is not confirmed by the BBC report."
-    ],
-    "synthesis": "A 21 Air Boeing 767-300 cargo jet crashed at Miami International Airport on Sunday after overshooting the runway and striking two vehicles. The incident resulted in five deaths and five injuries, with the flight crew reported to have survived. The NTSB is currently conducting a fact-finding investigation into the cause of the event.",
-    "confidence": "HIGH; The sources are in agreement on the core facts of the event, with minor reporting discrepancies regarding vehicle occupancy and specific minor details.",
-    "sources": [
-      {
-        "id": "art_1788826217930_c0huw",
-        "url": "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Flight recorders recovered from 'devastating' Amazon cargo plane crash"
-      },
-      {
-        "id": "art_1788818054670_5v293",
-        "url": "https://www.foxnews.com/us/ntsb-reveals-crew-survived-amazon-cargo-jet-disaster-shares-details-victims",
-        "source": "fox",
-        "title": "NTSB reveals if crew survived Amazon cargo jet disaster as it shares details about victims"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "24fa6f26d86c0371f7d448b969a204ff",
-    "topic_label": "Eiffel Tower staff protest",
-    "event_window_start": "2026-09-07T23:46:44.000Z",
-    "event_window_end": "2026-09-08T02:17:10.000Z",
-    "article_ids": [
-      "art_1788837753050_cfsnf",
-      "art_1788826206118_ezmnj"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T05:45:25.864Z",
-    "updated_at": "2026-09-08T05:45:25.864Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Eiffel Tower was closed on Monday due to a strike by staff.",
-      "The strike followed a visit to the Eiffel Tower by a delegation of approximately 100 people from the BAPS Hindu group on Saturday.",
-      "Staff allege that female workers were moved or asked to leave their posts during the visit of the group."
-    ],
-    "source_claims": [
-      "[aljazeera] claims the staff went on strike because women were asked to step out of sight during the visit.",
-      "[bbc] claims the strike occurred because female workers were removed for the religious group's visit.",
-      "[bbc] claims a staff union representative said women were asked to leave their places of work to be replaced by men.",
-      "[bbc] claims management apologized to workers over the incident."
-    ],
-    "framing_differences": [
-      "aljazeera frames the event as a 'row' regarding the removal of women, whereas bbc frames the event as a staff protest initiated by workers and acknowledges management's involvement in the communication."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] claims a sign at the tower cited 'operational reasons' for the delay in opening."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "The Eiffel Tower experienced a closure on Monday.",
-      "Staff participated in a strike following a visit by a delegation from the BAPS Hindu movement."
-    ],
-    "unknowns": [
-      "The specific identity of the management personnel who allegedly apologized.",
-      "The official response or statement from the BAPS Hindu movement regarding the allegations.",
-      "Whether the request to move staff was an explicit policy or an individual decision by a supervisor."
-    ],
-    "synthesis": "The Eiffel Tower was closed on Monday due to a staff strike following a visit by a delegation of approximately 100 people from the BAPS Hindu group on Saturday. Employees alleged that female staff members were removed from their posts during the visit, prompting the labor action. Management reportedly apologized to the workers regarding the incident.",
-    "confidence": "HIGH. The sources agree on the cause of the strike and the general nature of the grievances raised by the staff.",
-    "sources": [
-      {
-        "id": "art_1788837753050_cfsnf",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/eiffel-tower-closed-in-row-over-women-removed-for-hindu-group?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Eiffel Tower closed in row over women removed for Hindu group"
-      },
-      {
-        "id": "art_1788826206118_ezmnj",
-        "url": "https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Eiffel Tower shut by staff protest after women moved for religious visit"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "109e8d19c23dc5ad3b98aeda6eda24e2",
-    "topic_label": "German Far-Right AfD Politics",
-    "event_window_start": "2026-09-07T19:50:05.000Z",
-    "event_window_end": "2026-09-08T12:54:24.000Z",
-    "article_ids": [
-      "art_1788873262970_gqygj",
-      "art_1788818065319_yuv08"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T18:29:49.238Z",
-    "updated_at": "2026-09-08T18:29:49.238Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The Alternative für Deutschland (AfD) party achieved a significant electoral result in the state election of Saxony-Anhalt.",
-      "The AfD is currently facing opposition from other German political parties.",
-      "The AfD has faced public protests following its recent electoral performance."
-    ],
-    "source_claims": [
-      "[guardian] The AfD is described as anti-immigrant and pro-Russian.",
-      "[guardian] The AfD advocates for the mass deportation of asylum seekers and a reduction in support for renewable energy and public broadcasting.",
-      "[aljazeera] The AfD received approximately 44 percent of the vote in the Saxony-Anhalt state election.",
-      "[aljazeera] The German domestic intelligence agency has classified the Saxony-Anhalt branch of the AfD as a proven right-wing extremist group.",
-      "[aljazeera] Chancellor Friedrich Merz has stated there will be no cooperation with the AfD."
-    ],
-    "framing_differences": [
-      "The guardian frames the event through the perspective of protest and alarm regarding the party's democratic impact, whereas aljazeera frames the event through the analysis of electoral data and the resulting political 'firewall' established by mainstream parties."
-    ],
-    "contested_claims": [
-      "The AfD rejects the classification of its Saxony-Anhalt branch as a proven right-wing extremist group by the domestic intelligence agency, as reported by aljazeera."
-    ],
-    "unverified_claims": [
-      "[guardian] The AfD poses a danger in two upcoming state polls in Berlin and Mecklenburg-Western Pomerania.",
-      "[aljazeera] The AfD's rise is driven by voter anger over immigration and economic concerns."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'far-right' to describe the AfD.",
-      "[aljazeera] uses the term 'far-right' and 'right-wing extremist group' to describe the AfD."
-    ],
-    "safe_conclusions": [
-      "The AfD participated in a state election in Saxony-Anhalt.",
-      "There is ongoing public and political opposition to the AfD in Germany."
-    ],
-    "unknowns": [
-      "The exact percentage of the vote received by the AfD is contested or potentially misreported between the sources.",
-      "The specific long-term impact on the upcoming elections in Berlin and Mecklenburg-Western Pomerania is not yet determined."
-    ],
-    "synthesis": "The AfD achieved a significant result in the recent Saxony-Anhalt state election, prompting public protests and a formal refusal of cooperation from mainstream political parties. The party faces institutional labels regarding its political classification, which it formally rejects. Analysis of the situation differs between reports focusing on public reaction versus those focused on systemic electoral and intelligence assessments.",
-    "confidence": "MEDIUM: While both sources agree on the occurrence of the election and subsequent political tensions, there are discrepancies regarding the specific vote percentage and the characterization of the party's motivations.",
-    "sources": [
-      {
-        "id": "art_1788873262970_gqygj",
-        "url": "https://www.theguardian.com/world/2026/sep/08/anti-afd-protests-germany-far-right-berlin-mecklenburg-western-pomerania",
-        "source": "guardian",
-        "title": "Anti-AfD protests sweep Germany as far right closes in on two more states"
-      },
-      {
-        "id": "art_1788818065319_yuv08",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/9/7/what-are-the-implications-of-afds-electoral-rise-for-germany-and-europe?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What are the implications of AfD’s electoral rise for Germany and Europe?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f202a085e6b00becb38c696e3f5ff8c9",
-    "topic_label": "Israel and Middle East Tensions",
-    "event_window_start": "2026-09-07T17:23:01.000Z",
-    "event_window_end": "2026-09-08T12:44:59.000Z",
-    "article_ids": [
-      "art_1788873265083_w3bc3",
-      "art_1788873266297_mug0o",
-      "art_1788873268445_4o58a",
-      "art_1788856093014_i2qt0",
-      "art_1788856095446_zycia",
-      "art_1788837755919_tcaqx",
-      "art_1788837758065_fp6vf",
-      "art_1788826204760_88sok",
-      "art_1788818051329_ngc8r",
-      "art_1788818052465_i5jsm",
-      "art_1788818055727_1wjpn",
-      "art_1788818056784_9qjzh",
-      "art_1788805110241_4mbim",
-      "art_1788805115773_twjhl",
-      "art_1788805119030_tfb9q"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 15,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T14:56:42.222Z",
-    "updated_at": "2026-09-08T14:56:42.222Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "UK Foreign Secretary Ed Miliband announced sanctions against Israeli settlements in the West Bank.",
-      "The UK sanctions include an import ban on goods produced in Israeli settlements.",
-      "The United States has expressed criticism regarding the UK's plan for sanctions."
-    ],
-    "source_claims": [
-      "[aljazeera] Qatar is discussing new ideas with partners including China to resolve the US-Iran war.",
-      "[aljazeera] A Qatari Foreign Ministry official stated that the current 'no war and no peace' status is unacceptable.",
-      "[guardian] Ed Miliband described Israeli individuals as 'terrorists' and alleged they are engaging in 'ethnic cleansing' with government backing.",
-      "[guardian] The UK government has adopted an official position that the Israeli occupation of the West Bank is unlawful in its entirety.",
-      "[guardian] Saudi authorities reported attacks on energy facilities by Houthi forces resulting in over 70 injuries.",
-      "[guardian] Brent crude oil prices have risen above $98 per barrel following attacks on Saudi energy facilities."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the UK's actions as sanctions on 'illegal Israeli settlements,' whereas The Guardian frames the move as a major shift in policy involving accusations of 'ethnic cleansing' and 'terrorism' against Israeli actors.",
-      "The Guardian frames the UK sanctions announcement within the context of domestic Labour Party politics and Keir Starmer's historical popularity, while Aljazeera provides a more straightforward reporting of the policy announcement."
-    ],
-    "contested_claims": [
-      "There is a discrepancy regarding the framing of the occupation; the UK government now classifies the occupation of the West Bank as 'unlawful in its entirety' according to The Guardian, while other international entities or Israel typically contest the legal status and legitimacy of such declarations."
-    ],
-    "unverified_claims": [
-      "[guardian] Claims that Israeli government backing exists for individuals conducting 'ethnic cleansing' in the West Bank.",
-      "[aljazeera] Claims that new ideas are being discussed between Qatar and China to resolve the US-Iran war."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'terrorists' to describe Israeli individuals.",
-      "[guardian] uses the term 'ethnic cleansing' to describe actions in the West Bank.",
-      "[guardian] uses the term 'Iran-aligned' to describe Yemen's Houthis."
-    ],
-    "safe_conclusions": [
-      "The UK government is implementing new trade sanctions related to Israeli settlements.",
-      "Tensions exist in the Middle East involving conflict in the West Bank, oil infrastructure in Saudi Arabia, and a conflict between the US and Iran."
-    ],
-    "unknowns": [
-      "The specific nature of the 'new ideas' being discussed by Qatar.",
-      "The full scope of retaliatory measures Israel might take against the UK.",
-      "The specific identities of the individuals the UK government refers to as terrorists."
-    ],
-    "synthesis": "The United Kingdom has announced new sanctions and an import ban on goods from Israeli settlements in the West Bank, a move that has drawn criticism from the United States. Simultaneously, regional instability continues with reports of attacks on Saudi energy facilities and ongoing diplomatic efforts by Qatar to mediate the US-Iran conflict. These developments reflect a period of heightened geopolitical friction regarding both Middle Eastern territorial conflicts and international economic policies.",
-    "confidence": "HIGH. The primary administrative actions and geopolitical events are reported consistently across the provided sources, despite differences in descriptive terminology.",
-    "sources": [
-      {
-        "id": "art_1788873265083_w3bc3",
-        "url": "https://www.aljazeera.com/news/2026/9/8/qatar-says-reopening-strait-of-hormuz-unconditionally-is-a-priority?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Qatar says reopening Strait of Hormuz ‘unconditionally’ is a priority"
-      },
-      {
-        "id": "art_1788873266297_mug0o",
-        "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
-        "source": "guardian",
-        "title": "UK accuses Israeli ‘terrorists’ of ethnic cleansing in West Bank with government backing"
-      },
-      {
-        "id": "art_1788873268445_4o58a",
-        "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK announces sanctions on illegal Israeli settlements"
-      },
-      {
-        "id": "art_1788856093014_i2qt0",
-        "url": "https://www.theguardian.com/business/live/2026/sep/08/oil-price-approaches-100-a-barrel-saudi-attacks-bank-of-england-latest-news-updates",
-        "source": "guardian",
-        "title": "Oil price approaches $100 a barrel after attacks on Saudi oil facilities – business live"
-      },
-      {
-        "id": "art_1788856095446_zycia",
-        "url": "https://www.theguardian.com/politics/live/2026/sep/08/uk-us-trade-israel-sanctions-labour-ed-miliband-farage-latest-news-updates",
-        "source": "guardian",
-        "title": "UK-US trade could suffer as a result of sanctions for illegal Israeli settlements, American ambassador warns – UK politics live"
-      },
-      {
-        "id": "art_1788837755919_tcaqx",
-        "url": "https://www.foxnews.com/world/uk-moves-sanction-israeli-settlements-pm-burnham-risks-clash-trump-report",
-        "source": "fox",
-        "title": "UK moves to sanction Israeli settlements as PM Burnham risks clash with Trump: report"
-      },
-      {
-        "id": "art_1788837758065_fp6vf",
-        "url": "https://www.aljazeera.com/news/2026/9/8/iaea-warns-over-iran-nuclear-access-as-western-powers-push-un-referral?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "IAEA warns over Iran nuclear access as Western powers push UN referral"
-      },
-      {
-        "id": "art_1788826204760_88sok",
-        "url": "https://www.aljazeera.com/news/2026/9/7/houthis-accuse-saudi-arabia-of-killing-seven-in-yemen-prison-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Houthis accuse Saudi Arabia of killing seven in Yemen prison attack"
-      },
-      {
-        "id": "art_1788818051329_ngc8r",
-        "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz"
-      },
-      {
-        "id": "art_1788818052465_i5jsm",
-        "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Palestinian parents fear for children's lives at school as settler attacks grow"
-      },
-      {
-        "id": "art_1788818055727_1wjpn",
-        "url": "https://www.aljazeera.com/news/2026/9/7/israels-removal-of-gaza-rubble-risk-to-war-crimes-evidence-un?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s removal of Gaza rubble risk to war crimes evidence: UN"
-      },
-      {
-        "id": "art_1788818056784_9qjzh",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/yemen-fighting-escalates-as-forces-battle-for-bab-al-mandeb-strait?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemen fighting escalates as forces battle for Bab al-Mandeb Strait"
-      },
-      {
-        "id": "art_1788805110241_4mbim",
-        "url": "https://www.aljazeera.com/video/the-bottom-line/2026/9/7/board-of-peace-touts-progress-as-palestinians-situation-worsens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Board of Peace touts progress as Palestinians’ situation worsens"
-      },
-      {
-        "id": "art_1788805115773_twjhl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/7/nauru-opens-embassy-in-jerusalem?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Nauru opens embassy in Jerusalem"
-      },
-      {
-        "id": "art_1788805119030_tfb9q",
-        "url": "https://www.aljazeera.com/video/aljazeerauntangles/2026/9/7/gaza-genocide-in-real-time?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza: Genocide in Real Time?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d6d1b53de7a0f37114ba87783d0e16ba",
-    "topic_label": "Ukraine Conflict and Corruption",
-    "event_window_start": "2026-09-08T01:07:47.000Z",
-    "event_window_end": "2026-09-08T08:01:55.000Z",
-    "article_ids": [
-      "art_1788856098937_v0kx1",
-      "art_1788837749659_oy1rh",
-      "art_1788837764512_ougj2"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T10:38:43.802Z",
-    "updated_at": "2026-09-08T10:38:43.802Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ruslan Kravchenko has resigned from his position as Ukraine's prosecutor general.",
-      "The resignation follows corruption allegations linked to illegal call centers.",
-      "Ukrainian anti-corruption investigators searched offices related to the investigation."
-    ],
-    "source_claims": [
-      "[guardian] Ruslan Kravchenko stated his resignation was a political decision to avoid his position being used as an instrument of political confrontation.",
-      "[bbc] Ruslan Kravchenko described the corruption allegations against him as unsubstantiated.",
-      "[aljazeera] Two residential buildings were damaged by Russian air raids in Kyiv, and drone strikes were reported in Boryspil and Fastiv districts.",
-      "[aljazeera] Russian regional Governor Roman Busargin stated a Ukrainian drone attack injured people in Saratov."
-    ],
-    "framing_differences": [
-      "The guardian frames Kravchenko's resignation as a challenge for President Zelenskyy following a summer of political instability, whereas the bbc frames it within the context of ongoing corruption scandals affecting Zelenskyy's inner circle.",
-      "aljazeera focuses on the expiration of a three-day pause in Russian attacks on Kyiv and mutual drone strikes, while guardian focuses on the domestic political resignation of the prosecutor general."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The resignation occurred as Russia renewed attacks after a pause for peace talks.",
-      "[aljazeera] The three-day pause in attacks followed a visit by two US envoys that yielded no tangible progress toward peace."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'enemy' to describe the entity behind the drone attacks against which the Kyiv city military administration warned residents."
-    ],
-    "safe_conclusions": [
-      "Ruslan Kravchenko resigned as Ukraine's prosecutor general amid corruption investigations.",
-      "Russia and Ukraine engaged in reports of drone attacks following the expiration of a three-day pause."
-    ],
-    "unknowns": [
-      "Whether the corruption allegations against Ruslan Kravchenko have been legally proven.",
-      "The specific identity of the official in Kravchenko's office linked to the money-laundering scheme mentioned by the bbc.",
-      "The official status of the alleged peace talks mentioned by the guardian."
-    ],
-    "synthesis": "Ruslan Kravchenko has resigned as Ukraine's prosecutor general following investigations into corruption and illegal call centers, citing a desire to remove his office from political conflict. Concurrently, hostilities between Russia and Ukraine resumed with reported drone strikes in Kyiv and other districts following the conclusion of a three-day pause. Russian officials also reported a Ukrainian drone strike on civilian infrastructure in the Saratov region.",
-    "confidence": "HIGH. The sources are consistent regarding the resignation of the prosecutor general and the resumption of drone activity between the two nations.",
-    "sources": [
-      {
-        "id": "art_1788856098937_v0kx1",
-        "url": "https://www.theguardian.com/world/live/2026/sep/08/ukraine-russia-war-zelesnkyy-putin-ruslan-kravchenko-prosecutor-general-germany-france-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Ukraine’s prosecutor general resigns after corruption allegations as Russia resumes strikes on Kyiv – Europe live"
-      },
-      {
-        "id": "art_1788837749659_oy1rh",
-        "url": "https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia strikes Kyiv as three-day pause during US envoy visits ends"
-      },
-      {
-        "id": "art_1788837764512_ougj2",
-        "url": "https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ukraine's chief prosecutor resigns over call centre corruption scandal"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
