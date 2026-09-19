@@ -1,57 +1,61 @@
 [
   {
-    "cluster_id": "2bd6cb2706880a05fcc5ef566470f481",
-    "topic_label": "Middle East Developments",
-    "event_window_start": "2026-09-18T17:23:23.000Z",
+    "cluster_id": "9d5dd650d7339db4e764cd3c61441ad4",
+    "topic_label": "Middle East and Regional Conflict",
+    "event_window_start": "2026-09-18T20:37:15.000Z",
     "event_window_end": "2026-09-18T20:55:57.000Z",
     "article_ids": [
       "art_1789766350518_6xnid",
       "art_1789766355776_fz12t",
-      "art_1789755623372_tsgsm"
+      "art_1789766357843_hzsds"
     ],
     "source_ids": [
-      "aljazeera"
+      "aljazeera",
+      "fox"
     ],
     "article_count": 3,
-    "source_count": 1,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-09-19T14:48:57.388Z",
-    "updated_at": "2026-09-19T14:48:57.388Z",
+    "created_at": "2026-09-19T17:53:24.502Z",
+    "updated_at": "2026-09-19T17:53:24.502Z",
     "region_tag": "middle-east",
-    "shared_facts": [],
+    "shared_facts": [
+      "No shared facts exist between these three independent news snippets as they cover entirely distinct topics: a court case in London, a concert in Syria, and political commentary by an internet streamer."
+    ],
     "source_claims": [
-      "[aljazeera] Sarah Cotte was found not guilty by a jury at the Old Bailey regarding charges of supporting Hamas in a speech given in 2023.",
-      "[aljazeera] Assala Nasri performed a concert in Damascus after 15 years of living in exile following her support for the 2011 uprising against Bashar al-Assad.",
-      "[aljazeera] Iranian authorities claim 313,000 volunteers participated in a government-organized rally in Tehran to demonstrate readiness for potential conflict."
+      "[aljazeera] Sarah Cotte was found not guilty of expressing support for Hamas at the Old Bailey.",
+      "[aljazeera] Assala Nasri returned to Damascus for a concert after 15 years of exile following her support for the 2011 uprising.",
+      "[fox] Hasan Piker characterized Osama bin Laden as a 'spoiled brat' and labeled the 9/11 attacks as 'blowback' in an Axios interview.",
+      "[fox] Hasan Piker claimed that America is worse than al Qaeda."
     ],
     "framing_differences": [
-      "The articles provided cover three distinct and unrelated events: a legal trial in the UK, a cultural event in Syria, and a military rally in Iran, with no shared framing between them."
+      "Fox frames Hasan Piker's commentary within the context of a controversy involving Michigan political figure Abdul El-Sayed, whereas Al Jazeera reports on the legal proceedings of Sarah Cotte and the cultural event involving Assala Nasri as stand-alone news items."
     ],
     "contested_claims": [],
     "unverified_claims": [
-      "[aljazeera] The Iranian government claims 313,000 people attended the rally, though the text notes this figure could not be independently verified.",
-      "[aljazeera] Prosecutors claimed Sarah Cotte’s use of the term 'unconditional solidarity' was a 'thinly veiled reference' to Hamas."
+      "[aljazeera] Prosecutors claimed Cotte's speech regarding 'unconditional solidarity' was a 'thinly veiled reference' to Hamas.",
+      "[fox] Hasan Piker claimed that America is worse than al Qaeda."
     ],
     "loaded_language": [
-      "[aljazeera] uses the term 'terrorist' to describe Hamas in the context of UK law.",
-      "[aljazeera] uses the term 'Daughter of Damascus' to describe Assala Nasri.",
-      "[aljazeera] uses the term 'defiance' to describe the Iranian government-organized rally."
+      "[aljazeera] uses the term 'terrorist' to describe Hamas.",
+      "[fox] uses the term 'far-left' to describe Hasan Piker.",
+      "[fox] uses the term 'backlash' to describe the response to Abdul El-Sayed."
     ],
     "safe_conclusions": [
       "A London court reached a verdict in the case of Sarah Cotte.",
       "Assala Nasri performed in Damascus.",
-      "A rally took place in Tehran involving volunteers."
+      "Hasan Piker gave an interview to Axios."
     ],
     "unknowns": [
-      "The specific outcome of Sarah Cotte's trial defense strategy.",
-      "The official reaction of the Syrian government to Assala Nasri's return.",
-      "The actual number of participants in the Tehran rally beyond the government's provided figure."
+      "The full legal arguments presented by the defense in the Sarah Cotte case.",
+      "The reaction of the Syrian government to the presence of Assala Nasri.",
+      "The full context of the comments made by Hasan Piker beyond the snippets provided."
     ],
-    "synthesis": "Three separate reports cover a legal acquittal in London, a musical performance in Damascus, and a government-organized rally in Tehran. The reports address unrelated geopolitical and cultural events involving the United Kingdom, Syria, and Iran. Each article provides details concerning individual or state-level activities within these specific regions.",
-    "confidence": "HIGH. The sources represent distinct reporting on three separate, non-overlapping events, and there is no factual contradiction between them.",
+    "synthesis": "These sources report on unrelated events, including a court acquittal in the United Kingdom, a return to Syria by a singer, and political commentary by an American streamer. Each article serves as an independent report on specific societal or cultural occurrences. There is no thematic intersection between the provided texts.",
+    "confidence": "HIGH. The sources cover distinct, unrelated events, making factual consistency irrelevant to the aggregation of these specific snippets.",
     "sources": [
       {
         "id": "art_1789766350518_6xnid",
@@ -66,10 +70,10 @@
         "title": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile"
       },
       {
-        "id": "art_1789755623372_tsgsm",
-        "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iranians rally in biggest show of defiance against US since war began"
+        "id": "art_1789766357843_hzsds",
+        "url": "https://www.foxnews.com/us/hasan-piker-calls-bin-laden-spoiled-brat-labels-911-blowback-axios-interview",
+        "source": "fox",
+        "title": "Hasan Piker calls Bin Laden a ‘spoiled brat,’ labels 9/11 ‘blowback’ in Axios interview"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -147,6 +151,239 @@
         "url": "https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-trump-bashing-chilled-speech-major-saga-renewed",
         "source": "fox",
         "title": "Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0c1c80fcc690dd73036940c7f78e11d7",
+    "topic_label": "US Political Controversies",
+    "event_window_start": "2026-09-18T18:00:41.000Z",
+    "event_window_end": "2026-09-18T21:05:45.000Z",
+    "article_ids": [
+      "art_1789766347322_cd53n",
+      "art_1789755612462_l97ak"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T17:53:24.502Z",
+    "updated_at": "2026-09-19T17:53:24.502Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Tegan Lecheler is the founder and director of the Mothers & Infant Cash Coalition.",
+      "Guaranteed income programs have been a subject of national partisan debate since 2018.",
+      "Claire Valdez is a political candidate in New York seeking to replace a retiring Democrat.",
+      "Claire Valdez has met with members of Mexico's ruling party."
+    ],
+    "source_claims": [
+      "[fox] Tegan Lecheler claims that some conservative lawmakers and advocates have expressed support for direct cash initiatives for mothers and newborns.",
+      "[fox] Tegan Lecheler describes early childhood cash transfers as common-sense.",
+      "[fox] Claire Valdez has pledged to carry a fight inspired by Mexico's struggle for independence into Congress.",
+      "[fox] Claire Valdez has faced criticism regarding her meetings with members of Mexico's ruling party."
+    ],
+    "framing_differences": [
+      "Fox frames the Mothers & Infant Cash Coalition as an entity finding cross-partisan support for cash transfers, while simultaneously framing Claire Valdez's political platform as aligning with socialism and controversial ideological pledges."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Tegan Lecheler claims their support for cash assistance has been praised by the right."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'socialist' to describe Claire Valdez.",
+      "[fox] uses the term 'common-sense' to describe early childhood cash transfers as quoted by Tegan Lecheler."
+    ],
+    "safe_conclusions": [
+      "There are ongoing discussions within the political sphere regarding guaranteed income programs.",
+      "Claire Valdez is involved in a New York primary election and has disclosed meetings with foreign political figures."
+    ],
+    "unknowns": [
+      "The names of specific conservative lawmakers who support the Mothers & Infant Cash Coalition are not provided.",
+      "The specific nature and content of the 'fight' pledged by Claire Valdez remain ambiguous in the provided text."
+    ],
+    "synthesis": "Political discourse in New York involves progressive candidates such as Claire Valdez, who has drawn attention for her associations with Mexico's ruling party. Simultaneously, the Mothers & Infant Cash Coalition reports an effort to find conservative support for cash assistance programs for mothers and infants. These two topics represent different areas of current political activity reported by the source.",
+    "confidence": "HIGH. The sources are consistent within themselves and factual reporting is primarily based on disclosed activities and statements.",
+    "sources": [
+      {
+        "id": "art_1789766347322_cd53n",
+        "url": "https://www.foxnews.com/media/pro-life-vs-socialism-gop-lawmakers-divided-over-controversial-guaranteed-income-programs",
+        "source": "fox",
+        "title": "'Pro-life' vs 'socialism': GOP lawmakers divided over controversial guaranteed income programs"
+      },
+      {
+        "id": "art_1789755612462_l97ak",
+        "url": "https://www.foxnews.com/politics/socialist-claire-valdez-faces-calls-federal-probe-mexico-fight-pledge",
+        "source": "fox",
+        "title": "Socialist Claire Valdez faces calls for federal probe after Mexico ‘fight’ pledge"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7e5c26b1bd0eeb3ac4fd2ff6087e5aaa",
+    "topic_label": "Sports News and Activism",
+    "event_window_start": "2026-09-18T20:25:26.000Z",
+    "event_window_end": "2026-09-18T21:05:25.000Z",
+    "article_ids": [
+      "art_1789766348361_x45r5",
+      "art_1789766351557_wgp9z",
+      "art_1789766356812_hmf10",
+      "art_1789766359909_t2duc"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T17:53:24.502Z",
+    "updated_at": "2026-09-19T17:53:24.502Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Réka György is a former Olympian who previously competed against Lia Thomas.",
+      "Virginia Governor Abigail Spanberger's administration withdrew a proposed regulatory action involving female sports and private spaces that had been initiated under the previous administration.",
+      "Minnesota Vikings coach Kevin O'Connell confirmed Kyler Murray is in concussion protocol following a game against the Green Bay Packers.",
+      "Carson Wentz is scheduled to start the upcoming Minnesota Vikings game against the Chicago Bears due to the injury status of other quarterbacks.",
+      "Lane Kiffin is the head coach of Ole Miss and is preparing for a game against LSU in Oxford, Mississippi.",
+      "New England Patriots head coach Mike Vrabel commented on player TreVeyon Henderson's social activism regarding a Massachusetts custody case."
+    ],
+    "source_claims": [
+      "[fox] Réka György claims the withdrawal of the Virginia regulation 'hurt' female athletes.",
+      "[fox] Dan Dakich claims LSU's visit to Ole Miss involves 'legitimate safety issues' for the coaching staff.",
+      "[fox] Louisiana Governor Jeff Landry reportedly called for military backup regarding the LSU vs. Ole Miss game.",
+      "[fox] Authorities stated the Massachusetts custody case involving TreVeyon Henderson was based on allegations of abuse, though the parents have not been convicted."
+    ],
+    "framing_differences": [
+      "In the report on Réka György, [fox] frames the withdrawal of the regulation as an action that 'hurt' female athletes, whereas the article notes the regulation was previously approved under a different administration without detailing the specific contents of the regulation beyond its intent."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] Lane Kiffin insists that his players have nothing to worry about regarding the atmosphere of the game in Oxford."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'quarterback hijinks' to describe the Minnesota Vikings' personnel situation.",
+      "[fox] uses the term 'hostile homecoming' and 'wall of noise' to describe the environment of the LSU vs. Ole Miss game.",
+      "[fox] uses the term 'painfully aware' when addressing the audience regarding the upcoming football game."
+    ],
+    "safe_conclusions": [
+      "Various sports-related news stories were reported, including political involvement in state sports regulations, NFL injury updates, SEC football game preparations, and NFL player activism.",
+      "Personnel decisions and public statements are currently being monitored across multiple sporting organizations."
+    ],
+    "unknowns": [
+      "The specific details and legal language of the Virginia regulation withdrawn by the Spanberger administration.",
+      "The exact nature of the 'safety issues' cited by Lane Kiffin regarding the game in Oxford.",
+      "The specific content of the mandated counseling mentioned in relation to the Patriots and Mike Vrabel."
+    ],
+    "synthesis": "These reports cover a range of sports-related news, including political controversy over Virginia sports regulations and personnel shifts within the NFL. Coaches in both the NFL and NCAA are managing off-field narratives and player-related issues ahead of scheduled games. The reports provide updates on athlete injury status, coaching decisions, and public stances on social issues.",
+    "confidence": "HIGH. The sources are consistently provided by a single news organization with verifiable, event-specific reporting.",
+    "sources": [
+      {
+        "id": "art_1789766348361_x45r5",
+        "url": "https://www.foxnews.com/outkick-sports/olympic-swimmer-reka-gyorgy-calls-virginia-governor-spanberger-withdrawing-female-sports-regulation",
+        "source": "fox",
+        "title": "Olympic swimmer Réka György calls out Virginia Governor Spanberger for withdrawing female sports regulation"
+      },
+      {
+        "id": "art_1789766351557_wgp9z",
+        "url": "https://www.foxnews.com/outkick-sports/kyler-murray-concussion-door-opens-carson-wentz-vikings-starter",
+        "source": "fox",
+        "title": "Kyler Murray out with concussion so door opens for Carson Wentz as Vikings' new starter – perhaps for a while"
+      },
+      {
+        "id": "art_1789766356812_hmf10",
+        "url": "https://www.foxnews.com/outkick-sports/lane-kiffin-visit-oxford-isnt-first-time-coach-made-unwelcome-return-former-school",
+        "source": "fox",
+        "title": "Lane Kiffin's visit to Oxford isn't the first time a coach made an unwelcome return to his former school"
+      },
+      {
+        "id": "art_1789766359909_t2duc",
+        "url": "https://www.foxnews.com/outkick-sports/patriots-coach-mike-vrabel-about-face-treveyom-henderson-activism-russini-scandal",
+        "source": "fox",
+        "title": "Patriots coach Mike Vrabel does about-face on TreVeyon Henderson's activism after Russini scandal"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2bd6cb2706880a05fcc5ef566470f481",
+    "topic_label": "Middle East Developments",
+    "event_window_start": "2026-09-18T17:23:23.000Z",
+    "event_window_end": "2026-09-18T20:55:57.000Z",
+    "article_ids": [
+      "art_1789766350518_6xnid",
+      "art_1789766355776_fz12t",
+      "art_1789755623372_tsgsm"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-19T14:48:57.388Z",
+    "updated_at": "2026-09-19T14:48:57.388Z",
+    "region_tag": "middle-east",
+    "shared_facts": [],
+    "source_claims": [
+      "[aljazeera] Sarah Cotte was found not guilty by a jury at the Old Bailey regarding charges of supporting Hamas in a speech given in 2023.",
+      "[aljazeera] Assala Nasri performed a concert in Damascus after 15 years of living in exile following her support for the 2011 uprising against Bashar al-Assad.",
+      "[aljazeera] Iranian authorities claim 313,000 volunteers participated in a government-organized rally in Tehran to demonstrate readiness for potential conflict."
+    ],
+    "framing_differences": [
+      "The articles provided cover three distinct and unrelated events: a legal trial in the UK, a cultural event in Syria, and a military rally in Iran, with no shared framing between them."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] The Iranian government claims 313,000 people attended the rally, though the text notes this figure could not be independently verified.",
+      "[aljazeera] Prosecutors claimed Sarah Cotte’s use of the term 'unconditional solidarity' was a 'thinly veiled reference' to Hamas."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'terrorist' to describe Hamas in the context of UK law.",
+      "[aljazeera] uses the term 'Daughter of Damascus' to describe Assala Nasri.",
+      "[aljazeera] uses the term 'defiance' to describe the Iranian government-organized rally."
+    ],
+    "safe_conclusions": [
+      "A London court reached a verdict in the case of Sarah Cotte.",
+      "Assala Nasri performed in Damascus.",
+      "A rally took place in Tehran involving volunteers."
+    ],
+    "unknowns": [
+      "The specific outcome of Sarah Cotte's trial defense strategy.",
+      "The official reaction of the Syrian government to Assala Nasri's return.",
+      "The actual number of participants in the Tehran rally beyond the government's provided figure."
+    ],
+    "synthesis": "Three separate reports cover a legal acquittal in London, a musical performance in Damascus, and a government-organized rally in Tehran. The reports address unrelated geopolitical and cultural events involving the United Kingdom, Syria, and Iran. Each article provides details concerning individual or state-level activities within these specific regions.",
+    "confidence": "HIGH. The sources represent distinct reporting on three separate, non-overlapping events, and there is no factual contradiction between them.",
+    "sources": [
+      {
+        "id": "art_1789766350518_6xnid",
+        "url": "https://www.aljazeera.com/news/2026/9/18/uk-court-clears-woman-of-voicing-support-for-hamas-in-university-speech?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK court clears woman of voicing support for Hamas in university speech"
+      },
+      {
+        "id": "art_1789766355776_fz12t",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/daughter-of-damascus-assala-performs-in-syria-after-15-year-exile?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile"
+      },
+      {
+        "id": "art_1789755623372_tsgsm",
+        "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iranians rally in biggest show of defiance against US since war began"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -17579,299 +17816,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Ukraine's chief prosecutor resigns over call centre corruption scandal"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ca644e3796e181c2efe1f4437d454238",
-    "topic_label": "US-Canada Bombardier Trade Dispute",
-    "event_window_start": "2026-09-07T23:20:24.000Z",
-    "event_window_end": "2026-09-08T17:04:10.000Z",
-    "article_ids": [
-      "art_1788888212628_tafgy",
-      "art_1788826210353_dccxu",
-      "art_1788826211543_fpfj8"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T18:29:49.238Z",
-    "updated_at": "2026-09-08T18:29:49.238Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "President Donald Trump posted a statement on Truth Social on Monday regarding the company Bombardier.",
-      "Bombardier is an aircraft manufacturer based in Canada.",
-      "There is an ongoing trade dispute between the United States and Canada involving tariffs."
-    ],
-    "source_claims": [
-      "[aljazeera] Bombardier stated it employs thousands of workers in the US and utilizes American-made components in its aircraft.",
-      "[bbc] President Trump warned Bombardier that it cannot sell in the US unless it moves manufacturing to the country.",
-      "[guardian] Canada is scheduled to impose retaliatory tariffs ranging from 15% to 50% on US imports worth C$27.6bn."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the event as a dispute over the location of Bombardier's current manufacturing footprint, while the BBC frames the event as part of an escalating trade war between the two nations.",
-      "The Guardian focuses on the broader context of Canadian retaliatory tariffs covering multiple sectors, whereas Al Jazeera and the BBC focus specifically on the rhetoric directed at Bombardier."
-    ],
-    "contested_claims": [
-      "There is a disagreement regarding the status of Bombardier's manufacturing presence; President Trump's posts imply a need for the company to build in the US, while Bombardier states that it already employs US workers and integrates American components."
-    ],
-    "unverified_claims": [
-      "[bbc] The BBC reports that Prime Minister Mark Carney is the current Canadian leader.",
-      "[guardian] The Guardian reports that Prime Minister Mark Carney is the current Canadian leader."
-    ],
-    "loaded_language": [
-      "[bbc] The BBC quotes Trump using the term 'piggybank' to describe how he claims Bombardier treats the United States.",
-      "[aljazeera] Al Jazeera quotes Bombardier describing American suppliers as 'great American companies'."
-    ],
-    "safe_conclusions": [
-      "President Trump has expressed opposition to Bombardier's current business model in the United States.",
-      "Canada is implementing new tariffs on American goods."
-    ],
-    "unknowns": [
-      "The specific mechanism by which the US government intends to block Bombardier sales.",
-      "The official response from the Canadian government to the specific threats directed at Bombardier.",
-      "Verification of the current leadership of Canada, given the sources attribute the role of Prime Minister to Mark Carney."
-    ],
-    "synthesis": "President Donald Trump has publicly demanded that Canadian aircraft manufacturer Bombardier move its production to the United States to maintain access to the American market. This rhetoric occurs against the backdrop of broader trade tensions, with Canada scheduled to implement retaliatory tariffs on a wide range of American imports. Bombardier has responded by emphasizing its existing employment presence and supply chain integration within the United States.",
-    "confidence": "MEDIUM.MEDIUM. While the core facts regarding the trade dispute and Trump's comments are consistent, the sources attribute the Canadian Prime Minister role to Mark Carney, which requires independent verification.",
-    "sources": [
-      {
-        "id": "art_1788888212628_tafgy",
-        "url": "https://www.aljazeera.com/economy/2026/9/8/bombardier-defends-us-manufacturing-amid-trumps-aviation-sales-threat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bombardier defends US manufacturing amid Trump’s aviation sales threat"
-      },
-      {
-        "id": "art_1788826210353_dccxu",
-        "url": "https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump threatens to stop sale of Canadian Bombardier jets in US"
-      },
-      {
-        "id": "art_1788826211543_fpfj8",
-        "url": "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump",
-        "source": "guardian",
-        "title": "Canada’s retaliatory US tariffs set to take effect as trade dispute grows"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f54f5c2243cccda7ad308ad0d5e78101",
-    "topic_label": "Israel-Gaza Conflict and West Bank",
-    "event_window_start": "2026-09-07T21:00:58.000Z",
-    "event_window_end": "2026-09-08T17:04:28.000Z",
-    "article_ids": [
-      "art_1788888211592_w5v0q",
-      "art_1788888218196_6vqbz",
-      "art_1788873266297_mug0o",
-      "art_1788873268445_4o58a",
-      "art_1788856095446_zycia",
-      "art_1788837755919_tcaqx",
-      "art_1788818052465_i5jsm",
-      "art_1788818055727_1wjpn"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T18:29:49.238Z",
-    "updated_at": "2026-09-08T18:29:49.238Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The UK government has announced sanctions and an import ban on goods from Israeli settlements in the West Bank.",
-      "UK Foreign Secretary Ed Miliband issued official statements regarding Israeli settlements and the West Bank.",
-      "The Israeli government has taken retaliatory diplomatic measures against the UK, including the closure of the British consulate in East Jerusalem and entry bans on some UK MPs."
-    ],
-    "source_claims": [
-      "[aljazeera] Israel has killed 1,352 Palestinians and injured 4,511 since the ceasefire began.",
-      "[aljazeera] Israeli strikes destroyed homes in Khan Younis and Bureij camp.",
-      "[guardian] Ed Miliband described settler activity as 'ethnic cleansing' occurring with tacit backing from the Netanyahu government.",
-      "[guardian] The UK government officially declared the Israeli occupation of the West Bank to be unlawful in its entirety.",
-      "[guardian] Israel’s Foreign Minister Gideon Sa’ar announced the closure of the British consulate and entry bans for MPs.",
-      "[guardian] The US ambassador to Israel has criticized the UK's plans for sanctions."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the situation through the lens of humanitarian impact in Gaza and the West Bank, while the Guardian frames it through the lens of diplomatic escalation and bilateral relations between the UK and Israel."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Casualty figures of 1,352 dead and 4,511 injured since the ceasefire.",
-      "[guardian] The claim that the Israeli government provides 'tacit backing' for alleged 'ethnic cleansing' by settlers."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'terrorists' to describe individuals allegedly conducting ethnic cleansing.",
-      "[guardian] uses the term 'ethnic cleansing' to describe settler activity in the West Bank.",
-      "[guardian] uses the term 'furious and escalating row' to describe the diplomatic state between the UK and Israel.",
-      "[aljazeera] uses the term 'devastate' to describe the impact of Israeli strikes on homes."
-    ],
-    "safe_conclusions": [
-      "The United Kingdom has implemented trade sanctions against Israeli settlements.",
-      "Diplomatic tensions have increased between the UK and Israel following the UK's policy shift."
-    ],
-    "unknowns": [
-      "The full scope of the retaliatory measures Israel plans to implement beyond the closure of the consulate and MP entry bans.",
-      "The exact criteria and timeline for the UK's 'comprehensive sanctions regime' mentioned by Ed Miliband."
-    ],
-    "synthesis": "The United Kingdom has introduced trade sanctions and an import ban on goods from Israeli settlements in the West Bank, citing opposition to their expansion and the status of the occupation. In response, the Israeli government has ordered the closure of the British consulate in East Jerusalem and imposed entry bans on specific UK parliamentarians. The situation marks a significant shift in diplomatic relations between the two nations.",
-    "confidence": "HIGH. The sources consistently agree on the core diplomatic actions taken by both the UK and Israel, despite differing on the rhetorical framing of the underlying conflict.",
-    "sources": [
-      {
-        "id": "art_1788888211592_w5v0q",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/israeli-strikes-devastate-homes-displace-families-across-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli strikes devastate homes, displace families across Gaza"
-      },
-      {
-        "id": "art_1788888218196_6vqbz",
-        "url": "https://www.theguardian.com/world/2026/sep/08/israel-close-british-consulate-jerusalem-sanctions",
-        "source": "guardian",
-        "title": "Israel to close British consulate in Jerusalem after sanctions announced"
-      },
-      {
-        "id": "art_1788873266297_mug0o",
-        "url": "https://www.theguardian.com/world/2026/sep/08/uk-accuses-israeli-terrorists-ethnic-cleansing-west-bank-government-backing",
-        "source": "guardian",
-        "title": "UK accuses Israeli ‘terrorists’ of ethnic cleansing in West Bank with government backing"
-      },
-      {
-        "id": "art_1788873268445_4o58a",
-        "url": "https://www.aljazeera.com/news/2026/9/8/uk-announces-sanctions-on-illegal-israeli-settlements?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK announces sanctions on illegal Israeli settlements"
-      },
-      {
-        "id": "art_1788856095446_zycia",
-        "url": "https://www.theguardian.com/politics/live/2026/sep/08/uk-us-trade-israel-sanctions-labour-ed-miliband-farage-latest-news-updates",
-        "source": "guardian",
-        "title": "UK-US trade could suffer as a result of sanctions for illegal Israeli settlements, American ambassador warns – UK politics live"
-      },
-      {
-        "id": "art_1788837755919_tcaqx",
-        "url": "https://www.foxnews.com/world/uk-moves-sanction-israeli-settlements-pm-burnham-risks-clash-trump-report",
-        "source": "fox",
-        "title": "UK moves to sanction Israeli settlements as PM Burnham risks clash with Trump: report"
-      },
-      {
-        "id": "art_1788818052465_i5jsm",
-        "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Palestinian parents fear for children's lives at school as settler attacks grow"
-      },
-      {
-        "id": "art_1788818055727_1wjpn",
-        "url": "https://www.aljazeera.com/news/2026/9/7/israels-removal-of-gaza-rubble-risk-to-war-crimes-evidence-un?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s removal of Gaza rubble risk to war crimes evidence: UN"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3ce4413a3fdc572f543c8c0d3621251f",
-    "topic_label": "Tensions in Strait of Hormuz",
-    "event_window_start": "2026-09-07T21:17:12.000Z",
-    "event_window_end": "2026-09-08T16:27:43.000Z",
-    "article_ids": [
-      "art_1788888226443_j0gfn",
-      "art_1788873265083_w3bc3",
-      "art_1788856093014_i2qt0",
-      "art_1788818051329_ngc8r"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T18:29:49.238Z",
-    "updated_at": "2026-09-08T18:29:49.238Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Attacks have occurred against energy facilities in Saudi Arabia.",
-      "The attacks have been attributed to the Houthis.",
-      "Global oil prices have seen an increase, with Brent crude approaching or exceeding $98 per barrel.",
-      "Tensions exist regarding shipping and energy production in the Middle East."
-    ],
-    "source_claims": [
-      "[fox] claims Houthi rebels struck Saudi Arabia with dozens of ballistic missiles and drones.",
-      "[fox] claims President Donald Trump holds Iran responsible for Houthi actions.",
-      "[guardian] claims attacks on Saudi energy facilities wounded more than 70 people.",
-      "[aljazeera] claims the US struck three Iranian oil tankers on Saturday.",
-      "[aljazeera] claims the IRGC stated it struck three tankers and three US-linked vessels."
-    ],
-    "framing_differences": [
-      "[fox] frames the events as a threat to US consumers and a logistical nightmare involving Iran-backed aggression, whereas [aljazeera] frames the events within the context of a six-month US-Iran war and ongoing diplomatic efforts by Qatar to resolve the conflict.",
-      "[guardian] focuses primarily on the financial market implications and the rising cost of oil, while [fox] emphasizes the geopolitical threat and the culpability of Iran."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims the attacks threaten a second major oil chokepoint in addition to the Strait of Hormuz.",
-      "[guardian] claims more than 70 people were wounded in the attacks on Saudi facilities.",
-      "[aljazeera] claims the US struck three Iranian oil tankers."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'logistical nightmare' to describe the impact of the attacks.",
-      "[guardian] uses the term 'Iran-aligned' to describe the Houthis.",
-      "[fox] uses the term 'Iran-backed' to describe the Houthis."
-    ],
-    "safe_conclusions": [
-      "Energy facilities in Saudi Arabia have been targeted by attacks attributed to Houthi rebels.",
-      "Brent crude oil prices have experienced a notable increase recently."
-    ],
-    "unknowns": [
-      "The full extent of the damage caused to specific Saudi energy facilities.",
-      "The official casualty counts for all reported attacks.",
-      "The precise diplomatic progress regarding the proposed 'new ideas' mentioned by Qatar."
-    ],
-    "synthesis": "Recent attacks on Saudi Arabian energy facilities by Houthi forces have contributed to a significant rise in global oil prices. Simultaneously, escalating maritime strikes between the United States and Iran have increased instability in the Strait of Hormuz. Diplomatic efforts led by Qatar are underway in an attempt to address the ongoing conflict between the United States and Iran.",
-    "confidence": "MEDIUM: While all sources agree on the occurrence of attacks and rising oil prices, the specific details regarding casualties and the extent of military strikes vary between reports.",
-    "sources": [
-      {
-        "id": "art_1788888226443_j0gfn",
-        "url": "https://www.foxnews.com/politics/iran-backed-attacks-threaten-second-major-oil-chokepoint-new-risk-emerges-us-consumers",
-        "source": "fox",
-        "title": "Iran-backed attacks threaten a second major oil chokepoint as new risk emerges for US consumers"
-      },
-      {
-        "id": "art_1788873265083_w3bc3",
-        "url": "https://www.aljazeera.com/news/2026/9/8/qatar-says-reopening-strait-of-hormuz-unconditionally-is-a-priority?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Qatar says reopening Strait of Hormuz ‘unconditionally’ is a priority"
-      },
-      {
-        "id": "art_1788856093014_i2qt0",
-        "url": "https://www.theguardian.com/business/live/2026/sep/08/oil-price-approaches-100-a-barrel-saudi-attacks-bank-of-england-latest-news-updates",
-        "source": "guardian",
-        "title": "Oil price approaches $100 a barrel after attacks on Saudi oil facilities – business live"
-      },
-      {
-        "id": "art_1788818051329_ngc8r",
-        "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
