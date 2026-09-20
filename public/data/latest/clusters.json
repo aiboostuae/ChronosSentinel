@@ -1,5 +1,96 @@
 [
   {
+    "cluster_id": "cdfeed2ecfd0d60a02b0e63abd16e49b",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-19T22:00:17.000Z",
+    "event_window_end": "2026-09-19T22:13:46.000Z",
+    "article_ids": [
+      "art_1789856943942_4lsvs",
+      "art_1789856945053_rvbd5",
+      "art_1789856946092_56onm",
+      "art_1789856947134_mg08l",
+      "art_1789856948174_6x5yb"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-20T19:50:53.904Z",
+    "updated_at": "2026-09-20T19:50:53.904Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian] A toddler named Noah Woods died in Suffolk after going missing near a playground in Brantham.",
+      "[fox] An ESPN reporter claimed she 'made it out alive' after interviewing Bill Belichick.",
+      "[fox] Jennifer Buckley was charged with obstruction after her son was found hiding in her crawl space in New Jersey.",
+      "[fox] CabinCrew24 states a 'hotel room autopsy' safety check is used by flight attendants to manage different hotel security levels.",
+      "[aljazeera] Saudi-led coalition forces intercepted a ballistic missile fired by Houthi forces at Riyadh."
+    ],
+    "framing_differences": [
+      "The articles provided cover entirely distinct events; therefore, no direct framing comparisons regarding a single event can be made across these sources."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] An ESPN reporter claimed she 'made it out alive' after an interview with Bill Belichick.",
+      "[guardian] About 1,300 members of the public joined a search for Noah Woods.",
+      "[aljazeera] Houthi forces attempted to target civilians and infrastructure in Bisha, Taif, Farasan and Yanbu."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'vortex' to describe Bill Belichick sideline interviews.",
+      "[fox] uses the term 'surly' to describe Bill Belichick.",
+      "[fox] uses the term 'chew up and spit out' to describe Bill Belichick's behavior toward reporters.",
+      "[aljazeera] uses the term 'Iran-backed' to describe the Houthi group."
+    ],
+    "safe_conclusions": [
+      "The provided text contains five distinct, unrelated news reports regarding separate events occurring in different locations."
+    ],
+    "unknowns": [
+      "The provided text does not contain enough information to establish connections between these disparate news reports, nor does it provide a singular event for cross-analysis."
+    ],
+    "synthesis": "The provided news articles cover five unrelated topics: the tribute to a deceased toddler in Suffolk, safety practices for flight attendants, a criminal charge against a New Jersey mother, a missile interception in Saudi Arabia, and a sports-related interview in North Carolina. Each report functions independently and focuses on a unique geographical and thematic subject matter. No common event links these articles.",
+    "confidence": "HIGH; The articles are distinct news reports with no overlapping subject matter, rendering factual consistency analysis inapplicable.",
+    "sources": [
+      {
+        "id": "art_1789856943942_4lsvs",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/19/footballers-fans-noah-woods-suffolk-toddler-death-ipswich-town-everton",
+        "source": "guardian",
+        "title": "Footballers and fans pay tribute to Noah Woods after toddler’s death in Suffolk"
+      },
+      {
+        "id": "art_1789856945053_rvbd5",
+        "url": "https://www.foxnews.com/travel/flight-attendants-reveal-90-second-hotel-room-autopsy-save-your-life",
+        "source": "fox",
+        "title": "Flight attendants reveal 90-second 'hotel room autopsy' that could save your life"
+      },
+      {
+        "id": "art_1789856946092_56onm",
+        "url": "https://www.foxnews.com/us/new-jersey-mom-charged-obstruction-missing-son-found-hiding-crawl-space",
+        "source": "fox",
+        "title": "New Jersey mom charged with obstruction after 'missing' son found hiding in her crawl space"
+      },
+      {
+        "id": "art_1789856947134_mg08l",
+        "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh"
+      },
+      {
+        "id": "art_1789856948174_6x5yb",
+        "url": "https://www.foxnews.com/outkick-sports/espn-reporter-claims-made-alive-vintage-bill-belichick-sideline-interview",
+        "source": "fox",
+        "title": "ESPN reporter claims she 'made it out alive' after vintage Bill Belichick sideline interview"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "b48fc0fe6b9e4acaed9ce3a26a4658e4",
     "topic_label": "Conflict in the Middle East",
     "event_window_start": "2026-09-19T20:32:17.000Z",
@@ -17727,81 +17818,6 @@
         "url": "https://www.theguardian.com/us-news/2026/sep/08/new-hampshire-primary-democrats-republicans",
         "source": "guardian",
         "title": "New Hampshire voters head to polls in race crucial to Democrats’ Senate hopes"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "26bed6475b0153ec49ec715439456403",
-    "topic_label": "UK Social and Political Unrest",
-    "event_window_start": "2026-09-08T19:13:41.000Z",
-    "event_window_end": "2026-09-08T22:28:56.000Z",
-    "article_ids": [
-      "art_1788908735470_tajrg",
-      "art_1788898706764_3ghfx"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-08T23:44:12.567Z",
-    "updated_at": "2026-09-08T23:44:12.567Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Hundreds of masked individuals protested at UK ports over the weekend.",
-      "The protests were directed against immigration via small boats.",
-      "Police in Kent and Hampshire stated they were surprised by the scale of the protests."
-    ],
-    "source_claims": [
-      "[aljazeera] claims that masked men shut down UK ports over the weekend.",
-      "[guardian] claims that Whitehall officials are questioning why laws against mask-wearing at demonstrations were not enforced.",
-      "[guardian] claims that Kent police admitted to mishandling warnings regarding potential trouble.",
-      "[guardian] claims that police believe the protests were far-right inspired and organized to avoid detection."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the event as 'anti-migrant protesters' while The Guardian frames the event as 'far-right' protests.",
-      "The Guardian focuses on the government's response and police intelligence failures, whereas Al Jazeera focuses on the momentum of the groups involved."
-    ],
-    "contested_claims": [
-      "The Guardian reports that Kent police's initial claims of having no warning were contradicted by evidence, whereas Al Jazeera does not mention the internal police communication timeline."
-    ],
-    "unverified_claims": [
-      "[guardian] claims that there is evidence emerging that protesters were specifically determined to avoid detection."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'far-right' to characterize the protest groups.",
-      "[aljazeera] uses the term 'anti-migrant' to describe the protesters."
-    ],
-    "safe_conclusions": [
-      "Protests occurred at UK ports involving masked individuals during the weekend.",
-      "Police forces in Kent and Hampshire encountered protests against small boat immigration.",
-      "The government has requested improved intelligence gathering following the weekend events."
-    ],
-    "unknowns": [
-      "The specific identity of the groups organizing the protests.",
-      "The exact legal rationale for not enforcing mask-wearing laws during these specific protests.",
-      "The total number of participants across all protest locations."
-    ],
-    "synthesis": "Masked protesters gathered at UK ports over the weekend to demonstrate against immigration via small boats. Government officials have requested that police improve intelligence gathering and have raised questions regarding the enforcement of mask-wearing laws at demonstrations. Kent police have acknowledged issues in their handling of intelligence regarding these events.",
-    "confidence": "HIGH; Sources are consistent regarding the occurrence of the protests and the subsequent government and police response, with differences primarily in terminology and focus.",
-    "sources": [
-      {
-        "id": "art_1788908735470_tajrg",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/8/what-we-know-about-masked-anti-migrant-protesters-in-the-uk?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What we know about masked anti-migrant protesters in the UK"
-      },
-      {
-        "id": "art_1788898706764_3ghfx",
-        "url": "https://www.theguardian.com/uk-news/2026/sep/08/far-right-port-protests-police-intelligence-gathering-dover-portsmouth",
-        "source": "guardian",
-        "title": "Far-right port protests: police told to improve intelligence gathering"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

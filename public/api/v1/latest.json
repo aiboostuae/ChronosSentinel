@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-09-20T17:26:58.980Z",
+  "generated_at": "2026-09-20T19:50:58.611Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 165,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "cdfeed2ecfd0d60a02b0e63abd16e49b",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-09-19T22:00:17.000Z",
+      "event_window_end": "2026-09-19T22:13:46.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided news articles cover five unrelated topics: the tribute to a deceased toddler in Suffolk, safety practices for flight attendants, a criminal charge against a New Jersey mother, a missile interception in Saudi Arabia, and a sports-related interview in North Carolina. Each report functions independently and focuses on a unique geographical and thematic subject matter. No common event links these articles.",
+      "confidence": "HIGH; The articles are distinct news reports with no overlapping subject matter, rendering factual consistency analysis inapplicable.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/sep/19/footballers-fans-noah-woods-suffolk-toddler-death-ipswich-town-everton",
+          "title": "Footballers and fans pay tribute to Noah Woods after toddler’s death in Suffolk"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/travel/flight-attendants-reveal-90-second-hotel-room-autopsy-save-your-life",
+          "title": "Flight attendants reveal 90-second 'hotel room autopsy' that could save your life"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/new-jersey-mom-charged-obstruction-missing-son-found-hiding-crawl-space",
+          "title": "New Jersey mom charged with obstruction after 'missing' son found hiding in her crawl space"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
+          "title": "Saudi-led coalition says defences intercept Houthi missile fired at Riyadh"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/espn-reporter-claims-made-alive-vintage-bill-belichick-sideline-interview",
+          "title": "ESPN reporter claims she 'made it out alive' after vintage Bill Belichick sideline interview"
+        }
+      ],
+      "updated_at": "2026-09-20T19:50:53.904Z"
+    },
     {
       "cluster_id": "b48fc0fe6b9e4acaed9ce3a26a4658e4",
       "topic_label": "Conflict in the Middle East",
@@ -320,38 +361,29 @@
         }
       ],
       "updated_at": "2026-09-19T14:48:57.388Z"
-    },
-    {
-      "cluster_id": "ba52f98941e9b5df9ff9ded6a917d892",
-      "topic_label": "UK Royal Family",
-      "event_window_start": "2026-09-18T17:40:49.000Z",
-      "event_window_end": "2026-09-18T20:30:45.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "King Charles issued a statement regarding claims made by Charles Spencer in a new memoir.",
-        "The memoir by Charles Spencer is titled 'Swan Song: Diana, My Sister'."
-      ],
-      "source_differences": [],
-      "synthesis": "King Charles has released a formal statement in response to claims made by Charles Spencer in his new memoir concerning the death of Princess Diana. Buckingham Palace suggested that grief may have impacted Spencer's memory, a point Spencer publicly disputed in an interview. Separately, reports indicate ongoing tensions involving Prince Harry and Meghan Markle regarding their activities in England.",
-      "confidence": "HIGH. The sources agree on the existence of the memoir and the occurrence of the public disagreement between the Palace and Charles Spencer.",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-king-charles-draws-line-sand-harry-meghans-school-run-issues",
-          "title": "Fox News Entertainment newsletter: King Charles draws ‘line in the sand'; Harry and Meghan's school-run issues"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/sep/18/earl-spencer-doubles-down-on-claims-about-monstrous-call-with-king-charles-after-dianas-death",
-          "title": "Earl Spencer doubles down on claims about ‘monstrous’ call with King Charles after Diana’s death"
-        }
-      ],
-      "updated_at": "2026-09-19T11:30:54.106Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-cdfeed2e",
+      "title": "Fallback Synthesis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping"
+      ],
+      "why_it_matters": "The provided news articles cover five unrelated topics: the tribute to a deceased toddler in Suffolk, safety practices for flight attendants, a criminal charge against a New Jersey mother, a missile interception in Saudi Arabia, and a sports-related interview in North Carolina. Each report functions independently and focuses on a unique geographical and thematic subject matter. No common event links these articles.",
+      "evidence_summary": "3 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "cdfeed2ecfd0d60a02b0e63abd16e49b",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-20T19:50:53.904Z"
+    },
     {
       "id": "impact-b48fc0fe",
       "title": "Conflict in the Middle East",
@@ -525,26 +557,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-09-19T11:30:54.106Z"
-    },
-    {
-      "id": "impact-77bbcf8d",
-      "title": "International Humanitarian and Safety Issues",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Reports indicate separate fatal incidents in Germany and Nigeria. In Germany, authorities are investigating deaths linked to potential malaria exposure near Frankfurt Airport. In Nigeria, 37 suspected illegal goldminers died while in the custody of the NSCDC, leading to protests and a local curfew.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "77bbcf8d627551195461a7ec3871fc1a",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-19T14:48:57.388Z"
     }
   ]
 }
