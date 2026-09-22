@@ -1,5 +1,92 @@
 [
   {
+    "cluster_id": "b72bafafbb176b20c7ca83620752e94b",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-22T13:52:34.000Z",
+    "event_window_end": "2026-09-22T14:03:20.000Z",
+    "article_ids": [
+      "art_1790086006059_j9cml",
+      "art_1790086007887_dw639",
+      "art_1790086009395_5ryr5",
+      "art_1790086010672_t36ns",
+      "art_1790086011752_7nngh"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-22T18:07:31.842Z",
+    "updated_at": "2026-09-22T18:07:31.842Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[bbc] The Sri Lanka High Court convicted 15 men and acquitted 9 others regarding the 2019 Easter Sunday bombings.",
+      "[bbc] The 2019 attacks resulted in 270 deaths and over 500 injuries, including 45 foreign nationals.",
+      "[fox] Chicago Public Schools have lost 77,000 students since 2010 and 35% of schools are less than half full.",
+      "[fox] Elected Democrats in Austin, Texas, including Greg Casar, Mike Siegel, and Kirk Watson, criticized ICE following an officer-involved shooting.",
+      "[guardian] Donald Trump arrived at the UN headquarters and stated his message to Vladimir Putin is to 'settle the war.'",
+      "[guardian] The UK Court of Appeal quashed 1976 theft convictions for Christopher Poulter and Kevin Biggs due to evidence involving corrupt police officer DS Derek Ridgewell."
+    ],
+    "framing_differences": [
+      "The source articles cover entirely disparate events and topics, ranging from legal proceedings in Sri Lanka and London to municipal issues in Chicago, local political responses to a shooting in Austin, and international diplomatic statements at the UN."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] The Chicago school system's student loss is described as an 'indictment' of the city and its public school sector.",
+      "[fox] Reactions by Austin Democrats to the ICE shooting are described as 'disqualifying' and spark 'viral outrage'."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'crisis' to describe Chicago's school enrollment levels.",
+      "[fox] uses the term 'war' in the quote: 'It is awful that this war has come...'"
+    ],
+    "safe_conclusions": [],
+    "unknowns": [
+      "The provided text contains articles about five entirely unrelated events, making it impossible to synthesize a single narrative or compare factual accuracy across these disparate reports."
+    ],
+    "synthesis": "The provided articles detail five distinct and unrelated events occurring in different global locations. These reports cover a court ruling in Sri Lanka, school enrollment data in Chicago, political reactions to a shooting in Austin, diplomatic arrival at the UN, and an exoneration in London. There is no thematic or factual overlap between these articles.",
+    "confidence": "HIGH. The articles describe independent events that do not require cross-verification.",
+    "sources": [
+      {
+        "id": "art_1790086006059_j9cml",
+        "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings"
+      },
+      {
+        "id": "art_1790086007887_dw639",
+        "url": "https://www.foxnews.com/opinion/chicago-half-empty-schools-reveal-crisis-city-leaders-refuse-confront",
+        "source": "fox",
+        "title": "Chicago's half-empty schools reveal a crisis city leaders refuse to confront"
+      },
+      {
+        "id": "art_1790086009395_5ryr5",
+        "url": "https://www.foxnews.com/politics/dem-reactions-austin-ice-shooting-spark-viral-outrage-locally-online-disqualifying",
+        "source": "fox",
+        "title": "Dem reactions within moments of Austin ICE shooting spark viral outrage locally, online: 'Disqualifying'"
+      },
+      {
+        "id": "art_1790086010672_t36ns",
+        "url": "https://www.theguardian.com/world/live/2026/sep/22/eu-trump-russia-putin-sanctions-ukraine-greenland-denmark-zelenskyy-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump delivers message to Putin: ‘Settle the war’ - Europe live"
+      },
+      {
+        "id": "art_1790086011752_7nngh",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/22/court-quashes-1976-convictions-corrupt-london-police-officer-derek-ridgewell",
+        "source": "guardian",
+        "title": "Court quashes 1976 convictions over link to corrupt London police officer"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "95fbaf8645da5111e5faa6393f1df058",
     "topic_label": "Trump media access dispute",
     "event_window_start": "2026-09-22T01:30:35.000Z",
@@ -17694,98 +17781,6 @@
         "url": "https://www.theguardian.com/world/2026/sep/08/anti-afd-protests-germany-far-right-berlin-mecklenburg-western-pomerania",
         "source": "guardian",
         "title": "Anti-AfD protests sweep Germany as far right closes in on two more states"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "643be16e250c9bca166b01ca88afb5f4",
-    "topic_label": "Ukraine Conflict and Corruption",
-    "event_window_start": "2026-09-08T03:08:28.000Z",
-    "event_window_end": "2026-09-08T17:00:31.000Z",
-    "article_ids": [
-      "art_1788888214788_0pddb",
-      "art_1788856098937_v0kx1",
-      "art_1788837749659_oy1rh"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-09T01:39:20.426Z",
-    "updated_at": "2026-09-09T01:39:20.426Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Ukrainian Prosecutor General Ruslan Kravchenko has resigned from his post.",
-      "The resignation follows corruption allegations and investigations into illegal call centers.",
-      "Russian forces have resumed air strikes on Kyiv."
-    ],
-    "source_claims": [
-      "[guardian_1] Claims that anti-corruption investigators used ladders to raid Kravchenko's office.",
-      "[guardian_1] Claims that the alleged scheme involved officials receiving cash to protect illegal phone scam call centers.",
-      "[guardian_1] Claims Kravchenko resigned after meeting with President Volodymyr Zelenskyy.",
-      "[guardian_2] Claims Kravchenko released a statement calling his resignation a political decision to avoid political confrontation.",
-      "[guardian_2] Claims the resignation adds to challenges for Zelenskyy following a summer government reshuffle and political crisis.",
-      "[aljazeera] Claims that two residential buildings were damaged by Russian air raids in Kyiv on Tuesday morning.",
-      "[aljazeera] Claims that drones struck civilian areas in Kyiv, Boryspil, and Fastiv districts.",
-      "[aljazeera] Claims a Ukrainian drone attack injured several people in Saratov, according to regional Governor Roman Busargin."
-    ],
-    "framing_differences": [
-      "guardian_1 and guardian_2 frame the resignation of Ruslan Kravchenko differently: guardian_1 focuses on the dramatic raid using ladders and meetings with anti-corruption agency heads, while guardian_2 positions the resignation as a political decision to avoid confrontation amid broader geopolitical developments.",
-      "guardian_2 and aljazeera frame the resumption of Russian strikes on Kyiv differently: guardian_2 mentions the strikes as concurrent context to Ukrainian political instability, whereas aljazeera frames the strikes as the direct end of a three-day pause coinciding with the departure of US envoys."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian_1] Investigators used ladders to raid Kravchenko's office.",
-      "[guardian_1] Corruption officials received cash to protect illegal phone scams.",
-      "[guardian_2] Kravchenko stated his resignation was a political decision to avoid political confrontation.",
-      "[aljazeera] Two residential buildings in Kyiv were damaged by early Tuesday air raids.",
-      "[aljazeera] Drones hit targets in Boryspil and Fastiv districts.",
-      "[aljazeera] A Ukrainian drone attack injured several people in Saratov."
-    ],
-    "loaded_language": [
-      "[guardian_1] uses the term 'sprawling criminal scheme' to describe the corruption allegations.",
-      "[guardian_1] describes the situation as a 'major corruption scandal that threatens to embarrass Volodymyr Zelenskyy.'",
-      "[guardian_2] describes the summer as 'tricky' and a political crisis as 'linked to his controversial decision.'",
-      "[aljazeera] quotes the Kyiv military administration's use of the term 'enemy' to describe the drone threat."
-    ],
-    "safe_conclusions": [
-      "Ukrainian Prosecutor General Ruslan Kravchenko has resigned amidst a corruption investigation.",
-      "Kravchenko denies personal involvement in the alleged corruption scheme.",
-      "Russian air strikes have targeted Kyiv following a period of paused attacks."
-    ],
-    "unknowns": [
-      "Whether Ruslan Kravchenko had personal knowledge of or involvement in the alleged corruption.",
-      "The identities and specific number of officials involved in the money laundering scheme.",
-      "The exact casualties and extent of damage caused by the drone strikes in Kyiv, Boryspil, Fastiv, and Saratov.",
-      "The details of the discussions held by the two US envoys during their visit to Ukraine."
-    ],
-    "synthesis": "Ukrainian Prosecutor General Ruslan Kravchenko has resigned amid investigations into corruption involving the protection of illegal call centers, though he denies personal wrongdoing and terms it a political decision. Concurrently, Russia has resumed air strikes on Kyiv and surrounding districts following the expiration of a three-day pause. The political resignation and the resumption of military attacks present ongoing domestic and security challenges for President Volodymyr Zelenskyy's administration.",
-    "confidence": "MEDIUM",
-    "sources": [
-      {
-        "id": "art_1788888214788_0pddb",
-        "url": "https://www.theguardian.com/world/2026/sep/08/ukraine-prosecutor-general-ruslan-kravchenko-quits-anti-corruption-agents-raid-office",
-        "source": "guardian",
-        "title": "Ukraine’s prosecutor general quits after anti-corruption agents raid his office"
-      },
-      {
-        "id": "art_1788856098937_v0kx1",
-        "url": "https://www.theguardian.com/world/live/2026/sep/08/ukraine-russia-war-zelesnkyy-putin-ruslan-kravchenko-prosecutor-general-germany-france-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Ukraine’s prosecutor general resigns after corruption allegations as Russia resumes strikes on Kyiv – Europe live"
-      },
-      {
-        "id": "art_1788837749659_oy1rh",
-        "url": "https://www.aljazeera.com/news/2026/9/8/russia-strikes-kyiv-as-three-day-pause-during-us-envoy-visits-ends?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia strikes Kyiv as three-day pause during US envoy visits ends"
       }
     ],
     "model_used": "gemini-3.5-flash"
