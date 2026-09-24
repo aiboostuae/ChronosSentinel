@@ -1,5 +1,83 @@
 [
   {
+    "cluster_id": "31e2d43880ad7d7ff9a0a7b34793ea99",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-24T13:36:45.000Z",
+    "event_window_end": "2026-09-24T13:43:09.000Z",
+    "article_ids": [
+      "art_1790258198855_m4ija",
+      "art_1790258200053_db5jr",
+      "art_1790258201270_a0i2g",
+      "art_1790258202437_8rvky",
+      "art_1790258203502_1r2ua"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-24T18:00:19.800Z",
+    "updated_at": "2026-09-24T18:00:19.800Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Fallback activated."
+    ],
+    "source_claims": [
+      "No data available."
+    ],
+    "framing_differences": [
+      "No comparative data."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [],
+    "loaded_language": [],
+    "safe_conclusions": [],
+    "unknowns": [
+      "No analysis possible."
+    ],
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "confidence": "LOW (Deterministic Fallback)",
+    "sources": [
+      {
+        "id": "art_1790258198855_m4ija",
+        "url": "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+        "source": "guardian",
+        "title": "Fears of return to war as Tigray rebels launch offensive against Ethiopian army"
+      },
+      {
+        "id": "art_1790258200053_db5jr",
+        "url": "https://www.aljazeera.com/news/2026/9/24/israel-offers-cash-to-firms-hit-by-trade-ban-europe-dithers-on-new-rules?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel offers cash to firms hit by trade ban; Europe dithers on new rules"
+      },
+      {
+        "id": "art_1790258201270_a0i2g",
+        "url": "https://www.foxnews.com/politics/reporters-notebook-guide-college-sports-vote-senates-ohio-showdown",
+        "source": "fox",
+        "title": "Reporter's Notebook: A guide to the college sports vote and Senate’s Ohio showdown"
+      },
+      {
+        "id": "art_1790258202437_8rvky",
+        "url": "https://www.theguardian.com/us-news/live/2026/sep/24/white-house-press-xi-jinping-netanyahu-trump-latest-news-updates",
+        "source": "guardian",
+        "title": "CNN, Politico, and MS Now reporters blocked from White House hours after judge temporarily restores access – live"
+      },
+      {
+        "id": "art_1790258203502_1r2ua",
+        "url": "https://www.theguardian.com/us-news/2026/sep/24/ice-car-crash-death-michigan",
+        "source": "guardian",
+        "title": "Democrats demand answers after man dies in car crash during ICE traffic stop in Michigan"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "416114e712bb75ecf20a830a17c8b51c",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-09-24T07:52:18.000Z",
@@ -17415,102 +17493,5 @@
       }
     ],
     "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "20a4777691bb90d4230c35389a870680",
-    "topic_label": "US Political Events and Security",
-    "event_window_start": "2026-09-10T02:05:20.000Z",
-    "event_window_end": "2026-09-10T02:55:14.000Z",
-    "article_ids": [
-      "art_1789009585931_tpduj",
-      "art_1789009588352_fvxf4",
-      "art_1789009591607_xe0cl",
-      "art_1789009598999_42ecr",
-      "art_1789009602639_u1peg"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-10T12:50:26.994Z",
-    "updated_at": "2026-09-10T12:50:26.994Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "An event described as a 'midterm convention' took place in Dallas involving the Republican National Committee.",
-      "Senator John Fetterman recorded a video introduction for Senator Dave McCormick."
-    ],
-    "source_claims": [
-      "[fox] claims Sen. John Fetterman has expressed interest in potentially leaving the Democratic Party.",
-      "[fox] claims Sen. John Fetterman describes himself as a 'commonsense Democrat' who rejects socialism.",
-      "[guardian] claims Donald Trump stated he would give $5,000 to every American citizen if Republicans retain control of the House and Senate.",
-      "[guardian] claims the 'Trump dividend' policy would cost more than $1 trillion.",
-      "[fox] claims ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
-      "[guardian] claims Rhode Island governor Dan McKee lost his primary election to Helena Foulkes."
-    ],
-    "framing_differences": [
-      "Fox frames John Fetterman as a 'rogue Senate Democrat' potentially 'toying with the idea of leaving his party,' whereas The Guardian does not mention Fetterman in its reporting on the convention."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Tom Homan characterizes the potential dismantling of ICE as having 'dangerous consequences'.",
-      "[guardian] claims Donald Trump provided no details regarding the funding source or legality of a $5,000 payment to citizens."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'rogue Senate Democrat' to describe Senator John Fetterman.",
-      "[fox] uses the term 'Trump-centric' to describe the RNC convention.",
-      "[fox] uses the term 'border czar' to describe Tom Homan.",
-      "[fox] uses the term 'slams' to describe Tom Homan's critique of progressive policies."
-    ],
-    "safe_conclusions": [
-      "Senator John Fetterman participated in a video for the RNC midterm convention.",
-      "The Republican National Committee held a midterm convention in Dallas.",
-      "Dan McKee lost a primary election in Rhode Island to Helena Foulkes."
-    ],
-    "unknowns": [
-      "The specific current party affiliation or future intentions of Senator John Fetterman regarding his membership in the Democratic caucus.",
-      "The legislative feasibility or funding mechanisms for the 'Trump dividend' described by the Guardian.",
-      "The official status of Rhode Island's Washington bridge construction timeline beyond the 2028 estimate mentioned by the Guardian."
-    ],
-    "synthesis": "The provided articles detail disparate events, including an RNC midterm convention in Dallas, the results of a Rhode Island gubernatorial primary, and statements from Donald Trump regarding economic proposals. Senator John Fetterman appeared in a video at the RNC convention, while other news covers historical 9/11 commemorations and ICE deportation statistics. These reports cover independent political and governmental developments occurring in separate jurisdictions.",
-    "confidence": "HIGH. The sources report on distinct, unrelated events without direct factual conflict regarding the core details of each specific story.",
-    "sources": [
-      {
-        "id": "art_1789009585931_tpduj",
-        "url": "https://www.foxnews.com/politics/fetterman-teases-true-loyalty-surprise-appearance-gop-convention",
-        "source": "fox",
-        "title": "Fetterman teases where his true loyalty lies after surprise appearance at GOP convention"
-      },
-      {
-        "id": "art_1789009588352_fvxf4",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/09/donald-trump-rnc-republican-national-convention-jd-vance-midterms-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump claims he will give $5,000 to every American if Republicans win the midterms as he defends Iran war and tariffs– live"
-      },
-      {
-        "id": "art_1789009591607_xe0cl",
-        "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
-        "source": "fox",
-        "title": "EXCLUSIVE: 25 years after 9/11, ICE says more than 2K known or suspected terrorists have been deported"
-      },
-      {
-        "id": "art_1789009598999_42ecr",
-        "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
-        "source": "fox",
-        "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
-      },
-      {
-        "id": "art_1789009602639_u1peg",
-        "url": "https://www.theguardian.com/us-news/2026/sep/09/rhode-island-primary-results-dan-mckee",
-        "source": "guardian",
-        "title": "Rhode Island’s Democratic governor loses primary amid anger over bridge"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
