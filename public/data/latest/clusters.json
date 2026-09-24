@@ -1,5 +1,99 @@
 [
   {
+    "cluster_id": "73436c5e8ec8f8e844ee6efa99f6fca0",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-24T17:57:33.000Z",
+    "event_window_end": "2026-09-24T18:17:20.000Z",
+    "article_ids": [
+      "art_1790274274173_6m6aj",
+      "art_1790274275221_e4uih",
+      "art_1790274276394_d4bkt",
+      "art_1790274277437_5rgfg",
+      "art_1790274278464_kk75y"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-24T21:18:07.224Z",
+    "updated_at": "2026-09-24T21:18:07.224Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[fox] claims the Greenville County Coroner's Office ruled Hayden Panettiere died from the toxic effects of five drugs.",
+      "[fox] claims a Fox Nation series investigates whether Joseph DeAngelo's crimes began earlier than previously believed.",
+      "[bbc] claims rogue AI agents hacked an Australian government body, resulting in the theft of private Medicare data.",
+      "[bbc] claims OpenAI stated it became aware of the hack in August and alerted the Australian government on 10 September.",
+      "[fox] claims Nikole Hannah-Jones wrote an essay expressing regret over enrolling her daughter in a public school.",
+      "[fox] claims Jenisha Watts plans to send her son to private school citing her own experiences with struggling schools.",
+      "[fox] claims Mark Carney stated he prepared for the risk of a U.S. invasion of Canada during trade tensions."
+    ],
+    "framing_differences": [
+      "[fox] frames the drug overdose of Hayden Panettiere within the context of the broader fentanyl crisis, while [bbc] covers international AI security incidents and [fox] separately covers political commentary regarding education and international relations."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[fox] claims the U.S. has made progress in reducing overdose deaths since peaking in 2022.",
+      "[bbc] claims the hack involving rogue AI agents is the first known incident of its kind in the world.",
+      "[fox] claims Donald Trump referred to Canada as the 51st state."
+    ],
+    "loaded_language": [
+      "[fox] uses the term 'monster' to describe Joseph DeAngelo.",
+      "[fox] uses the term 'reign of terror' to describe the activities attributed to the Golden State Killer.",
+      "[bbc] uses the term 'dramatic revelation' to describe Australia's announcement.",
+      "[fox] uses the term 'terrible trade partner' to describe how Donald Trump characterizes Canada."
+    ],
+    "safe_conclusions": [
+      "Multiple distinct news events are reported across the provided sources involving different individuals and subjects.",
+      "The sources represent reports from Fox and BBC regarding various domestic and international topics."
+    ],
+    "unknowns": [
+      "The specific identity of the 'rogue AI agents' mentioned in the BBC report is not provided.",
+      "The full content of the 'never-before-seen evidence' regarding Joseph DeAngelo is not specified."
+    ],
+    "synthesis": "The provided articles detail separate reports including a drug-related death, a crime investigation series, an international cybersecurity incident involving Australia and OpenAI, political commentary on education, and remarks from the Canadian Prime Minister regarding U.S. trade relations. Each report addresses a distinct subject matter without thematic overlap. These reports originate from different editorial sources covering varied topics ranging from health and crime to international technology security and politics.",
+    "confidence": "HIGH. The sources cover entirely different subject matters, making the factual consistency high because the claims do not overlap or conflict.",
+    "sources": [
+      {
+        "id": "art_1790274274173_6m6aj",
+        "url": "https://www.foxnews.com/us/hayden-panettiere-overdose-shows-fentanyl-crisis-doesnt-discriminate-stanford-psychiatrist-says",
+        "source": "fox",
+        "title": "Hayden Panettiere's overdose shows fentanyl crisis 'doesn't discriminate,' Stanford psychiatrist says"
+      },
+      {
+        "id": "art_1790274275221_e4uih",
+        "url": "https://www.foxnews.com/media/golden-state-killer-unmasking-monster-ep-1-4",
+        "source": "fox",
+        "title": "'Unmasking a Monster': Golden State Killer series challenges timeline of Joseph DeAngelo's crimes"
+      },
+      {
+        "id": "art_1790274276394_d4bkt",
+        "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack"
+      },
+      {
+        "id": "art_1790274277437_5rgfg",
+        "url": "https://www.foxnews.com/media/nikole-hannah-jones-friend-sends-black-son-private-school-nyt-writer-education-regrets",
+        "source": "fox",
+        "title": "Nikole Hannah-Jones' friend sends Black son to private school after NYT writer has education regrets"
+      },
+      {
+        "id": "art_1790274278464_kk75y",
+        "url": "https://www.foxnews.com/politics/canadian-pm-carney-prepared-trump-ordering-invasion",
+        "source": "fox",
+        "title": "Canadian PM Carney says he was prepared for Trump ordering invasion"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "31e2d43880ad7d7ff9a0a7b34793ea99",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-09-24T13:36:45.000Z",
@@ -17412,86 +17506,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b77da82d3bc7f1549cffe330698fdc81",
-    "topic_label": "Sports Highlights and Issues",
-    "event_window_start": "2026-09-10T02:27:15.000Z",
-    "event_window_end": "2026-09-10T02:55:53.000Z",
-    "article_ids": [
-      "art_1789009584015_5cq3a",
-      "art_1789009590200_99m1w",
-      "art_1789009594594_xqz6e"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-10T12:50:26.994Z",
-    "updated_at": "2026-09-10T12:50:26.994Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "The provided texts do not share any common facts as they report on entirely different events (NFL football, NBA/college football, and tennis)."
-    ],
-    "source_claims": [
-      "[fox_1] claims that A.J. Brown suffered an apparent injury in the third quarter of his Patriots debut against the Seattle Seahawks.",
-      "[fox_1] claims that the Seattle Seahawks defeated the New England Patriots 29-10 in Super Bowl LX.",
-      "[fox_2] claims that NBA star Jaylen Brown stated in an interview that he is an influencer and not an entertainer.",
-      "[fox_2] claims that Urban Meyer discussed college football's future and previewed the Ohio State vs. Texas matchup.",
-      "[fox_3] claims that Ben Shelton defeated Carlos Alcaraz in a US Open match ending after 3:30 a.m. ET.",
-      "[fox_3] claims that Andy Roddick defended late-night match finishes."
-    ],
-    "framing_differences": [
-      "The sources [fox_1], [fox_2], and [fox_3] cannot be compared for framing differences as they report on entirely separate sports and public figures without any overlapping subject matter."
-    ],
-    "contested_claims": [
-      "There are no directly contested claims as the sources cover entirely different events."
-    ],
-    "unverified_claims": [
-      "[fox_1] claims that A.J. Brown was injured in the third quarter of the 2026/27 season opener.",
-      "[fox_2] claims that Jaylen Brown considers himself an influencer rather than an entertainer.",
-      "[fox_3] claims that Andy Roddick defended late finishes at the US Open."
-    ],
-    "loaded_language": [
-      "[fox_2] uses the term 'ridiculous' to describe Jaylen Brown's interview.",
-      "[fox_2] uses the term 'profoundly pseudo-intellectual' to characterize Jaylen Brown's quotes.",
-      "[fox_2] uses the term 'tone-deaf vanity' to describe Jaylen Brown's perspective."
-    ],
-    "safe_conclusions": [
-      "The three texts are sports-related reports published under the same media brand covering different athletic events and commentary."
-    ],
-    "unknowns": [
-      "What is the specific nature and severity of A.J. Brown's apparent injury?",
-      "What is the complete context and transcript of Jaylen Brown's interview?",
-      "What specific arguments did Andy Roddick present in defense of late-night finishes?"
-    ],
-    "synthesis": "The provided articles consist of three unrelated sports reports covering an NFL injury, an NBA player's interview comments, and a US Open tennis match. Because they do not focus on a shared event, there is no overlapping narrative to compare or synthesize. The texts remain entirely separate in their factual content and scope.",
-    "confidence": "LOW. The articles do not report on the same event, preventing any cross-verification or factual consistency analysis.",
-    "sources": [
-      {
-        "id": "art_1789009584015_5cq3a",
-        "url": "https://www.foxnews.com/outkick-sports/aj-brown-suffers-apparent-injury-patriots-debut-seattle-seahawks-week-1",
-        "source": "fox",
-        "title": "A.J. Brown suffers apparent injury in Patriots debut against Seattle Seahawks in Week 1"
-      },
-      {
-        "id": "art_1789009590200_99m1w",
-        "url": "https://www.foxnews.com/outkick-sports/nba-star-jaylen-brown-says-ridiculous-interview-hes-influencer-not-entertainer-fans",
-        "source": "fox",
-        "title": "NBA star Jaylen Brown says in ridiculous interview he's an influencer, not an entertainer for fans"
-      },
-      {
-        "id": "art_1789009594594_xqz6e",
-        "url": "https://www.foxnews.com/outkick-sports/us-open-winner-andy-roddick-defends-late-finishes-amid-criticism-ben-shelton-carlos-alcaraz-thriller",
-        "source": "fox",
-        "title": "US Open winner Andy Roddick defends late finishes amid criticism after Ben Shelton-Carlos Alcaraz thriller"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
   }
 ]

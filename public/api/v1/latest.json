@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-09-24T18:00:27.554Z",
+  "generated_at": "2026-09-24T21:18:26.001Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 160,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "73436c5e8ec8f8e844ee6efa99f6fca0",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-09-24T17:57:33.000Z",
+      "event_window_end": "2026-09-24T18:17:20.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided articles detail separate reports including a drug-related death, a crime investigation series, an international cybersecurity incident involving Australia and OpenAI, political commentary on education, and remarks from the Canadian Prime Minister regarding U.S. trade relations. Each report addresses a distinct subject matter without thematic overlap. These reports originate from different editorial sources covering varied topics ranging from health and crime to international technology security and politics.",
+      "confidence": "HIGH. The sources cover entirely different subject matters, making the factual consistency high because the claims do not overlap or conflict.",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/hayden-panettiere-overdose-shows-fentanyl-crisis-doesnt-discriminate-stanford-psychiatrist-says",
+          "title": "Hayden Panettiere's overdose shows fentanyl crisis 'doesn't discriminate,' Stanford psychiatrist says"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/golden-state-killer-unmasking-monster-ep-1-4",
+          "title": "'Unmasking a Monster': Golden State Killer series challenges timeline of Joseph DeAngelo's crimes"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+          "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/nikole-hannah-jones-friend-sends-black-son-private-school-nyt-writer-education-regrets",
+          "title": "Nikole Hannah-Jones' friend sends Black son to private school after NYT writer has education regrets"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/canadian-pm-carney-prepared-trump-ordering-invasion",
+          "title": "Canadian PM Carney says he was prepared for Trump ordering invasion"
+        }
+      ],
+      "updated_at": "2026-09-24T21:18:07.224Z"
+    },
     {
       "cluster_id": "31e2d43880ad7d7ff9a0a7b34793ea99",
       "topic_label": "Fallback Synthesis",
@@ -352,40 +393,29 @@
         }
       ],
       "updated_at": "2026-09-23T13:06:32.584Z"
-    },
-    {
-      "cluster_id": "392b2400248d6ad1e0c79d51c5c59f41",
-      "topic_label": "UK Political Updates",
-      "event_window_start": "2026-09-22T13:28:49.000Z",
-      "event_window_end": "2026-09-22T13:40:01.000Z",
-      "article_count": 2,
-      "source_count": 1,
-      "region_tag": "global",
-      "shared_facts": [
-        "Ed Davey is the leader of the Liberal Democrats.",
-        "The Liberal Democrats have held an annual conference in Brighton.",
-        "The Liberal Democrats commissioned a review into religious inclusion chaired by Richard Newby.",
-        "David Campanale has brought a discrimination case against the Liberal Democrats."
-      ],
-      "source_differences": [],
-      "synthesis": "Liberal Democrat leader Ed Davey has proposed a £17bn income tax cut linked to rejoining EU markets, aimed at attracting former Conservative voters. Simultaneously, the party has launched an internal inquiry into religious inclusion following a discrimination claim by former candidate David Campanale. Campanale is currently seeking damages of £790,000 in a civil case against the party.",
-      "confidence": "HIGH. The sources consist of reports from the same publisher covering different aspects of current party affairs without factual contradiction.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/politics/2026/sep/22/ed-davey-promises-17bn-income-tax-cut-if-lib-dems-are-elected",
-          "title": "Ed Davey promises £17bn income tax cut if Lib Dems are elected"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/politics/2026/sep/22/lib-dems-review-religious-inclusion-david-campanale",
-          "title": "Lib Dems quietly commission review into religious inclusion amid case brought by dropped candidate"
-        }
-      ],
-      "updated_at": "2026-09-23T13:06:32.584Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-73436c5e",
+      "title": "Fallback Synthesis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "cybersecurity",
+        "shipping"
+      ],
+      "why_it_matters": "The provided articles detail separate reports including a drug-related death, a crime investigation series, an international cybersecurity incident involving Australia and OpenAI, political commentary on education, and remarks from the Canadian Prime Minister regarding U.S. trade relations. Each report addresses a distinct subject matter without thematic overlap. These reports originate from different editorial sources covering varied topics ranging from health and crime to international technology security and politics.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "73436c5e8ec8f8e844ee6efa99f6fca0",
+      "related_watchlist_id": "watch-002",
+      "operator_hint": "Alert security operations center (SOC); monitor threat intelligence vectors.",
+      "updated_at": "2026-09-24T21:18:07.224Z"
+    },
     {
       "id": "impact-416114e7",
       "title": "Fallback Synthesis",
@@ -557,28 +587,6 @@
       "corroboration_level": "moderate",
       "source_count": 2,
       "related_cluster_id": "975f38fc94316f4cae039c7bd7a3d5c7",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-23T07:23:22.771Z"
-    },
-    {
-      "id": "impact-27531daf",
-      "title": "UNGA and Ukraine War Diplomacy",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "grid",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Donald Trump has arrived at the United Nations headquarters in New York to address the General Assembly and hold meetings with international leaders. During his arrival, Trump conveyed a message to Russian President Vladimir Putin to 'settle the war.' Simultaneously, reports indicate continued military strikes in Ukraine, resulting in reported casualties and infrastructure damage.",
-      "evidence_summary": "2 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "27531dafacc2de7f8c9e3b7b7e51616c",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-23T07:23:22.771Z"
