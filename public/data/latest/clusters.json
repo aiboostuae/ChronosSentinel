@@ -1,5 +1,98 @@
 [
   {
+    "cluster_id": "416114e712bb75ecf20a830a17c8b51c",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-24T07:52:18.000Z",
+    "event_window_end": "2026-09-24T08:04:14.000Z",
+    "article_ids": [
+      "art_1790238347838_33g76",
+      "art_1790238349133_op9vp",
+      "art_1790238350329_i955t",
+      "art_1790238351377_nsekx",
+      "art_1790238352413_x2d0c"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-24T13:03:42.982Z",
+    "updated_at": "2026-09-24T13:03:42.982Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "World leaders are gathering for the United Nations General Assembly."
+    ],
+    "source_claims": [
+      "[guardian] states Benjamin Netanyahu will deliver a speech at the UN while facing re-election challenges and international condemnation.",
+      "[guardian] states Ed Miliband has accused Israeli settlers of committing ethnic cleansing.",
+      "[aljazeera] states President Donald Trump and President Xi Jinping are scheduled to meet in Washington, DC, to discuss trade, AI, Taiwan, and the US-Israel war on Iran.",
+      "[aljazeera] states the US has proposed an AI notification mechanism to China.",
+      "[aljazeera] states refugees in Cox’s Bazar are experiencing the effects of UN funding cuts."
+    ],
+    "framing_differences": [
+      "The guardian frames the current geopolitical landscape around Benjamin Netanyahu’s political isolation and re-election struggles, while aljazeera frames the landscape around the US-China AI competition and the UN General Assembly funding crisis."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] claims Israel is facing growing international condemnation regarding settlements in the West Bank.",
+      "[guardian] claims Reform UK is 'neck-and-neck' with the Conservative party according to an MRP poll.",
+      "[aljazeera] claims a US-Israel war on Iran is a subject for the upcoming Washington summit."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'defiant' to describe Benjamin Netanyahu's expected speech.",
+      "[guardian] uses the term 'ethnic cleansing' to describe actions attributed to Israeli settlers by Ed Miliband."
+    ],
+    "safe_conclusions": [
+      "A United Nations General Assembly is taking place.",
+      "Multiple international geopolitical issues are currently subjects of diplomatic and public discussion."
+    ],
+    "unknowns": [
+      "The specific outcomes or formal agreements resulting from the mentioned summits or meetings.",
+      "The total impact of UN funding cuts on the refugee population at Cox's Bazar.",
+      "The accuracy of the MRP poll mentioned in the Guardian regarding UK political parties."
+    ],
+    "synthesis": "World leaders are convening for the United Nations General Assembly amid various international developments, including diplomatic discussions between the US and China regarding artificial intelligence. Meanwhile, political challenges persist for Israeli leadership, and humanitarian concerns are reported at the Cox’s Bazar refugee settlement due to funding shortages. The UK political landscape also shows shifts in polling data ahead of party conferences.",
+    "confidence": "HIGH: The facts provided by each source regarding their respective topics are internally consistent, although the sources cover distinct and unrelated subject matters.",
+    "sources": [
+      {
+        "id": "art_1790238347838_33g76",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/24/victoria-bus-crash-yarra-ranges-near-glenburn-ntwnfb",
+        "source": "guardian",
+        "title": "Man dead and multiple people injured after bus collides with two cars in Victoria"
+      },
+      {
+        "id": "art_1790238349133_op9vp",
+        "url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
+        "source": "guardian",
+        "title": "Benjamin Netanyahu to deliver defiant UN speech while facing protests and political isolation"
+      },
+      {
+        "id": "art_1790238350329_i955t",
+        "url": "https://www.theguardian.com/politics/live/2026/sep/24/labour-reform-conservatives-yougov-mrp-poll-burnham-badenoch-farage-blair-brexit-latest-news-updates",
+        "source": "guardian",
+        "title": "Labour likely to be biggest party in hung parliament, mega poll suggests – UK politics live"
+      },
+      {
+        "id": "art_1790238351377_nsekx",
+        "url": "https://www.aljazeera.com/news/2026/9/24/china-vs-us-who-is-winning-the-ai-race-in-four-charts?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "China vs US: Who is winning the AI race, in four charts"
+      },
+      {
+        "id": "art_1790238352413_x2d0c",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/un-funding-cuts-hit-refugees-at-coxs-bazar-settlement?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN funding cuts hit refugees at Cox’s Bazar settlement"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4a24bde225101d7543619fd4070b6f59",
     "topic_label": "Middle East conflicts and diplomacy",
     "event_window_start": "2026-09-23T20:28:16.000Z",
@@ -17416,86 +17509,6 @@
         "url": "https://www.theguardian.com/us-news/2026/sep/09/rhode-island-primary-results-dan-mckee",
         "source": "guardian",
         "title": "Rhode Island’s Democratic governor loses primary amid anger over bridge"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "de878a616538316412872046381515d9",
-    "topic_label": "Terrorism and security concerns",
-    "event_window_start": "2026-09-10T02:02:00.000Z",
-    "event_window_end": "2026-09-10T02:33:51.000Z",
-    "article_ids": [
-      "art_1789009591607_xe0cl",
-      "art_1789009598999_42ecr",
-      "art_1789009605220_dme4p"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-10T07:58:37.164Z",
-    "updated_at": "2026-09-10T07:58:37.164Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "George W. Bush served as President during the 9/11 attacks.",
-      "The U.S. military or federal agencies operate in security contexts involving counter-terrorism and border enforcement."
-    ],
-    "source_claims": [
-      "[fox] ICE has deported more than 2,000 known or suspected terrorists since January 2025.",
-      "[fox] ICE has rescued over 150,000 smuggled children.",
-      "[fox] Tom Homan states 70% of those detained by ICE are convicted criminals.",
-      "[fox] A U.S. military strike in the Eastern Pacific killed three individuals described as narco-terrorists.",
-      "[fox] George W. Bush recalled a conversation with Derek Jeter prior to his first pitch at Yankee Stadium in October 2001."
-    ],
-    "framing_differences": [
-      "fox articles frame U.S. government actions through a lens of 'lethal' force and 'border czar' enforcement authority, while also providing historical human-interest narratives regarding the 9/11 era."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] Claims regarding specific quantities of deported terrorists and rescued children as attributed to DHS/ICE.",
-      "[fox] The characterization of individuals killed in the Eastern Pacific strike as 'narco-terrorists' by the Department of War."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'obliterate' to describe a military strike.",
-      "[fox] uses the term 'narco-terrorist' to describe individuals killed in a maritime operation.",
-      "[fox] uses the term 'border czar' to describe Tom Homan."
-    ],
-    "safe_conclusions": [
-      "ICE carries out deportation and rescue operations.",
-      "U.S. Southern Command conducts maritime military operations in the Eastern Pacific.",
-      "George W. Bush participated in a ceremonial first pitch at Yankee Stadium in October 2001."
-    ],
-    "unknowns": [
-      "The specific identities of the individuals killed in the Eastern Pacific strike.",
-      "The official verification status of the deported terrorists cited by DHS.",
-      "The exact timeline and methods used for the rescue of 150,000 children by ICE."
-    ],
-    "synthesis": "Fox News reported on recent U.S. national security and immigration enforcement operations, citing significant statistics regarding deportations and child rescues by ICE. Additionally, the network covered a military strike against a vessel in the Eastern Pacific and provided a retrospective on George W. Bush's ceremonial pitch following the 9/11 attacks. The reporting focuses on federal agency activity and presidential history.",
-    "confidence": "HIGH. The sources are internally consistent as they are all authored by the same outlet covering distinct, unrelated governmental functions.",
-    "sources": [
-      {
-        "id": "art_1789009591607_xe0cl",
-        "url": "https://www.foxnews.com/politics/exclusive-25-years-after-911-ice-says-more-than-2k-known-suspected-terrorists-deported",
-        "source": "fox",
-        "title": "EXCLUSIVE: 25 years after 9/11, ICE says more than 2K known or suspected terrorists have been deported"
-      },
-      {
-        "id": "art_1789009598999_42ecr",
-        "url": "https://www.foxnews.com/politics/george-w-bush-recalls-moment-derek-jeter-nerve-wracking-pitch-yankee-stadium-9-11",
-        "source": "fox",
-        "title": "George W Bush recalls moment with Derek Jeter before nerve-wracking pitch at Yankee Stadium after 9/11"
-      },
-      {
-        "id": "art_1789009605220_dme4p",
-        "url": "https://www.foxnews.com/us/us-forces-obliterate-suspected-narco-terrorist-vessel-lethal-eastern-pacific-strike-killing-3",
-        "source": "fox",
-        "title": "US forces obliterate suspected 'narco-terrorist' vessel in lethal Eastern Pacific strike, killing 3"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

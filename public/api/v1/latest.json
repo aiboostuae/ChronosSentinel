@@ -1,10 +1,53 @@
 {
-  "generated_at": "2026-09-24T07:17:51.018Z",
+  "generated_at": "2026-09-24T13:03:48.154Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 161,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "416114e712bb75ecf20a830a17c8b51c",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-09-24T07:52:18.000Z",
+      "event_window_end": "2026-09-24T08:04:14.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "World leaders are gathering for the United Nations General Assembly."
+      ],
+      "source_differences": [],
+      "synthesis": "World leaders are convening for the United Nations General Assembly amid various international developments, including diplomatic discussions between the US and China regarding artificial intelligence. Meanwhile, political challenges persist for Israeli leadership, and humanitarian concerns are reported at the Cox’s Bazar refugee settlement due to funding shortages. The UK political landscape also shows shifts in polling data ahead of party conferences.",
+      "confidence": "HIGH: The facts provided by each source regarding their respective topics are internally consistent, although the sources cover distinct and unrelated subject matters.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/24/victoria-bus-crash-yarra-ranges-near-glenburn-ntwnfb",
+          "title": "Man dead and multiple people injured after bus collides with two cars in Victoria"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/24/netanyahu-to-deliver-defiant-un-speech-facing-protests-political-isolation",
+          "title": "Benjamin Netanyahu to deliver defiant UN speech while facing protests and political isolation"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/24/labour-reform-conservatives-yougov-mrp-poll-burnham-badenoch-farage-blair-brexit-latest-news-updates",
+          "title": "Labour likely to be biggest party in hung parliament, mega poll suggests – UK politics live"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/24/china-vs-us-who-is-winning-the-ai-race-in-four-charts?traffic_source=rss",
+          "title": "China vs US: Who is winning the AI race, in four charts"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/un-funding-cuts-hit-refugees-at-coxs-bazar-settlement?traffic_source=rss",
+          "title": "UN funding cuts hit refugees at Cox’s Bazar settlement"
+        }
+      ],
+      "updated_at": "2026-09-24T13:03:42.982Z"
+    },
     {
       "cluster_id": "4a24bde225101d7543619fd4070b6f59",
       "topic_label": "Middle East conflicts and diplomacy",
@@ -327,43 +370,28 @@
         }
       ],
       "updated_at": "2026-09-23T13:06:32.584Z"
-    },
-    {
-      "cluster_id": "975f38fc94316f4cae039c7bd7a3d5c7",
-      "topic_label": "Middle East Conflict and Diplomacy",
-      "event_window_start": "2026-09-22T08:35:25.000Z",
-      "event_window_end": "2026-09-22T13:43:41.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "Iranian President Masoud Pezeshkian is traveling to the United Nations General Assembly in New York.",
-        "The Iranian Islamic Revolutionary Guard Corps (IRGC) has issued public warnings regarding the potential escalation of conflict with the United States."
-      ],
-      "source_differences": [],
-      "synthesis": "Iranian leadership is attending the United Nations General Assembly to address grievances while simultaneously issuing warnings regarding potential US military escalation. Concurrently, UK MPs are pressuring British financial institutions to halt investments in West Bank settlement projects. These reports highlight distinct but overlapping areas of international geopolitical and legal tension.",
-      "confidence": "HIGH. The sources provide distinct reports on separate topics, and the factual claims within each report are internally consistent.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/politics/2026/sep/22/mps-uk-banks-investment-israeli-settlement-trade-ban",
-          "title": "British banks told not to invest in planned Israeli settlement before UK trade ban begins"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/22/iran-delegation-to-present-narrative-of-resilience-diplomacy-at-unga?traffic_source=rss",
-          "title": "Iran delegation to present narrative of resilience, diplomacy at UNGA"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/live/2026/sep/22/middle-east-iran-irgc-donald-trump-mahmoud-mahmoud-pezeshkian-abbas-araqchi-unga-latest-news-updates",
-          "title": "Middle East crisis live: Iran’s Revolutionary Guards warns it will ‘change geography of war’ if US escalates conflict"
-        }
-      ],
-      "updated_at": "2026-09-23T07:23:22.771Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-416114e7",
+      "title": "Fallback Synthesis",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "World leaders are convening for the United Nations General Assembly amid various international developments, including diplomatic discussions between the US and China regarding artificial intelligence. Meanwhile, political challenges persist for Israeli leadership, and humanitarian concerns are reported at the Cox’s Bazar refugee settlement due to funding shortages. The UK political landscape also shows shifts in polling data ahead of party conferences.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "416114e712bb75ecf20a830a17c8b51c",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-09-24T13:03:42.982Z"
+    },
     {
       "id": "impact-4a24bde2",
       "title": "Middle East conflicts and diplomacy",
@@ -541,25 +569,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-23T07:23:22.771Z"
-    },
-    {
-      "id": "impact-4551fcad",
-      "title": "Sri Lanka Bombings Convictions",
-      "severity": "low",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict"
-      ],
-      "why_it_matters": "A Sri Lankan High Court has convicted 15 men for their involvement in the 2019 Easter Sunday bombings that killed 270 people. Nine additional defendants were acquitted of charges related to the coordinated attacks on churches and luxury hotels. The proceedings involved charges of conspiracy, murder, and terrorism against individuals accused of planning the suicide blasts.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "4551fcad39ad333bd2c45d97203ab8fc",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-22T20:59:00.055Z"
     }
   ]
 }
