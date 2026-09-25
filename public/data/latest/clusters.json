@@ -1,5 +1,82 @@
 [
   {
+    "cluster_id": "a0552e6398879a33633c8f57985facf2",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-25T15:04:56.000Z",
+    "event_window_end": "2026-09-25T15:24:12.000Z",
+    "article_ids": [
+      "art_1790350769527_hyv5c",
+      "art_1790350770664_nnn5h",
+      "art_1790350771820_rk0bn",
+      "art_1790350772935_ooe85",
+      "art_1790350774093_lgitt"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-25T19:04:28.178Z",
+    "updated_at": "2026-09-25T19:04:28.178Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Fallback activated."
+    ],
+    "source_claims": [
+      "No data available."
+    ],
+    "framing_differences": [
+      "No comparative data."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [],
+    "loaded_language": [],
+    "safe_conclusions": [],
+    "unknowns": [
+      "No analysis possible."
+    ],
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "confidence": "LOW (Deterministic Fallback)",
+    "sources": [
+      {
+        "id": "art_1790350769527_hyv5c",
+        "url": "https://www.theguardian.com/community/live/2026/sep/24/reader-qa-ask-our-reporting-team-about-whos-spending-what-on-the-midterms",
+        "source": "guardian",
+        "title": "‘What does money from a Super PAC actually buy?’: our reporters are answering your election questions now"
+      },
+      {
+        "id": "art_1790350770664_nnn5h",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/25/couple-jailed-for-life-for-abusing-and-murdering-a-vulnerable-man-in-their-care",
+        "source": "guardian",
+        "title": "Couple jailed for life for abusing and murdering a vulnerable man in their care"
+      },
+      {
+        "id": "art_1790350771820_rk0bn",
+        "url": "https://www.theguardian.com/technology/2026/sep/26/openai-hack-australian-government-anxiety-global-dilemma-artificial-intelligence",
+        "source": "guardian",
+        "title": "OpenAI hack on Australian government reveals anxiety at heart of global artificial intelligence dilemma"
+      },
+      {
+        "id": "art_1790350772935_ooe85",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/lebanon-pm-calls-for-full-israeli-withdrawal-in-un-address?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Lebanon PM calls for full Israeli withdrawal in UN address"
+      },
+      {
+        "id": "art_1790350774093_lgitt",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/25/tfl-to-launch-new-public-bus-operator-in-london",
+        "source": "guardian",
+        "title": "‘Major milestone’: TfL to launch new public bus operator in London"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "789f518f522cb1177d8d094d3db5a654",
     "topic_label": "Middle East Conflict and Tension",
     "event_window_start": "2026-09-24T17:45:52.000Z",
@@ -17526,87 +17603,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/12/fire-at-nursing-home-in-chile-kills-16-elderly-residents?traffic_source=rss",
         "source": "aljazeera",
         "title": "Fire at nursing home in Chile kills 16 elderly residents"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a68fb4ae0ca5035cbc0146e5ee85be04",
-    "topic_label": "Iran and Middle East Geopolitics",
-    "event_window_start": "2026-09-12T02:18:52.000Z",
-    "event_window_end": "2026-09-12T14:49:48.000Z",
-    "article_ids": [
-      "art_1789226177059_8vo0x",
-      "art_1789182540460_a84vz",
-      "art_1789182541488_apfnm"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-12T17:50:02.093Z",
-    "updated_at": "2026-09-12T17:50:02.093Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Iran is currently involved in diplomatic and economic tensions involving the United States.",
-      "Iran maintains relationships with international partners, including Russia."
-    ],
-    "source_claims": [
-      "[aljazeera_1] Esmaeil Baghaei states the IAEA resolution regarding Iran's nuclear safeguards was imposed by the US and Israel.",
-      "[aljazeera_2] The presidents of Iran and Russia criticized US dollar dominance.",
-      "[aljazeera_3] Saudi Arabia shut its East-West oil pipeline following a drone attack.",
-      "[aljazeera_3] The Saudi government claims the drone attack originated in Iraq."
-    ],
-    "framing_differences": [
-      "aljazeera_1 frames the IAEA resolution as a product of US and Israeli influence, whereas the IAEA itself is not a primary source in these articles.",
-      "aljazeera_2 frames the meeting between Iranian and Russian leadership within the context of the upcoming BRICS summit and economic policy.",
-      "aljazeera_3 frames the drone attack against Saudi infrastructure as a security incident affecting regional oil logistics."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] Esmaeil Baghaei claims Iran is defending itself against US military and economic aggression.",
-      "[aljazeera_3] Saudi Arabia claims the drone attack originated in Iraq."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the term 'imposed' to describe the IAEA resolution.",
-      "[aljazeera_1] uses the term 'aggression' to describe US actions toward Iran.",
-      "[aljazeera_2] uses the term 'call out' to describe the actions of the Iranian and Russian presidents regarding US dominance."
-    ],
-    "safe_conclusions": [
-      "Iran is engaging with international organizations and other nations regarding its foreign policy.",
-      "Saudi Arabia has experienced a drone attack on its oil infrastructure.",
-      "The United States is a significant factor in Iranian foreign policy discussions."
-    ],
-    "unknowns": [
-      "The specific technical details of the IAEA resolution mentioned by Al Jazeera.",
-      "Evidence supporting the claim that the drone attack on the Saudi pipeline originated in Iraq.",
-      "The specific agenda items for the upcoming BRICS summit beyond the mention of US dollar dominance."
-    ],
-    "synthesis": "Iranian officials have criticized recent IAEA resolutions and US economic influence while coordinating with Russia on global economic policy. Simultaneously, Saudi Arabia reported a drone attack on its East-West oil pipeline that necessitated a shutdown of operations. These events highlight ongoing geopolitical and economic tensions in the Middle East.",
-    "confidence": "HIGH. The sources are internally consistent within their respective reporting scopes and provide distinct updates on separate regional developments.",
-    "sources": [
-      {
-        "id": "art_1789226177059_8vo0x",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-iranian-fm-spox-aj?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iranian official tells Al Jazeera IAEA ruling was imposed by US and Israel"
-      },
-      {
-        "id": "art_1789182540460_a84vz",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/putin-and-pezeshkian-call-out-us-dominance-ahead-of-brics?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Putin and Pezeshkian call out US dominance ahead of BRICS"
-      },
-      {
-        "id": "art_1789182541488_apfnm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/saudi-arabia-east-west-oil-pipeline-drone-attack-iraq?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Satellite image shows critical Saudi pipeline damaged in drone attack"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
