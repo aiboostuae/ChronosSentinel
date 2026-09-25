@@ -1,5 +1,93 @@
 [
   {
+    "cluster_id": "be41eb92d3155790a69ac07c1fd4daa5",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-25T19:09:01.000Z",
+    "event_window_end": "2026-09-25T19:23:39.000Z",
+    "article_ids": [
+      "art_1790365165053_xf7bq",
+      "art_1790365166315_11dra",
+      "art_1790365167563_2c2n3",
+      "art_1790365168679_7cys4",
+      "art_1790365169798_rh3br"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-25T22:10:50.129Z",
+    "updated_at": "2026-09-25T22:10:50.129Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Dale Caldwell, the Lieutenant Governor of New Jersey, resigned from his position on Friday following an investigation into ethics violations and sexual harassment.",
+      "New Jersey Governor Mikie Sherrill announced the resignation."
+    ],
+    "source_claims": [
+      "[guardian] An investigation determined Dale Caldwell violated state ethics rules and engaged in harassing behavior.",
+      "[fox] An independent investigation substantiated sexual harassment and ethics violations against Dale Caldwell.",
+      "[fox] Gov. Mikie Sherrill stated that Caldwell failed to uphold the responsibilities of his office."
+    ],
+    "framing_differences": [
+      "The Guardian frames the resignation within the context of a 61-page report and specifies the nature of the allegations involving a staffer's friend, whereas Fox frames the news as a headline following an independent investigation and focuses on the Governor's public statement."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The report found credible evidence that Caldwell made romantic advances toward a female staffer’s friend."
+    ],
+    "loaded_language": [],
+    "safe_conclusions": [
+      "Dale Caldwell resigned as Lieutenant Governor of New Jersey on a Friday.",
+      "Governor Mikie Sherrill accepted the resignation."
+    ],
+    "unknowns": [
+      "The full specific details of the ethics violations beyond sexual harassment are not fully enumerated in both reports.",
+      "The specific date of the resignation announcement is only identified as a Friday."
+    ],
+    "synthesis": "New Jersey Lieutenant Governor Dale Caldwell resigned from his post on Friday following an investigation that found he violated ethics rules and engaged in sexual harassment. Governor Mikie Sherrill announced that she had accepted the resignation after calling for his departure. The resignation occurred after an investigation into his conduct while in office.",
+    "confidence": "HIGH. The sources consistently report the resignation of the same official in the same state under the same circumstances.",
+    "sources": [
+      {
+        "id": "art_1790365165053_xf7bq",
+        "url": "https://www.foxnews.com/media/brewery-offered-free-beer-when-trump-dies-faces-possible-closure-after-state-revokes-alcohol-permits",
+        "source": "fox",
+        "title": "Brewery that offered free beer when Trump dies faces possible closure after state revokes alcohol permits"
+      },
+      {
+        "id": "art_1790365166315_11dra",
+        "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Supreme Court allows Trump to use controversial database to check voter citizenship"
+      },
+      {
+        "id": "art_1790365167563_2c2n3",
+        "url": "https://www.theguardian.com/us-news/2026/sep/25/new-jersey-lieutenant-governor-resigns-dale-caldwell",
+        "source": "guardian",
+        "title": "New Jersey lieutenant governor resigns after sexual harassment accusation"
+      },
+      {
+        "id": "art_1790365168679_7cys4",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-threatens-widespread-disruption-as-iraq-halts-iran-flights?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran threatens widespread disruption as Iraq halts Iran flights"
+      },
+      {
+        "id": "art_1790365169798_rh3br",
+        "url": "https://www.foxnews.com/politics/new-jersey-lt-gov-dale-caldwell-resigns-sexual-harassment-investigation",
+        "source": "fox",
+        "title": "New Jersey Lt Gov Dale Caldwell resigns after sexual harassment investigation"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "a0552e6398879a33633c8f57985facf2",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-09-25T15:04:56.000Z",
@@ -17532,77 +17620,6 @@
         "url": "https://www.theguardian.com/politics/2026/sep/12/christopher-harborne-matches-36m-reform-donation-of-ben-zelo",
         "source": "guardian",
         "title": "Christopher Harborne matches £36m Reform donation of Ben Delo"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a2e0d223524af5b17a96935878bd7e7d",
-    "topic_label": "International Health and Safety Incidents",
-    "event_window_start": "2026-09-12T20:42:23.000Z",
-    "event_window_end": "2026-09-12T20:44:18.000Z",
-    "article_ids": [
-      "art_1789252840552_hvjoo",
-      "art_1789252842686_meyhn"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-13T10:39:25.310Z",
-    "updated_at": "2026-09-13T10:39:25.310Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "An Ebola outbreak exists in the Democratic Republic of Congo.",
-      "The outbreak has reached a seventh province in the Democratic Republic of Congo.",
-      "A fire occurred at a nursing home in Pitrufquen, Chile.",
-      "16 elderly residents died in the Chile nursing home fire.",
-      "10 residents survived the fire in the Chile nursing home."
-    ],
-    "source_claims": [
-      "[aljazeera] The DRC government insists that Ebola cases are declining.",
-      "[aljazeera] Virologist Placide Mbala stated that the government is seeing signs of declining transmission while remaining cautious.",
-      "[aljazeera] An infected man traveled across the DRC, Rwanda, and Uganda.",
-      "[aljazeera] The nursing home fire in Chile broke out late on Friday.",
-      "[aljazeera] The private nursing home in Chile had previously faced fines and enforcement proceedings for operating outside regulations."
-    ],
-    "framing_differences": [
-      "aljazeera frames the Ebola story by juxtaposing the spread of the virus to a new province against government assurances of a decline in cases.",
-      "aljazeera frames the nursing home fire by focusing on the immediate death toll and providing context regarding the facility's prior regulatory status."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] An infected man traveled through Rwanda and Uganda while carrying the virus."
-    ],
-    "loaded_language": [],
-    "safe_conclusions": [
-      "An Ebola outbreak is ongoing in the Democratic Republic of Congo.",
-      "A fire at a nursing home in Pitrufquen, Chile, resulted in 16 deaths and 10 survivors."
-    ],
-    "unknowns": [
-      "The identity of the individual who allegedly traveled while infected with Ebola.",
-      "The current status of the 10 survivors hospitalized in Chile.",
-      "The specific nature of the regulations the Chile nursing home failed to meet."
-    ],
-    "synthesis": "The Democratic Republic of Congo is experiencing an expansion of an Ebola outbreak into a seventh province despite reports of declining transmission. Simultaneously, a fire at a nursing home in Pitrufquen, Chile, has resulted in the deaths of 16 elderly residents. Authorities are investigating the circumstances of the fire, noting that the private facility had previously faced regulatory issues.",
-    "confidence": "HIGH. The sources report on two distinct events with consistent factual data provided for each.",
-    "sources": [
-      {
-        "id": "art_1789252840552_hvjoo",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-drc-ebola-spread-clip-mp4?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ebola spreads to seventh DRC province as gov’t insists cases are declining"
-      },
-      {
-        "id": "art_1789252842686_meyhn",
-        "url": "https://www.aljazeera.com/news/2026/9/12/fire-at-nursing-home-in-chile-kills-16-elderly-residents?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire at nursing home in Chile kills 16 elderly residents"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
