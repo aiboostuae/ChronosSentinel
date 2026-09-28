@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-09-28T05:55:32.134Z",
+  "generated_at": "2026-09-28T12:51:52.975Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 154,
+  "impact_count": 155,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "546ed823b73d87b01a56ce775789c223",
+      "topic_label": "Fallback Synthesis",
+      "event_window_start": "2026-09-28T06:47:59.000Z",
+      "event_window_end": "2026-09-28T07:24:45.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The provided reports cover disparate events including the upcoming renationalisation of Avanti West Coast and ongoing conflict in Yemen. Additionally, the articles detail UK parliamentary criticism regarding defence funding, US legislative proposals concerning building names, and a police inquest in Victoria. No common thread connects these independent news reports.",
+      "confidence": "HIGH. The sources are clearly distinct reports on unrelated events, and the extraction accurately reflects the provided text.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march",
+          "title": "Avanti West Coast to be renationalised in March"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+          "title": "Children forced to give up school for work as fighting upends daily life in Yemen"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/28/labour-party-conference-healey-economy-streeting-miliband-andy-burnham-latest-news-updates",
+          "title": "Chancellor John Healey to promise ‘new age of industrialisation’ in speech to Labour conference – UK politics live"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves",
+          "title": "Sen Kennedy says no living politicians should have buildings named after them after Trump's moves"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/28/victoria-police-apologise-over-makai-death-in-custody-ntwnfb",
+          "title": "Victoria police apologise over death of injured man taken to cells instead of hospital"
+        }
+      ],
+      "updated_at": "2026-09-28T12:51:44.863Z"
+    },
     {
       "cluster_id": "fa0e0f336abd4fb037f15a26386af2b6",
       "topic_label": "Middle East and Israel-Palestine",
@@ -455,59 +496,30 @@
         }
       ],
       "updated_at": "2026-09-28T00:28:09.207Z"
-    },
-    {
-      "cluster_id": "833d285b3367792524fd15af3d0a56c0",
-      "topic_label": "US-Iran relations and regional tensions",
-      "event_window_start": "2026-09-27T01:59:17.000Z",
-      "event_window_end": "2026-09-27T19:12:17.000Z",
-      "article_count": 6,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [
-        "The United States and Iran are currently engaged in tensions affecting trade and diplomacy.",
-        "The Strait of Hormuz is a focal point of regional tensions.",
-        "The U.S. administration is currently applying economic pressure on Iran."
-      ],
-      "source_differences": [],
-      "synthesis": "Tensions between the United States and Iran continue as the U.S. implements economic pressure campaigns while Iran maintains control over the Strait of Hormuz. International reports indicate ongoing military incidents near the strait and diplomatic friction at the United Nations. Global energy markets are adjusting to the conflict, with various regional actors reassessing their strategic roles.",
-      "confidence": "MEDIUM. While all sources acknowledge high tensions, they rely on differing sets of reports regarding specific military incidents and the effectiveness of economic policies.",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/media/bessent-says-iran-nothing-left-trade-two-weeks-oil-lifeline-dries-up",
-          "title": "Bessent says Iran will have 'nothing left to trade' within two weeks as oil lifeline dries up"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/opinions/2026/9/27/for-libya-the-hormuz-crisis-can-be-a-trap-or-an-opportunity?traffic_source=rss",
-          "title": "For Libya, the Hormuz crisis can be a trap or an opportunity"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/economy/2026/9/27/strait-of-hormuz-tensions-linger-as-iran-and-us-move-further-from-a-deal?traffic_source=rss",
-          "title": "Strait of Hormuz tensions linger as Iran and US move further from a deal"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/iran-miscalculating-betting-midterms-after-3-hour-talks-trump-officials-warn",
-          "title": "Iran ‘miscalculating’ by betting on midterms after 3-hour talks, Trump officials warn"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/world/israeli-un-envoy-starlink-video-reaches-millions-nearly-40-percent-instagram-viewers-iran",
-          "title": "Israeli UN envoy's Starlink video reaches millions, with nearly 40% of Instagram viewers in Iran"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/did-the-biggest-week-of-diplomacy-make-headway-in-ending-the-us-iran-war?traffic_source=rss",
-          "title": "Did the biggest week of diplomacy make headway in ending the US-Iran war?"
-        }
-      ],
-      "updated_at": "2026-09-28T00:28:09.207Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-546ed823",
+      "title": "Fallback Synthesis",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "The provided reports cover disparate events including the upcoming renationalisation of Avanti West Coast and ongoing conflict in Yemen. Additionally, the articles detail UK parliamentary criticism regarding defence funding, US legislative proposals concerning building names, and a police inquest in Victoria. No common thread connects these independent news reports.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "546ed823b73d87b01a56ce775789c223",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-09-28T12:51:44.863Z"
+    },
     {
       "id": "impact-fa0e0f33",
       "title": "Middle East and Israel-Palestine",
@@ -687,26 +699,6 @@
       "related_cluster_id": "833d285b3367792524fd15af3d0a56c0",
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-28T00:28:09.207Z"
-    },
-    {
-      "id": "impact-8f62e13d",
-      "title": "Natural disasters and environmental alerts",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster",
-        "shipping"
-      ],
-      "why_it_matters": "Heavy rainfall in Bangkok has resulted in the region being declared a disaster zone. Simultaneously, the US Northeast is experiencing a storm that has caused flooding in coastal areas and travel disruptions. No commonality exists between the two reports beyond their reporting by the same news outlet.",
-      "evidence_summary": "1 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "8f62e13d63fc46042869b254935c04a5",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-09-28T00:28:09.207Z"
     }
   ]

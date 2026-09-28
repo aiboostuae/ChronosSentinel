@@ -1,5 +1,100 @@
 [
   {
+    "cluster_id": "546ed823b73d87b01a56ce775789c223",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-28T06:47:59.000Z",
+    "event_window_end": "2026-09-28T07:24:45.000Z",
+    "article_ids": [
+      "art_1790580708278_5dpsu",
+      "art_1790580709460_0yaia",
+      "art_1790580710644_jco42",
+      "art_1790580711702_hcizo",
+      "art_1790580712877_d4b74"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-28T12:51:44.863Z",
+    "updated_at": "2026-09-28T12:51:44.863Z",
+    "region_tag": "global",
+    "shared_facts": [],
+    "source_claims": [
+      "[guardian] Avanti West Coast will be renationalised in March when its contract ends.",
+      "[guardian] Avanti West Coast had a 7.1% cancellation rate from April.",
+      "[guardian] Fighting has resumed between Iran-aligned Houthis and Saudi-backed Yemeni forces in the al-Wazeyah district.",
+      "[guardian] Shadow Chancellor Andrew Griffith accused John Healey of offering 'reheated announcements' regarding nuclear submarine facilities.",
+      "[fox] A federal appeals court ruled against keeping Donald Trump's name on the Kennedy Center.",
+      "[fox] Sen. John Kennedy proposed a rule to prohibit naming buildings after living public officials.",
+      "[guardian] Victorian police apologized to the family of John Makai, who died in 2023 after being held in a cell with a head injury."
+    ],
+    "framing_differences": [
+      "The guardian focuses on separate, unconnected domestic and international news stories, while the fox article focuses on a singular domestic political story regarding building naming conventions."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The UK Labour government is nationalising passenger rail services as contracts expire.",
+      "[guardian] John Healey resigned in the past due to concerns over defence funding.",
+      "[fox] President Donald Trump is actively seeking to rename multiple prominent federal buildings after himself."
+    ],
+    "loaded_language": [
+      "[guardian] uses the term 'failed them time and time again' to describe Avanti West Coast's service.",
+      "[guardian] uses the term 'reheated announcements' to describe the government's industrial plans.",
+      "[guardian] uses the term 'black hole' to describe the status of the defence investment plan.",
+      "[fox] uses the term 'private ads for themselves' to describe the naming of public buildings after officials."
+    ],
+    "safe_conclusions": [
+      "Various news reports have been provided covering topics including UK rail, international conflict in Yemen, UK defence policy, US building naming legislation, and a Victorian police inquest."
+    ],
+    "unknowns": [
+      "The specific operational details of the Great British Railways takeover.",
+      "The full extent of the fighting in the al-Wazeyah district.",
+      "The source of funding for the proposed floating docks in the Clyde.",
+      "The final outcome of the Victorian coroner’s inquest."
+    ],
+    "synthesis": "The provided reports cover disparate events including the upcoming renationalisation of Avanti West Coast and ongoing conflict in Yemen. Additionally, the articles detail UK parliamentary criticism regarding defence funding, US legislative proposals concerning building names, and a police inquest in Victoria. No common thread connects these independent news reports.",
+    "confidence": "HIGH. The sources are clearly distinct reports on unrelated events, and the extraction accurately reflects the provided text.",
+    "sources": [
+      {
+        "id": "art_1790580708278_5dpsu",
+        "url": "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march",
+        "source": "guardian",
+        "title": "Avanti West Coast to be renationalised in March"
+      },
+      {
+        "id": "art_1790580709460_0yaia",
+        "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+        "source": "guardian",
+        "title": "Children forced to give up school for work as fighting upends daily life in Yemen"
+      },
+      {
+        "id": "art_1790580710644_jco42",
+        "url": "https://www.theguardian.com/politics/live/2026/sep/28/labour-party-conference-healey-economy-streeting-miliband-andy-burnham-latest-news-updates",
+        "source": "guardian",
+        "title": "Chancellor John Healey to promise ‘new age of industrialisation’ in speech to Labour conference – UK politics live"
+      },
+      {
+        "id": "art_1790580711702_hcizo",
+        "url": "https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves",
+        "source": "fox",
+        "title": "Sen Kennedy says no living politicians should have buildings named after them after Trump's moves"
+      },
+      {
+        "id": "art_1790580712877_d4b74",
+        "url": "https://www.theguardian.com/australia-news/2026/sep/28/victoria-police-apologise-over-makai-death-in-custody-ntwnfb",
+        "source": "guardian",
+        "title": "Victoria police apologise over death of injured man taken to cells instead of hospital"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "fa0e0f336abd4fb037f15a26386af2b6",
     "topic_label": "Middle East and Israel-Palestine",
     "event_window_start": "2026-09-27T10:01:33.000Z",
@@ -17636,83 +17731,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8c1150f826dfa500e91eab404f0b61f6",
-    "topic_label": "Serial Crimes and Missing Women",
-    "event_window_start": "2026-09-17T09:51:15.000Z",
-    "event_window_end": "2026-09-17T19:00:15.000Z",
-    "article_ids": [
-      "art_1789673079752_qrtna",
-      "art_1789673083931_u1501",
-      "art_1789640927543_deexp"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-17T23:15:42.002Z",
-    "updated_at": "2026-09-17T23:15:42.002Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Law enforcement agencies have reported recent investigations involving the deaths or disappearances of multiple women in different regions."
-    ],
-    "source_claims": [
-      "[guardian] Jesse Calhoun has been indicted by a grand jury on a charge of first-degree manslaughter in the death of Elizabeth Gibson.",
-      "[fox] Philadelphia police recovered over one million images from a home on Chew Avenue, including depictions of two missing women appearing unconscious and injured.",
-      "[fox] Investigators found five urns believed to contain human ashes at the Philadelphia residence.",
-      "[bbc] A ninth body of a woman was found in Dawn Park, South Africa, following the discovery of eight other women's bodies in Ekurhuleni since July."
-    ],
-    "framing_differences": [
-      "The guardian focuses on a specific legal indictment in Oregon, fox reports on an ongoing investigation in Philadelphia involving digital evidence and human remains, and bbc reports on a series of deaths in South Africa."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Officials believe Elizabeth Gibson was killed on or around 18 November 2022.",
-      "[fox] The images found in the home include depictions of seven missing women.",
-      "[bbc] Police have not confirmed whether the nine deaths in South Africa are connected or if a serial killer is responsible."
-    ],
-    "loaded_language": [
-      "[guardian] uses the phrase 'extreme indifference to the value of human life' to describe the accusations against Jesse Calhoun."
-    ],
-    "safe_conclusions": [
-      "Police authorities in Oregon, Philadelphia, and South Africa have provided public updates regarding separate investigations into the deaths or disappearances of women."
-    ],
-    "unknowns": [
-      "The identity of the ninth woman found in Dawn Park remains unknown.",
-      "The official cause of death for the victims in the South African cases remains under investigation.",
-      "The connection between the images and the occupants of the Philadelphia residence is still being analyzed by police."
-    ],
-    "synthesis": "Law enforcement agencies are conducting separate investigations into the deaths and disappearances of women in Oregon, Philadelphia, and South Africa. The cases involve a range of legal actions, including a manslaughter indictment in Oregon and evidence collection in Pennsylvania and Gauteng. Authorities have not determined connections between the individual deaths in South Africa at this time.",
-    "confidence": "HIGH. The sources report on entirely distinct regional events, meaning there is no factual conflict between them.",
-    "sources": [
-      {
-        "id": "art_1789673079752_qrtna",
-        "url": "https://www.theguardian.com/us-news/2026/sep/17/oregon-jesse-calhoun-charged-killings",
-        "source": "guardian",
-        "title": "Accused Oregon killer indicted in connection with death of sixth woman"
-      },
-      {
-        "id": "art_1789673083931_u1501",
-        "url": "https://www.foxnews.com/us/philadelphia-home-search-uncovers-possible-human-ashes-images-7-missing-women-police",
-        "source": "fox",
-        "title": "Philadelphia home search uncovers possible human ashes, images of 7 missing women: police"
-      },
-      {
-        "id": "art_1789640927543_deexp",
-        "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ninth woman's body found as South African police investigate string of deaths"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
