@@ -1,5 +1,110 @@
 [
   {
+    "cluster_id": "de646011431f6d419bf62ff28b7b1547",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-09-29T06:41:12.000Z",
+    "event_window_end": "2026-09-29T07:10:07.000Z",
+    "article_ids": [
+      "art_1790667044045_wrfm3",
+      "art_1790667045086_7yh3d",
+      "art_1790667046259_kk1cl",
+      "art_1790667047359_m5467",
+      "art_1790667048577_rkot7"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-29T12:29:04.998Z",
+    "updated_at": "2026-09-29T12:29:04.998Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Gianni Infantino is the president of FIFA.",
+      "A FIFA Council meeting is scheduled for October 15.",
+      "A bus transporting the South Korean men's volleyball team for the Asian Games was taken to the wrong venue.",
+      "The South Korean volleyball team cancelled their training session due to the transportation issue.",
+      "A play titled 'The Pelicot Trial: Tribute to Gisèle Pelicot' is scheduled for a one-night performance in London.",
+      "A boat carrying migrants capsized near Puerto Rico resulting in fatalities and rescues.",
+      "Five British nationals were detained near RAF Fairford and subsequently released on bail."
+    ],
+    "source_claims": [
+      "[aljazeera] Gianni Infantino is seeking re-election to his post at FIFA.",
+      "[aljazeera] Infantino is willing to discuss distributing additional funds to member associations at the October 15 meeting.",
+      "[aljazeera] The South Korean volleyball team lodged a formal complaint regarding the transport error.",
+      "[guardian] The play based on the Pelicot trial will feature a star-studded cast.",
+      "[fox] U.S. Customs and Border Protection detected a vessel with 40 migrants near Desecheo Island.",
+      "[fox] Survivors stated an estimated 60 people were aboard the vessel that capsized.",
+      "[fox] The boat capsized following a fight involving a machete.",
+      "[guardian] Five suspects were detained on suspicion of explosives offences and terrorism near RAF Fairford.",
+      "[guardian] The US Secretary of State claimed a foreign actor was behind the suspected plot near RAF Fairford."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the FIFA distribution of funds as part of Infantino's re-election strategy amid opposition, while the guardian focuses on the artistic and emotional impact of the Pelicot trial play."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] The US Secretary of State claimed a foreign actor was clearly behind the plot, though the article notes he offered no evidence."
+    ],
+    "loaded_language": [
+      "[guardian] describes the play as 'jaw-dropping' and 'harrowing'.",
+      "[fox] describes the boat as a 'makeshift boat'."
+    ],
+    "safe_conclusions": [
+      "FIFA is holding a council meeting in October to discuss funding distributions.",
+      "There was a logistical error affecting the South Korean volleyball team's schedule at the Asian Games.",
+      "A production about the Pelicot trial is scheduled to be performed in London.",
+      "A maritime incident involving migrants occurred near Puerto Rico.",
+      "Five individuals were arrested and released on bail in connection with a security incident at RAF Fairford."
+    ],
+    "unknowns": [
+      "The specific amount of funds under consideration by the FIFA Council.",
+      "The identity of the foreign actor mentioned by the US Secretary of State regarding the RAF Fairford incident.",
+      "The total number of passengers on the capsized boat near Puerto Rico, as sources cite both 40 and 60."
+    ],
+    "synthesis": "Recent international news reports cover diverse events including FIFA's upcoming council meeting on funding, logistics issues at the Asian Games, and a theatrical production in London. Maritime rescues occurred near Puerto Rico following a boat capsizing, while UK authorities released five individuals arrested during a security operation at RAF Fairford. These events highlight distinct logistical, political, and legal developments across different global regions.",
+    "confidence": "HIGH: The facts reported across the provided sources are largely independent of one another and do not conflict.",
+    "sources": [
+      {
+        "id": "art_1790667044045_wrfm3",
+        "url": "https://www.aljazeera.com/sports/2026/9/29/fifa-could-disburse-millions-to-members-as-infantino-seeks-re-election?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FIFA could disburse millions to members as Infantino seeks re-election"
+      },
+      {
+        "id": "art_1790667045086_7yh3d",
+        "url": "https://www.aljazeera.com/sports/2026/9/29/asian-games-2026-aichi-nagoya-south-korea-volley-team-bus-wrong-location?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Asian Games: South Korea volleyball team latest to be taken to wrong venue"
+      },
+      {
+        "id": "art_1790667046259_kk1cl",
+        "url": "https://www.theguardian.com/world/2026/sep/29/jaw-dropping-play-based-on-pelicot-trial-comes-to-london-for-one-night",
+        "source": "guardian",
+        "title": "‘Jaw-dropping’ play based on Pelicot rape trial comes to London for one night"
+      },
+      {
+        "id": "art_1790667047359_m5467",
+        "url": "https://www.foxnews.com/world/least-40-rescued-2-dead-boat-capsizes-machete-fight-near-puerto-rico",
+        "source": "fox",
+        "title": "At least 40 rescued, 2 dead as boat capsizes after machete fight near Puerto Rico"
+      },
+      {
+        "id": "art_1790667048577_rkot7",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/29/raf-fairford-uk-bomb-plot-marco-rubio-claims-foreign-actor",
+        "source": "guardian",
+        "title": "Rubio says foreign actor was ‘clearly’ behind suspected RAF Fairford bomb plot"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "226e90e7610b17ecfa08d442f702e19a",
     "topic_label": "Iran UK Airbase Incident",
     "event_window_start": "2026-09-28T15:12:34.000Z",
@@ -17546,105 +17651,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/17/yemeni-forces-target-houthis-and-a-saudi-base-as-us-rules-out-direct-role?traffic_source=rss",
         "source": "aljazeera",
         "title": "Yemeni forces target Houthis as US rules out direct role"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7a35b8e35b521ecbb0a6e3d40876a901",
-    "topic_label": "Global Migration and Border Security",
-    "event_window_start": "2026-09-17T05:05:09.000Z",
-    "event_window_end": "2026-09-17T23:42:37.000Z",
-    "article_ids": [
-      "art_1789692556070_09ntl",
-      "art_1789684430969_bfrht",
-      "art_1789658644849_ilku7",
-      "art_1789658645901_qhox0",
-      "art_1789622394757_9jm0m"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T01:20:04.948Z",
-    "updated_at": "2026-09-18T01:20:04.948Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Tony Burke announced migration-related policy changes on Thursday.",
-      "The International Organization for Migration (IOM) released data regarding maritime migration to Europe."
-    ],
-    "source_claims": [
-      "[aljazeera] The IOM reported that about 60,000 migrants reached Europe by boat in 2026, a 39 percent decrease from the previous year.",
-      "[aljazeera] The IOM reported that 2,292 people have died or gone missing while attempting to cross to Europe by sea in 2026.",
-      "[fox] A Fox News poll indicates 53% of registered voters believe the Trump administration’s immigration enforcement has gone too far.",
-      "[guardian] Tony Burke argues that cutting net overseas migration would negatively impact Australian services and the economy.",
-      "[guardian] The farming lobby claims that immigration rule changes will increase food prices.",
-      "[bbc] Australia is implementing stricter rules for international students and backpackers to curb immigration."
-    ],
-    "framing_differences": [
-      "[guardian] frames the Australian government's approach as a 'measured' attempt to mitigate political discontent, whereas [bbc] frames the same policy announcements as a 'crackdown' on specific migrant groups.",
-      "[guardian] emphasizes the government's rejection of concerns regarding food prices, while [bbc] focuses on the specific regulatory hurdles being placed on students and workers."
-    ],
-    "contested_claims": [
-      "The farming lobby claims immigration changes will increase food prices, a claim that Tony Burke explicitly characterizes as 'wrong'."
-    ],
-    "unverified_claims": [
-      "[fox] Claims that 87% of Democrats and 60% of independents believe immigration enforcement has gone too far."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'populist promises' to describe proposals for slashing net overseas migration.",
-      "[bbc] uses the term 'visa hoppers' to describe a category of international students and workers.",
-      "[bbc] uses the term 'crackdown' to describe the government's new migration policies."
-    ],
-    "safe_conclusions": [
-      "Migration policy remains a subject of public and political debate in both Europe and Australia.",
-      "Australia's Home Affairs Minister Tony Burke announced new measures concerning visa processing and migration regulations on Thursday.",
-      "Data from the IOM suggests a decrease in the number of maritime migrant arrivals to Europe coupled with an increase in fatalities during the same period in 2026 compared to 2025."
-    ],
-    "unknowns": [
-      "The specific long-term economic impact of Australia's new migration rules.",
-      "The full scope of the 'wider legislation' mentioned by Tony Burke that lacked support from the Coalition."
-    ],
-    "synthesis": "The International Organization for Migration reports a decrease in maritime migrant arrivals to Europe in 2026 alongside a rise in transit-related fatalities. Meanwhile, the Australian government has announced new, stricter migration regulations targeting international students and working holiday visa holders. These policy changes have generated friction between the administration, business sectors, and the farming lobby regarding economic impacts and service capacity.",
-    "confidence": "HIGH. The sources provide distinct, non-overlapping reports on different geographic regions and policy events, allowing for factual synthesis without internal contradictions.",
-    "sources": [
-      {
-        "id": "art_1789692556070_09ntl",
-        "url": "https://www.aljazeera.com/news/2026/9/17/migrant-crossings-to-europe-by-sea-drop-sharply-amid-heightened-risks-iom?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Migrant crossings to Europe by sea drop sharply amid heightened risks: IOM"
-      },
-      {
-        "id": "art_1789684430969_bfrht",
-        "url": "https://www.foxnews.com/politics/fox-news-poll-majority-says-immigration-enforcement-has-crossed-line",
-        "source": "fox",
-        "title": "Fox News Poll: Majority says immigration enforcement has crossed the line"
-      },
-      {
-        "id": "art_1789658644849_ilku7",
-        "url": "https://www.theguardian.com/australia-news/2026/sep/18/amid-claims-of-mass-migration-labor-hopes-a-measured-approach-will-take-the-hot-air-out-of-the-debate",
-        "source": "guardian",
-        "title": "Amid claims of ‘mass migration’, Labor hopes a measured approach will take the hot air out of the debate"
-      },
-      {
-        "id": "art_1789658645901_qhox0",
-        "url": "https://www.theguardian.com/australia-news/2026/sep/18/tony-burke-rejects-farmers-claims-immigration-changes-will-increase-food-prices-ntwnfb",
-        "source": "guardian",
-        "title": "Tony Burke rejects farmers’ claims that immigration changes will increase food prices"
-      },
-      {
-        "id": "art_1789622394757_9jm0m",
-        "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
