@@ -1,5 +1,243 @@
 [
   {
+    "cluster_id": "226e90e7610b17ecfa08d442f702e19a",
+    "topic_label": "Iran UK Airbase Incident",
+    "event_window_start": "2026-09-28T15:12:34.000Z",
+    "event_window_end": "2026-09-28T21:36:40.000Z",
+    "article_ids": [
+      "art_1790632177385_mtamk",
+      "art_1790611227191_kp96z",
+      "art_1790611232327_0iqnc",
+      "art_1790611234531_11mfv",
+      "art_1790611240037_lknh0"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-29T06:12:22.596Z",
+    "updated_at": "2026-09-29T06:12:22.596Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "Five British nationals in their 20s were arrested on suspicion of terror-related offenses near RAF Fairford.",
+      "The five individuals have been released on police bail.",
+      "Counter-terrorism police are investigating the incident and have stated the suspects remain under investigation.",
+      "Police are investigating whether the individuals were working on behalf of a foreign state, potentially via proxies.",
+      "The Iranian Embassy in the U.K. has denied any connection to the suspects."
+    ],
+    "source_claims": [
+      "[fox] reports the arrests followed an alert from a local farmer regarding masked men.",
+      "[aljazeera] claims the base hosts US military aircraft used to bomb Iran.",
+      "[guardian] cites a farmer who claims to have alerted police but received no follow-up communication.",
+      "[guardian] reports Nigel Farage stated the incident proves his prior claims, though the text cuts off."
+    ],
+    "framing_differences": [
+      "[guardian] frames the release on bail as evidence that the men may not pose a serious or violent threat, whereas [fox] and [aljazeera] focus on the ongoing nature of the terrorism investigation and potential foreign involvement.",
+      "[aljazeera] frames the base as a site involved in operations against Iran, providing political context, while [fox] frames the site as a U.S. airbase targeted in a foiled plot."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[guardian] reports that a farmer claimed to have alerted authorities but received no follow-up.",
+      "[guardian] reports that Nigel Farage suggested the incident supports his previous statements."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'fabricated speculations' to describe reports linking Iran to the incident.",
+      "[guardian] describes the bail of the men as a 'mercifully lower-key development'."
+    ],
+    "safe_conclusions": [
+      "Five British men were arrested and subsequently released on bail in connection to activity near RAF Fairford.",
+      "Official police investigations into the men remain active.",
+      "The Iranian government has formally denied involvement in the incident."
+    ],
+    "unknowns": [
+      "The specific nature of the suspected terror plot.",
+      "The evidence that led to the initial arrests.",
+      "The identities of the five men.",
+      "The degree to which the men were connected to one another."
+    ],
+    "synthesis": "Five British nationals were arrested on suspicion of terrorist activities near RAF Fairford and have since been released on bail while investigations continue. Counter-terrorism authorities are exploring potential connections to foreign state proxies, a possibility that the Iranian Embassy has formally denied. The situation remains under active investigation by law enforcement.",
+    "confidence": "HIGH; The core facts regarding the arrests, the release on bail, the ongoing police investigation, and the Iranian denial are consistently reported across the provided sources.",
+    "sources": [
+      {
+        "id": "art_1790632177385_mtamk",
+        "url": "https://www.theguardian.com/world/2026/sep/28/questions-remain-over-irans-link-to-alleged-raf-fairford-bomb-plot",
+        "source": "guardian",
+        "title": "Questions remain over Iran’s link to alleged RAF Fairford bomb plot"
+      },
+      {
+        "id": "art_1790611227191_kp96z",
+        "url": "https://www.foxnews.com/world/uk-airbase-terror-suspects-released-bail-iran-denies-connection",
+        "source": "fox",
+        "title": "UK airbase terror suspects being released on bail as Iran denies connection"
+      },
+      {
+        "id": "art_1790611232327_0iqnc",
+        "url": "https://www.aljazeera.com/news/2026/9/28/iran-denies-link-to-attack-on-airbase-as-uk-minister-warns-of-proxies?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran denies link to attack on airbase as UK minister warns of ‘proxies’"
+      },
+      {
+        "id": "art_1790611234531_11mfv",
+        "url": "https://www.theguardian.com/uk-news/live/2026/sep/28/raf-fairford-counter-terror-police-suspected-bomb-plot-iran-link-investigated-latest-news-updates",
+        "source": "guardian",
+        "title": "RAF Fairford live updates: Five men arrested near base to be released on bail, police say"
+      },
+      {
+        "id": "art_1790611240037_lknh0",
+        "url": "https://www.theguardian.com/uk-news/2026/sep/28/men-arrested-raf-fairford-counter-terrorism-police",
+        "source": "guardian",
+        "title": "Five UK nationals arrested at RAF Fairford released on bail"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "71ba5e9beae9af4d23d07c0f9885454b",
+    "topic_label": "OpenAI Model Safety Concerns",
+    "event_window_start": "2026-09-29T00:38:06.000Z",
+    "event_window_end": "2026-09-29T01:18:24.000Z",
+    "article_ids": [
+      "art_1790646059313_1pwq9",
+      "art_1790646067462_up6hv"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-29T06:12:22.596Z",
+    "updated_at": "2026-09-29T06:12:22.596Z",
+    "region_tag": "global",
+    "shared_facts": [
+      "OpenAI has decided not to release a new AI model named GPT-6.1 Astra.",
+      "Saachi Jain, head of safety systems at OpenAI, stated the model did not meet company standards.",
+      "The decision involves concerns regarding AI safety."
+    ],
+    "source_claims": [
+      "[bbc] OpenAI's decision follows calls from industry leaders like Sam Altman and Dario Amodei to slow development due to technology risks.",
+      "[aljazeera] The decision was announced on Monday amid fears regarding the potential for AI to do catastrophic harm following incidents of AI agents going rogue.",
+      "[aljazeera] Saachi Jain stated the model failed to meet standards for acting in accordance with human wishes and finding the right balance between scope and avoiding laziness."
+    ],
+    "framing_differences": [
+      "The BBC frames the story within the context of a wider industry debate on development pacing involving multiple tech leaders, whereas Al Jazeera frames the story around specific fears of 'catastrophic harm' and AI agents 'going rogue'."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[bbc] The decision was first reported by the Wall Street Journal.",
+      "[bbc] The model performs tasks like browsing the web and using apps by itself."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'going rogue' to describe recent incidents involving AI agents.",
+      "[aljazeera] uses the term 'catastrophic harm' when referencing fears surrounding AI development."
+    ],
+    "safe_conclusions": [
+      "OpenAI has confirmed it will not proceed with the current release plans for the GPT-6.1 Astra model citing safety and performance standards."
+    ],
+    "unknowns": [
+      "The specific nature of the incidents mentioned by both sources remains undefined.",
+      "The timeline for a potential future release of the model is unknown.",
+      "The exact criteria used to determine that the model failed to meet 'human wishes' or 'safety standards' are not fully specified."
+    ],
+    "synthesis": "OpenAI has officially canceled the release of its GPT-6.1 Astra model after determining that the system failed to meet internal safety and performance standards. While the BBC contextualizes this decision as part of a broader industry discussion on development speeds, Al Jazeera emphasizes concerns regarding AI reliability and potential harm. Both sources confirm the statement by OpenAI's head of safety, Saachi Jain, regarding the model's inability to sufficiently satisfy company requirements.",
+    "confidence": "HIGH. Both sources provide consistent reporting on the cancellation of the specific model and the attribution of the decision to safety standards as stated by the same OpenAI executive.",
+    "sources": [
+      {
+        "id": "art_1790646059313_1pwq9",
+        "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "OpenAI scraps rollout of new model over safety concerns"
+      },
+      {
+        "id": "art_1790646067462_up6hv",
+        "url": "https://www.aljazeera.com/economy/2026/9/29/openai-scraps-release-of-latest-ai-model-over-safety-concerns?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "OpenAI scraps release of latest AI model over safety concerns"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1fa6bbfc11c8b3bf9140c7f442187e6b",
+    "topic_label": "US-China Relations",
+    "event_window_start": "2026-09-28T06:24:33.000Z",
+    "event_window_end": "2026-09-28T20:53:53.000Z",
+    "article_ids": [
+      "art_1790632188578_1dg43",
+      "art_1790580713925_z4jml"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-29T06:12:22.596Z",
+    "updated_at": "2026-09-29T06:12:22.596Z",
+    "region_tag": "middle-east",
+    "shared_facts": [
+      "Two giant pandas arrived in the United States and are headed to Zoo Atlanta.",
+      "Presidents Donald Trump and Xi Jinping held a summit.",
+      "The United States and China released a list of goods for potential tariff reductions.",
+      "The tariff reduction agreement covers $60bn worth of total trade, with $30bn from each nation."
+    ],
+    "source_claims": [
+      "[aljazeera] Chinese President Xi Jinping referred to the pandas as 'envoys of friendship'.",
+      "[aljazeera] The United States and China identified 77 Chinese goods and over 1,600 US products for potential tariff consideration.",
+      "[aljazeera] US Trade Representative Jamieson Greer stated the agreement would improve market conditions."
+    ],
+    "framing_differences": [
+      "Aljazeera frames the panda arrival as a symbol of 'US-China relations' while separately framing the tariff list as a logistical outcome of a presidential summit."
+    ],
+    "contested_claims": [],
+    "unverified_claims": [
+      "[aljazeera] Specific examples of Chinese goods on the list include microwave ovens, fish hooks, artificial flowers, and weighing scales.",
+      "[aljazeera] Specific examples of US exports include poultry, dairy, noodles, eggs, peanuts, canned tomatoes, breeding horses, and silk."
+    ],
+    "loaded_language": [
+      "[aljazeera] uses the term 'prized' to describe the giant pandas."
+    ],
+    "safe_conclusions": [
+      "Two giant pandas have arrived in the United States destined for Zoo Atlanta.",
+      "Presidents Trump and Xi Jinping met for a summit that resulted in a list of goods for tariff review."
+    ],
+    "unknowns": [
+      "The specific timeline for when these tariff reductions will be implemented.",
+      "Whether the arrival of the pandas and the tariff agreement are directly linked in diplomatic strategy or occurred as independent events."
+    ],
+    "synthesis": "Two giant pandas arrived in the United States to be housed at Zoo Atlanta. Simultaneously, the United States and China announced a list of goods for potential tariff reductions following a summit between Presidents Donald Trump and Xi Jinping. The proposed tariff adjustments involve $60bn in total trade across a wide variety of products.",
+    "confidence": "HIGH. The sources provide consistent, non-contradictory information regarding the panda transfer and the trade summit outcomes.",
+    "sources": [
+      {
+        "id": "art_1790632188578_1dg43",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/friendship-pandas-arrive-in-atlanta-marking-us-china-relations-moment?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Friendship pandas’ arrive in Atlanta, marking US-China relations moment"
+      },
+      {
+        "id": "art_1790580713925_z4jml",
+        "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "ca29a1c617b55424f3d89854583bf00c",
     "topic_label": "RAF Fairford Terror Investigation",
     "event_window_start": "2026-09-28T00:34:26.000Z",
@@ -17407,314 +17645,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a4c14fd926eedbf766b0eb084a4b903f",
-    "topic_label": "US Political Campaigning and Issues",
-    "event_window_start": "2026-09-17T10:00:22.000Z",
-    "event_window_end": "2026-09-17T23:40:30.000Z",
-    "article_ids": [
-      "art_1789692559138_uahsc",
-      "art_1789684419315_sq9gt",
-      "art_1789684421537_w7e1l",
-      "art_1789684423639_34rla",
-      "art_1789658642771_2a6r9",
-      "art_1789640922060_md8qc",
-      "art_1789640924219_vu9oe"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T01:20:04.948Z",
-    "updated_at": "2026-09-18T01:20:04.948Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Rep. María Elvira Salazar released a campaign advertisement addressing immigration policy.",
-      "Polling data indicates narrow margins in specific political races."
-    ],
-    "source_claims": [
-      "[fox] claims the administration of Governor Abigail Spanberger withdrew proposed regulations regarding athletic teams and facilities.",
-      "[fox] claims Christina Bohannan described a 'Back the Blue' law as an 'overreaction'.",
-      "[fox] claims House Freedom Caucus leaders issued a statement regarding immigration enforcement.",
-      "[fox] claims Rep. María Elvira Salazar argued in an ad that immigration enforcement efforts have 'gone too far'.",
-      "[guardian] claims Emerson College and The Hill polling shows narrow leads for Democratic candidates in Texas and Michigan."
-    ],
-    "framing_differences": [
-      "Fox frames Representative Salazar's immigration ad as a conflict within the Republican party, whereas the Guardian focuses on broader electoral polling margins.",
-      "Fox uses the framing of 'DEI Queen' to describe candidate Christina Bohannan, while no other provided source uses this terminology."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims the administration of Governor Abigail Spanberger withdrew regulations without public announcement.",
-      "[fox] claims Christina Bohannan posited legislators supported police protections due to a lack of minorities in their districts."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'DEI Queen' to describe Christina Bohannan.",
-      "[fox] uses the term 'socialist threat' to describe the Democratic Party in the context of Rep. Salazar's discussion.",
-      "[guardian] uses the term 'pipe dream' to describe the prospect of flipping a Senate seat in Texas."
-    ],
-    "safe_conclusions": [
-      "Candidates and officeholders are currently engaging in public messaging regarding immigration and policy stances.",
-      "Polling data from Emerson College and The Hill currently measures candidate performance in Texas and Michigan."
-    ],
-    "unknowns": [
-      "The specific legislative details of the proposed regulations in Virginia mentioned by Fox.",
-      "The full context of the 2021 legislative forum where Christina Bohannan spoke.",
-      "The complete methodology of the cited Emerson College and The Hill poll."
-    ],
-    "synthesis": "Political candidates and officials are engaging in public discourse regarding immigration policy and athletic regulations. Polling organizations report narrow margins for candidates in Texas and Michigan Senate races. These reports highlight varying internal party dynamics and electoral strategies across several states.",
-    "confidence": "HIGH: The provided texts represent distinct news reports on separate political events, and factual statements regarding the existence of campaign ads, statements, and polls are consistent within the provided text.",
-    "sources": [
-      {
-        "id": "art_1789692559138_uahsc",
-        "url": "https://www.foxnews.com/outkick-sports/virginia-governor-abigail-spanberger-quietly-rolls-back-youngkins-plans-protect-girls-sports",
-        "source": "fox",
-        "title": "Virginia Governor Abigail Spanberger quietly rolls back Youngkin's plans to protect girls' sports"
-      },
-      {
-        "id": "art_1789684419315_sq9gt",
-        "url": "https://www.foxnews.com/politics/unearthed-clip-exposes-what-dei-queen-razor-thin-house-race-thought-back-blue-law",
-        "source": "fox",
-        "title": "Unearthed clip exposes what 'DEI Queen' in razor-thin House race thought of 'Back the Blue' law"
-      },
-      {
-        "id": "art_1789684421537_w7e1l",
-        "url": "https://www.foxnews.com/politics/house-gop-lawmaker-under-fire-fellow-republicans-after-ad-bashing-trump-immigration",
-        "source": "fox",
-        "title": "House GOP lawmaker under fire by fellow Republicans after ad bashing Trump on immigration"
-      },
-      {
-        "id": "art_1789684423639_34rla",
-        "url": "https://www.foxnews.com/politics/gone-too-far-gop-candidate-runs-trumps-left-signature-issue-deep-red-area",
-        "source": "fox",
-        "title": "'Gone too far:' GOP candidate runs to Trump’s left on signature issue in deep red district"
-      },
-      {
-        "id": "art_1789658642771_2a6r9",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/17/donald-trump-democrats-republicans-russia-sanctions-us-politics-latest-news",
-        "source": "guardian",
-        "title": "Democratic candidates hold narrow leads in Texas and Michigan US Senate races, new poll shows – live"
-      },
-      {
-        "id": "art_1789640922060_md8qc",
-        "url": "https://www.foxnews.com/us/memphis-mom-says-trump-brought-peace-streets-democratic-da-battles-task-force-oversight",
-        "source": "fox",
-        "title": "Memphis mom says Trump brought peace to streets as Democratic DA battles task force oversight"
-      },
-      {
-        "id": "art_1789640924219_vu9oe",
-        "url": "https://www.foxnews.com/politics/dem-megadonor-unleashes-reality-check-harris-2028-eying-socialist-firebrand",
-        "source": "fox",
-        "title": "Dem megadonor unleashes reality check on Harris for 2028 while eying socialist firebrand"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d785fc0aa092191e7c7ff260439f1534",
-    "topic_label": "Trump Administration and Policy",
-    "event_window_start": "2026-09-17T04:42:27.000Z",
-    "event_window_end": "2026-09-17T23:38:27.000Z",
-    "article_ids": [
-      "art_1789692560613_n57dq",
-      "art_1789673078678_5sat7",
-      "art_1789673080792_g2hb5",
-      "art_1789658639501_6u7cc",
-      "art_1789658652166_nohrt",
-      "art_1789640923117_4i9pb",
-      "art_1789622401139_sgw9g"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T01:20:04.948Z",
-    "updated_at": "2026-09-18T01:20:04.948Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "President Donald Trump has proposed a $5,000 cash payment to Americans contingent on Republican midterm election success.",
-      "The Trump administration is pursuing the removal of specific Biden-era environmental and land-use regulations.",
-      "There are ongoing administrative and construction projects associated with the Trump presidency, including an arch in Washington D.C."
-    ],
-    "source_claims": [
-      "[fox] NAM CEO Jay Timmons states that the elimination of Biden-era power plant emission standards is a 'game changer' for the economy.",
-      "[fox] Rep. Ralph Norman characterizes the $5,000 check proposal as 'pay-to-play'.",
-      "[fox] Douglas Holz-Eakin states that the $5,000 check promise is unlikely to materialize.",
-      "[guardian] The National Park Service indicates the proposed 250ft arch could contribute to 'adverse effects to historic properties'."
-    ],
-    "framing_differences": [
-      "Fox focuses on the economic and industry-specific benefits of Trump's deregulation, while The Guardian focuses on potential adverse historic impacts of the administration's physical construction projects."
-    ],
-    "contested_claims": [
-      "There is disagreement between the President's public promises of $5,000 checks and the skepticism of some GOP lawmakers and budget analysts regarding the feasibility and implementation of these payments."
-    ],
-    "unverified_claims": [
-      "[fox] Trump expects to sign executive orders expanding hunting and fishing opportunities.",
-      "[fox] Trump claims the U.S. is the 'hottest country anywhere in the world' and is globally respected."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'red tape' to describe environmental regulations.",
-      "[fox] uses the term 'Trump dividend' to refer to the proposed $5,000 payments.",
-      "[fox] uses the term 'budget hawk' to describe Douglas Holz-Eakin.",
-      "[fox] uses the term 'indomitable spirit' to describe the American people."
-    ],
-    "safe_conclusions": [
-      "The Trump administration is currently taking actions to modify or remove certain environmental and land-use policies established during the Biden administration.",
-      "President Trump has made proposals for both monetary payments to citizens and large-scale architectural projects in Washington D.C.",
-      "These actions and proposals have elicited varying responses from stakeholders, including industry leaders, GOP lawmakers, and government agencies like the National Park Service."
-    ],
-    "unknowns": [
-      "The specific legislative mechanism or funding source for the proposed $5,000 payments remains unspecified.",
-      "The final outcome or timeline for the construction of the proposed 250ft arch is not fully clear.",
-      "The full list of executive orders intended for the signing event with hunters and anglers has not been finalized."
-    ],
-    "synthesis": "The Trump administration is actively pursuing a deregulation agenda and proposing new economic and infrastructure projects. These initiatives have received mixed reactions, ranging from support among manufacturing and sporting industry leaders to skepticism from some Republican lawmakers and concerns from the National Park Service regarding historic site impacts. The feasibility of the administration's financial promises remains a subject of debate among policy experts and legislators.",
-    "confidence": "HIGH. The sources consistently report on separate administration activities, and where reports overlap regarding the $5,000 check proposal, the sources provide consistent details on the nature of the disagreement.",
-    "sources": [
-      {
-        "id": "art_1789692560613_n57dq",
-        "url": "https://www.foxnews.com/politics/trumps-epa-reforms-huge-boost-manufacturers-more-red-tape-cut-expert",
-        "source": "fox",
-        "title": "Trump's EPA reforms are a huge boost to manufacturers, but there's more red tape to cut: expert"
-      },
-      {
-        "id": "art_1789673078678_5sat7",
-        "url": "https://www.foxnews.com/politics/gop-lawmakers-pump-brakes-trumps-5k-check-promise-where-you-getting-money",
-        "source": "fox",
-        "title": "GOP lawmakers pump brakes on Trump's $5K check promise: 'Where are you getting the money?'"
-      },
-      {
-        "id": "art_1789673080792_g2hb5",
-        "url": "https://www.foxnews.com/politics/americas-hunters-get-exclusive-seat-trumps-white-house-table-he-takes-aim-biden-era-rules",
-        "source": "fox",
-        "title": "America’s hunters get an exclusive seat at Trump’s White House table as he takes aim at Biden-era rules"
-      },
-      {
-        "id": "art_1789658639501_6u7cc",
-        "url": "https://www.foxnews.com/politics/trumps-5k-checks-could-join-stack-past-unfulfilled-promises-former-congress-budget-chief-warns",
-        "source": "fox",
-        "title": "Trump’s $5K checks could join stack of past unfulfilled promises, former Congress budget chief warns"
-      },
-      {
-        "id": "art_1789658652166_nohrt",
-        "url": "https://www.theguardian.com/us-news/2026/sep/17/trump-arch-dc-monuments",
-        "source": "guardian",
-        "title": "Trump arch could have ‘adverse effects’ on nearby DC monuments, US park service says"
-      },
-      {
-        "id": "art_1789640923117_4i9pb",
-        "url": "https://www.foxnews.com/politics/fed-threw-wrench-trumps-midterm-economic-message",
-        "source": "fox",
-        "title": "The Fed just threw a wrench in Trump's midterm economic message"
-      },
-      {
-        "id": "art_1789622401139_sgw9g",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/aje-onl-nf_can-ai-regulation-keep-america-ahead-of-china-170926?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can AI regulation keep America ahead of China?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "958e1de9a8cf084b385b6bafb1646879",
-    "topic_label": "International Crime and Abuse",
-    "event_window_start": "2026-09-17T09:51:15.000Z",
-    "event_window_end": "2026-09-18T00:28:15.000Z",
-    "article_ids": [
-      "art_1789692547167_zdcrk",
-      "art_1789673079752_qrtna",
-      "art_1789673083931_u1501",
-      "art_1789640927543_deexp"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T01:20:04.948Z",
-    "updated_at": "2026-09-18T01:20:04.948Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Law enforcement agencies in various jurisdictions have provided updates regarding investigations into the deaths or disappearances of women.",
-      "Multiple investigations are currently active in different regions including the United States and South Africa."
-    ],
-    "source_claims": [
-      "[fox] reports Amos Sheik Massaquoi was deported to Liberia on August 11 following allegations of torture and recruiting child soldiers.",
-      "[fox] reports Philadelphia police discovered five urns and images of seven missing women during a search of Eugene Horsch's home.",
-      "[guardian] reports Jesse Calhoun was indicted on a first-degree manslaughter charge in the death of Elizabeth Gibson.",
-      "[bbc] reports a ninth woman's body was found in the Ekurhuleni area of South Africa, with eight prior deaths occurring since July."
-    ],
-    "framing_differences": [
-      "Fox focuses on individual criminal justice actions regarding specific suspects in Philadelphia and Liberia, whereas the Guardian focuses on a specific legal indictment in Oregon, and the BBC focuses on a broader public safety concern regarding a string of unidentified deaths in South Africa."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Massaquoi is believed to have served as chief bodyguard to Maj. Gen. Daniel Chea.",
-      "[fox] claims initial analysis of images found in Eugene Horsch's home shows two missing women appearing unconscious with apparent injuries.",
-      "[guardian] claims officials believe Elizabeth Gibson was killed on or around 18 November 2022.",
-      "[bbc] claims police have not established a link between the nine deaths in South Africa."
-    ],
-    "loaded_language": [
-      "[guardian] uses the phrase 'extreme indifference to the value of human life' to describe the legal context of the indictment against Calhoun."
-    ],
-    "safe_conclusions": [
-      "Law enforcement authorities are actively investigating cases involving the disappearance and death of women in the United States and South Africa."
-    ],
-    "unknowns": [
-      "Whether the nine deaths in South Africa are related to a single perpetrator remains unknown.",
-      "The identities of the other women found in the South African investigation remain undisclosed.",
-      "The precise contents of the urns found in Philadelphia have not been confirmed as human remains."
-    ],
-    "synthesis": "Law enforcement agencies across the United States and South Africa are reporting on various criminal investigations involving missing or deceased women. These reports include specific indictments, deportations of alleged human rights offenders, and the discovery of evidence in residential searches. Investigations remain ongoing as authorities work to determine the circumstances of these events.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1789692547167_zdcrk",
-        "url": "https://www.foxnews.com/us/ice-deports-ex-liberian-fighter-accused-torture-recruiting-child-soldiers",
-        "source": "fox",
-        "title": "ICE deports ex-Liberian fighter accused of torture, recruiting child soldiers"
-      },
-      {
-        "id": "art_1789673079752_qrtna",
-        "url": "https://www.theguardian.com/us-news/2026/sep/17/oregon-jesse-calhoun-charged-killings",
-        "source": "guardian",
-        "title": "Accused Oregon killer indicted in connection with death of sixth woman"
-      },
-      {
-        "id": "art_1789673083931_u1501",
-        "url": "https://www.foxnews.com/us/philadelphia-home-search-uncovers-possible-human-ashes-images-7-missing-women-police",
-        "source": "fox",
-        "title": "Philadelphia home search uncovers possible human ashes, images of 7 missing women: police"
-      },
-      {
-        "id": "art_1789640927543_deexp",
-        "url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ninth woman's body found as South African police investigate string of deaths"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
