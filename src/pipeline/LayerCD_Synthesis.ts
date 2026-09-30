@@ -116,12 +116,16 @@ export async function runSynthesis() {
     };
 
     const clusterPrompt = `Group the following news articles into clusters by topic/event.
-Each cluster should have a "topic" (short label, max 5 words) and "articleIds" (array of strings).
+Each cluster should have a "topic" (short label, max 8 words) and "articleIds" (array of strings).
+
+THE INCIDENT DISENTANGLEMENT RULE:
+1. Chronic Regional Streams: Group slow, macro-geopolitical developments into broad regional buckets.
+2. Acute Kinetic Anomalies: ANY event involving physical violence, airspace closure, transport emergency, or kinetic force MUST break out into an independent, standalone cluster titled specifically to that event (e.g., "Flydubai FZ1073: In-Flight Assault & Emergency Diversion"). NEVER append a sudden, life-threatening incident into a broad regional bucket.
+
 PRIORITY:
-1. Always include clusters related to the Middle East, UAE, or Dubai.
-2. Always include clusters involving global disasters or threat levels (source: gdacs).
-3. Group other significant international events with multi-source coverage.
-Only include 1-article clusters if the topic is extremely high-severity (e.g. GDACS alert).
+1. Acute Kinetic events MUST be separated into standalone clusters.
+2. Always include clusters related to the Middle East, UAE, or Dubai.
+3. Always include clusters involving global disasters (source: gdacs).
 Articles:\n${JSON.stringify(payload, null, 2)}`;
 
     let predictedClusters: {topic: string, articleIds: string[], _telemetry?: any, _fallback?: boolean}[] = [];
@@ -187,49 +191,37 @@ Articles:\n${JSON.stringify(payload, null, 2)}`;
         const compareSchema = {
             type: Type.OBJECT,
             properties: {
-                shared_facts:        { type: Type.ARRAY, items: { type: Type.STRING } },
-                source_claims:       { type: Type.ARRAY, items: { type: Type.STRING } },
-                framing_differences: { type: Type.ARRAY, items: { type: Type.STRING } },
-                contested_claims:    { type: Type.ARRAY, items: { type: Type.STRING } },
-                unverified_claims:   { type: Type.ARRAY, items: { type: Type.STRING } },
-                loaded_language:     { type: Type.ARRAY, items: { type: Type.STRING } },
-                safe_conclusions:    { type: Type.ARRAY, items: { type: Type.STRING } },
-                unknowns:            { type: Type.ARRAY, items: { type: Type.STRING } },
-                synthesis:           { type: Type.STRING },
-                confidence:          { type: Type.STRING }
+                title: { type: Type.STRING },
+                severity: { type: Type.STRING },
+                incident_type: { type: Type.STRING },
+                synthesis: { type: Type.STRING },
+                consensus: { type: Type.ARRAY, items: { type: Type.STRING } },
+                divergence: { type: Type.ARRAY, items: { type: Type.STRING } }
             },
             required: [
-                "shared_facts", "source_claims", "framing_differences",
-                "contested_claims", "unverified_claims", "loaded_language",
-                "safe_conclusions", "unknowns", "synthesis", "confidence"
+                "title", "severity", "incident_type", "synthesis", "consensus", "divergence"
             ]
         };
 
-        const comparePrompt = `You are a neutral intelligence analyst applying strict Truth and Source Framing Discipline.
+        const comparePrompt = `You are a neutral intelligence analyst applying strict Kinetic Ground Truth discipline.
 Your task is to analyze the following news articles about the same event and populate each field exactly as defined.
 
 STRICT RULES — YOU MUST FOLLOW ALL OF THEM:
-1. You must NEVER make editorial judgments. Do not use words like: mischaracterizes, falsely claims, conflates, propaganda, extremist, far-left, far-right, biased, misleading — unless a source explicitly uses those words about another source, in which case you must attribute them directly to that source.
-2. You must NEVER decide which source is correct unless at least 2 independent sources establish the same fact.
-3. When a source uses charged or opinionated language, you must attribute it: write "[SOURCE_ID] describes the group as [term]" — never state it as fact.
-4. Every item in source_claims, unverified_claims, and loaded_language MUST include the source ID in brackets at the start: "[source_id] ..."
-5. Every item in framing_differences MUST compare two or more specific sources by name.
-6. Do not speculate about motive or intent unless directly stated in the text.
-7. safe_conclusions must only contain statements ALL sources would agree with — factual, verifiable, uncontested.
-8. unknowns must list what is genuinely not answerable from the provided sources.
-9. synthesis must be a maximum of 3 sentences, written in entirely neutral, factual language with no editorial framing.
+1. Kinetic Ground Truth: You must prioritize physical reality over narrative. What physical event occurred? What weapons/instruments were used? What is the telemetry?
+2. De-Sanitization: You must systematically strip out corporate and institutional euphemisms. An armed cockpit breach is not an "in-flight incident." Report the physical action as it occurred.
+3. Universal Threat Severity Matrix: Classify severity deterministically into EXACTLY ONE of these levels:
+   - CRITICAL: Active hijacking, transponder Squawk 7500/7700, suicide detonations, mass stabbings, direct ballistic impacts on civilian centers, sudden airspace/border closures, active evacuation orders.
+   - HIGH: Intercepted ballistic/drone salvos, military infrastructure strikes, naval vessel interdictions/seizures, confirmed active armed skirmishes.
+   - MODERATE: Diplomatic expulsions, localized troop buildups, martial law alerts, state of emergency declarations.
+   - LOW: Routine political statements, bilateral trade talks, general diplomatic commentary.
 
 FIELD DEFINITIONS:
-- shared_facts: Facts corroborated by 2 or more independent sources. State exactly what they agree on.
-- source_claims: Specific claims made by individual sources. Prefix each with [source_id]. Do not assert truth.
-- framing_differences: How different sources frame the same event differently. Name the sources explicitly.
-- contested_claims: Claims where sources directly contradict each other. Describe the contradiction neutrally.
-- unverified_claims: Claims appearing in only one source, not confirmed elsewhere. Prefix with [source_id].
-- loaded_language: Any charged, opinionated, or emotionally loaded language. Attribute it: "[source_id] uses the term '...' to describe..."
-- safe_conclusions: Only conclusions that ALL sources would agree with. No inference beyond the text.
-- unknowns: Key questions the sources leave unanswered.
-- synthesis: A neutral 3-sentence maximum summary. No judgment. No editorial framing.
-- confidence: Assess factual consistency across sources. Use: HIGH / MEDIUM / LOW / CONTESTED. Add a one-sentence justification.
+- title: Precise, Event-Specific Title (No generic regional labels).
+- severity: EXACTLY ONE OF: CRITICAL, HIGH, MODERATE, LOW.
+- incident_type: e.g., Aviation, Ballistic, Terrorism, Maritime, Infrastructure, Diplomacy.
+- synthesis: One high-density executive paragraph stating the physical reality: Actors, instruments used, kinetic actions, telemetry, and current real-world status. De-sanitize corporate/state PR euphemisms immediately.
+- consensus: Array of undisputed physical facts corroborated across all feeds.
+- divergence: Array of framing/spin differences. Identify what specific detail each entity intentionally omitted, sanitized, or spun. Mention the source explicitly.
 
 Articles:
 ${compareText}`;
@@ -239,16 +231,12 @@ ${compareText}`;
             if (comparison) {
                 // ── Fallback values ──
                 const isFallback = !!comparison._fallback;
-                const synText         = isFallback ? 'Automated deterministic fallback summary due to AI provider failure.' : (comparison.synthesis || '');
-                const conf            = isFallback ? 'LOW (Deterministic Fallback)' : (comparison.confidence || 'LOW');
-                const sharedFacts     = isFallback ? ['Fallback activated.']       : (comparison.shared_facts || []);
-                const sourceClaims    = isFallback ? ['No data available.']        : (comparison.source_claims || []);
-                const framingDiffs    = isFallback ? ['No comparative data.']      : (comparison.framing_differences || []);
-                const contestedClaims = isFallback ? []                            : (comparison.contested_claims || []);
-                const unverified      = isFallback ? []                            : (comparison.unverified_claims || []);
-                const loadedLang      = isFallback ? []                            : (comparison.loaded_language || []);
-                const safeConclusions = isFallback ? []                            : (comparison.safe_conclusions || []);
-                const unknowns        = isFallback ? ['No analysis possible.']     : (comparison.unknowns || []);
+                const synText       = isFallback ? 'Automated deterministic fallback summary due to AI provider failure.' : (comparison.synthesis || '');
+                const severity      = isFallback ? 'LOW' : (comparison.severity || 'LOW');
+                const incidentType  = isFallback ? 'System' : (comparison.incident_type || 'Unknown');
+                const topicLabel    = isFallback ? 'Fallback Synthesis' : (comparison.title || c.topic);
+                const consensus     = isFallback ? ['Fallback activated.'] : (comparison.consensus || []);
+                const divergence    = isFallback ? ['No comparative data.'] : (comparison.divergence || []);
 
                 const sourceRefs = memberArticles.map(a => ({
                     id: a.article_id,
@@ -259,7 +247,7 @@ ${compareText}`;
 
                 newClusters.push({
                     cluster_id: clusterId,
-                    topic_label: c.topic,
+                    topic_label: topicLabel,
                     event_window_start: memberArticles[memberArticles.length - 1]?.published_at || now,
                     event_window_end: memberArticles[0]?.published_at || now,
                     article_ids: memberArticles.map(a => a.article_id),
@@ -273,17 +261,12 @@ ${compareText}`;
                     created_at: now,
                     updated_at: now,
                     region_tag: memberArticles[0]?.region_tag || 'global',
-                    // ── Truth & Source Framing Discipline fields ──
-                    shared_facts:        sharedFacts,
-                    source_claims:       sourceClaims,
-                    framing_differences: framingDiffs,
-                    contested_claims:    contestedClaims,
-                    unverified_claims:   unverified,
-                    loaded_language:     loadedLang,
-                    safe_conclusions:    safeConclusions,
-                    unknowns:            unknowns,
+                    // ── Kinetic Ground Truth Engine fields ──
+                    severity:            severity,
+                    incident_type:       incidentType,
                     synthesis:           synText,
-                    confidence:          conf,
+                    consensus:           consensus,
+                    divergence:          divergence,
                     sources:             sourceRefs,
                     model_used:          comparison._telemetry?.used_model || clusterTelemetry.used_model
                 });

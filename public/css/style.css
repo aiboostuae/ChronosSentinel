@@ -1263,3 +1263,24 @@ td a:hover {
     border-left: 2px solid rgba(255, 255, 255, 0.05);
     padding-left: 0.75rem;
 }
+
+/* === Kinetic Ground Truth Overhaul === */
+.logo-subtitle { display: block; font-size: 0.65rem; letter-spacing: 2px; color: #00e5ff; font-weight: 600; opacity: 0.8; margin-top: 2px; }
+.hero-dispatch-container { margin-bottom: 2rem; width: 100%; display: flex; flex-direction: column; gap: 1rem; }
+.hero-dispatch-container.hidden { display: none; }
+.hero-card { background: #0c121b; border: 1px solid #ef4444; border-radius: 8px; padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; position: relative; overflow: hidden; box-shadow: 0 0 20px rgba(239, 68, 68, 0.15); }
+.hero-card.severity-HIGH { border-color: #f59e0b; box-shadow: 0 0 20px rgba(245, 158, 11, 0.15); }
+.hero-card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: #ef4444; }
+.hero-card.severity-HIGH::before { background: #f59e0b; }
+.hero-header { display: flex; align-items: center; gap: 1rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #a0aec0; }
+.hero-title { font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0; font-family: 'Outfit', sans-serif; }
+.hero-synthesis { font-size: 1rem; color: #e2e8f0; line-height: 1.6; }
+.hero-btn { display: inline-block; padding: 0.75rem 1.5rem; background: rgba(239, 68, 68, 0.1); border: 1px solid #ef4444; color: #ef4444; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem; border-radius: 4px; cursor: pointer; transition: all 0.2s; align-self: flex-start; }
+.hero-btn:hover { background: #ef4444; color: #000; }
+.badge-CRITICAL { background: rgba(239, 68, 68, 0.15); color: #ef4444; border: 1px solid rgba(239, 68, 68, 0.4); padding: 2px 8px; border-radius: 4px; font-weight: 700; }
+.badge-HIGH { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.4); padding: 2px 8px; border-radius: 4px; font-weight: 700; }
+.badge-MODERATE { background: rgba(6, 182, 212, 0.15); color: #06b6d4; border: 1px solid rgba(6, 182, 212, 0.4); padding: 2px 8px; border-radius: 4px; font-weight: 700; }
+.badge-LOW { background: rgba(100, 116, 139, 0.15); color: #94a3b8; border: 1px solid rgba(100, 116, 139, 0.4); padding: 2px 8px; border-radius: 4px; font-weight: 700; }
+.pulse-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ef4444; box-shadow: 0 0 8px #ef4444; animation: pulse 1.5s infinite; margin-right: 8px; }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); } 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); } }
+

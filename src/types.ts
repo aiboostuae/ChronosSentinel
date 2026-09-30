@@ -65,18 +65,21 @@ export interface ClusterObject {
     updated_at: string;
     region_tag: string;
 
-    // ─── Truth & Source Framing Discipline fields (CS-010 Synthesis Layer) ───
-    shared_facts?: string[];           // Corroborated facts: stated by 2+ independent sources
-    source_claims?: string[];          // Source-specific claims: attributed, not assumed true
-    framing_differences?: string[];    // How different sources frame the same fact differently
-    contested_claims?: string[];       // Claims disputed between sources
-    unverified_claims?: string[];      // Claims from a single source, not independently confirmed
-    loaded_language?: string[];        // Loaded/charged language — attributed to the source using it
-    safe_conclusions?: string[];       // Conclusions defensible across all available sources
-    unknowns?: string[];               // Key gaps, missing data, or unanswerable questions
-    // Legacy aliases (kept for backward-compat with existing data)
-    source_differences?: string[];
+    // ─── Kinetic Ground Truth Engine fields (CS Overhaul) ───
+    severity?: string;
+    incident_type?: string;
     synthesis?: string;
+    consensus?: string[];
+    divergence?: string[];
+    // Legacy aliases (kept for backward-compat with existing data)
+    shared_facts?: string[];
+    source_claims?: string[];
+    framing_differences?: string[];
+    contested_claims?: string[];
+    unverified_claims?: string[];
+    loaded_language?: string[];
+    safe_conclusions?: string[];
+    unknowns?: string[];
     confidence?: string;
     sources?: Array<{ id: string; url: string; source: string; title: string }>;
     model_used?: string;

@@ -108,11 +108,10 @@ function closeModal() {
 function showClusterDetailModal(c, backCallback = null, thread = null) {
     const topic = c.topic_label || c.canonicalLabel || 'Intelligence Briefing';
     const syn = c.synthesis || c.summary || 'Synthesis pending...';
-    const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' :
-                     (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
+    const severity = c.severity || 'LOW';
     const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
     const sources = c.sources || [];
-    const sevClass = severity.toLowerCase();
+    const sevClass = 'badge-' + severity.toUpperCase();
 
     let backBtnHtml = '';
     if (backCallback) {
@@ -174,7 +173,7 @@ function showClusterDetailModal(c, backCallback = null, thread = null) {
         <div class="card-header" style="margin-bottom:1.75rem;">
             <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
                 <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
-                    <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+                    <span class="${sevClass}">${severity.toUpperCase()}</span>
                     ${thread && thread.length > 1 ? `<span class="version-badge">&#8635; ${thread.length} UPDATES</span>` : ''}
                 </div>
                 <span style="font-size:0.75rem; color:var(--text-secondary);">${displayTime}</span>
@@ -352,9 +351,14 @@ function groupIntoThreads(clusters) {
 }
 
 async function loadSentinel() {
-    const container = document.getElementById('clusters-grid');
-    if (!container) return;
-    container.innerHTML = '<div class="loading-pulse">Establishing Uplink...</div>';
+    const gridContainer = document.getElementById('clusters-grid');
+    const heroContainer = document.getElementById('hero-dispatch-container');
+    const statusBanner = document.getElementById('global-alert-banner');
+    
+    if (!gridContainer || !heroContainer) return;
+    gridContainer.innerHTML = '<div class="loading-pulse">Establishing Uplink...</div>';
+    heroContainer.innerHTML = '';
+    heroContainer.classList.add('hidden');
     
     try {
         const res = await fetch('data/latest/clusters.json?cb=' + Date.now());
@@ -366,17 +370,65 @@ async function loadSentinel() {
             return c.region_tag === activeRegion;
         });
 
-        container.innerHTML = '';
+        gridContainer.innerHTML = '';
         if (filtered.length === 0) {
-            container.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No synthesized signals detected in this sector.</div>';
+            gridContainer.innerHTML = '<div class="syn-text" style="padding:2rem; text-align:center;">No synthesized signals detected in this sector.</div>';
+            statusBanner.textContent = 'STATUS: STABLE';
+            statusBanner.style.color = '#00e5ff';
             return;
         }
 
         const threads = groupIntoThreads(filtered);
-        renderThreads(threads, container);
+        
+        // Find CRITICAL or HIGH for Hero Slot
+        const heroThreadIndex = threads.findIndex(t => {
+            const sev = (t[0].severity || '').toUpperCase();
+            return sev === 'CRITICAL' || sev === 'HIGH';
+        });
+
+        let hasCritical = threads.some(t => (t[0].severity || '').toUpperCase() === 'CRITICAL');
+        if(hasCritical) {
+            statusBanner.innerHTML = '<span class="pulse-dot"></span>CRITICAL INCIDENT ACTIVE';
+            statusBanner.style.color = '#ef4444';
+        } else {
+            statusBanner.textContent = 'REGIONAL SURVEILLANCE STABLE';
+            statusBanner.style.color = '#00e5ff';
+        }
+
+        if (heroThreadIndex !== -1) {
+            const heroThread = threads.splice(heroThreadIndex, 1)[0];
+            renderHero(heroThread, heroContainer);
+            heroContainer.classList.remove('hidden');
+        }
+
+        renderThreads(threads, gridContainer);
     } catch(e) {
-        container.innerHTML = `<div class="syn-text">Telemetry Error: ${e.message}</div>`;
+        gridContainer.innerHTML = `<div class="syn-text">Telemetry Error: ${e.message}</div>`;
     }
+}
+
+function renderHero(thread, container) {
+    const c = thread[0];
+    const sev = (c.severity || 'HIGH').toUpperCase();
+    const topic = c.topic_label || 'Active Kinetic Dispatch';
+    const syn = c.synthesis || 'Synthesis in progress...';
+    const incidentType = c.incident_type || 'Kinetic Event';
+    const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
+    
+    container.innerHTML = `
+        <div class="hero-card severity-${sev}">
+            <div class="hero-header">
+                <span class="badge-${sev}">${sev}</span>
+                <span>${displayTime}</span>
+                <span>|  ${incidentType}</span>
+            </div>
+            <h3 class="hero-title">${topic}</h3>
+            <p class="hero-synthesis">${syn}</p>
+            <button class="hero-btn">Read Full Truth Briefing</button>
+        </div>
+    `;
+    
+    container.querySelector('.hero-btn').onclick = () => showClusterDetailModal(c, null, thread);
 }
 
 function renderThreads(threads, container, backCallback = null) {
@@ -387,10 +439,9 @@ function renderThreads(threads, container, backCallback = null) {
         const versions = thread.length;
         const topic = c.topic_label || c.canonicalLabel || 'Intelligence Update';
         const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
-        const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' :
-                         (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
+        const severity = c.severity || 'LOW';
         const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
-        const sevClass = severity.toLowerCase();
+        const sevClass = 'badge-' + severity.toUpperCase();
         const excerpt = syn.length > 150 ? syn.substring(0, 150) + '...' : syn;
 
         // Badge: Developing Story or Updated count
@@ -405,7 +456,7 @@ function renderThreads(threads, container, backCallback = null) {
             <div class="card-header">
                 <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
                     <div style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
-                        <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+                        <span class="${sevClass}">${severity.toUpperCase()}</span>
                         ${versionBadge}
                     </div>
                     <span style="font-size:0.75rem; color:var(--text-secondary); white-space:nowrap;">${displayTime}</span>
@@ -431,17 +482,16 @@ function renderClusters(clusters, container, backCallback = null) {
     clusters.forEach(c => {
         const topic = c.topic_label || c.canonicalLabel || 'Intelligence Update';
         const syn = c.synthesis || c.summary || 'Detailed synthesis pending...';
-        const severity = (c.qualification_score && c.qualification_score >= 8) ? 'High' : 
-                         (c.qualification_score && c.qualification_score >= 5) ? 'Medium' : 'Low';
+        const severity = c.severity || 'LOW';
         const displayTime = formatDateTime(c.event_window_end || c.created_at || c.timestamp);
-        const sevClass = severity.toLowerCase();
+        const sevClass = 'badge-' + severity.toUpperCase();
         const excerpt = syn.length > 150 ? syn.substring(0, 150) + "..." : syn;
         const card = document.createElement('div');
         card.className = 'cluster-card mini-card';
         card.innerHTML = `
             <div class="card-header">
                 <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
-                    <span class="topic-tag ${sevClass}">${severity.toUpperCase()}</span>
+                    <span class="${sevClass}">${severity.toUpperCase()}</span>
                     <span style="font-size:0.75rem; color:var(--text-secondary);">${displayTime}</span>
                 </div>
                 <h3>${topic}</h3>
