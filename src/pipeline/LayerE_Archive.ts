@@ -77,7 +77,7 @@ export async function runArchive() {
 
     // Sort manifest by date desc
     manifest.sort((a, b) => b.date.localeCompare(a.date));
-    fs.writeFileSync(manifestFile, JSON.stringify(manifest.slice(0, 30), null, 2));
+    fs.writeFileSync(manifestFile, JSON.stringify(manifest.slice(0, 90), null, 2));
 
     console.log(`Archive complete. Snapshot: ${dateStr}/${timeStr}.json`);
 }
