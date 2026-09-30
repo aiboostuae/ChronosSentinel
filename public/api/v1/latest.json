@@ -1,27 +1,30 @@
 {
-  "generated_at": "2026-09-30T14:18:49.526Z",
+  "generated_at": "2026-09-30T19:50:51.100Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 157,
+  "impact_count": 155,
   "watchlist_count": 3,
   "latest_clusters": [
     {
-      "cluster_id": "d0756de20983cd21c6d0da2deaeccad6",
-      "topic_label": "Middle East security and conflict",
-      "event_window_start": "2026-09-29T18:51:30.000Z",
-      "event_window_end": "2026-09-30T09:02:59.000Z",
-      "article_count": 6,
+      "cluster_id": "fc40108299140e10ebf3a29db7e508fb",
+      "topic_label": "Flydubai flight pilot incident",
+      "event_window_start": "2026-09-30T08:00:10.000Z",
+      "event_window_end": "2026-09-30T15:27:26.000Z",
+      "article_count": 3,
       "source_count": 2,
-      "region_tag": "global",
+      "region_tag": "middle-east",
       "shared_facts": [
-        "A Flydubai flight traveling from Dubai to Israel was diverted to Saudi Arabia on Wednesday.",
-        "The aircraft issued an emergency signal during the flight.",
-        "The flight landed safely at an airport in Saudi Arabia."
+        "Fallback activated."
       ],
       "source_differences": [],
-      "synthesis": "A Flydubai flight from Dubai to Tel Aviv was diverted to Saudi Arabia on Wednesday after an in-flight emergency. Reports from Israeli media cite officials claiming a conflict occurred between the pilots, while the airline confirmed an incident occurred and that all passengers landed safely. The flight triggered multiple emergency alert codes during the diversion process.",
-      "confidence": "HIGH. Both provided sources confirm the diversion, the emergency alert, and the safe landing of the aircraft in Saudi Arabia.",
+      "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+      "confidence": "LOW (Deterministic Fallback)",
       "sources": [
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
+          "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?"
+        },
         {
           "source": "bbc",
           "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
@@ -31,29 +34,41 @@
           "source": "aljazeera",
           "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
           "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/30/moroccos-pro-palestine-protests-challenge-rabats-deepening-israel-ties?traffic_source=rss",
-          "title": "Morocco’s pro-Palestine protests challenge Rabat’s deepening Israel ties"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss",
-          "title": "Iraq begins high-stakes security balancing act as US troops withdraw"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/9/29/can-iraq-handle-future-security-challenges-alone?traffic_source=rss",
-          "title": "Can Iraq handle future security challenges alone?"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/aje-onl-nf_j_daily_israeli-worshippers-attack-palestinian-man-290926?traffic_source=rss",
-          "title": "Jerusalem Daily: Israeli worshippers attack Palestinian man"
         }
       ],
-      "updated_at": "2026-09-30T14:18:21.538Z"
+      "updated_at": "2026-09-30T19:49:35.687Z"
+    },
+    {
+      "cluster_id": "fcccde2640a1a262434b15d869c4d5d8",
+      "topic_label": "Israel plane stabbing incident",
+      "event_window_start": "2026-09-30T15:16:37.000Z",
+      "event_window_end": "2026-09-30T15:30:06.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [
+        "A flight traveling from the UAE to Israel made an emergency landing in Saudi Arabia.",
+        "A physical altercation involving two pilots occurred during the flight.",
+        "The aircraft experienced a significant change in altitude.",
+        "The pilot accused of the altercation is being held for questioning by Saudi authorities.",
+        "Israeli Prime Minister Benjamin Netanyahu released a statement regarding the incident."
+      ],
+      "source_differences": [],
+      "synthesis": "An Israel-bound flight from the UAE diverted to Saudi Arabia after a physical altercation between pilots occurred mid-flight. Israeli Prime Minister Benjamin Netanyahu stated that one pilot stabbed another and appeared to attempt to crash the aircraft, prompting an investigation into a potential terror motive. The aircraft landed safely in Tabuk, where the accused pilot is currently being questioned by local authorities.",
+      "confidence": "HIGH. The provided source articles are consistent in their reporting of the core event, with minor variations in attributed details.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/live/2026/sep/30/dubai-israel-saudi-arabia-flydubai-flight-diversion-pilots-fight-latest-news-updates",
+          "title": "Netanyahu says pilot arrested after stabbing fellow pilot and apparently trying to crash Israel-bound plane – latest"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/sep/30/israel-bound-passenger-plane-emergency-landing-saudi-arabia-pilots-feud",
+          "title": "Pilot who stabbed co-pilot on Israel-bound plane may have tried to crash it, says Netanyahu"
+        }
+      ],
+      "updated_at": "2026-09-30T19:49:35.687Z"
     },
     {
       "cluster_id": "9afd84e450f31d7f09a637999591a6a3",
@@ -116,6 +131,157 @@
       "updated_at": "2026-09-30T14:18:21.538Z"
     },
     {
+      "cluster_id": "5ccf425ab6cfa8e44f03b7d7b2e1659b",
+      "topic_label": "UK politics and Andy Burnham",
+      "event_window_start": "2026-09-30T08:48:59.000Z",
+      "event_window_end": "2026-09-30T15:28:45.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Andy Burnham is the Prime Minister of the United Kingdom.",
+        "Andy Burnham delivered a speech at the Labour Party conference.",
+        "The speech addressed topics including the future relationship between the UK and the European Union, social care, housing, and energy."
+      ],
+      "source_differences": [],
+      "synthesis": "Prime Minister Andy Burnham addressed the Labour Party conference, focusing on long-term national priorities including public service reform and the UK's future relationship with the European Union. While reporting highlights the emotional reception of his speech among attendees, it also notes his stated commitment to addressing post-Brexit uncertainty. The announcements encompass proposed improvements to energy, housing, and social care infrastructure.",
+      "confidence": "HIGH. The sources consistently identify the speaker, the event, and the primary themes of the address without contradictory factual claims.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/2026/sep/30/labour-ministers-moved-persuaded-andy-burnham-emotional-conference-speech",
+          "title": "‘He persuaded us’: Labour ministers moved by Andy Burnham’s emotional conference speech"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/sep/30/andy-burnham-eu-brexit-rejoin-customs-union-fuel-duty-budget-latest-news-updates",
+          "title": "Burnham says UK ‘can’t afford another decade of post-Brexit drift’ as he leaves door open to rejoining the EU – UK politics live"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/uks-pm-burnham-sets-out-plans-to-reshape-public-services?traffic_source=rss",
+          "title": "UK‘s PM Burnham sets out plans to reshape public services"
+        }
+      ],
+      "updated_at": "2026-09-30T19:49:35.687Z"
+    },
+    {
+      "cluster_id": "dd60e4fcf3570597e3a772df6d05e436",
+      "topic_label": "Australian Greens Leadership",
+      "event_window_start": "2026-09-29T23:18:46.000Z",
+      "event_window_end": "2026-09-30T02:04:17.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [
+        "David Shoebridge is a senator from New South Wales.",
+        "The Australian Greens held a leadership ballot following the resignation of Larissa Waters.",
+        "Steph Hodgins-May is a candidate for a leadership position in the Greens.",
+        "The Greens held a meeting in Sydney."
+      ],
+      "source_differences": [],
+      "synthesis": "David Shoebridge has been identified as the new federal leader of the Australian Greens, with Steph Hodgins-May as deputy, following the resignation of Larissa Waters. The pair campaigned on a platform focused on replacing the current Labor government and addressing economic and environmental policy. The leadership selection was conducted during a party retreat held in Sydney.",
+      "confidence": "HIGH. The sources are both from the same publication and provide consistent reporting regarding the leadership changes and the stated political platform of the candidates.",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/sep/30/david-shoebridge-greens-leadership-steph-hodgins-may-retreat-larissa-waters",
+          "title": "David Shoebridge elected new Greens leader after pledging to ‘replace’ Labor"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/australia-news/live/2026/sep/30/labor-anthony-albanese-coalition-polling-new-greens-leader-openai-hack-ntwnfb",
+          "title": "Australia news live: Shoebridge and Hodgins-May announce Greens leadership bid, saying Labor ‘can’t stop One Nation’"
+        }
+      ],
+      "updated_at": "2026-09-30T07:21:46.974Z"
+    },
+    {
+      "cluster_id": "38df18b139ed0afeef3b0813bb894a2c",
+      "topic_label": "US death penalty cases",
+      "event_window_start": "2026-09-29T22:46:08.000Z",
+      "event_window_end": "2026-09-30T15:29:11.000Z",
+      "article_count": 3,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "Christa Pike was convicted of the 1996 murder of Colleen Slemmer.",
+        "Tennessee authorities planned to execute Christa Pike on Wednesday.",
+        "A court halted the execution of Christa Pike shortly before it was scheduled to occur."
+      ],
+      "source_differences": [],
+      "synthesis": "The execution of Tennessee death row inmate Christa Pike, scheduled for Wednesday, was halted by a federal appeals court to allow for further review of legal arguments. This stay occurred after the Tennessee governor and the supreme court had previously denied requests for clemency. Separately, 77-year-old Curtis Wilkie Beasley was executed in Florida on Tuesday for a 1995 murder conviction.",
+      "confidence": "HIGH. The sources consistently report the stay of execution and the historical context of the Pike case, while the Florida execution is reported as a distinct event.",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss",
+          "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/30/tennessee-execution-halted-christa-pike",
+          "title": "Tennessee halts plan to execute woman for first time in 200 years"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/2026/sep/29/curtis-wilkie-beasley-executed-florida",
+          "title": "77-year-old man put to death in Florida, 16th person to be executed in the state this year"
+        }
+      ],
+      "updated_at": "2026-09-30T19:49:35.687Z"
+    },
+    {
+      "cluster_id": "d0756de20983cd21c6d0da2deaeccad6",
+      "topic_label": "Middle East security and conflict",
+      "event_window_start": "2026-09-29T18:51:30.000Z",
+      "event_window_end": "2026-09-30T09:02:59.000Z",
+      "article_count": 6,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [
+        "A Flydubai flight traveling from Dubai to Israel was diverted to Saudi Arabia on Wednesday.",
+        "The aircraft issued an emergency signal during the flight.",
+        "The flight landed safely at an airport in Saudi Arabia."
+      ],
+      "source_differences": [],
+      "synthesis": "A Flydubai flight from Dubai to Tel Aviv was diverted to Saudi Arabia on Wednesday after an in-flight emergency. Reports from Israeli media cite officials claiming a conflict occurred between the pilots, while the airline confirmed an incident occurred and that all passengers landed safely. The flight triggered multiple emergency alert codes during the diversion process.",
+      "confidence": "HIGH. Both provided sources confirm the diversion, the emergency alert, and the safe landing of the aircraft in Saudi Arabia.",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+          "title": "Israel-bound flight diverted after fight between pilots"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
+          "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/30/moroccos-pro-palestine-protests-challenge-rabats-deepening-israel-ties?traffic_source=rss",
+          "title": "Morocco’s pro-Palestine protests challenge Rabat’s deepening Israel ties"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss",
+          "title": "Iraq begins high-stakes security balancing act as US troops withdraw"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/9/29/can-iraq-handle-future-security-challenges-alone?traffic_source=rss",
+          "title": "Can Iraq handle future security challenges alone?"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/aje-onl-nf_j_daily_israeli-worshippers-attack-palestinian-man-290926?traffic_source=rss",
+          "title": "Jerusalem Daily: Israeli worshippers attack Palestinian man"
+        }
+      ],
+      "updated_at": "2026-09-30T14:18:21.538Z"
+    },
+    {
       "cluster_id": "1acbfbc75206b671d2e6c8c1d3ef575a",
       "topic_label": "UK politics and services",
       "event_window_start": "2026-09-30T08:48:59.000Z",
@@ -172,180 +338,27 @@
         }
       ],
       "updated_at": "2026-09-30T14:18:21.538Z"
-    },
-    {
-      "cluster_id": "dd60e4fcf3570597e3a772df6d05e436",
-      "topic_label": "Australian Greens Leadership",
-      "event_window_start": "2026-09-29T23:18:46.000Z",
-      "event_window_end": "2026-09-30T02:04:17.000Z",
-      "article_count": 2,
-      "source_count": 1,
-      "region_tag": "global",
-      "shared_facts": [
-        "David Shoebridge is a senator from New South Wales.",
-        "The Australian Greens held a leadership ballot following the resignation of Larissa Waters.",
-        "Steph Hodgins-May is a candidate for a leadership position in the Greens.",
-        "The Greens held a meeting in Sydney."
-      ],
-      "source_differences": [],
-      "synthesis": "David Shoebridge has been identified as the new federal leader of the Australian Greens, with Steph Hodgins-May as deputy, following the resignation of Larissa Waters. The pair campaigned on a platform focused on replacing the current Labor government and addressing economic and environmental policy. The leadership selection was conducted during a party retreat held in Sydney.",
-      "confidence": "HIGH. The sources are both from the same publication and provide consistent reporting regarding the leadership changes and the stated political platform of the candidates.",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/30/david-shoebridge-greens-leadership-steph-hodgins-may-retreat-larissa-waters",
-          "title": "David Shoebridge elected new Greens leader after pledging to ‘replace’ Labor"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/australia-news/live/2026/sep/30/labor-anthony-albanese-coalition-polling-new-greens-leader-openai-hack-ntwnfb",
-          "title": "Australia news live: Shoebridge and Hodgins-May announce Greens leadership bid, saying Labor ‘can’t stop One Nation’"
-        }
-      ],
-      "updated_at": "2026-09-30T07:21:46.974Z"
-    },
-    {
-      "cluster_id": "3f385b2f12ffd4226e6a2bb3da7de88f",
-      "topic_label": "Iraq Security and US Withdrawal",
-      "event_window_start": "2026-09-29T19:05:03.000Z",
-      "event_window_end": "2026-09-29T23:06:53.000Z",
-      "article_count": 2,
-      "source_count": 1,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "US troops have concluded their military presence in Iraq.",
-        "The US military presence in Iraq began in 2003.",
-        "US troops served in an advisory capacity against ISIL (ISIS) since 2015."
-      ],
-      "source_differences": [],
-      "synthesis": "The United States has completed the withdrawal of its military forces from Iraq, ending a presence that began in 2003. The Iraqi government is now preparing to manage its national security independently, including stated goals to address militia disarmament. This transition marks a significant shift in Iraq's post-2003 security landscape.",
-      "confidence": "HIGH. Both source segments are consistent regarding the core fact of the military withdrawal.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/29/iraq-begins-high-stakes-security-balancing-act-as-us-troops-withdraw?traffic_source=rss",
-          "title": "Iraq begins high-stakes security balancing act as US troops withdraw"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/inside-story/2026/9/29/can-iraq-handle-future-security-challenges-alone?traffic_source=rss",
-          "title": "Can Iraq handle future security challenges alone?"
-        }
-      ],
-      "updated_at": "2026-09-30T01:41:05.991Z"
-    },
-    {
-      "cluster_id": "2a0187fea90d40bc94cf77c4093aa4bb",
-      "topic_label": "Israel Palestine Tension",
-      "event_window_start": "2026-09-29T18:51:30.000Z",
-      "event_window_end": "2026-09-30T01:46:53.000Z",
-      "article_count": 2,
-      "source_count": 1,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "The two reports focus on separate developments concerning Israeli relations and regional tensions. Aljazeera_1 highlights widespread public protests in Morocco against the normalization of diplomatic ties with Israel, while Aljazeera_2 reports on a security lockdown in the West Bank and an incident of harassment at East Jerusalem's Damascus Gate. Because the two texts address entirely different events and locations, there is no direct factual overlap between them.",
-      "confidence": "LOW. The two sources cover completely different events in separate geographic locations, making factual cross-verification impossible.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/30/moroccos-pro-palestine-protests-challenge-rabats-deepening-israel-ties?traffic_source=rss",
-          "title": "Morocco’s pro-Palestine protests challenge Rabat’s deepening Israel ties"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/aje-onl-nf_j_daily_israeli-worshippers-attack-palestinian-man-290926?traffic_source=rss",
-          "title": "Jerusalem Daily: Israeli worshippers attack Palestinian man"
-        }
-      ],
-      "updated_at": "2026-09-30T07:21:46.974Z"
-    },
-    {
-      "cluster_id": "a7bec36d2f7fb9205bb588b08ad12537",
-      "topic_label": "US Senate Hearing Jack Smith",
-      "event_window_start": "2026-09-29T14:12:16.000Z",
-      "event_window_end": "2026-09-29T23:28:47.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "Jack Smith testified before the Senate Judiciary Committee on a Tuesday.",
-        "Jack Smith was the special counsel responsible for investigations into Donald Trump.",
-        "Republican senators criticized Jack Smith's conduct and investigations during the hearing."
-      ],
-      "source_differences": [],
-      "synthesis": "Former special counsel Jack Smith testified before the Senate Judiciary Committee regarding his investigations into Donald Trump. During the hearing, Republican senators criticized Smith's conduct and the scope of his investigations, alleging political bias and procedural abuse. Smith maintained that his work adhered to Justice Department policies and was supported by evidence.",
-      "confidence": "HIGH. The core events of the hearing, the identities of the participants, and the general nature of the disagreement are corroborated across the sources.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/29/jack-smith-defends-investigations-into-trump-during-tense-us-senate-hearing?traffic_source=rss",
-          "title": "Jack Smith defends investigations into Trump during tense US Senate hearing"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/sep/29/jack-smith-senate-hearing",
-          "title": "‘You make me want to throw up’: Republicans attack ex-special counsel Jack Smith at Senate hearing"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/sep/29/donald-trump-iran-ai-jack-smith-media-white-house-latest-news-updates",
-          "title": "Former special counsel Jack Smith accused of targeting ‘entire Republican party’ in heated Senate hearing – US politics live"
-        }
-      ],
-      "updated_at": "2026-09-30T01:41:05.991Z"
-    },
-    {
-      "cluster_id": "fb0d2d36dc2d236a7d2faef844905329",
-      "topic_label": "Spain Housing Crisis",
-      "event_window_start": "2026-09-29T13:58:36.000Z",
-      "event_window_end": "2026-09-29T18:57:52.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [
-        "Spain is experiencing a housing crisis characterized by affordability issues.",
-        "Protests or public outcries have occurred in relation to housing conditions in Madrid."
-      ],
-      "source_differences": [],
-      "synthesis": "Spain is experiencing a housing crisis that has led to public protests and government intervention. The Spanish government has proposed two new decrees aimed at addressing affordability and extending eviction protections for vulnerable tenants. These measures currently await approval from a Congress where the ruling coalition lacks a majority.",
-      "confidence": "HIGH. Both sources describe the same housing crisis and its immediate political implications without contradicting one another.",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/29/madrid-residents-feel-the-impact-of-spains-housing-crisis?traffic_source=rss",
-          "title": "Madrid residents feel the impact of Spain’s housing crisis"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/sep/29/spanish-government-approves-measures-ease-housing-crisis-outcry-eviction",
-          "title": "Spanish government approves measures to ease housing crisis after outcry over eviction"
-        }
-      ],
-      "updated_at": "2026-09-29T22:47:26.361Z"
     }
   ],
   "latest_impact": [
     {
-      "id": "impact-d0756de2",
-      "title": "Middle East security and conflict",
-      "severity": "high",
+      "id": "impact-fcccde26",
+      "title": "Israel plane stabbing incident",
+      "severity": "low",
       "status": "active",
       "region": "Global",
       "domains": [
-        "conflict",
-        "disaster",
-        "shipping"
+        "conflict"
       ],
-      "why_it_matters": "A Flydubai flight from Dubai to Tel Aviv was diverted to Saudi Arabia on Wednesday after an in-flight emergency. Reports from Israeli media cite officials claiming a conflict occurred between the pilots, while the airline confirmed an incident occurred and that all passengers landed safely. The flight triggered multiple emergency alert codes during the diversion process.",
-      "evidence_summary": "2 source(s), high confidence.",
+      "why_it_matters": "An Israel-bound flight from the UAE diverted to Saudi Arabia after a physical altercation between pilots occurred mid-flight. Israeli Prime Minister Benjamin Netanyahu stated that one pilot stabbed another and appeared to attempt to crash the aircraft, prompting an investigation into a potential terror motive. The aircraft landed safely in Tabuk, where the accused pilot is currently being questioned by local authorities.",
+      "evidence_summary": "1 source(s), high confidence.",
       "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "d0756de20983cd21c6d0da2deaeccad6",
-      "related_watchlist_id": "watch-003",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "fcccde2640a1a262434b15d869c4d5d8",
+      "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-09-30T14:18:21.538Z"
+      "updated_at": "2026-09-30T19:49:35.687Z"
     },
     {
       "id": "impact-9afd84e4",
@@ -385,6 +398,48 @@
       "related_cluster_id": "c9d4343b61b220dbeadcf704e11d50fb",
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-09-30T14:18:21.538Z"
+    },
+    {
+      "id": "impact-5ccf425a",
+      "title": "UK politics and Andy Burnham",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "energy",
+        "grid",
+        "shipping"
+      ],
+      "why_it_matters": "Prime Minister Andy Burnham addressed the Labour Party conference, focusing on long-term national priorities including public service reform and the UK's future relationship with the European Union. While reporting highlights the emotional reception of his speech among attendees, it also notes his stated commitment to addressing post-Brexit uncertainty. The announcements encompass proposed improvements to energy, housing, and social care infrastructure.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "5ccf425ab6cfa8e44f03b7d7b2e1659b",
+      "related_watchlist_id": null,
+      "operator_hint": "Track crude commodity prices and pipeline telemetry alerts.",
+      "updated_at": "2026-09-30T19:49:35.687Z"
+    },
+    {
+      "id": "impact-d0756de2",
+      "title": "Middle East security and conflict",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "disaster",
+        "shipping"
+      ],
+      "why_it_matters": "A Flydubai flight from Dubai to Tel Aviv was diverted to Saudi Arabia on Wednesday after an in-flight emergency. Reports from Israeli media cite officials claiming a conflict occurred between the pilots, while the airline confirmed an incident occurred and that all passengers landed safely. The flight triggered multiple emergency alert codes during the diversion process.",
+      "evidence_summary": "2 source(s), high confidence.",
+      "confidence_label": "high",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "d0756de20983cd21c6d0da2deaeccad6",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-09-30T14:18:21.538Z"
     },
     {
@@ -483,44 +538,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Monitor social media feeds and local transit advisories for escalation signals.",
       "updated_at": "2026-09-29T22:47:26.361Z"
-    },
-    {
-      "id": "impact-3219108c",
-      "title": "US Immigration Enforcement",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Recent reports highlight ongoing federal immigration enforcement activities across the United States, including an ICE shooting incident in Texas and a raid on a food truck in Florida. Simultaneously, the U.S. Supreme Court has issued an order affecting deportation procedures for immigrants sent to third countries. These events represent separate developments within the broader context of U.S. immigration policy and enforcement operations.",
-      "evidence_summary": "3 source(s), high confidence.",
-      "confidence_label": "high",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "3219108c535e85aa2c7e2692943e6d5b",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-30T01:41:05.991Z"
-    },
-    {
-      "id": "impact-6696bcd9",
-      "title": "US Sports Betting",
-      "severity": "low",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Automated deterministic fallback summary due to AI provider failure.",
-      "evidence_summary": "1 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "6696bcd986d724b8f8d077d143231f27",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-30T07:21:46.974Z"
     }
   ]
 }
