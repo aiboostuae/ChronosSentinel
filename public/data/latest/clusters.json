@@ -1,5 +1,648 @@
 [
   {
+    "cluster_id": "ba7330f587c3416cb08a982378a2f158",
+    "topic_label": "Armed Cockpit Breach and Sabotage Attempt on Flydubai Flight",
+    "event_window_start": "2026-09-30T23:50:17.000Z",
+    "event_window_end": "2026-10-01T13:57:28.000Z",
+    "article_ids": [
+      "art_1790863150775_iu2fv",
+      "art_1790836465878_va780",
+      "art_1790836476388_fg6ky",
+      "art_1790814359522_c3tlw"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T16:53:53.107Z",
+    "updated_at": "2026-10-01T16:53:53.107Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Aviation",
+    "synthesis": "An Omani national acting as a pilot on a Flydubai flight from Dubai to Tel Aviv committed an armed physical assault against his co-pilot inside the cockpit. The perpetrator utilized a bladed weapon to stab the co-pilot, resulting in a loss of flight control that caused the aircraft to descend 17,000 feet in approximately 120 seconds. Passengers and remaining crew intervened, physically overpowering the perpetrator to regain control of the flight deck. The aircraft performed an emergency landing in Saudi Arabia. The victim remains hospitalized in stable condition, and the perpetrator is in custody.",
+    "consensus": [
+      "A Flydubai flight en route from Dubai to Tel Aviv suffered an in-flight cockpit stabbing.",
+      "One pilot was stabbed by the other pilot, identified by Israeli officials as an Omani national.",
+      "The aircraft experienced a rapid descent of 17,000 feet in two minutes.",
+      "Passengers and crew subdued the attacker to regain control of the aircraft.",
+      "The flight performed an emergency landing in Saudi Arabia."
+    ],
+    "divergence": [
+      "Israeli officials, specifically Danny Danon, characterize the event explicitly as a 'terror attack' with intent to down the plane, while Benjamin Netanyahu urges caution regarding state or organizational attribution (Source: Guardian).",
+      "Al Jazeera frames the event through the lens of political narrative by highlighting Donald Trump's commentary on an 'Israeli plumber' bystander, omitting the tactical details of the cockpit struggle (Source: Al Jazeera).",
+      "The BBC focuses on the human interest narrative of a passenger hugging his children, omitting the specific nationality of the perpetrator (Source: BBC)."
+    ],
+    "sources": [
+      {
+        "id": "art_1790863150775_iu2fv",
+        "url": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Flydubai passenger describes hugging his children as plane nosedived during attack"
+      },
+      {
+        "id": "art_1790836465878_va780",
+        "url": "https://www.theguardian.com/world/2026/oct/01/australian-couple-on-flydubai-plane-to-israel-ntwnfb",
+        "source": "guardian",
+        "title": "Wong thanks ‘heroes’ who thwarted flydubai pilot’s alleged attack on co-pilot as Australians confirmed safe"
+      },
+      {
+        "id": "art_1790836476388_fg6ky",
+        "url": "https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel",
+        "source": "guardian",
+        "title": "Netanyahu says too early to tell who was behind plane incident as flydubai halts all flights to Israel"
+      },
+      {
+        "id": "art_1790814359522_c3tlw",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/trump-amazed-that-an-israeli-plumber-helped-land-flydubai-flight?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump amazed that an ‘Israeli plumber’ helped land Flydubai flight"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "695ac15dc95f53c5b528ec2d359b3c56",
+    "topic_label": "Failed Lethal Injection Execution Attempt of Christa Pike in Tennessee",
+    "event_window_start": "2026-10-01T00:19:20.000Z",
+    "event_window_end": "2026-10-01T13:27:34.000Z",
+    "article_ids": [
+      "art_1790863157750_oxv0z",
+      "art_1790836477481_pxrtq",
+      "art_1790814351392_8vl1l"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T16:53:53.107Z",
+    "updated_at": "2026-10-01T16:53:53.107Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Following a US Supreme Court order vacating a stay of execution, Tennessee state prison officials attempted to execute Christa Pike via the administration of two doses of pentobarbital. The execution protocol failed to induce death; witnesses reported the subject remained conscious and physically responsive 40 minutes post-administration. The subject was subsequently removed from the execution chamber and transferred to an off-site medical facility. Governor Bill Lee has mandated a suspension of all state executions pending an independent investigation into the failure of the lethal injection process.",
+    "consensus": [
+      "Christa Pike was scheduled for execution by lethal injection on Wednesday.",
+      "The US Supreme Court vacated an earlier stay of execution, allowing the procedure to proceed.",
+      "Two doses of pentobarbital were administered to Pike.",
+      "Pike remained alive and conscious 40 minutes after administration.",
+      "Pike was transported to an off-site medical facility following the failed procedure.",
+      "Governor Bill Lee suspended state executions and ordered an inquiry."
+    ],
+    "divergence": [
+      "The Guardian and Al Jazeera characterize the event as a 'botched' execution focusing on the technical failure of the lethal injection protocol.",
+      "BBC focuses on the legal proceedings and the US Supreme Court's role in clearing the execution, omitting details of the subsequent failure found in the other reports.",
+      "The Guardian includes political framing by noting the governor's critical stance toward prison authorities."
+    ],
+    "sources": [
+      {
+        "id": "art_1790863157750_oxv0z",
+        "url": "https://www.theguardian.com/us-news/2026/oct/01/christa-pike-tennessee-governor-executions-year-pause",
+        "source": "guardian",
+        "title": "Tennessee governor suspends all executions after Christa Pike’s lethal injections fail"
+      },
+      {
+        "id": "art_1790836477481_pxrtq",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/execution-of-us-woman-christa-pike-fails-after-botched-lethal-injection?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Execution of US woman Christa Pike fails after botched lethal injection"
+      },
+      {
+        "id": "art_1790814351392_8vl1l",
+        "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court allows execution of Christa Pike to go ahead"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "21a21043033ed7c9de55fa27885bb048",
+    "topic_label": "Swiss Alpine Glacier Mass Reduction Event",
+    "event_window_start": "2026-10-01T00:08:23.000Z",
+    "event_window_end": "2026-10-01T04:58:48.000Z",
+    "article_ids": [
+      "art_1790836475347_rfcrm",
+      "art_1790814353914_90sx0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T09:29:38.737Z",
+    "updated_at": "2026-10-01T09:29:38.737Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "During the 2026 observation period, Swiss glaciers experienced a net reduction of approximately 5% of total ice volume. This physical mass loss was driven by insufficient winter snowfall followed by sustained high-ambient-temperature atmospheric conditions across Europe. The resulting structural instability of mountain slopes increases the kinetic risk of landslides and associated flash flooding, while simultaneously degrading the baseline potential for regional hydropower generation and water-dependent industrial transport.",
+    "consensus": [
+      "Swiss glaciers experienced a 5% net loss of ice volume over the past 12-month period.",
+      "The primary environmental drivers were low winter snowfall and record-breaking summer temperatures.",
+      "Glacial retreat poses long-term physical risks to hydropower, agricultural water security, and transportation infrastructure."
+    ],
+    "divergence": [
+      "Aljazeera frames the event primarily through the emotive narrative of a 'catastrophic year' focusing on the loss itself.",
+      "BBC incorporates predictive risk modeling by linking the melting to specific secondary hazards like slope destabilization, landslides, and comparisons to events in Nepal to emphasize the potential for future operational disruptions."
+    ],
+    "sources": [
+      {
+        "id": "art_1790836475347_rfcrm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/catastrophic-year-as-swiss-glaciers-lose-5-of-ice-after-heatwaves?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Catastrophic year’ as Swiss glaciers lose 5% of ice after heatwaves"
+      },
+      {
+        "id": "art_1790814353914_90sx0",
+        "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "16a5893fa23f2e3ac724107e8633bd5b",
+    "topic_label": "Pennsylvania Measles Mortality Cluster 2026",
+    "event_window_start": "2026-09-30T20:28:06.000Z",
+    "event_window_end": "2026-09-30T23:31:54.000Z",
+    "article_ids": [
+      "art_1790814366220_1hsq8",
+      "art_1790801195500_v60aq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Public Health",
+    "synthesis": "The Pennsylvania Department of Health reports 943 confirmed measles cases distributed across 39 counties, resulting in 176 hospitalizations and five fatalities. All identified cases involve individuals testing positive for the rubeola virus, with the most recent fatality occurring in an unvaccinated resident of Lancaster County. The current epidemiological surge represents the highest national infection rate since 1991, with current reporting protocols for mortality attribution currently under modification by federal executive directives.",
+    "consensus": [
+      "943 confirmed measles cases in Pennsylvania in 2026",
+      "176 individuals hospitalized due to complications",
+      "Five total deaths officially linked to measles in the state this year",
+      "Outbreak spans 39 counties",
+      "Latest deceased individual was an unvaccinated resident of Lancaster County"
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the historical context of the US measles elimination status since 2000 while omitting the political context of current reporting changes.",
+      "The Guardian explicitly highlights that the current administration changed the methodology for reporting measles-related deaths, a detail omitted by Al Jazeera."
+    ],
+    "sources": [
+      {
+        "id": "art_1790814366220_1hsq8",
+        "url": "https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pennsylvania confirms fifth measles-associated death as US outbreak grows"
+      },
+      {
+        "id": "art_1790801195500_v60aq",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/pennsylvania-reports-fifth-measles-related-death",
+        "source": "guardian",
+        "title": "Pennsylvania reports fifth measles-related death of the year amid outbreak"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "381a9e0ec26749dda7fba771080344d1",
+    "topic_label": "Kinetic Escalation of Russian Aerial Strikes on Kyiv Infrastructure",
+    "event_window_start": "2026-09-30T20:12:22.000Z",
+    "event_window_end": "2026-10-01T13:55:07.000Z",
+    "article_ids": [
+      "art_1790863152167_yuk2v",
+      "art_1790863163259_7ulg7",
+      "art_1790863164316_t4kmv",
+      "art_1790836470129_ss69t",
+      "art_1790836472190_p1as0",
+      "art_1790836478506_pcgp1",
+      "art_1790801202022_l5x21"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T16:53:53.107Z",
+    "updated_at": "2026-10-01T16:53:53.107Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic",
+    "synthesis": "Russian military forces executed a series of drone strikes targeting Kyiv, resulting in direct kinetic impact on a school, a critical bridge infrastructure linking eastern and western sectors of the city, and the grounds of a nuclear research facility. These strikes forced the suspension of public transport, including the metro system, and necessitated the activation of emergency shelter protocols for civilians. While the test reactor at the nuclear facility remained structurally undamaged, the kinetic impacts on municipal transit and educational infrastructure represent a significant escalation in ongoing aerial bombardment operations.",
+    "consensus": [
+      "Russian drone strikes occurred in Kyiv on Thursday.",
+      "A drone impacted a school building in Kyiv.",
+      "Drones damaged a bridge connecting eastern and western Kyiv.",
+      "Metro and ground transport services in Kyiv were suspended.",
+      "A drone struck the grounds of a nuclear research facility on Wednesday, resulting in a fire."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the specific kinetic impact on Kyiv infrastructure and civilian safety, omitting the broader geopolitical rhetoric provided in other reports.",
+      "The Guardian focuses on the European political narrative regarding Russian threats to NATO and increased intelligence integration, omitting the specific operational details of the Kyiv drone strikes.",
+      "The Guardian frames the drone activity in Leipzig as a 'hybrid threat,' whereas Al Jazeera reports physical drone strikes on infrastructure as a direct aerial assault."
+    ],
+    "sources": [
+      {
+        "id": "art_1790863152167_yuk2v",
+        "url": "https://www.theguardian.com/world/live/2026/oct/01/europe-latest-news-updates-russia-strikes-ukraine-nato",
+        "source": "guardian",
+        "title": "Russia ‘poses rapidly increasing threat’ to Nato, warns Dutch prime minister – Europe live"
+      },
+      {
+        "id": "art_1790863163259_7ulg7",
+        "url": "https://www.aljazeera.com/news/2026/10/1/russian-drone-hits-school-in-ukraines-kyiv-as-moscow-presses-air-assault?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian drone hits school in Ukraine’s Kyiv as Moscow presses air assault"
+      },
+      {
+        "id": "art_1790863164316_t4kmv",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/30-09-sv-india-palestine-protesters-mumbai-in?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Activists protest Indian police raid over kite-flying event for Palestine"
+      },
+      {
+        "id": "art_1790836470129_ss69t",
+        "url": "https://www.aljazeera.com/news/2026/10/1/modis-india-takes-on-trump-more-openly-from-terrorism-to-tariffs?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Modi’s India takes on Trump more openly, from ‘terrorism’ to tariffs"
+      },
+      {
+        "id": "art_1790836472190_p1as0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/gaza-prepares-to-bury-105-palestinians-killed-in-october-2023?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Gaza prepares to bury 105 Palestinians killed in October 2023"
+      },
+      {
+        "id": "art_1790836478506_pcgp1",
+        "url": "https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pakistan says 22 fighters killed in air attacks on Afghanistan"
+      },
+      {
+        "id": "art_1790801202022_l5x21",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/israeli-attacks-across-gaza-kill-at-least-eight?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli attacks across Gaza kill at least eight"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c8395a4c07daa0facfcddac4e866e363",
+    "topic_label": "White House Physically Excludes CNN from Presidential Press Pool Defying Federal Court Order",
+    "event_window_start": "2026-09-30T20:05:19.000Z",
+    "event_window_end": "2026-10-01T13:49:27.000Z",
+    "article_ids": [
+      "art_1790863153246_qbeue",
+      "art_1790863155532_1vozx",
+      "art_1790863165338_5iz0m",
+      "art_1790814365085_6ar34",
+      "art_1790801197585_ypkub",
+      "art_1790801198798_062cb",
+      "art_1790801199937_1hjyv",
+      "art_1790801203109_6eupe",
+      "art_1790801205172_bh1kb"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 9,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T16:53:53.107Z",
+    "updated_at": "2026-10-01T16:53:53.107Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The White House physically barred CNN journalists from boarding the rotating press pool flights to Texas and Oklahoma, defying a temporary restraining order issued by a federal judge that protects CNN, Politico, and MS Now press access until October 8. This administrative blockade occurs alongside a broader pattern of state and political actors actively restricting media and institutional access, including Reform UK threatening legal retaliation against Channel 4 reporters, and Florida's governor executing policy campaigns targeting corporate and federal entities.",
+    "consensus": [
+      "The White House removed CNN from the rotating press pool traveling to Texas and Oklahoma.",
+      "A Trump-appointed federal judge had issued a temporary restraining order blocking the administration from banning CNN, Politico, and MS Now until October 8."
+    ],
+    "divergence": [
+      "The Guardian focused heavily on the White House violating a federal court order and actively restricting press freedoms.",
+      "Fox News completely omitted the White House press block and the federal injunction, instead highlighting Fox News' rating dominance over CNN and MS Now, and promoting DHS statements regarding border apprehensions."
+    ],
+    "sources": [
+      {
+        "id": "art_1790863153246_qbeue",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/01/universal-credit-benefits-welfare-conservatives-kemi-badenoch-andy-burnham-labour-latest-news-updates",
+        "source": "guardian",
+        "title": "Farage hints Reform’s internal inquiry could clear two aides suspended after C4 investigation – UK politics live"
+      },
+      {
+        "id": "art_1790863155532_1vozx",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/01/tennessee-governor-halts-executions-christa-pike-lethal-injection-donald-trump-hegseth-musk-us-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "White House again blocks CNN from press pool as Trump rages against media in wide-ranging interview – live"
+      },
+      {
+        "id": "art_1790863165338_5iz0m",
+        "url": "https://www.foxnews.com/media/mullin-tells-ruthless-podcast-trump-administration-apprehended-2210-terrorists",
+        "source": "fox",
+        "title": "Mullin tells 'Ruthless Podcast' that the Trump administration has apprehended 2,210 terrorists"
+      },
+      {
+        "id": "art_1790814365085_6ar34",
+        "url": "https://www.foxnews.com/politics/we-beat-disney-fauci-soros-ron-desantis-unleashes-florida-model-hard-hitting-midterm-rally",
+        "source": "fox",
+        "title": "‘We beat Disney, Fauci, Soros’: Ron DeSantis unleashes ‘Florida model’ in hard-hitting midterm rally"
+      },
+      {
+        "id": "art_1790801197585_ypkub",
+        "url": "https://www.foxnews.com/media/the-five-leads-cable-news-20th-straight-quarter-fox-news-outdraws-cnn-ms-now-combined",
+        "source": "fox",
+        "title": "'The Five' leads cable news for 20th straight quarter as Fox News outdraws CNN and MS NOW combined"
+      },
+      {
+        "id": "art_1790801198798_062cb",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-voter-fraud-charges-minnesota",
+        "source": "guardian",
+        "title": "Trump DoJ indicts 10 individuals on noncitizen voting related charges in Minnesota"
+      },
+      {
+        "id": "art_1790801199937_1hjyv",
+        "url": "https://www.foxnews.com/media/stewart-expects-schumer-jeffries-disappoint-dems-win-back-house-senate",
+        "source": "fox",
+        "title": "Stewart expects Schumer, Jeffries to disappoint if the Dems win back the House and Senate"
+      },
+      {
+        "id": "art_1790801203109_6eupe",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/kristi-noem-divorce",
+        "source": "guardian",
+        "title": "Kristi Noem, former Trump homeland security chief, files for divorce"
+      },
+      {
+        "id": "art_1790801205172_bh1kb",
+        "url": "https://www.foxnews.com/politics/trump-pentagon-launches-competition-americas-next-great-military-base",
+        "source": "fox",
+        "title": "Trump Pentagon launches competition for America's next great military base"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
+    "cluster_id": "ef7ec77b61c3a62944ef32f720223d8b",
+    "topic_label": "Multiple Unrelated Institutional Failure Events",
+    "event_window_start": "2026-09-30T20:00:36.000Z",
+    "event_window_end": "2026-10-01T13:49:14.000Z",
+    "article_ids": [
+      "art_1790863154351_c08rf",
+      "art_1790863161034_mkvjh",
+      "art_1790836469094_1s8eb",
+      "art_1790836474319_e04gs",
+      "art_1790814350182_qoevq",
+      "art_1790814358441_ka86n",
+      "art_1790801193378_tjczt",
+      "art_1790801196543_skbez",
+      "art_1790801206238_ckqhq"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 9,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T16:53:53.107Z",
+    "updated_at": "2026-10-01T16:53:53.107Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "This synthesis aggregates five distinct, unrelated events: a legal ruling by Supreme Court Justice Sonia Sotomayor denying an emergency petition regarding NYC school admissions; an independent review detailing systemic security failures and sexual assault risks at Travelodge hotels; a threatened judicial review of the West Yorkshire NHS board regarding two-year waiting lists for neurodevelopmental assessments; the early release of approximately 2,000 prisoners in England and Wales due to prison capacity constraints; and the federal re-arrest of a Honduran national by ICE after local authorities in Fairfax County, Virginia, released him from custody.",
+    "consensus": [
+      "Justice Sonia Sotomayor denied an emergency petition concerning NYC school admissions.",
+      "Travelodge hotels have experienced room security breaches leading to guest assaults.",
+      "The West Yorkshire NHS ICB implemented a minimum two-year wait for ADHD and autism assessments.",
+      "Approximately 2,000 prisoners in England and Wales are being released early to manage overcrowding.",
+      "ICE re-arrested a Honduran national previously released from Fairfax County custody."
+    ],
+    "divergence": [
+      "Fox frames the Sotomayor ruling within a broader racial discrimination lawsuit; the focus is on systemic policy bias.",
+      "The Guardian frames the Travelodge report as a failure of institutional safety and compensation protocols.",
+      "The Guardian frames the NHS policy as an unlawful denial of care; it uses legal action as a potential remedy.",
+      "The Guardian frames the UK prisoner releases as a logistical failure of housing and probation monitoring.",
+      "Fox frames the ICE arrest in Fairfax County as a direct indictment of 'sanctuary city' policies and provides unverified statistics regarding murder rates to emphasize a narrative of systemic public safety failure."
+    ],
+    "sources": [
+      {
+        "id": "art_1790863154351_c08rf",
+        "url": "https://www.foxnews.com/politics/sotomayor-denies-moms-bid-get-son-elite-nyc-school-amid-racial-discrimination-fight",
+        "source": "fox",
+        "title": "Sotomayor denies mom's bid to get son into elite NYC school amid racial discrimination fight"
+      },
+      {
+        "id": "art_1790863161034_mkvjh",
+        "url": "https://www.theguardian.com/business/2026/oct/01/travelodge-report-guests-still-at-risk-room-intrusions-sexual-assault",
+        "source": "guardian",
+        "title": "Travelodge guests are still at risk, finds review launched after sexual assault"
+      },
+      {
+        "id": "art_1790836469094_1s8eb",
+        "url": "https://www.theguardian.com/society/2026/oct/01/adhd-uk-two-year-wait-nhs-autism-west-yorkshire-icb-legal-action",
+        "source": "guardian",
+        "title": "Charity threatens legal action over two-year NHS wait for ADHD and autism assessments"
+      },
+      {
+        "id": "art_1790836474319_e04gs",
+        "url": "https://www.theguardian.com/society/2026/oct/01/prisoners-early-release-england-wales-probation-officers",
+        "source": "guardian",
+        "title": "Prisoners freed early in England and Wales risk living on the streets, say probation officers"
+      },
+      {
+        "id": "art_1790814350182_qoevq",
+        "url": "https://www.foxnews.com/politics/ice-arrests-illegal-alien-accused-sexually-assaulting-children-fairfax-county-release-dhs",
+        "source": "fox",
+        "title": "ICE arrests illegal alien accused of sexually assaulting children after Fairfax County release: DHS"
+      },
+      {
+        "id": "art_1790814358441_ka86n",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/texas-state-capitol-austin-attack-plot",
+        "source": "guardian",
+        "title": "Man arrested over alleged plot to attack Texas state capitol"
+      },
+      {
+        "id": "art_1790801193378_tjczt",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/california-new-york-times-games-engineer",
+        "source": "guardian",
+        "title": "In-laws charged with murder of New York Times games engineer in California"
+      },
+      {
+        "id": "art_1790801196543_skbez",
+        "url": "https://www.foxnews.com/us/south-carolina-mom-accused-knife-attack-young-children-6-year-old-may-lose-arm-sheriffs-office",
+        "source": "fox",
+        "title": "South Carolina mom accused of knife attack on young children; 6-year-old may lose arm: sheriff's office"
+      },
+      {
+        "id": "art_1790801206238_ckqhq",
+        "url": "https://www.aljazeera.com/news/2026/9/30/us-judge-rules-wisconsin-mosque-leader-salah-sarsour-can-be-deported?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US judge rules Wisconsin mosque leader Salah Sarsour can be deported"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "64722511c75c7cf49b9fbab7119cbaf9",
+    "topic_label": "Unsanitary Grooming Incident on EVA Air Flight",
+    "event_window_start": "2026-09-30T19:55:25.000Z",
+    "event_window_end": "2026-10-01T13:30:33.000Z",
+    "article_ids": [
+      "art_1790863156565_h50ic",
+      "art_1790863162097_8pkwm",
+      "art_1790836468043_u4a6b",
+      "art_1790814352871_ao0mo",
+      "art_1790814357202_za7z3",
+      "art_1790814360571_lqhy2",
+      "art_1790814367588_d23c1",
+      "art_1790801192283_qbs9s",
+      "art_1790801194435_dcvsk",
+      "art_1790801200982_0d5nn",
+      "art_1790801204136_riday",
+      "art_1790801207262_2an0e"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 12,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T16:53:53.107Z",
+    "updated_at": "2026-10-01T16:53:53.107Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Aviation",
+    "synthesis": "On September 24, a passenger aboard an EVA Air Boeing 787 Dreamliner utilized an upturned drinking glass to repeatedly scrape their scalp while seated in the business class cabin. This in-seat grooming behavior, observed and recorded by fellow passengers, constitutes a social nuisance rather than a safety or operational threat. The aircraft completed its flight without intervention, and no mechanical or security emergency occurred.",
+    "consensus": [
+      "An incident involving a passenger and a drinking glass occurred on an EVA Air flight originating from Taiwan on September 24.",
+      "The passenger used the glass to scratch their scalp while seated in the business class cabin.",
+      "The act was captured on video by another passenger."
+    ],
+    "divergence": [
+      "Fox News frames the behavior as 'bizarre' and focuses on the 'horrified' reaction of other passengers to drive click-through engagement.",
+      "Fox News includes a misleading link headline in the article text regarding a 'midair scare' involving an emergency landing, which is unrelated to the scalp-scratching event, potentially to inflate the perceived severity of the incident."
+    ],
+    "sources": [
+      {
+        "id": "art_1790863156565_h50ic",
+        "url": "https://www.foxnews.com/outkick-sports/nfl-sideline-reporter-melanie-collins-does-it-again-sydney-sweeney-moon-tomlins-minecraft-reveal",
+        "source": "fox",
+        "title": "NFL sideline reporter Melanie Collins does it again, Sydney Sweeney to the moon & Tomlin's Minecraft reveal"
+      },
+      {
+        "id": "art_1790863162097_8pkwm",
+        "url": "https://www.foxnews.com/outkick-sports/nfl-rookie-drops-incredible-cliche-helps-bucs-avoid-0-4-start-against-packers",
+        "source": "fox",
+        "title": "NFL rookie drops incredible cliché as he tries to help Bucs avoid 0-4 start against Packers"
+      },
+      {
+        "id": "art_1790836468043_u4a6b",
+        "url": "https://www.theguardian.com/world/2026/oct/01/jaan-roose-seoul-slackline-walk-south-korea",
+        "source": "guardian",
+        "title": "Daredevil Jaan Roose completes slackline walk high above central Seoul"
+      },
+      {
+        "id": "art_1790814352871_ao0mo",
+        "url": "https://www.foxnews.com/outkick-sports/rock-shares-heartfelt-words-pac-following-aew-star-shocking-death-40",
+        "source": "fox",
+        "title": "The Rock shares heartfelt words on Pac following AEW star's shocking death at 40"
+      },
+      {
+        "id": "art_1790814357202_za7z3",
+        "url": "https://www.foxnews.com/travel/passengers-bizarre-use-drinking-glass-flight-leaves-travelers-horrified",
+        "source": "fox",
+        "title": "Passenger's bizarre use of drinking glass on flight leaves travelers horrified"
+      },
+      {
+        "id": "art_1790814360571_lqhy2",
+        "url": "https://www.foxnews.com/outkick-sports/anticipation-builds-mike-tomlin-prepares-unveil-minecraft-city-12-years-making",
+        "source": "fox",
+        "title": "Anticipation builds as MIke Tomlin prepares to unveil his Minecraft city that's 12 years in the making"
+      },
+      {
+        "id": "art_1790814367588_d23c1",
+        "url": "https://www.foxnews.com/outkick-sports/phillies-force-game-3-kyle-schwarber-bryce-harper-back-to-back-alec-bohm-homers-10th-braves",
+        "source": "fox",
+        "title": "Phillies force Game 3 as Kyle Schwarber, Bryce Harper go back-to-back and Alec Bohm homers in 10th vs Braves"
+      },
+      {
+        "id": "art_1790801192283_qbs9s",
+        "url": "https://www.foxnews.com/entertainment/anne-hathaway-takes-charge-verity-red-carpet-viral-moment",
+        "source": "fox",
+        "title": "Anne Hathaway takes charge at the 'Verity' red carpet in viral moment"
+      },
+      {
+        "id": "art_1790801194435_dcvsk",
+        "url": "https://www.foxnews.com/media/howard-stern-warns-abc-hell-pay-something-goes-wrong-jimmy-kimmel-show",
+        "source": "fox",
+        "title": "Howard Stern warns ABC will have 'hell to pay' if something 'goes wrong' with Jimmy Kimmel's show"
+      },
+      {
+        "id": "art_1790801200982_0d5nn",
+        "url": "https://www.foxnews.com/entertainment/inside-diddy-prison-life-massages-booze-nude-photos-report",
+        "source": "fox",
+        "title": "Inside Diddy's prison life with massages, booze and nude photos: report"
+      },
+      {
+        "id": "art_1790801204136_riday",
+        "url": "https://www.foxnews.com/outkick-sports/enes-kanter-freedom-speaks-out-aja-wilson-playoff-incident-fever-fan-natasha-cloud-encounter",
+        "source": "fox",
+        "title": "Enes Kanter Freedom speaks out on A'ja Wilson playoff incident with Fever fan, after Natasha Cloud encounter"
+      },
+      {
+        "id": "art_1790801207262_2an0e",
+        "url": "https://www.foxnews.com/outkick-sports/caitlin-clark-puking-brains-halftime-key-indiana-fever-victories",
+        "source": "fox",
+        "title": "Caitlin Clark puking her brains out at halftime appears to be key to Indiana Fever victories"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "b34bd964a4156e5fce1bb51acfffa7e6",
     "topic_label": "Flydubai Cockpit Physical Assault and Mid-Air Altitude Loss",
     "event_window_start": "2026-09-30T15:16:37.000Z",
@@ -194,108 +837,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/israeli-attacks-across-gaza-kill-at-least-eight?traffic_source=rss",
         "source": "aljazeera",
         "title": "Israeli attacks across Gaza kill at least eight"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "16a5893fa23f2e3ac724107e8633bd5b",
-    "topic_label": "Pennsylvania Measles Mortality Cluster 2026",
-    "event_window_start": "2026-09-30T20:28:06.000Z",
-    "event_window_end": "2026-09-30T23:31:54.000Z",
-    "article_ids": [
-      "art_1790814366220_1hsq8",
-      "art_1790801195500_v60aq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-01T02:31:36.349Z",
-    "updated_at": "2026-10-01T02:31:36.349Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Public Health",
-    "synthesis": "The Pennsylvania Department of Health reports 943 confirmed measles cases distributed across 39 counties, resulting in 176 hospitalizations and five fatalities. All identified cases involve individuals testing positive for the rubeola virus, with the most recent fatality occurring in an unvaccinated resident of Lancaster County. The current epidemiological surge represents the highest national infection rate since 1991, with current reporting protocols for mortality attribution currently under modification by federal executive directives.",
-    "consensus": [
-      "943 confirmed measles cases in Pennsylvania in 2026",
-      "176 individuals hospitalized due to complications",
-      "Five total deaths officially linked to measles in the state this year",
-      "Outbreak spans 39 counties",
-      "Latest deceased individual was an unvaccinated resident of Lancaster County"
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes the historical context of the US measles elimination status since 2000 while omitting the political context of current reporting changes.",
-      "The Guardian explicitly highlights that the current administration changed the methodology for reporting measles-related deaths, a detail omitted by Al Jazeera."
-    ],
-    "sources": [
-      {
-        "id": "art_1790814366220_1hsq8",
-        "url": "https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pennsylvania confirms fifth measles-associated death as US outbreak grows"
-      },
-      {
-        "id": "art_1790801195500_v60aq",
-        "url": "https://www.theguardian.com/us-news/2026/sep/30/pennsylvania-reports-fifth-measles-related-death",
-        "source": "guardian",
-        "title": "Pennsylvania reports fifth measles-related death of the year amid outbreak"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "21a21043033ed7c9de55fa27885bb048",
-    "topic_label": "Swiss Alpine Glacier Mass Reduction Event",
-    "event_window_start": "2026-10-01T00:08:23.000Z",
-    "event_window_end": "2026-10-01T04:58:48.000Z",
-    "article_ids": [
-      "art_1790836475347_rfcrm",
-      "art_1790814353914_90sx0"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-01T09:29:38.737Z",
-    "updated_at": "2026-10-01T09:29:38.737Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "During the 2026 observation period, Swiss glaciers experienced a net reduction of approximately 5% of total ice volume. This physical mass loss was driven by insufficient winter snowfall followed by sustained high-ambient-temperature atmospheric conditions across Europe. The resulting structural instability of mountain slopes increases the kinetic risk of landslides and associated flash flooding, while simultaneously degrading the baseline potential for regional hydropower generation and water-dependent industrial transport.",
-    "consensus": [
-      "Swiss glaciers experienced a 5% net loss of ice volume over the past 12-month period.",
-      "The primary environmental drivers were low winter snowfall and record-breaking summer temperatures.",
-      "Glacial retreat poses long-term physical risks to hydropower, agricultural water security, and transportation infrastructure."
-    ],
-    "divergence": [
-      "Aljazeera frames the event primarily through the emotive narrative of a 'catastrophic year' focusing on the loss itself.",
-      "BBC incorporates predictive risk modeling by linking the melting to specific secondary hazards like slope destabilization, landslides, and comparisons to events in Nepal to emphasize the potential for future operational disruptions."
-    ],
-    "sources": [
-      {
-        "id": "art_1790836475347_rfcrm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/catastrophic-year-as-swiss-glaciers-lose-5-of-ice-after-heatwaves?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Catastrophic year’ as Swiss glaciers lose 5% of ice after heatwaves"
-      },
-      {
-        "id": "art_1790814353914_90sx0",
-        "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -16230,579 +16771,6 @@
         "url": "https://www.foxnews.com/politics/codepink-cofounder-medea-benjamin-family-foundation-major-funder-left-wing-activist-groups",
         "source": "fox",
         "title": "How CodePink co-founder Medea Benjamin's family foundation became a major funder of left-wing activist groups"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4bf229095a68ee740c0b06e4e7b6588b",
-    "topic_label": "Russia-Europe Tensions",
-    "event_window_start": "2026-09-18T14:17:20.000Z",
-    "event_window_end": "2026-09-18T14:42:01.000Z",
-    "article_ids": [
-      "art_1789743055492_3hi6h",
-      "art_1789743063182_pvl0e"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T11:30:54.106Z",
-    "updated_at": "2026-09-19T11:30:54.106Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "France and the United Kingdom are involved in ongoing tensions regarding the conflict in Ukraine.",
-      "Russia has expressed opposition to Western support for Ukraine."
-    ],
-    "source_claims": [
-      "[bbc] President Emmanuel Macron stated that Russia is conducting hybrid attacks against Europe and France.",
-      "[bbc] President Emmanuel Macron has ordered a protective plan for French critical infrastructure and defense sites.",
-      "[aljazeera] The Russian Ministry of Foreign Affairs summoned the UK charge d'affaires to protest weapon shipments to Ukraine.",
-      "[aljazeera] Russia has seized Russian assets belonging to several Western firms."
-    ],
-    "framing_differences": [
-      "The BBC frames the situation as a security concern for Europe regarding Russian hybrid warfare, whereas Al Jazeera frames it as a geopolitical escalation involving asset seizures and diplomatic protests between Russia, the UK, and France."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] France has been the target of Russian hybrid attacks within the past few weeks.",
-      "[aljazeera] The Russian Ministry of Foreign Affairs characterized the actions of the Kyiv regime as 'terrorism and war crimes'."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'bloody atrocities' to describe actions attributed to the Kyiv regime.",
-      "[aljazeera] uses the term 'accomplice' to describe the position of London regarding Ukraine."
-    ],
-    "safe_conclusions": [
-      "France and the UK maintain support for Ukraine in its conflict with Russia.",
-      "Tensions exist between Russia and Western European nations."
-    ],
-    "unknowns": [
-      "Specific details regarding the 'plan' mentioned by President Macron.",
-      "The names of the Western firms whose assets were seized by Russia.",
-      "The specific nature of the hybrid attacks referred to by President Macron."
-    ],
-    "synthesis": "French President Emmanuel Macron has reported an increase in Russian hybrid attacks against European infrastructure and has initiated protective measures. Simultaneously, Russia has summoned the UK's diplomatic representative to protest military aid and has seized assets belonging to Western companies. These developments reflect the ongoing geopolitical friction between Russia and Western nations over the conflict in Ukraine.",
-    "confidence": "HIGH. The sources report on distinct, separate actions taken by different nations that are not in direct contradiction.",
-    "sources": [
-      {
-        "id": "art_1789743055492_3hi6h",
-        "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russian hybrid attacks against Europe intensifying, says Macron"
-      },
-      {
-        "id": "art_1789743063182_pvl0e",
-        "url": "https://www.aljazeera.com/news/2026/9/18/russia-seizes-assets-of-french-firms-summons-uk-envoy-over-ukraine-support?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia seizes assets of French firms, summons UK envoy over Ukraine support"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5068c3249bafe8d69005413cbadbacb8",
-    "topic_label": "Global Health and Safety Concerns",
-    "event_window_start": "2026-09-18T14:11:34.000Z",
-    "event_window_end": "2026-09-18T20:21:55.000Z",
-    "article_ids": [
-      "art_1789766360937_1r97i",
-      "art_1789743065467_riybd"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T11:30:54.106Z",
-    "updated_at": "2026-09-19T11:30:54.106Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Both articles discuss events involving aviation incidents."
-    ],
-    "source_claims": [
-      "[fox] Three people have died from malaria following a mosquito being transported on a flight to Germany.",
-      "[fox] A resident of Schwanheim and an airport worker died from malaria without traveling to a malaria-endemic region.",
-      "[guardian] A software defect in the UK air traffic control system corrupted flight data in a millisecond, causing a six-hour outage.",
-      "[guardian] The UK air traffic control system error occurred at 10am, and a major incident was declared at 12.30pm."
-    ],
-    "framing_differences": [
-      "fox frames the event as a health crisis involving a rare 'airport malaria' phenomenon, while guardian frames the event as a technological and operational failure in air traffic control management."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] The third person died from malaria due to a mosquito transported on a flight to Germany.",
-      "[guardian] The UK air traffic control incident caused mass airline cancellations and delays across the UK."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'airport malaria' to describe the phenomenon.",
-      "[guardian] uses the term 'flight chaos' to describe the impact of the outage."
-    ],
-    "safe_conclusions": [
-      "Reports exist regarding separate aviation-related incidents: one involving malaria cases near an airport in Germany and another involving a software malfunction in the UK air traffic control system."
-    ],
-    "unknowns": [
-      "The origin of the flights mentioned in the fox report.",
-      "The identity of the third person who died in the malaria-related incident mentioned by fox.",
-      "The specific reasons why the UK air traffic control issue was not detected before the major incident was declared."
-    ],
-    "synthesis": "Separate reports describe a malaria outbreak potentially linked to Frankfurt airport and a major software failure affecting UK air traffic control. The malaria incident involves three fatalities near the German airport, while the UK incident resulted in a six-hour system outage. Both events highlight operational disruptions within the aviation sector.",
-    "confidence": "HIGH. The sources discuss completely distinct, non-overlapping events.",
-    "sources": [
-      {
-        "id": "art_1789766360937_1r97i",
-        "url": "https://www.foxnews.com/world/third-person-dies-mosquito-trapped-plane-germany-airport-malaria-phenomenon",
-        "source": "fox",
-        "title": "Third person dies after mosquito is reportedly trapped on plane to Germany in 'airport malaria' phenomenon"
-      },
-      {
-        "id": "art_1789743065467_riybd",
-        "url": "https://www.theguardian.com/world/2026/sep/18/flight-chaos-affecting-hundreds-of-thousands-caused-in-millisecond-by-software-error-uk",
-        "source": "guardian",
-        "title": "Flight chaos for hundreds of thousands was caused in ‘millisecond’ by software error"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "75f79c10d98c28f9c528e92edb9d77c0",
-    "topic_label": "Sports News and Activism",
-    "event_window_start": "2026-09-18T14:08:03.000Z",
-    "event_window_end": "2026-09-18T21:05:25.000Z",
-    "article_ids": [
-      "art_1789766348361_x45r5",
-      "art_1789766351557_wgp9z",
-      "art_1789766356812_hmf10",
-      "art_1789766359909_t2duc",
-      "art_1789755618923_9kjwe",
-      "art_1789755622256_b10md",
-      "art_1789755624401_rbrxh",
-      "art_1789743056643_j6784",
-      "art_1789743066537_z8anb"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T06:24:30.907Z",
-    "updated_at": "2026-09-19T06:24:30.907Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[fox] claims Olympic swimmer Réka György criticized Governor Abigail Spanberger for withdrawing a regulation regarding female sports and private spaces.",
-      "[fox] claims the Minnesota Vikings are starting Carson Wentz due to Kyler Murray being in concussion protocol.",
-      "[fox] claims SEC football fans are preparing for a high-stakes, hostile game between LSU and Ole Miss.",
-      "[fox] claims Patriots head coach Mike Vrabel has softened his stance on TreVeyon Henderson's social activism.",
-      "[fox] claims Dabble is offering a promotional bonus for new users during college football week 3."
-    ],
-    "framing_differences": [],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Louisiana Governor Jeff Landry called for military backup for the LSU vs. Ole Miss game.",
-      "[fox] claims Lane Kiffin admitted there are safety issues regarding the sideline at the upcoming game."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'hostile homecoming' to describe the upcoming LSU vs. Ole Miss game.",
-      "[fox] uses the term 'quarterback hijinks' to describe the Minnesota Vikings roster management.",
-      "[fox] uses the term 'painfully aware' to describe audience knowledge of a college football game."
-    ],
-    "safe_conclusions": [
-      "Various sports and political events are being reported by the provided news source.",
-      "The sources discuss topics including collegiate and professional sports, as well as state-level political actions in Virginia."
-    ],
-    "unknowns": [
-      "The actual impact or current status of the Virginia Board of Health petition mentioned by Réka György.",
-      "Official confirmation regarding the specific security measures taken for the LSU vs. Ole Miss game."
-    ],
-    "synthesis": "The provided articles cover disparate topics ranging from Virginia state politics regarding sports regulations to updates on NFL quarterback availability and college football game coverage. The reporting focuses on reactions to institutional policies and sports-related developments. All information is presented through the lens of a single news entity.",
-    "confidence": "HIGH. The sources consist of a single news provider, ensuring consistency in style and reporting format across all topics.",
-    "sources": [
-      {
-        "id": "art_1789766348361_x45r5",
-        "url": "https://www.foxnews.com/outkick-sports/olympic-swimmer-reka-gyorgy-calls-virginia-governor-spanberger-withdrawing-female-sports-regulation",
-        "source": "fox",
-        "title": "Olympic swimmer Réka György calls out Virginia Governor Spanberger for withdrawing female sports regulation"
-      },
-      {
-        "id": "art_1789766351557_wgp9z",
-        "url": "https://www.foxnews.com/outkick-sports/kyler-murray-concussion-door-opens-carson-wentz-vikings-starter",
-        "source": "fox",
-        "title": "Kyler Murray out with concussion so door opens for Carson Wentz as Vikings' new starter – perhaps for a while"
-      },
-      {
-        "id": "art_1789766356812_hmf10",
-        "url": "https://www.foxnews.com/outkick-sports/lane-kiffin-visit-oxford-isnt-first-time-coach-made-unwelcome-return-former-school",
-        "source": "fox",
-        "title": "Lane Kiffin's visit to Oxford isn't the first time a coach made an unwelcome return to his former school"
-      },
-      {
-        "id": "art_1789766359909_t2duc",
-        "url": "https://www.foxnews.com/outkick-sports/patriots-coach-mike-vrabel-about-face-treveyom-henderson-activism-russini-scandal",
-        "source": "fox",
-        "title": "Patriots coach Mike Vrabel does about-face on TreVeyon Henderson's activism after Russini scandal"
-      },
-      {
-        "id": "art_1789755618923_9kjwe",
-        "url": "https://www.foxnews.com/outkick-betting/dabble-promo-code-foxnews-unlocks-play-5-get-50-promo-college-football-week-3",
-        "source": "fox",
-        "title": "Dabble Promo Code FOXNEWS Unlocks Play $5, Get $50 Promo for College Football Week 3"
-      },
-      {
-        "id": "art_1789755622256_b10md",
-        "url": "https://www.foxnews.com/politics/obamas-brother-in-law-rejects-civil-rights-racism-argument-against-college-sports-overhaul",
-        "source": "fox",
-        "title": "Obama's brother-in-law rejects civil rights, racism argument against college sports overhaul"
-      },
-      {
-        "id": "art_1789755624401_rbrxh",
-        "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-provides-1000-deposit-match-college-football-lsu-vs-ole-miss",
-        "source": "fox",
-        "title": "Underdog Promo Code FOXNEWS Provides a $1000 Deposit Match for College Football, LSU vs Ole Miss"
-      },
-      {
-        "id": "art_1789743056643_j6784",
-        "url": "https://www.aljazeera.com/sports/2026/9/18/real-madrids-kylian-mbappe-ends-nike-partnership-to-join-swiss-brand-on?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Real Madrid’s Kylian Mbappe ends Nike partnership to join Swiss brand On"
-      },
-      {
-        "id": "art_1789743066537_z8anb",
-        "url": "https://www.aljazeera.com/sports/2026/9/18/barcelonas-lamine-yamal-says-he-has-experienced-racism-a-thousand-times?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Barcelona’s Lamine Yamal says he has experienced racism ‘a thousand times’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e75e32a7a11adbbeeeebbb481a87c727",
-    "topic_label": "Conflict in the Middle East",
-    "event_window_start": "2026-09-18T09:59:09.000Z",
-    "event_window_end": "2026-09-18T20:55:57.000Z",
-    "article_ids": [
-      "art_1789766350518_6xnid",
-      "art_1789766355776_fz12t",
-      "art_1789755623372_tsgsm",
-      "art_1789743064386_5yog9",
-      "art_1789743068662_omrbs",
-      "art_1789728171581_ezxgb",
-      "art_1789728186772_2sxyf"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T06:24:30.907Z",
-    "updated_at": "2026-09-19T06:24:30.907Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The provided text contains multiple, unrelated news reports from various international contexts.",
-      "The sources cover disparate events including a legal verdict in the UK, a concert in Syria, military rallies in Iran, a military rout in Yemen, and regional diplomatic relations between Saudi Arabia and Iran."
-    ],
-    "source_claims": [
-      "[aljazeera] Sarah Cotte was found not guilty by an Old Bailey jury of expressing support for Hamas.",
-      "[aljazeera] Assala Nasri performed in Damascus after 15 years of exile.",
-      "[aljazeera] 313,000 volunteers rallied in Tehran in a government-organized event.",
-      "[guardian] More than 15 brigades of anti-Houthi forces were defeated in Yemen, resulting in the loss of the west coast.",
-      "[guardian] Some Yemeni politicians claim billions of dollars were offered to persuade forces to abandon their positions.",
-      "[aljazeera] Saudi Arabia expelled Iran’s military attache and four embassy staff following direct Iranian attacks."
-    ],
-    "framing_differences": [
-      "Regarding the Iran rally, [aljazeera] frames the event as a display of 'defiance' against the US, while simultaneously noting that official attendance figures could not be independently verified."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Reports that 313,000 volunteers mobilized in Tehran.",
-      "[guardian] Claims that billions of dollars were offered as bribes to anti-Houthi forces in Yemen."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'terrorist' to describe Hamas in the context of UK law.",
-      "[aljazeera] uses the term 'defiance' to describe the Iranian rally.",
-      "[guardian] uses the term 'bitter' to describe the inquest occurring among anti-Houthi forces."
-    ],
-    "safe_conclusions": [
-      "Multiple independent events occurred involving legal, cultural, military, and diplomatic developments in the Middle East and the UK."
-    ],
-    "unknowns": [
-      "The exact number of attendees at the Tehran rally.",
-      "The validity of claims regarding bribery of Yemeni forces.",
-      "The long-term impact of the military rout in Yemen on the UN-recognized government."
-    ],
-    "synthesis": "The provided articles detail a variety of distinct geopolitical and social events, ranging from a court acquittal in London to military developments in Yemen and Iran. Reports cover the return of a Syrian artist from exile and the strain on diplomatic relations between Saudi Arabia and Iran. These accounts focus on disparate regional and international occurrences without shared thematic focus.",
-    "confidence": "HIGH. The sources discuss completely independent events, meaning there is no factual conflict between them.",
-    "sources": [
-      {
-        "id": "art_1789766350518_6xnid",
-        "url": "https://www.aljazeera.com/news/2026/9/18/uk-court-clears-woman-of-voicing-support-for-hamas-in-university-speech?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK court clears woman of voicing support for Hamas in university speech"
-      },
-      {
-        "id": "art_1789766355776_fz12t",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/daughter-of-damascus-assala-performs-in-syria-after-15-year-exile?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile"
-      },
-      {
-        "id": "art_1789755623372_tsgsm",
-        "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iranians rally in biggest show of defiance against US since war began"
-      },
-      {
-        "id": "art_1789743064386_5yog9",
-        "url": "https://www.theguardian.com/world/2026/sep/18/yemen-anti-houthi-forces-inquest-military-collapse",
-        "source": "guardian",
-        "title": "Yemen’s anti-Houthi forces launch inquest into sudden military collapse"
-      },
-      {
-        "id": "art_1789743068662_omrbs",
-        "url": "https://www.aljazeera.com/opinions/2026/9/18/the-cost-of-irans-regional-leverage?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The cost of Iran’s regional leverage"
-      },
-      {
-        "id": "art_1789728171581_ezxgb",
-        "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least 16 killed in attack on mosque in Pakistan"
-      },
-      {
-        "id": "art_1789728186772_2sxyf",
-        "url": "https://www.theguardian.com/film/2026/sep/18/iranian-actor-laheh-marzban-venice-film-festival-speech-falling-house",
-        "source": "guardian",
-        "title": "Iranian actor Laheh Marzban faces severe threats after Venice film festival speech"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bf20ce51f673528646cf2bddba42ec9a",
-    "topic_label": "US Political News",
-    "event_window_start": "2026-09-18T10:00:16.000Z",
-    "event_window_end": "2026-09-18T21:05:49.000Z",
-    "article_ids": [
-      "art_1789766346222_1yzn8",
-      "art_1789766347322_cd53n",
-      "art_1789766353635_ceh7t",
-      "art_1789766354672_9j5sc",
-      "art_1789755612462_l97ak",
-      "art_1789755613515_4ktgb",
-      "art_1789755614563_d1qel",
-      "art_1789743057748_asbe6",
-      "art_1789728183553_ev91y"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 9,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T06:24:30.907Z",
-    "updated_at": "2026-09-19T06:24:30.907Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump is the President of the United States."
-    ],
-    "source_claims": [
-      "[bbc] President Trump announced on Truth Social an immediate ban of CNN, MS NOW, and Politico from the White House.",
-      "[bbc] President Trump stated these outlets report 'fiction or lies'.",
-      "[bbc] CNN characterized the move as an 'illegal assault' on press freedoms.",
-      "[fox] Tegan Lecheler states that some conservatives are supporting guaranteed income programs for mothers and newborns.",
-      "[fox] Jonathan Lemire stated that President Trump is an 'unfettered version of himself' in his second term.",
-      "[fox] Claire Valdez, a candidate, faces calls for a federal probe following remarks about taking a 'fight' into Congress."
-    ],
-    "framing_differences": [
-      "The bbc article focuses on administrative actions concerning media access, whereas the fox articles cover a range of separate political topics including guaranteed income, Trump's leadership style, and local university and candidate controversies."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] President Trump claimed outlets are 'reporting fiction or lies'.",
-      "[fox] Jonathan Lemire claimed President Trump 'completed, arguably, the greatest comeback in American political history'."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'fraught' to describe the relationship between Trump and media outlets.",
-      "[bbc] uses the term 'slammed' to describe CNN's response to the ban.",
-      "[fox] uses the term 'Radicals' in the newsletter title to describe campus groups.",
-      "[fox] uses the term 'socialist' to describe candidate Claire Valdez."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump is currently serving in office.",
-      "There is ongoing public discourse regarding media access to the White House.",
-      "Various political campaigns and campus-related controversies are occurring in the United States."
-    ],
-    "unknowns": [
-      "The specific mechanism by which the White House intends to implement the media ban mentioned by the BBC.",
-      "The legal standing or outcome of the media ban."
-    ],
-    "synthesis": "President Donald Trump announced a ban on specific news outlets from the White House, claiming they report lies, a move CNN has described as an illegal assault on press freedom. Concurrently, various news reports highlight political developments regarding guaranteed income initiatives and local election controversies. The sources cover distinct political events and do not share a common narrative focus.",
-    "confidence": "HIGH. The sources represent distinct reporting on different news topics, and the factual claims within each individual article do not contradict the factual claims of others.",
-    "sources": [
-      {
-        "id": "art_1789766346222_1yzn8",
-        "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says he is banning CNN and Politico from White House"
-      },
-      {
-        "id": "art_1789766347322_cd53n",
-        "url": "https://www.foxnews.com/media/pro-life-vs-socialism-gop-lawmakers-divided-over-controversial-guaranteed-income-programs",
-        "source": "fox",
-        "title": "'Pro-life' vs 'socialism': GOP lawmakers divided over controversial guaranteed income programs"
-      },
-      {
-        "id": "art_1789766353635_ceh7t",
-        "url": "https://www.foxnews.com/media/trump-unfettered-comfortable-power-second-term-journalists-say",
-        "source": "fox",
-        "title": "Trump is 'unfettered' and more comfortable with power in his second term, journalists say"
-      },
-      {
-        "id": "art_1789766354672_9j5sc",
-        "url": "https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-trump-bashing-chilled-speech-major-saga-renewed",
-        "source": "fox",
-        "title": "Fox News Campus Radicals Newsletter: Trump bashing, chilled speech and a major saga renewed"
-      },
-      {
-        "id": "art_1789755612462_l97ak",
-        "url": "https://www.foxnews.com/politics/socialist-claire-valdez-faces-calls-federal-probe-mexico-fight-pledge",
-        "source": "fox",
-        "title": "Socialist Claire Valdez faces calls for federal probe after Mexico ‘fight’ pledge"
-      },
-      {
-        "id": "art_1789755613515_4ktgb",
-        "url": "https://www.foxnews.com/politics/dems-abandon-candidate-who-said-maga-more-destructive-than-nazis-shes-stuck-ballot",
-        "source": "fox",
-        "title": "Dems abandon candidate who said MAGA 'more destructive' than Nazis, but she’s stuck on the ballot"
-      },
-      {
-        "id": "art_1789755614563_d1qel",
-        "url": "https://www.foxnews.com/politics/codepink-cofounder-medea-benjamin-family-foundation-major-funder-left-wing-activist-groups",
-        "source": "fox",
-        "title": "How CodePink co-founder Medea Benjamin's family foundation became a major funder of left-wing activist groups"
-      },
-      {
-        "id": "art_1789743057748_asbe6",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/18/us-politics-midterms-early-voting-cost-of-living-iran-war-trump-kennedy-center-institute-of-peace-latest-news-updates",
-        "source": "guardian",
-        "title": "Early voting begins in midterms as campaign shifts focus to cost of living and Iran war – US politics live"
-      },
-      {
-        "id": "art_1789728183553_ev91y",
-        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-undocumented-children-texas",
-        "source": "guardian",
-        "title": "Trump officials sending undocumented children to Texas sparks fears of mass deportation"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1d66819b1cb99d4055ec9702cf001871",
-    "topic_label": "Russia-Ukraine Conflict and Tensions",
-    "event_window_start": "2026-09-18T10:00:34.000Z",
-    "event_window_end": "2026-09-18T14:42:01.000Z",
-    "article_ids": [
-      "art_1789743055492_3hi6h",
-      "art_1789743063182_pvl0e",
-      "art_1789728179202_smq54"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T06:24:30.907Z",
-    "updated_at": "2026-09-19T06:24:30.907Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Russia is currently involved in conflict or tensions regarding Ukraine.",
-      "Western nations including France and the UK are providing support to Ukraine."
-    ],
-    "source_claims": [
-      "[bbc] President Emmanuel Macron states that Russia has launched hybrid attacks against France and has ordered a protection plan for critical infrastructure.",
-      "[aljazeera] The Russian Ministry of Foreign Affairs summoned the British charge d'affaires to protest UK arms shipments to Ukraine.",
-      "[aljazeera] Russia has seized Russian assets belonging to several Western firms.",
-      "[fox] Russian State Duma elections are occurring, including in Russian-occupied regions of Ukraine.",
-      "[fox] OSCE election observers have not been invited to monitor the Russian elections."
-    ],
-    "framing_differences": [
-      "bbc frames the situation as a security threat posed by Russia to European nations through hybrid warfare, while aljazeera frames it as a geopolitical escalation involving diplomatic protests and economic retaliations between Russia and the West.",
-      "fox frames the Russian electoral process as an effort to manufacture legitimacy in occupied territories, focusing on the absence of independent observers."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] French President Emmanuel Macron asserts that France has been the target of Russian hybrid attacks in recent weeks.",
-      "[aljazeera] The Russian Ministry of Foreign Affairs characterizes the actions of the Kyiv regime as terrorism and war crimes.",
-      "[fox] Keti Korkiya claims that Russian citizens are likely afraid to provide honest opinions to pollsters regarding the war."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'bloody atrocities' and 'terrorism' to describe the actions of the Kyiv regime as attributed to the Russian Ministry of Foreign Affairs.",
-      "[fox] uses the term 'illusion of popular support' to describe Russia's activities in occupied Ukraine.",
-      "[fox] uses the term 'worrying disregard' to describe the Kremlin's approach to democratic standards."
-    ],
-    "safe_conclusions": [
-      "France is concerned about potential Russian hybrid attacks.",
-      "Russia has taken diplomatic and economic actions against Western countries.",
-      "Elections are taking place in Russia and in certain territories occupied by Russia."
-    ],
-    "unknowns": [
-      "Specific details regarding the nature of the alleged hybrid attacks mentioned by France.",
-      "The full list of Western firms whose assets were seized by Russia.",
-      "The long-term impact of the diplomatic actions taken by Russia toward the UK."
-    ],
-    "synthesis": "Tensions between Russia and Western nations are manifesting through increased military support for Ukraine, diplomatic protests, and concerns over hybrid security threats. France has reported defensive measures against perceived hybrid attacks, while Russia has retaliated against the UK and other Western firms. Simultaneously, Russia is conducting parliamentary elections that include occupied territories in Ukraine, which has drawn international criticism regarding the lack of independent oversight.",
-    "confidence": "MEDIUM. The articles cover different aspects of the Russia-Ukraine conflict, meaning the sources are generally not corroborating each other's specific claims but are providing contextually distinct reports on related geopolitical tensions.",
-    "sources": [
-      {
-        "id": "art_1789743055492_3hi6h",
-        "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russian hybrid attacks against Europe intensifying, says Macron"
-      },
-      {
-        "id": "art_1789743063182_pvl0e",
-        "url": "https://www.aljazeera.com/news/2026/9/18/russia-seizes-assets-of-french-firms-summons-uk-envoy-over-ukraine-support?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia seizes assets of French firms, summons UK envoy over Ukraine support"
-      },
-      {
-        "id": "art_1789728179202_smq54",
-        "url": "https://www.foxnews.com/world/voters-get-choose-just-not-result-russias-parliamentary-election-reaches-occupied-ukraine",
-        "source": "fox",
-        "title": "‘Voters get to choose — just not the result’: Russia’s parliamentary election reaches occupied Ukraine"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
