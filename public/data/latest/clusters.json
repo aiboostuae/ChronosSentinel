@@ -1,10 +1,12 @@
 [
   {
-    "cluster_id": "3ef16c6d863ea14e89ee297e606e3690",
-    "topic_label": "Cockpit Altercation and Emergency Diversion of Flydubai FZ1073",
+    "cluster_id": "5a392b3b5512bfc9b755a208721ed02d",
+    "topic_label": "In-Flight Cockpit Stabbing and Rapid Decompression of Flydubai FZ1073",
     "event_window_start": "2026-09-30T08:00:10.000Z",
-    "event_window_end": "2026-09-30T15:27:26.000Z",
+    "event_window_end": "2026-09-30T23:50:17.000Z",
     "article_ids": [
+      "art_1790814359522_c3tlw",
+      "art_1790783518483_bqwf0",
       "art_1790783524135_dwljy",
       "art_1790783535072_zi3yz",
       "art_1790759165785_uwcq1",
@@ -15,31 +17,45 @@
       "guardian",
       "bbc"
     ],
-    "article_count": 4,
+    "article_count": 6,
     "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-09-30T23:40:53.949Z",
-    "updated_at": "2026-09-30T23:40:53.949Z",
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
     "region_tag": "middle-east",
     "severity": "CRITICAL",
     "incident_type": "Aviation",
-    "synthesis": "Flydubai flight FZ1073, en route from Dubai to Tel Aviv, was diverted to Tabuk Airport, Saudi Arabia, following an onboard cockpit altercation involving physical violence between the two pilots. Telemetry data from Flightradar24 indicates the aircraft broadcasted an emergency transponder code, which briefly shifted to a hijacking signal before reverting to a general emergency status. Reports corroborated by Israeli officials and media allege one pilot stabbed the other and engaged in erratic flight maneuvers, prompting the deployment of Israeli fighter jets. The aircraft landed in Saudi Arabia where the suspect pilot was detained by local authorities.",
+    "synthesis": "Flydubai flight FZ1073, en route from Dubai to Tel Aviv, experienced a violent cockpit altercation involving the primary flight crew. During the flight, one pilot engaged in the stabbing of the co-pilot, resulting in an immediate loss of controlled flight and a rapid descent of approximately 16,000 feet within two minutes. The aircraft broadcasted emergency transponder codes, including a short-duration squawk for unlawful interference, before diverted to Tabuk, Saudi Arabia, for an emergency landing. The aggressor pilot is currently in custody of Saudi authorities; the aircraft was stabilized by off-duty crew members present on the flight.",
     "consensus": [
-      "Flydubai flight FZ1073 departed Dubai for Tel Aviv on Wednesday.",
-      "The aircraft performed an emergency diversion to Tabuk Airport, Saudi Arabia.",
-      "An altercation occurred between the two pilots in the cockpit.",
-      "The aircraft transmitted emergency transponder codes during the flight.",
-      "The suspect pilot is currently being detained by Saudi authorities."
+      "The aircraft was a Flydubai commercial flight traveling from Dubai to Tel Aviv.",
+      "A violent physical altercation occurred between the two pilots in the cockpit.",
+      "The aircraft experienced a rapid loss of altitude, dropping 16,000 feet in two minutes.",
+      "The flight was diverted to Tabuk, Saudi Arabia, where it made an emergency landing.",
+      "The pilots sustained injuries from stabbing.",
+      "The plane broadcasted emergency distress signals, including a signal indicating unlawful interference."
     ],
     "divergence": [
-      "Benjamin Netanyahu (referenced in Aljazeera and Guardian) frames the event as an attempted crash and terror attack, whereas Flydubai's official statement sanitized the event as a vague 'altercation' and 'incident'.",
-      "BBC reports that the Israeli Prime Minister's office contradicted initial speculation by stating the incident was 'not believed to have been a hijacking', despite earlier reports from Reuters and Aljazeera citing hijacking warnings.",
-      "The Aljazeera report highlights the deployment of Israeli warplanes as a key response, a detail downplayed or omitted in the BBC and official airline statements."
+      "The Guardian and Al Jazeera report Netanyahu's claim that the pilot intended to crash the plane as a potential terror attack, whereas the BBC notes the Israeli PM's office explicitly walked back the 'hijacking' classification.",
+      "Al Jazeera includes an anecdote regarding an 'Israeli plumber' assisting in the landing, a detail omitted by The Guardian and BBC as unsubstantiated or irrelevant to the kinetic facts.",
+      "Al Jazeera emphasizes the deployment of Israeli fighter jets, a detail not confirmed in the BBC report.",
+      "The Guardian frames the event heavily through the lens of Israeli official statements regarding terrorism, whereas the BBC focuses more on the telemetry provided by Flightradar24 and the passenger experience."
     ],
     "sources": [
+      {
+        "id": "art_1790814359522_c3tlw",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/trump-amazed-that-an-israeli-plumber-helped-land-flydubai-flight?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump amazed that an ‘Israeli plumber’ helped land Flydubai flight"
+      },
+      {
+        "id": "art_1790783518483_bqwf0",
+        "url": "https://www.theguardian.com/world/live/2026/sep/30/dubai-israel-saudi-arabia-flydubai-flight-diversion-pilots-fight-latest-news-updates",
+        "source": "guardian",
+        "title": "Netanyahu says pilot arrested after stabbing fellow pilot and apparently trying to crash Israel-bound plane – latest"
+      },
       {
         "id": "art_1790783524135_dwljy",
         "url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
@@ -63,6 +79,69 @@
         "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
         "source": "aljazeera",
         "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f1297a2cc573627c3a1160a2b616f005",
+    "topic_label": "Israeli Kinetic Strikes on Gaza City Minibus",
+    "event_window_start": "2026-09-30T08:41:41.000Z",
+    "event_window_end": "2026-09-30T20:12:22.000Z",
+    "article_ids": [
+      "art_1790801202022_l5x21",
+      "art_1790801206238_ckqhq",
+      "art_1790783529695_x59e1",
+      "art_1790759175269_zg7an"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Military",
+    "synthesis": "Israeli military forces executed a precision strike against a civilian vehicle, specifically a minibus, located in the Tel al-Hawa district of Gaza City. The strike resulted in the confirmed death of six individuals and the wounding of 15 others. This event represents a direct kinetic engagement within an urban residential zone.",
+    "consensus": [
+      "An Israeli strike occurred in the Tel al-Hawa area of Gaza City on Wednesday.",
+      "The strike targeted a minibus.",
+      "Six people were killed and 15 were wounded as a result of the strike."
+    ],
+    "divergence": [
+      "Al Jazeera frames the event as part of a wider series of attacks across Gaza, specifically highlighting the residential nature of the targets to emphasize civilian impact.",
+      "Official Israeli sources omitted from the provided text were not available to provide a competing narrative regarding the target's identification or tactical necessity."
+    ],
+    "sources": [
+      {
+        "id": "art_1790801202022_l5x21",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/israeli-attacks-across-gaza-kill-at-least-eight?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli attacks across Gaza kill at least eight"
+      },
+      {
+        "id": "art_1790801206238_ckqhq",
+        "url": "https://www.aljazeera.com/news/2026/9/30/us-judge-rules-wisconsin-mosque-leader-salah-sarsour-can-be-deported?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US judge rules Wisconsin mosque leader Salah Sarsour can be deported"
+      },
+      {
+        "id": "art_1790783529695_x59e1",
+        "url": "https://www.aljazeera.com/gallery/2026/9/30/photos-kashmirs-600-year-old-wazwan-wedding-feast-adapts-to-modern-life?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Photos: Kashmir’s 600-year-old Wazwan wedding feast adapts to modern life"
+      },
+      {
+        "id": "art_1790759175269_zg7an",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/hijabi-students-turned-away-from-school-in-azerbaijan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hijabi students turned away from school in Azerbaijan"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -135,6 +214,429 @@
         "url": "https://www.theguardian.com/world/2026/sep/30/south-korea-apology-north-korea-mine-injures-soldiers",
         "source": "guardian",
         "title": "South Korea calls for apology from North Korea after mine injures three soldiers"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "16a5893fa23f2e3ac724107e8633bd5b",
+    "topic_label": "Pennsylvania Measles Mortality Cluster 2026",
+    "event_window_start": "2026-09-30T20:28:06.000Z",
+    "event_window_end": "2026-09-30T23:31:54.000Z",
+    "article_ids": [
+      "art_1790814366220_1hsq8",
+      "art_1790801195500_v60aq"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Public Health",
+    "synthesis": "The Pennsylvania Department of Health reports 943 confirmed measles cases distributed across 39 counties, resulting in 176 hospitalizations and five fatalities. All identified cases involve individuals testing positive for the rubeola virus, with the most recent fatality occurring in an unvaccinated resident of Lancaster County. The current epidemiological surge represents the highest national infection rate since 1991, with current reporting protocols for mortality attribution currently under modification by federal executive directives.",
+    "consensus": [
+      "943 confirmed measles cases in Pennsylvania in 2026",
+      "176 individuals hospitalized due to complications",
+      "Five total deaths officially linked to measles in the state this year",
+      "Outbreak spans 39 counties",
+      "Latest deceased individual was an unvaccinated resident of Lancaster County"
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the historical context of the US measles elimination status since 2000 while omitting the political context of current reporting changes.",
+      "The Guardian explicitly highlights that the current administration changed the methodology for reporting measles-related deaths, a detail omitted by Al Jazeera."
+    ],
+    "sources": [
+      {
+        "id": "art_1790814366220_1hsq8",
+        "url": "https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pennsylvania confirms fifth measles-associated death as US outbreak grows"
+      },
+      {
+        "id": "art_1790801195500_v60aq",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/pennsylvania-reports-fifth-measles-related-death",
+        "source": "guardian",
+        "title": "Pennsylvania reports fifth measles-related death of the year amid outbreak"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "15e92a93b14714e70733621eaf512c83",
+    "topic_label": "US Supreme Court Authorization of Christa Pike Execution",
+    "event_window_start": "2026-09-30T15:29:11.000Z",
+    "event_window_end": "2026-10-01T00:19:20.000Z",
+    "article_ids": [
+      "art_1790814351392_8vl1l",
+      "art_1790783519611_59d4c"
+    ],
+    "source_ids": [
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Judicial",
+    "synthesis": "The United States Supreme Court overturned a stay of execution granted by a lower appeals court, authorizing the state of Tennessee to proceed with the state-sanctioned lethal injection of Christa Pike. Pike, convicted in 1996 for the 1995 homicide of Colleen Slemmer, remains on death row. The judicial intervention by Justice Brett Kavanaugh effectively nullified the temporary reprieve, clearing the legal path for the state to carry out the capital sentence, though the specific timing of the execution remains subject to state administrative scheduling.",
+    "consensus": [
+      "Christa Pike was sentenced to death in 1996 for the murder of Colleen Slemmer.",
+      "A lower appeals court issued a stay of execution on Wednesday.",
+      "The US Supreme Court overturned the stay of execution.",
+      "If executed, Pike would be the first woman put to death in Tennessee in over 200 years."
+    ],
+    "divergence": [
+      "BBC source 1 frames the event as the execution being 'allowed' to proceed following Supreme Court intervention.",
+      "BBC source 2 frames the event as the execution being 'halted' due to the timing of the lower court's ruling prior to the Supreme Court's reversal.",
+      "The sources differ in their chronological emphasis, with one highlighting the current legal authorization while the other focuses on the temporary delay caused by the appellate court."
+    ],
+    "sources": [
+      {
+        "id": "art_1790814351392_8vl1l",
+        "url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US Supreme Court allows execution of Christa Pike to go ahead"
+      },
+      {
+        "id": "art_1790783519611_59d4c",
+        "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Execution of US murderer Christa Pike halted shortly before it was due to happen"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8d3bbdcd719d7d7bf44f83bd8db515bd",
+    "topic_label": "UK Economic Restructuring and Political Policy Shifts",
+    "event_window_start": "2026-09-30T07:57:43.000Z",
+    "event_window_end": "2026-09-30T15:28:45.000Z",
+    "article_ids": [
+      "art_1790783520799_1kep5",
+      "art_1790759168029_xgkgh",
+      "art_1790759170617_usw4q",
+      "art_1790759173162_z6bvy",
+      "art_1790759179521_04vw6"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The UK political landscape, led by Prime Minister Andy Burnham, is currently focused on consolidating party cohesion and initiating long-term public service reforms, including housing, energy, and social care. Simultaneously, the UK retail sector is undergoing significant contraction and restructuring; Greggs has announced the closure of four manufacturing facilities leading to 740 projected job losses, while Poundland is undergoing high-stakes buyout negotiations involving 11,000 employees. The executive branch is signaling a pivot toward potential re-evaluation of post-Brexit EU relationships to address long-term economic stagnation.",
+    "consensus": [
+      "Andy Burnham is the current Prime Minister of the UK.",
+      "The Labour Party held a conference in Liverpool.",
+      "Greggs plans to close four factories resulting in 740 potential job losses.",
+      "Poundland is in advanced management buyout negotiations to preserve 11,000 jobs.",
+      "Prime Minister Burnham has called for an open debate regarding the UK's relationship with the European Union."
+    ],
+    "divergence": [
+      "The Guardian frames the Labour conference as a successful political consolidation, whereas Al Jazeera focuses strictly on the bureaucratic and service-reform aspects of the PM's platform.",
+      "The Guardian characterizes the Greggs factory closures as a 'cost-efficient' corporate strategy, omitting the localized economic impact on the 740 affected workers in favor of financial growth narratives.",
+      "The Guardian links Burnham’s rhetoric to a 'new era' for the Labour party, while other sources prioritize the reporting of ongoing retail sector instability and insolvency threats."
+    ],
+    "sources": [
+      {
+        "id": "art_1790783520799_1kep5",
+        "url": "https://www.theguardian.com/politics/2026/sep/30/labour-ministers-moved-persuaded-andy-burnham-emotional-conference-speech",
+        "source": "guardian",
+        "title": "‘He persuaded us’: Labour ministers moved by Andy Burnham’s emotional conference speech"
+      },
+      {
+        "id": "art_1790759168029_xgkgh",
+        "url": "https://www.theguardian.com/politics/live/2026/sep/30/andy-burnham-eu-brexit-rejoin-customs-union-fuel-duty-budget-latest-news-updates",
+        "source": "guardian",
+        "title": "Burnham says UK ‘can’t afford another decade of post-Brexit drift’ as he leaves door open to rejoining the EU – UK politics live"
+      },
+      {
+        "id": "art_1790759170617_usw4q",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/30/uks-pm-burnham-sets-out-plans-to-reshape-public-services?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK‘s PM Burnham sets out plans to reshape public services"
+      },
+      {
+        "id": "art_1790759173162_z6bvy",
+        "url": "https://www.theguardian.com/business/2026/sep/30/greggs-to-close-four-uk-factories-with-potential-for-740-job-losses",
+        "source": "guardian",
+        "title": "Greggs to close four UK factories with potential for 740 job losses"
+      },
+      {
+        "id": "art_1790759179521_04vw6",
+        "url": "https://www.theguardian.com/business/2026/sep/30/poundland-management-in-rescue-talks-that-could-save-11000-jobs",
+        "source": "guardian",
+        "title": "Poundland management in rescue talks that could save 11,000 jobs"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e42084b247939fee1cb9b19de9342b00",
+    "topic_label": "Analysis of Disparate Regional Crisis Reporting",
+    "event_window_start": "2026-09-30T08:45:45.000Z",
+    "event_window_end": "2026-10-01T00:08:23.000Z",
+    "article_ids": [
+      "art_1790814353914_90sx0",
+      "art_1790814363465_6psmt",
+      "art_1790759174223_x9vsi"
+    ],
+    "source_ids": [
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "This synthesis aggregates three distinct, unrelated reports: the rapid physical deglaciation of Swiss alpine regions due to sustained thermal forcing; the systemic medical infrastructure failure and high pediatric mortality in rural Indian tribal sectors; and the judicial sentencing of a child sexual abuser in the Indian legal system. There is no unified kinetic event linking these reports; they represent separate instances of environmental degradation, public health failure, and legal remediation respectively.",
+    "consensus": [
+      "Switzerland has experienced a measured 5% reduction in glacier volume within a 12-month period.",
+      "Pediatric mortality exists in remote Indian villages linked to unaddressed medical conditions.",
+      "An Indian judicial official issued a sentencing order for a child sexual abuse conviction with a life term and financial compensation."
+    ],
+    "divergence": [
+      "BBC source on Swiss glaciers frames the event as 'disastrous' while focusing on economic impact (hydropower/transport) rather than strictly hydrological metrics.",
+      "BBC source on Indian child deaths omits systemic government accountability, focusing on individual anecdotal narratives of faith healers.",
+      "BBC source on the Indian judicial letter prioritizes emotional narrative framing ('winning hearts') over the broader systemic failures represented by the 69,000 cases cited."
+    ],
+    "sources": [
+      {
+        "id": "art_1790814353914_90sx0",
+        "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies"
+      },
+      {
+        "id": "art_1790814363465_6psmt",
+        "url": "https://www.bbc.co.uk/news/articles/cmn9wr84v1qno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "The children dying in India's remote tribal heartland"
+      },
+      {
+        "id": "art_1790759174223_x9vsi",
+        "url": "https://www.bbc.co.uk/news/articles/cq7832kn4252o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'He will never walk free': Indian judge's letter promises child sex abuse survivor"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c2bba0118463b1bc83c7b035db595d2e",
+    "topic_label": "Arrest of Benny Caldera Jr. for Alleged Attack Plot on Texas State Capitol",
+    "event_window_start": "2026-09-30T08:50:39.000Z",
+    "event_window_end": "2026-10-01T00:19:35.000Z",
+    "article_ids": [
+      "art_1790814350182_qoevq",
+      "art_1790814358441_ka86n",
+      "art_1790814362356_bep11",
+      "art_1790814365085_6ar34",
+      "art_1790801193378_tjczt",
+      "art_1790801198798_062cb",
+      "art_1790801203109_6eupe",
+      "art_1790801205172_bh1kb",
+      "art_1790783528522_b191q",
+      "art_1790783533880_mzetr",
+      "art_1790759166879_k18h7",
+      "art_1790759169568_29qvs"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 12,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-01T02:31:36.349Z",
+    "updated_at": "2026-10-01T02:31:36.349Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Benny Caldera Jr., a 40-year-old male, was apprehended by SWAT officers at a residence in Converse, Texas, at 03:00 local time on Wednesday. The arrest followed the receipt of intelligence by the Texas Department of Public Safety regarding a planned violent attack on the Texas State Capitol scheduled for Thursday. Caldera is currently held on a $75,000 bond facing felony charges of making terroristic threats against a public servant.",
+    "consensus": [
+      "Benny Caldera Jr. was arrested by SWAT units in Converse, Texas.",
+      "The Texas Department of Public Safety reported receiving credible intelligence of a planned violent attack on the Texas State Capitol.",
+      "The suspect is currently in custody with a set bond of $75,000.",
+      "The arrest occurred on Wednesday at approximately 3am."
+    ],
+    "divergence": [
+      "The Guardian frames the event through the lens of law enforcement success and specific legal status, omitting potential details regarding the suspect's specific ideology or logistical capabilities found in the 'credible' intelligence.",
+      "The input contains unrelated articles regarding ICE arrests in Virginia, California political campaigning, and a domestic homicide in Dublin, California, which share no physical nexus with the Texas state capitol incident."
+    ],
+    "sources": [
+      {
+        "id": "art_1790814350182_qoevq",
+        "url": "https://www.foxnews.com/politics/ice-arrests-illegal-alien-accused-sexually-assaulting-children-fairfax-county-release-dhs",
+        "source": "fox",
+        "title": "ICE arrests illegal alien accused of sexually assaulting children after Fairfax County release: DHS"
+      },
+      {
+        "id": "art_1790814358441_ka86n",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/texas-state-capitol-austin-attack-plot",
+        "source": "guardian",
+        "title": "Man arrested over alleged plot to attack Texas state capitol"
+      },
+      {
+        "id": "art_1790814362356_bep11",
+        "url": "https://www.foxnews.com/media/california-superintendent-candidate-calls-out-teachers-union-says-shes-real-threat-socialist-agenda",
+        "source": "fox",
+        "title": "California superintendent candidate calls out teachers union, says she's a 'real threat' to 'socialist agenda'"
+      },
+      {
+        "id": "art_1790814365085_6ar34",
+        "url": "https://www.foxnews.com/politics/we-beat-disney-fauci-soros-ron-desantis-unleashes-florida-model-hard-hitting-midterm-rally",
+        "source": "fox",
+        "title": "‘We beat Disney, Fauci, Soros’: Ron DeSantis unleashes ‘Florida model’ in hard-hitting midterm rally"
+      },
+      {
+        "id": "art_1790801193378_tjczt",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/california-new-york-times-games-engineer",
+        "source": "guardian",
+        "title": "In-laws charged with murder of New York Times games engineer in California"
+      },
+      {
+        "id": "art_1790801198798_062cb",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-voter-fraud-charges-minnesota",
+        "source": "guardian",
+        "title": "Trump DoJ indicts 10 individuals on noncitizen voting related charges in Minnesota"
+      },
+      {
+        "id": "art_1790801203109_6eupe",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/kristi-noem-divorce",
+        "source": "guardian",
+        "title": "Kristi Noem, former Trump homeland security chief, files for divorce"
+      },
+      {
+        "id": "art_1790801205172_bh1kb",
+        "url": "https://www.foxnews.com/politics/trump-pentagon-launches-competition-americas-next-great-military-base",
+        "source": "fox",
+        "title": "Trump Pentagon launches competition for America's next great military base"
+      },
+      {
+        "id": "art_1790783528522_b191q",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/tennessee-execution-halted-christa-pike",
+        "source": "guardian",
+        "title": "Tennessee halts plan to execute woman for first time in 200 years"
+      },
+      {
+        "id": "art_1790783533880_mzetr",
+        "url": "https://www.foxnews.com/politics/gop-fortress-under-threat-key-red-state-voters-decide-whether-falls",
+        "source": "fox",
+        "title": "GOP fortress is under threat in one key red state, and these voters could decide whether it falls"
+      },
+      {
+        "id": "art_1790759166879_k18h7",
+        "url": "https://www.theguardian.com/us-news/2026/sep/30/new-orleans-judge-criminal-case-cbs-affiliate",
+        "source": "guardian",
+        "title": "New Orleans judge files criminal case against CBS affiliate over reporting"
+      },
+      {
+        "id": "art_1790759169568_29qvs",
+        "url": "https://www.foxnews.com/opinion/sen-rand-paul-budget-deficit-out-of-control-congress-must-pass-six-penny-plan",
+        "source": "fox",
+        "title": "SEN RAND PAUL: Our budget deficit is out of control. Congress must pass my Six Penny Plan"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3ef16c6d863ea14e89ee297e606e3690",
+    "topic_label": "Cockpit Altercation and Emergency Diversion of Flydubai FZ1073",
+    "event_window_start": "2026-09-30T08:00:10.000Z",
+    "event_window_end": "2026-09-30T15:27:26.000Z",
+    "article_ids": [
+      "art_1790783524135_dwljy",
+      "art_1790783535072_zi3yz",
+      "art_1790759165785_uwcq1",
+      "art_1790759178355_ht4zp"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-09-30T23:40:53.949Z",
+    "updated_at": "2026-09-30T23:40:53.949Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Aviation",
+    "synthesis": "Flydubai flight FZ1073, en route from Dubai to Tel Aviv, was diverted to Tabuk Airport, Saudi Arabia, following an onboard cockpit altercation involving physical violence between the two pilots. Telemetry data from Flightradar24 indicates the aircraft broadcasted an emergency transponder code, which briefly shifted to a hijacking signal before reverting to a general emergency status. Reports corroborated by Israeli officials and media allege one pilot stabbed the other and engaged in erratic flight maneuvers, prompting the deployment of Israeli fighter jets. The aircraft landed in Saudi Arabia where the suspect pilot was detained by local authorities.",
+    "consensus": [
+      "Flydubai flight FZ1073 departed Dubai for Tel Aviv on Wednesday.",
+      "The aircraft performed an emergency diversion to Tabuk Airport, Saudi Arabia.",
+      "An altercation occurred between the two pilots in the cockpit.",
+      "The aircraft transmitted emergency transponder codes during the flight.",
+      "The suspect pilot is currently being detained by Saudi authorities."
+    ],
+    "divergence": [
+      "Benjamin Netanyahu (referenced in Aljazeera and Guardian) frames the event as an attempted crash and terror attack, whereas Flydubai's official statement sanitized the event as a vague 'altercation' and 'incident'.",
+      "BBC reports that the Israeli Prime Minister's office contradicted initial speculation by stating the incident was 'not believed to have been a hijacking', despite earlier reports from Reuters and Aljazeera citing hijacking warnings.",
+      "The Aljazeera report highlights the deployment of Israeli warplanes as a key response, a detail downplayed or omitted in the BBC and official airline statements."
+    ],
+    "sources": [
+      {
+        "id": "art_1790783524135_dwljy",
+        "url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?"
+      },
+      {
+        "id": "art_1790783535072_zi3yz",
+        "url": "https://www.theguardian.com/world/2026/sep/30/israel-bound-passenger-plane-emergency-landing-saudi-arabia-pilots-feud",
+        "source": "guardian",
+        "title": "Pilot who stabbed co-pilot on Israel-bound plane may have tried to crash it, says Netanyahu"
+      },
+      {
+        "id": "art_1790759165785_uwcq1",
+        "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Israel-bound flight diverted after fight between pilots"
+      },
+      {
+        "id": "art_1790759178355_ht4zp",
+        "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -16364,659 +16866,6 @@
         "url": "https://www.aljazeera.com/news/2026/9/18/russias-parliamentary-election-whos-on-the-ballot-and-why-it-matters?traffic_source=rss",
         "source": "aljazeera",
         "title": "Russia’s parliamentary election: Who’s on the ballot, and why it matters"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "973ec6b796123add126cea548745ada2",
-    "topic_label": "International violent incidents and disasters",
-    "event_window_start": "2026-09-18T05:03:29.000Z",
-    "event_window_end": "2026-09-18T17:27:39.000Z",
-    "article_ids": [
-      "art_1789755621203_bj28k",
-      "art_1789728171581_ezxgb",
-      "art_1789728173810_jcmml",
-      "art_1789710262204_kurtn"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T01:35:39.288Z",
-    "updated_at": "2026-09-19T01:35:39.288Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[guardian] 37 suspected illegal goldminers died in a Nigeria Security and Civil Defence Corps (NSCDC) prison cell in Minna, Niger state.",
-      "[guardian] Police fired teargas and imposed a curfew in Minna following protests over the deaths.",
-      "[bbc_pakistan] At least 16 people including five police officers were killed in a vehicle-borne explosive attack on a mosque in Kohat, Pakistan.",
-      "[bbc_philippines] A 16-year-old gunman killed two students and himself at Banga National High School in the Philippines, injuring eight others.",
-      "[aljazeera] A Russian strike hit a shopping centre in Zaporizhzhia, Ukraine, resulting in a fire."
-    ],
-    "framing_differences": [
-      "The sources present geographically and thematically unrelated events occurring in different nations (Nigeria, Pakistan, Philippines, and Ukraine) without a common narrative thread."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Many of the victims in the Nigerian prison cell were children.",
-      "[bbc_pakistan] A gun battle is ongoing between attackers and security forces at the mosque site.",
-      "[bbc_philippines] This is the third deadly school shooting in the Philippines since June of this year."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'illegal goldminers' to describe the individuals held in custody."
-    ],
-    "safe_conclusions": [],
-    "unknowns": [
-      "There are no shared events or narratives between these sources to evaluate.",
-      "Specific details regarding the identities of attackers in Pakistan or the full casualty counts in each event remain subject to ongoing investigations."
-    ],
-    "synthesis": "Four distinct news reports cover unrelated events in Nigeria, Pakistan, the Philippines, and Ukraine. These reports detail a prison death incident in Minna, a mosque attack in Kohat, a school shooting in Banga, and a shopping center fire in Zaporizhzhia. No common event connects the provided texts.",
-    "confidence": "HIGH. The sources report on entirely independent events, each presenting internal factual narratives that do not overlap or conflict.",
-    "sources": [
-      {
-        "id": "art_1789755621203_bj28k",
-        "url": "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
-        "source": "guardian",
-        "title": "Survivors recount panic and struggle to breathe in Nigerian prison cell where 37 died"
-      },
-      {
-        "id": "art_1789728171581_ezxgb",
-        "url": "https://www.bbc.co.uk/news/articles/ckn9wenz8wjwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "At least 16 killed in attack on mosque in Pakistan"
-      },
-      {
-        "id": "art_1789728173810_jcmml",
-        "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Three dead and eight injured in Philippines school shooting"
-      },
-      {
-        "id": "art_1789710262204_kurtn",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/fire-engulfs-zaporizhzhia-shopping-centre-after-russian-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire engulfs Zaporizhzhia shopping centre after Russian strike"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d800f6c1742a6d98b9ef428962030a08",
-    "topic_label": "US Political discourse and elections",
-    "event_window_start": "2026-09-18T04:27:25.000Z",
-    "event_window_end": "2026-09-18T21:05:49.000Z",
-    "article_ids": [
-      "art_1789766346222_1yzn8",
-      "art_1789766353635_ceh7t",
-      "art_1789755613515_4ktgb",
-      "art_1789743057748_asbe6",
-      "art_1789710267862_vdncm"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T01:35:39.288Z",
-    "updated_at": "2026-09-19T01:35:39.288Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Donald Trump is the President of the United States."
-    ],
-    "source_claims": [
-      "[bbc] President Trump announced on Truth Social he is banning CNN, MS NOW, and Politico from the White House.",
-      "[bbc] Trump claimed these outlets report fiction or lies.",
-      "[bbc] CNN characterized the potential ban as an illegal assault on press freedoms.",
-      "[fox] Journalists Jonathan Lemire, Ashley Parker, Missy Ryan, and Michael Scherer described Donald Trump as an unfettered version of himself in his second term.",
-      "[fox] The North Carolina House Democratic Caucus and a county party group condemned candidate Shelly Headen for social media posts comparing Donald Trump to Adolf Hitler.",
-      "[guardian] Virginia, Minnesota, Idaho, and South Dakota have begun early in-person or absentee voting.",
-      "[aljazeera] Senior economist Mihir Torsekar states Americans on the lower end of the economy are feeling the impact of higher borrowing costs and weaker purchasing power."
-    ],
-    "framing_differences": [
-      "BBC frames the event as a conflict between the Trump administration and specific media outlets, while Fox (in its coverage of the same president) focuses on journalistic assessments of his second-term management style."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] Trump is banning CNN, MS NOW, and Politico from the White House premises.",
-      "[bbc] The ban will be the subject of legal challenges."
-    ],
-    "loaded_language": [
-      "[bbc] uses the term 'fraught' to describe the relationship between Trump and media outlets.",
-      "[bbc] uses the term 'illegal assault' (attributed to CNN) to describe the proposed ban.",
-      "[fox] uses the term 'inflammatory' to describe Shelly Headen's social media posts.",
-      "[fox] uses the term 'unfettered' (attributed to Jonathan Lemire) to describe Donald Trump."
-    ],
-    "safe_conclusions": [
-      "Donald Trump is currently serving as the President of the United States.",
-      "Early voting processes have commenced in certain US states."
-    ],
-    "unknowns": [
-      "The specific logistical details or enforcement mechanisms of the ban mentioned by the BBC.",
-      "The official legal status of the proposed ban.",
-      "The extent to which the issues mentioned by economists will influence the upcoming midterm election results."
-    ],
-    "synthesis": "President Donald Trump has announced intentions to ban specific media organizations from the White House, a move that prompted criticism from the affected outlets. Simultaneously, various US states have begun the early voting process for upcoming midterm elections. Economic concerns and political candidate conduct are currently prominent topics in US political discourse.",
-    "confidence": "HIGH. The sources focus on distinct, separate news events occurring concurrently, and factual claims within each report are independent of one another.",
-    "sources": [
-      {
-        "id": "art_1789766346222_1yzn8",
-        "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump says he is banning CNN and Politico from White House"
-      },
-      {
-        "id": "art_1789766353635_ceh7t",
-        "url": "https://www.foxnews.com/media/trump-unfettered-comfortable-power-second-term-journalists-say",
-        "source": "fox",
-        "title": "Trump is 'unfettered' and more comfortable with power in his second term, journalists say"
-      },
-      {
-        "id": "art_1789755613515_4ktgb",
-        "url": "https://www.foxnews.com/politics/dems-abandon-candidate-who-said-maga-more-destructive-than-nazis-shes-stuck-ballot",
-        "source": "fox",
-        "title": "Dems abandon candidate who said MAGA 'more destructive' than Nazis, but she’s stuck on the ballot"
-      },
-      {
-        "id": "art_1789743057748_asbe6",
-        "url": "https://www.theguardian.com/us-news/live/2026/sep/18/us-politics-midterms-early-voting-cost-of-living-iran-war-trump-kennedy-center-institute-of-peace-latest-news-updates",
-        "source": "guardian",
-        "title": "Early voting begins in midterms as campaign shifts focus to cost of living and Iran war – US politics live"
-      },
-      {
-        "id": "art_1789710267862_vdncm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/aje-onl-nf_could-this-economic-squeeze-sway-us-voters-180926?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Could this economic squeeze sway US voters?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7be5a2c3e67d05ea7e92587f7c078557",
-    "topic_label": "Royal Family News",
-    "event_window_start": "2026-09-18T10:00:16.000Z",
-    "event_window_end": "2026-09-18T20:30:45.000Z",
-    "article_ids": [
-      "art_1789766358878_kbzha",
-      "art_1789755615815_y7635",
-      "art_1789728182291_4wm9g"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T23:40:06.144Z",
-    "updated_at": "2026-09-18T23:40:06.144Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "King Charles has issued communications regarding Prince Harry and Meghan Markle's status.",
-      "Charles Spencer has released a memoir titled 'Swan Song: Diana, My Sister'."
-    ],
-    "source_claims": [
-      "[fox] claims King Charles has drawn a 'line in the sand' regarding Prince Harry and Meghan Markle.",
-      "[fox] claims the Lord Chamberlain issued a letter on Sept. 7 stating the couple are 'akin to private citizens'.",
-      "[guardian] claims Charles Spencer stated King Charles told him 'we'll forget her soon enough' following Princess Diana's death.",
-      "[guardian] claims Buckingham Palace issued a statement suggesting Charles Spencer 'misremembered' events due to grief."
-    ],
-    "framing_differences": [
-      "Fox focuses on the status of Prince Harry and Meghan Markle as 'private citizens' versus 'public figures', whereas The Guardian focuses on the dispute between Charles Spencer and Buckingham Palace regarding the memory of King Charles's comments about Princess Diana."
-    ],
-    "contested_claims": [
-      "There is a disagreement between Charles Spencer and Buckingham Palace regarding the accuracy of Spencer's recollection of a conversation with King Charles following the death of Princess Diana."
-    ],
-    "unverified_claims": [
-      "[fox] claims Prince Harry and Meghan Markle have faced 'school-run problems'.",
-      "[fox] claims Prince Harry and Meghan Markle are 'feeding the publicity machine' despite demands for privacy."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'monstrous' to describe a call with King Charles as characterized by Charles Spencer.",
-      "[guardian] uses the term 'bombshell' to describe Charles Spencer's claim.",
-      "[guardian] uses the term 'extraordinary' to describe the statement issued by Buckingham Palace.",
-      "[fox] uses the term 'brutal' to describe Prince Harry's homecoming."
-    ],
-    "safe_conclusions": [
-      "King Charles and the Royal Household have issued public communications regarding both the Duke and Duchess of Sussex and claims made by Charles Spencer in his memoir."
-    ],
-    "unknowns": [
-      "The full content of the letter issued by the Lord Chamberlain on Sept. 7.",
-      "The specific details of the school-run issues mentioned by Fox.",
-      "The complete context of the private conversations between Charles Spencer and King Charles."
-    ],
-    "synthesis": "King Charles has recently addressed matters concerning both the Duke and Duchess of Sussex and allegations made in Charles Spencer's memoir. Buckingham Palace has disputed Spencer's account of past conversations, while sources surrounding Prince Harry and Meghan Markle have contested the characterization of the couple as private citizens. The situation involves ongoing public communications from the Royal Household regarding family and staff status.",
-    "confidence": "HIGH; The sources provide clear, albeit differing, reports on separate public statements issued by the Royal Household and individuals involved in royal affairs.",
-    "sources": [
-      {
-        "id": "art_1789766358878_kbzha",
-        "url": "https://www.foxnews.com/entertainment/fox-news-entertainment-newsletter-king-charles-draws-line-sand-harry-meghans-school-run-issues",
-        "source": "fox",
-        "title": "Fox News Entertainment newsletter: King Charles draws ‘line in the sand'; Harry and Meghan's school-run issues"
-      },
-      {
-        "id": "art_1789755615815_y7635",
-        "url": "https://www.theguardian.com/uk-news/2026/sep/18/earl-spencer-doubles-down-on-claims-about-monstrous-call-with-king-charles-after-dianas-death",
-        "source": "guardian",
-        "title": "Earl Spencer doubles down on claims about ‘monstrous’ call with King Charles after Diana’s death"
-      },
-      {
-        "id": "art_1789728182291_4wm9g",
-        "url": "https://www.foxnews.com/entertainment/prince-harry-meghan-markle-feeding-publicity-machine-despite-privacy-demands-expert",
-        "source": "fox",
-        "title": "Prince Harry, Meghan Markle feeding the 'publicity machine' despite privacy demands: expert"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2f490b69154cfe24d13069d40ca7b669",
-    "topic_label": "Sports figures and controversies",
-    "event_window_start": "2026-09-18T14:08:03.000Z",
-    "event_window_end": "2026-09-18T21:05:25.000Z",
-    "article_ids": [
-      "art_1789766348361_x45r5",
-      "art_1789766351557_wgp9z",
-      "art_1789743056643_j6784",
-      "art_1789743066537_z8anb"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T01:35:39.288Z",
-    "updated_at": "2026-09-19T01:35:39.288Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Kylian Mbappe has signed an endorsement partnership with the sportswear brand On.",
-      "Thierry Henry has been appointed as the football director for On.",
-      "Lamine Yamal is a Barcelona forward who has stated he has experienced racism.",
-      "The Spanish Observatory on Racism and Xenophobia identified Lamine Yamal and Vinicius Jr as targets of online racist abuse."
-    ],
-    "source_claims": [
-      "[fox_1] Réka György states Virginia Governor Abigail Spanberger hurt female athletes by withdrawing a sports regulation.",
-      "[fox_1] Réka György claims the Virginia Board of Health previously approved a regulation to protect female sports.",
-      "[fox_2] Carson Wentz will start for the Minnesota Vikings against the Chicago Bears due to Kyler Murray's concussion.",
-      "[aljazeera_1] On announced its entry into the football market alongside Kylian Mbappe.",
-      "[aljazeera_2] Lamine Yamal states he has experienced racism 'a thousand times'."
-    ],
-    "framing_differences": [
-      "The provided sources discuss entirely unrelated events involving distinct individuals and sports, with no overlapping coverage or thematic framing comparisons possible."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox_1] Réka György claims she lost a place in an NCAA swimming final due to competing against Lia Thomas.",
-      "[fox_2] FOX reports Kevin O'Connell stated Kyler Murray suffered a concussion during a game against the Green Bay Packers.",
-      "[aljazeera_1] On plans to launch its first football boots next year."
-    ],
-    "loaded_language": [
-      "[fox_1] uses the term 'hurt' to describe the impact of the Governor's policy withdrawal on female athletes.",
-      "[fox_2] uses the term 'quarterback hijinks' to describe the Minnesota Vikings' personnel decisions."
-    ],
-    "safe_conclusions": [
-      "Kylian Mbappe has entered a business partnership with the Swiss sportswear brand On.",
-      "Lamine Yamal has publicly commented on his experience with racism.",
-      "Carson Wentz is scheduled to start in a professional football game for the Minnesota Vikings."
-    ],
-    "unknowns": [
-      "The specific details of the Virginia regulation withdrawn by Governor Spanberger.",
-      "The full scope of the business partnership between Kylian Mbappe and On beyond the initial announcement.",
-      "The specific nature of the comments or behaviors Lamine Yamal identifies as racist."
-    ],
-    "synthesis": "The provided articles cover disparate topics, including political controversy regarding sports regulations in Virginia, personnel changes within an NFL team, a marketing partnership between a footballer and a sportswear brand, and comments on racism in professional sports. Each report focuses on isolated news items involving different geographic regions and sports organizations. There is no shared narrative or intersection between these accounts.",
-    "confidence": "HIGH. The sources cover entirely separate events with no factual overlaps to compare or contest.",
-    "sources": [
-      {
-        "id": "art_1789766348361_x45r5",
-        "url": "https://www.foxnews.com/outkick-sports/olympic-swimmer-reka-gyorgy-calls-virginia-governor-spanberger-withdrawing-female-sports-regulation",
-        "source": "fox",
-        "title": "Olympic swimmer Réka György calls out Virginia Governor Spanberger for withdrawing female sports regulation"
-      },
-      {
-        "id": "art_1789766351557_wgp9z",
-        "url": "https://www.foxnews.com/outkick-sports/kyler-murray-concussion-door-opens-carson-wentz-vikings-starter",
-        "source": "fox",
-        "title": "Kyler Murray out with concussion so door opens for Carson Wentz as Vikings' new starter – perhaps for a while"
-      },
-      {
-        "id": "art_1789743056643_j6784",
-        "url": "https://www.aljazeera.com/sports/2026/9/18/real-madrids-kylian-mbappe-ends-nike-partnership-to-join-swiss-brand-on?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Real Madrid’s Kylian Mbappe ends Nike partnership to join Swiss brand On"
-      },
-      {
-        "id": "art_1789743066537_z8anb",
-        "url": "https://www.aljazeera.com/sports/2026/9/18/barcelonas-lamine-yamal-says-he-has-experienced-racism-a-thousand-times?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Barcelona’s Lamine Yamal says he has experienced racism ‘a thousand times’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2c982dea9d5b513190020e3384f2aa57",
-    "topic_label": "Discovery of new cat species",
-    "event_window_start": "2026-09-18T04:16:28.000Z",
-    "event_window_end": "2026-09-18T14:25:53.000Z",
-    "article_ids": [
-      "art_1789743058865_leun1",
-      "art_1789710269993_y90vp"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-19T01:35:39.288Z",
-    "updated_at": "2026-09-19T01:35:39.288Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "A new wildcat species has been formally identified in the Bolivian Yungas region.",
-      "The species is scientifically named Leopardus tilcayo.",
-      "The animal is referred to locally as the 'tilcayo'.",
-      "This is the first new feline species identified in over 100 years."
-    ],
-    "source_claims": [
-      "[aljazeera_1] claims the discovery involved nearly 10 years of research following the accidental discovery of a lost kitten.",
-      "[aljazeera_1] states the previous new cat species identified was the pampas cat in 1923.",
-      "[aljazeera_2] describes the cat as weighing approximately 1.4kg and measuring 46cm in length.",
-      "[aljazeera_2] notes the animal's fur is light brown with irregularly shaped rosettes."
-    ],
-    "framing_differences": [
-      "[aljazeera_1] focuses on the narrative of the decade-long research process and accidental discovery of a kitten, whereas [aljazeera_2] emphasizes the physical characteristics and taxonomic classification of the cat as a 'tiger cat'."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera_1] claims the species was previously thought to be related to other regional wildcats.",
-      "[aljazeera_2] claims the species is classified as part of a group known as tiger cats."
-    ],
-    "loaded_language": [
-      "[aljazeera_1] uses the phrase 'claws its way into' in the title.",
-      "[aljazeera_2] uses the adjective 'tiny' to describe the cat."
-    ],
-    "safe_conclusions": [
-      "A new species, Leopardus tilcayo, has been formally identified in the Bolivian Yungas forest.",
-      "The species was named after its local designation.",
-      "The identification was reported in the journal Current Biology."
-    ],
-    "unknowns": [
-      "The specific methodology used in the study published in Current Biology.",
-      "The total population size or conservation status of the Leopardus tilcayo.",
-      "The exact genetic relationship between Leopardus tilcayo and other South American feline species."
-    ],
-    "synthesis": "Researchers have formally identified a new wildcat species, Leopardus tilcayo, located in the Bolivian Yungas cloud forest. The discovery, detailed in the journal Current Biology, marks the first new feline species identified in over 100 years. The cat derives its name from local terminology used by communities in the region.",
-    "confidence": "HIGH. Both source articles report the same core findings regarding the naming and discovery of the new species, despite minor variations in focus.",
-    "sources": [
-      {
-        "id": "art_1789743058865_leun1",
-        "url": "https://www.aljazeera.com/news/2026/9/18/new-bolivian-cat-claws-its-way-into-species-list-what-we-meow?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "New Bolivian cat claws its way into species list: What we meow"
-      },
-      {
-        "id": "art_1789710269993_y90vp",
-        "url": "https://www.aljazeera.com/news/2026/9/18/new-tiger-cat-species-identified-in-bolivia-first-in-over-a-century?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "New tiger cat species identified in Bolivia, first in over a century"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3c42622185dfb32c977e8bf0101a1313",
-    "topic_label": "Iran and Middle East Geopolitics",
-    "event_window_start": "2026-09-18T00:09:32.000Z",
-    "event_window_end": "2026-09-18T20:38:00.000Z",
-    "article_ids": [
-      "art_1789766355776_fz12t",
-      "art_1789755623372_tsgsm",
-      "art_1789743068662_omrbs",
-      "art_1789728186772_2sxyf",
-      "art_1789710260064_4l7nc",
-      "art_1789710261103_kew8l",
-      "art_1789692544499_ok7dy",
-      "art_1789692549966_ihues",
-      "art_1789692551088_e0plk"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 9,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T23:40:06.144Z",
-    "updated_at": "2026-09-18T23:40:06.144Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Assala Nasri performed a concert in Damascus after a period of absence from Syria.",
-      "A rally took place in Tehran involving Iranian volunteers.",
-      "A UN fact-finding mission reported on the Iranian government's crackdown on protests."
-    ],
-    "source_claims": [
-      "[aljazeera] Assala Nasri spent 15 years in exile for supporting the 2011 uprising.",
-      "[aljazeera] Iranian authorities claimed 313,000 people attended the rally in Tehran.",
-      "[aljazeera] The 2023 Beijing-brokered agreement between Saudi Arabia and Iran is under severe strain.",
-      "[guardian] Laleh Marzban received condemnations from Iranian authorities after a speech at the Venice film festival."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the Tehran rally as a 'show of defiance' against the US, while focusing elsewhere on the 'cost' of Iran's regional leverage.",
-      "The Guardian frames the reaction to Laleh Marzban's speech as a 'severe attack' by Iranian authorities and state media."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Attendance figures of 313,000 for the Tehran rally could not be independently verified.",
-      "[aljazeera] Direct Iranian attacks on Saudi Arabia occurred earlier this year."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'defiance' to describe the rally in Tehran.",
-      "[guardian] uses the phrase 'severe attack' to describe the government response to Laleh Marzban."
-    ],
-    "safe_conclusions": [
-      "Public events involving political or cultural figures have occurred in Syria and Iran.",
-      "There are ongoing tensions regarding Iran's regional diplomacy and internal domestic policies."
-    ],
-    "unknowns": [
-      "The exact number of participants at the Tehran rally remains unverified.",
-      "The specific nature and extent of the threats received by Laleh Marzban are not detailed beyond being labeled as 'severe'."
-    ],
-    "synthesis": "Recent reports highlight diverse developments within Iran, including large-scale government-organized rallies, diplomatic strain with Saudi Arabia, and domestic tensions involving the film industry and human rights allegations. Simultaneously, Syrian cultural events have seen the return of previously exiled figures. These events occur against a backdrop of ongoing international scrutiny regarding Iran's regional activities and internal protest crackdowns.",
-    "confidence": "HIGH",
-    "sources": [
-      {
-        "id": "art_1789766355776_fz12t",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/daughter-of-damascus-assala-performs-in-syria-after-15-year-exile?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Daughter of Damascus’ Assala performs in Syria after 15-year exile"
-      },
-      {
-        "id": "art_1789755623372_tsgsm",
-        "url": "https://www.aljazeera.com/news/2026/9/18/iranians-rally-in-biggest-show-of-defiance-against-us-since-war-began?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iranians rally in biggest show of defiance against US since war began"
-      },
-      {
-        "id": "art_1789743068662_omrbs",
-        "url": "https://www.aljazeera.com/opinions/2026/9/18/the-cost-of-irans-regional-leverage?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The cost of Iran’s regional leverage"
-      },
-      {
-        "id": "art_1789728186772_2sxyf",
-        "url": "https://www.theguardian.com/film/2026/sep/18/iranian-actor-laheh-marzban-venice-film-festival-speech-falling-house",
-        "source": "guardian",
-        "title": "Iranian actor Laheh Marzban faces severe threats after Venice film festival speech"
-      },
-      {
-        "id": "art_1789710260064_4l7nc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/un-mission-alleges-crimes-against-humanity-in-iranian-protest-crackdown?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UN mission alleges crimes against humanity in Iranian protest crackdown"
-      },
-      {
-        "id": "art_1789710261103_kew8l",
-        "url": "https://www.aljazeera.com/news/2026/9/18/south-korea-says-us-north-korea-talks-possible-rules-out-hormuz-deployment?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "South Korea says US-North Korea talks possible, rules out Hormuz deployment"
-      },
-      {
-        "id": "art_1789692544499_ok7dy",
-        "url": "https://www.theguardian.com/us-news/2026/sep/17/court-sentence-ex-syrian-official",
-        "source": "guardian",
-        "title": "US court sentences ex-Syrian official who ran notorious ‘punishment wing’ to 60 years"
-      },
-      {
-        "id": "art_1789692549966_ihues",
-        "url": "https://www.foxnews.com/media/hasan-piker-insists-middle-east-stable-iran-nuclear-weapons-axios-interview",
-        "source": "fox",
-        "title": "Hasan Piker insists Middle East would be 'more stable' if Iran had nuclear weapons during Axios interview"
-      },
-      {
-        "id": "art_1789692551088_e0plk",
-        "url": "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran expels Swedish diplomat in retaliatory move"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7aa23af733781ffc070c832b12deea28",
-    "topic_label": "Russia-Ukraine War and Tensions",
-    "event_window_start": "2026-09-17T23:41:44.000Z",
-    "event_window_end": "2026-09-18T14:42:01.000Z",
-    "article_ids": [
-      "art_1789743055492_3hi6h",
-      "art_1789743063182_pvl0e",
-      "art_1789728179202_smq54",
-      "art_1789710259028_9au8d",
-      "art_1789710262204_kurtn",
-      "art_1789692557597_f3tmv"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-18T15:50:55.592Z",
-    "updated_at": "2026-09-18T15:50:55.592Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Russia held parliamentary elections for the State Duma starting on Friday.",
-      "Russia has conducted a full-scale invasion of Ukraine since 2022.",
-      "There is ongoing geopolitical tension between Russia and Western nations including France and the UK."
-    ],
-    "source_claims": [
-      "[bbc] President Emmanuel Macron stated that Russia is conducting hybrid attacks against Europe and France.",
-      "[bbc] President Emmanuel Macron ordered a protection plan for French critical infrastructure and defense sites.",
-      "[aljazeera] The Russian Ministry of Foreign Affairs summoned the British charge d'affairs to protest UK weapons shipments.",
-      "[aljazeera] Russia seized assets belonging to several Western firms.",
-      "[fox] Keti Korkiya claims Russian citizens may fear providing honest opinions to pollsters regarding the war and President Putin.",
-      "[fox] Critics characterize Russia's refusal to invite OSCE observers as a breach of international commitments.",
-      "[aljazeera] Ukrainian drone strikes have impacted Russian oil refineries and warehouses."
-    ],
-    "framing_differences": [
-      "BBC frames the current situation through the lens of Russian hybrid warfare threats to Europe, whereas Fox frames the situation through the lens of the legitimacy and democratic standards of the Russian State Duma elections.",
-      "Aljazeera frames the Russian elections as a domestic political process where the governing party is expected to maintain dominance, while Fox frames the same process as an attempt to reinforce an 'illusion of popular support' for the invasion of Ukraine."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[bbc] France has been targeted by Russian hybrid attacks in the past few weeks.",
-      "[aljazeera] The UK is an 'accomplice to the bloody atrocities committed by the Kyiv regime' which Russia characterizes as 'terrorism and war crimes'.",
-      "[fox] Russia is looking to reinforce the 'illusion of popular support' for its invasion through these elections."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'bloody atrocities' to describe the actions of the Kyiv regime.",
-      "[aljazeera] uses the term 'terrorism and war crimes' to describe the actions of the Kyiv regime.",
-      "[fox] uses the term 'illusion of popular support' to describe the Russian election process.",
-      "[fox] uses the term 'worrying disregard' to describe the Russian government's approach to democratic standards."
-    ],
-    "safe_conclusions": [
-      "Elections for the Russian State Duma began on Friday.",
-      "Diplomatic tensions between Russia, the UK, and France are currently active.",
-      "Russia maintains an active military presence in occupied areas of Ukraine."
-    ],
-    "unknowns": [
-      "The specific nature and evidence of the 'hybrid attacks' mentioned by President Macron.",
-      "The long-term economic impact of the asset seizures on the affected Western firms.",
-      "The degree to which Russian citizens feel able to express dissenting political views."
-    ],
-    "synthesis": "Russia has initiated parliamentary elections while simultaneously engaging in diplomatic disputes with the UK and France over the war in Ukraine. Western officials have characterized current Russian activities as hybrid warfare and have raised concerns regarding the integrity of the Russian electoral process. The conflict remains active, with reported military strikes in Ukraine and ongoing economic countermeasures between Russia and Western nations.",
-    "confidence": "HIGH. The sources are consistent regarding the occurrence of the elections, the ongoing invasion of Ukraine, and the existence of heightened diplomatic tensions.",
-    "sources": [
-      {
-        "id": "art_1789743055492_3hi6h",
-        "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russian hybrid attacks against Europe intensifying, says Macron"
-      },
-      {
-        "id": "art_1789743063182_pvl0e",
-        "url": "https://www.aljazeera.com/news/2026/9/18/russia-seizes-assets-of-french-firms-summons-uk-envoy-over-ukraine-support?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia seizes assets of French firms, summons UK envoy over Ukraine support"
-      },
-      {
-        "id": "art_1789728179202_smq54",
-        "url": "https://www.foxnews.com/world/voters-get-choose-just-not-result-russias-parliamentary-election-reaches-occupied-ukraine",
-        "source": "fox",
-        "title": "‘Voters get to choose — just not the result’: Russia’s parliamentary election reaches occupied Ukraine"
-      },
-      {
-        "id": "art_1789710259028_9au8d",
-        "url": "https://www.aljazeera.com/news/2026/9/18/russias-parliamentary-election-whos-on-the-ballot-and-why-it-matters?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia’s parliamentary election: Who’s on the ballot, and why it matters"
-      },
-      {
-        "id": "art_1789710262204_kurtn",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/18/fire-engulfs-zaporizhzhia-shopping-centre-after-russian-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire engulfs Zaporizhzhia shopping centre after Russian strike"
-      },
-      {
-        "id": "art_1789692557597_f3tmv",
-        "url": "https://www.foxnews.com/world/finnish-foreign-ministry-official-details-russia-hybrid-warfare-reshaped-border-security",
-        "source": "fox",
-        "title": "Finnish foreign ministry official details how Russia's 'hybrid warfare' reshaped border security"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
