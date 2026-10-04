@@ -1,16 +1,16 @@
 [
   {
-    "cluster_id": "87dcda03672b6e1d9d8b961699bbf9dc",
-    "topic_label": "Armed Assault and Hijacking Attempt on Flydubai Flight FZ1073",
-    "event_window_start": "2026-10-03T09:25:31.000Z",
-    "event_window_end": "2026-10-03T09:42:03.000Z",
+    "cluster_id": "5cc35ded0f6e4a2b7762726e7b82444d",
+    "topic_label": "Armed Assault and Cockpit Breach on Flydubai Flight 1073",
+    "event_window_start": "2026-10-03T09:42:03.000Z",
+    "event_window_end": "2026-10-03T18:13:59.000Z",
     "article_ids": [
-      "art_1791021173716_gh4ol",
-      "art_1791021175870_eixrq"
+      "art_1791053170199_t5b03",
+      "art_1791021173716_gh4ol"
     ],
     "source_ids": [
-      "bbc",
-      "aljazeera"
+      "fox",
+      "bbc"
     ],
     "article_count": 2,
     "source_count": 2,
@@ -18,35 +18,35 @@
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-10-04T03:03:53.799Z",
-    "updated_at": "2026-10-04T03:03:53.799Z",
+    "created_at": "2026-10-04T09:29:49.745Z",
+    "updated_at": "2026-10-04T09:29:49.745Z",
     "region_tag": "global",
     "severity": "CRITICAL",
     "incident_type": "Aviation",
-    "synthesis": "During a commercial flight from Dubai to Tel Aviv, an Omani co-pilot initiated an armed assault on Captain Smit Machchhar using a cockpit crash axe. The physical violence resulted in the aircraft suffering a rapid, uncontrolled descent of 17,000 feet. The perpetrator's attempt to seize control of the flight deck was thwarted when passengers and reserve crew intervened, neutralizing the assailant. The aircraft was subsequently diverted and performed an emergency landing in Saudi Arabia.",
+    "synthesis": "During a commercial flight from Dubai to Tel Aviv, the co-pilot, Hamam al-Hammami, initiated a violent takeover attempt by assaulting the captain with a crash axe. The physical struggle resulted in a rapid, uncontrolled descent of 17,000 feet. The aircraft was brought under control after passengers successfully breached the cockpit door to neutralize the attacker. The flight was subsequently landed by reserve flight crew at a diverted location in Saudi Arabia.",
     "consensus": [
-      "An armed assault occurred on Flydubai flight FZ1073 involving a co-pilot and the captain.",
-      "A crash axe was utilized as a weapon by the co-pilot during the assault.",
-      "The aircraft experienced a rapid loss of altitude of approximately 17,000 feet.",
-      "Passengers and reserve pilots intervened to neutralize the co-pilot.",
-      "The aircraft performed an emergency landing in Saudi Arabia."
+      "Flydubai flight 1073 experienced a violent midair event involving the co-pilot.",
+      "The co-pilot utilized a crash axe as a weapon against the captain.",
+      "The aircraft experienced a sudden altitude loss of 17,000 feet.",
+      "Passengers were involved in neutralizing the attacker.",
+      "The aircraft diverted and landed in Saudi Arabia with reserve pilots operating the controls."
     ],
     "divergence": [
-      "BBC focuses on the valorization of the Captain's actions and the Indian government's praise, omitting details regarding the perpetrator's background.",
-      "Aljazeera emphasizes the potential radicalization of the perpetrator and identifies his nationality, while noting that official confirmation of these extremist links is currently pending."
+      "Fox News frames the incident through the lens of 'aviation cybersecurity' and pilot testimony, omitting the specific weapon identified by authorities.",
+      "BBC identifies the weapon as a 'crash axe' and references official confirmation from the UAE prosecutor general, providing specific casualty mitigation details involving the captain's actions during the landing."
     ],
     "sources": [
+      {
+        "id": "art_1791053170199_t5b03",
+        "url": "https://www.foxnews.com/world/crazy-flydubai-landing-explained-israeli-pilot-offers-steps-prevent-future-crises",
+        "source": "fox",
+        "title": "'Crazy' FlyDubai landing explained by Israeli pilot, who offers steps to prevent future crises"
+      },
       {
         "id": "art_1791021173716_gh4ol",
         "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Flydubai co-pilot attacked captain with axe, UAE official says"
-      },
-      {
-        "id": "art_1791021175870_eixrq",
-        "url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Who is the mystery co-pilot behind the Flydubai attack?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -99,6 +99,58 @@
         "url": "https://www.bbc.co.uk/news/articles/cme3x85013llo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Medical plane with 6 on board missing off Massachusetts coast"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "87dcda03672b6e1d9d8b961699bbf9dc",
+    "topic_label": "Armed Assault and Hijacking Attempt on Flydubai Flight FZ1073",
+    "event_window_start": "2026-10-03T09:25:31.000Z",
+    "event_window_end": "2026-10-03T09:42:03.000Z",
+    "article_ids": [
+      "art_1791021173716_gh4ol",
+      "art_1791021175870_eixrq"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-04T03:03:53.799Z",
+    "updated_at": "2026-10-04T03:03:53.799Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Aviation",
+    "synthesis": "During a commercial flight from Dubai to Tel Aviv, an Omani co-pilot initiated an armed assault on Captain Smit Machchhar using a cockpit crash axe. The physical violence resulted in the aircraft suffering a rapid, uncontrolled descent of 17,000 feet. The perpetrator's attempt to seize control of the flight deck was thwarted when passengers and reserve crew intervened, neutralizing the assailant. The aircraft was subsequently diverted and performed an emergency landing in Saudi Arabia.",
+    "consensus": [
+      "An armed assault occurred on Flydubai flight FZ1073 involving a co-pilot and the captain.",
+      "A crash axe was utilized as a weapon by the co-pilot during the assault.",
+      "The aircraft experienced a rapid loss of altitude of approximately 17,000 feet.",
+      "Passengers and reserve pilots intervened to neutralize the co-pilot.",
+      "The aircraft performed an emergency landing in Saudi Arabia."
+    ],
+    "divergence": [
+      "BBC focuses on the valorization of the Captain's actions and the Indian government's praise, omitting details regarding the perpetrator's background.",
+      "Aljazeera emphasizes the potential radicalization of the perpetrator and identifies his nationality, while noting that official confirmation of these extremist links is currently pending."
+    ],
+    "sources": [
+      {
+        "id": "art_1791021173716_gh4ol",
+        "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Flydubai co-pilot attacked captain with axe, UAE official says"
+      },
+      {
+        "id": "art_1791021175870_eixrq",
+        "url": "https://www.aljazeera.com/news/2026/10/3/who-is-the-mystery-co-pilot-behind-the-flydubai-attack?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Who is the mystery co-pilot behind the Flydubai attack?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -15964,76 +16016,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "10d7d1006670f6cc52ba81a2a48d2b07",
-    "topic_label": "Trump and Xi Summit",
-    "event_window_start": "2026-09-24T21:34:26.000Z",
-    "event_window_end": "2026-09-25T10:05:07.000Z",
-    "article_ids": [
-      "art_1790332635799_qup93",
-      "art_1790313922664_mse7i",
-      "art_1790296143844_lpt38",
-      "art_1790287183216_b1lji"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-25T14:45:54.974Z",
-    "updated_at": "2026-09-25T14:45:54.974Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Fallback activated."
-    ],
-    "source_claims": [
-      "No data available."
-    ],
-    "framing_differences": [
-      "No comparative data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [],
-    "loaded_language": [],
-    "safe_conclusions": [],
-    "unknowns": [
-      "No analysis possible."
-    ],
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "confidence": "LOW (Deterministic Fallback)",
-    "sources": [
-      {
-        "id": "art_1790332635799_qup93",
-        "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues"
-      },
-      {
-        "id": "art_1790313922664_mse7i",
-        "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Xi got Trump's red carpet welcome - but not everything he wanted"
-      },
-      {
-        "id": "art_1790296143844_lpt38",
-        "url": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump-Xi summit: Four key takeaways from the Washington, DC, meeting"
-      },
-      {
-        "id": "art_1790287183216_b1lji",
-        "url": "https://www.foxnews.com/politics/whats-menu-trumps-state-dinner-chinas-xi-american-staple-notably-missing",
-        "source": "fox",
-        "title": "What's on the menu for Trump's state dinner with China's Xi? One American staple is notably missing"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   }
 ]
