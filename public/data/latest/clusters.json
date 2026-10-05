@@ -1,5 +1,78 @@
 [
   {
+    "cluster_id": "5a905c1f4e24ae591a1e6d9b64345d44",
+    "topic_label": "Brazilian Presidential Election First Round",
+    "event_window_start": "2026-10-04T23:01:40.000Z",
+    "event_window_end": "2026-10-04T23:22:02.000Z",
+    "article_ids": [
+      "art_1791157331105_0r6o4",
+      "art_1791157332413_dx1bk",
+      "art_1791157333445_j8c77",
+      "art_1791157334770_dbqm6",
+      "art_1791157335892_qyfy7"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-05T00:37:50.945Z",
+    "updated_at": "2026-10-05T00:37:50.945Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "Voting has concluded in the first round of the Brazilian presidential election involving approximately 160 million eligible voters, with early results showing a tight margin between incumbent Luiz In\u0001cio Lula da Silva and challenger Fl\u0001vio Bolsonaro. With over 90% of votes tabulated, neither candidate has cleared the 50% threshold, setting up a projected run-off election on October 25. Both candidates have deployed highly polarized rhetoric, framing the physical voting process as an existential struggle for the nation's governance.",
+    "consensus": [
+      "Polls have officially closed in Brazil's general election first round.",
+      "Approximately 160 million citizens are eligible to participate.",
+      "With over 90% of the ballots counted, no candidate has secured more than 50% of the vote.",
+      "A run-off election is scheduled for 25 October if the 50% majority is not achieved."
+    ],
+    "divergence": [
+      "The BBC coverage identifies the right-wing challenger as 45-year-old Fl\u0001vio Bolsonaro, omitting mention of former president Jair Bolsonaro.",
+      "The BBC focuses heavily on the contrasting rhetorical framing of the election, quoting Lula's characterization of the vote as 'democracy' versus 'barbarism' and Bolsonaro's goal to 'free the Brazilian people'."
+    ],
+    "sources": [
+      {
+        "id": "art_1791157331105_0r6o4",
+        "url": "https://www.aljazeera.com/sports/2026/10/4/manchester-city-must-be-relegated-says-canadas-ex-leeds-manager?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Manchester City must be relegated, says Canada’s ex-Leeds manager"
+      },
+      {
+        "id": "art_1791157332413_dx1bk",
+        "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Polls close in Brazil as Lula and Flávio Bolsonaro remain neck and neck"
+      },
+      {
+        "id": "art_1791157333445_j8c77",
+        "url": "https://www.aljazeera.com/sports/2026/10/4/cristiano-ronaldo-can-return-to-portugal-team-if-he-wants-says-jesus?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Cristiano Ronaldo can return to Portugal team if he wants, says Jesus"
+      },
+      {
+        "id": "art_1791157334770_dbqm6",
+        "url": "https://www.theguardian.com/books/2026/oct/05/childrens-books-with-black-main-characters-down-study-uk",
+        "source": "guardian",
+        "title": "Children’s books with Black main characters down 8% in a year, study shows"
+      },
+      {
+        "id": "art_1791157335892_qyfy7",
+        "url": "https://www.theguardian.com/money/2026/oct/05/scammers-hijacking-uk-social-media-accounts",
+        "source": "guardian",
+        "title": "Money stolen by scammers hijacking UK social media accounts rises 400%"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "ab9771bb9bde85a8bfded5f7f164bc8f",
     "topic_label": "Crash of Canadian-registered Gulfstream air ambulance near Nantucket",
     "event_window_start": "2026-10-03T23:03:44.000Z",
@@ -15752,81 +15825,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1c0846141e046f97d51f6fa3ae98b3d4",
-    "topic_label": "International Murder Trials",
-    "event_window_start": "2026-09-25T10:00:21.000Z",
-    "event_window_end": "2026-09-25T22:12:50.000Z",
-    "article_ids": [
-      "art_1790376695576_fjuvs",
-      "art_1790332642392_idxj0"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-26T00:34:26.292Z",
-    "updated_at": "2026-09-26T00:34:26.292Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Caleb Flynn is an American former American Idol contestant.",
-      "Caleb Flynn is currently on trial for the murder of his wife, Ashley Flynn.",
-      "The trial involves testimony and evidence regarding communications between Caleb Flynn and Alleigha Botner.",
-      "Caleb Flynn has pleaded not guilty to the charges."
-    ],
-    "source_claims": [
-      "[guardian] Prosecutors allege Flynn shot his wife twice in the back of the head while she was sleeping.",
-      "[guardian] Prosecutors claim Flynn was motivated by a desire to be with his girlfriend, Alleigha Botner.",
-      "[fox] Defense attorneys argued that the communications between Flynn and Botner were centered on a plan for divorce rather than murder.",
-      "[fox] Testimony included evidence from an Ohio Bureau of Criminal Investigation digital forensics expert regarding data recovered from Flynn's cellphone."
-    ],
-    "framing_differences": [
-      "The Guardian frames the evidence as direct support for the murder charge, highlighting testimonies of fantasies about killing, whereas Fox frames the same testimony as part of a defense strategy to recast the relationship as an emotionally volatile affair focused on divorce."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] Flynn sent Alleigha Botner AI-generated love songs.",
-      "[guardian] Flynn told Alleigha Botner he dreamed of killing his wife.",
-      "[fox] Alleigha Botner reportedly told Flynn she wanted to kill his wife."
-    ],
-    "loaded_language": [
-      "[guardian] uses the phrase 'fatally shooting his wife' as a definitive descriptor of the event.",
-      "[fox] uses the term 'haunting remark' to describe a comment made in messages.",
-      "[fox] uses the term 'droves of messages' to describe the volume of communication."
-    ],
-    "safe_conclusions": [
-      "Caleb Flynn is standing trial for the death of Ashley Flynn.",
-      "Digital evidence and text communications are being presented as evidence in the trial."
-    ],
-    "unknowns": [
-      "The final verdict of the trial.",
-      "The specific content of the alleged AI-generated songs.",
-      "The precise nature of the 'haunting remark' mentioned by Fox."
-    ],
-    "synthesis": "Caleb Flynn, a former American Idol contestant, is on trial in Ohio for the murder of his wife, Ashley Flynn. The trial has included the presentation of extensive digital communications between Flynn and his former mistress, Alleigha Botner. Prosecutors argue these communications indicate a murderous intent, while defense attorneys contend they illustrate a plan for a divorce.",
-    "confidence": "HIGH; Sources are consistent regarding the legal status of the defendant and the nature of the evidence being presented, despite differences in emphasis.",
-    "sources": [
-      {
-        "id": "art_1790376695576_fjuvs",
-        "url": "https://www.theguardian.com/us-news/2026/sep/25/american-idol-contestant-accused-of-told-lover",
-        "source": "guardian",
-        "title": "Ex-American Idol contestant told lover he dreamed of killing wife, murder trial hears"
-      },
-      {
-        "id": "art_1790332642392_idxj0",
-        "url": "https://www.foxnews.com/us/mistress-told-american-idol-contestant-she-wanted-kill-wife-testified-divorce-not-murder-was-plan",
-        "source": "fox",
-        "title": "Mistress told ‘American Idol’ contestant she wanted ‘to kill’ wife but testified divorce, not murder, was plan"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
