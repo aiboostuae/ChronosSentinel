@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-05T06:15:18.550Z",
+  "generated_at": "2026-10-05T14:34:50.620Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 166,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "66d986b30d8e639cfe403283eced6be7",
+      "topic_label": "Removal of US Bomber Assets from RAF Fairford",
+      "event_window_start": "2026-10-05T09:03:30.000Z",
+      "event_window_end": "2026-10-05T09:22:59.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "The United States Air Force has completed the redeployment of its entire fleet of approximately 12 B-1 Lancer heavy bombers from RAF Fairford to their domestic home bases in the United States. This logistical maneuver follows a security breach on 27 September involving three suspicious vehicles near the perimeter of the airbase, which necessitated an investigation by UK counter-terror police. Six individuals, including a UK-Iranian national, have been arrested and released on bail in connection with the event. The removal of strategic offensive assets indicates a significant security assessment revision regarding the physical vulnerability of the base.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/music/2026/oct/05/sass-jordan-canadian-rock-singer-songwriter-dies-aged-65",
+          "title": "Sass Jordan, Canadian rock singer-songwriter, dies aged 65"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+          "title": "US air force removes all bombers from British military base RAF Fairford"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/oct/05/tory-party-conference-labour-reform-planning-economy-business-latest-news-updates",
+          "title": "Shadow chancellor to address Tory conference as he claims slashing red tape could cut cost of new houses by £50,000 – UK politics live"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/oct/05/coach-services-cut-record-diesel-prices-fuel-school-transport",
+          "title": "Coach services could be cut due to record diesel prices, UK operators warn"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/videos/c83vqk2k2k20o?at_medium=RSS&at_campaign=rss",
+          "title": "How Spain's housing crisis has resulted in an early general election"
+        }
+      ],
+      "updated_at": "2026-10-05T14:34:44.598Z"
+    },
     {
       "cluster_id": "3dcd580c39a8c9110242e3cc40e752df",
       "topic_label": "Russian Drone Strikes on Kyiv Transport Infrastructure and German Delegation Visit",
@@ -358,40 +399,30 @@
         }
       ],
       "updated_at": "2026-10-04T15:10:02.852Z"
-    },
-    {
-      "cluster_id": "a5874903a7d93eb80d20c98358f24ae0",
-      "topic_label": "Disparate Global Events: French Civil Unrest, Polish Abortion Pill Distribution, and Bosnian Electoral Preparations",
-      "event_window_start": "2026-10-04T04:58:50.000Z",
-      "event_window_end": "2026-10-04T12:25:09.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Three distinct, unrelated events are occurring globally. In France, widespread physical confrontation between riot police and students has resulted in at least 5,000 arrests, dozens of physical injuries, and the structural damage or destruction of 24 school facilities. In Poland, activists have deployed a physical distribution point for abortion medication in Warsaw to circumvent state prohibitions on the procedure. In Bosnia, state electoral preparations are underway for the October 4 election, involving the integration of new biometric voter verification hardware and digital ballot scanning infrastructure.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/live/2026/oct/04/friedrich-merz-german-chancellor-ukraine-kyiv-russia-strikes-war-zelenskyy-putin-europe-latest-news-updates",
-          "title": "French education minister says up to 500 schools will remain partially or fully closed on Monday after student protests – Europe live"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/04/polish-activists-launch-abortion-pill-locker-to-bypass-near-total-ban",
-          "title": "Polish activists launch abortion pill locker to bypass near-total ban"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts?traffic_source=rss",
-          "title": "Bosnia general election 2026 explained in maps and charts"
-        }
-      ],
-      "updated_at": "2026-10-04T15:10:02.852Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-66d986b3",
+      "title": "Removal of US Bomber Assets from RAF Fairford",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "cybersecurity",
+        "instability"
+      ],
+      "why_it_matters": "The United States Air Force has completed the redeployment of its entire fleet of approximately 12 B-1 Lancer heavy bombers from RAF Fairford to their domestic home bases in the United States. This logistical maneuver follows a security breach on 27 September involving three suspicious vehicles near the perimeter of the airbase, which necessitated an investigation by UK counter-terror police. Six individuals, including a UK-Iranian national, have been arrested and released on bail in connection with the event. The removal of strategic offensive assets indicates a significant security assessment revision regarding the physical vulnerability of the base.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "66d986b30d8e639cfe403283eced6be7",
+      "related_watchlist_id": "watch-002",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-05T14:34:44.598Z"
+    },
     {
       "id": "impact-3dcd580c",
       "title": "Russian Drone Strikes on Kyiv Transport Infrastructure and German Delegation Visit",
@@ -576,26 +607,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-10-04T03:03:53.799Z"
-    },
-    {
-      "id": "impact-c5293975",
-      "title": "Severe Atmospheric Convection and Hailstorm Events in Paraguay and Australia",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster",
-        "energy"
-      ],
-      "why_it_matters": "Distinct meteorological events occurred in geographically disparate regions: Asuncion, Paraguay experienced an intense hailstorm characterized by large-diameter ice precipitation resulting in structural damage to residential glazing and automotive chassis. Simultaneously, in Ulladulla, New South Wales, a rare tornadic funnel touchdown occurred, causing mechanical failure of vegetation and structural impairment to localized property. Both events represent high-energy weather phenomena resulting in measurable physical destruction.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "c529397535fb1bfb40baa8ec4d2cd17e",
-      "related_watchlist_id": null,
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-10-04T15:10:02.852Z"
     }
   ]
 }
