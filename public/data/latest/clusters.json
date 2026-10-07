@@ -1,5 +1,55 @@
 [
   {
+    "cluster_id": "d78707c385adb85325360a2c99cd013a",
+    "topic_label": "Projectile strike on Panamanian-flagged tanker in Strait of Hormuz",
+    "event_window_start": "2026-10-06T14:15:09.000Z",
+    "event_window_end": "2026-10-07T03:16:32.000Z",
+    "article_ids": [
+      "art_1791346821409_4vnkt",
+      "art_1791297591871_eleru"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-07T07:02:04.842Z",
+    "updated_at": "2026-10-07T07:02:04.842Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Maritime",
+    "synthesis": "On Tuesday, a Panamanian-flagged oil tanker identified as the On Peace was struck by an unidentified projectile while transiting the Strait of Hormuz, approximately 9 nautical miles off the coast of Limah, Oman. The kinetic impact ignited an onboard fire, resulting in injuries to at least 12 crew members. The Omani Air Force conducted a casualty evacuation operation, transporting 10 injured personnel to a hospital in Khasab. The vessel remains a target of an active kinetic engagement within a critical maritime chokepoint.",
+    "consensus": [
+      "A Panamanian-flagged tanker was hit by a projectile in the Strait of Hormuz on Tuesday.",
+      "The strike resulted in a fire on the vessel.",
+      "Omani authorities conducted a medical evacuation of injured crew members.",
+      "At least 12 crew members sustained injuries."
+    ],
+    "divergence": [
+      "Al Jazeera's first report attributes the evacuation of 10 crew members to the Omani Ministry of Defence, while its second report focuses on the broader economic context of rising shipping costs and insurance premiums, omitting the specific Omani evacuation details in favor of geopolitical commentary.",
+      "Al Jazeera frames the incident within the context of a 'US and Israel war on Iran,' employing a narrative of regional deterioration that is not explicitly confirmed as the source of this specific kinetic action."
+    ],
+    "sources": [
+      {
+        "id": "art_1791346821409_4vnkt",
+        "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Oman evacuates injured crew from attacked tanker in Strait of Hormuz"
+      },
+      {
+        "id": "art_1791297591871_eleru",
+        "url": "https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hormuz ship attacks surge: Are increased oil exports sustainable?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "036d4b29d9428d26b1b7f0028414e637",
     "topic_label": "Stabbing of NYPD Detective during Robbery Attempt",
     "event_window_start": "2026-10-06T07:05:48.000Z",
@@ -102,6 +152,194 @@
         "url": "https://www.foxnews.com/politics/trump-responds-concerns-suspected-plague-case-russia-saying-us-willing-help",
         "source": "fox",
         "title": "Trump responds to concerns over suspected plague case in Russia, saying US 'willing to help'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "32b92ad4cf686d50e31ce174f1c408c5",
+    "topic_label": "Presidential Rhetoric Regarding Kinetic Targeting of US Cities",
+    "event_window_start": "2026-10-06T14:17:50.000Z",
+    "event_window_end": "2026-10-07T03:27:20.000Z",
+    "article_ids": [
+      "art_1791346820351_i84rd",
+      "art_1791330502043_xlh5l",
+      "art_1791316617446_74rk0",
+      "art_1791297589617_myum0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-07T07:02:04.842Z",
+    "updated_at": "2026-10-07T07:02:04.842Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "During a campaign event in Nebraska, President Donald Trump articulated a scenario suggesting that the destruction of Los Angeles and San Diego by Iran could be an acceptable trade-off for global security. This verbal threat toward domestic civilian populations has triggered significant political pushback, including from members of his own party and regional officials in California. While the statements do not represent a kinetic engagement or an active military strike, the explicit naming of specific US cities as targets by the Commander-in-Chief creates a high-stakes domestic security and diplomatic volatility alert.",
+    "consensus": [
+      "President Trump held a rally in Nebraska on Monday.",
+      "President Trump made comments regarding the potential destruction of Los Angeles and San Diego by Iran.",
+      "Republican candidate Jim Desmond publicly criticized the President's remarks."
+    ],
+    "divergence": [
+      "The Guardian frames the event as a source of public horror and political liability for the President's reelection prospects, focusing on the emotional impact on local residents.",
+      "Fox News omits the President's Iran commentary entirely, focusing instead on internal Democratic party debates regarding Kamala Harris's future, illustrating a partisan redirection of the news cycle.",
+      "Al Jazeera ignores the political controversy regarding the Iran comments, focusing exclusively on stock market fluctuations, thus sanitizing the geopolitical instability in favor of reporting economic metrics."
+    ],
+    "sources": [
+      {
+        "id": "art_1791346820351_i84rd",
+        "url": "https://www.aljazeera.com/economy/2026/10/7/us-stock-market-hits-all-time-high-as-investors-bet-big-on-ai?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US stock market hits all-time high as investors bet big on AI"
+      },
+      {
+        "id": "art_1791330502043_xlh5l",
+        "url": "https://www.theguardian.com/us-news/2026/oct/06/trump-iran-threat-san-diego-los-angeles-reaction",
+        "source": "guardian",
+        "title": "LA and San Diego residents ‘horrified’ by Trump’s comment: ‘obsessed with us’"
+      },
+      {
+        "id": "art_1791316617446_74rk0",
+        "url": "https://www.foxnews.com/media/democrats-debate-kamala-harris-2028-run-surrogate-says-party-wants-move-on-from-2024-loss",
+        "source": "fox",
+        "title": "Democrats debate Kamala Harris 2028 run as surrogate says party wants to 'move on' from 2024 loss"
+      },
+      {
+        "id": "art_1791297589617_myum0",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
+        "source": "guardian",
+        "title": "Republican candidate for San Diego House district criticizes Trump comments on Iran – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "db0c50b1375bb6722f6e57cc7808b8cf",
+    "topic_label": "U.S. Military Operational Pause and Liberty Restriction in Okinawa",
+    "event_window_start": "2026-10-06T13:57:51.000Z",
+    "event_window_end": "2026-10-07T04:04:13.000Z",
+    "article_ids": [
+      "art_1791346815859_l8azr",
+      "art_1791346819285_ynzoz",
+      "art_1791346822455_vq85h",
+      "art_1791346825624_gf4ux",
+      "art_1791346831056_fe9fh",
+      "art_1791330498013_fax9t",
+      "art_1791316622986_bmnav",
+      "art_1791316628373_wokfy",
+      "art_1791316629593_oiv9y",
+      "art_1791316630682_58asi",
+      "art_1791297588374_udzv5",
+      "art_1791297603311_x2s3k"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 12,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-07T07:02:04.842Z",
+    "updated_at": "2026-10-07T07:02:04.842Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "The III Marine Expeditionary Force commander has initiated a 48-hour operational pause and restricted off-base liberty for all personnel in Okinawa, Japan. This action follows the arrest of a U.S. Marine on suspicion of homicide and robbery. The suspension of movement serves as a disciplinary and reactive measure to an active criminal investigation involving military personnel off-base.",
+    "consensus": [
+      "A U.S. Marine in Okinawa was arrested for murder and robbery.",
+      "Lt. Gen. Benjamin Watson ordered a 48-hour operational pause.",
+      "Off-base liberty for military personnel in Okinawa has been prohibited."
+    ],
+    "divergence": [
+      "Fox News frames the incident through the lens of institutional discipline and core military values, focusing on the commander's directive as a 'reflection' and a response to the loss of order.",
+      "BBC, Guardian, and other provided texts refer to unrelated criminal cases (sexual assault and homicide) which are not part of the Okinawa incident, reflecting a mix of disparate news feeds."
+    ],
+    "sources": [
+      {
+        "id": "art_1791346815859_l8azr",
+        "url": "https://www.bbc.co.uk/news/articles/cj62ylxqz173o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Former Australian bishop jailed for sexually abusing young men"
+      },
+      {
+        "id": "art_1791346819285_ynzoz",
+        "url": "https://www.foxnews.com/world/former-german-spy-chief-arrested-suspicion-espionage-attempted-treason",
+        "source": "fox",
+        "title": "Former German spy chief arrested on suspicion of espionage, attempted treason"
+      },
+      {
+        "id": "art_1791346822455_vq85h",
+        "url": "https://www.foxnews.com/us/man-pleads-guilty-2023-killing-lauren-heike-phoenix-hiking-trail",
+        "source": "fox",
+        "title": "Man pleads guilty to 2023 killing of Lauren Heike on Phoenix hiking trail"
+      },
+      {
+        "id": "art_1791346825624_gf4ux",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/07/beau-lamarre-condon-trial-friend-nicole-harvell-no-mention-jesse-baird-before-alleged-murders-ntwnfb",
+        "source": "guardian",
+        "title": "Beau Lamarre-Condon didn’t talk about Jesse Baird to friend in lead-up to alleged murders, court hears"
+      },
+      {
+        "id": "art_1791346831056_fe9fh",
+        "url": "https://www.foxnews.com/world/alleged-killing-marine-prompts-us-military-restrict-off-base-liberty-okinawa",
+        "source": "fox",
+        "title": "Alleged killing by Marine prompts US military to restrict off-base liberty in Okinawa"
+      },
+      {
+        "id": "art_1791330498013_fax9t",
+        "url": "https://www.aljazeera.com/news/2026/10/6/christa-pike-lawyers-say-she-is-speaking-one-week-after-failed-execution?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Christa Pike lawyers say she is speaking one week after failed execution"
+      },
+      {
+        "id": "art_1791316622986_bmnav",
+        "url": "https://www.theguardian.com/us-news/2026/oct/06/sally-yates-cornell-investigation",
+        "source": "guardian",
+        "title": "Former Obama official will review Cornell’s handling of sexual misconduct complaints"
+      },
+      {
+        "id": "art_1791316628373_wokfy",
+        "url": "https://www.theguardian.com/education/2026/oct/06/cambridge-university-academics-jason-arday-death-investigation-inadequate",
+        "source": "guardian",
+        "title": "Senior academics set out key questions Cambridge must answer over Jason Arday’s death"
+      },
+      {
+        "id": "art_1791316629593_oiv9y",
+        "url": "https://www.theguardian.com/us-news/2026/oct/06/california-couple-charged-child-abuse-surrogacy",
+        "source": "guardian",
+        "title": "California couple charged with child abuse in surrogacy scheme involving at least 21 children"
+      },
+      {
+        "id": "art_1791316630682_58asi",
+        "url": "https://www.foxnews.com/us/hazmat-crew-removes-glass-vials-vacuum-home-linked-missing-women-potential-serial-killer-probe",
+        "source": "fox",
+        "title": "Hazmat crew removes 'glass vials,' vacuum from home linked to missing women in potential serial killer probe"
+      },
+      {
+        "id": "art_1791297588374_udzv5",
+        "url": "https://www.foxnews.com/us/lethal-injection-survivor-christa-pike-former-satanist-boyfriend-could-be-released-5-years",
+        "source": "fox",
+        "title": "Lethal injection survivor Christa Pike's former satanist boyfriend could be released in 5 years"
+      },
+      {
+        "id": "art_1791297603311_x2s3k",
+        "url": "https://www.foxnews.com/us/luke-daley-briefly-detained-nancy-guthrie-disappearance-probe-arrested-again",
+        "source": "fox",
+        "title": "Luke Daley, briefly detained in Nancy Guthrie disappearance probe, arrested again"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -14965,287 +15203,6 @@
         "url": "https://www.foxnews.com/outkick-betting/fanduel-promo-code-get-250-bonus-bets-any-college-football-matchup-including-texas-vs-tennessee",
         "source": "fox",
         "title": "FanDuel Promo Code: Get $250 in Bonus Bets on Any College Football Matchup, Including Texas vs Tennessee"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "21f41df489d017ec84dee566c872e618",
-    "topic_label": "Russia-Ukraine war updates",
-    "event_window_start": "2026-09-26T18:43:30.000Z",
-    "event_window_end": "2026-09-26T20:57:54.000Z",
-    "article_ids": [
-      "art_1790460482028_pcqov",
-      "art_1790449858859_0assx"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-27T03:16:57.599Z",
-    "updated_at": "2026-09-27T03:16:57.599Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The ongoing war between Russia and Ukraine is resulting in casualties and military activity."
-    ],
-    "source_claims": [
-      "[aljazeera] claims a wave of Russian strikes has hit various regions across Ukraine.",
-      "[aljazeera] claims ArcelorMittal has halted operations at its steel facility in Kryvyi Rih due to safety concerns.",
-      "[fox] claims Donald Trump stated 25,000 people died in the war last month and 32,000 died the month prior.",
-      "[fox] claims that, according to Donald Trump, 97% of the individuals who died in the month preceding the most recent count were soldiers.",
-      "[fox] claims Russia has lost as many as 450,000 personnel."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the situation by focusing on regional Russian military strikes and their economic impact on infrastructure, while Fox frames the situation by focusing on casualty figures attributed to Donald Trump and the scale of the conflict."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] reports that ArcelorMittal has halted operations at Kryvyi Rih.",
-      "[fox] reports specific casualty figures for the past two months as cited by Donald Trump.",
-      "[fox] reports Russia has suffered 450,000 losses."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'stunning' to describe casualty numbers.",
-      "[fox] uses the header 'PUTIN UNLEASHES NEW FURY ON UKRAINE' to describe Russian military actions.",
-      "[fox] uses the term 'FEAR HANGING OVER WAR’S END' to describe the atmosphere surrounding the conflict."
-    ],
-    "safe_conclusions": [
-      "Military operations and casualties are occurring within the context of the Russia-Ukraine war."
-    ],
-    "unknowns": [
-      "The total verified death toll of the Russia-Ukraine war.",
-      "The current operational status of all Ukrainian industrial facilities beyond the report on Kryvyi Rih.",
-      "The accuracy of the casualty statistics provided by Donald Trump."
-    ],
-    "synthesis": "Recent reports indicate continued military activity in the Russia-Ukraine war, including strikes across various Ukrainian regions and the suspension of operations at a major steel plant. Additionally, public commentary from Donald Trump regarding high casualty figures has been highlighted in media coverage. These reports document ongoing humanitarian, industrial, and strategic developments related to the conflict.",
-    "confidence": "MEDIUM; the articles cover distinct aspects of the conflict without overlapping factual contradictions.",
-    "sources": [
-      {
-        "id": "art_1790460482028_pcqov",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/russia-scales-up-strikes-on-ukraine-as-largest-steelmaker-halts-operations?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia scales up strikes on Ukraine as largest steelmaker halts operations"
-      },
-      {
-        "id": "art_1790449858859_0assx",
-        "url": "https://www.foxnews.com/politics/trump-reveals-stunning-casualty-numbers-russia-ukraine-war",
-        "source": "fox",
-        "title": "Trump claims stunning casualty numbers in Russia-Ukraine war"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "361454c1847c2ec0d42f51a0f8624f35",
-    "topic_label": "Trump administration policies",
-    "event_window_start": "2026-09-26T05:09:09.000Z",
-    "event_window_end": "2026-09-26T21:51:56.000Z",
-    "article_ids": [
-      "art_1790468680869_9sn8h",
-      "art_1790449866375_qqyhh",
-      "art_1790449871952_8fioj",
-      "art_1790438066880_b1ugm",
-      "art_1790404572773_xnr5y",
-      "art_1790404576074_4tj18"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-27T03:16:57.599Z",
-    "updated_at": "2026-09-27T03:16:57.599Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Donald Trump is the President of the United States.",
-      "Donald Trump holds views on the development of AI and US environmental policies."
-    ],
-    "source_claims": [
-      "[aljazeera] Donald Trump announced the rollback of fuel economy standards to lower automobile prices.",
-      "[aljazeera] Donald Trump stated the US will not regulate AI development and rejected the need to 'put on brakes'.",
-      "[fox] Palm Beach County, Florida, enacted a one-year moratorium on data center construction to study environmental and economic impacts.",
-      "[fox] The US and China agreed to reduce tariffs on $30 billion worth of non-sensitive goods.",
-      "[guardian] Donald Trump threatened to 'annihilate' Iran during a UN appearance.",
-      "[guardian] Donald Trump expressed disapproval of CNN reporter Kaitlan Collins at the UN."
-    ],
-    "framing_differences": [
-      "Aljazeera frames Trump's AI policy as a rejection of expert calls for regulation, whereas Fox focuses on trade negotiations with China regarding AI and tariff reductions.",
-      "The Guardian frames Trump's actions at the UN as a sign of waning power and desperation, while other provided sources focus on specific policy announcements and administrative actions."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Trump equated fears of AI to 'hoaxes' like climate change and the Russia investigation.",
-      "[fox] Palm Beach County commissioners believe communities that reject data centers will end up being 'backwards and poor' based on previous comments attributed to Trump.",
-      "[guardian] Trump's approval ratings are plummeting and Republicans are straying from his script."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'hoaxes' to describe Trump's characterization of climate change and the Russia investigation.",
-      "[guardian] uses the term 'lashes out' to describe Trump's interaction with a reporter.",
-      "[guardian] uses the term 'annihilate' when describing Trump's rhetoric regarding Iran.",
-      "[guardian] uses the term 'plummet' to describe approval ratings."
-    ],
-    "safe_conclusions": [
-      "President Donald Trump has engaged in various policy discussions and diplomatic events regarding fuel economy, trade with China, AI development, and international relations."
-    ],
-    "unknowns": [
-      "The specific details of the non-sensitive goods included in the US-China tariff reduction deal.",
-      "The long-term impact of the Palm Beach County data center moratorium on local economic development."
-    ],
-    "synthesis": "President Donald Trump has recently announced the rollback of federal fuel economy standards and maintained a stance against regulating AI development. Concurrently, the administration has reached a reciprocal tariff reduction agreement with China while the President continues to address international relations at the United Nations. Domestic issues, such as local opposition to data centers in Palm Beach County, remain active alongside ongoing political criticism of the administration's performance.",
-    "confidence": "MEDIUM. The articles cover disparate topics related to the current administration, making them consistent but not overlapping enough to form a single cohesive narrative.",
-    "sources": [
-      {
-        "id": "art_1790468680869_9sn8h",
-        "url": "https://www.aljazeera.com/news/2026/9/26/trump-says-he-is-rolling-back-biden-era-us-fuel-economy-rules-for-cars?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says he is rolling back Biden-era US fuel economy rules for cars"
-      },
-      {
-        "id": "art_1790449866375_qqyhh",
-        "url": "https://www.foxnews.com/politics/trumps-home-county-hits-pause-data-centers-environment-electric-bill-concerns",
-        "source": "fox",
-        "title": "Trump's home county hits pause on data centers over environment and electric bill concerns"
-      },
-      {
-        "id": "art_1790449871952_8fioj",
-        "url": "https://www.aljazeera.com/news/2026/9/26/trump-rejects-combining-us-china-ai-efforts?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump rejects combining US-China AI efforts"
-      },
-      {
-        "id": "art_1790438066880_b1ugm",
-        "url": "https://www.foxnews.com/politics/us-china-strike-deal-lower-tariffs-30b-goods-trump-xi-washington-summit",
-        "source": "fox",
-        "title": "US, China strike deal to lower tariffs on $30B in goods after Trump-Xi Washington summit"
-      },
-      {
-        "id": "art_1790404572773_xnr5y",
-        "url": "https://www.theguardian.com/news/ng-interactive/2026/sep/25/trump-lashes-out-un-fed-supreme-court",
-        "source": "guardian",
-        "title": "‘The weaker he gets, the more dangerous he gets’: Trump lashes out as his power wanes"
-      },
-      {
-        "id": "art_1790404576074_4tj18",
-        "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "White House bars CNN from travelling with Trump on Air Force One"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7a2963a2b1ace8ebae723760976fdc9a",
-    "topic_label": "Conflict and Situation in Gaza",
-    "event_window_start": "2026-09-26T05:23:09.000Z",
-    "event_window_end": "2026-09-26T20:33:05.000Z",
-    "article_ids": [
-      "art_1790460488318_muwiv",
-      "art_1790438074314_lygub",
-      "art_1790423602021_setma",
-      "art_1790404573911_lwws5",
-      "art_1790404574969_9ccna"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-26T23:57:32.344Z",
-    "updated_at": "2026-09-26T23:57:32.344Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Board of Peace issued a statement regarding UNRWA's role in Gaza.",
-      "The Board of Peace stated they would work with partners they deem to be 'trusted' and 'deradicalized'.",
-      "Mike Huckabee is the US ambassador to Israel.",
-      "Mike Huckabee stated that public opinion in the United States toward Israel has declined."
-    ],
-    "source_claims": [
-      "[aljazeera] Hamas spokesperson Hazem Qassem claims the Board of Peace’s decision aligns with the Zionist position.",
-      "[aljazeera] Hamas spokesperson Hazem Qassem claims the Board of Peace’s decision aims to end UNRWA’s operations and eliminate the right of return.",
-      "[aljazeera] The Board of Peace claims UNRWA fails to meet their criteria for trusted partners and a deradicalized Strip.",
-      "[aljazeera] Mike Huckabee claims declining US support for Israel is due to biblical illiteracy, disinformation, and foreign propaganda.",
-      "[aljazeera] Mike Huckabee claims accusations of genocide and apartheid against Israel are false.",
-      "[aljazeera] A contributor claims the UK and nine other Western countries recognized the State of Palestine one year ago.",
-      "[aljazeera] A contributor claims successive Israeli governments have worked to prevent Palestinian statehood.",
-      "[aljazeera] Masada Abu Jarad claims her family has no alternative housing options after her apartment building partially collapsed."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the Board of Peace's policy toward UNRWA through the perspective of Hamas's opposition, while the Board of Peace describes their own criteria as focused on 'trusted partners' and 'deradicalization'.",
-      "Aljazeera frames the humanitarian situation in Gaza by citing claims of a 'genocidal war' and a 'siege', whereas the Board of Peace focuses on vetting aid partners based on security criteria."
-    ],
-    "contested_claims": [
-      "The Board of Peace characterizes UNRWA as failing to be a 'trusted partner', while Hamas characterizes the Board of Peace's actions as a strategy to eliminate the 'right of return' and prevent aid delivery."
-    ],
-    "unverified_claims": [
-      "[aljazeera] A contributor claims the British government's recognition of Palestine was driven by overwhelming public support.",
-      "[aljazeera] Masada Abu Jarad claims the Palestinian Red Crescent and Civil Defence warned her that her current shelter is dangerous."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'Zionist position' to describe the perspective the Board of Peace is accused of aligning with.",
-      "[aljazeera] uses the term 'genocidal war' to describe Israel’s military actions in Gaza.",
-      "[aljazeera] uses the term 'twisted' to describe the UK’s previous logic regarding Palestinian statehood.",
-      "[aljazeera] uses the term 'bulldozers and bombs' to describe methods attributed to the Israeli government."
-    ],
-    "safe_conclusions": [
-      "The Board of Peace has announced it will not work with UNRWA in Gaza.",
-      "Mike Huckabee has expressed views on the reasons for declining US support for Israel.",
-      "Living conditions for some civilians in Gaza involve significant damage to infrastructure and limited resources."
-    ],
-    "unknowns": [
-      "The official definition or criteria used by the 'Board of Peace' to determine a partner is 'deradicalized'.",
-      "Specific details regarding the internal deliberations of the UK government leading to the recognition of Palestine.",
-      "The specific current occupancy and structural safety assessment reports for buildings in Gaza referenced in personal accounts."
-    ],
-    "synthesis": "The Board of Peace has publicly declared it will exclude UNRWA from its operations in Gaza, citing a lack of trust and concerns regarding radicalization. Meanwhile, US Ambassador Mike Huckabee has attributed waning US support for Israel to a lack of biblical literacy and the influence of disinformation. Local reports from Gaza continue to highlight severe structural damage to residential buildings and significant constraints on basic daily resources for residents.",
-    "confidence": "MEDIUM;HIGH;The articles provide consistent reporting on the stated positions of the Board of Peace and Mike Huckabee, while personal accounts are presented as individual reports.",
-    "sources": [
-      {
-        "id": "art_1790460488318_muwiv",
-        "url": "https://www.aljazeera.com/news/2026/9/26/hamas-slams-board-of-peace-for-refusal-to-work-with-unrwa-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hamas slams Board of Peace for refusal to work with UNRWA in Gaza"
-      },
-      {
-        "id": "art_1790438074314_lygub",
-        "url": "https://www.aljazeera.com/opinions/2026/9/26/one-year-on-the-uks-recognition-of-palestinian-statehood-is-bearing-fruit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "One year on, the UK’s recognition of Palestinian statehood is bearing fruit"
-      },
-      {
-        "id": "art_1790423602021_setma",
-        "url": "https://www.theguardian.com/global-development/ng-interactive/2026/sep/26/we-followed-five-people-in-gaza-from-dawn-to-dusk-this-is-what-the-headlines-dont-tell-us",
-        "source": "guardian",
-        "title": "We followed five people in Gaza from dawn to dusk – this is what the headlines don’t tell us"
-      },
-      {
-        "id": "art_1790404573911_lwws5",
-        "url": "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Nowhere else to go’: Gaza families shelter in buildings that may collapse"
-      },
-      {
-        "id": "art_1790404574969_9ccna",
-        "url": "https://www.aljazeera.com/news/2026/9/26/huckabee-blames-biblical-illiteracy-for-declining-us-support-for-israel?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Huckabee blames ‘biblical illiteracy’ for waning support for Israel in US"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
