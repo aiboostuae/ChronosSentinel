@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-07T07:02:16.722Z",
+  "generated_at": "2026-10-07T14:24:04.225Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 169,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "41d29a9faacc76b1a8f205366bf2eb75",
+      "topic_label": "Ballistic Missile Strike on Residential Complex in Pryluky",
+      "event_window_start": "2026-10-07T11:14:24.000Z",
+      "event_window_end": "2026-10-07T11:24:17.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "Russian military forces launched a coordinated strike using ballistic missiles and drones against the town of Pryluky, Chernihiv region, Ukraine. A confirmed ballistic impact resulted in the total collapse of a five-story residential apartment block. The kinetic action resulted in at least 15 fatalities, including three children, and 38 injuries. The event occurred preceding the 74th birthday of Russian President Vladimir Putin.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump to speak to Putin about plague lab worker's death in Russia"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+          "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry "
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/ravens-players-ride-president-trump-motorcade-shoutout-speech-baltimore-shipyard-event",
+          "title": "Ravens players ride with President Trump in motorcade, get shoutout during speech at Baltimore shipyard event"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/music/2026/oct/07/freddie-jackson-romantic-us-singer-with-10-r-and-b-chart-toppers-dies-aged-70",
+          "title": "Freddie Jackson, romantic US singer with 10 R&B chart-toppers, dies aged 70"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-accuses-russia-of-bombing-apartment-block-as-birthday-gift-for-putin",
+          "title": "Ukraine accuses Russia of bombing apartment block as birthday gift for Putin"
+        }
+      ],
+      "updated_at": "2026-10-07T14:23:57.221Z"
+    },
     {
       "cluster_id": "d78707c385adb85325360a2c99cd013a",
       "topic_label": "Projectile strike on Panamanian-flagged tanker in Strait of Hormuz",
@@ -308,40 +349,29 @@
         }
       ],
       "updated_at": "2026-10-07T01:09:37.491Z"
-    },
-    {
-      "cluster_id": "be9cd22dccb846c787fabd4391e73efa",
-      "topic_label": "Presidential Rhetoric Regarding Iranian Targeting of U.S. Cities",
-      "event_window_start": "2026-10-06T14:17:50.000Z",
-      "event_window_end": "2026-10-06T22:49:00.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "During a political rally in Nebraska, President Donald Trump stated that a hypothetical Iranian military strike against the U.S. cities of Los Angeles and San Diego would constitute a 'small price to pay' for global security. There is no evidence of an active military escalation, imminent strike, or change in defense posture; the event is limited to political rhetoric regarding potential conflict scenarios.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/06/trump-iran-threat-san-diego-los-angeles-reaction",
-          "title": "LA and San Diego residents ‘horrified’ by Trump’s comment: ‘obsessed with us’"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/media/democrats-debate-kamala-harris-2028-run-surrogate-says-party-wants-move-on-from-2024-loss",
-          "title": "Democrats debate Kamala Harris 2028 run as surrogate says party wants to 'move on' from 2024 loss"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/oct/06/donald-trump-ads-diesel-baltimore-midterms-media-latest-news-updates",
-          "title": "Republican candidate for San Diego House district criticizes Trump comments on Iran – US politics live"
-        }
-      ],
-      "updated_at": "2026-10-07T01:09:37.491Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-41d29a9f",
+      "title": "Ballistic Missile Strike on Residential Complex in Pryluky",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "instability"
+      ],
+      "why_it_matters": "Russian military forces launched a coordinated strike using ballistic missiles and drones against the town of Pryluky, Chernihiv region, Ukraine. A confirmed ballistic impact resulted in the total collapse of a five-story residential apartment block. The kinetic action resulted in at least 15 fatalities, including three children, and 38 injuries. The event occurred preceding the 74th birthday of Russian President Vladimir Putin.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "41d29a9faacc76b1a8f205366bf2eb75",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-07T14:23:57.221Z"
+    },
     {
       "id": "impact-d78707c3",
       "title": "Projectile strike on Panamanian-flagged tanker in Strait of Hormuz",
@@ -523,26 +553,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-07T01:09:37.491Z"
-    },
-    {
-      "id": "impact-fcff4cf7",
-      "title": "Death of researcher at Irkutsk Anti-Plague Research Institute",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "cybersecurity",
-        "shipping"
-      ],
-      "why_it_matters": "A 28-year-old employee of the Irkutsk Anti-Plague Research Institute of Siberia and the Far East has died following an undisclosed illness. Official Russian state health agency Rospotrebnadzor classified the cause of death as pneumonia of unknown etiology and denied any breach of pathogenic microorganisms at the facility. Despite these claims, local reports indicate dozens of individuals have been placed under quarantine, and Western intelligence sources suggest the event represents a potential biological containment failure or laboratory accident concealed by state authorities.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "fcff4cf7f9b9d222d2ef325e82eccaa1",
-      "related_watchlist_id": "watch-002",
-      "operator_hint": "Alert security operations center (SOC); monitor threat intelligence vectors.",
-      "updated_at": "2026-10-06T16:24:27.701Z"
     }
   ]
 }

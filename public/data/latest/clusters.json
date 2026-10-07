@@ -1,5 +1,78 @@
 [
   {
+    "cluster_id": "41d29a9faacc76b1a8f205366bf2eb75",
+    "topic_label": "Ballistic Missile Strike on Residential Complex in Pryluky",
+    "event_window_start": "2026-10-07T11:14:24.000Z",
+    "event_window_end": "2026-10-07T11:24:17.000Z",
+    "article_ids": [
+      "art_1791372547598_cv4m2",
+      "art_1791372548647_wlozd",
+      "art_1791372549721_cef6x",
+      "art_1791372550810_yam8q",
+      "art_1791372551918_8mjwn"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-07T14:23:57.221Z",
+    "updated_at": "2026-10-07T14:23:57.221Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic",
+    "synthesis": "Russian military forces launched a coordinated strike using ballistic missiles and drones against the town of Pryluky, Chernihiv region, Ukraine. A confirmed ballistic impact resulted in the total collapse of a five-story residential apartment block. The kinetic action resulted in at least 15 fatalities, including three children, and 38 injuries. The event occurred preceding the 74th birthday of Russian President Vladimir Putin.",
+    "consensus": [
+      "A residential apartment building in Pryluky, Ukraine, was destroyed by an aerial strike.",
+      "At least 15 people, including three children, were killed in the strikes.",
+      "38 people were injured in the incident.",
+      "The strike occurred in the northern Chernihiv region."
+    ],
+    "divergence": [
+      "The Guardian explicitly attributes the strike to Russian military forces targeting civilians as a symbolic gesture for Vladimir Putin's birthday.",
+      "The BBC, Fox, and other provided articles discuss unrelated domestic US political events, scientific awards, and celebrity deaths, showing no overlap with this kinetic event."
+    ],
+    "sources": [
+      {
+        "id": "art_1791372547598_cv4m2",
+        "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump to speak to Putin about plague lab worker's death in Russia"
+      },
+      {
+        "id": "art_1791372548647_wlozd",
+        "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry "
+      },
+      {
+        "id": "art_1791372549721_cef6x",
+        "url": "https://www.foxnews.com/outkick-sports/ravens-players-ride-president-trump-motorcade-shoutout-speech-baltimore-shipyard-event",
+        "source": "fox",
+        "title": "Ravens players ride with President Trump in motorcade, get shoutout during speech at Baltimore shipyard event"
+      },
+      {
+        "id": "art_1791372550810_yam8q",
+        "url": "https://www.theguardian.com/music/2026/oct/07/freddie-jackson-romantic-us-singer-with-10-r-and-b-chart-toppers-dies-aged-70",
+        "source": "guardian",
+        "title": "Freddie Jackson, romantic US singer with 10 R&B chart-toppers, dies aged 70"
+      },
+      {
+        "id": "art_1791372551918_8mjwn",
+        "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-accuses-russia-of-bombing-apartment-block-as-birthday-gift-for-putin",
+        "source": "guardian",
+        "title": "Ukraine accuses Russia of bombing apartment block as birthday gift for Putin"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "d78707c385adb85325360a2c99cd013a",
     "topic_label": "Projectile strike on Panamanian-flagged tanker in Strait of Hormuz",
     "event_window_start": "2026-10-06T14:15:09.000Z",
@@ -15114,95 +15187,6 @@
         "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Nor'easter storm brings coastal flooding, as New York and New Jersey declare emergency"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3fc2e7bbfc23f736d44b271804a629ae",
-    "topic_label": "Texas vs Tennessee football game",
-    "event_window_start": "2026-09-26T15:03:32.000Z",
-    "event_window_end": "2026-09-26T22:43:58.000Z",
-    "article_ids": [
-      "art_1790468676671_c5mlf",
-      "art_1790460478438_xlmby",
-      "art_1790438078626_dcd5h",
-      "art_1790438079655_gciqz",
-      "art_1790438080688_qhs4v"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-27T03:16:57.599Z",
-    "updated_at": "2026-09-27T03:16:57.599Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Texas played Tennessee in a college football game at Neyland Stadium in Knoxville.",
-      "President Donald Trump attended the football game between Texas and Tennessee.",
-      "Texas won the game against Tennessee."
-    ],
-    "source_claims": [
-      "[fox] claims Texas celebrated with actions described as unhinged.",
-      "[fox] claims cigar smoke was observed coming from the Texas locker room after the game.",
-      "[fox] claims the game outcome was decided on the final play."
-    ],
-    "framing_differences": [
-      "One fox article frames the post-game activity as 'unhinged celebrations', while another fox article focuses on the presence of President Trump and the atmosphere in the stadium."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[fox] claims Texas players had celebratory items 'up their sleeves ... and in their pants'."
-    ],
-    "loaded_language": [
-      "[fox] uses the term 'unhinged' to describe Texas players' celebrations.",
-      "[fox] uses the term 'slugfest of wacky proportions' to describe the nature of the game."
-    ],
-    "safe_conclusions": [
-      "Texas defeated Tennessee in a college football game attended by President Donald Trump at Neyland Stadium."
-    ],
-    "unknowns": [
-      "The specific nature of the celebrations described as unhinged.",
-      "The exact final score of the game.",
-      "Details regarding the game's official statistics or key plays."
-    ],
-    "synthesis": "The University of Texas football team defeated the University of Tennessee at Neyland Stadium in a game attended by President Donald Trump. Reports indicate that Texas players celebrated the victory in the locker room, accompanied by cigar smoke. The event also included significant security measures related to the President's attendance.",
-    "confidence": "HIGH. The sources consistently report the event, the participants, and the winner of the football game.",
-    "sources": [
-      {
-        "id": "art_1790468676671_c5mlf",
-        "url": "https://www.foxnews.com/outkick-sports/texas-dropped-celebrations-tennessee-unhinged",
-        "source": "fox",
-        "title": "Texas dropped some celebrations against Tennessee that were about as unhinged as they come"
-      },
-      {
-        "id": "art_1790460478438_xlmby",
-        "url": "https://www.foxnews.com/outkick-sports/arch-manning-revels-cigar-smoke-texas-leaves-neyland-win-warning-college-football",
-        "source": "fox",
-        "title": "Arch Manning revels in cigar smoke: Texas leaves Neyland with win—and a warning for college football"
-      },
-      {
-        "id": "art_1790438078626_dcd5h",
-        "url": "https://www.foxnews.com/outkick-betting/caesars-sportsbook-promo-code-foxnewsdyw-bet-1-texas-vs-tennessee-double-your-winnings-10-bets",
-        "source": "fox",
-        "title": "Caesars Sportsbook Promo Code FOXNEWSDYW: Bet $1 on Texas vs Tennessee, Double Your Winnings on 10 Bets"
-      },
-      {
-        "id": "art_1790438079655_gciqz",
-        "url": "https://www.foxnews.com/outkick-sports/tennessee-fans-excited-trump-attendance-game-vs-texas-hope-stays-whole-game",
-        "source": "fox",
-        "title": "Tennessee fans excited for Trump's attendance at game vs Texas: 'I hope he stays the whole game'"
-      },
-      {
-        "id": "art_1790438080688_qhs4v",
-        "url": "https://www.foxnews.com/outkick-betting/fanduel-promo-code-get-250-bonus-bets-any-college-football-matchup-including-texas-vs-tennessee",
-        "source": "fox",
-        "title": "FanDuel Promo Code: Get $250 in Bonus Bets on Any College Football Matchup, Including Texas vs Tennessee"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
