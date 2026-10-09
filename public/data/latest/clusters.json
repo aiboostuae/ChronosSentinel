@@ -1,5 +1,64 @@
 [
   {
+    "cluster_id": "560b33c2e2033d3f93729a1a7cd6325c",
+    "topic_label": "State-Sanctioned Execution of Nidal Hasan via Firing Squad",
+    "event_window_start": "2026-10-08T21:46:59.000Z",
+    "event_window_end": "2026-10-09T15:32:33.000Z",
+    "article_ids": [
+      "art_1791560514505_zs52d",
+      "art_1791511051873_gdqgj",
+      "art_1791497261392_5zovg"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-09T19:26:12.876Z",
+    "updated_at": "2026-10-09T19:26:12.876Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "The US Department of Defense, led by Secretary Pete Hegseth, has scheduled the state execution of Nidal Hasan, a former Army major convicted of the 2009 Fort Hood mass shooting. The execution is set to be carried out by a military firing squad at Fort Hood on December 3, with the Pentagon mandating a live public broadcast of the event. This action, which represents the first US military execution in over six decades, has been formally categorized by the UN Office of the High Commissioner for Human Rights as a potential breach of the prohibition against torture, citing the psychological impact of public spectacle in modern judicial processes.",
+    "consensus": [
+      "Nidal Hasan was convicted for the 2009 killing of 13 individuals at Fort Hood.",
+      "The Pentagon plans to execute Hasan by firing squad.",
+      "The Department of Defense intends to livestream the execution.",
+      "The execution is scheduled for December 3 at Fort Hood."
+    ],
+    "divergence": [
+      "The Guardian frames the event through the lens of human rights violations, highlighting the UN's 'torture' characterization and political backlash.",
+      "The BBC emphasizes the historical rarity of the event, labeling it 'unprecedented in the modern era' and citing legal experts regarding the 'uncertain legal terrain'.",
+      "Guardian (second article) includes specific political narrative framing from Pete Hegseth, characterizing the 2009 event specifically as a 'radical Islamist attack'."
+    ],
+    "sources": [
+      {
+        "id": "art_1791560514505_zs52d",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/09/pentagon-fort-hood-livestream-firing-squad-execution-reaction-backlash-pete-hegseth-donald-trump-mussolini-latest-news-updates",
+        "source": "guardian",
+        "title": "UN says Pentagon plan to livestream execution of Fort Hood shooter would amount to torture – US politics live"
+      },
+      {
+        "id": "art_1791511051873_gdqgj",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says"
+      },
+      {
+        "id": "art_1791497261392_5zovg",
+        "url": "https://www.theguardian.com/us-news/2026/oct/08/hegseth-fort-hood-shooter-public-execution",
+        "source": "guardian",
+        "title": "Hegseth says execution of Fort Hood shooter will be a public event"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "aa2cde97f8cab3d3a75f9f6d5ffd3b4f",
     "topic_label": "ICE Agent Ballistic Injury of Civilian in Marble Hill, Bronx",
     "event_window_start": "2026-10-08T21:50:08.000Z",
@@ -47,57 +106,6 @@
         "url": "https://www.foxnews.com/us/federal-agents-involved-nyc-shooting-leaves-one-person-wounded-nypd-says",
         "source": "fox",
         "title": "Federal agents involved in NYC shooting that leaves one person wounded, NYPD says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "510e66820530d5c4837f4f71d7726ddb",
-    "topic_label": "Scheduled Execution of Nidal Hasan by Military Firing Squad",
-    "event_window_start": "2026-10-08T21:46:59.000Z",
-    "event_window_end": "2026-10-09T01:25:33.000Z",
-    "article_ids": [
-      "art_1791511051873_gdqgj",
-      "art_1791497261392_5zovg"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-09T06:41:07.358Z",
-    "updated_at": "2026-10-09T06:41:07.358Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Capital Punishment",
-    "synthesis": "US Secretary of Defense Pete Hegseth has confirmed that the state-sanctioned execution of Nidal Hasan, a former US Army major convicted of the 2009 mass shooting of 13 soldiers at Fort Hood, will be carried out by a firing squad of soldiers on December 3. The execution, scheduled for 1:00 PM at Fort Hood, is designated to be livestreamed to the public, marking a shift toward public military capital punishment not observed in the US in over 60 years.",
-    "consensus": [
-      "Nidal Hasan was convicted of killing 13 people at Fort Hood in 2009.",
-      "The US Department of Defense plans to execute Hasan via firing squad.",
-      "The execution is scheduled for December 3 at 1:00 PM at Fort Hood.",
-      "The execution is intended to be livestreamed to the public."
-    ],
-    "divergence": [
-      "The BBC emphasizes the potential legal controversy and the 'unprecedented' nature of the public livestreaming, framing it through the lens of legal uncertainty.",
-      "The Guardian explicitly identifies Hasan as an 'army psychiatrist' and includes the specific political context of the 'radical Islamist' motive mentioned by Hegseth, whereas the BBC focuses more on the procedure and historical novelty."
-    ],
-    "sources": [
-      {
-        "id": "art_1791511051873_gdqgj",
-        "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says"
-      },
-      {
-        "id": "art_1791497261392_5zovg",
-        "url": "https://www.theguardian.com/us-news/2026/oct/08/hegseth-fort-hood-shooter-public-execution",
-        "source": "guardian",
-        "title": "Hegseth says execution of Fort Hood shooter will be a public event"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -164,6 +172,159 @@
         "url": "https://www.theguardian.com/politics/2026/oct/08/polls-close-holborn-st-pancras-byelection-labour-greens",
         "source": "guardian",
         "title": "Polls close in Holborn and St Pancras byelection as Labour hopes to retain seat"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "781d2e5f09255dd6383f096c64344bb8",
+    "topic_label": "US Imposition of Financial Sanctions Against the International Criminal Court",
+    "event_window_start": "2026-10-09T15:08:30.000Z",
+    "event_window_end": "2026-10-09T15:11:33.000Z",
+    "article_ids": [
+      "art_1791560519843_hovmf",
+      "art_1791560521908_91siu"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-09T19:26:12.876Z",
+    "updated_at": "2026-10-09T19:26:12.876Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "The United States government, via Secretary of State Marco Rubio, has enacted a formal policy of financial isolation against the International Criminal Court. The administration has ordered a ban on all financial transactions involving the institution, effectively attempting to freeze its operating capital and impede its legal proceedings against US personnel. This represents a state-level policy move to systematically obstruct the functionality of an international legal body through economic warfare measures, explicitly targeting the court's institutional viability rather than specific individuals.",
+    "consensus": [
+      "The US government has announced sanctions against the International Criminal Court.",
+      "US Secretary of State Marco Rubio publicly announced the measure in a video statement.",
+      "The sanctions include a ban on financial transactions with the institution.",
+      "The Trump administration justifies these measures by challenging the ICC's jurisdiction over US citizens."
+    ],
+    "divergence": [
+      "The Guardian frames the event as an assault on the international legal order and highlights the contrast with a Nobel Peace Prize award to an ICC judge.",
+      "Al Jazeera frames the event as an 'all of government' effort by the Trump administration to dismantle the court, emphasizing the systemic nature of the threat rather than specific legal grievances."
+    ],
+    "sources": [
+      {
+        "id": "art_1791560519843_hovmf",
+        "url": "https://www.theguardian.com/us-news/2026/oct/09/sanctions-icc-trump",
+        "source": "guardian",
+        "title": "US imposes sanctions on international criminal court"
+      },
+      {
+        "id": "art_1791560521908_91siu",
+        "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US sanctions International Criminal Court itself in latest escalation"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c93c9e4712229cffe2c7c8f2e321632f",
+    "topic_label": "Return of USS Abraham Lincoln from 322-day operational deployment",
+    "event_window_start": "2026-10-09T00:39:20.000Z",
+    "event_window_end": "2026-10-09T00:57:45.000Z",
+    "article_ids": [
+      "art_1791511056368_d8a9b",
+      "art_1791511059652_kfwmj"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-09T19:26:12.876Z",
+    "updated_at": "2026-10-09T19:26:12.876Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Maritime",
+    "synthesis": "The Nimitz-class aircraft carrier USS Abraham Lincoln returned to Naval Air Station North Island, San Diego, following a 322-day operational deployment in the Middle East theater. The vessel conducted 265 consecutive days at sea, marking a record for extended continuous operations. Reported material conditions on the carrier included equipment degradation and supply constraints, while crew welfare reports indicate incidents of suicide attempts during the prolonged maritime patrol related to ongoing military operations against Iranian targets.",
+    "consensus": [
+      "The USS Abraham Lincoln returned to its home port in San Diego after a 322-day deployment.",
+      "The vessel spent 265 consecutive days at sea.",
+      "The deployment involved participation in active military operations directed at Iran.",
+      "The mission resulted in significant strain on military logistics and crew mental health."
+    ],
+    "divergence": [
+      "Al Jazeera explicitly characterizes the mission as participation in a 'US-Israel war on Iran', framing the event as part of a failed or dragging military strategy.",
+      "Institutional sources omitted by the provided text typically frame the duration as 'operational endurance' rather than 'supply shortages and facility breakdowns'.",
+      "The articles diverge on the scope of the conflict, with Al Jazeera framing the mission specifically as part of an active war, whereas standard naval reports typically emphasize regional security presence."
+    ],
+    "sources": [
+      {
+        "id": "art_1791511056368_d8a9b",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/9/uss-abraham-lincoln-returns-after-record-breaking-deployment?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "USS Abraham Lincoln returns after record-breaking deployment"
+      },
+      {
+        "id": "art_1791511059652_kfwmj",
+        "url": "https://www.aljazeera.com/news/2026/10/9/uss-lincoln-returns-to-us-after-long-deployment-supporting-war-on-iran?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "USS Lincoln returns to US after long deployment supporting war on Iran"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "510e66820530d5c4837f4f71d7726ddb",
+    "topic_label": "Scheduled Execution of Nidal Hasan by Military Firing Squad",
+    "event_window_start": "2026-10-08T21:46:59.000Z",
+    "event_window_end": "2026-10-09T01:25:33.000Z",
+    "article_ids": [
+      "art_1791511051873_gdqgj",
+      "art_1791497261392_5zovg"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-09T06:41:07.358Z",
+    "updated_at": "2026-10-09T06:41:07.358Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Capital Punishment",
+    "synthesis": "US Secretary of Defense Pete Hegseth has confirmed that the state-sanctioned execution of Nidal Hasan, a former US Army major convicted of the 2009 mass shooting of 13 soldiers at Fort Hood, will be carried out by a firing squad of soldiers on December 3. The execution, scheduled for 1:00 PM at Fort Hood, is designated to be livestreamed to the public, marking a shift toward public military capital punishment not observed in the US in over 60 years.",
+    "consensus": [
+      "Nidal Hasan was convicted of killing 13 people at Fort Hood in 2009.",
+      "The US Department of Defense plans to execute Hasan via firing squad.",
+      "The execution is scheduled for December 3 at 1:00 PM at Fort Hood.",
+      "The execution is intended to be livestreamed to the public."
+    ],
+    "divergence": [
+      "The BBC emphasizes the potential legal controversy and the 'unprecedented' nature of the public livestreaming, framing it through the lens of legal uncertainty.",
+      "The Guardian explicitly identifies Hasan as an 'army psychiatrist' and includes the specific political context of the 'radical Islamist' motive mentioned by Hegseth, whereas the BBC focuses more on the procedure and historical novelty."
+    ],
+    "sources": [
+      {
+        "id": "art_1791511051873_gdqgj",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says"
+      },
+      {
+        "id": "art_1791497261392_5zovg",
+        "url": "https://www.theguardian.com/us-news/2026/oct/08/hegseth-fort-hood-shooter-public-execution",
+        "source": "guardian",
+        "title": "Hegseth says execution of Fort Hood shooter will be a public event"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -14260,246 +14421,6 @@
         "url": "https://www.foxnews.com/world/foiled-terror-plot-key-bomber-base-signals-wider-threat-us-military-installations-expert",
         "source": "fox",
         "title": "Foiled terror plot at bomber base signals wider threat to US military installations: expert"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bf51b1453ced3e250481ee697ba838eb",
-    "topic_label": "US-China Diplomatic Relations",
-    "event_window_start": "2026-09-28T00:52:19.000Z",
-    "event_window_end": "2026-09-28T06:24:33.000Z",
-    "article_ids": [
-      "art_1790580713925_z4jml",
-      "art_1790559381152_td68i"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-28T20:12:42.537Z",
-    "updated_at": "2026-09-28T20:12:42.537Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Donald Trump and Xi Jinping held a summit meeting last week.",
-      "David Perdue is the US ambassador to China."
-    ],
-    "source_claims": [
-      "[aljazeera] The United States and China released a list of goods recommended for reduced tariffs following the summit.",
-      "[aljazeera] The agreement targets $60bn worth of trade, divided into $30bn for each country.",
-      "[aljazeera] The list includes 77 Chinese goods and over 1,600 US products.",
-      "[guardian] US ambassador David Perdue stated that Donald Trump asked Xi Jinping if China would like to buy US weapons.",
-      "[guardian] The US is currently managing a pending arms sales package to Taiwan valued at $14bn."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the summit outcomes through the lens of economic trade policy and tariff reductions, while The Guardian frames the summit through the lens of international military relations and arms sales."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] US Trade Representative Jamieson Greer stated the agreement would improve market conditions.",
-      "[guardian] A Taiwanese minister characterized the military threat from Beijing as severe."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'extraordinary' to describe the claim regarding Trump's offer to sell weapons to China."
-    ],
-    "safe_conclusions": [
-      "Donald Trump and Xi Jinping met last week.",
-      "David Perdue holds the position of US ambassador to China."
-    ],
-    "unknowns": [
-      "Whether the tariff reduction list mentioned by Al Jazeera and the weapons discussion mentioned by The Guardian were part of the same formal summit agenda.",
-      "The official response of the Chinese government to the potential purchase of US weapons."
-    ],
-    "synthesis": "Following a summit between Presidents Donald Trump and Xi Jinping last week, reports indicate progress on tariff discussions regarding $60bn in trade. Simultaneously, US Ambassador David Perdue stated that President Trump inquired about China's interest in purchasing US weaponry. The articles describe separate policy tracks involving economic trade and international military relations.",
-    "confidence": "HIGH. The sources focus on different aspects of the same diplomatic summit without contradicting one another.",
-    "sources": [
-      {
-        "id": "art_1790580713925_z4jml",
-        "url": "https://www.aljazeera.com/economy/2026/9/28/us-china-list-goods-recommended-for-tariff-cuts-following-trump-xi-summit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US, China list goods recommended for tariff cuts following Trump-Xi summit"
-      },
-      {
-        "id": "art_1790559381152_td68i",
-        "url": "https://www.theguardian.com/world/2026/sep/28/trump-xi-jinping-china-buy-weapons",
-        "source": "guardian",
-        "title": "Trump asked Xi Jinping if China would like to buy US weapons, American ambassador says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c3563aaee14f236e030dad7826074a1b",
-    "topic_label": "International Football Controversy",
-    "event_window_start": "2026-09-27T21:29:46.000Z",
-    "event_window_end": "2026-09-27T21:41:59.000Z",
-    "article_ids": [
-      "art_1790549135617_lf6hw",
-      "art_1790549144204_zchrp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-28T20:12:42.537Z",
-    "updated_at": "2026-09-28T20:12:42.537Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Republic of Ireland and Israel played a UEFA Nations League football match in Hungary on Sunday.",
-      "Ireland players wore black armbands during the match.",
-      "There were public calls to boycott the match due to the conflict in Gaza.",
-      "The match is described by both sources as contentious."
-    ],
-    "source_claims": [
-      "[aljazeera] The Republic of Ireland defeated Israel 3-0.",
-      "[aljazeera] Irish players bowed their heads during the Israeli national anthem.",
-      "[aljazeera] Irish players did not shake hands with the Israeli team.",
-      "[aljazeera] Ireland captain Dara O’Shea pledged to donate his match earnings to aid Gaza.",
-      "[fox] Ireland faced pressure to boycott the match from fans at home due to Israel's response to the Oct. 7, 2023, Hamas attacks.",
-      "[fox] Nearly 1,200 people were killed in the Oct. 7, 2023, attacks."
-    ],
-    "framing_differences": [
-      "Al Jazeera frames the match in the context of Irish support for Palestinians and criticism of Israel's war in Gaza, while Fox frames the match in the context of Ireland's diplomatic stance on the conflict and the October 7 Hamas attacks."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] The Israeli war on Gaza is genocidal.",
-      "[fox] Hamas are terrorists."
-    ],
-    "loaded_language": [
-      "[aljazeera] uses the term 'genocidal war on Gaza' to describe the conflict.",
-      "[fox] uses the term 'Hamas terrorists' to describe the group responsible for the October 7 attacks."
-    ],
-    "safe_conclusions": [
-      "A UEFA Nations League match between Ireland and Israel took place in Hungary on Sunday.",
-      "The match was preceded by public calls for a boycott related to the Israel-Gaza conflict.",
-      "Ireland players wore black armbands during the match."
-    ],
-    "unknowns": [
-      "Whether the UEFA or the match organizers took any disciplinary action regarding the players' behavior.",
-      "The official response from the Israeli team regarding the lack of handshakes."
-    ],
-    "synthesis": "The Republic of Ireland and Israel played a UEFA Nations League match in Hungary on Sunday amid calls for a boycott related to the ongoing conflict in Gaza. During the event, Irish players wore black armbands, and reports indicate they performed gestures including bowing during the Israeli anthem and declining handshakes. The match took place against a backdrop of differing international perspectives on the conflict in the Middle East.",
-    "confidence": "HIGH. Both sources confirm the occurrence of the match, the location, the use of black armbands by Irish players, and the existence of public pressure to boycott the event.",
-    "sources": [
-      {
-        "id": "art_1790549135617_lf6hw",
-        "url": "https://www.aljazeera.com/sports/2026/9/27/ireland-defeats-israel-in-controversial-uefa-nations-league-match?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ireland defeats Israel in controversial UEFA Nations League match"
-      },
-      {
-        "id": "art_1790549144204_zchrp",
-        "url": "https://www.foxnews.com/outkick-sports/irish-soccer-players-wear-black-armbands-refuse-shake-hands-contentious-match-vs-israel",
-        "source": "fox",
-        "title": "Irish soccer players wear black armbands, refuse to shake hands ahead of contentious match vs Israel"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "546ed823b73d87b01a56ce775789c223",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-09-28T06:47:59.000Z",
-    "event_window_end": "2026-09-28T07:24:45.000Z",
-    "article_ids": [
-      "art_1790580708278_5dpsu",
-      "art_1790580709460_0yaia",
-      "art_1790580710644_jco42",
-      "art_1790580711702_hcizo",
-      "art_1790580712877_d4b74"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-28T12:51:44.863Z",
-    "updated_at": "2026-09-28T12:51:44.863Z",
-    "region_tag": "global",
-    "shared_facts": [],
-    "source_claims": [
-      "[guardian] Avanti West Coast will be renationalised in March when its contract ends.",
-      "[guardian] Avanti West Coast had a 7.1% cancellation rate from April.",
-      "[guardian] Fighting has resumed between Iran-aligned Houthis and Saudi-backed Yemeni forces in the al-Wazeyah district.",
-      "[guardian] Shadow Chancellor Andrew Griffith accused John Healey of offering 'reheated announcements' regarding nuclear submarine facilities.",
-      "[fox] A federal appeals court ruled against keeping Donald Trump's name on the Kennedy Center.",
-      "[fox] Sen. John Kennedy proposed a rule to prohibit naming buildings after living public officials.",
-      "[guardian] Victorian police apologized to the family of John Makai, who died in 2023 after being held in a cell with a head injury."
-    ],
-    "framing_differences": [
-      "The guardian focuses on separate, unconnected domestic and international news stories, while the fox article focuses on a singular domestic political story regarding building naming conventions."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The UK Labour government is nationalising passenger rail services as contracts expire.",
-      "[guardian] John Healey resigned in the past due to concerns over defence funding.",
-      "[fox] President Donald Trump is actively seeking to rename multiple prominent federal buildings after himself."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'failed them time and time again' to describe Avanti West Coast's service.",
-      "[guardian] uses the term 'reheated announcements' to describe the government's industrial plans.",
-      "[guardian] uses the term 'black hole' to describe the status of the defence investment plan.",
-      "[fox] uses the term 'private ads for themselves' to describe the naming of public buildings after officials."
-    ],
-    "safe_conclusions": [
-      "Various news reports have been provided covering topics including UK rail, international conflict in Yemen, UK defence policy, US building naming legislation, and a Victorian police inquest."
-    ],
-    "unknowns": [
-      "The specific operational details of the Great British Railways takeover.",
-      "The full extent of the fighting in the al-Wazeyah district.",
-      "The source of funding for the proposed floating docks in the Clyde.",
-      "The final outcome of the Victorian coroner’s inquest."
-    ],
-    "synthesis": "The provided reports cover disparate events including the upcoming renationalisation of Avanti West Coast and ongoing conflict in Yemen. Additionally, the articles detail UK parliamentary criticism regarding defence funding, US legislative proposals concerning building names, and a police inquest in Victoria. No common thread connects these independent news reports.",
-    "confidence": "HIGH. The sources are clearly distinct reports on unrelated events, and the extraction accurately reflects the provided text.",
-    "sources": [
-      {
-        "id": "art_1790580708278_5dpsu",
-        "url": "https://www.theguardian.com/business/2026/sep/28/avanti-west-coast-to-be-renationalised-in-march",
-        "source": "guardian",
-        "title": "Avanti West Coast to be renationalised in March"
-      },
-      {
-        "id": "art_1790580709460_0yaia",
-        "url": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
-        "source": "guardian",
-        "title": "Children forced to give up school for work as fighting upends daily life in Yemen"
-      },
-      {
-        "id": "art_1790580710644_jco42",
-        "url": "https://www.theguardian.com/politics/live/2026/sep/28/labour-party-conference-healey-economy-streeting-miliband-andy-burnham-latest-news-updates",
-        "source": "guardian",
-        "title": "Chancellor John Healey to promise ‘new age of industrialisation’ in speech to Labour conference – UK politics live"
-      },
-      {
-        "id": "art_1790580711702_hcizo",
-        "url": "https://www.foxnews.com/politics/sen-kennedy-says-no-living-politicians-should-have-buildings-named-after-them-after-trumps-moves",
-        "source": "fox",
-        "title": "Sen Kennedy says no living politicians should have buildings named after them after Trump's moves"
-      },
-      {
-        "id": "art_1790580712877_d4b74",
-        "url": "https://www.theguardian.com/australia-news/2026/sep/28/victoria-police-apologise-over-makai-death-in-custody-ntwnfb",
-        "source": "guardian",
-        "title": "Victoria police apologise over death of injured man taken to cells instead of hospital"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
