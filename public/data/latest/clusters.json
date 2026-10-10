@@ -1,5 +1,76 @@
 [
   {
+    "cluster_id": "5561898eaa55474bd35ef39bb0136d31",
+    "topic_label": "Mexican Judicial Convictions for Triple Homicide",
+    "event_window_start": "2026-10-10T05:48:54.000Z",
+    "event_window_end": "2026-10-10T06:04:35.000Z",
+    "article_ids": [
+      "art_1791613525650_a8gv8",
+      "art_1791613526955_91zdh",
+      "art_1791613528128_1w1j2",
+      "art_1791613529297_74gos",
+      "art_1791613530455_8da7l"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-10T09:32:55.370Z",
+    "updated_at": "2026-10-10T09:32:55.370Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Criminal Justice",
+    "synthesis": "Three individuals have been found guilty in a Mexican court for the 2024 murders of Australian nationals Jake and Callum Robinson and U.S. national Carter Rhoad. The victims were killed while participating in a surfing trip. The judicial process has concluded with a conviction, and the victims' families have publicly addressed the court regarding the sentencing.",
+    "consensus": [
+      "Three Mexican nationals were convicted of murdering two Australian brothers and one U.S. national.",
+      "The murders occurred in 2024 during a surfing trip in Mexico.",
+      "The judicial trial for the defendants has concluded with guilty verdicts."
+    ],
+    "divergence": [
+      "The BBC report frames the event through the lens of victim advocacy and family closure.",
+      "The Guardian articles provided are unrelated to this incident, focusing on UK political and economic news; therefore, they omit all details regarding the murder case."
+    ],
+    "sources": [
+      {
+        "id": "art_1791613525650_a8gv8",
+        "url": "https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How the trial of murdered Australian brothers and US friend unfolded"
+      },
+      {
+        "id": "art_1791613526955_91zdh",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/10/labour-fears-budget-burnham-healey",
+        "source": "guardian",
+        "title": "‘If voters aren’t better off by the next election, we’re screwed’: Labour insiders voice fears over budget"
+      },
+      {
+        "id": "art_1791613528128_1w1j2",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/10/uk-gaza-refugee-resettlement-scheme-palestinians-home-office",
+        "source": "guardian",
+        "title": "UK accused of giving people of Gaza false hope over new refugee safe route"
+      },
+      {
+        "id": "art_1791613529297_74gos",
+        "url": "https://www.theguardian.com/money/2026/oct/10/uk-savings-interest-rate-deals-nsi-bonds",
+        "source": "guardian",
+        "title": "UK savings: 5% interest rate deals may not last, say experts"
+      },
+      {
+        "id": "art_1791613530455_8da7l",
+        "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "887402ffed1910e1d92ed537a2409e8f",
     "topic_label": "US-Russia Diesel Import Agreement",
     "event_window_start": "2026-10-09T20:13:23.000Z",
@@ -14164,77 +14235,6 @@
         "url": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb",
         "source": "guardian",
         "title": "Australia news live: Chalmers defends record as RBA’s cash rate decision due; killed police officer Mia Lay remembered"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f77e23a3d94373c44087c6bf0f4dae4f",
-    "topic_label": "Spanish Housing Crisis",
-    "event_window_start": "2026-09-28T21:12:29.000Z",
-    "event_window_end": "2026-09-29T13:58:36.000Z",
-    "article_ids": [
-      "art_1790692250656_4nda4",
-      "art_1790632184261_kb2w0"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-29T18:31:59.793Z",
-    "updated_at": "2026-09-29T18:31:59.793Z",
-    "region_tag": "global",
-    "shared_facts": [
-      "Spain is currently facing a housing crisis.",
-      "There are ongoing issues related to evictions and housing costs in Spain."
-    ],
-    "source_claims": [
-      "[guardian] The Spanish coalition government approved measures including extending a ban on evictions of vulnerable tenants until 2030.",
-      "[guardian] The government measures were approved following a public outcry over the eviction of an 87-year-old disabled woman in Madrid.",
-      "[guardian] The government needs approval from Congress, where they currently lack a majority, to pass the decrees.",
-      "[aljazeera] Hundreds of protesters have set up tent encampments in central Madrid and Barcelona to demand action on housing.",
-      "[aljazeera] Spain faces a current deficit of 750,000 homes.",
-      "[aljazeera] The Central Bank of Spain warns the housing shortage could exceed one million homes by 2028."
-    ],
-    "framing_differences": [
-      "The guardian frames the event through the lens of government policy response and legislative processes, while aljazeera frames the event through the lens of grassroots civil unrest and statistical housing shortages."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[guardian] The government hopes to get the decrees passed during a requested special parliamentary session on Friday."
-    ],
-    "loaded_language": [
-      "[guardian] uses the term 'outcry' to describe the public reaction to the eviction of an elderly woman."
-    ],
-    "safe_conclusions": [
-      "The Spanish government is taking steps to address housing issues.",
-      "There is public activity related to the housing situation in Spain."
-    ],
-    "unknowns": [
-      "The specific details of the government's housing decrees.",
-      "The outcome of the parliamentary vote on the housing measures.",
-      "The full extent of the government's timeline for implementing housing policies."
-    ],
-    "synthesis": "The Spanish government has proposed new housing measures, including an extended eviction ban for vulnerable populations, in response to rising housing costs and public concerns. Simultaneously, protesters have established encampments in Madrid and Barcelona to demand further government action. Official reports indicate a significant national housing deficit that is projected to grow over the next several years.",
-    "confidence": "HIGH. Both sources provide complementary information regarding different facets of the same national housing issue without direct contradiction.",
-    "sources": [
-      {
-        "id": "art_1790692250656_4nda4",
-        "url": "https://www.theguardian.com/world/2026/sep/29/spanish-government-approves-measures-ease-housing-crisis-outcry-eviction",
-        "source": "guardian",
-        "title": "Spanish government approves measures to ease housing crisis after outcry over eviction"
-      },
-      {
-        "id": "art_1790632184261_kb2w0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/hundreds-set-up-tent-encampments-in-madrid-over-housing-crisis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hundreds set up tent encampments in Madrid over housing crisis"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
