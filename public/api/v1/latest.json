@@ -1,10 +1,36 @@
 {
-  "generated_at": "2026-10-10T15:44:18.528Z",
+  "generated_at": "2026-10-10T19:42:02.233Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 173,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "4165bfa51e2368f5402b8927af8f56bf",
+      "topic_label": "Multiple Fatalities and Officer Shootings in Pennsylvania",
+      "event_window_start": "2026-10-10T12:07:35.000Z",
+      "event_window_end": "2026-10-10T12:57:28.000Z",
+      "article_count": 2,
+      "source_count": 1,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "Multiple kinetic incidents involving firearms occurred in Pennsylvania. In one event, multiple fatalities resulted from an active shooting at a residential location, concluding with the perpetrator's self-inflicted gunshot death. In a separate event in Philadelphia, two police officers were subjected to an ambush-style firearm attack, resulting in 15 combined gunshot wounds; the suspect was subsequently located and neutralized.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/multiple-people-killed-pennsylvania-shooting-suspected-gunman-found-dead-report",
+          "title": "Multiple people killed in Pennsylvania shooting; suspected gunman found dead: report"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/philadelphia-police-officers-shot-15-times-combined-ambush-attack-suspect-found-hiding-tree",
+          "title": "Philadelphia police officers shot 15 times combined in ambush attack, suspect found hiding in tree"
+        }
+      ],
+      "updated_at": "2026-10-10T19:41:55.947Z"
+    },
     {
       "cluster_id": "28fafcc7a3555bc7882838c5ed325431",
       "topic_label": "Hurricane Isaias Landfall and Regional Impact",
@@ -308,60 +334,29 @@
         }
       ],
       "updated_at": "2026-10-09T23:39:27.800Z"
-    },
-    {
-      "cluster_id": "2b38c4b23b09ff9874acedf9d015012d",
-      "topic_label": "Analysis of Disparate Political and Administrative Events",
-      "event_window_start": "2026-10-09T01:27:41.000Z",
-      "event_window_end": "2026-10-09T20:18:14.000Z",
-      "article_count": 7,
-      "source_count": 4,
-      "region_tag": "global",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "The provided source texts detail five distinct, unrelated political and administrative events occurring within the United States. These include a debate performance by New York AG Letitia James, the appointment of Katie Zacharia as White House Press Secretary to succeed Karoline Leavitt, a legal challenge by Arlington County against a proposed triumphal arch project near Arlington National Cemetery, and public questioning by Donald Trump and Ken Paxton regarding the absence of Texas Senate candidate James Talarico from the campaign trail. These events are domestic political developments rather than kinetic or national security incidents.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/letitia-james-stumped-debate-question-gop-rival-delivers-zinger-ages",
-          "title": "Letitia James stumped by debate question while GOP rival delivers 'zinger for the ages'"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/us-news/2026/oct/09/katie-zacharia-new-white-house-press-secretary-trump",
-          "title": "Trump says he picked ‘devoted fan’ Katie Zacharia to be next press secretary"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
-          "title": "Commentator Katie Zacharia picked as new White House press secretary"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/9/trumps-planned-dc-arch-faces-new-lawsuit?traffic_source=rss",
-          "title": "Trump’s planned DC arch faces new lawsuit"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/talarico-disappearance-has-dem-volunteers-worrying-trump-asking-what-going-on",
-          "title": "Talarico disappearance has Dem volunteers worrying and Trump asking, 'What is going on?'"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/federal-grand-jury-hears-evidence-probe-former-trump-aide-cassidy-hutchinson-jan-6-testimony",
-          "title": "Federal grand jury hears evidence in probe of former Trump aide Cassidy Hutchinson's Jan 6 testimony: source"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/michigan-senate-debate-erupts-personal-attacks-rogers-el-sayed-clash-over-israel-iran-more",
-          "title": "Michigan Senate debate erupts into personal attacks as Rogers, El-Sayed clash over Israel, Iran and more"
-        }
-      ],
-      "updated_at": "2026-10-09T23:39:27.800Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-4165bfa5",
+      "title": "Multiple Fatalities and Officer Shootings in Pennsylvania",
+      "severity": "low",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "instability"
+      ],
+      "why_it_matters": "Multiple kinetic incidents involving firearms occurred in Pennsylvania. In one event, multiple fatalities resulted from an active shooting at a residential location, concluding with the perpetrator's self-inflicted gunshot death. In a separate event in Philadelphia, two police officers were subjected to an ambush-style firearm attack, resulting in 15 combined gunshot wounds; the suspect was subsequently located and neutralized.",
+      "evidence_summary": "1 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "4165bfa51e2368f5402b8927af8f56bf",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-10T19:41:55.947Z"
+    },
     {
       "id": "impact-28fafcc7",
       "title": "Hurricane Isaias Landfall and Regional Impact",
@@ -542,26 +537,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-10-09T06:41:07.358Z"
-    },
-    {
-      "id": "impact-781d2e5f",
-      "title": "US Imposition of Financial Sanctions Against the International Criminal Court",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "instability"
-      ],
-      "why_it_matters": "The United States government, via Secretary of State Marco Rubio, has enacted a formal policy of financial isolation against the International Criminal Court. The administration has ordered a ban on all financial transactions involving the institution, effectively attempting to freeze its operating capital and impede its legal proceedings against US personnel. This represents a state-level policy move to systematically obstruct the functionality of an international legal body through economic warfare measures, explicitly targeting the court's institutional viability rather than specific individuals.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "781d2e5f09255dd6383f096c64344bb8",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-10-09T19:26:12.876Z"
     }
   ]
 }
