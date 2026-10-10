@@ -1,5 +1,64 @@
 [
   {
+    "cluster_id": "28fafcc7a3555bc7882838c5ed325431",
+    "topic_label": "Hurricane Isaias Landfall and Regional Impact",
+    "event_window_start": "2026-10-09T20:04:31.000Z",
+    "event_window_end": "2026-10-10T12:55:10.000Z",
+    "article_ids": [
+      "art_1791637532259_hn3c2",
+      "art_1791637537752_cvm3x",
+      "art_1791577791730_zl7sb"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-10T15:44:15.137Z",
+    "updated_at": "2026-10-10T15:44:15.137Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Hurricane Isaias, a Category 3 tropical cyclone, made landfall on the US Gulf Coast, resulting in widespread power outages for hundreds of thousands of residents. Physical impacts include high-velocity winds, heavy rainfall, and identified risks of spinoff tornadoes across Alabama and surrounding states. State authorities have issued emergency management warnings, and at least one fatality is confirmed in Escambia County, Florida. The storm has disrupted regional infrastructure and forced the cancellation or rescheduling of multiple public athletic events.",
+    "consensus": [
+      "Hurricane Isaias reached Category 3 status.",
+      "The storm impacted the US Gulf Coast region.",
+      "Hundreds of thousands of residents are experiencing power outages.",
+      "At least one fatality occurred in Escambia County, Florida.",
+      "The storm necessitated the alteration or cancellation of college football games."
+    ],
+    "divergence": [
+      "Fox News frames the storm primarily through the lens of athletic event scheduling and sports tourism, downplaying the severity of the humanitarian and infrastructure impact.",
+      "The Guardian focuses on the humanitarian toll and state-level emergency management directives, emphasizing the fatality and the governor's warnings regarding life-threatening conditions."
+    ],
+    "sources": [
+      {
+        "id": "art_1791637532259_hn3c2",
+        "url": "https://www.foxnews.com/outkick-sports/storm-here-georgia-alabama-set-write-latest-chapter-after-chaotic-week-around-hurricane-isaias",
+        "source": "fox",
+        "title": "The storm is here: Georgia-Alabama set to write latest chapter after chaotic week around Hurricane Isaias"
+      },
+      {
+        "id": "art_1791637537752_cvm3x",
+        "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
+        "source": "guardian",
+        "title": "Hurricane Isaias live updates: warning of ‘spinoff tornadoes’ as hundreds of thousands without power"
+      },
+      {
+        "id": "art_1791577791730_zl7sb",
+        "url": "https://www.foxnews.com/outkick-sports/hurricane-isaias-forces-numerous-college-football-games-changes-including-cancellation",
+        "source": "fox",
+        "title": "Hurricane Isaias forces numerous college football games to have changes, including a cancellation"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "5561898eaa55474bd35ef39bb0136d31",
     "topic_label": "Mexican Judicial Convictions for Triple Homicide",
     "event_window_start": "2026-10-10T05:48:54.000Z",
@@ -14156,85 +14215,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/28/aje-onl-nf_slovenias-u-turn-towards-israel-280926?traffic_source=rss",
         "source": "aljazeera",
         "title": "Slovenia’s U-turn towards Israel"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4fae6e32699080775ccff2749c1dbaa0",
-    "topic_label": "Australian Interest Rate Hikes",
-    "event_window_start": "2026-09-28T21:35:15.000Z",
-    "event_window_end": "2026-09-29T06:29:01.000Z",
-    "article_ids": [
-      "art_1790667050791_vy122",
-      "art_1790667057398_1atnq",
-      "art_1790632178726_ikp1l"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-29T18:31:59.793Z",
-    "updated_at": "2026-09-29T18:31:59.793Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "The Reserve Bank of Australia raised the benchmark interest rate to 4.6%.",
-      "The 4.6% rate is the highest level since 2011.",
-      "The rate increase follows a previous level of 4.35%.",
-      "The interest rate increase will result in higher mortgage repayment costs for Australian households.",
-      "The Reserve Bank of Australia cited inflation concerns in its decision-making."
-    ],
-    "source_claims": [
-      "[aljazeera] The interest rate increase was 0.25 percent.",
-      "[aljazeera] The bank attributed inflationary pressures to energy prices linked to the United States-Israel war on Iran and AI-driven tech costs.",
-      "[guardian-1] The decision was a unanimous vote by the RBA board.",
-      "[guardian-1] The RBA warned that it is prepared to increase interest rates further.",
-      "[guardian-2] Treasurer Jim Chalmers defended the government's economic record ahead of the rate announcement."
-    ],
-    "framing_differences": [
-      "Aljazeera frames the rate hike specifically through the lens of international conflict, noting the 'United States-Israel war on Iran,' while The Guardian frames the event primarily through its impact on domestic mortgage holders and the government's economic performance."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [
-      "[aljazeera] Higher energy prices are specifically due to the United States-Israel war on Iran."
-    ],
-    "loaded_language": [
-      "[guardian-1] uses the term 'blow' to describe the impact of the interest rate hike on mortgage holders.",
-      "[guardian-2] uses the term 'defended' to describe Treasurer Jim Chalmers' response to economic conditions."
-    ],
-    "safe_conclusions": [
-      "The Reserve Bank of Australia increased the benchmark interest rate to 4.6%."
-    ],
-    "unknowns": [
-      "The exact breakdown of all economic factors contributing to the RBA's inflation forecast.",
-      "The specific future trajectory of interest rate adjustments beyond the current hike."
-    ],
-    "synthesis": "The Reserve Bank of Australia has increased its benchmark interest rate to 4.6%, the highest level since 2011. This decision is expected to increase mortgage repayment costs for households across Australia. The bank cited ongoing concerns regarding inflation and global instability as primary factors in its decision.",
-    "confidence": "HIGH. All sources consistently report the rate increase to 4.6% and the context of 2011, with only minor variations in the framing of contributing global economic factors.",
-    "sources": [
-      {
-        "id": "art_1790667050791_vy122",
-        "url": "https://www.aljazeera.com/economy/2026/9/29/australia-raises-interest-rates-to-15-year-high?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Australia raises interest rates to 15-year high"
-      },
-      {
-        "id": "art_1790667057398_1atnq",
-        "url": "https://www.theguardian.com/business/2026/sep/29/rba-interest-rate-announcement-decision-cash-rate",
-        "source": "guardian",
-        "title": "RBA interest rates: Reserve Bank hikes cash rate to 4.6%, the highest level since 2011"
-      },
-      {
-        "id": "art_1790632178726_ikp1l",
-        "url": "https://www.theguardian.com/australia-news/live/2026/sep/29/treasurer-jim-chalmers-reserve-bank-cash-rate-decision-coalition-one-nation-ntwnfb",
-        "source": "guardian",
-        "title": "Australia news live: Chalmers defends record as RBA’s cash rate decision due; killed police officer Mia Lay remembered"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
