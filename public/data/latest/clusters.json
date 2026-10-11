@@ -1,5 +1,415 @@
 [
   {
+    "cluster_id": "3cc5824093ed7108b180bb5c8fcd49b7",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-11T12:50:46.000Z",
+    "event_window_end": "2026-10-11T21:56:55.000Z",
+    "article_ids": [
+      "art_1791757764889_jk7do",
+      "art_1791757767081_p936z",
+      "art_1791757775401_x80ry",
+      "art_1791743435068_od7gl",
+      "art_1791743444940_mzosu",
+      "art_1791725412595_g0da6"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-11T23:16:43.902Z",
+    "updated_at": "2026-10-11T23:16:43.902Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1791757764889_jk7do",
+        "url": "https://www.foxnews.com/world/trump-russia-deal-could-fuel-putins-war-ex-nato-commander-warns-zelenskyy-says-nyet",
+        "source": "fox",
+        "title": "Trump Russia deal could fuel Putin's war, ex-NATO commander warns as Zelenskyy says 'nyet'"
+      },
+      {
+        "id": "art_1791757767081_p936z",
+        "url": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent"
+      },
+      {
+        "id": "art_1791757775401_x80ry",
+        "url": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: What's behind Trump's energy ceasefire claim?"
+      },
+      {
+        "id": "art_1791743435068_od7gl",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates",
+        "source": "guardian",
+        "title": "Zelenskyy signals surprise at Trump claim of Russia-Ukraine ‘energy ceasefire’ but would back it if Moscow does – live updates"
+      },
+      {
+        "id": "art_1791743444940_mzosu",
+        "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
+        "source": "guardian",
+        "title": "Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’"
+      },
+      {
+        "id": "art_1791725412595_g0da6",
+        "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Ukraine strikes Russian data centre again despite Trump warning"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "9db4e1eebf1f5a18f7df29153a756568",
+    "topic_label": "Houthi Ballistic Missile Strike on King Khalid International Airport",
+    "event_window_start": "2026-10-11T05:35:09.000Z",
+    "event_window_end": "2026-10-11T21:12:27.000Z",
+    "article_ids": [
+      "art_1791757770248_p4svn",
+      "art_1791757773331_ewno3",
+      "art_1791743431527_9s2tc",
+      "art_1791743441569_c20yb",
+      "art_1791743446111_vphbd",
+      "art_1791743447185_xjmej",
+      "art_1791725402548_camrl",
+      "art_1791725403735_xtsqv",
+      "art_1791699778367_w0txd"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 9,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-11T23:16:43.902Z",
+    "updated_at": "2026-10-11T23:16:43.902Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic",
+    "synthesis": "Yemeni Houthi forces conducted a kinetic strike on the King Khalid International Airport in Riyadh, Saudi Arabia. Saudi authorities reported 12 fatalities and 300 injuries resulting from the attack. This event constitutes a direct ballistic strike on critical civilian and logistics infrastructure, marking a significant escalation in the ongoing conflict between Saudi Arabia and Houthi combatants.",
+    "consensus": [
+      "A kinetic attack occurred at King Khalid International Airport in Riyadh, Saudi Arabia.",
+      "Saudi authorities confirmed 12 deaths and 300 injuries.",
+      "The attack is attributed to Yemeni Houthi forces."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the strategic escalation and specific casualty figures, while other provided sources omit this event entirely in favor of political protests or internal party motions.",
+      "Fox News frames the political rhetoric of protesters as the primary regional threat, ignoring the kinetic ballistic event in Riyadh entirely.",
+      "Al Jazeera's reporting on Gaza and the West Bank focuses on displacement and shelling as an ongoing state of conflict, whereas the Houthi strike is framed as a distinct, new phase of warfare."
+    ],
+    "sources": [
+      {
+        "id": "art_1791757770248_p4svn",
+        "url": "https://www.foxnews.com/politics/quiet-part-out-loud-anti-israel-mobs-want-one-state-called-palestine-erasing-israel",
+        "source": "fox",
+        "title": "Quiet part out loud: Anti-Israel mobs want one state called 'Palestine,' erasing Israel"
+      },
+      {
+        "id": "art_1791757773331_ewno3",
+        "url": "https://www.aljazeera.com/news/2026/10/11/uk-greens-leader-seeks-rule-change-after-party-declares-zionism-is-racism?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK Greens leader seeks rule change after party declares Zionism is racism"
+      },
+      {
+        "id": "art_1791743431527_9s2tc",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/jerusalem-daily-panicked-palestinians-flee-israeli-attacks-on-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jerusalem Daily: Panicked Palestinians flee Israeli attacks on Gaza"
+      },
+      {
+        "id": "art_1791743441569_c20yb",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/is-the-yemen-war-entering-a-new-phase?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Is the Yemen war entering a new phase?"
+      },
+      {
+        "id": "art_1791743446111_vphbd",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/israel-pushes-its-yellow-line-deeper-into-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel pushes its ‘Yellow Line’ deeper into Gaza"
+      },
+      {
+        "id": "art_1791743447185_xjmej",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/who-will-represent-us-palestinians-react-to-election-delay?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Who will represent us?’ Palestinians react to election delay"
+      },
+      {
+        "id": "art_1791725402548_camrl",
+        "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
+        "source": "guardian",
+        "title": "Houthi attack on Riyadh airport will force rethink of Donald Trump’s strategy"
+      },
+      {
+        "id": "art_1791725403735_xtsqv",
+        "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+        "source": "guardian",
+        "title": "Middle East crisis live: Houthi foreign ministry says ‘worse yet to come’ if Saudi strikes continue"
+      },
+      {
+        "id": "art_1791699778367_w0txd",
+        "url": "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How genocidal war on Gaza is shaping Israel’s election"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e813f93ebc327f5e5bd3bab6d277f078",
+    "topic_label": "Houthi Ballistic Missile Strike on King Khalid International Airport",
+    "event_window_start": "2026-10-11T13:23:01.000Z",
+    "event_window_end": "2026-10-11T13:23:02.000Z",
+    "article_ids": [
+      "art_1791725402548_camrl",
+      "art_1791725403735_xtsqv"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-11T23:16:43.902Z",
+    "updated_at": "2026-10-11T23:16:43.902Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic",
+    "synthesis": "Houthi forces launched a ballistic missile targeting the civilian infrastructure of King Khalid International Airport in Riyadh, Saudi Arabia. The kinetic event represents an escalation of the ongoing conflict between Houthi rebels and the Saudi-led coalition. The projectile targeted a high-traffic civilian aviation facility. The administration of US President Donald Trump is currently evaluating military intervention in response to the strike, while Houthi leadership has publicly issued retaliatory threats, citing their actions as a reciprocal response to Saudi military operations within Yemen.",
+    "consensus": [
+      "A ballistic missile was launched by Houthi forces at King Khalid International Airport in Riyadh.",
+      "The Houthi movement claims the strike is a reciprocal action against Saudi military operations in Yemen.",
+      "The US administration is actively considering direct military involvement in response to the attack.",
+      "Houthi leadership has issued a public warning of further escalation."
+    ],
+    "divergence": [
+      "The Guardian frames the event primarily through the lens of US domestic political strategy and midterm election pressures.",
+      "The Guardian omits technical details regarding the missile type and the specific success or failure of Saudi air defense interception systems.",
+      "The Guardian source emphasizes the political implications for President Trump's energy policy over the immediate physical impact of the kinetic strike."
+    ],
+    "sources": [
+      {
+        "id": "art_1791725402548_camrl",
+        "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
+        "source": "guardian",
+        "title": "Houthi attack on Riyadh airport will force rethink of Donald Trump’s strategy"
+      },
+      {
+        "id": "art_1791725403735_xtsqv",
+        "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
+        "source": "guardian",
+        "title": "Middle East crisis live: Houthi foreign ministry says ‘worse yet to come’ if Saudi strikes continue"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "25123727c61e5514633e552b8f865b13",
+    "topic_label": "Hurricane Isaias landfall and casualties in Florida",
+    "event_window_start": "2026-10-11T04:28:51.000Z",
+    "event_window_end": "2026-10-11T18:08:32.000Z",
+    "article_ids": [
+      "art_1791743433759_vacp9",
+      "art_1791699787429_ey57m"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-11T19:31:49.859Z",
+    "updated_at": "2026-10-11T19:31:49.859Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Meteorological Disaster",
+    "synthesis": "Hurricane Isaias, a Category 2 meteorological system, made physical landfall across Florida, resulting in the confirmed deaths of four individuals and the disruption of electrical infrastructure for approximately 650,000 residents. The event caused widespread structural damage, flooding, and debris accumulation throughout the affected regions, necessitating emergency response operations and recovery efforts for damaged homes and infrastructure.",
+    "consensus": [
+      "Hurricane Isaias made landfall in Florida.",
+      "The storm caused significant power outages affecting approximately 650,000 people.",
+      "Four fatalities were confirmed as a direct result of the storm.",
+      "Widespread property damage, including flooding and debris, occurred in the region."
+    ],
+    "divergence": [
+      "Fox News focuses on the recovery efforts and volunteer mobilization by the United Cajun Navy, omitting specific casualty statistics.",
+      "Al Jazeera emphasizes the human toll and infrastructure failure statistics, omitting discussion of private volunteer efforts or recovery logistics."
+    ],
+    "sources": [
+      {
+        "id": "art_1791743433759_vacp9",
+        "url": "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images",
+        "source": "fox",
+        "title": "Hurricane Isaias’ devastating aftermath comes into focus in striking images"
+      },
+      {
+        "id": "art_1791699787429_ey57m",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "603b4f9edacf5ea43b04e6bb63b9bf6c",
+    "topic_label": "Arrest of Suspect in Assassination Plot Against Polish Government Officials",
+    "event_window_start": "2026-10-11T12:37:32.000Z",
+    "event_window_end": "2026-10-11T17:27:24.000Z",
+    "article_ids": [
+      "art_1791743442709_skfoi",
+      "art_1791725416931_2evji"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-11T19:31:49.859Z",
+    "updated_at": "2026-10-11T19:31:49.859Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Polish security services apprehended a Polish national in the Lower Silesia region following intelligence reports indicating a targeted assassination plot against Prime Minister Donald Tusk and Defence Minister Władysław Kosiniak-Kamysz. The apprehension followed an emergency meeting of security officials regarding the imminent threat. The state classifies the threat level as actionable and serious, given the suspect's intent to conduct lethal kinetic attacks against high-ranking government officials.",
+    "consensus": [
+      "A Polish male suspect was arrested in Lower Silesia.",
+      "The target of the plot included Prime Minister Donald Tusk and Defence Minister Władysław Kosiniak-Kamysz.",
+      "Polish security services held an emergency meeting regarding the threat.",
+      "The interior ministry and intelligence coordinators confirmed the detention."
+    ],
+    "divergence": [
+      "The Guardian frames the event within the context of recent school stabbings and Russian hybrid warfare, suggesting a broader geopolitical motive that is absent from the BBC report.",
+      "The BBC focuses on the direct acknowledgement and gratitude expressed by Tusk toward the police, emphasizing the executive response rather than the broader domestic security climate mentioned by the Guardian."
+    ],
+    "sources": [
+      {
+        "id": "art_1791743442709_skfoi",
+        "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Poland detains man suspected of planning assassination of PM Tusk"
+      },
+      {
+        "id": "art_1791725416931_2evji",
+        "url": "https://www.theguardian.com/world/2026/oct/11/poland-possible-plot-attack-prime-minister-donald-tusk",
+        "source": "guardian",
+        "title": "Police in Poland ‘learn of possible plot to attack prime minister Donald Tusk’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4a720998c531088e5f6ae34c68b30740",
+    "topic_label": "US Department of Justice Investigation into Broadcast Media Pool Conduct",
+    "event_window_start": "2026-10-11T04:30:10.000Z",
+    "event_window_end": "2026-10-11T22:18:31.000Z",
+    "article_ids": [
+      "art_1791757761722_1iwah",
+      "art_1791757762799_9ok3h",
+      "art_1791757768123_z42tv",
+      "art_1791743443900_f0nov",
+      "art_1791699782139_tg0xu",
+      "art_1791699786400_aayv8"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-11T23:16:43.902Z",
+    "updated_at": "2026-10-11T23:16:43.902Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The United States Department of Justice has initiated an investigation into five major television networks—ABC, CBS, CNN, NBC, and Fox News—to determine if their synchronized decision to pause presidential pool coverage constituted a violation of the Sherman Act. The networks had suspended coverage in response to the Trump administration's revocation of press credentials for specific journalists. The federal inquiry focuses on whether the collective action by these media entities represents monopolistic anti-competitive behavior.",
+    "consensus": [
+      "The US Department of Justice is investigating ABC, CBS, CNN, NBC, and Fox News.",
+      "The investigation concerns the suspension of presidential pool coverage by these networks.",
+      "The suspension was a response to the Trump administration revoking credentials for select reporters."
+    ],
+    "divergence": [
+      "The BBC provides a factual report focused on the legal framework and potential antitrust implications of the DoJ action.",
+      "The Guardian and Fox reports provided in the context are unrelated, focusing on Australian political speculation, US Senate candidacies, and celebrity commentary on political life, demonstrating the high noise-to-signal ratio in the provided input."
+    ],
+    "sources": [
+      {
+        "id": "art_1791757761722_1iwah",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/12/labor-anthony-albanese-greens-digital-duty-of-care-coalition-angus-taylor-one-nation-ntwnfb",
+        "source": "guardian",
+        "title": "Politics live: Monique Ryan ‘not bothered’ by Josh Frydenberg comeback speculation"
+      },
+      {
+        "id": "art_1791757762799_9ok3h",
+        "url": "https://www.foxnews.com/media/el-sayed-asked-believes-america-ready-muslim-president-ahead-senate-race",
+        "source": "fox",
+        "title": "El-Sayed asked if he believes America is 'ready for a Muslim president' ahead of Senate race"
+      },
+      {
+        "id": "art_1791757768123_z42tv",
+        "url": "https://www.foxnews.com/entertainment/ben-affleck-political-hypocrisy-corruption-failure-left-disillusioned",
+        "source": "fox",
+        "title": "Ben Affleck says political 'hypocrisy, corruption and failure' left him 'disillusioned'"
+      },
+      {
+        "id": "art_1791743443900_f0nov",
+        "url": "https://www.theguardian.com/us-news/2026/oct/11/abdul-el-sayed-democrats-must-win-by-massive-numbers",
+        "source": "guardian",
+        "title": "Abdul El-Sayed: Democrats must ‘win by massive numbers’ to fend off Trump election denial"
+      },
+      {
+        "id": "art_1791699782139_tg0xu",
+        "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US justice department investigates TV networks over Trump pool coverage"
+      },
+      {
+        "id": "art_1791699786400_aayv8",
+        "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US opens antitrust probe into TV networks for halting Trump coverage"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "64060256b9145153a607637765d01241",
     "topic_label": "Israeli Kinetic Operations and Territorial Expansion in Gaza",
     "event_window_start": "2026-10-10T20:14:01.000Z",
@@ -132,57 +542,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "25123727c61e5514633e552b8f865b13",
-    "topic_label": "Hurricane Isaias landfall and casualties in Florida",
-    "event_window_start": "2026-10-11T04:28:51.000Z",
-    "event_window_end": "2026-10-11T18:08:32.000Z",
-    "article_ids": [
-      "art_1791743433759_vacp9",
-      "art_1791699787429_ey57m"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T19:31:49.859Z",
-    "updated_at": "2026-10-11T19:31:49.859Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Meteorological Disaster",
-    "synthesis": "Hurricane Isaias, a Category 2 meteorological system, made physical landfall across Florida, resulting in the confirmed deaths of four individuals and the disruption of electrical infrastructure for approximately 650,000 residents. The event caused widespread structural damage, flooding, and debris accumulation throughout the affected regions, necessitating emergency response operations and recovery efforts for damaged homes and infrastructure.",
-    "consensus": [
-      "Hurricane Isaias made landfall in Florida.",
-      "The storm caused significant power outages affecting approximately 650,000 people.",
-      "Four fatalities were confirmed as a direct result of the storm.",
-      "Widespread property damage, including flooding and debris, occurred in the region."
-    ],
-    "divergence": [
-      "Fox News focuses on the recovery efforts and volunteer mobilization by the United Cajun Navy, omitting specific casualty statistics.",
-      "Al Jazeera emphasizes the human toll and infrastructure failure statistics, omitting discussion of private volunteer efforts or recovery logistics."
-    ],
-    "sources": [
-      {
-        "id": "art_1791743433759_vacp9",
-        "url": "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images",
-        "source": "fox",
-        "title": "Hurricane Isaias’ devastating aftermath comes into focus in striking images"
-      },
-      {
-        "id": "art_1791699787429_ey57m",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "6c38ca4fda0ac5349f4d216419ee02d4",
     "topic_label": "Ukrainian Drone Strikes on Russian Energy and Data Infrastructure Amidst Contested Ceasefire Claims",
     "event_window_start": "2026-10-10T19:54:36.000Z",
@@ -247,57 +606,6 @@
         "url": "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president",
         "source": "fox",
         "title": "Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal: 'Get a new president'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "603b4f9edacf5ea43b04e6bb63b9bf6c",
-    "topic_label": "Arrest of Suspect in Assassination Plot Against Polish Government Officials",
-    "event_window_start": "2026-10-11T12:37:32.000Z",
-    "event_window_end": "2026-10-11T17:27:24.000Z",
-    "article_ids": [
-      "art_1791743442709_skfoi",
-      "art_1791725416931_2evji"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T19:31:49.859Z",
-    "updated_at": "2026-10-11T19:31:49.859Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism",
-    "synthesis": "Polish security services apprehended a Polish national in the Lower Silesia region following intelligence reports indicating a targeted assassination plot against Prime Minister Donald Tusk and Defence Minister Władysław Kosiniak-Kamysz. The apprehension followed an emergency meeting of security officials regarding the imminent threat. The state classifies the threat level as actionable and serious, given the suspect's intent to conduct lethal kinetic attacks against high-ranking government officials.",
-    "consensus": [
-      "A Polish male suspect was arrested in Lower Silesia.",
-      "The target of the plot included Prime Minister Donald Tusk and Defence Minister Władysław Kosiniak-Kamysz.",
-      "Polish security services held an emergency meeting regarding the threat.",
-      "The interior ministry and intelligence coordinators confirmed the detention."
-    ],
-    "divergence": [
-      "The Guardian frames the event within the context of recent school stabbings and Russian hybrid warfare, suggesting a broader geopolitical motive that is absent from the BBC report.",
-      "The BBC focuses on the direct acknowledgement and gratitude expressed by Tusk toward the police, emphasizing the executive response rather than the broader domestic security climate mentioned by the Guardian."
-    ],
-    "sources": [
-      {
-        "id": "art_1791743442709_skfoi",
-        "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Poland detains man suspected of planning assassination of PM Tusk"
-      },
-      {
-        "id": "art_1791725416931_2evji",
-        "url": "https://www.theguardian.com/world/2026/oct/11/poland-possible-plot-attack-prime-minister-donald-tusk",
-        "source": "guardian",
-        "title": "Police in Poland ‘learn of possible plot to attack prime minister Donald Tusk’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13577,351 +13885,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "776423e82d7dd39068fde8f8af86254c",
-    "topic_label": "US Domestic Judicial Actions and Political Campaigns",
-    "event_window_start": "2026-09-30T02:02:28.000Z",
-    "event_window_end": "2026-09-30T20:16:20.000Z",
-    "article_ids": [
-      "art_1790801198798_062cb",
-      "art_1790801203109_6eupe",
-      "art_1790801206238_ckqhq",
-      "art_1790783533880_mzetr",
-      "art_1790759166879_k18h7",
-      "art_1790759169568_29qvs",
-      "art_1790735450076_eiow7"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-30T23:40:53.949Z",
-    "updated_at": "2026-09-30T23:40:53.949Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Politics",
-    "synthesis": "Across the United States, several separate legal, judicial, and political actions have proceeded. In Minnesota, the Department of Justice indicted ten individuals on charges of noncitizen voting and false citizenship claims. In Wisconsin, federal immigration judge Jayme Salinardi cleared the deportation of Islamic Society of Milwaukee leader Salah Sarsour under state-directed foreign policy provisions. In Louisiana, New Orleans Judge Kimya Holmes initiated a criminal complaint targeting WWL Louisiana investigative journalists over their reporting on her real estate transactions. In South Dakota, former government official Kristi Noem filed for divorce from Bryon Noem following a public tabloid scandal. Finally, in Texas, the state Senate campaign between Democrat James Talarico and Republican Ken Paxton continues to focus on demographic voter mobilization.",
-    "consensus": [
-      "The US Department of Justice filed indictments against 10 individuals in Minnesota on charges of noncitizen voting.",
-      "Immigration Judge Jayme Salinardi ruled that Wisconsin mosque leader Salah Sarsour is subject to deportation.",
-      "Kristi Noem filed for divorce from her husband Bryon Noem in Hamlin County, South Dakota.",
-      "New Orleans Judge Kimya Holmes initiated a police complaint against journalists from CBS affiliate WWL Louisiana.",
-      "James Talarico is running against incumbent Ken Paxton in the Texas Senate race."
-    ],
-    "divergence": [
-      "The Guardian frames the Minnesota voter indictments as an active effort by the Trump administration to amplify public anxiety over voter fraud ahead of elections, while the Justice Department frames the prosecution as a standard defense of ballot integrity.",
-      "Al Jazeera characterizes the deportation order against Salah Sarsour as a political targeting of Palestinian rights advocates, whereas the judicial ruling relies on a State Department memo declaring his actions undermine US efforts to combat global antisemitism.",
-      "The Guardian links Kristi Noem's divorce filing directly to a Daily Mail tabloid expose showing her husband wearing fake breasts, emphasizing her past dismissal from Trump's cabinet.",
-      "Fox News focuses its coverage of the Texas Senate race on whether Black and Hispanic voters will shift historical voting patterns to favor James Talarico over Ken Paxton.",
-      "The Guardian highlights that Judge Kimya Holmes utilized a defunct statute carrying no criminal penalties to initiate a law enforcement action against reporters, framing it as a pattern of judicial hostility toward regional media."
-    ],
-    "sources": [
-      {
-        "id": "art_1790801198798_062cb",
-        "url": "https://www.theguardian.com/us-news/2026/sep/30/trump-voter-fraud-charges-minnesota",
-        "source": "guardian",
-        "title": "Trump DoJ indicts 10 individuals on noncitizen voting related charges in Minnesota"
-      },
-      {
-        "id": "art_1790801203109_6eupe",
-        "url": "https://www.theguardian.com/us-news/2026/sep/30/kristi-noem-divorce",
-        "source": "guardian",
-        "title": "Kristi Noem, former Trump homeland security chief, files for divorce"
-      },
-      {
-        "id": "art_1790801206238_ckqhq",
-        "url": "https://www.aljazeera.com/news/2026/9/30/us-judge-rules-wisconsin-mosque-leader-salah-sarsour-can-be-deported?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US judge rules Wisconsin mosque leader Salah Sarsour can be deported"
-      },
-      {
-        "id": "art_1790783533880_mzetr",
-        "url": "https://www.foxnews.com/politics/gop-fortress-under-threat-key-red-state-voters-decide-whether-falls",
-        "source": "fox",
-        "title": "GOP fortress is under threat in one key red state, and these voters could decide whether it falls"
-      },
-      {
-        "id": "art_1790759166879_k18h7",
-        "url": "https://www.theguardian.com/us-news/2026/sep/30/new-orleans-judge-criminal-case-cbs-affiliate",
-        "source": "guardian",
-        "title": "New Orleans judge files criminal case against CBS affiliate over reporting"
-      },
-      {
-        "id": "art_1790759169568_29qvs",
-        "url": "https://www.foxnews.com/opinion/sen-rand-paul-budget-deficit-out-of-control-congress-must-pass-six-penny-plan",
-        "source": "fox",
-        "title": "SEN RAND PAUL: Our budget deficit is out of control. Congress must pass my Six Penny Plan"
-      },
-      {
-        "id": "art_1790735450076_eiow7",
-        "url": "https://www.theguardian.com/us-news/2026/sep/29/oakland-police-federal-oversight-ends",
-        "source": "guardian",
-        "title": "Judge ends federal oversight of Oakland police department after 23 years"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "7834e6e4da72a536267ef56b54a7d58c",
-    "topic_label": "U.S. Media Reports on Federal Prison Security Vulnerabilities, Domestic Political Shifts, and Cultural Broadcasts",
-    "event_window_start": "2026-09-30T01:59:39.000Z",
-    "event_window_end": "2026-09-30T20:40:10.000Z",
-    "article_ids": [
-      "art_1790801192283_qbs9s",
-      "art_1790801194435_dcvsk",
-      "art_1790801199937_1hjyv",
-      "art_1790801200982_0d5nn",
-      "art_1790735453473_zpwpl"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-30T23:40:53.949Z",
-    "updated_at": "2026-09-30T23:40:53.949Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "A compilation of U.S. domestic news reports details shifting political dynamics ahead of the November midterm elections against the backdrop of an ongoing conflict with Iran and domestic economic strain. Concurrently, reports highlight security and operational vulnerabilities within the Federal Bureau of Prisons, specifically at FCI Fort Dix, where high-profile inmate Sean 'Diddy' Combs has established an unauthorized internal economy using financial leverage to secure physical luxuries, domestic labor, and contraband. Other developments track media host disputes, film industry promotional events, and cultural retrospectives.",
-    "consensus": [
-      "Sean 'Diddy' Combs is currently serving a 50-month prison sentence at Fort Dix, New Jersey.",
-      "Jon Stewart publicly critiqued Democratic leadership, specifically Chuck Schumer and Hakeem Jeffries, ahead of the November midterms.",
-      "Anne Hathaway participated in the 'Verity' film premiere in New York, directing media photographers.",
-      "Howard Stern publicly defended late-night host Jimmy Kimmel during a live ABC broadcast."
-    ],
-    "divergence": [
-      "Fox News focuses heavily on the entertainment and political disappointment narratives, while referencing an NBC News investigation regarding Combs' luxury prison lifestyle.",
-      "The articles omit the wider physical telemetry and operational details of the referenced 'Iran war' and economic crisis, leaving them as mere background framing for domestic political commentary.",
-      "Fox News frames Hathaway's red carpet actions as 'taking charge' and a 'viral moment' rather than a standard orchestrated promotional event."
-    ],
-    "sources": [
-      {
-        "id": "art_1790801192283_qbs9s",
-        "url": "https://www.foxnews.com/entertainment/anne-hathaway-takes-charge-verity-red-carpet-viral-moment",
-        "source": "fox",
-        "title": "Anne Hathaway takes charge at the 'Verity' red carpet in viral moment"
-      },
-      {
-        "id": "art_1790801194435_dcvsk",
-        "url": "https://www.foxnews.com/media/howard-stern-warns-abc-hell-pay-something-goes-wrong-jimmy-kimmel-show",
-        "source": "fox",
-        "title": "Howard Stern warns ABC will have 'hell to pay' if something 'goes wrong' with Jimmy Kimmel's show"
-      },
-      {
-        "id": "art_1790801199937_1hjyv",
-        "url": "https://www.foxnews.com/media/stewart-expects-schumer-jeffries-disappoint-dems-win-back-house-senate",
-        "source": "fox",
-        "title": "Stewart expects Schumer, Jeffries to disappoint if the Dems win back the House and Senate"
-      },
-      {
-        "id": "art_1790801200982_0d5nn",
-        "url": "https://www.foxnews.com/entertainment/inside-diddy-prison-life-massages-booze-nude-photos-report",
-        "source": "fox",
-        "title": "Inside Diddy's prison life with massages, booze and nude photos: report"
-      },
-      {
-        "id": "art_1790735453473_zpwpl",
-        "url": "https://www.foxnews.com/entertainment/sylvester-stallones-advice-those-who-struggling-50-years-after-rocky-changed-his-life",
-        "source": "fox",
-        "title": "Sylvester Stallone's advice to those who are struggling 50 years after 'Rocky' changed his life"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "da21d1e51c457dd1aa6c1d6028b5b09a",
-    "topic_label": "A'ja Wilson-Spectator Confrontation at Gainbridge Fieldhouse",
-    "event_window_start": "2026-09-30T01:10:49.000Z",
-    "event_window_end": "2026-09-30T20:23:01.000Z",
-    "article_ids": [
-      "art_1790801197585_ypkub",
-      "art_1790801204136_riday",
-      "art_1790801207262_2an0e",
-      "art_1790783521931_8bnhf",
-      "art_1790783525176_pr38o",
-      "art_1790783531993_ztxp3",
-      "art_1790735445491_85act",
-      "art_1790735446561_1ehdh",
-      "art_1790735452407_o9cj1",
-      "art_1790735454518_d7sx3",
-      "art_1790735456689_i4eqa",
-      "art_1790735458787_nb2pt"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 12,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-30T23:40:53.949Z",
-    "updated_at": "2026-09-30T23:40:53.949Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Sports",
-    "synthesis": "During a WNBA playoff game at Gainbridge Fieldhouse, Las Vegas Aces athlete A'ja Wilson exited the court of play during the fourth quarter to engage in a verbal confrontation with a spectator. The spectator had previously directed gestures and vocal criticism toward Wilson regarding a foul call. Game officials issued Wilson a technical foul as a result of the breach of court boundaries. Indiana Fever defeated Las Vegas Aces 99-89.",
-    "consensus": [
-      "A'ja Wilson left the court during the fourth quarter of the game.",
-      "A'ja Wilson approached a spectator in the stands.",
-      "A'ja Wilson was assessed a technical foul by game officials.",
-      "The Indiana Fever won the game against the Las Vegas Aces."
-    ],
-    "divergence": [
-      "Fox News frames the event as a disciplinary issue requiring league intervention, citing Enes Kanter Freedom's demand for suspension.",
-      "Fox News downplays the confrontation as 'getting into it' while pivoting to statistical praise for other athletes, omitting details on potential safety policy violations."
-    ],
-    "sources": [
-      {
-        "id": "art_1790801197585_ypkub",
-        "url": "https://www.foxnews.com/media/the-five-leads-cable-news-20th-straight-quarter-fox-news-outdraws-cnn-ms-now-combined",
-        "source": "fox",
-        "title": "'The Five' leads cable news for 20th straight quarter as Fox News outdraws CNN and MS NOW combined"
-      },
-      {
-        "id": "art_1790801204136_riday",
-        "url": "https://www.foxnews.com/outkick-sports/enes-kanter-freedom-speaks-out-aja-wilson-playoff-incident-fever-fan-natasha-cloud-encounter",
-        "source": "fox",
-        "title": "Enes Kanter Freedom speaks out on A'ja Wilson playoff incident with Fever fan, after Natasha Cloud encounter"
-      },
-      {
-        "id": "art_1790801207262_2an0e",
-        "url": "https://www.foxnews.com/outkick-sports/caitlin-clark-puking-brains-halftime-key-indiana-fever-victories",
-        "source": "fox",
-        "title": "Caitlin Clark puking her brains out at halftime appears to be key to Indiana Fever victories"
-      },
-      {
-        "id": "art_1790783521931_8bnhf",
-        "url": "https://www.foxnews.com/outkick-betting/white-sox-close-houston-astros-two-games-dominant-playoff-opener",
-        "source": "fox",
-        "title": "White Sox look to close out Houston Astros in two games after dominant playoff opener"
-      },
-      {
-        "id": "art_1790783525176_pr38o",
-        "url": "https://www.foxnews.com/outkick-sports/wwe-nxt-star-ek-prosper-hits-jaw-dropping-move-grayson-waller-fails-win-championship",
-        "source": "fox",
-        "title": "WWE NXT star EK Prosper hits jaw-dropping move on Grayson Waller but fails to win championship"
-      },
-      {
-        "id": "art_1790783531993_ztxp3",
-        "url": "https://www.foxnews.com/outkick-sports/wnba-refs-miss-opportunity-eject-aja-wilson-over-meltdown-entering-stands",
-        "source": "fox",
-        "title": "WNBA refs miss opportunity to eject A'ja Wilson over meltdown, entering stands"
-      },
-      {
-        "id": "art_1790735445491_85act",
-        "url": "https://www.foxnews.com/outkick-betting/missouri-sports-betting",
-        "source": "fox",
-        "title": "Missouri Sports Betting — Best Sportsbooks and Apps | OutKick"
-      },
-      {
-        "id": "art_1790735446561_1ehdh",
-        "url": "https://www.foxnews.com/outkick-betting/new-york-sports-betting",
-        "source": "fox",
-        "title": "New York Sports Betting — Best Sportsbooks and Apps | OutKick"
-      },
-      {
-        "id": "art_1790735452407_o9cj1",
-        "url": "https://www.foxnews.com/outkick-betting/north-carolina-sports-betting",
-        "source": "fox",
-        "title": "North Carolina Sports Betting — Best Sportsbooks and Apps | OutKick"
-      },
-      {
-        "id": "art_1790735454518_d7sx3",
-        "url": "https://www.foxnews.com/outkick-betting/ohio-sports-betting",
-        "source": "fox",
-        "title": "Ohio Sports Betting — Best Sportsbooks and Apps | OutKick"
-      },
-      {
-        "id": "art_1790735456689_i4eqa",
-        "url": "https://www.foxnews.com/outkick-betting/best-sportsbook-promos-welcome-offers",
-        "source": "fox",
-        "title": "Best Sportsbook Promos and Welcome Offers 2026"
-      },
-      {
-        "id": "art_1790735458787_nb2pt",
-        "url": "https://www.foxnews.com/outkick-sports/transgender-athletes-taken-2293-championship-spots-biological-women-new-research-finds",
-        "source": "fox",
-        "title": "Transgender athletes have taken 2,293 championship spots from biological women, new research finds"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fc40108299140e10ebf3a29db7e508fb",
-    "topic_label": "Flydubai flight pilot incident",
-    "event_window_start": "2026-09-30T08:00:10.000Z",
-    "event_window_end": "2026-09-30T15:27:26.000Z",
-    "article_ids": [
-      "art_1790783524135_dwljy",
-      "art_1790759165785_uwcq1",
-      "art_1790759178355_ht4zp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-09-30T19:49:35.687Z",
-    "updated_at": "2026-09-30T19:49:35.687Z",
-    "region_tag": "middle-east",
-    "shared_facts": [
-      "Fallback activated."
-    ],
-    "source_claims": [
-      "No data available."
-    ],
-    "framing_differences": [
-      "No comparative data."
-    ],
-    "contested_claims": [],
-    "unverified_claims": [],
-    "loaded_language": [],
-    "safe_conclusions": [],
-    "unknowns": [
-      "No analysis possible."
-    ],
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "confidence": "LOW (Deterministic Fallback)",
-    "sources": [
-      {
-        "id": "art_1790783524135_dwljy",
-        "url": "https://www.aljazeera.com/news/2026/9/30/what-happened-on-diverted-flydubai-flight-from-dubai-to-tel-aviv?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What happened on diverted Flydubai flight from Dubai to Tel Aviv?"
-      },
-      {
-        "id": "art_1790759165785_uwcq1",
-        "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Israel-bound flight diverted after fight between pilots"
-      },
-      {
-        "id": "art_1790759178355_ht4zp",
-        "url": "https://www.aljazeera.com/news/2026/9/30/flydubai-flight-to-israel-diverted-to-saudi-arabia-after-emergency-alert?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Flydubai flight to Israel diverted to Saudi Arabia after emergency alert"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   }
 ]
