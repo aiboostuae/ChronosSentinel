@@ -1,7 +1,51 @@
 {
-  "generated_at": "2026-10-12T02:48:36.356Z",
+  "generated_at": "2026-10-12T10:21:35.799Z",
   "status": "ready",
   "items": [
+    {
+      "id": "impact-a8d0aa0d",
+      "title": "Russian drone strike on Kyiv power facility following US ceasefire announcement",
+      "severity": "critical",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "energy",
+        "grid",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "US President Donald Trump announced a unilateral claim of an 'energy ceasefire' between Russia and Ukraine, despite a lack of formal confirmation from the Kremlin and initial reports of confusion from the Ukrainian government. Following this announcement, a kinetic strike occurred involving a drone impacting a power plant in Kyiv, resulting in localized electrical grid failure. This event indicates a lack of functional operational ceasefire, as infrastructure assets remain active targets despite ongoing diplomatic rhetoric regarding diesel import agreements and US domestic energy policy.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "a8d0aa0dc0f9770d4246b63740c260bb",
+      "related_watchlist_id": "watch-002",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-12T10:20:23.273Z"
+    },
+    {
+      "id": "impact-5e618c33",
+      "title": "Israeli Military Advance and Political Instability in Gaza and West Bank",
+      "severity": "medium",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "grid",
+        "shipping"
+      ],
+      "why_it_matters": "The Israeli military is currently conducting offensive operations in Gaza characterized by active shelling and small arms fire, resulting in the forced displacement of Palestinian civilians behind a defined territorial boundary designated as the 'Yellow Line.' Concurrently, there is documented physical infrastructure destruction via home demolitions in East Jerusalem and reported violence by settlers in the West Bank. These kinetic actions coincide with significant political volatility, including the indefinite postponement of Palestinian legislative elections by President Mahmoud Abbas, citing operational restrictions, and a pending domestic electoral contest within Israel between the incumbent Netanyahu coalition and a unified opposition bloc.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "5e618c332a5ca90bbb96ce1700479bac",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-12T10:20:23.273Z"
+    },
     {
       "id": "impact-47f93731",
       "title": "Houthi Missile Strikes on King Khalid International Airport",
@@ -24,24 +68,25 @@
       "updated_at": "2026-10-12T02:47:31.517Z"
     },
     {
-      "id": "impact-0535f60d",
-      "title": "Hurricane Isaias Category 2 Landfall in Florida",
+      "id": "impact-a0559a9b",
+      "title": "Hurricane Isaias landfall and power grid failure in US Gulf Coast",
       "severity": "critical",
       "status": "active",
       "region": "Middle East",
       "domains": [
         "disaster",
-        "grid"
+        "grid",
+        "shipping"
       ],
-      "why_it_matters": "Hurricane Isaias, a Category 2 tropical cyclone, made landfall near Destin, Florida, on Friday, resulting in four confirmed fatalities and widespread infrastructure failure. Telemetry and regional power tracking indicate that at its peak, the storm disrupted electricity for nearly 800,000 customers across the Gulf Coast, with approximately 356,000 to 650,000 customers remaining without power as of Sunday. The physical impact includes severe debris accumulation, residential structural damage, and ongoing flood hazards across southern Alabama and northwest Florida.",
+      "why_it_matters": "Hurricane Isaias, a Category 2 tropical cyclone, made landfall near Destin, Florida, on Friday. The storm caused widespread physical destruction to residential and commercial infrastructure, resulting in the peak loss of electrical power for approximately 800,000 utility customers. As of Sunday, 356,000 customers remain without power across southern Alabama and northwestern Florida. Official reports confirm at least four fatalities resulting from the storm's kinetic impact.",
       "evidence_summary": "2 source(s), low confidence.",
       "confidence_label": "low",
       "corroboration_level": "moderate",
       "source_count": 2,
-      "related_cluster_id": "0535f60de754a91d9384a8ebc75963bd",
+      "related_cluster_id": "a0559a9b924842e0ae61e1872d1e8329",
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-10-12T02:47:31.517Z"
+      "updated_at": "2026-10-12T10:20:23.273Z"
     },
     {
       "id": "impact-21fca65b",
@@ -83,6 +128,46 @@
       "related_watchlist_id": "watch-003",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-11T19:31:49.859Z"
+    },
+    {
+      "id": "impact-d4685ff9",
+      "title": "New Delhi Political Civil Unrest and Mass Detentions",
+      "severity": "low",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "instability"
+      ],
+      "why_it_matters": "The Indian government has enacted a security crackdown in New Delhi involving the mass deployment of police and paramilitary forces, the installation of physical barricades, and the tactical closure of Delhi Metro rail stations to obstruct opposition-led protests. Thousands of demonstrators, including Cockroach Janta Party members and student groups, were detained by state security apparatuses for protesting alleged voter list irregularities, resulting in Supreme Court intervention declaring recent detentions illegal. The city remains under significant security strain with ongoing movement restrictions.",
+      "evidence_summary": "1 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "low",
+      "source_count": 1,
+      "related_cluster_id": "d4685ff9cf5e17a98276cf9c71fa8550",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-12T10:20:23.273Z"
+    },
+    {
+      "id": "impact-0535f60d",
+      "title": "Hurricane Isaias Category 2 Landfall in Florida",
+      "severity": "critical",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "disaster",
+        "grid"
+      ],
+      "why_it_matters": "Hurricane Isaias, a Category 2 tropical cyclone, made landfall near Destin, Florida, on Friday, resulting in four confirmed fatalities and widespread infrastructure failure. Telemetry and regional power tracking indicate that at its peak, the storm disrupted electricity for nearly 800,000 customers across the Gulf Coast, with approximately 356,000 to 650,000 customers remaining without power as of Sunday. The physical impact includes severe debris accumulation, residential structural damage, and ongoing flood hazards across southern Alabama and northwest Florida.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "0535f60de754a91d9384a8ebc75963bd",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-10-12T02:47:31.517Z"
     },
     {
       "id": "impact-9db4e1ee",
@@ -3432,64 +3517,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-01T09:29:38.737Z"
-    },
-    {
-      "id": "impact-5a392b3b",
-      "title": "In-Flight Cockpit Stabbing and Rapid Decompression of Flydubai FZ1073",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster"
-      ],
-      "why_it_matters": "Flydubai flight FZ1073, en route from Dubai to Tel Aviv, experienced a violent cockpit altercation involving the primary flight crew. During the flight, one pilot engaged in the stabbing of the co-pilot, resulting in an immediate loss of controlled flight and a rapid descent of approximately 16,000 feet within two minutes. The aircraft broadcasted emergency transponder codes, including a short-duration squawk for unlawful interference, before diverted to Tabuk, Saudi Arabia, for an emergency landing. The aggressor pilot is currently in custody of Saudi authorities; the aircraft was stabilized by off-duty crew members present on the flight.",
-      "evidence_summary": "3 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "5a392b3b5512bfc9b755a208721ed02d",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-10-01T02:31:36.349Z"
-    },
-    {
-      "id": "impact-f1297a2c",
-      "title": "Israeli Kinetic Strikes on Gaza City Minibus",
-      "severity": "low",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "instability"
-      ],
-      "why_it_matters": "Israeli military forces executed a precision strike against a civilian vehicle, specifically a minibus, located in the Tel al-Hawa district of Gaza City. The strike resulted in the confirmed death of six individuals and the wounding of 15 others. This event represents a direct kinetic engagement within an urban residential zone.",
-      "evidence_summary": "1 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "low",
-      "source_count": 1,
-      "related_cluster_id": "f1297a2cc573627c3a1160a2b616f005",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-10-01T02:31:36.349Z"
-    },
-    {
-      "id": "impact-c9d4343b",
-      "title": "North and South Korea tensions",
-      "severity": "medium",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "South Korean officials have demanded an apology from North Korea following injuries sustained by three soldiers during an incident near the demilitarized zone on September 21. South Korea asserts that the injuries were caused by North Korean mines, leading to claims of an armistice violation. The reports differ regarding whether the incident involved one or two separate explosions.",
-      "evidence_summary": "2 source(s), medium confidence.",
-      "confidence_label": "medium",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "c9d4343b61b220dbeadcf704e11d50fb",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-09-30T14:18:21.538Z"
     }
   ]
 }
