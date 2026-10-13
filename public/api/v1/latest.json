@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-13T09:04:53.134Z",
+  "generated_at": "2026-10-13T16:55:57.763Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 173,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "b5e28f7a4f69b52a9a36698c9356dd94",
+      "topic_label": "Stabbing and Robbery of Off-Duty NYPD Detective",
+      "event_window_start": "2026-10-13T16:22:18.000Z",
+      "event_window_end": "2026-10-13T16:24:39.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "An off-duty NYPD detective, identified as Jose Mercedes, was subjected to a targeted physical assault involving seven stab wounds by two suspects, D’Angelo Caraballo and Sneider Mejia, in the Bronx. The victim was ambushed from behind while at his personal vehicle. Following the physical engagement, the suspects utilized an e-bike to flee the scene and subsequently relocated to Massachusetts, where they were apprehended by law enforcement. The victim survived the attack and was hospitalized.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/media/dana-perino-shares-how-she-secretly-pushed-back-reporters-during-white-house-briefings",
+          "title": "Dana Perino shares how she secretly pushed back at reporters during White House briefings"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/us/nypd-detective-survived-stabbing-attack-makes-first-public-remarks-leaving-hospital",
+          "title": "NYPD detective who survived stabbing attack makes first public remarks since leaving hospital"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/oct/13/andy-burnham-brexit-eu-europe-neil-kinnock-lobby-wes-streeting-labour-prisoner-early-release-uk-politics-latest-news-updates",
+          "title": "MI5 chief Ken McCallum confirms Russia did interfere in Brexit referendum but says it had little impact – UK politics live"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/olympic-legend-kaillie-humphries-opens-impact-womens-sports-advocacy-team-usa-relationships",
+          "title": "Olympic legend Kaillie Humphries opens up on impact of women's sports advocacy on Team USA relationships"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/americans-draw-line-livestreaming-spectacle-fort-hood-shooters-execution-abomination",
+          "title": "Americans draw the line at livestreaming ‘spectacle’ of Fort Hood shooter's execution: ‘It’s an abomination’"
+        }
+      ],
+      "updated_at": "2026-10-13T16:55:35.779Z"
+    },
     {
       "cluster_id": "105cdd0e4414b0e030aa603a758b15b1",
       "topic_label": "Drone Strike and Sinking of Commercial Vessels off Bulgarian Coast",
@@ -333,35 +374,28 @@
         }
       ],
       "updated_at": "2026-10-12T02:47:31.517Z"
-    },
-    {
-      "cluster_id": "a0559a9b924842e0ae61e1872d1e8329",
-      "topic_label": "Hurricane Isaias landfall and power grid failure in US Gulf Coast",
-      "event_window_start": "2026-10-11T18:08:32.000Z",
-      "event_window_end": "2026-10-12T00:21:46.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Hurricane Isaias, a Category 2 tropical cyclone, made landfall near Destin, Florida, on Friday. The storm caused widespread physical destruction to residential and commercial infrastructure, resulting in the peak loss of electrical power for approximately 800,000 utility customers. As of Sunday, 356,000 customers remain without power across southern Alabama and northwestern Florida. Official reports confirm at least four fatalities resulting from the storm's kinetic impact.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/gallery/2026/10/12/hurricane-isaias-leaves-trail-of-destruction-across-the-us-gulf-coast?traffic_source=rss",
-          "title": "Hurricane Isaias leaves trail of destruction across the US Gulf Coast"
-        },
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images",
-          "title": "Hurricane Isaias’ devastating aftermath comes into focus in striking images"
-        }
-      ],
-      "updated_at": "2026-10-12T10:20:23.273Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-b5e28f7a",
+      "title": "Stabbing and Robbery of Off-Duty NYPD Detective",
+      "severity": "medium",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict"
+      ],
+      "why_it_matters": "An off-duty NYPD detective, identified as Jose Mercedes, was subjected to a targeted physical assault involving seven stab wounds by two suspects, D’Angelo Caraballo and Sneider Mejia, in the Bronx. The victim was ambushed from behind while at his personal vehicle. Following the physical engagement, the suspects utilized an e-bike to flee the scene and subsequently relocated to Massachusetts, where they were apprehended by law enforcement. The victim survived the attack and was hospitalized.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "b5e28f7a4f69b52a9a36698c9356dd94",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-13T16:55:35.779Z"
+    },
     {
       "id": "impact-105cdd0e",
       "title": "Drone Strike and Sinking of Commercial Vessels off Bulgarian Coast",
@@ -557,27 +591,6 @@
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-12T02:47:31.517Z"
-    },
-    {
-      "id": "impact-a0559a9b",
-      "title": "Hurricane Isaias landfall and power grid failure in US Gulf Coast",
-      "severity": "critical",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster",
-        "grid",
-        "shipping"
-      ],
-      "why_it_matters": "Hurricane Isaias, a Category 2 tropical cyclone, made landfall near Destin, Florida, on Friday. The storm caused widespread physical destruction to residential and commercial infrastructure, resulting in the peak loss of electrical power for approximately 800,000 utility customers. As of Sunday, 356,000 customers remain without power across southern Alabama and northwestern Florida. Official reports confirm at least four fatalities resulting from the storm's kinetic impact.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "a0559a9b924842e0ae61e1872d1e8329",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
-      "updated_at": "2026-10-12T10:20:23.273Z"
     }
   ]
 }
