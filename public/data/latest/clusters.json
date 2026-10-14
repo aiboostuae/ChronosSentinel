@@ -1,5 +1,74 @@
 [
   {
+    "cluster_id": "6d1598f2a9c5ee083385ab412c4b9dbb",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-14T15:26:14.000Z",
+    "event_window_end": "2026-10-14T15:33:52.000Z",
+    "article_ids": [
+      "art_1791992443656_pv4ze",
+      "art_1791992445136_63bsn",
+      "art_1791992446215_t8akf",
+      "art_1791992447815_g4fmr",
+      "art_1791992448981_4gkpg"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-14T16:01:02.471Z",
+    "updated_at": "2026-10-14T16:01:02.471Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1791992443656_pv4ze",
+        "url": "https://www.theguardian.com/environment/2026/oct/14/mont-blanc-loses-metre-height",
+        "source": "guardian",
+        "title": "Mont Blanc the ‘roof of Europe’ loses more than a metre of height in a year"
+      },
+      {
+        "id": "art_1791992445136_63bsn",
+        "url": "https://www.foxnews.com/politics/iowa-dem-senate-candidate-says-hes-too-busy-campaigning-attend-state-house-votes",
+        "source": "fox",
+        "title": "Iowa Dem Senate candidate says he's too busy campaigning to attend all state House votes"
+      },
+      {
+        "id": "art_1791992446215_t8akf",
+        "url": "https://www.foxnews.com/outkick-sports/team-usa-hockey-brothers-connect-pull-off-historic-nhl-feat-dominant-performance",
+        "source": "fox",
+        "title": "Team USA hockey brothers connect to pull off historic NHL feat in dominant performance"
+      },
+      {
+        "id": "art_1791992447815_g4fmr",
+        "url": "https://www.foxnews.com/politics/jamaica-accepts-first-flight-third-country-deportations-us-amid-looming-supreme-court-battle",
+        "source": "fox",
+        "title": "Jamaica accepts first flight of third-country deportations from US amid looming Supreme Court battle"
+      },
+      {
+        "id": "art_1791992448981_4gkpg",
+        "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US inflation rises more than expected - here's what is happening with prices"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "2df15d3383c05b1abb8d574a26cc1675",
     "topic_label": "Russian Ballistic-Drone Strikes on Ukrainian Energy Infrastructure and Starlink Connectivity Degradation",
     "event_window_start": "2026-10-13T21:30:35.000Z",
@@ -13691,58 +13760,6 @@
         "url": "https://www.theguardian.com/politics/2026/oct/01/labour-unease-healey-budget",
         "source": "guardian",
         "title": "Labour figures uneasy about Healey’s ‘underpowered’ approach to budget"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "98f39ccb17dab613d332d028a12b4344",
-    "topic_label": "Armed Hijacking Attempt on Flydubai Flight Dubai-Tel Aviv",
-    "event_window_start": "2026-10-01T13:57:28.000Z",
-    "event_window_end": "2026-10-01T18:48:46.000Z",
-    "article_ids": [
-      "art_1790882954687_3eotl",
-      "art_1790863150775_iu2fv"
-    ],
-    "source_ids": [
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-02T07:28:47.838Z",
-    "updated_at": "2026-10-02T07:28:47.838Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Aviation",
-    "synthesis": "An Omani national pilot performed an armed cockpit breach and stabbed his co-pilot mid-flight during a journey from Dubai to Tel Aviv. The resulting loss of flight control caused an uncommanded rapid descent of over 17,000 feet in two minutes. Passengers and remaining crew intervened physically to neutralize the attacker. The aircraft conducted an emergency landing in Saudi Arabia. The incident is confirmed as an active hijacking attempt, resulting in a critical-severity injury to the stabbed pilot and the detention of the perpetrator.",
-    "consensus": [
-      "A Flydubai flight from Dubai to Tel Aviv suffered an armed cockpit breach by an Omani national pilot.",
-      "The co-pilot was stabbed, resulting in critical injury.",
-      "The aircraft experienced a rapid, uncommanded descent of approximately 17,000 feet.",
-      "Passengers and crew subdued the attacker, regaining control of the aircraft.",
-      "The flight performed an emergency landing in Saudi Arabia."
-    ],
-    "divergence": [
-      "Netanyahu (via BBC) attributes the event specifically to 'Islamist radical indoctrination' and frames the act as a targeted suicide mission to down the plane.",
-      "UAE state media frames the event as an investigation into 'potential' terrorist links, omitting the explicit ideological labeling provided by Israeli authorities.",
-      "The BBC report prioritizes witness testimonies and the technical flight data while omitting the specific details of the perpetrator's detainment status provided in other emerging reports."
-    ],
-    "sources": [
-      {
-        "id": "art_1790882954687_3eotl",
-        "url": "https://www.bbc.co.uk/news/articles/crje8edqyej9o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Netanyahu says Flydubai attacker had 'Islamist radical indoctrination'"
-      },
-      {
-        "id": "art_1790863150775_iu2fv",
-        "url": "https://www.bbc.co.uk/news/articles/c6d949ydnw3po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Flydubai passenger describes hugging his children as plane nosedived during attack"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
