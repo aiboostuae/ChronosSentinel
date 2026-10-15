@@ -1,5 +1,461 @@
 [
   {
+    "cluster_id": "cb22a967d5815fd774ed31e434b5cf54",
+    "topic_label": "U.S. Domestic Political Campaign Activity and Election Integrity Disputes",
+    "event_window_start": "2026-10-14T04:34:29.000Z",
+    "event_window_end": "2026-10-14T19:38:56.000Z",
+    "article_ids": [
+      "art_1792007272822_gmgid",
+      "art_1792007274914_wqrhh",
+      "art_1792007279212_hl1g7",
+      "art_1792007288327_hz7jp",
+      "art_1791992445136_63bsn",
+      "art_1791992453644_nevim",
+      "art_1791974458418_3eodr",
+      "art_1791974462472_c5zk9",
+      "art_1791955682600_xjjje",
+      "art_1791955686218_3x23n"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 10,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-14T20:10:51.397Z",
+    "updated_at": "2026-10-14T20:10:51.397Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The provided reports detail a collection of non-kinetic domestic political activities across multiple U.S. states, including campaign debates, primary election results, and administrative disputes regarding voting procedures and legislative attendance. Physical activities consist of candidates participating in televised debates, voters casting ballots in primary elections, and the Department of Justice initiating legal filings regarding voting crimes. No physical force, weapon usage, or threats to national security are reported.",
+    "consensus": [
+      "Various political campaigns are active in Florida, Georgia, Minnesota, Iowa, and Virginia.",
+      "Debates between candidates have taken place in Georgia and Iowa.",
+      "The Department of Justice has charged 50 individuals with voting-related crimes in the past month.",
+      "Elections are scheduled for November 3."
+    ],
+    "divergence": [
+      "Fox News frames the Minnesota Senate race as a shift toward Republicans based on internal projections, whereas Minnesota polling data reports the Republican candidate trailing.",
+      "Fox News highlights Democratic legislative absenteeism in Iowa as a failure of duty, while the candidate frames the absences as a consequence of active campaigning.",
+      "Fox News emphasizes a narrative of 'fraud scandals' regarding Democratic candidates, while failing to report on the specific legal outcomes or substantiation of those fraud claims."
+    ],
+    "sources": [
+      {
+        "id": "art_1792007272822_gmgid",
+        "url": "https://www.foxnews.com/politics/trump-backed-gop-candidate-ousted-scandal-plagued-incumbent-warns-never-ending-war-iran",
+        "source": "fox",
+        "title": "Trump-backed GOP candidate who ousted scandal-plagued incumbent warns against 'never-ending war' with Iran"
+      },
+      {
+        "id": "art_1792007274914_wqrhh",
+        "url": "https://www.foxnews.com/politics/watch-georgia-senate-debate-erupts-white-supremacy-allegations-epstein-ties-fiery-exchange",
+        "source": "fox",
+        "title": "WATCH: Georgia Senate debate erupts over white supremacy allegations, Epstein ties in fiery exchange"
+      },
+      {
+        "id": "art_1792007279212_hl1g7",
+        "url": "https://www.foxnews.com/politics/sleeper-gop-candidate-puts-blue-leaning-state-play-fraud-scandal-shadows-dems",
+        "source": "fox",
+        "title": "Sleeper GOP candidate puts blue-leaning state in play as fraud scandal shadows Dems"
+      },
+      {
+        "id": "art_1792007288327_hz7jp",
+        "url": "https://www.foxnews.com/politics/dem-ag-targets-trump-voting-while-state-sends-rights-letters-dead-people",
+        "source": "fox",
+        "title": "Dem AG targets Trump on voting while his state sends rights letters to dead people"
+      },
+      {
+        "id": "art_1791992445136_63bsn",
+        "url": "https://www.foxnews.com/politics/iowa-dem-senate-candidate-says-hes-too-busy-campaigning-attend-state-house-votes",
+        "source": "fox",
+        "title": "Iowa Dem Senate candidate says he's too busy campaigning to attend all state House votes"
+      },
+      {
+        "id": "art_1791992453644_nevim",
+        "url": "https://www.aljazeera.com/news/2026/10/14/us-judge-extends-white-house-access-for-media-outlets-amid-trump-standoff?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Judge extends White House access for US media outlets amid Trump standoff"
+      },
+      {
+        "id": "art_1791974458418_3eodr",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/14/donald-trump-us-midterms-arizona-montana-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump heads to rallies in Arizona and Montana after campaign stop-off in Alaska – US politics live"
+      },
+      {
+        "id": "art_1791974462472_c5zk9",
+        "url": "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies",
+        "source": "fox",
+        "title": "Bipartisan senators demand Trump scrap Russia diesel deal, call it 'betrayal' of US allies"
+      },
+      {
+        "id": "art_1791955682600_xjjje",
+        "url": "https://www.foxnews.com/politics/trump-administration-slashes-time-refugees-challenge-loss-legal-status",
+        "source": "fox",
+        "title": "Trump administration slashes time refugees have to challenge loss of legal status"
+      },
+      {
+        "id": "art_1791955686218_3x23n",
+        "url": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
+        "source": "guardian",
+        "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e15b1d6b2e082bf151a3c451130dd190",
+    "topic_label": "Russian Missile/Drone Infrastructure Strikes and Ukrainian Drone Retaliation",
+    "event_window_start": "2026-10-14T05:07:55.000Z",
+    "event_window_end": "2026-10-14T10:04:28.000Z",
+    "article_ids": [
+      "art_1791974469462_n8149",
+      "art_1791974470800_vmyvs",
+      "art_1791955681432_p7nwa"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-15T01:26:13.835Z",
+    "updated_at": "2026-10-15T01:26:13.835Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Russian forces conducted a coordinated overnight kinetic strike campaign utilizing missiles and drones against energy and communications infrastructure in Kyiv and Kharkiv, resulting in 600,000 residents losing power and three reported civilian fatalities in Kyiv. Concurrently, Ukrainian forces launched drone strikes into the Saratov region of Russia, penetrating over 100km into sovereign territory, resulting in one civilian fatality and residential infrastructure damage. Internal reports indicate degradation of Ukrainian tactical communication capabilities due to implemented Starlink satellite speed limitations.",
+    "consensus": [
+      "Russian missiles and drones struck Ukrainian energy and communications infrastructure.",
+      "600,000 individuals in Ukraine are currently without power.",
+      "Three people were killed in Kyiv following the Russian strikes.",
+      "Ukrainian drones struck the Saratov region of Russia, resulting in one death.",
+      "Ukrainian battlefield communications via Starlink are experiencing operational restrictions."
+    ],
+    "divergence": [
+      "BBC characterizes the Russian action as a strike on 'critical energy infrastructure' while highlighting the collapse of a claimed 'energy ceasefire'.",
+      "Guardian frames the event primarily through a diplomatic lens, focusing on Zelenskyy's accusation of Russian 'disrespect' toward the United States.",
+      "Al Jazeera frames the narrative by focusing on the Ukrainian counter-strike in Saratov, omitting the context of the preceding Russian overnight barrage.",
+      "Russia's official state position (reported by BBC) asserts the strikes targeted legitimate military communications and energy assets, whereas Ukrainian sources classify these as strikes on civilian-protected infrastructure."
+    ],
+    "sources": [
+      {
+        "id": "art_1791974469462_n8149",
+        "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line"
+      },
+      {
+        "id": "art_1791974470800_vmyvs",
+        "url": "https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
+        "source": "guardian",
+        "title": "Russian attacks on Ukraine leave 600,000 without power as Zelenskyy says Moscow ‘disrespecting’ US – Europe live"
+      },
+      {
+        "id": "art_1791955681432_p7nwa",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/ukrainian-drones-strike-more-than-100km-into-russian-territory?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukrainian drones strike more than 100km into Russian territory"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "20b286ba35b6ac5054f3374150a0375c",
+    "topic_label": "Russian Missile Infrastructure Strikes and Starlink Connectivity Disruption",
+    "event_window_start": "2026-10-14T04:00:43.000Z",
+    "event_window_end": "2026-10-14T19:02:51.000Z",
+    "article_ids": [
+      "art_1792007283811_7sd5h",
+      "art_1792007286152_1ei1s",
+      "art_1791992452601_txc06",
+      "art_1791974468433_vgx1v",
+      "art_1791955695430_lqjex"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-15T01:26:13.835Z",
+    "updated_at": "2026-10-15T01:26:13.835Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Russian military forces conducted ballistic missile strikes targeting Ukrainian energy infrastructure, specifically hitting three power plants to disrupt heating and electricity in Kyiv. Concurrently, Ukrainian military combat operations suffered significant failures due to the active throttling of Starlink satellite terminals managed by SpaceX. This degradation of communications coincided with a lack of early warning telemetry from US intelligence, leaving air defense systems unable to issue alerts. Separately, an organized human trafficking network in Bangladesh was dismantled for coercing and forcibly conscripting at least 30 locals into the Russian military, resulting in 20 confirmed combat fatalities.",
+    "consensus": [
+      "Russian forces launched ballistic missiles targeting Ukrainian power infrastructure.",
+      "Ukrainian combat operations faced disruptions due to the restriction of Starlink terminal access.",
+      "A trafficking network in Bangladesh forcibly sent local nationals to fight for Russia, resulting in deaths.",
+      "US intelligence failed to provide early warning data for recent ballistic strikes on Kyiv."
+    ],
+    "divergence": [
+      "The Guardian frames the Starlink outages as direct political leverage by the Trump administration to halt Ukrainian strikes on Russian oil, while official Ukrainian sources characterize it as a technical/operational failure.",
+      "AlJazeera focuses on the transnational human trafficking aspect of the conflict, whereas the Guardian and BBC prioritize the geopolitical and military infrastructure developments regarding the US-Ukraine-Russia dynamic.",
+      "The Guardian explicitly links the lack of US air defense warnings to a broader diplomatic tension, whereas other sources do not frame the telemetry failure with the same political causality."
+    ],
+    "sources": [
+      {
+        "id": "art_1792007283811_7sd5h",
+        "url": "https://www.aljazeera.com/news/2026/10/14/bangladesh-arrests-two-for-luring-locals-to-fight-for-russia-in-ukraine?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Bangladesh arrests two for luring locals to fight for Russia in Ukraine"
+      },
+      {
+        "id": "art_1792007286152_1ei1s",
+        "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll",
+        "source": "guardian",
+        "title": "In Ukraine, civilian casualties were already rising. Restrictions on Starlink will only worsen the death toll"
+      },
+      {
+        "id": "art_1791992452601_txc06",
+        "url": "https://www.bbc.co.uk/news/articles/cq98z59xdny5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Burnham says he wants to 'repair bridges' between Ukraine and US"
+      },
+      {
+        "id": "art_1791974468433_vgx1v",
+        "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
+        "source": "guardian",
+        "title": "Ukrainian soldiers in combat have access to Starlink satellite internet restricted"
+      },
+      {
+        "id": "art_1791955695430_lqjex",
+        "url": "https://www.theguardian.com/world/2026/oct/14/landmines-ukraine-demining-drones-ai",
+        "source": "guardian",
+        "title": "Ukraine is littered with landmines on a scale last seen in Vietnam. How can they be removed?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ef9374c925938b7b73eaf002e30978cc",
+    "topic_label": "Multinational Geopolitical and Military Developments: Yemen, Gaza, and Iran",
+    "event_window_start": "2026-10-14T04:00:44.000Z",
+    "event_window_end": "2026-10-14T19:23:27.000Z",
+    "article_ids": [
+      "art_1792007277120_r5xsn",
+      "art_1792007280398_e6sku",
+      "art_1791992456791_k59vn",
+      "art_1791974465924_yg0st",
+      "art_1791955694404_qerr1"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-14T20:10:51.397Z",
+    "updated_at": "2026-10-14T20:10:51.397Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Infrastructure",
+    "synthesis": "Multiple concurrent kinetic and political events include: sustained artillery and small arms engagements between Saudi-backed forces and Houthi combatants in Taiz, Yemen, disrupting food distribution for 800,000 civilians; an Israeli kinetic airstrike in the Al-Rimal district of Gaza City causing structural collapse and fatalities; a refusal by Israeli authorities to permit the entry of international logistics contractors and equipment for a US-led military outpost project in Gaza; and the issuance of a death sentence by Iranian judicial authorities against a 23-year-old civilian for charges of blasphemy.",
+    "consensus": [
+      "Active combat between Saudi-backed forces and Houthis is obstructing aid in Yemen.",
+      "Israeli military forces executed an airstrike in Gaza City resulting in civilian casualties.",
+      "Israeli authorities have denied access to international construction contractors attempting to enter Gaza.",
+      "Iranian courts have sentenced a civilian to death for blasphemy."
+    ],
+    "divergence": [
+      "Al Jazeera characterizes the Gaza airstrike as targeting a woman, while the Israeli military claims it targeted a Hamas operative.",
+      "The Guardian frames the Gaza base as a 'Board of Peace' project led by a US president, whereas other sources omit the specific institutional provenance of the proposed base.",
+      "Al Jazeera frames the publication of Sally Rooney's books in the UK as an anti-terrorism legislative issue, whereas the broader geopolitical context of regional military conflicts provides the underlying impetus for corporate distancing.",
+      "The Guardian explicitly links Iranian capital punishment to a broader suppression of dissent, which state-aligned media in the region typically classifies as enforcement of criminal law."
+    ],
+    "sources": [
+      {
+        "id": "art_1792007277120_r5xsn",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sally-rooneys-books-pulled-from-uk-over-palestine-action-support?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Sally Rooney’s books pulled from UK over Palestine Action support"
+      },
+      {
+        "id": "art_1792007280398_e6sku",
+        "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base",
+        "source": "guardian",
+        "title": "Israel blocks construction of key Gaza base created by Trump peace board"
+      },
+      {
+        "id": "art_1791992456791_k59vn",
+        "url": "https://www.aljazeera.com/news/2026/10/14/renewed-fighting-risks-humanitarian-catastrophe-in-yemen-aid-groups-warn?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Renewed fighting risks ‘humanitarian catastrophe’ in Yemen, aid groups warn"
+      },
+      {
+        "id": "art_1791974465924_yg0st",
+        "url": "https://www.aljazeera.com/news/2026/10/14/israeli-air-strike-kills-palestinian-woman-in-gaza-city?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli air strike kills Palestinian woman in Gaza City"
+      },
+      {
+        "id": "art_1791955694404_qerr1",
+        "url": "https://www.theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet",
+        "source": "guardian",
+        "title": "Iranian woman handed death sentence for ‘blasphemy’ in social media post"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c871141b27b696eda43070155d505d70",
+    "topic_label": "Surgical Resection of Right Lung Lower Lobe in Pope Leo XIV",
+    "event_window_start": "2026-10-14T10:15:14.000Z",
+    "event_window_end": "2026-10-14T15:12:46.000Z",
+    "article_ids": [
+      "art_1791992454700_99fn8",
+      "art_1791992455751_q589a",
+      "art_1791974463600_aqul0"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-14T23:10:30.415Z",
+    "updated_at": "2026-10-14T23:10:30.415Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "Pope Leo XIV, 71, underwent a surgical procedure to remove the lower lobe of his right lung following a malignancy diagnosis. The operation occurred at Gemelli Hospital in Rome. Post-operative medical telemetry, including blood analysis and chest radiography, confirms the subject is mobile and currently undergoing respiratory physiotherapy. All official appointments remain suspended through October 20 to accommodate recovery.",
+    "consensus": [
+      "Pope Leo XIV underwent surgery at Gemelli Hospital to remove the lower lobe of his right lung.",
+      "A lung cancer diagnosis was confirmed post-surgery.",
+      "Medical personnel report that recovery is progressing according to expected post-operative benchmarks.",
+      "All public appearances are cancelled until October 20.",
+      "The subject is currently mobile and has resumed a standard diet."
+    ],
+    "divergence": [
+      "The Guardian frames the event as a biographical milestone noting his US-born status, whereas the Vatican-aligned reports prioritize clinical medical updates.",
+      "BBC and Al Jazeera omit the specific political implications of his background, focusing exclusively on the medical bulletin released by the attending physicians.",
+      "BBC emphasizes the duration of the surgery (90 minutes) as a data point, which is absent from the Guardian and Al Jazeera reports."
+    ],
+    "sources": [
+      {
+        "id": "art_1791992454700_99fn8",
+        "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Pope walking and recovering 'as expected' after surgery, doctors say"
+      },
+      {
+        "id": "art_1791992455751_q589a",
+        "url": "https://www.aljazeera.com/news/2026/10/14/pope-leo-recovering-well-after-cancer-surgery-vatican-says?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Pope Leo recovering well after cancer surgery, Vatican says"
+      },
+      {
+        "id": "art_1791974463600_aqul0",
+        "url": "https://www.theguardian.com/us-news/2026/oct/14/first-thing-pope-leo-surgery-lung-cancer",
+        "source": "guardian",
+        "title": "First Thing: Pope Leo recovering from surgery after lung cancer diagnosis"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "caf65970793f7fd8d38801d1bc17233e",
+    "topic_label": "Multiple Jurisdictional Criminal Homicide and Espionage Events",
+    "event_window_start": "2026-10-14T03:37:02.000Z",
+    "event_window_end": "2026-10-14T10:22:14.000Z",
+    "article_ids": [
+      "art_1791974459666_s92v3",
+      "art_1791974472915_slhwd",
+      "art_1791955684980_ijp4x",
+      "art_1791955691701_iv7kf",
+      "art_1791955697871_un572"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-15T01:26:13.835Z",
+    "updated_at": "2026-10-15T01:26:13.835Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism/Criminal/Espionage",
+    "synthesis": "Multiple distinct physical events are occurring globally: A rape and sexual assault trial has commenced against Russell Brand in London involving allegations of violent non-consensual acts; police in Lansing, Michigan, are investigating five homicides linked to a potential serial perpetrator on the Lansing River Trail; Australian authorities are prosecuting former police officer Beau Lamarre-Condon for the double-homicide of two men via service-weapon ballistic discharge and subsequent body concealment; a Japanese journalist, Yuki Imai, has been detained by Russian state security services in Sakhalin on charges of espionage; and a 31-year-old male has been charged with the homicide of Jayda Allen Bonner in Melbourne, Australia.",
+    "consensus": [
+      "Russell Brand is currently on trial in the UK for alleged sexual offenses.",
+      "Lansing, Michigan police are investigating five linked deaths.",
+      "Beau Lamarre-Condon is on trial in Sydney for the shooting deaths of two individuals.",
+      "Yuki Imai has been detained by Russian authorities on espionage charges.",
+      "A 31-year-old man was charged with the murder of Jayda Allen Bonner in Melbourne."
+    ],
+    "divergence": [
+      "Guardian frames the Brand event through the lens of public profile and career trajectory while suppressing specific victim testimony details.",
+      "Fox News frames the Lansing deaths as a localized threat for residents while utilizing academic opinion to temper public panic.",
+      "Guardian omits the explicit mention of the police weapon make/model in the Lamarre-Condon case, referring only to 'police service weapon'.",
+      "BBC frames the Imai detention within a diplomatic context regarding the Kuril Islands dispute, whereas Russian authorities frame the detention as a direct counter-espionage action."
+    ],
+    "sources": [
+      {
+        "id": "art_1791974459666_s92v3",
+        "url": "https://www.theguardian.com/uk-news/live/2026/oct/14/russell-brand-trial-latest-news-updates",
+        "source": "guardian",
+        "title": "Russell Brand was ‘ruthless and calculated’, prosecutors tell jury as rape and sexual assault trial begins – live"
+      },
+      {
+        "id": "art_1791974472915_slhwd",
+        "url": "https://www.foxnews.com/true-crime/criminologist-professor-big-ten-college-offers-warning-students-police-probe-possible-serial-killer",
+        "source": "fox",
+        "title": "Criminologist professor at Big Ten college offers warning to students as police probe possible serial killer"
+      },
+      {
+        "id": "art_1791955684980_ijp4x",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/14/beau-lamarre-condon-trial-shown-alleged-murder-scene-reconstruction-bullet-holes-ntwnfb",
+        "source": "guardian",
+        "title": "Beau Lamarre-Condon previously visited farm where he later allegedly tried to sink bodies, court told"
+      },
+      {
+        "id": "art_1791955691701_iv7kf",
+        "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russia arrests Japanese journalist on alleged espionage"
+      },
+      {
+        "id": "art_1791955697871_un572",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/14/family-mourn-jayda-bonner-indigenous-woman-found-dead-melbourne-ntwnfb",
+        "source": "guardian",
+        "title": "Family of Indigenous woman found dead in Melbourne mourn ‘vibrant, beautiful young girl’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "046e275026b80014f5b0e2831c7835d6",
     "topic_label": "Internal Political Maneuvering and Election Cycle Developments in the United States",
     "event_window_start": "2026-10-14T04:34:29.000Z",
@@ -215,80 +671,6 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "ef9374c925938b7b73eaf002e30978cc",
-    "topic_label": "Multinational Geopolitical and Military Developments: Yemen, Gaza, and Iran",
-    "event_window_start": "2026-10-14T04:00:44.000Z",
-    "event_window_end": "2026-10-14T19:23:27.000Z",
-    "article_ids": [
-      "art_1792007277120_r5xsn",
-      "art_1792007280398_e6sku",
-      "art_1791992456791_k59vn",
-      "art_1791974465924_yg0st",
-      "art_1791955694404_qerr1"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-14T20:10:51.397Z",
-    "updated_at": "2026-10-14T20:10:51.397Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Infrastructure",
-    "synthesis": "Multiple concurrent kinetic and political events include: sustained artillery and small arms engagements between Saudi-backed forces and Houthi combatants in Taiz, Yemen, disrupting food distribution for 800,000 civilians; an Israeli kinetic airstrike in the Al-Rimal district of Gaza City causing structural collapse and fatalities; a refusal by Israeli authorities to permit the entry of international logistics contractors and equipment for a US-led military outpost project in Gaza; and the issuance of a death sentence by Iranian judicial authorities against a 23-year-old civilian for charges of blasphemy.",
-    "consensus": [
-      "Active combat between Saudi-backed forces and Houthis is obstructing aid in Yemen.",
-      "Israeli military forces executed an airstrike in Gaza City resulting in civilian casualties.",
-      "Israeli authorities have denied access to international construction contractors attempting to enter Gaza.",
-      "Iranian courts have sentenced a civilian to death for blasphemy."
-    ],
-    "divergence": [
-      "Al Jazeera characterizes the Gaza airstrike as targeting a woman, while the Israeli military claims it targeted a Hamas operative.",
-      "The Guardian frames the Gaza base as a 'Board of Peace' project led by a US president, whereas other sources omit the specific institutional provenance of the proposed base.",
-      "Al Jazeera frames the publication of Sally Rooney's books in the UK as an anti-terrorism legislative issue, whereas the broader geopolitical context of regional military conflicts provides the underlying impetus for corporate distancing.",
-      "The Guardian explicitly links Iranian capital punishment to a broader suppression of dissent, which state-aligned media in the region typically classifies as enforcement of criminal law."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007277120_r5xsn",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sally-rooneys-books-pulled-from-uk-over-palestine-action-support?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Sally Rooney’s books pulled from UK over Palestine Action support"
-      },
-      {
-        "id": "art_1792007280398_e6sku",
-        "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base",
-        "source": "guardian",
-        "title": "Israel blocks construction of key Gaza base created by Trump peace board"
-      },
-      {
-        "id": "art_1791992456791_k59vn",
-        "url": "https://www.aljazeera.com/news/2026/10/14/renewed-fighting-risks-humanitarian-catastrophe-in-yemen-aid-groups-warn?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Renewed fighting risks ‘humanitarian catastrophe’ in Yemen, aid groups warn"
-      },
-      {
-        "id": "art_1791974465924_yg0st",
-        "url": "https://www.aljazeera.com/news/2026/10/14/israeli-air-strike-kills-palestinian-woman-in-gaza-city?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli air strike kills Palestinian woman in Gaza City"
-      },
-      {
-        "id": "art_1791955694404_qerr1",
-        "url": "https://www.theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet",
-        "source": "guardian",
-        "title": "Iranian woman handed death sentence for ‘blasphemy’ in social media post"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "d5c0c050fc9ccb7a037eaef9599bb775",
     "topic_label": "Arrest of OpenAI Engineer for Corporate Espionage via Electronic Eavesdropping",
     "event_window_start": "2026-10-13T23:55:33.000Z",
@@ -334,176 +716,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/13/openai-engineer-charged-after-listening-device-found-in-meeting-room?traffic_source=rss",
         "source": "aljazeera",
         "title": "OpenAI engineer charged after listening device found in meeting room"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c871141b27b696eda43070155d505d70",
-    "topic_label": "Surgical Resection of Right Lung Lower Lobe in Pope Leo XIV",
-    "event_window_start": "2026-10-14T10:15:14.000Z",
-    "event_window_end": "2026-10-14T15:12:46.000Z",
-    "article_ids": [
-      "art_1791992454700_99fn8",
-      "art_1791992455751_q589a",
-      "art_1791974463600_aqul0"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-14T23:10:30.415Z",
-    "updated_at": "2026-10-14T23:10:30.415Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "Pope Leo XIV, 71, underwent a surgical procedure to remove the lower lobe of his right lung following a malignancy diagnosis. The operation occurred at Gemelli Hospital in Rome. Post-operative medical telemetry, including blood analysis and chest radiography, confirms the subject is mobile and currently undergoing respiratory physiotherapy. All official appointments remain suspended through October 20 to accommodate recovery.",
-    "consensus": [
-      "Pope Leo XIV underwent surgery at Gemelli Hospital to remove the lower lobe of his right lung.",
-      "A lung cancer diagnosis was confirmed post-surgery.",
-      "Medical personnel report that recovery is progressing according to expected post-operative benchmarks.",
-      "All public appearances are cancelled until October 20.",
-      "The subject is currently mobile and has resumed a standard diet."
-    ],
-    "divergence": [
-      "The Guardian frames the event as a biographical milestone noting his US-born status, whereas the Vatican-aligned reports prioritize clinical medical updates.",
-      "BBC and Al Jazeera omit the specific political implications of his background, focusing exclusively on the medical bulletin released by the attending physicians.",
-      "BBC emphasizes the duration of the surgery (90 minutes) as a data point, which is absent from the Guardian and Al Jazeera reports."
-    ],
-    "sources": [
-      {
-        "id": "art_1791992454700_99fn8",
-        "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Pope walking and recovering 'as expected' after surgery, doctors say"
-      },
-      {
-        "id": "art_1791992455751_q589a",
-        "url": "https://www.aljazeera.com/news/2026/10/14/pope-leo-recovering-well-after-cancer-surgery-vatican-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pope Leo recovering well after cancer surgery, Vatican says"
-      },
-      {
-        "id": "art_1791974463600_aqul0",
-        "url": "https://www.theguardian.com/us-news/2026/oct/14/first-thing-pope-leo-surgery-lung-cancer",
-        "source": "guardian",
-        "title": "First Thing: Pope Leo recovering from surgery after lung cancer diagnosis"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cb22a967d5815fd774ed31e434b5cf54",
-    "topic_label": "U.S. Domestic Political Campaign Activity and Election Integrity Disputes",
-    "event_window_start": "2026-10-14T04:34:29.000Z",
-    "event_window_end": "2026-10-14T19:38:56.000Z",
-    "article_ids": [
-      "art_1792007272822_gmgid",
-      "art_1792007274914_wqrhh",
-      "art_1792007279212_hl1g7",
-      "art_1792007288327_hz7jp",
-      "art_1791992445136_63bsn",
-      "art_1791992453644_nevim",
-      "art_1791974458418_3eodr",
-      "art_1791974462472_c5zk9",
-      "art_1791955682600_xjjje",
-      "art_1791955686218_3x23n"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 10,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-14T20:10:51.397Z",
-    "updated_at": "2026-10-14T20:10:51.397Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The provided reports detail a collection of non-kinetic domestic political activities across multiple U.S. states, including campaign debates, primary election results, and administrative disputes regarding voting procedures and legislative attendance. Physical activities consist of candidates participating in televised debates, voters casting ballots in primary elections, and the Department of Justice initiating legal filings regarding voting crimes. No physical force, weapon usage, or threats to national security are reported.",
-    "consensus": [
-      "Various political campaigns are active in Florida, Georgia, Minnesota, Iowa, and Virginia.",
-      "Debates between candidates have taken place in Georgia and Iowa.",
-      "The Department of Justice has charged 50 individuals with voting-related crimes in the past month.",
-      "Elections are scheduled for November 3."
-    ],
-    "divergence": [
-      "Fox News frames the Minnesota Senate race as a shift toward Republicans based on internal projections, whereas Minnesota polling data reports the Republican candidate trailing.",
-      "Fox News highlights Democratic legislative absenteeism in Iowa as a failure of duty, while the candidate frames the absences as a consequence of active campaigning.",
-      "Fox News emphasizes a narrative of 'fraud scandals' regarding Democratic candidates, while failing to report on the specific legal outcomes or substantiation of those fraud claims."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007272822_gmgid",
-        "url": "https://www.foxnews.com/politics/trump-backed-gop-candidate-ousted-scandal-plagued-incumbent-warns-never-ending-war-iran",
-        "source": "fox",
-        "title": "Trump-backed GOP candidate who ousted scandal-plagued incumbent warns against 'never-ending war' with Iran"
-      },
-      {
-        "id": "art_1792007274914_wqrhh",
-        "url": "https://www.foxnews.com/politics/watch-georgia-senate-debate-erupts-white-supremacy-allegations-epstein-ties-fiery-exchange",
-        "source": "fox",
-        "title": "WATCH: Georgia Senate debate erupts over white supremacy allegations, Epstein ties in fiery exchange"
-      },
-      {
-        "id": "art_1792007279212_hl1g7",
-        "url": "https://www.foxnews.com/politics/sleeper-gop-candidate-puts-blue-leaning-state-play-fraud-scandal-shadows-dems",
-        "source": "fox",
-        "title": "Sleeper GOP candidate puts blue-leaning state in play as fraud scandal shadows Dems"
-      },
-      {
-        "id": "art_1792007288327_hz7jp",
-        "url": "https://www.foxnews.com/politics/dem-ag-targets-trump-voting-while-state-sends-rights-letters-dead-people",
-        "source": "fox",
-        "title": "Dem AG targets Trump on voting while his state sends rights letters to dead people"
-      },
-      {
-        "id": "art_1791992445136_63bsn",
-        "url": "https://www.foxnews.com/politics/iowa-dem-senate-candidate-says-hes-too-busy-campaigning-attend-state-house-votes",
-        "source": "fox",
-        "title": "Iowa Dem Senate candidate says he's too busy campaigning to attend all state House votes"
-      },
-      {
-        "id": "art_1791992453644_nevim",
-        "url": "https://www.aljazeera.com/news/2026/10/14/us-judge-extends-white-house-access-for-media-outlets-amid-trump-standoff?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Judge extends White House access for US media outlets amid Trump standoff"
-      },
-      {
-        "id": "art_1791974458418_3eodr",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/14/donald-trump-us-midterms-arizona-montana-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump heads to rallies in Arizona and Montana after campaign stop-off in Alaska – US politics live"
-      },
-      {
-        "id": "art_1791974462472_c5zk9",
-        "url": "https://www.foxnews.com/politics/bipartisan-senators-demand-trump-scrap-russia-diesel-deal-call-betrayal-us-allies",
-        "source": "fox",
-        "title": "Bipartisan senators demand Trump scrap Russia diesel deal, call it 'betrayal' of US allies"
-      },
-      {
-        "id": "art_1791955682600_xjjje",
-        "url": "https://www.foxnews.com/politics/trump-administration-slashes-time-refugees-challenge-loss-legal-status",
-        "source": "fox",
-        "title": "Trump administration slashes time refugees have to challenge loss of legal status"
-      },
-      {
-        "id": "art_1791955686218_3x23n",
-        "url": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
-        "source": "guardian",
-        "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13805,203 +14017,6 @@
         "url": "https://www.foxnews.com/us/lawyers-experts-urge-tennessee-governor-commute-christa-pikes-sentence-botched-execution",
         "source": "fox",
         "title": "Lawyers, experts urge Tennessee governor to commute Christa Pike’s sentence after botched execution"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "81e9e6c9e38be3229b512223eaf43b44",
-    "topic_label": "US Domestic Political and Economic Instability Indicators",
-    "event_window_start": "2026-10-02T01:39:08.000Z",
-    "event_window_end": "2026-10-02T19:23:09.000Z",
-    "article_ids": [
-      "art_1790972428470_dy0pk",
-      "art_1790972429531_l11jm",
-      "art_1790955222634_cqdhf",
-      "art_1790955227118_0k7m1",
-      "art_1790908842171_864zn"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-02T23:22:54.349Z",
-    "updated_at": "2026-10-02T23:22:54.349Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "The current US political landscape is characterized by intensifying institutional volatility and economic contraction. Kinetic and fiscal indicators include a confirmed downturn in national job growth to 29,000 monthly, real wage erosion of 0.7%, and a realignment of Republican financial assets away from North Carolina senatorial candidates. Simultaneously, the executive branch is engaging in a 32-day, 32-state mobilization tour in response to declining public approval ratings, while the Kennedy Center has displaced its annual honors ceremony to the Capital One Arena due to ongoing administrative litigation and naming disputes regarding the venue.",
-    "consensus": [
-      "President Donald Trump has initiated a 32-state campaign tour ahead of the November midterm elections.",
-      "The September US jobs report recorded 29,000 new jobs, falling below economist predictions.",
-      "The Kennedy Center Honors ceremony has been relocated to the Capital One Arena for the first time since 1978.",
-      "The Senate Leadership Fund is redirecting ad spending away from the North Carolina senatorial race."
-    ],
-    "divergence": [
-      "Fox News frames the 32-state campaign tour as a deliberate, misunderstood strategic blitz, while Al Jazeera frames the tour as a reactionary effort to mitigate record-low approval ratings and negative perceptions of the ongoing war on Iran.",
-      "The Guardian emphasizes the Republican decision to withdraw funding in North Carolina as a sign of 'dire' election prospects, whereas Fox News focuses on the internal rationale provided by campaign insiders regarding the broader rally strategy.",
-      "The Guardian characterizes the current status of the Kennedy Center as 'in jeopardy' due to Trump’s efforts to rename the landmark, while other sources do not frame the administrative conflict as an existential threat to the building itself."
-    ],
-    "sources": [
-      {
-        "id": "art_1790972428470_dy0pk",
-        "url": "https://www.theguardian.com/us-news/2026/oct/02/republican-pac-funding-north-carolina-senate-michael-whatley",
-        "source": "guardian",
-        "title": "Republicans pull funding of Trump-backed Senate candidate in critical North Carolina race"
-      },
-      {
-        "id": "art_1790972429531_l11jm",
-        "url": "https://www.theguardian.com/us-news/2026/oct/02/kennedy-center-honors-awards-venue-moved",
-        "source": "guardian",
-        "title": "Kennedy Center Honors awards moved to new venue amid Trump’s onslaught"
-      },
-      {
-        "id": "art_1790955222634_cqdhf",
-        "url": "https://www.foxnews.com/politics/trump-campaign-insider-reveals-strategy-midterm-blitz-white-house-hopes-pays-off-big",
-        "source": "fox",
-        "title": "Trump campaign insider reveals strategy behind midterm blitz that White House hopes pays off big"
-      },
-      {
-        "id": "art_1790955227118_0k7m1",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/02/cornell-university-leticia-james-christa-pike-death-penalty-donald-trump-us-jobs-latest-news-updates",
-        "source": "guardian",
-        "title": "Top Democrats slam ‘Trump’s failing economic agenda’ after weaker-than-expected jobs growth – US politics live"
-      },
-      {
-        "id": "art_1790908842171_864zn",
-        "url": "https://www.aljazeera.com/news/2026/10/2/trump-launches-midterms-campaign-blitz-amidst-record-low-approval-ratings?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump launches midterms campaign blitz amid record low approval ratings"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2abf18cee9fccfe9f44c214db0c5d0b6",
-    "topic_label": "Disparate Kinetic and Terrorism Investigations in UK, Ukraine, and France",
-    "event_window_start": "2026-10-02T08:03:02.000Z",
-    "event_window_end": "2026-10-02T19:46:59.000Z",
-    "article_ids": [
-      "art_1790972423221_p7jqa",
-      "art_1790972431930_emdyl",
-      "art_1790955238401_yobma",
-      "art_1790931817331_vn88r",
-      "art_1790931821752_mxars"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-02T23:22:54.349Z",
-    "updated_at": "2026-10-02T23:22:54.349Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism, Military Conflict, Civil Unrest",
-    "synthesis": "This analysis covers concurrent, high-intensity events: UK counter-terrorism authorities have detained individuals for allegedly planning violent acts against specific targets (Manchester Jewish community and political figures). Simultaneously, the ongoing military engagement in Ukraine involves Russian jet-powered drone strikes against civilian infrastructure (schools, hospitals) and intense attrition-based warfare resulting in record-high casualty rates (reportedly 46,230 Russian losses in September). In France, civil unrest categorized as 'urban violence' has resulted in the closure of 400 schools, the detention of approximately 3,000 students, and physical damage to educational facilities, necessitating riot police intervention.",
-    "consensus": [
-      "UK authorities have charged individuals with terrorism-related offenses.",
-      "Russia is actively utilizing jet-powered drones against civilian infrastructure in Kyiv.",
-      "French civil unrest has led to the detention of nearly 3,000 students and the closure of 400 schools.",
-      "The Ukrainian military reports record-high Russian combat casualties for the month of September."
-    ],
-    "divergence": [
-      "The Guardian frames the UK arrests as 'alleged terror plots,' focusing on the procedural legal charges.",
-      "Al Jazeera focuses on the statistical attrition of Russian forces, while The Guardian focuses on the human impact of drone strikes on Kyiv's urban population.",
-      "The Guardian characterizes French events as 'urban violence' stemming from grievances over school management, focusing on the high volume of detainments, whereas the root causes are simplified as student grievances."
-    ],
-    "sources": [
-      {
-        "id": "art_1790972423221_p7jqa",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/02/charged-alleged-terror-plot-manchester-jewish-community",
-        "source": "guardian",
-        "title": "Two Iranian men charged over alleged terror plot targeting Manchester’s Jewish community"
-      },
-      {
-        "id": "art_1790972431930_emdyl",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/02/ann-widdecombe-suspect-charged-with-planning-terror-act-against-nigel-farage",
-        "source": "guardian",
-        "title": "Ann Widdecombe murder suspect charged with planning terror act against Nigel Farage"
-      },
-      {
-        "id": "art_1790955238401_yobma",
-        "url": "https://www.theguardian.com/world/2026/oct/02/terror-kyiv-russia-ramps-up-attacks-ukraine",
-        "source": "guardian",
-        "title": "‘The enemy is tearing our city apart’: terror in Kyiv as Russia ramps up attacks"
-      },
-      {
-        "id": "art_1790931817331_vn88r",
-        "url": "https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
-        "source": "guardian",
-        "title": "400 French schools closed on Friday as protests escalate into ‘urban violence’ – Europe live"
-      },
-      {
-        "id": "art_1790931821752_mxars",
-        "url": "https://www.aljazeera.com/news/2026/10/2/russia-tries-to-freeze-ukraine-as-it-suffers-record-casualties-and-retreats?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia tries to freeze Ukraine as it suffers record casualties and retreats"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f067dea31ea8c3c2f6416d254233c589",
-    "topic_label": "Legislative Rejection of Housing Decrees Following Nationwide Protests in Spain",
-    "event_window_start": "2026-10-02T01:56:50.000Z",
-    "event_window_end": "2026-10-02T15:01:08.000Z",
-    "article_ids": [
-      "art_1790955231751_yzy4f",
-      "art_1790908839038_vucpc"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-02T19:24:41.108Z",
-    "updated_at": "2026-10-02T19:24:41.108Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "The Spanish government suffered a legislative failure as the 350-seat lower house of parliament voted down two emergency decrees intended to regulate housing markets, including eviction moratoriums and caps on short-term leasing. The legislative collapse occurred against a backdrop of ongoing nationwide civil unrest, characterized by localized pot-banging demonstrations and public gatherings outside the legislature. The physical state of the event is a failure of state-led housing policy amidst sustained, decentralized public pressure regarding property speculation and affordability.",
-    "consensus": [
-      "The Spanish government proposed two separate housing-related decrees.",
-      "Parliament rejected both proposed decrees.",
-      "Protests regarding housing affordability and evictions have occurred across Spain.",
-      "Public demonstrators gathered outside the parliament building."
-    ],
-    "divergence": [
-      "Al Jazeera's coverage frames the rejection of the housing decrees as a direct result of public pressure while emphasizing the specific emotional catalyst of an 87-year-old woman's eviction.",
-      "The reporting fails to detail the specific political composition of the opposition parties that voted against the measures, opting instead to focus on the narrative of the Prime Minister's political defeat."
-    ],
-    "sources": [
-      {
-        "id": "art_1790955231751_yzy4f",
-        "url": "https://www.aljazeera.com/news/2026/10/2/spains-parliament-rejects-govt-housing-decrees-amid-mass-protests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Spain’s parliament rejects gov’t housing decrees amid mass protests"
-      },
-      {
-        "id": "art_1790908839038_vucpc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/pot-banging-protests-across-spain-over-housing-crisis?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pot banging protests across Spain over housing crisis"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
