@@ -1,5 +1,74 @@
 [
   {
+    "cluster_id": "b8c19a9f20fd81e3885b9e486c12b78e",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-16T11:32:50.000Z",
+    "event_window_end": "2026-10-16T11:46:25.000Z",
+    "article_ids": [
+      "art_1792151995216_me1g4",
+      "art_1792151996424_ixzzi",
+      "art_1792151997677_kfn90",
+      "art_1792151998794_ofisr",
+      "art_1792151999838_jke6d"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-16T15:14:21.599Z",
+    "updated_at": "2026-10-16T15:14:21.599Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792151995216_me1g4",
+        "url": "https://www.foxnews.com/us/bystander-fatally-shoots-suspected-teen-gunman-deadly-elementary-school-shooting-more-top-headlines",
+        "source": "fox",
+        "title": "Bystander fatally shoots suspected teen gunman in deadly elementary school shooting and more top headlines"
+      },
+      {
+        "id": "art_1792151996424_ixzzi",
+        "url": "https://www.theguardian.com/world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates",
+        "source": "guardian",
+        "title": "Zelenskyy holds press conference after talks with EU leaders over breakdown in US relationship – Europe live"
+      },
+      {
+        "id": "art_1792151997677_kfn90",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/16/andy-burnham-scotland-devolution-speech-reform-uk-documentary-jenrick-farage-latest-news-updates",
+        "source": "guardian",
+        "title": "Burnham says he wants to devolve power so places can ‘change things for themselves’ – UK politics live"
+      },
+      {
+        "id": "art_1792151998794_ofisr",
+        "url": "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why is China buying up gold?"
+      },
+      {
+        "id": "art_1792151999838_jke6d",
+        "url": "https://www.aljazeera.com/opinions/2026/10/16/malaysias-welcome-for-min-aung-hlaing-undermines-its-stand-on-justice?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Malaysia’s welcome for Min Aung Hlaing undermines its stand on justice"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "c68bd982415d849fd337c8fb478ceab0",
     "topic_label": "Escalation of Kinetic Maritime Attacks and Regional Security Sanctions",
     "event_window_start": "2026-10-16T05:00:17.000Z",
@@ -13613,255 +13682,6 @@
         "url": "https://www.foxnews.com/outkick-sports/tennessee-fans-drank-1-3-million-worth-alcohol-texas-game-attended-president",
         "source": "fox",
         "title": "Tennessee fans drank $1.3 million worth of alcohol before, during Texas game attended by president"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "828adb3a8ce63b75755eac18148f98b4",
-    "topic_label": "Tennessee Department of Correction Commissioner Resignation Following Failed Lethal Injection",
-    "event_window_start": "2026-10-02T22:32:21.000Z",
-    "event_window_end": "2026-10-03T18:30:21.000Z",
-    "article_ids": [
-      "art_1791053163934_res2j",
-      "art_1791053169140_g5000",
-      "art_1791053174509_5proh",
-      "art_1791053175538_23apk",
-      "art_1791038875890_or5pa",
-      "art_1791038885478_z0v0a",
-      "art_1791038886703_qwpsk",
-      "art_1791038887888_zdh3t",
-      "art_1791021172445_epywl",
-      "art_1791021178007_0up4t",
-      "art_1791021179046_orvdr",
-      "art_1791021183217_4vfmr",
-      "art_1791021187391_7jsgy",
-      "art_1790999912427_g6r6w",
-      "art_1790999916558_tibhm",
-      "art_1790999918656_7tf71",
-      "art_1790999919687_wb1cb",
-      "art_1790999920729_chyet",
-      "art_1790999923988_hjbpv",
-      "art_1790999925020_aok95",
-      "art_1790986447255_yofn9",
-      "art_1790986449607_z37rt",
-      "art_1790986450685_yw8zn",
-      "art_1790986452786_ud3lt",
-      "art_1790986453959_goa2c",
-      "art_1790986456244_k5j2o",
-      "art_1790986457285_rfop0",
-      "art_1790986458365_rgsyv",
-      "art_1790986459404_3hggl",
-      "art_1790986461666_7rpqp"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 30,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-03T20:42:34.615Z",
-    "updated_at": "2026-10-03T20:42:34.615Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "Following a failed attempt to execute death row inmate Christa Pike via lethal injection on Wednesday, Tennessee Department of Correction Commissioner Frank Strada has resigned his position. Pike survived two attempted injections and remains in critical condition at a medical facility. Governor Bill Lee confirmed the resignation, initiating a formal investigation into the operational failure of the state-sanctioned execution process.",
-    "consensus": [
-      "Frank Strada resigned as Tennessee Department of Correction Commissioner.",
-      "Governor Bill Lee announced the resignation.",
-      "An attempted execution of Christa Pike occurred on Wednesday.",
-      "The lethal injection procedure failed, resulting in Pike being transported to a hospital in critical condition."
-    ],
-    "divergence": [
-      "The BBC report focuses on the institutional failure and political fallout of the failed execution.",
-      "Fox News and The Guardian reports discuss unrelated domestic political and social issues, providing no information on the failed execution; this demonstrates a deliberate omission of the critical state failure by those entities."
-    ],
-    "sources": [
-      {
-        "id": "art_1791053163934_res2j",
-        "url": "https://www.foxnews.com/tech/how-check-home-title-fraud",
-        "source": "fox",
-        "title": "How to check your home title for fraud"
-      },
-      {
-        "id": "art_1791053169140_g5000",
-        "url": "https://www.foxnews.com/politics/springsteen-headlines-music-festival-rallying-pro-democrat-activists-election-day",
-        "source": "fox",
-        "title": "Springsteen, other stars share stage with hardcore leftist groups at music fest"
-      },
-      {
-        "id": "art_1791053174509_5proh",
-        "url": "https://www.foxnews.com/media/trump-education-official-says-school-choice-program-put-pressure-dem-led-states",
-        "source": "fox",
-        "title": "Trump education official says school choice program will put pressure on Dem-led states"
-      },
-      {
-        "id": "art_1791053175538_23apk",
-        "url": "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Tennessee prison chief to resign after Christa Pike's failed execution"
-      },
-      {
-        "id": "art_1791038875890_or5pa",
-        "url": "https://www.theguardian.com/us-news/2026/oct/02/larry-nassar-michigan-sex-offender-registry-removed",
-        "source": "guardian",
-        "title": "Michigan state police rule out claim that Larry Nassar was removed from sex offender registry"
-      },
-      {
-        "id": "art_1791038885478_z0v0a",
-        "url": "https://www.foxnews.com/politics/dhs-exposes-dilemma-behind-scotus-deportation-fight-two-choices",
-        "source": "fox",
-        "title": "DHS exposes dilemma behind SCOTUS deportation fight: ‘We have two choices’"
-      },
-      {
-        "id": "art_1791038886703_qwpsk",
-        "url": "https://www.theguardian.com/technology/2026/oct/03/california-ai-laws-worker-protection",
-        "source": "guardian",
-        "title": "California’s new laws target workers’ biggest fear of AI taking their jobs"
-      },
-      {
-        "id": "art_1791038887888_zdh3t",
-        "url": "https://www.theguardian.com/us-news/2026/oct/03/florida-felony-murder-charge-hot-car-death",
-        "source": "guardian",
-        "title": "Florida court reverses felony murder charge for death of baby left in hot car"
-      },
-      {
-        "id": "art_1791021172445_epywl",
-        "url": "https://www.theguardian.com/politics/live/2026/oct/03/green-party-conference-zack-polanski-uk-politics-latest-news-updates-labour-conservatives-reform",
-        "source": "guardian",
-        "title": "Greens would nationalise Thames and SE Water without paying compensation, says deputy leader – UK politics live"
-      },
-      {
-        "id": "art_1791021178007_0up4t",
-        "url": "https://www.foxnews.com/politics/expert-tears-apart-talaricos-viral-claim-agenda-based-jesus-teachings-butchering-bible",
-        "source": "fox",
-        "title": "Expert tears apart Talarico's viral claim his agenda is based on Jesus's teachings: 'Butchering the Bible'"
-      },
-      {
-        "id": "art_1791021179046_orvdr",
-        "url": "https://www.foxnews.com/media/deprogrammed-she-entered-strip-club-chasing-money-left-five-years-later-chasing-god",
-        "source": "fox",
-        "title": "DEPROGRAMMED: She entered the strip club chasing money and left five years later chasing God"
-      },
-      {
-        "id": "art_1791021183217_4vfmr",
-        "url": "https://www.aljazeera.com/sports/2026/10/3/turkish-court-detains-football-refereeing-chief-pending-corruption-trial?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Turkish court detains football refereeing chief pending corruption trial"
-      },
-      {
-        "id": "art_1791021187391_7jsgy",
-        "url": "https://www.theguardian.com/business/2026/oct/03/uk-polymarket-hsbc-lloyds-failures-banks",
-        "source": "guardian",
-        "title": "UK urged to act as Polymarket takes bets on whether HSBC and Lloyds will fail"
-      },
-      {
-        "id": "art_1790999912427_g6r6w",
-        "url": "https://www.foxnews.com/politics/three-college-students-face-federal-charges-alleged-threats-trump-campus-rally",
-        "source": "fox",
-        "title": "Three college students face federal charges over alleged threats against Trump ahead of campus rally"
-      },
-      {
-        "id": "art_1790999916558_tibhm",
-        "url": "https://www.foxnews.com/travel/airport-x-ray-exposes-dangerous-weapon-illegally-concealed-passengers-carry-on",
-        "source": "fox",
-        "title": "Airport X-ray exposes dangerous weapon illegally concealed in passenger's carry-on"
-      },
-      {
-        "id": "art_1790999918656_7tf71",
-        "url": "https://www.foxnews.com/us/fox-news-campus-radicals-newsletter-christianity-rejected-far-left-phenom-visits-campus-violence-glorified",
-        "source": "fox",
-        "title": "Fox News Campus Radicals Newsletter: Christianity rejected, socialist streamer speaks, violence glorified"
-      },
-      {
-        "id": "art_1790999919687_wb1cb",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/3/schools-ablaze-as-student-protests-spread-across-france?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Schools ablaze as student protests spread across France"
-      },
-      {
-        "id": "art_1790999920729_chyet",
-        "url": "https://www.foxnews.com/us/fbi-first-cyber-fugitive-ten-most-wanted-list-returns-us-capture-venezuela",
-        "source": "fox",
-        "title": "FBI's first cyber fugitive on Ten Most Wanted list returns to US after capture in Venezuela"
-      },
-      {
-        "id": "art_1790999923988_hjbpv",
-        "url": "https://www.theguardian.com/us-news/2026/oct/02/cyclospora-mexico-farm-lettuce",
-        "source": "guardian",
-        "title": "Cyclospora found at Mexican farm linked to lettuce outbreak, FDA says"
-      },
-      {
-        "id": "art_1790999925020_aok95",
-        "url": "https://www.foxnews.com/outkick-sports/penguins-forward-andrei-kuzmenko-changes-jersey-honor-late-father-killed-bear-attack",
-        "source": "fox",
-        "title": "Penguins forward Andrei Kuzmenko changes jersey to honor late father killed in bear attack"
-      },
-      {
-        "id": "art_1790986447255_yofn9",
-        "url": "https://www.foxnews.com/politics/blue-state-councilman-mocked-claiming-self-driving-cars-murdering-pets-hide-your-cats",
-        "source": "fox",
-        "title": "Blue state councilman mocked after claiming self-driving cars are 'murdering' pets: 'Hide your cats'"
-      },
-      {
-        "id": "art_1790986449607_z37rt",
-        "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Cornell frat house rape accuser 'under siege' online, says lawyer"
-      },
-      {
-        "id": "art_1790986450685_yw8zn",
-        "url": "https://www.theguardian.com/us-news/2026/oct/02/gypsy-rose-blanchard-ken-urker-dead",
-        "source": "guardian",
-        "title": "Partner of Gypsy Rose Blanchard found dead in Louisiana home"
-      },
-      {
-        "id": "art_1790986452786_ud3lt",
-        "url": "https://www.foxnews.com/media/mamdani-strange-called-out-netanyahu-calling-arrest",
-        "source": "fox",
-        "title": "Mamdani says it was 'strange' getting called out by Netanyahu after calling for his arrest"
-      },
-      {
-        "id": "art_1790986453959_goa2c",
-        "url": "https://www.aljazeera.com/news/2026/10/2/dutch-royal-house-helped-slave-trade-to-survive-study-finds?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Dutch royal house helped slave trade to survive, study finds"
-      },
-      {
-        "id": "art_1790986456244_k5j2o",
-        "url": "https://www.theguardian.com/us-news/2026/oct/02/big-bend-national-park-border-wall-halt",
-        "source": "guardian",
-        "title": "Federal judge halts Big Bend border wall construction in blow to Trump agenda"
-      },
-      {
-        "id": "art_1790986457285_rfop0",
-        "url": "https://www.bbc.co.uk/news/articles/cjwyzyqvx1zxo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Women given shorts at Oktoberfest to prevent upskirting"
-      },
-      {
-        "id": "art_1790986458365_rgsyv",
-        "url": "https://www.foxnews.com/entertainment/michael-mcdonalds-long-lost-son-reveals-stunning-moment-discovered-famous-father-58-years",
-        "source": "fox",
-        "title": "EXCLUSIVE: Michael McDonald’s long-lost son reveals stunning moment he discovered famous father after 58 years"
-      },
-      {
-        "id": "art_1790986459404_3hggl",
-        "url": "https://www.bbc.co.uk/news/articles/ck7v4v8pmzdeo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "The vanishing world of India's street magicians"
-      },
-      {
-        "id": "art_1790986461666_7rpqp",
-        "url": "https://www.theguardian.com/business/2026/oct/02/doj-fed-chair-jerome-powell-investigation",
-        "source": "guardian",
-        "title": "DoJ declines to reopen investigation into former Fed chair Jay Powell"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
