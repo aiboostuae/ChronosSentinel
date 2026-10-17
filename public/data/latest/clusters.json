@@ -1,5 +1,77 @@
 [
   {
+    "cluster_id": "26f5c62bb6c2d340e28bebd77d623149",
+    "topic_label": "US Presidential Executive Action Waiving Russia Sanctions",
+    "event_window_start": "2026-10-17T04:58:32.000Z",
+    "event_window_end": "2026-10-17T05:02:50.000Z",
+    "article_ids": [
+      "art_1792215134610_lhs2l",
+      "art_1792215135701_tj6cz",
+      "art_1792215136746_ghtw9",
+      "art_1792215137901_cx3k1",
+      "art_1792215138939_cnjdk"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-17T09:12:58.384Z",
+    "updated_at": "2026-10-17T09:12:58.384Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "US President Donald Trump issued an executive order nullifying multiple congressionally mandated sanctions against the Russian Federation. The order, which prevents previously legislated penalties from taking effect, is explicitly tied to an administrative effort to increase Russian diesel imports into the United States to reduce domestic fuel costs prior to the November midterm elections. This action has triggered a formal bipartisan legislative challenge in Congress and resulted in diplomatic friction with Ukrainian and European Union officials.",
+    "consensus": [
+      "US President Donald Trump signed an executive order waiving previously legislated sanctions against Russia.",
+      "The executive order is being implemented to facilitate the import of Russian diesel to lower US energy prices.",
+      "The move has caused significant political friction within the US government and among international allies."
+    ],
+    "divergence": [
+      "BBC frames the waiver through the lens of 'national interests' and focuses on the legislative backlash.",
+      "Al Jazeera explicitly links the sanctions waiver to an intensifying geopolitical rift between the Trump administration and Ukrainian leadership, providing context omitted by other sources."
+    ],
+    "sources": [
+      {
+        "id": "art_1792215134610_lhs2l",
+        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump waives several Russia sanctions as new US law takes effect"
+      },
+      {
+        "id": "art_1792215135701_tj6cz",
+        "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers"
+      },
+      {
+        "id": "art_1792215136746_ghtw9",
+        "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The Israeli politicians seeking to replace Netanyahu"
+      },
+      {
+        "id": "art_1792215137901_cx3k1",
+        "url": "https://www.theguardian.com/politics/2026/oct/17/home-office-visa-british-baby-thailand-great-grandfather",
+        "source": "guardian",
+        "title": "Home Office denies British baby living in Thailand chance to meet great-grandfather in UK"
+      },
+      {
+        "id": "art_1792215138939_cnjdk",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump waives Russia sanctions as rift with Zelenskyy widens"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "49514b598ee88cc5d7c747f2e7b07e2b",
     "topic_label": "Armed Assault at Silver Rail Elementary School in Bend, Oregon",
     "event_window_start": "2026-10-16T11:07:08.000Z",
@@ -13922,76 +13994,6 @@
         "url": "https://www.bbc.co.uk/news/articles/ckly0leelnz4o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Cornell president says university 'must do better' after frat house rape allegations"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4fd81f19770cd2701f7f663662a0eb9b",
-    "topic_label": "US Marine Arrested for Homicide in Okinawa",
-    "event_window_start": "2026-10-03T18:00:31.000Z",
-    "event_window_end": "2026-10-04T12:44:52.000Z",
-    "article_ids": [
-      "art_1791118660712_khpob",
-      "art_1791118663797_7on4m",
-      "art_1791118673647_k165g",
-      "art_1791095092738_ur84a",
-      "art_1791053174509_5proh"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-04T15:10:02.852Z",
-    "updated_at": "2026-10-04T15:10:02.852Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Criminality",
-    "synthesis": "Lance Corporal Devin Jacob Ballard, a 20-year-old active-duty US Marine stationed in Japan, was arrested by local authorities in Naha, Okinawa. He is accused of the robbery and homicide of a 39-year-old female civilian at a hotel. The incident has resulted in a formal diplomatic protest from the Japanese government against the United States.",
-    "consensus": [
-      "A 20-year-old US Marine named Devin Jacob Ballard was arrested in Naha, Okinawa.",
-      "The suspect is accused of robbing and killing a 39-year-old woman at a hotel.",
-      "The Japanese government has issued a formal protest to the United States regarding the incident."
-    ],
-    "divergence": [
-      "Fox News frames the incident within a broader context of criminal behavior by mentioning a separate, unrelated case involving a body dump site on an army base to emphasize a trend of misconduct, whereas other potential sources for this event may omit the broader institutional context to focus solely on the singular criminal act."
-    ],
-    "sources": [
-      {
-        "id": "art_1791118660712_khpob",
-        "url": "https://www.foxnews.com/politics/trump-launching-super-intelligence-force-ensure-american-dominance",
-        "source": "fox",
-        "title": "Trump launching 'Super Intelligence Force' to ensure American dominance"
-      },
-      {
-        "id": "art_1791118663797_7on4m",
-        "url": "https://www.foxnews.com/world/us-marine-arrested-japan-suspected-killing-woman-tokyo-lodges-strong-protest",
-        "source": "fox",
-        "title": "US Marine arrested in Japan over suspected killing of woman as Tokyo lodges 'strong protest'"
-      },
-      {
-        "id": "art_1791118673647_k165g",
-        "url": "https://www.foxnews.com/politics/gop-senate-candidate-estranged-wife-confirms-voting-amid-divorce-proceedings",
-        "source": "fox",
-        "title": "GOP Senate candidate's estranged wife confirms who she's voting for amid divorce proceedings"
-      },
-      {
-        "id": "art_1791095092738_ur84a",
-        "url": "https://www.aljazeera.com/news/2026/10/4/trump-defiant-about-midterm-chances-as-he-rallies-for-republicans-in-ohio?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump defiant about midterm chances as he rallies for Republicans in Ohio"
-      },
-      {
-        "id": "art_1791053174509_5proh",
-        "url": "https://www.foxnews.com/media/trump-education-official-says-school-choice-program-put-pressure-dem-led-states",
-        "source": "fox",
-        "title": "Trump education official says school choice program will put pressure on Dem-led states"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

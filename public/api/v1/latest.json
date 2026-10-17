@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-17T05:04:10.819Z",
+  "generated_at": "2026-10-17T09:13:50.723Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 161,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "26f5c62bb6c2d340e28bebd77d623149",
+      "topic_label": "US Presidential Executive Action Waiving Russia Sanctions",
+      "event_window_start": "2026-10-17T04:58:32.000Z",
+      "event_window_end": "2026-10-17T05:02:50.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "US President Donald Trump issued an executive order nullifying multiple congressionally mandated sanctions against the Russian Federation. The order, which prevents previously legislated penalties from taking effect, is explicitly tied to an administrative effort to increase Russian diesel imports into the United States to reduce domestic fuel costs prior to the November midterm elections. This action has triggered a formal bipartisan legislative challenge in Congress and resulted in diplomatic friction with Ukrainian and European Union officials.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump waives several Russia sanctions as new US law takes effect"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
+          "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
+          "title": "The Israeli politicians seeking to replace Netanyahu"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/politics/2026/oct/17/home-office-visa-british-baby-thailand-great-grandfather",
+          "title": "Home Office denies British baby living in Thailand chance to meet great-grandfather in UK"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
+          "title": "Trump waives Russia sanctions as rift with Zelenskyy widens"
+        }
+      ],
+      "updated_at": "2026-10-17T09:12:58.384Z"
+    },
     {
       "cluster_id": "49514b598ee88cc5d7c747f2e7b07e2b",
       "topic_label": "Armed Assault at Silver Rail Elementary School in Bend, Oregon",
@@ -543,40 +584,29 @@
         }
       ],
       "updated_at": "2026-10-17T00:21:50.102Z"
-    },
-    {
-      "cluster_id": "e1755431d02924b5b620ed9f08e5887d",
-      "topic_label": "Interception of 780kg Explosive Payload in Lebanon",
-      "event_window_start": "2026-10-16T05:00:51.000Z",
-      "event_window_end": "2026-10-16T05:51:40.000Z",
-      "article_count": 3,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Lebanese security forces intercepted a truck transporting 780 kilograms of explosives on a transit route between Beirut and the Bekaa Valley. Hezbollah representative Hassan Fadlallah formally admitted the explosives were intended for military operations against Israel. The event, involving a significant quantity of hazardous ordnance, has triggered diplomatic communication between the Lebanese Presidency and US Secretary of State Marco Rubio regarding the suppression of militant weaponry.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news-analysis/2026/10/16/us-sanctions-leave-iranians-facing-flight-cancellations-and-soaring-costs?traffic_source=rss",
-          "title": "US sanctions leave Iranians facing flight cancellations and soaring costs"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss",
-          "title": "Rubio presses Lebanon on confiscation of weapons from Hezbollah"
-        },
-        {
-          "source": "guardian",
-          "url": "https://www.theguardian.com/global-development/2026/oct/16/saudi-arabia-to-execute-man-for-being-at-protests-and-funerals-when-he-was-15",
-          "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15"
-        }
-      ],
-      "updated_at": "2026-10-17T00:21:50.102Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-26f5c62b",
+      "title": "US Presidential Executive Action Waiving Russia Sanctions",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "energy",
+        "shipping"
+      ],
+      "why_it_matters": "US President Donald Trump issued an executive order nullifying multiple congressionally mandated sanctions against the Russian Federation. The order, which prevents previously legislated penalties from taking effect, is explicitly tied to an administrative effort to increase Russian diesel imports into the United States to reduce domestic fuel costs prior to the November midterm elections. This action has triggered a formal bipartisan legislative challenge in Congress and resulted in diplomatic friction with Ukrainian and European Union officials.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "26f5c62bb6c2d340e28bebd77d623149",
+      "related_watchlist_id": null,
+      "operator_hint": "Track crude commodity prices and pipeline telemetry alerts.",
+      "updated_at": "2026-10-17T09:12:58.384Z"
+    },
     {
       "id": "impact-b595b312",
       "title": "US-Ukraine Starlink Connectivity Dispute and Ongoing Combat Operations",
@@ -767,29 +797,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-16T22:10:46.129Z"
-    },
-    {
-      "id": "impact-cc9d0095",
-      "title": "Ukrainian Strategic Offensive and Transatlantic Support Frictions",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "conflict",
-        "energy",
-        "grid",
-        "shipping",
-        "instability"
-      ],
-      "why_it_matters": "Ukrainian military forces are conducting Operation Vivaldi in the eastern Donbas region, claiming the recovery of 277 square kilometers of territory while utilizing Starlink satellite data for drone targeting and command-and-control operations. Simultaneously, a geopolitical conflict has emerged between the Ukrainian government and the United States administration, characterized by the reported throttling of Starlink access and the suspension of support for Ukrainian strikes on Russian oil infrastructure. Ukrainian President Zelenskyy is currently in Brussels requesting approximately 70 billion Euros in financial and military aid from European Union leadership to offset the degradation of US logistical and technical support.",
-      "evidence_summary": "3 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "cc9d00956c587e12abc1fcf7c462debd",
-      "related_watchlist_id": "watch-001",
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-10-16T18:53:39.393Z"
     }
   ]
 }
