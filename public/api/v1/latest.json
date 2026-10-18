@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-18T06:30:41.776Z",
+  "generated_at": "2026-10-18T11:46:07.951Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 163,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "dd0cb1bac8d0d47d91d806dac23dd87d",
+      "topic_label": "Saudi-led Airstrikes against Houthi Positions in Taiz",
+      "event_window_start": "2026-10-18T00:32:28.000Z",
+      "event_window_end": "2026-10-18T01:13:28.000Z",
+      "article_count": 5,
+      "source_count": 2,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "Saudi-led military forces conducted multiple kinetic airstrikes targeting Houthi-held positions surrounding the city of Taiz, Yemen. The operation serves as a tactical offensive to break the ongoing siege of the city, which currently functions as a primary frontline in the civil conflict between the internationally recognized government forces and Houthi combatants.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/politics/no-kings-protesters-spurn-organizers-rules-this-partisan-you-can-get",
+          "title": "‘No Kings’ protesters spurn organizers' rules: ‘This is as partisan as you can get’"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/saudi-led-forces-try-to-break-houthi-siege-of-taiz-with-airstrikes?traffic_source=rss",
+          "title": "Saudi-led forces try to break Houthi siege of Taiz with airstrikes"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
+          "title": "Israeli settlers attack European diplomats in the occupied West Bank"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/tennessee-dominates-alabama-suffers-first-back-to-back-regular-season-losses-nearly-two-decades",
+          "title": "Tennessee dominates as Alabama suffers first back-to-back regular-season losses in nearly two decades"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/freshman-tommy-carr-second-half-magic-leads-michigan-must-have-win-penn-state",
+          "title": "Freshman Tommy Carr's second-half magic leads Michigan to must-have win over Penn State"
+        }
+      ],
+      "updated_at": "2026-10-18T11:46:04.937Z"
+    },
     {
       "cluster_id": "1c37eb323ae67be67334d232fa58df1b",
       "topic_label": "Armed Assault on Diplomatic Convoy and Journalists in West Bank",
@@ -373,35 +414,29 @@
         }
       ],
       "updated_at": "2026-10-17T21:26:18.379Z"
-    },
-    {
-      "cluster_id": "a623e3c0a9015634af84a1d788b4bd10",
-      "topic_label": "Surgical Removal of Pulmonary Neoplasm in Pope Leo XIV",
-      "event_window_start": "2026-10-17T12:37:26.000Z",
-      "event_window_end": "2026-10-17T15:47:52.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "Pope Leo XIV underwent a 90-minute surgical procedure at Gemelli Hospital in Rome to excise a malignant lung tumor. Following the operation, the patient exhibited clinical improvement confirmed by chest X-rays and blood work. The subject has been discharged from inpatient care and is scheduled to resume public liturgical functions, specifically the Angelus prayer, at St Peter's Square.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/pope-leo-leaves-hospital-after-lung-cancer-surgery?traffic_source=rss",
-          "title": "Pope Leo leaves hospital after lung cancer surgery"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/articles/c5x2vkddrkrko?at_medium=RSS&at_campaign=rss",
-          "title": "Pope to be discharged days after lung cancer surgery"
-        }
-      ],
-      "updated_at": "2026-10-17T18:56:26.588Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-dd0cb1ba",
+      "title": "Saudi-led Airstrikes against Houthi Positions in Taiz",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "instability"
+      ],
+      "why_it_matters": "Saudi-led military forces conducted multiple kinetic airstrikes targeting Houthi-held positions surrounding the city of Taiz, Yemen. The operation serves as a tactical offensive to break the ongoing siege of the city, which currently functions as a primary frontline in the civil conflict between the internationally recognized government forces and Houthi combatants.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "dd0cb1bac8d0d47d91d806dac23dd87d",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-10-18T11:46:04.937Z"
+    },
     {
       "id": "impact-1c37eb32",
       "title": "Armed Assault on Diplomatic Convoy and Journalists in West Bank",
@@ -590,27 +625,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-17T21:26:18.379Z"
-    },
-    {
-      "id": "impact-0feb2f7f",
-      "title": "Escalating Civil Unrest and Targeted Industrial Cyber-Sabotage in France",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict",
-        "grid",
-        "instability"
-      ],
-      "why_it_matters": "France is experiencing concurrent kinetic and cyber-destabilization. Civil unrest spanning multiple weeks involves widespread arson of vehicles and structures, police deployment of armored 4x4 units against student demonstrators, and the use of riot control agents. Simultaneously, a state-level or advanced actor executed a coordinated cyber-attack on national supermarket infrastructure, remotely overriding temperature controls on thousands of commercial cooling units, resulting in total loss of cold-chain inventory through forced thermal elevation. These events demonstrate a significant breakdown in public order and the vulnerability of critical food supply chains to remote digital kinetic action.",
-      "evidence_summary": "3 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "0feb2f7f8170799e765029599fbe1078",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-10-17T18:56:26.588Z"
     }
   ]
 }
