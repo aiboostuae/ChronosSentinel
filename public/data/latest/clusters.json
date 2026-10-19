@@ -1,5 +1,73 @@
 [
   {
+    "cluster_id": "39bda62a9b6fc4dee399bf783003a748",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-19T12:00:01.000Z",
+    "event_window_end": "2026-10-19T12:03:39.000Z",
+    "article_ids": [
+      "art_1792412053654_rm9bj",
+      "art_1792412055943_tmsfr",
+      "art_1792412057049_c8kmu",
+      "art_1792412058284_8oh6a",
+      "art_1792412059308_uvs52"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-19T17:54:54.730Z",
+    "updated_at": "2026-10-19T17:54:54.730Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792412053654_rm9bj",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/19/russell-brand-trial-dragged-raped-woman-court-told",
+        "source": "guardian",
+        "title": "Russell Brand had ‘maniacal grin’ as he dragged woman into toilet and raped her, court told"
+      },
+      {
+        "id": "art_1792412055943_tmsfr",
+        "url": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister",
+        "source": "guardian",
+        "title": "French prime minister calls for ‘local and partial’ curfews after riots"
+      },
+      {
+        "id": "art_1792412057049_c8kmu",
+        "url": "https://www.foxnews.com/travel/ancient-dna-challenges-theories-about-when-humans-first-reached-north-america",
+        "source": "fox",
+        "title": "Ancient DNA challenges theories about when humans first reached North America"
+      },
+      {
+        "id": "art_1792412058284_8oh6a",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/19/andy-burnham-labour-children-welfare-neets-kemi-badenoch-conservatives-nigel-farage-reform-latest-news-updates",
+        "source": "guardian",
+        "title": "No 10: Hegseth ‘wrong’ to say most non-US Nato soldiers didn’t fight in Afghanistan – UK politics live"
+      },
+      {
+        "id": "art_1792412059308_uvs52",
+        "url": "https://www.theguardian.com/world/2026/oct/19/ebola-cases-kenya-us-quarantine",
+        "source": "guardian",
+        "title": "Third Ebola case in Kenya highlights US failures amid Trump cuts to key services"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "066e52754044bc2098dea884d29d5ad1",
     "topic_label": "Assault on EU Diplomatic Convoy in West Bank",
     "event_window_start": "2026-10-18T14:42:01.000Z",
@@ -14744,78 +14812,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/what-israeli-schools-teach?traffic_source=rss",
         "source": "aljazeera",
         "title": "What Israeli schools teach"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "0af9590c37a99b27209725283bf02119",
-    "topic_label": "Arrest of Minnesota resident for planned mass shooting at Mall of America",
-    "event_window_start": "2026-10-07T03:15:26.000Z",
-    "event_window_end": "2026-10-07T21:52:59.000Z",
-    "article_ids": [
-      "art_1791413516457_qwq3m",
-      "art_1791396616127_ip0fy",
-      "art_1791372558527_6wqeq",
-      "art_1791372561660_etxc5",
-      "art_1791346822455_vq85h"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-08T00:33:56.611Z",
-    "updated_at": "2026-10-08T00:33:56.611Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism",
-    "synthesis": "An individual identifying as an ISIS supporter was taken into federal custody following an FBI-led sting operation. The suspect acquired a semi-automatic rifle, four ammunition magazines, and 200 rounds of ammunition from an undercover agent. The suspect had documented intent to carry out a mass casualty shooting event at the Mall of America in Bloomington, Minnesota.",
-    "consensus": [
-      "An individual was arrested by federal authorities in Minnesota.",
-      "The suspect allegedly intended to carry out a mass shooting at the Mall of America.",
-      "The suspect purchased an AK-47-style rifle and ammunition from an undercover law enforcement employee.",
-      "The suspect allegedly pledged allegiance to ISIS."
-    ],
-    "divergence": [
-      "Fox News frames the event as a 'terror plot thwarted,' emphasizing the success of the sting operation.",
-      "Fox News includes specific details on the weapon procurement and the suspect's alleged ideological affiliation which are treated as central to the narrative of pre-emptive law enforcement intervention."
-    ],
-    "sources": [
-      {
-        "id": "art_1791413516457_qwq3m",
-        "url": "https://www.theguardian.com/education/2026/oct/07/family-student-ethan-scott-brown-university-glasgow-accountable",
-        "source": "guardian",
-        "title": "Family of student who took his own life say university ‘will be held to account’"
-      },
-      {
-        "id": "art_1791396616127_ip0fy",
-        "url": "https://www.foxnews.com/us/minnesota-man-accused-plotting-mall-america-attack-pledging-allegiance-isis-fbi",
-        "source": "fox",
-        "title": "Mall of America terror plot thwarted, suspected ISIS sympathizer arrested, FBI announces"
-      },
-      {
-        "id": "art_1791372558527_6wqeq",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/07/donald-trump-gavin-newsom-california-la-san-diego-iran-republicans-democrats-us-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump’s LA and San Diego comments ‘dangerous, if not treasonous’, says Newsom – US politics live"
-      },
-      {
-        "id": "art_1791372561660_etxc5",
-        "url": "https://www.foxnews.com/us/alex-murdaugh-prosecutors-torch-manufactured-cellphone-claim-glad-offer-evidence-2tb-drive",
-        "source": "fox",
-        "title": "Alex Murdaugh prosecutors torch ‘manufactured’ cellphone claim, ‘glad’ to offer evidence again for 2TB drive"
-      },
-      {
-        "id": "art_1791346822455_vq85h",
-        "url": "https://www.foxnews.com/us/man-pleads-guilty-2023-killing-lauren-heike-phoenix-hiking-trail",
-        "source": "fox",
-        "title": "Man pleads guilty to 2023 killing of Lauren Heike on Phoenix hiking trail"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
