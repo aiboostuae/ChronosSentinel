@@ -1,25 +1,19 @@
 [
   {
-    "cluster_id": "544d9e982c7619394c2808fa573a52df",
-    "topic_label": "Nationwide Civil Unrest and Arson in France",
-    "event_window_start": "2026-10-18T14:50:37.000Z",
-    "event_window_end": "2026-10-18T20:54:03.000Z",
+    "cluster_id": "4162a22704f21d6b96e63c38a49f9751",
+    "topic_label": "Fatal Explosion and Conflagration at CFB Wainwright",
+    "event_window_start": "2026-10-18T17:54:16.000Z",
+    "event_window_end": "2026-10-18T19:42:37.000Z",
     "article_ids": [
-      "art_1792357929815_hhf3i",
-      "art_1792357930861_in6kb",
-      "art_1792357932928_sl1fk",
-      "art_1792348205309_85wth",
-      "art_1792337649528_46jll",
-      "art_1792337656059_0ihtt"
+      "art_1792357942380_zc3fs",
+      "art_1792348204261_bqcyp"
     ],
     "source_ids": [
-      "fox",
       "bbc",
-      "aljazeera",
-      "guardian"
+      "fox"
     ],
-    "article_count": 6,
-    "source_count": 4,
+    "article_count": 2,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
@@ -29,21 +23,87 @@
     "region_tag": "global",
     "severity": "CRITICAL",
     "incident_type": "Infrastructure",
-    "synthesis": "France is experiencing widespread kinetic civil unrest characterized by the deliberate destruction of public and private property, including the torching of vehicles, storming of state buildings, and looting of commercial storefronts. Violent clashes between demonstrators—including masked groups—and state security forces have resulted in approximately 2,400 arrests and an estimated 1,000 injuries to police and gendarmerie personnel. The state has mobilized emergency crisis units to regain control over urban areas where public infrastructure has been compromised by arson and structural damage.",
+    "synthesis": "A catastrophic thermal event occurred at Canadian Forces Base Wainwright on Saturday at approximately 16:00 local time, resulting in at least four confirmed fatalities and multiple severe casualties among military personnel. The conflagration was preceded by reports of a gas main strike occurring during a live-fire training exercise, which subsequently escalated into a rapid-fire spread exacerbated by high winds affecting both the base and adjacent rural territory. The incident remains under official investigation to determine if the gas main rupture was a direct result of kinetic weapon impact or infrastructure failure during training operations.",
     "consensus": [
-      "Nationwide demonstrations occurred across France",
-      "Physical violence, looting, and arson of public and private property were reported",
-      "State security forces engaged with rioters using tear gas",
-      "President Macron publicly addressed the unrest",
-      "Approximately 2,400 individuals were arrested",
-      "Significant injury count reported among police and gendarme forces"
+      "Four military personnel confirmed deceased",
+      "Dozens of personnel sustained severe injuries",
+      "Incident occurred at Canadian Forces Base Wainwright, Alberta",
+      "Fire initiated during scheduled military training exercises",
+      "Official confirmation of the event provided by Prime Minister Mark Carney"
     ],
     "divergence": [
-      "Fox News frames the events primarily through political critique, focusing on the failure of specific state policies and immigration, whereas the Guardian focuses on the government's perceived institutional failure and internal political instability.",
-      "Al Jazeera emphasizes the internal state crisis and the threat to the republic as defined by executive rhetoric, whereas the BBC focuses on the stated socio-economic motivations of the protesters.",
-      "Reported arrest figures vary across sources, ranging from 1,800 to 2,400, reflecting differing stages of data collection and potentially conflicting government reporting updates provided to various media outlets."
+      "BBC reports the event as a 'deadly fire' without mentioning the potential cause of a gas main strike as a confirmed physical mechanism, focusing on the lack of official details.",
+      "Fox News explicitly notes the influence of high winds in spreading the fire beyond base parameters, a detail omitted by BBC.",
+      "Fox News includes a preemptive statement regarding the absence of terrorism, which functions as a defensive narrative frame not present in the BBC reporting."
     ],
     "sources": [
+      {
+        "id": "art_1792357942380_zc3fs",
+        "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "What we know so far about deadly fire at Canadian military base"
+      },
+      {
+        "id": "art_1792348204261_bqcyp",
+        "url": "https://www.foxnews.com/world/canadian-pm-carney-4-service-members-killed-dozens-injured-military-base-fire",
+        "source": "fox",
+        "title": "Canadian PM Carney says 4 service members killed, dozens injured in military base fire"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "467fdce50fd349eea4c0b9c8a77ea3d2",
+    "topic_label": "Nationwide Civil Unrest and Rioting in France",
+    "event_window_start": "2026-10-18T14:50:37.000Z",
+    "event_window_end": "2026-10-18T21:10:47.000Z",
+    "article_ids": [
+      "art_1792364635948_cy1wm",
+      "art_1792357929815_hhf3i",
+      "art_1792357930861_in6kb",
+      "art_1792357932928_sl1fk",
+      "art_1792348205309_85wth",
+      "art_1792337649528_46jll",
+      "art_1792337656059_0ihtt"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 7,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-19T00:35:01.997Z",
+    "updated_at": "2026-10-19T00:35:01.997Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Civil Unrest",
+    "synthesis": "Large-scale civil unrest across France involving hundreds of thousands of demonstrators led to widespread kinetic engagements between protesters and law enforcement. Physical actions included the arson of vehicles, looting of private businesses, destruction of storefronts, and direct physical clashes between masked groups and security forces. Law enforcement utilized tear gas against protesters. The unrest resulted in approximately 1,000 police and gendarme injuries, and between 1,800 and 2,400 arrests were reported nationwide. President Macron has convened a crisis unit to address the structural damage and maintain public order.",
+    "consensus": [
+      "Nationwide demonstrations occurred across France regarding the cost of living and public services.",
+      "The protests devolved into riots characterized by looting, arson, and property destruction.",
+      "Physical clashes occurred between demonstrators and police forces.",
+      "President Emmanuel Macron issued a public address condemning the violence and pledging legal consequences for rioters.",
+      "Law enforcement deployed tear gas and executed mass arrests."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the presidential narrative of 'protecting the republic' and focuses on government-provided arrest statistics.",
+      "Fox News frames the event through the lens of political failure, citing Le Figaro to criticize Macron's judicial and immigration policies, while highlighting visual evidence of urban destruction.",
+      "BBC emphasizes the scale of peaceful participation (550,000) compared to the rioters to provide context to the protests.",
+      "There is a discrepancy in arrest figures cited by different sources, ranging from 1,800 to 2,400."
+    ],
+    "sources": [
+      {
+        "id": "art_1792364635948_cy1wm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Macron condemns violence after riots lead to looting and mass arrests"
+      },
       {
         "id": "art_1792357929815_hhf3i",
         "url": "https://www.foxnews.com/world/french-newspaper-rips-macron-riots-erupt-across-france-indelible-stain",
@@ -134,6 +194,154 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "b087c98ca2fd3ceb7bb6f1607f75b468",
+    "topic_label": "Physical Assault on EU Diplomatic Convoy in West Bank",
+    "event_window_start": "2026-10-18T01:02:37.000Z",
+    "event_window_end": "2026-10-18T17:52:37.000Z",
+    "article_ids": [
+      "art_1792348206503_wx4ku",
+      "art_1792337650601_wbpbi",
+      "art_1792337657089_eu59x",
+      "art_1792287371525_vt3yk"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-19T00:35:01.997Z",
+    "updated_at": "2026-10-19T00:35:01.997Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "On Saturday, masked Israeli settlers physically attacked a diplomatic delegation including representatives from France, Belgium, and Poland, as well as a French mayor and Catholic Church officials, near the village of Taybeh in the West Bank. The delegation was physically targeted while observing the Palestinian olive harvest. The event involved direct physical aggression against foreign government personnel, resulting in an official condemnation from the European Union, which labeled the actions as part of a broader trend of violence against civilians and international observers in the region.",
+    "consensus": [
+      "A delegation of European diplomats and associated personnel was physically attacked by masked individuals identified as Israeli settlers.",
+      "The incident occurred near the Palestinian village of Taybeh in the West Bank.",
+      "The delegation was present to support Palestinian olive harvesters.",
+      "The European Union issued a formal condemnation of the assault."
+    ],
+    "divergence": [
+      "Al Jazeera frames the event as part of a systemic escalation of 'pogroms' and emphasizes political context regarding Israeli elections, whereas other sources might minimize the frequency or intent of these incidents.",
+      "Reporting consistently omits specific details regarding whether the individuals were detained or if physical injuries were documented by medical personnel, focusing instead on the diplomatic fallout."
+    ],
+    "sources": [
+      {
+        "id": "art_1792348206503_wx4ku",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/aje-onl-nf_draft-2-yt-short-oct-18-p-daily-1-181026?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "JERUSALEM DAILY: Settlers attack EU diplomats"
+      },
+      {
+        "id": "art_1792337650601_wbpbi",
+        "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank"
+      },
+      {
+        "id": "art_1792337657089_eu59x",
+        "url": "https://www.aljazeera.com/news/2026/10/18/a-timeline-of-west-bank-attacks-on-palestinians-and-foreign-officials?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "A timeline of West Bank attacks on Palestinians and foreign officials"
+      },
+      {
+        "id": "art_1792287371525_vt3yk",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settlers attack European diplomats in the occupied West Bank"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "544d9e982c7619394c2808fa573a52df",
+    "topic_label": "Nationwide Civil Unrest and Arson in France",
+    "event_window_start": "2026-10-18T14:50:37.000Z",
+    "event_window_end": "2026-10-18T20:54:03.000Z",
+    "article_ids": [
+      "art_1792357929815_hhf3i",
+      "art_1792357930861_in6kb",
+      "art_1792357932928_sl1fk",
+      "art_1792348205309_85wth",
+      "art_1792337649528_46jll",
+      "art_1792337656059_0ihtt"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-18T22:27:46.382Z",
+    "updated_at": "2026-10-18T22:27:46.382Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "France is experiencing widespread kinetic civil unrest characterized by the deliberate destruction of public and private property, including the torching of vehicles, storming of state buildings, and looting of commercial storefronts. Violent clashes between demonstrators—including masked groups—and state security forces have resulted in approximately 2,400 arrests and an estimated 1,000 injuries to police and gendarmerie personnel. The state has mobilized emergency crisis units to regain control over urban areas where public infrastructure has been compromised by arson and structural damage.",
+    "consensus": [
+      "Nationwide demonstrations occurred across France",
+      "Physical violence, looting, and arson of public and private property were reported",
+      "State security forces engaged with rioters using tear gas",
+      "President Macron publicly addressed the unrest",
+      "Approximately 2,400 individuals were arrested",
+      "Significant injury count reported among police and gendarme forces"
+    ],
+    "divergence": [
+      "Fox News frames the events primarily through political critique, focusing on the failure of specific state policies and immigration, whereas the Guardian focuses on the government's perceived institutional failure and internal political instability.",
+      "Al Jazeera emphasizes the internal state crisis and the threat to the republic as defined by executive rhetoric, whereas the BBC focuses on the stated socio-economic motivations of the protesters.",
+      "Reported arrest figures vary across sources, ranging from 1,800 to 2,400, reflecting differing stages of data collection and potentially conflicting government reporting updates provided to various media outlets."
+    ],
+    "sources": [
+      {
+        "id": "art_1792357929815_hhf3i",
+        "url": "https://www.foxnews.com/world/french-newspaper-rips-macron-riots-erupt-across-france-indelible-stain",
+        "source": "fox",
+        "title": "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’"
+      },
+      {
+        "id": "art_1792357930861_in6kb",
+        "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Macron calls for 'calm and order' after riots across France"
+      },
+      {
+        "id": "art_1792357932928_sl1fk",
+        "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting"
+      },
+      {
+        "id": "art_1792348205309_85wth",
+        "url": "https://www.foxnews.com/politics/photos-show-aftermath-riots-masked-groups-clash-police-across-france",
+        "source": "fox",
+        "title": "Photos show aftermath of riots as masked groups clash with police across France"
+      },
+      {
+        "id": "art_1792337649528_46jll",
+        "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
+        "source": "guardian",
+        "title": "French government in crisis talks after ‘colossal failure of the state’"
+      },
+      {
+        "id": "art_1792337656059_0ihtt",
+        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
+        "source": "guardian",
+        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "e4fbd9b7c6543d0b30ca942c7cafe632",
     "topic_label": "Assault on European Diplomatic Convoy in West Bank",
     "event_window_start": "2026-10-17T23:52:38.000Z",
@@ -201,59 +409,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "European diplomats attacked by Israeli settlers in West Bank"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4162a22704f21d6b96e63c38a49f9751",
-    "topic_label": "Fatal Explosion and Conflagration at CFB Wainwright",
-    "event_window_start": "2026-10-18T17:54:16.000Z",
-    "event_window_end": "2026-10-18T19:42:37.000Z",
-    "article_ids": [
-      "art_1792357942380_zc3fs",
-      "art_1792348204261_bqcyp"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-18T22:27:46.382Z",
-    "updated_at": "2026-10-18T22:27:46.382Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "A catastrophic thermal event occurred at Canadian Forces Base Wainwright on Saturday at approximately 16:00 local time, resulting in at least four confirmed fatalities and multiple severe casualties among military personnel. The conflagration was preceded by reports of a gas main strike occurring during a live-fire training exercise, which subsequently escalated into a rapid-fire spread exacerbated by high winds affecting both the base and adjacent rural territory. The incident remains under official investigation to determine if the gas main rupture was a direct result of kinetic weapon impact or infrastructure failure during training operations.",
-    "consensus": [
-      "Four military personnel confirmed deceased",
-      "Dozens of personnel sustained severe injuries",
-      "Incident occurred at Canadian Forces Base Wainwright, Alberta",
-      "Fire initiated during scheduled military training exercises",
-      "Official confirmation of the event provided by Prime Minister Mark Carney"
-    ],
-    "divergence": [
-      "BBC reports the event as a 'deadly fire' without mentioning the potential cause of a gas main strike as a confirmed physical mechanism, focusing on the lack of official details.",
-      "Fox News explicitly notes the influence of high winds in spreading the fire beyond base parameters, a detail omitted by BBC.",
-      "Fox News includes a preemptive statement regarding the absence of terrorism, which functions as a defensive narrative frame not present in the BBC reporting."
-    ],
-    "sources": [
-      {
-        "id": "art_1792357942380_zc3fs",
-        "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we know so far about deadly fire at Canadian military base"
-      },
-      {
-        "id": "art_1792348204261_bqcyp",
-        "url": "https://www.foxnews.com/world/canadian-pm-carney-4-service-members-killed-dozens-injured-military-base-fire",
-        "source": "fox",
-        "title": "Canadian PM Carney says 4 service members killed, dozens injured in military base fire"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -14777,132 +14932,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/6/christa-pike-lawyers-say-she-is-speaking-one-week-after-failed-execution?traffic_source=rss",
         "source": "aljazeera",
         "title": "Christa Pike lawyers say she is speaking one week after failed execution"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "67a86850fa28e7960cce5bfa6f4e23b5",
-    "topic_label": "Third Anniversary of October 7 Attacks and Concurrent Military Operations in Gaza",
-    "event_window_start": "2026-10-07T04:00:00.000Z",
-    "event_window_end": "2026-10-07T17:41:59.000Z",
-    "article_ids": [
-      "art_1791396613024_ysw75",
-      "art_1791396615090_a6tvi",
-      "art_1791372552943_1a7np",
-      "art_1791346818169_0cd37"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-07T20:18:19.989Z",
-    "updated_at": "2026-10-07T20:18:19.989Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Military Conflict",
-    "synthesis": "October 7 marks the three-year anniversary of the Hamas-led infiltration of southern Israel, which resulted in approximately 1,200 fatalities and 251 hostage seizures. On this anniversary, public vigils occurred in London while diplomatic friction escalated over the narrative framing of the event. Concurrently, kinetic military operations persist in the Gaza Strip; Israeli air and drone strikes targeted Beit Lahiya and Khan Younis, resulting in at least four documented Palestinian fatalities, including a Civil Defence rescue worker. The conflict remains active with ongoing air strikes and regional geopolitical polarization.",
-    "consensus": [
-      "October 7, 2021, marked a major Hamas attack on Israel involving mass casualties and hostage-taking.",
-      "The date currently serves as a focal point for both memorial vigils in the UK and intense diplomatic disputes.",
-      "Israeli military forces continue to conduct air and drone strikes within the Gaza Strip.",
-      "Recent strikes in Beit Lahiya and Khan Younis resulted in at least four confirmed Palestinian deaths."
-    ],
-    "divergence": [
-      "The Guardian frames the event primarily through the lens of UK-based memorial vigils and the official narrative of Jewish advocacy groups.",
-      "Fox News focuses on the geopolitical discourse and political infighting regarding the anniversary, specifically highlighting Israeli ambassador criticisms of local US political figures.",
-      "Al Jazeera emphasizes the human toll of concurrent Israeli military strikes in Gaza, explicitly omitting the memorial context of the anniversary in its reporting on the casualties.",
-      "Al Jazeera includes analysis regarding systemic educational bias in Israel, a subject entirely absent from the narratives provided by Western-aligned sources."
-    ],
-    "sources": [
-      {
-        "id": "art_1791396613024_ysw75",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/07/british-jewish-groups-london-vigil-7-october-attacks",
-        "source": "guardian",
-        "title": "British Jewish groups hold London vigil for victims of 7 October attacks"
-      },
-      {
-        "id": "art_1791396615090_a6tvi",
-        "url": "https://www.foxnews.com/politics/israel-amb-torches-mamdani-oct-7-post-like-turning-september-11-into-day-mourning-al-qaeda",
-        "source": "fox",
-        "title": "Israel amb torches Mamdani Oct 7 post: 'Like turning September 11 into a day of mourning for al-Qaeda'"
-      },
-      {
-        "id": "art_1791372552943_1a7np",
-        "url": "https://www.aljazeera.com/news/2026/10/7/israeli-attacks-across-gaza-kill-at-least-four-palestinians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli attacks across Gaza kill at least four Palestinians"
-      },
-      {
-        "id": "art_1791346818169_0cd37",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/what-israeli-schools-teach?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What Israeli schools teach"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3c04d9b160402f9b3f4d4ed61a4a338a",
-    "topic_label": "Diplomatic Dispute Over Irkutsk Laboratory Fatality and Pathogen Exposure",
-    "event_window_start": "2026-10-07T11:24:17.000Z",
-    "event_window_end": "2026-10-07T17:57:10.000Z",
-    "article_ids": [
-      "art_1791396608712_ampfv",
-      "art_1791396611831_mi3b4",
-      "art_1791372547598_cv4m2"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-07T20:18:19.989Z",
-    "updated_at": "2026-10-07T20:18:19.989Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "Darya Shipilova, a 28-year-old researcher at the Irkutsk Anti-Plague Research Institute of Siberia, died in September following an illness. Unverified reports circulating via social media identified the cause of death as pneumonic plague. The United States has initiated a formal diplomatic inquiry into the matter, with President Trump stating an intent to discuss the event with Vladimir Putin. Conversely, Russian authorities maintain that the death was caused by pneumonia and claim standard reporting protocols to the World Health Organization were followed, while simultaneously denying that any specific diplomatic request for information from the U.S. has been received.",
-    "consensus": [
-      "Darya Shipilova was a 28-year-old researcher at the Irkutsk Anti-Plague Research Institute.",
-      "Shipilova fell ill and died in late September.",
-      "Russian authorities officially attribute the death to pneumonia.",
-      "The incident has resulted in public diplomatic friction between U.S. leadership and the Kremlin."
-    ],
-    "divergence": [
-      "Fox News emphasizes the history of Russian deception and warns of a potential disease outbreak linked to deadly pathogens.",
-      "BBC focuses on the conflicting statements regarding diplomatic communication, specifically contrasting President Trump's claim of 'deep discussions' with Kremlin spokesman Dmitry Peskov's denial of any scheduled call or receipt of a formal request."
-    ],
-    "sources": [
-      {
-        "id": "art_1791396608712_ampfv",
-        "url": "https://www.foxnews.com/politics/cost-iran-war-explodes-toll-us-air-fleet-nearly-doubles",
-        "source": "fox",
-        "title": "Cost of Iran war explodes as toll on US air fleet nearly doubles"
-      },
-      {
-        "id": "art_1791396611831_mi3b4",
-        "url": "https://www.foxnews.com/world/former-cia-officer-warns-against-trusting-russia-account-mysterious-death-siberia",
-        "source": "fox",
-        "title": "Former CIA officer warns against trusting Russia's account of mysterious death in Siberia"
-      },
-      {
-        "id": "art_1791372547598_cv4m2",
-        "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump to speak to Putin about plague lab worker's death in Russia"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
