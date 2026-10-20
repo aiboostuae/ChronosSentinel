@@ -1,5 +1,345 @@
 [
   {
+    "cluster_id": "c7c6f11581d97d0bead645a8507ff160",
+    "topic_label": "Violent Civil Unrest and Infrastructure Destruction in France",
+    "event_window_start": "2026-10-19T04:16:46.000Z",
+    "event_window_end": "2026-10-19T22:48:35.000Z",
+    "article_ids": [
+      "art_1792450929318_nff5w",
+      "art_1792450930532_tq9q6",
+      "art_1792450932600_4wtfa",
+      "art_1792450938113_ks8u8",
+      "art_1792436056027_nmfkf",
+      "art_1792412055943_tmsfr",
+      "art_1792412061705_0lobk",
+      "art_1792389343969_emrmw"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox",
+      "bbc"
+    ],
+    "article_count": 8,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-20T01:08:19.086Z",
+    "updated_at": "2026-10-20T01:08:19.086Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Civil Unrest",
+    "synthesis": "Nationwide violent protests in France, initially centered on economic grievances regarding fuel prices and cost of living, have escalated into widespread civil disorder. Kinetic actions include the torching of a historic town hall, vehicle arson, looting of businesses, and violent physical confrontations between rioters and law enforcement. The scale of the unrest has resulted in approximately 2,400 arrests and injuries to nearly 1,000 police and emergency personnel. Local authorities have implemented emergency overnight curfews in various cities, including Paris, to suppress the rioting.",
+    "consensus": [
+      "Nationwide protests are occurring across France.",
+      "Protests have escalated into violent riots involving looting and property destruction.",
+      "A historic town hall was set on fire.",
+      "There have been thousands of arrests.",
+      "Nearly 1,000 police and emergency personnel have been injured.",
+      "Overnight curfews have been implemented in major cities."
+    ],
+    "divergence": [
+      "The Guardian frames the unrest primarily as student-led protests regarding school conditions and cost of living, omitting the scale of looting reported by other outlets.",
+      "Fox News emphasizes the destruction and criticizes BBC editorial framing, highlighting the inconsistency between the 'mostly peaceful' description and the visual evidence of arson.",
+      "Al Jazeera and Fox News focus on external political rhetoric, specifically Donald Trump's commentary linking the unrest to immigration policy and Emmanuel Macron's statements linking it to external geopolitical conflicts, which are absent from the primary reporting on the physical events.",
+      "Fox News claims Macron cited the 'US-Iran war' as a factor, whereas other sources focus on the domestic origins of the fuel and cost of living grievances."
+    ],
+    "sources": [
+      {
+        "id": "art_1792450929318_nff5w",
+        "url": "https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests",
+        "source": "guardian",
+        "title": "Trump borrows from far right to blame unrest in France on immigration"
+      },
+      {
+        "id": "art_1792450930532_tq9q6",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
+        "source": "guardian",
+        "title": "Helen Haines: independent MP in critical condition in Melbourne’s Alfred hospital after being struck by car in Wangaratta  – follow updates"
+      },
+      {
+        "id": "art_1792450932600_4wtfa",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/trump-paris-is-going-to-be-a-muslim-city-very?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump: ‘Paris is going to be a Muslim city very soon’"
+      },
+      {
+        "id": "art_1792450938113_ks8u8",
+        "url": "https://www.foxnews.com/world/beleaguered-macron-cites-us-iran-war-factor-protests-amid-trump-vance-criticism",
+        "source": "fox",
+        "title": "Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism"
+      },
+      {
+        "id": "art_1792436056027_nmfkf",
+        "url": "https://www.foxnews.com/media/bbc-calls-france-protests-mostly-peaceful-footage-shows-rioters-torching-cars-battling-police",
+        "source": "fox",
+        "title": "BBC calls France protests 'mostly peaceful' as footage shows rioters torching cars, battling police"
+      },
+      {
+        "id": "art_1792412055943_tmsfr",
+        "url": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister",
+        "source": "guardian",
+        "title": "French prime minister calls for ‘local and partial’ curfews after riots"
+      },
+      {
+        "id": "art_1792412061705_0lobk",
+        "url": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates",
+        "source": "guardian",
+        "title": "French PM blames ‘ultra-left’ for exploiting protests as he seeks partial curfews – Europe live"
+      },
+      {
+        "id": "art_1792389343969_emrmw",
+        "url": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "France's government under pressure after weekend of widespread violence"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1d2bfbf5699808e4d28916b1a25e2c1b",
+    "topic_label": "Intentional Vehicle-Ramming Attack on Independent MP Helen Haines",
+    "event_window_start": "2026-10-19T11:10:09.000Z",
+    "event_window_end": "2026-10-19T22:47:39.000Z",
+    "article_ids": [
+      "art_1792450930532_tq9q6",
+      "art_1792412069824_rauxl"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-20T01:08:19.086Z",
+    "updated_at": "2026-10-20T01:08:19.086Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Independent Member of Parliament Helen Haines was struck by a motor vehicle outside her electorate office in Wangaratta, Victoria, at approximately 15:35 on Monday. The victim sustained critical injuries and required emergency surgery. A 43-year-old male suspect from Tarrawingee has been taken into custody. The incident is currently being treated as a targeted kinetic attack rather than a traffic collision, as evidenced by the immediate activation of a joint counter-terrorism taskforce involving the Australian Federal Police and ASIO.",
+    "consensus": [
+      "Helen Haines was struck by a vehicle outside her Wangaratta office.",
+      "The victim is in critical condition at The Alfred Hospital in Melbourne.",
+      "A 43-year-old male from Tarrawingee is in police custody.",
+      "The incident is under investigation by the Australian Federal Police and a joint counter-terrorism taskforce."
+    ],
+    "divergence": [
+      "The Guardian frames the event through political commentary and emotional response from government officials, omitting specific tactical details of the impact or potential motive to maintain a narrative of national shock.",
+      "The Guardian explicitly includes Prime Minister Anthony Albanese's statement that the event 'wasn't an accident', while omitting any mention of the suspect's specific past background or political affiliation, keeping the focus on institutional condemnation."
+    ],
+    "sources": [
+      {
+        "id": "art_1792450930532_tq9q6",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/20/helen-haines-independent-mp-alleged-car-attack-wangaratta-melbourne-hospital-ntwnfb",
+        "source": "guardian",
+        "title": "Helen Haines: independent MP in critical condition in Melbourne’s Alfred hospital after being struck by car in Wangaratta  – follow updates"
+      },
+      {
+        "id": "art_1792412069824_rauxl",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/19/mp-helen-haines-injured-incident-wangaratta-ntwnfb",
+        "source": "guardian",
+        "title": "‘Deeply appalled’: politicians condemn alleged attack after independent MP Helen Haines critically injured"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "65cc409be2a831901dd0fa62ffde7159",
+    "topic_label": "Fatal Fire at Canadian Military Installation",
+    "event_window_start": "2026-10-19T11:25:37.000Z",
+    "event_window_end": "2026-10-19T22:26:54.000Z",
+    "article_ids": [
+      "art_1792450936048_5v86a",
+      "art_1792450939149_2f5fj",
+      "art_1792436066566_8sp3r",
+      "art_1792412065422_rkz0y"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-20T01:08:19.086Z",
+    "updated_at": "2026-10-20T01:08:19.086Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "A catastrophic fire occurred at a Canadian military facility resulting in the deaths of multiple service members and critical injuries to 19 personnel. The event, categorized as a mass casualty incident, necessitated emergency response and evacuation operations. The facility remains under assessment following the structural failure and loss of life.",
+    "consensus": [
+      "A fire occurred at a Canadian military base.",
+      "Canadian military personnel were killed.",
+      "19 service members are in critical condition following the fire."
+    ],
+    "divergence": [
+      "Fox News prioritized the incident as a headline item alongside political election coverage, omitting specific geographic details and the official cause of the fire to maintain a rapid-news format."
+    ],
+    "sources": [
+      {
+        "id": "art_1792450936048_5v86a",
+        "url": "https://www.foxnews.com/entertainment/matthew-mcconaughey-divides-fans-over-independent-voting-plea-ahead-midterms",
+        "source": "fox",
+        "title": "Matthew McConaughey divides fans over independent voting plea ahead of midterms"
+      },
+      {
+        "id": "art_1792450939149_2f5fj",
+        "url": "https://www.foxnews.com/media/view-cohosts-defend-el-sayed-comparing-himself-jfk-muslim-brotherhood-scrutiny",
+        "source": "fox",
+        "title": "'The View' co-hosts defend El-Sayed comparing himself to JFK over Muslim Brotherhood scrutiny"
+      },
+      {
+        "id": "art_1792436066566_8sp3r",
+        "url": "https://www.foxnews.com/politics/walz-era-fraud-scandal-takes-center-stage-klobuchar-gop-rival-clash-debate-why-didnt-you-do-more",
+        "source": "fox",
+        "title": "Walz-era fraud scandal takes center stage as Klobuchar, GOP rival clash in debate: 'Why didn't you do more?'"
+      },
+      {
+        "id": "art_1792412065422_rkz0y",
+        "url": "https://www.foxnews.com/us/trump-heads-unlikely-battleground-gop-hold-senate-more-top-headlines",
+        "source": "fox",
+        "title": "Trump heads to unlikely battleground as GOP fights to hold Senate and more top headlines"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a12a4d3b7d8f2b95cfc630e5ca1a6a4c",
+    "topic_label": "Professional Football Injury Reports and Health Litigation Allegations",
+    "event_window_start": "2026-10-19T21:46:47.000Z",
+    "event_window_end": "2026-10-19T22:24:38.000Z",
+    "article_ids": [
+      "art_1792450937078_8oegw",
+      "art_1792450940181_043ww"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-20T01:08:19.086Z",
+    "updated_at": "2026-10-20T01:08:19.086Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Sports/Medical",
+    "synthesis": "The Los Angeles Rams confirmed wide receiver Davante Adams sustained a ruptured hamstring during a game against the Arizona Cardinals at SoFi Stadium, resulting in a projected 6-10 week recovery period. Concurrently, Philadelphia Eagles quarterback Jalen Hurts has been ruled out for the remainder of the 2026 season due to a medical diagnosis of blood clots, prompting public accusations of medical negligence by the team's front office.",
+    "consensus": [
+      "Davante Adams is sidelined for 6-10 weeks due to a ruptured hamstring.",
+      "Jalen Hurts is sidelined for the remainder of the 2026 season.",
+      "Jalen Hurts' medical condition is diagnosed as blood clots."
+    ],
+    "divergence": [
+      "FOX Sports frames the Adams injury as a factor in team performance while focusing on potential medical malpractice regarding the Philadelphia Eagles' handling of Jalen Hurts.",
+      "FOX sports reporting omits specific physiological details regarding the onset of the blood clots in Hurts, focusing instead on the organizational accountability and public relations response."
+    ],
+    "sources": [
+      {
+        "id": "art_1792450937078_8oegw",
+        "url": "https://www.foxnews.com/outkick-sports/rams-lose-davante-adams-6-10-weeks-receiver-ruptures-hamstring-adding-teams-injury-woes",
+        "source": "fox",
+        "title": "Rams lose Davante Adams for 6-10 weeks after receiver ruptures his hamstring, adding to team's injury woes"
+      },
+      {
+        "id": "art_1792450940181_043ww",
+        "url": "https://www.foxnews.com/outkick-sports/eagles-owe-jalen-hurts-address-serious-allegations",
+        "source": "fox",
+        "title": "The Eagles owe it to Jalen Hurts to address these serious allegations"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6a5954954920504e8104580da9e43cbf",
+    "topic_label": "Violent Assault on Journalist Heidi Levine by Israeli Settlers",
+    "event_window_start": "2026-10-19T05:00:19.000Z",
+    "event_window_end": "2026-10-19T21:46:00.000Z",
+    "article_ids": [
+      "art_1792450941219_63lhf",
+      "art_1792436070888_a2nql",
+      "art_1792412063850_w8bwq",
+      "art_1792412067633_lne08",
+      "art_1792389330276_z9cf0",
+      "art_1792389336185_nhyy5"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-20T01:08:19.086Z",
+    "updated_at": "2026-10-20T01:08:19.086Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Masked Israeli settlers utilized clubs and blunt force instruments to physically assault Washington Post photojournalist Heidi Levine while she was documenting Palestinian agricultural activities. The kinetic impact of the assault resulted in severe physical trauma, including broken ribs and injuries necessitating surgical intervention on her hands. The incident occurred during an olive harvest, and the victim remains hospitalized. US Ambassador Mike Huckabee categorized the event as an act of terror, contrasting with the reported lukewarm institutional response from Israeli authorities.",
+    "consensus": [
+      "Heidi Levine is a Washington Post photojournalist.",
+      "Levine suffered physical injuries requiring surgery including broken ribs and hand damage.",
+      "The attack involved masked settlers using clubs as weapons.",
+      "The incident occurred during an olive harvest involving Palestinians.",
+      "US Ambassador Mike Huckabee publicly condemned the attack."
+    ],
+    "divergence": [
+      "The Guardian frames the event as a rare diplomatic friction point and a specific instance of settler violence; other provided sources (Al Jazeera) omit this event entirely to focus on broader regional geopolitical developments and election cycles.",
+      "Al Jazeera's coverage focuses on the internal mechanics of the Israeli election and regional military policy (Netanyahu's doctrine and Iran policy), intentionally excluding local reports of civil unrest and settler violence to maintain a macro-level geopolitical narrative."
+    ],
+    "sources": [
+      {
+        "id": "art_1792450941219_63lhf",
+        "url": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Egyptian parliament delays vote on military support for Saudi Arabia"
+      },
+      {
+        "id": "art_1792436070888_a2nql",
+        "url": "https://www.aljazeera.com/news/2026/10/19/netanyahus-new-security-doctrine-regional-strategy-or-election-ploy?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Netanyahu’s new security doctrine: Regional strategy or election ploy?"
+      },
+      {
+        "id": "art_1792412063850_w8bwq",
+        "url": "https://www.aljazeera.com/news/2026/10/19/on-iran-israels-opposition-is-even-more-hawkish-than-netanyahu?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "On Iran, Israel’s opposition is even more hawkish than Netanyahu"
+      },
+      {
+        "id": "art_1792412067633_lne08",
+        "url": "https://www.theguardian.com/us-news/2026/oct/19/first-thing-us-ambassador-mike-huckabee-israel-heidi-levine-attack",
+        "source": "guardian",
+        "title": "First Thing: US ambassador in rare diplomatic break with Israel over attack on US journalist"
+      },
+      {
+        "id": "art_1792389330276_z9cf0",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/19/us-president-donald-trump-endorses-netanyahu-for-israeli-election?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US President Donald Trump endorses Netanyahu for Israeli election"
+      },
+      {
+        "id": "art_1792389336185_nhyy5",
+        "url": "https://www.theguardian.com/business/2026/oct/19/profit-warnings-from-uk-listed-firms-at-highest-level-in-two-years-as-iran-war-drives-up-costs",
+        "source": "guardian",
+        "title": "Profit warnings from UK-listed firms at highest level in two years as Iran war drives up costs"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "4dea6c9687987217aedeb5ccefda4806",
     "topic_label": "Nationwide Civil Unrest and Rioting in France",
     "event_window_start": "2026-10-19T04:16:46.000Z",
@@ -14492,398 +14832,6 @@
         "url": "https://www.foxnews.com/politics/cost-iran-war-explodes-toll-us-air-fleet-nearly-doubles",
         "source": "fox",
         "title": "Cost of Iran war explodes as toll on US air fleet nearly doubles"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3df421ba0412d7443280e8d92180cf7a",
-    "topic_label": "Disparate Multi-Regional Security, Diplomatic, and Historical Events",
-    "event_window_start": "2026-10-07T17:42:15.000Z",
-    "event_window_end": "2026-10-08T09:24:47.000Z",
-    "article_ids": [
-      "art_1791452059895_amo8i",
-      "art_1791452061026_xzu9l",
-      "art_1791452066517_nrrxn",
-      "art_1791427256346_8j0fi",
-      "art_1791413512618_gv7zi",
-      "art_1791396611831_mi3b4"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-08T14:04:25.941Z",
-    "updated_at": "2026-10-08T14:04:25.941Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Multi-Event Analysis",
-    "synthesis": "This analysis consolidates five distinct, unrelated events: The criminal indictment of a Royal Navy service member for espionage, a diplomatic restructuring of the British consulate in East Jerusalem under pressure from the Israeli government, a commentary on historical U.S. border migration patterns, an inquiry into the operational status of the Guantanamo Bay detention facility, and a political speech by U.S. Secretary of State Marco Rubio in Athens regarding 'America First' foreign policy. These events are geographically and thematically disconnected, ranging from domestic counter-terrorism charges in the UK to international diplomatic maneuvering, political rhetoric, and long-standing penal infrastructure debates.",
-    "consensus": [
-      "A serving member of the Royal Navy was arrested and charged under the National Security Act.",
-      "The UK is rebranding its consulate general in East Jerusalem to a mission with a reduced staff following Israeli pressure.",
-      "A caravan of migrants is moving through Mexico; historical border crossing attempts occurred at Brownsville and El Paso.",
-      "Guantanamo Bay prison remains operational 25 years after the invasion of Afghanistan.",
-      "U.S. Secretary of State Marco Rubio delivered a policy speech in Athens, Greece."
-    ],
-    "divergence": [
-      "Guardian (Royal Navy) focuses on the judicial process; omits specific details regarding the 'foreign power' involved.",
-      "Guardian (Diplomacy) frames the consulate change as a 'rebranding' and 'move'; omits the explicit coercive nature of the Israeli 'punishment' beyond the sanctions context.",
-      "Fox (Border) utilizes inflammatory language ('invasion', 'aliens') to frame migration as a security failure; omits the broader socioeconomic drivers cited in international reporting.",
-      "Al Jazeera (Guantanamo) frames the prison's existence as a contradiction to the end of the Afghan war; omits the legal and political justifications used by the U.S. government for continued operations.",
-      "Guardian (Rubio) frames the Athens speech as campaign-oriented 'apologia'; omits the geopolitical strategic intent behind Rubio’s call for European military and economic self-reliance."
-    ],
-    "sources": [
-      {
-        "id": "art_1791452059895_amo8i",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/08/royal-navy-serviceman-arrested-under-national-security-act",
-        "source": "guardian",
-        "title": "Royal Navy service member charged with spying"
-      },
-      {
-        "id": "art_1791452061026_xzu9l",
-        "url": "https://www.theguardian.com/politics/2026/oct/08/uk-consulate-east-jerusalem-remain-open-uk-mission-ed-miliband",
-        "source": "guardian",
-        "title": "British consulate in East Jerusalem will stay open as UK mission, says Ed Miliband"
-      },
-      {
-        "id": "art_1791452066517_nrrxn",
-        "url": "https://www.foxnews.com/opinion/global-south-wants-head-north-ceuta-invasion-latest-example",
-        "source": "fox",
-        "title": "Global South wants to head north and Ceuta invasion was just the latest example"
-      },
-      {
-        "id": "art_1791427256346_8j0fi",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/8/why-is-guantanamo-prison-still-open?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why is Guantanamo prison still open?"
-      },
-      {
-        "id": "art_1791413512618_gv7zi",
-        "url": "https://www.theguardian.com/us-news/2026/oct/07/rubio-greece-trump-america-first-speech",
-        "source": "guardian",
-        "title": "Rubio in Greece digs into past to tout Trump’s ‘America first’ approach"
-      },
-      {
-        "id": "art_1791396611831_mi3b4",
-        "url": "https://www.foxnews.com/world/former-cia-officer-warns-against-trusting-russia-account-mysterious-death-siberia",
-        "source": "fox",
-        "title": "Former CIA officer warns against trusting Russia's account of mysterious death in Siberia"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ca45128ddde44b46eef5f54e62612d42",
-    "topic_label": "U.S. Political Campaigning and Institutional Discourse Cycles",
-    "event_window_start": "2026-10-07T17:58:59.000Z",
-    "event_window_end": "2026-10-08T09:00:43.000Z",
-    "article_ids": [
-      "art_1791452064439_0mxmx",
-      "art_1791452065484_3ifpn",
-      "art_1791452068648_5ua2j",
-      "art_1791452069686_iyurq",
-      "art_1791452072909_a7zpv",
-      "art_1791427258817_romkh",
-      "art_1791427261014_m2qgu",
-      "art_1791413515435_ygpvk",
-      "art_1791396607538_wpm4g"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 9,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-08T14:04:25.941Z",
-    "updated_at": "2026-10-08T14:04:25.941Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The provided intelligence consists of unrelated domestic political messaging, advocacy efforts, and historical commentary from various U.S. political figures and media outlets. There is no singular kinetic event, conflict, or physical incident connecting these reports. The content encompasses election canvassing activities in Iowa, legislative debate over data center infrastructure, fiscal rhetoric regarding the national debt, and diplomatic commentary delivered by U.S. officials in Greece. These inputs represent routine domestic political communication and institutional positioning rather than physical or security-related incidents.",
-    "consensus": [
-      "Various political actors and organizations are currently engaged in advocacy and media activities related to U.S. midterm election cycles.",
-      "Data center development is a subject of local regulatory scrutiny across several U.S. states.",
-      "Federal debt levels and international relations remain active topics of domestic political discourse."
-    ],
-    "divergence": [
-      "Fox News frames the Susan B. Anthony Pro-Life America canvassing as a 'shocking' development in Iowa, omitting neutral analysis of campaign effectiveness.",
-      "The data center report focuses on homeowner proximity and ballot measures, omitting the strategic economic intent behind the infrastructure expansion.",
-      "Political commentary from Hugh Hewitt and Tom Emmer uses hyperbolic analogies ('blue wave' security threats and 'fiscal fire') to promote partisan legislative agendas."
-    ],
-    "sources": [
-      {
-        "id": "art_1791452064439_0mxmx",
-        "url": "https://www.foxnews.com/politics/top-conservative-group-unveils-full-court-press-key-battleground-state-expose-shocking-dem-platform",
-        "source": "fox",
-        "title": "Top conservative group unveils full-court press in key battleground state to expose ‘shocking’ Dem platform"
-      },
-      {
-        "id": "art_1791452065484_3ifpn",
-        "url": "https://www.foxnews.com/politics/americas-multi-billion-tech-boom-comes-into-focus-7-key-states-put-midterm-test",
-        "source": "fox",
-        "title": "America’s multi-billion tech boom comes into focus as 7 key states put it to a midterm test"
-      },
-      {
-        "id": "art_1791452068648_5ua2j",
-        "url": "https://www.foxnews.com/opinion/hugh-hewitt-midterms-one-month-out-you-need-know-stakes",
-        "source": "fox",
-        "title": "HUGH HEWITT: The midterms are one month out — you need to know the stakes"
-      },
-      {
-        "id": "art_1791452069686_iyurq",
-        "url": "https://www.foxnews.com/opinion/americas-debt-crisis-threatens-our-childrens-future-we-people-need-fix-it",
-        "source": "fox",
-        "title": "America’s debt crisis threatens our children’s future. We the People need to fix it"
-      },
-      {
-        "id": "art_1791452072909_a7zpv",
-        "url": "https://www.foxnews.com/opinion/sec-marco-rubio-west-forgot-what-made-it-great-rediscover-roots-before-lose-them",
-        "source": "fox",
-        "title": "SEC MARCO RUBIO: The West forgot what made it great. We must rediscover our roots before we lose them"
-      },
-      {
-        "id": "art_1791427258817_romkh",
-        "url": "https://www.foxnews.com/politics/ken-paxton-calls-james-talarico-11-day-absence-trump-rally-prompting-response-campaign",
-        "source": "fox",
-        "title": "Ken Paxton calls out James Talarico's 11-day absence at Trump rally, prompting response from campaign"
-      },
-      {
-        "id": "art_1791427261014_m2qgu",
-        "url": "https://www.aljazeera.com/news/2026/10/8/democrats-sue-us-president-trump-over-taxpayer-funded-ad-campaign?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Democrats sue US President Trump over taxpayer-funded ad campaign"
-      },
-      {
-        "id": "art_1791413515435_ygpvk",
-        "url": "https://www.foxnews.com/media/abdul-el-sayed-reportedly-called-hasan-piker-warning-his-rhetoric-costing-votes",
-        "source": "fox",
-        "title": "Abdul El-Sayed reportedly called Hasan Piker warning his rhetoric was 'costing' votes"
-      },
-      {
-        "id": "art_1791396607538_wpm4g",
-        "url": "https://www.theguardian.com/politics/2026/oct/07/tories-prioritising-rich-voters-inheritance-tax-cut-badenoch-conference-speech",
-        "source": "guardian",
-        "title": "Tories accused of prioritising rich voters as Badenoch lays out inheritance tax cut plan"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "250af980c9320bdd05daa6e72805d99a",
-    "topic_label": "Disparate International Socio-Political and Individual Incidents",
-    "event_window_start": "2026-10-07T17:28:56.000Z",
-    "event_window_end": "2026-10-08T09:18:05.000Z",
-    "article_ids": [
-      "art_1791452062174_tqujd",
-      "art_1791452070845_4sxeh",
-      "art_1791413507447_g3g1p",
-      "art_1791413516457_qwq3m",
-      "art_1791396617238_xzgtt",
-      "art_1791396618312_b731n"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-08T14:04:25.941Z",
-    "updated_at": "2026-10-08T14:04:25.941Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "This synthesis aggregates multiple distinct events: student-led protests in France regarding education policy; large-scale public demonstrations in Rio de Janeiro concerning the Brazilian presidential run-off between Flavio Bolsonaro and Luiz Inacio Lula da Silva; the indefinite suspension of a Canadian policy expanding medical assistance in dying for mental health conditions; a report detailing a long-term decline in UK population mental health; and a fatal incident at the University of Glasgow involving a student death following academic administrative error. These events represent localized civil unrest, policy reversals, and institutional accountability issues.",
-    "consensus": [
-      "France is experiencing ongoing high school student demonstrations regarding education system reforms.",
-      "Brazil faces a presidential run-off election between Flavio Bolsonaro and Luiz Inacio Lula da Silva on October 25.",
-      "Canada has indefinitely suspended the expansion of medically assisted dying laws for individuals with mental health conditions as their sole diagnosis.",
-      "University of Glasgow student Ethan Scott Brown died by suicide on his scheduled graduation day following erroneous notification of degree ineligibility."
-    ],
-    "divergence": [
-      "The Guardian frames the French protests as a specific conflict over education policy, while the provided text abruptly introduces an unverified report of a knife attack, which is omitted from the formal narrative structure.",
-      "The Guardian report on UK mental health frames systemic issues as 'shocks' (Brexit, Covid, Ukraine), omitting potential individual socioeconomic variables.",
-      "Al Jazeera focuses on the 'far-right' influence in Brazil, omitting neutral framing of the democratic process while highlighting protests against a specific candidate's son.",
-      "The BBC sanitizes the Canadian policy suspension as a 'difficult' administrative pause, while omitting the specific constitutional arguments raised by proponents of the expansion."
-    ],
-    "sources": [
-      {
-        "id": "art_1791452062174_tqujd",
-        "url": "https://www.theguardian.com/world/live/2026/oct/08/france-protests-spain-housing-maria-del-carmen-abascal-burnham-merz-europe-latest-news",
-        "source": "guardian",
-        "title": "French high school protests continue despite PM’s promise of action – Europe live"
-      },
-      {
-        "id": "art_1791452070845_4sxeh",
-        "url": "https://www.theguardian.com/society/2026/oct/08/covid-brexit-liz-truss-mini-budget-lasting-decline-mental-health-uk-study",
-        "source": "guardian",
-        "title": "Covid, Brexit and Liz Truss mini-budget led to lasting decline in mental health, study finds"
-      },
-      {
-        "id": "art_1791413507447_g3g1p",
-        "url": "https://www.aljazeera.com/gallery/2026/10/7/no-to-the-father-no-to-the-son-thousands-march-in-rio-against-bolsonaro-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘No to the father, no to the son’: Thousands march in Rio against Bolsonaro"
-      },
-      {
-        "id": "art_1791413516457_qwq3m",
-        "url": "https://www.theguardian.com/education/2026/oct/07/family-student-ethan-scott-brown-university-glasgow-accountable",
-        "source": "guardian",
-        "title": "Family of student who took his own life say university ‘will be held to account’"
-      },
-      {
-        "id": "art_1791396617238_xzgtt",
-        "url": "https://www.bbc.co.uk/news/articles/cqd09g0gj50ko?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Canada suspends plans to expand assisted dying to people with mental illness "
-      },
-      {
-        "id": "art_1791396618312_b731n",
-        "url": "https://www.aljazeera.com/news/2026/10/7/over-100-arrested-in-belgium-student-protests-over-education-costs?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Over 100 arrested in Belgium student protests over education costs"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6d098f9ffe09201f31d250de5126e349",
-    "topic_label": "Russian Multi-Region Missile and Drone Strikes on Ukrainian Civilian Centers",
-    "event_window_start": "2026-10-07T11:05:37.000Z",
-    "event_window_end": "2026-10-07T11:14:24.000Z",
-    "article_ids": [
-      "art_1791372551918_8mjwn",
-      "art_1791372556271_bkrbo",
-      "art_1791372557317_mx8vy"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-07T20:18:19.989Z",
-    "updated_at": "2026-10-07T20:18:19.989Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "Russian forces conducted a coordinated overnight strike campaign across Ukraine, utilizing approximately 70 missiles and drones against civilian and urban infrastructure in Pryluky, Kyiv, Dnipro, Kremenchuk, Zaporizhzhia, and Oleksandriya. A direct kinetic impact from a ballistic missile destroyed a five-storey residential apartment block in Pryluky, resulting in at least 15 total civilian fatalities across the country, including three children, and 38 injuries. Ukraine responded with retaliatory kinetic strikes against targets in the Russian regions of Perm, Samara, and Astrakhan, as well as an unspecified engagement in the Black Sea.",
-    "consensus": [
-      "At least 15 civilians were killed in overnight strikes across Ukraine.",
-      "A five-storey apartment building in Pryluky was destroyed by a missile strike.",
-      "Russian strikes hit Pryluky, Kyiv, Dnipro, Kremenchuk, Zaporizhzhia, and Oleksandriya.",
-      "Ukraine launched retaliatory strikes on Russian territory in the Perm, Samara, and Astrakhan regions."
-    ],
-    "divergence": [
-      "The Guardian frames the event through the lens of political symbolism, highlighting the proximity to Putin's birthday as a primary driver for the strikes.",
-      "The BBC includes Ukrainian claims of a 70-missile barrage and details regarding Ukraine's retaliatory strikes, which are absent from the Guardian's initial reporting.",
-      "The Guardian (via Ursula von der Leyen) characterizes the campaign as a 'strategy of terror' to influence EU policy, whereas the BBC focuses on the kinetic exchange between the two combatant states."
-    ],
-    "sources": [
-      {
-        "id": "art_1791372551918_8mjwn",
-        "url": "https://www.theguardian.com/world/2026/oct/07/ukraine-accuses-russia-of-bombing-apartment-block-as-birthday-gift-for-putin",
-        "source": "guardian",
-        "title": "Ukraine accuses Russia of bombing apartment block as birthday gift for Putin"
-      },
-      {
-        "id": "art_1791372556271_bkrbo",
-        "url": "https://www.theguardian.com/world/live/2026/oct/07/russia-ukraine-war-zelenskyy-putin-france-protests-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Russia ‘pursuing strategy of terror’, EU’s von der Leyen says after deadly strikes on Ukraine – Europe live"
-      },
-      {
-        "id": "art_1791372557317_mx8vy",
-        "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 15"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1c885f3afa14bd3d8394139bb09c971c",
-    "topic_label": "Escalation of Regional Hostilities: Yemen, Iran-US Air Operations, and Gaza Strikes",
-    "event_window_start": "2026-10-07T11:13:32.000Z",
-    "event_window_end": "2026-10-08T01:02:07.000Z",
-    "article_ids": [
-      "art_1791427263143_z9sli",
-      "art_1791427269725_ay7h4",
-      "art_1791396608712_ampfv",
-      "art_1791372552943_1a7np"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-08T06:39:47.166Z",
-    "updated_at": "2026-10-08T06:39:47.166Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Military",
-    "synthesis": "Current kinetic data indicates multiple distinct theaters of active combat. In Yemen, government forces have initiated 'Dawn of Yemen' offensive operations, reporting 2,103 kinetic targeting engagements resulting in 1,860 Houthi combatant casualties. Concurrently, US military assets are experiencing high attrition in direct conflict with Iranian forces, with confirmed losses or damage to 81 aircraft and drones. In Gaza, Israeli kinetic operations persist, including targeted air strikes and drone strikes resulting in confirmed fatalities in Beit Lahiya and Khan Younis. Global market indicators are reacting to the resulting instability in the Strait of Hormuz and broader regional supply chain anxieties.",
-    "consensus": [
-      "Yemeni government forces are engaged in a counter-offensive operation designated 'Dawn of Yemen'.",
-      "US military aircraft, including fighters and drones, have sustained significant combat losses or damage during active operations against Iran.",
-      "Israeli forces are conducting lethal air and drone strikes against multiple targets in Gaza resulting in civilian and rescue worker casualties."
-    ],
-    "divergence": [
-      "Al Jazeera sanitizes the casualty figures in Yemen as 'neutralised', failing to define the specific kinetic outcome.",
-      "Al Jazeera frames market volatility as purely 'fear' based, omitting the direct impact of the US-Iran combat losses reported by Fox.",
-      "Fox focuses exclusively on the matériel cost to the US military, omitting broader regional geopolitical context found in other reports.",
-      "Al Jazeera's reporting on Gaza focuses on the civilian and rescue worker identity of casualties, whereas reports on other regions focus on state-level strategic outcomes."
-    ],
-    "sources": [
-      {
-        "id": "art_1791427263143_z9sli",
-        "url": "https://www.aljazeera.com/news/2026/10/8/yemeni-government-forces-claim-1860-houthis-neutralised?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemeni government forces claim 1,860 Houthis ‘neutralised’"
-      },
-      {
-        "id": "art_1791427269725_ay7h4",
-        "url": "https://www.aljazeera.com/news/2026/10/8/us-stocks-slide-as-oil-prices-fluctuate-over-renewed-iran-war-fears?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US stocks slide as oil prices fluctuate over renewed Iran war fears"
-      },
-      {
-        "id": "art_1791396608712_ampfv",
-        "url": "https://www.foxnews.com/politics/cost-iran-war-explodes-toll-us-air-fleet-nearly-doubles",
-        "source": "fox",
-        "title": "Cost of Iran war explodes as toll on US air fleet nearly doubles"
-      },
-      {
-        "id": "art_1791372552943_1a7np",
-        "url": "https://www.aljazeera.com/news/2026/10/7/israeli-attacks-across-gaza-kill-at-least-four-palestinians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli attacks across Gaza kill at least four Palestinians"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
