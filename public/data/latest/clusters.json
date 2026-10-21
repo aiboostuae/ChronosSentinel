@@ -1,5 +1,79 @@
 [
   {
+    "cluster_id": "f384b3df87f13e1cef2671f59221c98d",
+    "topic_label": "Russian Maritime Diesel Export to US and Cross-Regional Political Commentary",
+    "event_window_start": "2026-10-21T14:44:56.000Z",
+    "event_window_end": "2026-10-21T14:54:55.000Z",
+    "article_ids": [
+      "art_1792595239693_jzj64",
+      "art_1792595240782_w0rm4",
+      "art_1792595241918_uvqsl",
+      "art_1792595242967_qrh5u",
+      "art_1792595244111_o29xm"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-21T17:48:47.002Z",
+    "updated_at": "2026-10-21T17:48:47.002Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "Russia has initiated the maritime dispatch of a tanker carrying 40,000 tonnes of diesel fuel to an unspecified United States port pursuant to a bilateral agreement, following the lifting of a domestic export ban previously triggered by Ukrainian drone strikes on Russian refining infrastructure. Concurrently, French President Emmanuel Macron publicly rejected foreign political commentary regarding ongoing civil unrest in France. In domestic legal developments, law enforcement in North Carolina arrested an individual on felony peeping and privacy violation charges following the non-consensual recording and distribution of explicit media.",
+    "consensus": [
+      "Russia dispatched a 40,000-tonne diesel tanker toward a US port following the lifting of its fuel export ban.",
+      "Ukrainian military drone strikes damaged Russian oil refining capacity prior to the export resumption.",
+      "French President Emmanuel Macron publicly criticized statements made by foreign leaders regarding civil unrest in France.",
+      "US law enforcement arrested a 19-year-old male charged with felony secret peeping and illicit media distribution."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the Russia-US energy transport deal and Ukrainian military telemetry on Russian refinery degradation, omitting domestic political and legal events covered in other feeds.",
+      "The Guardian highlights French state messaging rejecting US political commentary on domestic riots and UK social care policy critiques, omitting maritime trade logistics.",
+      "Fox News focuses on domestic criminal proceedings and university student protests, ignoring international energy transactions and diplomatic disputes entirely."
+    ],
+    "sources": [
+      {
+        "id": "art_1792595239693_jzj64",
+        "url": "https://www.aljazeera.com/economy/2026/10/21/russia-to-send-first-diesel-tanker-to-the-us-amid-trump-deal?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia to send first diesel tanker to the US amid Trump deal"
+      },
+      {
+        "id": "art_1792595240782_w0rm4",
+        "url": "https://www.theguardian.com/society/2026/oct/21/andy-burnham-backs-mandatory-suicide-prevention-training-after-matilda-davis-death",
+        "source": "guardian",
+        "title": "Burnham backs mandatory suicide prevention training for social workers after parent-carer Matilda Davis’s death"
+      },
+      {
+        "id": "art_1792595241918_uvqsl",
+        "url": "https://www.foxnews.com/us/secret-sex-video-rocks-university-north-carolina-charlotte-fraternity-1-arrested-police",
+        "source": "fox",
+        "title": "Secret sex video rocks University of North Carolina at Charlotte fraternity, 1 arrested: Police"
+      },
+      {
+        "id": "art_1792595242967_qrh5u",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/21/donald-trump-south-carolina-data-centers-midterms-ukraine-witkoff-russia-latest-news-updates",
+        "source": "guardian",
+        "title": "Likely voters prefer Democrats to Republicans in latest poll ahead of midterms as Trump’s popularity continues to sink – live"
+      },
+      {
+        "id": "art_1792595244111_o29xm",
+        "url": "https://www.theguardian.com/world/2026/oct/21/macron-trump-foreign-leaders-stupid-comments-france-unrest",
+        "source": "guardian",
+        "title": "Macron accuses Trump and other foreign leaders of making ‘stupid comments’ about France unrest"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "13586cf6562b3adbcff0c58e5e18f2d4",
     "topic_label": "Kinetic Incidents: Houthi Ballistic Strike in Aden and Targeted Vehicle Assault on Australian MP",
     "event_window_start": "2026-10-21T09:02:18.000Z",
@@ -14919,69 +14993,6 @@
         "url": "https://www.foxnews.com/media/actor-sebastian-stan-asks-when-did-conservative-become-wrong-while-defending-film-against-critics",
         "source": "fox",
         "title": "Actor Sebastian Stan asks when did 'conservative' become 'wrong' while defending film against critics"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f0c04a07ad7c063f8609c5a7f34301c6",
-    "topic_label": "Hurricane Isaias Gulf Coast Landfall and Athletic Event Disruptions",
-    "event_window_start": "2026-10-09T20:04:31.000Z",
-    "event_window_end": "2026-10-09T23:05:15.000Z",
-    "article_ids": [
-      "art_1791591985424_isqz2",
-      "art_1791591989635_5cbea",
-      "art_1791577783698_wv15c",
-      "art_1791577791730_zl7sb"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T02:45:26.439Z",
-    "updated_at": "2026-10-10T02:45:26.439Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "Hurricane Isaias has reached Category 3 intensity and is projected to make landfall on the Florida Gulf Coast. The storm system presents immediate life-threatening environmental risks to the region, necessitating emergency preparations. Consequently, regional infrastructure and logistics have been compromised, resulting in the mandatory rescheduling or cancellation of multiple college football events previously scheduled for Saturday.",
-    "consensus": [
-      "Hurricane Isaias has intensified to Category 3 status.",
-      "The hurricane is tracking toward the Florida Gulf Coast.",
-      "Emergency preparations are currently active in the region.",
-      "Multiple college football games have been canceled or rescheduled due to the weather event."
-    ],
-    "divergence": [
-      "The provided text includes irrelevant, unrelated sports promotional content and commentary on separate NFL/College football games that do not pertain to the meteorological incident, which serves to pad the article length rather than report on the hurricane's impact."
-    ],
-    "sources": [
-      {
-        "id": "art_1791591985424_isqz2",
-        "url": "https://www.foxnews.com/outkick-sports/texas-legend-sky-high-hopes-longhorns-red-river-rivalry-game-oklahoma",
-        "source": "fox",
-        "title": "Texas legend has sky-high hopes for Longhorns ahead of Red River Rivalry game vs Oklahoma"
-      },
-      {
-        "id": "art_1791591989635_5cbea",
-        "url": "https://www.foxnews.com/outkick-sports/least-one-person-isnt-concerned-cam-skattebo-getting-injured-his-name-cam-skattebo",
-        "source": "fox",
-        "title": "At least one person isn't concerned about Cam Skattebo getting injured, and his name is Cam Skattebo"
-      },
-      {
-        "id": "art_1791577783698_wv15c",
-        "url": "https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-washington-vs-iowa",
-        "source": "fox",
-        "title": "Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 on Washington vs Iowa"
-      },
-      {
-        "id": "art_1791577791730_zl7sb",
-        "url": "https://www.foxnews.com/outkick-sports/hurricane-isaias-forces-numerous-college-football-games-changes-including-cancellation",
-        "source": "fox",
-        "title": "Hurricane Isaias forces numerous college football games to have changes, including a cancellation"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
