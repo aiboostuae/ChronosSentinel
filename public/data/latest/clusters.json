@@ -1,5 +1,73 @@
 [
   {
+    "cluster_id": "ed067543600003cbf72a42dff68214e8",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-21T19:06:10.000Z",
+    "event_window_end": "2026-10-21T19:15:41.000Z",
+    "article_ids": [
+      "art_1792610541383_f49dt",
+      "art_1792610543155_501fv",
+      "art_1792610544195_zortq",
+      "art_1792610545342_4ffy7",
+      "art_1792610546383_o9d83"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-21T21:06:29.516Z",
+    "updated_at": "2026-10-21T21:06:29.516Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792610541383_f49dt",
+        "url": "https://www.foxnews.com/outkick-sports/young-buck-ragdolled-tossed-air-battle-larger-buck-trail-cam",
+        "source": "fox",
+        "title": "Young buck gets ragdolled and tossed in the air during battle with larger buck caught on trail cam"
+      },
+      {
+        "id": "art_1792610543155_501fv",
+        "url": "https://www.foxnews.com/media/james-talarico-blames-rise-gop-extremism-prompting-his-god-non-binary-six-sexes-remarks",
+        "source": "fox",
+        "title": "James Talarico blames rise in GOP 'extremism' for prompting his 'God is non-binary,' six sexes remarks"
+      },
+      {
+        "id": "art_1792610544195_zortq",
+        "url": "https://www.foxnews.com/outkick-sports/brian-kelly-pins-blame-texas-offensive-struggles-coach-steve-sarkisian-not-arch-manning",
+        "source": "fox",
+        "title": "Brian Kelly pins blame for Texas' offensive struggles on coach Steve Sarkisian, not Arch Manning"
+      },
+      {
+        "id": "art_1792610545342_4ffy7",
+        "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Meta fined $25bn for 'lies' over user data privacy"
+      },
+      {
+        "id": "art_1792610546383_o9d83",
+        "url": "https://www.foxnews.com/outkick-sports/timberwolves-vs-heat-preview-why-under-238-5-could-be-play-tonights-matchup",
+        "source": "fox",
+        "title": "Timberwolves vs. Heat preview: Why the under 238.5 could be the play in tonight's matchup"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "f384b3df87f13e1cef2671f59221c98d",
     "topic_label": "Russian Maritime Diesel Export to US and Cross-Regional Political Commentary",
     "event_window_start": "2026-10-21T14:44:56.000Z",
@@ -14943,56 +15011,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "56860e68c2cf27fc9b6dfcabb3de8b3a",
-    "topic_label": "Hollywood Legislative and Cultural Discourse Trends",
-    "event_window_start": "2026-10-09T15:28:22.000Z",
-    "event_window_end": "2026-10-09T23:26:03.000Z",
-    "article_ids": [
-      "art_1791591983356_omkuh",
-      "art_1791560515612_7aajl"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T02:45:26.439Z",
-    "updated_at": "2026-10-10T02:45:26.439Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "There is no kinetic event described. The reports focus on political lobbying efforts regarding film tax credit incentives in the United States and the public discourse surrounding the ideological themes of the motion picture 'Fjord'. Current status involves standard administrative legislative proposals and promotional media appearances by industry figures.",
-    "consensus": [
-      "Jason Fisher, CEO of Stagerunner, supports federal film incentives.",
-      "California Governor Gavin Newsom announced expanded tax credits and AI protections for performers.",
-      "Actor Sebastian Stan discussed his film 'Fjord' on Comedy Central's The Daily Show.",
-      "The plot of 'Fjord' involves a Christian couple's custody battle with Norwegian authorities."
-    ],
-    "divergence": [
-      "Fox News frames the tax credit discussion as a bipartisan push involving both Donald Trump and Democrats to revitalize the industry.",
-      "Fox News emphasizes a cultural narrative regarding the 'conservative' nature of the film 'Fjord' to contrast it with progressive social norms."
-    ],
-    "sources": [
-      {
-        "id": "art_1791591983356_omkuh",
-        "url": "https://www.foxnews.com/media/hollywood-feeling-more-hopeful-amid-push-film-tax-credits-paramount-staying-put-filmmaker-says",
-        "source": "fox",
-        "title": "Hollywood feeling more hopeful amid a push for film tax credits and Paramount staying put, filmmaker says"
-      },
-      {
-        "id": "art_1791560515612_7aajl",
-        "url": "https://www.foxnews.com/media/actor-sebastian-stan-asks-when-did-conservative-become-wrong-while-defending-film-against-critics",
-        "source": "fox",
-        "title": "Actor Sebastian Stan asks when did 'conservative' become 'wrong' while defending film against critics"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
