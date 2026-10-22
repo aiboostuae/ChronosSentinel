@@ -1,5 +1,76 @@
 [
   {
+    "cluster_id": "daaf21c93fb91c235866950408a5669e",
+    "topic_label": "US Supreme Court Review of Federal Home Distilling Prohibition",
+    "event_window_start": "2026-10-21T22:18:47.000Z",
+    "event_window_end": "2026-10-21T22:46:55.000Z",
+    "article_ids": [
+      "art_1792623289350_d103b",
+      "art_1792623290415_70cts",
+      "art_1792623291566_b6ehm",
+      "art_1792623292607_ap5hf",
+      "art_1792623293642_oeysj"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-22T00:08:30.281Z",
+    "updated_at": "2026-10-22T00:08:30.281Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The United States Supreme Court has formally agreed to hear a legal challenge regarding an 1868 federal statute that prohibits the home distillation of spirits. This legal review targets a longstanding fiscal regulation originally designed to prevent excise tax evasion. The outcome of the judicial review may result in the reclassification or overturning of federal restrictions that currently distinguish home distilling from the legal production of beer and wine.",
+    "consensus": [
+      "The US Supreme Court has agreed to review a federal law from 1868.",
+      "Current federal law prohibits the home production of whiskey.",
+      "The law was originally enacted to address liquor tax evasion."
+    ],
+    "divergence": [
+      "Fox News frames the issue through the lens of constitutional rights and potential legal precedence for government overreach.",
+      "The provided Fox News report omits specific details of the individual legal case or the plaintiffs involved, focusing instead on the historical context and the potential impact on individual liberties."
+    ],
+    "sources": [
+      {
+        "id": "art_1792623289350_d103b",
+        "url": "https://www.foxnews.com/outkick-sports/secret-success-best-major-league-baseball-teams-found",
+        "source": "fox",
+        "title": "Is there a secret to success the best Major League Baseball teams have already found?"
+      },
+      {
+        "id": "art_1792623290415_70cts",
+        "url": "https://www.foxnews.com/media/amy-robach-tj-holmes-exes-engaged-three-years-after-abc-news-cheating-scandal",
+        "source": "fox",
+        "title": "Amy Robach, TJ Holmes’ exes get engaged to each other three years after high-profile ABC News cheating scandal"
+      },
+      {
+        "id": "art_1792623291566_b6ehm",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/21/immigration-ice-mass-deportation-trump-midterm-elections",
+        "source": "guardian",
+        "title": "How will Trump’s mass deportation agenda shape the US midterm elections? Our reporters answer your questions"
+      },
+      {
+        "id": "art_1792623292607_ap5hf",
+        "url": "https://www.foxnews.com/outkick-sports/sam-laporta-shares-disappointment-lions-lack-extension-break-my-f-ing-back-team",
+        "source": "fox",
+        "title": "Sam LaPorta shares disappointment in Lions for lack of extension: 'Break my f---ing back for the team'"
+      },
+      {
+        "id": "art_1792623293642_oeysj",
+        "url": "https://www.foxnews.com/food-drink/making-whiskey-home-could-land-you-prison-supreme-court-may-change",
+        "source": "fox",
+        "title": "Making whiskey at home could land you in prison, but Supreme Court may change that"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "ed067543600003cbf72a42dff68214e8",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-10-21T19:06:10.000Z",
@@ -14951,66 +15022,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "887402ffed1910e1d92ed537a2409e8f",
-    "topic_label": "US-Russia Diesel Import Agreement",
-    "event_window_start": "2026-10-09T20:13:23.000Z",
-    "event_window_end": "2026-10-09T23:39:31.000Z",
-    "article_ids": [
-      "art_1791591982295_65lj8",
-      "art_1791591991774_3rrao",
-      "art_1791577789648_tzacm"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T02:45:26.439Z",
-    "updated_at": "2026-10-10T02:45:26.439Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "US President Donald Trump has negotiated a deal with Russian President Vladimir Putin to import significant quantities of Russian-origin diesel fuel into the US and global markets, starting with 300,000 tonnes immediately, followed by 500,000 tonnes in November and 1 million thereafter. This action represents a direct reversal of existing US sanctions and trade restrictions against Russian energy exports. The agreement is intended to lower domestic fuel costs ahead of midterm elections, amidst global market volatility linked to an ongoing conflict with Iran. The policy shift has elicited formal opposition from Ukrainian leadership and threatens diplomatic friction within the NATO alliance.",
-    "consensus": [
-      "Donald Trump announced a deal to import Russian diesel.",
-      "Vladimir Putin agreed to supply initial shipments of 300,000 tonnes of diesel to global markets.",
-      "The deal aims to lower fuel prices in the US.",
-      "Volodymyr Zelenskyy publicly criticized the agreement.",
-      "The policy change contradicts recent US legislative efforts to sanction Russian energy."
-    ],
-    "divergence": [
-      "The Guardian frames the event as a 'fresh crisis' and a breach of Western solidarity, whereas the BBC focuses on the domestic political necessity and the economic fallout of the Iran war.",
-      "The BBC links the fuel price spikes directly to the Iran conflict, a detail omitted by The Guardian's focus on the Russia-Ukraine dynamic.",
-      "The Guardian characterizes the deal as an 'about-face' that abandons years of pressure on the Kremlin, while BBC reporting contextualizes it as a reactive measure to midterm election pressures and inflation."
-    ],
-    "sources": [
-      {
-        "id": "art_1791591982295_65lj8",
-        "url": "https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine",
-        "source": "guardian",
-        "title": "Zelenskyy furious as Trump announces deal to buy Russian diesel"
-      },
-      {
-        "id": "art_1791591991774_3rrao",
-        "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices"
-      },
-      {
-        "id": "art_1791577789648_tzacm",
-        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
