@@ -1,5 +1,296 @@
 [
   {
+    "cluster_id": "04842c1c117e7ebf8de28185b6a56492",
+    "topic_label": "Vehicle-Ramming Attack on Australian MP Helen Haines",
+    "event_window_start": "2026-10-21T08:34:37.000Z",
+    "event_window_end": "2026-10-21T09:24:47.000Z",
+    "article_ids": [
+      "art_1792576004675_155qe",
+      "art_1792576014780_mckkl"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-22T03:10:20.421Z",
+    "updated_at": "2026-10-22T03:10:20.421Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "On Monday, Helen Haines, an Australian independent member of parliament, was subjected to a targeted vehicle-ramming attack outside her electoral office in Wangaratta, Victoria. The perpetrator, identified as 43-year-old Brendan Nugent, struck the victim twice with his vehicle. As a result of the trauma, the victim required the bilateral amputation of both legs. The perpetrator is currently in police custody and has been arraigned on charges including dangerous driving causing serious injury and intentional harm.",
+    "consensus": [
+      "Helen Haines was struck by a vehicle driven by Brendan Nugent.",
+      "The incident occurred outside an electoral office in Wangaratta, Victoria.",
+      "The victim suffered severe injuries resulting in the amputation of both legs.",
+      "Brendan Nugent is in police custody and facing criminal charges."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the political status of the victim and the narrative of rising threats against legislators while providing limited tactical details of the arrest.",
+      "Al Jazeera's reporting omits specific details regarding the perpetrator's motive beyond labeling the event a 'targeted attack'."
+    ],
+    "sources": [
+      {
+        "id": "art_1792576004675_155qe",
+        "url": "https://www.aljazeera.com/news/2026/10/21/attack-on-australian-mp-haines-how-threats-against-legislators-have-soared?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Attack on Australian MP Haines: How threats against legislators have soared"
+      },
+      {
+        "id": "art_1792576014780_mckkl",
+        "url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Australian MP loses both legs in vehicle attack as suspect appears in court"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ef962045f1a30ae40017d8e648268913",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-21T23:45:09.000Z",
+    "event_window_end": "2026-10-22T00:26:50.000Z",
+    "article_ids": [
+      "art_1792632297578_kemx5",
+      "art_1792632308101_klmbc"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-22T03:10:20.421Z",
+    "updated_at": "2026-10-22T03:10:20.421Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792632297578_kemx5",
+        "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
+        "source": "guardian",
+        "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks"
+      },
+      {
+        "id": "art_1792632308101_klmbc",
+        "url": "https://www.foxnews.com/travel/travelers-hot-spot-warned-state-department-officials-deny-wider-gulf-shutdown",
+        "source": "fox",
+        "title": "Travelers to hot spot sternly warned by State Department as officials deny wider Gulf shutdown"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "c972442a21853abdafdc6c2ae1e22b23",
+    "topic_label": "Diplomatic Meeting in Saint Petersburg Resulting in Prisoner Release",
+    "event_window_start": "2026-10-21T09:32:13.000Z",
+    "event_window_end": "2026-10-21T23:52:00.000Z",
+    "article_ids": [
+      "art_1792632307032_qb2tw",
+      "art_1792610547590_eem38",
+      "art_1792595246303_gzryl",
+      "art_1792576002288_2mz5n"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-22T03:10:20.421Z",
+    "updated_at": "2026-10-22T03:10:20.421Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "US special envoys Steve Witkoff and Jared Kushner engaged in diplomatic negotiations with Russian President Vladimir Putin at the Constantine Palace in Saint Petersburg. The physical outcome of the session was the release of Stephen Hubbard, an American national who had been imprisoned in Russia for over four years following a conviction for mercenary activities. The meeting included discussions regarding the potential resumption of peace negotiations concerning the ongoing military conflict in Ukraine, alongside stated Russian interests in restoring bilateral economic cooperation with the United States.",
+    "consensus": [
+      "Steve Witkoff met with Vladimir Putin at the Constantine Palace in Saint Petersburg.",
+      "Jared Kushner participated in the meeting virtually.",
+      "Stephen Hubbard was released from Russian custody.",
+      "The parties discussed the status of the ongoing conflict in Ukraine.",
+      "Russia signaled a willingness to resume peace talks with Ukraine and the US."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the 'humanitarian' characterization of Putin by Witkoff, while The Guardian focuses on the context of the Oslo talks with Zelenskyy.",
+      "The Guardian reports specific details about Kirill Dmitriev's involvement in transporting Witkoff, which is absent from Al Jazeera's reporting.",
+      "Al Jazeera emphasizes the prisoner release as a primary development, whereas The Guardian contextualizes the meeting within broader economic interests and the 'diesel deal' mentioned by Putin."
+    ],
+    "sources": [
+      {
+        "id": "art_1792632307032_qb2tw",
+        "url": "https://www.aljazeera.com/news/2026/10/21/what-happened-during-witkoff-and-kushners-latest-meeting-with-putin?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What happened during Witkoff and Kushner’s latest meeting with Putin"
+      },
+      {
+        "id": "art_1792610547590_eem38",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/russia-willing-to-resume-peace-talks-with-ukraine-us-after-witkoff-visit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia willing to resume peace talks with Ukraine, US after Witkoff visit"
+      },
+      {
+        "id": "art_1792595246303_gzryl",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/us-envoy-witkoff-calls-russias-putin-a?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US envoy Witkoff calls Russia’s Putin a ‘humanitarian’"
+      },
+      {
+        "id": "art_1792576002288_2mz5n",
+        "url": "https://www.theguardian.com/world/live/2026/oct/21/us-russia-ukraine-putin-witkoff-zelenskyy-france-italy-protests-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "US envoy Witkoff in talks with Vladimir Putin about Ukraine – Europe live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4fda870456564db0a7d4ffe37a5fadf1",
+    "topic_label": "Release of US National Stephen Hubbard from Russian Penal Custody",
+    "event_window_start": "2026-10-21T09:22:23.000Z",
+    "event_window_end": "2026-10-21T14:31:53.000Z",
+    "article_ids": [
+      "art_1792595251759_7f69h",
+      "art_1792576005871_38inr"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-22T03:10:20.421Z",
+    "updated_at": "2026-10-22T03:10:20.421Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "US national Stephen Hubbard, a 74-year-old former teacher previously sentenced by a Russian court to nearly seven years in a penal colony for alleged participation in Ukrainian defense units, has been released from detention. The transfer occurred at Pulkovo Airport following diplomatic engagement between a US envoy and the Russian state. Hubbard is currently in transit to the United States. The physical reality involves the conclusion of a state detention episode following bilateral diplomatic negotiations, with no kinetic military action or high-level tactical escalation reported in this specific release.",
+    "consensus": [
+      "Stephen Hubbard is a 74-year-old American citizen.",
+      "Hubbard was sentenced by a Russian court to nearly seven years in a penal colony in 2024.",
+      "Hubbard was released from Russian custody and transported to Pulkovo Airport.",
+      "The release occurred during a visit to Russia by a US envoy."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes that the US was not required to provide anything in return, potentially spinning the event as a unilateral diplomatic gain or a move aligned with current administration rhetoric.",
+      "The BBC highlights that Hubbard was accused of fighting for Ukraine, providing a specific allegation regarding his capture by Russian forces in Izyum, whereas Al Jazeera focuses more on his identity as a former teacher living in Ukraine."
+    ],
+    "sources": [
+      {
+        "id": "art_1792595251759_7f69h",
+        "url": "https://www.aljazeera.com/news/2026/10/21/russia-releases-american-stephen-hubbard-after-four-years-in-prison?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia releases American Stephen Hubbard after four years in prison"
+      },
+      {
+        "id": "art_1792576005871_38inr",
+        "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russia frees US citizen Stephen Hubbard, state media reports"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "0da729636a77083fc7b2afb391b17f6f",
+    "topic_label": "Escalation of Regional Conflict and West Bank Occupation Activities",
+    "event_window_start": "2026-10-21T04:00:05.000Z",
+    "event_window_end": "2026-10-21T22:03:54.000Z",
+    "article_ids": [
+      "art_1792623298870_tgozm",
+      "art_1792610550837_zivwp",
+      "art_1792610553108_75lip",
+      "art_1792610557823_uuvau",
+      "art_1792557897690_0ipg9"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-22T03:10:20.421Z",
+    "updated_at": "2026-10-22T03:10:20.421Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure, Diplomacy, and Conflict",
+    "synthesis": "The regional landscape is characterized by an active, ongoing war between the United States/Israel and Iran, involving the closure of the Strait of Hormuz and a hardening of nuclear positions. Concurrently, in the occupied West Bank, institutionalized displacement is occurring through the obstruction of agricultural access for Palestinians, the physical assault of civilians by settlers, and the detention of international activists. Geopolitical friction has escalated to include US sanctions against the International Criminal Court following legal advocacy regarding Hamas-led killings, while structural integration projects like the East Jerusalem cable car continue to prompt corporate divestment due to land seizure concerns.",
+    "consensus": [
+      "The US and Israel are currently engaged in an active war with Iran.",
+      "The Strait of Hormuz remains closed to transit.",
+      "Iran refuses to cease uranium enrichment.",
+      "Israeli settlers and military are physically restricting Palestinian access to olive groves in the West Bank.",
+      "Foreign entities are withdrawing from the East Jerusalem cable car project citing rights concerns.",
+      "The Trump administration has imposed sanctions on the International Criminal Court."
+    ],
+    "divergence": [
+      "Al Jazeera frames the West Bank activity as settler violence and human rights abuses, whereas the provided texts do not mention the actions of Palestinian militants or state-level security justifications for the blockade.",
+      "Fox describes the status of the Bibas family as murder by 'Iran-backed Hamas terrorists,' while Al Jazeera focuses on the geopolitical impact of the war on Iran’s nuclear program without discussing the specific hostage status.",
+      "Al Jazeera explicitly characterizes the conflict as a 'US and Israel war on Iran,' while Western sources generally frame regional activities through the lens of specific counter-terrorism or diplomatic policy."
+    ],
+    "sources": [
+      {
+        "id": "art_1792623298870_tgozm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/video-shows-israeli-settler-assaulting-palestinian-child-2?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Video shows Israeli settler assaulting Palestinian child"
+      },
+      {
+        "id": "art_1792610550837_zivwp",
+        "url": "https://www.aljazeera.com/news/2026/10/21/iran-determined-to-keep-uranium-amid-increased-war-odds-flurry-of-meetings?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran determined to keep uranium amid increased war odds, flurry of meetings"
+      },
+      {
+        "id": "art_1792610553108_75lip",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/farmers-blocked-from-olive-harvest-in-occ-west-bank-volunteers-detained?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Farmers blocked from olive harvest in occ. West Bank, volunteers detained"
+      },
+      {
+        "id": "art_1792610557823_uuvau",
+        "url": "https://www.foxnews.com/world/bibas-family-relative-takes-fight-icc-after-mother-two-young-boys-murdered-hamas",
+        "source": "fox",
+        "title": "Bibas family relative takes fight to ICC after mother, two young boys murdered by Hamas"
+      },
+      {
+        "id": "art_1792557897690_0ipg9",
+        "url": "https://www.theguardian.com/world/2026/oct/21/fifth-firm-pulls-out-israeli-cable-car-project-east-jerusalem",
+        "source": "guardian",
+        "title": "Fifth foreign firm pulls out of controversial Israeli cable car project to East Jerusalem"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "daaf21c93fb91c235866950408a5669e",
     "topic_label": "US Supreme Court Review of Federal Home Distilling Prohibition",
     "event_window_start": "2026-10-21T22:18:47.000Z",
@@ -14697,331 +14988,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/10/christa-pike-discharged-from-hospital-and-returned-to-tennessee-prison?traffic_source=rss",
         "source": "aljazeera",
         "title": "Christa Pike discharged from hospital and returned to Tennessee prison"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5e0e4ce7c3aa3209dd779dae55472dda",
-    "topic_label": "US-Russia Diesel Supply Agreement and Diplomatic Friction Regarding Ukraine Energy Strikes",
-    "event_window_start": "2026-10-10T05:43:33.000Z",
-    "event_window_end": "2026-10-10T19:54:36.000Z",
-    "article_ids": [
-      "art_1791667197871_o4g8r",
-      "art_1791654737322_ero33",
-      "art_1791637535402_o3hkz",
-      "art_1791637542042_p3poz",
-      "art_1791613531562_enx5r"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T01:42:26.207Z",
-    "updated_at": "2026-10-11T01:42:26.207Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "The United States government, led by President Donald Trump, has finalized an agreement with the Russian Federation to import over 300,000 tonnes of diesel fuel to address domestic fuel costs. This move, which bypasses existing Western sanctions on Russian energy exports, has triggered a diplomatic confrontation with the Ukrainian government. President Volodymyr Zelenskyy has publicly condemned the transaction, asserting that it provides essential revenue for the Russian military apparatus. In response, President Trump has publicly demanded that Ukraine cease kinetic strikes against Russian oil refineries and suggested the removal of President Zelenskyy, characterizing the Ukrainian strategy as a global destabilization effort regarding energy markets.",
-    "consensus": [
-      "The US and Russia have negotiated a deal for the supply of over 300,000 tonnes of Russian diesel to the United States.",
-      "President Zelenskyy has publicly criticized the deal due to its economic implications for the Russian war effort.",
-      "President Trump has publicly pressured Ukraine to cease targeting Russian oil refineries.",
-      "President Trump has publicly suggested a leadership change in Ukraine."
-    ],
-    "divergence": [
-      "Fox News frames the Ukrainian strikes on Russian refineries as the primary cause for global fuel volatility.",
-      "Al Jazeera highlights the contradiction between the deal and existing US sanctions on Russian oil.",
-      "BBC emphasizes the escalating rhetoric between the US and Ukrainian heads of state as a breakdown in strategic alignment.",
-      "Al Jazeera's report on trilateral talks in Miami presents a narrative of 'productive' negotiations for peace that conflicts with the simultaneous public adversarial rhetoric between Trump and Zelenskyy."
-    ],
-    "sources": [
-      {
-        "id": "art_1791667197871_o4g8r",
-        "url": "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president",
-        "source": "fox",
-        "title": "Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal: 'Get a new president'"
-      },
-      {
-        "id": "art_1791654737322_ero33",
-        "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal"
-      },
-      {
-        "id": "art_1791637535402_o3hkz",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/ukraine-warns-trump-putin-diesel-deal-will-bankroll-russias-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ukraine warns Trump-Putin diesel deal will bankroll Russia’s war"
-      },
-      {
-        "id": "art_1791637542042_p3poz",
-        "url": "https://www.aljazeera.com/news/2026/10/10/why-is-us-turning-to-russia-for-diesel-despite-sanctions?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why is US turning to Russia for diesel despite sanctions?"
-      },
-      {
-        "id": "art_1791613531562_enx5r",
-        "url": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US hosts ‘productive’ trilateral talks to end Russia-Ukraine war"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6d6d44defa0dfe5fb76b4951b209c29c",
-    "topic_label": "Failed State Execution of Christa Pike",
-    "event_window_start": "2026-10-10T05:48:54.000Z",
-    "event_window_end": "2026-10-10T17:44:26.000Z",
-    "article_ids": [
-      "art_1791654733045_8jhlg",
-      "art_1791654740708_vlbby",
-      "art_1791654741788_0i558",
-      "art_1791613530455_8da7l"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T23:04:11.035Z",
-    "updated_at": "2026-10-10T23:04:11.035Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "On September 30, state actors at the Deborah K. Johnson Rehabilitation Center administered two doses of the barbiturate pentobarbital to 50-year-old inmate Christa Pike in a state-sanctioned lethal injection procedure. The administration of the lethal chemicals failed to result in the subject's death, leaving her in a critical physiological state requiring hospitalization. After regaining consciousness, the subject was discharged from medical facilities on October 10 and returned to the custody of the correctional facility, where she remains under medical monitoring. The event constitutes a failure of state-administered lethal apparatus.",
-    "consensus": [
-      "Christa Pike is a 50-year-old inmate at the Deborah K. Johnson Rehabilitation Center.",
-      "The state attempted an execution via lethal injection on September 30.",
-      "Two doses of pentobarbital were administered to the subject.",
-      "The execution attempt failed to result in death.",
-      "Pike was hospitalized and subsequently discharged back to prison custody on October 10.",
-      "The subject is currently receiving ongoing medical care within the prison system."
-    ],
-    "divergence": [
-      "The BBC framed the failure as a \"botched execution\" and focused on the rarity of survival to characterize the event as \"uncharted territory.\"",
-      "The Guardian and Al Jazeera both emphasized the subject's expression of gratitude toward first responders, a detail not included in all accounts to maintain focus on the mechanical failure.",
-      "The BBC provided historical context regarding public executions in 1936 to frame the narrative around the evolution of capital punishment, shifting focus away from the immediate procedural failure."
-    ],
-    "sources": [
-      {
-        "id": "art_1791654733045_8jhlg",
-        "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution"
-      },
-      {
-        "id": "art_1791654740708_vlbby",
-        "url": "https://www.theguardian.com/us-news/2026/oct/10/christa-pike-discharged-back-in-prison",
-        "source": "guardian",
-        "title": "Christa Pike out of hospital and back in prison after botched execution attempt"
-      },
-      {
-        "id": "art_1791654741788_0i558",
-        "url": "https://www.aljazeera.com/news/2026/10/10/christa-pike-discharged-from-hospital-and-returned-to-tennessee-prison?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Christa Pike discharged from hospital and returned to Tennessee prison"
-      },
-      {
-        "id": "art_1791613530455_8da7l",
-        "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4165bfa51e2368f5402b8927af8f56bf",
-    "topic_label": "Multiple Fatalities and Officer Shootings in Pennsylvania",
-    "event_window_start": "2026-10-10T12:07:35.000Z",
-    "event_window_end": "2026-10-10T12:57:28.000Z",
-    "article_ids": [
-      "art_1791637531217_m2r4j",
-      "art_1791637544130_rkmru"
-    ],
-    "source_ids": [
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T19:41:55.947Z",
-    "updated_at": "2026-10-10T19:41:55.947Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Violence",
-    "synthesis": "Multiple kinetic incidents involving firearms occurred in Pennsylvania. In one event, multiple fatalities resulted from an active shooting at a residential location, concluding with the perpetrator's self-inflicted gunshot death. In a separate event in Philadelphia, two police officers were subjected to an ambush-style firearm attack, resulting in 15 combined gunshot wounds; the suspect was subsequently located and neutralized.",
-    "consensus": [
-      "Multiple fatalities occurred in an Erie residential shooting.",
-      "The Erie perpetrator died of a self-inflicted gunshot wound.",
-      "Two Philadelphia police officers sustained gunshot wounds during an ambush attack.",
-      "A total of 15 rounds impacted the two Philadelphia officers."
-    ],
-    "divergence": [
-      "Fox (Erie report) emphasizes the emotional impact on law enforcement and labels the scene as 'heartbreaking', omitting specific weapon types used.",
-      "Fox (Philadelphia report) frames the event as an 'ambush attack' and highlights the familial status of the victims to emphasize the severity of the violence.",
-      "The reports focus on two distinct geographical events that occurred in different parts of Pennsylvania, which may lead to confusion regarding the scope of the violence."
-    ],
-    "sources": [
-      {
-        "id": "art_1791637531217_m2r4j",
-        "url": "https://www.foxnews.com/us/multiple-people-killed-pennsylvania-shooting-suspected-gunman-found-dead-report",
-        "source": "fox",
-        "title": "Multiple people killed in Pennsylvania shooting; suspected gunman found dead: report"
-      },
-      {
-        "id": "art_1791637544130_rkmru",
-        "url": "https://www.foxnews.com/us/philadelphia-police-officers-shot-15-times-combined-ambush-attack-suspect-found-hiding-tree",
-        "source": "fox",
-        "title": "Philadelphia police officers shot 15 times combined in ambush attack, suspect found hiding in tree"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "28fafcc7a3555bc7882838c5ed325431",
-    "topic_label": "Hurricane Isaias Landfall and Regional Impact",
-    "event_window_start": "2026-10-09T20:04:31.000Z",
-    "event_window_end": "2026-10-10T12:55:10.000Z",
-    "article_ids": [
-      "art_1791637532259_hn3c2",
-      "art_1791637537752_cvm3x",
-      "art_1791577791730_zl7sb"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T15:44:15.137Z",
-    "updated_at": "2026-10-10T15:44:15.137Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "Hurricane Isaias, a Category 3 tropical cyclone, made landfall on the US Gulf Coast, resulting in widespread power outages for hundreds of thousands of residents. Physical impacts include high-velocity winds, heavy rainfall, and identified risks of spinoff tornadoes across Alabama and surrounding states. State authorities have issued emergency management warnings, and at least one fatality is confirmed in Escambia County, Florida. The storm has disrupted regional infrastructure and forced the cancellation or rescheduling of multiple public athletic events.",
-    "consensus": [
-      "Hurricane Isaias reached Category 3 status.",
-      "The storm impacted the US Gulf Coast region.",
-      "Hundreds of thousands of residents are experiencing power outages.",
-      "At least one fatality occurred in Escambia County, Florida.",
-      "The storm necessitated the alteration or cancellation of college football games."
-    ],
-    "divergence": [
-      "Fox News frames the storm primarily through the lens of athletic event scheduling and sports tourism, downplaying the severity of the humanitarian and infrastructure impact.",
-      "The Guardian focuses on the humanitarian toll and state-level emergency management directives, emphasizing the fatality and the governor's warnings regarding life-threatening conditions."
-    ],
-    "sources": [
-      {
-        "id": "art_1791637532259_hn3c2",
-        "url": "https://www.foxnews.com/outkick-sports/storm-here-georgia-alabama-set-write-latest-chapter-after-chaotic-week-around-hurricane-isaias",
-        "source": "fox",
-        "title": "The storm is here: Georgia-Alabama set to write latest chapter after chaotic week around Hurricane Isaias"
-      },
-      {
-        "id": "art_1791637537752_cvm3x",
-        "url": "https://www.theguardian.com/world/live/2026/oct/10/hurricane-isaias-gulf-coast-alabama-florida-louisiana-mississippi-latest-updates",
-        "source": "guardian",
-        "title": "Hurricane Isaias live updates: warning of ‘spinoff tornadoes’ as hundreds of thousands without power"
-      },
-      {
-        "id": "art_1791577791730_zl7sb",
-        "url": "https://www.foxnews.com/outkick-sports/hurricane-isaias-forces-numerous-college-football-games-changes-including-cancellation",
-        "source": "fox",
-        "title": "Hurricane Isaias forces numerous college football games to have changes, including a cancellation"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5561898eaa55474bd35ef39bb0136d31",
-    "topic_label": "Mexican Judicial Convictions for Triple Homicide",
-    "event_window_start": "2026-10-10T05:48:54.000Z",
-    "event_window_end": "2026-10-10T06:04:35.000Z",
-    "article_ids": [
-      "art_1791613525650_a8gv8",
-      "art_1791613526955_91zdh",
-      "art_1791613528128_1w1j2",
-      "art_1791613529297_74gos",
-      "art_1791613530455_8da7l"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-10T09:32:55.370Z",
-    "updated_at": "2026-10-10T09:32:55.370Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Criminal Justice",
-    "synthesis": "Three individuals have been found guilty in a Mexican court for the 2024 murders of Australian nationals Jake and Callum Robinson and U.S. national Carter Rhoad. The victims were killed while participating in a surfing trip. The judicial process has concluded with a conviction, and the victims' families have publicly addressed the court regarding the sentencing.",
-    "consensus": [
-      "Three Mexican nationals were convicted of murdering two Australian brothers and one U.S. national.",
-      "The murders occurred in 2024 during a surfing trip in Mexico.",
-      "The judicial trial for the defendants has concluded with guilty verdicts."
-    ],
-    "divergence": [
-      "The BBC report frames the event through the lens of victim advocacy and family closure.",
-      "The Guardian articles provided are unrelated to this incident, focusing on UK political and economic news; therefore, they omit all details regarding the murder case."
-    ],
-    "sources": [
-      {
-        "id": "art_1791613525650_a8gv8",
-        "url": "https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "How the trial of murdered Australian brothers and US friend unfolded"
-      },
-      {
-        "id": "art_1791613526955_91zdh",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/10/labour-fears-budget-burnham-healey",
-        "source": "guardian",
-        "title": "‘If voters aren’t better off by the next election, we’re screwed’: Labour insiders voice fears over budget"
-      },
-      {
-        "id": "art_1791613528128_1w1j2",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/10/uk-gaza-refugee-resettlement-scheme-palestinians-home-office",
-        "source": "guardian",
-        "title": "UK accused of giving people of Gaza false hope over new refugee safe route"
-      },
-      {
-        "id": "art_1791613529297_74gos",
-        "url": "https://www.theguardian.com/money/2026/oct/10/uk-savings-interest-rate-deals-nsi-bonds",
-        "source": "guardian",
-        "title": "UK savings: 5% interest rate deals may not last, say experts"
-      },
-      {
-        "id": "art_1791613530455_8da7l",
-        "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Public executions in the US stopped nearly a century ago -  why are they resuming now?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
