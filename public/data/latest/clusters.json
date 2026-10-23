@@ -1,5 +1,75 @@
 [
   {
+    "cluster_id": "348ef9146ba7bfe3160b701477ff38b9",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-22T23:34:46.000Z",
+    "event_window_end": "2026-10-23T00:00:38.000Z",
+    "article_ids": [
+      "art_1792714050344_uv2ye",
+      "art_1792714051500_uxgo8",
+      "art_1792714052819_tkn1k",
+      "art_1792714053855_rodms",
+      "art_1792714054899_t3xys"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T00:36:22.950Z",
+    "updated_at": "2026-10-23T00:36:22.950Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792714050344_uv2ye",
+        "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Powerful earthquake hits Tibet killing 16 people, reports say"
+      },
+      {
+        "id": "art_1792714051500_uxgo8",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
+        "source": "guardian",
+        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station"
+      },
+      {
+        "id": "art_1792714052819_tkn1k",
+        "url": "https://www.foxnews.com/outkick-sports/knicks-superfans-name-newborn-knickson-fyve-honor-historic-nba-championship-run",
+        "source": "fox",
+        "title": "Knicks superfans name their newborn 'Knickson Fyve' to honor historic NBA championship run"
+      },
+      {
+        "id": "art_1792714053855_rodms",
+        "url": "https://www.foxnews.com/travel/teen-dies-falling-from-moving-carnival-ride-questions-mount-over-safety",
+        "source": "fox",
+        "title": "Teen dies after falling from moving carnival ride as questions mount over safety"
+      },
+      {
+        "id": "art_1792714054899_t3xys",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/uk-conservative-party-leader-responds-to-al-jazeera-investigation?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UK Conservative Party leader responds to Al Jazeera investigation"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "777d0a29fdc2807650e5ed7332052c65",
     "topic_label": "Mass Pre-Election Mass Demonstrations in Belgrade and Unrelated News Cycle Coverage",
     "event_window_start": "2026-10-22T20:15:16.000Z",
@@ -15052,75 +15122,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
         "source": "aljazeera",
         "title": "Damage seen inside Saudi airport after third attack this week"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6c38ca4fda0ac5349f4d216419ee02d4",
-    "topic_label": "Ukrainian Drone Strikes on Russian Energy and Data Infrastructure Amidst Contested Ceasefire Claims",
-    "event_window_start": "2026-10-10T19:54:36.000Z",
-    "event_window_end": "2026-10-11T18:02:44.000Z",
-    "article_ids": [
-      "art_1791743435068_od7gl",
-      "art_1791743444940_mzosu",
-      "art_1791725412595_g0da6",
-      "art_1791667197871_o4g8r"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T19:31:49.859Z",
-    "updated_at": "2026-10-11T19:31:49.859Z",
-    "region_tag": "global",
-    "severity": "HIGH",
-    "incident_type": "Infrastructure",
-    "synthesis": "The physical reality involves ongoing kinetic attacks by Ukrainian assets against Russian state infrastructure, specifically targeting oil refineries and Yandex data centers. Despite US President Donald Trump claiming a unilateral 'energy ceasefire' via social media, Ukrainian combat operations against these targets have continued. The conflict manifests as a breakdown between US diplomatic assertions of a negotiated energy ceasefire and the operational continuation of long-range drone strikes by Ukraine, resulting in the incapacitation of multiple Yandex data facilities and continued disruption of Russian refined petroleum infrastructure.",
-    "consensus": [
-      "Ukrainian forces have conducted physical drone strikes against Russian energy infrastructure and Yandex data centers.",
-      "US President Donald Trump publicly announced an 'energy ceasefire' on social media platforms.",
-      "Ukrainian President Volodymyr Zelenskyy confirmed he was not consulted prior to the US president's announcement of the ceasefire.",
-      "Data center facilities near Moscow and in Vladimir have sustained damage, resulting in localized service outages for Yandex.",
-      "The US administration has issued warnings to the Ukrainian government regarding the continuation of strikes on Russian oil refineries."
-    ],
-    "divergence": [
-      "Guardian frames the events primarily as a diplomatic miscommunication or confusion regarding the ceasefire status, while omitting the immediate operational failure of the ceasefire in the field.",
-      "BBC highlights the direct continuation of kinetic strikes against data centers as a challenge to US influence, focusing on the failure of the warning to deter attacks.",
-      "Fox News frames the events as a political conflict, emphasizing the US president's call for regime change in Ukraine as the primary outcome of the dispute over energy policy.",
-      "Trump's communications (cited across sources) characterize the ceasefire as an 'effective' agreement, contradicting the objective reality of ongoing drone strikes and the lack of Russian verification."
-    ],
-    "sources": [
-      {
-        "id": "art_1791743435068_od7gl",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates",
-        "source": "guardian",
-        "title": "Zelenskyy signals surprise at Trump claim of Russia-Ukraine ‘energy ceasefire’ but would back it if Moscow does – live updates"
-      },
-      {
-        "id": "art_1791743444940_mzosu",
-        "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
-        "source": "guardian",
-        "title": "Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’"
-      },
-      {
-        "id": "art_1791725412595_g0da6",
-        "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ukraine strikes Russian data centre again despite Trump warning"
-      },
-      {
-        "id": "art_1791667197871_o4g8r",
-        "url": "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president",
-        "source": "fox",
-        "title": "Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal: 'Get a new president'"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
