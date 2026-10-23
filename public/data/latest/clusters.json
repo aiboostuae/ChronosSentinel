@@ -1,5 +1,335 @@
 [
   {
+    "cluster_id": "5aed9aa7b54867e5a7fef5bda4606d47",
+    "topic_label": "Global PHP Remote Code Execution Vulnerability Discovery",
+    "event_window_start": "2026-10-22T06:24:59.000Z",
+    "event_window_end": "2026-10-22T17:12:51.000Z",
+    "article_ids": [
+      "art_1792691101815_jav81",
+      "art_1792672216040_ajb86",
+      "art_1792672227656_w1lj2",
+      "art_1792651008644_qcfkj"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T05:25:27.425Z",
+    "updated_at": "2026-10-23T05:25:27.425Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "Researchers utilizing OpenAI large language models identified long-standing critical vulnerabilities within the PHP programming language, which functions as the server-side architecture for approximately 70% of global web platforms. The discovery triggered an immediate global emergency patching mandate. In the United Kingdom, 32 government digital services were deliberately taken offline as a containment measure to prevent unauthorized remote code execution exploits while patching operations were conducted. No active compromises of critical national infrastructure have been confirmed at this time, though the potential for high-impact exploitation remains.",
+    "consensus": [
+      "A critical security vulnerability exists within the PHP programming language.",
+      "The vulnerability was identified through the use of AI technology.",
+      "Patches have been released to mitigate the risk.",
+      "UK government agencies preemptively deactivated 32 services to facilitate system patching.",
+      "No confirmed successful malicious exploits have been reported to date."
+    ],
+    "divergence": [
+      "The BBC emphasizes the role of AI as the primary discoverer of the flaw, focusing on the novelty of the detection method.",
+      "The Guardian focuses on the operational impact to UK infrastructure, highlighting the specific count of offline government services.",
+      "The BBC and Guardian differ in how they frame the severity, with Wiz cited as calling it the 'most severe ever detected' while official government sources downplay the impact on critical services."
+    ],
+    "sources": [
+      {
+        "id": "art_1792691101815_jav81",
+        "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Race to update services' computer systems after cyber-security flaw found"
+      },
+      {
+        "id": "art_1792672216040_ajb86",
+        "url": "https://www.bbc.co.uk/news/videos/cq0ld7e0jg2eo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How did AI discover the internet's massive cyber-security risk?"
+      },
+      {
+        "id": "art_1792672227656_w1lj2",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/22/john-healey-chancellor-budget-red-tape-small-businsesses-jackdaw-oil-latest-news-updates",
+        "source": "guardian",
+        "title": "Minister says 32 government services offline due to PHP code flaw – UK politics live"
+      },
+      {
+        "id": "art_1792651008644_qcfkj",
+        "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "What is PHP and why did it spark a global cyber-security scramble?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c8437bc045cb0932fc2b461e79022639",
+    "topic_label": "Federal Court Intervention in DHS Voter Integrity Investigations",
+    "event_window_start": "2026-10-22T16:53:13.000Z",
+    "event_window_end": "2026-10-23T01:47:39.000Z",
+    "article_ids": [
+      "art_1792726024038_yqpsp",
+      "art_1792702802400_byd3z",
+      "art_1792691094326_mcb50",
+      "art_1792691108271_liz01"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T05:25:27.425Z",
+    "updated_at": "2026-10-23T05:25:27.425Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "U.S. District Judge Araceli Martínez-Olguín issued an injunction requiring the Department of Homeland Security to cease specific investigations into suspected illegal voter registrations in battleground states. This judicial order, enacted shortly before the 2026 midterm elections, halts federal efforts to audit voter rolls for non-citizen participation. The action is currently in effect, creating a direct conflict between federal executive enforcement and judicial oversight regarding election integrity procedures.",
+    "consensus": [
+      "A U.S. District Court judge in California issued an order blocking certain DHS investigations into voter registrations.",
+      "The investigations in question concern the status of non-citizens in voter rolls.",
+      "The ruling occurs in the immediate timeframe preceding the 2026 U.S. midterm elections."
+    ],
+    "divergence": [
+      "Fox News frames the ruling through the identity and past employment of the judge, specifically highlighting her nomination by President Biden and previous work with the ACLU to imply partisan bias.",
+      "Al Jazeera focuses on the broader context of ICE staffing and deportation policy, framing the federal agency's mandate as the primary narrative rather than the specific judicial restriction on voter roll audits.",
+      "Fox News includes narrative reporting on unrelated campaign finance controversies (Senator Warren) and media coverage strategies, which are absent from the context of the judicial order."
+    ],
+    "sources": [
+      {
+        "id": "art_1792726024038_yqpsp",
+        "url": "https://www.aljazeera.com/news/2026/10/23/will-ice-agents-play-a-role-in-the-2026-us-midterm-elections?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Will ICE agents play a role in the 2026 US midterm elections?"
+      },
+      {
+        "id": "art_1792702802400_byd3z",
+        "url": "https://www.foxnews.com/media/fox-news-unveils-extensive-2026-midterm-coverage-plans-control-congress-stake",
+        "source": "fox",
+        "title": "Fox News unveils extensive 2026 midterm coverage plans with control of Congress at stake"
+      },
+      {
+        "id": "art_1792691094326_mcb50",
+        "url": "https://www.foxnews.com/media/warren-gets-defensive-when-pressed-democrats-accepting-billionaire-donations",
+        "source": "fox",
+        "title": "Warren gets defensive when pressed on Democrats accepting billionaire donations"
+      },
+      {
+        "id": "art_1792691108271_liz01",
+        "url": "https://www.foxnews.com/politics/biden-appointed-judge-blocks-voter-fraud-probes-battleground-states-days-before-midterms",
+        "source": "fox",
+        "title": "Biden-appointed judge blocks voter-fraud probes in battleground states just days before midterms"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d6919a12c08309c79f52e869e673eda0",
+    "topic_label": "Political Campaign Ad Featuring Estranged Family Member in Ohio Gubernatorial Race",
+    "event_window_start": "2026-10-22T12:13:07.000Z",
+    "event_window_end": "2026-10-23T02:22:24.000Z",
+    "article_ids": [
+      "art_1792726017456_1wjdq",
+      "art_1792702811205_v9xei",
+      "art_1792672217203_z6oit"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T05:25:27.425Z",
+    "updated_at": "2026-10-23T05:25:27.425Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Political Campaigning",
+    "synthesis": "Vivek Ramaswamy, a candidate for Ohio governor, released a campaign advertisement featuring Donna Arthur, the estranged mother of his political rival, Amy Acton. In the advertisement, Arthur challenges Acton's public accounts of her childhood experiences, specifically regarding allegations of homelessness and sexual abuse. Acton’s campaign asserts that she was a victim of sexual abuse by a stepfather and has had no contact with her mother since 1978. Former President Donald Trump publicly endorsed the continuation of the advertisement campaign, while Ohio Governor Mike DeWine and Representative Nancy Mace criticized the move as unethical, leading to an ongoing public dispute over campaign tactics.",
+    "consensus": [
+      "Vivek Ramaswamy's campaign released an advertisement featuring Donna Arthur.",
+      "Donna Arthur is the estranged mother of Amy Acton.",
+      "The advertisement challenges Amy Acton's public accounts of her childhood.",
+      "Amy Acton has publicly stated she has not had contact with her mother since 1978.",
+      "Donald Trump publicly supported the continuation of the advertisement.",
+      "Ohio Governor Mike DeWine publicly criticized the advertisement."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the endorsement from Trump and the specific narrative claims made by Donna Arthur regarding Acton's account of abuse.",
+      "The Guardian frames the event primarily through the lens of internal Republican party conflict, highlighting the rebuke between Trump and Governor DeWine.",
+      "The Guardian (secondary report) emphasizes the moral condemnation from Nancy Mace, labeling the ad as 'shameful' and 'disgusting' to highlight the escalating toxicity of the campaign."
+    ],
+    "sources": [
+      {
+        "id": "art_1792726017456_1wjdq",
+        "url": "https://www.aljazeera.com/news/2026/10/23/trump-backs-ramaswamy-ad-featuring-rival-amy-actons-estranged-mother?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump backs Ramaswamy ad featuring rival Amy Acton’s estranged mother"
+      },
+      {
+        "id": "art_1792702811205_v9xei",
+        "url": "https://www.theguardian.com/us-news/2026/oct/22/ramaswamy-attack-ad-ohio-dewine",
+        "source": "guardian",
+        "title": "Trump attacks Ohio governor over call for Ramaswamy to drop ‘deeply troubling’ ad"
+      },
+      {
+        "id": "art_1792672217203_z6oit",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/22/vivek-ramaswamy-ohio-trump-vance-us-midterm-elections-latest-news-updates",
+        "source": "guardian",
+        "title": "Vivek Ramaswamy campaign ad for Ohio ‘shameful, disgusting’, says Republican congresswoman – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b1c4b462fe513d76990d6366e0c2e125",
+    "topic_label": "U.S. Department of Justice Legal and Judicial Enforcement Actions",
+    "event_window_start": "2026-10-22T17:14:04.000Z",
+    "event_window_end": "2026-10-22T23:03:37.000Z",
+    "article_ids": [
+      "art_1792714065728_2o24g",
+      "art_1792702806771_7oevq",
+      "art_1792691100792_03bv3"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T05:25:27.425Z",
+    "updated_at": "2026-10-23T05:25:27.425Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The U.S. executive branch and judicial system are currently engaged in multiple concurrent legal proceedings involving high-profile political figures and members of the federal judiciary. The Department of Justice has initiated an investigation into Corey Lewandowski following a criminal referral from the DHS inspector general, while simultaneously moving to disqualify two federal judges from immigration-related cases due to public statements. Concurrently, a federal magistrate has compelled former President Donald Trump to provide sworn deposition testimony by December 11 regarding a defamation lawsuit filed against the BBC. These actions represent standard administrative and civil litigation processes within the U.S. legal system.",
+    "consensus": [
+      "The Department of Justice has initiated a probe into Corey Lewandowski.",
+      "The DOJ is seeking to disqualify two Minnesota federal judges from immigration cases.",
+      "A federal judge has mandated that Donald Trump provide a deposition in a defamation lawsuit by December 11."
+    ],
+    "divergence": [
+      "Fox News frames the Lewandowski probe as a 'legal escalation' while the BBC focuses exclusively on the procedural compulsion of the former President's testimony.",
+      "Fox News emphasizes the administration's administrative conflict with the judiciary regarding immigration cases, omitting the underlying constitutional implications of judicial independence.",
+      "The BBC report focuses on the discovery phase of civil litigation against a media entity, whereas Fox News focuses on the intersection of executive power and judicial oversight."
+    ],
+    "sources": [
+      {
+        "id": "art_1792714065728_2o24g",
+        "url": "https://www.foxnews.com/politics/doj-opens-investigation-trump-ally-corey-lewandowski",
+        "source": "fox",
+        "title": "DOJ opens investigation into Trump ally Corey Lewandowski"
+      },
+      {
+        "id": "art_1792702806771_7oevq",
+        "url": "https://www.foxnews.com/politics/doj-moves-boot-two-federal-judges-immigration-cases-over-remarks-media-extraordinarily-imprudent",
+        "source": "fox",
+        "title": "DOJ moves to boot two federal judges from immigration cases over remarks to media: 'Extraordinarily imprudent'"
+      },
+      {
+        "id": "art_1792691100792_03bv3",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump ordered to answer questions under oath in BBC lawsuit "
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "121130c3ebb8c04b81c3abbe44cf30a0",
+    "topic_label": "Systemic Targeting of Healthcare Infrastructure in El-Fasher by RSF",
+    "event_window_start": "2026-10-22T05:30:22.000Z",
+    "event_window_end": "2026-10-22T23:16:16.000Z",
+    "article_ids": [
+      "art_1792714062331_r1zjm",
+      "art_1792714064616_uprug",
+      "art_1792702807808_f2lfi",
+      "art_1792702813269_hwkwv",
+      "art_1792651009743_1b93o",
+      "art_1792651017194_uu71a"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T05:25:27.425Z",
+    "updated_at": "2026-10-23T05:25:27.425Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "The Rapid Support Forces (RSF) have executed a systematic destruction of healthcare infrastructure in El-Fasher, Darfur, through direct military bombardment and prolonged siege tactics. Telemetry and forensic evidence confirm the targeting of the Saudi Hospital, effectively incapacitating the city's emergency medical capabilities. The RSF denies the destruction of these facilities, characterizing the reports as a propaganda campaign led by the Sudanese national army.",
+    "consensus": [
+      "The Rapid Support Forces (RSF) conducted a siege on El-Fasher, Darfur.",
+      "Healthcare facilities in El-Fasher, including the Saudi Hospital, ceased to function as a result of the ongoing conflict.",
+      "There is an ongoing armed struggle between the RSF and Sudanese national forces."
+    ],
+    "divergence": [
+      "The BBC frames the destruction as a 'systematic' targeting of civilians and war crimes, emphasizing the human cost and medical paralysis.",
+      "The RSF, as reported by the BBC, characterizes the allegations of medical facility destruction as a 'smear' campaign and 'propaganda' orchestrated by the national army."
+    ],
+    "sources": [
+      {
+        "id": "art_1792714062331_r1zjm",
+        "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds"
+      },
+      {
+        "id": "art_1792714064616_uprug",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/22/caricom-reparations-commission-king-charles",
+        "source": "guardian",
+        "title": "King Charles urged ‘as human brother’ to support reparations talks at Caribbean summit"
+      },
+      {
+        "id": "art_1792702807808_f2lfi",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/10/22/why-has-the-libya-turkiye-maritime-deal-stirred-controversy?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why has the Libya-Turkiye maritime deal stirred controversy?"
+      },
+      {
+        "id": "art_1792702813269_hwkwv",
+        "url": "https://www.aljazeera.com/news/2026/10/22/epstein-iran-and-drain-the-swamp-have-republicans-shifted-before-vote?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Epstein, Iran and ‘drain the swamp’: Have Republicans shifted before vote?"
+      },
+      {
+        "id": "art_1792651009743_1b93o",
+        "url": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Cookies and weapons: Women in Yemen’s Taiz find ways to help the city’s defence"
+      },
+      {
+        "id": "art_1792651017194_uu71a",
+        "url": "https://www.bbc.co.uk/news/articles/cx8dzrp768j8o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "How Arab parties could hold critical balance of power in Israeli election"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "348ef9146ba7bfe3160b701477ff38b9",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-10-22T23:34:46.000Z",
@@ -14808,320 +15138,6 @@
         "url": "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss",
         "source": "aljazeera",
         "title": "How genocidal war on Gaza is shaping Israel’s election"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e813f93ebc327f5e5bd3bab6d277f078",
-    "topic_label": "Houthi Ballistic Missile Strike on King Khalid International Airport",
-    "event_window_start": "2026-10-11T13:23:01.000Z",
-    "event_window_end": "2026-10-11T13:23:02.000Z",
-    "article_ids": [
-      "art_1791725402548_camrl",
-      "art_1791725403735_xtsqv"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T23:16:43.902Z",
-    "updated_at": "2026-10-11T23:16:43.902Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "Houthi forces launched a ballistic missile targeting the civilian infrastructure of King Khalid International Airport in Riyadh, Saudi Arabia. The kinetic event represents an escalation of the ongoing conflict between Houthi rebels and the Saudi-led coalition. The projectile targeted a high-traffic civilian aviation facility. The administration of US President Donald Trump is currently evaluating military intervention in response to the strike, while Houthi leadership has publicly issued retaliatory threats, citing their actions as a reciprocal response to Saudi military operations within Yemen.",
-    "consensus": [
-      "A ballistic missile was launched by Houthi forces at King Khalid International Airport in Riyadh.",
-      "The Houthi movement claims the strike is a reciprocal action against Saudi military operations in Yemen.",
-      "The US administration is actively considering direct military involvement in response to the attack.",
-      "Houthi leadership has issued a public warning of further escalation."
-    ],
-    "divergence": [
-      "The Guardian frames the event primarily through the lens of US domestic political strategy and midterm election pressures.",
-      "The Guardian omits technical details regarding the missile type and the specific success or failure of Saudi air defense interception systems.",
-      "The Guardian source emphasizes the political implications for President Trump's energy policy over the immediate physical impact of the kinetic strike."
-    ],
-    "sources": [
-      {
-        "id": "art_1791725402548_camrl",
-        "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
-        "source": "guardian",
-        "title": "Houthi attack on Riyadh airport will force rethink of Donald Trump’s strategy"
-      },
-      {
-        "id": "art_1791725403735_xtsqv",
-        "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-        "source": "guardian",
-        "title": "Middle East crisis live: Houthi foreign ministry says ‘worse yet to come’ if Saudi strikes continue"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "25123727c61e5514633e552b8f865b13",
-    "topic_label": "Hurricane Isaias landfall and casualties in Florida",
-    "event_window_start": "2026-10-11T04:28:51.000Z",
-    "event_window_end": "2026-10-11T18:08:32.000Z",
-    "article_ids": [
-      "art_1791743433759_vacp9",
-      "art_1791699787429_ey57m"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T19:31:49.859Z",
-    "updated_at": "2026-10-11T19:31:49.859Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Meteorological Disaster",
-    "synthesis": "Hurricane Isaias, a Category 2 meteorological system, made physical landfall across Florida, resulting in the confirmed deaths of four individuals and the disruption of electrical infrastructure for approximately 650,000 residents. The event caused widespread structural damage, flooding, and debris accumulation throughout the affected regions, necessitating emergency response operations and recovery efforts for damaged homes and infrastructure.",
-    "consensus": [
-      "Hurricane Isaias made landfall in Florida.",
-      "The storm caused significant power outages affecting approximately 650,000 people.",
-      "Four fatalities were confirmed as a direct result of the storm.",
-      "Widespread property damage, including flooding and debris, occurred in the region."
-    ],
-    "divergence": [
-      "Fox News focuses on the recovery efforts and volunteer mobilization by the United Cajun Navy, omitting specific casualty statistics.",
-      "Al Jazeera emphasizes the human toll and infrastructure failure statistics, omitting discussion of private volunteer efforts or recovery logistics."
-    ],
-    "sources": [
-      {
-        "id": "art_1791743433759_vacp9",
-        "url": "https://www.foxnews.com/politics/hurricane-isaias-devastating-aftermath-comes-into-focus-striking-images",
-        "source": "fox",
-        "title": "Hurricane Isaias’ devastating aftermath comes into focus in striking images"
-      },
-      {
-        "id": "art_1791699787429_ey57m",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/10-10-clip-isaias-is-here-us?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hurricane Isaias kills four, leaves 650,000 without power in Florida"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4a720998c531088e5f6ae34c68b30740",
-    "topic_label": "US Department of Justice Investigation into Broadcast Media Pool Conduct",
-    "event_window_start": "2026-10-11T04:30:10.000Z",
-    "event_window_end": "2026-10-11T22:18:31.000Z",
-    "article_ids": [
-      "art_1791757761722_1iwah",
-      "art_1791757762799_9ok3h",
-      "art_1791757768123_z42tv",
-      "art_1791743443900_f0nov",
-      "art_1791699782139_tg0xu",
-      "art_1791699786400_aayv8"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T23:16:43.902Z",
-    "updated_at": "2026-10-11T23:16:43.902Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The United States Department of Justice has initiated an investigation into five major television networks—ABC, CBS, CNN, NBC, and Fox News—to determine if their synchronized decision to pause presidential pool coverage constituted a violation of the Sherman Act. The networks had suspended coverage in response to the Trump administration's revocation of press credentials for specific journalists. The federal inquiry focuses on whether the collective action by these media entities represents monopolistic anti-competitive behavior.",
-    "consensus": [
-      "The US Department of Justice is investigating ABC, CBS, CNN, NBC, and Fox News.",
-      "The investigation concerns the suspension of presidential pool coverage by these networks.",
-      "The suspension was a response to the Trump administration revoking credentials for select reporters."
-    ],
-    "divergence": [
-      "The BBC provides a factual report focused on the legal framework and potential antitrust implications of the DoJ action.",
-      "The Guardian and Fox reports provided in the context are unrelated, focusing on Australian political speculation, US Senate candidacies, and celebrity commentary on political life, demonstrating the high noise-to-signal ratio in the provided input."
-    ],
-    "sources": [
-      {
-        "id": "art_1791757761722_1iwah",
-        "url": "https://www.theguardian.com/australia-news/live/2026/oct/12/labor-anthony-albanese-greens-digital-duty-of-care-coalition-angus-taylor-one-nation-ntwnfb",
-        "source": "guardian",
-        "title": "Politics live: Monique Ryan ‘not bothered’ by Josh Frydenberg comeback speculation"
-      },
-      {
-        "id": "art_1791757762799_9ok3h",
-        "url": "https://www.foxnews.com/media/el-sayed-asked-believes-america-ready-muslim-president-ahead-senate-race",
-        "source": "fox",
-        "title": "El-Sayed asked if he believes America is 'ready for a Muslim president' ahead of Senate race"
-      },
-      {
-        "id": "art_1791757768123_z42tv",
-        "url": "https://www.foxnews.com/entertainment/ben-affleck-political-hypocrisy-corruption-failure-left-disillusioned",
-        "source": "fox",
-        "title": "Ben Affleck says political 'hypocrisy, corruption and failure' left him 'disillusioned'"
-      },
-      {
-        "id": "art_1791743443900_f0nov",
-        "url": "https://www.theguardian.com/us-news/2026/oct/11/abdul-el-sayed-democrats-must-win-by-massive-numbers",
-        "source": "guardian",
-        "title": "Abdul El-Sayed: Democrats must ‘win by massive numbers’ to fend off Trump election denial"
-      },
-      {
-        "id": "art_1791699782139_tg0xu",
-        "url": "https://www.bbc.co.uk/news/articles/c9vgregzk6gro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US justice department investigates TV networks over Trump pool coverage"
-      },
-      {
-        "id": "art_1791699786400_aayv8",
-        "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US opens antitrust probe into TV networks for halting Trump coverage"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "64060256b9145153a607637765d01241",
-    "topic_label": "Israeli Kinetic Operations and Territorial Expansion in Gaza",
-    "event_window_start": "2026-10-10T20:14:01.000Z",
-    "event_window_end": "2026-10-11T18:25:42.000Z",
-    "article_ids": [
-      "art_1791743431527_9s2tc",
-      "art_1791743446111_vphbd",
-      "art_1791743447185_xjmej",
-      "art_1791699778367_w0txd",
-      "art_1791667191469_t1p1e"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T19:31:49.859Z",
-    "updated_at": "2026-10-11T19:31:49.859Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "Israeli military forces are conducting sustained kinetic operations within the Gaza Strip, including the use of artillery and aerial bombardment, which resulted in the destruction of civilian residential infrastructure in the Al-Rimal neighborhood. Military units have physically advanced territorial boundaries, referred to as the 'Yellow Line,' displacing local populations. Concurrent with these combat actions, Palestinian legislative elections have been indefinitely postponed by the Palestinian Authority, and Israeli domestic political rhetoric links ongoing military operations in Gaza to the upcoming national election cycle despite a stated U.S.-brokered ceasefire.",
-    "consensus": [
-      "Israeli forces are actively engaged in combat operations within the Gaza Strip.",
-      "A residential building in Gaza City's Al-Rimal neighborhood was destroyed by an Israeli strike.",
-      "Palestinian legislative elections have been delayed until September 2027.",
-      "Israeli military forces have advanced territorial control designated as the 'Yellow Line'."
-    ],
-    "divergence": [
-      "Al Jazeera frames the Israeli military actions as a 'genocidal war' and emphasizes the failure of the U.S.-brokered ceasefire.",
-      "Al Jazeera omits specific tactical details regarding the Hamas-led infrastructure or specific military targets of the Israeli strikes, focusing instead on civilian displacement.",
-      "Al Jazeera highlights the connection between Prime Minister Netanyahu's election rhetoric and ongoing military operations as a political strategy, while Israeli official sources emphasize 'national security' threats."
-    ],
-    "sources": [
-      {
-        "id": "art_1791743431527_9s2tc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/jerusalem-daily-panicked-palestinians-flee-israeli-attacks-on-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jerusalem Daily: Panicked Palestinians flee Israeli attacks on Gaza"
-      },
-      {
-        "id": "art_1791743446111_vphbd",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/israel-pushes-its-yellow-line-deeper-into-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel pushes its ‘Yellow Line’ deeper into Gaza"
-      },
-      {
-        "id": "art_1791743447185_xjmej",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/who-will-represent-us-palestinians-react-to-election-delay?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Who will represent us?’ Palestinians react to election delay"
-      },
-      {
-        "id": "art_1791699778367_w0txd",
-        "url": "https://www.aljazeera.com/news-analysis/2026/10/11/how-genocidal-war-on-gaza-is-shaping-israels-election?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "How genocidal war on Gaza is shaping Israel’s election"
-      },
-      {
-        "id": "art_1791667191469_t1p1e",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/israeli-attack-destroys-building-in-gaza-one-year-into?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli attack destroys building in Gaza one year into ‘ceasefire’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2088971efb8ad39e60bee5e8dcb646f3",
-    "topic_label": "Ballistic Missile Strike on King Khalid International Airport",
-    "event_window_start": "2026-10-10T20:43:19.000Z",
-    "event_window_end": "2026-10-11T13:23:02.000Z",
-    "article_ids": [
-      "art_1791725402548_camrl",
-      "art_1791725403735_xtsqv",
-      "art_1791667185038_drxij"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-11T19:31:49.859Z",
-    "updated_at": "2026-10-11T19:31:49.859Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "Houthi forces executed a ballistic missile attack on King Khalid International Airport in Riyadh, Saudi Arabia, marking the third such strike within a single week. The physical impact caused structural damage to the airport facility and resulted in multiple civilian injuries as confirmed by the Saudi Civil Aviation Authority. The Houthis characterized the strike as a reciprocal action against Saudi military operations in Yemen, while the US administration is currently evaluating potential military retaliation.",
-    "consensus": [
-      "A ballistic missile strike occurred at King Khalid International Airport in Riyadh.",
-      "This event represents the third attack on the airport within one week.",
-      "The attack caused structural damage to the airport infrastructure.",
-      "Multiple individuals sustained injuries due to the impact."
-    ],
-    "divergence": [
-      "The Guardian frames the event primarily through the lens of US political strategy and the impact on Donald Trump's midterm election outlook.",
-      "Al Jazeera focuses on the physical damage and casualty report from the site of the impact.",
-      "The Houthi-linked media framing omits the specific target details, instead emphasizing the rhetoric of reciprocity and future threats of escalation.",
-      "The Guardian omits initial reports of specific civilian casualty numbers, focusing instead on the geopolitical implications."
-    ],
-    "sources": [
-      {
-        "id": "art_1791725402548_camrl",
-        "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
-        "source": "guardian",
-        "title": "Houthi attack on Riyadh airport will force rethink of Donald Trump’s strategy"
-      },
-      {
-        "id": "art_1791725403735_xtsqv",
-        "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-        "source": "guardian",
-        "title": "Middle East crisis live: Houthi foreign ministry says ‘worse yet to come’ if Saudi strikes continue"
-      },
-      {
-        "id": "art_1791667185038_drxij",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Damage seen inside Saudi airport after third attack this week"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
