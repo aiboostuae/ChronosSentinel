@@ -52,6 +52,110 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "84fd1f51ee724e7fb1adfced79ec2dba",
+    "topic_label": "Concurrent Severe Meteorological Flooding in Four Corners Region, USA and Eastern Spain",
+    "event_window_start": "2026-10-23T08:16:30.000Z",
+    "event_window_end": "2026-10-23T18:32:23.000Z",
+    "article_ids": [
+      "art_1792781450782_ascd2",
+      "art_1792746119275_wi9kp"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T19:41:02.934Z",
+    "updated_at": "2026-10-23T19:41:02.934Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Two distinct meteorological events have caused large-scale destruction to civilian infrastructure. In the US Four Corners region, persistent heavy precipitation has necessitated military-assisted water rescues via helicopter and amphibious vehicle, with residents ordered to evacuate flooded zones. Simultaneously, in eastern Spain, extreme rainfall—measuring up to 632mm in 36 hours—has resulted in five confirmed fatalities, the evacuation of 2,100 people, the displacement of 500 others, and the imposition of a mandatory lockdown on 145 municipalities due to widespread structural inundation and the suspension of transport operations in the Balearic Islands.",
+    "consensus": [
+      "Severe flooding occurred in the US Four Corners region and eastern Spain following extreme precipitation.",
+      "Emergency search and rescue operations were initiated in both regions.",
+      "Evacuation orders were issued for residents in affected areas of New Mexico, Colorado, and Spain.",
+      "Transport infrastructure and residential buildings sustained damage."
+    ],
+    "divergence": [
+      "The Guardian's coverage of the US event emphasizes the active deployment of the National Guard for tactical rescues, whereas the Spanish coverage focuses on casualty counts and large-scale administrative lockdown orders.",
+      "The Guardian omits specific fatality counts for the US event while documenting specific death tolls for the Spanish event.",
+      "The report on the US event frames the weather as a sequence of storms, while the report on Spain frames the event as a singular meteorological occurrence impacting specific municipalities."
+    ],
+    "sources": [
+      {
+        "id": "art_1792781450782_ascd2",
+        "url": "https://www.theguardian.com/us-news/2026/oct/23/severe-flooding-west-triggers-rescues-evacuations",
+        "source": "guardian",
+        "title": "Severe flooding in US west triggers rooftop rescues and evacuation orders"
+      },
+      {
+        "id": "art_1792746119275_wi9kp",
+        "url": "https://www.theguardian.com/world/2026/oct/23/spain-floods-storm-adam-uk-storm-austen",
+        "source": "guardian",
+        "title": "Severe flooding in eastern Spain, while UK hit by first named storm of winter"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b2679df452821ca4fb5df6d109a99062",
+    "topic_label": "Armed Assault on Greek Orthodox Church in Karak",
+    "event_window_start": "2026-10-23T14:02:16.000Z",
+    "event_window_end": "2026-10-23T18:01:47.000Z",
+    "article_ids": [
+      "art_1792781457522_200xr",
+      "art_1792765199204_u820j"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-23T19:41:02.934Z",
+    "updated_at": "2026-10-23T19:41:02.934Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Two unidentified gunmen executed an armed assault on a funeral congregation at a Greek Orthodox church in Karak, Jordan, utilizing a rifle and a pistol to kill between six and seven civilians and injuring between 28 and 34 others. The attackers arrived by vehicle, initiated direct kinetic fire within the structure, and fled the scene. Jordanian security forces have been deployed to the locality in response to the mass casualty event.",
+    "consensus": [
+      "A shooting occurred at a Greek Orthodox church in Karak, Jordan, during a funeral.",
+      "Multiple gunmen were involved in the attack.",
+      "Firearms including a rifle and a pistol were used.",
+      "Casualties were sustained by civilians inside the church.",
+      "The attackers fled the scene after the shooting."
+    ],
+    "divergence": [
+      "Fox reports seven deaths and 34 injuries, whereas the BBC reports six deaths and 28 injuries.",
+      "Fox frames the event primarily through the King's political statement on unity and retaliation, omitting specific logistical details about the attackers' vehicle and movement.",
+      "The BBC provides witness-based details regarding the estimated 150-200 people in the church and the specific arrival method of the gunmen, details omitted by Fox."
+    ],
+    "sources": [
+      {
+        "id": "art_1792781457522_200xr",
+        "url": "https://www.foxnews.com/world/gunmen-kill-7-christian-church-jordan-king-calls-act-terrorism",
+        "source": "fox",
+        "title": "Gunmen kill 7 at Christian church in Jordan in what king calls act of terrorism"
+      },
+      {
+        "id": "art_1792765199204_u820j",
+        "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Six shot dead by gunmen at church funeral in Jordan, officials say"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "c8917ecc884ce3bbe009ecf2aadf75eb",
     "topic_label": "Violent Engagements in Southern Syria and the West Bank",
     "event_window_start": "2026-10-23T08:05:06.000Z",
@@ -14974,149 +15078,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Ukraine strikes Russian data centre again despite Trump warning"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5e618c332a5ca90bbb96ce1700479bac",
-    "topic_label": "Israeli Military Advance and Political Instability in Gaza and West Bank",
-    "event_window_start": "2026-10-11T17:09:19.000Z",
-    "event_window_end": "2026-10-12T07:27:14.000Z",
-    "article_ids": [
-      "art_1791794820084_17zuq",
-      "art_1791757770248_p4svn",
-      "art_1791743431527_9s2tc",
-      "art_1791743446111_vphbd",
-      "art_1791743447185_xjmej"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-12T10:20:23.273Z",
-    "updated_at": "2026-10-12T10:20:23.273Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Conflict",
-    "synthesis": "The Israeli military is currently conducting offensive operations in Gaza characterized by active shelling and small arms fire, resulting in the forced displacement of Palestinian civilians behind a defined territorial boundary designated as the 'Yellow Line.' Concurrently, there is documented physical infrastructure destruction via home demolitions in East Jerusalem and reported violence by settlers in the West Bank. These kinetic actions coincide with significant political volatility, including the indefinite postponement of Palestinian legislative elections by President Mahmoud Abbas, citing operational restrictions, and a pending domestic electoral contest within Israel between the incumbent Netanyahu coalition and a unified opposition bloc.",
-    "consensus": [
-      "Israeli military forces are actively operating in Gaza and enforcing a 'Yellow Line' boundary.",
-      "Palestinian civilians are being displaced in Gaza due to active military operations.",
-      "Home demolitions and settler-related violence are occurring in the West Bank and East Jerusalem.",
-      "Palestinian legislative elections have been postponed until September 2027.",
-      "Israel is experiencing a period of intense domestic political realignment and electoral competition."
-    ],
-    "divergence": [
-      "Fox News frames the global protest movement as an 'anti-Israel mob' intent on 'erasing Israel,' whereas Al Jazeera focuses on the specific kinetic consequences of military operations on Palestinian populations.",
-      "Al Jazeera omits the ideological goals of protest groups, focusing exclusively on the humanitarian and political status of Palestinians.",
-      "Fox News highlights the geopolitical and rhetorical goals of protestors in Western cities, whereas Al Jazeera reports exclusively on the localized physical impact of Israeli state actions in the occupied territories."
-    ],
-    "sources": [
-      {
-        "id": "art_1791794820084_17zuq",
-        "url": "https://www.aljazeera.com/news/2026/10/12/if-netanyahu-goes-does-anything-really-change-for-palestinians?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "If Netanyahu goes, does anything really change for Palestinians?"
-      },
-      {
-        "id": "art_1791757770248_p4svn",
-        "url": "https://www.foxnews.com/politics/quiet-part-out-loud-anti-israel-mobs-want-one-state-called-palestine-erasing-israel",
-        "source": "fox",
-        "title": "Quiet part out loud: Anti-Israel mobs want one state called 'Palestine,' erasing Israel"
-      },
-      {
-        "id": "art_1791743431527_9s2tc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/jerusalem-daily-panicked-palestinians-flee-israeli-attacks-on-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jerusalem Daily: Panicked Palestinians flee Israeli attacks on Gaza"
-      },
-      {
-        "id": "art_1791743446111_vphbd",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/israel-pushes-its-yellow-line-deeper-into-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel pushes its ‘Yellow Line’ deeper into Gaza"
-      },
-      {
-        "id": "art_1791743447185_xjmej",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/who-will-represent-us-palestinians-react-to-election-delay?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Who will represent us?’ Palestinians react to election delay"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "47f93731d478f6df78f69ba6681c6201",
-    "topic_label": "Houthi Missile Strikes on King Khalid International Airport",
-    "event_window_start": "2026-10-11T13:23:01.000Z",
-    "event_window_end": "2026-10-12T00:34:53.000Z",
-    "article_ids": [
-      "art_1791769527056_sksnq",
-      "art_1791769539903_dd0ey",
-      "art_1791725402548_camrl",
-      "art_1791725403735_xtsqv"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-12T02:47:31.517Z",
-    "updated_at": "2026-10-12T02:47:31.517Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "Houthi forces launched two successive ballistic missile strikes against King Khalid International Airport in Riyadh, Saudi Arabia, over a 48-hour period. The physical impact resulted in at least 14 confirmed fatalities, including one American and one Pakistani national, with over 300 individuals sustaining injuries. The strikes, characterized by the Houthi leadership as reciprocal actions against Saudi military operations in Yemen, have triggered active considerations by the U.S. executive branch regarding direct military participation in retaliatory strikes. The airport remains a target of ongoing kinetic hostilities, and the Houthi foreign ministry has publicly threatened further escalation.",
-    "consensus": [
-      "Two ballistic missile strikes occurred at King Khalid International Airport in Riyadh.",
-      "The strikes occurred over the weekend (Saturday and Sunday).",
-      "Casualties include at least 14 confirmed dead and over 300 injured.",
-      "The Houthi movement claimed responsibility for the attacks.",
-      "The U.S. administration is evaluating potential military retaliation."
-    ],
-    "divergence": [
-      "Fox reports the death of an American citizen, while Al Jazeera highlights a Pakistani national casualty; the total count of 14 deaths is corroborated but specific nationality reporting varies by outlet.",
-      "The Guardian frames the event through the lens of domestic U.S. political strategy and election midterms, whereas Fox focuses on regional escalation and foreign policy expert commentary.",
-      "Al Jazeera focuses on the timeline of two distinct strikes, whereas other outlets provide broader geopolitical analysis of the conflict's expansion.",
-      "The Guardian omits specific details on the total casualty count mentioned by Fox and Al Jazeera, focusing instead on the impact on the U.S. President’s diplomatic strategy."
-    ],
-    "sources": [
-      {
-        "id": "art_1791769527056_sksnq",
-        "url": "https://www.foxnews.com/world/houthis-kill-14-saudi-airport-expert-warns-rapid-targets-amid-middle-east-war",
-        "source": "fox",
-        "title": "Houthis kill 14 at Saudi airport as expert warns of 'rapid targets' amid Middle East war"
-      },
-      {
-        "id": "art_1791769539903_dd0ey",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pakistani national killed in second Houthi strike on Riyadh airport"
-      },
-      {
-        "id": "art_1791725402548_camrl",
-        "url": "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy",
-        "source": "guardian",
-        "title": "Houthi attack on Riyadh airport will force rethink of Donald Trump’s strategy"
-      },
-      {
-        "id": "art_1791725403735_xtsqv",
-        "url": "https://www.theguardian.com/world/live/2026/oct/11/saudi-arabia-riyadh-airport-houthis-yemen-attack-blockade-trump-latest-news-updates",
-        "source": "guardian",
-        "title": "Middle East crisis live: Houthi foreign ministry says ‘worse yet to come’ if Saudi strikes continue"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
