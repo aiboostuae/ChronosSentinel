@@ -1,5 +1,56 @@
 [
   {
+    "cluster_id": "5d27fac12630b47bf84e30af517ff61e",
+    "topic_label": "Typhoon Champi Strikes Northeastern Taiwan Forcing Evacuations and Mass Flight Cancellations",
+    "event_window_start": "2026-10-23T08:45:58.000Z",
+    "event_window_end": "2026-10-23T23:10:54.000Z",
+    "article_ids": [
+      "art_1792801829180_6p041",
+      "art_1792746114879_tf0ns"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-24T01:12:29.320Z",
+    "updated_at": "2026-10-24T01:12:29.320Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Meteorological",
+    "synthesis": "Typhoon Champi swept past northeastern Taiwan packing peak wind speeds near 300 km/h (186 mph), generating destructive wind vectors, marine surges, and heavy precipitation up to 90 cm. The storm caused one confirmed fatality, hundreds of casualties, disrupted regional power grids, and triggered active mandatory evacuation orders for thousands of residents alongside widespread airspace and facility closures as it tracked toward China and Japan.",
+    "consensus": [
+      "Typhoon Champi passed close to northeastern Taiwan as a major atmospheric storm system.",
+      "One fatality was officially confirmed as a direct result of the storm.",
+      "Severe kinetic impact caused school and business closures, power grid failures, and hundreds of flight cancellations across East Asia.",
+      "Active evacuation orders were issued to clear civilian populations from high-risk zones."
+    ],
+    "divergence": [
+      "Al Jazeera reported significantly higher casualty and displacement metrics, citing at least 350 injuries and over 4,300 evacuated residents.",
+      "BBC reported lower kinetic impacts, citing 171 injuries and 1,000 evacuations, while explicitly attributing the storm's intensity to Super El Niño ocean heating and identifying the single death as a drowning caused by wave surges."
+    ],
+    "sources": [
+      {
+        "id": "art_1792801829180_6p041",
+        "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Typhoon Champi hits Taiwan, killing one and injuring 350"
+      },
+      {
+        "id": "art_1792746114879_tf0ns",
+        "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Hundreds of flights cancelled as Typhoon Champi shuts Taiwan"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "0029c931fa204f1ba07bb66e55bab129",
     "topic_label": "Armed Assault on Greek Orthodox Church Funeral in Karak, Jordan",
     "event_window_start": "2026-10-23T14:02:16.000Z",
@@ -59,6 +110,114 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ba92d0fe8ee88fc21d5917544298e640",
+    "topic_label": "Drive-by Shooting Rampage in Trappes and La Verrière",
+    "event_window_start": "2026-10-23T08:50:23.000Z",
+    "event_window_end": "2026-10-23T21:44:50.000Z",
+    "article_ids": [
+      "art_1792793144416_7o89m",
+      "art_1792765193694_h9f7n",
+      "art_1792746112566_thakl"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-24T01:12:29.320Z",
+    "updated_at": "2026-10-24T01:12:29.320Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "An unidentified gunman conducted a mobile shooting spree across Trappes and La Verrière, France, over a 15-minute duration. Using a vehicle as a mobile firing platform, the perpetrator discharged a firearm at civilians, resulting in one fatality and five injuries, including a 12-year-old child who sustained eight gunshot wounds. The suspect has been apprehended by French security forces. While the French government has formally classified the event as a terrorist operation, the specific ideological motivation remains under forensic investigation.",
+    "consensus": [
+      "A shooting occurred in the Parisian suburbs of Trappes and La Verrière.",
+      "The duration of the shooting spree was approximately 15 minutes.",
+      "One individual was killed and five others were wounded.",
+      "A 12-year-old girl is among the injured.",
+      "The primary suspect has been arrested by law enforcement."
+    ],
+    "divergence": [
+      "The Guardian frames the event explicitly as a 'racist terrorist attack' citing President Macron, emphasizing the racial motive before the investigation's conclusion.",
+      "The BBC reports the event as a 'crime of terrorism' under official investigation by the PNAT, omitting the 'racist' qualifier found in the Guardian.",
+      "Al Jazeera ignores the shooting entirely in the provided text, focusing exclusively on student protests and government curfew preparations, effectively sanitizing the acute security event from its reporting of French social instability."
+    ],
+    "sources": [
+      {
+        "id": "art_1792793144416_7o89m",
+        "url": "https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris",
+        "source": "guardian",
+        "title": "Macron condemns racism after one killed in ‘terrorist’ shooting near Paris"
+      },
+      {
+        "id": "art_1792765193694_h9f7n",
+        "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says"
+      },
+      {
+        "id": "art_1792746112566_thakl",
+        "url": "https://www.aljazeera.com/news/2026/10/23/we-want-promises-backed-by-results?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Macron to meet student groups: Where are France’s protests heading?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "73bdc038f76426452a38b0b78330a0ef",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-23T13:46:12.000Z",
+    "event_window_end": "2026-10-23T23:26:23.000Z",
+    "article_ids": [
+      "art_1792801825915_toot8",
+      "art_1792765204804_ebzyp"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-24T01:12:29.320Z",
+    "updated_at": "2026-10-24T01:12:29.320Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792801825915_toot8",
+        "url": "https://www.foxnews.com/outkick-sports/trump-says-nfl-could-probably-postponed-paris-game-france-protests-stretch-police-thin",
+        "source": "fox",
+        "title": "Trump says NFL 'could've probably postponed' Paris game as France protests stretch police thin"
+      },
+      {
+        "id": "art_1792765204804_ebzyp",
+        "url": "https://www.aljazeera.com/sports/2026/10/23/dembele-to-miss-ballon-dor-event-as-psg-game-moved-amid-protests-in-france?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Dembele to miss Ballon d’Or event as PSG game moved amid protests in France"
+      }
+    ],
+    "model_used": "deterministic-fallback"
   },
   {
     "cluster_id": "a0dde2e4dbc7cce82becc4bc95d7c4d1",
@@ -14843,237 +15002,6 @@
         "url": "https://www.theguardian.com/australia-news/live/2026/oct/13/labor-anthony-albanese-charity-boost-greens-ukraine-coalition-one-nation-ntwnfb",
         "source": "guardian",
         "title": "Australian politics live: businesses increasing prices under cover of surcharge ban, UBS economists warn; fire ants in Sydney’s inner west"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b5e28f7a4f69b52a9a36698c9356dd94",
-    "topic_label": "Stabbing and Robbery of Off-Duty NYPD Detective",
-    "event_window_start": "2026-10-13T16:22:18.000Z",
-    "event_window_end": "2026-10-13T16:24:39.000Z",
-    "article_ids": [
-      "art_1791909273399_dk169",
-      "art_1791909274517_fbbh8",
-      "art_1791909275592_w49ai",
-      "art_1791909276620_gjrrn",
-      "art_1791909277739_gjx9n"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-13T16:55:35.779Z",
-    "updated_at": "2026-10-13T16:55:35.779Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism",
-    "synthesis": "An off-duty NYPD detective, identified as Jose Mercedes, was subjected to a targeted physical assault involving seven stab wounds by two suspects, D’Angelo Caraballo and Sneider Mejia, in the Bronx. The victim was ambushed from behind while at his personal vehicle. Following the physical engagement, the suspects utilized an e-bike to flee the scene and subsequently relocated to Massachusetts, where they were apprehended by law enforcement. The victim survived the attack and was hospitalized.",
-    "consensus": [
-      "An off-duty NYPD detective was stabbed seven times in the Bronx.",
-      "The suspects in the assault are D’Angelo Caraballo and Sneider Mejia.",
-      "The suspects fled the scene on an e-bike after the stabbing.",
-      "The suspects were arrested in Massachusetts."
-    ],
-    "divergence": [
-      "Fox News frames the incident through the lens of 'illegal immigrant' status and 'sanctuary city' policy debates, utilizing the event to critique local governance.",
-      "The provided text lacks input from other sources, as the provided articles discuss disparate topics (media figures, state intelligence disclosures, athletic controversies, and military execution policies), meaning no cross-source consensus or divergence exists for the specific stabbing event."
-    ],
-    "sources": [
-      {
-        "id": "art_1791909273399_dk169",
-        "url": "https://www.foxnews.com/media/dana-perino-shares-how-she-secretly-pushed-back-reporters-during-white-house-briefings",
-        "source": "fox",
-        "title": "Dana Perino shares how she secretly pushed back at reporters during White House briefings"
-      },
-      {
-        "id": "art_1791909274517_fbbh8",
-        "url": "https://www.foxnews.com/us/nypd-detective-survived-stabbing-attack-makes-first-public-remarks-leaving-hospital",
-        "source": "fox",
-        "title": "NYPD detective who survived stabbing attack makes first public remarks since leaving hospital"
-      },
-      {
-        "id": "art_1791909275592_w49ai",
-        "url": "https://www.theguardian.com/politics/live/2026/oct/13/andy-burnham-brexit-eu-europe-neil-kinnock-lobby-wes-streeting-labour-prisoner-early-release-uk-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "MI5 chief Ken McCallum confirms Russia did interfere in Brexit referendum but says it had little impact – UK politics live"
-      },
-      {
-        "id": "art_1791909276620_gjrrn",
-        "url": "https://www.foxnews.com/outkick-sports/olympic-legend-kaillie-humphries-opens-impact-womens-sports-advocacy-team-usa-relationships",
-        "source": "fox",
-        "title": "Olympic legend Kaillie Humphries opens up on impact of women's sports advocacy on Team USA relationships"
-      },
-      {
-        "id": "art_1791909277739_gjx9n",
-        "url": "https://www.foxnews.com/politics/americans-draw-line-livestreaming-spectacle-fort-hood-shooters-execution-abomination",
-        "source": "fox",
-        "title": "Americans draw the line at livestreaming ‘spectacle’ of Fort Hood shooter's execution: ‘It’s an abomination’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ee6ec836f3493e5c53bdf9705cfe5120",
-    "topic_label": "Global Escalation: Kinetic Strikes on Saudi Infrastructure and UK RAF Bases",
-    "event_window_start": "2026-10-12T18:21:44.000Z",
-    "event_window_end": "2026-10-13T07:45:07.000Z",
-    "article_ids": [
-      "art_1791879462171_0ze49",
-      "art_1791879473417_79iwy",
-      "art_1791879475518_pn04g",
-      "art_1791854492679_1wv84",
-      "art_1791830833334_3a4xl",
-      "art_1791830834426_3ui87"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-13T09:04:27.080Z",
-    "updated_at": "2026-10-13T09:04:27.080Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Military",
-    "synthesis": "The current period is defined by a multi-theater kinetic offensive involving direct ballistic and drone attacks on critical infrastructure. Hostile actions include Iranian-aligned Houthi forces conducting a strike on King Khalid International Airport in Riyadh, Saudi Arabia, causing physical fire and smoke damage. Concurrently, UK Prime Minister Andy Burnham has formally attributed a series of security breaches at RAF Fairford and RAF Molesworth to state-coordinated operations by Iran. These events, occurring amidst a broader regional conflict involving Iran, Israel, and the United States, represent a transition from proxy warfare to direct strikes against sovereign military assets and energy production facilities, including the March kinetic impact on Qatar's Ras Laffan LNG facility.",
-    "consensus": [
-      "Houthi forces claimed responsibility for a kinetic strike on King Khalid International Airport in Riyadh on October 8, 2026.",
-      "Physical evidence of fire and smoke was documented at the Riyadh airport facility.",
-      "UK Prime Minister Andy Burnham attributed security incidents at RAF Fairford and RAF Molesworth to Iranian coordination.",
-      "The Ras Laffan LNG facility in Qatar sustained a kinetic strike by Iran in March.",
-      "A state of emergency and suspension of civil liberties have been imposed in Pakistan's Khyber Pakhtunkhwa province."
-    ],
-    "divergence": [
-      "Al Jazeera frames the ongoing conflict in Gaza and Qatar as a result of a 'US-Israeli war on Iran,' while Fox focuses on the specific geopolitical impact of Houthi strikes on Saudi territory and internal organizational responses within TNA Wrestling.",
-      "Al Jazeera omits specific technical details of the Houthi weapon systems used at the Riyadh airport, focusing instead on the regional political narrative.",
-      "Fox omits the broader geopolitical context of the UK RAF base incidents, treating them as singular security events, whereas Al Jazeera reports them as part of a high-level government attribution to Iranian state interference."
-    ],
-    "sources": [
-      {
-        "id": "art_1791879462171_0ze49",
-        "url": "https://www.aljazeera.com/news/2026/10/13/palestine-weekly-gaza-marks-year-of-ceasefire-with-more-israeli-killing?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestine weekly: Gaza marks year of ‘ceasefire’ with more Israeli killing"
-      },
-      {
-        "id": "art_1791879473417_79iwy",
-        "url": "https://www.aljazeera.com/news/2026/10/13/qatari-emir-says-country-has-faced-exceptional-circumstances?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Emir says Qatar has shown resilience in the face of ‘exceptional events’"
-      },
-      {
-        "id": "art_1791879475518_pn04g",
-        "url": "https://www.aljazeera.com/news/2026/10/13/imran-khans-pti-braces-to-fight-federal-takeover-of-khyber-pakhtunkhwa?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Imran Khan’s PTI braces to fight federal takeover of Khyber Pakhtunkhwa"
-      },
-      {
-        "id": "art_1791854492679_1wv84",
-        "url": "https://www.foxnews.com/outkick-sports/pro-wrestler-reference-deadly-saudi-airport-attack-match-entrance-costs-job-tna-wrestling",
-        "source": "fox",
-        "title": "Pro wrestler's reference to deadly Saudi airport attack during match entrance costs him job at TNA Wrestling"
-      },
-      {
-        "id": "art_1791830833334_3a4xl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/uk-pm-says-raf-base-incidents-likely-coordinated-by-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK PM says RAF base incidents ‘likely coordinated’ by Iran"
-      },
-      {
-        "id": "art_1791830834426_3ui87",
-        "url": "https://www.aljazeera.com/news/2026/10/12/egypts-press-union-chief-rejects-pressure-over-detained-journalists?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Egypt’s press union chief rejects pressure over detained journalists"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f0292a8dd6a7993ee72c33b40b737f98",
-    "topic_label": "Multinational Intelligence Summary: Criminal, Cyber, and Data Security Events",
-    "event_window_start": "2026-10-12T18:10:35.000Z",
-    "event_window_end": "2026-10-13T07:00:18.000Z",
-    "article_ids": [
-      "art_1791879469272_rrcsc",
-      "art_1791854483926_26ski",
-      "art_1791830830029_a49st",
-      "art_1791830837813_0jegr",
-      "art_1791830840964_8yolj"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-13T09:04:27.080Z",
-    "updated_at": "2026-10-13T09:04:27.080Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "This synthesis encompasses a multi-vector security environment involving transnational organized crime, industrial sabotage, and state-level data exfiltration. Latin American cartels have expanded operations into 12-16 European nations, increasing cocaine trafficking by 471% over the last decade. Simultaneously, French supermarket refrigeration infrastructure was disabled via remote cyber-attack, forcing units to 50C and destroying massive food inventory. The US Department of Defense confirmed the exfiltration of personal data belonging to 3.05 million individuals, while French authorities disrupted a secondary art theft operation involving damage to recovered Renoir works, and Tennessee law enforcement engaged in a vehicle pursuit following an armed robbery facilitated by social media platforms.",
-    "consensus": [
-      "Latin American criminal networks are currently active in European logistics hubs.",
-      "A coordinated cyber-attack forced thermal control systems in French supermarkets to malfunction, resulting in inventory destruction.",
-      "The US Department of Defense suffered a data breach exposing personal records of over 3 million individuals.",
-      "French judicial police arrested six suspects to prevent an imminent robbery of the Fondation Maeght.",
-      "Armed criminal activities are utilizing digital platforms to coordinate physical theft operations."
-    ],
-    "divergence": [
-      "The Guardian frames the cocaine trafficking surge as a structural integration of cartels with local mafias, omitting specific operational failures of European border security.",
-      "Fox News frames the Tennessee robbery through the lens of 'online marketplace' risks, omitting systemic deficiencies in local policing response times.",
-      "The BBC labels the refrigeration sabotage as a 'cyber attack' but omits the technical vulnerability exploited in the IoT/control systems.",
-      "Fox News (US) refers to the Department of Defense as the 'Department of War', utilizing archaic terminology that departs from current official institutional nomenclature.",
-      "Al Jazeera focuses on the recovery of art and police preventative actions, intentionally omitting the specific technical methods the thieves used to breach the initial museum security."
-    ],
-    "sources": [
-      {
-        "id": "art_1791879469272_rrcsc",
-        "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
-        "source": "guardian",
-        "title": "Latin American organised crime ‘may operate in 16 European countries’"
-      },
-      {
-        "id": "art_1791854483926_26ski",
-        "url": "https://www.foxnews.com/us/online-marketplace-jewelry-listing-tied-armed-robbery-affluent-tennessee-city",
-        "source": "fox",
-        "title": "Online marketplace jewelry listing tied to armed robbery in affluent Tennessee city"
-      },
-      {
-        "id": "art_1791830830029_a49st",
-        "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Fridges in French supermarkets hit by cyber attack"
-      },
-      {
-        "id": "art_1791830837813_0jegr",
-        "url": "https://www.foxnews.com/tech/pentagon-data-breach-exposes-records-over-3m-people",
-        "source": "fox",
-        "title": "Pentagon data breach exposes records of over 3M people"
-      },
-      {
-        "id": "art_1791830840964_8yolj",
-        "url": "https://www.aljazeera.com/news/2026/10/12/stolen-renoir-paintings-found-behind-wall-in-france-following-arrests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Stolen Renoir paintings found behind wall in France following arrests"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
