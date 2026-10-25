@@ -1,5 +1,472 @@
 [
   {
+    "cluster_id": "e7dd54ac385df9fbd72c5c9f83da54e8",
+    "topic_label": "SpaceX Restrictive Throttling of Starlink Satellite Terminals in Ukraine",
+    "event_window_start": "2026-10-24T15:47:20.000Z",
+    "event_window_end": "2026-10-25T09:00:00.000Z",
+    "article_ids": [
+      "art_1792919454216_ub0u0",
+      "art_1792900941942_q6fo4",
+      "art_1792861554412_al3g3"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T10:14:37.246Z",
+    "updated_at": "2026-10-25T10:14:37.246Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Infrastructure",
+    "synthesis": "SpaceX implemented geofencing or bandwidth limitations on Starlink satellite terminals operating within the Ukrainian theater of war, effectively disabling the capacity for offensive drone operations. This action resulted in a 10-day degradation of military communications, logistics, and air defense coordination, leading to the cancellation of combat missions. Elon Musk confirmed the restriction, citing an unauthorized expansion of the system's use for offensive strike targeting as a violation of civilian service terms. Despite corporate policy assertions, the terminals remain vital to Ukrainian frontline tactical operations and, following a period of performance degradation, connectivity has been reported as restored.",
+    "consensus": [
+      "SpaceX restricted Starlink terminal performance in Ukraine for a 10-day period.",
+      "The restriction directly interfered with Ukrainian drone operations and military communication.",
+      "Elon Musk justified the restriction as a response to the use of Starlink for offensive military strikes.",
+      "Ukrainian military connectivity with Starlink has been restored."
+    ],
+    "divergence": [
+      "Fox News frames the event through the lens of Musk's moral justification, explicitly including his quote regarding 'killing people' to frame the restriction as a humanitarian policy choice.",
+      "The Guardian emphasizes the tactical impact of the restrictions, explicitly noting the failure of specific combat missions and the degradation of air defense capabilities which Fox and BBC treat more generally.",
+      "The BBC emphasizes the friction between Musk and Ukrainian officials as a diplomatic 'row', whereas The Guardian treats it as a critical failure of war-fighting infrastructure.",
+      "The Guardian omits Musk's specific moral justification regarding the killing of people, focusing instead on the technical impact of the service throttling."
+    ],
+    "sources": [
+      {
+        "id": "art_1792919454216_ub0u0",
+        "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored"
+      },
+      {
+        "id": "art_1792900941942_q6fo4",
+        "url": "https://www.foxnews.com/politics/ukraines-starlink-restored-elon-musk-claims-kyiv-violated-terms-service-kill-people",
+        "source": "fox",
+        "title": "Ukraine's Starlink restored as Elon Musk claims Kyiv violated terms of service 'to kill people'"
+      },
+      {
+        "id": "art_1792861554412_al3g3",
+        "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+        "source": "guardian",
+        "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "855129dcac42ce8e6d3cc21c3e070a21",
+    "topic_label": "Brazilian Presidential Election Runoff",
+    "event_window_start": "2026-10-24T15:36:38.000Z",
+    "event_window_end": "2026-10-25T08:00:58.000Z",
+    "article_ids": [
+      "art_1792919459448_8bwer",
+      "art_1792887236550_poth0",
+      "art_1792887239723_c0xf4",
+      "art_1792870113576_hblpn",
+      "art_1792870124615_t3xtb"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T10:14:37.246Z",
+    "updated_at": "2026-10-25T10:14:37.246Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The Brazilian electorate is engaged in a scheduled presidential runoff election between incumbent Luiz Inácio Lula da Silva and challenger Flávio Bolsonaro. Following an initial voting round on October 4, both candidates held final campaign rallies in Rio de Janeiro to consolidate voter support. Public polling data indicates a statistically tight margin between the candidates heading into the ballot, which involves approximately 159 million eligible voters. The process is a routine administrative procedure within the Brazilian democratic framework.",
+    "consensus": [
+      "A presidential election runoff is scheduled to occur in Brazil.",
+      "The candidates are incumbent Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro.",
+      "A first round of voting took place on October 4.",
+      "Public campaign rallies were held in Rio de Janeiro on the eve of the election.",
+      "Polls indicate a tight electoral race between the two candidates."
+    ],
+    "divergence": [
+      "The Guardian and BBC sources misidentify the incumbent/challenger status and age of the candidates in several instances, introducing factual confusion regarding who currently holds the presidency versus who is the senator.",
+      "The Guardian presents the election as a 'historic fightback' by Lula, framing the event with narrative bias regarding the electoral outcome.",
+      "Al Jazeera provides more granular data from the CNT/MDA poll, whereas other sources rely on generalized polling trends.",
+      "Sources fail to provide a consistent biographical history of the candidates, specifically regarding the familial relations and prior political history of the Bolsonaro family."
+    ],
+    "sources": [
+      {
+        "id": "art_1792919459448_8bwer",
+        "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+        "source": "guardian",
+        "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro"
+      },
+      {
+        "id": "art_1792887236550_poth0",
+        "url": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Who are the candidates in Brazil's presidential election?"
+      },
+      {
+        "id": "art_1792887239723_c0xf4",
+        "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies"
+      },
+      {
+        "id": "art_1792870113576_hblpn",
+        "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
+        "source": "guardian",
+        "title": "Tens of thousands of Lula supporters rally on eve of Brazilian election runoff"
+      },
+      {
+        "id": "art_1792870124615_t3xtb",
+        "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "641104b07ffb1ff894baa6a763e8e4c9",
+    "topic_label": "Hebron Urban Demolition and Military Lockdown",
+    "event_window_start": "2026-10-24T13:17:13.000Z",
+    "event_window_end": "2026-10-25T07:20:36.000Z",
+    "article_ids": [
+      "art_1792919464762_7lgi2",
+      "art_1792870120250_38kdd",
+      "art_1792861553375_izj0r",
+      "art_1792849407784_7jovo"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T10:14:37.246Z",
+    "updated_at": "2026-10-25T10:14:37.246Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Following the killing of two Israeli soldiers by two Palestinian gunmen at an army reserve base, the Israeli military has initiated a multi-day tactical operation in Hebron involving the large-scale demolition of residential infrastructure via heavy engineering equipment (bulldozers). The operation has resulted in the displacement of approximately 1,500 to 2,200 Palestinian residents, the flattening of residential blocks in the Ein Deir Baha district, and the total closure of all access points to the city of 250,000 residents. Simultaneously, the Israeli military has announced a total closure of all West Bank border crossings for the duration of the upcoming national election cycle.",
+    "consensus": [
+      "Two Palestinian gunmen killed two Israeli soldiers at an army facility.",
+      "The two Palestinian gunmen were killed by Israeli forces.",
+      "The Israeli military has sealed off the city of Hebron with checkpoints.",
+      "Israeli forces are conducting widespread raids in the West Bank.",
+      "The Israeli military will close all West Bank crossings during the election period."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the displacement numbers (2,200) and the humanitarian distress caused by loudspeaker evacuation orders.",
+      "BBC and The Guardian explicitly characterize the demolitions as collective punishment and highlight the destruction of a whole street/neighborhood.",
+      "BBC claims the initial attack occurred at a checkpoint, whereas Al Jazeera reports the attack occurred at an army reserve base.",
+      "The Guardian reports specific acreage (35 hectares) destroyed, a metric omitted by other sources.",
+      "The sources vary in their characterization of the military actions, with BBC and Guardian using stronger terminology like 'raze' and 'flattened' compared to Al Jazeera's focus on 'lockdown' and 'raids'."
+    ],
+    "sources": [
+      {
+        "id": "art_1792919464762_7lgi2",
+        "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues"
+      },
+      {
+        "id": "art_1792870120250_38kdd",
+        "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say"
+      },
+      {
+        "id": "art_1792861553375_izj0r",
+        "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids"
+      },
+      {
+        "id": "art_1792849407784_7jovo",
+        "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
+        "source": "guardian",
+        "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a6ac13035ff57b70613ab8e3eedcad7f",
+    "topic_label": "Nationwide Civil Unrest and Kinetic Police Interventions in France",
+    "event_window_start": "2026-10-24T13:00:54.000Z",
+    "event_window_end": "2026-10-25T07:28:47.000Z",
+    "article_ids": [
+      "art_1792919463726_ckedf",
+      "art_1792900942979_s55ih",
+      "art_1792879165210_fn8x4",
+      "art_1792870117074_ru1nw",
+      "art_1792870118135_w3fjs",
+      "art_1792870119171_6cn37",
+      "art_1792849409989_fuf9b",
+      "art_1792849413288_k7h1f"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 8,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T10:14:37.246Z",
+    "updated_at": "2026-10-25T10:14:37.246Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Civil Unrest",
+    "synthesis": "State security forces engaged in large-scale kinetic crowd control operations across multiple French urban centers following widespread demonstrations. Approximately 70,000 security personnel were deployed to counter hundreds of thousands of protesters. Police utilized chemical irritants (tear gas), pressurized water cannons, and physical force via batons to disperse crowds. Protesters responded by constructing barricades and initiating arson in urban corridors. Official state reporting confirms nearly 1,000 arrests, while police executed preemptive searches for improvised weapons, specifically fireworks and ball bearings. The events represent a recurring cycle of state-sanctioned dispersal of public assemblies linked to socioeconomic policy grievances.",
+    "consensus": [
+      "Nearly 1,000 arrests occurred nationwide in France on Saturday.",
+      "Riot police deployed tear gas and water cannons against demonstrators.",
+      "Protesters constructed barricades and started fires in multiple cities including Marseille and Paris.",
+      "70,000 security personnel were mobilized by the state.",
+      "Disagreement exists between state estimates (410,000) and union estimates regarding total attendance."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the 'ultra-left' political characterization and 'extreme violence' as cited by the Interior Minister, omitting the peaceful components of the marches.",
+      "The Guardian frames the event primarily as student-led protest regarding school conditions and policing, underplaying the widespread arson and organized rioting reported by other sources.",
+      "Fox News emphasizes the pre-emptive seizure of weapons and uses a security-centric narrative, highlighting the police perspective on crowd control as a preventative measure.",
+      "The BBC attempts to balance the narrative by acknowledging both the scale of peaceful participation and the specific locations of infrastructure damage/rioting."
+    ],
+    "sources": [
+      {
+        "id": "art_1792919463726_ckedf",
+        "url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Photos: Clashes erupt in France during protests over rising living costs"
+      },
+      {
+        "id": "art_1792900942979_s55ih",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Violence breaks out across Europe after another day of protests"
+      },
+      {
+        "id": "art_1792879165210_fn8x4",
+        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France"
+      },
+      {
+        "id": "art_1792870117074_ru1nw",
+        "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
+        "source": "guardian",
+        "title": "Hundreds of thousands march across France in protests over schools and policing"
+      },
+      {
+        "id": "art_1792870118135_w3fjs",
+        "url": "https://www.foxnews.com/world/nearly-1000-arrested-across-france-police-find-potential-weapons-protestors",
+        "source": "fox",
+        "title": "Nearly 1,000 arrested across France as police find potential weapons on protestors: officials"
+      },
+      {
+        "id": "art_1792870119171_6cn37",
+        "url": "https://www.foxnews.com/media/french-ceo-warns-purely-chaotic-riots-prove-country-reached-dead-end-socialism",
+        "source": "fox",
+        "title": "French CEO warns 'purely chaotic' riots prove the country has reached the 'dead end of socialism'"
+      },
+      {
+        "id": "art_1792849409989_fuf9b",
+        "url": "https://www.foxnews.com/travel/louvre-turns-away-tourists-paris-braces-renewed-violence-following-destructive-riots",
+        "source": "fox",
+        "title": "Louvre turns away tourists as Paris braces for renewed violence following destructive riots"
+      },
+      {
+        "id": "art_1792849413288_k7h1f",
+        "url": "https://www.foxnews.com/opinion/broadcast-bias-networks-show-france-burning-highlight-peaceful-protesters",
+        "source": "fox",
+        "title": "BROADCAST BIAS: Networks show France burning but highlight ‘peaceful’ protesters"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c852069c327175a077c7bf02b78e7480",
+    "topic_label": "Storm Boelo meteorological event in the United Kingdom",
+    "event_window_start": "2026-10-24T13:28:07.000Z",
+    "event_window_end": "2026-10-24T22:40:08.000Z",
+    "article_ids": [
+      "art_1792887231144_taf05",
+      "art_1792849404657_k6c03"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T05:19:04.949Z",
+    "updated_at": "2026-10-25T05:19:04.949Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Meteorological",
+    "synthesis": "A cyclonic weather system identified as Storm Boelo has impacted the northern regions of the United Kingdom, specifically Scotland, Northern Ireland, and northern England. The system is producing sustained wind speeds and gusts measured at up to 80mph, following Storm Austen which caused widespread electrical grid failures in the south-west. The Met Office has issued amber-level warnings for wind and rain, citing risks of structural damage from projectiles and coastal flooding. The current status involves ongoing power infrastructure vulnerability and active disruptions to regional transit networks.",
+    "consensus": [
+      "Storm Boelo is the second named storm of the season.",
+      "The Met Office has issued amber warnings for the UK.",
+      "Peak wind speeds are forecasted between 70mph and 80mph.",
+      "Affected areas include Scotland, Northern Ireland, and northern England.",
+      "Storm Austen occurred previously on Friday."
+    ],
+    "divergence": [
+      "The Guardian (Article 1) emphasizes specific telemetry data from the South Uist Range (75mph gusts), whereas Article 2 omits these specific data points in favor of broader regional impact assessments.",
+      "The Guardian (Article 2) frames the event heavily through the narrative of ongoing power outages from the previous storm, while Article 1 focuses more on the meteorological forecasting and the specific zones under amber warnings."
+    ],
+    "sources": [
+      {
+        "id": "art_1792887231144_taf05",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
+        "source": "guardian",
+        "title": "Storm Boelo: Travel disrupted and events cancelled as UK hit by wind and rain"
+      },
+      {
+        "id": "art_1792849404657_k6c03",
+        "url": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
+        "source": "guardian",
+        "title": "Storm Boelo to bring 80mph gusts and heavy rain to parts of UK"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c1de677d171757bad5e9708900c9622f",
+    "topic_label": "Violent Assaults in Taraba State, Nigeria and Karak, Jordan",
+    "event_window_start": "2026-10-24T13:02:51.000Z",
+    "event_window_end": "2026-10-24T22:35:45.000Z",
+    "article_ids": [
+      "art_1792887232232_mjh3z",
+      "art_1792861549158_txkim",
+      "art_1792849412249_324i4"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T10:14:37.246Z",
+    "updated_at": "2026-10-25T10:14:37.246Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Multiple kinetic events occurred: in Nigeria, gunmen on motorcycles executed an armed assault on Binnari village, resulting in lethal casualties and the looting of commercial supplies. Simultaneously, in Karak, Jordan, gunmen conducted an armed storming of a Greek Orthodox church during a funeral ceremony using small arms, resulting in multiple fatalities and casualties. Jordanian state security forces have initiated a national search for the perpetrators, while regional casualty reporting varies significantly between official government statistics and non-governmental observational data.",
+    "consensus": [
+      "An armed assault occurred in Binnari village, Taraba State, Nigeria involving gunmen on motorcycles.",
+      "An armed assault occurred at a Greek Orthodox church in Karak, Jordan during a funeral service.",
+      "Lethal kinetic force was employed in both locations causing multiple civilian deaths and injuries.",
+      "The Jordanian government has officially categorized the Karak event as an act of extremist terrorism."
+    ],
+    "divergence": [
+      "Al Jazeera reports Nigerian casualties at 10 (police), with survivors and Amnesty International estimating between 20 and 40 fatalities.",
+      "Fox News reports 9 fatalities in the Jordan attack, while Al Jazeera reports 8 fatalities and 40 wounded.",
+      "Fox News attributes the Jordanian attack to 'extremist Islamist ideology,' while Al Jazeera focuses on the King's directive for a security response and mentions 'extremist terrorism' as the state's label without specific ideological prefixing.",
+      "Sources omit specific organizational affiliations of the gunmen in both instances, leaving the tactical command structure of the perpetrators unverified."
+    ],
+    "sources": [
+      {
+        "id": "art_1792887232232_mjh3z",
+        "url": "https://www.aljazeera.com/news/2026/10/24/gunmen-kill-at-least-10-people-in-eastern-nigeria-police-say?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Gunmen kill at least 10 people in eastern Nigeria, police say"
+      },
+      {
+        "id": "art_1792861549158_txkim",
+        "url": "https://www.foxnews.com/world/death-toll-rises-9-church-attack-officials-blame-extremist-islamist-ideology",
+        "source": "fox",
+        "title": "Death toll rises to 9 in church attack as officials blame 'extremist' Islamist ideology"
+      },
+      {
+        "id": "art_1792849412249_324i4",
+        "url": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jordan’s King Abdullah orders firm response after deadly church attack"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f2094b20302d4e640c7662df1bd517a3",
+    "topic_label": "Arson Attack at Kehlsteinhaus Mountain Retreat",
+    "event_window_start": "2026-10-24T15:56:48.000Z",
+    "event_window_end": "2026-10-25T00:54:50.000Z",
+    "article_ids": [
+      "art_1792900937735_efude",
+      "art_1792861552336_zib5m"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T10:14:37.246Z",
+    "updated_at": "2026-10-25T10:14:37.246Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "On the evening of Friday, a 33-year-old German national intentionally ignited a structure fire at the Kehlsteinhaus (Eagle's Nest) in the Bavarian Alps. Local emergency responders engaged in fire suppression efforts hindered by high wind conditions. The suspect was apprehended by law enforcement at the scene and transferred to a psychiatric facility. The structure suffered significant physical destruction. While the site is a high-profile historical landmark, the incident is currently treated as an act of criminal arson by a lone actor rather than an organized terroristic operation.",
+    "consensus": [
+      "A fire occurred at the Kehlsteinhaus in the Bavarian Alps on Friday evening.",
+      "A 33-year-old German male was arrested in connection to the fire.",
+      "The suspect was subsequently moved to a psychiatric facility.",
+      "The structure sustained major fire damage."
+    ],
+    "divergence": [
+      "Fox omits specific geographic clarification provided by the BBC, referring only to the 'Eagle's Nest' and the Bavarian Alps, while including irrelevant filler content regarding unrelated podcasts.",
+      "BBC frames the event with historical context regarding the site's function as a propaganda venue, which Fox ignores in favor of linking the incident to unrelated reports of vandalism at a Catholic shrine."
+    ],
+    "sources": [
+      {
+        "id": "art_1792900937735_efude",
+        "url": "https://www.foxnews.com/travel/man-arrested-fire-engulfs-hitlers-eagles-nest-mountain-retreat-bavarian-alps",
+        "source": "fox",
+        "title": "Man arrested after fire engulfs Hitler’s Eagle’s Nest mountain retreat in the Bavarian Alps"
+      },
+      {
+        "id": "art_1792861552336_zib5m",
+        "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch as fire engulfs Hitler's mountaintop Eagle's Nest retreat"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "f2e932b7ebdfafae415238e113bfe430",
     "topic_label": "Nationwide Civil Unrest and Mass Arrests in France",
     "event_window_start": "2026-10-24T09:29:53.000Z",
@@ -258,57 +725,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
         "source": "aljazeera",
         "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c852069c327175a077c7bf02b78e7480",
-    "topic_label": "Storm Boelo meteorological event in the United Kingdom",
-    "event_window_start": "2026-10-24T13:28:07.000Z",
-    "event_window_end": "2026-10-24T22:40:08.000Z",
-    "article_ids": [
-      "art_1792887231144_taf05",
-      "art_1792849404657_k6c03"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T05:19:04.949Z",
-    "updated_at": "2026-10-25T05:19:04.949Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Meteorological",
-    "synthesis": "A cyclonic weather system identified as Storm Boelo has impacted the northern regions of the United Kingdom, specifically Scotland, Northern Ireland, and northern England. The system is producing sustained wind speeds and gusts measured at up to 80mph, following Storm Austen which caused widespread electrical grid failures in the south-west. The Met Office has issued amber-level warnings for wind and rain, citing risks of structural damage from projectiles and coastal flooding. The current status involves ongoing power infrastructure vulnerability and active disruptions to regional transit networks.",
-    "consensus": [
-      "Storm Boelo is the second named storm of the season.",
-      "The Met Office has issued amber warnings for the UK.",
-      "Peak wind speeds are forecasted between 70mph and 80mph.",
-      "Affected areas include Scotland, Northern Ireland, and northern England.",
-      "Storm Austen occurred previously on Friday."
-    ],
-    "divergence": [
-      "The Guardian (Article 1) emphasizes specific telemetry data from the South Uist Range (75mph gusts), whereas Article 2 omits these specific data points in favor of broader regional impact assessments.",
-      "The Guardian (Article 2) frames the event heavily through the narrative of ongoing power outages from the previous storm, while Article 1 focuses more on the meteorological forecasting and the specific zones under amber warnings."
-    ],
-    "sources": [
-      {
-        "id": "art_1792887231144_taf05",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/24/storm-boelo-travel-disrupted-events-cancelled-uk-hit-wind-and-rain",
-        "source": "guardian",
-        "title": "Storm Boelo: Travel disrupted and events cancelled as UK hit by wind and rain"
-      },
-      {
-        "id": "art_1792849404657_k6c03",
-        "url": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
-        "source": "guardian",
-        "title": "Storm Boelo to bring 80mph gusts and heavy rain to parts of UK"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -14285,424 +14701,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cq98z59xdny5o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Burnham says he wants to 'repair bridges' between Ukraine and US"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "854c64692207746cec5c699c330feaee",
-    "topic_label": "Surgical Resection of Pope Leo XIV Lung Tumor",
-    "event_window_start": "2026-10-14T15:09:48.000Z",
-    "event_window_end": "2026-10-14T15:12:46.000Z",
-    "article_ids": [
-      "art_1791992454700_99fn8",
-      "art_1791992455751_q589a"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T12:06:36.787Z",
-    "updated_at": "2026-10-15T12:06:36.787Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Medical",
-    "synthesis": "Pope Leo XIV underwent a surgical procedure at Gemelli Hospital in Rome to excise the lower lobe of his right lung due to a confirmed cancer diagnosis. Post-operative telemetry, including blood tests and chest X-rays, indicates standard physiological recovery metrics. The subject is currently mobile, having engaged in respiratory physiotherapy and the resumption of oral nutrition. No complications have been reported by the attending physicians.",
-    "consensus": [
-      "Pope Leo XIV underwent surgery to remove the lower lobe of his right lung.",
-      "A cancer diagnosis was confirmed following the surgical procedure.",
-      "The subject is currently mobile and performing respiratory physiotherapy.",
-      "Post-operative clinical markers such as blood tests and X-rays are within expected parameters."
-    ],
-    "divergence": [
-      "The BBC framed the narrative focus on the broader implications of a 'lung cancer diagnosis' and included contextual video content, whereas Al Jazeera focused specifically on the technical medical bulletin provided by the attending doctors.",
-      "The BBC explicitly mentions the duration of the surgery as 'roughly 90 minutes', a detail omitted by Al Jazeera."
-    ],
-    "sources": [
-      {
-        "id": "art_1791992454700_99fn8",
-        "url": "https://www.bbc.co.uk/news/articles/cwx28r0zvm6lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Pope walking and recovering 'as expected' after surgery, doctors say"
-      },
-      {
-        "id": "art_1791992455751_q589a",
-        "url": "https://www.aljazeera.com/news/2026/10/14/pope-leo-recovering-well-after-cancer-surgery-vatican-says?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Pope Leo recovering well after cancer surgery, Vatican says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "da5687564de4465007ae01d75e3020a1",
-    "topic_label": "Disparate Global Reporting and Digital Content Analysis",
-    "event_window_start": "2026-10-14T15:21:06.000Z",
-    "event_window_end": "2026-10-14T19:35:37.000Z",
-    "article_ids": [
-      "art_1792007273874_v8mml",
-      "art_1792007275960_saawv",
-      "art_1792007281582_5f7v0",
-      "art_1792007282744_9q9i7",
-      "art_1792007284985_vt804",
-      "art_1792007287283_7x768",
-      "art_1791992443656_pv4ze",
-      "art_1791992448981_4gkpg",
-      "art_1791992451568_q69d3"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 9,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T12:06:36.787Z",
-    "updated_at": "2026-10-15T12:06:36.787Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "None",
-    "synthesis": "This analysis covers five unrelated reports: a media commentary regarding an advertisement, a social media influencer's grievance concerning airline baggage handling policies, the archaeological discovery of a 5,000-year-old shipwreck off the coast of Turkiye, the disclosure of high remuneration packages for OpenAI London staff, and an academic dispute regarding the potential use of generative AI in a prize-winning literary work. No kinetic, geopolitical, or systemic security events are present; the topics represent localized socio-economic and cultural news cycles.",
-    "consensus": [
-      "Diverse topics were reported including corporate compensation, maritime archaeology, and digital content disputes.",
-      "None of the reports indicate a kinetic threat to life, infrastructure, or state stability."
-    ],
-    "divergence": [
-      "Fox News focuses on cultural commentary and individual service grievances.",
-      "The Guardian focuses on corporate financial structures and technological intellectual property disputes.",
-      "Al Jazeera focuses on archaeological and historical findings in the Mediterranean region."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007273874_v8mml",
-        "url": "https://www.foxnews.com/outkick-sports/powerade-takes-nasty-shot-sydney-sweeney-nude-gambling-ad-mlb-fans-fume-commercials-gone-too-far",
-        "source": "fox",
-        "title": "Powerade takes nasty shot at Sydney Sweeney's nude gambling ad, MLB fans fume & have commercials gone too far?"
-      },
-      {
-        "id": "art_1792007275960_saawv",
-        "url": "https://www.foxnews.com/travel/pregnant-influencer-just-so-shocked-when-flight-attendant-refuses-lift-her-bag",
-        "source": "fox",
-        "title": "Pregnant influencer 'just so shocked' when flight attendant refuses to lift her bag"
-      },
-      {
-        "id": "art_1792007281582_5f7v0",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/worlds-oldest-known-shipwreck-found-in-turkiye?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "World’s oldest known shipwreck found in Turkiye"
-      },
-      {
-        "id": "art_1792007282744_9q9i7",
-        "url": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-        "source": "guardian",
-        "title": "OpenAI’s London staff receive average of £2.3m per person annually"
-      },
-      {
-        "id": "art_1792007284985_vt804",
-        "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-        "source": "guardian",
-        "title": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story"
-      },
-      {
-        "id": "art_1792007287283_7x768",
-        "url": "https://www.foxnews.com/media/french-newspaper-claims-climate-change-fueling-child-marriages-girls-young-12",
-        "source": "fox",
-        "title": "French newspaper claims climate change is fueling child marriages, including girls as young as 12"
-      },
-      {
-        "id": "art_1791992443656_pv4ze",
-        "url": "https://www.theguardian.com/environment/2026/oct/14/mont-blanc-loses-metre-height",
-        "source": "guardian",
-        "title": "Mont Blanc the ‘roof of Europe’ loses more than a metre of height in a year"
-      },
-      {
-        "id": "art_1791992448981_4gkpg",
-        "url": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "US inflation rises more than expected - here's what is happening with prices"
-      },
-      {
-        "id": "art_1791992451568_q69d3",
-        "url": "https://www.foxnews.com/politics/foul-mouthed-protesters-repeatedly-derail-hegseth-remarks-army-event-dc",
-        "source": "fox",
-        "title": "Foul-mouthed anti-war protesters repeatedly derail Hegseth's remarks at Army event in DC"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b5b8b6c21c8ad2949c906c2429c62548",
-    "topic_label": "Professional Sports Personnel and Performance Summary",
-    "event_window_start": "2026-10-14T14:50:03.000Z",
-    "event_window_end": "2026-10-14T19:20:07.000Z",
-    "article_ids": [
-      "art_1792007278171_vk7i7",
-      "art_1791992446215_t8akf",
-      "art_1791992450089_fbnpr",
-      "art_1791992459088_fhoce"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T12:06:36.787Z",
-    "updated_at": "2026-10-15T12:06:36.787Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Sports",
-    "synthesis": "This synthesis encompasses multiple, unrelated professional sporting events occurring in the 2026 calendar year. Physical events include a managerial transition within the Philadelphia Phillies organization involving the dismissal of Rob Thomson and the permanent appointment of Don Mattingly, a professional roster consolidation within the NHL involving the trade of Brady Tkachuk to the Florida Panthers to join Matthew Tkachuk, and a competitive athletic performance outcome in the Champions League resulting in a 2-0 defeat for Manchester United against Atletico Madrid. These events are categorized as standard organizational management, roster transactions, and athletic match outcomes.",
-    "consensus": [
-      "The Philadelphia Phillies appointed Don Mattingly as full-time manager following the firing of Rob Thomson.",
-      "Brady Tkachuk was traded to the Florida Panthers to play with his brother Matthew Tkachuk.",
-      "Manchester United lost 2-0 to Atletico Madrid in a Champions League match.",
-      "Manchester United is experiencing a statistically poor start to their 2026-27 season."
-    ],
-    "divergence": [
-      "Fox frames the Philadelphia Phillies' managerial change and the Tkachuk brothers' trade within the context of gambling and betting market opportunities.",
-      "Al Jazeera focuses on the institutional failure and management critique at Manchester United, utilizing the term 'meltdown' to describe player behavior following a kinetic defeat.",
-      "Fox describes the Philadelphia Phillies' recent performance as a 'turnaround' despite acknowledging an 'up-and-down' campaign and a postseason loss, whereas the underlying data confirms a failure to advance."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007278171_vk7i7",
-        "url": "https://www.foxnews.com/outkick-betting/nuggets-rockets-offer-best-long-shot-value-nba-championship-futures-market",
-        "source": "fox",
-        "title": "Nuggets and Rockets offer the best long-shot value in the NBA championship futures market"
-      },
-      {
-        "id": "art_1791992446215_t8akf",
-        "url": "https://www.foxnews.com/outkick-sports/team-usa-hockey-brothers-connect-pull-off-historic-nhl-feat-dominant-performance",
-        "source": "fox",
-        "title": "Team USA hockey brothers connect to pull off historic NHL feat in dominant performance"
-      },
-      {
-        "id": "art_1791992450089_fbnpr",
-        "url": "https://www.aljazeera.com/sports/2026/10/14/manchester-united-premier-league-carrick-ratcliffe?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "What led Manchester United’s Martinez to meltdown in Madrid – all to know"
-      },
-      {
-        "id": "art_1791992459088_fhoce",
-        "url": "https://www.foxnews.com/outkick-sports/phillies-commit-don-mattingly-full-time-manager-up-down-interim-campaign",
-        "source": "fox",
-        "title": "Phillies commit to Don Mattingly as full-time manager after up-and-down interim campaign"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "48cd9a4629b093e7286b7351b51d3167",
-    "topic_label": "US Political Campaign Disclosures and Legislative Conduct Reports",
-    "event_window_start": "2026-10-14T10:24:06.000Z",
-    "event_window_end": "2026-10-14T19:38:56.000Z",
-    "article_ids": [
-      "art_1792007272822_gmgid",
-      "art_1792007274914_wqrhh",
-      "art_1792007279212_hl1g7",
-      "art_1792007288327_hz7jp",
-      "art_1791992445136_63bsn",
-      "art_1791992453644_nevim",
-      "art_1791974458418_3eodr"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T06:22:31.163Z",
-    "updated_at": "2026-10-15T06:22:31.163Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "This summary covers various political activities within the United States, primarily focusing on primary election results, debate performance, and administrative scrutiny of legislative and electoral processes. Physical events include the primary defeat of a congressional incumbent, verbal debates between senatorial candidates regarding political ethics and past associations, and administrative updates concerning voter eligibility investigations. No kinetic actions, threats to infrastructure, or physical violence occurred; these events represent the standard functioning of domestic political campaigning, rhetorical argumentation, and administrative oversight.",
-    "consensus": [
-      "Ryan Elijah won a GOP primary in Florida.",
-      "A debate occurred between Sen. Jon Ossoff and Rep. Mike Collins in Georgia.",
-      "Michele Tafoya is campaigning for a Senate seat in Minnesota.",
-      "The U.S. Department of Justice has initiated charges related to voter eligibility.",
-      "Rep. Ashley Hinson publicly criticized Rep. Josh Turek's voting attendance record in Iowa."
-    ],
-    "divergence": [
-      "Fox News frames the Minnesota Senate race as a potential 'pickup' due to a 'fraud scandal' while relying on internal polling, whereas standard political reporting would frame this as a competitive electoral contest.",
-      "Fox News emphasizes the DOJ's focus on non-citizen voting while critiquing Democratic AG Jay Jones' 'Voter Protection' unit, ignoring broader judicial debates regarding the constitutionality of voting restrictions.",
-      "The coverage of the Georgia debate focuses on ad hominem allegations (neo-Nazi ties vs. Epstein associates) rather than legislative policy, reflecting a deliberate editorial choice to emphasize inflammatory campaign rhetoric over substantive policy discussion."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007272822_gmgid",
-        "url": "https://www.foxnews.com/politics/trump-backed-gop-candidate-ousted-scandal-plagued-incumbent-warns-never-ending-war-iran",
-        "source": "fox",
-        "title": "Trump-backed GOP candidate who ousted scandal-plagued incumbent warns against 'never-ending war' with Iran"
-      },
-      {
-        "id": "art_1792007274914_wqrhh",
-        "url": "https://www.foxnews.com/politics/watch-georgia-senate-debate-erupts-white-supremacy-allegations-epstein-ties-fiery-exchange",
-        "source": "fox",
-        "title": "WATCH: Georgia Senate debate erupts over white supremacy allegations, Epstein ties in fiery exchange"
-      },
-      {
-        "id": "art_1792007279212_hl1g7",
-        "url": "https://www.foxnews.com/politics/sleeper-gop-candidate-puts-blue-leaning-state-play-fraud-scandal-shadows-dems",
-        "source": "fox",
-        "title": "Sleeper GOP candidate puts blue-leaning state in play as fraud scandal shadows Dems"
-      },
-      {
-        "id": "art_1792007288327_hz7jp",
-        "url": "https://www.foxnews.com/politics/dem-ag-targets-trump-voting-while-state-sends-rights-letters-dead-people",
-        "source": "fox",
-        "title": "Dem AG targets Trump on voting while his state sends rights letters to dead people"
-      },
-      {
-        "id": "art_1791992445136_63bsn",
-        "url": "https://www.foxnews.com/politics/iowa-dem-senate-candidate-says-hes-too-busy-campaigning-attend-state-house-votes",
-        "source": "fox",
-        "title": "Iowa Dem Senate candidate says he's too busy campaigning to attend all state House votes"
-      },
-      {
-        "id": "art_1791992453644_nevim",
-        "url": "https://www.aljazeera.com/news/2026/10/14/us-judge-extends-white-house-access-for-media-outlets-amid-trump-standoff?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Judge extends White House access for US media outlets amid Trump standoff"
-      },
-      {
-        "id": "art_1791974458418_3eodr",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/14/donald-trump-us-midterms-arizona-montana-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump heads to rallies in Arizona and Montana after campaign stop-off in Alaska – US politics live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d715526be4b4425ee2ead9bb5257ea8d",
-    "topic_label": "Israeli Kinetic Strike on Al-Rimal Residential Infrastructure",
-    "event_window_start": "2026-10-14T10:08:49.000Z",
-    "event_window_end": "2026-10-14T19:23:27.000Z",
-    "article_ids": [
-      "art_1792007277120_r5xsn",
-      "art_1792007280398_e6sku",
-      "art_1791974465924_yg0st"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T06:22:31.163Z",
-    "updated_at": "2026-10-15T06:22:31.163Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "At approximately 04:00 local time on Wednesday, Israeli aerial assets conducted a strike on a residential apartment block in the Al-Rimal neighborhood of Gaza City. The physical impact resulted in the death of 33-year-old Reem Asaad Awad, injuries to two additional civilians, and significant structural damage to surrounding buildings, including a post-strike fire. Israel identifies the event as a targeted elimination of a Hamas member, though no supporting evidence was provided for this assessment.",
-    "consensus": [
-      "An aerial strike occurred in the Al-Rimal neighborhood of Gaza City at 04:00 local time.",
-      "The strike resulted in the death of Reem Asaad Awad.",
-      "The strike caused destruction to an apartment building and nearby structures.",
-      "A fire occurred as a direct result of the strike."
-    ],
-    "divergence": [
-      "Al Jazeera frames the event as an indiscriminate strike on civilian infrastructure, focusing on the human cost and lack of evidence for military targeting.",
-      "The Israeli military framing, as noted by Al Jazeera, sanitizes the collateral damage by labeling the strike as a targeted operation against an armed combatant without offering verification."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007277120_r5xsn",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/sally-rooneys-books-pulled-from-uk-over-palestine-action-support?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Sally Rooney’s books pulled from UK over Palestine Action support"
-      },
-      {
-        "id": "art_1792007280398_e6sku",
-        "url": "https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base",
-        "source": "guardian",
-        "title": "Israel blocks construction of key Gaza base created by Trump peace board"
-      },
-      {
-        "id": "art_1791974465924_yg0st",
-        "url": "https://www.aljazeera.com/news/2026/10/14/israeli-air-strike-kills-palestinian-woman-in-gaza-city?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli air strike kills Palestinian woman in Gaza City"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4678cf8a6f5108b47d27d31cde09afbf",
-    "topic_label": "Russian Missile and Drone Strikes on Ukrainian Energy Infrastructure",
-    "event_window_start": "2026-10-14T10:02:16.000Z",
-    "event_window_end": "2026-10-14T10:04:28.000Z",
-    "article_ids": [
-      "art_1791974469462_n8149",
-      "art_1791974470800_vmyvs"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T06:22:31.163Z",
-    "updated_at": "2026-10-15T06:22:31.163Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "Russian military forces executed a coordinated offensive using ballistic missiles and unmanned aerial vehicles to strike Ukrainian energy and communications infrastructure in Kyiv and Kharkiv. The kinetic action resulted in the confirmed death of three individuals and the disruption of electrical power for approximately 600,000 residents. Simultaneous with the kinetic strikes, reports indicate operational degradation of the Starlink satellite communication network on the frontline, negatively impacting Ukrainian military tactical maneuvers.",
-    "consensus": [
-      "Russian forces conducted overnight strikes using missiles and drones on Ukrainian energy infrastructure.",
-      "Approximately 600,000 people are without power.",
-      "Impacts occurred in Kyiv and Kharkiv.",
-      "Three fatalities were recorded in Kyiv.",
-      "Ukrainian battlefield operations are experiencing degraded connectivity due to Starlink restrictions."
-    ],
-    "divergence": [
-      "The BBC frames the Starlink issues as 'speed restrictions' whereas the Guardian emphasizes a direct impact on 'battlefield missions'.",
-      "The Guardian frames the event through the lens of a failed diplomatic 'energy ceasefire' promoted by the US President, whereas the BBC focuses more on the technical impact of the energy strikes.",
-      "Russian state-aligned accounts as mentioned by the BBC characterize the targets as specifically military-used communications and energy facilities, whereas Ukrainian official accounts characterize them as broader 'critical' infrastructure."
-    ],
-    "sources": [
-      {
-        "id": "art_1791974469462_n8149",
-        "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line"
-      },
-      {
-        "id": "art_1791974470800_vmyvs",
-        "url": "https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
-        "source": "guardian",
-        "title": "Russian attacks on Ukraine leave 600,000 without power as Zelenskyy says Moscow ‘disrespecting’ US – Europe live"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
