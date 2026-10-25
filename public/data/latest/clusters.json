@@ -1,5 +1,77 @@
 [
   {
+    "cluster_id": "47684cc7d6b9fff0451da751b6886ea0",
+    "topic_label": "Analysis of Disparate Global News Feeds",
+    "event_window_start": "2026-10-25T19:36:14.000Z",
+    "event_window_end": "2026-10-25T19:57:40.000Z",
+    "article_ids": [
+      "art_1792958794329_so9gc",
+      "art_1792958795472_ry344",
+      "art_1792958796511_wjobu",
+      "art_1792958797650_9wnd0",
+      "art_1792958798772_s4r49"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T20:31:51.282Z",
+    "updated_at": "2026-10-25T20:31:51.282Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "This analysis encompasses a set of unrelated news reports covering distinct, non-intersecting events: legislative developments regarding liability for property damage in France, NFL athletic activity, the death of a private sector executive, and the 2026 Brazilian presidential election. There is no shared physical event or unified kinetic outcome between these sources. The reports reflect a collection of disparate political, social, and cultural updates.",
+    "consensus": [
+      "The sources represent independent reporting on unrelated regional and thematic events.",
+      "No single physical event ties the provided texts together."
+    ],
+    "divergence": [
+      "The Guardian frames the French protests through the lens of civil liberties and legislative overreach.",
+      "Al Jazeera frames the French unrest through the lens of media bias and systemic racism.",
+      "Fox News provides entirely unrelated coverage, specifically focused on American professional sports and the death of a commercial business owner, diverging from the geopolitical focus of the other sources."
+    ],
+    "sources": [
+      {
+        "id": "art_1792958794329_so9gc",
+        "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+        "source": "guardian",
+        "title": "Macron’s ‘vandals pay’ bill puts right to protest at risk"
+      },
+      {
+        "id": "art_1792958795472_ry344",
+        "url": "https://www.foxnews.com/outkick-sports/giants-cam-skattebo-penalty-crushing-texans-defender-routine-run",
+        "source": "fox",
+        "title": "Giants' Cam Skattebo hit with penalty after crushing Texans defender on routine run"
+      },
+      {
+        "id": "art_1792958796511_wjobu",
+        "url": "https://www.foxnews.com/food-drink/firehouse-subs-co-founder-dies-after-building-beloved-american-sandwich-chain-brother",
+        "source": "fox",
+        "title": "Firehouse Subs co-founder dies after building beloved American sandwich chain with brother"
+      },
+      {
+        "id": "art_1792958797650_9wnd0",
+        "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+        "source": "guardian",
+        "title": "Brazil election 2026: Live second round results"
+      },
+      {
+        "id": "art_1792958798772_s4r49",
+        "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/25/the-narrative-battle-over-frances-unrest?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The narrative battle over France’s unrest"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "0cdd682ab9c9bbac5770835c7cf67455",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-10-24T22:40:08.000Z",
@@ -14609,71 +14681,6 @@
         "url": "https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll",
         "source": "guardian",
         "title": "In Ukraine, civilian casualties were already rising. Restrictions on Starlink will only worsen the death toll"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d0f03457e6feaf5494d075cb3cb9b184",
-    "topic_label": "OpenAI Financial Disclosures and AI-Authorship Controversy",
-    "event_window_start": "2026-10-14T19:01:29.000Z",
-    "event_window_end": "2026-10-14T19:35:37.000Z",
-    "article_ids": [
-      "art_1792007273874_v8mml",
-      "art_1792007278171_vk7i7",
-      "art_1792007282744_9q9i7",
-      "art_1792007284985_vt804"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-15T16:21:28.178Z",
-    "updated_at": "2026-10-15T16:21:28.178Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Corporate Governance and Intellectual Property",
-    "synthesis": "Recent filings for OpenAI UK Ltd disclose that 110 employees received a combined compensation of £255 million in salaries and equity, averaging £2.3 million per individual. Concurrently, literary integrity disputes have emerged regarding the Caine Prize for African Writers; Simbarashe Kundizeza is facing allegations that his winning short story, 'The Blue Fighter,' was generated using artificial intelligence. These claims are based on automated detection software outputs, which the author disputes.",
-    "consensus": [
-      "OpenAI UK Ltd reported a total of £255 million in compensation for 110 employees.",
-      "Simbarashe Kundizeza won the Caine prize for 'The Blue Fighter' on October 6.",
-      "The Atlantic reported that AI-detection software flagged Kundizeza's story as artificially generated."
-    ],
-    "divergence": [
-      "The Guardian frames the OpenAI compensation as a capital-intensive strategy to dominate the global AI sector.",
-      "The Guardian frames the Caine prize controversy as a conflict between human authorship and detection software accuracy.",
-      "The provided Fox sources do not report on these events, focusing instead on unrelated sports media and betting markets."
-    ],
-    "sources": [
-      {
-        "id": "art_1792007273874_v8mml",
-        "url": "https://www.foxnews.com/outkick-sports/powerade-takes-nasty-shot-sydney-sweeney-nude-gambling-ad-mlb-fans-fume-commercials-gone-too-far",
-        "source": "fox",
-        "title": "Powerade takes nasty shot at Sydney Sweeney's nude gambling ad, MLB fans fume & have commercials gone too far?"
-      },
-      {
-        "id": "art_1792007278171_vk7i7",
-        "url": "https://www.foxnews.com/outkick-betting/nuggets-rockets-offer-best-long-shot-value-nba-championship-futures-market",
-        "source": "fox",
-        "title": "Nuggets and Rockets offer the best long-shot value in the NBA championship futures market"
-      },
-      {
-        "id": "art_1792007282744_9q9i7",
-        "url": "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person",
-        "source": "guardian",
-        "title": "OpenAI’s London staff receive average of £2.3m per person annually"
-      },
-      {
-        "id": "art_1792007284985_vt804",
-        "url": "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-        "source": "guardian",
-        "title": "Zimbabwean author Simbarashe Kundizeza denies using AI to write prize-winning story"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"

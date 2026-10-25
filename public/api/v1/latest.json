@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-10-25T18:01:51.475Z",
+  "generated_at": "2026-10-25T20:32:24.010Z",
   "status": "healthy",
   "clusters_count": 200,
   "impact_count": 160,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "47684cc7d6b9fff0451da751b6886ea0",
+      "topic_label": "Analysis of Disparate Global News Feeds",
+      "event_window_start": "2026-10-25T19:36:14.000Z",
+      "event_window_end": "2026-10-25T19:57:40.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "This analysis encompasses a set of unrelated news reports covering distinct, non-intersecting events: legislative developments regarding liability for property damage in France, NFL athletic activity, the death of a private sector executive, and the 2026 Brazilian presidential election. There is no shared physical event or unified kinetic outcome between these sources. The reports reflect a collection of disparate political, social, and cultural updates.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+          "title": "Macron’s ‘vandals pay’ bill puts right to protest at risk"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/outkick-sports/giants-cam-skattebo-penalty-crushing-texans-defender-routine-run",
+          "title": "Giants' Cam Skattebo hit with penalty after crushing Texans defender on routine run"
+        },
+        {
+          "source": "fox",
+          "url": "https://www.foxnews.com/food-drink/firehouse-subs-co-founder-dies-after-building-beloved-american-sandwich-chain-brother",
+          "title": "Firehouse Subs co-founder dies after building beloved American sandwich chain with brother"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+          "title": "Brazil election 2026: Live second round results"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/25/the-narrative-battle-over-frances-unrest?traffic_source=rss",
+          "title": "The narrative battle over France’s unrest"
+        }
+      ],
+      "updated_at": "2026-10-25T20:31:51.282Z"
+    },
     {
       "cluster_id": "0cdd682ab9c9bbac5770835c7cf67455",
       "topic_label": "Fallback Synthesis",
@@ -323,35 +364,28 @@
         }
       ],
       "updated_at": "2026-10-25T10:14:37.246Z"
-    },
-    {
-      "cluster_id": "f2094b20302d4e640c7662df1bd517a3",
-      "topic_label": "Arson Attack at Kehlsteinhaus Mountain Retreat",
-      "event_window_start": "2026-10-24T15:56:48.000Z",
-      "event_window_end": "2026-10-25T00:54:50.000Z",
-      "article_count": 2,
-      "source_count": 2,
-      "region_tag": "global",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "On the evening of Friday, a 33-year-old German national intentionally ignited a structure fire at the Kehlsteinhaus (Eagle's Nest) in the Bavarian Alps. Local emergency responders engaged in fire suppression efforts hindered by high wind conditions. The suspect was apprehended by law enforcement at the scene and transferred to a psychiatric facility. The structure suffered significant physical destruction. While the site is a high-profile historical landmark, the incident is currently treated as an act of criminal arson by a lone actor rather than an organized terroristic operation.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "fox",
-          "url": "https://www.foxnews.com/travel/man-arrested-fire-engulfs-hitlers-eagles-nest-mountain-retreat-bavarian-alps",
-          "title": "Man arrested after fire engulfs Hitler’s Eagle’s Nest mountain retreat in the Bavarian Alps"
-        },
-        {
-          "source": "bbc",
-          "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
-          "title": "Watch as fire engulfs Hitler's mountaintop Eagle's Nest retreat"
-        }
-      ],
-      "updated_at": "2026-10-25T10:14:37.246Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-47684cc7",
+      "title": "Analysis of Disparate Global News Feeds",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "This analysis encompasses a set of unrelated news reports covering distinct, non-intersecting events: legislative developments regarding liability for property damage in France, NFL athletic activity, the death of a private sector executive, and the 2026 Brazilian presidential election. There is no shared physical event or unified kinetic outcome between these sources. The reports reflect a collection of disparate political, social, and cultural updates.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "47684cc7d6b9fff0451da751b6886ea0",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-10-25T20:31:51.282Z"
+    },
     {
       "id": "impact-5266d6e5",
       "title": "Armed Attack on Israeli Base in Hebron Triggers West Bank Lockdown and Border Closure",
@@ -534,25 +568,6 @@
       "related_cluster_id": "f2e932b7ebdfafae415238e113bfe430",
       "related_watchlist_id": null,
       "operator_hint": "Track crude commodity prices and pipeline telemetry alerts.",
-      "updated_at": "2026-10-25T05:19:04.949Z"
-    },
-    {
-      "id": "impact-087f37f6",
-      "title": "Hebron Urban Demolition and Neighborhood Clearance",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict"
-      ],
-      "why_it_matters": "Following the deaths of two Israeli soldiers at a military checkpoint, Israeli forces conducted a large-scale structural demolition operation in the Ein Deir Baha district of Hebron. The operation involved the deployment of heavy engineering equipment, resulting in the flattening of multiple city blocks and the physical eviction of between 1,500 and 2,200 residents. The Israeli military has implemented a total lockdown, sealing all entry and exit points to the city of approximately 200,000 to 250,000 residents, effectively suspending civilian movement.",
-      "evidence_summary": "3 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "087f37f6891cb8e614fb24a152eea028",
-      "related_watchlist_id": null,
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-10-25T05:19:04.949Z"
     }
   ]
