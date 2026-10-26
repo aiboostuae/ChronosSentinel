@@ -1,5 +1,125 @@
 [
   {
+    "cluster_id": "47edaf3fe076d396e81c3f022ffaa0ed",
+    "topic_label": "Israeli Military Drills and Impending General Election",
+    "event_window_start": "2026-10-25T07:10:52.000Z",
+    "event_window_end": "2026-10-26T00:42:24.000Z",
+    "article_ids": [
+      "art_1792975662720_wzfy7",
+      "art_1792967550666_0hvls",
+      "art_1792967552731_yj2xg",
+      "art_1792949924665_tjprp",
+      "art_1792919465797_vp0i5"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-26T05:59:10.472Z",
+    "updated_at": "2026-10-26T05:59:10.472Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Military and Political",
+    "synthesis": "The Israeli military is conducting a 48-hour large-scale mobilization exercise involving the 210th Division and West Bank Division to simulate responses to ground raids and border breaches. Simultaneously, the state is preparing for a general election on October 27, 2024, the first since the onset of the October 7 conflict. While military assets are being positioned under the guise of readiness training, the national climate is dominated by electoral competition between the incumbent Netanyahu administration and the opposition led by Gadi Eisenkot, amidst significant civil unrest and protests in Tel Aviv.",
+    "consensus": [
+      "The Israeli military is conducting a two-day large-scale mobilization exercise involving Northern and West Bank divisions.",
+      "Israel is holding a general election on October 27.",
+      "The election follows the October 7, 2023 attacks and subsequent regional conflict.",
+      "The election features a competitive race between the Netanyahu-led right-wing bloc and an opposition alliance."
+    ],
+    "divergence": [
+      "Fox frames the military exercises as a high-alert defensive posture against potential surprise attacks and war, while largely ignoring the political context.",
+      "BBC focuses on the electoral process, political polarization, and the potential for a change in government, downplaying the kinetic military exercise news.",
+      "Al Jazeera frames the political climate as a 'genocidal war' context and emphasizes the shift of young voters toward the right, contrasting with global trends."
+    ],
+    "sources": [
+      {
+        "id": "art_1792975662720_wzfy7",
+        "url": "https://www.foxnews.com/world/israel-drills-surprise-attack-massive-military-exercise-expert-invokes-1973-war",
+        "source": "fox",
+        "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war"
+      },
+      {
+        "id": "art_1792967550666_0hvls",
+        "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Deeply divided Israel braces for pivotal election"
+      },
+      {
+        "id": "art_1792967552731_yj2xg",
+        "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Why Israel's election is one of the most important in its history"
+      },
+      {
+        "id": "art_1792949924665_tjprp",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel’s ‘Generation Right’ could shape Netanyahu’s future"
+      },
+      {
+        "id": "art_1792919465797_vp0i5",
+        "url": "https://www.aljazeera.com/news/2026/10/25/israeli-elections-what-are-the-possible-outcomes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli elections: What are the possible outcomes?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e7252e7b0e9c27f51ba6bdc47321f8de",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-25T07:20:36.000Z",
+    "event_window_end": "2026-10-25T17:12:59.000Z",
+    "article_ids": [
+      "art_1792949916299_ner24",
+      "art_1792919464762_7lgi2"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-25T22:59:03.617Z",
+    "updated_at": "2026-10-25T22:59:03.617Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792949916299_ner24",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jerusalem Daily: Israel expels thousands from Hebron"
+      },
+      {
+        "id": "art_1792919464762_7lgi2",
+        "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "c17388a63a27f79233a1be735c27c236",
     "topic_label": "Luiz Inácio Lula da Silva Defeats Flávio Bolsonaro in Brazilian Presidential Runoff Election",
     "event_window_start": "2026-10-25T08:00:58.000Z",
@@ -300,52 +420,6 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e7252e7b0e9c27f51ba6bdc47321f8de",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-25T07:20:36.000Z",
-    "event_window_end": "2026-10-25T17:12:59.000Z",
-    "article_ids": [
-      "art_1792949916299_ner24",
-      "art_1792919464762_7lgi2"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T22:59:03.617Z",
-    "updated_at": "2026-10-25T22:59:03.617Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1792949916299_ner24",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jerusalem Daily: Israel expels thousands from Hebron"
-      },
-      {
-        "id": "art_1792919464762_7lgi2",
-        "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   },
   {
     "cluster_id": "7d1d4e0f8eb820983a53134d6e4b822f",
@@ -14729,74 +14803,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b8c19a9f20fd81e3885b9e486c12b78e",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-16T11:32:50.000Z",
-    "event_window_end": "2026-10-16T11:46:25.000Z",
-    "article_ids": [
-      "art_1792151995216_me1g4",
-      "art_1792151996424_ixzzi",
-      "art_1792151997677_kfn90",
-      "art_1792151998794_ofisr",
-      "art_1792151999838_jke6d"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-16T15:14:21.599Z",
-    "updated_at": "2026-10-16T15:14:21.599Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1792151995216_me1g4",
-        "url": "https://www.foxnews.com/us/bystander-fatally-shoots-suspected-teen-gunman-deadly-elementary-school-shooting-more-top-headlines",
-        "source": "fox",
-        "title": "Bystander fatally shoots suspected teen gunman in deadly elementary school shooting and more top headlines"
-      },
-      {
-        "id": "art_1792151996424_ixzzi",
-        "url": "https://www.theguardian.com/world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates",
-        "source": "guardian",
-        "title": "Zelenskyy holds press conference after talks with EU leaders over breakdown in US relationship – Europe live"
-      },
-      {
-        "id": "art_1792151997677_kfn90",
-        "url": "https://www.theguardian.com/politics/live/2026/oct/16/andy-burnham-scotland-devolution-speech-reform-uk-documentary-jenrick-farage-latest-news-updates",
-        "source": "guardian",
-        "title": "Burnham says he wants to devolve power so places can ‘change things for themselves’ – UK politics live"
-      },
-      {
-        "id": "art_1792151998794_ofisr",
-        "url": "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why is China buying up gold?"
-      },
-      {
-        "id": "art_1792151999838_jke6d",
-        "url": "https://www.aljazeera.com/opinions/2026/10/16/malaysias-welcome-for-min-aung-hlaing-undermines-its-stand-on-justice?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Malaysia’s welcome for Min Aung Hlaing undermines its stand on justice"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   }
 ]
