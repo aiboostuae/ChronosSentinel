@@ -69,6 +69,265 @@
     "model_used": "deterministic-fallback"
   },
   {
+    "cluster_id": "a4ca06cd24ebdab14118d949326bf0e1",
+    "topic_label": "Israeli Military Exercises and Pre-Election Political Mobilization",
+    "event_window_start": "2026-10-25T22:05:30.000Z",
+    "event_window_end": "2026-10-26T00:42:24.000Z",
+    "article_ids": [
+      "art_1792975662720_wzfy7",
+      "art_1792967550666_0hvls",
+      "art_1792967552731_yj2xg"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-26T19:04:06.996Z",
+    "updated_at": "2026-10-26T19:04:06.996Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure/Diplomacy",
+    "synthesis": "The Israeli military is currently conducting large-scale, 48-hour combat simulation exercises involving the 210th Division and West Bank Division to prepare for potential border incursions. Simultaneously, the state is undergoing a high-stakes general election cycle following three years of regional conflict. Domestic tension is elevated, characterized by large-scale civil protests in Tel Aviv and political polarization regarding security policy, with the incumbent administration positioning the drills and election as existential security matters while opposition groups focus on internal governance and democratic identity.",
+    "consensus": [
+      "The Israeli Defense Forces are conducting large-scale military drills over 48 hours.",
+      "A significant national election is scheduled to occur on Tuesday.",
+      "The region is currently experiencing high levels of domestic political division.",
+      "Security is the primary theme of the current electoral campaign."
+    ],
+    "divergence": [
+      "Fox focuses exclusively on the military drills and potential kinetic risks, omitting the current electoral context.",
+      "BBC focuses on the domestic political narrative and the election's impact on national identity, omitting the specific operational details of the military exercises reported by Fox."
+    ],
+    "sources": [
+      {
+        "id": "art_1792975662720_wzfy7",
+        "url": "https://www.foxnews.com/world/israel-drills-surprise-attack-massive-military-exercise-expert-invokes-1973-war",
+        "source": "fox",
+        "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war"
+      },
+      {
+        "id": "art_1792967550666_0hvls",
+        "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Deeply divided Israel braces for pivotal election"
+      },
+      {
+        "id": "art_1792967552731_yj2xg",
+        "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Why Israel's election is one of the most important in its history"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2a878ee6e59f1bd27207e84b97181f67",
+    "topic_label": "Serbian Parliamentary Election Loss for Aleksandar Vučić",
+    "event_window_start": "2026-10-25T19:19:54.000Z",
+    "event_window_end": "2026-10-25T22:06:26.000Z",
+    "article_ids": [
+      "art_1792967551703_zt0zj",
+      "art_1792967563908_82h61",
+      "art_1792958804341_ii0aa"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-26T19:04:06.996Z",
+    "updated_at": "2026-10-26T19:04:06.996Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "Following an election characterized by record voter turnout, Serbian leader Aleksandar Vučić formally conceded defeat of his party in snap parliamentary elections. The electoral shift follows two years of civil unrest sparked by the 2024 collapse of a transport infrastructure canopy in Novi Sad, which resulted in 16 fatalities and served as a catalyst for widespread public opposition to the incumbent government's administrative record. The transfer of power in the 250-seat parliament marks the end of a 12-year governance period.",
+    "consensus": [
+      "Aleksandar Vučić conceded the parliamentary election.",
+      "A student-led movement emerged as the primary opposition force.",
+      "The election saw historically high voter turnout since the 1992 breakup of Yugoslavia.",
+      "The 2024 Novi Sad train station canopy collapse served as the primary driver for the protest movement."
+    ],
+    "divergence": [
+      "BBC frames the event as a direct concession to a 'student-led protest movement' while Al Jazeera maintains a more cautious stance on the finality of election outcomes, focusing on the procedural timeline.",
+      "The Guardian explicitly labels Vučić's previous administration as 'increasingly authoritarian,' a framing descriptor absent from the BBC and Al Jazeera reports.",
+      "The Guardian and BBC prioritize the conclusion of the 12-year reign, whereas Al Jazeera focuses on the procedural turnout metrics reported by the State Election Commission."
+    ],
+    "sources": [
+      {
+        "id": "art_1792967551703_zt0zj",
+        "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement"
+      },
+      {
+        "id": "art_1792967563908_82h61",
+        "url": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
+        "source": "guardian",
+        "title": "Serbian leader Aleksandar Vučić concedes defeat in fiercely contested parliamentary election"
+      },
+      {
+        "id": "art_1792958804341_ii0aa",
+        "url": "https://www.aljazeera.com/news/2026/10/25/serbia-voter-turnout-highest-in-decades-as-students-oppose-longtime-leader?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Serbia voter turnout highest in decades as students oppose longtime leader"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7d70e753d6a8cf78ec291920018339c5",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-25T19:36:14.000Z",
+    "event_window_end": "2026-10-25T21:50:36.000Z",
+    "article_ids": [
+      "art_1792967556971_54n4b",
+      "art_1792967559311_h7kfm",
+      "art_1792958794329_so9gc",
+      "art_1792958798772_s4r49"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-26T19:04:06.996Z",
+    "updated_at": "2026-10-26T19:04:06.996Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1792967556971_54n4b",
+        "url": "https://www.aljazeera.com/news/2026/10/25/marine-le-pen-vows-a-french-renaissance-as-far-right-eyes-seat-of-power?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Marine Le Pen vows French ‘renaissance’ as far right eyes seat of power"
+      },
+      {
+        "id": "art_1792967559311_h7kfm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/marine-le-pen-launches-french-presidential-campaign?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Marine Le Pen launches French presidential campaign"
+      },
+      {
+        "id": "art_1792958794329_so9gc",
+        "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+        "source": "guardian",
+        "title": "Macron’s ‘vandals pay’ bill puts right to protest at risk"
+      },
+      {
+        "id": "art_1792958798772_s4r49",
+        "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/25/the-narrative-battle-over-frances-unrest?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The narrative battle over France’s unrest"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "6c22df530bf4fc3fb9127a64c1ed7cc5",
+    "topic_label": "US Political Campaign Rhetoric and Electoral Litigation Disputes",
+    "event_window_start": "2026-10-25T21:29:23.000Z",
+    "event_window_end": "2026-10-26T00:11:31.000Z",
+    "article_ids": [
+      "art_1792975671870_nt4zn",
+      "art_1792975673937_6sks7",
+      "art_1792975682528_qbky6",
+      "art_1792967554812_rb8jh",
+      "art_1792967558160_mzsx3",
+      "art_1792967560342_z3yb6"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-26T19:04:06.996Z",
+    "updated_at": "2026-10-26T19:04:06.996Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The reported events concern ongoing political friction surrounding US Senate elections in Alaska, Michigan, and Maine. Physical activities are limited to media appearances, electoral litigation filed by the Department of Justice regarding ballot naming conventions in Alaska, and verbal exchanges between political candidates and broadcast media journalists. There are no kinetic, paramilitary, or civil stability threats; the situation consists entirely of institutional discourse, campaign rhetoric concerning candidate affiliations, and legal maneuvering within the domestic electoral process.",
+    "consensus": [
+      "Attorney General Todd Blanche appeared on televised political interview programs to discuss a DOJ lawsuit involving Alaska Senate ballot candidates.",
+      "Michigan Senate candidate Mike Rogers and opponent Abdul El-Sayed are engaged in a public dispute regarding alleged ideological affiliations.",
+      "Maine Senate candidate Susan Collins is engaged in an active electoral contest against Democrat Troy Jackson.",
+      "All reported activities are restricted to political campaigning, media interviews, and legal filings."
+    ],
+    "divergence": [
+      "Fox News frames the Alaska and Michigan stories as media bias investigations, highlighting conflicts between government officials and journalists.",
+      "Al Jazeera frames the Alaska story as a Department of Justice intervention in election certification and the Michigan story as a focus on Trump's rhetoric regarding Islam.",
+      "Fox News includes anecdotal color regarding GOP strategy in New England, whereas Al Jazeera focuses exclusively on the electoral impact of the Michigan and Alaska contests."
+    ],
+    "sources": [
+      {
+        "id": "art_1792975671870_nt4zn",
+        "url": "https://www.foxnews.com/media/todd-blanche-challenges-dana-bash-only-citing-part-constitution-during-heated-election-clash",
+        "source": "fox",
+        "title": "Todd Blanche challenges Dana Bash for only citing part of Constitution during heated election clash"
+      },
+      {
+        "id": "art_1792975673937_6sks7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-escalates-anti-muslim-rhetoric-in-fierce-attack-on-el-sayed?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed"
+      },
+      {
+        "id": "art_1792975682528_qbky6",
+        "url": "https://www.foxnews.com/opinion/david-marcus-future-gop-new-england-rides-maines-senate-vote",
+        "source": "fox",
+        "title": "DAVID MARCUS: The future of the GOP in New England rides on Maine’s Senate vote"
+      },
+      {
+        "id": "art_1792967554812_rb8jh",
+        "url": "https://www.foxnews.com/media/rogers-fires-back-welker-over-el-sayeds-muslim-brotherhood-controversy-you-giving-him-pass",
+        "source": "fox",
+        "title": "Rogers fires back at Welker over El-Sayed's Muslim Brotherhood controversy, 'You are giving him a pass'"
+      },
+      {
+        "id": "art_1792967558160_mzsx3",
+        "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit"
+      },
+      {
+        "id": "art_1792967560342_z3yb6",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-vs-california?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump VS California"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "14d8061725513d6aac576fd0990f79ec",
     "topic_label": "Israeli Military Drills and West Bank Security Operations Amidst General Election",
     "event_window_start": "2026-10-25T16:30:51.000Z",
@@ -14451,342 +14710,6 @@
         "url": "https://www.theguardian.com/global-development/2026/oct/16/saudi-arabia-to-execute-man-for-being-at-protests-and-funerals-when-he-was-15",
         "source": "guardian",
         "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9f1fb35cc663c91001bdf074e089f6fd",
-    "topic_label": "Termination of White House Press Secretary Katie Zacharia",
-    "event_window_start": "2026-10-16T05:13:10.000Z",
-    "event_window_end": "2026-10-16T19:29:43.000Z",
-    "article_ids": [
-      "art_1792180263084_9youv",
-      "art_1792180268528_90rft",
-      "art_1792180269657_g9ypk",
-      "art_1792180274962_fiegr",
-      "art_1792167309210_0qmpy",
-      "art_1792152003167_51vu6",
-      "art_1792152008588_vqesm",
-      "art_1792131668784_ieb25"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-16T22:10:46.129Z",
-    "updated_at": "2026-10-16T22:10:46.129Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "Following a tenure of five days, White House Press Secretary Katie Zacharia has been removed from her position. The termination follows a public briefing performance deemed unsuccessful by internal administration standards and the exposure of Zacharia's lack of legal credentials, specifically the failure to pass the bar exam. President Donald Trump publicly stated he advised Zacharia to 'reconsider' her employment status due to negative press coverage. No physical kinetic action or security threat occurred; the event remains an administrative and personnel matter within the executive branch.",
-    "consensus": [
-      "Katie Zacharia served as White House press secretary for five days.",
-      "Katie Zacharia is no longer in the White House press secretary role.",
-      "The administration did not formally announce the firing through standard channels initially.",
-      "Zacharia's academic/professional background, specifically regarding her legal credentials, was subject to public scrutiny."
-    ],
-    "divergence": [
-      "Al Jazeera describes the termination as Zacharia 'transitioning out' of her role, utilizing corporate euphemism compared to the direct 'fired' terminology used by The Guardian and Fox.",
-      "Al Jazeera includes the President's anecdotal claim that he suggested Zacharia leave to avoid 'suffering,' which is omitted by The Guardian's focus on her professional performance and lack of bar passage.",
-      "The Guardian frames the event around professional incompetence, whereas Al Jazeera highlights the President's personal messaging strategy regarding her departure."
-    ],
-    "sources": [
-      {
-        "id": "art_1792180263084_9youv",
-        "url": "https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary",
-        "source": "guardian",
-        "title": "Katie Zacharia fired after five days as White House press secretary"
-      },
-      {
-        "id": "art_1792180268528_90rft",
-        "url": "https://www.foxnews.com/politics/biden-judge-rejects-obama-cia-chiefs-legal-bid-against-trump-over-one-key-problem",
-        "source": "fox",
-        "title": "Biden judge rejects Obama CIA chief's legal bid against Trump over one key problem"
-      },
-      {
-        "id": "art_1792180269657_g9ypk",
-        "url": "https://www.bbc.co.uk/news/articles/cqly03y3zg7lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we learned from heated US midterm Senate debates"
-      },
-      {
-        "id": "art_1792180274962_fiegr",
-        "url": "https://www.aljazeera.com/news/2026/10/16/white-house-press-secretary-katie-zacharia-fired-after-five-days-on-the-job?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "White House press secretary Katie Zacharia fired after five days on the job"
-      },
-      {
-        "id": "art_1792167309210_0qmpy",
-        "url": "https://www.foxnews.com/politics/ilhan-omar-sister-skips-book-tour-event-amid-week-chaos-following-raid-progressive-dc-home",
-        "source": "fox",
-        "title": "Ilhan Omar's sister skips book tour event amid week of chaos following raid on progressive's DC home"
-      },
-      {
-        "id": "art_1792152003167_51vu6",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates",
-        "source": "guardian",
-        "title": "Trump attacks Republicans for ‘hurting Texas’ as Paxton struggles against surging Talarico – live"
-      },
-      {
-        "id": "art_1792152008588_vqesm",
-        "url": "https://www.foxnews.com/opinion/jonathan-turley-browns-pledge-turns-advice-consent-punchline",
-        "source": "fox",
-        "title": "JONATHAN TURLEY: Sherrod Brown's pledge turns advice and consent into a punchline"
-      },
-      {
-        "id": "art_1792131668784_ieb25",
-        "url": "https://www.foxnews.com/politics/democrats-debate-cue-cards-steal-spotlight-high-stakes-senate-clash",
-        "source": "fox",
-        "title": "Democrat's debate 'cue cards' steal spotlight in high-stakes Senate clash"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6c65af1fd2bbc41092dbb776203bd0a5",
-    "topic_label": "Starshield Satellite Network Data Throttling Affecting Ukrainian Military Operations",
-    "event_window_start": "2026-10-16T04:57:28.000Z",
-    "event_window_end": "2026-10-16T19:33:48.000Z",
-    "article_ids": [
-      "art_1792180261953_7s8vf",
-      "art_1792167304995_c46oh",
-      "art_1792167306117_t7y5v",
-      "art_1792167310252_30knw",
-      "art_1792167315572_2tm9p",
-      "art_1792151996424_ixzzi",
-      "art_1792131663551_il5yg",
-      "art_1792131674104_ccbxq"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 8,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-16T22:10:46.129Z",
-    "updated_at": "2026-10-16T22:10:46.129Z",
-    "region_tag": "global",
-    "severity": "HIGH",
-    "incident_type": "Infrastructure",
-    "synthesis": "The Ukrainian military is experiencing restricted satellite internet performance via the Starshield network, which provides critical command and control connectivity for drone operations. While Ukrainian leadership reports ongoing operational degradation and speed throttling, US President Donald Trump denies directing the restriction, despite reports citing White House involvement. Elon Musk suggests US government intervention as the catalyst for the telemetry limitations. This reduction in connectivity persists while Ukraine conducts counter-offensive operations in the Donbas region and maintains strike capabilities against Russian oil infrastructure, occurring alongside rising diplomatic friction between the US and Ukrainian administrations regarding continued military funding and operational strategy.",
-    "consensus": [
-      "Ukrainian military access to the Starshield/Starlink network is currently throttled or restricted.",
-      "President Zelenskyy has confirmed that network speeds have not been fully restored.",
-      "The restriction of this network directly impacts the efficacy of Ukrainian drone operations on the front line.",
-      "There is an ongoing diplomatic rift between the US executive branch and the Ukrainian government regarding military support and strike targeting."
-    ],
-    "divergence": [
-      "The BBC and The Guardian report specific allegations that the order to throttle the network originated from inside the White House.",
-      "Donald Trump explicitly denies that either he or Elon Musk were responsible for the restrictions on the Starshield network.",
-      "Elon Musk attributes the restrictive actions to the US government rather than his own initiative.",
-      "Al Jazeera frames the event primarily through the lens of EU diplomatic support for Ukraine, omitting details regarding the technical causes of the Starlink/Starshield service degradation."
-    ],
-    "sources": [
-      {
-        "id": "art_1792180261953_7s8vf",
-        "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump denies limiting Ukraine access to Starlink network"
-      },
-      {
-        "id": "art_1792167304995_c46oh",
-        "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "EU rallies in support of Ukraine amid Trump standoff"
-      },
-      {
-        "id": "art_1792167306117_t7y5v",
-        "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ukraine pushes Russia back on front line where Starlink has played key role"
-      },
-      {
-        "id": "art_1792167310252_30knw",
-        "url": "https://www.bbc.co.uk/news/videos/cm2ke1v8e4geo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: Will Ukraine get the support needed as tensions with US rise?"
-      },
-      {
-        "id": "art_1792167315572_2tm9p",
-        "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
-        "source": "guardian",
-        "title": "Starlink access still not fully restored for Ukraine’s military, says Zelenskyy"
-      },
-      {
-        "id": "art_1792151996424_ixzzi",
-        "url": "https://www.theguardian.com/world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates",
-        "source": "guardian",
-        "title": "Zelenskyy holds press conference after talks with EU leaders over breakdown in US relationship – Europe live"
-      },
-      {
-        "id": "art_1792131663551_il5yg",
-        "url": "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace",
-        "source": "guardian",
-        "title": "Trump calls Ukraine’s resumption of strikes on Russian oil refineries a ‘disgrace’"
-      },
-      {
-        "id": "art_1792131674104_ccbxq",
-        "url": "https://www.bbc.co.uk/news/articles/c6x23qpzjklwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "They fled Russia, but the West sent them back"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e04100471cde66b668c109d59773d3e2",
-    "topic_label": "Multiple Distinct Regional Security and Humanitarian Incidents",
-    "event_window_start": "2026-10-16T05:00:51.000Z",
-    "event_window_end": "2026-10-16T15:37:25.000Z",
-    "article_ids": [
-      "art_1792167316606_x9q7k",
-      "art_1792131662487_cncyq",
-      "art_1792131665658_0taip",
-      "art_1792131666692_3n4ro",
-      "art_1792131669817_4tn2m"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-16T22:10:46.129Z",
-    "updated_at": "2026-10-16T22:10:46.129Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Multi-domain",
-    "synthesis": "This synthesis aggregates separate, concurrent kinetic and political events across the Middle East: 1) A humanitarian crisis in Gaza characterized by the Palestinian Ministry of Health reporting 466 starvation-related deaths; 2) The disruption of Iranian aviation logistics due to US sanctions impacting transit routes; 3) The physical interdiction of a truck containing 780kg of explosives by Lebanese security forces, with Hezbollah admitting intent to use these materials against Israel; 4) The judicial processing of a death sentence in Saudi Arabia against an individual for historical participation in protests; and 5) A public disruption involving protesters and Jerry Seinfeld at the Chicago Theatre regarding Israeli policy.",
-    "consensus": [
-      "466 deaths linked to malnutrition reported in Gaza since 2024.",
-      "US sanctions have resulted in the cancellation of direct flights between Iran and the UAE.",
-      "Lebanese security intercepted a vehicle containing 780kg of explosives between Beirut and the Bekaa Valley.",
-      "Hezbollah lawmaker Hassan Fadlallah acknowledged ownership of the intercepted explosives.",
-      "Youssef al-Manasif is under a death sentence in Saudi Arabia for activities occurring when he was a minor.",
-      "Protesters disrupted a Jerry Seinfeld performance in Chicago."
-    ],
-    "divergence": [
-      "Al Jazeera focuses on the state-reported death toll in Gaza to frame the situation as a man-made famine, whereas the provided Western sources do not cover this specific reporting.",
-      "Fox frames the Chicago protest as a 'backfiring' publicity stunt by 'agitators,' while the protesters themselves frame the action as a direct political protest against US funding of military operations.",
-      "Al Jazeera frames US sanctions on Iran as a deliberate effort to 'block routes' and isolate the country, omitting US justifications regarding alleged Iranian military support.",
-      "The Guardian frames the Saudi Arabian legal action as a human rights violation regarding juvenile sentencing, whereas Saudi state media (not present in the text) typically characterizes such cases as national security trials."
-    ],
-    "sources": [
-      {
-        "id": "art_1792167316606_x9q7k",
-        "url": "https://www.aljazeera.com/news/2026/10/16/gaza-malnutrition-and-starvation-at-catastrophic-levels-health-ministry?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza malnutrition and starvation at ‘catastrophic’ levels: Health Ministry"
-      },
-      {
-        "id": "art_1792131662487_cncyq",
-        "url": "https://www.foxnews.com/media/jerry-seinfeld-turns-tables-radical-anti-israel-agitators-chaotic-chicago-stunt-backfires",
-        "source": "fox",
-        "title": "Jerry Seinfeld turns tables on radical anti-Israel agitators after chaotic Chicago stunt backfires"
-      },
-      {
-        "id": "art_1792131665658_0taip",
-        "url": "https://www.aljazeera.com/news-analysis/2026/10/16/us-sanctions-leave-iranians-facing-flight-cancellations-and-soaring-costs?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US sanctions leave Iranians facing flight cancellations and soaring costs"
-      },
-      {
-        "id": "art_1792131666692_3n4ro",
-        "url": "https://www.aljazeera.com/news/2026/10/16/rubio-presses-lebanon-on-confiscation-of-weapons-from-hezbollah?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rubio presses Lebanon on confiscation of weapons from Hezbollah"
-      },
-      {
-        "id": "art_1792131669817_4tn2m",
-        "url": "https://www.theguardian.com/global-development/2026/oct/16/saudi-arabia-to-execute-man-for-being-at-protests-and-funerals-when-he-was-15",
-        "source": "guardian",
-        "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3cfedabcd22d769a56c02a273301187e",
-    "topic_label": "Surgical Resection of Pulmonary Adenocarcinoma in Pope Leo XIV",
-    "event_window_start": "2026-10-16T11:00:11.000Z",
-    "event_window_end": "2026-10-16T19:37:53.000Z",
-    "article_ids": [
-      "art_1792180260647_nmvs1",
-      "art_1792180276029_5e15o",
-      "art_1792167302824_acas5",
-      "art_1792152010664_97555"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-16T22:10:46.129Z",
-    "updated_at": "2026-10-16T22:10:46.129Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "Pope Leo XIV underwent thoracic surgery at a medical facility to excise the lower lobe of his right lung following the identification of a malignant adenocarcinoma. The procedure involved incisions to remove the diseased tissue. Post-surgical status indicates the patient is under medical observation for recovery. The Vatican confirmed the pathology results after initial clinical examinations.",
-    "consensus": [
-      "Pope Leo XIV underwent surgery on his right lung.",
-      "The surgery involved the removal of the lower lobe.",
-      "Laboratory analysis confirmed the presence of lung adenocarcinoma.",
-      "The patient is currently in post-operative care."
-    ],
-    "divergence": [
-      "Fox News frames the medical event through the lens of individual cancer survivorship narratives and oncological risk education.",
-      "The Vatican (via Fox News reports) initially sanitized the diagnosis as a 'small, localized nodule' before confirming the malignancy of the removed tissue.",
-      "The Guardian and Al Jazeera articles were excluded as they represent unrelated regional environmental and epidemiological events rather than the primary subject identified in the Fox News source feeds."
-    ],
-    "sources": [
-      {
-        "id": "art_1792180260647_nmvs1",
-        "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
-        "source": "guardian",
-        "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms"
-      },
-      {
-        "id": "art_1792180276029_5e15o",
-        "url": "https://www.aljazeera.com/news/2026/10/16/kenya-reports-third-bundibugyo-strain-ebola-case?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Kenya records third Ebola case, linked to first patient who died"
-      },
-      {
-        "id": "art_1792167302824_acas5",
-        "url": "https://www.foxnews.com/opinion/lost-half-right-lung-cancer-pope-leo-diagnosis-gives-hope",
-        "source": "fox",
-        "title": "I lost half my right lung to cancer. Pope Leo's diagnosis gives me hope"
-      },
-      {
-        "id": "art_1792152010664_97555",
-        "url": "https://www.foxnews.com/health/pope-leo-lung-tumor-raises-questions-cancer-risk-nonsmokers",
-        "source": "fox",
-        "title": "Pope Leo's lung tumor raises questions about cancer risk for nonsmokers"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
