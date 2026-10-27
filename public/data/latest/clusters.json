@@ -100,39 +100,111 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "bf126eb6d96a5ddc49f7c5768d2a5ba7",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-27T06:12:04.000Z",
-    "event_window_end": "2026-10-27T07:34:03.000Z",
+    "cluster_id": "0c455b5ed2d2b8f8a2f40f31de76f75a",
+    "topic_label": "Federal Law Enforcement Actions Against Political Figures and Hoax Perpetrators",
+    "event_window_start": "2026-10-27T13:46:49.000Z",
+    "event_window_end": "2026-10-27T13:57:07.000Z",
     "article_ids": [
+      "art_1793110347642_37fke",
+      "art_1793110348675_51kkg",
+      "art_1793110349701_yq9dw"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-27T23:05:00.088Z",
+    "updated_at": "2026-10-27T23:05:00.088Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Law Enforcement/Infrastructure",
+    "synthesis": "Federal agencies have executed multiple distinct operations: an FBI raid on a residential property in Beverly Hills associated with former Representative Eric Swalwell as part of an ongoing misconduct investigation; the arrest of Matthew Unglesbee in Illinois for mailing unidentified white powder to federal legislators under his own return address; and the Department of Justice filing of criminal information against former FBI Director James Comey regarding the unauthorized transmission of classified national security information. These events represent discrete federal administrative and criminal enforcement actions targeting individuals currently or formerly integrated into the political apparatus.",
+    "consensus": [
+      "Federal authorities have conducted operations involving Eric Swalwell, Matthew Unglesbee, and James Comey.",
+      "Matthew Unglesbee is in custody for sending letters with suspicious powder to congressional offices.",
+      "The DOJ filed criminal information against James Comey regarding 2016 information disclosure.",
+      "The FBI conducted a search operation at a residence in Beverly Hills linked to Eric Swalwell."
+    ],
+    "divergence": [
+      "Fox News frames the Swalwell raid using highly inflammatory language like 'disgraced' and emphasizes sexual misconduct allegations, while omitting mention of the other concurrent federal law enforcement activities.",
+      "The Guardian focuses on the procedural nature of the Comey prosecution and the specific criminal charges against Unglesbee, framing the events as part of ongoing political reporting rather than a coordinated crackdown.",
+      "None of the provided sources acknowledge the simultaneous timing of these disparate federal actions, treating them as isolated news items rather than potential indicators of shifting federal investigative priorities."
+    ],
+    "sources": [
+      {
+        "id": "art_1793110347642_37fke",
+        "url": "https://www.foxnews.com/politics/fbi-raids-beverly-hills-mansion-eric-swalwell-investigation",
+        "source": "fox",
+        "title": "FBI raids Beverly Hills mansion as part of Eric Swalwell investigation"
+      },
+      {
+        "id": "art_1793110348675_51kkg",
+        "url": "https://www.theguardian.com/us-news/2026/oct/27/man-sent-powder-congress-arrest",
+        "source": "guardian",
+        "title": "Illinois man arrested after allegedly sending suspicious powder to Congress members using his return address"
+      },
+      {
+        "id": "art_1793110349701_yq9dw",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/27/comey-trump-rubio-texas-vance-israel-midterms-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "‘I’m still innocent,’ says Comey as Trump calls him a ‘dirty cop’ – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1e3984b7dc1727326cfd658ebd9ece3a",
+    "topic_label": "Israeli General Election and West Bank Military Lockdown",
+    "event_window_start": "2026-10-27T06:12:04.000Z",
+    "event_window_end": "2026-10-27T13:29:47.000Z",
+    "article_ids": [
+      "art_1793110351780_4uast",
       "art_1793087271360_4qfj5",
       "art_1793087283469_yo0a1",
       "art_1793087284533_vng2t",
       "art_1793087285592_2kc7d"
     ],
     "source_ids": [
-      "guardian",
-      "aljazeera"
+      "aljazeera",
+      "guardian"
     ],
-    "article_count": 4,
+    "article_count": 5,
     "source_count": 2,
     "qualification_status": "qualified",
-    "qualification_score": 0,
+    "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-10-27T13:46:43.773Z",
-    "updated_at": "2026-10-27T13:46:43.773Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "created_at": "2026-10-27T23:05:00.088Z",
+    "updated_at": "2026-10-27T23:05:00.088Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Political/Military",
+    "synthesis": "Israel is conducting a national election amidst a backdrop of active military operations and civil unrest. Following a lethal attack by two Palestinian gunmen at a military checkpoint in Hebron, which resulted in the death of two Israeli soldiers and the wounding of three others, the Israeli government has initiated a localized siege and lockdown of the city, including house-to-house military clearing operations. Concurrently, the state is undergoing a general election to determine the leadership of the Knesset, with polls indicating a projected loss of majority for the incumbent Netanyahu coalition. Physical instability is further evidenced by ongoing settler encroachment within the 1948 borders and the Dutch broadcaster NPO's formal withdrawal from the Eurovision 2027 event due to domestic and societal friction regarding Israel's state status.",
     "consensus": [
-      "Fallback activated."
+      "Israel is currently conducting a general election for the Knesset.",
+      "Two Israeli soldiers were killed and three wounded in a shooting at a Hebron checkpoint.",
+      "The Israeli military has placed Hebron under lockdown following the checkpoint attack.",
+      "The Netherlands (NPO) has officially withdrawn from Eurovision 2027.",
+      "Public polling suggests Benjamin Netanyahu's coalition will lose its parliamentary majority."
     ],
     "divergence": [
-      "No comparative data."
+      "Al Jazeera emphasizes the 'mass displacement' and 'siege' of Palestinian populations in the West Bank, whereas the Guardian focuses on the internal political parliamentary mechanics of the Israeli election.",
+      "Al Jazeera explicitly frames the Dutch Eurovision withdrawal as a response to Israeli state actions, while the NPO statement uses the sanitized term 'sensitivities' to avoid direct political confrontation.",
+      "The Guardian frames the current geopolitical climate as a 'war with the US against Iran', a detail not corroborated or mentioned by the other provided sources."
     ],
     "sources": [
+      {
+        "id": "art_1793110351780_4uast",
+        "url": "https://www.aljazeera.com/news/2026/10/27/the-netherlands-pulls-out-of-eurovision-2027-due-to-israel-sensitivities?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The Netherlands pulls out of Eurovision 2027 due to Israel ‘sensitivities’"
+      },
       {
         "id": "art_1793087271360_4qfj5",
         "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
@@ -158,7 +230,57 @@
         "title": "Palestinian citizens of Israel fear they’re next target if far-right wins"
       }
     ],
-    "model_used": "deterministic-fallback"
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b119aa0da014255374ed3b8916961163",
+    "topic_label": "Mass Killing of Orthodox Christians in Arsi Zone, Ethiopia",
+    "event_window_start": "2026-10-27T06:49:45.000Z",
+    "event_window_end": "2026-10-27T06:56:30.000Z",
+    "article_ids": [
+      "art_1793087277990_bkl9s",
+      "art_1793087280121_ojnib"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-27T23:05:00.088Z",
+    "updated_at": "2026-10-27T23:05:00.088Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Between October 20 and October 24, at least 60 Ethiopian Orthodox Christians were killed and over 20 wounded in targeted attacks across the Merti and Shirka districts of the Arsi Zone in Ethiopia's Oromia region. Perpetrators utilized arson to destroy at least 20 residential structures as part of the violence. The Ethiopian Orthodox Tewahedo Church has officially classified the events as acts of mass cruelty, confirming the destruction of property and loss of life in the specified villages of Gora Silingo, Tereta, Chole, and Birbo.",
+    "consensus": [
+      "At least 60 people were killed in the Arsi Zone of Ethiopia's Oromia region.",
+      "The attacks took place between October 20 and October 24.",
+      "At least 20 homes were destroyed by fire.",
+      "More than 20 individuals sustained serious injuries."
+    ],
+    "divergence": [
+      "Al Jazeera's coverage of the Sudan famine report is entirely distinct from the Ethiopia mass killing event, representing two separate geopolitical updates merged into a single provided news digest.",
+      "Al Jazeera omits the identity of the specific perpetrators in the Oromia attacks, whereas the Church synod frames the event as a targeted religious massacre and a violation of constitutional protections."
+    ],
+    "sources": [
+      {
+        "id": "art_1793087277990_bkl9s",
+        "url": "https://www.aljazeera.com/news/2026/10/27/us-eu-and-30-countries-warn-of-famine-risk-in-sudan-call-for-aid?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US, EU and 30 countries warn of famine risk in Sudan, call for aid"
+      },
+      {
+        "id": "art_1793087280121_ojnib",
+        "url": "https://www.aljazeera.com/news/2026/10/27/sixty-christians-killed-in-ethiopias-oromia-region?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Sixty Christians killed in Ethiopia’s Oromia region"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
   },
   {
     "cluster_id": "a064ca9bf11609bc9e5dd6548a44b926",
@@ -232,6 +354,218 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "7bfa67cd7b562ff60025505fedc13e1f",
+    "topic_label": "Australian Governance and Public Health Reporting: Grant Scrutiny, ABS Mortality Data, and Aged Care Tool Findings",
+    "event_window_start": "2026-10-27T06:08:01.000Z",
+    "event_window_end": "2026-10-27T14:00:36.000Z",
+    "article_ids": [
+      "art_1793110342302_d5e3s",
+      "art_1793110344493_rpcax",
+      "art_1793087281297_9up4j",
+      "art_1793087286654_89h2d"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-27T23:05:00.088Z",
+    "updated_at": "2026-10-27T23:05:00.088Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Governance",
+    "synthesis": "Recent Australian domestic policy and governance developments cover parliamentary scrutiny over a 6 million dollar grant allocated to Marrickville Golf Club under a 560 million dollar closed grant program, alongside Commonwealth Ombudsman findings on the Integrated Assessment Tool (IAT) used for home support package assessments. Concurrently, Australian Bureau of Statistics (ABS) health telemetry shows 188,421 registered deaths in 2025, with dementia accounting for 19,019 deaths (over 10%) and asthma deaths hitting ten-year peak levels. Political polling indicates Prime Minister Anthony Albanese's public disapproval rating reached 56%.",
+    "consensus": [
+      "ABS registered 188,421 total deaths in 2025, with dementia causing 19,019 deaths (over 10% of total deaths).",
+      "The Commonwealth Ombudsman released a 104-page report recommending legislative amendments to allow human override of the Integrated Assessment Tool (IAT).",
+      "Prime Minister Anthony Albanese acknowledged misstating that a 6 million dollar grant to Marrickville Golf Club was designated for raw sewage containment."
+    ],
+    "divergence": [
+      "Guardian coverage highlights political framing around Labor's electoral grant allocations and rising disapproval ratings, contrasting official government justifications for infrastructure grants against transparency advocate critiques."
+    ],
+    "sources": [
+      {
+        "id": "art_1793110342302_d5e3s",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/greens-push-for-human-overridge-in-aged-care-assessment-after-ombudsmans-scathing-report-into-algorithm-tool",
+        "source": "guardian",
+        "title": "Greens push for human override in aged care assessment after ombudsman’s scathing report into algorithm tool"
+      },
+      {
+        "id": "art_1793110344493_rpcax",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/guardian-essential-poll-labor-albanese-one-nation-hanson-coalition-ntwnfb",
+        "source": "guardian",
+        "title": "Guardian Essential poll: One Nation and Labor’s primary vote on par as discontent with Albanese rises"
+      },
+      {
+        "id": "art_1793087281297_9up4j",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/27/asthma-deaths-reach-decade-high-australia-dementia-deaths-growing-abs-data",
+        "source": "guardian",
+        "title": "Asthma deaths reach decade-high levels and number of Australians dying of dementia grows"
+      },
+      {
+        "id": "art_1793087286654_89h2d",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/27/albanese-admits-6m-marrickville-golf-club-grant-not-to-fix-raw-sewage",
+        "source": "guardian",
+        "title": "Albanese concedes $6m golf club grant in his electorate was not to contain ‘raw sewage’"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
+    "cluster_id": "de071b1ac4109b913aa0e7fe7249dadf",
+    "topic_label": "Federal Indictment of Transnational Stolen Vehicle Trafficking Ring",
+    "event_window_start": "2026-10-27T06:50:53.000Z",
+    "event_window_end": "2026-10-27T14:00:35.000Z",
+    "article_ids": [
+      "art_1793110343381_wdeg3",
+      "art_1793110345533_b2xrt",
+      "art_1793110346607_07egb",
+      "art_1793087272493_n1o0z",
+      "art_1793087273640_pcavd",
+      "art_1793087275853_c7ud6",
+      "art_1793087279055_pbcvh"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 7,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-27T23:05:00.088Z",
+    "updated_at": "2026-10-27T23:05:00.088Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "United States federal authorities have indicted 13 individuals for executing a transnational logistics operation involving the theft of private and commercial vehicles and their illicit transport across the international border into Mexico. Evidence indicates the recovered assets, totaling 29 vehicles valued at approximately $1.14 million, were integrated into the operational infrastructure of Mexican cartels. This action represents a targeted law enforcement disruption of cross-border supply chains utilized by criminal organizations.",
+    "consensus": [
+      "13 individuals have been charged by federal authorities.",
+      "The operation involved the theft of vehicles from private owners and rental agencies.",
+      "Vehicles were transported across the border through El Paso, Texas, into Mexico.",
+      "The illicit pipeline supported the operations of Mexican cartels.",
+      "29 vehicles with a total value of $1.14 million were recovered by authorities."
+    ],
+    "divergence": [
+      "Fox News frames the incident as a crackdown on cartel supply lines, omitting the specific legal procedural details of the indictments in favor of a focus on the criminal pipeline.",
+      "Other provided source articles (Mbappé, Hollywood job markets, Chicago education, and UAP discourse) are entirely unrelated to this kinetic event and thus show no divergence, as they do not address the federal criminal case."
+    ],
+    "sources": [
+      {
+        "id": "art_1793110343381_wdeg3",
+        "url": "https://www.foxnews.com/entertainment/rob-riggle-says-hollywood-work-disappearing-from-la-its-exception-now",
+        "source": "fox",
+        "title": "Rob Riggle says Hollywood work is disappearing from LA: 'It's the exception now'"
+      },
+      {
+        "id": "art_1793110345533_b2xrt",
+        "url": "https://www.foxnews.com/opinion/corey-brooks-chicago-schools-failing-kids-one-skill-change-lives",
+        "source": "fox",
+        "title": "COREY BROOKS: Chicago schools are failing kids at the one skill that can change their lives"
+      },
+      {
+        "id": "art_1793110346607_07egb",
+        "url": "https://www.foxnews.com/media/retired-navy-admiral-warns-decades-long-uap-cover-up-points-deep-ocean-ultimate-hiding-spot",
+        "source": "fox",
+        "title": "Retired Navy admiral warns of decades-long UAP 'cover-up,' points to deep ocean as ultimate hiding spot"
+      },
+      {
+        "id": "art_1793087272493_n1o0z",
+        "url": "https://www.foxnews.com/us/mexican-cartels-stolen-vehicles-el-paso",
+        "source": "fox",
+        "title": "Feds crack down on stolen car pipeline to Mexican cartels as 13 charged in border scheme"
+      },
+      {
+        "id": "art_1793087273640_pcavd",
+        "url": "https://www.bbc.co.uk/news/articles/cv62yg0erp8zo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Major Chinese brands drop Mbappé as backlash grows over Mao joke"
+      },
+      {
+        "id": "art_1793087275853_c7ud6",
+        "url": "https://www.theguardian.com/world/2026/oct/27/melting-glaciers-dolomites-first-world-war-munitions-italy",
+        "source": "guardian",
+        "title": "Melting glaciers in Dolomites reveal cache of first world war munitions"
+      },
+      {
+        "id": "art_1793087279055_pbcvh",
+        "url": "https://www.aljazeera.com/economy/2026/10/27/south-koreas-gdp-growth-beats-forecasts-amid-ai-boom?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "South Korea’s GDP growth beats forecasts amid AI boom"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bf126eb6d96a5ddc49f7c5768d2a5ba7",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-27T06:12:04.000Z",
+    "event_window_end": "2026-10-27T07:34:03.000Z",
+    "article_ids": [
+      "art_1793087271360_4qfj5",
+      "art_1793087283469_yo0a1",
+      "art_1793087284533_vng2t",
+      "art_1793087285592_2kc7d"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-27T13:46:43.773Z",
+    "updated_at": "2026-10-27T13:46:43.773Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1793087271360_4qfj5",
+        "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates",
+        "source": "guardian",
+        "title": "Israel election live: polls open in most consequential vote in country’s history"
+      },
+      {
+        "id": "art_1793087283469_yo0a1",
+        "url": "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestine weekly: West Bank under siege as Israelis go to the polls"
+      },
+      {
+        "id": "art_1793087284533_vng2t",
+        "url": "https://www.aljazeera.com/opinions/2026/10/27/palestinian-citizens-of-israel-can-vote-but-cannot-expect-change?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian citizens of Israel can vote, but cannot expect change"
+      },
+      {
+        "id": "art_1793087285592_2kc7d",
+        "url": "https://www.aljazeera.com/features/2026/10/27/palestinian-citizens-of-israel-fear-theyre-next-target-if-far-right-wins?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Palestinian citizens of Israel fear they’re next target if far-right wins"
+      }
+    ],
+    "model_used": "deterministic-fallback"
   },
   {
     "cluster_id": "9f529bc4437a4500aeb3225cebd2d416",
@@ -13913,435 +14247,6 @@
         "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
         "source": "guardian",
         "title": "Starlink access still not fully restored for Ukraine’s military, says Zelenskyy"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "42e83d16a5da82442fc82542adb8dc8b",
-    "topic_label": "Gaza Famine and Civil Unrest Regarding Israel Conflict",
-    "event_window_start": "2026-10-17T10:00:48.000Z",
-    "event_window_end": "2026-10-17T05:00:58.000Z",
-    "article_ids": [
-      "art_1792215136746_ghtw9",
-      "art_1792198550477_x2nf2",
-      "art_1792167316606_x9q7k",
-      "art_1792131662487_cncyq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T12:58:06.927Z",
-    "updated_at": "2026-10-17T12:58:06.927Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Humanitarian Crisis",
-    "synthesis": "The Palestinian Ministry of Health reports 466 confirmed deaths attributed to malnutrition and starvation within the Gaza Strip since the start of 2024, with children and elderly populations disproportionately affected. Physical supplies are currently insufficient to prevent ongoing famine conditions. Simultaneously, political tensions regarding the military operations in Gaza have manifested as verbal confrontations during public events in the United States, specifically the removal of protesters from a performance in Chicago, and domestic political maneuvering within the Israeli opposition aiming to replace the incumbent government.",
-    "consensus": [
-      "466 deaths linked to malnutrition and starvation in Gaza confirmed by Gaza Health Ministry",
-      "Active verbal and physical protests occurring against Israeli military actions in Gaza",
-      "Israeli political opposition coalition forming to challenge current leadership",
-      "Ongoing famine conditions for civilian populations in Gaza"
-    ],
-    "divergence": [
-      "Al Jazeera focuses on the statistical death count of civilians in Gaza and the inadequacy of the current ceasefire to provide aid",
-      "Fox News frames the protest activity as 'radical anti-Israel agitators' disrupting a performance and prioritizes the comedian's response over the protesters' claims",
-      "Al Jazeera omits mention of the protest disruption incident, focusing instead on broader regional political developments"
-    ],
-    "sources": [
-      {
-        "id": "art_1792215136746_ghtw9",
-        "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Israeli politicians seeking to replace Netanyahu"
-      },
-      {
-        "id": "art_1792198550477_x2nf2",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-mocks-middle-eastern-names-with-mohammed-joke?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump mocks Middle Eastern names with ‘Mohammed’ joke"
-      },
-      {
-        "id": "art_1792167316606_x9q7k",
-        "url": "https://www.aljazeera.com/news/2026/10/16/gaza-malnutrition-and-starvation-at-catastrophic-levels-health-ministry?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza malnutrition and starvation at ‘catastrophic’ levels: Health Ministry"
-      },
-      {
-        "id": "art_1792131662487_cncyq",
-        "url": "https://www.foxnews.com/media/jerry-seinfeld-turns-tables-radical-anti-israel-agitators-chaotic-chicago-stunt-backfires",
-        "source": "fox",
-        "title": "Jerry Seinfeld turns tables on radical anti-Israel agitators after chaotic Chicago stunt backfires"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "273b0d1b062943349ba2e0814104cf4e",
-    "topic_label": "Violent Anti-Semitic Rally at Hajduk Split vs Ajax Match",
-    "event_window_start": "2026-10-16T19:18:13.000Z",
-    "event_window_end": "2026-10-17T08:40:47.000Z",
-    "article_ids": [
-      "art_1792230559812_v9imq",
-      "art_1792230562662_pfcxd",
-      "art_1792230569296_hdzyh",
-      "art_1792215141004_m6int",
-      "art_1792215144156_qgorq",
-      "art_1792198545955_el63h",
-      "art_1792198555874_5r3ou",
-      "art_1792180266448_aobtn"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 8,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T12:58:06.927Z",
-    "updated_at": "2026-10-17T12:58:06.927Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "During a football match between Hajduk Split and Ajax, a large group of Hajduk Split supporters organized a march featuring a mock coffin targeting the Jewish community. The group performed Nazi salutes and chanted anti-Semitic slogans, specifically glorifying Adolf Hitler. The event escalated into physical confrontations with law enforcement officers and resulted in the forced interruption of the match. Croatian police subsequently executed at least twelve arrests of identified participants.",
-    "consensus": [
-      "Hajduk Split fans engaged in anti-Semitic behavior during the match against Ajax.",
-      "The demonstration included a mock coffin representing the opposing team.",
-      "Physical clashes occurred between fans and police officers.",
-      "Croatian police arrested at least twelve individuals involved in the disturbance."
-    ],
-    "divergence": [
-      "Aljazeera frames the event as an 'anti-Semitic rally' and 'unruly supporters' behavior, while sanitizing the specific physical nature of the chants by categorizing them as 'insults against Jewish people' rather than identifying the explicit neo-Nazi ideological content as the primary motivator for the violent disorder."
-    ],
-    "sources": [
-      {
-        "id": "art_1792230559812_v9imq",
-        "url": "https://www.aljazeera.com/video/101-east/2026/10/17/murder-in-malaysia-justice-for-altantuya-shaariibuu?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Murder in Malaysia: Justice for Altantuya Shaariibuu"
-      },
-      {
-        "id": "art_1792230562662_pfcxd",
-        "url": "https://www.aljazeera.com/news-analysis/2026/10/17/rubios-uzbekistan-trip-underlines-central-asias-hunt-for-diverse-partners?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rubio’s Uzbekistan trip underlines Central Asia’s hunt for diverse partners"
-      },
-      {
-        "id": "art_1792230569296_hdzyh",
-        "url": "https://www.aljazeera.com/sports/2026/10/17/pro-nazi-arrests-made-for-chants-at-hajduk-split-ajax-in-uefa-europa-league?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Arrests made for pro-Nazi chants at Hajduk Split-Ajax match in Croatia"
-      },
-      {
-        "id": "art_1792215141004_m6int",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/albanias-pm-blames-foreign-hands-for-protests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Albania’s PM blames ‘foreign hands’ for protests"
-      },
-      {
-        "id": "art_1792215144156_qgorq",
-        "url": "https://www.aljazeera.com/news/2026/10/17/cameroonians-await-government-reshuffle-after-biyas-return?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cameroonians await government reshuffle after Biya’s return"
-      },
-      {
-        "id": "art_1792198545955_el63h",
-        "url": "https://www.bbc.co.uk/news/articles/c6kgqjvdv4n2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "A thousand slogans echoed here - but it could be the end for iconic Delhi protest site"
-      },
-      {
-        "id": "art_1792198555874_5r3ou",
-        "url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Albanian PM blames ‘foreign hands’ for unrest as student protests intensify"
-      },
-      {
-        "id": "art_1792180266448_aobtn",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/10/16/can-diplomacy-resolve-long-standing-ethiopia-eritrea-differences?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can diplomacy resolve longstanding Ethiopia-Eritrea differences?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "80cae7326cff499f57bf50618d417f51",
-    "topic_label": "Amazon Deforestation Rate Statistical Decline",
-    "event_window_start": "2026-10-16T19:37:53.000Z",
-    "event_window_end": "2026-10-17T09:00:27.000Z",
-    "article_ids": [
-      "art_1792230556507_a5q1e",
-      "art_1792230558737_s1jv4",
-      "art_1792230570404_fhjaz",
-      "art_1792215149537_q2e3u",
-      "art_1792180260647_nmvs1"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T12:58:06.927Z",
-    "updated_at": "2026-10-17T12:58:06.927Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Infrastructure",
-    "synthesis": "The Brazilian National Institute for Space Research (INPE) has released satellite telemetry data via the Prodes program indicating that 3,335 square kilometers of Amazon rainforest were cleared between August 2025 and July 2026. This represents a 42% reduction compared to the previous year and the lowest deforestation figure since data collection began in 1988. The reduction in forest biomass loss is currently being leveraged as a political metric by the incumbent administration of Luiz Inácio Lula da Silva ahead of a scheduled presidential run-off election.",
-    "consensus": [
-      "Brazil's INPE reported 3,335 square kilometers of forest clearance between August and July.",
-      "The figure represents a 42% decrease from the previous year's deforestation data.",
-      "This statistic marks the lowest level of Amazon deforestation since 1988 records began."
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes the 'dream' nature of the data and cites the Environment Minister, focusing on the scale of the drop as a success story.",
-      "The Guardian frames the data within the specific context of the upcoming 25 October presidential run-off, highlighting the political instability and the potential for a reversal of policy depending on the election outcome."
-    ],
-    "sources": [
-      {
-        "id": "art_1792230556507_a5q1e",
-        "url": "https://www.theguardian.com/environment/2026/oct/17/honeybees-are-barging-aside-wild-pollinators-in-hunt-for-pollen-and-nectar-study-finds",
-        "source": "guardian",
-        "title": "Honeybees are barging aside wild pollinators in hunt for pollen and nectar, study finds"
-      },
-      {
-        "id": "art_1792230558737_s1jv4",
-        "url": "https://www.theguardian.com/lifeandstyle/2026/oct/17/smaller-pumpkins-halloween-drought-england",
-        "source": "guardian",
-        "title": "Squash down: smaller pumpkins expected this Halloween after drought in England"
-      },
-      {
-        "id": "art_1792230570404_fhjaz",
-        "url": "https://www.aljazeera.com/news/2026/10/17/senegal-sized-antarctic-glacier-melting-faster-than-thought-why-it-matters?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Senegal-sized Antarctic glacier melting faster than thought: Why it matters"
-      },
-      {
-        "id": "art_1792215149537_q2e3u",
-        "url": "https://www.aljazeera.com/news/2026/10/17/brazils-amazon-deforestation-hits-lowest-level-on-record?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Brazil’s Amazon deforestation hits lowest level on record"
-      },
-      {
-        "id": "art_1792180260647_nmvs1",
-        "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
-        "source": "guardian",
-        "title": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cfcf4ae9aeb069ab27755fa3163819f2",
-    "topic_label": "NCAA Lawsuit Against Ohio Executive Order",
-    "event_window_start": "2026-10-16T15:41:09.000Z",
-    "event_window_end": "2026-10-17T03:00:45.000Z",
-    "article_ids": [
-      "art_1792215147438_p28a7",
-      "art_1792198543861_6gg61",
-      "art_1792198549211_0578g",
-      "art_1792198552539_70o4w",
-      "art_1792198553616_fvsk2",
-      "art_1792198558015_tia0q",
-      "art_1792180264203_6cyfq",
-      "art_1792180267489_hnxjr",
-      "art_1792180270687_nmz4m",
-      "art_1792180272758_uiggv",
-      "art_1792167307146_8myg9",
-      "art_1792167308169_3hmj0",
-      "art_1792167313514_66t5p"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 13,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T12:58:06.927Z",
-    "updated_at": "2026-10-17T12:58:06.927Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Legal/Administrative",
-    "synthesis": "The NCAA has initiated a formal lawsuit against Ohio Governor Mike DeWine following his issuance of an executive order that mandates state universities permit collegiate athletes who graduated high school in 2022 to participate in a fifth season of athletic eligibility. This executive action directly contradicts current NCAA regulatory frameworks regarding player eligibility. The matter is currently under legal review.",
-    "consensus": [
-      "The NCAA filed a lawsuit against Ohio Governor Mike DeWine.",
-      "The legal action pertains to an executive order signed by Governor DeWine.",
-      "The order concerns eligibility rules for collegiate athletes who graduated high school in 2022.",
-      "The order grants state universities the authority to allow a fifth season of competition."
-    ],
-    "divergence": [
-      "Fox News frames the event as a direct escalation of an existing dispute between the NCAA and the state of Ohio.",
-      "The provided text contains disparate content regarding unrelated sports entertainment news, which is omitted as it does not constitute a singular event analysis."
-    ],
-    "sources": [
-      {
-        "id": "art_1792215147438_p28a7",
-        "url": "https://www.foxnews.com/outkick-sports/ncaa-moves-block-ohio-governor-mike-dewine-executive-order-expanding-college-athletes-eligibility",
-        "source": "fox",
-        "title": "NCAA moves to block Ohio Governor Mike DeWine's executive order expanding college athletes' eligibility"
-      },
-      {
-        "id": "art_1792198543861_6gg61",
-        "url": "https://www.foxnews.com/outkick-sports/college-football-playoff-expanding-money-behind-not-what-some-would-call-win",
-        "source": "fox",
-        "title": "College Football Playoff expanding again, but the money behind it is not what some would call a 'win'"
-      },
-      {
-        "id": "art_1792198549211_0578g",
-        "url": "https://www.foxnews.com/outkick-sports/eagles-appear-set-add-qb-cowboys-practice-squad-jalen-hurts-deals-blood-clot",
-        "source": "fox",
-        "title": "Eagles appear set to add QB from Cowboys' practice squad as Jalen Hurts deals with blood clot"
-      },
-      {
-        "id": "art_1792198552539_70o4w",
-        "url": "https://www.foxnews.com/outkick-sports/arizona-cardinals-fans-reached-buying-billboard-space-point-frustration",
-        "source": "fox",
-        "title": "Arizona Cardinals fans have reached the 'buying billboard space' point of frustration"
-      },
-      {
-        "id": "art_1792198553616_fvsk2",
-        "url": "https://www.foxnews.com/outkick-sports/florida-panthers-gm-bill-zito-unusual-tie-milwaukee-brewers-last-world-series-run",
-        "source": "fox",
-        "title": "Florida Panthers GM Bill Zito has unusual tie to Milwaukee Brewers' last World Series run"
-      },
-      {
-        "id": "art_1792198558015_tia0q",
-        "url": "https://www.foxnews.com/outkick-sports/wa-schools-chief-dismisses-girls-sports-fairness-concerns-says-athletes-brains-arent-fully-developed",
-        "source": "fox",
-        "title": "WA schools chief dismisses girls' sports fairness concerns, says athletes' brains aren't fully developed"
-      },
-      {
-        "id": "art_1792180264203_6cyfq",
-        "url": "https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-promo-guardians-rays-alcs-game-4",
-        "source": "fox",
-        "title": "Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 Promo for Guardians-Rays ALCS Game 4"
-      },
-      {
-        "id": "art_1792180267489_hnxjr",
-        "url": "https://www.foxnews.com/outkick-sports/philly-gay-sports-bar-canceled-own-not-gay-enough-eve-wnba-finals",
-        "source": "fox",
-        "title": "Philly gay sports bar canceled by its own for not being gay enough on eve of WNBA Finals"
-      },
-      {
-        "id": "art_1792180270687_nmz4m",
-        "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-play-5-get-100-guardians-vs-rays-game-4",
-        "source": "fox",
-        "title": "Underdog Promo Code FOXNEWS: Play $5, Get $100 on Guardians vs Rays Game 4"
-      },
-      {
-        "id": "art_1792180272758_uiggv",
-        "url": "https://www.foxnews.com/outkick-sports/internet-owes-panthers-forward-brady-tkachuk-big-apology-after-second-consecutive-hat-trick",
-        "source": "fox",
-        "title": "Internet owes Panthers forward Brady Tkachuk big apology after second consecutive hat trick"
-      },
-      {
-        "id": "art_1792167307146_8myg9",
-        "url": "https://www.foxnews.com/outkick/world-series-hero-miguel-rojas-emotionally-announces-retirement-dodgers-swept-nlcs",
-        "source": "fox",
-        "title": "World Series hero Miguel Rojas emotionally announces retirement after Dodgers get swept in NLCS"
-      },
-      {
-        "id": "art_1792167308169_3hmj0",
-        "url": "https://www.aljazeera.com/sports/2026/10/16/manchester-utd-have-moved-on-from-martinez-outburst-says-carrick?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Manchester Utd have ‘moved on’ from Martinez outburst, says Carrick"
-      },
-      {
-        "id": "art_1792167313514_66t5p",
-        "url": "https://www.foxnews.com/outkick-sports/fever-star-sophie-cunningham-calls-angel-reese-dodging-500-fine-technical-foul-absolutely-insane",
-        "source": "fox",
-        "title": "Fever star Sophie Cunningham calls Angel Reese dodging $500 fine for technical foul 'absolutely insane'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "26f5c62bb6c2d340e28bebd77d623149",
-    "topic_label": "US Presidential Executive Action Waiving Russia Sanctions",
-    "event_window_start": "2026-10-17T04:58:32.000Z",
-    "event_window_end": "2026-10-17T05:02:50.000Z",
-    "article_ids": [
-      "art_1792215134610_lhs2l",
-      "art_1792215135701_tj6cz",
-      "art_1792215136746_ghtw9",
-      "art_1792215137901_cx3k1",
-      "art_1792215138939_cnjdk"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T09:12:58.384Z",
-    "updated_at": "2026-10-17T09:12:58.384Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "US President Donald Trump issued an executive order nullifying multiple congressionally mandated sanctions against the Russian Federation. The order, which prevents previously legislated penalties from taking effect, is explicitly tied to an administrative effort to increase Russian diesel imports into the United States to reduce domestic fuel costs prior to the November midterm elections. This action has triggered a formal bipartisan legislative challenge in Congress and resulted in diplomatic friction with Ukrainian and European Union officials.",
-    "consensus": [
-      "US President Donald Trump signed an executive order waiving previously legislated sanctions against Russia.",
-      "The executive order is being implemented to facilitate the import of Russian diesel to lower US energy prices.",
-      "The move has caused significant political friction within the US government and among international allies."
-    ],
-    "divergence": [
-      "BBC frames the waiver through the lens of 'national interests' and focuses on the legislative backlash.",
-      "Al Jazeera explicitly links the sanctions waiver to an intensifying geopolitical rift between the Trump administration and Ukrainian leadership, providing context omitted by other sources."
-    ],
-    "sources": [
-      {
-        "id": "art_1792215134610_lhs2l",
-        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump waives several Russia sanctions as new US law takes effect"
-      },
-      {
-        "id": "art_1792215135701_tj6cz",
-        "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers"
-      },
-      {
-        "id": "art_1792215136746_ghtw9",
-        "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Israeli politicians seeking to replace Netanyahu"
-      },
-      {
-        "id": "art_1792215137901_cx3k1",
-        "url": "https://www.theguardian.com/politics/2026/oct/17/home-office-visa-british-baby-thailand-great-grandfather",
-        "source": "guardian",
-        "title": "Home Office denies British baby living in Thailand chance to meet great-grandfather in UK"
-      },
-      {
-        "id": "art_1792215138939_cnjdk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump waives Russia sanctions as rift with Zelenskyy widens"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
