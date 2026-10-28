@@ -1,54 +1,5 @@
 [
   {
-    "cluster_id": "5a993b8718cc4c02bb1929971cf25ad0",
-    "topic_label": "Violent Assault on Independent MP Helen Haines",
-    "event_window_start": "2026-10-27T06:28:14.000Z",
-    "event_window_end": "2026-10-27T14:00:36.000Z",
-    "article_ids": [
-      "art_1793110340920_c2sk6",
-      "art_1793087282394_9qzyl"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-27T19:11:35.998Z",
-    "updated_at": "2026-10-27T19:11:35.998Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism",
-    "synthesis": "Independent Member of Parliament Helen Haines sustained severe physical trauma, specifically the traumatic amputation of both legs, following a targeted violent attack. The incident has triggered a national security discourse regarding the safety of public officials and the operational security of pre-poll voting infrastructure. The perpetrator's actions resulted in immediate hospitalization, with the victim currently remaining in a serious but stable condition.",
-    "consensus": [
-      "Helen Haines sustained critical injuries, including the double amputation of her legs.",
-      "The incident has resulted in increased concerns regarding the physical security of politicians and election volunteers.",
-      "The victim is currently in a serious but stable condition."
-    ],
-    "divergence": [
-      "The Guardian frames the event within a political discourse regarding voting duration and MP safety, omitting specific details regarding the perpetrator's identity or the precise mechanism of the attack.",
-      "The Guardian sanitizes the event by referring to it as an 'alleged attack', despite the confirmed physical outcome of double amputation."
-    ],
-    "sources": [
-      {
-        "id": "art_1793110340920_c2sk6",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/27/mp-calls-rethink-pre-poll-voting-helen-haines-heightened-security-concerns-ntwnfb",
-        "source": "guardian",
-        "title": "MP calls for rethink of pre-poll voting amid heightened security concerns in wake of Haines incident"
-      },
-      {
-        "id": "art_1793087282394_9qzyl",
-        "url": "https://www.theguardian.com/australia-news/live/2026/oct/27/one-nation-pauline-hanson-independent-jacqui-lambie-labor-anthony-albanese-coalition-ntwnfb",
-        "source": "guardian",
-        "title": "Bridget McKenzie fears MPs will ‘retreat from the public square’ following alleged attack on Helen Haines – as it happened"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
     "cluster_id": "92ce97a5e835cb6fcbd6feb93e0c4608",
     "topic_label": "Russian Ballistic and Drone Strikes on Kyiv and Ceasefire Negotiations",
     "event_window_start": "2026-10-27T13:34:07.000Z",
@@ -95,6 +46,467 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/russia-strikes-kyiv-ahead-of-localised-ceasefire-in-oleshky?traffic_source=rss",
         "source": "aljazeera",
         "title": "Russia strikes Kyiv ahead of localised ceasefire in Oleshky"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b78c7adadfdb7639fbe640d2c9505be6",
+    "topic_label": "Domestic Federal Law Enforcement and Regulatory Actions",
+    "event_window_start": "2026-10-27T13:46:49.000Z",
+    "event_window_end": "2026-10-28T01:45:27.000Z",
+    "article_ids": [
+      "art_1793155514570_ymjz2",
+      "art_1793155520827_1hqnp",
+      "art_1793155521869_6qkhy",
+      "art_1793110347642_37fke",
+      "art_1793110348675_51kkg",
+      "art_1793110349701_yq9dw"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T08:15:21.417Z",
+    "updated_at": "2026-10-28T08:15:21.417Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "Several disparate domestic events occurred within the US federal jurisdiction involving executive policy shifts, federal investigations, and criminal prosecutions. President Trump announced the administrative termination of methane emission regulations. The DOJ confirmed the discovery of over 400 noncitizens registered as voters in Washington state. A federal grand jury declined a DOJ request to indict Cassidy Hutchinson regarding her 2022 congressional testimony. Federal authorities conducted a raid on a Beverly Hills mansion linked to a criminal investigation into former Representative Eric Swalwell. Finally, Matthew Unglesbee was arrested and charged with mailing suspicious powder to four members of Congress.",
+    "consensus": [
+      "President Trump declared the termination of methane regulations.",
+      "The DOJ identified 400+ noncitizens registered to vote in Washington state.",
+      "A grand jury declined to indict Cassidy Hutchinson.",
+      "FBI authorities conducted a raid on a residence linked to Eric Swalwell.",
+      "Matthew Unglesbee was arrested for mailing suspicious powder to federal officials."
+    ],
+    "divergence": [
+      "The Guardian frames the Trump methane announcement as a climate danger, whereas Trump frames it as an economic recovery mechanism.",
+      "Fox News categorizes the voter registration findings as a systemic failure ('tip of the iceberg'), whereas the Guardian provides no coverage of this event.",
+      "The Guardian omits the Hutchinson grand jury failure and the Swalwell raid entirely.",
+      "Fox News labels Eric Swalwell as a 'disgraced former Rep' while detailing his sexual misconduct allegations, providing an editorialized narrative absent from reports on the Illinois mail incident."
+    ],
+    "sources": [
+      {
+        "id": "art_1793155514570_ymjz2",
+        "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas",
+        "source": "guardian",
+        "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules"
+      },
+      {
+        "id": "art_1793155520827_1hqnp",
+        "url": "https://www.foxnews.com/politics/federal-officials-identify-400-noncitizens-registered-vote-washington-state-tip-iceberg",
+        "source": "fox",
+        "title": "Federal officials identify 400 noncitizens registered to vote in Washington state: 'Tip of the iceberg'"
+      },
+      {
+        "id": "art_1793155521869_6qkhy",
+        "url": "https://www.foxnews.com/politics/cassidy-hutchinson-avoids-indictment-doj-effort-charge-jan-6-testimony-fails-sources",
+        "source": "fox",
+        "title": "Cassidy Hutchinson avoids indictment after DOJ effort to charge her over Jan 6 testimony fails: sources"
+      },
+      {
+        "id": "art_1793110347642_37fke",
+        "url": "https://www.foxnews.com/politics/fbi-raids-beverly-hills-mansion-eric-swalwell-investigation",
+        "source": "fox",
+        "title": "FBI raids Beverly Hills mansion as part of Eric Swalwell investigation"
+      },
+      {
+        "id": "art_1793110348675_51kkg",
+        "url": "https://www.theguardian.com/us-news/2026/oct/27/man-sent-powder-congress-arrest",
+        "source": "guardian",
+        "title": "Illinois man arrested after allegedly sending suspicious powder to Congress members using his return address"
+      },
+      {
+        "id": "art_1793110349701_yq9dw",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/27/comey-trump-rubio-texas-vance-israel-midterms-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "‘I’m still innocent,’ says Comey as Trump calls him a ‘dirty cop’ – US politics live"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "747d2dbc8e3a1a4e763a52bbcc559f22",
+    "topic_label": "Bondi Mass Shooting and Legislative Impact on Electoral Security",
+    "event_window_start": "2026-10-27T14:00:32.000Z",
+    "event_window_end": "2026-10-28T02:34:51.000Z",
+    "article_ids": [
+      "art_1793155508812_98b6q",
+      "art_1793155511199_rmggn",
+      "art_1793155516659_ey5f9",
+      "art_1793110340920_c2sk6",
+      "art_1793110342302_d5e3s",
+      "art_1793110344493_rpcax"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T08:15:21.417Z",
+    "updated_at": "2026-10-28T08:15:21.417Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "An act of mass violence occurred in Bondi, resulting in the murder of 15 individuals by Naveed Akram and Sajid Akram using firearms. The legal proceedings against Naveed Akram have been adjourned until February 24 due to the complexity of the ongoing counter-terrorism investigation. Concurrent with this incident, there is evidence of physical vehicular-pedestrian collisions at pre-poll voting booths and an attack on MP Helen Haines resulting in traumatic bilateral leg amputations, prompting a national re-evaluation of electoral security infrastructure and polling protocols.",
+    "consensus": [
+      "Naveed Akram is charged with 78 offenses related to a terrorist act in Bondi.",
+      "The Bondi incident involved the use of firearms resulting in 15 fatalities.",
+      "The legal case against Naveed Akram is delayed until February.",
+      "MP Helen Haines suffered severe injuries including bilateral leg amputations.",
+      "Security concerns regarding the safety of pre-poll voting centers are being debated in Parliament."
+    ],
+    "divergence": [
+      "The Guardian frames the Bondi incident strictly within the context of a pending criminal trial, omitting the ideological motivations of the perpetrators.",
+      "The Guardian characterizes the injuries to MP Helen Haines as an 'alleged attack' without providing granular details on the nature of the weapon or the methodology used to induce the bilateral leg amputations.",
+      "The Guardian source aggregates disparate political issues (Bluey cartoon IP, inflation, and aged care algorithms) alongside actual kinetic terror incidents, potentially diluting the severity of the security landscape."
+    ],
+    "sources": [
+      {
+        "id": "art_1793155508812_98b6q",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb",
+        "source": "guardian",
+        "title": "Politics live: ABC calls for One Nation to ‘immediately remove’ Bluey cartoon; RBA says no recession on way"
+      },
+      {
+        "id": "art_1793155511199_rmggn",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/inflation-rate-australia-2026-number-data-consumer-price-index-cpi-release",
+        "source": "guardian",
+        "title": "Australia’s inflation rate rises to 4.3%, fuelling fears of fifth interest rate hike this year"
+      },
+      {
+        "id": "art_1793155516659_ey5f9",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/criminal-case-against-alleged-bondi-guman-delayed-amid-unprecedented-investigation-ntwnfb",
+        "source": "guardian",
+        "title": "Criminal case against alleged Bondi terrorist delayed amid ‘unprecedented’ investigation"
+      },
+      {
+        "id": "art_1793110340920_c2sk6",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/27/mp-calls-rethink-pre-poll-voting-helen-haines-heightened-security-concerns-ntwnfb",
+        "source": "guardian",
+        "title": "MP calls for rethink of pre-poll voting amid heightened security concerns in wake of Haines incident"
+      },
+      {
+        "id": "art_1793110342302_d5e3s",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/greens-push-for-human-overridge-in-aged-care-assessment-after-ombudsmans-scathing-report-into-algorithm-tool",
+        "source": "guardian",
+        "title": "Greens push for human override in aged care assessment after ombudsman’s scathing report into algorithm tool"
+      },
+      {
+        "id": "art_1793110344493_rpcax",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/28/guardian-essential-poll-labor-albanese-one-nation-hanson-coalition-ntwnfb",
+        "source": "guardian",
+        "title": "Guardian Essential poll: One Nation and Labor’s primary vote on par as discontent with Albanese rises"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bc82e9044a6ac9ceb3b6ca102db4e1e0",
+    "topic_label": "UK Treasury Budgetary Policy Adjustments and Expenditure Shifts",
+    "event_window_start": "2026-10-27T13:28:00.000Z",
+    "event_window_end": "2026-10-27T14:04:56.000Z",
+    "article_ids": [
+      "art_1793110337155_9ao9n",
+      "art_1793110338299_ce8bf",
+      "art_1793110352811_r0vy6"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T08:15:21.417Z",
+    "updated_at": "2026-10-28T08:15:21.417Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The UK government is preparing to present a budget characterized by specific fiscal reallocations, including the potential suspension of minimum wage equalization for individuals under 21 years of age to mitigate youth unemployment concerns. Simultaneously, the administration faces external pressure from environmental campaigners to redirect £24 billion currently earmarked for carbon capture and storage infrastructure toward household energy bill subsidies. These policy deliberations occur within the context of the government's first 100 days of executive activity, involving shifts in long-term public service planning and economic management.",
+    "consensus": [
+      "The UK government is preparing to deliver a budget.",
+      "There is active debate regarding the equalization of minimum wage for workers under 21.",
+      "A £24 billion expenditure for carbon capture technology is currently under scrutiny by activists.",
+      "The government's performance and policy focus are currently under public and political review."
+    ],
+    "divergence": [
+      "The Guardian frames the potential wage freeze as a 'broken manifesto pledge', emphasizing political accountability.",
+      "The Guardian frames the carbon capture program as a 'national embarrassment' via activist Chris Packham, emphasizing fiscal waste over strategic climate goals.",
+      "The Guardian's coverage of the PM's first 100 days focuses on personal visibility and public relations tactics rather than specific legislative metrics."
+    ],
+    "sources": [
+      {
+        "id": "art_1793110337155_9ao9n",
+        "url": "https://www.theguardian.com/politics/live/2026/oct/27/budget-burnham-healey-everday-fixes-gherkins-conservatives-miliband-carers-latest-news-updates",
+        "source": "guardian",
+        "title": "Labour faces accusations of breaking manifesto pledge over minimum wage for young people – UK politics live"
+      },
+      {
+        "id": "art_1793110338299_ce8bf",
+        "url": "https://www.theguardian.com/politics/2026/oct/27/how-has-andy-burnham-used-his-first-100-days-in-power",
+        "source": "guardian",
+        "title": "How has Andy Burnham used his first 100 days in power?"
+      },
+      {
+        "id": "art_1793110352811_r0vy6",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/27/chris-packham-chancellor-scrap-spending-fairytale-carbon-capture-budget",
+        "source": "guardian",
+        "title": "Cut spending on ‘fairytale’ carbon capture plans, campaigners urge chancellor"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "acdebc6cc50776243fe8c6c9af4d37fe",
+    "topic_label": "WNBA Finals Game 6 Scheduling Conflict and Time Displacement",
+    "event_window_start": "2026-10-28T00:46:20.000Z",
+    "event_window_end": "2026-10-28T01:55:46.000Z",
+    "article_ids": [
+      "art_1793155513382_cg3nb",
+      "art_1793155518745_fiam6",
+      "art_1793155519787_th2zd",
+      "art_1793155523941_5myok"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T08:15:21.417Z",
+    "updated_at": "2026-10-28T08:15:21.417Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Infrastructure",
+    "synthesis": "The WNBA has rescheduled Game 6 of the championship series between the Atlanta Dream and the Golden State Valkyries from a prime-time slot to 12:30 p.m. ET on Thursday. The physical cause is a facility scheduling conflict at State Farm Arena, requiring time for venue reconfiguration to accommodate an NBA game. This shift forces a 9:30 a.m. PT start time for the Golden State team and their audience.",
+    "consensus": [
+      "Game 6 is rescheduled to Thursday at 12:30 p.m. ET.",
+      "The venue for Game 6 is State Farm Arena.",
+      "The schedule change was necessitated by an NBA game occurring at the same venue on the same evening."
+    ],
+    "divergence": [
+      "Fox News frames the scheduling decision as a 'shocking' and unexplained corporate failure, while the WNBA has not issued a formal public statement regarding the logistical trade-offs.",
+      "Initial reports regarding potential relocation to the Gateway Center are treated as speculative rumors rather than confirmed operational plans."
+    ],
+    "sources": [
+      {
+        "id": "art_1793155513382_cg3nb",
+        "url": "https://www.foxnews.com/outkick-sports/valkyries-stars-tells-fans-call-sick-game-6-early-wnba-finals-tipoff-sparks-fan-reaction",
+        "source": "fox",
+        "title": "Valkyries stars tells fans to ‘call in sick’ for Game 6 as early WNBA Finals tipoff sparks fan reaction"
+      },
+      {
+        "id": "art_1793155518745_fiam6",
+        "url": "https://www.foxnews.com/outkick-sports/micah-parsons-moves-closer-highly-anticipated-return-coach-matt-lafleur-gives-encouraging-update",
+        "source": "fox",
+        "title": "Micah Parsons moves closer to highly-anticipated return as coach Matt LaFleur gives encouraging update"
+      },
+      {
+        "id": "art_1793155519787_th2zd",
+        "url": "https://www.foxnews.com/outkick-sports/timberwolves-lose-anthony-edwards-2-months-arthroscopic-procedure-right-knee-report",
+        "source": "fox",
+        "title": "Timberwolves lose Anthony Edwards for 2 months after arthroscopic procedure on right knee: report"
+      },
+      {
+        "id": "art_1793155523941_5myok",
+        "url": "https://www.foxnews.com/outkick-sports/dream-vs-valkyries-game-6-bumped-prime-time-thursday-afternoon-wnba-stays-silent-why",
+        "source": "fox",
+        "title": "Dream vs Valkyries Game 6 bumped from prime time to Thursday afternoon but WNBA stays silent on why"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "9da745631a1baee2b05b82a2d95fff03",
+    "topic_label": "The Netherlands Formal Withdrawal from Eurovision 2027",
+    "event_window_start": "2026-10-27T13:29:47.000Z",
+    "event_window_end": "2026-10-28T02:03:51.000Z",
+    "article_ids": [
+      "art_1793155512333_3x515",
+      "art_1793155515626_i1ujj",
+      "art_1793155517696_g7czf",
+      "art_1793110343381_wdeg3",
+      "art_1793110351780_4uast"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T08:15:21.417Z",
+    "updated_at": "2026-10-28T08:15:21.417Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The Dutch public broadcaster NPO has officially announced the withdrawal of the Netherlands from the 2027 Eurovision Song Contest. The decision follows a prior boycott by the primary Dutch broadcaster, AVROTROS, in August. The state-affiliated entities cited organizational non-neutrality and social division regarding the participation of Israel as the primary drivers for the cessation of their involvement in the international event.",
+    "consensus": [
+      "The Netherlands will not participate in the 2027 Eurovision Song Contest.",
+      "The decision was confirmed by the Dutch public broadcaster NPO.",
+      "The withdrawal is linked to ongoing controversies regarding the participation of Israel."
+    ],
+    "divergence": [
+      "NPO frames the withdrawal as a management decision due to 'sensitivities' and 'division' within Dutch society.",
+      "AVROTROS, as noted in the Al Jazeera report, specifically characterized the competition as no longer being 'neutral'."
+    ],
+    "sources": [
+      {
+        "id": "art_1793155512333_3x515",
+        "url": "https://www.foxnews.com/outkick-sports/kylian-mbappe-embarrassing-groveling-apology-china-comes-down-money-dan-dakich",
+        "source": "fox",
+        "title": "Kylian Mbappé's embarrassing, groveling apology to China comes down to money: Dan Dakich"
+      },
+      {
+        "id": "art_1793155515626_i1ujj",
+        "url": "https://www.foxnews.com/media/taylor-swifts-hitmaker-scolds-ed-sheeran-stand-f-up-after-macklemore-fallout",
+        "source": "fox",
+        "title": "Taylor Swift’s hitmaker scolds Ed Sheeran, ‘stand the f--- up’ after Macklemore fallout"
+      },
+      {
+        "id": "art_1793155517696_g7czf",
+        "url": "https://www.foxnews.com/entertainment/macklemore-called-out-touch-over-speech-free-palestine-tour-kickoff",
+        "source": "fox",
+        "title": "Macklemore called 'out of touch' over speech at Free Palestine Tour kickoff"
+      },
+      {
+        "id": "art_1793110343381_wdeg3",
+        "url": "https://www.foxnews.com/entertainment/rob-riggle-says-hollywood-work-disappearing-from-la-its-exception-now",
+        "source": "fox",
+        "title": "Rob Riggle says Hollywood work is disappearing from LA: 'It's the exception now'"
+      },
+      {
+        "id": "art_1793110351780_4uast",
+        "url": "https://www.aljazeera.com/news/2026/10/27/the-netherlands-pulls-out-of-eurovision-2027-due-to-israel-sensitivities?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The Netherlands pulls out of Eurovision 2027 due to Israel ‘sensitivities’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "463237444d90e125c93002f7d1135d4e",
+    "topic_label": "Multi-Topic News Coverage: Alexander Brothers Judicial Sentencing, Chicago Educational Metrics, and Naval UAP Telemetry Claims",
+    "event_window_start": "2026-10-27T14:00:22.000Z",
+    "event_window_end": "2026-10-28T02:20:25.000Z",
+    "article_ids": [
+      "art_1793155509962_lrbor",
+      "art_1793110345533_b2xrt",
+      "art_1793110346607_07egb"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T08:15:21.417Z",
+    "updated_at": "2026-10-28T08:15:21.417Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Legal / Policy / Maritime",
+    "synthesis": "The submitted feeds detail three separate events across legal, educational, and naval intelligence domains. In New York, federal judge Valerie Caproni sentenced brothers Oren, Tal, and Alon Alexander each to 30 years in prison following their March conviction for drugging and sexually assaulting dozens of women over multiple decades, hearing statements from 12 victims. In domestic education policy, 2024 National Assessment of Educational Progress (NAEP) metrics show 23 percent reading proficiency among Chicago fourth graders. In maritime intelligence commentary, retired Navy Rear Admiral Timothy Gallaudet referenced telemetry from the USS Omaha depicting a spherical transmedium Unidentified Anomalous Phenomenon (UAP) hovering over water before submerging without creating a splash.",
+    "consensus": [
+      "Oren, Tal, and Alon Alexander each received 30-year prison sentences in New York after being convicted of drugging and sexually assaulting women.",
+      "Twelve victims provided impact statements at the Alexander sentencing hearing.",
+      "The 2024 NAEP report indicated that 23 percent of Chicago fourth-grade students scored at or above reading proficiency.",
+      "Retired Rear Admiral Timothy Gallaudet publicly discussed USS Omaha observations of a spherical transmedium object entering the water without a splash."
+    ],
+    "divergence": [
+      "BBC reported exclusively on the legal proceedings, victim statements, and judicial rulings in the Alexander brothers sex trafficking case, omitting unrelated policy and defense topics.",
+      "Fox News framed Chicago public education performance around institutional failure narratives while simultaneously broadcasting commentary from a retired naval officer on Sean Hannity's podcast asserting an 80-year government cover-up of oceanic UAP activity."
+    ],
+    "sources": [
+      {
+        "id": "art_1793155509962_lrbor",
+        "url": "https://www.bbc.co.uk/news/articles/cqn498mng08ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case"
+      },
+      {
+        "id": "art_1793110345533_b2xrt",
+        "url": "https://www.foxnews.com/opinion/corey-brooks-chicago-schools-failing-kids-one-skill-change-lives",
+        "source": "fox",
+        "title": "COREY BROOKS: Chicago schools are failing kids at the one skill that can change their lives"
+      },
+      {
+        "id": "art_1793110346607_07egb",
+        "url": "https://www.foxnews.com/media/retired-navy-admiral-warns-decades-long-uap-cover-up-points-deep-ocean-ultimate-hiding-spot",
+        "source": "fox",
+        "title": "Retired Navy admiral warns of decades-long UAP 'cover-up,' points to deep ocean as ultimate hiding spot"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
+    "cluster_id": "5a993b8718cc4c02bb1929971cf25ad0",
+    "topic_label": "Violent Assault on Independent MP Helen Haines",
+    "event_window_start": "2026-10-27T06:28:14.000Z",
+    "event_window_end": "2026-10-27T14:00:36.000Z",
+    "article_ids": [
+      "art_1793110340920_c2sk6",
+      "art_1793087282394_9qzyl"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-27T19:11:35.998Z",
+    "updated_at": "2026-10-27T19:11:35.998Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism",
+    "synthesis": "Independent Member of Parliament Helen Haines sustained severe physical trauma, specifically the traumatic amputation of both legs, following a targeted violent attack. The incident has triggered a national security discourse regarding the safety of public officials and the operational security of pre-poll voting infrastructure. The perpetrator's actions resulted in immediate hospitalization, with the victim currently remaining in a serious but stable condition.",
+    "consensus": [
+      "Helen Haines sustained critical injuries, including the double amputation of her legs.",
+      "The incident has resulted in increased concerns regarding the physical security of politicians and election volunteers.",
+      "The victim is currently in a serious but stable condition."
+    ],
+    "divergence": [
+      "The Guardian frames the event within a political discourse regarding voting duration and MP safety, omitting specific details regarding the perpetrator's identity or the precise mechanism of the attack.",
+      "The Guardian sanitizes the event by referring to it as an 'alleged attack', despite the confirmed physical outcome of double amputation."
+    ],
+    "sources": [
+      {
+        "id": "art_1793110340920_c2sk6",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/27/mp-calls-rethink-pre-poll-voting-helen-haines-heightened-security-concerns-ntwnfb",
+        "source": "guardian",
+        "title": "MP calls for rethink of pre-poll voting amid heightened security concerns in wake of Haines incident"
+      },
+      {
+        "id": "art_1793087282394_9qzyl",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/27/one-nation-pauline-hanson-independent-jacqui-lambie-labor-anthony-albanese-coalition-ntwnfb",
+        "source": "guardian",
+        "title": "Bridget McKenzie fears MPs will ‘retreat from the public square’ following alleged attack on Helen Haines – as it happened"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13584,669 +13996,6 @@
         "url": "https://www.foxnews.com/media/jerry-seinfeld-turns-tables-radical-anti-israel-agitators-chaotic-chicago-stunt-backfires",
         "source": "fox",
         "title": "Jerry Seinfeld turns tables on radical anti-Israel agitators after chaotic Chicago stunt backfires"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ee83334fc6f07ecfeba2e9f9059ec222",
-    "topic_label": "Disparate Political and Administrative Developments in US Domestic Affairs",
-    "event_window_start": "2026-10-16T18:58:06.000Z",
-    "event_window_end": "2026-10-17T13:00:13.000Z",
-    "article_ids": [
-      "art_1792244497471_cbdzw",
-      "art_1792230553291_v5s9i",
-      "art_1792230554351_q7yod",
-      "art_1792230555401_zk6yt",
-      "art_1792230561619_qkmu2",
-      "art_1792230566363_98kft",
-      "art_1792230568228_1qft7",
-      "art_1792198547051_zh3zj",
-      "art_1792198554704_rzbjq",
-      "art_1792180263084_9youv",
-      "art_1792180268528_90rft",
-      "art_1792180269657_g9ypk",
-      "art_1792180274962_fiegr"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 13,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T16:19:39.047Z",
-    "updated_at": "2026-10-17T16:19:39.047Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "Current US domestic reporting reflects a series of disparate political and administrative events rather than a single unified kinetic incident. These include ongoing federal investigative rhetoric regarding Rep. Ilhan Omar’s citizenship status, local electoral campaigns by Gen Z candidates, judicial rulings regarding sanctuary city statutes in New York, internal personnel shifts within the Trump administration cabinet, and the public disclosure of past professional disciplinary records concerning congressional candidate Johnny Garcia. These events represent standard political discourse and administrative proceedings.",
-    "consensus": [
-      "Rep. Ilhan Omar is currently subject to federal inquiry regarding immigration documentation.",
-      "A federal judge dismissed a lawsuit against New York City's sanctuary city policies.",
-      "Internal personnel changes have occurred within the Trump administration cabinet involving the replacement of female officials.",
-      "Candidate Johnny Garcia received prior disciplinary suspensions during his tenure at the Bexar County Sheriff's Office."
-    ],
-    "divergence": [
-      "Fox News frames the Omar investigation as a basis for potential deportation and potential criminal liability, whereas Omar and Democratic leadership characterize the investigation as political persecution.",
-      "Fox News emphasizes the 'sanctuary city' ruling as a loss for the Trump administration's enforcement efforts, while The Guardian focuses its reporting on the gender composition and attrition rates of the Trump administration's cabinet.",
-      "Fox News highlights specific internal disciplinary records for candidate Johnny Garcia to undermine his candidacy, while other sources focus on broader political narratives regarding administration-wide personnel turnover."
-    ],
-    "sources": [
-      {
-        "id": "art_1792244497471_cbdzw",
-        "url": "https://www.foxnews.com/politics/ilhan-omar-should-jailed-deported-citizenship-fraud-proven-top-house-republican-says",
-        "source": "fox",
-        "title": "Ilhan Omar should be jailed, deported if citizenship fraud proven, Top House Republican says"
-      },
-      {
-        "id": "art_1792230553291_v5s9i",
-        "url": "https://www.foxnews.com/politics/meet-22-year-old-candidate-eyeing-history-key-swing-state-gen-z-embraces-conservatism-step-up",
-        "source": "fox",
-        "title": "Meet the 22-year-old candidate eyeing history in key swing state as Gen Z embraces conservatism: 'Step up'"
-      },
-      {
-        "id": "art_1792230554351_q7yod",
-        "url": "https://www.foxnews.com/politics/biden-appointed-judge-deals-trump-another-sanctuary-city-defeat-major-immigration-fight",
-        "source": "fox",
-        "title": "Biden-appointed judge deals Trump another sanctuary city defeat in major immigration fight"
-      },
-      {
-        "id": "art_1792230555401_zk6yt",
-        "url": "https://www.theguardian.com/us-news/2026/oct/17/trump-female-cabinet-officials-departures",
-        "source": "guardian",
-        "title": "All the president’s women: a familiar downward trajectory in Trump’s cabinet"
-      },
-      {
-        "id": "art_1792230561619_qkmu2",
-        "url": "https://www.foxnews.com/politics/dem-congressional-candidate-police-record-reveals-suspensions-stolen-gun-insubordination",
-        "source": "fox",
-        "title": "Dem congressional candidate's police record reveals suspensions over stolen gun, insubordination"
-      },
-      {
-        "id": "art_1792230566363_98kft",
-        "url": "https://www.foxnews.com/politics/they-probably-got-goods-ilhan-omar-raid-sparks-ominous-prediction-watchdog",
-        "source": "fox",
-        "title": "Ilhan Omar raid sparks ominous prediction from watchdog: 'They probably got the goods'"
-      },
-      {
-        "id": "art_1792230568228_1qft7",
-        "url": "https://www.foxnews.com/politics/army-expo-attendees-skeptical-trumps-iran-peace-deal-hopes-beat-em-submission",
-        "source": "fox",
-        "title": "Army expo attendees skeptical of Trump's Iran peace deal hopes: 'Beat 'em into submission'"
-      },
-      {
-        "id": "art_1792198547051_zh3zj",
-        "url": "https://www.foxnews.com/media/pennsylvania-socialist-democrat-says-he-opposes-imprisonment-except-lawless-maga-thugs",
-        "source": "fox",
-        "title": "Pennsylvania socialist Democrat says he opposes imprisonment except for 'lawless MAGA thugs'"
-      },
-      {
-        "id": "art_1792198554704_rzbjq",
-        "url": "https://www.foxnews.com/media/white-house-reporters-react-katie-zacharia-brutal-exit-trump-press-secretary",
-        "source": "fox",
-        "title": "White House reporters react to Katie Zacharia's 'brutal' exit as Trump's press secretary"
-      },
-      {
-        "id": "art_1792180263084_9youv",
-        "url": "https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary",
-        "source": "guardian",
-        "title": "Katie Zacharia fired after five days as White House press secretary"
-      },
-      {
-        "id": "art_1792180268528_90rft",
-        "url": "https://www.foxnews.com/politics/biden-judge-rejects-obama-cia-chiefs-legal-bid-against-trump-over-one-key-problem",
-        "source": "fox",
-        "title": "Biden judge rejects Obama CIA chief's legal bid against Trump over one key problem"
-      },
-      {
-        "id": "art_1792180269657_g9ypk",
-        "url": "https://www.bbc.co.uk/news/articles/cqly03y3zg7lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we learned from heated US midterm Senate debates"
-      },
-      {
-        "id": "art_1792180274962_fiegr",
-        "url": "https://www.aljazeera.com/news/2026/10/16/white-house-press-secretary-katie-zacharia-fired-after-five-days-on-the-job?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "White House press secretary Katie Zacharia fired after five days on the job"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "34151b942e165fbc9a5d41ea97cb8cea",
-    "topic_label": "Remote Temperature Sabotage of French Supermarket Refrigeration Systems",
-    "event_window_start": "2026-10-16T19:00:37.000Z",
-    "event_window_end": "2026-10-17T13:20:23.000Z",
-    "article_ids": [
-      "art_1792244490896_epwmx",
-      "art_1792244495372_8c25w",
-      "art_1792215142075_4sy23",
-      "art_1792180273799_2ka7t"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T16:19:39.047Z",
-    "updated_at": "2026-10-17T16:19:39.047Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "Unauthorized actors executed a remote cyber intrusion targeting the programmable logic controllers (PLCs) or network-connected thermostats governing refrigeration units in multiple French supermarket chains. By overriding the set points, the attackers forced internal cabinet temperatures to rise from -27C to over 50C, resulting in the thermal destruction of perishable food inventory. This represents a kinetic-effect cyber operation targeting critical food supply chain infrastructure.",
-    "consensus": [
-      "A remote digital intrusion targeted supermarket temperature control systems in France.",
-      "The intrusion resulted in the unauthorized adjustment of thermostat settings.",
-      "Internal freezer temperatures shifted from sub-zero levels to over 50C.",
-      "The physical outcome was the mass spoilage and thermal degradation of food inventory."
-    ],
-    "divergence": [
-      "The Guardian frames the event as a speculative mystery regarding the identity of the actors (youths vs. state saboteurs), while failing to detail the specific technical vulnerability exploited.",
-      "Fox News includes unrelated content regarding US grocery IT outages (Ahold Delhaize), conflating distinct technical disruption events with the French kinetic sabotage to inflate the scope of a 'cybersecurity incident'."
-    ],
-    "sources": [
-      {
-        "id": "art_1792244490896_epwmx",
-        "url": "https://www.foxnews.com/tech/hackers-hide-dangerous-fake-ai-downloads-behind-google-ads",
-        "source": "fox",
-        "title": "Hackers hide dangerous fake AI downloads behind Google ads"
-      },
-      {
-        "id": "art_1792244495372_8c25w",
-        "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/17/california-datacenter-imperial",
-        "source": "guardian",
-        "title": "Inside the long, bitter fight over one man’s quest to build the biggest AI datacenter in California"
-      },
-      {
-        "id": "art_1792215142075_4sy23",
-        "url": "https://www.theguardian.com/world/2026/oct/17/who-hacked-frances-supermarket-fridges",
-        "source": "guardian",
-        "title": "Not cool: who hacked France’s supermarket fridges?"
-      },
-      {
-        "id": "art_1792180273799_2ka7t",
-        "url": "https://www.foxnews.com/tech/major-us-grocery-chains-hit-cybersecurity-incident",
-        "source": "fox",
-        "title": "Major US grocery chains hit by cybersecurity incident"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2f1a21957662948daf2d2478f9492de2",
-    "topic_label": "NCAA Lawsuit Against Ohio Governor Mike DeWine Over Eligibility Executive Order",
-    "event_window_start": "2026-10-16T19:03:32.000Z",
-    "event_window_end": "2026-10-17T13:17:42.000Z",
-    "article_ids": [
-      "art_1792244491930_nmhrj",
-      "art_1792244500578_btofk",
-      "art_1792244501610_69qg5",
-      "art_1792244505103_nigie",
-      "art_1792215147438_p28a7",
-      "art_1792198543861_6gg61",
-      "art_1792198549211_0578g",
-      "art_1792198552539_70o4w",
-      "art_1792198553616_fvsk2",
-      "art_1792180264203_6cyfq",
-      "art_1792180267489_hnxjr",
-      "art_1792180270687_nmz4m",
-      "art_1792180272758_uiggv"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 13,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T16:19:39.047Z",
-    "updated_at": "2026-10-17T16:19:39.047Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The NCAA has initiated legal proceedings against Ohio Governor Mike DeWine following the governor's issuance of an executive order that mandates state universities grant an additional fifth year of athletic eligibility to student athletes who graduated high school in 2022. The NCAA lawsuit challenges the executive order's validity in light of current NCAA eligibility governance, characterizing the conflict as a regulatory and jurisdictional dispute regarding the autonomy of collegiate athletic associations versus state executive authority.",
-    "consensus": [
-      "The NCAA filed a lawsuit against Ohio Governor Mike DeWine on Friday.",
-      "The dispute concerns an executive order issued by Governor DeWine regarding a fifth year of eligibility for college athletes who graduated high school in 2022.",
-      "The executive order conflicts with existing NCAA eligibility rules."
-    ],
-    "divergence": [
-      "Fox News frames the incident within a broader discussion of NIL (Name, Image, and Likeness) paydays and NCAA policy, while omitting the specific legal strategy of the Governor's office.",
-      "No other provided sources contain information regarding the NCAA-DeWine litigation, indicating a lack of multisource corroboration regarding the specific legal filings."
-    ],
-    "sources": [
-      {
-        "id": "art_1792244491930_nmhrj",
-        "url": "https://www.foxnews.com/outkick-betting/notre-dame-faces-first-real-test-unbeaten-byu-hosts-fighting-irish-top-10-clash",
-        "source": "fox",
-        "title": "Notre Dame faces first real test as unbeaten BYU hosts the Fighting Irish in top-10 clash"
-      },
-      {
-        "id": "art_1792244500578_btofk",
-        "url": "https://www.aljazeera.com/sports/2026/10/17/davidovich-fokina-stuns-top-seed-zverev-to-reach-shanghai-masters-final?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Davidovich Fokina stuns top seed Zverev to reach Shanghai Masters final"
-      },
-      {
-        "id": "art_1792244501610_69qg5",
-        "url": "https://www.foxnews.com/outkick-sports/ivy-league-football-team-ruthlessly-mocked-losing-game-dumbest-way-possible",
-        "source": "fox",
-        "title": "Ivy League football team gets ruthlessly mocked after losing game in dumbest way possible"
-      },
-      {
-        "id": "art_1792244505103_nigie",
-        "url": "https://www.foxnews.com/outkick-betting/texas-longhorns-favored-11-5-florida-gators-despite-back-to-back-struggles-sec-football",
-        "source": "fox",
-        "title": "Texas Longhorns favored by 11.5 over Florida Gators despite back-to-back struggles in SEC football"
-      },
-      {
-        "id": "art_1792215147438_p28a7",
-        "url": "https://www.foxnews.com/outkick-sports/ncaa-moves-block-ohio-governor-mike-dewine-executive-order-expanding-college-athletes-eligibility",
-        "source": "fox",
-        "title": "NCAA moves to block Ohio Governor Mike DeWine's executive order expanding college athletes' eligibility"
-      },
-      {
-        "id": "art_1792198543861_6gg61",
-        "url": "https://www.foxnews.com/outkick-sports/college-football-playoff-expanding-money-behind-not-what-some-would-call-win",
-        "source": "fox",
-        "title": "College Football Playoff expanding again, but the money behind it is not what some would call a 'win'"
-      },
-      {
-        "id": "art_1792198549211_0578g",
-        "url": "https://www.foxnews.com/outkick-sports/eagles-appear-set-add-qb-cowboys-practice-squad-jalen-hurts-deals-blood-clot",
-        "source": "fox",
-        "title": "Eagles appear set to add QB from Cowboys' practice squad as Jalen Hurts deals with blood clot"
-      },
-      {
-        "id": "art_1792198552539_70o4w",
-        "url": "https://www.foxnews.com/outkick-sports/arizona-cardinals-fans-reached-buying-billboard-space-point-frustration",
-        "source": "fox",
-        "title": "Arizona Cardinals fans have reached the 'buying billboard space' point of frustration"
-      },
-      {
-        "id": "art_1792198553616_fvsk2",
-        "url": "https://www.foxnews.com/outkick-sports/florida-panthers-gm-bill-zito-unusual-tie-milwaukee-brewers-last-world-series-run",
-        "source": "fox",
-        "title": "Florida Panthers GM Bill Zito has unusual tie to Milwaukee Brewers' last World Series run"
-      },
-      {
-        "id": "art_1792180264203_6cyfq",
-        "url": "https://www.foxnews.com/outkick-betting/fanatics-sportsbook-promo-code-foxnews350-bet-20-get-350-promo-guardians-rays-alcs-game-4",
-        "source": "fox",
-        "title": "Fanatics Sportsbook Promo Code FOXNEWS350: Bet $20, Get $350 Promo for Guardians-Rays ALCS Game 4"
-      },
-      {
-        "id": "art_1792180267489_hnxjr",
-        "url": "https://www.foxnews.com/outkick-sports/philly-gay-sports-bar-canceled-own-not-gay-enough-eve-wnba-finals",
-        "source": "fox",
-        "title": "Philly gay sports bar canceled by its own for not being gay enough on eve of WNBA Finals"
-      },
-      {
-        "id": "art_1792180270687_nmz4m",
-        "url": "https://www.foxnews.com/outkick-betting/underdog-promo-code-foxnews-play-5-get-100-guardians-vs-rays-game-4",
-        "source": "fox",
-        "title": "Underdog Promo Code FOXNEWS: Play $5, Get $100 on Guardians vs Rays Game 4"
-      },
-      {
-        "id": "art_1792180272758_uiggv",
-        "url": "https://www.foxnews.com/outkick-sports/internet-owes-panthers-forward-brady-tkachuk-big-apology-after-second-consecutive-hat-trick",
-        "source": "fox",
-        "title": "Internet owes Panthers forward Brady Tkachuk big apology after second consecutive hat trick"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ba4e814634e5c830a62ae3c828ab925a",
-    "topic_label": "Sentencing of Three Convicted Murderers in Baja California Surf Trip Killings",
-    "event_window_start": "2026-10-16T19:03:38.000Z",
-    "event_window_end": "2026-10-17T08:40:47.000Z",
-    "article_ids": [
-      "art_1792230559812_v9imq",
-      "art_1792230563703_8zfmm",
-      "art_1792230569296_hdzyh",
-      "art_1792215135701_tj6cz",
-      "art_1792215145261_gunkv",
-      "art_1792215146309_rvjub",
-      "art_1792215148459_v5mz2",
-      "art_1792180271728_cs4g2"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T16:19:39.047Z",
-    "updated_at": "2026-10-17T16:19:39.047Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Criminal",
-    "synthesis": "Three individuals—Jesus Gerardo Garcia, Irineo Francisco N, and Angel Jesus N—have been sentenced to 158 years and nine months in prison each for the 2024 murders of Australian brothers Callum and Jake Robinson and American citizen Jack Carter Rhoad. The victims were killed during a violent robbery involving their vehicle on a beach in Baja California, Mexico. The physical evidence established that the perpetrators committed homicide, robbery, and vehicle theft, leading to the judicial finalization of their incarceration terms.",
-    "consensus": [
-      "Three Mexican men were sentenced to 158 years and nine months in prison each.",
-      "The victims were two Australian brothers and one American citizen.",
-      "The crimes included homicide, robbery with violence, and vehicle theft.",
-      "The events took place on the Baja California coast in 2024."
-    ],
-    "divergence": [
-      "Aljazeera characterizes the event primarily through its impact on the tourism industry and safety reputation of Mexico.",
-      "BBC frames the event through the personal narrative of the victims' mother and the international shockwaves, omitting the specific alias 'El Kekas' for one defendant mentioned by Aljazeera."
-    ],
-    "sources": [
-      {
-        "id": "art_1792230559812_v9imq",
-        "url": "https://www.aljazeera.com/video/101-east/2026/10/17/murder-in-malaysia-justice-for-altantuya-shaariibuu?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Murder in Malaysia: Justice for Altantuya Shaariibuu"
-      },
-      {
-        "id": "art_1792230563703_8zfmm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say-2?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Oregon school shooter was former special-needs student, police say"
-      },
-      {
-        "id": "art_1792230569296_hdzyh",
-        "url": "https://www.aljazeera.com/sports/2026/10/17/pro-nazi-arrests-made-for-chants-at-hajduk-split-ajax-in-uefa-europa-league?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Arrests made for pro-Nazi chants at Hajduk Split-Ajax match in Croatia"
-      },
-      {
-        "id": "art_1792215135701_tj6cz",
-        "url": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers"
-      },
-      {
-        "id": "art_1792215145261_gunkv",
-        "url": "https://www.bbc.co.uk/news/articles/c3kgqjkzw29wo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Three men jailed for 158 years each for murdering Australian and US surfers in Mexico"
-      },
-      {
-        "id": "art_1792215146309_rvjub",
-        "url": "https://www.theguardian.com/us-news/2026/oct/17/child-sex-abuse-charges-against-actor-timothy-busfield-dismissed-by-judge",
-        "source": "guardian",
-        "title": "Child sex abuse charges against actor Timothy Busfield dismissed by judge"
-      },
-      {
-        "id": "art_1792215148459_v5mz2",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-        "source": "guardian",
-        "title": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​"
-      },
-      {
-        "id": "art_1792180271728_cs4g2",
-        "url": "https://www.foxnews.com/us/bryan-kohberger-fights-remove-judge-called-worst-worst-questioned-honesty",
-        "source": "fox",
-        "title": "Bryan Kohberger fights to remove judge who called him 'worst of the worst,' questioned his honesty"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "55effd0b8385b6fd8062b862c83d5680",
-    "topic_label": "Federal Homeland Security Investigations Search of Representative Ilhan Omar's Residence",
-    "event_window_start": "2026-10-16T15:48:57.000Z",
-    "event_window_end": "2026-10-17T09:00:42.000Z",
-    "article_ids": [
-      "art_1792230553291_v5s9i",
-      "art_1792230554351_q7yod",
-      "art_1792230555401_zk6yt",
-      "art_1792230561619_qkmu2",
-      "art_1792230566363_98kft",
-      "art_1792198547051_zh3zj",
-      "art_1792198554704_rzbjq",
-      "art_1792198556963_2u593",
-      "art_1792180263084_9youv",
-      "art_1792180268528_90rft",
-      "art_1792180269657_g9ypk",
-      "art_1792180274962_fiegr",
-      "art_1792167309210_0qmpy"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 13,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T12:58:06.927Z",
-    "updated_at": "2026-10-17T12:58:06.927Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "Homeland Security Investigations (HSI) personnel executed a search warrant at the private residence of U.S. Representative Ilhan Omar in Washington, D.C. The action follows ongoing federal scrutiny regarding the subject's financial disclosures and immigration documentation. This event has initiated active speculation by third-party oversight organizations regarding potential criminal discovery, while U.S. Attorney Jeanine F. Pirro confirmed the existence of an ongoing investigation involving the subject's records.",
-    "consensus": [
-      "Homeland Security Investigations (HSI) conducted a search of Representative Ilhan Omar's Washington, D.C., home.",
-      "The search is associated with active federal investigations regarding the subject's financial and immigration records.",
-      "U.S. Attorney Jeanine F. Pirro acknowledged the existence of an ongoing investigation involving the subject."
-    ],
-    "divergence": [
-      "Fox News frames the search as a likely precursor to damaging legal revelations, relying on quotes from a conservative watchdog group to characterize the raid as a indicator of guilt.",
-      "The source omits broader political context regarding the HSI mandate, focusing exclusively on the narrative of congressional accountability and anticipated criminal findings."
-    ],
-    "sources": [
-      {
-        "id": "art_1792230553291_v5s9i",
-        "url": "https://www.foxnews.com/politics/meet-22-year-old-candidate-eyeing-history-key-swing-state-gen-z-embraces-conservatism-step-up",
-        "source": "fox",
-        "title": "Meet the 22-year-old candidate eyeing history in key swing state as Gen Z embraces conservatism: 'Step up'"
-      },
-      {
-        "id": "art_1792230554351_q7yod",
-        "url": "https://www.foxnews.com/politics/biden-appointed-judge-deals-trump-another-sanctuary-city-defeat-major-immigration-fight",
-        "source": "fox",
-        "title": "Biden-appointed judge deals Trump another sanctuary city defeat in major immigration fight"
-      },
-      {
-        "id": "art_1792230555401_zk6yt",
-        "url": "https://www.theguardian.com/us-news/2026/oct/17/trump-female-cabinet-officials-departures",
-        "source": "guardian",
-        "title": "All the president’s women: a familiar downward trajectory in Trump’s cabinet"
-      },
-      {
-        "id": "art_1792230561619_qkmu2",
-        "url": "https://www.foxnews.com/politics/dem-congressional-candidate-police-record-reveals-suspensions-stolen-gun-insubordination",
-        "source": "fox",
-        "title": "Dem congressional candidate's police record reveals suspensions over stolen gun, insubordination"
-      },
-      {
-        "id": "art_1792230566363_98kft",
-        "url": "https://www.foxnews.com/politics/they-probably-got-goods-ilhan-omar-raid-sparks-ominous-prediction-watchdog",
-        "source": "fox",
-        "title": "Ilhan Omar raid sparks ominous prediction from watchdog: 'They probably got the goods'"
-      },
-      {
-        "id": "art_1792198547051_zh3zj",
-        "url": "https://www.foxnews.com/media/pennsylvania-socialist-democrat-says-he-opposes-imprisonment-except-lawless-maga-thugs",
-        "source": "fox",
-        "title": "Pennsylvania socialist Democrat says he opposes imprisonment except for 'lawless MAGA thugs'"
-      },
-      {
-        "id": "art_1792198554704_rzbjq",
-        "url": "https://www.foxnews.com/media/white-house-reporters-react-katie-zacharia-brutal-exit-trump-press-secretary",
-        "source": "fox",
-        "title": "White House reporters react to Katie Zacharia's 'brutal' exit as Trump's press secretary"
-      },
-      {
-        "id": "art_1792198556963_2u593",
-        "url": "https://www.foxnews.com/politics/cookies-liquor-mocking-nazis-fuel-final-stretch-fiery-texas-house-race",
-        "source": "fox",
-        "title": "Cookies, liquor and mocking Nazis fuel final stretch in fiery Texas House race"
-      },
-      {
-        "id": "art_1792180263084_9youv",
-        "url": "https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary",
-        "source": "guardian",
-        "title": "Katie Zacharia fired after five days as White House press secretary"
-      },
-      {
-        "id": "art_1792180268528_90rft",
-        "url": "https://www.foxnews.com/politics/biden-judge-rejects-obama-cia-chiefs-legal-bid-against-trump-over-one-key-problem",
-        "source": "fox",
-        "title": "Biden judge rejects Obama CIA chief's legal bid against Trump over one key problem"
-      },
-      {
-        "id": "art_1792180269657_g9ypk",
-        "url": "https://www.bbc.co.uk/news/articles/cqly03y3zg7lo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we learned from heated US midterm Senate debates"
-      },
-      {
-        "id": "art_1792180274962_fiegr",
-        "url": "https://www.aljazeera.com/news/2026/10/16/white-house-press-secretary-katie-zacharia-fired-after-five-days-on-the-job?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "White House press secretary Katie Zacharia fired after five days on the job"
-      },
-      {
-        "id": "art_1792167309210_0qmpy",
-        "url": "https://www.foxnews.com/politics/ilhan-omar-sister-skips-book-tour-event-amid-week-chaos-following-raid-progressive-dc-home",
-        "source": "fox",
-        "title": "Ilhan Omar's sister skips book tour event amid week of chaos following raid on progressive's DC home"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "bcb35134578b80ef530d7af13b1e1548",
-    "topic_label": "US Executive Waiver of Legislated Sanctions Against Russian Federation",
-    "event_window_start": "2026-10-16T15:39:41.000Z",
-    "event_window_end": "2026-10-17T08:00:05.000Z",
-    "article_ids": [
-      "art_1792230568228_1qft7",
-      "art_1792215134610_lhs2l",
-      "art_1792215138939_cnjdk",
-      "art_1792215139972_7ucpd",
-      "art_1792198551514_1vy6p",
-      "art_1792198559099_c6ely",
-      "art_1792180261953_7s8vf",
-      "art_1792167304995_c46oh",
-      "art_1792167306117_t7y5v",
-      "art_1792167310252_30knw",
-      "art_1792167315572_2tm9p"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 11,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T12:58:06.927Z",
-    "updated_at": "2026-10-17T12:58:06.927Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "US President Donald Trump issued an executive order nullifying the implementation of a bipartisan congressional sanctions package intended to target Russian financial institutions, officials, and energy shipping infrastructure. This legislative override follows the President's prior authorization of Russian diesel imports. Concurrently, US defense posture regarding Ukraine has been challenged by allied officials, specifically citing restrictions on shared satellite intelligence and early-warning systems, though the administration officially denies formalizing these operational limits.",
-    "consensus": [
-      "President Trump signed an executive order to withhold the implementation of congressionally mandated sanctions against Russia.",
-      "The sanctions package was designed to target Russian energy exports and financial institutions.",
-      "The action has triggered bipartisan domestic backlash and diplomatic friction with European allies and Ukraine."
-    ],
-    "divergence": [
-      "Fox News frames the broader geopolitical climate through the lens of military interventionist sentiment among defense exposition attendees, omitting the specific executive policy shift on sanctions entirely.",
-      "BBC and Al Jazeera focus on the executive overreach regarding the 'Lindsey Graham' sanctions bill and the ensuing political rift with Ukraine, while BBC additionally highlights the specific, denied allegations regarding the restriction of intelligence and satellite data sharing.",
-      "Al Jazeera specifically highlights the geopolitical impact on the relationship between the US executive branch and the Ukrainian leadership."
-    ],
-    "sources": [
-      {
-        "id": "art_1792230568228_1qft7",
-        "url": "https://www.foxnews.com/politics/army-expo-attendees-skeptical-trumps-iran-peace-deal-hopes-beat-em-submission",
-        "source": "fox",
-        "title": "Army expo attendees skeptical of Trump's Iran peace deal hopes: 'Beat 'em into submission'"
-      },
-      {
-        "id": "art_1792215134610_lhs2l",
-        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump waives several Russia sanctions as new US law takes effect"
-      },
-      {
-        "id": "art_1792215138939_cnjdk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/trump-waives-russia-sanctions-as-rift-with-zelenskyy-widens?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump waives Russia sanctions as rift with Zelenskyy widens"
-      },
-      {
-        "id": "art_1792215139972_7ucpd",
-        "url": "https://www.aljazeera.com/news/2026/10/17/trump-puts-on-hold-new-russia-sanctions-he-signed-into-law?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump puts on hold new Russia sanctions he signed into law"
-      },
-      {
-        "id": "art_1792198551514_1vy6p",
-        "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC"
-      },
-      {
-        "id": "art_1792198559099_c6ely",
-        "url": "https://www.foxnews.com/world/recovering-lung-surgery-pope-leo-urges-putin-agree-ceasefire-russian-held-ukraine-city",
-        "source": "fox",
-        "title": "Recovering from lung surgery, Pope Leo urges Putin to agree to ceasefire in Russian-held Ukraine city"
-      },
-      {
-        "id": "art_1792180261953_7s8vf",
-        "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Trump denies limiting Ukraine access to Starlink network"
-      },
-      {
-        "id": "art_1792167304995_c46oh",
-        "url": "https://www.aljazeera.com/news/2026/10/16/eu-rallies-in-support-of-ukraine-amid-trump-standoff?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "EU rallies in support of Ukraine amid Trump standoff"
-      },
-      {
-        "id": "art_1792167306117_t7y5v",
-        "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Ukraine pushes Russia back on front line where Starlink has played key role"
-      },
-      {
-        "id": "art_1792167310252_30knw",
-        "url": "https://www.bbc.co.uk/news/videos/cm2ke1v8e4geo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch: Will Ukraine get the support needed as tensions with US rise?"
-      },
-      {
-        "id": "art_1792167315572_2tm9p",
-        "url": "https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy",
-        "source": "guardian",
-        "title": "Starlink access still not fully restored for Ukraine’s military, says Zelenskyy"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
