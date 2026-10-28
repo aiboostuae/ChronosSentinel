@@ -1,5 +1,76 @@
 [
   {
+    "cluster_id": "2f88f72b000b7cd9d01e48d716ab6fce",
+    "topic_label": "UK Fiscal Budget Announcement and US Domestic Midterm Campaigning",
+    "event_window_start": "2026-10-28T09:00:25.000Z",
+    "event_window_end": "2026-10-28T09:02:17.000Z",
+    "article_ids": [
+      "art_1793178718011_dm3c3",
+      "art_1793178719244_l7mj4",
+      "art_1793178720342_rag13",
+      "art_1793178721424_vgquh",
+      "art_1793178722504_ert2g"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-28T15:13:41.114Z",
+    "updated_at": "2026-10-28T15:13:41.114Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "Routine political operations, legislative statements, and policy announcements are reported across the UK and the US. UK Chancellor John Healey prepared a low-risk fiscal budget statement addressing gas standing charges under Prime Minister Andy Burnham. In the US, media coverage details Democratic and Republican midterm election strategies, campaign finance scrutiny regarding former Senator Sherrod Brown, candidate rhetoric on foreign governments, and an FCC voluntary cybersecurity labeling initiative. No kinetic, armed, or emergency events occurred.",
+    "consensus": [
+      "UK Chancellor John Healey prepared to present the 2026 fiscal budget statement.",
+      "US political parties are actively campaigning and deploying ad spending for upcoming midterm elections.",
+      "The FCC is introducing a voluntary U.S. Cyber Trust Mark for internet-connected home devices."
+    ],
+    "divergence": [
+      "The Guardian frames UK politics around fiscal policy compromises under Andy Burnham's administration.",
+      "Fox News emphasizes Republican campaign viewpoints, Democratic ad spending, financial scrutiny of Sherrod Brown, and candidate stances on Cuba."
+    ],
+    "sources": [
+      {
+        "id": "art_1793178718011_dm3c3",
+        "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
+        "source": "guardian",
+        "title": "Budget 2026 live: chancellor says scrapping of gas standing charges will save 60% of homes £45 a year"
+      },
+      {
+        "id": "art_1793178719244_l7mj4",
+        "url": "https://www.foxnews.com/opinion/mehek-cooke-trumps-record-gops-best-weapon-midterms",
+        "source": "fox",
+        "title": "MEHEK COOKE: Trump’s record is the GOP’s best weapon in the midterms"
+      },
+      {
+        "id": "art_1793178720342_rag13",
+        "url": "https://www.foxnews.com/politics/dem-eyeing-sen-comeback-fix-broken-dc-system-raked-cash-establishment-queen-jekyll-hyde",
+        "source": "fox",
+        "title": "Dem eyeing Sen comeback to fix ‘broken DC system’ raked in cash from establishment Queen: 'Jekyll and Hyde'"
+      },
+      {
+        "id": "art_1793178721424_vgquh",
+        "url": "https://www.foxnews.com/politics/dsa-affiliated-senate-nominee-sparks-bipartisan-uproar-comments-communist-dictatorship",
+        "source": "fox",
+        "title": "DSA-affiliated Senate nominee sparks bipartisan uproar with comments on communist dictatorship"
+      },
+      {
+        "id": "art_1793178722504_ert2g",
+        "url": "https://www.foxnews.com/opinion/fcc-cyber-trust-mark-aims-make-smart-home-safer",
+        "source": "fox",
+        "title": "OLIVIA TRUSTY: FCC’s New Cyber Trust Mark aims to make all of our smart home safer homes"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "92ce97a5e835cb6fcbd6feb93e0c4608",
     "topic_label": "Russian Ballistic and Drone Strikes on Kyiv and Ceasefire Negotiations",
     "event_window_start": "2026-10-27T13:34:07.000Z",
@@ -13916,86 +13987,6 @@
         "url": "https://www.foxnews.com/opinion/lost-half-right-lung-cancer-pope-leo-diagnosis-gives-hope",
         "source": "fox",
         "title": "I lost half my right lung to cancer. Pope Leo's diagnosis gives me hope"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "60c721e32daf7c16aed4c6614cac0204",
-    "topic_label": "Escalation of Armed Hostilities in the West Bank",
-    "event_window_start": "2026-10-17T10:00:48.000Z",
-    "event_window_end": "2026-10-17T12:48:03.000Z",
-    "article_ids": [
-      "art_1792244499551_ikfv0",
-      "art_1792244504071_tsac6",
-      "art_1792215136746_ghtw9",
-      "art_1792198550477_x2nf2",
-      "art_1792180266448_aobtn",
-      "art_1792131662487_cncyq"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-17T16:19:39.047Z",
-    "updated_at": "2026-10-17T16:19:39.047Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Armed Conflict",
-    "synthesis": "Israeli settler groups and state military forces are conducting sustained armed operations against Palestinian civilians in the West Bank. Kinetic actions include physical assaults against villagers in Masafer Yatta resulting in injuries to six civilians, the discharge of live ammunition against Palestinian farmers near Deir Ammar, and the targeting of civilian vehicles in Tuqu. These actions are synchronized with religious edicts authorizing the expropriation of private property and agricultural resources, manifesting as territorial seizure through force. The status is an active, ongoing environment of armed skirmishes and displacement operations.",
-    "consensus": [
-      "Israeli settlers and military personnel are engaging in direct kinetic interactions with Palestinian civilians.",
-      "Injuries have been reported among Palestinian residents, including a child and four women, in the Masafer Yatta region.",
-      "Israeli military forces have utilized live fire against Palestinian farmers and civilian transport vehicles.",
-      "Religious authority has been invoked to justify the seizure of Palestinian agricultural harvests."
-    ],
-    "divergence": [
-      "Al Jazeera labels the events as 'pogroms,' framing the violence as ethnic cleansing.",
-      "Al Jazeera omits Israeli state security justifications for military movements in the West Bank, focusing exclusively on the impact on Palestinian civilians.",
-      "The source intentionally highlights the religious ruling by Rabbi Dov Lior to frame the conflict as ideologically driven by extremist religious actors, omitting any potential counter-narrative or stated Israeli government position on the legality of such actions."
-    ],
-    "sources": [
-      {
-        "id": "art_1792244499551_ikfv0",
-        "url": "https://www.aljazeera.com/news/2026/10/17/several-palestinians-injured-detained-in-ongoing-west-bank-pogrom?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Child, four women among Palestinians injured in West Bank pogroms"
-      },
-      {
-        "id": "art_1792244504071_tsac6",
-        "url": "https://www.aljazeera.com/news/2026/10/17/hardline-israeli-rabbi-ruling-on-stolen-palestinian-olives-sparks-uproar?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hardline Israeli rabbi ruling on stolen Palestinian olives prompts uproar"
-      },
-      {
-        "id": "art_1792215136746_ghtw9",
-        "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The Israeli politicians seeking to replace Netanyahu"
-      },
-      {
-        "id": "art_1792198550477_x2nf2",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-mocks-middle-eastern-names-with-mohammed-joke?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump mocks Middle Eastern names with ‘Mohammed’ joke"
-      },
-      {
-        "id": "art_1792180266448_aobtn",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/10/16/can-diplomacy-resolve-long-standing-ethiopia-eritrea-differences?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Can diplomacy resolve longstanding Ethiopia-Eritrea differences?"
-      },
-      {
-        "id": "art_1792131662487_cncyq",
-        "url": "https://www.foxnews.com/media/jerry-seinfeld-turns-tables-radical-anti-israel-agitators-chaotic-chicago-stunt-backfires",
-        "source": "fox",
-        "title": "Jerry Seinfeld turns tables on radical anti-Israel agitators after chaotic Chicago stunt backfires"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
