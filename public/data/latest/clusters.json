@@ -1,5 +1,734 @@
 [
   {
+    "cluster_id": "0767f8b9e4e3ae2dd3295383a380526d",
+    "topic_label": "High-Speed Rail Rear-End Collision in Toledo Province",
+    "event_window_start": "2026-10-28T15:36:11.000Z",
+    "event_window_end": "2026-10-29T05:31:16.000Z",
+    "article_ids": [
+      "art_1793257175398_y9x7k",
+      "art_1793203411539_miuua",
+      "art_1793203417200_7vf8x"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "On Wednesday morning, a high-speed Renfe passenger train struck the rear of a stationary Iryo passenger train traveling on the same track between Madrid and Seville. The kinetic impact occurred near Urda, between Mora and Orgaz, resulting in the derailment of multiple carriages and at least one train segment descending an embankment. The collision involved a total of 544 passengers, resulting in at least 68 confirmed fatalities and over 100 injuries, with emergency services conducting mass casualty recovery and DNA-based victim identification protocols.",
+    "consensus": [
+      "A rear-end collision occurred between a Renfe train and a stationary Iryo train.",
+      "The event took place in Toledo province on the Madrid-to-Seville high-speed rail line.",
+      "At least 68 individuals were killed.",
+      "The incident involved a total of 544 passengers across both trains."
+    ],
+    "divergence": [
+      "The Guardian frames the event through the lens of national mourning and government response, focusing on DNA identification protocols.",
+      "The BBC emphasizes the geographic technicality of the crash site (Mora and Orgaz) and provides aerial context for the derailment, while omitting the broader political focus found in The Guardian.",
+      "Initial reports regarding the exact location of the collision differ slightly between municipalities cited by the BBC versus the town of Urda mentioned by The Guardian."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257175398_y9x7k",
+        "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+        "source": "guardian",
+        "title": "Spain begins mourning period after deadly train crash"
+      },
+      {
+        "id": "art_1793203411539_miuua",
+        "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates"
+      },
+      {
+        "id": "art_1793203417200_7vf8x",
+        "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "What we know so far about deadly Spain train crash"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d157c2bc5125c3b688b0d73ab9692081",
+    "topic_label": "Israeli Knesset General Election Vote Count",
+    "event_window_start": "2026-10-28T20:24:39.000Z",
+    "event_window_end": "2026-10-29T06:27:33.000Z",
+    "article_ids": [
+      "art_1793257165192_9pv91",
+      "art_1793235033906_zwq8z",
+      "art_1793221320813_bvgh0",
+      "art_1793221325193_rmpdl"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The Israeli general election has resulted in a parliamentary deadlock with approximately 90% of ballots counted. Current tallies indicate Benjamin Netanyahu's bloc holds 53 seats, Gadi Eisenkot's opposition bloc holds 48, and Arab-led parties hold 19 seats in the 120-member Knesset. No political faction has reached the 61-seat threshold required to form a majority government. The process is now transitioning to the counting of absentee ballots, with observers noting the potential kingmaker role of the Arab parties, despite stated opposition to coalition cooperation from most Jewish parties.",
+    "consensus": [
+      "Nearly 90% of votes have been processed by the Israeli Central Elections Committee.",
+      "No political bloc has secured the 61 seats necessary for a governing majority.",
+      "Benjamin Netanyahu's bloc is currently polling at 53 seats.",
+      "Gadi Eisenkot's opposition bloc is currently polling at 48 seats.",
+      "Arab-led parties have secured 19 seats.",
+      "Absentee ballots are currently being counted."
+    ],
+    "divergence": [
+      "Guardian frames the event through the lens of political viability, specifically focusing on Eisenkot’s strategic reliance on Palestinian parties.",
+      "Al Jazeera emphasizes the lack of a clear winner and provides specific timing for the Central Elections Committee's data release.",
+      "BBC provides significant editorial commentary framing the event as a reflection of societal division and a 'badge of honour' for democracy, omitting specific quantitative thresholds regarding coalition formation in some segments.",
+      "Guardian omits the explicit count of absentee ballots mentioned by BBC and Al Jazeera, focusing instead on the strategic implications of the result."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257165192_9pv91",
+        "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
+        "source": "guardian",
+        "title": "Israel election results live: count of absentee ballots under way as coalition talks set to begin"
+      },
+      {
+        "id": "art_1793235033906_zwq8z",
+        "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "No clear winner in Israel election with nearly 90 percent of votes counted"
+      },
+      {
+        "id": "art_1793221320813_bvgh0",
+        "url": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Israel's election deadlock is a sign of the country's deep divisions"
+      },
+      {
+        "id": "art_1793221325193_rmpdl",
+        "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d3c218680598b820e4d37881bcdccaaa",
+    "topic_label": "Villa Vie Odyssey cruise termination and passenger stranding in Cambodia",
+    "event_window_start": "2026-10-28T15:30:27.000Z",
+    "event_window_end": "2026-10-28T20:11:29.000Z",
+    "article_ids": [
+      "art_1793221332543_6zkv0",
+      "art_1793203419422_kotb7"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T00:25:17.895Z",
+    "updated_at": "2026-10-29T00:25:17.895Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Maritime",
+    "synthesis": "The MV Odyssey residential cruise vessel has ceased its indefinite global voyage while docked in Sihanoukville, Cambodia, resulting in the abandonment of 203 passengers and 156 crew members. The operator, Villa Vie, initiated a sudden suspension of services citing insolvency due to fuel costs. The vessel is currently immobilized in a Cambodian port, leaving the passengers without pre-arranged lodging, forcing the operator to scramble for temporary housing solutions for the stranded population.",
+    "consensus": [
+      "The MV Odyssey cruise ship halted its voyage in Sihanoukville, Cambodia.",
+      "The vessel carried 203 passengers and 156 crew members.",
+      "The operator suspended the voyage due to fuel cost financial constraints.",
+      "Passengers are currently without long-term accommodation."
+    ],
+    "divergence": [
+      "Fox highlights an additional, unverified collision incident involving two cargo vessels to add sensationalism, which is absent from the Guardian report.",
+      "The Guardian frames the event as a luxury service failure, while Fox focuses on the 'devastating' personal impact on retirees.",
+      "Fox explicitly omits the passenger capacity of the vessel, whereas the Guardian provides the 650-passenger capacity context to frame the ship as currently under-utilized."
+    ],
+    "sources": [
+      {
+        "id": "art_1793221332543_6zkv0",
+        "url": "https://www.foxnews.com/travel/never-ending-cruise-grinds-devastating-end-stranding-over-200-passengers-abroad",
+        "source": "fox",
+        "title": "'Never-ending' cruise grinds to devastating end, stranding over 200 passengers abroad"
+      },
+      {
+        "id": "art_1793203419422_kotb7",
+        "url": "https://www.theguardian.com/travel/2026/oct/28/cruise-passengers-stranded-cambodia-suspends-operations",
+        "source": "guardian",
+        "title": "Passengers stranded in Cambodia after cruise halted due to high fuel costs"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "26262f8b30a0b09fb7198ad6695161b0",
+    "topic_label": "2018 United States Midterm Election Cycle Operational Environment",
+    "event_window_start": "2026-10-28T15:39:50.000Z",
+    "event_window_end": "2026-10-29T05:36:08.000Z",
+    "article_ids": [
+      "art_1793257173054_29cze",
+      "art_1793257178647_wogkj",
+      "art_1793235039095_wxhhu",
+      "art_1793221329364_4548g",
+      "art_1793203409268_j9st2",
+      "art_1793203414922_4jbh0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The United States is entering the final stage of the 2018 midterm election cycle, characterized by intensive campaigning, judicial scrutiny of electoral procedures, and domestic policy debates regarding transgender sports participation. The federal executive branch, led by President Donald Trump, has engaged in legal efforts to influence state-level voter list management in California, which were denied by a U.S. District Court. Diplomatic tensions are noted as U.S. representatives have characterized foreign entities—specifically Canada—as potential scapegoats for domestic Republican electoral underperformance, while domestic political actors are mobilizing voters through ballot initiatives and high-profile campaign rallies.",
+    "consensus": [
+      "The 2018 U.S. midterm elections are approaching in early November.",
+      "President Donald Trump is actively campaigning for Republican candidates.",
+      "Legal and political disputes exist regarding state-level voting procedures and criteria.",
+      "The election cycle is being utilized as a platform for domestic cultural policy debates."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the geopolitical implications of a potential Democratic win, specifically regarding transatlantic relations and pressure on Ukraine.",
+      "Fox News frames the election cycle through the lens of domestic social policy, specifically transgender sports participation mandates.",
+      "The Guardian reports on diplomatic friction, highlighting U.S. ambassador Pete Hoekstra's statements regarding Canada as a scapegoat for domestic electoral results.",
+      "Al Jazeera's report on the California ballot dispute emphasizes the judiciary's rejection of executive branch intervention in state electoral procedures, while the text omits specific details on the scope of the voter list in question."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257173054_29cze",
+        "url": "https://www.aljazeera.com/features/2026/10/29/why-a-democratic-win-in-us-midterms-could-adversely-affect-europe?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why a Democratic win in US midterms could adversely affect Europe"
+      },
+      {
+        "id": "art_1793257178647_wogkj",
+        "url": "https://www.aljazeera.com/news/2026/10/29/judge-rejects-trump-effort-to-block-california-noncitizen-ballots?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Judge rejects Trump effort to block California ‘noncitizen’ ballots"
+      },
+      {
+        "id": "art_1793235039095_wxhhu",
+        "url": "https://www.foxnews.com/outkick-sports/maine-girls-speak-trans-athletes-parents-revive-ballot-push-eve-senate-election",
+        "source": "fox",
+        "title": "Maine girls to speak out on trans athletes as parents revive ballot push on eve of Senate election"
+      },
+      {
+        "id": "art_1793221329364_4548g",
+        "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
+        "source": "guardian",
+        "title": "US ambassador suggests Trump could blame Canada if midterms don’t go his way"
+      },
+      {
+        "id": "art_1793203409268_j9st2",
+        "url": "https://www.theguardian.com/us-news/live/2026/oct/28/trump-administration-bill-essayli-republicans-flavio-bolsonaro-us-news-latest",
+        "source": "guardian",
+        "title": "Trump and Vance rally for Republicans in final midterms push; Alaska’s Murkowski backs Democrat in governor’s race – live"
+      },
+      {
+        "id": "art_1793203414922_4jbh0",
+        "url": "https://www.foxnews.com/politics/democrats-2-word-answer-possible-presidential-run-draws-cheers-maine-crowd",
+        "source": "fox",
+        "title": "Democrat's 2-word answer on a possible presidential run draws cheers from Maine crowd"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b75188a8c161895a4e9c83a8ad253647",
+    "topic_label": "UK Budget 2026 Fiscal Policy and Economic Forecast",
+    "event_window_start": "2026-10-28T15:40:42.000Z",
+    "event_window_end": "2026-10-29T05:00:27.000Z",
+    "article_ids": [
+      "art_1793257179713_igucq",
+      "art_1793257180741_h4hzy",
+      "art_1793221334778_hr8zi",
+      "art_1793203412658_ct0a8"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "Chancellor John Healey has introduced a fiscal package including tax increases for banking and rental sectors, a one-time £100 payment to 20 million households, and new energy loan initiatives. These legislative actions are presented as responses to ongoing inflationary pressures driven by high global energy costs, attributed by the UK government and the Office for Budget Responsibility to current conflicts in Iran and the broader Middle East. Independent economic forecasts indicate a projected decline in household disposable income and economic growth, characterizing the long-term outlook for UK living standards as stagnant despite the government intervention.",
+    "consensus": [
+      "John Healey delivered his first budget as Chancellor.",
+      "The government is implementing a £100 one-off payment to 20 million households.",
+      "Taxes on banks and landlords have been increased.",
+      "Energy costs are cited as a primary driver of the current cost of living crisis.",
+      "The Office for Budget Responsibility has downgraded economic growth forecasts for 2027."
+    ],
+    "divergence": [
+      "The Guardian frames the budget measures as 'bold ambitions' and 'welcome first steps' in its editorial content while simultaneously highlighting negative OBR projections.",
+      "The Guardian reports the Chancellor blaming 'global economic storms' and specific conflicts in Iran for energy price increases, a narrative framing that masks domestic fiscal policy impact.",
+      "One report emphasizes the 'Your First Home' scheme as an optimistic solution, while individual testimonials presented in the same publication characterize the market as inaccessible regardless of policy changes."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257179713_igucq",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
+        "source": "guardian",
+        "title": "‘The more you earn, the less you keep’: readers react to the budget"
+      },
+      {
+        "id": "art_1793257180741_h4hzy",
+        "url": "https://www.theguardian.com/money/2026/oct/29/john-healey-energy-support-package-budget-explainer",
+        "source": "guardian",
+        "title": "How will John Healey’s energy support package affect you?"
+      },
+      {
+        "id": "art_1793221334778_hr8zi",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/28/budget-2026-healey-hikes-taxes-on-banks-and-landlords-to-fund-100-handouts-to-20m-households",
+        "source": "guardian",
+        "title": "Budget 2026: Healey hikes taxes on banks and landlords to fund £100 handouts to 20m households"
+      },
+      {
+        "id": "art_1793203412658_ct0a8",
+        "url": "https://www.theguardian.com/business/2026/oct/28/obr-slashes-uk-growth-forecast-for-2027-despite-healey-budget-measures",
+        "source": "guardian",
+        "title": "‘A pretty grim picture’: outlook for UK living standards slashed despite Healey’s budget"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "939e8508d078f829fc245d8bf7c6d9b9",
+    "topic_label": "Massive Drone Assault on Moscow Capital Region",
+    "event_window_start": "2026-10-28T15:45:06.000Z",
+    "event_window_end": "2026-10-29T06:01:29.000Z",
+    "article_ids": [
+      "art_1793257168496_muysz",
+      "art_1793257169645_5dita",
+      "art_1793257176459_ai7a7",
+      "art_1793257177547_yznkq",
+      "art_1793235031824_5i1nb",
+      "art_1793235038054_xq5i0",
+      "art_1793221324137_9zv43",
+      "art_1793221326236_76g9q",
+      "art_1793221327285_tebk0",
+      "art_1793203410388_4evcp"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 10,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic",
+    "synthesis": "Russian air defense networks intercepted a massive swarm of 613 unmanned aerial vehicles (UAVs) targeted at the Moscow metropolitan area between Wednesday evening and Thursday morning. Mayor Sergei Sobyanin confirmed the physical destruction of 231 drones in the immediate vicinity of the capital, with the remaining 382 neutralized at range. This event represents a significant escalation in offensive drone warfare capacity, following a September engagement involving over 1,600 units. Concurrent kinetic exchanges occurred in Kharkiv, Ukraine, where Russian munitions struck civilian educational infrastructure.",
+    "consensus": [
+      "A massive drone strike involving over 600 UAVs targeted Moscow.",
+      "Russian air defense forces claimed to neutralize the entire inbound swarm.",
+      "The event occurred between Wednesday evening and Thursday morning.",
+      "Russian forces simultaneously conducted a kinetic strike on civilian infrastructure in Kharkiv, Ukraine."
+    ],
+    "divergence": [
+      "TASS (Russian State Agency) frames the event as a successful defensive operation with no reported casualties or ground impacts, omitting details of specific localized damage or vulnerabilities in the early warning systems.",
+      "Al Jazeera's reporting focuses on the quantitative scale of the drone swarm, potentially omitting the deeper tactical context regarding the provenance of the drone swarm technology utilized in this specific wave."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257168496_muysz",
+        "url": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia’s alleged sabotage campaign in Europe raises fears of escalation"
+      },
+      {
+        "id": "art_1793257169645_5dita",
+        "url": "https://www.theguardian.com/world/2026/oct/29/cambodian-police-scam-compounds-amnesty-international",
+        "source": "guardian",
+        "title": "Cambodian police and soldiers helped guard abusive scam compounds, Amnesty alleges"
+      },
+      {
+        "id": "art_1793257176459_ai7a7",
+        "url": "https://www.aljazeera.com/news-analysis/2026/10/29/can-turkiyes-libya-breakthrough-reshape-eastern-mediterranean-diplomacy?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Turkiye’s Libya breakthrough reshape Eastern Mediterranean diplomacy?"
+      },
+      {
+        "id": "art_1793257177547_yznkq",
+        "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia says more than 600 drones launched towards Moscow overnight"
+      },
+      {
+        "id": "art_1793235031824_5i1nb",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/29/australian-sas-officers-knew-about-unlawful-throwdowns-on-dead-afghans-report-says-ntwnfb",
+        "source": "guardian",
+        "title": "Australian SAS officers knew about unlawful ‘throwdowns’ on dead Afghans, report says"
+      },
+      {
+        "id": "art_1793235038054_xq5i0",
+        "url": "https://www.aljazeera.com/news/2026/10/28/romania-extends-pre-trial-detention-of-far-right-politician-calin-georgescu?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Romania extends pre-trial detention of far-right politician Calin Georgescu"
+      },
+      {
+        "id": "art_1793221324137_9zv43",
+        "url": "https://www.aljazeera.com/news/2026/10/28/whats-next-for-brazils-flavio-bolsonaro-after-election-defeat?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What’s next for Brazil’s Flavio Bolsonaro after election defeat?"
+      },
+      {
+        "id": "art_1793221326236_76g9q",
+        "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election"
+      },
+      {
+        "id": "art_1793221327285_tebk0",
+        "url": "https://www.aljazeera.com/news/2026/10/28/un-votes-to-condemn-embargo-of-cuba-despite-us-lobbying-push?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN votes to condemn embargo of Cuba despite US lobbying push"
+      },
+      {
+        "id": "art_1793203410388_4evcp",
+        "url": "https://www.theguardian.com/world/2026/oct/28/in-serbia-a-new-type-of-democracy-is-taking-hold-and-europe-is-watching-closely",
+        "source": "guardian",
+        "title": "In Serbia, a new type of democracy is taking hold, and Europe is watching closely"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "77bb578910048e8c2e43876e0dd10abd",
+    "topic_label": "Unrelated Sports Industry Developments: Trade Requests, Ownership Disclosures, Scheduling Conflicts, and Personnel Signings",
+    "event_window_start": "2026-10-28T15:24:26.000Z",
+    "event_window_end": "2026-10-29T06:13:51.000Z",
+    "article_ids": [
+      "art_1793257167439_nk36n",
+      "art_1793235029628_zge39",
+      "art_1793235032865_0wizb",
+      "art_1793235036005_q2c2u",
+      "art_1793235037030_0rtm8",
+      "art_1793235040128_haeyp",
+      "art_1793221323026_i59bq",
+      "art_1793221333575_rcdbe",
+      "art_1793203420518_qcfw5",
+      "art_1793203421548_riunj"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 10,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Sports Business",
+    "synthesis": "This synthesis encompasses multiple, unrelated administrative and competitive events within professional sports organizations. Key developments include Liverpool Football Club winning a penalty shootout against Chelsea; NFL wide receiver Josh Downs formally requesting a player trade; billionaire Mark Walter declaring intent to maintain ownership of the Los Angeles Dodgers amidst federal investigations into his other business interests; the Atlanta Dream navigating WNBA Finals arena scheduling conflicts; and the Kansas City Chiefs signing kicker Justin Tucker following his ten-game suspension for violating NFL personal conduct policies.",
+    "consensus": [
+      "Liverpool defeated Chelsea in a penalty shootout.",
+      "Josh Downs has requested a trade from the Indianapolis Colts.",
+      "Mark Walter currently maintains ownership of the Los Angeles Dodgers.",
+      "The Atlanta Dream will play a WNBA Finals game at State Farm Arena.",
+      "The Kansas City Chiefs signed Justin Tucker to their practice squad."
+    ],
+    "divergence": [
+      "Al Jazeera reports that Liverpool defeated Chelsea 6-5, whereas the provided text contains contradictory internal data regarding which team won.",
+      "Fox frames the Tucker signing as a controversy regarding media hypocrisy, focusing on subjective 'outrage' rather than the factual confirmation of the NFL conduct policy violation.",
+      "Fox frames Mark Walter's business situation as a 'fire sale,' while Walter explicitly denies intent to sell his stake in the Dodgers.",
+      "The provided sources omit specific evidence or police records regarding the allegations against Justin Tucker, citing only the NFL suspension duration."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257167439_nk36n",
+        "url": "https://www.aljazeera.com/sports/2026/10/29/chelsea-beat-liverpool-on-penalties-to-reach-league-cup-quarterfinals?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Chelsea beat Liverpool 6-5 on penalties to reach League Cup quarterfinals"
+      },
+      {
+        "id": "art_1793235029628_zge39",
+        "url": "https://www.foxnews.com/outkick-sports/colts-star-wide-receiver-josh-downs-requests-trade-following-sweeping-changes-report",
+        "source": "fox",
+        "title": "Colts star wide receiver Josh Downs requests trade following sweeping changes: report"
+      },
+      {
+        "id": "art_1793235032865_0wizb",
+        "url": "https://www.foxnews.com/outkick-sports/mark-walter-keep-dodgers-despite-federal-investigation-businesses",
+        "source": "fox",
+        "title": "Mark Walter says he will keep Dodgers 'no matter what' despite federal investigation into businesses"
+      },
+      {
+        "id": "art_1793235036005_q2c2u",
+        "url": "https://www.foxnews.com/outkick-sports/dream-ownership-group-voice-frustration-open-letter-wnba-finals-venue-concerns",
+        "source": "fox",
+        "title": "Dream ownership group voices frustration in open letter over WNBA Finals venue concerns"
+      },
+      {
+        "id": "art_1793235037030_0rtm8",
+        "url": "https://www.foxnews.com/outkick-sports/justin-tucker-signing-exposes-sports-media-selective-outrage-nfl-players-accused-misconduct",
+        "source": "fox",
+        "title": "BOBBY BURACK: Justin Tucker signing exposes sports media’s selective outrage over NFL misconduct"
+      },
+      {
+        "id": "art_1793235040128_haeyp",
+        "url": "https://www.foxnews.com/outkick-sports/nfl-star-jonathan-taylor-wife-worries-colts-future-amid-trade-frenzy-do-i-need-to-start-packing",
+        "source": "fox",
+        "title": "NFL star Jonathan Taylor's wife worries about Colts' future amid trade frenzy: 'Do I need to start packing'"
+      },
+      {
+        "id": "art_1793221323026_i59bq",
+        "url": "https://www.foxnews.com/outkick-sports/yankees-president-randy-levine-confident-mlb-avoid-lockout-despite-cap-fight",
+        "source": "fox",
+        "title": "Yankees president Randy Levine says he is 'confident' MLB will avoid a lockout despite cap fight"
+      },
+      {
+        "id": "art_1793221333575_rcdbe",
+        "url": "https://www.foxnews.com/outkick-sports/bears-star-montez-sweat-never-wants-cheat-game-returns-ped-suspension",
+        "source": "fox",
+        "title": "Bears star Montez Sweat says he never wants to 'cheat the game' as he returns from PED suspension"
+      },
+      {
+        "id": "art_1793203420518_qcfw5",
+        "url": "https://www.foxnews.com/outkick-betting/rays-ride-walk-off-momentum-game-5-stunning-12th-inning-comeback-world-series",
+        "source": "fox",
+        "title": "Rays ride walk-off momentum into Game 5 after stunning 12th-inning comeback in World Series"
+      },
+      {
+        "id": "art_1793203421548_riunj",
+        "url": "https://www.foxnews.com/outkick-sports/fans-debate-brewers-decision-keep-jacob-misiorowski-dugout-chance-win-first-ever-world-series",
+        "source": "fox",
+        "title": "Fans debate Brewers decision to keep Jacob Misiorowski in dugout with chance to win first ever World Series"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1036564c09dfed7e011ae3dd3b7ed8dc",
+    "topic_label": "Consolidated Reporting of Unrelated Regional and Social Developments",
+    "event_window_start": "2026-10-28T15:20:23.000Z",
+    "event_window_end": "2026-10-29T06:25:02.000Z",
+    "article_ids": [
+      "art_1793257166362_8m5nc",
+      "art_1793257170777_qzhka",
+      "art_1793257171903_zzwex",
+      "art_1793257174375_dqe1k",
+      "art_1793235030684_s3coe",
+      "art_1793235034980_fzde5",
+      "art_1793235041167_2ld2z",
+      "art_1793235042210_w0ep7",
+      "art_1793235043244_ptlj9",
+      "art_1793221319555_vcqba",
+      "art_1793221321986_limii",
+      "art_1793221328330_nggm0",
+      "art_1793221330386_0bb4h",
+      "art_1793221331494_c5531",
+      "art_1793203408196_ys929",
+      "art_1793203413803_3j7pj",
+      "art_1793203415975_62rme",
+      "art_1793203418397_udl6h",
+      "art_1793203422669_6c3e2",
+      "art_1793203423810_i5p4t"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox"
+    ],
+    "article_count": 20,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-29T13:44:29.630Z",
+    "updated_at": "2026-10-29T13:44:29.630Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Civil Unrest, Policy Dispute, Litigation, Information Control, Mortality",
+    "synthesis": "This synthesis aggregates five distinct, unrelated events occurring across Western jurisdictions: widespread civil protest actions by European youth regarding wealth disparity; internal UK cabinet friction concerning the approval of the Rosebank oilfield project; a civil litigation case in London involving residential property conversion for diplomatic use; administrative attempts by the Australian Department of Defence to restrict the public dissemination of parliamentary hearing footage; and the medically assisted death of actress Barbara Barrie in New York following a terminal cancer diagnosis.",
+    "consensus": [
+      "European youth are engaging in organized protests against economic conditions.",
+      "Internal UK government disagreement exists regarding the Rosebank oil extraction project.",
+      "A legal dispute is active in London between a local resident and the Montenegro embassy regarding property usage.",
+      "Australian defence officials sought to restrict social media sharing of public hearing footage.",
+      "Barbara Barrie died at age 95 via medically assisted death following a terminal diagnosis."
+    ],
+    "divergence": [
+      "Al Jazeera frames the European youth unrest as a socio-economic struggle against systemic wealth inequality.",
+      "The Guardian frames the Rosebank dispute as a struggle between cabinet factions and parliamentary backbenchers.",
+      "The Guardian frames the embassy dispute as a clash between diplomatic requirements and neighborhood preservation in London.",
+      "The Guardian frames the Australian defence policy as an attempt to suppress transparency under the guise of security.",
+      "Fox News frames the death of Barbara Barrie as a biographical report on entertainment industry figures."
+    ],
+    "sources": [
+      {
+        "id": "art_1793257166362_8m5nc",
+        "url": "https://www.aljazeera.com/news/2026/10/29/europes-wealth-gap-older-households-eight-times-richer-than-young-ones?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Europe’s wealth gap: Older households eight times richer than young ones"
+      },
+      {
+        "id": "art_1793257170777_qzhka",
+        "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
+        "source": "guardian",
+        "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank"
+      },
+      {
+        "id": "art_1793257171903_zzwex",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/29/montenegro-embassy-pimlico-london-neighbour-sues-council",
+        "source": "guardian",
+        "title": "Neighbour of new Montenegro embassy in London sues council over impact on mental health"
+      },
+      {
+        "id": "art_1793257174375_dqe1k",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/29/defence-official-senate-estimates-social-media-public-servants-bullying-ntwnfb",
+        "source": "guardian",
+        "title": "Defence backed claim that social media footage of public servants could invite bullying"
+      },
+      {
+        "id": "art_1793235030684_s3coe",
+        "url": "https://www.foxnews.com/entertainment/barbara-barrie-oscar-nominated-barney-miller-suddenly-susan-actress-dead-95",
+        "source": "fox",
+        "title": "Barbara Barrie, Oscar-nominated 'Barney Miller' and 'Suddenly Susan' actress, dead at 95"
+      },
+      {
+        "id": "art_1793235034980_fzde5",
+        "url": "https://www.foxnews.com/media/portland-public-schools-rescinds-ban-woman-questioned-childs-gender-identity-assignment",
+        "source": "fox",
+        "title": "Portland Public Schools rescinds ban on woman who questioned child's gender identity assignment"
+      },
+      {
+        "id": "art_1793235041167_2ld2z",
+        "url": "https://www.foxnews.com/us/convicted-murderer-5-hour-head-start-prison-escape-local-police-notified-official",
+        "source": "fox",
+        "title": "Convicted murderer got over 5-hour head start after prison escape before local police were notified: official"
+      },
+      {
+        "id": "art_1793235042210_w0ep7",
+        "url": "https://www.foxnews.com/travel/hidden-danger-cockpit-surfaces-3-4-pilots-report-microsleep-episodes",
+        "source": "fox",
+        "title": "Hidden danger in cockpit surfaces as 3 in 4 pilots report 'microsleep' episodes"
+      },
+      {
+        "id": "art_1793235043244_ptlj9",
+        "url": "https://www.foxnews.com/media/el-sayed-rallygoers-urge-major-change-cash-handouts-fight-cost-crisis",
+        "source": "fox",
+        "title": "El-Sayed rallygoers urge 'major change,' cash handouts to fight cost crisis"
+      },
+      {
+        "id": "art_1793221319555_vcqba",
+        "url": "https://www.foxnews.com/us/woman-covered-veil-escorted-florida-county-meeting-playing-call-prayer-recording",
+        "source": "fox",
+        "title": "Woman covered in veil escorted out of Florida county meeting after playing call to prayer recording"
+      },
+      {
+        "id": "art_1793221321986_limii",
+        "url": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb",
+        "source": "guardian",
+        "title": "Politics live: Chalmers calls social media a ‘business model for hate’; half of young Australians say US a ‘threat’"
+      },
+      {
+        "id": "art_1793221328330_nggm0",
+        "url": "https://www.foxnews.com/politics/dem-ag-too-many-golf-courses-remark-goes-viral-critics-tee-off",
+        "source": "fox",
+        "title": "Dem AG’s ‘too many golf courses’ remark goes viral as critics tee off"
+      },
+      {
+        "id": "art_1793221330386_0bb4h",
+        "url": "https://www.theguardian.com/us-news/2026/oct/28/education-secretary-mcmahon-office-furniture",
+        "source": "guardian",
+        "title": "Education secretary Linda McMahon plans to spend nearly $43,000 on office furniture"
+      },
+      {
+        "id": "art_1793221331494_c5531",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/rwandas-milk-bars?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Rwanda’s milk bars"
+      },
+      {
+        "id": "art_1793203408196_ys929",
+        "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/russell-brand-evidence-trial-latest-news-updates",
+        "source": "guardian",
+        "title": "Russell Brand tells court he ‘misused’ fame for ‘reckless philandering’ – latest updates"
+      },
+      {
+        "id": "art_1793203413803_3j7pj",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/us-congresswoman-rashida-tlaib-condemns-anti-muslim-election-rhetoric?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US Congresswoman Rashida Tlaib condemns anti-Muslim election rhetoric"
+      },
+      {
+        "id": "art_1793203415975_62rme",
+        "url": "https://www.aljazeera.com/sports/2026/10/28/kylian-mbappe-china-meme-mao-zedong-la-liga-real-madrid?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What is the controversy between Real Madrid’s Kylian Mbappe and China?"
+      },
+      {
+        "id": "art_1793203418397_udl6h",
+        "url": "https://www.theguardian.com/business/2026/oct/28/gsk-shares-dive-as-weaker-sales-and-mounting-costs-unnerve-investors",
+        "source": "guardian",
+        "title": "GSK shares dive as weaker vaccine sales unnerve investors"
+      },
+      {
+        "id": "art_1793203422669_6c3e2",
+        "url": "https://www.theguardian.com/uk-news/2026/oct/28/oanne-young-sexual-assault-trial-ex-husband-court-england",
+        "source": "guardian",
+        "title": "Woman woke up to see stranger invited into bedroom by husband, court hears"
+      },
+      {
+        "id": "art_1793203423810_i5p4t",
+        "url": "https://www.theguardian.com/us-news/2026/oct/28/lawmakers-7-eleven-dollar-general-overcharging",
+        "source": "guardian",
+        "title": "US lawmakers demand action on overcharging at 7-Eleven, Dollar General and other chains"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "3789fe1340306ea1837d0c48c55e8272",
     "topic_label": "Israeli General Election Parliamentary Deadlock",
     "event_window_start": "2026-10-28T08:35:05.000Z",
@@ -276,58 +1005,6 @@
         "url": "https://www.theguardian.com/uk-news/live/2026/oct/28/budget-2026-latest-updates-john-healey-andy-burnham-labour-uk-politics",
         "source": "guardian",
         "title": "Budget 2026 live: chancellor says scrapping of gas standing charges will save 60% of homes £45 a year"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d3c218680598b820e4d37881bcdccaaa",
-    "topic_label": "Villa Vie Odyssey cruise termination and passenger stranding in Cambodia",
-    "event_window_start": "2026-10-28T15:30:27.000Z",
-    "event_window_end": "2026-10-28T20:11:29.000Z",
-    "article_ids": [
-      "art_1793221332543_6zkv0",
-      "art_1793203419422_kotb7"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-29T00:25:17.895Z",
-    "updated_at": "2026-10-29T00:25:17.895Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Maritime",
-    "synthesis": "The MV Odyssey residential cruise vessel has ceased its indefinite global voyage while docked in Sihanoukville, Cambodia, resulting in the abandonment of 203 passengers and 156 crew members. The operator, Villa Vie, initiated a sudden suspension of services citing insolvency due to fuel costs. The vessel is currently immobilized in a Cambodian port, leaving the passengers without pre-arranged lodging, forcing the operator to scramble for temporary housing solutions for the stranded population.",
-    "consensus": [
-      "The MV Odyssey cruise ship halted its voyage in Sihanoukville, Cambodia.",
-      "The vessel carried 203 passengers and 156 crew members.",
-      "The operator suspended the voyage due to fuel cost financial constraints.",
-      "Passengers are currently without long-term accommodation."
-    ],
-    "divergence": [
-      "Fox highlights an additional, unverified collision incident involving two cargo vessels to add sensationalism, which is absent from the Guardian report.",
-      "The Guardian frames the event as a luxury service failure, while Fox focuses on the 'devastating' personal impact on retirees.",
-      "Fox explicitly omits the passenger capacity of the vessel, whereas the Guardian provides the 650-passenger capacity context to frame the ship as currently under-utilized."
-    ],
-    "sources": [
-      {
-        "id": "art_1793221332543_6zkv0",
-        "url": "https://www.foxnews.com/travel/never-ending-cruise-grinds-devastating-end-stranding-over-200-passengers-abroad",
-        "source": "fox",
-        "title": "'Never-ending' cruise grinds to devastating end, stranding over 200 passengers abroad"
-      },
-      {
-        "id": "art_1793203419422_kotb7",
-        "url": "https://www.theguardian.com/travel/2026/oct/28/cruise-passengers-stranded-cambodia-suspends-operations",
-        "source": "guardian",
-        "title": "Passengers stranded in Cambodia after cruise halted due to high fuel costs"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13236,473 +13913,6 @@
         "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
         "source": "guardian",
         "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f327eac078e3453d20232c63e860bc41",
-    "topic_label": "Vehicular Intrusion into Youth Soccer Match in Wichita",
-    "event_window_start": "2026-10-18T14:58:27.000Z",
-    "event_window_end": "2026-10-18T21:25:53.000Z",
-    "article_ids": [
-      "art_1792364634824_udkmv",
-      "art_1792337653869_aozwa"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-19T05:17:13.088Z",
-    "updated_at": "2026-10-19T05:17:13.088Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "A 34-year-old female operator drove a Chevrolet pickup truck onto an active youth soccer pitch in Wichita, Kansas, resulting in the mechanical impact and death of two individuals: a 6-year-old male and a 35-year-old male. The event caused 11 additional casualties, ranging in age from five to 68 years old, all requiring hospitalization. The operator was initially detained by Wichita police but subsequently released without formal charges pending the results of toxicology screens and a mechanical inspection of the vehicle to determine if the intrusion was a result of operator intent, medical incapacitation, or mechanical failure.",
-    "consensus": [
-      "A pickup truck entered a youth soccer field in Wichita, Kansas.",
-      "The incident resulted in two fatalities: a 6-year-old male and a 35-year-old male.",
-      "11 individuals were hospitalized with injuries.",
-      "The vehicle operator is a 34-year-old female from Garden City, Kansas.",
-      "The vehicle is a Chevrolet pickup truck."
-    ],
-    "divergence": [
-      "Fox reports the operator was released without charges, while The Guardian focuses on the initial custody status, omitting the immediate release update provided by local authorities.",
-      "The Guardian frames the event as a 'case whose possible motivations remained unclear,' whereas Fox focuses on the status of the investigation regarding mechanical and toxicology testing.",
-      "Fox explicitly names the deceased victims, while The Guardian states authorities 'did not immediately release' the names, indicating a discrepancy in the timing of information access between the two outlets."
-    ],
-    "sources": [
-      {
-        "id": "art_1792364634824_udkmv",
-        "url": "https://www.foxnews.com/us/driver-released-without-charges-pickup-kills-boy-6-man-kansas-soccer-field",
-        "source": "fox",
-        "title": "Driver released without charges after pickup kills boy, 6, and man on Kansas soccer field"
-      },
-      {
-        "id": "art_1792337653869_aozwa",
-        "url": "https://www.theguardian.com/us-news/2026/oct/18/wichita-kansas-soccer-field-game-truck-deaths",
-        "source": "guardian",
-        "title": "Six-year-old among two dead after Kansas woman drives through soccer game, with 11 more injured"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "425335b83ba6f59c87a1b48c586f2feb",
-    "topic_label": "Arson and Civil Unrest in Tirana",
-    "event_window_start": "2026-10-18T15:08:18.000Z",
-    "event_window_end": "2026-10-18T20:26:03.000Z",
-    "article_ids": [
-      "art_1792357931903_q1z8x",
-      "art_1792337651632_lo3t6"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-18T22:27:46.382Z",
-    "updated_at": "2026-10-18T22:27:46.382Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "Anti-government protesters in Tirana, Albania, initiated a multi-day campaign of civil unrest characterized by the arson of the Supreme Court and mass gatherings targeting state infrastructure. Police forces responded with kinetic suppression tactics including the deployment of rubber bullets, high-pressure water cannons, and chemical riot control agents (tear gas). Physical hardening of state buildings using metal shutters and the preemptive removal of paving stones by municipal authorities indicates a continued state of conflict between demonstrators and the incumbent administration.",
-    "consensus": [
-      "Civil unrest has been occurring in Tirana for at least six days.",
-      "Protesters are demanding the resignation of Prime Minister Edi Rama.",
-      "The Supreme Court building was damaged by fire.",
-      "Police used water cannons, rubber bullets, and tear gas against demonstrators.",
-      "Municipal authorities have taken measures to prevent protesters from using paving stones as projectiles."
-    ],
-    "divergence": [
-      "Al Jazeera coverage focuses on the administrative refusal of the Prime Minister to step down while framing the state's security measures as a reaction to a tense standoff, potentially downplaying the physical scale of the structural damage to the Supreme Court."
-    ],
-    "sources": [
-      {
-        "id": "art_1792357931903_q1z8x",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Fire engulfs Albania’s Supreme Court as protests enter fifth day"
-      },
-      {
-        "id": "art_1792337651632_lo3t6",
-        "url": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Tirana sees sixth day of violent protests as Albania’s PM refuses to resign"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4162a22704f21d6b96e63c38a49f9751",
-    "topic_label": "Fatal Explosion and Conflagration at CFB Wainwright",
-    "event_window_start": "2026-10-18T17:54:16.000Z",
-    "event_window_end": "2026-10-18T19:42:37.000Z",
-    "article_ids": [
-      "art_1792357942380_zc3fs",
-      "art_1792348204261_bqcyp"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-18T22:27:46.382Z",
-    "updated_at": "2026-10-18T22:27:46.382Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "A catastrophic thermal event occurred at Canadian Forces Base Wainwright on Saturday at approximately 16:00 local time, resulting in at least four confirmed fatalities and multiple severe casualties among military personnel. The conflagration was preceded by reports of a gas main strike occurring during a live-fire training exercise, which subsequently escalated into a rapid-fire spread exacerbated by high winds affecting both the base and adjacent rural territory. The incident remains under official investigation to determine if the gas main rupture was a direct result of kinetic weapon impact or infrastructure failure during training operations.",
-    "consensus": [
-      "Four military personnel confirmed deceased",
-      "Dozens of personnel sustained severe injuries",
-      "Incident occurred at Canadian Forces Base Wainwright, Alberta",
-      "Fire initiated during scheduled military training exercises",
-      "Official confirmation of the event provided by Prime Minister Mark Carney"
-    ],
-    "divergence": [
-      "BBC reports the event as a 'deadly fire' without mentioning the potential cause of a gas main strike as a confirmed physical mechanism, focusing on the lack of official details.",
-      "Fox News explicitly notes the influence of high winds in spreading the fire beyond base parameters, a detail omitted by BBC.",
-      "Fox News includes a preemptive statement regarding the absence of terrorism, which functions as a defensive narrative frame not present in the BBC reporting."
-    ],
-    "sources": [
-      {
-        "id": "art_1792357942380_zc3fs",
-        "url": "https://www.bbc.co.uk/news/articles/cmgelrq8x92do?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we know so far about deadly fire at Canadian military base"
-      },
-      {
-        "id": "art_1792348204261_bqcyp",
-        "url": "https://www.foxnews.com/world/canadian-pm-carney-4-service-members-killed-dozens-injured-military-base-fire",
-        "source": "fox",
-        "title": "Canadian PM Carney says 4 service members killed, dozens injured in military base fire"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "467fdce50fd349eea4c0b9c8a77ea3d2",
-    "topic_label": "Nationwide Civil Unrest and Rioting in France",
-    "event_window_start": "2026-10-18T14:50:37.000Z",
-    "event_window_end": "2026-10-18T21:10:47.000Z",
-    "article_ids": [
-      "art_1792364635948_cy1wm",
-      "art_1792357929815_hhf3i",
-      "art_1792357930861_in6kb",
-      "art_1792357932928_sl1fk",
-      "art_1792348205309_85wth",
-      "art_1792337649528_46jll",
-      "art_1792337656059_0ihtt"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 7,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-19T00:35:01.997Z",
-    "updated_at": "2026-10-19T00:35:01.997Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Civil Unrest",
-    "synthesis": "Large-scale civil unrest across France involving hundreds of thousands of demonstrators led to widespread kinetic engagements between protesters and law enforcement. Physical actions included the arson of vehicles, looting of private businesses, destruction of storefronts, and direct physical clashes between masked groups and security forces. Law enforcement utilized tear gas against protesters. The unrest resulted in approximately 1,000 police and gendarme injuries, and between 1,800 and 2,400 arrests were reported nationwide. President Macron has convened a crisis unit to address the structural damage and maintain public order.",
-    "consensus": [
-      "Nationwide demonstrations occurred across France regarding the cost of living and public services.",
-      "The protests devolved into riots characterized by looting, arson, and property destruction.",
-      "Physical clashes occurred between demonstrators and police forces.",
-      "President Emmanuel Macron issued a public address condemning the violence and pledging legal consequences for rioters.",
-      "Law enforcement deployed tear gas and executed mass arrests."
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes the presidential narrative of 'protecting the republic' and focuses on government-provided arrest statistics.",
-      "Fox News frames the event through the lens of political failure, citing Le Figaro to criticize Macron's judicial and immigration policies, while highlighting visual evidence of urban destruction.",
-      "BBC emphasizes the scale of peaceful participation (550,000) compared to the rioters to provide context to the protests.",
-      "There is a discrepancy in arrest figures cited by different sources, ranging from 1,800 to 2,400."
-    ],
-    "sources": [
-      {
-        "id": "art_1792364635948_cy1wm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Macron condemns violence after riots lead to looting and mass arrests"
-      },
-      {
-        "id": "art_1792357929815_hhf3i",
-        "url": "https://www.foxnews.com/world/french-newspaper-rips-macron-riots-erupt-across-france-indelible-stain",
-        "source": "fox",
-        "title": "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’"
-      },
-      {
-        "id": "art_1792357930861_in6kb",
-        "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Macron calls for 'calm and order' after riots across France"
-      },
-      {
-        "id": "art_1792357932928_sl1fk",
-        "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting"
-      },
-      {
-        "id": "art_1792348205309_85wth",
-        "url": "https://www.foxnews.com/politics/photos-show-aftermath-riots-masked-groups-clash-police-across-france",
-        "source": "fox",
-        "title": "Photos show aftermath of riots as masked groups clash with police across France"
-      },
-      {
-        "id": "art_1792337649528_46jll",
-        "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
-        "source": "guardian",
-        "title": "French government in crisis talks after ‘colossal failure of the state’"
-      },
-      {
-        "id": "art_1792337656059_0ihtt",
-        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "source": "guardian",
-        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "b087c98ca2fd3ceb7bb6f1607f75b468",
-    "topic_label": "Physical Assault on EU Diplomatic Convoy in West Bank",
-    "event_window_start": "2026-10-18T01:02:37.000Z",
-    "event_window_end": "2026-10-18T17:52:37.000Z",
-    "article_ids": [
-      "art_1792348206503_wx4ku",
-      "art_1792337650601_wbpbi",
-      "art_1792337657089_eu59x",
-      "art_1792287371525_vt3yk"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-19T00:35:01.997Z",
-    "updated_at": "2026-10-19T00:35:01.997Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "On Saturday, masked Israeli settlers physically attacked a diplomatic delegation including representatives from France, Belgium, and Poland, as well as a French mayor and Catholic Church officials, near the village of Taybeh in the West Bank. The delegation was physically targeted while observing the Palestinian olive harvest. The event involved direct physical aggression against foreign government personnel, resulting in an official condemnation from the European Union, which labeled the actions as part of a broader trend of violence against civilians and international observers in the region.",
-    "consensus": [
-      "A delegation of European diplomats and associated personnel was physically attacked by masked individuals identified as Israeli settlers.",
-      "The incident occurred near the Palestinian village of Taybeh in the West Bank.",
-      "The delegation was present to support Palestinian olive harvesters.",
-      "The European Union issued a formal condemnation of the assault."
-    ],
-    "divergence": [
-      "Al Jazeera frames the event as part of a systemic escalation of 'pogroms' and emphasizes political context regarding Israeli elections, whereas other sources might minimize the frequency or intent of these incidents.",
-      "Reporting consistently omits specific details regarding whether the individuals were detained or if physical injuries were documented by medical personnel, focusing instead on the diplomatic fallout."
-    ],
-    "sources": [
-      {
-        "id": "art_1792348206503_wx4ku",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/aje-onl-nf_draft-2-yt-short-oct-18-p-daily-1-181026?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "JERUSALEM DAILY: Settlers attack EU diplomats"
-      },
-      {
-        "id": "art_1792337650601_wbpbi",
-        "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank"
-      },
-      {
-        "id": "art_1792337657089_eu59x",
-        "url": "https://www.aljazeera.com/news/2026/10/18/a-timeline-of-west-bank-attacks-on-palestinians-and-foreign-officials?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "A timeline of West Bank attacks on Palestinians and foreign officials"
-      },
-      {
-        "id": "art_1792287371525_vt3yk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli settlers attack European diplomats in the occupied West Bank"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "544d9e982c7619394c2808fa573a52df",
-    "topic_label": "Nationwide Civil Unrest and Arson in France",
-    "event_window_start": "2026-10-18T14:50:37.000Z",
-    "event_window_end": "2026-10-18T20:54:03.000Z",
-    "article_ids": [
-      "art_1792357929815_hhf3i",
-      "art_1792357930861_in6kb",
-      "art_1792357932928_sl1fk",
-      "art_1792348205309_85wth",
-      "art_1792337649528_46jll",
-      "art_1792337656059_0ihtt"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-18T22:27:46.382Z",
-    "updated_at": "2026-10-18T22:27:46.382Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "France is experiencing widespread kinetic civil unrest characterized by the deliberate destruction of public and private property, including the torching of vehicles, storming of state buildings, and looting of commercial storefronts. Violent clashes between demonstrators—including masked groups—and state security forces have resulted in approximately 2,400 arrests and an estimated 1,000 injuries to police and gendarmerie personnel. The state has mobilized emergency crisis units to regain control over urban areas where public infrastructure has been compromised by arson and structural damage.",
-    "consensus": [
-      "Nationwide demonstrations occurred across France",
-      "Physical violence, looting, and arson of public and private property were reported",
-      "State security forces engaged with rioters using tear gas",
-      "President Macron publicly addressed the unrest",
-      "Approximately 2,400 individuals were arrested",
-      "Significant injury count reported among police and gendarme forces"
-    ],
-    "divergence": [
-      "Fox News frames the events primarily through political critique, focusing on the failure of specific state policies and immigration, whereas the Guardian focuses on the government's perceived institutional failure and internal political instability.",
-      "Al Jazeera emphasizes the internal state crisis and the threat to the republic as defined by executive rhetoric, whereas the BBC focuses on the stated socio-economic motivations of the protesters.",
-      "Reported arrest figures vary across sources, ranging from 1,800 to 2,400, reflecting differing stages of data collection and potentially conflicting government reporting updates provided to various media outlets."
-    ],
-    "sources": [
-      {
-        "id": "art_1792357929815_hhf3i",
-        "url": "https://www.foxnews.com/world/french-newspaper-rips-macron-riots-erupt-across-france-indelible-stain",
-        "source": "fox",
-        "title": "French newspaper rips Macron after riots erupt across France: ‘Indelible stain’"
-      },
-      {
-        "id": "art_1792357930861_in6kb",
-        "url": "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Macron calls for 'calm and order' after riots across France"
-      },
-      {
-        "id": "art_1792357932928_sl1fk",
-        "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Anger and shame’: Macron denounces France’s nationwide rioting, looting"
-      },
-      {
-        "id": "art_1792348205309_85wth",
-        "url": "https://www.foxnews.com/politics/photos-show-aftermath-riots-masked-groups-clash-police-across-france",
-        "source": "fox",
-        "title": "Photos show aftermath of riots as masked groups clash with police across France"
-      },
-      {
-        "id": "art_1792337649528_46jll",
-        "url": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
-        "source": "guardian",
-        "title": "French government in crisis talks after ‘colossal failure of the state’"
-      },
-      {
-        "id": "art_1792337656059_0ihtt",
-        "url": "https://www.theguardian.com/world/live/2026/oct/18/paris-protests-france-demonstrations-europe-live-latest-news",
-        "source": "guardian",
-        "title": "Arrests over France protests rise to 1,800, with whole streets in Paris ‘devastated’ – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e4fbd9b7c6543d0b30ca942c7cafe632",
-    "topic_label": "Assault on European Diplomatic Convoy in West Bank",
-    "event_window_start": "2026-10-17T23:52:38.000Z",
-    "event_window_end": "2026-10-18T17:52:37.000Z",
-    "article_ids": [
-      "art_1792348206503_wx4ku",
-      "art_1792337650601_wbpbi",
-      "art_1792337657089_eu59x",
-      "art_1792287371525_vt3yk",
-      "art_1792287380456_e2w31"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-18T22:27:46.382Z",
-    "updated_at": "2026-10-18T22:27:46.382Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "On Saturday near the village of Taybeh in the West Bank, a group of masked Israeli settlers physically attacked a diplomatic convoy containing representatives from France, Belgium, and Poland, as well as Catholic Church officials. The delegation was present to observe the Palestinian olive harvest. The physical assault involved confrontation and intimidation by the settlers against foreign state officials. The Israeli Defense Forces (IDF) issued a formal condemnation of the violence, while the office of Prime Minister Benjamin Netanyahu characterized the accounts of the event as a coordinated smear campaign, disputing the incident's specifics.",
-    "consensus": [
-      "A convoy of European diplomats was present in the West Bank near Taybeh during the olive harvest.",
-      "Masked individuals identified as Israeli settlers engaged in a physical altercation with the diplomatic delegation.",
-      "The European Union issued a formal condemnation regarding the attack on the diplomatic personnel.",
-      "The IDF officially condemned the act of violence."
-    ],
-    "divergence": [
-      "The Israeli Prime Minister's Office challenges the factual occurrence of the attack, framing the report as a coordinated smear campaign, whereas European and news sources treat the assault as a confirmed physical event.",
-      "Al Jazeera frames the incident within a broader pattern of 'settler pogroms', whereas the BBC report emphasizes the IDF's condemnation alongside the Prime Minister's official skepticism."
-    ],
-    "sources": [
-      {
-        "id": "art_1792348206503_wx4ku",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/aje-onl-nf_draft-2-yt-short-oct-18-p-daily-1-181026?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "JERUSALEM DAILY: Settlers attack EU diplomats"
-      },
-      {
-        "id": "art_1792337650601_wbpbi",
-        "url": "https://www.aljazeera.com/news/2026/10/18/eu-condemns-israeli-settler-attack-on-diplomats-in-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "EU condemns Israeli settler attack on diplomats in occupied West Bank"
-      },
-      {
-        "id": "art_1792337657089_eu59x",
-        "url": "https://www.aljazeera.com/news/2026/10/18/a-timeline-of-west-bank-attacks-on-palestinians-and-foreign-officials?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "A timeline of West Bank attacks on Palestinians and foreign officials"
-      },
-      {
-        "id": "art_1792287371525_vt3yk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israeli settlers attack European diplomats in the occupied West Bank"
-      },
-      {
-        "id": "art_1792287380456_e2w31",
-        "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "European diplomats attacked by Israeli settlers in West Bank"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
