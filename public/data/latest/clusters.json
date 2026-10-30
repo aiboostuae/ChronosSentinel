@@ -1,5 +1,74 @@
 [
   {
+    "cluster_id": "c9642af6253ba0e9b020def37fcb2ab6",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-30T16:27:39.000Z",
+    "event_window_end": "2026-10-30T16:43:33.000Z",
+    "article_ids": [
+      "art_1793378921143_hnghv",
+      "art_1793378922233_u50kt",
+      "art_1793378923275_jkjfo",
+      "art_1793378924314_aejti",
+      "art_1793378925458_4b196"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-30T21:14:06.646Z",
+    "updated_at": "2026-10-30T21:14:06.646Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1793378921143_hnghv",
+        "url": "https://www.foxnews.com/outkick-sports/terri-clark-refused-auto-tune-ai-keep-ryman-auditorium-live-album-raw-real",
+        "source": "fox",
+        "title": "Terri Clark refused Auto-Tune and AI to keep her Ryman Auditorium live album raw and real"
+      },
+      {
+        "id": "art_1793378922233_u50kt",
+        "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+        "source": "guardian",
+        "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’"
+      },
+      {
+        "id": "art_1793378923275_jkjfo",
+        "url": "https://www.foxnews.com/outkick-sports/colorado-parents-refuse-stay-silent-school-allegedly-targets-girls-trans-athlete-locker-room",
+        "source": "fox",
+        "title": "Colorado parents refuse to stay silent as school allegedly targets girls over trans athlete in locker room"
+      },
+      {
+        "id": "art_1793378924314_aejti",
+        "url": "https://www.foxnews.com/politics/4-us-cities-lucky-winners-trumps-300m-crime-crackdown-contest",
+        "source": "fox",
+        "title": "4 US cities are the lucky winners of Trump's $300M crime crackdown contest"
+      },
+      {
+        "id": "art_1793378925458_4b196",
+        "url": "https://www.aljazeera.com/news/2026/10/30/police-in-scotland-launch-andrew-and-epstein-royal-castle-investigation?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Police in Scotland launch Andrew and Epstein royal castle investigation"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "6d6e502dd1e444cb4324802802d05aed",
     "topic_label": "Death of actor Patrick Stewart",
     "event_window_start": "2026-10-29T22:23:43.000Z",
@@ -13607,58 +13676,6 @@
         "url": "https://www.theguardian.com/politics/live/2026/oct/19/andy-burnham-labour-children-welfare-neets-kemi-badenoch-conservatives-nigel-farage-reform-latest-news-updates",
         "source": "guardian",
         "title": "No 10: Hegseth ‘wrong’ to say most non-US Nato soldiers didn’t fight in Afghanistan – UK politics live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ff4c6c978c710fbbed1818bc278339ea",
-    "topic_label": "Milan Civil Unrest and Military Deployment",
-    "event_window_start": "2026-10-19T11:23:36.000Z",
-    "event_window_end": "2026-10-20T00:08:07.000Z",
-    "article_ids": [
-      "art_1792460801463_z7qio",
-      "art_1792412066458_qkewc"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-20T05:52:34.745Z",
-    "updated_at": "2026-10-20T05:52:34.745Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "Following two days of civil unrest in Milan involving over 5,000 protesters, Italian government officials have authorized the deployment of 500 military personnel to the city. Physical manifestations of the unrest included the looting of retail establishments, property damage, and kinetic confrontations between protestors and police, during which police utilized tear gas and water cannons against projectiles including paving stones, bins, and chairs. Over 200 arrests were recorded. The government is currently formalizing the troop deployment via an emergency cabinet measure to secure the financial district as private businesses continue to cease operations and board up properties.",
-    "consensus": [
-      "Over 5,000 protesters participated in demonstrations in Milan over the weekend.",
-      "Property damage, looting, and violent clashes between protesters and police occurred.",
-      "Police utilized tear gas and water cannons during the response.",
-      "Over 200 individuals were arrested.",
-      "The Italian government has decided to deploy 500 military troops to Milan."
-    ],
-    "divergence": [
-      "The Guardian focuses on the politicized framing of the troop deployment by Matteo Salvini, portraying it as a 'defense' of the city, while omitting specific details regarding the police tactical response.",
-      "The BBC emphasizes the role of Prime Minister Giorgia Meloni and provides specific details on the nature of the projectiles used by protesters, while framing the event as 'hooliganism' to downplay the underlying socio-economic drivers mentioned by The Guardian."
-    ],
-    "sources": [
-      {
-        "id": "art_1792460801463_z7qio",
-        "url": "https://www.theguardian.com/world/2026/oct/20/milan-luxury-shops-close-italy-to-deploy-troops-youth-protests-europe",
-        "source": "guardian",
-        "title": "Milan luxury shops close as Italy prepares to deploy troops in the city after days of protests"
-      },
-      {
-        "id": "art_1792412066458_qkewc",
-        "url": "https://www.bbc.co.uk/news/articles/c6j9kwxxmxydo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Italian PM Meloni to hold emergency meeting after weekend of violent clashes"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
