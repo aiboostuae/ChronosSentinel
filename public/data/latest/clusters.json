@@ -1,5 +1,77 @@
 [
   {
+    "cluster_id": "64c68ae7512a69585280512ec367ee14",
+    "topic_label": "Severe Australian Meteorological Cold Front and Global Civil Protests",
+    "event_window_start": "2026-10-31T06:00:37.000Z",
+    "event_window_end": "2026-10-31T06:11:53.000Z",
+    "article_ids": [
+      "art_1793429526521_37xew",
+      "art_1793429527586_t9v3k",
+      "art_1793429528662_jypmt",
+      "art_1793429529866_qxyyt",
+      "art_1793429531265_taicl"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T13:10:32.909Z",
+    "updated_at": "2026-10-31T13:10:32.909Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Meteorology",
+    "synthesis": "A severe cold front is moving across eastern and southeastern Australia, bringing destructive wind gusts exceeding 125 km/h, hail, and heavy rainfall with flash flooding potential across Victoria, New South Wales, the Australian Capital Territory, and Queensland. Concurrently, political demonstrations are active in two regions: public protests in St. John's, Antigua targeting the Commonwealth summit to demand slavery reparations from the British monarchy and government, and nationwide protests across India responding to the Election Commission stripping 130 million names from electoral rolls under its Special Intensive Revision process.",
+    "consensus": [
+      "A cold weather front is generating wind speeds exceeding 125 km/h, hail, and flash flood risks across eastern Australia.",
+      "Protests, placards, and public demonstrations are organized in St. John's, Antigua during the Commonwealth leaders' summit.",
+      "Opposition groups and citizens in India are protesting the removal of 130 million names from electoral registers by the Election Commission of India."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes sectarian impacts in India, specifically highlighting how six years of Muslim warnings regarding citizenship documentation requirements were initially ignored until wider demographics were affected.",
+      "The Guardian focuses on activist messaging and moral arguments regarding transatlantic enslavement reparations in Antigua while omitting official British state security postures or administrative responses.",
+      "The Guardian frames Australian weather telemetry around capital city disruptions and BoM meteorological forecasts without reporting verified structural damage or casualty figures."
+    ],
+    "sources": [
+      {
+        "id": "art_1793429526521_37xew",
+        "url": "https://www.aljazeera.com/sports/2026/10/31/lebron-james-tyrese-maxey-philadelphia-76ers-win-new-york-knicks-nba-cup?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "LeBron James, Tyrese Maxey shine as 76ers beat Knicks in NBA Cup thriller"
+      },
+      {
+        "id": "art_1793429527586_t9v3k",
+        "url": "https://www.aljazeera.com/opinions/2026/10/31/the-selective-solidarity-at-the-heart-of-indias-voter-protests?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The selective solidarity at the heart of India’s voter protests"
+      },
+      {
+        "id": "art_1793429528662_jypmt",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
+        "source": "guardian",
+        "title": "Storm warnings for Melbourne, Canberra, Sydney and Brisbane as cold front ‘packs a punch’"
+      },
+      {
+        "id": "art_1793429529866_qxyyt",
+        "url": "https://www.theguardian.com/money/2026/oct/31/homes-london-poshest-neighbourhoods-sell-below-asking-price-coutts",
+        "source": "guardian",
+        "title": "Eight in 10 homes in London’s poshest postcodes now sell below asking price, Coutts finds"
+      },
+      {
+        "id": "art_1793429531265_taicl",
+        "url": "https://www.theguardian.com/world/2026/oct/31/protests-expected-king-charles-reparations-slave-trade-commonwealth-summit-antigua",
+        "source": "guardian",
+        "title": "‘Reparations now’: King and Burnham face protests at Antigua Commonwealth summit"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "8c9fc2694cfe444f061f6fbd895e5ded",
     "topic_label": "Cancellation of G20 Foreign Ministers' Group Photograph",
     "event_window_start": "2026-10-30T20:13:36.000Z",
@@ -13504,66 +13576,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/20/hegseth-meets-netanyahu-in-unannounced-israel-visit?traffic_source=rss",
         "source": "aljazeera",
         "title": "Hegseth meets Netanyahu in unannounced Israel visit"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "299c298864cb9bb389be3ecb64b5d6ef",
-    "topic_label": "Alberta Provincial Referendum on Separatist Mandate",
-    "event_window_start": "2026-10-20T05:50:03.000Z",
-    "event_window_end": "2026-10-20T16:59:06.000Z",
-    "article_ids": [
-      "art_1792519315922_2dg7g",
-      "art_1792480886046_b6c0e",
-      "art_1792480897350_znz1f"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-20T23:13:23.003Z",
-    "updated_at": "2026-10-20T23:13:23.003Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "On Monday, residents of the Canadian province of Alberta participated in a provincial-level vote regarding the initiation of a formal process toward separation from Canada. Official tallies show approximately 76% of voters rejected the proposal, while 23% supported it. Prime Minister Mark Carney characterized the result as a confirmation of national unity. Despite separatist framing of the potential for sovereignty, the physical event was a non-binding ballot measure that concluded without civil unrest or alteration to the current sovereign borders of Canada.",
-    "consensus": [
-      "A referendum was held in Alberta regarding the separation of the province from Canada.",
-      "Early vote counts indicate approximately 76% against and 23% in favor of the proposal.",
-      "Mark Carney remains Prime Minister of Canada following the vote result.",
-      "The ballot was not a direct vote for independence but a decision on starting a formal separation process."
-    ],
-    "divergence": [
-      "BBC frames the event as a rejection of 'separatism' and emphasizes a 'great result for Canada', omitting specific vote percentages.",
-      "Al Jazeera contextualizes the vote within an 'ongoing trade war with the United States', framing the result as a political necessity for the Prime Minister.",
-      "The Guardian highlights the frustration of separatists regarding the ambiguous nature of the ballot question and notes that only one-third of ballots had been counted at the time of their reporting."
-    ],
-    "sources": [
-      {
-        "id": "art_1792519315922_2dg7g",
-        "url": "https://www.bbc.co.uk/news/articles/cxr5yqqd7nlpo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Great result for Canada', says Carney as Alberta votes to reject separatism "
-      },
-      {
-        "id": "art_1792480886046_b6c0e",
-        "url": "https://www.aljazeera.com/news/2026/10/20/alberta-voters-reject-separation-from-canada-early-results-show?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Alberta voters reject separation from Canada, early results show"
-      },
-      {
-        "id": "art_1792480897350_znz1f",
-        "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
-        "source": "guardian",
-        "title": "Alberta voters reject plan for referendum to leave Canada, CBC projects"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
