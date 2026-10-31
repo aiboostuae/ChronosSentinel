@@ -1,5 +1,408 @@
 [
   {
+    "cluster_id": "238dc91db453cd6ea1496d902d9e064c",
+    "topic_label": "Escalation of Yemeni Civil War Kinetic Operations in Taiz and Coastal Sectors",
+    "event_window_start": "2026-10-31T05:48:25.000Z",
+    "event_window_end": "2026-10-31T12:45:49.000Z",
+    "article_ids": [
+      "art_1793453546557_f7udd",
+      "art_1793429534592_7kuke"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T17:44:39.403Z",
+    "updated_at": "2026-10-31T17:44:39.403Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Armed Conflict",
+    "synthesis": "Renewed and intensified kinetic engagement between Yemeni government forces and Houthi insurgent factions has resulted in high-intensity combat operations, specifically concentrated in the Taiz governorate and coastal regions. Reported casualties include thousands of combatants killed or wounded, with the government claiming the neutralization of over 16,000 Houthi personnel since early October. The kinetic escalation has forced the displacement of approximately 290,000 non-combatants, creating a severe humanitarian crisis characterized by the disruption of critical infrastructure and supply chains.",
+    "consensus": [
+      "Renewed military engagements between Yemeni government forces and Houthi fighters have occurred since August.",
+      "Significant military activity is concentrated in the Taiz governorate and coastal areas.",
+      "Casualty counts are in the thousands, involving both military personnel and combatants.",
+      "The conflict has triggered the displacement of approximately 290,000 civilians.",
+      "Infrastructure and service disruptions have led to critical shortages of fuel and food."
+    ],
+    "divergence": [
+      "Al Jazeera’s humanitarian-focused report emphasizes the impact on displaced populations and vulnerable groups (pregnant women) while omitting the specific strategic military objectives of the combatants.",
+      "Al Jazeera’s second report utilizes ideologically charged terminology such as 'martyrs' to describe Houthi fighters, which conflicts with the objective reporting of combatant casualties.",
+      "The Yemeni government-sourced casualty figures (16,100 since Oct 5) are presented as claims, acknowledging the absence of independent verification of the kill-to-wound ratios reported by state forces."
+    ],
+    "sources": [
+      {
+        "id": "art_1793453546557_f7udd",
+        "url": "https://www.aljazeera.com/news/2026/10/31/new-yemen-fighting-displaces-290000-says-un-with-pregnant-women-at-risk?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "New Yemen fighting displaces 290,000, says UN, with pregnant women at risk"
+      },
+      {
+        "id": "art_1793429534592_7kuke",
+        "url": "https://www.aljazeera.com/features/2026/10/31/after-the-martyrs-funeral-the-families-left-behind-by-yemens-war?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "After the ‘martyr’s’ funeral: The families left behind by Yemen’s war"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "75d1d83c36bca1c1422de165c44e0e12",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-31T00:40:43.000Z",
+    "event_window_end": "2026-10-31T13:12:46.000Z",
+    "article_ids": [
+      "art_1793453535136_01zql",
+      "art_1793429540072_mf5sv",
+      "art_1793409150308_dvqcp"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T17:44:39.403Z",
+    "updated_at": "2026-10-31T17:44:39.403Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1793453535136_01zql",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine"
+      },
+      {
+        "id": "art_1793429540072_mf5sv",
+        "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US greenlights $2.1bn Patriot missile sale to Ukraine"
+      },
+      {
+        "id": "art_1793409150308_dvqcp",
+        "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US approves sale of 500 Patriot missiles to Ukraine"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "8c9fc2694cfe444f061f6fbd895e5ded",
+    "topic_label": "Cancellation of G20 Foreign Ministers' Group Photograph",
+    "event_window_start": "2026-10-30T20:13:36.000Z",
+    "event_window_end": "2026-10-31T00:29:28.000Z",
+    "article_ids": [
+      "art_1793409151479_46dj6",
+      "art_1793396321453_4tzjb",
+      "art_1793396325680_8mmd5"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T06:19:38.757Z",
+    "updated_at": "2026-10-31T06:19:38.757Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "United States Secretary of State Marco Rubio cancelled the traditional group photograph session at a G20 foreign ministers' meeting in Atlanta. This action followed a refusal by delegations from the UK, Australia, and various European nations to be photographed in the same frame as Russian Foreign Minister Sergei Lavrov. The event proceeded with scheduled talks despite the diplomatic protest.",
+    "consensus": [
+      "A G20 foreign ministers' meeting is being held in Atlanta, United States.",
+      "US Secretary of State Marco Rubio cancelled the traditional group photograph.",
+      "The cancellation occurred due to refusal by several countries, including the UK and Australia, to appear in a photograph with Russian Foreign Minister Sergei Lavrov.",
+      "Sergei Lavrov is in attendance at the meeting."
+    ],
+    "divergence": [
+      "The Guardian frames the event as a direct boycott orchestrated by a coalition of countries specifically targeting Lavrov's presence.",
+      "Al Jazeera emphasizes the 'deep rifts' within the G20, contextualizing the event within the ongoing wars in Ukraine and Iran.",
+      "The Guardian reports the specific detail that about one-third of the participating countries threatened to boycott, a specific metric absent from the Al Jazeera reports."
+    ],
+    "sources": [
+      {
+        "id": "art_1793409151479_46dj6",
+        "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+        "source": "guardian",
+        "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia"
+      },
+      {
+        "id": "art_1793396321453_4tzjb",
+        "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "G20 drops group photo as Europeans refuse to stand with Lavrov"
+      },
+      {
+        "id": "art_1793396325680_8mmd5",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "771503478ecb90975215c4104251c03a",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-30T20:52:01.000Z",
+    "event_window_end": "2026-10-31T13:20:28.000Z",
+    "article_ids": [
+      "art_1793453531853_9d1jb",
+      "art_1793409154643_tklbu",
+      "art_1793409163106_i2v3t",
+      "art_1793396319340_nvkhn"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T17:44:39.403Z",
+    "updated_at": "2026-10-31T17:44:39.403Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1793453531853_9d1jb",
+        "url": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "France and Germany braced for unrest with hundreds of demonstrations planned – Europe live"
+      },
+      {
+        "id": "art_1793409154643_tklbu",
+        "url": "https://www.aljazeera.com/news/2026/10/31/germany-and-france-brace-for-protests-on-halloween-weekend?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Germany and France brace for protests on Halloween weekend"
+      },
+      {
+        "id": "art_1793409163106_i2v3t",
+        "url": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Polish police deployed to top court after head judge suspended"
+      },
+      {
+        "id": "art_1793396319340_nvkhn",
+        "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Police deployed during stand-off over control of Poland's top court"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "258ca6596df93ceee9c1b46ed3548a91",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-10-30T20:39:50.000Z",
+    "event_window_end": "2026-10-31T13:00:29.000Z",
+    "article_ids": [
+      "art_1793453537257_0em4u",
+      "art_1793453545535_y9vz0",
+      "art_1793429533542_c1c8n",
+      "art_1793429539044_djz4w",
+      "art_1793409152564_9q71c",
+      "art_1793409155701_du5av",
+      "art_1793409161033_e1kdd",
+      "art_1793396312851_oqd8m",
+      "art_1793396315093_prl2r",
+      "art_1793396320418_jjcmr"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 10,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T17:44:39.403Z",
+    "updated_at": "2026-10-31T17:44:39.403Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1793453537257_0em4u",
+        "url": "https://www.foxnews.com/politics/how-follow-2026-election-day-coverage-fox-news-platforms",
+        "source": "fox",
+        "title": "How to follow 2026 Election Day coverage on Fox News platforms"
+      },
+      {
+        "id": "art_1793453545535_y9vz0",
+        "url": "https://www.aljazeera.com/news/2026/10/31/alaskas-two-dan-sullivans-how-common-is-ballot-stacking-does-it-work?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Alaska’s two ‘Dan Sullivans’: How common is ballot stacking, does it work?"
+      },
+      {
+        "id": "art_1793429533542_c1c8n",
+        "url": "https://www.foxnews.com/politics/federal-judge-blocks-trump-doj-threats-against-election-workers-ahead-2026-midterms",
+        "source": "fox",
+        "title": "Federal judge blocks Trump DOJ threats against election workers ahead of 2026 midterms"
+      },
+      {
+        "id": "art_1793429539044_djz4w",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/trump-tells-voters-to-send-el-sayed-back-to-where-he-came?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump tells voters to send El-Sayed ‘back to where he came from’"
+      },
+      {
+        "id": "art_1793409152564_9q71c",
+        "url": "https://www.foxnews.com/media/the-view-co-hosts-agree-democrats-should-not-impeach-trump-party-wins-back-control-congress",
+        "source": "fox",
+        "title": "'The View' co-hosts agree Democrats should not impeach Trump if party wins back control of Congress"
+      },
+      {
+        "id": "art_1793409155701_du5av",
+        "url": "https://www.bbc.co.uk/news/articles/ckq6nz4286r4o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'The necktie is dead': How US midterm candidates are dressing for votes"
+      },
+      {
+        "id": "art_1793409161033_e1kdd",
+        "url": "https://www.foxnews.com/opinion/david-marcus-california-transplants-texas-voting-democrat-see-no-irony",
+        "source": "fox",
+        "title": "DAVID MARCUS: California transplants in Texas are voting Democrat, and they see no irony in it"
+      },
+      {
+        "id": "art_1793396312851_oqd8m",
+        "url": "https://www.foxnews.com/entertainment/nicki-minaj-torches-kathy-hochul-evil-woman-governor-fires-back-trump-jab",
+        "source": "fox",
+        "title": "Nicki Minaj torches Kathy Hochul as 'evil woman,' and the governor fires back with Trump jab"
+      },
+      {
+        "id": "art_1793396315093_prl2r",
+        "url": "https://www.foxnews.com/politics/biscuit-dog-latest-dead-felon-get-voting-rights-back-spanberger-confused-owner-says",
+        "source": "fox",
+        "title": "'Biscuit' the dog is latest dead felon to get their voting rights back from Spanberger, confused owner says"
+      },
+      {
+        "id": "art_1793396320418_jjcmr",
+        "url": "https://www.aljazeera.com/news/2026/10/30/us-appeals-court-again-rejects-trump-bid-to-set-aside-california-ballots?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US appeals court again rejects Trump bid to set aside California ballots"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "365c86b8af04df3d5492fe847a29693e",
+    "topic_label": "UK Diplomatic Engagement and Protests Over Slavery Reparations at Commonwealth Summit",
+    "event_window_start": "2026-10-31T06:00:34.000Z",
+    "event_window_end": "2026-10-31T13:19:23.000Z",
+    "article_ids": [
+      "art_1793453532901_nhm89",
+      "art_1793453534052_ssgx2",
+      "art_1793429529866_qxyyt",
+      "art_1793429531265_taicl",
+      "art_1793429532436_pgf5j"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-10-31T17:44:39.403Z",
+    "updated_at": "2026-10-31T17:44:39.403Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "Ahead of the Commonwealth leaders summit in Antigua and Barbuda, British Prime Minister Andy Burnham announced openness to formal state discussions regarding an official apology for the UK role in the transatlantic slave trade, while explicitly excluding financial reparations. Activist groups in St John's prepared public demonstrations, billboards, and vigils demanding formal redress and state apologies from both Prime Minister Burnham and King Charles. Simultaneously, secondary domestic and foreign policy commentary emerged, including former Prime Minister Keir Starmer advocating closer UK-European security ties and UK ministers reviewing noise regulations on consumer pyrotechnics.",
+    "consensus": [
+      "Andy Burnham stated openness to formal talks regarding an official British state apology for transatlantic slavery.",
+      "The UK government ruled out financial reparations in connection with the transatlantic slave trade.",
+      "Protests and demonstrations demanding reparations and state apologies were organized to coincide with the Commonwealth summit in Antigua and Barbuda."
+    ],
+    "divergence": [
+      "Al Jazeera emphasized official statements from Andy Burnham regarding formal talks on state apologies.",
+      "The Guardian detailed specific activist messaging, placards, and local organizers targeting King Charles and Prime Minister Burnham directly in Antigua.",
+      "The Guardian additionally reported on separate, unrelated topics including Keir Starmer's foreign policy speech, London prime real estate price drops, and UK domestic firework regulations."
+    ],
+    "sources": [
+      {
+        "id": "art_1793453532901_nhm89",
+        "url": "https://www.aljazeera.com/news/2026/10/31/burnham-opens-door-to-formal-apology-for-britains-slave-trade?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Burnham opens door to formal apology for Britain’s slave trade"
+      },
+      {
+        "id": "art_1793453534052_ssgx2",
+        "url": "https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump",
+        "source": "guardian",
+        "title": "Starmer says UK must get closer to Europe as US relationship changes"
+      },
+      {
+        "id": "art_1793429529866_qxyyt",
+        "url": "https://www.theguardian.com/money/2026/oct/31/homes-london-poshest-neighbourhoods-sell-below-asking-price-coutts",
+        "source": "guardian",
+        "title": "Eight in 10 homes in London’s poshest postcodes now sell below asking price, Coutts finds"
+      },
+      {
+        "id": "art_1793429531265_taicl",
+        "url": "https://www.theguardian.com/world/2026/oct/31/protests-expected-king-charles-reparations-slave-trade-commonwealth-summit-antigua",
+        "source": "guardian",
+        "title": "‘Reparations now’: King and Burnham face protests at Antigua Commonwealth summit"
+      },
+      {
+        "id": "art_1793429532436_pgf5j",
+        "url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/fireworks-uk-consultation-campaigners-noise-animal-welfare",
+        "source": "guardian",
+        "title": "Is time up for backyard fireworks? UK ministers weigh partial ban over noise concerns"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "64c68ae7512a69585280512ec367ee14",
     "topic_label": "Severe Australian Meteorological Cold Front and Global Civil Protests",
     "event_window_start": "2026-10-31T06:00:37.000Z",
@@ -70,65 +473,6 @@
       }
     ],
     "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "8c9fc2694cfe444f061f6fbd895e5ded",
-    "topic_label": "Cancellation of G20 Foreign Ministers' Group Photograph",
-    "event_window_start": "2026-10-30T20:13:36.000Z",
-    "event_window_end": "2026-10-31T00:29:28.000Z",
-    "article_ids": [
-      "art_1793409151479_46dj6",
-      "art_1793396321453_4tzjb",
-      "art_1793396325680_8mmd5"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T06:19:38.757Z",
-    "updated_at": "2026-10-31T06:19:38.757Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "United States Secretary of State Marco Rubio cancelled the traditional group photograph session at a G20 foreign ministers' meeting in Atlanta. This action followed a refusal by delegations from the UK, Australia, and various European nations to be photographed in the same frame as Russian Foreign Minister Sergei Lavrov. The event proceeded with scheduled talks despite the diplomatic protest.",
-    "consensus": [
-      "A G20 foreign ministers' meeting is being held in Atlanta, United States.",
-      "US Secretary of State Marco Rubio cancelled the traditional group photograph.",
-      "The cancellation occurred due to refusal by several countries, including the UK and Australia, to appear in a photograph with Russian Foreign Minister Sergei Lavrov.",
-      "Sergei Lavrov is in attendance at the meeting."
-    ],
-    "divergence": [
-      "The Guardian frames the event as a direct boycott orchestrated by a coalition of countries specifically targeting Lavrov's presence.",
-      "Al Jazeera emphasizes the 'deep rifts' within the G20, contextualizing the event within the ongoing wars in Ukraine and Iran.",
-      "The Guardian reports the specific detail that about one-third of the participating countries threatened to boycott, a specific metric absent from the Al Jazeera reports."
-    ],
-    "sources": [
-      {
-        "id": "art_1793409151479_46dj6",
-        "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
-        "source": "guardian",
-        "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia"
-      },
-      {
-        "id": "art_1793396321453_4tzjb",
-        "url": "https://www.aljazeera.com/news/2026/10/30/g20-drops-group-photo-as-europeans-refuse-to-stand-with-lavrov?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "G20 drops group photo as Europeans refuse to stand with Lavrov"
-      },
-      {
-        "id": "art_1793396325680_8mmd5",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rubio hosts G20 talks as Russia’s Lavrov presence sparks tensions"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   },
   {
     "cluster_id": "840ca8dbd79205a755967275b5e1534e",
@@ -13149,433 +13493,6 @@
         "url": "https://www.aljazeera.com/opinions/2026/10/20/southeast-asias-haze-crisis-will-persist-until-polluters-pay?traffic_source=rss",
         "source": "aljazeera",
         "title": "Southeast Asia’s haze crisis will persist until polluters pay"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fbc148cb14bba6124ee1c4eee69ac967",
-    "topic_label": "Escalation of Russian Kinetic Targeting of Black Sea Maritime Assets and Orbital Assets",
-    "event_window_start": "2026-10-20T06:23:44.000Z",
-    "event_window_end": "2026-10-20T21:27:39.000Z",
-    "article_ids": [
-      "art_1792531710081_1g4w9",
-      "art_1792519301406_fs0tg",
-      "art_1792519304901_x6ceu",
-      "art_1792501674933_knawr",
-      "art_1792501678083_hwgzm",
-      "art_1792480892881_mcig4"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-20T23:13:23.003Z",
-    "updated_at": "2026-10-20T23:13:23.003Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Maritime and Space Warfare",
-    "synthesis": "Russian forces have executed a multi-domain escalation, conducting direct kinetic strikes against five merchant vessels carrying agricultural cargo in the ports of Reni and near Odesa, triggering high-risk insurance reclassifications across the Black Sea. Simultaneously, the Russian military satellite Cosmos 2612 executed close-proximity maneuvering, approaching the ICEYE-X36 radar surveillance satellite used by Ukraine to within 500 meters, representing an active threat to space-based intelligence infrastructure. These actions coincide with ongoing political friction regarding US intelligence sharing, Russian diesel procurement, and the suspension of US sanctions, currently destabilizing the strategic operational environment in the Black Sea and near-Earth orbit.",
-    "consensus": [
-      "Russian military forces targeted five cargo vessels near the Ukrainian ports of Reni and Odesa.",
-      "Russian satellite Cosmos 2612 performed a proximity maneuver within 500 meters of the US-linked ICEYE-X36 satellite.",
-      "The London shipping insurance market has expanded high-risk designations across the Black Sea.",
-      "President Zelensky conducted talks in Oslo with US envoy Steve Witkoff regarding intelligence sharing and potential peace proposals."
-    ],
-    "divergence": [
-      "The Guardian frames the maritime attacks as 'mounting anxiety' and an escalation near NATO borders, whereas the BBC focuses on the diplomatic negotiations between Zelensky and US envoys.",
-      "BBC reports Zelensky's claim that US intelligence sharing 'works now,' while the same outlet notes prior Ukrainian allegations that US withholding of intelligence led to fatalities, which Secretary of State Rubio labeled as 'scandalous.'",
-      "Al Jazeera focuses on the technical aspects of space-based stalking, while other sources prioritize the diplomatic fallout and maritime impacts.",
-      "The Guardian highlights internal Republican dissent regarding Trump's policy shifts, specifically the diesel procurement and sanctions pause, which is entirely omitted from the BBC and Al Jazeera reports on the Oslo summit."
-    ],
-    "sources": [
-      {
-        "id": "art_1792531710081_1g4w9",
-        "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Zelensky says US intelligence sharing 'works now' after talks with Trump envoy in Oslo"
-      },
-      {
-        "id": "art_1792519301406_fs0tg",
-        "url": "https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships",
-        "source": "guardian",
-        "title": "Nato increases Black Sea deployment amid escalating deadly Russian attacks"
-      },
-      {
-        "id": "art_1792519304901_x6ceu",
-        "url": "https://www.theguardian.com/us-news/2026/oct/20/republicans-push-back-trump-ukraine-russia",
-        "source": "guardian",
-        "title": "Republicans push back on Donald Trump’s wavering support for Ukraine"
-      },
-      {
-        "id": "art_1792501674933_knawr",
-        "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Zelensky prepares for Oslo talks with US envoys as Rubio denies withholding intelligence"
-      },
-      {
-        "id": "art_1792501678083_hwgzm",
-        "url": "https://www.aljazeera.com/news/2026/10/20/is-russia-stalking-satellites-which-help-ukraine-from-space?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is Russia stalking satellites which help Ukraine from space?"
-      },
-      {
-        "id": "art_1792480892881_mcig4",
-        "url": "https://www.aljazeera.com/news/2026/10/20/us-ukraine-relations-sour-as-trump-zelenskyy-clash-over-talks-arms?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US-Ukraine relations sour as Trump, Zelenskyy clash over talks, arms"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "09ed4322355a9a01983ac5c180547b9d",
-    "topic_label": "Escalation of Kinetic Hostilities and Humanitarian Crisis in Gaza and the West Bank",
-    "event_window_start": "2026-10-20T05:25:31.000Z",
-    "event_window_end": "2026-10-20T16:59:55.000Z",
-    "article_ids": [
-      "art_1792519314823_rio4s",
-      "art_1792480893977_5210v",
-      "art_1792480899446_na97n"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-21T01:26:52.555Z",
-    "updated_at": "2026-10-21T01:26:52.555Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Military Operations and Civil Unrest",
-    "synthesis": "The physical reality involves ongoing Israeli military strikes within Gaza and a surge in kinetic violence in the occupied West Bank, where over 200 documented assaults by Israeli settlers on Palestinian farmers have resulted in at least one fatality and over 120 injuries since September 1. Simultaneously, the cessation of food aid funding is physically impacting 500,000 individuals, while political instability is marked by an upcoming Knesset election on October 27 amidst accusations of genocide and ongoing regional wars. The infrastructure of food distribution is failing under the dual pressure of kinetic combat and fiscal withdrawal, and settler violence is causing widespread physical damage to agricultural assets.",
-    "consensus": [
-      "Israeli military strikes are occurring within Gaza.",
-      "More than 500,000 Palestinians face a loss of food aid due to funding shortages.",
-      "Over 200 attacks by Israeli settlers against Palestinian farmers have been documented by the UN OCHA since September 1.",
-      "The 26th Knesset elections are scheduled for October 27.",
-      "Settler-led violence has caused at least one fatality and over 120 injuries to Palestinians."
-    ],
-    "divergence": [
-      "Al Jazeera explicitly characterizes Israeli actions in Gaza as 'genocide', a framing terminology not supported by neutral kinetic assessment.",
-      "Al Jazeera characterizes the regional military actions as 'wars on Lebanon and Iran', whereas other institutional sources may classify these as 'limited military engagements' or 'border security operations'.",
-      "Al Jazeera frames the settler activities as 'pogroms' and 'thefts', while institutional Israeli narratives typically frame these as 'localized security incidents' or 'civil unrest'."
-    ],
-    "sources": [
-      {
-        "id": "art_1792519314823_rio4s",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/jerusalem-daily-half-a-million-palestinians-lose-food-aid?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "JERUSALEM DAILY: Half a million Palestinians lose food aid"
-      },
-      {
-        "id": "art_1792480893977_5210v",
-        "url": "https://www.aljazeera.com/news/2026/10/20/palestine-weekly-israeli-settlers-attack-journalist-and-diplomats?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestine weekly: Israeli settlers attack journalist and diplomats"
-      },
-      {
-        "id": "art_1792480899446_na97n",
-        "url": "https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s elections 2026 explained in maps and charts"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e006a79c13678839467bbbbab7c44615",
-    "topic_label": "US Executive Branch Legal and Administrative Actions and Federal Investigations",
-    "event_window_start": "2026-10-20T00:18:48.000Z",
-    "event_window_end": "2026-10-20T21:19:12.000Z",
-    "article_ids": [
-      "art_1792531711205_rdh6n",
-      "art_1792531714766_ggdzq",
-      "art_1792531719054_86uhf",
-      "art_1792531725631_22thr",
-      "art_1792501663316_ej034",
-      "art_1792501664523_yep4h",
-      "art_1792501665775_ym2qw",
-      "art_1792480884874_ttzmt",
-      "art_1792460789400_tcsnd",
-      "art_1792460799330_wiuj7"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 10,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-20T23:13:23.003Z",
-    "updated_at": "2026-10-20T23:13:23.003Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "Diplomacy/Infrastructure/Legal",
-    "synthesis": "The US executive branch is currently executing a multi-front legal and policy agenda involving international trade levies, federal criminal investigations into local judicial officials, and the implementation of a new reward-based fraud reporting program. President Trump has imposed 50 percent tariffs on Canadian imports, prompting litigation from private firms regarding executive authority. Concurrently, the Department of Justice has issued grand jury subpoenas to the Philadelphia District Attorney for alleged obstruction of justice. Domestically, the administration is establishing an anti-fraud whistleblower program with the President acting as an arbiter, while political rhetoric regarding the deportation and incarceration of opposition lawmakers continues in parallel to ongoing midterm election cycles.",
-    "consensus": [
-      "President Trump announced a new Department of Justice fraud whistleblower program.",
-      "Gellert Global Group initiated a lawsuit against US tariffs on Canadian goods.",
-      "The Department of Justice issued grand jury subpoenas to the Philadelphia District Attorney.",
-      "President Trump expressed views on the potential legal consequences for Representative Ilhan Omar."
-    ],
-    "divergence": [
-      "Fox News frames the subpoena of DA Larry Krasner through the perspective of conservative legal analysts (Heritage Foundation) characterizing him as 'far-left'.",
-      "Al Jazeera frames the tariff lawsuit as a matter of executive legal overreach versus congressional authority.",
-      "The Guardian focuses on the procedural concerns and implications of the President acting as 'arbitrator' in federal whistleblower reward disputes."
-    ],
-    "sources": [
-      {
-        "id": "art_1792531711205_rdh6n",
-        "url": "https://www.aljazeera.com/economy/2026/10/20/us-food-importer-sues-trump-over-50-percent-tariffs-on-canadian-goods?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US food importer sues Trump over 50 percent tariffs on Canadian goods"
-      },
-      {
-        "id": "art_1792531714766_ggdzq",
-        "url": "https://www.foxnews.com/politics/trump-says-ilhan-omar-could-go-jail-deported-calls-her-a-disgrace-our-country",
-        "source": "fox",
-        "title": "Trump says Ilhan Omar could go to jail or be deported, calls her ‘a disgrace to our country’"
-      },
-      {
-        "id": "art_1792531719054_86uhf",
-        "url": "https://www.aljazeera.com/news/2026/10/20/why-do-the-us-midterms-matter-for-trump-and-congress?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Why do the US midterms matter for Trump and Congress?"
-      },
-      {
-        "id": "art_1792531725631_22thr",
-        "url": "https://www.theguardian.com/us-news/2026/oct/20/trump-doj-anti-fraud-tip",
-        "source": "guardian",
-        "title": "Trump suggests he could be ‘arbitrator’ in DoJ anti-fraud whistleblower scheme"
-      },
-      {
-        "id": "art_1792501663316_ej034",
-        "url": "https://www.foxnews.com/politics/doj-sends-grand-jury-subpoenas-philadelphia-da-krasner-after-judges-referral-sources-say",
-        "source": "fox",
-        "title": "DOJ sends grand jury subpoenas to Philadelphia DA Krasner after judge's referral, sources say"
-      },
-      {
-        "id": "art_1792501664523_yep4h",
-        "url": "https://www.theguardian.com/us-news/2026/oct/20/abdul-el-sayed-heckler",
-        "source": "guardian",
-        "title": "Michigan heckler the son of Republican adviser paid for ‘influencer marketing’ against El-Sayed"
-      },
-      {
-        "id": "art_1792501665775_ym2qw",
-        "url": "https://www.theguardian.com/us-news/live/2026/oct/20/donald-trump-midterms-republicans-democrats-north-carolina-latest-updates",
-        "source": "guardian",
-        "title": "Trump continues midterm campaign blitz in North Carolina – US politics live"
-      },
-      {
-        "id": "art_1792480884874_ttzmt",
-        "url": "https://www.foxnews.com/opinion/senate-republicans-might-survive-blue-thunderstorm-uh-i-think",
-        "source": "fox",
-        "title": "Senate Republicans might survive the blue thunderstorm. Uh, I think."
-      },
-      {
-        "id": "art_1792460789400_tcsnd",
-        "url": "https://www.foxnews.com/media/elissa-slotkin-calls-backlash-threat-prosecution-comments-manufactured-outrage",
-        "source": "fox",
-        "title": "Elissa Slotkin calls backlash to threat of prosecution comments 'manufactured outrage'"
-      },
-      {
-        "id": "art_1792460799330_wiuj7",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/release-epstein-files-protester-interrupts-jd-vances-speech?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘Release Epstein files’, protester interrupts JD Vance’s speech"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "675ab68430fdc7702850bf8f38286967",
-    "topic_label": "Nationwide Civil Unrest and Rioting in France",
-    "event_window_start": "2026-10-20T00:43:15.000Z",
-    "event_window_end": "2026-10-20T20:49:00.000Z",
-    "article_ids": [
-      "art_1792531724458_hzaq9",
-      "art_1792501675983_7ft07",
-      "art_1792501677047_kzerf",
-      "art_1792480887227_bbjn2",
-      "art_1792460796119_lfqzl"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-20T23:13:23.003Z",
-    "updated_at": "2026-10-20T23:13:23.003Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Civil Unrest",
-    "synthesis": "France is experiencing widespread kinetic civil disorder triggered by protests over cost of living and education policy. Physical manifestations include systematic looting of over 500 businesses in Marseille, extensive arson, and direct physical confrontations between masked groups and state security forces. Official reporting confirms over 2,500 arrests nationwide and 118 police injuries in Marseille alone. The state has responded by deploying security forces, implementing localized curfews in major cities including Paris, Marseille, Bordeaux, and Lyon, and imposing movement restrictions on youth populations to regain territorial control over urban centers.",
-    "consensus": [
-      "Widespread civil unrest occurred across multiple French cities over the weekend.",
-      "Protests were initially driven by education policy and cost-of-living concerns.",
-      "The events resulted in widespread arson, looting of private property, and physical clashes with law enforcement.",
-      "The French government has responded by imposing localized curfews and movement restrictions.",
-      "Over 2,500 arrests have been made nationwide."
-    ],
-    "divergence": [
-      "Al Jazeera frames the events primarily through the lens of student protests and social policy, while omitting the specific scale of property destruction detailed by other sources.",
-      "BBC characterizes the violence as 'apocalyptic' and emphasizes the police perspective regarding the intensity of the urban combat.",
-      "Fox News focuses on the rhetoric of public figures and personal condemnation of rioters, framing the events as 'street warfare' and emphasizing the national origin of the rioters.",
-      "Al Jazeera downplays the scale of destruction compared to the BBC's report on the 500 damaged premises in Marseille."
-    ],
-    "sources": [
-      {
-        "id": "art_1792531724458_hzaq9",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/psg-and-barcelona-fans-divided-over-politics-in-football-amid-paris-riots?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "PSG and Barcelona fans divided over politics in football amid Paris riots"
-      },
-      {
-        "id": "art_1792501675983_7ft07",
-        "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder"
-      },
-      {
-        "id": "art_1792501677047_kzerf",
-        "url": "https://www.aljazeera.com/news/2026/10/20/france-to-impose-new-curfews-where-required-after-calm-night?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "France PM promises more curfews as authorities seek to regain control"
-      },
-      {
-        "id": "art_1792480887227_bbjn2",
-        "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "French cities calm overnight after curfews imposed to quell violence, PM says"
-      },
-      {
-        "id": "art_1792460796119_lfqzl",
-        "url": "https://www.foxnews.com/outkick-sports/french-soccer-icon-emmanuel-petit-condemns-arson-looting-warns-macron-protect-honest-citizens",
-        "source": "fox",
-        "title": "French soccer icon Emmanuel Petit condemns arson and looting, warns Macron to 'protect honest citizens'"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "46e23d0267f397424ac7dc4a8ff1ab40",
-    "topic_label": "US-Israel War on Iran and Regional Escalation",
-    "event_window_start": "2026-10-20T00:08:01.000Z",
-    "event_window_end": "2026-10-20T17:22:05.000Z",
-    "article_ids": [
-      "art_1792519309355_hbbj0",
-      "art_1792519314823_rio4s",
-      "art_1792501672691_mt2c9",
-      "art_1792480893977_5210v",
-      "art_1792480899446_na97n",
-      "art_1792460791817_yya6r",
-      "art_1792460795085_8bm9w",
-      "art_1792460800389_wqa16",
-      "art_1792460802517_gyuul"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-20T23:13:23.003Z",
-    "updated_at": "2026-10-20T23:13:23.003Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic",
-    "synthesis": "The ongoing regional conflict involves an active US-led naval blockade of Iranian southern ports and sustained kinetic military strikes against Iranian infrastructure. These actions have effectively blocked $25 billion in crude oil exports, resulting in documented financial insolvency within the IRGC's regional proxy networks. Simultaneously, the escalation has destabilized energy supply chains, prompting French diplomatic maneuvers in the Gulf to secure alternate fuel sources. Within the theater of operations, high-intensity kinetic engagements include Israeli military strikes in Gaza and systemic settler violence in the occupied West Bank, coinciding with upcoming Israeli general elections.",
-    "consensus": [
-      "A naval blockade of Iranian ports is being enforced by US military assets.",
-      "Iran is experiencing documented financial shortfalls impacting military and proxy funding.",
-      "France is actively conducting diplomatic outreach to Gulf nations to secure energy supplies.",
-      "Israel is engaged in sustained military operations in Gaza and the West Bank."
-    ],
-    "divergence": [
-      "Al Jazeera characterizes the regional conflict explicitly as a 'US-Israel war on Iran,' whereas Western-aligned narratives often frame these as 'targeted sanctions' and 'security operations'.",
-      "Al Jazeera frames the situation in the West Bank as 'settler pogroms' and 'genocide,' while standard diplomatic discourse avoids these terms, opting for 'civil unrest' or 'internal security challenges'.",
-      "US CENTCOM sources emphasize the 'prevention' of financial assets, while Iranian authorities minimize the efficacy of the blockade, labeling it as temporary financial strain rather than a systemic collapse."
-    ],
-    "sources": [
-      {
-        "id": "art_1792519309355_hbbj0",
-        "url": "https://www.aljazeera.com/news/2026/10/20/as-macron-visits-gulf-can-france-forge-its-own-energy-for-security-future?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "As Macron visits Gulf, can France forge its own energy-for-security future?"
-      },
-      {
-        "id": "art_1792519314823_rio4s",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/jerusalem-daily-half-a-million-palestinians-lose-food-aid?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "JERUSALEM DAILY: Half a million Palestinians lose food aid"
-      },
-      {
-        "id": "art_1792501672691_mt2c9",
-        "url": "https://www.aljazeera.com/news/2026/10/20/iran-denies-collapse-is-close-as-us-claims-irgc-running-out-of-money?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran denies collapse is close as US claims IRGC running out of money"
-      },
-      {
-        "id": "art_1792480893977_5210v",
-        "url": "https://www.aljazeera.com/news/2026/10/20/palestine-weekly-israeli-settlers-attack-journalist-and-diplomats?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestine weekly: Israeli settlers attack journalist and diplomats"
-      },
-      {
-        "id": "art_1792480899446_na97n",
-        "url": "https://www.aljazeera.com/news/2026/10/20/israels-elections-2026-explained-in-maps-and-charts?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s elections 2026 explained in maps and charts"
-      },
-      {
-        "id": "art_1792460791817_yya6r",
-        "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks"
-      },
-      {
-        "id": "art_1792460795085_8bm9w",
-        "url": "https://www.foxnews.com/politics/jd-vance-declines-endorse-netanyahu-despite-trumps-strong-backing",
-        "source": "fox",
-        "title": "JD Vance declines to endorse Netanyahu despite Trump's strong backing"
-      },
-      {
-        "id": "art_1792460800389_wqa16",
-        "url": "https://www.aljazeera.com/news/2026/10/20/rashida-tlaib-demands-arrest-of-israeli-soldier-linked-to-hind-rajab-death?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rashida Tlaib demands arrest of Israeli soldier linked to Hind Rajab death"
-      },
-      {
-        "id": "art_1792460802517_gyuul",
-        "url": "https://www.aljazeera.com/news/2026/10/20/hegseth-meets-netanyahu-in-unannounced-israel-visit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hegseth meets Netanyahu in unannounced Israel visit"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
