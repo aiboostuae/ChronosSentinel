@@ -1,10 +1,51 @@
 {
-  "generated_at": "2026-11-02T07:29:43.706Z",
+  "generated_at": "2026-11-03T05:50:50.099Z",
   "status": "healthy",
   "clusters_count": 200,
-  "impact_count": 158,
+  "impact_count": 159,
   "watchlist_count": 3,
   "latest_clusters": [
+    {
+      "cluster_id": "66aca235c1083d236961f1a7d2b0673b",
+      "topic_label": "Fatal Learjet 60 In-Flight Breakup and Crash in Florida",
+      "event_window_start": "2026-11-02T23:37:31.000Z",
+      "event_window_end": "2026-11-03T00:08:14.000Z",
+      "article_count": 5,
+      "source_count": 3,
+      "region_tag": "global",
+      "shared_facts": [],
+      "source_differences": [],
+      "synthesis": "A Learjet 60 private aircraft traveling from Austin, Texas, to the Bahamas suffered a catastrophic in-flight breakup, nose-dived, and exploded upon impact on a public street nine miles from Mar-a-Lago in Florida, killing all nine occupants on board. The National Transportation Safety Board (NTSB) is actively investigating physical structural failure prior to impact alongside weather telemetry, including severe turbulence and atmospheric icing, following flight crew radio transmissions to air traffic control.",
+      "confidence": "",
+      "sources": [
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+          "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators "
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+          "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace"
+        },
+        {
+          "source": "guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
+          "title": "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – live"
+        },
+        {
+          "source": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+          "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific"
+        },
+        {
+          "source": "bbc",
+          "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+          "title": "Legal challenge to Australia's social media ban to start in High Court"
+        }
+      ],
+      "updated_at": "2026-11-03T05:50:22.384Z"
+    },
     {
       "cluster_id": "358a9d93085260f387ef9c864fcc747d",
       "topic_label": "Criminal Conviction of Stephen Yaxley-Lennon",
@@ -293,40 +334,28 @@
         }
       ],
       "updated_at": "2026-11-01T17:15:44.278Z"
-    },
-    {
-      "cluster_id": "e66be3914c91f47baf119b36b2bda048",
-      "topic_label": "Black Sea Maritime Kinetic Engagement and Oleshky Civilian Extraction",
-      "event_window_start": "2026-10-31T20:09:18.000Z",
-      "event_window_end": "2026-11-01T10:57:45.000Z",
-      "article_count": 3,
-      "source_count": 1,
-      "region_tag": "middle-east",
-      "shared_facts": [],
-      "source_differences": [],
-      "synthesis": "The Black Sea region is experiencing sustained kinetic activity characterized by drone strikes against merchant vessels, disrupting civilian maritime commerce. Concurrently, a localized six-day humanitarian ceasefire has been established in the Russian-occupied town of Oleshky, facilitating the extraction of starved civilian populations across the Chernihiv border. Diplomatic efforts involving Turkish, Ukrainian, and US officials are currently centered on establishing a secure grain and energy corridor to mitigate the impact of ongoing maritime combat operations.",
-      "confidence": "",
-      "sources": [
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarians-vote-in-presidential-run-off-amid-black-sea-tensions?traffic_source=rss",
-          "title": "Bulgarians vote in presidential run-off amid Black Sea tensions"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss",
-          "title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family"
-        },
-        {
-          "source": "aljazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/31/turkiyes-erdogan-urges-russia-and-ukraine-to-stop-black-sea-attacks?traffic_source=rss",
-          "title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks"
-        }
-      ],
-      "updated_at": "2026-11-01T17:15:44.278Z"
     }
   ],
   "latest_impact": [
+    {
+      "id": "impact-66aca235",
+      "title": "Fatal Learjet 60 In-Flight Breakup and Crash in Florida",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "shipping"
+      ],
+      "why_it_matters": "A Learjet 60 private aircraft traveling from Austin, Texas, to the Bahamas suffered a catastrophic in-flight breakup, nose-dived, and exploded upon impact on a public street nine miles from Mar-a-Lago in Florida, killing all nine occupants on board. The National Transportation Safety Board (NTSB) is actively investigating physical structural failure prior to impact alongside weather telemetry, including severe turbulence and atmospheric icing, following flight crew radio transmissions to air traffic control.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "66aca235c1083d236961f1a7d2b0673b",
+      "related_watchlist_id": null,
+      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
+      "updated_at": "2026-11-03T05:50:22.384Z"
+    },
     {
       "id": "impact-bc3a0a4b",
       "title": "US Political Polarization and Congressional Candidate Public Association Analysis",
@@ -511,26 +540,6 @@
       "related_cluster_id": "ff9a4d72888441a09e50bb0b6539ffdc",
       "related_watchlist_id": null,
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-11-01T11:14:05.162Z"
-    },
-    {
-      "id": "impact-cff6e182",
-      "title": "Evacuation of Civilians from Oleshky via Negotiated Ceasefire",
-      "severity": "critical",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "disaster",
-        "shipping"
-      ],
-      "why_it_matters": "A coordinated civilian evacuation occurred involving residents of the Russian-occupied town of Oleshky. The physical transit route spanned Russian-controlled territory, involving travel through Crimea to southern Russia, followed by air transport to Gomel, Belarus, and subsequent ground crossing into the Chernihiv region of Ukraine. The operation was facilitated by a localized six-day ceasefire. Current status indicates the successfully transferred individuals are now under Ukrainian jurisdiction receiving state assistance.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "cff6e182f14accf4ad20418d0354c063",
-      "related_watchlist_id": "watch-003",
-      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-11-01T11:14:05.162Z"
     }
   ]

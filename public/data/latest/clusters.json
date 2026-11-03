@@ -1,5 +1,77 @@
 [
   {
+    "cluster_id": "66aca235c1083d236961f1a7d2b0673b",
+    "topic_label": "Fatal Learjet 60 In-Flight Breakup and Crash in Florida",
+    "event_window_start": "2026-11-02T23:37:31.000Z",
+    "event_window_end": "2026-11-03T00:08:14.000Z",
+    "article_ids": [
+      "art_1793664973451_n3bmw",
+      "art_1793664974499_2nkcj",
+      "art_1793664975891_805rx",
+      "art_1793664976930_yut4k",
+      "art_1793664977963_wva0n"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-03T05:50:22.384Z",
+    "updated_at": "2026-11-03T05:50:22.384Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Aviation",
+    "synthesis": "A Learjet 60 private aircraft traveling from Austin, Texas, to the Bahamas suffered a catastrophic in-flight breakup, nose-dived, and exploded upon impact on a public street nine miles from Mar-a-Lago in Florida, killing all nine occupants on board. The National Transportation Safety Board (NTSB) is actively investigating physical structural failure prior to impact alongside weather telemetry, including severe turbulence and atmospheric icing, following flight crew radio transmissions to air traffic control.",
+    "consensus": [
+      "A Learjet 60 carrying nine people crashed on a street nine miles from the Mar-a-Lago resort in Florida.",
+      "All nine individuals on board, including the tech entrepreneur, family members, and the 20-year-old copilot, were killed.",
+      "The aircraft was en route from Austin, Texas, to the Bahamas.",
+      "The NTSB initiated an investigation focusing on potential mid-air structural detachment, icing, and turbulence."
+    ],
+    "divergence": [
+      "BBC focuses on kinetic details including potential pre-impact structural breakup, atmospheric conditions, and proximity to Mar-a-Lago, whereas non-reporting sources in the feed completely omit the incident to cover electoral litigation, military rehearsals in Poland, trade tariffs, and Australian social media regulation."
+    ],
+    "sources": [
+      {
+        "id": "art_1793664973451_n3bmw",
+        "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators "
+      },
+      {
+        "id": "art_1793664974499_2nkcj",
+        "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace"
+      },
+      {
+        "id": "art_1793664975891_805rx",
+        "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – live"
+      },
+      {
+        "id": "art_1793664976930_yut4k",
+        "url": "https://www.aljazeera.com/news/2026/11/2/war-tariffs-and-china-what-the-us-midterms-mean-for-the-asia-pacific?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "War, tariffs and China: What the US midterms mean for the Asia-Pacific"
+      },
+      {
+        "id": "art_1793664977963_wva0n",
+        "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Legal challenge to Australia's social media ban to start in High Court"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
     "cluster_id": "358a9d93085260f387ef9c864fcc747d",
     "topic_label": "Criminal Conviction of Stephen Yaxley-Lennon",
     "event_window_start": "2026-11-01T11:00:09.000Z",
@@ -13597,68 +13669,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/farmers-blocked-from-olive-harvest-in-occ-west-bank-volunteers-detained?traffic_source=rss",
         "source": "aljazeera",
         "title": "Farmers blocked from olive harvest in occ. West Bank, volunteers detained"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "b24b71cfcb9a03f7394363e699849b98",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-21T18:58:29.000Z",
-    "event_window_end": "2026-10-22T06:06:28.000Z",
-    "article_ids": [
-      "art_1792651009743_1b93o",
-      "art_1792632297578_kemx5",
-      "art_1792632308101_klmbc",
-      "art_1792610550837_zivwp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-22T18:40:41.865Z",
-    "updated_at": "2026-10-22T18:40:41.865Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1792651009743_1b93o",
-        "url": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Cookies and weapons: Women in Yemen’s Taiz find ways to help the city’s defence"
-      },
-      {
-        "id": "art_1792632297578_kemx5",
-        "url": "https://www.theguardian.com/world/2026/oct/22/us-diplomats-told-to-leave-saudi-arabia-amid-houthi-attacks",
-        "source": "guardian",
-        "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks"
-      },
-      {
-        "id": "art_1792632308101_klmbc",
-        "url": "https://www.foxnews.com/travel/travelers-hot-spot-warned-state-department-officials-deny-wider-gulf-shutdown",
-        "source": "fox",
-        "title": "Travelers to hot spot sternly warned by State Department as officials deny wider Gulf shutdown"
-      },
-      {
-        "id": "art_1792610550837_zivwp",
-        "url": "https://www.aljazeera.com/news/2026/10/21/iran-determined-to-keep-uranium-amid-increased-war-odds-flurry-of-meetings?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran determined to keep uranium amid increased war odds, flurry of meetings"
       }
     ],
     "model_used": "deterministic-fallback"
