@@ -1,5 +1,77 @@
 [
   {
+    "cluster_id": "3d5aeba78550e7f06ee599eeeff76ecc",
+    "topic_label": "Synchronized Bomb Threats Against Commercial Aviation Across Europe",
+    "event_window_start": "2026-11-03T14:00:46.000Z",
+    "event_window_end": "2026-11-03T14:13:51.000Z",
+    "article_ids": [
+      "art_1793715492090_4ha0c",
+      "art_1793715493291_yr5oh",
+      "art_1793715494456_w6kzj",
+      "art_1793715495582_zype3",
+      "art_1793715496740_tq1pv"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-03T20:30:50.651Z",
+    "updated_at": "2026-11-03T20:30:50.651Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Aviation",
+    "synthesis": "At least four commercial aircraft arriving in Poland, Bulgaria, and Spain from origins in the UK, Denmark, and Israel were subjected to coordinated bomb threats. These communications triggered emergency security protocols for each flight, resulting in diversions or forced landings for inspection by local security forces. While all aircraft landed without further kinetic impact, the high-frequency nature of these simultaneous threats against multiple international carriers constitutes a critical disruption of civilian airspace security.",
+    "consensus": [
+      "At least four commercial flights were targeted by bomb threats.",
+      "Affected flights were operating routes across Europe including departures from the UK, Denmark, and Israel.",
+      "All aircraft involved landed safely.",
+      "Security services are actively inspecting the aircraft."
+    ],
+    "divergence": [
+      "The Guardian frames the event as 'false bomb threats' and notes it as 'highly unusual', while minimizing the immediate impact by focusing on the safe landings and the broader context of other global political events.",
+      "The Guardian omits specific carrier flight numbers or details on the mechanism used to transmit the threats, preferring to categorize the event as a series of alerts rather than a deliberate, synchronized campaign of airborne disruption."
+    ],
+    "sources": [
+      {
+        "id": "art_1793715492090_4ha0c",
+        "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
+        "source": "guardian",
+        "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda"
+      },
+      {
+        "id": "art_1793715493291_yr5oh",
+        "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
+        "source": "guardian",
+        "title": "Four separate flights from London, Copenhagen, Manchester and Israel affected by bomb threats – Europe live"
+      },
+      {
+        "id": "art_1793715494456_w6kzj",
+        "url": "https://www.theguardian.com/politics/live/2026/nov/03/shabana-mahmood-migration-brexit-eu-labour-andy-burnham-kemi-badenoch-king-charles-commonwealth-uk-politics-latest-news",
+        "source": "guardian",
+        "title": "King gives speech to Commonwealth leaders as Burnham opens slavery apology talks – UK politics live"
+      },
+      {
+        "id": "art_1793715495582_zype3",
+        "url": "https://www.aljazeera.com/sports/2026/11/3/who-is-goalkeeper-jesus-owono-and-will-he-be-punished-after-miguels-death?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Who is goalkeeper Jesus Owono and will he be punished after Miguel’s death?"
+      },
+      {
+        "id": "art_1793715496740_tq1pv",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/04/cpsu-public-servants-union-refuses-to-back-labor-at-victorian-election",
+        "source": "guardian",
+        "title": "Public service union refuses to back Labor at Victorian election, condemning job cuts and $1.2bn consultant spend"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "60cb1d5ee590c52c87ab4dceac7e0e44",
     "topic_label": "Reserve Bank of Australia interest rate increase to 4.85%",
     "event_window_start": "2026-11-03T06:13:20.000Z",
@@ -13528,75 +13600,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "348ef9146ba7bfe3160b701477ff38b9",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-22T23:34:46.000Z",
-    "event_window_end": "2026-10-23T00:00:38.000Z",
-    "article_ids": [
-      "art_1792714050344_uv2ye",
-      "art_1792714051500_uxgo8",
-      "art_1792714052819_tkn1k",
-      "art_1792714053855_rodms",
-      "art_1792714054899_t3xys"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-23T00:36:22.950Z",
-    "updated_at": "2026-10-23T00:36:22.950Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1792714050344_uv2ye",
-        "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Powerful earthquake hits Tibet killing 16 people, reports say"
-      },
-      {
-        "id": "art_1792714051500_uxgo8",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/23/australian-astronaut-katherine-bennell-pegg-2028-space-mission",
-        "source": "guardian",
-        "title": "Australia offers astronaut Katherine Bennell-Pegg for space mission to International Space Station"
-      },
-      {
-        "id": "art_1792714052819_tkn1k",
-        "url": "https://www.foxnews.com/outkick-sports/knicks-superfans-name-newborn-knickson-fyve-honor-historic-nba-championship-run",
-        "source": "fox",
-        "title": "Knicks superfans name their newborn 'Knickson Fyve' to honor historic NBA championship run"
-      },
-      {
-        "id": "art_1792714053855_rodms",
-        "url": "https://www.foxnews.com/travel/teen-dies-falling-from-moving-carnival-ride-questions-mount-over-safety",
-        "source": "fox",
-        "title": "Teen dies after falling from moving carnival ride as questions mount over safety"
-      },
-      {
-        "id": "art_1792714054899_t3xys",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/22/uk-conservative-party-leader-responds-to-al-jazeera-investigation?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK Conservative Party leader responds to Al Jazeera investigation"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   }
 ]
