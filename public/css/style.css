@@ -1284,3 +1284,35 @@ td a:hover {
 .pulse-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #ef4444; box-shadow: 0 0 8px #ef4444; animation: pulse 1.5s infinite; margin-right: 8px; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); } 70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); } 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); } }
 
+
+/* ─── Fuel Uplink / Support Header Button ─── */
+.support-header-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ff9100;
+    background: rgba(255, 145, 0, 0.08);
+    border: 1px solid rgba(255, 145, 0, 0.3);
+    text-decoration: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.support-header-btn:hover {
+    color: #fff;
+    background: rgba(255, 145, 0, 0.25);
+    border-color: #ff9100;
+    box-shadow: 0 0 10px rgba(255, 145, 0, 0.3);
+}
+
+.support-header-btn svg {
+    flex-shrink: 0;
+    color: #ff9100;
+}
