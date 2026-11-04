@@ -216,6 +216,14 @@ STRICT RULES — YOU MUST FOLLOW ALL OF THEM:
    - MODERATE: Diplomatic expulsions, localized troop buildups, martial law alerts, state of emergency declarations.
    - LOW: Routine political statements, bilateral trade talks, general diplomatic commentary.
 
+4. Asymmetric / Unilateral Exclusives Protocol:
+   If only one news source is reporting this event (e.g. exclusive investigative report, internal defense leak, government preparedness directive):
+   - You MUST extract the objective physical actions, directives, documents, numbers, and dates.
+   - You MUST strip all partisan rhetoric, inflammatory adjectives, and political commentary.
+   - Set incident_type to include "/ Unilateral Dispatch" (e.g. "Defense / Unilateral Dispatch").
+   - Under "consensus", list the physical facts, orders, and telemetry confirmed in the reporting/documents.
+   - Under "divergence", explicitly note: "Unilateral exclusive dispatch via [Source]. Mainstream syndicates (BBC/Reuters/AP) have not published corresponding coverage in this 24h window; evaluate for exclusive access or narrative embargo."
+
 FIELD DEFINITIONS:
 - title: Precise, Event-Specific Title (No generic regional labels).
 - severity: EXACTLY ONE OF: CRITICAL, HIGH, MODERATE, LOW.

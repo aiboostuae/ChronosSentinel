@@ -21,6 +21,7 @@ const parser = new Parser({
 const SOURCES: SourceRecord[] = [
     { source_id: 'fox', name: 'Fox News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/latest.xml', active: true, priority: 1 },
     { source_id: 'fox-politics', name: 'Fox Politics & Defense', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/politics.xml', active: true, priority: 1 },
+    { source_id: 'fox-us', name: 'Fox US & Homeland', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/us.xml', active: true, priority: 1 },
     { source_id: 'defensenews', name: 'Defense News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml', active: true, priority: 1 },
     { source_id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intake_method: 'rss', base_url: 'https://www.aljazeera.com/xml/rss/all.xml', active: true, priority: 1 },
     { source_id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intake_method: 'rss', base_url: 'https://feeds.bbci.co.uk/news/world/rss.xml', active: true, priority: 1 },
@@ -111,4 +112,13 @@ export async function runIntake() {
     }
 
     return combined;
+}
+
+if (process.argv[1] && (process.argv[1].endsWith('LayerA_Intake.ts') || process.argv[1].endsWith('LayerA_Intake.js'))) {
+    runIntake()
+        .then(() => process.exit(0))
+        .catch(err => {
+            console.error(err);
+            process.exit(1);
+        });
 }
