@@ -1316,3 +1316,43 @@ td a:hover {
     flex-shrink: 0;
     color: #ff9100;
 }
+
+/* ─── Suppress Gumroad Auto-Injected Wordmark & Protect Kinetic Button Styling ─── */
+a .logo-full,
+.logo-full {
+    display: none !important;
+}
+
+#header-support-btn.support-header-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.4rem !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.72rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+    color: #ff9100 !important;
+    background: rgba(255, 145, 0, 0.08) !important;
+    border: 1px solid rgba(255, 145, 0, 0.3) !important;
+    text-decoration: none !important;
+    padding: 0.3rem 0.7rem !important;
+    border-radius: 6px !important;
+    transition: all 0.2s ease !important;
+    white-space: nowrap !important;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+#header-support-btn.support-header-btn:hover {
+    color: #ffffff !important;
+    background: rgba(255, 145, 0, 0.25) !important;
+    border-color: #ff9100 !important;
+    box-shadow: 0 0 10px rgba(255, 145, 0, 0.3) !important;
+    transform: translateY(-1px) !important;
+}
+
+#header-support-btn.support-header-btn svg {
+    flex-shrink: 0 !important;
+    color: #ff9100 !important;
+}
