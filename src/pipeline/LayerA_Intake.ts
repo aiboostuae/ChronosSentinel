@@ -20,6 +20,8 @@ const parser = new Parser({
 
 const SOURCES: SourceRecord[] = [
     { source_id: 'fox', name: 'Fox News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/latest.xml', active: true, priority: 1 },
+    { source_id: 'fox-politics', name: 'Fox Politics & Defense', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://moxie.foxnews.com/google-publisher/politics.xml', active: true, priority: 1 },
+    { source_id: 'defensenews', name: 'Defense News', region: 'US', language: 'en', intake_method: 'rss', base_url: 'https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml', active: true, priority: 1 },
     { source_id: 'aljazeera', name: 'Al Jazeera', region: 'Qatar', language: 'en', intake_method: 'rss', base_url: 'https://www.aljazeera.com/xml/rss/all.xml', active: true, priority: 1 },
     { source_id: 'bbc', name: 'BBC News', region: 'UK', language: 'en', intake_method: 'rss', base_url: 'https://feeds.bbci.co.uk/news/world/rss.xml', active: true, priority: 1 },
     { source_id: 'reuters', name: 'Reuters', region: 'Global', language: 'en', intake_method: 'rss', base_url: 'https://feeds.reuters.com/reuters/topNews', active: true, priority: 1 },
@@ -98,21 +100,15 @@ export async function runIntake() {
     }
 
     // Keep the most recent 1000 headlines
-    const merged = [...newHeadlines, ...allHeadlines].slice(0, 1000);
-    
-    if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-    fs.writeFileSync(HEADLINES_FILE, JSON.stringify(merged, null, 2));
-    fs.writeFileSync(ALERTS_FILE, JSON.stringify(activeAlerts, null, 2));
-    
-    console.log(`Intake complete. Added ${newHeadlines.length} headlines, ${activeAlerts.length} alerts.`);
-    return merged;
-}
+    const combined = [...newHeadlines, ...allHeadlines].slice(0, 1000);
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.writeFileSync(HEADLINES_FILE, JSON.stringify(combined, null, 2));
+    console.log(`Layer A Complete: Ingested ${newHeadlines.length} new headlines. Total: ${combined.length}`);
 
-if (process.argv[1] && (process.argv[1].endsWith('LayerA_Intake.ts') || process.argv[1].endsWith('LayerA_Intake.js'))) {
-    runIntake()
-        .then(() => process.exit(0))
-        .catch(err => {
-            console.error(err);
-            process.exit(1);
-        });
+    if (activeAlerts.length > 0) {
+        fs.writeFileSync(ALERTS_FILE, JSON.stringify(activeAlerts, null, 2));
+        console.log(`Layer A Complete: Updated ${activeAlerts.length} GDACS disaster alerts.`);
+    }
+
+    return combined;
 }

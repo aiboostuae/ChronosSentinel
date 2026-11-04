@@ -8,6 +8,22 @@ const DATA_DIR = path.resolve(__dirname, '../../public/data/latest');
 const HEADLINES_FILE = path.join(DATA_DIR, 'headlines.json');
 const ARTICLES_FILE = path.join(DATA_DIR, 'articles.json');
 
+const PRIORITY_KEYWORDS = [
+    'fortress', 'pentagon', 'preparedness', 'survival', 'doomsday', 'defense',
+    'squawk', 'hijack', 'airspace', 'strike', 'missile', 'ballistic', 'drone',
+    'interdict', 'substation', 'grid', 'blackout', 'evacuation', 'martial law',
+    'stockpile', 'nuclear', 'casualt', 'diversion'
+];
+
+function scoreHeadline(title: string): number {
+    const lower = title.toLowerCase();
+    let score = 0;
+    for (const kw of PRIORITY_KEYWORDS) {
+        if (lower.includes(kw)) score += 5;
+    }
+    return score;
+}
+
 export async function runExtraction() {
     console.log("Starting Layer B: Extraction");
     if (!fs.existsSync(HEADLINES_FILE)) {
@@ -21,13 +37,17 @@ export async function runExtraction() {
         try { articles = JSON.parse(fs.readFileSync(ARTICLES_FILE, 'utf-8')); } catch(e) {}
     }
 
-    // Filter headlines: only recent (last 24h), sort by newest, limit to top 15 for MVC scraping limits
+    // Filter headlines: only recent (last 24h), prioritize defense/kinetic signals, limit to top 25
     const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
     let candidates = headlines
         .filter(h => h.published_at && h.published_at > oneDayAgo)
         .filter(h => !articles.find(a => a.headline_id === h.headline_id))
-        .sort((a, b) => (b.published_at || '').localeCompare(a.published_at || ''))
-        .slice(0, 15);
+        .sort((a, b) => {
+            const scoreDiff = scoreHeadline(b.title) - scoreHeadline(a.title);
+            if (scoreDiff !== 0) return scoreDiff;
+            return (b.published_at || '').localeCompare(a.published_at || '');
+        })
+        .slice(0, 25);
 
     console.log(`Found ${candidates.length} new candidate headlines for extraction.`);
     const newArticles: ArticleRecord[] = [];
@@ -82,15 +102,20 @@ export async function runExtraction() {
                 region_tag: item.region_tag
             });
 
-            await new Promise(r => setTimeout(r, 1000)); // Be polite
+            const hl = headlines.find(h => h.headline_id === item.headline_id);
+            if (hl) hl.extraction_status = 'success';
+
+            await new Promise(r => setTimeout(r, 500));
         } catch (error: any) {
             console.error(`Failed to extract ${item.url}: ${error.message}`);
         }
     }
 
-    const merged = [...newArticles, ...articles].slice(0, 500); // retain history
+    const merged = [...newArticles, ...articles].slice(0, 500);
     fs.writeFileSync(ARTICLES_FILE, JSON.stringify(merged, null, 2));
-    console.log(`Extraction complete. Added ${newArticles.length} new articles.`);
+    fs.writeFileSync(HEADLINES_FILE, JSON.stringify(headlines, null, 2));
+
+    console.log(`Layer B Complete: Added ${newArticles.length} new articles. Total: ${merged.length}`);
     return merged;
 }
 

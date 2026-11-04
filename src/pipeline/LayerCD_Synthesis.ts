@@ -126,6 +126,7 @@ PRIORITY:
 1. Acute Kinetic events MUST be separated into standalone clusters.
 2. Always include clusters related to the Middle East, UAE, or Dubai.
 3. Always include clusters involving global disasters (source: gdacs).
+4. Always include clusters involving major national defense directives, civil defense / disaster preparedness policies (e.g., base survival, stockpiling, supply resilience).
 Articles:\n${JSON.stringify(payload, null, 2)}`;
 
     let predictedClusters: {topic: string, articleIds: string[], _telemetry?: any, _fallback?: boolean}[] = [];

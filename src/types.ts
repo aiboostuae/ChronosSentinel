@@ -74,6 +74,7 @@ export interface ClusterObject {
     // Legacy aliases (kept for backward-compat with existing data)
     shared_facts?: string[];
     source_claims?: string[];
+    source_differences?: string[];
     framing_differences?: string[];
     contested_claims?: string[];
     unverified_claims?: string[];
@@ -93,9 +94,10 @@ export interface SynthesisObject {
     selected_article_ids: string[];
     shared_facts: string[];
     source_differences: string[];
-    neutral_summary: string;
-    confidence_status: string;
-    reused_from_cache: boolean;
+    synthesis: string;
+    confidence: 'HIGH' | 'MED' | 'LOW';
 }
 
-export const generateId = (text: string) => crypto.createHash('md5').update(text).digest('hex');
+export function generateId(content: string): string {
+    return crypto.createHash('sha256').update(content).digest('hex').substring(0, 16);
+}
