@@ -83,7 +83,7 @@ function initApp() {
     }
 
     // 3. Kickoff
-    switchTab('sentinel');
+        switchTab('sentinel');
     updateSystemStatusBanner();
 }
 
@@ -281,7 +281,10 @@ async function showStatusModal() {
 }
 
 function switchTab(target) {
-    document.querySelectorAll('.view-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.view-panel').forEach(p => {
+        p.classList.remove('active');
+        p.style.display = 'none';
+    });
     document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.more-menu-item').forEach(b => b.classList.remove('active'));
     
@@ -289,7 +292,10 @@ function switchTab(target) {
     let btn = document.querySelector(`.view-btn[data-target="${target}"]`);
     let moreItem = document.querySelector(`.more-menu-item[data-target="${target}"]`);
     
-    if (panel) panel.classList.add('active');
+    if (panel) {
+        panel.classList.add('active');
+        panel.style.display = 'block';
+    }
     
     if (moreItem) {
         moreItem.classList.add('active');

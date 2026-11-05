@@ -1,9 +1,9 @@
-const CACHE_NAME = 'chronos-v1.0';
+const CACHE_NAME = 'chronos-v2.0';
 const ASSETS = [
     './',
     './index.html',
-    './css/style.css',
-    './js/app.js',
+    './css/style.css?v=2.0',
+    './js/app.js?v=2.0',
     './manifest.json'
 ];
 
