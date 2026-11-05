@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initApp() {
+    initTheme();
     // 1. Initial State
     const regionSelect = document.getElementById('region-focus');
     if (regionSelect) {
