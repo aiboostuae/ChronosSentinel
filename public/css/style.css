@@ -634,149 +634,235 @@ td a:hover {
 
 /* ─── Mobile Overrides ─── */
 @media (max-width: 768px) {
+    body {
+        padding-bottom: calc(108px + env(safe-area-inset-bottom));
+    }
+
+    /* ─── OPTION A: Single Slim Header (Height 52px, Zero Stack) ─── */
+    .app-header {
+        height: 52px;
+        min-height: 52px;
+        padding: 0.5rem 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+
+    .logo-area {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+    }
+
+    .cs-lettermark {
+        font-size: 1.25rem;
+    }
+
+    .logo-wordmark {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .logo-primary {
+        display: inline-block;
+        font-size: 0.92rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        color: var(--text-primary);
+    }
+
+    .logo-secondary,
+    .logo-subtitle {
+        display: none !important;
+    }
+
+    /* Top Right Header Controls in Single Horizontal Row */
+    .header-right {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        gap: 0.45rem !important;
+        max-width: none !important;
+        width: auto !important;
+    }
+
+    /* Threat Status Pill: Persistently Visible */
+    #global-alert-banner {
+        display: inline-flex !important;
+        align-items: center;
+        font-size: 0.65rem;
+        font-weight: 700;
+        padding: 0.25rem 0.6rem;
+        border-radius: 20px;
+        white-space: nowrap;
+        line-height: 1;
+    }
+
+    /* Support Button: Compact Pill */
+    #header-support-btn.support-header-btn {
+        display: inline-flex !important;
+        align-items: center;
+        gap: 0.3rem !important;
+        padding: 0.25rem 0.55rem !important;
+        font-size: 0.65rem !important;
+        border-radius: 6px !important;
+        white-space: nowrap !important;
+    }
+
+    /* Hide noisy desktop elements from mobile header */
+    #ai-model-banner {
+        display: none !important;
+    }
+
+    #region-focus {
+        display: none !important;
+    }
+
+    .about-link {
+        display: none !important;
+    }
+
+    #theme-toggle-btn {
+        display: none !important;
+    }
+
+    /* ─── Dashboard & Floating Navigation ─── */
     .dashboard-container {
-        padding: 2rem 1rem 7rem;
-    }
-
-    .panel-header h2 {
-        font-size: 1.75rem;
-    }
-
-    .cards-grid {
-        grid-template-columns: 1fr;
+        padding: 1.25rem 1rem calc(120px + env(safe-area-inset-bottom));
     }
 
     .view-controls {
         position: fixed;
-        bottom: 1rem;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 90%;
-        max-width: 400px;
-        background: rgba(15, 21, 33, 0.95);
-        backdrop-filter: blur(20px);
+        left: 12px;
+        right: 12px;
+        bottom: calc(12px + env(safe-area-inset-bottom));
+        top: auto;
+        transform: none;
+        width: auto;
+        max-width: none;
+        margin: 0;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        border-radius: 22px;
         padding: 0.5rem;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.25rem;
-        border-radius: 50px;
-        border: 1px solid var(--border-glass);
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
-        z-index: 1000;
+        overflow: visible;
     }
 
     .view-btn {
-        padding: 0.5rem;
-        font-size: 0.65rem;
+        min-height: 48px;
+        padding: 0.45rem 0.25rem;
+        font-size: 0.66rem;
+        line-height: 1.1;
+        white-space: normal;
+    }
+
+    /* ─── Mobile Drawer Menu (#more-menu) ─── */
+    .more-dropdown {
+        position: absolute;
+        left: auto;
+        right: 0.5rem;
+        bottom: calc(100% + 0.65rem);
+        width: min(260px, calc(100vw - 2rem));
+        max-height: 55vh;
+        overflow-y: auto;
+        background: var(--bg-surface);
+        border: 1px solid var(--border-glass);
+        border-radius: 16px;
+        padding: 0.85rem;
+        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(16px);
+    }
+
+    .more-menu-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .more-menu-label {
+        font-size: 0.62rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--text-tertiary);
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .more-menu-select {
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid var(--border-glass);
+        color: var(--text-primary);
+        font-size: 0.75rem;
+        padding: 0.45rem 0.6rem;
+        border-radius: 8px;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        width: 100%;
+        outline: none;
+    }
+
+    .theme-switch-group {
+        display: flex;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid var(--border-glass);
+        border-radius: 8px;
+        padding: 2px;
+        gap: 2px;
+    }
+
+    .theme-switch-btn {
+        flex: 1;
+        padding: 0.35rem 0;
+        font-size: 0.68rem;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
         text-align: center;
-        border-radius: 30px;
-    }
-
-    .nav-desktop-only {
-        display: none !important;
-    }
-
-    .nav-mobile-only {
-        display: block !important;
-    }
-
-    #headlines-table thead {
-        display: none;
-    }
-
-    #headlines-table td {
-        display: block;
-        padding: 0.75rem 1rem;
         border: none;
+        background: transparent;
+        color: var(--text-secondary);
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s;
     }
 
-    #headlines-table tr {
-        display: block;
-        padding: 1rem 0;
-        border-bottom: 1px solid var(--border-glass);
+    .theme-switch-btn.active {
+        background: var(--accent-indigo);
+        color: #FFFFFF;
+        box-shadow: 0 2px 6px rgba(99, 102, 241, 0.4);
     }
-}
 
-.loading-pulse {
-    text-align: center;
-    padding: 4rem;
-    color: var(--text-tertiary);
-    font-style: italic;
-    animation: opacityPulse 2s infinite alternate;
-}
+    .more-menu-divider {
+        height: 1px;
+        background: var(--border-glass);
+        margin: 0.6rem 0;
+    }
 
-@keyframes opacityPulse {
-    from { opacity: 0.5; }
-    to { opacity: 1; }
-}
+    .more-menu-item {
+        min-height: 40px;
+        font-size: 0.78rem;
+    }
 
-.hidden {
-    display: none !important;
-}
+    .archive-nav-box {
+        gap: 0.75rem;
+        padding: 0.75rem;
+    }
 
-.view-panel {
-    display: none;
-}
+    .calendar-grid {
+        gap: 0.35rem;
+        padding: 0.75rem;
+        border-radius: 16px;
+    }
 
-.view-panel.active {
-    display: block;
-    animation: fadeInScale 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-@keyframes fadeInScale {
-    from { opacity: 0; transform: scale(0.98) translateY(10px); }
-    to { opacity: 1; transform: scale(1) translateY(0); }
-}
-
-/* ─── Archive Calendar Grid UI ─── */
-.archive-nav-box {
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    background: var(--bg-surface);
-    backdrop-filter: blur(12px);
-    padding: 1rem;
-    border-radius: 12px;
-    border: 1px solid var(--border-glass);
-}
-
-.calendar-grid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 0.75rem;
-    margin-bottom: 2.5rem;
-    background: var(--bg-surface);
-    backdrop-filter: blur(12px);
-    padding: 2rem;
-    border-radius: 24px;
-    border: 1px solid var(--border-glass);
-    box-shadow: var(--shadow-premium);
-}
-
-.calendar-day {
-    aspect-ratio: 1;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    padding: 0.75rem;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
-.calendar-day::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: radial-gradient(circle at top right, rgba(255,255,255,0.05), transparent 70%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    .calendar-day {
+        border-radius: 8px;
+        padding: 0.35rem;
+        min-width: 0;
+    }
 }
 
 .calendar-day:hover::after {
@@ -1355,4 +1441,156 @@ a .logo-full,
 #header-support-btn.support-header-btn svg {
     flex-shrink: 0 !important;
     color: #ff9100 !important;
+}
+
+/* ─── Desktop Theme Toggle Button ─── */
+.theme-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-glass);
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-toggle-btn:hover {
+    color: var(--accent-cyan);
+    border-color: var(--border-glow);
+    background: rgba(0, 229, 255, 0.1);
+}
+
+.theme-toggle-btn .hidden {
+    display: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   LIGHT THEME PALETTE (TACTICAL DOSSIER BRIEFING)
+   ═══════════════════════════════════════════════════════════════ */
+[data-theme="light"] {
+    --bg-base: #F8FAFC;
+    --bg-surface: #FFFFFF;
+    --bg-surface-hover: #F1F5F9;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --text-tertiary: #64748B;
+    --text-muted: #94A3B8;
+    --border-glass: #E2E8F0;
+    --border-glow: rgba(0, 160, 220, 0.3);
+    --shadow-premium: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] body {
+    background: #F8FAFC;
+    color: var(--text-primary);
+}
+
+[data-theme="light"] .cyber-grid {
+    opacity: 0.15;
+    background-image: 
+        linear-gradient(rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
+}
+
+[data-theme="light"] .app-header {
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 1px solid #E2E8F0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme="light"] .view-controls {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #CBD5E1;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .view-btn {
+    color: #475569;
+}
+
+[data-theme="light"] .view-btn.active {
+    background: #0F172A;
+    color: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.2);
+}
+
+[data-theme="light"] .cluster-card,
+[data-theme="light"] .feed-card,
+[data-theme="light"] .impact-card {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .cluster-card:hover,
+[data-theme="light"] .feed-card:hover,
+[data-theme="light"] .impact-card:hover {
+    border-color: #CBD5E1;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="light"] .hero-card {
+    background: #FFFFFF;
+    box-shadow: 0 4px 24px rgba(239, 68, 68, 0.08);
+}
+
+[data-theme="light"] .hero-title {
+    color: #0F172A;
+}
+
+[data-theme="light"] .hero-synthesis {
+    color: #334155;
+}
+
+[data-theme="light"] .card-header h3 {
+    color: #0F172A;
+}
+
+[data-theme="light"] .syn-text {
+    color: #334155;
+}
+
+[data-theme="light"] .more-dropdown {
+    background: #FFFFFF;
+    border-color: #CBD5E1;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="light"] .more-menu-item {
+    color: #334155;
+}
+
+[data-theme="light"] .more-menu-item:hover {
+    background: #F1F5F9;
+    color: #0F172A;
+}
+
+[data-theme="light"] #region-focus {
+    background: #FFFFFF;
+    color: #0F172A;
+    border-color: #CBD5E1;
+}
+
+[data-theme="light"] .theme-switch-group {
+    background: #F1F5F9;
+    border-color: #E2E8F0;
+}
+
+[data-theme="light"] .theme-switch-btn {
+    color: #64748B;
+}
+
+[data-theme="light"] .theme-switch-btn.active {
+    background: #0F172A;
+    color: #FFFFFF;
+}
+
+[data-theme="light"] .more-menu-select {
+    background: #F8FAFC;
+    color: #0F172A;
+    border-color: #E2E8F0;
 }

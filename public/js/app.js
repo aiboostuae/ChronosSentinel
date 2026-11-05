@@ -879,3 +879,66 @@ function formatDateTime(isoString) {
         return `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')} ${String(dt.getHours()).padStart(2, '0')}:${String(dt.getMinutes()).padStart(2, '0')}`;
     } catch(e) { return 'LIVE'; }
 }
+
+
+// ─── Theme Management (Light / Dark / System) ──────────────────────────────
+function initTheme() {
+    const saved = localStorage.getItem('sentinel_theme') || 'system';
+    applyTheme(saved);
+
+    const desktopBtn = document.getElementById('theme-toggle-btn');
+    if (desktopBtn) {
+        desktopBtn.addEventListener('click', () => {
+            const current = localStorage.getItem('sentinel_theme') || 'system';
+            const next = current === 'dark' ? 'light' : current === 'light' ? 'system' : 'dark';
+            applyTheme(next);
+        });
+    }
+
+    document.querySelectorAll('.theme-switch-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const val = btn.getAttribute('data-theme-val');
+            if (val) applyTheme(val);
+        });
+    });
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+        if ((localStorage.getItem('sentinel_theme') || 'system') === 'system') {
+            applyTheme('system');
+        }
+    });
+}
+
+function applyTheme(theme) {
+    localStorage.setItem('sentinel_theme', theme);
+    const html = document.documentElement;
+    
+    if (theme === 'system') {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        html.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+    } else {
+        html.setAttribute('data-theme', theme);
+    }
+
+    document.querySelectorAll('.theme-switch-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-theme-val') === theme);
+    });
+
+    const desktopBtn = document.getElementById('theme-toggle-btn');
+    if (desktopBtn) {
+        const effectiveTheme = html.getAttribute('data-theme');
+        desktopBtn.setAttribute('title', `Theme: ${theme.toUpperCase()} (${effectiveTheme})`);
+        const iconDark = desktopBtn.querySelector('.theme-icon-dark');
+        const iconLight = desktopBtn.querySelector('.theme-icon-light');
+        if (iconDark && iconLight) {
+            if (effectiveTheme === 'dark') {
+                iconDark.classList.remove('hidden');
+                iconLight.classList.add('hidden');
+            } else {
+                iconDark.classList.add('hidden');
+                iconLight.classList.remove('hidden');
+            }
+        }
+    }
+}

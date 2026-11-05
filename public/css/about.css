@@ -263,3 +263,59 @@ a .logo-full,
     box-shadow: 0 0 30px rgba(255, 145, 0, 0.6) !important;
     color: #000000 !important;
 }
+
+/* ─── Light Theme for About Page ─── */
+[data-theme="light"] body {
+    background: #F8FAFC !important;
+    color: #0F172A !important;
+}
+
+[data-theme="light"] .about-content {
+    background: #FFFFFF !important;
+    border-color: #E2E8F0 !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06) !important;
+}
+
+[data-theme="light"] .about-content h1 {
+    color: #0F172A !important;
+    border-bottom-color: #E2E8F0 !important;
+}
+
+[data-theme="light"] .about-content h3 {
+    color: #0284C7 !important;
+}
+
+[data-theme="light"] .about-content h3::before {
+    background: #0284C7 !important;
+    box-shadow: 0 0 6px rgba(2, 132, 199, 0.4) !important;
+}
+
+[data-theme="light"] .about-content p {
+    color: #334155 !important;
+}
+
+[data-theme="light"] .about-content ul,
+[data-theme="light"] .about-content ol {
+    color: #334155 !important;
+}
+
+[data-theme="light"] .about-content li strong {
+    color: #0F172A !important;
+}
+
+[data-theme="light"] .highlight-box {
+    background: #F0F9FF !important;
+    border-left-color: #0284C7 !important;
+}
+
+[data-theme="light"] .highlight-box p {
+    color: #0F172A !important;
+}
+
+[data-theme="light"] .support-section {
+    border-top-color: #E2E8F0 !important;
+}
+
+[data-theme="light"] .support-subtext {
+    color: #64748B !important;
+}
