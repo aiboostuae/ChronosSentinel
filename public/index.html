@@ -64,7 +64,7 @@
         .view-panel { display: none; }
         .view-panel.active { display: block; }
     </style>
-    <link rel="stylesheet" href="css/style.css?v=2.0">
+    <link rel="stylesheet" href="css/style.css?v=2.1">
     <script src="https://gumroad.com/js/gumroad.js"></script>
 </head>
 <body>
@@ -120,6 +120,27 @@
         <button class="view-btn nav-mobile-only" id="more-btn" type="button" aria-expanded="false" aria-controls="more-menu">More</button>
 
         <div id="more-menu" class="more-dropdown hidden">
+            <div class="more-menu-group">
+                <span class="more-menu-label">Region Focus</span>
+                <select id="mobile-region-focus" class="more-menu-select">
+                    <option value="global">GLOBAL FOCUS</option>
+                    <option value="middle-east">MIDDLE EAST</option>
+                    <option value="western">WESTERN INTEL</option>
+                    <option value="asia">ASIA-PACIFIC</option>
+                </select>
+            </div>
+
+            <div class="more-menu-group">
+                <span class="more-menu-label">Theme</span>
+                <div class="theme-switch-group">
+                    <button class="theme-switch-btn" data-theme-val="dark" type="button">Dark</button>
+                    <button class="theme-switch-btn" data-theme-val="light" type="button">Light</button>
+                    <button class="theme-switch-btn" data-theme-val="system" type="button">Auto</button>
+                </div>
+            </div>
+
+            <div class="more-menu-divider"></div>
+
             <button class="more-menu-item" data-target="archive">Archive</button>
             <button class="more-menu-item" data-target="watchlist">Watchlist</button>
             <button class="more-menu-item" data-action="status">Status</button>
@@ -215,7 +236,7 @@
         </div>
     </div>
 
-    <script src="js/app.js?v=2.0"></script>
+    <script src="js/app.js?v=2.1"></script>
     <script>
         // PWA Service Worker Registration
         if ('serviceWorker' in navigator) {

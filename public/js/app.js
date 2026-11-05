@@ -9,35 +9,45 @@ function initApp() {
     initTheme();
     // 1. Initial State
     const regionSelect = document.getElementById('region-focus');
-    if (regionSelect) {
-        regionSelect.value = localStorage.getItem('sentinel_region') || 'global';
-        regionSelect.addEventListener('change', (e) => {
-            const val = e.target.value;
-            localStorage.setItem('sentinel_region', val);
-            
-            // Holistic reload on region change
-            loadSentinel();
-            loadHeadlines();
-            loadImpact();
-            loadArchive();
-            loadWatchlist();
+    const mobileRegionSelect = document.getElementById('mobile-region-focus');
+    const currentSavedRegion = localStorage.getItem('sentinel_region') || 'global';
+    
+    const applyRegionSelection = (val) => {
+        localStorage.setItem('sentinel_region', val);
+        if (regionSelect) regionSelect.value = val;
+        if (mobileRegionSelect) mobileRegionSelect.value = val;
+        
+        // Holistic reload on region change
+        loadSentinel();
+        loadHeadlines();
+        loadImpact();
+        loadArchive();
+        loadWatchlist();
 
-            // Update Header labels (Spec 08 Label Binding)
-            const sentinelTitle = document.getElementById('sentinel-title');
-            const liveTitle = document.getElementById('live-title');
-            const impactTitle = document.getElementById('impact-title');
-            
-            const regionLabel = val === 'global' ? 'Global' : val.charAt(0).toUpperCase() + val.slice(1).replace('-', ' ');
-            if (sentinelTitle) sentinelTitle.textContent = `${regionLabel} Sentinel Synthesis`;
-            if (liveTitle) liveTitle.textContent = `Raw ${regionLabel} Headlines`;
-            if (impactTitle) impactTitle.textContent = `${regionLabel} High-Impact Intelligence`;
-        });
+        // Update Header labels (Spec 08 Label Binding)
+        const sentinelTitle = document.getElementById('sentinel-title');
+        const liveTitle = document.getElementById('live-title');
+        const impactTitle = document.getElementById('impact-title');
+        
+        const regionLabel = val === 'global' ? 'Global' : val.charAt(0).toUpperCase() + val.slice(1).replace('-', ' ');
+        if (sentinelTitle) sentinelTitle.textContent = `${regionLabel} Sentinel Synthesis`;
+        if (liveTitle) liveTitle.textContent = `Raw ${regionLabel} Headlines`;
+        if (impactTitle) impactTitle.textContent = `${regionLabel} High-Impact Intelligence`;
+    };
+
+    if (regionSelect) {
+        regionSelect.value = currentSavedRegion;
+        regionSelect.addEventListener('change', (e) => applyRegionSelection(e.target.value));
+    }
+    if (mobileRegionSelect) {
+        mobileRegionSelect.value = currentSavedRegion;
+        mobileRegionSelect.addEventListener('change', (e) => applyRegionSelection(e.target.value));
     }
 
     // 2. Navigation
     document.querySelectorAll('.view-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            const target = e.target.getAttribute('data-target');
+            const target = (e.currentTarget || e.target).getAttribute('data-target');
             if (target) switchTab(target);
         });
     });
@@ -57,8 +67,8 @@ function initApp() {
 
     document.querySelectorAll('.more-menu-item').forEach(item => {
         item.addEventListener('click', (e) => {
-            const target = e.target.getAttribute('data-target');
-            const action = e.target.getAttribute('data-action');
+            const target = (e.currentTarget || e.target).getAttribute('data-target');
+            const action = (e.currentTarget || e.target).getAttribute('data-action');
             if (target) {
                 switchTab(target);
             } else if (action === 'status') {
@@ -749,7 +759,7 @@ function renderCalendar(manifest) {
     // Day Names
     ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'].forEach(d => {
         const h = document.createElement('div');
-        h.style = 'text-align:center; font-size:0.7rem; color:var(--text-secondary); font-weight:bold; margin-bottom:0.5rem;';
+        h.className = 'calendar-day-header';
         h.textContent = d;
         grid.appendChild(h);
     });
@@ -789,8 +799,7 @@ function renderCalendar(manifest) {
                 openArchiveDayModal(entry);
             };
         } else {
-            cell.style.opacity = '0.3';
-            cell.style.cursor = 'default';
+            cell.classList.add('disabled-day');
         }
         grid.appendChild(cell);
     }
