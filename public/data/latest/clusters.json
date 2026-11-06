@@ -1,17 +1,17 @@
 [
   {
-    "cluster_id": "dfc07c80fc0cee41",
-    "topic_label": "Coordinated multi-national bomb threat campaign against European commercial aviation",
-    "event_window_start": "2026-11-05T17:32:56.000Z",
-    "event_window_end": "2026-11-05T21:26:21.000Z",
+    "cluster_id": "5c168be4473c7ac7",
+    "topic_label": "Serial Bomb Threats Targeting European Commercial Aviation",
+    "event_window_start": "2026-11-05T21:26:21.000Z",
+    "event_window_end": "2026-11-06T11:48:45.000Z",
     "article_ids": [
-      "art_1793921411830_xm2ss",
-      "art_1793901241023_17q4g",
-      "art_1793901242349_9qo8c"
+      "art_1793966542188_357hd",
+      "art_1793966545778_3ykuq",
+      "art_1793921411830_xm2ss"
     ],
     "source_ids": [
-      "aljazeera",
-      "guardian"
+      "guardian",
+      "aljazeera"
     ],
     "article_count": 3,
     "source_count": 2,
@@ -19,42 +19,277 @@
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-11-06T03:18:46.791Z",
-    "updated_at": "2026-11-06T03:18:46.791Z",
-    "region_tag": "middle-east",
+    "created_at": "2026-11-06T18:29:37.055Z",
+    "updated_at": "2026-11-06T18:29:37.055Z",
+    "region_tag": "global",
     "severity": "CRITICAL",
-    "incident_type": "Aviation / Infrastructure Sabotage",
-    "synthesis": "An orchestrated campaign of malicious bomb threats targeted at least 27 commercial flights across Europe forced multiple emergency landings, diversions, and security evacuations. The events involved coordinated alerts directed at carriers including Ryanair, Aer Lingus, Wizz Air, and Finnair, spanning 16 nations. While physical searches of the aircraft yielded no explosive devices, the systematic nature of the threats caused large-scale disruption to European airspace and ground operations over multiple days.",
+    "incident_type": "Aviation / Security",
+    "synthesis": "An ongoing series of coordinated bomb threats has targeted at least 35 commercial flights across Europe this week, forcing multiple unscheduled diversions, emergency landings, and security evacuations. Despite the frequent issuance of these threats, physical inspections of the targeted aircraft have yielded no explosive devices, classifying the current operational status of the threats as hoaxes; however, the kinetic impact involves sustained disruption to regional civil aviation infrastructure and the deployment of emergency response protocols for every targeted vessel.",
     "consensus": [
-      "At least 27 commercial flights were diverted or forced into emergency landings due to bomb threats.",
-      "Multiple European carriers including Ryanair, Aer Lingus, Wizz Air, and Finnair were targeted.",
-      "Security searches of the affected aircraft confirmed the threats were hoaxes with no explosives found.",
-      "The disruption spanned multiple nations including Italy, Ireland, the UK, Spain, Bulgaria, Romania, Poland, Finland, Austria, Denmark, Belgium, Portugal, France, Greece, Serbia, and Czechia.",
-      "Similar incidents involving hoax alerts occurred on the preceding Monday and Tuesday."
+      "At least 35 commercial flights were diverted or subjected to security searches following bomb threats.",
+      "Targeted flights include arrivals in Sofia from London Stansted and Brussels.",
+      "No explosive devices or suspicious objects were located during initial security inspections.",
+      "The events are characterized by authorities as a series of hoax threats."
     ],
     "divergence": [
-      "Al Jazeera characterized the events as isolated travel disruptions without providing the specific scale of the multi-day pattern.",
-      "The Guardian frames the event as 'hybrid war,' introducing speculative geopolitical terminology to describe the coordinated nature of the threats.",
-      "The Guardian explicitly links the events to a wider regional threat profile, whereas Al Jazeera maintains a focus on the immediate operational impact."
+      "The Guardian frames the event as a live, evolving security crisis with a focus on passenger experience and specific flight numbers.",
+      "Al Jazeera focuses on the statistical impact, reporting 27 flights affected compared to The Guardian's count of at least 35, indicating a lack of centralized data aggregation.",
+      "The article regarding 'Black Bloc' protesters is entirely unrelated to the aviation security events and provides no consensus or divergence on the aviation incident."
     ],
     "sources": [
+      {
+        "id": "art_1793966542188_357hd",
+        "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+        "source": "guardian",
+        "title": "European skies on high alert as more airlines receive bomb threats – Europe live"
+      },
+      {
+        "id": "art_1793966545778_3ykuq",
+        "url": "https://www.aljazeera.com/news/2026/11/6/nobody-can-stop-them-who-are-europes-black-bloc-protesters?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘Nobody can stop them’: Who are Europe’s Black Bloc protesters?"
+      },
       {
         "id": "art_1793921411830_xm2ss",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
         "source": "aljazeera",
         "title": "Hoax bomb threats force emergency landings, evacuations across Europe"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "f58584c3090743cf",
+    "topic_label": "Satellite-Confirmed Iranian Missile Base Reconstruction and Diplomatic Alignment",
+    "event_window_start": "2026-11-05T21:33:40.000Z",
+    "event_window_end": "2026-11-06T07:33:41.000Z",
+    "article_ids": [
+      "art_1793966541498_7s3nl",
+      "art_1793936911501_3vo48",
+      "art_1793936913272_9gkm4",
+      "art_1793936921425_1h8mx",
+      "art_1793936921968_wyeha",
+      "art_1793921421769_6qc30"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 6,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-06T18:29:37.055Z",
+    "updated_at": "2026-11-06T18:29:37.055Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Military Infrastructure / Diplomacy",
+    "synthesis": "Satellite imagery analysis of military installations at Garmdareh, Shahroud, Kermanshah, and Parchin confirms active construction, debris clearance, and structural repairs following kinetic strikes. Concurrently, Iranian security leadership conducted high-level meetings in Moscow to coordinate regional security post-strikes, while the Turkish parliament ratified the Mecca Joint Defence Agreement, a collective defense pact involving Saudi Arabia and Pakistan.",
+    "consensus": [
+      "Satellite imagery confirms construction activity and structural repairs at multiple Iranian missile and military bases including Garmdareh and Shahroud.",
+      "Iranian Security Chief Mohsen Rezaei met with Vladimir Putin in Moscow to discuss security arrangements.",
+      "Turkish parliament ratified the Mecca Joint Defence Agreement with Saudi Arabia and Pakistan."
+    ],
+    "divergence": [
+      "BBC characterizes the Iranian construction as 'missile site' development, while Al Jazeera frames the Moscow meeting within the context of 'ending the US and Israel's war' on Iran.",
+      "Al Jazeera's reporting on the Mecca Agreement omits the broader geopolitical implications of Turkey's NATO membership while emphasizing the threat from Houthi attacks.",
+      "BBC report focuses exclusively on the kinetic recovery of Iranian military infrastructure, whereas Al Jazeera prioritizes diplomatic narratives and regional alignment."
+    ],
+    "sources": [
+      {
+        "id": "art_1793966541498_7s3nl",
+        "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Major construction ongoing near Iran missile bases, satellite images suggest"
       },
       {
-        "id": "art_1793901241023_17q4g",
-        "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live"
+        "id": "art_1793936911501_3vo48",
+        "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran’s security chief meets Putin, delivers message from Khamenei"
       },
       {
-        "id": "art_1793901242349_9qo8c",
-        "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+        "id": "art_1793936913272_9gkm4",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/gaza-turns-discarded-cooking-pots-into-seawalls?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Gaza turns discarded cooking pots into seawalls"
+      },
+      {
+        "id": "art_1793936921425_1h8mx",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/israeli-settlers-set-fire-to-palestinian-olive-grove-near-ramallah?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli settlers set fire to Palestinian olive grove near Ramallah"
+      },
+      {
+        "id": "art_1793936921968_wyeha",
+        "url": "https://www.aljazeera.com/news/2026/11/6/turkiyes-parliament-ratifies-mecca-defence-agreement?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Turkiye’s parliament ratifies Mecca defence agreement"
+      },
+      {
+        "id": "art_1793921421769_6qc30",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_israeli-demolitions-displace-palestinians-in-biddu-051126?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli demolitions displace more than 100 Palestinians in Biddu"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e49b34f66a9bdaa7",
+    "topic_label": "US 2026 Midterm Election Results and Post-Election Administrative Strains",
+    "event_window_start": "2026-11-05T21:49:31.000Z",
+    "event_window_end": "2026-11-06T11:47:13.000Z",
+    "article_ids": [
+      "art_1793966543044_w2vc9",
+      "art_1793966547657_x60m2",
+      "art_1793966549947_gy9qq",
+      "art_1793966550487_80l9j",
+      "art_1793936912727_l48i3",
+      "art_1793936922506_bn4ll",
+      "art_1793921415218_bhj4q",
+      "art_1793921420165_wa114"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox-us",
+      "fox",
+      "fox-politics",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 8,
+    "source_count": 6,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-06T18:29:37.055Z",
+    "updated_at": "2026-11-06T18:29:37.055Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Political / Administrative",
+    "synthesis": "Following the 2026 US midterm elections, the Democratic Party secured a majority in the House of Representatives, resulting in significant volatility in the market valuation of companies linked to Elon Musk, with Tesla and SpaceX experiencing sharp declines in equity value. Politically, the outcome has triggered internal pressures within the Democratic Party to enact progressive legislative agendas, while the incumbent Republican administration faces internal instability, specifically documented reports of potential personnel changes regarding Secretary of Defense Pete Hegseth and Secretary of State Marco Rubio amidst criticism over the conduct of the ongoing war in Iran.",
+    "consensus": [
+      "The Democratic Party gained a majority in the US House of Representatives in the 2026 midterm elections.",
+      "Tesla and SpaceX stock values saw a decrease in market valuation following the election.",
+      "Rep. Ayanna Pressley publicly advocated for the party to leverage the new majority for progressive policies, including Medicare for All and the abolition of ICE.",
+      "The White House issued a denial regarding the potential resignation or firing of Secretary of Defense Pete Hegseth and Secretary of State Marco Rubio.",
+      "Secretary of Defense Pete Hegseth is facing criticism and a potential impeachment threat linked to his management of the war in Iran."
+    ],
+    "divergence": [
+      "The Guardian focuses on the financial losses of Elon Musk and the scope of the Democratic electoral 'flip', framing the event as a market reaction to political success.",
+      "Fox News and Fox Politics emphasize internal Democratic friction and the ideological influence of progressive figures, framing the election results through the lens of 'socialist' risks and radical policy agendas.",
+      "The BBC reports on high-level administrative instability and specific military/diplomatic leadership crises within the current executive branch, which are not mentioned in the US domestic reporting."
+    ],
+    "sources": [
+      {
+        "id": "art_1793966543044_w2vc9",
+        "url": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
         "source": "guardian",
-        "title": "Bomb threats disrupt at least 22 flights across Europe, raising hybrid war fears"
+        "title": "US midterm elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows"
+      },
+      {
+        "id": "art_1793966547657_x60m2",
+        "url": "https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-radical-democrats-rally-behind-piker-after-election",
+        "source": "fox-us",
+        "title": "Fox News ‘Antisemitism Exposed’ Newsletter: Radical Democrats rally behind Piker after election"
+      },
+      {
+        "id": "art_1793966549947_gy9qq",
+        "url": "https://www.foxnews.com/politics/squad-member-urges-dems-take-advantage-midterm-sweep-passing-far-left-policies",
+        "source": "fox",
+        "title": "'Squad' member urges Dems to take advantage of midterm sweep by passing far-left policies"
+      },
+      {
+        "id": "art_1793966550487_80l9j",
+        "url": "https://www.foxnews.com/politics/squad-member-urges-dems-take-advantage-midterm-sweep-passing-far-left-policies",
+        "source": "fox-politics",
+        "title": "'Squad' member urges Dems to take advantage of midterm sweep by passing far-left policies"
+      },
+      {
+        "id": "art_1793936912727_l48i3",
+        "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses"
+      },
+      {
+        "id": "art_1793936922506_bn4ll",
+        "url": "https://www.foxnews.com/media/fox-news-bests-msnbc-cnn-most-watched-cable-news-network-2026-midterm-election-night",
+        "source": "fox",
+        "title": "Fox News bests MS NOW, CNN as most-watched cable news network on 2026 midterm election night"
+      },
+      {
+        "id": "art_1793921415218_bhj4q",
+        "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown"
+      },
+      {
+        "id": "art_1793921420165_wa114",
+        "url": "https://www.aljazeera.com/news/2026/11/5/generation-z-and-diversity-redefine-us-politics-in-groundbreaking-election?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Generation Z and young voters help redefine US politics after midterms"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4b5fcc78a2a07869",
+    "topic_label": "ICE Enforcement Operations in New York City and Texas",
+    "event_window_start": "2026-11-06T10:00:50.000Z",
+    "event_window_end": "2026-11-06T10:00:56.000Z",
+    "article_ids": [
+      "art_1793966551560_p0e9b",
+      "art_1793966552100_jl2ia",
+      "art_1793966552619_9ckpo"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-06T18:29:37.055Z",
+    "updated_at": "2026-11-06T18:29:37.055Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Law Enforcement / Migration Policy",
+    "synthesis": "Federal Immigration and Customs Enforcement (ICE) agents conducted targeted apprehension operations in Brooklyn, New York, involving surveillance and physical detainment of individuals. Simultaneously, anecdotal reporting indicates that nationwide ICE enforcement activities are influencing electoral turnout among Hispanic voters in Texas. These operations represent standard executive agency enforcement of federal immigration law, framed by ongoing friction between federal authorities and municipal sanctuary jurisdictions, as well as broader electoral consequences.",
+    "consensus": [
+      "ICE agents are conducting street-level surveillance and apprehensions of migrants in Brooklyn, New York.",
+      "Tensions exist between ICE officials and New York City municipal leadership regarding sanctuary city policies.",
+      "ICE enforcement operations are cited by Hispanic business owners and voters in Texas as a primary factor in their opposition to Republican candidates."
+    ],
+    "divergence": [
+      "Fox News frames the Brooklyn operations as 'high-stakes raids' and emphasizes the failure of municipal cooperation, utilizing terminology that highlights agency-level frustration with local policy.",
+      "The Guardian frames the ICE operations as an 'anti-immigrant assault' and focuses on the sociological and electoral response from the Hispanic community in Texas, omitting specific tactical details of the Brooklyn arrests."
+    ],
+    "sources": [
+      {
+        "id": "art_1793966551560_p0e9b",
+        "url": "https://www.foxnews.com/politics/inside-ice-high-stakes-raids-targeting-illegal-migrants-nyc-chief-rips-sanctuary-laws",
+        "source": "fox",
+        "title": "Inside ICE's high-stakes raids targeting illegal migrants in NYC as chief rips sanctuary laws"
+      },
+      {
+        "id": "art_1793966552100_jl2ia",
+        "url": "https://www.foxnews.com/politics/inside-ice-high-stakes-raids-targeting-illegal-migrants-nyc-chief-rips-sanctuary-laws",
+        "source": "fox-politics",
+        "title": "Inside ICE's high-stakes raids targeting illegal migrants in NYC as chief rips sanctuary laws"
+      },
+      {
+        "id": "art_1793966552619_9ckpo",
+        "url": "https://www.theguardian.com/us-news/2026/nov/06/latino-voters-midterms-republicans-trump",
+        "source": "guardian",
+        "title": "Trump wooed Latino voters, but his ICE tactics sent them back to the polls: ‘They’re taking our neighbors’"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -114,6 +349,140 @@
         "url": "https://www.theguardian.com/us-news/2026/nov/05/executions-florida-alabama-indiana",
         "source": "guardian",
         "title": "Alabama, Florida and Indiana carry out executions on same day"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "896bd16af9dad61b",
+    "topic_label": "Defense Sector Developments and German Military Leadership Transition",
+    "event_window_start": "2026-11-05T18:30:53.000Z",
+    "event_window_end": "2026-11-06T10:33:39.000Z",
+    "article_ids": [
+      "art_1793966548751_6jaw9",
+      "art_1793921410633_bvq7j",
+      "art_1793921412898_rehwu",
+      "art_1793921413993_ww5mh",
+      "art_1793921414522_xtam4"
+    ],
+    "source_ids": [
+      "defensenews",
+      "fox-politics"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-06T18:29:37.055Z",
+    "updated_at": "2026-11-06T18:29:37.055Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Defense / Industry / Diplomacy",
+    "synthesis": "Recent reports outline disparate activities in the defense sector: French naval architecture developments regarding the Amiral Ronarc'h class frigate, Shield AI's $5.3 billion acquisition of radar manufacturer Echodyne to enhance drone-warfare systems, Vector's introduction of an integrated one-way attack drone 'Warfighter's Stack', internal GOP defensive legislative maneuvers, and the appointment of Lieutenant General Christian Freuding as Germany's Chief of Defense effective February 2027.",
+    "consensus": [
+      "Naval Group is marketing the inverted bow design of the Amiral Ronarc'h frigate for reduced vibration and improved seakeeping.",
+      "Shield AI is acquiring Echodyne in a transaction valued at $5.3 billion to integrate radar systems into counter-drone platforms.",
+      "Vector has announced the 'Warfighter's Stack', a tactical one-way attack drone system.",
+      "House Majority Leader Steve Scalise issued a memo to GOP committee chairs regarding potential future investigations.",
+      "Lieutenant General Christian Freuding is appointed to succeed Carsten Breuer as German Chief of Defense in February 2027."
+    ],
+    "divergence": [
+      "DefenseNews frames the Echodyne acquisition as a strategic capability expansion for 'drone-warfare' while noting the $250 million JIATF-401 contract.",
+      "Fox News frames the House GOP letter as a 'defense plan' to protect the Trump administration from impending Democrat-led legislative investigations.",
+      "The reporting on Lieutenant General Freuding highlights his tenure overseeing arms supplies to Ukraine and his focus on drone regiment implementation."
+    ],
+    "sources": [
+      {
+        "id": "art_1793966548751_6jaw9",
+        "url": "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing/",
+        "source": "defensenews",
+        "title": "How a French frigate’s radical bow design makes for smooth sailing"
+      },
+      {
+        "id": "art_1793921410633_bvq7j",
+        "url": "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/",
+        "source": "defensenews",
+        "title": "Shield AI to acquire radar maker Echodyne to bust drones"
+      },
+      {
+        "id": "art_1793921412898_rehwu",
+        "url": "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
+        "source": "defensenews",
+        "title": "Vector introduces ready-to-go one-way attack drone"
+      },
+      {
+        "id": "art_1793921413993_ww5mh",
+        "url": "https://www.foxnews.com/politics/house-gop-launches-defense-plan-shield-trump-from-looming-democrat-investigations",
+        "source": "fox-politics",
+        "title": "House GOP launches defense plan to shield Trump from looming Democrat investigations"
+      },
+      {
+        "id": "art_1793921414522_xtam4",
+        "url": "https://www.defensenews.com/global/europe/2026/11/05/germany-names-army-chief-freuding-as-next-chief-of-defense/",
+        "source": "defensenews",
+        "title": "Germany names Army Chief Freuding as next chief of defense"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dfc07c80fc0cee41",
+    "topic_label": "Coordinated multi-national bomb threat campaign against European commercial aviation",
+    "event_window_start": "2026-11-05T17:32:56.000Z",
+    "event_window_end": "2026-11-05T21:26:21.000Z",
+    "article_ids": [
+      "art_1793921411830_xm2ss",
+      "art_1793901241023_17q4g",
+      "art_1793901242349_9qo8c"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-06T03:18:46.791Z",
+    "updated_at": "2026-11-06T03:18:46.791Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Aviation / Infrastructure Sabotage",
+    "synthesis": "An orchestrated campaign of malicious bomb threats targeted at least 27 commercial flights across Europe forced multiple emergency landings, diversions, and security evacuations. The events involved coordinated alerts directed at carriers including Ryanair, Aer Lingus, Wizz Air, and Finnair, spanning 16 nations. While physical searches of the aircraft yielded no explosive devices, the systematic nature of the threats caused large-scale disruption to European airspace and ground operations over multiple days.",
+    "consensus": [
+      "At least 27 commercial flights were diverted or forced into emergency landings due to bomb threats.",
+      "Multiple European carriers including Ryanair, Aer Lingus, Wizz Air, and Finnair were targeted.",
+      "Security searches of the affected aircraft confirmed the threats were hoaxes with no explosives found.",
+      "The disruption spanned multiple nations including Italy, Ireland, the UK, Spain, Bulgaria, Romania, Poland, Finland, Austria, Denmark, Belgium, Portugal, France, Greece, Serbia, and Czechia.",
+      "Similar incidents involving hoax alerts occurred on the preceding Monday and Tuesday."
+    ],
+    "divergence": [
+      "Al Jazeera characterized the events as isolated travel disruptions without providing the specific scale of the multi-day pattern.",
+      "The Guardian frames the event as 'hybrid war,' introducing speculative geopolitical terminology to describe the coordinated nature of the threats.",
+      "The Guardian explicitly links the events to a wider regional threat profile, whereas Al Jazeera maintains a focus on the immediate operational impact."
+    ],
+    "sources": [
+      {
+        "id": "art_1793921411830_xm2ss",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hoax bomb threats force emergency landings, evacuations across Europe"
+      },
+      {
+        "id": "art_1793901241023_17q4g",
+        "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
+        "source": "guardian",
+        "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live"
+      },
+      {
+        "id": "art_1793901242349_9qo8c",
+        "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+        "source": "guardian",
+        "title": "Bomb threats disrupt at least 22 flights across Europe, raising hybrid war fears"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13566,330 +13935,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Arrest made after fire at Hitler's Eagle's Nest retreat"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "11088b4b3a1d4463e40fc8a49adb4939",
-    "topic_label": "Violent Civil Unrest and Government Suppression in Tirana, Albania",
-    "event_window_start": "2026-10-24T18:30:56.000Z",
-    "event_window_end": "2026-10-24T20:39:08.000Z",
-    "article_ids": [
-      "art_1792879176644_v3dca",
-      "art_1792870111495_44unv"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-24T22:26:48.570Z",
-    "updated_at": "2026-10-24T22:26:48.570Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "For 12 consecutive days, sustained civil unrest occurred in Tirana, Albania, characterized by direct physical confrontation between thousands of anti-government demonstrators and state security forces. Government police utilized kinetic crowd-control measures, including water cannons, tear gas, and rubber bullets, to disperse crowds attempting to breach government buildings. Official state reporting confirms over 300 casualties sustained by both security personnel and civilians, accompanied by mass arrests of protesters.",
-    "consensus": [
-      "Protests have occurred in Tirana, Albania, for 12 days.",
-      "Police used water cannons, tear gas, and rubber bullets against protesters.",
-      "Government buildings were targeted by demonstrators.",
-      "More than 300 individuals, including both police and civilians, were injured.",
-      "Multiple arrests were conducted by state authorities."
-    ],
-    "divergence": [
-      "Al Jazeera frames the protests as rooted in 'poor conditions in schools and the cost of living,' while omitting specific political demands or the identity of protest organizers.",
-      "The reporting frames the government's response as a 'crackdown' without detailing the specific structural damage to the targeted government buildings."
-    ],
-    "sources": [
-      {
-        "id": "art_1792879176644_v3dca",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/aje-onl-nf_clashes-as-albanian-pm-cracks-down-on-protests-241026?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Violent clashes as Albanian government cracks down on protests"
-      },
-      {
-        "id": "art_1792870111495_44unv",
-        "url": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Thousands gather at new Albanian antigovernment rally"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "6228af0cb2df2528f4ed7b92ddf9a8a1",
-    "topic_label": "US-Iran Escalation and Heightened Lethal Targeting Warnings",
-    "event_window_start": "2026-10-24T08:26:10.000Z",
-    "event_window_end": "2026-10-24T21:30:11.000Z",
-    "article_ids": [
-      "art_1792879163966_62hlu",
-      "art_1792849411169_tmaa3",
-      "art_1792834389909_394vj"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T00:42:06.653Z",
-    "updated_at": "2026-10-25T00:42:06.653Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Military",
-    "synthesis": "US President Donald Trump has publicly signaled the potential resumption of 'Epic Fury' offensive kinetic operations—a campaign characterized by large-scale aerial bombing—against Iranian infrastructure. Simultaneously, Iranian military leadership has issued specific threats to engage US naval assets should they enter Iranian territorial waters or the immediate periphery. Complementing these state-level posturings, US intelligence has identified that Iranian-directed lethal targeting of US personnel globally has reached an advanced phase, resulting in the forced drawdown of non-essential diplomatic staff from Saudi Arabia due to ongoing strikes by Iranian-affiliated militant groups.",
-    "consensus": [
-      "President Trump has publicly threatened a new aerial bombing campaign designated 'Epic Fury' against Iran.",
-      "Iran has issued formal warnings that it will target US warships in the region.",
-      "The US Department of State has ordered a partial evacuation of embassy personnel from Saudi Arabia.",
-      "US intelligence has confirmed an uptick in advanced plots by Iran to target Americans abroad."
-    ],
-    "divergence": [
-      "Al Jazeera frames the conflict as a result of US failure to honor an interim deal and emphasizes Iranian military defiance, omitting the intelligence reports regarding global lethal plots against Americans.",
-      "Fox News emphasizes the threat of Iranian-led lethal operations and the subsequent diplomatic personnel drawdown, while omitting the Iranian perspective on the failed interim deal and the specific threat of maritime engagement by the IRGC."
-    ],
-    "sources": [
-      {
-        "id": "art_1792879163966_62hlu",
-        "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran blames US for deal failure, urges new try amid fear of new attacks"
-      },
-      {
-        "id": "art_1792849411169_tmaa3",
-        "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran says won’t allow US warships to get close as Trump ponders new attacks"
-      },
-      {
-        "id": "art_1792834389909_394vj",
-        "url": "https://www.foxnews.com/politics/iran-substantially-increased-efforts-target-americans-abroad-us-intelligence-memo-warns",
-        "source": "fox",
-        "title": "Iran has 'substantially increased' efforts to target Americans abroad, US intelligence memo warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c33732df78fb8b0843e21c449f627dfa",
-    "topic_label": "Nationwide Civil Unrest and Mass Arrests in France",
-    "event_window_start": "2026-10-23T23:26:23.000Z",
-    "event_window_end": "2026-10-24T21:09:27.000Z",
-    "article_ids": [
-      "art_1792879165210_fn8x4",
-      "art_1792870117074_ru1nw",
-      "art_1792870118135_w3fjs",
-      "art_1792870119171_6cn37",
-      "art_1792849409989_fuf9b",
-      "art_1792849413288_k7h1f",
-      "art_1792834381017_b8rgc",
-      "art_1792818504082_wovwl",
-      "art_1792801825915_toot8"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 9,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-24T22:26:48.570Z",
-    "updated_at": "2026-10-24T22:26:48.570Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "State-wide demonstrations occurred across France, involving hundreds of thousands of participants and resulting in approximately 1,000 arrests by security forces. Kinetic engagements included the deployment of tear gas and water cannons by police to disperse crowds, while protesters utilized barricades, fireworks, and ball bearings. The disruption led to the suspension of operations at major infrastructure and cultural sites, including the Louvre, Musée d'Orsay, and the Picasso Museum. Government and labor union estimates of protester attendance diverge significantly, reflecting a polarized assessment of the scale and intent of the demonstrations.",
-    "consensus": [
-      "Approximately 1,000 individuals were arrested nationwide.",
-      "Police utilized water cannons and tear gas against protesters in Paris and other cities.",
-      "Protests occurred in multiple cities including Paris, Marseille, and Bordeaux.",
-      "Major cultural sites including the Louvre were closed to the public.",
-      "Protesters utilized barricades in some urban areas."
-    ],
-    "divergence": [
-      "The BBC and Guardian highlight union-led protests regarding public services and cost of living; Fox News frames the events as a 'dead end of socialism' and focuses on violent looting and property destruction.",
-      "The Guardian omits the mention of police pre-emptive weapons searches and the seizure of ball bearings/fireworks, which were explicitly highlighted by Fox News.",
-      "Fox News emphasizes government-imposed curfews and bans on protests, while the BBC and Guardian focus on the protesters' stated grievances regarding policing and school funding.",
-      "Attendance figures vary by source: the Interior Ministry reports approximately 410,000 participants, while unions claim numbers double that figure."
-    ],
-    "sources": [
-      {
-        "id": "art_1792879165210_fn8x4",
-        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France"
-      },
-      {
-        "id": "art_1792870117074_ru1nw",
-        "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
-        "source": "guardian",
-        "title": "Hundreds of thousands march across France in protests over schools and policing"
-      },
-      {
-        "id": "art_1792870118135_w3fjs",
-        "url": "https://www.foxnews.com/world/nearly-1000-arrested-across-france-police-find-potential-weapons-protestors",
-        "source": "fox",
-        "title": "Nearly 1,000 arrested across France as police find potential weapons on protestors: officials"
-      },
-      {
-        "id": "art_1792870119171_6cn37",
-        "url": "https://www.foxnews.com/media/french-ceo-warns-purely-chaotic-riots-prove-country-reached-dead-end-socialism",
-        "source": "fox",
-        "title": "French CEO warns 'purely chaotic' riots prove the country has reached the 'dead end of socialism'"
-      },
-      {
-        "id": "art_1792849409989_fuf9b",
-        "url": "https://www.foxnews.com/travel/louvre-turns-away-tourists-paris-braces-renewed-violence-following-destructive-riots",
-        "source": "fox",
-        "title": "Louvre turns away tourists as Paris braces for renewed violence following destructive riots"
-      },
-      {
-        "id": "art_1792849413288_k7h1f",
-        "url": "https://www.foxnews.com/opinion/broadcast-bias-networks-show-france-burning-highlight-peaceful-protesters",
-        "source": "fox",
-        "title": "BROADCAST BIAS: Networks show France burning but highlight ‘peaceful’ protesters"
-      },
-      {
-        "id": "art_1792834381017_b8rgc",
-        "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-        "source": "guardian",
-        "title": "Hundreds of protests expected across France, with shops, businesses and tourist sites closed – Europe live"
-      },
-      {
-        "id": "art_1792818504082_wovwl",
-        "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "France prepares for day of protest a week after nationwide riots"
-      },
-      {
-        "id": "art_1792801825915_toot8",
-        "url": "https://www.foxnews.com/outkick-sports/trump-says-nfl-could-probably-postponed-paris-game-france-protests-stretch-police-thin",
-        "source": "fox",
-        "title": "Trump says NFL 'could've probably postponed' Paris game as France protests stretch police thin"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2bc3b9456ef37f14340721806625b7f4",
-    "topic_label": "Typhoon Champi Impact on Taiwan",
-    "event_window_start": "2026-10-23T23:10:54.000Z",
-    "event_window_end": "2026-10-24T02:22:32.000Z",
-    "article_ids": [
-      "art_1792818514908_gw7c9",
-      "art_1792801829180_6p041"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-24T09:57:46.985Z",
-    "updated_at": "2026-10-24T09:57:46.985Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Meteorological Disaster",
-    "synthesis": "Typhoon Champi, a major tropical cyclone, made a near-pass of the northeast coast of Taiwan, resulting in one fatality and between 350 and 500 injuries. The physical event caused extensive infrastructure damage, including the uprooting of trees, electrical grid failure affecting thousands, the closure of businesses and schools, and the forced evacuation of 4,300 individuals. Regional air travel has been severely disrupted with mass flight cancellations, and the system is currently tracking toward the Chinese and Japanese coasts with sustained winds measured at 126km/h near the center.",
-    "consensus": [
-      "One fatality occurred.",
-      "Typhoon Champi passed the northeast coast of Taiwan.",
-      "The storm caused widespread power outages and infrastructure damage.",
-      "Regional flights have been cancelled.",
-      "The storm is currently moving toward the coast of China."
-    ],
-    "divergence": [
-      "The Guardian reports over 500 injuries, while Al Jazeera reports at least 350 injuries.",
-      "The Guardian frames the storm as having weakened considerably from its super typhoon status, whereas Al Jazeera emphasizes the evacuation of 4,300 people as a key measure of the storm's intensity."
-    ],
-    "sources": [
-      {
-        "id": "art_1792818514908_gw7c9",
-        "url": "https://www.theguardian.com/world/2026/oct/24/typhoon-champi-kills-one-and-injures-more-than-500-in-taiwan-as-it-heads-to-china",
-        "source": "guardian",
-        "title": "Typhoon Champi kills one and injures more than 500 in Taiwan as it heads to China"
-      },
-      {
-        "id": "art_1792801829180_6p041",
-        "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Typhoon Champi hits Taiwan, killing one and injuring 350"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "02565ade32f93443261128497a1c0d75",
-    "topic_label": "Train-Crane Collision in Sao Paulo and Brazilian Presidential Election Runoff",
-    "event_window_start": "2026-10-24T15:36:38.000Z",
-    "event_window_end": "2026-10-24T21:02:55.000Z",
-    "article_ids": [
-      "art_1792879167260_0ntl4",
-      "art_1792870113576_hblpn",
-      "art_1792870124615_t3xtb"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-24T22:26:48.570Z",
-    "updated_at": "2026-10-24T22:26:48.570Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure and Political",
-    "synthesis": "The reported events concern two distinct physical realities in Brazil: a structural failure resulting in a kinetic collision and an upcoming high-stakes national election. A construction crane collapsed onto an active railway line in Sao Paulo, causing a commuter train to strike the wreckage and force the debris into a public thoroughfare, resulting in physical injury to the crane operator. Simultaneously, Brazil is approaching a national election runoff involving incumbent Luiz Inácio Lula da Silva and Flávio Bolsonaro, characterized by large-scale public mobilization on Copacabana beach and polling indicating a narrow electoral margin.",
-    "consensus": [
-      "A crane collapsed onto an active railway line in Sao Paulo, resulting in a collision with a train.",
-      "The crane operator sustained injuries during the railway collision.",
-      "Brazil is holding a national presidential election runoff involving Lula da Silva and Flávio Bolsonaro.",
-      "Public rallies are occurring in anticipation of the election."
-    ],
-    "divergence": [
-      "Al Jazeera focuses on the localized mechanical incident in Sao Paulo while simultaneously reporting on polling statistics for the election.",
-      "The Guardian frames the political climate exclusively through the lens of a pro-Lula rally, omitting the polling data cited by other sources.",
-      "The Guardian inaccurately identifies the candidate as Flávio Bolsonaro in the context of the election; other reporting identifies this as the senatorial candidate and son of former President Jair Bolsonaro, conflating the incumbent's primary opponent identity."
-    ],
-    "sources": [
-      {
-        "id": "art_1792879167260_0ntl4",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/train-slams-into-crane-that-collapsed-onto-railway-line-in-brazil?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Train slams into crane that collapsed onto railway line in Brazil"
-      },
-      {
-        "id": "art_1792870113576_hblpn",
-        "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-        "source": "guardian",
-        "title": "Tens of thousands of Lula supporters rally on eve of Brazilian election runoff"
-      },
-      {
-        "id": "art_1792870124615_t3xtb",
-        "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
