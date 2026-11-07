@@ -1,5 +1,80 @@
 [
   {
+    "cluster_id": "2e1ca78e7a18ebd4",
+    "topic_label": "US Kinetic Strike on Iranian Air Defense Systems on Qeshm Island",
+    "event_window_start": "2026-11-07T01:54:19.000Z",
+    "event_window_end": "2026-11-07T03:53:01.000Z",
+    "article_ids": [
+      "art_1794026577500_ktmir",
+      "art_1794026578108_0qdbe",
+      "art_1794026578712_53bei",
+      "art_1794026579259_7g8dp",
+      "art_1794026579810_g6q9o"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "fox",
+      "fox-politics"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-07T10:00:53.121Z",
+    "updated_at": "2026-11-07T10:00:53.121Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Military Strike",
+    "synthesis": "United States military forces executed a targeted kinetic strike on Iranian air defense infrastructure located in the Suza area of Qeshm Island within the Strait of Hormuz. US President Donald Trump characterized the engagement as a 'minor' strike against an anti-aircraft device, confirming the destruction of the asset within a short operational timeframe. Concurrently, Iranian state media confirmed the occurrence of two distinct explosions in the specified sector, though Iranian military authorities claimed the interception and neutralization of the incoming munitions.",
+    "consensus": [
+      "US military forces conducted a kinetic strike against an Iranian air defense asset.",
+      "The strike location is identified as the Suza area of Qeshm Island, Strait of Hormuz.",
+      "US President Donald Trump confirmed the engagement and the destruction of the air defense device.",
+      "Iranian state media reported two explosions in the Suza area of Qeshm Island."
+    ],
+    "divergence": [
+      "Al Jazeera includes the Iranian military's unverified claim that their defense forces intercepted and destroyed the incoming US munitions.",
+      "The Guardian explicitly contextualizes the strike within the framework of an ongoing US-Iran war that has disrupted shipping since February, a detail omitted by Al Jazeera.",
+      "Fox News and Fox-Politics provided no reporting on the strike, focusing instead on unrelated US Department of State bounties and NASA mission announcements, creating a massive divergence in threat-level reporting for the same date."
+    ],
+    "sources": [
+      {
+        "id": "art_1794026577500_ktmir",
+        "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump confirms new US strikes on Iran’s Qeshm Island"
+      },
+      {
+        "id": "art_1794026578108_0qdbe",
+        "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+        "source": "guardian",
+        "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says"
+      },
+      {
+        "id": "art_1794026578712_53bei",
+        "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program",
+        "source": "fox",
+        "title": "US offers $20 million reward for information on Iran's nuclear program"
+      },
+      {
+        "id": "art_1794026579259_7g8dp",
+        "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program",
+        "source": "fox-politics",
+        "title": "US offers $20 million reward for information on Iran's nuclear program"
+      },
+      {
+        "id": "art_1794026579810_g6q9o",
+        "url": "https://www.foxnews.com/politics/trump-highlights-nasa-nuclear-powered-mars-spacecraft-mission-planned-2028",
+        "source": "fox",
+        "title": "Trump highlights NASA nuclear-powered Mars spacecraft mission planned for 2028"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "2027c5aa5518c695",
     "topic_label": "Coordinated Series of Aviation Bomb Threats Across Europe",
     "event_window_start": "2026-11-06T11:48:45.000Z",
@@ -13842,66 +13917,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
         "source": "aljazeera",
         "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e70623c776f7e22f8729b09f75085c68",
-    "topic_label": "Arson attack on Kehlsteinhaus historical site",
-    "event_window_start": "2026-10-24T07:31:42.000Z",
-    "event_window_end": "2026-10-25T00:54:50.000Z",
-    "article_ids": [
-      "art_1792900937735_efude",
-      "art_1792861552336_zib5m",
-      "art_1792834395097_qgfkq"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T05:19:04.949Z",
-    "updated_at": "2026-10-25T05:19:04.949Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "A 33-year-old German male was apprehended by authorities following an act of arson targeting the Kehlsteinhaus, a historical mountain structure in the Bavarian Alps. The fire ignited on Friday evening, causing significant structural damage to the facility due to difficult terrain and high-wind conditions hampering emergency response efforts. The suspect has been transferred to a psychiatric institution for evaluation.",
-    "consensus": [
-      "A fire occurred at the Kehlsteinhaus on Friday night",
-      "A 33-year-old male suspect was arrested in connection with the fire",
-      "The site is located in the Bavarian Alps near Berchtesgaden",
-      "Emergency response was complicated by environmental conditions"
-    ],
-    "divergence": [
-      "Fox highlights the suspect's alleged mental illness and psychiatric placement, framing the event through a lens of individual instability.",
-      "BBC emphasizes the historical context of the site, noting its use for Nazi propaganda and characterizing the damage as 'largely destroyed'.",
-      "Al Jazeera provides a minimalist report, omitting speculation on the suspect's mental state and focusing on the physical limitations of the firefighting operation."
-    ],
-    "sources": [
-      {
-        "id": "art_1792900937735_efude",
-        "url": "https://www.foxnews.com/travel/man-arrested-fire-engulfs-hitlers-eagles-nest-mountain-retreat-bavarian-alps",
-        "source": "fox",
-        "title": "Man arrested after fire engulfs Hitler’s Eagle’s Nest mountain retreat in the Bavarian Alps"
-      },
-      {
-        "id": "art_1792861552336_zib5m",
-        "url": "https://www.bbc.co.uk/news/videos/cq98z9xxy2n2o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Watch as fire engulfs Hitler's mountaintop Eagle's Nest retreat"
-      },
-      {
-        "id": "art_1792834395097_qgfkq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/man-arrested-after-fire-breaks-out-at-hitlers-former-alpine-retreat?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Man arrested after fire breaks out at Hitler’s former Alpine retreat"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
