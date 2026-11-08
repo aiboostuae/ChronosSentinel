@@ -1,51 +1,54 @@
 [
   {
-    "cluster_id": "af0d123f294401b4",
-    "topic_label": "Coalition Airstrikes and Ground Offensive in Marib and Sa’ada",
-    "event_window_start": "2026-11-07T17:39:23.000Z",
-    "event_window_end": "2026-11-07T19:06:31.000Z",
+    "cluster_id": "09dd0a5f716e3dbc",
+    "topic_label": "Al-Ayyat Train Collision and Derailment",
+    "event_window_start": "2026-11-08T17:35:13.000Z",
+    "event_window_end": "2026-11-08T17:51:17.000Z",
     "article_ids": [
-      "art_1794085044765_inxkp",
-      "art_1794085046012_h73to"
+      "art_1794164102666_j66db",
+      "art_1794164104511_hphua"
     ],
     "source_ids": [
-      "aljazeera"
+      "guardian",
+      "bbc"
     ],
     "article_count": 2,
-    "source_count": 1,
+    "source_count": 2,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-11-08T17:14:05.915Z",
-    "updated_at": "2026-11-08T17:14:05.915Z",
-    "region_tag": "middle-east",
+    "created_at": "2026-11-08T21:12:08.004Z",
+    "updated_at": "2026-11-08T21:12:08.004Z",
+    "region_tag": "global",
     "severity": "CRITICAL",
-    "incident_type": "Armed Conflict",
-    "synthesis": "The Yemeni government and Saudi-led coalition are currently engaged in offensive operations across multiple provinces, involving heavy kinetic activity. Ground forces, supported by aerial assets including warplanes and drones, are conducting the 'Dawn of Yemen' operation to reclaim territory in Marib and al-Jawf. Simultaneously, coalition airstrikes have been reported against telecommunications infrastructure in Sa’ada, resulting in mass casualties, with Houthi-affiliated sources reporting at least 25 to 27 fatalities and numerous injuries across multiple impact sites.",
+    "incident_type": "Infrastructure",
+    "synthesis": "On Sunday, a rear-end collision occurred in the al-Ayyat district of Giza province, Egypt, involving two passenger trains. A train traveling toward Fayoum struck a stationary train bound for Aswan, causing multiple carriages to derail and descend an embankment. The kinetic impact resulted in at least seven confirmed fatalities and over 100 injuries. Egyptian state authorities have initiated a negligence investigation into the signaling or operational failures that allowed both trains to occupy the same track segment simultaneously.",
     "consensus": [
-      "Government forces are conducting ground operations in Marib and al-Jawf provinces.",
-      "Aerial bombardment is being utilized by the government-aligned coalition.",
-      "Multiple strikes targeted telecommunications infrastructure in Sa’ada governorate.",
-      "Casualties exceeding 25 deaths have occurred as a result of recent military actions."
+      "Two trains collided in the al-Ayyat district of Giza province",
+      "At least seven individuals are confirmed deceased",
+      "Over 100 individuals sustained injuries",
+      "A moving train collided with a stationary train on the same track",
+      "The collision resulted in multiple carriage derailments and an embankment fall",
+      "Egyptian President Abdul Fattah al-Sisi ordered an official investigation into negligence"
     ],
     "divergence": [
-      "Al Jazeera frames the Marib/al-Jawf events primarily as a 'government advance' against Houthi 'assaults' while highlighting Houthi-reported casualty figures for the Sa’ada strikes.",
-      "The reporting omits specific tactical details regarding the types of ordnance used in the Sa'ada strikes, focusing instead on the target designation of telecommunications infrastructure.",
-      "There is a discrepancy in the casualty count reported by various Houthi-affiliated channels (25 versus 27) regarding the Sanaa province incident."
+      "The Guardian explicitly identifies 'mismanagement and poor maintenance' as systemic factors behind the collision",
+      "The BBC emphasizes the immediate emergency response and ongoing search efforts for survivors within the wreckage",
+      "The Guardian reports the incident as occurring '30 miles south of Cairo', while the BBC focuses on the geographic proximity to Giza city"
     ],
     "sources": [
       {
-        "id": "art_1794085044765_inxkp",
-        "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa"
+        "id": "art_1794164102666_j66db",
+        "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+        "source": "guardian",
+        "title": "Collision of two trains in Egypt kills at least seven"
       },
       {
-        "id": "art_1794085046012_h73to",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Houthis report 25 killed in Yemen strikes"
+        "id": "art_1794164104511_hphua",
+        "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Seven dead and more than 100 injured after trains collide in Egypt"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -146,6 +149,203 @@
         "url": "https://www.foxnews.com/us/two-experienced-skydivers-die-midair-collision-entangles-parachutes",
         "source": "fox-us",
         "title": "Two experienced skydivers die after midair collision entangles their parachutes"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c75cac10392be5fd",
+    "topic_label": "Formation Mandate Granted to Gadi Eisenkot",
+    "event_window_start": "2026-11-07T22:17:37.000Z",
+    "event_window_end": "2026-11-08T18:12:27.000Z",
+    "article_ids": [
+      "art_1794164096413_ctd6q",
+      "art_1794164101344_hkouu",
+      "art_1794164106142_hke7r",
+      "art_1794097624482_jqte7",
+      "art_1794097629520_ntxwa",
+      "art_1794097630057_zvbh0"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T21:12:08.004Z",
+    "updated_at": "2026-11-08T21:12:08.004Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy",
+    "synthesis": "Israeli President Isaac Herzog has formally tasked opposition leader Gadi Eisenkot with the formation of a new coalition government following inconclusive parliamentary elections. Eisenkot, a former military chief, is provided with an initial 28-day window to secure a majority coalition in the Knesset. This transition follows an election cycle where neither the incumbent Prime Minister Benjamin Netanyahu nor the opposition bloc secured a governing majority. Eisenkot has publicly declared the current situation a national emergency, citing a political and social crisis, and has issued invitations to Likud and Religious Zionist Party members to join a coalition under his leadership.",
+    "consensus": [
+      "President Isaac Herzog has tasked Gadi Eisenkot with forming a government.",
+      "No party or bloc secured a parliamentary majority in the recent election.",
+      "Eisenkot is granted 28 days to complete the formation process.",
+      "The process occurs against a backdrop of ongoing coalition negotiations in the Knesset."
+    ],
+    "divergence": [
+      "Al Jazeera includes contextual reporting on environmental conditions in Gaza (winter storm, flooded tents), which the BBC and The Guardian omit from their coverage of the political transition.",
+      "The Guardian frames the event using more urgent language, describing the state of affairs as a 'historic crisis' and a 'point of no return,' whereas the BBC maintains a more procedural tone regarding the mandate.",
+      "The Guardian reports a 28-day deadline, while Al Jazeera (in a separate fragment) erroneously suggests a six-week window, creating a discrepancy in the reporting of the constitutional timeline."
+    ],
+    "sources": [
+      {
+        "id": "art_1794164096413_ctd6q",
+        "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Eisenkot open to Netanyahu joining Israel’s next government"
+      },
+      {
+        "id": "art_1794164101344_hkouu",
+        "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
+        "source": "guardian",
+        "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government"
+      },
+      {
+        "id": "art_1794164106142_hke7r",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/dnrbltn-261108-hegazyn-jerusalem_daily-081126?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jerusalem Daily: Eisenkot picked over Netanyahu to form government"
+      },
+      {
+        "id": "art_1794097624482_jqte7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Eisenkot chosen over Netanyahu to form Israel’s next government"
+      },
+      {
+        "id": "art_1794097629520_ntxwa",
+        "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Israel's president tasks opposition leader Eisenkot with forming government"
+      },
+      {
+        "id": "art_1794097630057_zvbh0",
+        "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms",
+        "source": "fox",
+        "title": "Israeli president taps Netanyahu rival to form government as coalition battle looms"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3447c9e8ff05575f",
+    "topic_label": "Establishment of US CENTCOM Task Force Iron Gate",
+    "event_window_start": "2026-11-08T02:34:04.000Z",
+    "event_window_end": "2026-11-08T17:44:51.000Z",
+    "article_ids": [
+      "art_1794164103297_do018",
+      "art_1794146525736_oz0q4",
+      "art_1794146529789_wiezq",
+      "art_1794120274617_qcuj3"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T21:12:08.004Z",
+    "updated_at": "2026-11-08T21:12:08.004Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Military / Infrastructure",
+    "synthesis": "The United States Central Command (CENTCOM) has formally established Task Force Iron Gate to intercept and block Iranian land-based logistics corridors. This military action complements existing US maritime blockades in the Strait of Hormuz. The objective of the task force is the physical interdiction of Iranian transport of advanced weaponry, dual-use technology, and sanctioned materials across regional ground supply routes. The operation is coordinated by US military assets and government agencies from command centers based in Florida.",
+    "consensus": [
+      "CENTCOM has established Task Force Iron Gate.",
+      "The mission of the task force is the blockade of Iranian land-based supply routes.",
+      "The task force aims to prevent the transport of advanced weapons, dual-use technology, and sanctioned materials.",
+      "The operation is officially framed as an extension of existing naval blockades in the Strait of Hormuz."
+    ],
+    "divergence": [
+      "The reporting source frames the action as a 'disruption of supply routes' rather than the active kinetic interdiction and blockade of sovereign transit routes implied by the task force's mandate.",
+      "The source omits specific tactical details regarding the 'ground routes' identified for interdiction, focusing instead on the strategic declaration of the blockade."
+    ],
+    "sources": [
+      {
+        "id": "art_1794164103297_do018",
+        "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel"
+      },
+      {
+        "id": "art_1794146525736_oz0q4",
+        "url": "https://www.aljazeera.com/news/2026/11/8/egypts-reopening-of-its-embassy-in-tripoli-signals-regional-shift-on-libya?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Egypt’s reopening of its embassy in Tripoli signals regional shift on Libya"
+      },
+      {
+        "id": "art_1794146529789_wiezq",
+        "url": "https://www.aljazeera.com/news/2026/11/8/could-iraqs-kurdish-region-return-to-two-separate-administrations?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Could Iraq’s Kurdish region return to two separate administrations?"
+      },
+      {
+        "id": "art_1794120274617_qcuj3",
+        "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US launches task force to disrupt Iran’s land-based supply routes"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "af0d123f294401b4",
+    "topic_label": "Coalition Airstrikes and Ground Offensive in Marib and Sa’ada",
+    "event_window_start": "2026-11-07T17:39:23.000Z",
+    "event_window_end": "2026-11-07T19:06:31.000Z",
+    "article_ids": [
+      "art_1794085044765_inxkp",
+      "art_1794085046012_h73to"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T17:14:05.915Z",
+    "updated_at": "2026-11-08T17:14:05.915Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Armed Conflict",
+    "synthesis": "The Yemeni government and Saudi-led coalition are currently engaged in offensive operations across multiple provinces, involving heavy kinetic activity. Ground forces, supported by aerial assets including warplanes and drones, are conducting the 'Dawn of Yemen' operation to reclaim territory in Marib and al-Jawf. Simultaneously, coalition airstrikes have been reported against telecommunications infrastructure in Sa’ada, resulting in mass casualties, with Houthi-affiliated sources reporting at least 25 to 27 fatalities and numerous injuries across multiple impact sites.",
+    "consensus": [
+      "Government forces are conducting ground operations in Marib and al-Jawf provinces.",
+      "Aerial bombardment is being utilized by the government-aligned coalition.",
+      "Multiple strikes targeted telecommunications infrastructure in Sa’ada governorate.",
+      "Casualties exceeding 25 deaths have occurred as a result of recent military actions."
+    ],
+    "divergence": [
+      "Al Jazeera frames the Marib/al-Jawf events primarily as a 'government advance' against Houthi 'assaults' while highlighting Houthi-reported casualty figures for the Sa’ada strikes.",
+      "The reporting omits specific tactical details regarding the types of ordnance used in the Sa'ada strikes, focusing instead on the target designation of telecommunications infrastructure.",
+      "There is a discrepancy in the casualty count reported by various Houthi-affiliated channels (25 versus 27) regarding the Sanaa province incident."
+    ],
+    "sources": [
+      {
+        "id": "art_1794085044765_inxkp",
+        "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa"
+      },
+      {
+        "id": "art_1794085046012_h73to",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Houthis report 25 killed in Yemen strikes"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13727,180 +13927,5 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "9a5e3a787af1a1ed4cd1fb9e5fe51071",
-    "topic_label": "Return of opposition leader María Corina Machado to Venezuelan territory",
-    "event_window_start": "2026-10-25T16:21:40.000Z",
-    "event_window_end": "2026-10-25T23:23:25.000Z",
-    "article_ids": [
-      "art_1792975683550_jgxlk",
-      "art_1792958809718_h5yrl",
-      "art_1792949913810_rkquz",
-      "art_1792949925878_6tnh1"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-26T12:19:38.477Z",
-    "updated_at": "2026-10-26T12:19:38.477Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Political/Governance",
-    "synthesis": "Opposition leader María Corina Machado has returned to Venezuela after approximately 10 months of self-imposed exile, as confirmed by her social media presence and visual verification in the state of Lara. This physical re-entry occurs within an unstable political environment characterized by the previous extraction and detainment of former president Nicolás Maduro by United States forces, the subsequent installation of interim president Delcy Rodríguez, and ongoing geopolitical shifts including US-Venezuela energy agreements.",
-    "consensus": [
-      "María Corina Machado has returned to Venezuela after 10 months of exile.",
-      "The return was confirmed by Machado via X and verified by ally Edmundo González.",
-      "Machado was physically sighted at a church in the state of Lara.",
-      "Nicolás Maduro is no longer in power, having been seized by the United States."
-    ],
-    "divergence": [
-      "Al Jazeera includes conflicting and potentially erroneous reporting regarding the Nobel Peace Prize timeline and the nature of Maduro's removal, characterizing it in some segments as an abduction.",
-      "The Guardian frames the event through the lens of interim president Delcy Rodríguez’s disapproval, omitting the details regarding the US seizure of Maduro provided by other outlets.",
-      "BBC provides additional context regarding the specific administrative transition to Delcy Rodríguez and the subsequent oil deals with the United States, framing the event as occurring within a broader, volatile power shift."
-    ],
-    "sources": [
-      {
-        "id": "art_1792975683550_jgxlk",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/venezuelas-opposition-leader-machado-returns-after-months-in-exile?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Venezuela’s opposition leader Machado returns after months in exile"
-      },
-      {
-        "id": "art_1792958809718_h5yrl",
-        "url": "https://www.aljazeera.com/news/2026/10/25/venezuelas-opposition-leader-maria-corina-machado-returns-from-exile?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Venezuela’s opposition leader Maria Corina Machado returns from exile"
-      },
-      {
-        "id": "art_1792949913810_rkquz",
-        "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
-        "source": "guardian",
-        "title": "Exiled opposition leader María Corina Machado returns to Venezuela"
-      },
-      {
-        "id": "art_1792949925878_6tnh1",
-        "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Venezuelan opposition leader María Machado returns after months in exile"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ac4ed2c2d10d0e974db162bce52153e5",
-    "topic_label": "Marine Le Pen Presidential Campaign Launch",
-    "event_window_start": "2026-10-25T21:39:13.000Z",
-    "event_window_end": "2026-10-25T21:50:36.000Z",
-    "article_ids": [
-      "art_1792967556971_54n4b",
-      "art_1792967559311_h7kfm"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-26T12:19:38.477Z",
-    "updated_at": "2026-10-26T12:19:38.477Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "Marine Le Pen officially initiated her presidential campaign in Orleans, France, before an audience of approximately 8,500 supporters. The event functioned as a political rally characterized by nationalist rhetoric regarding a projected national renaissance in response to ongoing social unrest. No kinetic incidents, threats to public safety, or physical disruptions were reported at the event site.",
-    "consensus": [
-      "Marine Le Pen held a campaign launch event in Orleans, France.",
-      "The event was attended by thousands of supporters.",
-      "The political platform centers on the premise of a national renaissance and the restoration of order."
-    ],
-    "divergence": [
-      "Al Jazeera's coverage utilizes the event to frame the broader national socio-economic climate, while omitting specific policy details of the campaign platform.",
-      "The primary source narrative emphasizes the size of the crowd and the aesthetics of the venue, while the secondary report focuses almost exclusively on the narrative of restoring order following public protests."
-    ],
-    "sources": [
-      {
-        "id": "art_1792967556971_54n4b",
-        "url": "https://www.aljazeera.com/news/2026/10/25/marine-le-pen-vows-a-french-renaissance-as-far-right-eyes-seat-of-power?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Marine Le Pen vows French ‘renaissance’ as far right eyes seat of power"
-      },
-      {
-        "id": "art_1792967559311_h7kfm",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/marine-le-pen-launches-french-presidential-campaign?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Marine Le Pen launches French presidential campaign"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4e1559358ce702bfdd88c3dbb799babf",
-    "topic_label": "UK Prime Minister Burnham Opens Deliberation on European Union Free Movement",
-    "event_window_start": "2026-10-25T12:38:54.000Z",
-    "event_window_end": "2026-10-25T13:31:05.000Z",
-    "article_ids": [
-      "art_1792936075967_hlun2",
-      "art_1792936083822_89v5c",
-      "art_1792936089340_ctuv7"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-26T12:19:38.477Z",
-    "updated_at": "2026-10-26T12:19:38.477Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "UK Prime Minister Andy Burnham has publicly signaled a reversal of policy regarding the United Kingdom's post-Brexit isolationist stance on labor mobility. During a media interview, Burnham advocated for a renegotiation of free movement protocols with the European Union, acknowledging that current migration patterns present greater administrative and social difficulties than those experienced under previous membership terms. The policy shift has triggered internal partisan friction within the Labour Party, specifically among representatives of pro-Brexit constituencies concerned with the political optics of renewed migration integration.",
-    "consensus": [
-      "Prime Minister Andy Burnham gave an interview to The Sunday Times.",
-      "Burnham expressed a willingness to discuss the restoration of freedom of movement with the European Union.",
-      "Burnham stated that previous migration patterns were different from current post-Brexit trends.",
-      "The move has sparked internal discussion among Labour Party members."
-    ],
-    "divergence": [
-      "The Guardian focuses on the internal political fragility and the divide between senior cabinet members like Angela Rayner and 'red wall' MPs, framing the event through the lens of party unity.",
-      "Al Jazeera frames the event primarily as a historical pivot regarding the 2016 Brexit referendum and the economic necessity of rethinking ties with Brussels.",
-      "The Guardian report on Jack Ross is entirely unrelated to the diplomatic discourse reported by the other sources, demonstrating a divergent organizational focus on domestic political scandal versus high-level state policy."
-    ],
-    "sources": [
-      {
-        "id": "art_1792936075967_hlun2",
-        "url": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
-        "source": "guardian",
-        "title": "Burnham call for debate on free movement with EU draws mixed Labour response"
-      },
-      {
-        "id": "art_1792936083822_89v5c",
-        "url": "https://www.theguardian.com/politics/2026/oct/25/former-tory-candidate-suspended-over-contract-killer-claims-was-adviser-in-kemi-badenoch-office-jack-ross",
-        "source": "guardian",
-        "title": "Former Tory candidate suspended over contract killer claims was adviser in Kemi Badenoch’s office"
-      },
-      {
-        "id": "art_1792936089340_ctuv7",
-        "url": "https://www.aljazeera.com/news/2026/10/25/uk-pm-burnham-says-he-wants-to-discuss-a-return-to-eu-freedom-of-movement?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "UK PM Burnham says he wants to discuss a return to EU freedom of movement"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
