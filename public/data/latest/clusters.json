@@ -1,5 +1,394 @@
 [
   {
+    "cluster_id": "f028b6a9dff66b0d",
+    "topic_label": "US Military Missile Strikes on Iranian Air Defense Systems, Qeshm Island",
+    "event_window_start": "2026-11-07T03:07:01.000Z",
+    "event_window_end": "2026-11-07T10:00:08.000Z",
+    "article_ids": [
+      "art_1794051067661_qreyd",
+      "art_1794051068771_jxxxr",
+      "art_1794026577500_ktmir",
+      "art_1794026578108_0qdbe"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T00:01:45.125Z",
+    "updated_at": "2026-11-08T00:01:45.125Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Ballistic / Military Strike",
+    "synthesis": "United States military forces executed kinetic missile strikes against Iranian air defense infrastructure located in the Suza area of Qeshm Island, situated within the Strait of Hormuz. The strikes resulted in the destruction of anti-aircraft hardware, an action confirmed by US leadership and Iranian state media. These events coincide with ongoing regional hostilities following the initiation of armed conflict in February.",
+    "consensus": [
+      "US military forces conducted missile strikes against Iranian air defense assets.",
+      "The target site was the Suza area of Qeshm Island, Strait of Hormuz.",
+      "Iranian state media confirmed two explosion events in the identified region.",
+      "The strikes targeted anti-aircraft defense systems."
+    ],
+    "divergence": [
+      "The Guardian frames the event as part of an ongoing 'war on Iran' initiated in February, whereas Al Jazeera reports the President's explicit insistence that the conflict does not constitute a 'war'.",
+      "Al Jazeera's reporting emphasizes the tactical duration of the strike ('15 minutes, maybe five'), whereas The Guardian focuses on the broader context of persistent regional waterway disruption.",
+      "The Guardian includes external data regarding a separate infrastructure project in Lanarkshire, indicating a deviation in reporting focus that is not relevant to the kinetic event in the Strait of Hormuz."
+    ],
+    "sources": [
+      {
+        "id": "art_1794051067661_qreyd",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
+        "source": "guardian",
+        "title": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim"
+      },
+      {
+        "id": "art_1794051068771_jxxxr",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/trump-confirms-us-strikes-in-iran-insists-its-not-a?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump confirms US strikes in Iran, insists ‘it’s not a war’ "
+      },
+      {
+        "id": "art_1794026577500_ktmir",
+        "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Trump confirms new US strikes on Iran’s Qeshm Island"
+      },
+      {
+        "id": "art_1794026578108_0qdbe",
+        "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+        "source": "guardian",
+        "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e2552be4c4df623e",
+    "topic_label": "US State Department Intelligence Bounty and Military Task Force Formation",
+    "event_window_start": "2026-11-07T02:03:34.000Z",
+    "event_window_end": "2026-11-07T18:14:38.000Z",
+    "article_ids": [
+      "art_1794085045416_cou1g",
+      "art_1794051068241_ifwlq",
+      "art_1794051069298_puplz",
+      "art_1794026578712_53bei",
+      "art_1794026579259_7g8dp"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox",
+      "guardian",
+      "fox-politics"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T00:01:45.125Z",
+    "updated_at": "2026-11-08T00:01:45.125Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Military / Intelligence",
+    "synthesis": "The United States government has formally initiated an intelligence acquisition operation, offering up to $20 million in rewards via the Rewards for Justice program for actionable data on Iranian nuclear personnel, technology, and facility assets. Concurrent with this solicitation, the U.S. military has established Task Force Iron Gate, a command entity based in Tampa, Florida, tasked with the interdiction of Iranian cross-border weapons and sanctioned material logistics. These actions occur amidst ongoing diplomatic mediation by Qatar regarding the status of Iranian nuclear sites and the potential reopening of the Strait of Hormuz.",
+    "consensus": [
+      "The U.S. State Department is offering a $20 million reward for information regarding Iran's nuclear program.",
+      "The U.S. military has established Task Force Iron Gate to monitor and restrict Iranian weapon and sanctioned material movements.",
+      "Qatar is actively mediating between the U.S. and Iran regarding nuclear inspections and infrastructure access.",
+      "The U.S. is utilizing secure communication channels (Signal/Tor) for intelligence solicitation."
+    ],
+    "divergence": [
+      "BBC emphasizes the existence of Task Force Iron Gate, which is not detailed in the Fox or Guardian reporting.",
+      "Guardian highlights specific diplomatic proposals regarding down-blending uranium and UN inspections that other sources do not detail.",
+      "Fox focuses on the domestic political implications of the conflict on the 2026 midterm elections and internal UAE perspectives on regional stability.",
+      "Fox and BBC utilize different frames regarding the status of Iranian nuclear facilities, with conflicting mentions of 'obliteration' versus active status."
+    ],
+    "sources": [
+      {
+        "id": "art_1794085045416_cou1g",
+        "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "US offers $20m reward for information about Iran's nuclear programme"
+      },
+      {
+        "id": "art_1794051068241_ifwlq",
+        "url": "https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region",
+        "source": "fox",
+        "title": "Top Gulf official offers glimmer of hope on Trump-Iran nuclear talks as threat of war hangs over region"
+      },
+      {
+        "id": "art_1794051069298_puplz",
+        "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
+        "source": "guardian",
+        "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections"
+      },
+      {
+        "id": "art_1794026578712_53bei",
+        "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program",
+        "source": "fox",
+        "title": "US offers $20 million reward for information on Iran's nuclear program"
+      },
+      {
+        "id": "art_1794026579259_7g8dp",
+        "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program",
+        "source": "fox-politics",
+        "title": "US offers $20 million reward for information on Iran's nuclear program"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "652e399e6da7e057",
+    "topic_label": "Coordinated Russian Ballistic and Drone Strikes on Ukrainian Energy Infrastructure",
+    "event_window_start": "2026-11-07T05:11:03.000Z",
+    "event_window_end": "2026-11-07T20:10:38.000Z",
+    "article_ids": [
+      "art_1794085044133_o91ub",
+      "art_1794071631796_p50e2",
+      "art_1794071633681_mfbr4",
+      "art_1794071634414_mbnxo",
+      "art_1794051069826_y1z37"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T00:01:45.125Z",
+    "updated_at": "2026-11-08T00:01:45.125Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure",
+    "synthesis": "Russian military forces executed a large-scale offensive strike campaign against Ukraine utilizing a combined arsenal of approximately 172 loitering munitions (drones) and 36 ballistic missiles. The kinetic activity focused on critical electricity substations, a bridge spanning the Dnipro River, and various residential areas. This operation resulted in widespread blackouts, disruption of municipal water supplies, structural damage to civilian apartment buildings and a kindergarten in Kyiv, and documented casualties including at least nine injured persons. This intensity of fire coincides with impending diplomatic negotiations in Abu Dhabi.",
+    "consensus": [
+      "Russian forces deployed over 170 drones and 36 ballistic missiles in a coordinated overnight attack.",
+      "Critical energy infrastructure, including electricity substations, was targeted and damaged.",
+      "A bridge over the Dnipro River sustained damage.",
+      "Civilians were injured and residential infrastructure in Kyiv, including a kindergarten, sustained debris impact damage.",
+      "Large-scale power and water supply disruptions occurred across 12 regions of Ukraine.",
+      "Diplomatic talks involving Russia, Ukraine, and the US are scheduled to occur in Abu Dhabi next week."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the localized displacement and humanitarian crisis in Zaporizhzhia, focusing on glide bomb casualties in Komyshuvakha, whereas the BBC and Guardian focus on the centralized energy infrastructure strikes in Kyiv.",
+      "The Guardian frames the attack as an explicit effort to 'plunge Kyiv into a blackout' as a specific negotiation tactic, while the BBC reporting maintains a more neutral tone regarding the causality between the strikes and the upcoming talks.",
+      "The Guardian mentions the US Congress midterm results as a contextual factor in the appeal for assistance, a detail omitted by Al Jazeera and the BBC."
+    ],
+    "sources": [
+      {
+        "id": "art_1794085044133_o91ub",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in"
+      },
+      {
+        "id": "art_1794071631796_p50e2",
+        "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
+        "source": "guardian",
+        "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid"
+      },
+      {
+        "id": "art_1794071633681_mfbr4",
+        "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia"
+      },
+      {
+        "id": "art_1794071634414_mbnxo",
+        "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks"
+      },
+      {
+        "id": "art_1794051069826_y1z37",
+        "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia launches missile attack on Kyiv, injuring residents"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "564845c9d454f0a4",
+    "topic_label": "Armed Vehicle-Based Mass Shooting in Kraków Market Square",
+    "event_window_start": "2026-11-07T16:06:58.000Z",
+    "event_window_end": "2026-11-07T17:07:24.000Z",
+    "article_ids": [
+      "art_1794071634973_mokyj",
+      "art_1794071637490_wgv9q",
+      "art_1794071642581_c2x0c"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T00:01:45.125Z",
+    "updated_at": "2026-11-08T00:01:45.125Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism / Mass Casualty",
+    "synthesis": "An unidentified male operative, dressed in military-style attire and armed with a long military-grade firearm, initiated a mobile assault at approximately 15:00 local time by driving a vehicle into the main market square of Kraków, Poland. The individual engaged in a targeted kinetic engagement, firing randomly at civilians from within the vehicle. The engagement resulted in six confirmed fatalities and at least 15 injuries. The perpetrator was engaged by police, sustaining gunshot wounds during the encounter, and was subsequently taken into custody and transported to a medical facility.",
+    "consensus": [
+      "Six fatalities confirmed by regional Malopolski government.",
+      "At least 15 individuals injured.",
+      "Perpetrator utilized a vehicle for mobile shooting.",
+      "Weapon identified as a long military-style firearm.",
+      "Perpetrator neutralized via police gunfire and taken into custody.",
+      "Incident location verified as the Kraków main market square."
+    ],
+    "divergence": [
+      "Al Jazeera reports a lower casualty count of five dead and at least 10 injured, conflicting with the six dead and 15 injured reported by The Guardian.",
+      "The Guardian provides specific details regarding the perpetrator's military-style dress and the tactical nature of the firearm, which are omitted by Al Jazeera.",
+      "Al Jazeera describes the incident as occurring 'near' the market square, whereas The Guardian clarifies the incident occurred within the main market square itself."
+    ],
+    "sources": [
+      {
+        "id": "art_1794071634973_mokyj",
+        "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+        "source": "guardian",
+        "title": "Kraków shooting latest updates: five killed and more than a dozen injured, police say"
+      },
+      {
+        "id": "art_1794071637490_wgv9q",
+        "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+        "source": "guardian",
+        "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square"
+      },
+      {
+        "id": "art_1794071642581_c2x0c",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Five killed and at least 10 injured in Krakow shooting"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "e6521c41ad6824c6",
+    "topic_label": "Sanaa and Sa'ada Province Kinetic Engagement and Casualties",
+    "event_window_start": "2026-11-07T17:09:24.000Z",
+    "event_window_end": "2026-11-07T19:06:31.000Z",
+    "article_ids": [
+      "art_1794085044765_inxkp",
+      "art_1794085046012_h73to",
+      "art_1794085047124_h4x4s"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T00:01:45.125Z",
+    "updated_at": "2026-11-08T00:01:45.125Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Military / Air Strike",
+    "synthesis": "The ongoing civil conflict in Yemen has escalated with kinetic operations on two fronts. Saudi-led coalition aircraft conducted precision strikes against Houthi-held targets, specifically destroying telecommunications infrastructure in Sa'ada governorate and structural targets in al-Shariyah, Sanaa province, resulting in at least 25-27 fatalities and numerous civilian casualties. Concurrently, government forces are executing an offensive operation titled 'Dawn of Yemen' in Marib and al-Jawf, utilizing aerial assets to degrade Houthi fortifications and defensive equipment, claiming the execution of 875 individual strike actions.",
+    "consensus": [
+      "Saudi-led coalition aircraft executed air strikes in Sanaa and Sa'ada provinces.",
+      "Telecommunications infrastructure in Sa'ada was targeted by coalition assets.",
+      "Casualty reporting by Houthi-affiliated media identifies at least 25-27 deaths and multiple injuries.",
+      "Government forces are conducting an active offensive campaign designated 'Dawn of Yemen' in Marib and al-Jawf provinces.",
+      "Physical destruction of buildings in al-Shariyah was recorded on video by Al Masirah."
+    ],
+    "divergence": [
+      "Al Jazeera includes details of the broader 'Dawn of Yemen' offensive and mentions 875 specific attacks, context absent from the BBC report.",
+      "BBC emphasizes the humanitarian impact through descriptions of child casualties and hospital footage, while Al Jazeera maintains a focus on the reciprocal nature of the military engagements.",
+      "The Saudi-led coalition has provided no public comment or acknowledgment of the specific strikes reported by Houthi media as cited by both BBC and Al Jazeera.",
+      "Discrepancy in casualty count reporting: Al Jazeera reports 27 dead in Sanaa province, while BBC/Al Masirah report 25 total."
+    ],
+    "sources": [
+      {
+        "id": "art_1794085044765_inxkp",
+        "url": "https://www.aljazeera.com/news/2026/11/7/yemeni-govt-forces-report-advances-as-houthis-say-deadly-strikes-hit-sanaa?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa"
+      },
+      {
+        "id": "art_1794085046012_h73to",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Houthis report 25 killed in Yemen strikes"
+      },
+      {
+        "id": "art_1794085047124_h4x4s",
+        "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Houthis say at least 25 killed in Saudi air strike"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "483b9736ec5046a4",
+    "topic_label": "Establishment of Permanent Military Road Network in Southern Lebanon",
+    "event_window_start": "2026-11-07T16:30:33.000Z",
+    "event_window_end": "2026-11-07T17:16:50.000Z",
+    "article_ids": [
+      "art_1794085046598_4qs01",
+      "art_1794071640943_iseix"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T00:01:45.125Z",
+    "updated_at": "2026-11-08T00:01:45.125Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Infrastructure / Military Occupation",
+    "synthesis": "The Israeli military has constructed a 90-kilometer network of unpaved and reinforced roads extending into southern Lebanese territory, supplemented by the establishment of fortified military outposts. These physical infrastructures indicate a strategic shift from transient tactical maneuvering to a semi-permanent military presence, facilitating logistics and defensive positioning within the sovereign borders of Lebanon.",
+    "consensus": [
+      "Satellite imagery confirms a 90-kilometer network of new roads built by Israeli forces in southern Lebanon.",
+      "Physical military outposts have been constructed along these routes.",
+      "The infrastructure facilitates a sustained Israeli presence within Lebanese territory."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the potential for long-term territorial occupation and the humanitarian impact on local populations.",
+      "Israeli state media and defense spokespersons typically classify these actions as defensive 'operational adjustments' or 'security buffer' measures, which are absent from the provided reports."
+    ],
+    "sources": [
+      {
+        "id": "art_1794085046598_4qs01",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Lebanese footballer refuses to give up after injuries from Israeli strike"
+      },
+      {
+        "id": "art_1794071640943_iseix",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel builds 90km network of military roads across southern Lebanon"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "fc0fefcf8b404eb8",
     "topic_label": "US Kinetic Strikes on Iranian Air Defense Systems at Qeshm Island",
     "event_window_start": "2026-11-07T02:03:34.000Z",
@@ -13517,435 +13906,5 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "5266d6e5a69ceb5f0b949ceb6ca59ab3",
-    "topic_label": "Armed Attack on Israeli Base in Hebron Triggers West Bank Lockdown and Border Closure",
-    "event_window_start": "2026-10-24T20:52:55.000Z",
-    "event_window_end": "2026-10-25T17:12:59.000Z",
-    "article_ids": [
-      "art_1792949916299_ner24",
-      "art_1792919464762_7lgi2",
-      "art_1792879171442_3s8rz"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T18:01:28.172Z",
-    "updated_at": "2026-10-25T18:01:28.172Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Armed Skirmish",
-    "synthesis": "Two Palestinian gunmen launched an attack on an Israeli military reserve base in Hebron, resulting in the deaths of two Israeli soldiers and both assailants. Following the kinetic engagement, Israeli military forces initiated a comprehensive lockdown of Hebron, executing hundreds of raids and forcibly displacing more than 2,000 Palestinian residents from their homes. In addition, Israeli military authorities mandated a complete closure of all West Bank land border crossings coinciding with the upcoming general election.",
-    "consensus": [
-      "Two Palestinian gunmen attacked an Israeli army reserve base in Hebron.",
-      "Two Israeli soldiers and two Palestinian attackers were killed during the shootout.",
-      "Israeli military forces initiated a lockdown in Hebron and conducted hundreds of raids following the incident.",
-      "Israeli authorities ordered a full closure of all West Bank land crossings."
-    ],
-    "divergence": [
-      "Al Jazeera explicitly frames the military operations and displacement of over 2,000 Palestinians as an ongoing 50-plus hour lockdown and forced expulsion tied to pre-election political maneuvers, whereas official Israeli military communications present the raids and border closures purely as security protocols stemming from the fatal base attack."
-    ],
-    "sources": [
-      {
-        "id": "art_1792949916299_ner24",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jerusalem Daily: Israel expels thousands from Hebron"
-      },
-      {
-        "id": "art_1792919464762_7lgi2",
-        "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues"
-      },
-      {
-        "id": "art_1792879171442_3s8rz",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/severe-hunger-stalks-people-in-gaza-as-bakeries-close-down?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Severe hunger stalks people in Gaza as bakeries close down"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "f08976a83542b9b9a3fc4bde01ea48ce",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-25T13:14:28.000Z",
-    "event_window_end": "2026-10-25T13:33:21.000Z",
-    "article_ids": [
-      "art_1792936074797_fkfke",
-      "art_1792936075967_hlun2",
-      "art_1792936077056_blde4",
-      "art_1792936078178_gqwvd",
-      "art_1792936079497_hosa2"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T14:25:47.768Z",
-    "updated_at": "2026-10-25T14:25:47.768Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1792936074797_fkfke",
-        "url": "https://www.foxnews.com/outkick-sports/nfl-overcomes-civil-unrest-trump-concerns-calls-postpone-steelers-saints-kick-off-paris",
-        "source": "fox",
-        "title": "NFL overcomes civil unrest, Trump concerns and calls to postpone as Steelers and Saints kick off in Paris"
-      },
-      {
-        "id": "art_1792936075967_hlun2",
-        "url": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
-        "source": "guardian",
-        "title": "Burnham call for debate on free movement with EU draws mixed Labour response"
-      },
-      {
-        "id": "art_1792936077056_blde4",
-        "url": "https://www.aljazeera.com/economy/2026/10/25/portuguese-police-clear-lisbon-housing-protest-camp-arrest-25?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Portuguese police clear Lisbon housing protest camp, arrest 25"
-      },
-      {
-        "id": "art_1792936078178_gqwvd",
-        "url": "https://www.theguardian.com/society/2026/oct/25/ethnic-minorities-england-breast-cancer-screening-disparity",
-        "source": "guardian",
-        "title": "Ethnic minorities in England less likely to get breast cancer diagnosis from routine screening"
-      },
-      {
-        "id": "art_1792936079497_hosa2",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/25/storm-boelo-warnings-scotland-northern-ireland-north-of-england-high-winds-uk",
-        "source": "guardian",
-        "title": "More than 82,000 properties without power as Storm Boelo batters UK"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "e7dd54ac385df9fbd72c5c9f83da54e8",
-    "topic_label": "SpaceX Restrictive Throttling of Starlink Satellite Terminals in Ukraine",
-    "event_window_start": "2026-10-24T15:47:20.000Z",
-    "event_window_end": "2026-10-25T09:00:00.000Z",
-    "article_ids": [
-      "art_1792919454216_ub0u0",
-      "art_1792900941942_q6fo4",
-      "art_1792861554412_al3g3"
-    ],
-    "source_ids": [
-      "bbc",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T10:14:37.246Z",
-    "updated_at": "2026-10-25T10:14:37.246Z",
-    "region_tag": "global",
-    "severity": "HIGH",
-    "incident_type": "Infrastructure",
-    "synthesis": "SpaceX implemented geofencing or bandwidth limitations on Starlink satellite terminals operating within the Ukrainian theater of war, effectively disabling the capacity for offensive drone operations. This action resulted in a 10-day degradation of military communications, logistics, and air defense coordination, leading to the cancellation of combat missions. Elon Musk confirmed the restriction, citing an unauthorized expansion of the system's use for offensive strike targeting as a violation of civilian service terms. Despite corporate policy assertions, the terminals remain vital to Ukrainian frontline tactical operations and, following a period of performance degradation, connectivity has been reported as restored.",
-    "consensus": [
-      "SpaceX restricted Starlink terminal performance in Ukraine for a 10-day period.",
-      "The restriction directly interfered with Ukrainian drone operations and military communication.",
-      "Elon Musk justified the restriction as a response to the use of Starlink for offensive military strikes.",
-      "Ukrainian military connectivity with Starlink has been restored."
-    ],
-    "divergence": [
-      "Fox News frames the event through the lens of Musk's moral justification, explicitly including his quote regarding 'killing people' to frame the restriction as a humanitarian policy choice.",
-      "The Guardian emphasizes the tactical impact of the restrictions, explicitly noting the failure of specific combat missions and the degradation of air defense capabilities which Fox and BBC treat more generally.",
-      "The BBC emphasizes the friction between Musk and Ukrainian officials as a diplomatic 'row', whereas The Guardian treats it as a critical failure of war-fighting infrastructure.",
-      "The Guardian omits Musk's specific moral justification regarding the killing of people, focusing instead on the technical impact of the service throttling."
-    ],
-    "sources": [
-      {
-        "id": "art_1792919454216_ub0u0",
-        "url": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored"
-      },
-      {
-        "id": "art_1792900941942_q6fo4",
-        "url": "https://www.foxnews.com/politics/ukraines-starlink-restored-elon-musk-claims-kyiv-violated-terms-service-kill-people",
-        "source": "fox",
-        "title": "Ukraine's Starlink restored as Elon Musk claims Kyiv violated terms of service 'to kill people'"
-      },
-      {
-        "id": "art_1792861554412_al3g3",
-        "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
-        "source": "guardian",
-        "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "855129dcac42ce8e6d3cc21c3e070a21",
-    "topic_label": "Brazilian Presidential Election Runoff",
-    "event_window_start": "2026-10-24T15:36:38.000Z",
-    "event_window_end": "2026-10-25T08:00:58.000Z",
-    "article_ids": [
-      "art_1792919459448_8bwer",
-      "art_1792887236550_poth0",
-      "art_1792887239723_c0xf4",
-      "art_1792870113576_hblpn",
-      "art_1792870124615_t3xtb"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T10:14:37.246Z",
-    "updated_at": "2026-10-25T10:14:37.246Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The Brazilian electorate is engaged in a scheduled presidential runoff election between incumbent Luiz Inácio Lula da Silva and challenger Flávio Bolsonaro. Following an initial voting round on October 4, both candidates held final campaign rallies in Rio de Janeiro to consolidate voter support. Public polling data indicates a statistically tight margin between the candidates heading into the ballot, which involves approximately 159 million eligible voters. The process is a routine administrative procedure within the Brazilian democratic framework.",
-    "consensus": [
-      "A presidential election runoff is scheduled to occur in Brazil.",
-      "The candidates are incumbent Luiz Inácio Lula da Silva and Senator Flávio Bolsonaro.",
-      "A first round of voting took place on October 4.",
-      "Public campaign rallies were held in Rio de Janeiro on the eve of the election.",
-      "Polls indicate a tight electoral race between the two candidates."
-    ],
-    "divergence": [
-      "The Guardian and BBC sources misidentify the incumbent/challenger status and age of the candidates in several instances, introducing factual confusion regarding who currently holds the presidency versus who is the senator.",
-      "The Guardian presents the election as a 'historic fightback' by Lula, framing the event with narrative bias regarding the electoral outcome.",
-      "Al Jazeera provides more granular data from the CNT/MDA poll, whereas other sources rely on generalized polling trends.",
-      "Sources fail to provide a consistent biographical history of the candidates, specifically regarding the familial relations and prior political history of the Bolsonaro family."
-    ],
-    "sources": [
-      {
-        "id": "art_1792919459448_8bwer",
-        "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-        "source": "guardian",
-        "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro"
-      },
-      {
-        "id": "art_1792887236550_poth0",
-        "url": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Who are the candidates in Brazil's presidential election?"
-      },
-      {
-        "id": "art_1792887239723_c0xf4",
-        "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Brazil’s Lula, Bolsonaro draw thousands to election-eve rallies"
-      },
-      {
-        "id": "art_1792870113576_hblpn",
-        "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-        "source": "guardian",
-        "title": "Tens of thousands of Lula supporters rally on eve of Brazilian election runoff"
-      },
-      {
-        "id": "art_1792870124615_t3xtb",
-        "url": "https://www.aljazeera.com/news/2026/10/24/brazils-lula-and-bolsonaro-about-even-ahead-of-election-run-off-poll?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Brazil’s Lula and Bolsonaro about even ahead of election run-off: Poll"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "641104b07ffb1ff894baa6a763e8e4c9",
-    "topic_label": "Hebron Urban Demolition and Military Lockdown",
-    "event_window_start": "2026-10-24T13:17:13.000Z",
-    "event_window_end": "2026-10-25T07:20:36.000Z",
-    "article_ids": [
-      "art_1792919464762_7lgi2",
-      "art_1792870120250_38kdd",
-      "art_1792861553375_izj0r",
-      "art_1792849407784_7jovo"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T10:14:37.246Z",
-    "updated_at": "2026-10-25T10:14:37.246Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure",
-    "synthesis": "Following the killing of two Israeli soldiers by two Palestinian gunmen at an army reserve base, the Israeli military has initiated a multi-day tactical operation in Hebron involving the large-scale demolition of residential infrastructure via heavy engineering equipment (bulldozers). The operation has resulted in the displacement of approximately 1,500 to 2,200 Palestinian residents, the flattening of residential blocks in the Ein Deir Baha district, and the total closure of all access points to the city of 250,000 residents. Simultaneously, the Israeli military has announced a total closure of all West Bank border crossings for the duration of the upcoming national election cycle.",
-    "consensus": [
-      "Two Palestinian gunmen killed two Israeli soldiers at an army facility.",
-      "The two Palestinian gunmen were killed by Israeli forces.",
-      "The Israeli military has sealed off the city of Hebron with checkpoints.",
-      "Israeli forces are conducting widespread raids in the West Bank.",
-      "The Israeli military will close all West Bank crossings during the election period."
-    ],
-    "divergence": [
-      "Al Jazeera focuses on the displacement numbers (2,200) and the humanitarian distress caused by loudspeaker evacuation orders.",
-      "BBC and The Guardian explicitly characterize the demolitions as collective punishment and highlight the destruction of a whole street/neighborhood.",
-      "BBC claims the initial attack occurred at a checkpoint, whereas Al Jazeera reports the attack occurred at an army reserve base.",
-      "The Guardian reports specific acreage (35 hectares) destroyed, a metric omitted by other sources.",
-      "The sources vary in their characterization of the military actions, with BBC and Guardian using stronger terminology like 'raze' and 'flattened' compared to Al Jazeera's focus on 'lockdown' and 'raids'."
-    ],
-    "sources": [
-      {
-        "id": "art_1792919464762_7lgi2",
-        "url": "https://www.aljazeera.com/news/2026/10/25/israel-to-close-occupied-west-bank-crossings-as-hebron-lockdown-continues?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel to close occupied West Bank crossings as Hebron lockdown continues"
-      },
-      {
-        "id": "art_1792870120250_38kdd",
-        "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say"
-      },
-      {
-        "id": "art_1792861553375_izj0r",
-        "url": "https://www.aljazeera.com/news/2026/10/24/more-than-2000-forced-from-homes-in-hebron-amid-israels-west-bank-raids?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "More than 2,000 forced from homes in Hebron amid Israel’s West Bank raids"
-      },
-      {
-        "id": "art_1792849407784_7jovo",
-        "url": "https://www.theguardian.com/world/2026/oct/24/israel-soldiers-raze-west-bank-neighbourhood-hebron-families-from-homes",
-        "source": "guardian",
-        "title": "Israeli soldiers raze neighbourhood in Hebron, driving families from homes"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a6ac13035ff57b70613ab8e3eedcad7f",
-    "topic_label": "Nationwide Civil Unrest and Kinetic Police Interventions in France",
-    "event_window_start": "2026-10-24T13:00:54.000Z",
-    "event_window_end": "2026-10-25T07:28:47.000Z",
-    "article_ids": [
-      "art_1792919463726_ckedf",
-      "art_1792900942979_s55ih",
-      "art_1792879165210_fn8x4",
-      "art_1792870117074_ru1nw",
-      "art_1792870118135_w3fjs",
-      "art_1792870119171_6cn37",
-      "art_1792849409989_fuf9b",
-      "art_1792849413288_k7h1f"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian",
-      "fox"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-25T10:14:37.246Z",
-    "updated_at": "2026-10-25T10:14:37.246Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "State security forces engaged in large-scale kinetic crowd control operations across multiple French urban centers following widespread demonstrations. Approximately 70,000 security personnel were deployed to counter hundreds of thousands of protesters. Police utilized chemical irritants (tear gas), pressurized water cannons, and physical force via batons to disperse crowds. Protesters responded by constructing barricades and initiating arson in urban corridors. Official state reporting confirms nearly 1,000 arrests, while police executed preemptive searches for improvised weapons, specifically fireworks and ball bearings. The events represent a recurring cycle of state-sanctioned dispersal of public assemblies linked to socioeconomic policy grievances.",
-    "consensus": [
-      "Nearly 1,000 arrests occurred nationwide in France on Saturday.",
-      "Riot police deployed tear gas and water cannons against demonstrators.",
-      "Protesters constructed barricades and started fires in multiple cities including Marseille and Paris.",
-      "70,000 security personnel were mobilized by the state.",
-      "Disagreement exists between state estimates (410,000) and union estimates regarding total attendance."
-    ],
-    "divergence": [
-      "Al Jazeera focuses on the 'ultra-left' political characterization and 'extreme violence' as cited by the Interior Minister, omitting the peaceful components of the marches.",
-      "The Guardian frames the event primarily as student-led protest regarding school conditions and policing, underplaying the widespread arson and organized rioting reported by other sources.",
-      "Fox News emphasizes the pre-emptive seizure of weapons and uses a security-centric narrative, highlighting the police perspective on crowd control as a preventative measure.",
-      "The BBC attempts to balance the narrative by acknowledging both the scale of peaceful participation and the specific locations of infrastructure damage/rioting."
-    ],
-    "sources": [
-      {
-        "id": "art_1792919463726_ckedf",
-        "url": "https://www.aljazeera.com/gallery/2026/10/25/photos-clashes-erupt-in-france-amid-protests-over-rising-living-costs?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Photos: Clashes erupt in France during protests over rising living costs"
-      },
-      {
-        "id": "art_1792900942979_s55ih",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/10-25-sv-europe-protests-wrap?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Violence breaks out across Europe after another day of protests"
-      },
-      {
-        "id": "art_1792879165210_fn8x4",
-        "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France"
-      },
-      {
-        "id": "art_1792870117074_ru1nw",
-        "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
-        "source": "guardian",
-        "title": "Hundreds of thousands march across France in protests over schools and policing"
-      },
-      {
-        "id": "art_1792870118135_w3fjs",
-        "url": "https://www.foxnews.com/world/nearly-1000-arrested-across-france-police-find-potential-weapons-protestors",
-        "source": "fox",
-        "title": "Nearly 1,000 arrested across France as police find potential weapons on protestors: officials"
-      },
-      {
-        "id": "art_1792870119171_6cn37",
-        "url": "https://www.foxnews.com/media/french-ceo-warns-purely-chaotic-riots-prove-country-reached-dead-end-socialism",
-        "source": "fox",
-        "title": "French CEO warns 'purely chaotic' riots prove the country has reached the 'dead end of socialism'"
-      },
-      {
-        "id": "art_1792849409989_fuf9b",
-        "url": "https://www.foxnews.com/travel/louvre-turns-away-tourists-paris-braces-renewed-violence-following-destructive-riots",
-        "source": "fox",
-        "title": "Louvre turns away tourists as Paris braces for renewed violence following destructive riots"
-      },
-      {
-        "id": "art_1792849413288_k7h1f",
-        "url": "https://www.foxnews.com/opinion/broadcast-bias-networks-show-france-burning-highlight-peaceful-protesters",
-        "source": "fox",
-        "title": "BROADCAST BIAS: Networks show France burning but highlight ‘peaceful’ protesters"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
