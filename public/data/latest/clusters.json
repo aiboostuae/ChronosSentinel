@@ -54,52 +54,60 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
-    "cluster_id": "2b53800bcea1e744",
-    "topic_label": "5.7-Magnitude Seismic Event in Shizuoka Prefecture",
-    "event_window_start": "2026-11-08T04:20:57.000Z",
-    "event_window_end": "2026-11-08T13:11:41.000Z",
+    "cluster_id": "42ad2f4e011c50fb",
+    "topic_label": "Unscheduled Landing and Collision of Cessna Aircraft on Florida Public Roadway",
+    "event_window_start": "2026-11-08T04:59:02.000Z",
+    "event_window_end": "2026-11-08T21:51:55.000Z",
     "article_ids": [
-      "art_1794146528692_g1yyl",
-      "art_1794120269524_yei41"
+      "art_1794178499184_pu520",
+      "art_1794178499723_vd3pb",
+      "art_1794120268425_9jgo1"
     ],
     "source_ids": [
+      "fox",
+      "fox-us",
       "aljazeera"
     ],
-    "article_count": 2,
-    "source_count": 1,
+    "article_count": 3,
+    "source_count": 3,
     "qualification_status": "qualified",
     "qualification_score": 0.9,
     "primary_geography": null,
     "topic_type": null,
-    "created_at": "2026-11-08T17:14:05.915Z",
-    "updated_at": "2026-11-08T17:14:05.915Z",
-    "region_tag": "middle-east",
+    "created_at": "2026-11-09T00:44:36.210Z",
+    "updated_at": "2026-11-09T00:44:36.210Z",
+    "region_tag": "global",
     "severity": "CRITICAL",
-    "incident_type": "Geological / Infrastructure",
-    "synthesis": "A 5.7-magnitude earthquake occurred at 1:04am local time on Sunday in western Shizuoka Prefecture, Japan, at a focal depth of 40km. The seismic event resulted in physical infrastructure damage, specifically shattered store windows and building structural shaking, impacting Aichi and Shizuoka prefectures. The event caused more than 20 civilian injuries and forced the delay of rail operations at Nagoya Station. No tsunami threat was detected by the Japan Meteorological Agency.",
+    "incident_type": "Aviation",
+    "synthesis": "A Cessna aircraft experienced mechanical failure mid-flight, necessitating an emergency landing on a public road near Bayshore Road and Interstate 75 in North Fort Myers, Florida, at 11:50 a.m. Saturday. During the landing, the aircraft physically collided with a moving pickup truck. The incident involved two pilots on board the aircraft. Despite the kinetic impact, local authorities have not confirmed serious injuries.",
     "consensus": [
-      "A 5.7-magnitude earthquake struck Shizuoka Prefecture, Japan, at 1:04am local time on Sunday.",
-      "The focal depth of the earthquake was 40km.",
-      "Over 20 people sustained injuries across Aichi and Shizuoka prefectures.",
-      "Physical damage includes broken glass and transit delays at Nagoya Station.",
-      "The Japan Meteorological Agency issued no tsunami warning."
+      "Small plane (Cessna) forced to land on a public road due to mechanical failure",
+      "Aircraft departed Sebring, Florida at 11:00 a.m.",
+      "Landing occurred at 11:50 a.m. near Bayshore Road and Interstate 75",
+      "Physical collision occurred between the aircraft and a moving pickup truck"
     ],
     "divergence": [
-      "Al Jazeera's coverage emphasizes the CCTV footage of shaking streets, whereas the secondary report focuses on the logistical impact on rail transport and administrative injury tallies.",
-      "Al Jazeera omits the full list of impacted prefectures (Yamanashi, Gifu, Kyoto, Nara) in the initial headline-driven report, restricting focus to the immediate Aichi/Shizuoka context."
+      "Fox and Fox-US headlines focus on the 'close call' narrative while Al Jazeera characterizes it as a 'shocking' event",
+      "Al Jazeera explicitly states 'no injuries were reported,' whereas Fox/Fox-US omit this status in the primary text while referencing an unrelated dashcam video from San Jose in the same feed, creating potential confusion regarding casualty counts"
     ],
     "sources": [
       {
-        "id": "art_1794146528692_g1yyl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/cctv-captures-streets-shaking-as-5-7-magnitude-earthquake-hits-japan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "CCTV captures streets shaking as 5.7-magnitude earthquake hits Japan"
+        "id": "art_1794178499184_pu520",
+        "url": "https://www.foxnews.com/us/video-shows-small-plane-clip-pickup-truck-during-emergency-landing-busy-florida-road",
+        "source": "fox",
+        "title": "Video shows small plane clip pickup truck during emergency landing on busy Florida road"
       },
       {
-        "id": "art_1794120269524_yei41",
-        "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
+        "id": "art_1794178499723_vd3pb",
+        "url": "https://www.foxnews.com/us/video-shows-small-plane-clip-pickup-truck-during-emergency-landing-busy-florida-road",
+        "source": "fox-us",
+        "title": "Video shows small plane clip pickup truck during emergency landing on busy Florida road"
+      },
+      {
+        "id": "art_1794120268425_9jgo1",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/aje-onl-nf_plane-clips-truck-during-emergency-landing-florida-071126?traffic_source=rss",
         "source": "aljazeera",
-        "title": "Earthquake hits central Japan, injuring more than 20 people"
+        "title": "Plane clips truck during emergency landing on busy Florida road"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -149,6 +157,110 @@
         "url": "https://www.foxnews.com/us/two-experienced-skydivers-die-midair-collision-entangles-parachutes",
         "source": "fox-us",
         "title": "Two experienced skydivers die after midair collision entangles their parachutes"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "fb1f34ca5950f245",
+    "topic_label": "Mass Shooting in Krakow Main Market Square",
+    "event_window_start": "2026-11-08T18:22:53.000Z",
+    "event_window_end": "2026-11-08T22:05:12.000Z",
+    "article_ids": [
+      "art_1794178496885_209zh",
+      "art_1794164093465_amu8k"
+    ],
+    "source_ids": [
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-09T00:44:36.210Z",
+    "updated_at": "2026-11-09T00:44:36.210Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism / Mass Casualty",
+    "synthesis": "On Saturday, a 24-year-old Polish national conducted an active shooter event in Krakow’s Main Market Square. The perpetrator utilized a firearm to engage civilians and law enforcement, resulting in 6 confirmed fatalities and 15 wounded. Two off-duty surgeons provided immediate trauma care to wounded police officers and the perpetrator, who was incapacitated by law enforcement during the engagement. The perpetrator is currently hospitalized in critical condition, and the Polish government has initiated a terror investigation citing far-right ideological motivation.",
+    "consensus": [
+      "A mass shooting occurred at Krakow Main Market Square on Saturday.",
+      "The perpetrator is a 24-year-old Polish national.",
+      "Casualties include 6 deceased and 15 injured.",
+      "Two law enforcement officers sustained gunshot wounds while neutralizing the shooter.",
+      "Two off-duty surgeons provided immediate medical intervention at the scene.",
+      "The perpetrator is in critical condition.",
+      "Polish prosecutors have opened a terror investigation."
+    ],
+    "divergence": [
+      "The BBC framed the perpetrator as having been 'apparently inspired' by ideologies, whereas official prosecutorial channels have initiated a formal terror investigation, indicating a shift from allegation to active legal categorization.",
+      "The BBC sources focused heavily on the heroics of the two surgeons, potentially omitting the broader security failure that allowed an active shooter to operate in a high-density civilian area until law enforcement arrival."
+    ],
+    "sources": [
+      {
+        "id": "art_1794178496885_209zh",
+        "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Doctor who treated victims of Krakow shooting speaks to the BBC"
+      },
+      {
+        "id": "art_1794164093465_amu8k",
+        "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2b53800bcea1e744",
+    "topic_label": "5.7-Magnitude Seismic Event in Shizuoka Prefecture",
+    "event_window_start": "2026-11-08T04:20:57.000Z",
+    "event_window_end": "2026-11-08T13:11:41.000Z",
+    "article_ids": [
+      "art_1794146528692_g1yyl",
+      "art_1794120269524_yei41"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-08T17:14:05.915Z",
+    "updated_at": "2026-11-08T17:14:05.915Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Geological / Infrastructure",
+    "synthesis": "A 5.7-magnitude earthquake occurred at 1:04am local time on Sunday in western Shizuoka Prefecture, Japan, at a focal depth of 40km. The seismic event resulted in physical infrastructure damage, specifically shattered store windows and building structural shaking, impacting Aichi and Shizuoka prefectures. The event caused more than 20 civilian injuries and forced the delay of rail operations at Nagoya Station. No tsunami threat was detected by the Japan Meteorological Agency.",
+    "consensus": [
+      "A 5.7-magnitude earthquake struck Shizuoka Prefecture, Japan, at 1:04am local time on Sunday.",
+      "The focal depth of the earthquake was 40km.",
+      "Over 20 people sustained injuries across Aichi and Shizuoka prefectures.",
+      "Physical damage includes broken glass and transit delays at Nagoya Station.",
+      "The Japan Meteorological Agency issued no tsunami warning."
+    ],
+    "divergence": [
+      "Al Jazeera's coverage emphasizes the CCTV footage of shaking streets, whereas the secondary report focuses on the logistical impact on rail transport and administrative injury tallies.",
+      "Al Jazeera omits the full list of impacted prefectures (Yamanashi, Gifu, Kyoto, Nara) in the initial headline-driven report, restricting focus to the immediate Aichi/Shizuoka context."
+    ],
+    "sources": [
+      {
+        "id": "art_1794146528692_g1yyl",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/cctv-captures-streets-shaking-as-5-7-magnitude-earthquake-hits-japan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "CCTV captures streets shaking as 5.7-magnitude earthquake hits Japan"
+      },
+      {
+        "id": "art_1794120269524_yei41",
+        "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Earthquake hits central Japan, injuring more than 20 people"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13799,133 +13911,5 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "14d8061725513d6aac576fd0990f79ec",
-    "topic_label": "Israeli Military Drills and West Bank Security Operations Amidst General Election",
-    "event_window_start": "2026-10-25T16:30:51.000Z",
-    "event_window_end": "2026-10-26T00:42:24.000Z",
-    "article_ids": [
-      "art_1792975662720_wzfy7",
-      "art_1792967550666_0hvls",
-      "art_1792967552731_yj2xg",
-      "art_1792949916299_ner24",
-      "art_1792949924665_tjprp"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-26T12:19:38.477Z",
-    "updated_at": "2026-10-26T12:19:38.477Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Military Operations and Political Transition",
-    "synthesis": "The Israeli Defense Forces are conducting a 48-hour large-scale military mobilization involving multiple divisions in northern and central regions to simulate responses to border breaches. Simultaneously, a state-led security lockdown in Hebron has resulted in the displacement of over 2,000 residents, occurring concurrently with final preparations for a consequential general election. Political discourse is bifurcated between opposition groups demanding government transition and security-focused platforms advocating for the continuity of the current administration, all against a backdrop of regional heightened military alert status.",
-    "consensus": [
-      "Israel is conducting large-scale military exercises in northern and central regions.",
-      "Israel is currently undergoing a period of intense political activity related to an upcoming general election.",
-      "The West Bank is under a security-enforced lockdown lasting at least 50 hours.",
-      "Large-scale public demonstrations have occurred in Tel Aviv regarding the election."
-    ],
-    "divergence": [
-      "Fox News frames the military drills as a strategic counter-measure against surprise infiltration, referencing 1973 as a historical cautionary comparison.",
-      "BBC emphasizes the electoral stakes and social division within the Israeli electorate, omitting the specific details of the Hebron displacement.",
-      "Al Jazeera focuses on the human rights impact of the West Bank lockdown, specifically the displacement of 2,000 Palestinians, characterizing it as a state-driven expulsion rather than a security operation."
-    ],
-    "sources": [
-      {
-        "id": "art_1792975662720_wzfy7",
-        "url": "https://www.foxnews.com/world/israel-drills-surprise-attack-massive-military-exercise-expert-invokes-1973-war",
-        "source": "fox",
-        "title": "Israel drills for surprise attack with massive military exercise as expert invokes 1973 war"
-      },
-      {
-        "id": "art_1792967550666_0hvls",
-        "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Deeply divided Israel braces for pivotal election"
-      },
-      {
-        "id": "art_1792967552731_yj2xg",
-        "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Why Israel's election is one of the most important in its history"
-      },
-      {
-        "id": "art_1792949916299_ner24",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/jerusalem-daily-israel-expels-thousands-from-hebron?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jerusalem Daily: Israel expels thousands from Hebron"
-      },
-      {
-        "id": "art_1792949924665_tjprp",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/israels-generation-right-could-shape-netanyahus-future?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel’s ‘Generation Right’ could shape Netanyahu’s future"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f110bce89c06468a23908915a02fd213",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-25T17:16:41.000Z",
-    "event_window_end": "2026-10-25T22:06:26.000Z",
-    "article_ids": [
-      "art_1792967551703_zt0zj",
-      "art_1792967563908_82h61",
-      "art_1792949915265_br119"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-26T01:11:45.948Z",
-    "updated_at": "2026-10-26T01:11:45.948Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1792967551703_zt0zj",
-        "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement"
-      },
-      {
-        "id": "art_1792967563908_82h61",
-        "url": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
-        "source": "guardian",
-        "title": "Serbian leader Aleksandar Vučić concedes defeat in fiercely contested parliamentary election"
-      },
-      {
-        "id": "art_1792949915265_br119",
-        "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-        "source": "guardian",
-        "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   }
 ]
