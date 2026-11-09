@@ -54,6 +54,109 @@
     "model_used": "gemini-3.1-flash-lite"
   },
   {
+    "cluster_id": "fb1f34ca5950f245",
+    "topic_label": "Mass Shooting in Krakow Main Market Square",
+    "event_window_start": "2026-11-08T18:22:53.000Z",
+    "event_window_end": "2026-11-08T22:05:12.000Z",
+    "article_ids": [
+      "art_1794178496885_209zh",
+      "art_1794164093465_amu8k"
+    ],
+    "source_ids": [
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-09T00:44:36.210Z",
+    "updated_at": "2026-11-09T00:44:36.210Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Terrorism / Mass Casualty",
+    "synthesis": "On Saturday, a 24-year-old Polish national conducted an active shooter event in Krakow’s Main Market Square. The perpetrator utilized a firearm to engage civilians and law enforcement, resulting in 6 confirmed fatalities and 15 wounded. Two off-duty surgeons provided immediate trauma care to wounded police officers and the perpetrator, who was incapacitated by law enforcement during the engagement. The perpetrator is currently hospitalized in critical condition, and the Polish government has initiated a terror investigation citing far-right ideological motivation.",
+    "consensus": [
+      "A mass shooting occurred at Krakow Main Market Square on Saturday.",
+      "The perpetrator is a 24-year-old Polish national.",
+      "Casualties include 6 deceased and 15 injured.",
+      "Two law enforcement officers sustained gunshot wounds while neutralizing the shooter.",
+      "Two off-duty surgeons provided immediate medical intervention at the scene.",
+      "The perpetrator is in critical condition.",
+      "Polish prosecutors have opened a terror investigation."
+    ],
+    "divergence": [
+      "The BBC framed the perpetrator as having been 'apparently inspired' by ideologies, whereas official prosecutorial channels have initiated a formal terror investigation, indicating a shift from allegation to active legal categorization.",
+      "The BBC sources focused heavily on the heroics of the two surgeons, potentially omitting the broader security failure that allowed an active shooter to operate in a high-density civilian area until law enforcement arrival."
+    ],
+    "sources": [
+      {
+        "id": "art_1794178496885_209zh",
+        "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Doctor who treated victims of Krakow shooting speaks to the BBC"
+      },
+      {
+        "id": "art_1794164093465_amu8k",
+        "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "a26e4eccf0e75ac6",
+    "topic_label": "Aviation Collision: Light Aircraft Emergency Landing and Vehicle Impact in North Fort Myers",
+    "event_window_start": "2026-11-08T21:51:55.000Z",
+    "event_window_end": "2026-11-08T21:51:55.000Z",
+    "article_ids": [
+      "art_1794178499184_pu520",
+      "art_1794178499723_vd3pb"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-us"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-09T07:17:31.481Z",
+    "updated_at": "2026-11-09T07:17:31.481Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Aviation",
+    "synthesis": "On Saturday at 11:50 a.m. local time, a light aircraft experiencing mechanical failure executed an emergency forced landing on a public roadway near Bayshore Road and Interstate 75 in North Fort Myers, Florida. During the descent, the aircraft struck the rear of a moving civilian pickup truck. Telemetry data confirms the aircraft departed Sebring, Florida, at 11:00 a.m. Local law enforcement confirmed two pilots were on board during the impact event.",
+    "consensus": [
+      "A light aircraft performed an emergency landing on a road in North Fort Myers, Florida.",
+      "The aircraft initiated contact with a moving pickup truck during the landing sequence.",
+      "The flight departed Sebring, Florida, at 11:00 a.m. and landed at 11:50 a.m.",
+      "The Lee County Sheriff’s Office confirmed the event and verified two pilots were on board."
+    ],
+    "divergence": [
+      "Fox and Fox-US utilized identical copy, including an erroneous and unrelated reference to a separate dashcam video incident involving a child on a San Jose highway, which deviates from the reported Florida-based physical event."
+    ],
+    "sources": [
+      {
+        "id": "art_1794178499184_pu520",
+        "url": "https://www.foxnews.com/us/video-shows-small-plane-clip-pickup-truck-during-emergency-landing-busy-florida-road",
+        "source": "fox",
+        "title": "Video shows small plane clip pickup truck during emergency landing on busy Florida road"
+      },
+      {
+        "id": "art_1794178499723_vd3pb",
+        "url": "https://www.foxnews.com/us/video-shows-small-plane-clip-pickup-truck-during-emergency-landing-busy-florida-road",
+        "source": "fox-us",
+        "title": "Video shows small plane clip pickup truck during emergency landing on busy Florida road"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "42ad2f4e011c50fb",
     "topic_label": "Unscheduled Landing and Collision of Cessna Aircraft on Florida Public Roadway",
     "event_window_start": "2026-11-08T04:59:02.000Z",
@@ -157,59 +260,6 @@
         "url": "https://www.foxnews.com/us/two-experienced-skydivers-die-midair-collision-entangles-parachutes",
         "source": "fox-us",
         "title": "Two experienced skydivers die after midair collision entangles their parachutes"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fb1f34ca5950f245",
-    "topic_label": "Mass Shooting in Krakow Main Market Square",
-    "event_window_start": "2026-11-08T18:22:53.000Z",
-    "event_window_end": "2026-11-08T22:05:12.000Z",
-    "article_ids": [
-      "art_1794178496885_209zh",
-      "art_1794164093465_amu8k"
-    ],
-    "source_ids": [
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-09T00:44:36.210Z",
-    "updated_at": "2026-11-09T00:44:36.210Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism / Mass Casualty",
-    "synthesis": "On Saturday, a 24-year-old Polish national conducted an active shooter event in Krakow’s Main Market Square. The perpetrator utilized a firearm to engage civilians and law enforcement, resulting in 6 confirmed fatalities and 15 wounded. Two off-duty surgeons provided immediate trauma care to wounded police officers and the perpetrator, who was incapacitated by law enforcement during the engagement. The perpetrator is currently hospitalized in critical condition, and the Polish government has initiated a terror investigation citing far-right ideological motivation.",
-    "consensus": [
-      "A mass shooting occurred at Krakow Main Market Square on Saturday.",
-      "The perpetrator is a 24-year-old Polish national.",
-      "Casualties include 6 deceased and 15 injured.",
-      "Two law enforcement officers sustained gunshot wounds while neutralizing the shooter.",
-      "Two off-duty surgeons provided immediate medical intervention at the scene.",
-      "The perpetrator is in critical condition.",
-      "Polish prosecutors have opened a terror investigation."
-    ],
-    "divergence": [
-      "The BBC framed the perpetrator as having been 'apparently inspired' by ideologies, whereas official prosecutorial channels have initiated a formal terror investigation, indicating a shift from allegation to active legal categorization.",
-      "The BBC sources focused heavily on the heroics of the two surgeons, potentially omitting the broader security failure that allowed an active shooter to operate in a high-density civilian area until law enforcement arrival."
-    ],
-    "sources": [
-      {
-        "id": "art_1794178496885_209zh",
-        "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Doctor who treated victims of Krakow shooting speaks to the BBC"
-      },
-      {
-        "id": "art_1794164093465_amu8k",
-        "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13831,85 +13881,5 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "6c22df530bf4fc3fb9127a64c1ed7cc5",
-    "topic_label": "US Political Campaign Rhetoric and Electoral Litigation Disputes",
-    "event_window_start": "2026-10-25T21:29:23.000Z",
-    "event_window_end": "2026-10-26T00:11:31.000Z",
-    "article_ids": [
-      "art_1792975671870_nt4zn",
-      "art_1792975673937_6sks7",
-      "art_1792975682528_qbky6",
-      "art_1792967554812_rb8jh",
-      "art_1792967558160_mzsx3",
-      "art_1792967560342_z3yb6"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 6,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-26T19:04:06.996Z",
-    "updated_at": "2026-10-26T19:04:06.996Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The reported events concern ongoing political friction surrounding US Senate elections in Alaska, Michigan, and Maine. Physical activities are limited to media appearances, electoral litigation filed by the Department of Justice regarding ballot naming conventions in Alaska, and verbal exchanges between political candidates and broadcast media journalists. There are no kinetic, paramilitary, or civil stability threats; the situation consists entirely of institutional discourse, campaign rhetoric concerning candidate affiliations, and legal maneuvering within the domestic electoral process.",
-    "consensus": [
-      "Attorney General Todd Blanche appeared on televised political interview programs to discuss a DOJ lawsuit involving Alaska Senate ballot candidates.",
-      "Michigan Senate candidate Mike Rogers and opponent Abdul El-Sayed are engaged in a public dispute regarding alleged ideological affiliations.",
-      "Maine Senate candidate Susan Collins is engaged in an active electoral contest against Democrat Troy Jackson.",
-      "All reported activities are restricted to political campaigning, media interviews, and legal filings."
-    ],
-    "divergence": [
-      "Fox News frames the Alaska and Michigan stories as media bias investigations, highlighting conflicts between government officials and journalists.",
-      "Al Jazeera frames the Alaska story as a Department of Justice intervention in election certification and the Michigan story as a focus on Trump's rhetoric regarding Islam.",
-      "Fox News includes anecdotal color regarding GOP strategy in New England, whereas Al Jazeera focuses exclusively on the electoral impact of the Michigan and Alaska contests."
-    ],
-    "sources": [
-      {
-        "id": "art_1792975671870_nt4zn",
-        "url": "https://www.foxnews.com/media/todd-blanche-challenges-dana-bash-only-citing-part-constitution-during-heated-election-clash",
-        "source": "fox",
-        "title": "Todd Blanche challenges Dana Bash for only citing part of Constitution during heated election clash"
-      },
-      {
-        "id": "art_1792975673937_6sks7",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-escalates-anti-muslim-rhetoric-in-fierce-attack-on-el-sayed?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed"
-      },
-      {
-        "id": "art_1792975682528_qbky6",
-        "url": "https://www.foxnews.com/opinion/david-marcus-future-gop-new-england-rides-maines-senate-vote",
-        "source": "fox",
-        "title": "DAVID MARCUS: The future of the GOP in New England rides on Maine’s Senate vote"
-      },
-      {
-        "id": "art_1792967554812_rb8jh",
-        "url": "https://www.foxnews.com/media/rogers-fires-back-welker-over-el-sayeds-muslim-brotherhood-controversy-you-giving-him-pass",
-        "source": "fox",
-        "title": "Rogers fires back at Welker over El-Sayed's Muslim Brotherhood controversy, 'You are giving him a pass'"
-      },
-      {
-        "id": "art_1792967558160_mzsx3",
-        "url": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit"
-      },
-      {
-        "id": "art_1792967560342_z3yb6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-vs-california?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump VS California"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
