@@ -1,5 +1,75 @@
 [
   {
+    "cluster_id": "2021123c7cc9fe04",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-10T11:34:23.000Z",
+    "event_window_end": "2026-11-10T11:11:51.000Z",
+    "article_ids": [
+      "art_1794311223535_r03in",
+      "art_1794311225049_uirgi",
+      "art_1794311225607_v57kn",
+      "art_1794311227028_s6cpg",
+      "art_1794311227671_g1kgx"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics",
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-10T16:24:17.822Z",
+    "updated_at": "2026-11-10T16:24:17.822Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1794311223535_r03in",
+        "url": "https://www.foxnews.com/politics/trump-defends-pentagon-chief-massie-targets-him-hegseth-praised-not-impeached",
+        "source": "fox",
+        "title": "Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'"
+      },
+      {
+        "id": "art_1794311225049_uirgi",
+        "url": "https://www.foxnews.com/politics/trump-defends-pentagon-chief-massie-targets-him-hegseth-praised-not-impeached",
+        "source": "fox-politics",
+        "title": "Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'"
+      },
+      {
+        "id": "art_1794311225607_v57kn",
+        "url": "https://www.aljazeera.com/news-analysis/2026/11/10/khor-mor-drone-attack-raises-fears-over-iraqs-energy-security?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Khor Mor drone attack raises fears over Iraq’s energy security"
+      },
+      {
+        "id": "art_1794311227028_s6cpg",
+        "url": "https://www.foxnews.com/opinion/paul-mauro-sanctuary-states-dmv-problem-trump-can-demand-answers",
+        "source": "fox",
+        "title": "PAUL MAURO: Sanctuary states have a DMV problem — and Trump can demand answers"
+      },
+      {
+        "id": "art_1794311227671_g1kgx",
+        "url": "https://www.theguardian.com/politics/live/2026/nov/10/badenoch-conservative-welfare-cuts-disability-benefits-burnham-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "‘Double amputees run marathons,’ says Badenoch as she proposes £36bn cuts to disability and other benefits – UK politics live"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "f92ab40d68f74d66",
     "topic_label": "Impeachment Proceedings Against US Secretary of Defense Pete Hegseth",
     "event_window_start": "2026-11-09T08:26:50.000Z",
@@ -14044,79 +14114,6 @@
         "url": "https://www.aljazeera.com/features/2026/10/27/palestinian-citizens-of-israel-fear-theyre-next-target-if-far-right-wins?traffic_source=rss",
         "source": "aljazeera",
         "title": "Palestinian citizens of Israel fear they’re next target if far-right wins"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a064ca9bf11609bc9e5dd6548a44b926",
-    "topic_label": "UK Domestic Policy and Economic Budgetary Adjustments",
-    "event_window_start": "2026-10-27T07:00:04.000Z",
-    "event_window_end": "2026-10-27T14:04:56.000Z",
-    "article_ids": [
-      "art_1793110337155_9ao9n",
-      "art_1793110338299_ce8bf",
-      "art_1793110352811_r0vy6",
-      "art_1793087274783_nnqkk",
-      "art_1793087276891_bwa8k"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-27T19:11:35.998Z",
-    "updated_at": "2026-10-27T19:11:35.998Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The UK government is managing a series of domestic policy adjustments, including the potential suspension of minimum wage equalization for individuals under 21, the allocation of £24bn for carbon capture infrastructure, and the expansion of AI datacenters. Simultaneously, internal political friction is mounting as the Welsh First Minister demands devolved control over policing and justice, citing systemic inequality within the UK union. Cabinet officials and civil servants are transitioning into roles within the AI sector, raising transparency concerns regarding policy development priorities.",
-    "consensus": [
-      "The UK Chancellor is preparing a budget announcement regarding minimum wage policy and infrastructure spending.",
-      "The UK government is prioritizing the development of AI datacenters.",
-      "The Welsh First Minister is formally requesting increased devolution of state powers from the UK central government."
-    ],
-    "divergence": [
-      "The Guardian frames the wage equalization delay as a broken manifesto pledge, while the government frames it as a response to youth unemployment concerns.",
-      "The Guardian characterizes the carbon capture budget as an 'exorbitantly expensive' project, whereas government policy documentation categorizes it as a core infrastructure investment.",
-      "The Guardian highlights a 'revolving door' between government and AI companies as a transparency failure, while official government messaging focuses on economic 'AI growth zones'.",
-      "Al Jazeera emphasizes the Welsh First Minister's call for self-determination and a restructuring of the UK union, which is omitted from Guardian reports focusing on Westminster budget politics."
-    ],
-    "sources": [
-      {
-        "id": "art_1793110337155_9ao9n",
-        "url": "https://www.theguardian.com/politics/live/2026/oct/27/budget-burnham-healey-everday-fixes-gherkins-conservatives-miliband-carers-latest-news-updates",
-        "source": "guardian",
-        "title": "Labour faces accusations of breaking manifesto pledge over minimum wage for young people – UK politics live"
-      },
-      {
-        "id": "art_1793110338299_ce8bf",
-        "url": "https://www.theguardian.com/politics/2026/oct/27/how-has-andy-burnham-used-his-first-100-days-in-power",
-        "source": "guardian",
-        "title": "How has Andy Burnham used his first 100 days in power?"
-      },
-      {
-        "id": "art_1793110352811_r0vy6",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/27/chris-packham-chancellor-scrap-spending-fairytale-carbon-capture-budget",
-        "source": "guardian",
-        "title": "Cut spending on ‘fairytale’ carbon capture plans, campaigners urge chancellor"
-      },
-      {
-        "id": "art_1793087274783_nnqkk",
-        "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/10/27/wales-first-minister-were-within-a-union-that-is-not-a-union-of?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Wales first minister : ‘We’re within a union that is not a union of equals’"
-      },
-      {
-        "id": "art_1793087276891_bwa8k",
-        "url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
-        "source": "guardian",
-        "title": "UK government met 137 businesses over AI datacentres – but no environmental groups"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
