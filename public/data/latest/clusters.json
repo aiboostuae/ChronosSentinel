@@ -1,5 +1,79 @@
 [
   {
+    "cluster_id": "2e095aace33177c3",
+    "topic_label": "Russian FSB-Linked Cyber Espionage Operation Targeting Romanian NATO/EU Infrastructure",
+    "event_window_start": "2026-11-11T12:08:33.000Z",
+    "event_window_end": "2026-11-11T09:28:36.000Z",
+    "article_ids": [
+      "art_1794399653794_6r97x",
+      "art_1794399654381_oea5v",
+      "art_1794399655054_ya1t4",
+      "art_1794399655633_4zibw",
+      "art_1794399656187_dr6y6"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera",
+      "fox",
+      "defensenews"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-11T17:09:06.089Z",
+    "updated_at": "2026-11-11T17:09:06.089Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Cyber Espionage / Infrastructure",
+    "synthesis": "State-sponsored actors affiliated with the Russian Federal Security Service (FSB) successfully compromised Romanian government servers in December 2025. The operation utilized a malicious software suite identified as 'Cereal' to systematically intercept, copy, and exfiltrate internal communications containing attachments related to NATO and European Union institutional affairs. The payload, specifically the 'CerealBox' module, employed automated filtering protocols to identify and encrypt sensitive documents for remote extraction, indicating an active intelligence collection effort against alliance infrastructure.",
+    "consensus": [
+      "Russian FSB-linked hackers compromised Romanian government servers in December 2025.",
+      "A malicious software suite named 'Cereal' was deployed to scan and copy internal government emails.",
+      "The operation specifically targeted communications related to NATO and EU operations.",
+      "The CerealBox module performed automated filtering and encryption for data exfiltration."
+    ],
+    "divergence": [
+      "Defense News provided technical documentation regarding the 'Cereal' toolset, whereas other provided sources (BBC, Aljazeera, Fox) failed to report on this intelligence breach entirely.",
+      "BBC, Aljazeera, and Fox focused on unrelated humanitarian, industrial, and social/domestic narratives, completely omitting the active state-sponsored cyber intrusion against European institutional integrity."
+    ],
+    "sources": [
+      {
+        "id": "art_1794399653794_6r97x",
+        "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike"
+      },
+      {
+        "id": "art_1794399654381_oea5v",
+        "url": "https://www.aljazeera.com/news/2026/11/11/spains-first-general-strike-in-14-years-begins?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Spain’s first general strike in 14 years begins"
+      },
+      {
+        "id": "art_1794399655054_ya1t4",
+        "url": "https://www.foxnews.com/food-drink/veterans-day-2026-brings-free-meals-popular-restaurants-some-deals-dont-end-nov-11",
+        "source": "fox",
+        "title": "Veterans Day 2026 brings free meals at popular restaurants — and some deals don't end Nov. 11"
+      },
+      {
+        "id": "art_1794399655633_4zibw",
+        "url": "https://www.foxnews.com/outkick-sports/washington-ag-office-indicates-defend-girls-sports-ballot-measure-aclu-sues-block",
+        "source": "fox",
+        "title": "Washington AG's office indicates it will defend girls' sports ballot measure after ACLU sues to block it"
+      },
+      {
+        "id": "art_1794399656187_dr6y6",
+        "url": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
+        "source": "defensenews",
+        "title": "Romanian servers targeted by Russian hackers to scoop up emails about NATO, EU"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "a63359a1caf16166",
     "topic_label": "Salvadoran Military Rocket Strike on 400 Mawozo Compound in Port-au-Prince",
     "event_window_start": "2026-11-11T02:47:59.000Z",
@@ -14379,64 +14453,6 @@
         "url": "https://www.foxnews.com/politics/cassidy-hutchinson-avoids-indictment-doj-effort-charge-jan-6-testimony-fails-sources",
         "source": "fox",
         "title": "Cassidy Hutchinson avoids indictment after DOJ effort to charge her over Jan 6 testimony fails: sources"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "7d3921956042068e35f8591dab58f9e9",
-    "topic_label": "Israeli Parliamentary Election Vote Count",
-    "event_window_start": "2026-10-28T08:29:49.000Z",
-    "event_window_end": "2026-10-28T08:47:25.000Z",
-    "article_ids": [
-      "art_1793178727718_t8i0f",
-      "art_1793178728873_8m7ps",
-      "art_1793178729937_s4nsh"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-28T20:20:13.825Z",
-    "updated_at": "2026-10-28T20:20:13.825Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "Following a national legislative election in Israel, vote counting has reached 50% completion. Current seat projections indicate no single political bloc has secured the 61-seat majority required to form a governing coalition. The process remains ongoing with Netanyahu’s coalition currently projected to lead, followed by the Gadi Eisenkot opposition bloc and an increased seat count for Arab-majority parties. The physical reality of the event is a standard democratic transition process involving ballot tabulation and parliamentary seat allocation.",
-    "consensus": [
-      "A national legislative election occurred in Israel.",
-      "Vote counting has reached approximately 50 percent completion.",
-      "No single political bloc has achieved the 61-seat threshold for a majority.",
-      "Projections suggest significant seat gains for Palestinian/Arab parties in the Knesset."
-    ],
-    "divergence": [
-      "The Guardian focuses on the procedural mechanics of seat counts and the potential for coalition instability.",
-      "Al Jazeera frames the election results through the lens of ideological critique, specifically characterizing the Israeli state as a 'racist enterprise' and questioning the influence of the AIPAC lobby on US foreign policy."
-    ],
-    "sources": [
-      {
-        "id": "art_1793178727718_t8i0f",
-        "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
-        "source": "guardian",
-        "title": "Israel election results live: vote count continues as exit polls suggest no clear winner"
-      },
-      {
-        "id": "art_1793178728873_8m7ps",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/khouri-strong-israel-arab-bloc-result-does-not-mean-israel-has-changed?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Khouri: Strong Israel-Arab bloc result does not mean Israel has changed"
-      },
-      {
-        "id": "art_1793178729937_s4nsh",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/28/is-aipac-losing-its-grip-on-us-politics?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Is AIPAC losing its grip on US politics?"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
