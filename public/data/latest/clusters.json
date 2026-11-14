@@ -1,5 +1,405 @@
 [
   {
+    "cluster_id": "5d12680522bc681a",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-13T22:51:29.000Z",
+    "event_window_end": "2026-11-14T05:42:41.000Z",
+    "article_ids": [
+      "art_1794640058545_73ddv",
+      "art_1794640059621_0g3qe",
+      "art_1794640063346_h3v1j",
+      "art_1794640064479_uaq4m",
+      "art_1794615873787_w3el7",
+      "art_1794615876300_e3wys",
+      "art_1794615878187_z518b",
+      "art_1794615882616_82d0o"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian",
+      "bbc",
+      "fox"
+    ],
+    "article_count": 8,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T16:35:15.458Z",
+    "updated_at": "2026-11-14T16:35:15.458Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1794640058545_73ddv",
+        "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "US lifts ground stop, but passengers face second day of flight disruption"
+      },
+      {
+        "id": "art_1794640059621_0g3qe",
+        "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
+        "source": "guardian",
+        "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes"
+      },
+      {
+        "id": "art_1794640063346_h3v1j",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "What we know about the longest ground stop since 9/11"
+      },
+      {
+        "id": "art_1794640064479_uaq4m",
+        "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?"
+      },
+      {
+        "id": "art_1794615873787_w3el7",
+        "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+        "source": "guardian",
+        "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US"
+      },
+      {
+        "id": "art_1794615876300_e3wys",
+        "url": "https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained",
+        "source": "guardian",
+        "title": "What to know about the rare nationwide ground stop issued by the FAA"
+      },
+      {
+        "id": "art_1794615878187_z518b",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FAA grounds all fights across the US over ‘telecommunication outage’"
+      },
+      {
+        "id": "art_1794615882616_82d0o",
+        "url": "https://www.foxnews.com/outkick-sports/faa-ground-stop-leaves-college-football-teams-stranded-eve-crucial-saturday-showdowns",
+        "source": "fox",
+        "title": "FAA ground stop leaves College Football teams stranded on eve of crucial Saturday showdowns"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "fede52241b350e16",
+    "topic_label": "Tanker-Cruise Ship Collision on Mississippi River",
+    "event_window_start": "2026-11-13T22:47:16.000Z",
+    "event_window_end": "2026-11-13T23:40:45.000Z",
+    "article_ids": [
+      "art_1794615878726_ptbc0",
+      "art_1794615883240_2u0pi"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Maritime",
+    "synthesis": "On Friday at approximately 12:30pm local time, the tanker Atlantic Asphalt collided with the docked river cruise ship American Heritage on the Mississippi River in New Orleans. The force of the impact caused the American Heritage to list significantly and partially submerge. Emergency response operations resulted in the rescue of all 129 to 130 passengers and crew, with 32 individuals transported to local hospitals for non-critical injuries. Initial investigations by the US Coast Guard indicate the collision resulted from a mechanical loss of steering control on the tanker.",
+    "consensus": [
+      "The tanker Atlantic Asphalt collided with the stationary cruise ship American Heritage.",
+      "The incident occurred on the Mississippi River in New Orleans at approximately 12:30pm.",
+      "32 individuals were hospitalized with non-critical injuries.",
+      "All 129-130 persons on board were accounted for and rescued.",
+      "US Coast Guard and local officials confirmed the tanker experienced a loss of steering control."
+    ],
+    "divergence": [
+      "BBC frames the event as a 'Miracle on the Mississippi', prioritizing emotional narrative over technical reporting.",
+      "Al Jazeera focuses on the timeline of the passenger disembarkation process to provide context on why people were onboard during the impact."
+    ],
+    "sources": [
+      {
+        "id": "art_1794615878726_ptbc0",
+        "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans"
+      },
+      {
+        "id": "art_1794615883240_2u0pi",
+        "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "32 passengers taken to hospital after tanker hits river cruise boat in US"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "afa0891611166763",
+    "topic_label": "Physical Assault of Student on Mahoning Valley Community School Bus",
+    "event_window_start": "2026-11-13T18:35:28.000Z",
+    "event_window_end": "2026-11-13T18:35:28.000Z",
+    "article_ids": [
+      "art_1794596260863_6dmsw",
+      "art_1794596261819_2keda"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-us"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T16:35:15.458Z",
+    "updated_at": "2026-11-14T16:35:15.458Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Violence / Assault",
+    "synthesis": "On Friday, Nov. 6, a male student engaged in a physical assault against a female 10th-grade student aboard a bus transporting pupils to the Mahoning Valley Community School in Youngstown, Ohio. The kinetic actions included repeated punching, kicking, and the application of a chokehold by the perpetrator. The assault was recorded by an on-board witness and disseminated via social media. The school administration has initiated an investigation into the physical confrontation.",
+    "consensus": [
+      "The event occurred on Friday, Nov. 6.",
+      "A male student physically assaulted a female 10th-grade student on a school bus.",
+      "The assault involved punching, kicking, and a chokehold.",
+      "The event was recorded by another student on the bus and posted to social media.",
+      "Mahoning Valley Community School authorities are conducting an investigation."
+    ],
+    "divergence": [
+      "Fox and Fox-US utilized identical text, providing no divergent framing or conflicting information between the two outlets."
+    ],
+    "sources": [
+      {
+        "id": "art_1794596260863_6dmsw",
+        "url": "https://www.foxnews.com/us/school-investigating-viral-video-10th-grade-girl-punched-chokehold-ohio-school-bus",
+        "source": "fox",
+        "title": "School investigating after viral video shows 10th-grade girl punched, put in chokehold on Ohio school bus"
+      },
+      {
+        "id": "art_1794596261819_2keda",
+        "url": "https://www.foxnews.com/us/school-investigating-viral-video-10th-grade-girl-punched-chokehold-ohio-school-bus",
+        "source": "fox-us",
+        "title": "School investigating after viral video shows 10th-grade girl punched, put in chokehold on Ohio school bus"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "11e9bef15bd1bd66",
+    "topic_label": "US Executive Reorganization and Legislative Opposition Regarding Iran Conflict",
+    "event_window_start": "2026-11-13T18:16:27.000Z",
+    "event_window_end": "2026-11-14T14:00:51.000Z",
+    "article_ids": [
+      "art_1794665502527_x2jk1",
+      "art_1794665503071_19uf2",
+      "art_1794665504658_41dnx",
+      "art_1794596252877_u9xy7",
+      "art_1794596266701_xxwkd"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T16:35:15.458Z",
+    "updated_at": "2026-11-14T16:35:15.458Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Diplomacy / Military Policy",
+    "synthesis": "President Donald Trump has removed Vice President JD Vance from his role as chief negotiator in diplomatic discussions with Iran, mandating a pivot toward domestic corruption investigations. This executive action follows the commencement of US-Israel military hostilities against Iran on February 28. Simultaneously, members of the US House of Representatives are coordinating a War Powers resolution to constrain these ongoing military operations, while Democratic Senator Chris Van Hollen has proposed utilizing federal government shutdown threats as leverage to compel the termination of the war. In Tehran, the government has responded to the heightened state of conflict by hosting a large-scale public funeral for historical war casualties accompanied by a demonstration of domestic missile inventory.",
+    "consensus": [
+      "President Trump has removed JD Vance from negotiations with Iran.",
+      "US military operations against Iran began on February 28.",
+      "US lawmakers are actively seeking to pass a War Powers resolution to curb the executive branch's military authority in the conflict.",
+      "Iran has held a public display of missile capabilities during a state-sponsored commemorative event in Tehran."
+    ],
+    "divergence": [
+      "Fox News frames the legislative opposition as a breakdown in administrative unity and internal Republican friction.",
+      "Al Jazeera focuses on the geopolitical implications of the personnel shift, framing Vance as a 'pragmatic' actor whose removal increases risk of total war.",
+      "Fox reporting explicitly links the personnel change to the midterms, a detail absent in international coverage.",
+      "Al Jazeera exclusively covers the Iranian domestic response (the missile display) to the ongoing US-led military pressure."
+    ],
+    "sources": [
+      {
+        "id": "art_1794665502527_x2jk1",
+        "url": "https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war",
+        "source": "fox",
+        "title": "Anti-Trump Republican courts other defectors as House weighs another vote against Iran war"
+      },
+      {
+        "id": "art_1794665503071_19uf2",
+        "url": "https://www.foxnews.com/politics/anti-trump-republican-courts-other-defectors-house-weighs-another-vote-against-iran-war",
+        "source": "fox-politics",
+        "title": "Anti-Trump Republican courts other defectors as House weighs another vote against Iran war"
+      },
+      {
+        "id": "art_1794665504658_41dnx",
+        "url": "https://www.aljazeera.com/news/2026/11/14/how-does-iran-view-shift-in-us-approach-after-vance-ordered-away?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How does Iran view shift in US approach after JD Vance ordered away?"
+      },
+      {
+        "id": "art_1794596252877_u9xy7",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/iran-honours-fallen-soldiers-in-iran-iraq-war-with-missile-display?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran honours fallen soldiers in Iran-Iraq war with missile display"
+      },
+      {
+        "id": "art_1794596266701_xxwkd",
+        "url": "https://www.foxnews.com/media/chris-van-hollen-floats-using-government-shutdown-threat-force-trump-end-iran-war",
+        "source": "fox",
+        "title": "Chris Van Hollen floats using government shutdown threat to force Trump to end Iran war"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "c20a352a5f93f233",
+    "topic_label": "Houthi Armed Interdiction on Taiz Medical Transit and Ongoing Israeli Gaza Blockade Restrictions",
+    "event_window_start": "2026-11-13T18:28:03.000Z",
+    "event_window_end": "2026-11-14T06:17:27.000Z",
+    "article_ids": [
+      "art_1794640053907_yf1ln",
+      "art_1794640062211_vs1do",
+      "art_1794615884477_5wprn",
+      "art_1794596262879_6x4le"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T16:35:15.458Z",
+    "updated_at": "2026-11-14T16:35:15.458Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Armed Conflict / Humanitarian Blockade",
+    "synthesis": "Houthi armed forces targeted a civilian vehicle navigating mountain bypass routes in Jabal Sabir, Taiz, preventing the emergency transport of a critically ill infant, Gaza Ali Abdulmughni al-Shaqab, who subsequently died. In Gaza, physical border controls and import restrictions enforced by Israel continue to block vital humanitarian supplies, including winter shelter gear during severe storms and specialized medical hardware such as facial burn masks for pediatric patients. Concurrently, Israeli political candidate Gadi Eisenkot publicly denounced Prime Minister Benjamin Netanyahu for delegitimizing Arab-Israeli lawmakers following election results where Ra'am and the Joint List secured 19 Knesset seats.",
+    "consensus": [
+      "Houthi forces interdicted a civilian vehicle carrying a sick infant along mountain roads near Jabal Sabir in Taiz, Yemen.",
+      "An infant identified as Gaza Ali Abdulmughni al-Shaqab died after emergency medical access was impeded.",
+      "Israeli border restrictions limited the entry of winterization aid and medical supplies into Gaza, including treatment masks for pediatric burn victims.",
+      "The Arab-majority Ra'am and Joint List factions won 19 combined seats in the Israeli parliament."
+    ],
+    "divergence": [
+      "Al Jazeera centers its reporting on physical human casualties and medical deprivation resulting from the Houthi siege of Taiz and Israeli border restrictions in Gaza.",
+      "The Guardian frames the region's events through domestic Israeli political rivalry, focusing on Gadi Eisenkot's condemnation of Netanyahu's rhetoric toward Arab-Israeli parliamentarians."
+    ],
+    "sources": [
+      {
+        "id": "art_1794640053907_yf1ln",
+        "url": "https://www.aljazeera.com/news/2026/11/14/siege-fuels-disease-fears-in-yemens-besieged-taiz?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Siege fuels disease fears in Yemen’s Taiz"
+      },
+      {
+        "id": "art_1794640062211_vs1do",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_un-israeli-policies-worsened-gaza-storms-impact-131126?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "UN says Israeli policies worsened deadly impact of Gaza winter storm"
+      },
+      {
+        "id": "art_1794615884477_5wprn",
+        "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+        "source": "guardian",
+        "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority"
+      },
+      {
+        "id": "art_1794596262879_6x4le",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel bars supplies needed to treat six-year-old Gaza burn victim"
+      }
+    ],
+    "model_used": "gemini-3.5-flash"
+  },
+  {
+    "cluster_id": "c8420d3d694031c3",
+    "topic_label": "Unidentified Drone Incursion at RAF Lakenheath",
+    "event_window_start": "2026-11-13T18:43:45.000Z",
+    "event_window_end": "2026-11-13T22:31:05.000Z",
+    "article_ids": [
+      "art_1794615872568_emtv5",
+      "art_1794596250540_hwww3",
+      "art_1794596251071_dhqzi",
+      "art_1794596259108_93nvo"
+    ],
+    "source_ids": [
+      "guardian",
+      "defensenews"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T16:35:15.458Z",
+    "updated_at": "2026-11-14T16:35:15.458Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Aviation / Security Breach",
+    "synthesis": "On Friday night, unidentified unmanned aerial systems (UAS) conducted an unauthorized flight operation over RAF Lakenheath, a US Air Force installation in the United Kingdom. Local siren alerts were activated in response to the breach. US Air Force officials confirmed the presence of the drones but stated that no personnel, aviation assets, or physical infrastructure sustained damage during the event.",
+    "consensus": [
+      "Unidentified drones were present over RAF Lakenheath on Friday night.",
+      "Airbase sirens were activated during the incursion.",
+      "The US Air Force confirmed no damage to personnel, aircraft, or infrastructure.",
+      "US and UK authorities are coordinating on the security response."
+    ],
+    "divergence": [
+      "The Guardian frames the event as a localized security response while omitting technical details regarding drone capabilities or attribution.",
+      "DefenseNews articles covering RAF Lakenheath are absent, as the outlet focuses on unrelated industry marketing for counter-drone technologies (EAGLS) and unrelated strategic force design policy documents.",
+      "The Guardian relies on official US military statements, sanitizing the breach as 'suspected unauthorised drone activity' rather than detailing potential surveillance or reconnaissance threats."
+    ],
+    "sources": [
+      {
+        "id": "art_1794615872568_emtv5",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
+        "source": "guardian",
+        "title": "US Air Force responds to suspected drone activity at RAF Lakenheath"
+      },
+      {
+        "id": "art_1794596250540_hwww3",
+        "url": "https://www.defensenews.com/video/2026/11/13/drones-incoming-new-innovations-on-offer-in-uas-tech-defense-news-weekly-full-episode-11-10-26/",
+        "source": "defensenews",
+        "title": "Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26"
+      },
+      {
+        "id": "art_1794596251071_dhqzi",
+        "url": "https://www.defensenews.com/video/2026/11/13/inside-msis-next-generation-of-counter-drone-defense/",
+        "source": "defensenews",
+        "title": "Inside MSI’s Next Generation of Counter-Drone Defense"
+      },
+      {
+        "id": "art_1794596259108_93nvo",
+        "url": "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/",
+        "source": "defensenews",
+        "title": "US Air Force adopts new Force Design focusing on sensors and autonomy"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "a76b08f4a2b9bdcf",
     "topic_label": "US Federal Aviation Administration Nationwide Ground Stop and Telecommunications Failure",
     "event_window_start": "2026-11-13T10:11:39.000Z",
@@ -115,58 +515,6 @@
         "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
         "source": "guardian",
         "title": "Microsoft outage hits hospitals, GPs, schools and police across UK"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fede52241b350e16",
-    "topic_label": "Tanker-Cruise Ship Collision on Mississippi River",
-    "event_window_start": "2026-11-13T22:47:16.000Z",
-    "event_window_end": "2026-11-13T23:40:45.000Z",
-    "article_ids": [
-      "art_1794615878726_ptbc0",
-      "art_1794615883240_2u0pi"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-14T02:51:06.088Z",
-    "updated_at": "2026-11-14T02:51:06.088Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Maritime",
-    "synthesis": "On Friday at approximately 12:30pm local time, the tanker Atlantic Asphalt collided with the docked river cruise ship American Heritage on the Mississippi River in New Orleans. The force of the impact caused the American Heritage to list significantly and partially submerge. Emergency response operations resulted in the rescue of all 129 to 130 passengers and crew, with 32 individuals transported to local hospitals for non-critical injuries. Initial investigations by the US Coast Guard indicate the collision resulted from a mechanical loss of steering control on the tanker.",
-    "consensus": [
-      "The tanker Atlantic Asphalt collided with the stationary cruise ship American Heritage.",
-      "The incident occurred on the Mississippi River in New Orleans at approximately 12:30pm.",
-      "32 individuals were hospitalized with non-critical injuries.",
-      "All 129-130 persons on board were accounted for and rescued.",
-      "US Coast Guard and local officials confirmed the tanker experienced a loss of steering control."
-    ],
-    "divergence": [
-      "BBC frames the event as a 'Miracle on the Mississippi', prioritizing emotional narrative over technical reporting.",
-      "Al Jazeera focuses on the timeline of the passenger disembarkation process to provide context on why people were onboard during the impact."
-    ],
-    "sources": [
-      {
-        "id": "art_1794615878726_ptbc0",
-        "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans"
-      },
-      {
-        "id": "art_1794615883240_2u0pi",
-        "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "32 passengers taken to hospital after tanker hits river cruise boat in US"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -13931,356 +14279,5 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "258ca6596df93ceee9c1b46ed3548a91",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-30T20:39:50.000Z",
-    "event_window_end": "2026-10-31T13:00:29.000Z",
-    "article_ids": [
-      "art_1793453537257_0em4u",
-      "art_1793453545535_y9vz0",
-      "art_1793429533542_c1c8n",
-      "art_1793429539044_djz4w",
-      "art_1793409152564_9q71c",
-      "art_1793409155701_du5av",
-      "art_1793409161033_e1kdd",
-      "art_1793396312851_oqd8m",
-      "art_1793396315093_prl2r",
-      "art_1793396320418_jjcmr"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 10,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T17:44:39.403Z",
-    "updated_at": "2026-10-31T17:44:39.403Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1793453537257_0em4u",
-        "url": "https://www.foxnews.com/politics/how-follow-2026-election-day-coverage-fox-news-platforms",
-        "source": "fox",
-        "title": "How to follow 2026 Election Day coverage on Fox News platforms"
-      },
-      {
-        "id": "art_1793453545535_y9vz0",
-        "url": "https://www.aljazeera.com/news/2026/10/31/alaskas-two-dan-sullivans-how-common-is-ballot-stacking-does-it-work?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Alaska’s two ‘Dan Sullivans’: How common is ballot stacking, does it work?"
-      },
-      {
-        "id": "art_1793429533542_c1c8n",
-        "url": "https://www.foxnews.com/politics/federal-judge-blocks-trump-doj-threats-against-election-workers-ahead-2026-midterms",
-        "source": "fox",
-        "title": "Federal judge blocks Trump DOJ threats against election workers ahead of 2026 midterms"
-      },
-      {
-        "id": "art_1793429539044_djz4w",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/trump-tells-voters-to-send-el-sayed-back-to-where-he-came?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump tells voters to send El-Sayed ‘back to where he came from’"
-      },
-      {
-        "id": "art_1793409152564_9q71c",
-        "url": "https://www.foxnews.com/media/the-view-co-hosts-agree-democrats-should-not-impeach-trump-party-wins-back-control-congress",
-        "source": "fox",
-        "title": "'The View' co-hosts agree Democrats should not impeach Trump if party wins back control of Congress"
-      },
-      {
-        "id": "art_1793409155701_du5av",
-        "url": "https://www.bbc.co.uk/news/articles/ckq6nz4286r4o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "'The necktie is dead': How US midterm candidates are dressing for votes"
-      },
-      {
-        "id": "art_1793409161033_e1kdd",
-        "url": "https://www.foxnews.com/opinion/david-marcus-california-transplants-texas-voting-democrat-see-no-irony",
-        "source": "fox",
-        "title": "DAVID MARCUS: California transplants in Texas are voting Democrat, and they see no irony in it"
-      },
-      {
-        "id": "art_1793396312851_oqd8m",
-        "url": "https://www.foxnews.com/entertainment/nicki-minaj-torches-kathy-hochul-evil-woman-governor-fires-back-trump-jab",
-        "source": "fox",
-        "title": "Nicki Minaj torches Kathy Hochul as 'evil woman,' and the governor fires back with Trump jab"
-      },
-      {
-        "id": "art_1793396315093_prl2r",
-        "url": "https://www.foxnews.com/politics/biscuit-dog-latest-dead-felon-get-voting-rights-back-spanberger-confused-owner-says",
-        "source": "fox",
-        "title": "'Biscuit' the dog is latest dead felon to get their voting rights back from Spanberger, confused owner says"
-      },
-      {
-        "id": "art_1793396320418_jjcmr",
-        "url": "https://www.aljazeera.com/news/2026/10/30/us-appeals-court-again-rejects-trump-bid-to-set-aside-california-ballots?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US appeals court again rejects Trump bid to set aside California ballots"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "365c86b8af04df3d5492fe847a29693e",
-    "topic_label": "UK Diplomatic Engagement and Protests Over Slavery Reparations at Commonwealth Summit",
-    "event_window_start": "2026-10-31T06:00:34.000Z",
-    "event_window_end": "2026-10-31T13:19:23.000Z",
-    "article_ids": [
-      "art_1793453532901_nhm89",
-      "art_1793453534052_ssgx2",
-      "art_1793429529866_qxyyt",
-      "art_1793429531265_taicl",
-      "art_1793429532436_pgf5j"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T17:44:39.403Z",
-    "updated_at": "2026-10-31T17:44:39.403Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "Ahead of the Commonwealth leaders summit in Antigua and Barbuda, British Prime Minister Andy Burnham announced openness to formal state discussions regarding an official apology for the UK role in the transatlantic slave trade, while explicitly excluding financial reparations. Activist groups in St John's prepared public demonstrations, billboards, and vigils demanding formal redress and state apologies from both Prime Minister Burnham and King Charles. Simultaneously, secondary domestic and foreign policy commentary emerged, including former Prime Minister Keir Starmer advocating closer UK-European security ties and UK ministers reviewing noise regulations on consumer pyrotechnics.",
-    "consensus": [
-      "Andy Burnham stated openness to formal talks regarding an official British state apology for transatlantic slavery.",
-      "The UK government ruled out financial reparations in connection with the transatlantic slave trade.",
-      "Protests and demonstrations demanding reparations and state apologies were organized to coincide with the Commonwealth summit in Antigua and Barbuda."
-    ],
-    "divergence": [
-      "Al Jazeera emphasized official statements from Andy Burnham regarding formal talks on state apologies.",
-      "The Guardian detailed specific activist messaging, placards, and local organizers targeting King Charles and Prime Minister Burnham directly in Antigua.",
-      "The Guardian additionally reported on separate, unrelated topics including Keir Starmer's foreign policy speech, London prime real estate price drops, and UK domestic firework regulations."
-    ],
-    "sources": [
-      {
-        "id": "art_1793453532901_nhm89",
-        "url": "https://www.aljazeera.com/news/2026/10/31/burnham-opens-door-to-formal-apology-for-britains-slave-trade?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Burnham opens door to formal apology for Britain’s slave trade"
-      },
-      {
-        "id": "art_1793453534052_ssgx2",
-        "url": "https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump",
-        "source": "guardian",
-        "title": "Starmer says UK must get closer to Europe as US relationship changes"
-      },
-      {
-        "id": "art_1793429529866_qxyyt",
-        "url": "https://www.theguardian.com/money/2026/oct/31/homes-london-poshest-neighbourhoods-sell-below-asking-price-coutts",
-        "source": "guardian",
-        "title": "Eight in 10 homes in London’s poshest postcodes now sell below asking price, Coutts finds"
-      },
-      {
-        "id": "art_1793429531265_taicl",
-        "url": "https://www.theguardian.com/world/2026/oct/31/protests-expected-king-charles-reparations-slave-trade-commonwealth-summit-antigua",
-        "source": "guardian",
-        "title": "‘Reparations now’: King and Burnham face protests at Antigua Commonwealth summit"
-      },
-      {
-        "id": "art_1793429532436_pgf5j",
-        "url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/fireworks-uk-consultation-campaigners-noise-animal-welfare",
-        "source": "guardian",
-        "title": "Is time up for backyard fireworks? UK ministers weigh partial ban over noise concerns"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "64c68ae7512a69585280512ec367ee14",
-    "topic_label": "Severe Australian Meteorological Cold Front and Global Civil Protests",
-    "event_window_start": "2026-10-31T06:00:37.000Z",
-    "event_window_end": "2026-10-31T06:11:53.000Z",
-    "article_ids": [
-      "art_1793429526521_37xew",
-      "art_1793429527586_t9v3k",
-      "art_1793429528662_jypmt",
-      "art_1793429529866_qxyyt",
-      "art_1793429531265_taicl"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T13:10:32.909Z",
-    "updated_at": "2026-10-31T13:10:32.909Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "Meteorology",
-    "synthesis": "A severe cold front is moving across eastern and southeastern Australia, bringing destructive wind gusts exceeding 125 km/h, hail, and heavy rainfall with flash flooding potential across Victoria, New South Wales, the Australian Capital Territory, and Queensland. Concurrently, political demonstrations are active in two regions: public protests in St. John's, Antigua targeting the Commonwealth summit to demand slavery reparations from the British monarchy and government, and nationwide protests across India responding to the Election Commission stripping 130 million names from electoral rolls under its Special Intensive Revision process.",
-    "consensus": [
-      "A cold weather front is generating wind speeds exceeding 125 km/h, hail, and flash flood risks across eastern Australia.",
-      "Protests, placards, and public demonstrations are organized in St. John's, Antigua during the Commonwealth leaders' summit.",
-      "Opposition groups and citizens in India are protesting the removal of 130 million names from electoral registers by the Election Commission of India."
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes sectarian impacts in India, specifically highlighting how six years of Muslim warnings regarding citizenship documentation requirements were initially ignored until wider demographics were affected.",
-      "The Guardian focuses on activist messaging and moral arguments regarding transatlantic enslavement reparations in Antigua while omitting official British state security postures or administrative responses.",
-      "The Guardian frames Australian weather telemetry around capital city disruptions and BoM meteorological forecasts without reporting verified structural damage or casualty figures."
-    ],
-    "sources": [
-      {
-        "id": "art_1793429526521_37xew",
-        "url": "https://www.aljazeera.com/sports/2026/10/31/lebron-james-tyrese-maxey-philadelphia-76ers-win-new-york-knicks-nba-cup?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "LeBron James, Tyrese Maxey shine as 76ers beat Knicks in NBA Cup thriller"
-      },
-      {
-        "id": "art_1793429527586_t9v3k",
-        "url": "https://www.aljazeera.com/opinions/2026/10/31/the-selective-solidarity-at-the-heart-of-indias-voter-protests?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "The selective solidarity at the heart of India’s voter protests"
-      },
-      {
-        "id": "art_1793429528662_jypmt",
-        "url": "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
-        "source": "guardian",
-        "title": "Storm warnings for Melbourne, Canberra, Sydney and Brisbane as cold front ‘packs a punch’"
-      },
-      {
-        "id": "art_1793429529866_qxyyt",
-        "url": "https://www.theguardian.com/money/2026/oct/31/homes-london-poshest-neighbourhoods-sell-below-asking-price-coutts",
-        "source": "guardian",
-        "title": "Eight in 10 homes in London’s poshest postcodes now sell below asking price, Coutts finds"
-      },
-      {
-        "id": "art_1793429531265_taicl",
-        "url": "https://www.theguardian.com/world/2026/oct/31/protests-expected-king-charles-reparations-slave-trade-commonwealth-summit-antigua",
-        "source": "guardian",
-        "title": "‘Reparations now’: King and Burnham face protests at Antigua Commonwealth summit"
-      }
-    ],
-    "model_used": "gemini-3.5-flash"
-  },
-  {
-    "cluster_id": "840ca8dbd79205a755967275b5e1534e",
-    "topic_label": "Binance $6.3 Billion Cryptocurrency Heist",
-    "event_window_start": "2026-10-30T16:35:44.000Z",
-    "event_window_end": "2026-10-30T21:13:14.000Z",
-    "article_ids": [
-      "art_1793396314043_g5rbb",
-      "art_1793378922233_u50kt"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T00:39:40.388Z",
-    "updated_at": "2026-10-31T00:39:40.388Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Cybercrime",
-    "synthesis": "The Binance cryptocurrency exchange suffered an unauthorized extraction of $6.3 billion in digital assets. Security researchers and exchange forensics indicate a sophisticated intrusion, likely attributed to North Korean state-affiliated threat actors utilizing novel laundering methodologies. Binance reports the recovery and freezing of $3 billion in assets and has pledged to indemnify impacted users. US Secret Service is currently conducting an investigation into the fund migration and actor attribution.",
-    "consensus": [
-      "A total of $6.3 billion in cryptocurrency was extracted from Binance.",
-      "$3 billion of the stolen funds have been frozen or recovered by the exchange.",
-      "The attack is widely attributed to North Korean hacking units by third-party analytics firms.",
-      "The incident is characterized as the largest financial heist in cryptocurrency history."
-    ],
-    "divergence": [
-      "The BBC emphasizes the internal security failure, specifically mentioning the compromise of an engineer's laptop, whereas the Guardian focuses on the broader impact and the unprecedented nature of the laundering patterns.",
-      "The Guardian frames the event with a consumer-protection angle, focusing on the exchange's promise to cover customer losses, while the BBC focuses on the technical complexity and the specific role of the US Secret Service in recovery efforts."
-    ],
-    "sources": [
-      {
-        "id": "art_1793396314043_g5rbb",
-        "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea"
-      },
-      {
-        "id": "art_1793378922233_u50kt",
-        "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-        "source": "guardian",
-        "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2996c07370f67c0c847406abf7e9bc08",
-    "topic_label": "Police Deployment and Jurisdictional Stand-off at Polish Constitutional Tribunal",
-    "event_window_start": "2026-10-30T20:52:01.000Z",
-    "event_window_end": "2026-10-30T23:19:42.000Z",
-    "article_ids": [
-      "art_1793409163106_i2v3t",
-      "art_1793396319340_nvkhn"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T06:19:38.757Z",
-    "updated_at": "2026-10-31T06:19:38.757Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure",
-    "synthesis": "Polish state security forces were deployed to the Constitutional Tribunal in Warsaw following a government-ordered suspension of the court's President, Bogdan Święczkowski, and Vice-President, Bartłomiej Sochański. Justice Minister Waldemar Żurek has initiated legal proceedings to revoke the immunity of these officials in order to pursue criminal charges. The kinetic component involved a standoff between riot police and protestors, resulting in physical altercations including the throwing of objects at police units stationed to secure the facility premises against unauthorized entry.",
-    "consensus": [
-      "Polish police were deployed to the Constitutional Tribunal building in Warsaw.",
-      "The head of the court, Bogdan Święczkowski, was suspended.",
-      "Justice Minister Waldemar Żurek is pursuing criminal charges against senior court officials.",
-      "Protests occurred outside the court facility."
-    ],
-    "divergence": [
-      "Al Jazeera frames the event as a response to civil unrest involving protestors throwing objects, while the BBC emphasizes the internal governmental power struggle and the specific intent to strip judicial immunity.",
-      "Al Jazeera omits the specific detail regarding the pursuit of criminal charges against the Vice-President, Bartłomiej Sochański.",
-      "The BBC identifies the protesters specifically as supporters of the Law and Justice (PiS) party, whereas Al Jazeera describes them broadly as demonstrators without political affiliation."
-    ],
-    "sources": [
-      {
-        "id": "art_1793409163106_i2v3t",
-        "url": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Polish police deployed to top court after head judge suspended"
-      },
-      {
-        "id": "art_1793396319340_nvkhn",
-        "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Police deployed during stand-off over control of Poland's top court"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
