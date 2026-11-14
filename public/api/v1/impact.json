@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-14T16:37:26.615Z",
+  "generated_at": "2026-11-14T21:09:24.644Z",
   "status": "ready",
   "items": [
+    {
+      "id": "impact-a8c6f98c",
+      "title": "Nationwide FAA Air Traffic Ground Stop via Router Failure",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "disaster"
+      ],
+      "why_it_matters": "A nationwide Federal Aviation Administration (FAA) ground stop occurred on Friday at 4:00 p.m. ET, lasting until 8:15 p.m. ET, following a telecommunications failure triggered by maintenance at a remote facility. The transition from copper wiring to fiber optics resulted in a faulty router or contractor error, which initiated a network flood of approximately 1,000 connection attempts every four to five seconds. This system-wide saturation rendered air traffic control radar and communication feeds inoperable, forcing a total grounding of all civilian air traffic within the United States for the first time since 2001.",
+      "evidence_summary": "4 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "high",
+      "source_count": 4,
+      "related_cluster_id": "a8c6f98cf44221df",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-11-14T21:08:58.329Z"
+    },
     {
       "id": "impact-fede5224",
       "title": "Tanker-Cruise Ship Collision on Mississippi River",
@@ -21,6 +40,68 @@
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-11-14T02:51:06.088Z"
+    },
+    {
+      "id": "impact-536dfed7",
+      "title": "Diplomatic Restructuring and Legislative Opposition to Iran Conflict",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "cybersecurity",
+        "shipping"
+      ],
+      "why_it_matters": "The Trump administration has formally removed Vice President JD Vance from the Iran negotiation portfolio, citing a shift in focus toward domestic investigations. This follows the initiation of active military operations by the US and Israel against Iran on February 28. Simultaneously, members of the US House of Representatives are preparing a War Powers resolution to challenge ongoing military actions in Iran, with a vote expected before the end of the calendar year. These events occur against the backdrop of significant casualties in the Russia-Ukraine conflict, with hacked internal records indicating a death toll exceeding 450,000.",
+      "evidence_summary": "4 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "high",
+      "source_count": 4,
+      "related_cluster_id": "536dfed737888f13",
+      "related_watchlist_id": null,
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-11-14T21:08:58.329Z"
+    },
+    {
+      "id": "impact-4042afb9",
+      "title": "UK Government 'Be Ready' Emergency Preparedness Campaign",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "disaster"
+      ],
+      "why_it_matters": "Following the October 22 launch of the 'Be Ready' campaign in England and Wales, the British government issued an official directive for citizens to prepare for national emergencies. This prompted a statistically significant surge in retail demand for emergency supplies, including a 67% increase in bottled water sales, a 37% increase in shelf-stable food purchases, and an 83% increase in hand sanitizer sales, alongside localized inventory depletion of emergency communication and power equipment.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "4042afb9312c73f5",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
+      "updated_at": "2026-11-14T21:08:58.329Z"
+    },
+    {
+      "id": "impact-8f866591",
+      "title": "Multiple Regional Conflict and Political Developments",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "disaster",
+        "shipping",
+        "instability"
+      ],
+      "why_it_matters": "The reported events concern ongoing kinetic and political conflicts in the Middle East. In Taiz, Yemen, a civilian infant died following an alleged attack by Houthi forces on a vehicle attempting to transport the child for medical care, exacerbating the humanitarian crisis caused by the regional siege. In Gaza, UN reporting indicates that Israeli policy decisions regarding aid entry restricted the mitigation of lethal outcomes during severe winter storm conditions. Simultaneously, in Israel, political leader Gadi Eisenkot has formally accused Prime Minister Benjamin Netanyahu of utilizing racist rhetoric to delegitimize Arab-Israeli lawmakers, highlighting severe internal political fractures during the process of coalition formation.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "8f866591cf7b8587",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-11-14T21:08:58.329Z"
     },
     {
       "id": "impact-afa08916",
@@ -3489,25 +3570,6 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-10-31T20:53:10.028Z"
-    },
-    {
-      "id": "impact-8c9fc269",
-      "title": "Cancellation of G20 Foreign Ministers' Group Photograph",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "instability"
-      ],
-      "why_it_matters": "United States Secretary of State Marco Rubio cancelled the traditional group photograph session at a G20 foreign ministers' meeting in Atlanta. This action followed a refusal by delegations from the UK, Australia, and various European nations to be photographed in the same frame as Russian Foreign Minister Sergei Lavrov. The event proceeded with scheduled talks despite the diplomatic protest.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "8c9fc2694cfe444f061f6fbd895e5ded",
-      "related_watchlist_id": null,
-      "operator_hint": "Monitor social media feeds and local transit advisories for escalation signals.",
-      "updated_at": "2026-10-31T06:19:38.757Z"
     }
   ]
 }
