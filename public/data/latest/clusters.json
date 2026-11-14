@@ -1,5 +1,505 @@
 [
   {
+    "cluster_id": "7033225902120170",
+    "topic_label": "Nationwide FAA Air Traffic Control Telecommunications Failure",
+    "event_window_start": "2026-11-13T22:51:29.000Z",
+    "event_window_end": "2026-11-14T00:09:06.000Z",
+    "article_ids": [
+      "art_1794615873787_w3el7",
+      "art_1794615876300_e3wys",
+      "art_1794615878187_z518b",
+      "art_1794615882616_82d0o"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure / Aviation",
+    "synthesis": "The US Federal Aviation Administration (FAA) executed a nationwide ground stop for all departing flights following a critical telecommunications outage that impacted Air Route Traffic Control Centers. The system failure necessitated a halt to departures to maintain aviation safety while technicians worked to restore communication pathways. While officials from the Department of Homeland Security and the Department of Transportation characterized the event as a technical failure without evidence of malicious intervention, the scale of the disruption resulted in approximately 11,000 flight delays or cancellations, representing the most significant systemic halt to US aviation operations since the post-9/11 period.",
+    "consensus": [
+      "A nationwide ground stop was issued by the FAA on Friday at approximately 4pm ET.",
+      "The cause is identified as a telecommunications outage impacting Air Route Traffic Control Centers.",
+      "Over 11,000 flights were delayed or canceled.",
+      "The FAA confirmed that all airborne flights were accounted for during the outage."
+    ],
+    "divergence": [
+      "The Guardian frames the event through an institutional lens, focusing on official statements from the Department of Transportation and Homeland Security to downplay security concerns.",
+      "Fox News focuses on the secondary impacts of the outage, specifically the disruption to college football travel logistics, and highlights the rarity of the event by comparing it to the 9/11 aviation shutdown.",
+      "Al Jazeera maintains a neutral stance, focusing on the immediate operational status and the uncertainty regarding the resumption of flights.",
+      "Variations exist in the naming of government officials; source texts provide inconsistent or conflicting titles for the individuals cited as representing the Department of Homeland Security."
+    ],
+    "sources": [
+      {
+        "id": "art_1794615873787_w3el7",
+        "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+        "source": "guardian",
+        "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US"
+      },
+      {
+        "id": "art_1794615876300_e3wys",
+        "url": "https://www.theguardian.com/world/2026/nov/13/faa-ground-stop-flights-explained",
+        "source": "guardian",
+        "title": "What to know about the rare nationwide ground stop issued by the FAA"
+      },
+      {
+        "id": "art_1794615878187_z518b",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "FAA grounds all fights across the US over ‘telecommunication outage’"
+      },
+      {
+        "id": "art_1794615882616_82d0o",
+        "url": "https://www.foxnews.com/outkick-sports/faa-ground-stop-leaves-college-football-teams-stranded-eve-crucial-saturday-showdowns",
+        "source": "fox",
+        "title": "FAA ground stop leaves College Football teams stranded on eve of crucial Saturday showdowns"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "47f1ef4d6394e9bc",
+    "topic_label": "Kinetic Exchange: IRGC Strike on Bahrain Radar and US Comm-Tower Engagement",
+    "event_window_start": "2026-11-13T03:17:27.000Z",
+    "event_window_end": "2026-11-13T13:52:11.000Z",
+    "article_ids": [
+      "art_1794596257806_4aprt",
+      "art_1794596258513_zcr95",
+      "art_1794570290365_hwejk",
+      "art_1794541653970_c7n0d"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Military / Ballistic",
+    "synthesis": "The Islamic Revolutionary Guard Corps (IRGC) executed a kinetic strike targeting a US military early-warning radar system in Bahrain, characterizing the action as retaliation for a preceding US airstrike against a telecommunications tower in Sirik, Iran. While the IRGC claims the destruction of the radar, US Central Command denies the destruction and reports the interception of two Iranian drones associated with the engagement. This represents a direct kinetic exchange between Iranian and US forces, signaling a significant escalation in the Strait of Hormuz theater.",
+    "consensus": [
+      "The IRGC claims to have targeted a US early-warning radar in Bahrain.",
+      "A US airstrike occurred against a telecommunications tower in Sirik, Iran.",
+      "US Central Command confirms the interception of two Iranian drones.",
+      "The IRGC has issued a formal warning regarding future aerial operations in the Strait of Hormuz."
+    ],
+    "divergence": [
+      "The Guardian reports the radar was destroyed, whereas US Central Command denies this outcome.",
+      "Al Jazeera focuses on the IRGC threat of unlimited response, whereas the BBC coverage focuses on IAEA inspection constraints regarding Iranian nuclear sites, failing to report on the Bahrain radar event entirely.",
+      "The Guardian and Al Jazeera highlight the 'retaliatory' nature of the strike, while US Central Command frames the event as an interception of hostile Iranian assets.",
+      "The BBC includes tangential information regarding an uninspected nuclear site in Isfahan which is not mentioned in the IRGC or US Centcom accounts of the specific kinetic exchange."
+    ],
+    "sources": [
+      {
+        "id": "art_1794596257806_4aprt",
+        "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+        "source": "guardian",
+        "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike"
+      },
+      {
+        "id": "art_1794596258513_zcr95",
+        "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site"
+      },
+      {
+        "id": "art_1794570290365_hwejk",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran threatens unlimited response over Strait of Hormuz after US attack"
+      },
+      {
+        "id": "art_1794541653970_c7n0d",
+        "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iran says it targeted US radar site in Bahrain"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d1e85e064cc61112",
+    "topic_label": "Airstrike on Nasser Hospital Complex and Ongoing Medical Resource Restriction",
+    "event_window_start": "2026-11-13T03:11:43.000Z",
+    "event_window_end": "2026-11-13T18:28:03.000Z",
+    "article_ids": [
+      "art_1794596262879_6x4le",
+      "art_1794541649334_bm3ub"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-13T22:36:24.738Z",
+    "updated_at": "2026-11-13T22:36:24.738Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure / Kinetic Strike",
+    "synthesis": "Israeli forces conducted an airstrike against the Nasser hospital facility in Gaza, resulting in the immediate physical destruction of hospital infrastructure and the confirmed deaths of six individuals, including a surgeon identified as Rizq Abu Shuaira. Concurrently, established blockades on medical logistics have prevented the entry of specific therapeutic equipment, such as custom-fitted burn masks, for pediatric patients, effectively denying life-sustaining medical intervention to civilians.",
+    "consensus": [
+      "An airstrike occurred at the Nasser hospital facility in Gaza.",
+      "Six people, including a surgeon, were killed in the hospital strike.",
+      "Israeli authorities have imposed restrictions on the entry of medical supplies into the Gaza Strip.",
+      "Pediatric burn patients in Gaza are currently unable to access necessary medical hardware due to supply restrictions."
+    ],
+    "divergence": [
+      "Al Jazeera focuses the narrative on the humanitarian impact of resource restriction and the kinetic destruction of medical facilities.",
+      "No other mainstream syndicates provided independent verification or reporting on the Nasser Hospital strike within this 24-hour window, indicating exclusive reporting from this source."
+    ],
+    "sources": [
+      {
+        "id": "art_1794596262879_6x4le",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israel bars supplies needed to treat six-year-old Gaza burn victim"
+      },
+      {
+        "id": "art_1794541649334_bm3ub",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Gaza surgeon films aftermath of Israeli strike"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "03cc0869c75e0ce9",
+    "topic_label": "Iranian Kinetic Strike on US Radar and Regional Maritime Escalation",
+    "event_window_start": "2026-11-13T10:26:22.000Z",
+    "event_window_end": "2026-11-13T22:36:38.000Z",
+    "article_ids": [
+      "art_1794615884477_5wprn",
+      "art_1794596255855_jyo4i",
+      "art_1794596256385_0cyz0",
+      "art_1794570282470_8llct",
+      "art_1794570293687_87w7z"
+    ],
+    "source_ids": [
+      "guardian",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Military / Ballistic / Maritime",
+    "synthesis": "On Friday, Iranian military forces conducted a kinetic strike against a United States military early warning radar system located in Bahrain. This ballistic engagement coincides with reports of commercial vessels encountering naval mines in the Strait of Hormuz, effectively disrupting transit in a key maritime chokepoint. Concurrently, political instability in Israel persists as caretaker Prime Minister Benjamin Netanyahu reportedly pressures the Trump administration for escalated military action against Iran, despite domestic political opposition and internal dissent from Israeli security leadership. The US government, following midterm election results shifting control of Congress, maintains a public stance of rejecting diplomatic negotiations with Iran, prioritizing domestic focus over regional de-escalation.",
+    "consensus": [
+      "Iranian forces conducted a strike on a US early warning radar system in Bahrain.",
+      "Commercial vessels in the Strait of Hormuz have encountered and struck naval mines.",
+      "Benjamin Netanyahu’s caretaker government is actively planning for potential military escalation against Iran.",
+      "US President Donald Trump has formally suspended diplomatic negotiations with Iran.",
+      "The US Democratic Party has secured control of the US Congress in the midterm elections."
+    ],
+    "divergence": [
+      "Al Jazeera characterizes the Israeli government's past actions in Gaza as 'genocide', while other coverage omits this terminology.",
+      "Al Jazeera frames the US congressional shift as a direct mechanism to challenge the Pentagon's funding of US-Israeli industrial integration.",
+      "The Guardian focuses on internal Israeli political dynamics regarding the rights of the Arab minority, whereas Al Jazeera focuses on the geopolitical impacts of Netanyahu's potential war-planning.",
+      "The Guardian characterizes Netanyahu's rhetoric as 'racist' toward the Arab minority; Al Jazeera characterizes his behavior as a 'frantic effort' for political survival."
+    ],
+    "sources": [
+      {
+        "id": "art_1794615884477_5wprn",
+        "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+        "source": "guardian",
+        "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority"
+      },
+      {
+        "id": "art_1794596255855_jyo4i",
+        "url": "https://www.aljazeera.com/news/2026/11/13/will-democrats-try-to-strip-us-israel-initiative-from-pentagon-funding?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Will Democrats try to strip US-Israel initiative from Pentagon funding?"
+      },
+      {
+        "id": "art_1794596256385_0cyz0",
+        "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Can Netanyahu launch a strike on Iran before he leaves?"
+      },
+      {
+        "id": "art_1794570282470_8llct",
+        "url": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival"
+      },
+      {
+        "id": "art_1794570293687_87w7z",
+        "url": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "18410dff9c86eac0",
+    "topic_label": "Escalated Drone Warfare and Hospital Strike in Kyiv and Volgograd",
+    "event_window_start": "2026-11-13T10:11:38.000Z",
+    "event_window_end": "2026-11-13T14:15:52.000Z",
+    "article_ids": [
+      "art_1794596256919_auddk",
+      "art_1794570281818_2vrg2",
+      "art_1794570284560_b648q",
+      "art_1794570294762_uyatl"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Military / Ballistic",
+    "synthesis": "Hostilities have intensified between Russian and Ukrainian forces. A drone strike hit the National Institute of Traumatology and Orthopedics in Kyiv, resulting in three civilian injuries and structural damage. Simultaneously, Russian military authorities reported an intercepted inbound swarm of approximately 1,198 Ukrainian drones across 15 regions. A kinetic impact at an industrial site in Volgograd resulted in four confirmed deaths and two injuries. The incidents occur amid ongoing diplomatic attempts at mediation and operational friction regarding SpaceX Starshield satellite connectivity for Ukrainian air defense systems.",
+    "consensus": [
+      "A drone impacted the National Institute of Traumatology and Orthopedics in Kyiv at 03:00 local time causing three injuries.",
+      "Russian Ministry of Defence claims interception of 1,198 Ukrainian drones across 15 regions.",
+      "Four fatalities and two injuries confirmed by Volgograd regional officials following a strike on an industrial zone.",
+      "Ongoing diplomatic discussions involving the US and EU regarding ceasefire efforts and winter support packages."
+    ],
+    "divergence": [
+      "Al Jazeera frames the events primarily through the lens of record-high Russian casualty statistics provided by the Ukrainian military, which remains unverified.",
+      "The Guardian emphasizes the technical failure of Starshield systems in Kyiv's air defense efficacy, a detail omitted by Al Jazeera.",
+      "Al Jazeera reports the drone swarm as specifically targeting oil infrastructure in Russia, whereas The Guardian focuses on the human impact in Volgograd and the Kyiv hospital strike.",
+      "The Guardian includes anecdotal reports on diplomatic social interactions in Dublin, which are omitted from Al Jazeera's coverage of the physical conflict."
+    ],
+    "sources": [
+      {
+        "id": "art_1794596256919_auddk",
+        "url": "https://www.aljazeera.com/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukraine claims record 3,000 Russian casualties in one day as war drags on"
+      },
+      {
+        "id": "art_1794570281818_2vrg2",
+        "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+        "source": "guardian",
+        "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again"
+      },
+      {
+        "id": "art_1794570284560_b648q",
+        "url": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+        "source": "guardian",
+        "title": "Leaders meet in Dublin amid search for lead EU negotiator for peace talks with Russia - Europe live"
+      },
+      {
+        "id": "art_1794570294762_uyatl",
+        "url": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia and Ukraine report overnight attacks amid US diplomatic push"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "fede52241b350e16",
+    "topic_label": "Tanker-Cruise Ship Collision on Mississippi River",
+    "event_window_start": "2026-11-13T22:47:16.000Z",
+    "event_window_end": "2026-11-13T23:40:45.000Z",
+    "article_ids": [
+      "art_1794615878726_ptbc0",
+      "art_1794615883240_2u0pi"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Maritime",
+    "synthesis": "On Friday at approximately 12:30pm local time, the tanker Atlantic Asphalt collided with the docked river cruise ship American Heritage on the Mississippi River in New Orleans. The force of the impact caused the American Heritage to list significantly and partially submerge. Emergency response operations resulted in the rescue of all 129 to 130 passengers and crew, with 32 individuals transported to local hospitals for non-critical injuries. Initial investigations by the US Coast Guard indicate the collision resulted from a mechanical loss of steering control on the tanker.",
+    "consensus": [
+      "The tanker Atlantic Asphalt collided with the stationary cruise ship American Heritage.",
+      "The incident occurred on the Mississippi River in New Orleans at approximately 12:30pm.",
+      "32 individuals were hospitalized with non-critical injuries.",
+      "All 129-130 persons on board were accounted for and rescued.",
+      "US Coast Guard and local officials confirmed the tanker experienced a loss of steering control."
+    ],
+    "divergence": [
+      "BBC frames the event as a 'Miracle on the Mississippi', prioritizing emotional narrative over technical reporting.",
+      "Al Jazeera focuses on the timeline of the passenger disembarkation process to provide context on why people were onboard during the impact."
+    ],
+    "sources": [
+      {
+        "id": "art_1794615878726_ptbc0",
+        "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans"
+      },
+      {
+        "id": "art_1794615883240_2u0pi",
+        "url": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "32 passengers taken to hospital after tanker hits river cruise boat in US"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ee051309be0a07d6",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-13T10:11:39.000Z",
+    "event_window_end": "2026-11-13T10:53:40.000Z",
+    "article_ids": [
+      "art_1794570291296_hfnvo",
+      "art_1794570294216_4eic4"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-13T16:55:39.447Z",
+    "updated_at": "2026-11-13T16:55:39.447Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1794570291296_hfnvo",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "What we know about the global Microsoft outage"
+      },
+      {
+        "id": "art_1794570294216_4eic4",
+        "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
+        "source": "guardian",
+        "title": "Microsoft outage hits hospitals, GPs, schools and police across UK"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "80062d9da68dce77",
+    "topic_label": "Senate Democratic Leadership Challenge: Chris Van Hollen vs. Chuck Schumer",
+    "event_window_start": "2026-11-13T11:06:30.000Z",
+    "event_window_end": "2026-11-13T18:23:20.000Z",
+    "article_ids": [
+      "art_1794596264097_jyooa",
+      "art_1794596264985_72k2e",
+      "art_1794570285251_cy4bd",
+      "art_1794570285792_2y6n0",
+      "art_1794570286332_kbptx"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-14T02:51:06.088Z",
+    "updated_at": "2026-11-14T02:51:06.088Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "Senator Chris Van Hollen (D-MD) has formally announced a challenge to Senator Chuck Schumer (D-NY) for the position of Senate Democratic leader. The move is characterized as a contest within the party following the recent midterm election cycle, with Van Hollen citing a mandate for change and Senator Bernie Sanders (I-VT) issuing a public endorsement of the challenger. The event represents an internal institutional power realignment attempt rather than a kinetic or state-level disruption.",
+    "consensus": [
+      "Senator Chris Van Hollen has mounted a formal leadership challenge against incumbent Senate Democratic leader Chuck Schumer.",
+      "Senator Bernie Sanders has publicly declared his support for Van Hollen's candidacy.",
+      "The leadership challenge is framed by proponents as a response to perceived voter demands for institutional change."
+    ],
+    "divergence": [
+      "Fox News emphasizes the 'rare internal power struggle' and provides extensive coverage of internal party fragmentation.",
+      "The Guardian frames the challenge as a 'first big test' post-midterms and incorporates external criticism from senator-elect Adam Hamilton regarding Schumer's perceived polarizing nature.",
+      "Fox omits specific criticisms from neutral or non-partisan observers, focusing instead on the disruption to Schumer's status as a 'former ally' and established leader."
+    ],
+    "sources": [
+      {
+        "id": "art_1794596264097_jyooa",
+        "url": "https://www.foxnews.com/politics/schumers-former-ally-mounts-leadership-challenge-democrats-face-rare-internal-power-struggle",
+        "source": "fox",
+        "title": "Schumer's former ally mounts leadership challenge as Democrats face rare internal power struggle"
+      },
+      {
+        "id": "art_1794596264985_72k2e",
+        "url": "https://www.foxnews.com/politics/schumers-former-ally-mounts-leadership-challenge-democrats-face-rare-internal-power-struggle",
+        "source": "fox-politics",
+        "title": "Schumer's former ally mounts leadership challenge as Democrats face rare internal power struggle"
+      },
+      {
+        "id": "art_1794570285251_cy4bd",
+        "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+        "source": "guardian",
+        "title": "Van Hollen takes aim at Schumer as Democrats face first big test after midterms – US politics live"
+      },
+      {
+        "id": "art_1794570285792_2y6n0",
+        "url": "https://www.foxnews.com/politics/sen-bernie-sanders-supports-chris-van-hollen-bid-challenge-schumer-senate-democratic-leader-post",
+        "source": "fox",
+        "title": "Sen Bernie Sanders supports Chris Van Hollen's bid to challenge Schumer for Senate Democratic leader post"
+      },
+      {
+        "id": "art_1794570286332_kbptx",
+        "url": "https://www.foxnews.com/politics/sen-bernie-sanders-supports-chris-van-hollen-bid-challenge-schumer-senate-democratic-leader-post",
+        "source": "fox-politics",
+        "title": "Sen Bernie Sanders supports Chris Van Hollen's bid to challenge Schumer for Senate Democratic leader post"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "d0a819eafa1f39e5",
     "topic_label": "Kinetic Exchange: IRGC Strike on Bahrain Radar vs. US Strikes in Sirik",
     "event_window_start": "2026-11-13T03:17:27.000Z",
@@ -124,103 +624,6 @@
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "d1e85e064cc61112",
-    "topic_label": "Airstrike on Nasser Hospital Complex and Ongoing Medical Resource Restriction",
-    "event_window_start": "2026-11-13T03:11:43.000Z",
-    "event_window_end": "2026-11-13T18:28:03.000Z",
-    "article_ids": [
-      "art_1794596262879_6x4le",
-      "art_1794541649334_bm3ub"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-13T22:36:24.738Z",
-    "updated_at": "2026-11-13T22:36:24.738Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure / Kinetic Strike",
-    "synthesis": "Israeli forces conducted an airstrike against the Nasser hospital facility in Gaza, resulting in the immediate physical destruction of hospital infrastructure and the confirmed deaths of six individuals, including a surgeon identified as Rizq Abu Shuaira. Concurrently, established blockades on medical logistics have prevented the entry of specific therapeutic equipment, such as custom-fitted burn masks, for pediatric patients, effectively denying life-sustaining medical intervention to civilians.",
-    "consensus": [
-      "An airstrike occurred at the Nasser hospital facility in Gaza.",
-      "Six people, including a surgeon, were killed in the hospital strike.",
-      "Israeli authorities have imposed restrictions on the entry of medical supplies into the Gaza Strip.",
-      "Pediatric burn patients in Gaza are currently unable to access necessary medical hardware due to supply restrictions."
-    ],
-    "divergence": [
-      "Al Jazeera focuses the narrative on the humanitarian impact of resource restriction and the kinetic destruction of medical facilities.",
-      "No other mainstream syndicates provided independent verification or reporting on the Nasser Hospital strike within this 24-hour window, indicating exclusive reporting from this source."
-    ],
-    "sources": [
-      {
-        "id": "art_1794596262879_6x4le",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel bars supplies needed to treat six-year-old Gaza burn victim"
-      },
-      {
-        "id": "art_1794541649334_bm3ub",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Gaza surgeon films aftermath of Israeli strike"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "ee051309be0a07d6",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-11-13T10:11:39.000Z",
-    "event_window_end": "2026-11-13T10:53:40.000Z",
-    "article_ids": [
-      "art_1794570291296_hfnvo",
-      "art_1794570294216_4eic4"
-    ],
-    "source_ids": [
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-13T16:55:39.447Z",
-    "updated_at": "2026-11-13T16:55:39.447Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1794570291296_hfnvo",
-        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "What we know about the global Microsoft outage"
-      },
-      {
-        "id": "art_1794570294216_4eic4",
-        "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
-        "source": "guardian",
-        "title": "Microsoft outage hits hospitals, GPs, schools and police across UK"
-      }
-    ],
-    "model_used": "deterministic-fallback"
   },
   {
     "cluster_id": "61acc49f68616997",
@@ -13796,371 +14199,6 @@
         "url": "https://www.aljazeera.com/news/2026/10/30/police-in-scotland-launch-andrew-and-epstein-royal-castle-investigation?traffic_source=rss",
         "source": "aljazeera",
         "title": "Police in Scotland launch Andrew and Epstein royal castle investigation"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "cfb2214ac1d227d6a14bc6b70f6384e6",
-    "topic_label": "Unrelated Simultaneous Reporting: Warsaw Court Stand-off and Port Sudan Water Crisis",
-    "event_window_start": "2026-10-30T20:10:22.000Z",
-    "event_window_end": "2026-10-30T20:52:01.000Z",
-    "article_ids": [
-      "art_1793396319340_nvkhn",
-      "art_1793396326716_mvq9t"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T00:39:40.388Z",
-    "updated_at": "2026-10-31T00:39:40.388Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest and Humanitarian Crisis",
-    "synthesis": "This synthesis encompasses two distinct events: in Warsaw, Poland, riot police have been deployed to secure the Constitutional Tribunal building amidst a government-initiated suspension of its two senior justices and subsequent protests by Law and Justice (PiS) party members. Concurrently, in Port Sudan, Sudan, a persistent lack of piped water infrastructure has forced residents to rely on private vendors, creating an economic crisis where the cost of basic water consumption equals the total monthly household income for low-wage laborers.",
-    "consensus": [
-      "Riot police were deployed at the Constitutional Tribunal in Warsaw due to a government move against its senior leadership.",
-      "Residents in Port Sudan face severe water scarcity and high costs for potable water supplied by independent vendors."
-    ],
-    "divergence": [
-      "BBC focuses exclusively on the political and legal maneuvering in Warsaw, failing to address the broader structural stability implications.",
-      "Al Jazeera focuses on the humanitarian cost of infrastructure failure in Sudan, omitting any discussion of the underlying military-civilian conflict that contributed to the current service degradation."
-    ],
-    "sources": [
-      {
-        "id": "art_1793396319340_nvkhn",
-        "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Police deployed during stand-off over control of Poland's top court"
-      },
-      {
-        "id": "art_1793396326716_mvq9t",
-        "url": "https://www.aljazeera.com/news/2026/10/30/port-sudan-families-can-barely-afford-water-as-shortages-persist?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Port Sudan families can barely afford water as shortages persist"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "5bcb46c6e97a73a3d6f584ac2b4eb69c",
-    "topic_label": "Aggregated Sports and Media Personnel Developments",
-    "event_window_start": "2026-10-30T16:02:55.000Z",
-    "event_window_end": "2026-10-30T20:54:00.000Z",
-    "article_ids": [
-      "art_1793396318251_gfj9k",
-      "art_1793396322520_rz30d",
-      "art_1793396324597_5cjsc",
-      "art_1793396327745_4vq5t",
-      "art_1793378921143_hnghv",
-      "art_1793378927683_5hbp3",
-      "art_1793378931908_0d0no"
-    ],
-    "source_ids": [
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 7,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-31T00:39:40.388Z",
-    "updated_at": "2026-10-31T00:39:40.388Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "This collection of reports details unrelated administrative, cultural, and professional updates within the sports and entertainment industries. Physical events include the replacement of a bronze sculpture of Dwyane Wade in Miami due to public criticism regarding its physical accuracy, the professional trajectory of broadcasters Joe Buck and Troy Aikman regarding their tenure at ESPN, a performance clarification by NFL player Josh Jacobs regarding a touchdown gesture, a promotional analysis of NBA betting lines, and the production methodology of a live album by musician Terri Clark at the Ryman Auditorium.",
-    "consensus": [
-      "Dwyane Wade received a modified sculpture at the Miami Heat arena.",
-      "Troy Aikman and Joe Buck are currently employed by ESPN.",
-      "Josh Jacobs performed a gesture after a touchdown during a game against the Carolina Panthers.",
-      "Terri Clark performed and recorded a live album at the Ryman Auditorium.",
-      "The Washington Wizards and Charlotte Hornets are scheduled for an NBA Cup game."
-    ],
-    "divergence": [
-      "Fox News frames the Dwyane Wade statue replacement as a cultural punchline, omitting the artistic intent of the original sculptor.",
-      "Fox News frames the Aikman/Buck situation as an imminent professional collapse, while the subjects have not released a joint confirmation.",
-      "Fox News frames Josh Jacobs' celebration as a controversial narrative link to a domestic violence arrest, while the player attributes the gesture to a gospel song."
-    ],
-    "sources": [
-      {
-        "id": "art_1793396318251_gfj9k",
-        "url": "https://www.foxnews.com/outkick-sports/bobby-burack-almost-certainly-over-troy-aikman-joe-buck-duo",
-        "source": "fox",
-        "title": "BOBBY BURACK: It's almost certainly over for Troy Aikman and Joe Buck as a duo"
-      },
-      {
-        "id": "art_1793396322520_rz30d",
-        "url": "https://www.foxnews.com/outkick-sports/miami-heat-unveil-enhanced-dwyane-wade-statue-original-sculpture-went-viral-wrong-reasons",
-        "source": "fox",
-        "title": "Miami Heat unveil 'enhanced' Dwyane Wade statue after original sculpture went viral for wrong reasons"
-      },
-      {
-        "id": "art_1793396324597_5cjsc",
-        "url": "https://www.foxnews.com/outkick-sports/packers-star-josh-jacobs-controversial-touchdown-celebration-referenced-gospel-song-not-arrest",
-        "source": "fox",
-        "title": "Packers star Josh Jacobs says his controversial touchdown celebration referenced a gospel song, not his arrest"
-      },
-      {
-        "id": "art_1793396327745_4vq5t",
-        "url": "https://www.foxnews.com/outkick-betting/why-washington-wizards-smart-moneyline-pick-against-charlotte-hornets-tonight",
-        "source": "fox",
-        "title": "Why the Washington Wizards are the smart moneyline pick against Charlotte Hornets tonight"
-      },
-      {
-        "id": "art_1793378921143_hnghv",
-        "url": "https://www.foxnews.com/outkick-sports/terri-clark-refused-auto-tune-ai-keep-ryman-auditorium-live-album-raw-real",
-        "source": "fox",
-        "title": "Terri Clark refused Auto-Tune and AI to keep her Ryman Auditorium live album raw and real"
-      },
-      {
-        "id": "art_1793378927683_5hbp3",
-        "url": "https://www.aljazeera.com/sports/2026/10/30/arsenal-boss-arteta-fires-disneyland-warning-at-dowman-after-red-card?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Arsenal boss Arteta fires ‘Disneyland’ warning at Dowman after red card"
-      },
-      {
-        "id": "art_1793378931908_0d0no",
-        "url": "https://www.foxnews.com/entertainment/kim-kardashian-undergoes-surgery-after-health-scare-echoes-dads-fatal-cancer-battle",
-        "source": "fox",
-        "title": "Kim Kardashian undergoes surgery after health scare echoes dad’s fatal cancer battle"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c9642af6253ba0e9b020def37fcb2ab6",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-10-30T16:27:39.000Z",
-    "event_window_end": "2026-10-30T16:43:33.000Z",
-    "article_ids": [
-      "art_1793378921143_hnghv",
-      "art_1793378922233_u50kt",
-      "art_1793378923275_jkjfo",
-      "art_1793378924314_aejti",
-      "art_1793378925458_4b196"
-    ],
-    "source_ids": [
-      "fox",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-30T21:14:06.646Z",
-    "updated_at": "2026-10-30T21:14:06.646Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1793378921143_hnghv",
-        "url": "https://www.foxnews.com/outkick-sports/terri-clark-refused-auto-tune-ai-keep-ryman-auditorium-live-album-raw-real",
-        "source": "fox",
-        "title": "Terri Clark refused Auto-Tune and AI to keep her Ryman Auditorium live album raw and real"
-      },
-      {
-        "id": "art_1793378922233_u50kt",
-        "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-        "source": "guardian",
-        "title": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’"
-      },
-      {
-        "id": "art_1793378923275_jkjfo",
-        "url": "https://www.foxnews.com/outkick-sports/colorado-parents-refuse-stay-silent-school-allegedly-targets-girls-trans-athlete-locker-room",
-        "source": "fox",
-        "title": "Colorado parents refuse to stay silent as school allegedly targets girls over trans athlete in locker room"
-      },
-      {
-        "id": "art_1793378924314_aejti",
-        "url": "https://www.foxnews.com/politics/4-us-cities-lucky-winners-trumps-300m-crime-crackdown-contest",
-        "source": "fox",
-        "title": "4 US cities are the lucky winners of Trump's $300M crime crackdown contest"
-      },
-      {
-        "id": "art_1793378925458_4b196",
-        "url": "https://www.aljazeera.com/news/2026/10/30/police-in-scotland-launch-andrew-and-epstein-royal-castle-investigation?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Police in Scotland launch Andrew and Epstein royal castle investigation"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "6d6e502dd1e444cb4324802802d05aed",
-    "topic_label": "Death of actor Patrick Stewart",
-    "event_window_start": "2026-10-29T22:23:43.000Z",
-    "event_window_end": "2026-10-29T22:36:06.000Z",
-    "article_ids": [
-      "art_1793317497900_hw7uc",
-      "art_1793317501009_acztb"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-30T09:41:36.903Z",
-    "updated_at": "2026-10-30T09:41:36.903Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "Biographical",
-    "synthesis": "British actor Patrick Stewart died at age 86 in Los Angeles. The cause of death is attributed to Alzheimer's disease and Lewy body dementia, as confirmed by his spokesperson. The event is a biological cessation of life for a public figure and carries no kinetic or strategic geopolitical impact.",
-    "consensus": [
-      "Patrick Stewart is deceased",
-      "Age at death was 86",
-      "Location of death was Los Angeles",
-      "Professional background included roles in Star Trek and X-Men"
-    ],
-    "divergence": [
-      "Al Jazeera includes the specific medical cause of death (Alzheimer's and Lewy body dementia) and quotes a spokesperson; Fox News omits the cause of death and the spokesperson entirely, focusing on a photographic retrospective of his career."
-    ],
-    "sources": [
-      {
-        "id": "art_1793317497900_hw7uc",
-        "url": "https://www.aljazeera.com/editorial/2026/10/29/patrick-stewart-star-trek-captain-picard-and-x-men-actor-dies-at-86?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86"
-      },
-      {
-        "id": "art_1793317501009_acztb",
-        "url": "https://www.foxnews.com/entertainment/patrick-stewart-life-pictures",
-        "source": "fox",
-        "title": "Patrick Stewart: A life in pictures"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8ca308893631207fa70f0bd5a9406482",
-    "topic_label": "Disparate Political and Cybersecurity Incidents",
-    "event_window_start": "2026-10-29T22:16:51.000Z",
-    "event_window_end": "2026-10-29T23:14:53.000Z",
-    "article_ids": [
-      "art_1793317494409_cj7xf",
-      "art_1793317502052_7o7ju",
-      "art_1793317503102_rb4ke"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-30T16:24:19.807Z",
-    "updated_at": "2026-10-30T16:24:19.807Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Political/Cybersecurity",
-    "synthesis": "This analysis covers three distinct, unrelated events: a political controversy in Israel regarding alleged election irregularities involving Arab parties; a House Judiciary Committee report alleging New York City prosecutors downgraded charges for non-citizens; and a cybersecurity incident involving the U.S. Department of Homeland Security attempting to remove a leaked dataset of 40,000 personnel records hosted by an Icelandic firm. No kinetic engagements or physical security failures linking these events occurred.",
-    "consensus": [
-      "Benjamin Netanyahu alleged electoral interference in Israel.",
-      "A House Judiciary report claims New York prosecutors downgraded criminal charges for non-citizens.",
-      "The U.S. DHS requested the removal of an online dataset containing information on 40,000 employees from an Icelandic hosting company."
-    ],
-    "divergence": [
-      "Guardian frames the Israeli election controversy as a smear tactic by Netanyahu to retain power.",
-      "Fox frames New York City's legal practices as a deliberate policy to obstruct federal immigration enforcement.",
-      "Aljazeera frames the DHS data incident through the lens of a government attempt to suppress an information leak regarding its agency employees."
-    ],
-    "sources": [
-      {
-        "id": "art_1793317494409_cj7xf",
-        "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power",
-        "source": "guardian",
-        "title": "Netanyahu accused of smearing Arab voters to hold on to power"
-      },
-      {
-        "id": "art_1793317502052_7o7ju",
-        "url": "https://www.foxnews.com/us/house-judiciary-report-accuses-nyc-das-downgrading-charges-protect-illegal-immigrants-deportation",
-        "source": "fox",
-        "title": "House Judiciary report accuses NYC DAs of downgrading charges to protect illegal immigrants from deportation"
-      },
-      {
-        "id": "art_1793317503102_rb4ke",
-        "url": "https://www.aljazeera.com/news/2026/10/29/trump-administration-attempts-to-take-down-leak-of-ice-personnel-data?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump administration attempts to take down leak of ICE personnel data"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "257f5b4ae9cb3bb93a72baabc1724fbf",
-    "topic_label": "Sociopolitical Discourse Regarding Online Misogyny and Harassment",
-    "event_window_start": "2026-10-29T22:25:13.000Z",
-    "event_window_end": "2026-10-29T23:30:37.000Z",
-    "article_ids": [
-      "art_1793317491304_mifyi",
-      "art_1793317499985_ycu2z"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-10-30T16:24:19.807Z",
-    "updated_at": "2026-10-30T16:24:19.807Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Diplomacy",
-    "synthesis": "The analyzed texts describe a non-kinetic sociopolitical phenomenon regarding the escalation of aggressive rhetoric within online spaces. One report proposes treating misogynistic online content as a public health priority analogous to substance abuse, while another report highlights the prevalence of hostile interactions, specifically mentioning specific death threats and target-specific verbal aggression against media figures like Pat McAfee. No physical weapon usage or kinetic actions were recorded; the incidents describe shifts in digital discourse and the resulting psychological and social impacts.",
-    "consensus": [
-      "There is a marked increase in aggressive and hostile language within online platforms.",
-      "The current state of digital discourse is impacting the behavior and perceived safety of public figures.",
-      "There is no unified institutional strategy to mitigate the influence of online harassment."
-    ],
-    "divergence": [
-      "The Guardian frames the issue as a systemic public health crisis requiring state-level intervention.",
-      "Fox News frames the issue as a breakdown of civil national conversation and selectively highlights media hypocrisy regarding outrage culture."
-    ],
-    "sources": [
-      {
-        "id": "art_1793317491304_mifyi",
-        "url": "https://www.theguardian.com/society/2026/oct/29/manosphere-online-misogyny-public-health-policy-lancet-report",
-        "source": "guardian",
-        "title": "Manosphere and online misogyny should be treated as public health issues, say UK experts"
-      },
-      {
-        "id": "art_1793317499985_ycu2z",
-        "url": "https://www.foxnews.com/outkick-sports/bobby-burack-online-hate-winning-pat-mcafee-everyday-americans-young-children",
-        "source": "fox",
-        "title": "BOBBY BURACK: Online hate is winning, from Pat McAfee to everyday Americans and young children"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
