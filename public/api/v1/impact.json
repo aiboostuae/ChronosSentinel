@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T00:23:33.336Z",
+  "generated_at": "2026-11-16T07:14:59.543Z",
   "status": "ready",
   "items": [
     {
@@ -25,6 +25,25 @@
       "updated_at": "2026-11-16T00:23:06.019Z"
     },
     {
+      "id": "impact-888cb223",
+      "title": "Nationwide FAA Air Traffic Control Communications Infrastructure Failure",
+      "severity": "critical",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "grid"
+      ],
+      "why_it_matters": "A critical failure of the Federal Aviation Administration's (FAA) Notice to Air Missions (NOTAM) system occurred on Friday, resulting in a nationwide grounding of all departing flights for a duration of approximately four hours. The failure, attributed to a malfunction in primary and backup communication routers, incapacitated the system responsible for distributing real-time safety alerts and flight path data to pilots in-flight and on the ground. The event necessitated the cancellation of over 9,000 flights, affecting an estimated 1.5 million passengers. This represents the most significant US domestic aviation system shutdown since the September 11, 2001, security lockdowns.",
+      "evidence_summary": "4 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "high",
+      "source_count": 4,
+      "related_cluster_id": "888cb223836db95e",
+      "related_watchlist_id": null,
+      "operator_hint": "Monitor power grid frequencies and grid status maps.",
+      "updated_at": "2026-11-16T07:14:37.713Z"
+    },
+    {
       "id": "impact-fe698f70",
       "title": "Ground Collision of Copa Airlines Boeing 737 and UPS Boeing 767 at Miami International Airport",
       "severity": "high",
@@ -42,6 +61,85 @@
       "related_watchlist_id": null,
       "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
       "updated_at": "2026-11-15T20:21:42.620Z"
+    },
+    {
+      "id": "impact-ba21d1fb",
+      "title": "Tanker Atlantic Asphalt Collision with Docked Riverboat American Heritage",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict",
+        "disaster",
+        "shipping"
+      ],
+      "why_it_matters": "On Friday at approximately 12:26 p.m. CST, the tanker Atlantic Asphalt experienced a mechanical steering failure while navigating upriver near the Crescent City Connection Bridge in New Orleans. The vessel's rudder remained locked in a right-turn position, causing the tanker to deviate from its course and impact the docked American Cruise Lines vessel American Heritage at 12:30 p.m. The force of the kinetic impact caused the riverboat to capsize onto its side. NTSB investigators have recovered audio data from the tanker confirming two minutes of warning whistles and emergency anchor deployment commands prior to the structural collision.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "ba21d1fb674546c9",
+      "related_watchlist_id": "watch-003",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-11-16T07:14:37.713Z"
+    },
+    {
+      "id": "impact-9bb5f2d3",
+      "title": "Estonia-Russia Border Closure Following Threod Systems Sabotage Attempt",
+      "severity": "high",
+      "status": "active",
+      "region": "Global",
+      "domains": [
+        "conflict"
+      ],
+      "why_it_matters": "Estonian authorities have ordered the closure of all border crossings with Russia effective December 1, following an interdicted sabotage attempt against Threod Systems, an Estonian manufacturer of long-range reconnaissance and attack drones. Eight individuals were detained by security forces on Saturday after attempting to ignite an explosive device at the facility. Estonian intelligence service Kapo has attributed the operation to the Russian GRU military intelligence agency, framing the border closure as a reactive security measure to mitigate further sabotage and suppress ongoing sanctions circumvention activities.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "9bb5f2d3a6ccec45",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-11-16T00:23:06.019Z"
+    },
+    {
+      "id": "impact-8feca57e",
+      "title": "Targeted Strike on Hamas Commander in Al-Mawasi Camp",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "conflict",
+        "instability"
+      ],
+      "why_it_matters": "The Israeli military conducted an airstrike against Samir Abu Younis, the commander of the Hamas Rafah Brigade, in the Al-Waha tent encampment within the Al-Mawasi humanitarian zone. The strike involved the deployment of four missiles, which resulted in the death of the commander and initiated a fire in the civilian-occupied tent sector. This action is part of the ongoing kinetic operations in the Gaza Strip.",
+      "evidence_summary": "2 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 2,
+      "related_cluster_id": "8feca57e44542888",
+      "related_watchlist_id": "watch-001",
+      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
+      "updated_at": "2026-11-16T07:14:37.713Z"
+    },
+    {
+      "id": "impact-afae5975",
+      "title": "Large-scale Civil Demonstrations in Prague Regarding Public Media Funding Restructuring",
+      "severity": "high",
+      "status": "active",
+      "region": "Middle East",
+      "domains": [
+        "instability"
+      ],
+      "why_it_matters": "Tens to hundreds of thousands of protesters gathered in Prague, Czech Republic, to oppose legislative proposals by the government of Prime Minister Andrej Babis to abolish mandatory television and radio licence fees in favor of direct state budget funding. The demonstration took place near the November 17 holiday, which commemorates the 1989 Velvet Revolution. The government maintains the policy is a cost-cutting measure, while critics state it undermines editorial independence by granting the executive branch financial leverage over broadcasters. The draft legislation has already passed a preliminary parliamentary vote.",
+      "evidence_summary": "3 source(s), low confidence.",
+      "confidence_label": "low",
+      "corroboration_level": "moderate",
+      "source_count": 3,
+      "related_cluster_id": "afae5975e05baf0c",
+      "related_watchlist_id": null,
+      "operator_hint": "Monitor social media feeds and local transit advisories for escalation signals.",
+      "updated_at": "2026-11-16T07:14:37.713Z"
     },
     {
       "id": "impact-0bf33c2b",
@@ -80,25 +178,6 @@
       "corroboration_level": "moderate",
       "source_count": 3,
       "related_cluster_id": "1e7aa44cb79371b7",
-      "related_watchlist_id": "watch-001",
-      "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
-      "updated_at": "2026-11-16T00:23:06.019Z"
-    },
-    {
-      "id": "impact-9bb5f2d3",
-      "title": "Estonia-Russia Border Closure Following Threod Systems Sabotage Attempt",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "conflict"
-      ],
-      "why_it_matters": "Estonian authorities have ordered the closure of all border crossings with Russia effective December 1, following an interdicted sabotage attempt against Threod Systems, an Estonian manufacturer of long-range reconnaissance and attack drones. Eight individuals were detained by security forces on Saturday after attempting to ignite an explosive device at the facility. Estonian intelligence service Kapo has attributed the operation to the Russian GRU military intelligence agency, framing the border closure as a reactive security measure to mitigate further sabotage and suppress ongoing sanctions circumvention activities.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "9bb5f2d3a6ccec45",
       "related_watchlist_id": "watch-001",
       "operator_hint": "Verify kinetic assets and deployment paths; cross-reference military feeds.",
       "updated_at": "2026-11-16T00:23:06.019Z"
@@ -3492,64 +3571,6 @@
       "related_watchlist_id": "watch-003",
       "operator_hint": "Check GDACS logs and local weather radar; ensure communication loops are active.",
       "updated_at": "2026-11-03T13:43:21.555Z"
-    },
-    {
-      "id": "impact-90420749",
-      "title": "New York State Measles Fatality and Southeast Asian Wildfire Smog Dispersion",
-      "severity": "medium",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "Two distinct physical events are occurring: a confirmed measles-related mortality of a minor in Lewis County, New York, following a three-decade absence of such cases; and the transboundary movement of aerosolized particulate matter from biomass wildfires in Indonesia across national borders into Singapore and Malaysia. In the New York case, biological transmission of the measles virus resulted in a fatality. In the Southeast Asian case, wind patterns are transporting toxic combustion byproducts into adjacent sovereign territories, inducing acute physiological respiratory distress among civilian populations.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "904207495a5d9b6ddc52ef457ea0d55b",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-11-03T13:43:21.555Z"
-    },
-    {
-      "id": "impact-66aca235",
-      "title": "Fatal Learjet 60 In-Flight Breakup and Crash in Florida",
-      "severity": "high",
-      "status": "active",
-      "region": "Global",
-      "domains": [
-        "shipping"
-      ],
-      "why_it_matters": "A Learjet 60 private aircraft traveling from Austin, Texas, to the Bahamas suffered a catastrophic in-flight breakup, nose-dived, and exploded upon impact on a public street nine miles from Mar-a-Lago in Florida, killing all nine occupants on board. The National Transportation Safety Board (NTSB) is actively investigating physical structural failure prior to impact alongside weather telemetry, including severe turbulence and atmospheric icing, following flight crew radio transmissions to air traffic control.",
-      "evidence_summary": "3 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 3,
-      "related_cluster_id": "66aca235c1083d236961f1a7d2b0673b",
-      "related_watchlist_id": null,
-      "operator_hint": "Check maritime transit logs (Suez/Strait of Hormuz) and shipping carrier bulletins.",
-      "updated_at": "2026-11-03T05:50:22.384Z"
-    },
-    {
-      "id": "impact-bc3a0a4b",
-      "title": "US Political Polarization and Congressional Candidate Public Association Analysis",
-      "severity": "high",
-      "status": "active",
-      "region": "Middle East",
-      "domains": [
-        "cybersecurity",
-        "shipping"
-      ],
-      "why_it_matters": "This event analysis involves two distinct political reporting streams regarding US Congressional figures. The first concerns former US Representative Jamaal Bowman discussing the ideological rift within the Democratic Party regarding foreign policy and campaign funding. The second concerns current Representative Ilhan Omar facing criticism from a political opponent, John Nagel, regarding her campaign association with an online media personality. No physical kinetic events, violence, or security breaches occurred; the content is purely political discourse and ideological commentary.",
-      "evidence_summary": "2 source(s), low confidence.",
-      "confidence_label": "low",
-      "corroboration_level": "moderate",
-      "source_count": 2,
-      "related_cluster_id": "bc3a0a4bef5be4e4cf2939cc042cec06",
-      "related_watchlist_id": "watch-002",
-      "operator_hint": "Alert security operations center (SOC); monitor threat intelligence vectors.",
-      "updated_at": "2026-11-02T07:29:11.630Z"
     }
   ]
 }
