@@ -1,5 +1,396 @@
 [
   {
+    "cluster_id": "b5390cf03ac883e6",
+    "topic_label": "Escalated Cross-Border Kinetic Strikes: Kerch Bridge, Energy Infrastructure, and Estonian Border Closure",
+    "event_window_start": "2026-11-16T14:22:36.000Z",
+    "event_window_end": "2026-11-16T18:15:50.000Z",
+    "article_ids": [
+      "art_1794855720501_vehyb",
+      "art_1794855722170_hj5at",
+      "art_1794855722848_dfxz2",
+      "art_1794855723402_1ga3n"
+    ],
+    "source_ids": [
+      "fox",
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-17T00:52:42.225Z",
+    "updated_at": "2026-11-17T00:52:42.225Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic / Infrastructure / Sabotage",
+    "synthesis": "The conflict has escalated to a high-intensity kinetic phase involving large-scale unmanned aerial system (UAS) saturation and long-range missile strikes. Ukraine launched a massive drone offensive—reportedly totaling over 2,000 units and Flamingo missiles—targeting the Kerch Bridge and Russian energy refineries. Simultaneously, Russia conducted a nationwide strike campaign against Ukrainian energy infrastructure, resulting in civilian fatalities and power losses for approximately 90,000 households. Furthermore, Estonia initiated a total closure of its Russian border following a physical arson attempt on a domestic drone manufacturing plant, attributing the sabotage to state-directed subversion.",
+    "consensus": [
+      "Ukraine launched a large-scale drone attack on the Kerch bridge and Russian industrial sites.",
+      "Russia intercepted/reported thousands of incoming drones and long-range missiles.",
+      "Russian strikes hit Ukrainian energy infrastructure, resulting in confirmed power outages and civilian deaths.",
+      "Estonia announced the closure of its Russian border effective December 1 following an arson attempt at a drone factory.",
+      "The suspects in the Estonian drone factory arson attempt are reported to be Latvian nationals."
+    ],
+    "divergence": [
+      "Fox highlights a trilateral summit context and a 'covert French military mission,' which are absent from other reports.",
+      "Al Jazeera centers the narrative on SpaceX/Starshield connectivity limitations impacting Ukrainian defensive capabilities, which is not mentioned in BBC or Fox reporting.",
+      "BBC provides specific telemetry (2,049 drones, 4 Flamingo missiles) while other sources focus on broader strategic impacts.",
+      "Fox labels the Russian drone offensive as the 'largest... of the war,' framing it specifically as a retaliatory action against Putin's bridge, whereas BBC attributes the massive scale to a 24-hour window of total escalation."
+    ],
+    "sources": [
+      {
+        "id": "art_1794855720501_vehyb",
+        "url": "https://www.foxnews.com/world/ukraine-hits-putins-prized-bridge-record-drone-blitz-kremlin-tells-lawmakers-prepare-victory",
+        "source": "fox",
+        "title": "Ukraine hits Putin's prized bridge in record drone blitz as Kremlin tells lawmakers to prepare for 'victory'"
+      },
+      {
+        "id": "art_1794855722170_hj5at",
+        "url": "https://www.aljazeera.com/news/2026/11/16/why-starshield-limits-are-hurting-ukraine-against-jet-powered-drones?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why Starshield limits are hurting Ukraine against jet-powered drones"
+      },
+      {
+        "id": "art_1794855722848_dfxz2",
+        "url": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war"
+      },
+      {
+        "id": "art_1794855723402_1ga3n",
+        "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Estonia to close Russia border crossings after attempted drone factory arson attack"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "94800219a8869919",
+    "topic_label": "US Military Deployment and Territorial Shifts in the Red Sea Theater",
+    "event_window_start": "2026-11-16T06:57:31.000Z",
+    "event_window_end": "2026-11-16T17:08:22.000Z",
+    "article_ids": [
+      "art_1794855721050_6xkei",
+      "art_1794855721587_hcakg",
+      "art_1794818000901_zg0l1",
+      "art_1794818002048_6u0bl",
+      "art_1794818004856_i0szj"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 5,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-17T00:52:42.225Z",
+    "updated_at": "2026-11-17T00:52:42.225Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Military Deployment / Maritime Territory Control",
+    "synthesis": "The United States has reinforced its maritime presence in the CENTCOM area of responsibility with the arrival of the USS Roosevelt aircraft carrier, bringing the total strike group count to three. Simultaneously, in the southern Red Sea, pro-government Yemeni forces have abandoned positions overlooking the Bab al-Mandab Strait, resulting in the Houthi movement establishing control over the key maritime corridor. These developments occur amidst sustained regional military posturing, concerns regarding Russian-provided geospatial intelligence supporting Iranian strike capabilities, and ongoing global trade disruption via the Bab al-Mandab bottleneck.",
+    "consensus": [
+      "The USS Roosevelt aircraft carrier strike group has entered the US CENTCOM area of responsibility.",
+      "The US now maintains three carrier strike groups in the CENTCOM region.",
+      "Pro-government Yemeni forces have withdrawn from positions overlooking the Bab al-Mandab Strait.",
+      "Houthi forces have gained control of territory previously held by pro-government troops near the maritime corridor."
+    ],
+    "divergence": [
+      "Fox/Fox-Politics frame the carrier deployment in the context of broader geopolitical posturing and speculative economic news regarding Nvidia.",
+      "BBC frames the territorial shift as a strategic redeployment of pro-government troops to Aden.",
+      "Al Jazeera frames the territorial shift as a failure of state institutions and focuses on the intersection of Russian intelligence and Iranian defensive capabilities rather than specific unit movements."
+    ],
+    "sources": [
+      {
+        "id": "art_1794855721050_6xkei",
+        "url": "https://www.foxnews.com/politics/third-us-aircraft-carrier-arrives-middle-east-iran-rules-out-un-nuclear-inspections",
+        "source": "fox",
+        "title": "Third US aircraft carrier arrives in Middle East as Iran rules out UN nuclear inspections"
+      },
+      {
+        "id": "art_1794855721587_hcakg",
+        "url": "https://www.foxnews.com/politics/third-us-aircraft-carrier-arrives-middle-east-iran-rules-out-un-nuclear-inspections",
+        "source": "fox-politics",
+        "title": "Third US aircraft carrier arrives in Middle East as Iran rules out UN nuclear inspections"
+      },
+      {
+        "id": "art_1794818000901_zg0l1",
+        "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway"
+      },
+      {
+        "id": "art_1794818002048_6u0bl",
+        "url": "https://www.aljazeera.com/opinions/2026/11/16/the-red-sea-cannot-be-secured-without-restoring-the-yemeni-state?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "The Red Sea cannot be secured without restoring the Yemeni state"
+      },
+      {
+        "id": "art_1794818004856_i0szj",
+        "url": "https://www.aljazeera.com/opinions/2026/11/16/how-russia-is-preparing-iran-for-the-next-escalation?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "How Russia is preparing Iran for the next escalation"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4fb2bc2b08461665",
+    "topic_label": "UK National Resilience and Blood Inventory Deficit",
+    "event_window_start": "2026-11-16T06:30:35.000Z",
+    "event_window_end": "2026-11-16T07:00:36.000Z",
+    "article_ids": [
+      "art_1794818004256_cvhim",
+      "art_1794818005933_8j0vp"
+    ],
+    "source_ids": [
+      "guardian"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-17T00:52:42.225Z",
+    "updated_at": "2026-11-17T00:52:42.225Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure / Public Health",
+    "synthesis": "The United Kingdom faces a dual-threat profile involving critical logistical shortfalls in the blood supply chain and systemic vulnerabilities in national infrastructure. NHS blood services report inventory levels at 50% of minimum requirement for critical blood types (O negative, B negative, O positive, RO), necessitating 5,000 daily donations through the end of the year. Concurrently, a parliamentary report by the Lords national resilience committee identifies that current national defense planning is insufficient against potential kinetic threats including undersea cable sabotage, cyber-attacks, and proxy-led violence, labeling current government state-preparedness efforts as complacent.",
+    "consensus": [
+      "NHS blood reserves for O negative, B negative, O positive, and RO types are at 50% of operational requirements.",
+      "Requirement of 5,000 blood donations daily until year-end.",
+      "Parliamentary report identifies systematic deficiencies in national resilience planning.",
+      "Governmental warnings issued regarding household-level preparedness for potential utility and supply chain disruption."
+    ],
+    "divergence": [
+      "The Guardian frames the blood shortage primarily as a seasonal demand issue, whereas the systemic resilience report highlights potential kinetic sabotage of undersea cables as a primary threat vector.",
+      "The Guardian omits the specific tactical failures of the government listed in the Lords committee report in favor of a broader 'complacency' narrative.",
+      "The reporting frames household survival preparations as a new government initiative ('Be Ready' campaign) rather than as a reaction to acute national security vulnerabilities."
+    ],
+    "sources": [
+      {
+        "id": "art_1794818004256_cvhim",
+        "url": "https://www.theguardian.com/society/2026/nov/16/uk-blood-services-urgent-appeal-donations-winter",
+        "source": "guardian",
+        "title": "UK blood services issue urgent appeal for donations as winter approaches"
+      },
+      {
+        "id": "art_1794818005933_8j0vp",
+        "url": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
+        "source": "guardian",
+        "title": "UK exposed to polycrisis of threats amid government ‘complacency’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "4b587295230204e7",
+    "topic_label": "Development of Counter-UAS Kinetic and Directed Energy Systems",
+    "event_window_start": "2026-11-16T14:15:00.000Z",
+    "event_window_end": "2026-11-16T18:03:38.000Z",
+    "article_ids": [
+      "art_1794855719309_j5exr",
+      "art_1794855719845_fvjd6",
+      "art_1794855724503_d4q2b"
+    ],
+    "source_ids": [
+      "defensenews"
+    ],
+    "article_count": 3,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-17T00:52:42.225Z",
+    "updated_at": "2026-11-17T00:52:42.225Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Defense Technology Procurement",
+    "synthesis": "Defense contractors are developing and testing anti-drone systems utilizing traditional ballistic projectiles and vehicle-mounted laser emitters to neutralize small unmanned aerial systems (UAS). These systems are designed to counter low-cost drones capable of delivering anti-personnel munitions. Simultaneously, aerospace and defense entities are integrating logistics capabilities into planned lunar base initiatives, indicating a shift toward military-industrial infrastructure in extraterrestrial environments.",
+    "consensus": [
+      "Defense contractors are engineering counter-UAS systems using kinetic ballistic fire.",
+      "Development of mobile truck-mounted laser weapons for drone interception is currently underway.",
+      "Defense companies are securing logistics contracts for proposed NASA lunar infrastructure projects."
+    ],
+    "divergence": [
+      "Defense News focuses exclusively on the industrial supply side, omitting specific geopolitical theaters where these counter-UAS systems are being deployed.",
+      "The reporting frames the lunar project as a corporate logistics expansion, omitting the strategic implications of militarized infrastructure on the lunar surface."
+    ],
+    "sources": [
+      {
+        "id": "art_1794855719309_j5exr",
+        "url": "https://www.defensenews.com/video/2026/11/16/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
+        "source": "defensenews",
+        "title": "New tools for troops to gun down drones | Defense News Weekly Full Episode 11.17.26"
+      },
+      {
+        "id": "art_1794855719845_fvjd6",
+        "url": "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/",
+        "source": "defensenews",
+        "title": "Drone, meet bullet — companies develop new counter UAS capability | Business of Defense – Part 3"
+      },
+      {
+        "id": "art_1794855724503_d4q2b",
+        "url": "https://www.defensenews.com/video/2026/11/16/defense-companies-on-the-moon-defense-dollars/",
+        "source": "defensenews",
+        "title": "Defense companies on the moon | Defense Dollars"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "1c16d6401308d3c7",
+    "topic_label": "Nvidia Executive Resignation and Corporate Governance Crisis",
+    "event_window_start": "2026-11-16T01:01:08.000Z",
+    "event_window_end": "2026-11-16T18:56:42.000Z",
+    "article_ids": [
+      "art_1794855725081_x6cbu",
+      "art_1794855729828_xk483",
+      "art_1794855731588_mda1b",
+      "art_1794792964589_vucpu",
+      "art_1794792967587_ergpw"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-17T00:52:42.225Z",
+    "updated_at": "2026-11-17T00:52:42.225Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "Infrastructure",
+    "synthesis": "Jensen Huang resigned as CEO of Nvidia following public disclosures of two extramarital affairs, one involving an individual alleged to be a Chinese intelligence asset and another involving a direct subordinate. The resignation has triggered a corporate governance crisis, characterized by a lobbyist campaign led by tech industry executives—including Elon Musk and Tim Sweeney—demanding his reinstatement. Concurrently, the US government is investigating export control delays regarding Nvidia hardware sales to Megaspeed, a Singaporean entity linked to the individual accused of espionage. Commerce Secretary Howard Lutnick is scheduled for Congressional testimony regarding the agency's failure to place Megaspeed on the US export blacklist.",
+    "consensus": [
+      "Jensen Huang resigned as CEO of Nvidia.",
+      "The resignation followed the disclosure of two extramarital affairs, one with a subordinate and one with an individual accused of being a Chinese spy.",
+      "A public petition for Huang's reinstatement has collected over 158,000 signatures.",
+      "US government officials are investigating the Commerce Department for slow-walking export restrictions on Nvidia chips to Megaspeed.",
+      "Megaspeed has publicly claimed it is a legitimate business and has launched an internal investigation.",
+      "Commerce Secretary Howard Lutnick is scheduled to testify before Congress."
+    ],
+    "divergence": [
+      "The BBC frames the event primarily through the lens of political support for the CEO's return, omitting the technical details regarding the export control investigations.",
+      "The Guardian provides more granular reporting on the geopolitical and regulatory risks, explicitly linking the CEO's resignation to the Commerce Department's potential failure to blacklist the Chinese-linked intermediary Megaspeed.",
+      "The Guardian reports the resignation occurred on a Thursday; other sources describe the timeline with less specificity regarding the exact day of departure."
+    ],
+    "sources": [
+      {
+        "id": "art_1794855725081_x6cbu",
+        "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched"
+      },
+      {
+        "id": "art_1794855729828_xk483",
+        "url": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+        "source": "guardian",
+        "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live"
+      },
+      {
+        "id": "art_1794855731588_mda1b",
+        "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+        "source": "guardian",
+        "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO"
+      },
+      {
+        "id": "art_1794792964589_vucpu",
+        "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang",
+        "source": "guardian",
+        "title": "Megaspeed, the company linked to the downfall of Nvidia boss, says it’s a ‘legitimate and lawful business’"
+      },
+      {
+        "id": "art_1794792967587_ergpw",
+        "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo",
+        "source": "guardian",
+        "title": "Elon Musk joins 158,000 others calling for Nvidia to bring back Jensen Huang in open letter"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "3b5d83fc2ea9813e",
+    "topic_label": "U.S. Attorney Legal Notice to Senator Warren Regarding Document Preservation",
+    "event_window_start": "2026-11-16T07:52:27.000Z",
+    "event_window_end": "2026-11-16T18:41:41.000Z",
+    "article_ids": [
+      "art_1794855728625_ljnev",
+      "art_1794855729166_sl1rj",
+      "art_1794817998587_5lvad",
+      "art_1794817999138_3qtg6"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-17T00:52:42.225Z",
+    "updated_at": "2026-11-17T00:52:42.225Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy / Unilateral Dispatch",
+    "synthesis": "U.S. Attorney for the Southern District of Texas, Aaron Reitz, issued a formal written communication to Senator Elizabeth Warren on Sunday. The correspondence constitutes a legal demand for the preservation of all records associated with forthcoming congressional investigations concerning allies of President-elect Donald Trump. The communication explicitly warns of potential legal consequences should the Senator fail to comply with these preservation mandates as she prepares to assume the chair of the Senate Banking Committee in January.",
+    "consensus": [
+      "U.S. Attorney Aaron Reitz sent a letter to Senator Elizabeth Warren.",
+      "The letter demands the preservation of records linked to planned investigations of allies of Donald Trump.",
+      "The letter warns of legal consequences for non-compliance.",
+      "Senator Warren is expected to chair the Senate Banking Committee in January."
+    ],
+    "divergence": [
+      "Unilateral exclusive dispatch via Fox News. Mainstream syndicates (BBC/Reuters/AP) have not published corresponding coverage in this 24h window; evaluate for exclusive access or narrative embargo.",
+      "The source report conflates the document preservation demand with unrelated commentary regarding Nvidia CEO Jensen Huang, which remains uncorroborated by primary legal filings."
+    ],
+    "sources": [
+      {
+        "id": "art_1794855728625_ljnev",
+        "url": "https://www.foxnews.com/politics/senate-dem-challenging-sen-chuck-schumer-leadership-post-backs-hakeem-jeffries-house-speaker",
+        "source": "fox",
+        "title": "Senate Dem challenging Sen Chuck Schumer for leadership post backs Hakeem Jeffries for House speaker"
+      },
+      {
+        "id": "art_1794855729166_sl1rj",
+        "url": "https://www.foxnews.com/politics/senate-dem-challenging-sen-chuck-schumer-leadership-post-backs-hakeem-jeffries-house-speaker",
+        "source": "fox-politics",
+        "title": "Senate Dem challenging Sen Chuck Schumer for leadership post backs Hakeem Jeffries for House speaker"
+      },
+      {
+        "id": "art_1794817998587_5lvad",
+        "url": "https://www.foxnews.com/politics/federal-prosecutor-warns-sen-warren-legal-consequences-records-arent-preserved-trump-linked-probes",
+        "source": "fox",
+        "title": "Federal prosecutor warns Sen Warren of 'legal consequences' if records aren't preserved in Trump-linked probes"
+      },
+      {
+        "id": "art_1794817999138_3qtg6",
+        "url": "https://www.foxnews.com/politics/federal-prosecutor-warns-sen-warren-legal-consequences-records-arent-preserved-trump-linked-probes",
+        "source": "fox-politics",
+        "title": "Federal prosecutor warns Sen Warren of 'legal consequences' if records aren't preserved in Trump-linked probes"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "9bb5f2d3a6ccec45",
     "topic_label": "Estonia-Russia Border Closure Following Threod Systems Sabotage Attempt",
     "event_window_start": "2026-11-15T20:31:18.000Z",
@@ -14492,405 +14883,6 @@
         "url": "https://www.bbc.co.uk/news/videos/cmy4x59kdknwo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "'I'm not a quitter': Kim Kardashian on retaking the bar exam"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9ceda240a9e7c580e33e312ca6fe6438",
-    "topic_label": "Coordinated Wave of False Bomb Threats Against Multiple European Passenger Flights",
-    "event_window_start": "2026-11-03T14:12:25.000Z",
-    "event_window_end": "2026-11-04T00:35:44.000Z",
-    "article_ids": [
-      "art_1793754294783_jz0fe",
-      "art_1793715493291_yr5oh"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-04T07:27:23.218Z",
-    "updated_at": "2026-11-04T07:27:23.218Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Aviation",
-    "synthesis": "An orchestrated series of hoax bomb threats targeted at least seven commercial passenger aircraft operating across European airspace, necessitating emergency security interventions including the tactical scrambling of Italian Air Force assets to intercept a Ryanair flight. The disruptions resulted in unscheduled groundings, temporary closure of Polish airport infrastructure, and manual security sweeps of aircraft arriving from multiple origin points including the UK, Denmark, and Israel. While no explosive materials were located and all aircraft ultimately completed their landings, the synchronized nature of the threats across diverse carriers and national jurisdictions constitutes a severe disruption to civil aviation security protocols and regional transport telemetry.",
-    "consensus": [
-      "A series of bomb threats were issued against multiple commercial flights across Europe.",
-      "No explosive devices were located on any of the targeted aircraft.",
-      "Multiple airlines including Ryanair, Wizz Air, Scandinavian Airlines, and LOT were impacted.",
-      "All affected aircraft landed safely following emergency security protocols.",
-      "The events occurred within a 48-hour timeframe involving multiple nations."
-    ],
-    "divergence": [
-      "Al Jazeera includes the targeting of an Israel-bound cruise ship in its scope of the event, while The Guardian focuses exclusively on the aviation-based threats.",
-      "The Guardian frames the event as part of a live, ongoing security situation that includes the arrival of foreign heads of state in Germany, which Al Jazeera omits.",
-      "Al Jazeera attributes the frequency of the incidents to a broader set of at least seven flights, whereas The Guardian lists specific origin points and timings to emphasize the sequential pattern."
-    ],
-    "sources": [
-      {
-        "id": "art_1793754294783_jz0fe",
-        "url": "https://www.aljazeera.com/news/2026/11/4/bomb-threats-disrupt-flights-across-europe-no-explosive-devices-found?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bomb threats disrupt flights across Europe, no explosive devices found"
-      },
-      {
-        "id": "art_1793715493291_yr5oh",
-        "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
-        "source": "guardian",
-        "title": "Four separate flights from London, Copenhagen, Manchester and Israel affected by bomb threats – Europe live"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8fe350f7631d8a60b2a3ed5beb0a8cdb",
-    "topic_label": "2026 United States Midterm Congressional Elections",
-    "event_window_start": "2026-11-03T14:13:51.000Z",
-    "event_window_end": "2026-11-04T00:59:17.000Z",
-    "article_ids": [
-      "art_1793754292504_l16zl",
-      "art_1793754293643_w1ct1",
-      "art_1793754295844_3hc3p",
-      "art_1793754297214_w2lme",
-      "art_1793754299383_i5yxg",
-      "art_1793754300499_912y6",
-      "art_1793754301543_sqmec",
-      "art_1793754302799_l61rq",
-      "art_1793715492090_4ha0c"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 9,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-04T07:27:23.218Z",
-    "updated_at": "2026-11-04T07:27:23.218Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Politics",
-    "synthesis": "The 2026 United States midterm elections are currently underway, involving the polling of citizens to determine the composition of the U.S. House of Representatives and various Senate seats. Notable confirmed outcomes include the re-election of Democratic Senators Jon Ossoff in Georgia and Mark Warner in Virginia. Concurrently, the U.S. Department of Justice has issued target letters to individuals, including attorney Marc Elias, as part of an investigation into allegations of electoral manipulation in Alaska. The legislative balance of power remains in flux with Democrats seeking to secure a majority in the House of Representatives.",
-    "consensus": [
-      "U.S. midterm elections for Congress are currently in progress.",
-      "Jon Ossoff has been re-elected to the U.S. Senate representing Georgia.",
-      "Mark Warner has been re-elected to the U.S. Senate representing Virginia.",
-      "The U.S. Department of Justice is actively investigating alleged irregularities in an Alaska Senate race.",
-      "Target letters have been issued by federal prosecutors to individuals including Marc Elias."
-    ],
-    "divergence": [
-      "The Guardian frames the midterm environment as a referendum on the Trump administration's performance, specifically citing stock trades and the conflict in Iran.",
-      "Al Jazeera focuses on the legal/criminal allegations regarding election interference in Alaska, characterizing the DOJ's actions as a political probe, while the Guardian omits these federal investigations entirely in its election coverage.",
-      "Al Jazeera reports on secondary political activities such as celebrity endorsements, which are absent from the Guardian's core reporting on the legislative results."
-    ],
-    "sources": [
-      {
-        "id": "art_1793754292504_l16zl",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-        "source": "guardian",
-        "title": "US midterm elections 2026 live updates: Ossoff and Warner win re-election as Democrats vie for Senate control"
-      },
-      {
-        "id": "art_1793754293643_w1ct1",
-        "url": "https://www.theguardian.com/us-news/2026/nov/03/jon-ossoff-mike-collins-georgia-senate",
-        "source": "guardian",
-        "title": "Jon Ossoff wins Georgia Senate race over Republican Mike Collins"
-      },
-      {
-        "id": "art_1793754295844_3hc3p",
-        "url": "https://www.aljazeera.com/news/2026/11/4/us-department-of-justice-expands-its-probe-into-alaskas-us-senate-election?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US Department of Justice expands its probe into Alaska’s US Senate election"
-      },
-      {
-        "id": "art_1793754297214_w2lme",
-        "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-house-midterm-elections-results",
-        "source": "guardian",
-        "title": "Democrats look poised to win House control in midterm elections after two turbulent years of Trump"
-      },
-      {
-        "id": "art_1793754299383_i5yxg",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/stevie-wonder-endorses-abdul-el-sayed?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Stevie Wonder endorses Abdul El-Sayed"
-      },
-      {
-        "id": "art_1793754300499_912y6",
-        "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-midterm-elections-results",
-        "source": "guardian",
-        "title": "Democrats aim to retake Senate from Republicans as Americans go to polls"
-      },
-      {
-        "id": "art_1793754301543_sqmec",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/ballot-scanner-glitch-disrupts-voting-in-new-york?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Ballot scanner glitch disrupts voting in New York"
-      },
-      {
-        "id": "art_1793754302799_l61rq",
-        "url": "https://www.theguardian.com/us-news/2026/nov/03/us-midterm-voting-problems",
-        "source": "guardian",
-        "title": "US midterm voting goes smoothly with only a handful of issues nationwide"
-      },
-      {
-        "id": "art_1793715492090_4ha0c",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-        "source": "guardian",
-        "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9af6aa7cb64b6f22eade49f0d91eee6b",
-    "topic_label": "US Military Strikes on Qeshm Island and Shift in Middle East Geopolitical Alliances",
-    "event_window_start": "2026-11-03T13:13:50.000Z",
-    "event_window_end": "2026-11-03T13:42:05.000Z",
-    "article_ids": [
-      "art_1793715502563_mcc53",
-      "art_1793715504756_6zt9y",
-      "art_1793715505813_ogezt",
-      "art_1793715507993_ixj58"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-04T07:27:23.218Z",
-    "updated_at": "2026-11-04T07:27:23.218Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Military",
-    "synthesis": "US forces executed kinetic strikes against Qeshm Island, Iran, triggering a series of destabilizing events across the region. This operation coincides with a public announcement by Donald Trump regarding the cessation of US financial aid to Israel by year-end and an Iranian military roadmap demand for the lifting of sanctions and withdrawal from regional hostilities. Concurrently, regional stability is being eroded by localized security threats, resulting in the indefinite postponement of the AFC Asian Cup 2027 in Saudi Arabia. China is actively exploiting this US-led instability to expand its diplomatic influence among Gulf states.",
-    "consensus": [
-      "US forces conducted military strikes on Qeshm Island.",
-      "The AFC Asian Cup 2027 has been postponed due to security concerns within Saudi Arabia.",
-      "Donald Trump stated that US funding to Israel will terminate by the end of the year.",
-      "Iran has issued a list of five security conditions including the lifting of sanctions and reparations."
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes the Iranian military's strategic demands and the Qeshm Island strikes, while omitting details regarding Chinese diplomatic maneuvers.",
-      "The Guardian focuses on Chinese diplomatic encroachment and the Apec conference, while omitting the specifics of the Qeshm Island kinetic strike and Iranian security conditions.",
-      "Al Jazeera frames the Saudi Pro League postponement as a scheduling matter, while acknowledging it follows 'recent attacks on the kingdom' without detailing the nature of those attacks."
-    ],
-    "sources": [
-      {
-        "id": "art_1793715502563_mcc53",
-        "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump says that US will stop paying Israel aid after year-end"
-      },
-      {
-        "id": "art_1793715504756_6zt9y",
-        "url": "https://www.aljazeera.com/news/2026/11/3/iran-commander-sets-out-five-conditions-for-regional-security?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran commander sets out five conditions for regional security"
-      },
-      {
-        "id": "art_1793715505813_ogezt",
-        "url": "https://www.aljazeera.com/sports/2026/11/3/saudi-pro-league-postpones-matches-after-asian-cup-rescheduling?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Saudi Pro League postpones matches after Asian Cup rescheduling"
-      },
-      {
-        "id": "art_1793715507993_ixj58",
-        "url": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
-        "source": "guardian",
-        "title": "Trump’s troubles with Iran could open the door to China"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "01d752890f8cdcfe0aae29760956330b",
-    "topic_label": "Reported Fire Risks at Palace of Westminster",
-    "event_window_start": "2026-11-03T13:34:10.000Z",
-    "event_window_end": "2026-11-04T00:01:18.000Z",
-    "article_ids": [
-      "art_1793754304938_h9mw6",
-      "art_1793715494456_w6kzj",
-      "art_1793715503705_vin8i"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-04T07:27:23.218Z",
-    "updated_at": "2026-11-04T07:27:23.218Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Infrastructure",
-    "synthesis": "The Palace of Westminster, a Grade I-listed heritage site, faces long-term structural and fire safety degradation due to deferred maintenance. A parliamentary committee report indicates that current infrastructure is insufficient to prevent catastrophic combustion events, with projected costs for full restoration reaching £40 billion over 60 years. Current maintenance expenditures are reaching £2 million weekly, necessitating continuous 24-hour patrols to mitigate the immediate physical risk of accidental ignition until permanent refurbishment is commissioned.",
-    "consensus": [
-      "The Palace of Westminster requires extensive restoration to address fire safety risks.",
-      "Restoration project timelines and costs have been subject to repeated delays and increases.",
-      "Current maintenance costs are reaching approximately £2 million per week."
-    ],
-    "divergence": [
-      "The Guardian frames the report as a political failure of MPs to tackle funding, while the report itself focuses on the objective physical deterioration of the structure.",
-      "There is an underlying narrative omission regarding which specific structural or electrical vulnerabilities constitute the 'Notre Dame-style' fire risk."
-    ],
-    "sources": [
-      {
-        "id": "art_1793754304938_h9mw6",
-        "url": "https://www.theguardian.com/uk-news/2026/nov/04/parliament-notre-dame-style-fire-renovation-costs",
-        "source": "guardian",
-        "title": "Houses of Parliament at risk of ‘Notre Dame-style fire’ as renovation costs rise"
-      },
-      {
-        "id": "art_1793715494456_w6kzj",
-        "url": "https://www.theguardian.com/politics/live/2026/nov/03/shabana-mahmood-migration-brexit-eu-labour-andy-burnham-kemi-badenoch-king-charles-commonwealth-uk-politics-latest-news",
-        "source": "guardian",
-        "title": "King gives speech to Commonwealth leaders as Burnham opens slavery apology talks – UK politics live"
-      },
-      {
-        "id": "art_1793715503705_vin8i",
-        "url": "https://www.theguardian.com/business/2026/nov/03/car-finance-barclays-bank-offer-payouts-loans",
-        "source": "guardian",
-        "title": "Car finance: Barclays becomes first big lender to offer payouts for mis-selling of loans"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "baf551519064e869a7fe0cd17d7d5ed9",
-    "topic_label": "Australian Public Sector Union Political Withdrawal and Snowy Hydro Executive Bonus Disbursement",
-    "event_window_start": "2026-11-03T14:00:44.000Z",
-    "event_window_end": "2026-11-03T14:00:46.000Z",
-    "article_ids": [
-      "art_1793715496740_tq1pv",
-      "art_1793715498181_eouca"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-04T07:27:23.218Z",
-    "updated_at": "2026-11-04T07:27:23.218Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Labor Relations and Corporate Governance",
-    "synthesis": "The Community and Public Sector Union (CPSU) has formally withdrawn support for the incumbent Victorian Labor government citing internal austerity measures involving job cuts and high expenditure on external consultants. Simultaneously, corporate reporting confirms that Snowy Hydro executives received $751,925 in performance-based bonuses, despite significant budgetary overruns on the Snowy Hydro 2.0 infrastructure project. These events represent shifts in domestic political labor support and internal fiscal distribution within state-run energy entities.",
-    "consensus": [
-      "The CPSU announced a withdrawal of support for the Victorian Labor Party ahead of the 28 November election.",
-      "Snowy Hydro executives received bonuses totaling $751,925 in the 2025-2026 financial year.",
-      "The Snowy Hydro 2.0 project has experienced substantial cost increases beyond initial estimates.",
-      "Snowy Hydro CEO Dennis Barnes did not accept a cash bonus."
-    ],
-    "divergence": [
-      "The Guardian frames the CPSU decision as a significant political fracture ('turning on Carroll government') while omitting the specific legislative or bureaucratic triggers for the job cuts.",
-      "The Guardian frames the Snowy Hydro bonus distribution in the context of project failure ('cost blowout'), highlighting the contrast between executive compensation and the 12x original project cost projection without detailing the performance metrics used by the board to justify the payouts."
-    ],
-    "sources": [
-      {
-        "id": "art_1793715496740_tq1pv",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/04/cpsu-public-servants-union-refuses-to-back-labor-at-victorian-election",
-        "source": "guardian",
-        "title": "Public service union refuses to back Labor at Victorian election, condemning job cuts and $1.2bn consultant spend"
-      },
-      {
-        "id": "art_1793715498181_eouca",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/04/snowy-hydro-20-executives-awarded-bonuses-totalling-751925-despite-cost-blowout",
-        "source": "guardian",
-        "title": "Snowy Hydro 2.0 executives awarded bonuses totalling $751,925 despite cost blowout"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3d5aeba78550e7f06ee599eeeff76ecc",
-    "topic_label": "Synchronized Bomb Threats Against Commercial Aviation Across Europe",
-    "event_window_start": "2026-11-03T14:00:46.000Z",
-    "event_window_end": "2026-11-03T14:13:51.000Z",
-    "article_ids": [
-      "art_1793715492090_4ha0c",
-      "art_1793715493291_yr5oh",
-      "art_1793715494456_w6kzj",
-      "art_1793715495582_zype3",
-      "art_1793715496740_tq1pv"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-03T20:30:50.651Z",
-    "updated_at": "2026-11-03T20:30:50.651Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Aviation",
-    "synthesis": "At least four commercial aircraft arriving in Poland, Bulgaria, and Spain from origins in the UK, Denmark, and Israel were subjected to coordinated bomb threats. These communications triggered emergency security protocols for each flight, resulting in diversions or forced landings for inspection by local security forces. While all aircraft landed without further kinetic impact, the high-frequency nature of these simultaneous threats against multiple international carriers constitutes a critical disruption of civilian airspace security.",
-    "consensus": [
-      "At least four commercial flights were targeted by bomb threats.",
-      "Affected flights were operating routes across Europe including departures from the UK, Denmark, and Israel.",
-      "All aircraft involved landed safely.",
-      "Security services are actively inspecting the aircraft."
-    ],
-    "divergence": [
-      "The Guardian frames the event as 'false bomb threats' and notes it as 'highly unusual', while minimizing the immediate impact by focusing on the safe landings and the broader context of other global political events.",
-      "The Guardian omits specific carrier flight numbers or details on the mechanism used to transmit the threats, preferring to categorize the event as a series of alerts rather than a deliberate, synchronized campaign of airborne disruption."
-    ],
-    "sources": [
-      {
-        "id": "art_1793715492090_4ha0c",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-        "source": "guardian",
-        "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda"
-      },
-      {
-        "id": "art_1793715493291_yr5oh",
-        "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
-        "source": "guardian",
-        "title": "Four separate flights from London, Copenhagen, Manchester and Israel affected by bomb threats – Europe live"
-      },
-      {
-        "id": "art_1793715494456_w6kzj",
-        "url": "https://www.theguardian.com/politics/live/2026/nov/03/shabana-mahmood-migration-brexit-eu-labour-andy-burnham-kemi-badenoch-king-charles-commonwealth-uk-politics-latest-news",
-        "source": "guardian",
-        "title": "King gives speech to Commonwealth leaders as Burnham opens slavery apology talks – UK politics live"
-      },
-      {
-        "id": "art_1793715495582_zype3",
-        "url": "https://www.aljazeera.com/sports/2026/11/3/who-is-goalkeeper-jesus-owono-and-will-he-be-punished-after-miguels-death?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Who is goalkeeper Jesus Owono and will he be punished after Miguel’s death?"
-      },
-      {
-        "id": "art_1793715496740_tq1pv",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/04/cpsu-public-servants-union-refuses-to-back-labor-at-victorian-election",
-        "source": "guardian",
-        "title": "Public service union refuses to back Labor at Victorian election, condemning job cuts and $1.2bn consultant spend"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
