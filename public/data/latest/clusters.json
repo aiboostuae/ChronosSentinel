@@ -1,5 +1,494 @@
 [
   {
+    "cluster_id": "6c5d71b4755317aa",
+    "topic_label": "Kinetic Strikes on Pivnichnyi Bridge and Kerch Strait Bridge Infrastructure",
+    "event_window_start": "2026-11-17T10:30:22.000Z",
+    "event_window_end": "2026-11-17T17:19:57.000Z",
+    "article_ids": [
+      "art_1794945312458_7cbb1",
+      "art_1794914436679_8bi57",
+      "art_1794914439131_1m6c4",
+      "art_1794914440994_nyuh2"
+    ],
+    "source_ids": [
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure / Ballistic",
+    "synthesis": "An escalating exchange of kinetic strikes against civilian and military infrastructure occurred between Russia and Ukraine. Russian forces executed a missile strike against the Pivnichnyi (Northern) Bridge in Kyiv, resulting in an eight-meter-wide crater and total closure to non-emergency traffic. Simultaneously, Ukrainian forces executed a multi-stage missile operation against the Kerch Strait Bridge, causing the collapse of a 227-meter road arch span into the Kerch Strait and damage to the adjacent railway span, effectively severing this logistical artery between Crimea and the Russian mainland.",
+    "consensus": [
+      "Russian missiles targeted and created an eight-meter crater at the Pivnichnyi Bridge in Kyiv, resulting in the closure of the crossing.",
+      "Ukrainian forces conducted an overnight missile attack on the Kerch Strait Bridge.",
+      "The Kerch Bridge sustained a 227-meter collapse of a road arch span and damage to the railway span.",
+      "The Kerch Bridge is currently non-operational for standard road and rail traffic.",
+      "Ukrainian President Zelenskyy confirmed the attack as a retaliatory operation for infrastructure strikes."
+    ],
+    "divergence": [
+      "The BBC emphasizes the civilian impact in Kyiv, framing the event as a response to 'scary' strikes, while the Guardian focuses primarily on the strategic and symbolic military impact of the Kerch Bridge destruction.",
+      "The Guardian explicitly identifies the weapon used in the Kerch strike as a 'Flamingo cruise missile', a specific hardware detail not mentioned in the BBC coverage.",
+      "BBC reports focus on multiple Kyiv bridges being targeted (Northern and Southern), whereas the Guardian coverage is heavily weighted toward the single kinetic event at the Kerch Bridge."
+    ],
+    "sources": [
+      {
+        "id": "art_1794945312458_7cbb1",
+        "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge"
+      },
+      {
+        "id": "art_1794914436679_8bi57",
+        "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates",
+        "source": "guardian",
+        "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea – Europe live"
+      },
+      {
+        "id": "art_1794914439131_1m6c4",
+        "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine"
+      },
+      {
+        "id": "art_1794914440994_nyuh2",
+        "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea",
+        "source": "guardian",
+        "title": "Ukraine critically damages Kerch bridge linking occupied Crimea with Russia"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "bb3515004199abe2",
+    "topic_label": "Iranian Drone Strike on US Outpost in Kuwait and Kinetic Escalation in Gulf",
+    "event_window_start": "2026-11-17T23:38:38.000Z",
+    "event_window_end": "2026-11-17T21:14:31.000Z",
+    "article_ids": [
+      "art_1794968315817_9r20i",
+      "art_1794968318063_fbib8"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic / Unilateral Dispatch",
+    "synthesis": "An Iranian one-way attack drone successfully bypassed air defense systems at a US military outpost near the Port of Shuaiba, Kuwait, resulting in the kinetic deaths of six US service members and multiple injuries. This strike occurred amidst broader theater-wide hostilities, including US ballistic/air strikes on Qeshm Island, Iran, and Iranian strikes targeting US radar installations in Bahrain. The event is characterized by a high-intensity exchange of drone and air-delivered munitions across regional military infrastructure.",
+    "consensus": [
+      "An Iranian one-way attack drone impacted a US military outpost in Kuwait.",
+      "Six US service members were killed in the drone strike.",
+      "US forces conducted airstrikes on Qeshm Island, Iran.",
+      "Iran conducted a drone strike targeting a US radar system in Bahrain.",
+      "Kuwaiti military confirmed air defense systems were engaged in active interception of hostile aerial targets."
+    ],
+    "divergence": [
+      "Unilateral exclusive dispatch via Al Jazeera regarding the 14-page whistleblower complaint filed with US Armed Services committees; mainstream syndicates (BBC/Reuters/AP) have not published corresponding coverage in this 24h window; evaluate for exclusive access or narrative embargo.",
+      "Al Jazeera's coverage emphasizes the internal US military negligence claim regarding the Port of Shuaiba vulnerability, whereas Iranian state media (IRNA) minimizes the impact of US counter-strikes on Qeshm Island by claiming zero infrastructure damage."
+    ],
+    "sources": [
+      {
+        "id": "art_1794968315817_9r20i",
+        "url": "https://www.aljazeera.com/news/2026/11/17/whistleblower-deadly-drone-strike-in-kuwait-couldve-been-avoided?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Whistleblower: Deadly drone strike in Kuwait could’ve been avoided"
+      },
+      {
+        "id": "art_1794968318063_fbib8",
+        "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d891fd9b704bd5be",
+    "topic_label": "UK Implements Sanctions on Israeli Entities and Identity Disclosure of Pro-Israel Social Media Operator",
+    "event_window_start": "2026-11-17T10:47:18.000Z",
+    "event_window_end": "2026-11-18T01:07:01.000Z",
+    "article_ids": [
+      "art_1794968327085_6pw7d",
+      "art_1794914435408_6gnan",
+      "art_1794914437923_iez59"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy / Information Operations",
+    "synthesis": "The UK government has formally implemented targeted sanctions against specific Israeli companies involved in West Bank settlement expansion and an activist group obstructing humanitarian aid to Gaza. Concurrently, an investigative report by Byline Times identified Benjamin Tait, a former US Foreign Service officer, as the operator of the 'Habibi UK' X account, which engaged in systematic digital targeting of critics of Israeli policy. These events represent a dual-track development in British foreign policy and information warfare oversight regarding the ongoing conflict.",
+    "consensus": [
+      "UK Foreign Secretary Ed Miliband announced sanctions against Israeli firms involved in West Bank construction.",
+      "The UK sanctioned a right-wing activist group alleged to have obstructed humanitarian aid into Gaza.",
+      "Byline Times investigative report identified Benjamin Tait, a 61-year-old former US Foreign Service officer, as the operator of the Habibi UK X account.",
+      "The Habibi UK account ceased activity following the publication of the investigation."
+    ],
+    "divergence": [
+      "Al Jazeera emphasizes the Board of Peace report on the potential collapse of the Gaza ceasefire, whereas The Guardian focuses on the specific legislative action of UK sanctions.",
+      "The Guardian frames the sanctions as a policy instrument to preserve a two-state solution, while Al Jazeera reports the event as a unilateral move to address settler-led obstruction.",
+      "The investigation into Habibi UK by Byline Times is reported by Al Jazeera as an expose of a state-aligned influence operation, while The Guardian makes no mention of this investigation in its reporting on UK sanctions."
+    ],
+    "sources": [
+      {
+        "id": "art_1794968327085_6pw7d",
+        "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Board of Peace warns Gaza ceasefire faces imminent collapse without action"
+      },
+      {
+        "id": "art_1794914435408_6gnan",
+        "url": "https://www.aljazeera.com/news/2026/11/17/who-is-behind-habibi-uk-an-x-account-that-targeted-critics-of-israel?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Who is behind Habibi UK, an X account that targeted critics of Israel?"
+      },
+      {
+        "id": "art_1794914437923_iez59",
+        "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
+        "source": "guardian",
+        "title": "Ed Miliband announces first sanctions on Israeli firms working in West Bank"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "889268c5ba349480",
+    "topic_label": "Diplomatic Summits and Concurrent Civil Unrest in Manila",
+    "event_window_start": "2026-11-17T11:00:39.000Z",
+    "event_window_end": "2026-11-18T01:33:05.000Z",
+    "article_ids": [
+      "art_1794968323642_jyw0u",
+      "art_1794945313049_fde0l",
+      "art_1794945314122_cl425",
+      "art_1794914430828_tajcd"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "defensenews",
+      "guardian"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy / Civil Unrest",
+    "synthesis": "U.S. President Donald Trump is engaged in a sequence of diplomatic summits involving regional leaders in China and the Philippines. In Shenzhen, China, discussions between the U.S., Russia, and China are scheduled to address potential nuclear stockpile reductions. Simultaneously, in Manila, Philippines, the arrival of the U.S. President for the ASEAN summit has triggered mass protests. Local authorities have physically suppressed these demonstrations through the arrest of approximately 300 individuals and the imposition of cordoned security zones in the capital.",
+    "consensus": [
+      "U.S. President Donald Trump is conducting scheduled meetings in Shenzhen, China, and Manila, Philippines.",
+      "A trilateral discussion involving the leaders of the U.S., China, and Russia is scheduled in Shenzhen.",
+      "Approximately 300 individuals have been arrested by Philippine authorities in Manila during demonstrations surrounding the ASEAN summit.",
+      "Australia and the Philippines signed a new Defense Cooperation Agreement on Nov. 15 to facilitate increased troop rotations and infrastructure development."
+    ],
+    "divergence": [
+      "Al Jazeera frames the China summit as a continuation of established diplomatic relations with a focus on AI, while Defense News characterizes the agenda as a specific push for nuclear stockpile reductions.",
+      "The Guardian focuses on the internal stability of the Philippines, highlighting the suppression of 10,000 potential protesters and the physical confrontation between police and demonstrators.",
+      "Defense News omits the civil unrest in Manila, choosing instead to focus exclusively on the technical military pact between Australia and the Philippines."
+    ],
+    "sources": [
+      {
+        "id": "art_1794968323642_jyw0u",
+        "url": "https://www.aljazeera.com/news/2026/11/18/what-is-trump-hoping-to-achieve-at-apec-meeting-in-china?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "What is Trump hoping to achieve at APEC meeting in China?"
+      },
+      {
+        "id": "art_1794945313049_fde0l",
+        "url": "https://www.defensenews.com/global/the-americas/2026/11/17/trump-seeks-nuclear-cuts-at-summit-with-putin-and-xi-but-prospects-are-low/",
+        "source": "defensenews",
+        "title": "Trump seeks nuclear cuts at summit with Putin and Xi, but prospects are low"
+      },
+      {
+        "id": "art_1794945314122_cl425",
+        "url": "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
+        "source": "defensenews",
+        "title": "New pact positions the Philippines as a defense hub for Australian troops"
+      },
+      {
+        "id": "art_1794914430828_tajcd",
+        "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines",
+        "source": "guardian",
+        "title": "Hundreds arrested in anti-Trump protests in Philippines amid anger over Iran war and AI pact"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "6b88630dd2aeb790",
+    "topic_label": "Arrest and Detainment of U.S. Army Lieutenant Colonel Brandon Tyner for Espionage",
+    "event_window_start": "2026-11-17T19:33:32.000Z",
+    "event_window_end": "2026-11-18T00:26:16.000Z",
+    "article_ids": [
+      "art_1794968316953_m3idx",
+      "art_1794968317509_kxr2n",
+      "art_1794945313588_5bpzx",
+      "art_1794945317793_kj3di"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-us",
+      "defensenews"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Espionage / Counterintelligence",
+    "synthesis": "U.S. Army Lieutenant Colonel Brandon Tyner was arrested on November 10 near Gloucester, England, by British counterterrorism police under the UK's National Security Act. He is accused of obtaining or disclosing classified information to a foreign intelligence service, specifically identified by British authorities as being linked to Russia. On Tuesday, custody of the officer was transferred to U.S. military authorities. Physical search operations are currently underway at two locations as part of the ongoing investigation into the security breach.",
+    "consensus": [
+      "U.S. Army Lt. Col. Brandon Tyner was arrested on November 10 in the vicinity of Gloucester, England.",
+      "The arrest was executed by British counterterrorism authorities citing the National Security Act.",
+      "Tyner is suspected of espionage and unauthorized disclosure of protected information.",
+      "Custody of the suspect was transferred to U.S. military authorities on Tuesday.",
+      "Two physical locations are currently being searched by investigators."
+    ],
+    "divergence": [
+      "Fox News frames the incident through the lens of 'insider threats' and national security risk.",
+      "The Kremlin has issued a denial regarding involvement, which is noted by Fox News but absent in broader technical reporting.",
+      "The sources provided include unrelated reports regarding Pentagon audit failures and personnel nominations, which represent distinct administrative events separate from the espionage case."
+    ],
+    "sources": [
+      {
+        "id": "art_1794968316953_m3idx",
+        "url": "https://www.foxnews.com/us/pentagon-detains-senior-us-army-officer-accused-spying-russians-after-uk-arrest",
+        "source": "fox",
+        "title": "Pentagon detains senior US Army officer accused of spying for Russians after UK arrest"
+      },
+      {
+        "id": "art_1794968317509_kxr2n",
+        "url": "https://www.foxnews.com/us/pentagon-detains-senior-us-army-officer-accused-spying-russians-after-uk-arrest",
+        "source": "fox-us",
+        "title": "Pentagon detains senior US Army officer accused of spying for Russians after UK arrest"
+      },
+      {
+        "id": "art_1794945313588_5bpzx",
+        "url": "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/",
+        "source": "defensenews",
+        "title": "Pentagon fails ninth straight audit despite progress in organizing finances"
+      },
+      {
+        "id": "art_1794945317793_kj3di",
+        "url": "https://www.defensenews.com/news/pentagon-congress/2026/11/17/laneve-formally-nominated-for-army-chief-of-staff-role/",
+        "source": "defensenews",
+        "title": "LaNeve formally nominated for Army chief of staff role"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dd57879cde5ee77f",
+    "topic_label": "Withdrawal of Heidi Overton FDA Nomination",
+    "event_window_start": "2026-11-17T10:30:03.000Z",
+    "event_window_end": "2026-11-18T01:30:40.000Z",
+    "article_ids": [
+      "art_1794968316392_bjsoa",
+      "art_1794968325883_gd8ej",
+      "art_1794968328158_449gp",
+      "art_1794945311131_lye9c",
+      "art_1794945311677_ug5xz",
+      "art_1794945315303_tfi0u",
+      "art_1794914431498_flgxz",
+      "art_1794914441595_pqica"
+    ],
+    "source_ids": [
+      "fox",
+      "guardian",
+      "fox-politics",
+      "aljazeera"
+    ],
+    "article_count": 8,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "The White House has officially rescinded the nomination of Dr. Heidi Overton for the position of Commissioner of the Food and Drug Administration. This administrative withdrawal occurred one day prior to a scheduled confirmation vote by the Senate health committee. Overton, a physician and political appointee within the Trump administration, faced bipartisan scrutiny during her September confirmation hearing regarding her professional independence and policy positions.",
+    "consensus": [
+      "White House officially withdrew the nomination of Heidi Overton for FDA Commissioner.",
+      "The withdrawal occurred one day before a scheduled Senate committee vote.",
+      "Overton had been nominated in August to succeed Marty Makary."
+    ],
+    "divergence": [
+      "The Guardian frames the withdrawal as a reaction to Overton's stance on abortion and her status as a Trump loyalist, focusing on bipartisan concerns.",
+      "Fox News emphasizes the timing relative to the Senate panel vote and includes contextual reporting on previous Senate confrontations, specifically naming Sen. Bernie Sanders."
+    ],
+    "sources": [
+      {
+        "id": "art_1794968316392_bjsoa",
+        "url": "https://www.foxnews.com/media/pentagon-sued-intercept-freedom-press-foundation-alleged-blacklist-news-outlets",
+        "source": "fox",
+        "title": "Pentagon sued by The Intercept, Freedom of the Press Foundation over alleged 'blacklist' of news outlets"
+      },
+      {
+        "id": "art_1794968325883_gd8ej",
+        "url": "https://www.theguardian.com/us-news/2026/nov/17/white-house-withdraws-heidi-overton-fda",
+        "source": "guardian",
+        "title": "White House withdraws nomination of Heidi Overton to lead FDA"
+      },
+      {
+        "id": "art_1794968328158_449gp",
+        "url": "https://www.foxnews.com/politics/white-house-pulls-trumps-fda-pick-heidi-overton-eve-senate-panel-vote",
+        "source": "fox",
+        "title": "White House pulls Trump’s FDA pick Heidi Overton on eve of Senate panel vote"
+      },
+      {
+        "id": "art_1794945311131_lye9c",
+        "url": "https://www.foxnews.com/politics/sherrill-commits-20-2m-deportation-defense-condemning-rutgers-border-patrol-speaker",
+        "source": "fox",
+        "title": "Sherrill commits $20.2M to deportation defense while condemning Rutgers over Border Patrol speaker"
+      },
+      {
+        "id": "art_1794945311677_ug5xz",
+        "url": "https://www.foxnews.com/politics/sherrill-commits-20-2m-deportation-defense-condemning-rutgers-border-patrol-speaker",
+        "source": "fox-politics",
+        "title": "Sherrill commits $20.2M to deportation defense while condemning Rutgers over Border Patrol speaker"
+      },
+      {
+        "id": "art_1794945315303_tfi0u",
+        "url": "https://www.aljazeera.com/news/2026/11/17/jeffries-shifts-strategy-amid-growing-democratic-divisions-in-us-house?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Jeffries shifts strategy amid growing Democratic divisions in US House"
+      },
+      {
+        "id": "art_1794914431498_flgxz",
+        "url": "https://www.theguardian.com/us-news/2026/nov/17/democrats-blue-wave-trump-ice-crackdown",
+        "source": "guardian",
+        "title": "What do Democrats’ sweeping midterm wins mean for Trump’s ICE crackdown?"
+      },
+      {
+        "id": "art_1794914441595_pqica",
+        "url": "https://www.foxnews.com/politics/schumer-boasts-early-advantage-senate-power-struggle-dem-rival-warns-against-coronation",
+        "source": "fox",
+        "title": "Schumer boasts early advantage in Senate power struggle as Dem rival warns against 'coronation'"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "dfe6bf6e77f7fb00",
+    "topic_label": "Multiple Unrelated Incident Reports: Drone Strike Lawsuit, Military Aircraft Sabotage, Violent Assault, Vehicular Homicide, and Religious Sect Raid",
+    "event_window_start": "2026-11-17T11:00:34.000Z",
+    "event_window_end": "2026-11-18T01:04:43.000Z",
+    "article_ids": [
+      "art_1794968315274_k9al0",
+      "art_1794968324166_q1asg",
+      "art_1794968324691_93has",
+      "art_1794968327630_t6ek9",
+      "art_1794945323594_2ge88",
+      "art_1794914432160_c33vz"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox",
+      "guardian"
+    ],
+    "article_count": 6,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-18T09:03:31.363Z",
+    "updated_at": "2026-11-18T09:03:31.363Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Multi-Incident Dispatch",
+    "synthesis": "This dispatch encompasses multiple kinetic and legal incidents: an Ecuadorian fishing vessel was destroyed by a U.S. drone strike in March; a C-130 military aircraft sustained catastrophic damage via axe-wielding sabotage at Shannon Airport; a Somali-American driver in Minnesota suffered life-threatening injuries from strangulation and vehicular impact; a fatal hit-and-run in Alaska resulted in the arrest and release on bond of a suspect; and UK authorities have initiated mass care proceedings for children following a raid on an Ahmadi Religion of Peace and Light compound involving allegations of sexual offenses and modern slavery.",
+    "consensus": [
+      "Ecuadorian fishermen have initiated a lawsuit against the U.S. government regarding a March 17 drone strike on the vessel La Negra Francisca Duarte II.",
+      "Daithi O’Corrain has been indicted for the destruction of a U.S. C-130 aircraft at Shannon Airport.",
+      "Samit Apurva Patel is charged with second-degree attempted murder and first-degree carjacking in Minnesota.",
+      "Jack Sabàto has been released on $5,000 bond following an arrest for a fatal hit-and-run in Alaska.",
+      "Over 40 family court cases have been initiated involving children removed from an Ahmadi Religion of Peace and Light compound following an April police raid."
+    ],
+    "divergence": [
+      "Aljazeera frames the fishing vessel sinking as a 'drone strike' while omitting the specific U.S. government rationale for the counter-narcotics operation.",
+      "Aljazeera frames the Irish airport incident as 'protest/resistance,' while legal filings characterize the action as criminal destruction of military property.",
+      "The Guardian focuses on the procedural status of children in family court, while using descriptive language regarding the sect's internal structure compared to police allegations of serious sexual offenses and modern slavery.",
+      "Fox News frames the Alaska incident through celebrity parentage, while the core event is a standard vehicular fatality and subsequent judicial bond release."
+    ],
+    "sources": [
+      {
+        "id": "art_1794968315274_k9al0",
+        "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ecuadorian fishermen sue Trump administration over drone strike"
+      },
+      {
+        "id": "art_1794968324166_q1asg",
+        "url": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Prosecutors allege man ‘destroyed’ US military plane at Irish airport"
+      },
+      {
+        "id": "art_1794968324691_93has",
+        "url": "https://www.aljazeera.com/news/2026/11/18/man-charged-over-brutal-attack-on-somali-american-in-minnesota?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Man charged over ‘brutal attack’ on Somali-American in Minnesota"
+      },
+      {
+        "id": "art_1794968327630_t6ek9",
+        "url": "https://www.foxnews.com/entertainment/antonio-sabato-jr-virginia-madsens-son-bails-himself-out-jail-after-fatal-hit-and-run-alaska",
+        "source": "fox",
+        "title": "Antonio Sabàto Jr and Virginia Madsen’s son bails himself out of jail after fatal hit-and-run in Alaska"
+      },
+      {
+        "id": "art_1794945323594_2ge88",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/17/ahmadi-religion-of-peace-and-light-aropl-children-care-family-courts",
+        "source": "guardian",
+        "title": "Children linked to religious sect raided by UK police now subject of care proceedings"
+      },
+      {
+        "id": "art_1794914432160_c33vz",
+        "url": "https://www.theguardian.com/us-news/2026/nov/17/new-orleans-police-homeless-man-death",
+        "source": "guardian",
+        "title": "New Orleans police arrest teen over beating death of homeless man ‘unable to defend himself’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "893ca2c6a708cf61",
     "topic_label": "Kinetic Strikes on Kerch Bridge and Kyiv Dnipro River Crossings",
     "event_window_start": "2026-11-17T10:30:22.000Z",
@@ -14471,455 +14960,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_us-election-deals-a-blow-to-warmongers-051126?traffic_source=rss",
         "source": "aljazeera",
         "title": "Bishara: US election deals a blow to warmongers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a86564ff2f028bf6",
-    "topic_label": "Coordinated Serial Bomb Threats Against European Commercial Aviation",
-    "event_window_start": "2026-11-05T17:32:56.000Z",
-    "event_window_end": "2026-11-05T17:37:36.000Z",
-    "article_ids": [
-      "art_1793901241023_17q4g",
-      "art_1793901242349_9qo8c"
-    ],
-    "source_ids": [
-      "guardian"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T23:00:44.204Z",
-    "updated_at": "2026-11-05T23:00:44.204Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Aviation / Terrorism",
-    "synthesis": "Between Monday and Thursday, a series of at least 25 commercial flights across Europe were subjected to bomb threats, resulting in multiple emergency diversions and forced landings. These events involve anonymous threats targeting specific air carriers, including Ryanair, Aer Lingus, Wizz Air, and Finnair, across a broad geographic range spanning the UK, Ireland, Italy, Spain, Bulgaria, Poland, and Finland. While authorities currently categorize the threats as hoaxes, the scale and frequency of these simultaneous disruptions constitute an active kinetic interference with European civil aviation infrastructure, necessitating emergency transponder responses and ground security interventions.",
-    "consensus": [
-      "At least 25 commercial flights received bomb threats on Thursday.",
-      "Flights were forced to divert or make emergency landings in various European locations.",
-      "Multiple airlines including Ryanair, Aer Lingus, Wizz Air, and Finnair are confirmed targets.",
-      "This follows a pattern of similar alerts on Monday and Tuesday affecting at least seven other planes.",
-      "Relevant European aviation authorities and law enforcement are currently investigating the origins of the threats."
-    ],
-    "divergence": [
-      "The Guardian frames the event within the narrative of 'hybrid war fears' to suggest potential state-actor involvement, which is not currently verified by physical evidence.",
-      "The Guardian omits specific identifying information for some flight paths and passenger counts, focusing primarily on the disruption of airline operations rather than the specific telemetry of the emergency maneuvers."
-    ],
-    "sources": [
-      {
-        "id": "art_1793901241023_17q4g",
-        "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live"
-      },
-      {
-        "id": "art_1793901242349_9qo8c",
-        "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-        "source": "guardian",
-        "title": "Bomb threats disrupt at least 22 flights across Europe, raising hybrid war fears"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "9c869e62a0a9c278",
-    "topic_label": "National Civil Unrest and General Strike Action in France",
-    "event_window_start": "2026-11-05T15:43:15.000Z",
-    "event_window_end": "2026-11-05T17:21:45.000Z",
-    "article_ids": [
-      "art_1793901235392_vbrpx",
-      "art_1793901236222_2n42n"
-    ],
-    "source_ids": [
-      "guardian",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T23:00:44.204Z",
-    "updated_at": "2026-11-05T23:00:44.204Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Civil Unrest",
-    "synthesis": "A national general strike and coordinated street demonstrations occurred across France, involving hundreds of thousands of participants from labor unions, student groups, and civil protest movements. The French government deployed 70,000 police officers to monitor the demonstrations. Kinetic intervention occurred in Bordeaux and Lyon, where riot police deployed tear gas against demonstrators. The demonstrations centered on demands related to cost of living and public service resource allocation.",
-    "consensus": [
-      "General strike and coordinated demonstrations took place across multiple French cities.",
-      "The French government deployed 70,000 police officers.",
-      "Participants included labor unions, high school students, university students, and members of the 'yellow-vest' movement.",
-      "Riot police utilized tear gas against demonstrators in Bordeaux and Lyon."
-    ],
-    "divergence": [
-      "The Guardian reports at least 600,000 participants based on government estimates, while the CGT union claims 1.6 million.",
-      "The BBC emphasizes the role of the CGT union leadership and the trajectory of the movement since September, while The Guardian focuses on the strike impact on specific sectors like rail and hospitals.",
-      "The Guardian explicitly identifies the deployment of riot police for crowd control and the prevention of demonstrations in Paris, whereas the BBC frames the events primarily through union leadership statements."
-    ],
-    "sources": [
-      {
-        "id": "art_1793901235392_vbrpx",
-        "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
-        "source": "guardian",
-        "title": "Protesters join street demonstrations across France on day of strike action"
-      },
-      {
-        "id": "art_1793901236222_2n42n",
-        "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "France holds new strikes and protests as unions demand immediate answers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1083c40f00a8a79e",
-    "topic_label": "2026 US Midterm Election Outcome and Subsequent Federal Personnel Changes",
-    "event_window_start": "2026-11-05T16:48:53.000Z",
-    "event_window_end": "2026-11-05T12:54:03.000Z",
-    "article_ids": [
-      "art_1793901238384_gcaat",
-      "art_1793901244315_kir4g",
-      "art_1793901245004_j1rjh",
-      "art_1793901248937_pvsyk",
-      "art_1793901251889_2rrdv"
-    ],
-    "source_ids": [
-      "fox-politics",
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 5,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T23:00:44.204Z",
-    "updated_at": "2026-11-05T23:00:44.204Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Political / Institutional",
-    "synthesis": "Following the 2026 US midterm elections, the Democratic Party has secured a majority in the House of Representatives, currently holding 247 seats. This outcome has triggered immediate institutional shifts, including the resignation of Assistant Attorney General Harmeet Dhillon, head of the Civil Rights Division. Concurrently, regional legislative activity persists, specifically the passage of Washington State Initiative 638, which mandates biological sex verification for participation in female scholastic athletics. The broader political climate is characterized by significant partisan realignment and internal party friction following the shift in legislative control.",
-    "consensus": [
-      "The Democratic Party has achieved a majority in the US House of Representatives.",
-      "Assistant Attorney General Harmeet Dhillon has resigned from the Department of Justice.",
-      "Washington State voters passed Initiative 638, requiring biological sex verification for girls' scholastic sports participation.",
-      "The Democratic Party holds at least 247 seats in the House of Representatives as of the latest reporting."
-    ],
-    "divergence": [
-      "Fox News frames the election results as a 'category-five political hurricane' while emphasizing Republican AG strategies as a 'last line of defense'.",
-      "The Guardian characterizes the election result as a 'historic Republican defeat' and highlights the resignation of Dhillon as a consequence of this shift.",
-      "Al Jazeera frames the election outcome explicitly as a 'blow to warmongers' and a public rejection of current US foreign policy regarding the Middle East.",
-      "Reporting on Initiative 638 varies significantly: The Guardian emphasizes potential 'invasive genital exams' as a consequence, while neutral reporting confirms the requirement for healthcare provider verification of biological sex."
-    ],
-    "sources": [
-      {
-        "id": "art_1793901238384_gcaat",
-        "url": "https://www.foxnews.com/politics/gop-ags-hail-outperforming-party-cast-last-line-defense-dems-cat-5-hurricane-takeover",
-        "source": "fox-politics",
-        "title": "Republican AGs stand ready as 'last line of defense' against leftist policies after dismal midterms for party"
-      },
-      {
-        "id": "art_1793901244315_kir4g",
-        "url": "https://www.theguardian.com/us-news/2026/nov/05/harmeet-dhillon-doj-resignation",
-        "source": "guardian",
-        "title": "Harmeet Dhillon, controversial head of DoJ’s civil rights division, reportedly steps down"
-      },
-      {
-        "id": "art_1793901245004_j1rjh",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
-        "source": "guardian",
-        "title": "US elections 2026 live: Republicans blast their party’s midterms collapse, blaming Iran war and affordability crisis"
-      },
-      {
-        "id": "art_1793901248937_pvsyk",
-        "url": "https://www.theguardian.com/us-news/2026/nov/05/washington-ballot-measure-trans-athlete-ban",
-        "source": "guardian",
-        "title": "Washington state passes ballot measure banning trans girls from school sports"
-      },
-      {
-        "id": "art_1793901251889_2rrdv",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_us-election-deals-a-blow-to-warmongers-051126?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Bishara: US election deals a blow to warmongers"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "04c732c6deed4541",
-    "topic_label": "Fielding of IWI Arbel Automated Fire Control Systems in Thailand",
-    "event_window_start": "2026-11-05T00:05:50.000Z",
-    "event_window_end": "2026-11-05T14:00:00.000Z",
-    "article_ids": [
-      "art_1793901234653_xi4fs",
-      "art_1793901239690_0bjys"
-    ],
-    "source_ids": [
-      "defensenews",
-      "fox-us"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T23:00:44.204Z",
-    "updated_at": "2026-11-05T23:00:44.204Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Defense Technology Deployment",
-    "synthesis": "The Thai Ministry of Defence has formally integrated the IWI Arbel system, a computerized rifle trigger mechanism, into its infantry equipment for the kinetic engagement of small unmanned aerial systems (sUAS). Unlike electronic jamming or directed energy platforms, the Arbel system utilizes automated fire control algorithms to enhance projectile hit probability against low-altitude drone targets. This represents a shift in counter-sUAS doctrine from wide-spectrum signal interference to direct ballistic neutralization via augmented human-in-the-loop fire control.",
-    "consensus": [
-      "The Thai Ministry of Defence has begun operational fielding of the IWI Arbel system.",
-      "The Arbel system is a computerized trigger mechanism designed for kinetic interception of small drones.",
-      "IWI claims the system provides a cost-effective alternative to lasers or high-powered electronic warfare countermeasures."
-    ],
-    "divergence": [
-      "DefenseNews frames the event as a commercial endorsement and operational validation of IWI hardware.",
-      "Fox-US coverage is unrelated to the Thailand deployment and focuses on speculative risks regarding European grocery refrigeration cyberattacks, which are categorized as 'psychological warfare'.",
-      "The sources cover entirely distinct events and sectors (kinetic military hardware versus speculative cyber-infrastructure vulnerability)."
-    ],
-    "sources": [
-      {
-        "id": "art_1793901234653_xi4fs",
-        "url": "https://www.defensenews.com/news/2026/11/05/israeli-defense-company-says-this-trigger-is-programmed-to-shoot-drones/",
-        "source": "defensenews",
-        "title": "Israeli defense company says this trigger is programmed to shoot drones"
-      },
-      {
-        "id": "art_1793901239690_0bjys",
-        "url": "https://www.foxnews.com/us/grocery-store-cyberattacks-psychological-warfare-could-strike-us-former-fbi-agent-warns",
-        "source": "fox-us",
-        "title": "Grocery store cyberattacks are ‘psychological warfare’ that could strike US, former FBI agent warns"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "05d150acb38174fd",
-    "topic_label": "Multinational Geopolitical Instability and Military Infrastructure Impairment",
-    "event_window_start": "2026-11-04T20:25:50.000Z",
-    "event_window_end": "2026-11-04T17:38:06.000Z",
-    "article_ids": [
-      "art_1793829482458_gdkwq",
-      "art_1793829485644_3nfnw",
-      "art_1793829493909_numr3"
-    ],
-    "source_ids": [
-      "defensenews",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T17:20:46.839Z",
-    "updated_at": "2026-11-05T17:20:46.839Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Military Infrastructure / Humanitarian Crisis",
-    "synthesis": "Current geopolitical status involves systemic kinetic and logistical instability across three theaters. In the United States, Hurricane Helene induced a flood event in 2024 that compromised the physical integrity of the Radford Army Ammunition Plant in Virginia, resulting in the breach of storage containers and the release of toxic chemicals (dibutyl phthalate) into the environment. Concurrently, in the Gaza theater, ongoing military operations have necessitated 1,134 pediatric limb amputations, with current administrative restrictions on border transit and medical evacuation preventing 2,300 assessed amputees from accessing requisite prosthetic hardware. Diplomatic channels between the United States and Iran are characterized by heightened mutual threat rhetoric regarding potential ballistic or kinetic escalation following domestic electoral shifts in the U.S.",
-    "consensus": [
-      "Hurricane Helene caused flooding at the Radford Army Ammunition Plant, breaching storage units containing chemical propellant precursors.",
-      "Data indicates 1,134 pediatric amputations occurred in Gaza as a result of kinetic military engagements.",
-      "Fewer than 25 percent of assessed amputees in the Gaza theater have received prosthetic hardware since September 2024.",
-      "Official verbal warnings of offensive military actions have been issued by the U.S. executive and Iranian leadership."
-    ],
-    "divergence": [
-      "Defensenews frames the Radford event as a failure of domestic disaster preparation and military environmental risk management.",
-      "Al Jazeera frames the Gaza medical situation as a direct result of intentional administrative restrictions and state-level policy on civilian movement.",
-      "Al Jazeera frames U.S.-Iran relations through the lens of electoral political fallout, whereas the Pentagon-adjacent source treats the Iran theater as an ongoing state of war requiring munitions replenishment."
-    ],
-    "sources": [
-      {
-        "id": "art_1793829482458_gdkwq",
-        "url": "https://www.defensenews.com/pentagon/2026/11/04/the-pentagon-needs-more-ammo-for-the-iran-war-small-communities-are-paying-the-price/",
-        "source": "defensenews",
-        "title": "The Pentagon needs more ammo for the Iran war. Small communities are paying the price."
-      },
-      {
-        "id": "art_1793829485644_3nfnw",
-        "url": "https://www.aljazeera.com/news/2026/11/4/israel-restricting-treatment-for-1100-child-amputees-in-gaza-ngo?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel restricting treatment for 1,100 child amputees in Gaza: NGO"
-      },
-      {
-        "id": "art_1793829493909_numr3",
-        "url": "https://www.aljazeera.com/video/inside-story/2026/11/4/will-the-us-resume-its-attacks-on-iran?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will the US resume its attacks on Iran?"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "27b4a0e725d77a2c",
-    "topic_label": "USAF Middle East Infrastructure Remediation Initiative",
-    "event_window_start": "2026-11-04T18:27:06.000Z",
-    "event_window_end": "2026-11-04T20:16:52.000Z",
-    "article_ids": [
-      "art_1793829480660_3q71n",
-      "art_1793829481896_z70an"
-    ],
-    "source_ids": [
-      "defensenews"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T17:20:46.839Z",
-    "updated_at": "2026-11-05T17:20:46.839Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure / Military Preparedness",
-    "synthesis": "The United States Air Force is soliciting mobile 3D concrete printing technology to replace temporary shelters at Middle Eastern military installations that sustained physical damage during Iranian bombardment. The initiative aims to transition personnel from vulnerable structures like tents and trailers to hardened, rapidly constructed concrete facilities in response to an identified threat of aerial strikes. The current effort is categorized as a procurement solicitation with a closing date of January 2027.",
-    "consensus": [
-      "The USAF is soliciting mobile 3D concrete printing technology for military base infrastructure.",
-      "US bases in the Middle East have sustained physical damage from Iranian bombardment.",
-      "The USAF intends to replace temporary structures like tents and trailers with hardened concrete buildings.",
-      "The USAF has previously utilized 3D concrete printing at Tyndall Air Force Base, Florida, in 2023."
-    ],
-    "divergence": [
-      "Defense News Weekly mentions the broader context of defense industry innovation, whereas the specific Defense News article focuses exclusively on the procurement solicitation for Middle Eastern infrastructure.",
-      "The primary source article explicitly links infrastructure procurement to the kinetic failure of existing shelters under Iranian bombardment, a detail omitted in the broader industry summary."
-    ],
-    "sources": [
-      {
-        "id": "art_1793829480660_3q71n",
-        "url": "https://www.defensenews.com/global/mideast-africa/2026/11/04/under-threat-of-air-strikes-us-looks-to-bolster-base-infrastructure-with-3d-printing/",
-        "source": "defensenews",
-        "title": "Under threat of air strikes, US looks to bolster base infrastructure with 3D printing"
-      },
-      {
-        "id": "art_1793829481896_z70an",
-        "url": "https://www.defensenews.com/video/2026/11/04/rise-of-the-defense-industry-innovators-defense-news-weekly-full-episode-11-3-26/",
-        "source": "defensenews",
-        "title": "Rise of the defense industry innovators | Defense News Weekly Full Episode 11.3.26"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3d7fecdd05d74476",
-    "topic_label": "2026 US Congressional Midterm Election Results and Political Realignments",
-    "event_window_start": "2026-11-04T20:29:09.000Z",
-    "event_window_end": "2026-11-04T21:37:02.000Z",
-    "article_ids": [
-      "art_1793829484535_yseux",
-      "art_1793829485089_1vb7v",
-      "art_1793829487455_2xazc",
-      "art_1793829488111_uel18",
-      "art_1793829490510_1j20b",
-      "art_1793829491030_8rgfh",
-      "art_1793829491558_d85ha",
-      "art_1793829492085_dw96n",
-      "art_1793829492612_a6b6c",
-      "art_1793829493270_y7117"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "fox-politics",
-      "fox"
-    ],
-    "article_count": 10,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-05T17:20:46.839Z",
-    "updated_at": "2026-11-05T17:20:46.839Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Political / Governance",
-    "synthesis": "The 2026 US midterm elections resulted in a shift of legislative power to the Democratic Party, which secured control of both the US House of Representatives and the Senate. Key physical outcomes include the loss of Republican congressional majorities, the displacement of incumbent Republican representatives such as David Valadao in California, and ongoing ballot counts in Mississippi and Alaska. In the immediate aftermath, Vice President JD Vance has initiated internal political maneuvers to form a separate coalition of voters, signaling a breakdown in the unified messaging strategy of the current administration.",
-    "consensus": [
-      "Democrats secured control of both the US House of Representatives and the Senate.",
-      "Hakeem Jeffries is designated as the incoming House Speaker.",
-      "Chuck Schumer is designated as the incoming Senate Majority Leader.",
-      "Randy Villegas defeated incumbent Republican David Valadao in California's 22nd congressional district.",
-      "Senate races in Mississippi and Alaska remain uncalled with active ballot counting."
-    ],
-    "divergence": [
-      "Fox News Digital reports an exclusive development regarding JD Vance's attempt to form a 'new right' alliance and a split from President Trump on foreign policy, which is not corroborated by the Guardian or Al Jazeera coverage.",
-      "The Guardian frames the Mississippi and Alaska races as 'nail-biting' and 'fierce', whereas Al Jazeera focuses exclusively on the broader national narrative of a 'sweeping' and 'resounding' Democratic takeover.",
-      "Al Jazeera includes explicit mention of Trump blaming the 'Iran war' for losses, a claim not cited by the Guardian or Fox News in this context."
-    ],
-    "sources": [
-      {
-        "id": "art_1793829484535_yseux",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-        "source": "guardian",
-        "title": "US midterm elections 2026 live: Democrats hope for more wins in tight races as Trump downplays his role in blue wave"
-      },
-      {
-        "id": "art_1793829485089_1vb7v",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/social-media-reacts-to-democrats-takeover-of-us-congress?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Social media reacts to Democrats’ takeover of US Congress"
-      },
-      {
-        "id": "art_1793829487455_2xazc",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Democrat leaders hail midterm election success"
-      },
-      {
-        "id": "art_1793829488111_uel18",
-        "url": "https://www.foxnews.com/politics/vance-courting-disgruntled-trump-voters-form-new-right-alliance-republican-bloodbath",
-        "source": "fox-politics",
-        "title": "Vance courting disgruntled Trump voters to form ‘new right’ alliance after Republican bloodbath, sources say"
-      },
-      {
-        "id": "art_1793829490510_1j20b",
-        "url": "https://www.theguardian.com/us-news/2026/nov/04/california-22nd-district-house-midterms",
-        "source": "guardian",
-        "title": "California progressive Randy Villegas ousts longtime Republican in redrawn House district"
-      },
-      {
-        "id": "art_1793829491030_8rgfh",
-        "url": "https://www.theguardian.com/us-news/2026/nov/04/trump-ballroom-midterms-reaction",
-        "source": "guardian",
-        "title": "Trump boasts about ‘magnificent’ ballroom day after Republican rout"
-      },
-      {
-        "id": "art_1793829491558_d85ha",
-        "url": "https://www.foxnews.com/politics/fox-news-norc-study-voters-look-2028-focused-economy",
-        "source": "fox",
-        "title": "Fox News/NORC Study: Voters look to 2028 focused on the economy"
-      },
-      {
-        "id": "art_1793829492085_dw96n",
-        "url": "https://www.foxnews.com/politics/fox-news-norc-study-voters-look-2028-focused-economy",
-        "source": "fox-politics",
-        "title": "Fox News/NORC Study: Voters look to 2028 focused on the economy"
-      },
-      {
-        "id": "art_1793829492612_a6b6c",
-        "url": "https://www.foxnews.com/media/whoopi-goldberg-warns-democrats-take-care-business-after-midterm-wins",
-        "source": "fox",
-        "title": "Whoopi Goldberg warns Democrats to 'take care of business' after midterm wins"
-      },
-      {
-        "id": "art_1793829493270_y7117",
-        "url": "https://www.theguardian.com/us-news/2026/nov/04/trump-wealth-midterm-elections",
-        "source": "guardian",
-        "title": "Trump’s wealth dented after Democrats trounce Republicans in midterms"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
