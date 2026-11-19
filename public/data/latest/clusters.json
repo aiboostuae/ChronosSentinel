@@ -1,5 +1,107 @@
 [
   {
+    "cluster_id": "83838a0512389a72",
+    "topic_label": "Iranian IRGC Drone and Missile Targeting of U.S. Fifth Fleet Infrastructure in Bahrain",
+    "event_window_start": "2026-11-19T00:54:57.000Z",
+    "event_window_end": "2026-11-19T00:54:57.000Z",
+    "article_ids": [
+      "art_1795080553019_6wxsw",
+      "art_1795080555024_0yxxh"
+    ],
+    "source_ids": [
+      "fox"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T14:54:40.810Z",
+    "updated_at": "2026-11-19T14:54:40.810Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic / Unilateral Dispatch",
+    "synthesis": "The Islamic Revolutionary Guard Corps (IRGC) initiated an offensive operation involving the deployment of drones and missiles targeted at U.S. military installations in Bahrain, specifically the host facilities for the U.S. Navy's Fifth Fleet. This kinetic action is accompanied by an explicit threat to the sovereignty of the Bahraini monarchy. The operational status is characterized by active projectile deployment against foreign military infrastructure, representing a direct escalation in regional hostilities.",
+    "consensus": [
+      "The IRGC issued a formal threat against the Bahraini monarchy.",
+      "Iranian-origin drones and missiles were utilized in an attack directed at U.S. military infrastructure in Bahrain.",
+      "The U.S. Fifth Fleet base in Bahrain was identified as the target of the strike."
+    ],
+    "divergence": [
+      "Unilateral exclusive dispatch via Fox News. Mainstream syndicates (BBC/Reuters/AP) have not published corresponding coverage in this 24h window; evaluate for exclusive access or narrative embargo."
+    ],
+    "sources": [
+      {
+        "id": "art_1795080553019_6wxsw",
+        "url": "https://www.foxnews.com/world/iran-warns-bahrain-monarchy-survival-risk-amid-push-evict-us-fifth-fleet",
+        "source": "fox",
+        "title": "Iran warns Bahrain monarchy its survival is at risk amid push to 'evict' US Fifth Fleet"
+      },
+      {
+        "id": "art_1795080555024_0yxxh",
+        "url": "https://www.foxnews.com/world/iran-warns-bahrain-monarchy-survival-risk-push-evict-us-fifth-fleet",
+        "source": "fox",
+        "title": "Iran warns Bahrain monarchy its survival is at risk amid push to 'evict' US Fifth Fleet"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "16e818ce793e98a0",
+    "topic_label": "U.S. Military Drone Strike on Ecuadorian Fishing Vessel La Negra Francisca Duarte II",
+    "event_window_start": "2026-11-18T18:14:57.000Z",
+    "event_window_end": "2026-11-18T18:14:57.000Z",
+    "article_ids": [
+      "art_1795029720527_s78u0",
+      "art_1795029721091_9vaeq"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T05:44:30.804Z",
+    "updated_at": "2026-11-19T05:44:30.804Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Military Strike / Maritime",
+    "synthesis": "On March 17, 2026, U.S. forces launched a drone strike from a naval vessel against a maritime target identified as La Negra Francisca Duarte II near the Galápagos Islands. The kinetic impact caused the total destruction of the vessel by fire, resulting in the confirmed deaths of two individuals and necessitating the abandonment of the ship by the remaining 16 crew members. U.S. Southern Command maintains the target was engaged due to intelligence-based suspicions of narcotics trafficking, while the survivors have initiated legal proceedings alleging the wrongful destruction of a civilian fishing vessel.",
+    "consensus": [
+      "A U.S. drone strike occurred on March 17, 2026, near the Galápagos Islands.",
+      "The target was a vessel named La Negra Francisca Duarte II.",
+      "The kinetic strike destroyed the vessel via fire.",
+      "Two individuals were killed during the strike.",
+      "16 crew members abandoned the vessel and survived.",
+      "U.S. Southern Command conducted the operation as part of counter-narcotics efforts.",
+      "The 16 survivors have filed a lawsuit against the U.S. government."
+    ],
+    "divergence": [
+      "FOX (main feed and politics feed) utilizes identical text and framing, failing to provide independent reporting or verification of the lawsuit details beyond the initial press release.",
+      "The provided sources rely entirely on U.S. Southern Command's designation of the vessel as a 'low-profile' narco-trafficking target, omitting any independent maritime registry verification or investigative counter-evidence regarding the crew's claims of being civilian fishermen."
+    ],
+    "sources": [
+      {
+        "id": "art_1795029720527_s78u0",
+        "url": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+        "source": "fox",
+        "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos"
+      },
+      {
+        "id": "art_1795029721091_9vaeq",
+        "url": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+        "source": "fox-politics",
+        "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "20da193db908a357",
     "topic_label": "Regional Military Exchange: US-Iran Kinetic Strikes and Drone Attacks",
     "event_window_start": "2026-11-18T13:04:48.000Z",
@@ -115,60 +217,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "16e818ce793e98a0",
-    "topic_label": "U.S. Military Drone Strike on Ecuadorian Fishing Vessel La Negra Francisca Duarte II",
-    "event_window_start": "2026-11-18T18:14:57.000Z",
-    "event_window_end": "2026-11-18T18:14:57.000Z",
-    "article_ids": [
-      "art_1795029720527_s78u0",
-      "art_1795029721091_9vaeq"
-    ],
-    "source_ids": [
-      "fox",
-      "fox-politics"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-19T05:44:30.804Z",
-    "updated_at": "2026-11-19T05:44:30.804Z",
-    "region_tag": "global",
-    "severity": "HIGH",
-    "incident_type": "Military Strike / Maritime",
-    "synthesis": "On March 17, 2026, U.S. forces launched a drone strike from a naval vessel against a maritime target identified as La Negra Francisca Duarte II near the Galápagos Islands. The kinetic impact caused the total destruction of the vessel by fire, resulting in the confirmed deaths of two individuals and necessitating the abandonment of the ship by the remaining 16 crew members. U.S. Southern Command maintains the target was engaged due to intelligence-based suspicions of narcotics trafficking, while the survivors have initiated legal proceedings alleging the wrongful destruction of a civilian fishing vessel.",
-    "consensus": [
-      "A U.S. drone strike occurred on March 17, 2026, near the Galápagos Islands.",
-      "The target was a vessel named La Negra Francisca Duarte II.",
-      "The kinetic strike destroyed the vessel via fire.",
-      "Two individuals were killed during the strike.",
-      "16 crew members abandoned the vessel and survived.",
-      "U.S. Southern Command conducted the operation as part of counter-narcotics efforts.",
-      "The 16 survivors have filed a lawsuit against the U.S. government."
-    ],
-    "divergence": [
-      "FOX (main feed and politics feed) utilizes identical text and framing, failing to provide independent reporting or verification of the lawsuit details beyond the initial press release.",
-      "The provided sources rely entirely on U.S. Southern Command's designation of the vessel as a 'low-profile' narco-trafficking target, omitting any independent maritime registry verification or investigative counter-evidence regarding the crew's claims of being civilian fishermen."
-    ],
-    "sources": [
-      {
-        "id": "art_1795029720527_s78u0",
-        "url": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
-        "source": "fox",
-        "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos"
-      },
-      {
-        "id": "art_1795029721091_9vaeq",
-        "url": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
-        "source": "fox-politics",
-        "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -14865,105 +14913,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/aje-onl-nf_israeli-demolitions-displace-palestinians-in-biddu-051126?traffic_source=rss",
         "source": "aljazeera",
         "title": "Israeli demolitions displace more than 100 Palestinians in Biddu"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "e49b34f66a9bdaa7",
-    "topic_label": "US 2026 Midterm Election Results and Post-Election Administrative Strains",
-    "event_window_start": "2026-11-05T21:49:31.000Z",
-    "event_window_end": "2026-11-06T11:47:13.000Z",
-    "article_ids": [
-      "art_1793966543044_w2vc9",
-      "art_1793966547657_x60m2",
-      "art_1793966549947_gy9qq",
-      "art_1793966550487_80l9j",
-      "art_1793936912727_l48i3",
-      "art_1793936922506_bn4ll",
-      "art_1793921415218_bhj4q",
-      "art_1793921420165_wa114"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox-us",
-      "fox",
-      "fox-politics",
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 8,
-    "source_count": 6,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-06T18:29:37.055Z",
-    "updated_at": "2026-11-06T18:29:37.055Z",
-    "region_tag": "global",
-    "severity": "MODERATE",
-    "incident_type": "Political / Administrative",
-    "synthesis": "Following the 2026 US midterm elections, the Democratic Party secured a majority in the House of Representatives, resulting in significant volatility in the market valuation of companies linked to Elon Musk, with Tesla and SpaceX experiencing sharp declines in equity value. Politically, the outcome has triggered internal pressures within the Democratic Party to enact progressive legislative agendas, while the incumbent Republican administration faces internal instability, specifically documented reports of potential personnel changes regarding Secretary of Defense Pete Hegseth and Secretary of State Marco Rubio amidst criticism over the conduct of the ongoing war in Iran.",
-    "consensus": [
-      "The Democratic Party gained a majority in the US House of Representatives in the 2026 midterm elections.",
-      "Tesla and SpaceX stock values saw a decrease in market valuation following the election.",
-      "Rep. Ayanna Pressley publicly advocated for the party to leverage the new majority for progressive policies, including Medicare for All and the abolition of ICE.",
-      "The White House issued a denial regarding the potential resignation or firing of Secretary of Defense Pete Hegseth and Secretary of State Marco Rubio.",
-      "Secretary of Defense Pete Hegseth is facing criticism and a potential impeachment threat linked to his management of the war in Iran."
-    ],
-    "divergence": [
-      "The Guardian focuses on the financial losses of Elon Musk and the scope of the Democratic electoral 'flip', framing the event as a market reaction to political success.",
-      "Fox News and Fox Politics emphasize internal Democratic friction and the ideological influence of progressive figures, framing the election results through the lens of 'socialist' risks and radical policy agendas.",
-      "The BBC reports on high-level administrative instability and specific military/diplomatic leadership crises within the current executive branch, which are not mentioned in the US domestic reporting."
-    ],
-    "sources": [
-      {
-        "id": "art_1793966543044_w2vc9",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
-        "source": "guardian",
-        "title": "US midterm elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows"
-      },
-      {
-        "id": "art_1793966547657_x60m2",
-        "url": "https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-radical-democrats-rally-behind-piker-after-election",
-        "source": "fox-us",
-        "title": "Fox News ‘Antisemitism Exposed’ Newsletter: Radical Democrats rally behind Piker after election"
-      },
-      {
-        "id": "art_1793966549947_gy9qq",
-        "url": "https://www.foxnews.com/politics/squad-member-urges-dems-take-advantage-midterm-sweep-passing-far-left-policies",
-        "source": "fox",
-        "title": "'Squad' member urges Dems to take advantage of midterm sweep by passing far-left policies"
-      },
-      {
-        "id": "art_1793966550487_80l9j",
-        "url": "https://www.foxnews.com/politics/squad-member-urges-dems-take-advantage-midterm-sweep-passing-far-left-policies",
-        "source": "fox-politics",
-        "title": "'Squad' member urges Dems to take advantage of midterm sweep by passing far-left policies"
-      },
-      {
-        "id": "art_1793936912727_l48i3",
-        "url": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses"
-      },
-      {
-        "id": "art_1793936922506_bn4ll",
-        "url": "https://www.foxnews.com/media/fox-news-bests-msnbc-cnn-most-watched-cable-news-network-2026-midterm-election-night",
-        "source": "fox",
-        "title": "Fox News bests MS NOW, CNN as most-watched cable news network on 2026 midterm election night"
-      },
-      {
-        "id": "art_1793921415218_bhj4q",
-        "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown"
-      },
-      {
-        "id": "art_1793921420165_wa114",
-        "url": "https://www.aljazeera.com/news/2026/11/5/generation-z-and-diversity-redefine-us-politics-in-groundbreaking-election?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Generation Z and young voters help redefine US politics after midterms"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
