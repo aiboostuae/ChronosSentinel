@@ -1,5 +1,370 @@
 [
   {
+    "cluster_id": "20da193db908a357",
+    "topic_label": "Regional Military Exchange: US-Iran Kinetic Strikes and Drone Attacks",
+    "event_window_start": "2026-11-18T13:04:48.000Z",
+    "event_window_end": "2026-11-18T16:47:26.000Z",
+    "article_ids": [
+      "art_1795029722248_h52i0",
+      "art_1795029722780_3y6no"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T00:02:51.127Z",
+    "updated_at": "2026-11-19T00:02:51.127Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic/Aviation",
+    "synthesis": "The conflict between the United States and Iran escalated into a series of reciprocal kinetic engagements. The US military executed an airstrike on an Iranian missile launch site located on Qeshm Island in the Strait of Hormuz, citing a prior Iranian attack on a US radar installation in Bahrain. Subsequently, Iranian forces launched drone strikes targeting the Ali Al Salem Airbase in Kuwait and multiple sites in Bahrain. Kuwaiti and Bahraini air defense systems were engaged to intercept these incoming projectiles, resulting in no reported facility damage, though a crew member from a UAE-flagged tanker remains missing following a separate maritime attack in the Gulf.",
+    "consensus": [
+      "US warplanes struck an Iranian missile launch site on Qeshm Island.",
+      "Iran targeted the Ali Al Salem Airbase in Kuwait with drone strikes.",
+      "Bahraini air defenses intercepted Iranian aerial attacks.",
+      "A crew member is missing following an attack on a UAE tanker in the Gulf.",
+      "US forces are utilizing military installations in Kuwait and Bahrain."
+    ],
+    "divergence": [
+      "Al Jazeera frames the events as 'new Iran attacks' directly in response to the Qeshm Island strike, emphasizing a broader regional pattern of hostilities.",
+      "BBC omits specific attribution regarding the perpetrator of the tanker attack, focusing on the tactical timeline of the drone strikes and air defense responses.",
+      "Al Jazeera reports four Iranian attacks on Bahrain in six days, whereas BBC does not provide specific frequency data for Bahraini strikes."
+    ],
+    "sources": [
+      {
+        "id": "art_1795029722248_h52i0",
+        "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island"
+      },
+      {
+        "id": "art_1795029722780_3y6no",
+        "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8a390834b1c10f38",
+    "topic_label": "Escalation of Kinetic Strikes on Crimean Infrastructure and Russian Oil Refineries",
+    "event_window_start": "2026-11-18T17:00:04.000Z",
+    "event_window_end": "2026-11-18T22:52:36.000Z",
+    "article_ids": [
+      "art_1795051066758_nlsq9",
+      "art_1795051069179_yv1yp",
+      "art_1795029719978_jwgqq",
+      "art_1795029721711_4y9l4"
+    ],
+    "source_ids": [
+      "fox",
+      "bbc"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T05:44:30.804Z",
+    "updated_at": "2026-11-19T05:44:30.804Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Military Conflict",
+    "synthesis": "Ukrainian forces executed a large-scale drone offensive against Russian-controlled infrastructure, resulting in the structural collapse of sections of the Crimean Bridge and significant kinetic damage to a major oil refinery in southern Russia. Concurrently, Russian military assets were engaged in naval exercises in the Sea of Japan, which triggered a Japanese fighter jet scramble following reports of Russian airspace entry. The operational environment is characterized by persistent subterranean infantry combat in the Kharkiv region and a surge in drone saturation, occurring immediately prior to high-level diplomatic meetings in Shenzhen.",
+    "consensus": [
+      "Ukrainian forces utilized a drone-heavy offensive strategy against the Crimean Bridge, resulting in structural failure.",
+      "A major oil refinery in southern Russia sustained damage from a Ukrainian strike.",
+      "Japanese fighter jets conducted an intercept mission against Russian aircraft near Japanese airspace.",
+      "Russian naval drills are ongoing across the Sea of Japan, the Sea of Okhotsk, and the Northwest Pacific involving over 13,000 personnel.",
+      "Ukrainian infantry are utilizing Soviet-era gas pipelines for tactical positioning and combat in the Kharkiv region."
+    ],
+    "divergence": [
+      "Fox News frames the events primarily as regional instability affecting U.S.-led diplomatic summits (Quad/APEC) and emphasizes the arrival of the USS Theodore Roosevelt in the Middle East.",
+      "BBC provides detailed granular reporting on the physical conditions of tunnel warfare in Kharkiv, omitting the broader diplomatic context of the APEC summit.",
+      "Fox News links the refinery strike and bridge attack directly to an upcoming Putin-Trump meeting in China; BBC focuses on the tactical significance of the bridge to Russian logistics."
+    ],
+    "sources": [
+      {
+        "id": "art_1795051066758_nlsq9",
+        "url": "https://www.foxnews.com/world/japan-scrambles-fighter-jets-russian-aircraft-breach-airspace-rising-pacific-tensions",
+        "source": "fox",
+        "title": "Japan scrambles fighter jets after Russian aircraft breach airspace amid rising Pacific tensions"
+      },
+      {
+        "id": "art_1795051069179_yv1yp",
+        "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Crimean Bridge attacked again, Russian official says"
+      },
+      {
+        "id": "art_1795029719978_jwgqq",
+        "url": "https://www.foxnews.com/world/ukraine-strikes-one-largest-oil-refineries-southern-russia-ahead-putin-trump-meeting-china",
+        "source": "fox",
+        "title": "Ukraine strikes 'one of the largest oil refineries' in southern Russia ahead of Putin-Trump meeting in China"
+      },
+      {
+        "id": "art_1795029721711_4y9l4",
+        "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "16e818ce793e98a0",
+    "topic_label": "U.S. Military Drone Strike on Ecuadorian Fishing Vessel La Negra Francisca Duarte II",
+    "event_window_start": "2026-11-18T18:14:57.000Z",
+    "event_window_end": "2026-11-18T18:14:57.000Z",
+    "article_ids": [
+      "art_1795029720527_s78u0",
+      "art_1795029721091_9vaeq"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-politics"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T05:44:30.804Z",
+    "updated_at": "2026-11-19T05:44:30.804Z",
+    "region_tag": "global",
+    "severity": "HIGH",
+    "incident_type": "Military Strike / Maritime",
+    "synthesis": "On March 17, 2026, U.S. forces launched a drone strike from a naval vessel against a maritime target identified as La Negra Francisca Duarte II near the Galápagos Islands. The kinetic impact caused the total destruction of the vessel by fire, resulting in the confirmed deaths of two individuals and necessitating the abandonment of the ship by the remaining 16 crew members. U.S. Southern Command maintains the target was engaged due to intelligence-based suspicions of narcotics trafficking, while the survivors have initiated legal proceedings alleging the wrongful destruction of a civilian fishing vessel.",
+    "consensus": [
+      "A U.S. drone strike occurred on March 17, 2026, near the Galápagos Islands.",
+      "The target was a vessel named La Negra Francisca Duarte II.",
+      "The kinetic strike destroyed the vessel via fire.",
+      "Two individuals were killed during the strike.",
+      "16 crew members abandoned the vessel and survived.",
+      "U.S. Southern Command conducted the operation as part of counter-narcotics efforts.",
+      "The 16 survivors have filed a lawsuit against the U.S. government."
+    ],
+    "divergence": [
+      "FOX (main feed and politics feed) utilizes identical text and framing, failing to provide independent reporting or verification of the lawsuit details beyond the initial press release.",
+      "The provided sources rely entirely on U.S. Southern Command's designation of the vessel as a 'low-profile' narco-trafficking target, omitting any independent maritime registry verification or investigative counter-evidence regarding the crew's claims of being civilian fishermen."
+    ],
+    "sources": [
+      {
+        "id": "art_1795029720527_s78u0",
+        "url": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+        "source": "fox",
+        "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos"
+      },
+      {
+        "id": "art_1795029721091_9vaeq",
+        "url": "https://www.foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+        "source": "fox-politics",
+        "title": "16 Ecuadorian fishermen sue US government, allege drone attack destroyed their boat near the Galápagos"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "2772373a4ab014b8",
+    "topic_label": "US Federal IT Infrastructure Procurement and Audit Failures",
+    "event_window_start": "2026-11-18T10:30:52.000Z",
+    "event_window_end": "2026-11-18T19:40:43.000Z",
+    "article_ids": [
+      "art_1795051062260_qikh7",
+      "art_1794998726918_ahbjo",
+      "art_1794998727808_prq8f"
+    ],
+    "source_ids": [
+      "defensenews",
+      "fox",
+      "fox-politics"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T05:44:30.804Z",
+    "updated_at": "2026-11-19T05:44:30.804Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Infrastructure / Administrative Oversight",
+    "synthesis": "The US Department of Defense has failed its ninth consecutive audit, prompting the Inspector General to categorize financial mismanagement and fraud prevention as primary strategic hurdles. Concurrently, congressional oversight committees are demanding data security disclosures regarding Oracle software rollouts within federal systems following multiple nationwide IT outages and concerns over escalating contract costs and potential data exposure.",
+    "consensus": [
+      "The Department of Defense failed its ninth consecutive financial audit.",
+      "The Office of the Inspector General identified financial transparency and fraud prevention as critical strategic challenges.",
+      "Representative Mike Bost has issued formal inquiries to the Office of Personnel Management regarding the Oracle software deployment.",
+      "Nationwide IT infrastructure outages have occurred, raising concerns about federal data security."
+    ],
+    "divergence": [
+      "DefenseNews emphasizes the broader budgetary impact of the $1.5 trillion national defense request in the context of the 2026 National Defense Strategy.",
+      "Fox and Fox Politics frame the IT infrastructure issues specifically through the lens of political oversight and potential mismanagement of the Trump administration's VA modernization contracts."
+    ],
+    "sources": [
+      {
+        "id": "art_1795051062260_qikh7",
+        "url": "https://www.defensenews.com/news/pentagon-congress/2026/11/18/watchdog-flags-fraud-failed-pentagon-audit-as-defense-priorities/",
+        "source": "defensenews",
+        "title": "Watchdog flags fraud, failed Pentagon audit as defense priorities"
+      },
+      {
+        "id": "art_1794998726918_ahbjo",
+        "url": "https://www.foxnews.com/politics/gop-chairman-demands-answers-trumps-costly-va-technology-overhaul",
+        "source": "fox",
+        "title": "GOP chairman demands answers on Trump's costly VA technology overhaul amid US-wide outages"
+      },
+      {
+        "id": "art_1794998727808_prq8f",
+        "url": "https://www.foxnews.com/politics/gop-chairman-demands-answers-trumps-costly-va-technology-overhaul",
+        "source": "fox-politics",
+        "title": "GOP chairman demands answers on Trump's costly VA technology overhaul amid US-wide outages"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ed43ffe700872d32",
+    "topic_label": "U.S. Domestic Policy Shifts and Political Commentary",
+    "event_window_start": "2026-11-18T09:38:50.000Z",
+    "event_window_end": "2026-11-19T01:07:51.000Z",
+    "article_ids": [
+      "art_1795051068459_tv2d8",
+      "art_1795051070263_cp6al",
+      "art_1795051070808_mkw8f",
+      "art_1795029724517_d8bky",
+      "art_1795029728132_12xza",
+      "art_1795029731615_1yuxw",
+      "art_1795029732151_of8hn",
+      "art_1794998729023_sgr5r",
+      "art_1794998730768_6ohwm",
+      "art_1794998731725_qe6i4",
+      "art_1794998735740_ols9u",
+      "art_1794998736687_e8qec",
+      "art_1794998739151_dxtfj"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "fox-us",
+      "fox-politics",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 13,
+    "source_count": 6,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-19T05:44:30.804Z",
+    "updated_at": "2026-11-19T05:44:30.804Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy / Domestic Policy",
+    "synthesis": "Current reporting reflects a collection of fragmented political narratives rather than a single unified event. Key physical actions include a federal Department of Housing and Urban Development (HUD) directive to terminate funding to the Los Angeles Homeless Services Authority (LAHSA), and separate public commentary from Elon Musk regarding his political alignment, FCC Chair Brendan Carr regarding media regulatory reform, and public reaction to California state-level policy decisions. There is no singular kinetic event; the report summarizes disparate administrative actions and political discourse.",
+    "consensus": [
+      "HUD has announced it is severing funding to the Los Angeles Homeless Services Authority (LAHSA).",
+      "Elon Musk stated he is not 'Maga' in an interview with the New York Times.",
+      "FCC Chairman Brendan Carr has stated an intent to pursue regulatory reform regarding local radio ownership caps."
+    ],
+    "divergence": [
+      "Fox News frames the HUD funding cut to LAHSA as a correction of 'Obama-era' failures through the lens of a specific expert's interview.",
+      "The Guardian frames Musk’s political comments as a contradictory pivot from his previous rally statements.",
+      "Fox News includes opinion-based commentary on FCC regulatory goals, positioning the effort as 'rebalancing' the media environment."
+    ],
+    "sources": [
+      {
+        "id": "art_1795051068459_tv2d8",
+        "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
+        "source": "guardian",
+        "title": "Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans"
+      },
+      {
+        "id": "art_1795051070263_cp6al",
+        "url": "https://www.foxnews.com/us/obama-era-homeless-policy-fueled-crisis-promised-end-expert-says-trump-admin-makes-striking-reversal",
+        "source": "fox",
+        "title": "Obama-era homeless policy fueled crisis it promised to end, expert says as Trump admin makes striking reversal"
+      },
+      {
+        "id": "art_1795051070808_mkw8f",
+        "url": "https://www.foxnews.com/us/obama-era-homeless-policy-fueled-crisis-promised-end-expert-says-trump-admin-makes-striking-reversal",
+        "source": "fox-us",
+        "title": "Obama-era homeless policy fueled crisis it promised to end, expert says as Trump admin makes striking reversal"
+      },
+      {
+        "id": "art_1795029724517_d8bky",
+        "url": "https://www.foxnews.com/opinion/mike-davis-washington-strangling-humble-radio",
+        "source": "fox",
+        "title": "MIKE DAVIS: Washington is strangling the humble radio"
+      },
+      {
+        "id": "art_1795029728132_12xza",
+        "url": "https://www.foxnews.com/media/californians-sound-off-newsoms-death-penalty-move-midterms-failed-billionaire-tax",
+        "source": "fox",
+        "title": "Californians sound off on Newsom’s death penalty move, midterms and failed billionaire tax"
+      },
+      {
+        "id": "art_1795029731615_1yuxw",
+        "url": "https://www.foxnews.com/politics/protesters-heckle-trumps-ex-border-patrol-chief-offstage-dem-governor-condemns-college-republican-event",
+        "source": "fox",
+        "title": "Protesters heckle Trump's ex-Border Patrol chief offstage after Dem governor condemns College Republican event"
+      },
+      {
+        "id": "art_1795029732151_of8hn",
+        "url": "https://www.foxnews.com/politics/protesters-heckle-trumps-ex-border-patrol-chief-offstage-dem-governor-condemns-college-republican-event",
+        "source": "fox-politics",
+        "title": "Protesters heckle Trump's ex-Border Patrol chief offstage after Dem governor condemns College Republican event"
+      },
+      {
+        "id": "art_1794998729023_sgr5r",
+        "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Democrats win Alaska Senate race two weeks after midterms counting began"
+      },
+      {
+        "id": "art_1794998730768_6ohwm",
+        "url": "https://www.foxnews.com/politics/dem-governors-tale-mourning-fellow-serviceman-ripped-apart-soldiers-wife-gives-brutal-fact-check",
+        "source": "fox",
+        "title": "Dem governor’s tale of mourning fellow serviceman ripped apart after soldiers wife gives brutal fact check"
+      },
+      {
+        "id": "art_1794998731725_qe6i4",
+        "url": "https://www.foxnews.com/politics/dem-governors-tale-mourning-fellow-serviceman-ripped-apart-soldiers-wife-gives-brutal-fact-check",
+        "source": "fox-politics",
+        "title": "Dem governor’s tale of mourning fellow serviceman ripped apart after soldiers wife gives brutal fact check"
+      },
+      {
+        "id": "art_1794998735740_ols9u",
+        "url": "https://www.foxnews.com/politics/house-dems-target-trump-family-jd-vance-sweeping-new-investigation-push",
+        "source": "fox",
+        "title": "House Dems target Trump family, JD Vance in sweeping new investigation push"
+      },
+      {
+        "id": "art_1794998736687_e8qec",
+        "url": "https://www.foxnews.com/politics/house-dems-target-trump-family-jd-vance-sweeping-new-investigation-push",
+        "source": "fox-politics",
+        "title": "House Dems target Trump family, JD Vance in sweeping new investigation push"
+      },
+      {
+        "id": "art_1794998739151_dxtfj",
+        "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Why Democrat Mary Peltola’s US Senate win in Alaska matters"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "b0744b72aa2b38f7",
     "topic_label": "US Drone Strike on La Negra Francisca Duarte II",
     "event_window_start": "2026-11-18T01:04:43.000Z",
@@ -56,59 +421,6 @@
         "url": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
         "source": "aljazeera",
         "title": "Ecuadorian fishermen sue Trump administration over drone strike"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "20da193db908a357",
-    "topic_label": "Regional Military Exchange: US-Iran Kinetic Strikes and Drone Attacks",
-    "event_window_start": "2026-11-18T13:04:48.000Z",
-    "event_window_end": "2026-11-18T16:47:26.000Z",
-    "article_ids": [
-      "art_1795029722248_h52i0",
-      "art_1795029722780_3y6no"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-19T00:02:51.127Z",
-    "updated_at": "2026-11-19T00:02:51.127Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Ballistic/Aviation",
-    "synthesis": "The conflict between the United States and Iran escalated into a series of reciprocal kinetic engagements. The US military executed an airstrike on an Iranian missile launch site located on Qeshm Island in the Strait of Hormuz, citing a prior Iranian attack on a US radar installation in Bahrain. Subsequently, Iranian forces launched drone strikes targeting the Ali Al Salem Airbase in Kuwait and multiple sites in Bahrain. Kuwaiti and Bahraini air defense systems were engaged to intercept these incoming projectiles, resulting in no reported facility damage, though a crew member from a UAE-flagged tanker remains missing following a separate maritime attack in the Gulf.",
-    "consensus": [
-      "US warplanes struck an Iranian missile launch site on Qeshm Island.",
-      "Iran targeted the Ali Al Salem Airbase in Kuwait with drone strikes.",
-      "Bahraini air defenses intercepted Iranian aerial attacks.",
-      "A crew member is missing following an attack on a UAE tanker in the Gulf.",
-      "US forces are utilizing military installations in Kuwait and Bahrain."
-    ],
-    "divergence": [
-      "Al Jazeera frames the events as 'new Iran attacks' directly in response to the Qeshm Island strike, emphasizing a broader regional pattern of hostilities.",
-      "BBC omits specific attribution regarding the perpetrator of the tanker attack, focusing on the tactical timeline of the drone strikes and air defense responses.",
-      "Al Jazeera reports four Iranian attacks on Bahrain in six days, whereas BBC does not provide specific frequency data for Bahraini strikes."
-    ],
-    "sources": [
-      {
-        "id": "art_1795029722248_h52i0",
-        "url": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island"
-      },
-      {
-        "id": "art_1795029722780_3y6no",
-        "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
@@ -14652,257 +14964,6 @@
         "url": "https://www.aljazeera.com/news/2026/11/5/generation-z-and-diversity-redefine-us-politics-in-groundbreaking-election?traffic_source=rss",
         "source": "aljazeera",
         "title": "Generation Z and young voters help redefine US politics after midterms"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4b5fcc78a2a07869",
-    "topic_label": "ICE Enforcement Operations in New York City and Texas",
-    "event_window_start": "2026-11-06T10:00:50.000Z",
-    "event_window_end": "2026-11-06T10:00:56.000Z",
-    "article_ids": [
-      "art_1793966551560_p0e9b",
-      "art_1793966552100_jl2ia",
-      "art_1793966552619_9ckpo"
-    ],
-    "source_ids": [
-      "fox",
-      "fox-politics",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-06T18:29:37.055Z",
-    "updated_at": "2026-11-06T18:29:37.055Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Law Enforcement / Migration Policy",
-    "synthesis": "Federal Immigration and Customs Enforcement (ICE) agents conducted targeted apprehension operations in Brooklyn, New York, involving surveillance and physical detainment of individuals. Simultaneously, anecdotal reporting indicates that nationwide ICE enforcement activities are influencing electoral turnout among Hispanic voters in Texas. These operations represent standard executive agency enforcement of federal immigration law, framed by ongoing friction between federal authorities and municipal sanctuary jurisdictions, as well as broader electoral consequences.",
-    "consensus": [
-      "ICE agents are conducting street-level surveillance and apprehensions of migrants in Brooklyn, New York.",
-      "Tensions exist between ICE officials and New York City municipal leadership regarding sanctuary city policies.",
-      "ICE enforcement operations are cited by Hispanic business owners and voters in Texas as a primary factor in their opposition to Republican candidates."
-    ],
-    "divergence": [
-      "Fox News frames the Brooklyn operations as 'high-stakes raids' and emphasizes the failure of municipal cooperation, utilizing terminology that highlights agency-level frustration with local policy.",
-      "The Guardian frames the ICE operations as an 'anti-immigrant assault' and focuses on the sociological and electoral response from the Hispanic community in Texas, omitting specific tactical details of the Brooklyn arrests."
-    ],
-    "sources": [
-      {
-        "id": "art_1793966551560_p0e9b",
-        "url": "https://www.foxnews.com/politics/inside-ice-high-stakes-raids-targeting-illegal-migrants-nyc-chief-rips-sanctuary-laws",
-        "source": "fox",
-        "title": "Inside ICE's high-stakes raids targeting illegal migrants in NYC as chief rips sanctuary laws"
-      },
-      {
-        "id": "art_1793966552100_jl2ia",
-        "url": "https://www.foxnews.com/politics/inside-ice-high-stakes-raids-targeting-illegal-migrants-nyc-chief-rips-sanctuary-laws",
-        "source": "fox-politics",
-        "title": "Inside ICE's high-stakes raids targeting illegal migrants in NYC as chief rips sanctuary laws"
-      },
-      {
-        "id": "art_1793966552619_9ckpo",
-        "url": "https://www.theguardian.com/us-news/2026/nov/06/latino-voters-midterms-republicans-trump",
-        "source": "guardian",
-        "title": "Trump wooed Latino voters, but his ICE tactics sent them back to the polls: ‘They’re taking our neighbors’"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "f6155e20d896e4f2",
-    "topic_label": "Simultaneous State-Level Capital Punishment Procedures in Indiana, Florida, and Alabama",
-    "event_window_start": "2026-11-06T00:27:20.000Z",
-    "event_window_end": "2026-11-06T01:44:36.000Z",
-    "article_ids": [
-      "art_1793936914471_8p7jx",
-      "art_1793936915003_nbj8g",
-      "art_1793936920856_er7yr"
-    ],
-    "source_ids": [
-      "fox",
-      "fox-us",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-06T11:33:32.014Z",
-    "updated_at": "2026-11-06T11:33:32.014Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Judicial Execution",
-    "synthesis": "On a single calendar day, the states of Indiana, Florida, and Alabama each performed a state-sanctioned execution of an incarcerated male individual. The procedures involved lethal injection protocols. These actions represent the second occurrence of a triple-execution event in the United States within the current calendar year. Simultaneously, the Governor of California announced a legislative directive to commute 548 existing capital sentences to life imprisonment without the possibility of parole.",
-    "consensus": [
-      "Three separate executions occurred on the same day in Indiana, Florida, and Alabama.",
-      "This event marks the second instance of triple-state executions in the U.S. in the current year.",
-      "California Governor Gavin Newsom announced a plan to commute 548 death sentences.",
-      "The individuals executed were convicted of capital crimes including homicide."
-    ],
-    "divergence": [
-      "Fox focuses on the historical rarity of the triple execution by citing 2010 data, emphasizing the specific details of the Indiana case.",
-      "The Guardian frames the event as an 'unusual instance,' provides specific chemical details regarding Florida's 'three-drug lethal injection' protocol, and highlights the specific motives and background of the victims in the Florida and Alabama cases."
-    ],
-    "sources": [
-      {
-        "id": "art_1793936914471_8p7jx",
-        "url": "https://www.foxnews.com/us/indiana-florida-alabama-carry-out-rare-us-triple-execution-day",
-        "source": "fox",
-        "title": "Indiana, Florida and Alabama carry out rare US triple execution day"
-      },
-      {
-        "id": "art_1793936915003_nbj8g",
-        "url": "https://www.foxnews.com/us/indiana-florida-alabama-carry-out-rare-us-triple-execution-day",
-        "source": "fox-us",
-        "title": "Indiana, Florida and Alabama carry out rare US triple execution day"
-      },
-      {
-        "id": "art_1793936920856_er7yr",
-        "url": "https://www.theguardian.com/us-news/2026/nov/05/executions-florida-alabama-indiana",
-        "source": "guardian",
-        "title": "Alabama, Florida and Indiana carry out executions on same day"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "896bd16af9dad61b",
-    "topic_label": "Defense Sector Developments and German Military Leadership Transition",
-    "event_window_start": "2026-11-05T18:30:53.000Z",
-    "event_window_end": "2026-11-06T10:33:39.000Z",
-    "article_ids": [
-      "art_1793966548751_6jaw9",
-      "art_1793921410633_bvq7j",
-      "art_1793921412898_rehwu",
-      "art_1793921413993_ww5mh",
-      "art_1793921414522_xtam4"
-    ],
-    "source_ids": [
-      "defensenews",
-      "fox-politics"
-    ],
-    "article_count": 5,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-06T18:29:37.055Z",
-    "updated_at": "2026-11-06T18:29:37.055Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "Defense / Industry / Diplomacy",
-    "synthesis": "Recent reports outline disparate activities in the defense sector: French naval architecture developments regarding the Amiral Ronarc'h class frigate, Shield AI's $5.3 billion acquisition of radar manufacturer Echodyne to enhance drone-warfare systems, Vector's introduction of an integrated one-way attack drone 'Warfighter's Stack', internal GOP defensive legislative maneuvers, and the appointment of Lieutenant General Christian Freuding as Germany's Chief of Defense effective February 2027.",
-    "consensus": [
-      "Naval Group is marketing the inverted bow design of the Amiral Ronarc'h frigate for reduced vibration and improved seakeeping.",
-      "Shield AI is acquiring Echodyne in a transaction valued at $5.3 billion to integrate radar systems into counter-drone platforms.",
-      "Vector has announced the 'Warfighter's Stack', a tactical one-way attack drone system.",
-      "House Majority Leader Steve Scalise issued a memo to GOP committee chairs regarding potential future investigations.",
-      "Lieutenant General Christian Freuding is appointed to succeed Carsten Breuer as German Chief of Defense in February 2027."
-    ],
-    "divergence": [
-      "DefenseNews frames the Echodyne acquisition as a strategic capability expansion for 'drone-warfare' while noting the $250 million JIATF-401 contract.",
-      "Fox News frames the House GOP letter as a 'defense plan' to protect the Trump administration from impending Democrat-led legislative investigations.",
-      "The reporting on Lieutenant General Freuding highlights his tenure overseeing arms supplies to Ukraine and his focus on drone regiment implementation."
-    ],
-    "sources": [
-      {
-        "id": "art_1793966548751_6jaw9",
-        "url": "https://www.defensenews.com/global/europe/2026/11/06/how-a-french-frigates-radical-bow-design-makes-for-smooth-sailing/",
-        "source": "defensenews",
-        "title": "How a French frigate’s radical bow design makes for smooth sailing"
-      },
-      {
-        "id": "art_1793921410633_bvq7j",
-        "url": "https://www.defensenews.com/industry/techwatch/2026/11/05/shield-ai-to-acquire-radar-maker-echodyne-to-bust-drones/",
-        "source": "defensenews",
-        "title": "Shield AI to acquire radar maker Echodyne to bust drones"
-      },
-      {
-        "id": "art_1793921412898_rehwu",
-        "url": "https://www.defensenews.com/industry/techwatch/2026/11/05/vector-introduces-ready-to-go-one-way-attack-drone/",
-        "source": "defensenews",
-        "title": "Vector introduces ready-to-go one-way attack drone"
-      },
-      {
-        "id": "art_1793921413993_ww5mh",
-        "url": "https://www.foxnews.com/politics/house-gop-launches-defense-plan-shield-trump-from-looming-democrat-investigations",
-        "source": "fox-politics",
-        "title": "House GOP launches defense plan to shield Trump from looming Democrat investigations"
-      },
-      {
-        "id": "art_1793921414522_xtam4",
-        "url": "https://www.defensenews.com/global/europe/2026/11/05/germany-names-army-chief-freuding-as-next-chief-of-defense/",
-        "source": "defensenews",
-        "title": "Germany names Army Chief Freuding as next chief of defense"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "dfc07c80fc0cee41",
-    "topic_label": "Coordinated multi-national bomb threat campaign against European commercial aviation",
-    "event_window_start": "2026-11-05T17:32:56.000Z",
-    "event_window_end": "2026-11-05T21:26:21.000Z",
-    "article_ids": [
-      "art_1793921411830_xm2ss",
-      "art_1793901241023_17q4g",
-      "art_1793901242349_9qo8c"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-06T03:18:46.791Z",
-    "updated_at": "2026-11-06T03:18:46.791Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Aviation / Infrastructure Sabotage",
-    "synthesis": "An orchestrated campaign of malicious bomb threats targeted at least 27 commercial flights across Europe forced multiple emergency landings, diversions, and security evacuations. The events involved coordinated alerts directed at carriers including Ryanair, Aer Lingus, Wizz Air, and Finnair, spanning 16 nations. While physical searches of the aircraft yielded no explosive devices, the systematic nature of the threats caused large-scale disruption to European airspace and ground operations over multiple days.",
-    "consensus": [
-      "At least 27 commercial flights were diverted or forced into emergency landings due to bomb threats.",
-      "Multiple European carriers including Ryanair, Aer Lingus, Wizz Air, and Finnair were targeted.",
-      "Security searches of the affected aircraft confirmed the threats were hoaxes with no explosives found.",
-      "The disruption spanned multiple nations including Italy, Ireland, the UK, Spain, Bulgaria, Romania, Poland, Finland, Austria, Denmark, Belgium, Portugal, France, Greece, Serbia, and Czechia.",
-      "Similar incidents involving hoax alerts occurred on the preceding Monday and Tuesday."
-    ],
-    "divergence": [
-      "Al Jazeera characterized the events as isolated travel disruptions without providing the specific scale of the multi-day pattern.",
-      "The Guardian frames the event as 'hybrid war,' introducing speculative geopolitical terminology to describe the coordinated nature of the threats.",
-      "The Guardian explicitly links the events to a wider regional threat profile, whereas Al Jazeera maintains a focus on the immediate operational impact."
-    ],
-    "sources": [
-      {
-        "id": "art_1793921411830_xm2ss",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hoax-bomb-threats-force-emergency-landings-evacuations-across-europe?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hoax bomb threats force emergency landings, evacuations across Europe"
-      },
-      {
-        "id": "art_1793901241023_17q4g",
-        "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
-        "source": "guardian",
-        "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live"
-      },
-      {
-        "id": "art_1793901242349_9qo8c",
-        "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-        "source": "guardian",
-        "title": "Bomb threats disrupt at least 22 flights across Europe, raising hybrid war fears"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
