@@ -1,5 +1,344 @@
 [
   {
+    "cluster_id": "7900ca48ccff939c",
+    "topic_label": "Russian Missile and Drone Incursions into Polish Airspace",
+    "event_window_start": "2026-11-20T13:23:53.000Z",
+    "event_window_end": "2026-11-20T16:16:01.000Z",
+    "article_ids": [
+      "art_1795195347586_spqnr",
+      "art_1795195350637_t2q3r",
+      "art_1795195352760_vxr1n",
+      "art_1795195354053_igstd"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-20T20:53:15.378Z",
+    "updated_at": "2026-11-20T20:53:15.378Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic / Territorial Incursion",
+    "synthesis": "Three aerial objects, identified by Polish authorities as two cruise missiles (including one Kh-101) and one jet-powered drone, breached Polish airspace during a large-scale Russian bombardment of Ukrainian territory. The objects penetrated Polish territory up to 60km from the border, with confirmed impact locations reported near Nowy Lipowiec, Molodycz, and Rudnik nad Sanem. This breach coincided with NATO-aligned military exercises in the region, leading the Polish government to classify the kinetic incursions as a deliberate provocation.",
+    "consensus": [
+      "Three objects violated Polish airspace overnight.",
+      "The incursions occurred during a major Russian aerial bombardment of Ukraine.",
+      "Polish authorities identified the objects as likely being two missiles and one jet-powered drone.",
+      "Impact/incursion locations identified as Nowy Lipowiec, Molodycz, and Rudnik nad Sanem.",
+      "The events took place during ongoing Western military exercises in the region."
+    ],
+    "divergence": [
+      "The Guardian reports at least eight fatalities and 30 injuries in Ukraine as part of the same operational window, whereas other sources focus solely on the Polish airspace violation.",
+      "BBC reports that 'nobody was hurt and no damage has been reported' within Poland, while the Guardian and Al Jazeera emphasize the broader scale of the event including casualties in Ukraine.",
+      "Specific distance measurements from the border vary across reports (BBC cites 50km for Nowy Lipowiec, while Al Jazeera cites 60km and 76km in different articles), indicating a lack of standardized telemetry confirmation in the public domain."
+    ],
+    "sources": [
+      {
+        "id": "art_1795195347586_spqnr",
+        "url": "https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine",
+        "source": "guardian",
+        "title": "Russian missiles and drone hit Poland during attacks on Ukraine"
+      },
+      {
+        "id": "art_1795195350637_t2q3r",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk"
+      },
+      {
+        "id": "art_1795195352760_vxr1n",
+        "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Poland condemns Russian ‘provocation’ after airspace violations"
+      },
+      {
+        "id": "art_1795195354053_igstd",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Poland hit by at least one Russian missile, says Polish govt"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "12527ccf1c107a44",
+    "topic_label": "Russian Nationwide Ballistic and Aerial Assault on Ukrainian Infrastructure",
+    "event_window_start": "2026-11-20T00:50:24.000Z",
+    "event_window_end": "2026-11-20T15:14:01.000Z",
+    "article_ids": [
+      "art_1795195348210_k4b6p",
+      "art_1795195349550_xuerb",
+      "art_1795136634571_i9fpv"
+    ],
+    "source_ids": [
+      "bbc",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-20T20:53:15.378Z",
+    "updated_at": "2026-11-20T20:53:15.378Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic",
+    "synthesis": "Russian military forces conducted a multi-vector strike against critical infrastructure across Ukraine, specifically targeting bridges in Kyiv and railway stations. The attack involved ballistic missiles and unmanned aerial vehicles. Casualties include at least eight to nine confirmed fatalities. Concurrent reports indicate potential ballistic incursion into NATO airspace (Poland), though this remains subject to further verification. These kinetic actions follow high-level diplomatic meetings in China involving the Russian, American, and Chinese heads of state.",
+    "consensus": [
+      "Russia executed a large-scale missile and drone attack on Ukrainian territory.",
+      "Bridges in Kyiv and railway stations were identified as primary targets.",
+      "The attack resulted in civilian casualties, with counts ranging from eight to nine dead.",
+      "These strikes occurred following high-level trilateral meetings in China.",
+      "The kinetic activity directly followed an earlier strike on the Crimean Bridge."
+    ],
+    "divergence": [
+      "Fox reports a potential breach of NATO airspace by Russian missiles and a drone entering Poland; the BBC makes no mention of this alleged incursion.",
+      "BBC frames the event as a direct retaliatory strike for the Crimean Bridge damage; Fox frames the event primarily in the context of the diplomatic timeline following the China summit.",
+      "BBC provides higher civilian casualty estimates (nine) compared to the figures cited in Fox (eight).",
+      "Fox explicitly characterizes the strikes as a contradiction to the 'diplomatic optimism' of the China summit; BBC avoids such political commentary on the diplomatic proceedings."
+    ],
+    "sources": [
+      {
+        "id": "art_1795195348210_k4b6p",
+        "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "What we know about the latest Russian missile strikes on Ukraine"
+      },
+      {
+        "id": "art_1795195349550_xuerb",
+        "url": "https://www.foxnews.com/world/putin-launches-ukraine-barrage-hours-after-trump-meeting-amid-alleged-russian-missile-breach-nato-airspace",
+        "source": "fox",
+        "title": "Putin launches Ukraine barrage hours after Trump meeting amid alleged Russian missile breach of NATO airspace"
+      },
+      {
+        "id": "art_1795136634571_i9fpv",
+        "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "48f6f0bbff7f9625",
+    "topic_label": "Prolonged Lethal Injection Procedure in Texas State Penitentiary",
+    "event_window_start": "2026-11-20T05:56:28.000Z",
+    "event_window_end": "2026-11-20T16:48:08.000Z",
+    "article_ids": [
+      "art_1795195361909_7d60s",
+      "art_1795162624914_vet0p",
+      "art_1795162626224_skvdc"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "fox-us"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-20T20:53:15.378Z",
+    "updated_at": "2026-11-20T20:53:15.378Z",
+    "region_tag": "global",
+    "severity": "MODERATE",
+    "incident_type": "State-Sanctioned Execution",
+    "synthesis": "On Thursday, 70-year-old inmate Reinaldo Dennes underwent a lethal injection at the Huntsville penitentiary in Texas. The execution team experienced difficulty establishing intravenous access, resulting in a procedure duration of 63 minutes. During this time, the subject expressed verbal signs of distress and pain before being pronounced dead at 7:08 p.m.",
+    "consensus": [
+      "Reinaldo Dennes, aged 70, was executed at the Huntsville penitentiary in Texas.",
+      "The lethal injection procedure lasted 63 minutes.",
+      "The execution team struggled to establish venous access for the administration of pentobarbital.",
+      "The subject was pronounced dead at 7:08 p.m.",
+      "The subject vocalized complaints of pain during the process."
+    ],
+    "divergence": [
+      "The Guardian frames the event as a 'botched execution' and uses it to advocate for a nationwide moratorium on lethal injections.",
+      "Fox and Fox-US omit the call for a moratorium, focusing on procedural documentation and citing Texas officials' claims that protocols were followed despite the duration.",
+      "The Guardian explicitly mentions the subject screaming and begging for death, whereas Fox uses more clinical language describing the subject 'crying out' and 'complaining of pain'."
+    ],
+    "sources": [
+      {
+        "id": "art_1795195361909_7d60s",
+        "url": "https://www.theguardian.com/us-news/2026/nov/20/botched-execution-texas",
+        "source": "guardian",
+        "title": "Latest botched execution prompts calls for US moratorium on lethal injections"
+      },
+      {
+        "id": "art_1795162624914_vet0p",
+        "url": "https://www.foxnews.com/us/texas-inmate-execution-takes-over-hour-prison-staff-struggle-find-suitable-veins",
+        "source": "fox",
+        "title": "Texas inmate's execution takes over an hour as prison staff struggle to find suitable veins"
+      },
+      {
+        "id": "art_1795162626224_skvdc",
+        "url": "https://www.foxnews.com/us/texas-inmate-execution-takes-over-hour-prison-staff-struggle-find-suitable-veins",
+        "source": "fox-us",
+        "title": "Texas inmate's execution takes over an hour as prison staff struggle to find suitable veins"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ef3350727ee27e0d",
+    "topic_label": "Defense Procurement and Strategic Realignments",
+    "event_window_start": "2026-11-19T21:23:13.000Z",
+    "event_window_end": "2026-11-20T16:55:38.000Z",
+    "article_ids": [
+      "art_1795195350104_i01w2",
+      "art_1795195354593_xf0lp",
+      "art_1795136630621_5rym0",
+      "art_1795136631218_8vc1e",
+      "art_1795136631822_7bcpk",
+      "art_1795136632350_3cfmn"
+    ],
+    "source_ids": [
+      "defensenews",
+      "guardian",
+      "fox",
+      "fox-politics"
+    ],
+    "article_count": 6,
+    "source_count": 4,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-20T20:53:15.378Z",
+    "updated_at": "2026-11-20T20:53:15.378Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Defense / Procurement / Policy",
+    "synthesis": "This analysis consolidates disparate reports on Western defense posture adjustments: The German Bundeswehr has verified the kinetic functionality of two one-way attack drone variants, Virtus and HX-2, at the Meppen test center. Simultaneously, the Netherlands has formalized a strategic directive to increase domestic defense industrial output by 40% by 2030, supported by a €1.6 billion investment. Concurrently, US legislative bodies have issued critical assessments regarding the AUKUS submarine transfer's impact on naval force structure and introduced a legislative report advocating for the severance of defense contracts with entities facilitating technology transfers to the Chinese aerospace military sector.",
+    "consensus": [
+      "Germany successfully tested the Virtus and HX-2 one-way attack drone systems at the Meppen test center in November.",
+      "The Dutch government launched a defense industrial strategy aiming for 40% growth by 2030, backed by €1.6 billion in funding.",
+      "The US Congressional Budget Office identified risks to US naval fleet availability resulting from the AUKUS submarine transfer commitment.",
+      "The US House Select Committee on the CCP published a report recommending restrictions on US defense contracts for companies maintaining aerospace partnerships with Chinese firms linked to the PLA."
+    ],
+    "divergence": [
+      "DefenseNews frames German drone testing as a precursor to rapid deployment, omitting specific failure rates or quantities.",
+      "Guardian frames the AUKUS report as a cautionary critique of US naval readiness, whereas official US policy documents omit the transfer from primary shipbuilding forecasts.",
+      "Fox News frames the House China panel report as an urgent corrective measure against foreign technology exploitation, focusing on the potential for 'tech transfer' as the primary threat vector."
+    ],
+    "sources": [
+      {
+        "id": "art_1795195350104_i01w2",
+        "url": "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/",
+        "source": "defensenews",
+        "title": "German attack drones pass live-fire tests, with first deliveries planned this year"
+      },
+      {
+        "id": "art_1795195354593_xf0lp",
+        "url": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
+        "source": "defensenews",
+        "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030"
+      },
+      {
+        "id": "art_1795136630621_5rym0",
+        "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
+        "source": "guardian",
+        "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’"
+      },
+      {
+        "id": "art_1795136631218_8vc1e",
+        "url": "https://www.foxnews.com/politics/house-china-panel-calls-cutting-defense-contracts-over-aerospace-ties-beijings-military",
+        "source": "fox",
+        "title": "House China panel calls for cutting defense contracts over aerospace ties to Beijing's military"
+      },
+      {
+        "id": "art_1795136631822_7bcpk",
+        "url": "https://www.foxnews.com/politics/house-china-panel-calls-cutting-defense-contracts-over-aerospace-ties-beijings-military",
+        "source": "fox-politics",
+        "title": "House China panel calls for cutting defense contracts over aerospace ties to Beijing's military"
+      },
+      {
+        "id": "art_1795136632350_3cfmn",
+        "url": "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
+        "source": "defensenews",
+        "title": "US missile shortages create a range problem, report shows"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "ac3c174dbf7057ea",
+    "topic_label": "UK-EU Brussels Summit on Trade and Mobility Agreements",
+    "event_window_start": "2026-11-20T07:12:43.000Z",
+    "event_window_end": "2026-11-20T16:41:54.000Z",
+    "article_ids": [
+      "art_1795195366117_3oug7",
+      "art_1795162614805_s0qw3",
+      "art_1795162619390_e9vnm",
+      "art_1795162619941_fwgx6"
+    ],
+    "source_ids": [
+      "guardian",
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-20T20:53:15.378Z",
+    "updated_at": "2026-11-20T20:53:15.378Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "Diplomacy",
+    "synthesis": "UK Prime Minister Andy Burnham is convening with European Commission President Ursula von der Leyen and European Council President Antonio Costa in Brussels for a diplomatic summit. The objective is to finalize specific bilateral agreements, primarily a youth mobility scheme facilitating the movement of up to 100,000 citizens in both directions annually, alongside negotiations on food trade standards, carbon emission pricing frameworks, and a joint immigration management strategy for the English Channel.",
+    "consensus": [
+      "UK Prime Minister Andy Burnham is meeting with EU leadership (von der Leyen and Costa) in Brussels on Friday.",
+      "Proposed youth mobility scheme aims to permit up to 100,000 young people from both jurisdictions to travel, work, and study across borders annually.",
+      "Negotiations encompass food trade rules, carbon emissions pricing, and an immigration action plan for the English Channel.",
+      "This represents the second high-level UK-EU summit since 2020."
+    ],
+    "divergence": [
+      "The Guardian reports on internal Conservative Party strategy shifts, noting a directive to leader Kemi Badenoch to minimize focus on Brexit-related discourse, an angle omitted by BBC and Al Jazeera.",
+      "The BBC identifies the specific figure of '100,000' for the youth mobility scheme as 'BBC understands' information, whereas other outlets refer to the summit agenda more broadly.",
+      "The Guardian frames the event through the lens of EU diplomatic adherence to single market principles, while Al Jazeera frames it as a 'reset' of relations a decade after the 2016 referendum."
+    ],
+    "sources": [
+      {
+        "id": "art_1795195366117_3oug7",
+        "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+        "source": "guardian",
+        "title": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live"
+      },
+      {
+        "id": "art_1795162614805_s0qw3",
+        "url": "https://www.theguardian.com/politics/2026/nov/20/kemi-badenoch-brexit-eu-conservatives",
+        "source": "guardian",
+        "title": "Senior Tories urge Badenoch to drop Brexit talk in major strategy shift, sources say"
+      },
+      {
+        "id": "art_1795162619390_e9vnm",
+        "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "UK and EU to agree youth mobility scheme, BBC understands"
+      },
+      {
+        "id": "art_1795162619941_fwgx6",
+        "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "EU and Britain to agree steps towards relations reset"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "50cfbd8a9ad5b785",
     "topic_label": "Advancement of the Bipartisan American Affordability and Jobs Act of 2026 (BAAJA)",
     "event_window_start": "2026-11-20T03:19:33.000Z",
@@ -14958,337 +15297,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
         "source": "aljazeera",
         "title": "Five killed and at least 10 injured in Krakow shooting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "483b9736ec5046a4",
-    "topic_label": "Establishment of Permanent Military Road Network in Southern Lebanon",
-    "event_window_start": "2026-11-07T16:30:33.000Z",
-    "event_window_end": "2026-11-07T17:16:50.000Z",
-    "article_ids": [
-      "art_1794085046598_4qs01",
-      "art_1794071640943_iseix"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-08T00:01:45.125Z",
-    "updated_at": "2026-11-08T00:01:45.125Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Infrastructure / Military Occupation",
-    "synthesis": "The Israeli military has constructed a 90-kilometer network of unpaved and reinforced roads extending into southern Lebanese territory, supplemented by the establishment of fortified military outposts. These physical infrastructures indicate a strategic shift from transient tactical maneuvering to a semi-permanent military presence, facilitating logistics and defensive positioning within the sovereign borders of Lebanon.",
-    "consensus": [
-      "Satellite imagery confirms a 90-kilometer network of new roads built by Israeli forces in southern Lebanon.",
-      "Physical military outposts have been constructed along these routes.",
-      "The infrastructure facilitates a sustained Israeli presence within Lebanese territory."
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes the potential for long-term territorial occupation and the humanitarian impact on local populations.",
-      "Israeli state media and defense spokespersons typically classify these actions as defensive 'operational adjustments' or 'security buffer' measures, which are absent from the provided reports."
-    ],
-    "sources": [
-      {
-        "id": "art_1794085046598_4qs01",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/lebanese-footballer-refuses-to-give-up-after-injuries-from-israeli-strike?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Lebanese footballer refuses to give up after injuries from Israeli strike"
-      },
-      {
-        "id": "art_1794071640943_iseix",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel builds 90km network of military roads across southern Lebanon"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "fc0fefcf8b404eb8",
-    "topic_label": "US Kinetic Strikes on Iranian Air Defense Systems at Qeshm Island",
-    "event_window_start": "2026-11-07T02:03:34.000Z",
-    "event_window_end": "2026-11-07T08:45:36.000Z",
-    "article_ids": [
-      "art_1794051067104_bpvg4",
-      "art_1794051068241_ifwlq",
-      "art_1794051068771_jxxxr",
-      "art_1794051069298_puplz",
-      "art_1794026577500_ktmir",
-      "art_1794026578108_0qdbe",
-      "art_1794026578712_53bei",
-      "art_1794026579259_7g8dp"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian",
-      "fox-politics"
-    ],
-    "article_count": 8,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-07T16:17:43.152Z",
-    "updated_at": "2026-11-07T16:17:43.152Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Military Infrastructure Strike",
-    "synthesis": "United States military forces executed kinetic strikes targeting Iranian air defense installations on Qeshm Island, located in the Strait of Hormuz. The strikes, characterized by the US administration as 'minor' and lasting approximately 5 to 15 minutes, resulted in the destruction of at least one anti-aircraft device. Iranian state media, including IRIB and IRNA, corroborated the physical impact of two missiles in the Suza area of Qeshm Island, while simultaneously claiming the interception and destruction of an incoming American projectile. These tactical engagements occur concurrently with ongoing diplomatic efforts facilitated by Qatar aimed at nuclear site inspections.",
-    "consensus": [
-      "US forces conducted kinetic missile strikes against Iranian air defense infrastructure on Qeshm Island.",
-      "The strikes occurred in the Suza area of Qeshm Island within the Strait of Hormuz.",
-      "US President Donald Trump acknowledged the strikes as 'minor' actions targeting anti-aircraft equipment.",
-      "Qatari mediation efforts are currently active regarding Iranian nuclear facilities and stockpile management.",
-      "Iranian state media confirmed the impact of two missiles in the Suza region."
-    ],
-    "divergence": [
-      "Al Jazeera emphasizes the tension of the midterms and characterizes the event as potentially escalating into a broader conflict.",
-      "Fox News minimizes the strikes, focusing heavily on diplomatic negotiations and UAE-backed optimistic narratives to frame the event as a manageable security challenge.",
-      "The Guardian frames the kinetic strikes in the context of broader nuclear site inspection proposals and the credibility of US threats, prioritizing the diplomatic track over the immediate tactical impact of the strike.",
-      "Iranian state media (IRIB) claims the successful interception of a US projectile, an assertion not corroborated by the US Department of Defense or Western reporting."
-    ],
-    "sources": [
-      {
-        "id": "art_1794051067104_bpvg4",
-        "url": "https://www.aljazeera.com/news/2026/11/7/will-trump-strike-nuclear-sites-again-as-iran-engages-cognitive?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’?"
-      },
-      {
-        "id": "art_1794051068241_ifwlq",
-        "url": "https://www.foxnews.com/world/gulf-official-glimmer-hope-trump-iran-nuclear-talks-threat-war-hangs-region",
-        "source": "fox",
-        "title": "Top Gulf official offers glimmer of hope on Trump-Iran nuclear talks as threat of war hangs over region"
-      },
-      {
-        "id": "art_1794051068771_jxxxr",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/trump-confirms-us-strikes-in-iran-insists-its-not-a?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump confirms US strikes in Iran, insists ‘it’s not a war’ "
-      },
-      {
-        "id": "art_1794051069298_puplz",
-        "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
-        "source": "guardian",
-        "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections"
-      },
-      {
-        "id": "art_1794026577500_ktmir",
-        "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Trump confirms new US strikes on Iran’s Qeshm Island"
-      },
-      {
-        "id": "art_1794026578108_0qdbe",
-        "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
-        "source": "guardian",
-        "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says"
-      },
-      {
-        "id": "art_1794026578712_53bei",
-        "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program",
-        "source": "fox",
-        "title": "US offers $20 million reward for information on Iran's nuclear program"
-      },
-      {
-        "id": "art_1794026579259_7g8dp",
-        "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program",
-        "source": "fox-politics",
-        "title": "US offers $20 million reward for information on Iran's nuclear program"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "4d5a7482d76221fd",
-    "topic_label": "Coordinated Russian Ballistic and Drone Strikes on Ukrainian Energy and Civilian Infrastructure",
-    "event_window_start": "2026-11-07T05:11:03.000Z",
-    "event_window_end": "2026-11-07T13:03:03.000Z",
-    "article_ids": [
-      "art_1794071631796_p50e2",
-      "art_1794071633681_mfbr4",
-      "art_1794071634414_mbnxo",
-      "art_1794051069826_y1z37"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera",
-      "bbc"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-07T20:39:16.315Z",
-    "updated_at": "2026-11-07T20:39:16.315Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Infrastructure / Ballistic",
-    "synthesis": "Russian military forces conducted a large-scale kinetic operation against Ukraine utilizing approximately 172 unmanned aerial vehicles and 36 ballistic missiles. The strikes targeted critical power substations across 12 regions, specifically impacting electricity and water distribution networks in Kyiv. Additional physical impact sites include a bridge over the Dnipro River, a kindergarten, and residential apartment blocks. These events are concurrent with scheduled diplomatic negotiations in Abu Dhabi.",
-    "consensus": [
-      "Russian forces deployed over 170 drones and more than 30 ballistic missiles.",
-      "Critical energy infrastructure was targeted, resulting in widespread blackouts and water service disruption.",
-      "Physical damage was confirmed to a bridge over the Dnipro, a kindergarten, and multiple residential buildings in Kyiv.",
-      "Events occurred immediately preceding scheduled trilateral talks in Abu Dhabi."
-    ],
-    "divergence": [
-      "The Guardian frames the event as a deliberate attempt to 'plunge the country into blackout' while emphasizing the political context of US midterm elections.",
-      "Al Jazeera provides a localized focus on the Zaporizhzhia region and the specific impact of glide bombs in Komyshuvakha, which is omitted by BBC and The Guardian in their summary of the overnight strike.",
-      "The BBC emphasizes a lower injury count (nine nationwide) compared to the more granular, localized damage reporting from Kyiv's mayor, Vitali Klitschko, regarding apartment buildings.",
-      "Discrepancies exist in the reporting of total casualties, with varying reports on the number of injured persons between the national summary and specific municipal reports."
-    ],
-    "sources": [
-      {
-        "id": "art_1794071631796_p50e2",
-        "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
-        "source": "guardian",
-        "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid"
-      },
-      {
-        "id": "art_1794071633681_mfbr4",
-        "url": "https://www.aljazeera.com/news/2026/11/7/they-started-bombing-us-with-drones-russian-attacks-unnerve-zaporizhzhia?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "‘They started bombing us with drones’: Russian attacks unnerve Zaporizhzhia"
-      },
-      {
-        "id": "art_1794071634414_mbnxo",
-        "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks"
-      },
-      {
-        "id": "art_1794051069826_y1z37",
-        "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Russia launches missile attack on Kyiv, injuring residents"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "a29c8b7fe9464101",
-    "topic_label": "Kraków Market Square Mass Shooting Incident",
-    "event_window_start": "2026-11-07T16:06:58.000Z",
-    "event_window_end": "2026-11-07T17:07:24.000Z",
-    "article_ids": [
-      "art_1794071634973_mokyj",
-      "art_1794071637490_wgv9q",
-      "art_1794071642581_c2x0c"
-    ],
-    "source_ids": [
-      "guardian",
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-07T20:39:16.315Z",
-    "updated_at": "2026-11-07T20:39:16.315Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism / Active Shooter",
-    "synthesis": "An unidentified perpetrator armed with a long military-style firearm executed a drive-by shooting in Kraków's main market square at approximately 15:00 hours. The assailant fired indiscriminately at civilians from his vehicle before engaging with law enforcement. The encounter resulted in the confirmed deaths of six individuals and at least 15 injuries. The perpetrator was intercepted by police, sustained injuries during the arrest, and has been transported to a hospital under guard.",
-    "consensus": [
-      "Six fatalities confirmed by regional authorities",
-      "At least 15 individuals injured",
-      "Assailant utilized a long military-style firearm",
-      "Shooting occurred in the vicinity of the Kraków main market square",
-      "Perpetrator fired from inside a vehicle",
-      "Suspect was shot, wounded, and arrested by police"
-    ],
-    "divergence": [
-      "The Guardian reports the suspect was 'neutralised' and hospitalized, whereas Al Jazeera reports an 'arrest' without explicitly detailing the suspect's physical condition post-confrontation.",
-      "Al Jazeera states at least 10 injured, while The Guardian cites at least 15 injured, reflecting a discrepancy in initial casualty assessments provided by different regional authorities.",
-      "The Guardian explicitly identifies the perpetrator's attire as 'military style,' a detail omitted by Al Jazeera."
-    ],
-    "sources": [
-      {
-        "id": "art_1794071634973_mokyj",
-        "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-        "source": "guardian",
-        "title": "Kraków shooting latest updates: five killed and more than a dozen injured, police say"
-      },
-      {
-        "id": "art_1794071637490_wgv9q",
-        "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-        "source": "guardian",
-        "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square"
-      },
-      {
-        "id": "art_1794071642581_c2x0c",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Five killed and at least 10 injured in Krakow shooting"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2f1b393b67a5c9ab",
-    "topic_label": "Development of 90km Military Road Infrastructure in Southern Lebanon",
-    "event_window_start": "2026-11-07T09:48:11.000Z",
-    "event_window_end": "2026-11-07T16:30:33.000Z",
-    "article_ids": [
-      "art_1794071640943_iseix",
-      "art_1794051070903_xg0c7",
-      "art_1794051079398_bfnvj"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 3,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-07T20:39:16.315Z",
-    "updated_at": "2026-11-07T20:39:16.315Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Infrastructure / Military Occupation",
-    "synthesis": "Israeli military forces have constructed a 90km network of paved transit routes and static defensive outposts across sovereign Lebanese territory. Satellite telemetry confirms the expansion of this infrastructure, which facilitates permanent, heavy-vehicle logistical support for occupying units within the region, indicating a shift from tactical maneuver to entrenched military presence.",
-    "consensus": [
-      "Israel is constructing a 90km network of roads in southern Lebanon.",
-      "New military outposts are being established as part of the road network infrastructure.",
-      "Satellite imagery corroborates the extent and physical scope of the construction."
-    ],
-    "divergence": [
-      "Al Jazeera interprets the physical infrastructure as evidence of a permanent occupation intent, whereas official Israeli military communications generally classify such construction as temporary operational logistics or defensive measures."
-    ],
-    "sources": [
-      {
-        "id": "art_1794071640943_iseix",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/israel-builds-90km-network-of-military-roads-across-southern-lebanon?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Israel builds 90km network of military roads across southern Lebanon"
-      },
-      {
-        "id": "art_1794051070903_xg0c7",
-        "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Rains flood thousands of displaced families’ tents in Gaza"
-      },
-      {
-        "id": "art_1794051079398_bfnvj",
-        "url": "https://www.aljazeera.com/features/2026/11/7/palestinian-citizens-of-israel-put-to-loyalty-test-after-election-wins?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Palestinian citizens of Israel put to ‘loyalty test’ after election wins"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
