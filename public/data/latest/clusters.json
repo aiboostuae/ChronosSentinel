@@ -1,5 +1,352 @@
 [
   {
+    "cluster_id": "171b7f65cdfba5ec",
+    "topic_label": "Multiple Kinetic Strikes: Kerch Bridge Neutralization, Gulf of Finland Maritime Attack, and Polish Territory Ballistic Impact",
+    "event_window_start": "2026-11-20T18:37:35.000Z",
+    "event_window_end": "2026-11-21T12:52:00.000Z",
+    "article_ids": [
+      "art_1795266528991_h7cer",
+      "art_1795266529569_1vot0",
+      "art_1795266530125_bdvny",
+      "art_1795217413591_98s10"
+    ],
+    "source_ids": [
+      "bbc",
+      "aljazeera"
+    ],
+    "article_count": 4,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-21T17:08:52.636Z",
+    "updated_at": "2026-11-21T17:08:52.636Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic / Maritime / Infrastructure",
+    "synthesis": "The conflict has escalated through three distinct kinetic engagements: Ukrainian forces conducted a multi-day operation against the Kerch Bridge, utilizing munitions to disable road and rail infrastructure connecting Russia to Crimea. Simultaneously, an unidentified actor struck a cargo vessel bound for Kaliningrad with two drones in the Gulf of Finland near Gogland Island, resulting in crew evacuation. Additionally, Russian projectiles, identified by Polish authorities as two missiles and a jet-powered drone, impacted civilian-adjacent zones within Polish territory at Nowy Lipowiec and Rudnik nad Sanem.",
+    "consensus": [
+      "The Kerch Bridge sustained significant structural damage to both road and rail sections following Ukrainian operations.",
+      "Two drones struck a cargo ship in the Gulf of Finland near the Russian maritime border, forcing crew evacuation.",
+      "Two missiles and one jet-powered drone impacted Polish territory at Nowy Lipowiec and Rudnik nad Sanem.",
+      "Finland implemented traffic restrictions in the eastern Gulf of Finland following the maritime strike."
+    ],
+    "divergence": [
+      "BBC frames the Kerch Bridge strikes primarily through political justification ('fair response'), whereas Al Jazeera focuses on the specific operational destruction of supply routes.",
+      "Al Jazeera reports the Gulf of Finland incident with uncertainty regarding the attacker, while reporting Russian statements regarding the vessel's destination.",
+      "Al Jazeera's reporting on the Poland strike includes direct confirmation from the Polish Defence Minister, whereas other sources omit the specifics of the drone involvement in that particular event."
+    ],
+    "sources": [
+      {
+        "id": "art_1795266528991_h7cer",
+        "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting"
+      },
+      {
+        "id": "art_1795266529569_1vot0",
+        "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russia says Kaliningrad-bound ship struck by drones in Gulf of Finland"
+      },
+      {
+        "id": "art_1795266530125_bdvny",
+        "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian missiles hit Poland: What happened, and could NATO respond?"
+      },
+      {
+        "id": "art_1795217413591_98s10",
+        "url": "https://www.aljazeera.com/news/2026/11/20/ukraine-strikes-kerch-bridge-as-putin-ally-declares-no-one-needs?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Ukraine strikes Kerch Bridge as Putin ally declares ‘no one needs Europe’"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b3c651a44d45c817",
+    "topic_label": "Israeli Drone Strikes and Ground Engagements in Gaza Strip",
+    "event_window_start": "2026-11-20T17:09:29.000Z",
+    "event_window_end": "2026-11-21T12:29:49.000Z",
+    "article_ids": [
+      "art_1795266537741_z6f7z",
+      "art_1795217413039_c3wcg",
+      "art_1795195357699_hf150"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-21T17:08:52.636Z",
+    "updated_at": "2026-11-21T17:08:52.636Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Military Operations",
+    "synthesis": "Israeli military forces conducted a series of lethal engagements within the Gaza Strip involving unmanned aerial vehicle (UAV) strikes and ground-based small arms fire. Kinetic actions include a drone strike on a vehicle in Tel al-Hawa, multiple drone strikes targeting individuals in Bureij, Nuseirat, and Deir el-Balah, and a ground-based shooting incident at the Halawa displacement camp. These actions resulted in at least eleven confirmed fatalities across the reported incidents, occurring in locations designated as displacement camps and refugee areas.",
+    "consensus": [
+      "Israeli drone strikes occurred in Tel al-Hawa, Bureij, Nuseirat, and Deir el-Balah.",
+      "A fatal shooting incident took place at the Halawa displacement camp.",
+      "Total reported fatalities across the documented incidents equals eleven individuals.",
+      "Israeli military assets were the source of both aerial and ground-based kinetic force."
+    ],
+    "divergence": [
+      "Al Jazeera characterizes the military activity as a violation of a ceasefire and uses the term 'genocidal war' to describe the operational context.",
+      "Fox News does not report on these kinetic events, focusing exclusively on domestic sports and cultural events in Detroit, reflecting a complete omission of the conflict in their provided feed.",
+      "Al Jazeera's reporting focuses on civilian status of casualties and humanitarian conditions, omitting tactical details regarding potential militant targets."
+    ],
+    "sources": [
+      {
+        "id": "art_1795266537741_z6f7z",
+        "url": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli attacks on Gaza kill at least four Palestinians"
+      },
+      {
+        "id": "art_1795217413039_c3wcg",
+        "url": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli drone attacks kill seven Palestinians in central Gaza"
+      },
+      {
+        "id": "art_1795195357699_hf150",
+        "url": "https://www.foxnews.com/outkick-sports/nba-detroit-pistons-host-muslim-night-abdul-el-sayed-shoutout-gaza-relief-charity",
+        "source": "fox",
+        "title": "Detroit Pistons to host Muslim Night with El-Sayed shoutout, Gaza donations; no Christian-focused event"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "b74f3f9c08390389",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-20T23:10:38.000Z",
+    "event_window_end": "2026-11-20T23:20:29.000Z",
+    "article_ids": [
+      "art_1795217415470_ad51g",
+      "art_1795217417645_k2qu8",
+      "art_1795217418194_mdsvo"
+    ],
+    "source_ids": [
+      "guardian",
+      "fox",
+      "fox-us"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-21T09:18:46.496Z",
+    "updated_at": "2026-11-21T09:18:46.496Z",
+    "region_tag": "global",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1795217415470_ad51g",
+        "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
+        "source": "guardian",
+        "title": "Man accused of sparking deadly Los Angeles wildfire found guilty"
+      },
+      {
+        "id": "art_1795217417645_k2qu8",
+        "url": "https://www.foxnews.com/us/verdict-reached-los-angeles-retrial-2025-pacific-palisades-wildfire-killed-12-people",
+        "source": "fox",
+        "title": "Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people"
+      },
+      {
+        "id": "art_1795217418194_mdsvo",
+        "url": "https://www.foxnews.com/us/verdict-reached-los-angeles-retrial-2025-pacific-palisades-wildfire-killed-12-people",
+        "source": "fox-us",
+        "title": "Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "da39e2eb6e8ba763",
+    "topic_label": "Expulsion of Russian Defense Attaché following Alleged Assassination Plot in Denmark",
+    "event_window_start": "2026-11-20T21:57:07.000Z",
+    "event_window_end": "2026-11-21T01:12:48.000Z",
+    "article_ids": [
+      "art_1795235015916_h6kz4",
+      "art_1795217424568_kq6k2"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-21T17:08:52.636Z",
+    "updated_at": "2026-11-21T17:08:52.636Z",
+    "region_tag": "middle-east",
+    "severity": "MODERATE",
+    "incident_type": "Diplomacy / Counter-Intelligence",
+    "synthesis": "The Danish government has ordered the expulsion of the Russian defense attaché from Copenhagen, citing intelligence findings that link Russian state services to a foiled assassination plot targeting a Ukrainian-American performer. The Danish Security and Intelligence Service (PET) confirmed the interdiction of two individuals in September who were tasked with committing murder at a concert venue, allegedly coordinated through local criminal proxies. The Russian Embassy has formally rejected the accusation, characterizing the charges as baseless and lacking evidentiary support.",
+    "consensus": [
+      "The Danish government has formally ordered the expulsion of the Russian defense attaché.",
+      "Two individuals were previously charged in connection with an alleged plot to commit murder at a concert near Copenhagen in September.",
+      "The charges against the suspects include both attempted murder and assisting a foreign intelligence service.",
+      "The Russian Embassy in Denmark has issued a formal denial of involvement."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the potential future diplomatic escalation, highlighting Denmark's consideration of suspending Schengen visas for Russian citizens.",
+      "BBC provides additional context regarding the legal status of the suspects, noting that both individuals have entered not-guilty pleas.",
+      "The Russian Embassy's official position, as reported by the BBC, characterizes the Danish narrative as a recurring 'Danish model' of unfounded accusations, a framing absent from the Al Jazeera report."
+    ],
+    "sources": [
+      {
+        "id": "art_1795235015916_h6kz4",
+        "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper"
+      },
+      {
+        "id": "art_1795217424568_kq6k2",
+        "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "8856b32d7feea311",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-20T22:23:53.000Z",
+    "event_window_end": "2026-11-21T03:01:24.000Z",
+    "article_ids": [
+      "art_1795235009681_yzazj",
+      "art_1795217421399_7ejdb",
+      "art_1795217422976_7m8so"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 3,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-21T09:18:46.496Z",
+    "updated_at": "2026-11-21T09:18:46.496Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1795235009681_yzazj",
+        "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Three French police officers sentenced over racist assault on Black man"
+      },
+      {
+        "id": "art_1795217421399_7ejdb",
+        "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "French police officers sentenced for beating of music producer Michel Zecler"
+      },
+      {
+        "id": "art_1795217422976_7m8so",
+        "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
+        "source": "guardian",
+        "title": "French police officers found guilty of racist assault on black music producer"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
+    "cluster_id": "630665d596e75b69",
+    "topic_label": "Coordinated Multi-Sector Critical Infrastructure Outages",
+    "event_window_start": "2026-11-21T12:00:44.000Z",
+    "event_window_end": "2026-11-21T13:00:48.000Z",
+    "article_ids": [
+      "art_1795266531817_gh215",
+      "art_1795266540470_cwqbu",
+      "art_1795266541021_qld1z"
+    ],
+    "source_ids": [
+      "fox",
+      "fox-us"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-21T17:08:52.636Z",
+    "updated_at": "2026-11-21T17:08:52.636Z",
+    "region_tag": "global",
+    "severity": "CRITICAL",
+    "incident_type": "Infrastructure / Cyber-Physical",
+    "synthesis": "Over the past week, the United States experienced a series of cascading failures across critical sectors, including a nationwide air traffic control ground stop, widespread banking service disruptions at JPMorgan Chase and other financial institutions, and a service outage at Microsoft. While federal officials, including Homeland Security Secretary Markwayne Mullin, have publicly categorized these as isolated technical glitches with no evidence of external cyberattacks, independent security experts warn that the rapid succession of these events may indicate concealed stealth intrusions or cyber-physical compromises.",
+    "consensus": [
+      "A nationwide air traffic control ground stop occurred.",
+      "Banking outages occurred at JPMorgan Chase and other financial institutions.",
+      "A service disruption occurred at Microsoft.",
+      "Federal officials publicly stated there is no evidence of a cyberattack.",
+      "The air traffic control system currently utilizes legacy data storage technology."
+    ],
+    "divergence": [
+      "Fox News frames the political response to the infrastructure failures as an opportunity for media entities to engage in partisan antagonism toward the current administration.",
+      "The source omits specific telemetry or logs regarding the technical nature of the Microsoft or banking outages, relying solely on official government assurances.",
+      "The reporting lacks confirmation from cybersecurity forensics or independent third-party audit verification of the government's 'technical glitch' characterization."
+    ],
+    "sources": [
+      {
+        "id": "art_1795266531817_gh215",
+        "url": "https://www.foxnews.com/opinion/tech-outages-give-broadcast-media-opportunity-bash-republicans",
+        "source": "fox",
+        "title": "Tech outages give broadcast media just another opportunity to bash Republicans"
+      },
+      {
+        "id": "art_1795266540470_cwqbu",
+        "url": "https://www.foxnews.com/us/swift-assurances-officials-wave-nationwide-outages-raises-questions-expert-says",
+        "source": "fox",
+        "title": "Swift assurances from officials after wave of nationwide outages raises questions, expert says"
+      },
+      {
+        "id": "art_1795266541021_qld1z",
+        "url": "https://www.foxnews.com/us/swift-assurances-officials-wave-nationwide-outages-raises-questions-expert-says",
+        "source": "fox-us",
+        "title": "Swift assurances from officials after wave of nationwide outages raises questions, expert says"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "469bc92856a34034",
     "topic_label": "Fallback Synthesis",
     "event_window_start": "2026-11-20T13:23:53.000Z",
@@ -72,61 +419,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt?traffic_source=rss",
         "source": "aljazeera",
         "title": "Poland hit by at least one Russian missile, says Polish govt"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "b74f3f9c08390389",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-11-20T23:10:38.000Z",
-    "event_window_end": "2026-11-20T23:20:29.000Z",
-    "article_ids": [
-      "art_1795217415470_ad51g",
-      "art_1795217417645_k2qu8",
-      "art_1795217418194_mdsvo"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox",
-      "fox-us"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-21T09:18:46.496Z",
-    "updated_at": "2026-11-21T09:18:46.496Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1795217415470_ad51g",
-        "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict",
-        "source": "guardian",
-        "title": "Man accused of sparking deadly Los Angeles wildfire found guilty"
-      },
-      {
-        "id": "art_1795217417645_k2qu8",
-        "url": "https://www.foxnews.com/us/verdict-reached-los-angeles-retrial-2025-pacific-palisades-wildfire-killed-12-people",
-        "source": "fox",
-        "title": "Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people"
-      },
-      {
-        "id": "art_1795217418194_mdsvo",
-        "url": "https://www.foxnews.com/us/verdict-reached-los-angeles-retrial-2025-pacific-palisades-wildfire-killed-12-people",
-        "source": "fox-us",
-        "title": "Verdict reached in Los Angeles retrial over 2025 Pacific Palisades wildfire that killed 12 people"
       }
     ],
     "model_used": "deterministic-fallback"
@@ -274,61 +566,6 @@
         "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
         "source": "aljazeera",
         "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "8856b32d7feea311",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-11-20T22:23:53.000Z",
-    "event_window_end": "2026-11-21T03:01:24.000Z",
-    "article_ids": [
-      "art_1795235009681_yzazj",
-      "art_1795217421399_7ejdb",
-      "art_1795217422976_7m8so"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-21T09:18:46.496Z",
-    "updated_at": "2026-11-21T09:18:46.496Z",
-    "region_tag": "middle-east",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1795235009681_yzazj",
-        "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Three French police officers sentenced over racist assault on Black man"
-      },
-      {
-        "id": "art_1795217421399_7ejdb",
-        "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "French police officers sentenced for beating of music producer Michel Zecler"
-      },
-      {
-        "id": "art_1795217422976_7m8so",
-        "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
-        "source": "guardian",
-        "title": "French police officers found guilty of racist assault on black music producer"
       }
     ],
     "model_used": "deterministic-fallback"
@@ -14903,252 +15140,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/aje-onl-nf_plane-clips-truck-during-emergency-landing-florida-071126?traffic_source=rss",
         "source": "aljazeera",
         "title": "Plane clips truck during emergency landing on busy Florida road"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "1147cf64ef699108",
-    "topic_label": "Fatal Midair Collision of Two Parachutists in Lake Elsinore",
-    "event_window_start": "2026-11-08T02:13:43.000Z",
-    "event_window_end": "2026-11-08T02:13:43.000Z",
-    "article_ids": [
-      "art_1794120275663_i5mqt",
-      "art_1794120276188_tgcm9"
-    ],
-    "source_ids": [
-      "fox",
-      "fox-us"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-08T11:14:36.180Z",
-    "updated_at": "2026-11-08T11:14:36.180Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Aviation Sport / Recreational Fatality",
-    "synthesis": "On Friday, two licensed skydivers, Georgia Jean (56) and Levi Pimentel (29), sustained fatal injuries following a midair entanglement and subsequent collision with terrain at Skydive Elsinore in Southern California. Telemetry indicates the entanglement occurred at approximately 150 feet above ground level, resulting in an uncontrolled descent. This event is physically distinct from an unrelated mass-fatality aircraft crash in northeastern France involving 11 individuals, which was conflated in the source reporting.",
-    "consensus": [
-      "Two licensed skydivers identified as Georgia Jean and Levi Pimentel died in Lake Elsinore, California.",
-      "The deaths resulted from a midair entanglement of parachute systems.",
-      "The collapse of the parachute systems occurred at approximately 150 feet above the ground."
-    ],
-    "divergence": [
-      "Fox and Fox-US incorrectly embedded a lead paragraph concerning a separate, unrelated fatal aircraft crash in France involving 11 people, creating confusion between two distinct casualty events."
-    ],
-    "sources": [
-      {
-        "id": "art_1794120275663_i5mqt",
-        "url": "https://www.foxnews.com/us/two-experienced-skydivers-die-midair-collision-entangles-parachutes",
-        "source": "fox",
-        "title": "Two experienced skydivers die after midair collision entangles their parachutes"
-      },
-      {
-        "id": "art_1794120276188_tgcm9",
-        "url": "https://www.foxnews.com/us/two-experienced-skydivers-die-midair-collision-entangles-parachutes",
-        "source": "fox-us",
-        "title": "Two experienced skydivers die after midair collision entangles their parachutes"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2b53800bcea1e744",
-    "topic_label": "5.7-Magnitude Seismic Event in Shizuoka Prefecture",
-    "event_window_start": "2026-11-08T04:20:57.000Z",
-    "event_window_end": "2026-11-08T13:11:41.000Z",
-    "article_ids": [
-      "art_1794146528692_g1yyl",
-      "art_1794120269524_yei41"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-08T17:14:05.915Z",
-    "updated_at": "2026-11-08T17:14:05.915Z",
-    "region_tag": "middle-east",
-    "severity": "CRITICAL",
-    "incident_type": "Geological / Infrastructure",
-    "synthesis": "A 5.7-magnitude earthquake occurred at 1:04am local time on Sunday in western Shizuoka Prefecture, Japan, at a focal depth of 40km. The seismic event resulted in physical infrastructure damage, specifically shattered store windows and building structural shaking, impacting Aichi and Shizuoka prefectures. The event caused more than 20 civilian injuries and forced the delay of rail operations at Nagoya Station. No tsunami threat was detected by the Japan Meteorological Agency.",
-    "consensus": [
-      "A 5.7-magnitude earthquake struck Shizuoka Prefecture, Japan, at 1:04am local time on Sunday.",
-      "The focal depth of the earthquake was 40km.",
-      "Over 20 people sustained injuries across Aichi and Shizuoka prefectures.",
-      "Physical damage includes broken glass and transit delays at Nagoya Station.",
-      "The Japan Meteorological Agency issued no tsunami warning."
-    ],
-    "divergence": [
-      "Al Jazeera's coverage emphasizes the CCTV footage of shaking streets, whereas the secondary report focuses on the logistical impact on rail transport and administrative injury tallies.",
-      "Al Jazeera omits the full list of impacted prefectures (Yamanashi, Gifu, Kyoto, Nara) in the initial headline-driven report, restricting focus to the immediate Aichi/Shizuoka context."
-    ],
-    "sources": [
-      {
-        "id": "art_1794146528692_g1yyl",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/cctv-captures-streets-shaking-as-5-7-magnitude-earthquake-hits-japan?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "CCTV captures streets shaking as 5.7-magnitude earthquake hits Japan"
-      },
-      {
-        "id": "art_1794120269524_yei41",
-        "url": "https://www.aljazeera.com/news/2026/11/8/earthquake-hits-central-japan-injuring-more-than-20-people?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Earthquake hits central Japan, injuring more than 20 people"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "c75cac10392be5fd",
-    "topic_label": "Formation Mandate Granted to Gadi Eisenkot",
-    "event_window_start": "2026-11-07T22:17:37.000Z",
-    "event_window_end": "2026-11-08T18:12:27.000Z",
-    "article_ids": [
-      "art_1794164096413_ctd6q",
-      "art_1794164101344_hkouu",
-      "art_1794164106142_hke7r",
-      "art_1794097624482_jqte7",
-      "art_1794097629520_ntxwa",
-      "art_1794097630057_zvbh0"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "guardian",
-      "bbc",
-      "fox"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-08T21:12:08.004Z",
-    "updated_at": "2026-11-08T21:12:08.004Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Diplomacy",
-    "synthesis": "Israeli President Isaac Herzog has formally tasked opposition leader Gadi Eisenkot with the formation of a new coalition government following inconclusive parliamentary elections. Eisenkot, a former military chief, is provided with an initial 28-day window to secure a majority coalition in the Knesset. This transition follows an election cycle where neither the incumbent Prime Minister Benjamin Netanyahu nor the opposition bloc secured a governing majority. Eisenkot has publicly declared the current situation a national emergency, citing a political and social crisis, and has issued invitations to Likud and Religious Zionist Party members to join a coalition under his leadership.",
-    "consensus": [
-      "President Isaac Herzog has tasked Gadi Eisenkot with forming a government.",
-      "No party or bloc secured a parliamentary majority in the recent election.",
-      "Eisenkot is granted 28 days to complete the formation process.",
-      "The process occurs against a backdrop of ongoing coalition negotiations in the Knesset."
-    ],
-    "divergence": [
-      "Al Jazeera includes contextual reporting on environmental conditions in Gaza (winter storm, flooded tents), which the BBC and The Guardian omit from their coverage of the political transition.",
-      "The Guardian frames the event using more urgent language, describing the state of affairs as a 'historic crisis' and a 'point of no return,' whereas the BBC maintains a more procedural tone regarding the mandate.",
-      "The Guardian reports a 28-day deadline, while Al Jazeera (in a separate fragment) erroneously suggests a six-week window, creating a discrepancy in the reporting of the constitutional timeline."
-    ],
-    "sources": [
-      {
-        "id": "art_1794164096413_ctd6q",
-        "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Eisenkot open to Netanyahu joining Israel’s next government"
-      },
-      {
-        "id": "art_1794164101344_hkouu",
-        "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
-        "source": "guardian",
-        "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government"
-      },
-      {
-        "id": "art_1794164106142_hke7r",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/dnrbltn-261108-hegazyn-jerusalem_daily-081126?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Jerusalem Daily: Eisenkot picked over Netanyahu to form government"
-      },
-      {
-        "id": "art_1794097624482_jqte7",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/eisenkot-chosen-over-netanyahu-to-form-israels-next-government?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Eisenkot chosen over Netanyahu to form Israel’s next government"
-      },
-      {
-        "id": "art_1794097629520_ntxwa",
-        "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Israel's president tasks opposition leader Eisenkot with forming government"
-      },
-      {
-        "id": "art_1794097630057_zvbh0",
-        "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms",
-        "source": "fox",
-        "title": "Israeli president taps Netanyahu rival to form government as coalition battle looms"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3447c9e8ff05575f",
-    "topic_label": "Establishment of US CENTCOM Task Force Iron Gate",
-    "event_window_start": "2026-11-08T02:34:04.000Z",
-    "event_window_end": "2026-11-08T17:44:51.000Z",
-    "article_ids": [
-      "art_1794164103297_do018",
-      "art_1794146525736_oz0q4",
-      "art_1794146529789_wiezq",
-      "art_1794120274617_qcuj3"
-    ],
-    "source_ids": [
-      "aljazeera"
-    ],
-    "article_count": 4,
-    "source_count": 1,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-08T21:12:08.004Z",
-    "updated_at": "2026-11-08T21:12:08.004Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Military / Infrastructure",
-    "synthesis": "The United States Central Command (CENTCOM) has formally established Task Force Iron Gate to intercept and block Iranian land-based logistics corridors. This military action complements existing US maritime blockades in the Strait of Hormuz. The objective of the task force is the physical interdiction of Iranian transport of advanced weaponry, dual-use technology, and sanctioned materials across regional ground supply routes. The operation is coordinated by US military assets and government agencies from command centers based in Florida.",
-    "consensus": [
-      "CENTCOM has established Task Force Iron Gate.",
-      "The mission of the task force is the blockade of Iranian land-based supply routes.",
-      "The task force aims to prevent the transport of advanced weapons, dual-use technology, and sanctioned materials.",
-      "The operation is officially framed as an extension of existing naval blockades in the Strait of Hormuz."
-    ],
-    "divergence": [
-      "The reporting source frames the action as a 'disruption of supply routes' rather than the active kinetic interdiction and blockade of sovereign transit routes implied by the task force's mandate.",
-      "The source omits specific tactical details regarding the 'ground routes' identified for interdiction, focusing instead on the strategic declaration of the blockade."
-    ],
-    "sources": [
-      {
-        "id": "art_1794164103297_do018",
-        "url": "https://www.aljazeera.com/news/2026/11/8/hundreds-of-thousands-protesters-storm-amsterdam?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Hundreds of thousands join Amsterdam’s ‘Red Line’ protest against Israel"
-      },
-      {
-        "id": "art_1794146525736_oz0q4",
-        "url": "https://www.aljazeera.com/news/2026/11/8/egypts-reopening-of-its-embassy-in-tripoli-signals-regional-shift-on-libya?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Egypt’s reopening of its embassy in Tripoli signals regional shift on Libya"
-      },
-      {
-        "id": "art_1794146529789_wiezq",
-        "url": "https://www.aljazeera.com/news/2026/11/8/could-iraqs-kurdish-region-return-to-two-separate-administrations?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Could Iraq’s Kurdish region return to two separate administrations?"
-      },
-      {
-        "id": "art_1794120274617_qcuj3",
-        "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US launches task force to disrupt Iran’s land-based supply routes"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
