@@ -1,5 +1,219 @@
 [
   {
+    "cluster_id": "3f9d37f031bc0bb5",
+    "topic_label": "Iranian Aerial Strike on Bahraini Industrial Site",
+    "event_window_start": "2026-11-21T21:31:03.000Z",
+    "event_window_end": "2026-11-21T22:02:03.000Z",
+    "article_ids": [
+      "art_1795306807113_dxhxr",
+      "art_1795306810390_pftqz"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-22T17:32:50.889Z",
+    "updated_at": "2026-11-22T17:32:50.889Z",
+    "region_tag": "middle-east",
+    "severity": "HIGH",
+    "incident_type": "Ballistic/Drone Strike",
+    "synthesis": "The Bahraini Ministry of Interior and Defence Force confirmed an Iranian kinetic strike against an undisclosed civilian industrial facility near Manama. The attack, executed late Saturday, involved multiple aerial units that successfully breached local airspace and caused a fire at the target site. Bahraini air defense systems conducted interception operations, but at least one strike resulted in confirmed material damage. No casualties have been reported, and emergency civil defense teams are engaged in suppression operations.",
+    "consensus": [
+      "An Iranian-origin aerial attack targeted an industrial facility in Bahrain.",
+      "The attack resulted in a fire at the site.",
+      "Bahraini air defenses were activated and intercepted multiple incoming units.",
+      "Material damage occurred but no human casualties were reported.",
+      "Air raid sirens were activated in the vicinity of Manama."
+    ],
+    "divergence": [
+      "Al Jazeera explicitly characterizes the event as an escalation of the ongoing war in the Middle East, while Bahraini official statements prioritize the categorization of the strike as 'Iranian aggression'.",
+      "The Interior Ministry of Bahrain withheld specific location data for the industrial facility, which Al Jazeera reports as a strategic obfuscation of the damage extent."
+    ],
+    "sources": [
+      {
+        "id": "art_1795306807113_dxhxr",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Bahrain says Iranian attack hits industrial facility"
+      },
+      {
+        "id": "art_1795306810390_pftqz",
+        "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Bahrain says Iranian attack causes fire at industrial facility"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "026d8d8b8df376d2",
+    "topic_label": "Drone Strike on Russian Cargo Vessel Sparta II in Gulf of Finland",
+    "event_window_start": "2026-11-21T19:20:22.000Z",
+    "event_window_end": "2026-11-22T11:15:27.000Z",
+    "article_ids": [
+      "art_1795362393687_z0m1t",
+      "art_1795291847337_56nf3"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc"
+    ],
+    "article_count": 2,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-22T17:32:50.889Z",
+    "updated_at": "2026-11-22T17:32:50.889Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Maritime / Ballistic",
+    "synthesis": "The Russian-flagged cargo vessel Sparta II was incapacitated by a kinetic drone strike on Saturday morning while transiting the eastern Gulf of Finland en route to Kaliningrad. The impact induced a fire aboard the vessel, resulting in the loss of propulsion and subsequent uncontrolled drifting into Finnish territorial waters. Finnish authorities have established emergency air and maritime exclusion zones to facilitate rescue operations and manage the hazard, confirming the vessel's crew required evacuation due to the fire damage.",
+    "consensus": [
+      "The Russian cargo ship Sparta II was hit by a drone attack on Saturday morning.",
+      "The vessel suffered fire damage and loss of control, drifting into Finnish waters.",
+      "The Finnish Border Guard is leading emergency operations.",
+      "The ship was transiting toward the Kaliningrad exclave at the time of the incident."
+    ],
+    "divergence": [
+      "Al Jazeera characterizes the origin of the drones as 'suspected' without attribution, whereas the BBC includes Finnish defense assertions that Ukraine is likely responsible.",
+      "The BBC includes political commentary from the Finnish Prime Minister regarding the expansion of the conflict and the right of the aggressor to be targeted, which is absent from the Al Jazeera report.",
+      "The Kaliningrad Governor's statement claiming the use of two specific drones and asserting no threat to supply lines is exclusive to the BBC report."
+    ],
+    "sources": [
+      {
+        "id": "art_1795362393687_z0m1t",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Russian ship attacked by drone in Baltic Sea off Finland"
+      },
+      {
+        "id": "art_1795291847337_56nf3",
+        "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Russia-bound ship attacked in Gulf of Finland"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "d37e6043cad3351f",
+    "topic_label": "Russian Kinetic Aerial Bombardment Campaign Across Ukraine",
+    "event_window_start": "2026-11-21T18:42:38.000Z",
+    "event_window_end": "2026-11-22T14:48:50.000Z",
+    "article_ids": [
+      "art_1795362392545_d2dsh",
+      "art_1795291840282_mabj2",
+      "art_1795291853363_u760d"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "fox"
+    ],
+    "article_count": 3,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-22T17:32:50.889Z",
+    "updated_at": "2026-11-22T17:32:50.889Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Ballistic and Drone Strike Campaign",
+    "synthesis": "Russian forces executed a sustained multi-day aerial bombardment across multiple Ukrainian regions, utilizing a combination of approximately 2,700 attack drones, 1,460 guided aerial bombs, and 165 missiles, including North Korean-supplied ballistic systems. Kinetic impacts resulted in at least 11 confirmed fatalities across Kyiv, Zaporizhzhia, and Kryvyi Rih, with residential fires reported in the capital. The Ukrainian state is currently experiencing a critical depletion of Patriot interceptor inventories, impacting the ability to neutralize incoming ballistic threats.",
+    "consensus": [
+      "Russian forces launched a large-scale aerial campaign utilizing drones, guided bombs, and ballistic missiles.",
+      "Multiple civilian casualties have been confirmed in Kyiv, Zaporizhzhia, and Kryvyi Rih.",
+      "Residential infrastructure in Kyiv sustained direct impact damage.",
+      "President Zelenskyy has publicly signaled a critical shortage of Patriot interceptor missiles."
+    ],
+    "divergence": [
+      "Al Jazeera focuses on the strategic volume of munitions (2,700 drones/1,460 bombs) and the North Korean link.",
+      "Fox News emphasizes the strike on Kryvyi Rih and personal casualties (a 7-year-old boy and a 20-year-old woman) while contextualizing the report within US domestic political commentary regarding Trump/Putin meetings.",
+      "Fox News omits the broader nationwide scope of the 2,700 drone tally reported by Al Jazeera.",
+      "Al Jazeera reports higher casualty counts (8 deaths in one overnight barrage) compared to specific local reports cited by Fox."
+    ],
+    "sources": [
+      {
+        "id": "art_1795362392545_d2dsh",
+        "url": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 3 in Ukraine"
+      },
+      {
+        "id": "art_1795291840282_mabj2",
+        "url": "https://www.foxnews.com/world/zelenskyy-says-russia-strikes-hometown-criticizes-putin-trump-meeting",
+        "source": "fox",
+        "title": "Zelenskyy says Russia strikes hometown, criticizes Putin-Trump meeting"
+      },
+      {
+        "id": "art_1795291853363_u760d",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
+    "cluster_id": "51a4a1cf01e5df53",
+    "topic_label": "Israeli Kinetic Air Operations in Gaza Deir el-Balah and Gaza City",
+    "event_window_start": "2026-11-21T17:54:19.000Z",
+    "event_window_end": "2026-11-22T02:14:18.000Z",
+    "article_ids": [
+      "art_1795332559720_d82vj",
+      "art_1795291841503_k04rm"
+    ],
+    "source_ids": [
+      "aljazeera"
+    ],
+    "article_count": 2,
+    "source_count": 1,
+    "qualification_status": "qualified",
+    "qualification_score": 0.9,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-22T17:32:50.889Z",
+    "updated_at": "2026-11-22T17:32:50.889Z",
+    "region_tag": "middle-east",
+    "severity": "CRITICAL",
+    "incident_type": "Military / Infrastructure / Humanitarian",
+    "synthesis": "Israeli air forces have conducted multiple kinetic strikes resulting in the destruction of over 500 residential housing units near the demarcation line known as the Yellow Line, alongside a targeted strike on a vehicle identified with World Central Kitchen markings in Gaza City. These actions involve the deployment of aerial munitions against infrastructure and logistics transport, resulting in three confirmed fatalities in the Gaza City strike and widespread displacement and property destruction in Deir el-Balah.",
+    "consensus": [
+      "Israeli forces executed air strikes resulting in the destruction of over 500 housing units in the Deir el-Balah area.",
+      "An Israeli air strike targeted a vehicle in Gaza City, killing three occupants.",
+      "The struck vehicle contained documentation associated with the aid organization World Central Kitchen.",
+      "Protests have occurred in Deir el-Balah near the 'Yellow Line' demarcation zone."
+    ],
+    "divergence": [
+      "Al Jazeera explicitly characterizes the destruction of housing as a 'systematic policy of gradual creeping displacement', whereas objective physical reporting focuses on the kinetic destruction of structures without attributing intent.",
+      "The reporting frames the area around the 'Yellow Line' as a ceasefire zone, while the kinetic activity indicates ongoing active combat operations despite the referenced 2025 agreement.",
+      "Al Jazeera's coverage emphasizes the victim status of the displaced population to highlight the impact of the air strikes, omitting details regarding potential military targeting criteria or Israeli tactical justifications."
+    ],
+    "sources": [
+      {
+        "id": "art_1795332559720_d82vj",
+        "url": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Displaced Palestinians protest as Israeli air strikes continue in Gaza"
+      },
+      {
+        "id": "art_1795291841503_k04rm",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike hits food aid vehicle in Gaza, killing three"
+      }
+    ],
+    "model_used": "gemini-3.1-flash-lite"
+  },
+  {
     "cluster_id": "e0e215feef75a308",
     "topic_label": "Israeli Kinetic Operations in Gaza and Lebanese Sovereignty Disputes",
     "event_window_start": "2026-11-21T12:29:49.000Z",
@@ -15106,248 +15320,5 @@
       }
     ],
     "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "2021123c7cc9fe04",
-    "topic_label": "Fallback Synthesis",
-    "event_window_start": "2026-11-10T11:34:23.000Z",
-    "event_window_end": "2026-11-10T11:11:51.000Z",
-    "article_ids": [
-      "art_1794311223535_r03in",
-      "art_1794311225049_uirgi",
-      "art_1794311225607_v57kn",
-      "art_1794311227028_s6cpg",
-      "art_1794311227671_g1kgx"
-    ],
-    "source_ids": [
-      "fox",
-      "fox-politics",
-      "aljazeera",
-      "guardian"
-    ],
-    "article_count": 5,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-10T16:24:17.822Z",
-    "updated_at": "2026-11-10T16:24:17.822Z",
-    "region_tag": "global",
-    "severity": "LOW",
-    "incident_type": "System",
-    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
-    "consensus": [
-      "Fallback activated."
-    ],
-    "divergence": [
-      "No comparative data."
-    ],
-    "sources": [
-      {
-        "id": "art_1794311223535_r03in",
-        "url": "https://www.foxnews.com/politics/trump-defends-pentagon-chief-massie-targets-him-hegseth-praised-not-impeached",
-        "source": "fox",
-        "title": "Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'"
-      },
-      {
-        "id": "art_1794311225049_uirgi",
-        "url": "https://www.foxnews.com/politics/trump-defends-pentagon-chief-massie-targets-him-hegseth-praised-not-impeached",
-        "source": "fox-politics",
-        "title": "Trump defends Pentagon chief as Massie targets him: 'Hegseth should be praised, not impeached'"
-      },
-      {
-        "id": "art_1794311225607_v57kn",
-        "url": "https://www.aljazeera.com/news-analysis/2026/11/10/khor-mor-drone-attack-raises-fears-over-iraqs-energy-security?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Khor Mor drone attack raises fears over Iraq’s energy security"
-      },
-      {
-        "id": "art_1794311227028_s6cpg",
-        "url": "https://www.foxnews.com/opinion/paul-mauro-sanctuary-states-dmv-problem-trump-can-demand-answers",
-        "source": "fox",
-        "title": "PAUL MAURO: Sanctuary states have a DMV problem — and Trump can demand answers"
-      },
-      {
-        "id": "art_1794311227671_g1kgx",
-        "url": "https://www.theguardian.com/politics/live/2026/nov/10/badenoch-conservative-welfare-cuts-disability-benefits-burnham-politics-latest-news-updates",
-        "source": "guardian",
-        "title": "‘Double amputees run marathons,’ says Badenoch as she proposes £36bn cuts to disability and other benefits – UK politics live"
-      }
-    ],
-    "model_used": "deterministic-fallback"
-  },
-  {
-    "cluster_id": "f92ab40d68f74d66",
-    "topic_label": "Impeachment Proceedings Against US Secretary of Defense Pete Hegseth",
-    "event_window_start": "2026-11-09T08:26:50.000Z",
-    "event_window_end": "2026-11-09T21:04:11.000Z",
-    "article_ids": [
-      "art_1794281178924_lcwz6",
-      "art_1794259105342_qpw3y",
-      "art_1794259107162_ppt5t",
-      "art_1794219579894_gwjtx"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "bbc",
-      "guardian"
-    ],
-    "article_count": 4,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-10T08:17:11.826Z",
-    "updated_at": "2026-11-10T08:17:11.826Z",
-    "region_tag": "middle-east",
-    "severity": "MODERATE",
-    "incident_type": "Political / Constitutional",
-    "synthesis": "US Representative Thomas Massie has formally introduced articles of impeachment against Secretary of Defense Pete Hegseth, citing the unauthorized execution of military hostilities in Iran exceeding the 90-day threshold prescribed by the War Powers Resolution. Democratic leadership, led by Hakeem Jeffries, has pledged support for the measure. The move functions as a legislative challenge to executive war-making authority, with the process slated for a potential vote in the House of Representatives.",
-    "consensus": [
-      "Representative Thomas Massie introduced articles of impeachment against Secretary of Defense Pete Hegseth.",
-      "The core allegation is the execution of military hostilities in Iran without congressional authorization for over 90 days.",
-      "House Democratic leader Hakeem Jeffries has officially signaled support for the impeachment vote.",
-      "A floor vote is expected to be forced in the House of Representatives this week."
-    ],
-    "divergence": [
-      "Al Jazeera focuses on the specific formal introduction of the articles and the subsequent Democratic backing.",
-      "The BBC frames the event as a strategic political maneuver intended to push President Trump toward firing Hegseth before the legislative transition.",
-      "The Guardian provides historical context regarding the timing, noting the effort was delayed in September by Speaker Mike Johnson, and characterizes the legislative viability of the move."
-    ],
-    "sources": [
-      {
-        "id": "art_1794281178924_lcwz6",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/republican-lawmaker-moves-to-impeach-us-defense-secretary-hegseth?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Republican lawmaker moves to impeach US Defense Secretary Hegseth"
-      },
-      {
-        "id": "art_1794259105342_qpw3y",
-        "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth"
-      },
-      {
-        "id": "art_1794259107162_ppt5t",
-        "url": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
-        "source": "guardian",
-        "title": "Pete Hegseth faces impeachment effort as Republican lawmaker moves to force vote – US politics live"
-      },
-      {
-        "id": "art_1794219579894_gwjtx",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/us-top-democrat-backs-impeachment-of-pete-hegseth?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "US top Democrat backs impeachment of Pete Hegseth"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "2212bc3517249c49",
-    "topic_label": "Industrial Explosion and Structural Collapse at Habas Demir Celik Steel Plant",
-    "event_window_start": "2026-11-09T20:19:18.000Z",
-    "event_window_end": "2026-11-09T20:42:04.000Z",
-    "article_ids": [
-      "art_1794259110112_dygu7",
-      "art_1794259112747_9kohz"
-    ],
-    "source_ids": [
-      "bbc",
-      "aljazeera"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-10T01:03:37.784Z",
-    "updated_at": "2026-11-10T01:03:37.784Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Industrial Infrastructure Disaster",
-    "synthesis": "A mechanical failure involving a crane resulted in the collapse of a boiler into an active furnace at the Habas Demir Celik steel plant in Aliaga, Turkey. The subsequent explosion and fire resulted in at least 16 to 17 confirmed worker fatalities and multiple injuries. The site is undergoing search and rescue operations for personnel reported trapped in the debris.",
-    "consensus": [
-      "Explosion occurred at the Habas Demir Celik iron and steel plant in Aliaga, Izmir province.",
-      "The event involved a structural failure and subsequent fire at the facility.",
-      "Casualties include confirmed fatalities and injured workers.",
-      "Search and rescue operations are active at the site."
-    ],
-    "divergence": [
-      "BBC reports 17 deaths and 12 injuries, citing a crane collapse as the specific mechanical trigger for the boiler failure.",
-      "Al Jazeera reports at least 16 deaths and 13 injuries, attributing confirmation to President Erdogan rather than local governor statements.",
-      "BBC mentions eyewitness accounts of seismic-like tremors; Al Jazeera omits this sensory detail."
-    ],
-    "sources": [
-      {
-        "id": "art_1794259110112_dygu7",
-        "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Turkey steel factory blast kills at least 17 people"
-      },
-      {
-        "id": "art_1794259112747_9kohz",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/deadly-explosion-at-iron-and-steel-plant-in-turkiye?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Deadly explosion at Iron and steel plant in Turkiye"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "8ad7147717fcf770",
-    "topic_label": "Mass Shooting in Kraków Main Market Square",
-    "event_window_start": "2026-11-09T09:05:26.000Z",
-    "event_window_end": "2026-11-09T09:39:52.000Z",
-    "article_ids": [
-      "art_1794219574288_4mm2d",
-      "art_1794219576643_a8gew"
-    ],
-    "source_ids": [
-      "guardian",
-      "fox"
-    ],
-    "article_count": 2,
-    "source_count": 2,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-10T01:03:37.784Z",
-    "updated_at": "2026-11-10T01:03:37.784Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism",
-    "synthesis": "A 24-year-old male perpetrator executed a mass shooting in Kraków's Main Market Square on November 7, 2026, resulting in the deaths of six civilians and injuries to seventeen others. During a subsequent kinetic engagement with responding police, the perpetrator was wounded and later died in a hospital. Concurrent investigations by Polish authorities have identified the discovery of three additional bodies at the perpetrator's private residence in Ostrowiec Świętokrzyski and confirmed injuries to two police officers during the apprehension attempt. The incident is currently classified by state prosecutors as a terrorism investigation.",
-    "consensus": [
-      "A 24-year-old male perpetrator engaged in a mass shooting in Kraków's Main Market Square on November 7, 2026.",
-      "Six civilians were killed in the market square.",
-      "The perpetrator engaged in a shootout with police, sustained gunshot wounds, and later died in a hospital.",
-      "Polish prosecutors have initiated a terrorism investigation.",
-      "The perpetrator originated from Ostrowiec Świętokrzyski."
-    ],
-    "divergence": [
-      "The Guardian reports 17 individuals injured; Fox reports 15 individuals injured.",
-      "Fox reports that three additional bodies were found at the perpetrator's home, a detail not explicitly included in the Guardian text provided.",
-      "Fox explicitly mentions injuries to two police officers; the Guardian text emphasizes the perpetrator's injury during the shootout but does not quantify police casualties.",
-      "The Guardian frames the event within the context of national mourning and international victim status (Briton casualty), whereas Fox focuses on the logistical progression of the perpetrator's medical status and internal police engagement."
-    ],
-    "sources": [
-      {
-        "id": "art_1794219574288_4mm2d",
-        "url": "https://www.theguardian.com/world/live/2026/nov/09/polands-krakow-attack-ukraine-russia-france-germany-europe-latest-news",
-        "source": "guardian",
-        "title": "Poland’s justice minister says investigation into Kraków shooting will aim to establish if the 24-year-old acted alone – Europe live"
-      },
-      {
-        "id": "art_1794219576643_a8gew",
-        "url": "https://www.foxnews.com/world/poland-krakow-square-shooting-gunman-dies",
-        "source": "fox",
-        "title": "Gunman who killed 6 in Poland's Krakow square dies in hospital after police shootout"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
   }
 ]
