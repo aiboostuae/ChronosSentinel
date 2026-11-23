@@ -1,5 +1,74 @@
 [
   {
+    "cluster_id": "0b9a481987905bae",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-23T10:24:58.000Z",
+    "event_window_end": "2026-11-23T07:37:09.000Z",
+    "article_ids": [
+      "art_1795429813459_3e2t2",
+      "art_1795429814184_wb527",
+      "art_1795429814725_mdq0t",
+      "art_1795429815261_9afdo",
+      "art_1795429815954_i8cfv"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "bbc",
+      "guardian"
+    ],
+    "article_count": 5,
+    "source_count": 3,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-23T13:42:06.334Z",
+    "updated_at": "2026-11-23T13:42:06.334Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1795429813459_3e2t2",
+        "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya"
+      },
+      {
+        "id": "art_1795429814184_wb527",
+        "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+        "source": "bbc",
+        "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say"
+      },
+      {
+        "id": "art_1795429814725_mdq0t",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Child rescued in Ukraine after Russian drone attack kills 10"
+      },
+      {
+        "id": "art_1795429815261_9afdo",
+        "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Belgium’s airports set to shut down due to anti-austerity strike"
+      },
+      {
+        "id": "art_1795429815954_i8cfv",
+        "url": "https://www.theguardian.com/politics/live/2026/nov/23/andy-burnham-brexit-europe-eu-uk-summit-deal-commons-cbi-farage-badenoch-haigh-politics-latest-news-updates",
+        "source": "guardian",
+        "title": "Tories welcome Louise Haigh’s hint government could adopt their plan to scrap Natural England – UK politics live"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "2291f9bc24f80366",
     "topic_label": "Kinetic Neutralization of Russian Corvette Merkury and Commercial Vessel in Benghazi",
     "event_window_start": "2026-11-22T17:12:48.000Z",
@@ -14956,87 +15025,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_medium=RSS&at_campaign=rss",
         "source": "bbc",
         "title": "Israeli forces kill Palestinian boy in West Bank, health ministry says"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "3db6d8713259f8b4",
-    "topic_label": "Police Officer Killed by Backpack Explosive Device in Oviedo",
-    "event_window_start": "2026-11-10T02:08:49.000Z",
-    "event_window_end": "2026-11-10T23:54:51.000Z",
-    "article_ids": [
-      "art_1794355969148_r21f4",
-      "art_1794355974234_ka3o4",
-      "art_1794311228903_prari",
-      "art_1794281186634_wpxe5",
-      "art_1794281188168_w78pc",
-      "art_1794281189223_9m0sn"
-    ],
-    "source_ids": [
-      "fox",
-      "bbc",
-      "guardian",
-      "fox-us"
-    ],
-    "article_count": 6,
-    "source_count": 4,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-11T01:55:49.254Z",
-    "updated_at": "2026-11-11T01:55:49.254Z",
-    "region_tag": "global",
-    "severity": "CRITICAL",
-    "incident_type": "Terrorism / Kinetic Assault",
-    "synthesis": "On Tuesday morning in Oviedo, Spain, an improvised explosive device contained within a backpack detonated while being examined by members of the Spanish national police canine and explosives disposal units. The officers were responding to reports of a shooting involving a neighbor dispute. One officer, identified as Juan José, was killed by the blast, and a second officer sustained injuries. A woman previously shot in the dispute remains hospitalized. The perpetrator of the shooting and the secondary explosive trap is currently at large.",
-    "consensus": [
-      "An explosive device in a backpack detonated in Oviedo, Spain.",
-      "The explosion killed one police officer and injured another.",
-      "The event occurred in the context of an initial shooting involving a neighbor dispute.",
-      "The suspect remains at large."
-    ],
-    "divergence": [
-      "The BBC report describes the event as a response to a neighbor dispute involving a shooting and a secondary explosive, focusing on the tactical timeline of the police response.",
-      "Fox and other sources did not report on this specific event, as they were focused on unrelated aviation, automotive, and historical obituary events, highlighting that this is a localized kinetic incident."
-    ],
-    "sources": [
-      {
-        "id": "art_1794355969148_r21f4",
-        "url": "https://www.foxnews.com/travel/american-airlines-plane-nearly-hit-air-france-jet-after-takeoff-lax",
-        "source": "fox",
-        "title": "American Airlines plane nearly hit by Air France jet after takeoff at LAX"
-      },
-      {
-        "id": "art_1794355974234_ka3o4",
-        "url": "https://www.foxnews.com/outkick-sports/former-seattle-mariners-player-dave-edler-critically-injured-yakima-crash-killed-wife",
-        "source": "fox",
-        "title": "Former Seattle Mariners player Dave Edler critically injured in Yakima crash that killed his wife"
-      },
-      {
-        "id": "art_1794311228903_prari",
-        "url": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
-        "source": "bbc",
-        "title": "Police officer dies and another injured after backpack explosion in Oviedo"
-      },
-      {
-        "id": "art_1794281186634_wpxe5",
-        "url": "https://www.theguardian.com/australia-news/2026/nov/10/todd-russell-dies-beaconsfield-mine-collapse-survivor-death-illness-aged-54",
-        "source": "guardian",
-        "title": "Todd Russell, Beaconsfield mine collapse survivor, dies aged 54 due to illness"
-      },
-      {
-        "id": "art_1794281188168_w78pc",
-        "url": "https://www.foxnews.com/us/ntsb-recovers-cockpit-voice-recorder-learjet-crash-site-florida",
-        "source": "fox",
-        "title": "NTSB recovers cockpit voice recorder from Learjet crash site in Florida"
-      },
-      {
-        "id": "art_1794281189223_9m0sn",
-        "url": "https://www.foxnews.com/us/ntsb-recovers-cockpit-voice-recorder-learjet-crash-site-florida",
-        "source": "fox-us",
-        "title": "NTSB recovers cockpit voice recorder from Learjet crash site in Florida"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
