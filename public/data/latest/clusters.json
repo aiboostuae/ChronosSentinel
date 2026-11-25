@@ -1,5 +1,73 @@
 [
   {
+    "cluster_id": "4829178c110de9c7",
+    "topic_label": "Fallback Synthesis",
+    "event_window_start": "2026-11-25T08:23:35.000Z",
+    "event_window_end": "2026-11-25T11:50:50.000Z",
+    "article_ids": [
+      "art_1795609144227_za7c4",
+      "art_1795609144832_uvre0",
+      "art_1795609145380_3l03e",
+      "art_1795609145917_8wqff",
+      "art_1795609146468_d40tg"
+    ],
+    "source_ids": [
+      "aljazeera",
+      "defensenews"
+    ],
+    "article_count": 5,
+    "source_count": 2,
+    "qualification_status": "qualified",
+    "qualification_score": 0,
+    "primary_geography": null,
+    "topic_type": null,
+    "created_at": "2026-11-25T15:04:28.519Z",
+    "updated_at": "2026-11-25T15:04:28.519Z",
+    "region_tag": "middle-east",
+    "severity": "LOW",
+    "incident_type": "System",
+    "synthesis": "Automated deterministic fallback summary due to AI provider failure.",
+    "consensus": [
+      "Fallback activated."
+    ],
+    "divergence": [
+      "No comparative data."
+    ],
+    "sources": [
+      {
+        "id": "art_1795609144227_za7c4",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/fire-breaks-out-following-drone-strikes-on-a-residential-area-in-al-damazin?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Fire breaks out following drone strikes on a residential area in Al Damazin"
+      },
+      {
+        "id": "art_1795609144832_uvre0",
+        "url": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
+        "source": "defensenews",
+        "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles"
+      },
+      {
+        "id": "art_1795609145380_3l03e",
+        "url": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Overnight RSF drone attacks kill 19 in Sudan"
+      },
+      {
+        "id": "art_1795609145917_8wqff",
+        "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Israeli strike kills Hamas official, his wife and children"
+      },
+      {
+        "id": "art_1795609146468_d40tg",
+        "url": "https://www.aljazeera.com/news/2026/11/25/saudi-led-coalition-intercepts-houthi-attacks-after-hodeidah-strike?traffic_source=rss",
+        "source": "aljazeera",
+        "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike"
+      }
+    ],
+    "model_used": "deterministic-fallback"
+  },
+  {
     "cluster_id": "d2bc4a695d5e4f34",
     "topic_label": "Targeted Drone Assassination of Hamas Security Chief Naeem Abu Nahel in Gaza City",
     "event_window_start": "2026-11-24T13:55:11.000Z",
@@ -14782,66 +14850,6 @@
         "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/scenes-show-aftermath-of-horrific-israeli-strike-on-gaza-tents?traffic_source=rss",
         "source": "aljazeera",
         "title": "Scenes show aftermath of horrific Israeli strike on Gaza tents"
-      }
-    ],
-    "model_used": "gemini-3.1-flash-lite"
-  },
-  {
-    "cluster_id": "17f5f9cf543cd5f7",
-    "topic_label": "IRGC Kinetic Strike on Didamar Island Navigation and Communications Infrastructure",
-    "event_window_start": "2026-11-11T18:47:57.000Z",
-    "event_window_end": "2026-11-12T07:38:05.000Z",
-    "article_ids": [
-      "art_1794476076391_rojno",
-      "art_1794448983144_ayg7b",
-      "art_1794427439318_jbor4"
-    ],
-    "source_ids": [
-      "aljazeera",
-      "fox",
-      "guardian"
-    ],
-    "article_count": 3,
-    "source_count": 3,
-    "qualification_status": "qualified",
-    "qualification_score": 0.9,
-    "primary_geography": null,
-    "topic_type": null,
-    "created_at": "2026-11-12T12:36:31.992Z",
-    "updated_at": "2026-11-12T12:36:31.992Z",
-    "region_tag": "middle-east",
-    "severity": "HIGH",
-    "incident_type": "Maritime / Infrastructure",
-    "synthesis": "The Islamic Revolutionary Guard Corps (IRGC) Navy conducted a kinetic strike against electronic navigation, radar, and communications infrastructure located on Didamar (Little Quoin) Island in the Strait of Hormuz. The strike intentionally disabled systems critical to the maritime oil tanker transit route. This physical action occurs amidst ongoing naval blockades by U.S. CENTCOM against Iranian ports and reciprocal threats of military escalation from Iranian officials, who frame the strike as a response to suspected use of the island for U.S. military operations.",
-    "consensus": [
-      "The IRGC Navy executed a kinetic strike against Didamar Island (Little Quoin Island) in the Strait of Hormuz.",
-      "The strike successfully damaged radar, navigation, and communications infrastructure on the island.",
-      "CENTCOM is actively enforcing a blockade of Iranian commercial ports.",
-      "Senior Iranian officials, including Mohammad Bagher Ghalibaf and Mehdi Mohammadi, are communicating heightened expectations of further U.S. military action or economic strangulation."
-    ],
-    "divergence": [
-      "Al Jazeera focuses exclusively on the diplomatic posturing of Mohammad Bagher Ghalibaf regarding potential deals, omitting the kinetic event on Didamar Island entirely.",
-      "The Guardian frames the event through the lens of Iranian political rhetoric and speculative timelines regarding U.S. military strategy, downplaying the verified physical destruction of the maritime infrastructure.",
-      "Fox News and Reuters reports focus on the tactical details of the strike and the resulting vulnerability of regional oil transit, contrasting with the diplomatic-centric coverage of other outlets."
-    ],
-    "sources": [
-      {
-        "id": "art_1794476076391_rojno",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss",
-        "source": "aljazeera",
-        "title": "Iran open to deal if US ‘refrains from excessive demands’, says Ghalibaf"
-      },
-      {
-        "id": "art_1794448983144_ayg7b",
-        "url": "https://www.foxnews.com/world/iran-escalates-hormuz-claims-strike-omani-island-enemy-uses-us-military-ops",
-        "source": "fox",
-        "title": "Iran escalates in Hormuz, claims strike on Omani island it says 'enemy' uses for US military ops"
-      },
-      {
-        "id": "art_1794427439318_jbor4",
-        "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
-        "source": "guardian",
-        "title": "Trump planning new military assault or tighter sanctions, say Iranian officials"
       }
     ],
     "model_used": "gemini-3.1-flash-lite"
